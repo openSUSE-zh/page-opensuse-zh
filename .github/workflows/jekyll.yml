@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
-    branches: [ main ]
+    branches: [ main_doc ]
 
 jobs:
   build:
@@ -18,3 +18,19 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        - name: Upload artifact
+    - uses: actions/upload-artifact@v1
+      with:
+        name: site_output
+        path: build
+        
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+    - uses: actions/download-artifact@v1
+      with:
+        name: site_output
+    - name: "Upload site"
+      run: |
+        ls
