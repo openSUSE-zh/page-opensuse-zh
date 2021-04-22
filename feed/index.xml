@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>openSUSE 中文社区</title>
+    <link></link>
+    <description>openSUSE 中文社区主页，为您带来最新的 openSUSE 资讯，为中文用户的交流提供一席之地。</description>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/21/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A%E7%BA%BF.html</guid>
+      <title>openSUSE 中文社区主页上线</title>
+      <pubDate>Wed, 21 Apr 2021 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/21/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A%E7%BA%BF.html</link>
+      <author>Nianqing Yao</author>
+      <description>经过一系列的讨论与准备工作，openSUSE 中文社区主页已经上线 Github 存储库，具体的邮件列表服务器以及网站编译事项还有待确定。
+
+本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。
+
+目前您可以通过克隆存储库并遵循README.md内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。
+
+如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的Github 存储库上提交PR。
+</description>
+      <content:encoded>&lt;p&gt;经过一系列的&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13785&quot;&gt;讨论与准备工作&lt;/a&gt;，openSUSE 中文社区主页已经上线 &lt;a href=&quot;https://github.com/openSUSE-zh/jekyll-theme-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;，具体的邮件列表服务器以及网站编译事项还有待确定。&lt;/p&gt;
+
+&lt;p&gt;本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。&lt;/p&gt;
+
+&lt;p&gt;目前您可以通过克隆存储库并遵循&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt;内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。&lt;/p&gt;
+
+&lt;p&gt;如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的&lt;a href=&quot;https://github.com/openSUSE-zh/jekyll-theme-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;上提交PR。&lt;/p&gt;
+</content:encoded>
+    </item>
+
+  </channel>
+</rss>
