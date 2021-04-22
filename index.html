@@ -1,0 +1,89 @@
+---
+layout: default
+---
+{% if paginator.page == 1 %}
+{% include post_carousel.html %}
+{% endif %}
+<div class="container my-3">
+	<div class="row">
+		<div id="portal-left-column" class="col-md-12">
+			<div class="card mb-3">
+				<div class="card-header"><b>
+						欢迎来到 openSUSE Linux 中文社区</b></div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-auto p-3"><a href="" class="image"><img alt="Icon-distribution.png"
+									src="{{ site.url }}/assets/img/Icon-distribution.png" width="48" height="50"></a>
+						</div>
+						<div class="p-3 col border border-top-0 border-bottom-0 border-right-0">
+							<div>
+								<p>
+									openSUSE 是一个 Linux 发行版，简单易用的操作系统。
+								</p>
+								<p>
+									它的开发重心是为软件开发者和系统管理者创造适用的开放源代码的工具，并提供易于使用的桌面环境和功能丰富的服务器环境。</p>
+								<p>
+									openSUSE 中文社区是一个由 openSUSE 中文爱好者创建的社区。我们希望这个社区能为中文用户的交流提供一席之地，为自由操作系统的发展添砖加瓦。</p>
+							</div>
+						</div>
+						<div style="clear:left"></div>
+					</div>
+
+				</div>
+			</div>
+			<hr>
+		</div>
+		<div id="portal-right-column" class="col-md-4">
+			<div class="card mb-3">
+				<div class="card-header"><b>
+						入门</b></div>
+				<div class="card-body">
+					<div>
+						<p>如果您想学习如何使用 openSUSE，那么最好的方式无疑是<a href="https://get.opensuse.org/zh-CN/">下载 openSUSE
+								镜像</a>并亲自体验Live镜像或者安装使用。如果遇到问题，可以参考我们<a
+								href="https://zh.opensuse.org/Portal:%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97#.E6.96.B9.E6.B3.95.E4.B8.8E.E6.8C.87.E5.8D.97">Wiki新手指南</a>，或是在
+							<a href="https://forum.suse.org.cn/">openSUSE 中文论坛</a>求助或者讨论。
+						</p>
+
+						<p>同时也欢迎参与 openSUSE 中文社区的建设工作，如果您对社区建设有什么意见或建议，也欢迎通过下面的联系方式告诉我们。</p>
+						<div style="clear:left"></div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="card-header"><b>
+						联系我们</b></div>
+				<div class="card-body">
+					<div>
+						<ul>
+							<li>论坛：<ul>
+									<li><a href="https://forum.suse.org.cn/">openSUSE 中文论坛</a></li>
+								</ul>
+							</li>
+
+							<li>即时通讯：
+								<ul>
+									<li><a href="https://t.me/opensuse_cn">openSUSE 中文 Telegram 群</a></li>
+									<li><a href="irc://irc.opensuse.org/opensuse-cn">openSUSE 中文 IRC 频道</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div style="clear:left"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="portal-left-column" class="col-md-8">
+
+			<h2>新闻与公告</h2>
+			<div class="row">
+				{% for post in paginator.posts %}
+				{% include single-post.html %}
+				{% endfor %}
+				{% include pagination.html %}
+			</div>
+		</div>
+
+	</div>
+</div>
