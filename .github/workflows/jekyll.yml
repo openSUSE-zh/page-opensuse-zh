@@ -2,35 +2,49 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main_doc ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
-        - name: Upload artifact
-    - uses: actions/upload-artifact@v1
-      with:
-        name: site_output
-        path: build
-        
+      - uses: actions/checkout@v2
+
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: site_output
+          path: _site
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/download-artifact@v1
-      with:
-        name: site_output
-    - name: "Upload site"
-      run: |
-        ls
+     
+         
+      - uses: actions/checkout@v2
+        with:
+          # Repository name with owner. For example, actions/checkout
+          # Default: ${{ github.repository }}
+          repository: "openSUSE-zh/www-site-opensuse-zh"
+
+      - uses: actions/download-artifact@v1
+        with:
+          name: site_output
+
+      - name: Commit files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add site_output
+          git commit -m "Build Site" -a
+          git push -u --force origin main
