@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Site Build
 
 on:
   push:
@@ -29,22 +29,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-     
-         
-      - uses: actions/checkout@v2
-        with:
-          # Repository name with owner. For example, actions/checkout
-          # Default: ${{ github.repository }}
-          repository: "openSUSE-zh/www-site-opensuse-zh"
 
+      - uses: actions/checkout@v2
+      
       - uses: actions/download-artifact@v1
         with:
           name: site_output
 
-      - name: Commit files
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add site_output
-          git commit -m "Build Site" -a
-          git push -u --force origin main
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: site_output
