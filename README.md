@@ -51,13 +51,12 @@ openSUSE 中文社区主页是给社区提供新闻与公告的页面。以下�
 
 ## 如何构建?
 
-你需要安装如下软件包：``'rubygem(bundler)' ruby-devel``.
+你需要安装如下软件包：`rubygem(bundler)` `ruby-devel`.
+
 ```bash
 bundle install --path vendor/bundle
 bundle exec jekyll build
 ```
-
-Resulting site will be in `_site` directory.
 
 ## 如何在本地预览?
 
