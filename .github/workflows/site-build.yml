@@ -53,6 +53,6 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > id_rsa 
           chmod 600 id_rsa
           ssh-keygen -y -f id_rsa | tail -c 48
-          ssh "suse-zh@$SSH_SERVER_ADDRESS" -p38324 -v -i id_rsa < utils/git-pull.sh
+          ssh -p38324 -v -i id_rsa "suse-zh@$SSH_SERVER_ADDRESS"  < utils/git-pull.sh
 
           
