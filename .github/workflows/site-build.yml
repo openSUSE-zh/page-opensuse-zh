@@ -36,8 +36,23 @@ jobs:
         with:
           name: site_output
 
-      - name: Deploy 🚀
+      - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: site_output
+
+      - name: Add ssh private key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa 
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Pull webpages
+        env:
+          SSH_SERVER_ADDRESS: ${{ secrets.SSH_SERVER_ADDRESS }}
+        run: |
+          ssh "suse-zh@$SSH_SERVER_ADDRESS" -p38324 < utils/git-pull.sh

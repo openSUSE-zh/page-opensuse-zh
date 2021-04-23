@@ -89,4 +89,4 @@ jekyll-archives:
     category: cattag-archive
 
 
-exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, utils]
