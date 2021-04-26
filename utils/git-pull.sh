@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo [ $(date +%Y-%m-%d\ %H:%M:%S) ] 拉取开始
 echo [ $(date +%Y-%m-%d\ %H:%M:%S) ] 拉取 HTML
