@@ -1,0 +1,42 @@
+---
+author: Nianqing Yao
+date: 2021-04-26 16:30:00 +0800
+layout: post
+license: CC-BY-SA-3.0
+title: KDE社区新闻
+image: /assets/posts/misc/kde-community.jpeg
+categories:
+- 社区新闻
+tags:
+- KDE
+- 社区
+- 本地化
+---
+
+## KDE 方面拟在发展用户网络
+
+据悉，KDE 方面[拟在长沙发展用户网络](https://community.kde.org/China)，以本地化 KDE 网络。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。
+
+KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。
+
+## Krita 上架 Epic 游戏商城
+
+Krita 已于4月25日上架Epic 游戏商城。据 Krita [官网报道](https://krita.org/zh/item/krita-arrives-in-the-epic-store-zh/)：
+
+> Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。
+
+## KDE Applications 惨遭改名
+
+KDE 方面最近宣布，KDE Gear 将是 KDE Applications 的新名字。
+
+> KDE Gear是 KDE 应用程序（以及库和插件）项目的新名称
+
+KDE 开发人员和 KDE Neon 维护者 Jonathan Riddell [如此表示](https://jriddell.org/2021/03/22/kde-gear-21-04-apps-send-us-your-features/)。 
+
+> 它曾经被称为KDE，然后是KDE SC，然后是KDE Applications，然后是没正式名字的发行版本，现在我们将其重新命名为KDE Gear。
+
+## KDE 官网中文翻译上线
+
+在笔者（也就是这篇新闻的作者）的翻译下，KDE.org 终于迎来了中文翻译。在此感谢 Guo Yunhe 提供的帮助。
+
+目前还有一些翻译没有完全同步，首页界面还有大部分英文。据悉这些翻译将在下一次构建网站时更新。
