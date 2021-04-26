@@ -20,39 +20,9 @@ jobs:
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: site_output
-          path: _site
-
-  deploy:
-    environment:
-      name: bearchild-vps
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-
-      - uses: actions/checkout@v2
-      
-      - uses: actions/download-artifact@v1
-        with:
-          name: site_output
-
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: site_output
-
-      - name: Add ssh private key
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          SSH_SERVER_ADDRESS: ${{ secrets.SSH_SERVER_ADDRESS }}
-        run: |
-          echo "$SSH_PRIVATE_KEY" > id_rsa 
-          chmod 600 id_rsa
-          ssh-keygen -y -f id_rsa | tail -c 48
-          ssh -p38324 -v -i id_rsa "suse-zh@$SSH_SERVER_ADDRESS"  < utils/git-pull.sh
-
+          branch: gh-pages 
+          folder: _site
           
