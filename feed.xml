@@ -8,14 +8,14 @@
 
     <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</guid>
-      <title>KDE社区新闻</title>
+      <title>KDE社区新闻汇总-#1</title>
       <pubDate>Mon, 26 Apr 2021 03:30:00 -0500</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</link>
       <author>Nianqing Yao</author>
-      <description>KDE 方面拟在发展用户网络 据悉，KDE 方面拟在长沙发展用户网络，以本地化 KDE 网络。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。 KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。 Krita 上架 Epic 游戏商城 Krita 已于4月25日上架Epic 游戏商城。据 Krita 官网报道： Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。 KDE Applications 惨遭改名 KDE 方面最近宣布，KDE Gear 将是 KDE Applications 的新名字。 KDE Gear是 KDE 应用程序（以及库和插件）项目的新名称...</description>
-      <content:encoded>&lt;h2 id=&quot;kde-方面拟在发展用户网络&quot;&gt;KDE 方面拟在发展用户网络&lt;/h2&gt;
+      <description>KDE 方面拟长沙在发展用户网络 据悉，KDE 方面拟在长沙发展用户网络，创建本地化 KDE 社区。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。 KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。 Krita 上架 Epic 游戏商城 Krita 已于4月25日上架Epic 游戏商城。据 Krita 官网报道： Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。 KDE Applications 惨遭改名 KDE 方面最近宣布，KDE Gear 将是 KDE Applications 的新名字。 KDE 开发人员和 KDE Neon...</description>
+      <content:encoded>&lt;h2 id=&quot;kde-方面拟长沙在发展用户网络&quot;&gt;KDE 方面拟长沙在发展用户网络&lt;/h2&gt;
 
-&lt;p&gt;据悉，KDE 方面&lt;a href=&quot;https://community.kde.org/China&quot;&gt;拟在长沙发展用户网络&lt;/a&gt;，以本地化 KDE 网络。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。&lt;/p&gt;
+&lt;p&gt;据悉，KDE 方面&lt;a href=&quot;https://community.kde.org/China&quot;&gt;拟在长沙发展用户网络&lt;/a&gt;，创建本地化 KDE 社区。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。&lt;/p&gt;
 
 &lt;p&gt;KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。&lt;/p&gt;
 
@@ -31,21 +31,19 @@
 
 &lt;p&gt;KDE 方面最近宣布，KDE Gear 将是 KDE Applications 的新名字。&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;KDE Gear是 KDE 应用程序（以及库和插件）项目的新名称&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;KDE 开发人员和 KDE Neon 维护者 Jonathan Riddell &lt;a href=&quot;https://jriddell.org/2021/03/22/kde-gear-21-04-apps-send-us-your-features/&quot;&gt;如此表示&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;KDE 开发人员和 KDE Neon 维护者 Jonathan Riddell &lt;a href=&quot;https://jriddell.org/2021/03/22/kde-gear-21-04-apps-send-us-your-features/&quot;&gt;如此表示&lt;/a&gt;：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;它曾经被称为KDE，然后是KDE SC，然后是KDE Applications，然后是没正式名字的发行版本，现在我们将其重新命名为KDE Gear。&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;p&gt;KDE Applications这个名字从2014年开始，陪伴了我们走过了七年的时光，现在是时候说再见了。无论如何，谢谢你，KDE Applications！&lt;/p&gt;
+
 &lt;h2 id=&quot;kde-官网中文翻译上线&quot;&gt;KDE 官网中文翻译上线&lt;/h2&gt;
 
 &lt;p&gt;在笔者（也就是这篇新闻的作者）的翻译下，KDE.org 终于迎来了中文翻译。在此感谢 Guo Yunhe 提供的帮助。&lt;/p&gt;
 
-&lt;p&gt;目前还有一些翻译没有完全同步，首页界面还有大部分英文。据悉这些翻译将在下一次构建网站时更新。&lt;/p&gt;
+&lt;p&gt;目前还有一些翻译没有完全同步，首页界面还有大部分英文。这些翻译将在下一次构建网站时更新。&lt;/p&gt;
 </content:encoded>
     </item>
 
@@ -56,20 +54,18 @@
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/21/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A%E7%BA%BF.html</link>
       <author>Nianqing Yao</author>
       <description>经过一系列的讨论与准备工作，openSUSE 中文社区主页已经上线 Github 存储库，具体的邮件列表服务器以及网站编译事项还有待确定。
-
 本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。
 
 目前您可以通过克隆存储库并遵循README.md内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。
 
 如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的Github 存储库上提交PR。
 </description>
-      <content:encoded>&lt;p&gt;经过一系列的&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13785&quot;&gt;讨论与准备工作&lt;/a&gt;，openSUSE 中文社区主页已经上线 &lt;a href=&quot;https://github.com/openSUSE-zh/jekyll-theme-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;，具体的邮件列表服务器以及网站编译事项还有待确定。&lt;/p&gt;
-
+      <content:encoded>&lt;h2 id=&quot;经过一系列的讨论与准备工作opensuse-中文社区主页已经上线-github-存储库具体的邮件列表服务器以及网站编译事项还有待确定&quot;&gt;经过一系列的&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13785&quot;&gt;讨论与准备工作&lt;/a&gt;，openSUSE 中文社区主页已经上线 &lt;a href=&quot;https://github.com/openSUSE-zh/page-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;，具体的邮件列表服务器以及网站编译事项还有待确定。&lt;/h2&gt;
 &lt;p&gt;本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。&lt;/p&gt;
 
 &lt;p&gt;目前您可以通过克隆存储库并遵循&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt;内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。&lt;/p&gt;
 
-&lt;p&gt;如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的&lt;a href=&quot;https://github.com/openSUSE-zh/jekyll-theme-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;上提交PR。&lt;/p&gt;
+&lt;p&gt;如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的&lt;a href=&quot;https://github.com/openSUSE-zh/page-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;上提交PR。&lt;/p&gt;
 </content:encoded>
     </item>
 
