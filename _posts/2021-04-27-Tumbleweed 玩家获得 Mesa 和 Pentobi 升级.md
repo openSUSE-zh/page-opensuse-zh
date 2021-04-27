@@ -9,6 +9,8 @@ categories:
 - 更新通告
 tags:
 - Tumbleweed
+- 翻译作品
+- 官方新闻
 ---
 
 使用 [openSUSE](https://get.opensuse.org/) [Tumbleweed](https://get.opensuse.org/tumbleweed/) 的玩家在滚动发布中至少有两个软件包的更新，它们增强了系统的性能并提供了新的功能。
