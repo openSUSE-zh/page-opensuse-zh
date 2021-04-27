@@ -4,7 +4,7 @@ date: 2021-04-27 00:24:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: Tumbleweed 玩家获得 Mesa 和 Pentobi 升级
-image: assets/posts/2020-04-22/1280x1024.jpg
+image: /assets/posts/2020-04/Tumbleweed 玩家获得 Mesa 和 Pentobi 升级-图片.png
 categories:
 - 社区新闻
 tags:
