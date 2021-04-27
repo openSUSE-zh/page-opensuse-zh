@@ -7,10 +7,10 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/Tumbleweed-%E7%8E%A9%E5%AE%B6%E8%8E%B7%E5%BE%97-Mesa-%E5%92%8C-Pentobi-%E5%8D%87%E7%BA%A7.html</guid>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/26/Tumbleweed-%E7%8E%A9%E5%AE%B6%E8%8E%B7%E5%BE%97-Mesa-%E5%92%8C-Pentobi-%E5%8D%87%E7%BA%A7.html</guid>
       <title>Tumbleweed 玩家获得 Mesa 和 Pentobi 升级</title>
       <pubDate>Mon, 26 Apr 2021 11:24:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/Tumbleweed-%E7%8E%A9%E5%AE%B6%E8%8E%B7%E5%BE%97-Mesa-%E5%92%8C-Pentobi-%E5%8D%87%E7%BA%A7.html</link>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/26/Tumbleweed-%E7%8E%A9%E5%AE%B6%E8%8E%B7%E5%BE%97-Mesa-%E5%92%8C-Pentobi-%E5%8D%87%E7%BA%A7.html</link>
       <author>Hanjingxue Boling</author>
       <description>使用 openSUSE Tumbleweed 的玩家在滚动发布中至少有两个软件包的更新，它们增强了系统的性能并提供了新的功能。 3D图形库 Mesa 和竞争的计算 Pentobi 软件包都在一个单独的快照中登陆。到目前为止，本周已经有四个 Tumbleweed 快照发布。 快照 20210420 带来了近十种软件包的更新，其中包括 GNU 编译器集合 10.3.0 的更新。更新后的 GCC 禁用了并行线程执行、nvptx、AArch64的卸载，ffmpeg-4 4.4 改进了对 AV1 的支持，以及单色编码。几个 YaST 软件包被更新。更具体地说，yast2-installation 更新到 4.4.4 ，删除了一些系统目录冲突，并对 spec-cleaner 做了一些修改。在快照中需要更新的其他软件包有 CPU 平衡器 irqbalance 1.8.0、 kdenetwork-filesharing 20.12.3 和 rpm 4.16.1.3。 Mesa 的 21.0.2 版本和 Mesa-drivers 已添加至快照 20210418 中。在支持稀疏内存的 Radeon Vulkan（RADV）驱动方面有一些优化和补充。由于...</description>
       <content:encoded>&lt;p&gt;使用 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的玩家在滚动发布中至少有两个软件包的更新，它们增强了系统的性能并提供了新的功能。&lt;/p&gt;
