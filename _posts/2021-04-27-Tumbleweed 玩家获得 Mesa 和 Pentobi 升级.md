@@ -6,11 +6,11 @@ license: CC-BY-SA-3.0
 title: Tumbleweed 玩家获得 Mesa 和 Pentobi 升级
 image: /assets/posts/2020-04/Tumbleweed 玩家获得 Mesa 和 Pentobi 升级-图片.png
 categories:
-- 社区新闻
+- 更新通告
 tags:
 - Tumbleweed
-- 更新声明
 ---
+
 使用 [openSUSE](https://get.opensuse.org/) [Tumbleweed](https://get.opensuse.org/tumbleweed/) 的玩家在滚动发布中至少有两个软件包的更新，它们增强了系统的性能并提供了新的功能。
 
 3D图形库 [Mesa](https://www.mesa3d.org/) 和竞争的计算 [Pentobi](https://pentobi.sourceforge.io/) 软件包都在一个单独的快照中登陆。到目前为止，本周已经有四个 Tumbleweed 快照发布。
