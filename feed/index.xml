@@ -29,20 +29,22 @@
 
     <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</guid>
-      <title>KDE社区新闻汇总-#1</title>
+      <title>KDE社区新闻汇总 #1</title>
       <pubDate>Mon, 26 Apr 2021 03:30:00 -0500</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</link>
       <author>Nianqing Yao</author>
-      <description>KDE 方面拟长沙在发展用户网络 据悉，KDE 方面拟在长沙发展用户网络，创建本地化 KDE 社区。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。 KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。 Krita 上架 Epic 游戏商城 Krita 已于4月25日上架Epic 游戏商城。据 Krita 官网报道： Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。 KDE Applications 惨遭改名 KDE 方面最近宣布，KDE Gear 将是 KDE Applications 的新名字。 KDE 开发人员和 KDE Neon...</description>
-      <content:encoded>&lt;h2 id=&quot;kde-方面拟长沙在发展用户网络&quot;&gt;KDE 方面拟长沙在发展用户网络&lt;/h2&gt;
+      <description>KDE 方面拟在长沙在发展用户网络 据悉，KDE 方面拟在长沙发展用户网络，创建本地化 KDE 社区。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。 KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。 介于长沙是国防科技大学所在地，我们期待着 KDE 在国防与航空领域的表现 我们期待着 KDE 能吸纳更多学子。 Krita 上架 Epic 游戏商城 Krita 已于4月25日上架 Epic 游戏商城。据 Krita 官网报道： Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。 KDE Applications 惨遭改名 KDE 方面最近宣布，KDE Gear 将是...</description>
+      <content:encoded>&lt;h2 id=&quot;kde-方面拟在长沙在发展用户网络&quot;&gt;KDE 方面拟在长沙在发展用户网络&lt;/h2&gt;
 
 &lt;p&gt;据悉，KDE 方面&lt;a href=&quot;https://community.kde.org/China&quot;&gt;拟在长沙发展用户网络&lt;/a&gt;，创建本地化 KDE 社区。初始成员有 Mina, Burgess Chang, Leslie Zhai 与 Guo Yunhe。&lt;/p&gt;
 
 &lt;p&gt;KDE 社区认为此举能够提升 KDE 社区在中国的外展，获得更多的用户与贡献者。&lt;/p&gt;
 
+&lt;p&gt;介于长沙是国防科技大学所在地，&lt;del&gt;我们期待着 KDE 在国防与航空领域的表现&lt;/del&gt; 我们期待着 KDE 能吸纳更多学子。&lt;/p&gt;
+
 &lt;h2 id=&quot;krita-上架-epic-游戏商城&quot;&gt;Krita 上架 Epic 游戏商城&lt;/h2&gt;
 
-&lt;p&gt;Krita 已于4月25日上架Epic 游戏商城。据 Krita &lt;a href=&quot;https://krita.org/zh/item/krita-arrives-in-the-epic-store-zh/&quot;&gt;官网报道&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;Krita 已于4月25日上架 Epic 游戏商城。据 Krita &lt;a href=&quot;https://krita.org/zh/item/krita-arrives-in-the-epic-store-zh/&quot;&gt;官网报道&lt;/a&gt;：&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Krita 的 Epic 游戏商城版与 Steam、Microsoft Store 版相同，除了能够依托发行平台提供自动更新外，其余功能与官方网站的免费版本完全相同。请将它视作对 Krita 项目的一种捐款形式。&lt;/p&gt;
@@ -55,20 +57,21 @@
 &lt;p&gt;KDE 开发人员和 KDE Neon 维护者 Jonathan Riddell &lt;a href=&quot;https://jriddell.org/2021/03/22/kde-gear-21-04-apps-send-us-your-features/&quot;&gt;如此表示&lt;/a&gt;：&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;它曾经被称为KDE，然后是KDE SC，然后是KDE Applications，然后是没正式名字的发行版本，现在我们将其重新命名为KDE Gear。&lt;/p&gt;
+  &lt;p&gt;它曾经被称为KDE，然后是KDE SC，然后是KDE Applications，然后是没正式名字的发行版本，现在我们将其重新命名为 KDE Gear。&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;KDE Applications这个名字从2014年开始，陪伴了我们走过了七年的时光，现在是时候说再见了。无论如何，谢谢你，KDE Applications！&lt;/p&gt;
 
 &lt;h2 id=&quot;kde-官网中文翻译上线&quot;&gt;KDE 官网中文翻译上线&lt;/h2&gt;
 
-&lt;p&gt;在笔者（也就是这篇新闻的作者）的翻译下，KDE.org 终于迎来了中文翻译。在此感谢 Guo Yunhe 提供的帮助。&lt;/p&gt;
+&lt;p&gt;在笔者（也就是这篇新闻的作者）的翻译下，&lt;a href=&quot;KDE.org&quot;&gt;KDE.org&lt;/a&gt; 终于迎来了中文翻译。在此感谢 Guo Yunhe 提供的帮助。&lt;/p&gt;
 
 &lt;p&gt;目前还有一些翻译没有完全同步，首页界面还有大部分英文。这些翻译将在下一次构建网站时更新。&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13814&quot;&gt;KDE社区新闻汇总-#1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13814&quot;&gt;KDE社区新闻汇总 #1&lt;/a&gt;&lt;/p&gt;
+
 </content:encoded>
     </item>
 
