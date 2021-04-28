@@ -10,14 +10,17 @@ categories:
 tags:
 - 新闻合集
 - 原创作品
+- openSUSE 社区新闻
+- 开源社区新闻
 - Tumbleweed
 - Leap
 - V2Ray
 - Firefox
 - UsrMerge
+- openSUSE
 ---
 
-## 社区新闻
+## openSUSE 社区新闻
 
 ### Tumbleweed 推出 UsrMerge 测试
 
@@ -38,6 +41,8 @@ UsrMerge 是一项特性，简单说来是将 `/` 与 `/usr` 目录下相同作�
 > openSUSE Leap 15.3实现了作为 Jump 原型的一部分开发的功能和产品构建机制。Jump 本身是一次性的工作，它改变了构建下一代openSUSE Leap版本的方式。SUSE希望将openSUSE Leap和SUSE Linux Enterprise（SLE）的体验和质量提升到一个新的水平。 SUSE还希望将openSUSE Leap推广为面向社区和行业合作伙伴的发展平台。
 
 据悉此举将会减少 CVE 补丁推送到 Leap 的时间。
+
+## 开源社区新闻
 
 ### 开发者 gcc 在 Qv2ray 代码中恶意剔除 Xray 的支持
 
