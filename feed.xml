@@ -54,7 +54,7 @@
       <description>openSUSE 已于近期开始对 /usr 合并措施的实验，openSUSE 中文社区从 freedesktop.org 翻译了这篇文章，旨在让用户了解这一改变。 译者为 Hanjingxue Boling，英语原文详见：The Case for the /usr Merge 采取 /usr 合并措施的理由 这篇文章是基于 Harald Hoyer 和 Kay Sievers 为同一主题所做的 Fedora 功能。这个功能已经在 Fedora 17 中成功实现。 为什么 /usr 合并（也称 usrmerge，/usr merge，UsrMerge）对兼容性来说是有意义的 /usr 合并（也称 usrmerge，/usr merge，UsrMerge）。请注意，本页面讨论的是一个实际上独立于systemd的话题。systemd 既支持分裂的系统，也支持合并的 /usr，而且 /usr 的合并对 systemd-less 的系统也有意义。我们希望鼓励采用 systemd 的发行版也采用 /usr 合并。 这里讨论的是什么？...</description>
       <content:encoded>&lt;p&gt;openSUSE 已于近期开始对 &lt;a href=&quot;/社区新闻/2021/04/27/合集-TW-推出-UsrMerge-测试-以及其他.html&quot;&gt;/usr 合并措施的实验&lt;/a&gt;，openSUSE 中文社区从 freedesktop.org 翻译了这篇文章，旨在让用户了解这一改变。&lt;/p&gt;
 
-&lt;p&gt;译者为 Hanjingxue Boling，英语原文详见：&lt;a href=&quot;https://www./wiki/Software/systemd/TheCaseForTheUsrMerge/&quot;&gt;The Case for the /usr Merge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;译者为 Hanjingxue Boling，英语原文详见：&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/TheCaseForTheUsrMerge/&quot;&gt;The Case for the /usr Merge&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;采取-usr-合并措施的理由&quot;&gt;采取 /usr 合并措施的理由&lt;/h2&gt;
 
@@ -172,7 +172,7 @@
   &lt;li&gt;
     &lt;p&gt;误解10：分割的 /usr 和不使用 initrd 的挂载的现状现在完全被支持，并且可以工作。&lt;/p&gt;
 
-    &lt;p&gt;事实：在跳转到根文件系统之前，没有 initrd 参与的分裂的 /usr &lt;a href=&quot;http://freedesktop.org/wiki/Software/systemd/separate-usr-is-broken&quot;&gt;在很长一段时间内都不能正确工作&lt;/a&gt;。&lt;/p&gt;
+    &lt;p&gt;事实：在跳转到根文件系统之前，没有 initrd 参与的分裂的 /usr &lt;a href=&quot;http:///wiki/Software/systemd/separate-usr-is-broken&quot;&gt;在很长一段时间内都不能正确工作&lt;/a&gt;。&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;误解11：与其把 / 合并到 /usr 中，不如把 /usr 合并到 / 中更有意义。&lt;/p&gt;
