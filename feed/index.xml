@@ -188,10 +188,10 @@
     </item>
 
     <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/28/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</guid>
       <title>TW 推出 UsrMerge 测试，以及其他</title>
-      <pubDate>Mon, 26 Apr 2021 11:24:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/28/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</link>
       <author>Nianqing Yao</author>
       <description>openSUSE 社区新闻 Tumbleweed 推出 UsrMerge 测试 来自 SUSE LLC 的 openSUSE 社区成员 Ludwig Nussel 于四月27日在邮件列表中宣布： 包含兼容符号链接或需要其他调整的所有软件包已签入openSUSE Factory 下的 UsrMerge 源。阶段测试通过了openQA。 UsrMerge 是一项特性，简单说来是将 / 与 /usr 目录下相同作用的文件夹统一为到 /usr 文件夹下的链接。根据来自 Systemd 方面的消息： UsrMerge 使在主机和网络客户端之间以及在主机和本地轻量级容器之间共享供应商提供的OS资源变得更加容易和灵活。对操作系统进行快照成为可行的选择。 UsrMerge 还允许将所有供应商提供的OS资源设为只读，以提高安全性和鲁棒性。 相关的用户测试仍在进行，据悉这些更新将于即将到来的 GCC 11 一同正式推送给用户。同时我们 openSUSE 中文社区也会编写文章，以便让用户更好的了解情况。 Leap 采用全新的软件包编译策略 据 openSUSE 官方社区表示，在以后的 Leap 发行版中，我们将采用名为 Jump 的策略。从前 openSUSE...</description>
       <content:encoded>&lt;h2 id=&quot;opensuse-社区新闻&quot;&gt;openSUSE 社区新闻&lt;/h2&gt;
