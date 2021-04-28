@@ -7,6 +7,114 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</guid>
+      <title>TW 推出 UsrMerge 测试，以及其他</title>
+      <pubDate>Mon, 26 Apr 2021 11:24:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</link>
+      <author>Nianqing Yao & Dongri</author>
+      <description>新闻简报 Tumbleweed 新快照 20210426 发行。 https://review.tumbleweed.boombatower.com/2021/04/26/release.html Kernel 构建失败导致 kernel-* 子版本号不统一，此问题已在 20210426 快照中修复。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/ UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/ 部分用户报告火狐88.0 无法使用。 https://bugzilla.opensuse.org/show_bug.cgi?id=1185267 Leap Leap 15.3 &amp;amp; SLE 15 SP3 代码冻结，在正式发布前只接受重要 bug 修复。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。 https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3 社区新闻 Tumbleweed 推出 UsrMerge 测试 来自 SUSE LLC...</description>
+      <content:encoded>&lt;h2 id=&quot;新闻简报&quot;&gt;新闻简报&lt;/h2&gt;
+
+&lt;h3 id=&quot;tumbleweed&quot;&gt;Tumbleweed&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新快照 20210426 发行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://review.tumbleweed.boombatower.com/2021/04/26/release.html&quot;&gt;https://review.tumbleweed.boombatower.com/2021/04/26/release.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kernel 构建失败导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kernel-*&lt;/code&gt; 子版本号不统一，此问题已在 20210426 快照中修复。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;部分用户报告火狐88.0 无法使用。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1185267&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1185267&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;leap&quot;&gt;Leap&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leap 15.3 &amp;amp; SLE 15 SP3 代码冻结，在正式发布前只接受重要 bug 修复。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;社区新闻&quot;&gt;社区新闻&lt;/h2&gt;
+
+&lt;h3 id=&quot;tumbleweed-推出-usrmerge-测试&quot;&gt;Tumbleweed 推出 UsrMerge 测试&lt;/h3&gt;
+
+&lt;p&gt;来自 SUSE LLC 的 openSUSE 社区成员 Ludwig Nussel 于四月27日在&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&quot;&gt;邮件列表&lt;/a&gt;中宣布：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;包含兼容符号链接或需要其他调整的所有软件包已签入openSUSE Factory 下的 UsrMerge 源。阶段测试通过了openQA。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;UsrMerge 是一项特性，简单说来是将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; 与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr&lt;/code&gt; 目录下相同作用的文件夹统一为到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr&lt;/code&gt; 文件夹下的链接。根据来自 Systemd 方面的&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/systemd/TheCaseForTheUsrMerge/&quot;&gt;消息&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;UsrMerge 使在主机和网络客户端之间以及在主机和本地轻量级容器之间共享供应商提供的OS资源变得更加容易和灵活。对操作系统进行快照成为可行的选择。 UsrMerge 还允许将所有供应商提供的OS资源设为只读，以提高安全性和鲁棒性。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;相关的用户测试仍在进行，据悉这些更新将于即将到来的 GCC 11 一同正式推送给用户。同时我们 openSUSE 中文社区也会编写文章，以便让用户更好的了解情况。&lt;/p&gt;
+
+&lt;h3 id=&quot;开发者-gcc-在-qv2ray-代码中恶意剔除-xray-的支持&quot;&gt;开发者 gcc 在 Qv2ray 代码中恶意剔除 Xray 的支持&lt;/h3&gt;
+
+&lt;p&gt;四月27日，据来自 Project X 的&lt;a href=&quot;https://t.me/projectXtls/33&quot;&gt;消息&lt;/a&gt;称：&lt;/p&gt;
+
+&lt;p&gt;Qv2ray 开发者之一 gcc 单方面删除了 Qv2ray 中对 Xray 的支持代码，并添加了“检测到 Xray 就自爆”的恶意代码。&lt;/p&gt;
+
+&lt;p&gt;Xray 的开发者如此表示：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我对 Qv2ray 是问心无愧的，也从来没有主动诋毁过 Qv 或者 gcc，即使此前 gcc 已多次发表对我或 Xray 不友好的言论，且多次承认对我以及 Xray 抱有奇怪的偏见，这些大家都看在眼里。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在 DuckSoft 与 gcc 多次协商无果后，DuckSoft 将 gcc 移出 Qv2ray 组织，并清理掉了有问题的代码。目前 Xray 依然在 Qv2ray 内可用。&lt;/p&gt;
+
+&lt;p&gt;同时 DuckSoft &lt;a href=&quot;https://t.me/opensuse_cn_offtopic/117068&quot;&gt;声明&lt;/a&gt;：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;没事，锅我来扛就好了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;无论如何，谢谢你，我们的鸭鸭！（希望人没事&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13815&quot;&gt;TW 推出 UsrMerge 测试，以及其他&lt;/a&gt;&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/26/Tumbleweed-%E7%8E%A9%E5%AE%B6%E8%8E%B7%E5%BE%97-Mesa-%E5%92%8C-Pentobi-%E5%8D%87%E7%BA%A7.html</guid>
       <title>Tumbleweed 玩家获得 Mesa 和 Pentobi 升级</title>
       <pubDate>Mon, 26 Apr 2021 11:24:00 -0500</pubDate>
@@ -29,7 +137,7 @@
 
     <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</guid>
-      <title>KDE社区新闻汇总 #1</title>
+      <title>KDE社区新闻简报 #1</title>
       <pubDate>Mon, 26 Apr 2021 03:30:00 -0500</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/KDE%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB-1.html</link>
       <author>Nianqing Yao</author>
@@ -70,7 +178,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13814&quot;&gt;KDE社区新闻汇总 #1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13814&quot;&gt;KDE社区新闻简报 #1&lt;/a&gt;&lt;/p&gt;
 
 </content:encoded>
     </item>
