@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap 15.3进入候选发布阶段
 image: /assets/posts/2021-04/openSUSE Leap 15.3进入候选发布阶段.png
 categories:
-- 更新通知
+- 更新通告
 tags:
 - Leap
 - 官方新闻
