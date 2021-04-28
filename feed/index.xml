@@ -7,10 +7,10 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
       <title>openSUSE Leap 15.3进入候选发布阶段</title>
       <pubDate>Wed, 28 Apr 2021 08:01:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</link>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE 项目及其社区、贡献者和发布工程师在今天发布了一个快照之后，已经进入了即将发布的 openSUSE Leap 15.3 版本的候选版本阶段，该版本过渡到了一个新的阶段。 RC 标志着将进入该发行版的软件的软件包冻结，该发行版用于服务器、工作站、桌面以及虚拟化和容器使用。 openSUSE Leap 通过为每个版本提供至少18个月的更新，为服务器提供了明显的优势。据预测，截至2021年4月，Leap 15 将延长到 Leap 15.5。Leap 主要版本（15.x）将维护和支持延长到后续版本。目前，还没有宣布继任者；Leap 15 的生命周期与 SUSE Linux Enterprise 完全一致，并使用源代码，Leap 是用完全相同的二进制包构建的。 该版本的桌面环境包括 KDE 的长期支持版本 Plasma 5.18、GNOME 3.34 和 Xfce 4.16。用于人工智能和机器学习的软件包可供使用该版本的数据科研人员使用。openSUSE Leap 15.3 中的一些软件包的列表可以在 Wiki 上找到。 Leap 发布经理 Lubos Kocman 建议 Beta 版和 RC 版的测试者在升级到通用版（General Availability，即 GA 版）时在终端使用 zypper...</description>
       <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;及其社区、贡献者和发布工程师在今天发布了一个快照之后，已经进入了即将发布的 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 版本的候选版本阶段，该版本过渡到了一个新的阶段。&lt;/p&gt;
