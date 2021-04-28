@@ -1,5 +1,5 @@
 ---
-author: Nianqing Yao & Dongri
+author: Nianqing Yao
 date: 2021-04-27 00:24:00 +0800
 layout: post
 license: CC-BY-SA-3.0
@@ -9,47 +9,15 @@ categories:
 - 社区新闻
 tags:
 - 新闻合集
+- 原创作品
 - Tumbleweed
 - Leap
-- 原创作品
 - V2Ray
 - Firefox
 - UsrMerge
 ---
 
-## 新闻简报
-
-### Tumbleweed
-
-* 新快照 20210426 发行。
-
-> <https://review.tumbleweed.boombatower.com/2021/04/26/release.html>
-
-* Kernel 构建失败导致 `kernel-*` 子版本号不统一，此问题已在 20210426 快照中修复。
-
-> <https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/>
-
-* UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。
-
-> <https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/> 
-
-* 部分用户报告火狐88.0 无法使用。
-
-> <https://bugzilla.opensuse.org/show_bug.cgi?id=1185267>
-
-### Leap
-
-* Leap 15.3 & SLE 15 SP3 代码冻结，在正式发布前只接受重要 bug 修复。
-
-> <https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC>
-
-* Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。
-
-> <https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3>
-
-
 ## 社区新闻
-
 
 ### Tumbleweed 推出 UsrMerge 测试
 
@@ -63,7 +31,17 @@ UsrMerge 是一项特性，简单说来是将 `/` 与 `/usr` 目录下相同作�
 
 相关的用户测试仍在进行，据悉这些更新将于即将到来的 GCC 11 一同正式推送给用户。同时我们 openSUSE 中文社区也会编写文章，以便让用户更好的了解情况。
 
+### Leap 采用全新的软件包编译策略
+
+据 openSUSE 官方社区表示，在以后的 Leap 发行版中，我们将采用名为 [Jump](https://en.opensuse.org/Portal:Jump) 的策略。从前 openSUSE Leap 与 SUSE LLC 的 产品 SLE 共享一套源代码，但分别自行构建软件包，而现在 openSUSE Leap 将直接[采用来自 SLE 的软件包](https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap)。
+
+> openSUSE Leap 15.3实现了作为 Jump 原型的一部分开发的功能和产品构建机制。Jump 本身是一次性的工作，它改变了构建下一代openSUSE Leap版本的方式。SUSE希望将openSUSE Leap和SUSE Linux Enterprise（SLE）的体验和质量提升到一个新的水平。 SUSE还希望将openSUSE Leap推广为面向社区和行业合作伙伴的发展平台。
+
+据悉此举将会减少 CVE 补丁推送到 Leap 的时间。
+
 ### 开发者 gcc 在 Qv2ray 代码中恶意剔除 Xray 的支持
+
+*此处的 gcc 是 Qv2ray 的开发者之一，与 GNU 编译器无任何关系*
 
 四月27日，据来自 Project X 的[消息](https://t.me/projectXtls/33)称：
 
@@ -80,6 +58,7 @@ Xray 的开发者如此表示：
 > 没事，锅我来扛就好了
 
 无论如何，谢谢你，我们的鸭鸭！（希望人没事
+
 
 ------
 
