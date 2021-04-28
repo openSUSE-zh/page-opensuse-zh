@@ -11,63 +11,9 @@
       <title>TW 推出 UsrMerge 测试，以及其他</title>
       <pubDate>Mon, 26 Apr 2021 11:24:00 -0500</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/26/%E5%90%88%E9%9B%86-TW-%E6%8E%A8%E5%87%BA-UsrMerge-%E6%B5%8B%E8%AF%95-%E4%BB%A5%E5%8F%8A%E5%85%B6%E4%BB%96.html</link>
-      <author>Nianqing Yao & Dongri</author>
-      <description>新闻简报 Tumbleweed 新快照 20210426 发行。 https://review.tumbleweed.boombatower.com/2021/04/26/release.html Kernel 构建失败导致 kernel-* 子版本号不统一，此问题已在 20210426 快照中修复。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/ UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/ 部分用户报告火狐88.0 无法使用。 https://bugzilla.opensuse.org/show_bug.cgi?id=1185267 Leap Leap 15.3 &amp;amp; SLE 15 SP3 代码冻结，在正式发布前只接受重要 bug 修复。 https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。 https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3 社区新闻 Tumbleweed 推出 UsrMerge 测试 来自 SUSE LLC...</description>
-      <content:encoded>&lt;h2 id=&quot;新闻简报&quot;&gt;新闻简报&lt;/h2&gt;
-
-&lt;h3 id=&quot;tumbleweed&quot;&gt;Tumbleweed&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;新快照 20210426 发行。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://review.tumbleweed.boombatower.com/2021/04/26/release.html&quot;&gt;https://review.tumbleweed.boombatower.com/2021/04/26/release.html&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Kernel 构建失败导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kernel-*&lt;/code&gt; 子版本号不统一，此问题已在 20210426 快照中修复。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;部分用户报告火狐88.0 无法使用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1185267&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1185267&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;leap&quot;&gt;Leap&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Leap 15.3 &amp;amp; SLE 15 SP3 代码冻结，在正式发布前只接受重要 bug 修复。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC&quot;&gt;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MYWUFPVXVAEMN4JYJGPUD4ZNDAZJ3PVC&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;社区新闻&quot;&gt;社区新闻&lt;/h2&gt;
+      <author>Nianqing Yao</author>
+      <description>社区新闻 Tumbleweed 推出 UsrMerge 测试 来自 SUSE LLC 的 openSUSE 社区成员 Ludwig Nussel 于四月27日在邮件列表中宣布： 包含兼容符号链接或需要其他调整的所有软件包已签入openSUSE Factory 下的 UsrMerge 源。阶段测试通过了openQA。 UsrMerge 是一项特性，简单说来是将 / 与 /usr 目录下相同作用的文件夹统一为到 /usr 文件夹下的链接。根据来自 Systemd 方面的消息： UsrMerge 使在主机和网络客户端之间以及在主机和本地轻量级容器之间共享供应商提供的OS资源变得更加容易和灵活。对操作系统进行快照成为可行的选择。 UsrMerge 还允许将所有供应商提供的OS资源设为只读，以提高安全性和鲁棒性。 相关的用户测试仍在进行，据悉这些更新将于即将到来的 GCC 11 一同正式推送给用户。同时我们 openSUSE 中文社区也会编写文章，以便让用户更好的了解情况。 Leap 采用全新的软件包编译策略 据 openSUSE 官方社区表示，在以后的 Leap 发行版中，我们将采用名为 Jump 的策略。从前 openSUSE Leap...</description>
+      <content:encoded>&lt;h2 id=&quot;社区新闻&quot;&gt;社区新闻&lt;/h2&gt;
 
 &lt;h3 id=&quot;tumbleweed-推出-usrmerge-测试&quot;&gt;Tumbleweed 推出 UsrMerge 测试&lt;/h3&gt;
 
@@ -85,7 +31,19 @@
 
 &lt;p&gt;相关的用户测试仍在进行，据悉这些更新将于即将到来的 GCC 11 一同正式推送给用户。同时我们 openSUSE 中文社区也会编写文章，以便让用户更好的了解情况。&lt;/p&gt;
 
+&lt;h3 id=&quot;leap-采用全新的软件包编译策略&quot;&gt;Leap 采用全新的软件包编译策略&lt;/h3&gt;
+
+&lt;p&gt;据 openSUSE 官方社区表示，在以后的 Leap 发行版中，我们将采用名为 &lt;a href=&quot;https://en.opensuse.org/Portal:Jump&quot;&gt;Jump&lt;/a&gt; 的策略。从前 openSUSE Leap 与 SUSE LLC 的 产品 SLE 共享一套源代码，但分别自行构建软件包，而现在 openSUSE Leap 将直接&lt;a href=&quot;https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap&quot;&gt;采用来自 SLE 的软件包&lt;/a&gt;。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;openSUSE Leap 15.3实现了作为 Jump 原型的一部分开发的功能和产品构建机制。Jump 本身是一次性的工作，它改变了构建下一代openSUSE Leap版本的方式。SUSE希望将openSUSE Leap和SUSE Linux Enterprise（SLE）的体验和质量提升到一个新的水平。 SUSE还希望将openSUSE Leap推广为面向社区和行业合作伙伴的发展平台。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;据悉此举将会减少 CVE 补丁推送到 Leap 的时间。&lt;/p&gt;
+
 &lt;h3 id=&quot;开发者-gcc-在-qv2ray-代码中恶意剔除-xray-的支持&quot;&gt;开发者 gcc 在 Qv2ray 代码中恶意剔除 Xray 的支持&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;此处的 gcc 是 Qv2ray 的开发者之一，与 GNU 编译器无任何关系&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;四月27日，据来自 Project X 的&lt;a href=&quot;https://t.me/projectXtls/33&quot;&gt;消息&lt;/a&gt;称：&lt;/p&gt;
 
