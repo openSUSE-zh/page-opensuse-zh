@@ -7,6 +7,45 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
+      <title>openSUSE Leap 15.3进入候选发布阶段</title>
+      <pubDate>Wed, 28 Apr 2021 08:01:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目及其社区、贡献者和发布工程师在今天发布了一个快照之后，已经进入了即将发布的 openSUSE Leap 15.3 版本的候选版本阶段，该版本过渡到了一个新的阶段。 RC 标志着将进入该发行版的软件的软件包冻结，该发行版用于服务器、工作站、桌面以及虚拟化和容器使用。 openSUSE Leap 通过为每个版本提供至少18个月的更新，为服务器提供了明显的优势。据预测，截至2021年4月，Leap 15 将延长到 Leap 15.5。Leap 主要版本（15.x）将维护和支持延长到后续版本。目前，还没有宣布继任者；Leap 15 的生命周期与 SUSE Linux Enterprise 完全一致，并使用源代码，Leap 是用完全相同的二进制包构建的。 该版本的桌面环境包括 KDE 的长期支持版本 Plasma 5.18、GNOME 3.34 和 Xfce 4.16。用于人工智能和机器学习的软件包可供使用该版本的数据科研人员使用。openSUSE Leap 15.3 中的一些软件包的列表可以在 Wiki 上找到。 Leap 发布经理 Lubos Kocman 建议 Beta 版和 RC 版的测试者在升级到通用版（General Availability，即 GA 版）时在终端使用 zypper...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;及其社区、贡献者和发布工程师在今天发布了一个快照之后，已经进入了即将发布的 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 版本的候选版本阶段，该版本过渡到了一个新的阶段。&lt;/p&gt;
+
+&lt;p&gt;RC 标志着将进入该发行版的软件的软件包冻结，该发行版用于服务器、工作站、桌面以及虚拟化和容器使用。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 通过为每个版本提供至少18个月的更新，为服务器提供了明显的优势。据预测，截至2021年4月，Leap 15 将延长到 Leap 15.5。Leap 主要版本（15.x）将维护和支持延长到后续版本。目前，还没有宣布继任者；Leap 15 的生命周期与 SUSE Linux Enterprise 完全一致，并使用源代码，Leap 是用完全相同的二进制包构建的。&lt;/p&gt;
+
+&lt;p&gt;该版本的桌面环境包括 KDE 的长期支持版本 Plasma 5.18、GNOME 3.34 和 Xfce 4.16。用于人工智能和机器学习的软件包可供使用该版本的数据科研人员使用。openSUSE Leap 15.3 中的一些软件包的列表可以在 &lt;a href=&quot;https://en.opensuse.org/Features_15.3&quot;&gt;Wiki&lt;/a&gt; 上找到。&lt;/p&gt;
+
+&lt;p&gt;Leap 发布经理 Lubos Kocman 建议 Beta 版和 RC 版的测试者在升级到通用版（General Availability，即 GA 版）时在终端使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 命令。&lt;/p&gt;
+
+&lt;p&gt;在 Leap 版本的开发阶段，贡献者、打包者和发布团队使用滚动开发方法，将其分为几个阶段，而不是单一的里程碑式发布；一旦通过自动化测试，就会发布快照和小版本软件更新，直到最终发布 GM (the Gold Master）。在这个时间点，GM 开始对公众开放（预计6月2日发布 GA ），并且发布从滚动开发方法转变为支持性发布，接受更新，直到其生命终结（EOL）。&lt;/p&gt;
+
+&lt;p&gt;Kocman 列出了以下与发布有关的重要日期：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5月14日 – 翻译截止日期&lt;/li&gt;
+  &lt;li&gt;5月21日 – the Gold Master&lt;/li&gt;
+  &lt;li&gt;6月02日 – 公开发布（在GM之后的5到10天）&lt;/li&gt;
+  &lt;li&gt;6月02日 – 开始发布回顾性调查&lt;/li&gt;
+  &lt;li&gt;6月16日 – 收集回顾性调查的反馈意见&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;升级到 openSUSE Leap 15.3 的用户需要注意，不建议从 openSUSE Leap 15.2 之前的版本直接升级。由于升级路径的原因，强烈建议在升级到 Leap 15.3 之前先升级到 Leap 15.2 。&lt;/p&gt;
+
+&lt;p&gt;我们的社区乐于助人，你可以通过&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;、&lt;a href=&quot;https://matrix.to/#/#newscom:opensuse.org&quot;&gt;Matrix&lt;/a&gt;、&lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;Discord&lt;/a&gt;、&lt;a href=&quot;https://t.me/openSUSE_group&quot;&gt;Telegram&lt;/a&gt; 和 &lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;Facebook&lt;/a&gt; 等社区渠道与使用旧版本 Leap 的人进行互动。（编注：以上渠道都是英文社区的，要与中文社区交流请查阅我们首页的链接）&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/04/28/opensuse-leap-153-enters-rc-phase/&quot;&gt;openSUSE Leap 15.3 Enters Release Candidate Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/04/28/%E9%87%87%E5%8F%96-UsrMerge-%E6%8E%AA%E6%96%BD%E7%9A%84%E7%90%86%E7%94%B1.html</guid>
       <title>采取 UsrMerge 措施的理由</title>
       <pubDate>Wed, 28 Apr 2021 04:30:00 -0500</pubDate>
