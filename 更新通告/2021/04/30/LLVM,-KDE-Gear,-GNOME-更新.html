@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    LLVM、KDE Gear、GNOME 更新 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="LLVM、KDE Gear、GNOME 在 Tumbleweed 的快照中获得更新。 本周发布了六个 openSUSE Tumbleweed 快照。 这些快照提供了 curl、KDE Gear、LLVM、GNOME 40、Mozilla Firefox 和 Thunderbird 等软件包的更新版本。 20210...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="LLVM、KDE Gear、GNOME 更新">
+  <meta property="og:description"
+    content="LLVM、KDE Gear、GNOME 在 Tumbleweed 的快照中获得更新。 本周发布了六个 openSUSE Tumbleweed 快照。 这些快照提供了 curl、KDE Gear、LLVM、GNOME 40、Mozilla Firefox 和 Thunderbird 等软件包的更新版本。 20210...">
+  <meta property=" og:url" content="/_posts/2021-05-01-LLVM,%20KDE%20Gear,%20GNOME%20%E6%9B%B4%E6%96%B0.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Hanjingxue Boling">
+  <meta property="og:article:published_time" content="2021-04-30T14:40:00-05:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+  
+  <meta property="og:article:tag" content="LLVM">
+  
+  <meta property="og:article:tag" content="KDE Gear">
+  
+  <meta property="og:article:tag" content="GNOME">
+    
+  <meta property="og:image" content="/assets/posts/2021-05/LLVM,%20KDE%20Gear,%20GNOME%20%E6%9B%B4%E6%96%B0.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LLVM、KDE Gear、GNOME 更新">
+  
+  <meta name="twitter:description"
+    content="LLVM、KDE Gear、GNOME 在 Tumbleweed 的快照中获得更新。 本周发布了六个 openSUSE Tumbleweed 快照。 这些快照提供了 curl、KDE Gear、LLVM、GNOME 40、Mozilla Firefox 和 Thunderbird 等软件包的更新版本。 20210...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2021-05/LLVM,%20KDE%20Gear,%20GNOME%20%E6%9B%B4%E6%96%B0.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed/">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021">
+			2021
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021/04">
+			
+			四月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021/04/30">
+			30
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		LLVM、KDE Gear、GNOME 更新
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">LLVM、KDE Gear、GNOME 更新</h1>
+		<p class="text-center text-muted">
+			30. Apr 2021
+			|
+			Hanjingxue Boling
+			|
+			CC-BY-SA-3.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2021-05/LLVM, KDE Gear, GNOME 更新.png"
+			alt="LLVM、KDE Gear、GNOME 更新">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>LLVM、KDE Gear、GNOME 在 Tumbleweed 的快照中获得更新。</p>
+
+<p>本周发布了六个 openSUSE Tumbleweed 快照。</p>
+
+<p>这些快照提供了 <a href="https://curl.se/">curl</a>、<a href="https://apps.kde.org/">KDE Gear</a>、<a href="https://llvm.org/">LLVM</a>、<a href="https://forty.gnome.org/">GNOME 40</a>、<a href="https://www.mozilla.org/">Mozilla Firefox</a> 和 <a href="https://www.thunderbird.net/">Thunderbird</a> 等软件包的更新版本。</p>
+
+<p><a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QIPXE4EQCQTERY3PDRMRYRLW7AEE5W2V/">20210428</a> 快照将 <a href="https://www.kernel.org/">Linux 内核</a>更新为 5.12 版，文本编辑器 <a href="https://www.vim.org/">vim</a> 更新为 8.2.2800 版。<a href="https://www.virtualbox.org/">virtualbox</a> 更新到 6.1.20，解决了在使用 <a href="https://en.wikipedia.org/wiki/Hyper-V">Hyper-V</a> 的情况下虚拟机操作系统的挂起问题，并且虚拟机打包增加了对 5.11 和 5.12 版内核的支持。Domaine name cacher <a href="https://thekelleys.org.uk/dnsmasq/doc.html">dnsmasq</a> 2.85 增加了 <code class="language-plaintext highlighter-rouge">--dynamic-host</code> 选项，调试器 <a href="https://strace.io/">strace</a> 5.12.0 进行了改进并实现了显示 SELinux 上下文的选项。</p>
+
+<p>Daniel Stenberg 在4月14日的视频中详细介绍了 <a href="https://youtu.be/3Vj4cdzLZx4">curl 7.76.1</a> 的补丁发布，并将其纳入快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ES3BJGXLFL65BXHBRSLS2CJQEWTPLWYE/">20210427</a> 。curl 的发布没有新的功能，但 Stenberg 在视频中承认了贡献，并强调了相较于 HTTPS ，HTTP/2 的选择。开源文件管理器 <a href="http://www.greenwoodsoftware.com/less/">less</a> 更新到了 581 版本，它修复了一些崩溃，并在版本中增加了几个新的选项。实用探测包 <a href="https://joeyh.name/code/os-prober/">os-prober</a> 更新至 1.78 版，固件包 <a href="https://github.com/rhboot/shim">shim-leap</a> 更新至 15.4 版。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JN6UAEDOJZCANCKMOBMJXQDCDC6RCUNE/">20210426</a> 更新了大约15个软件包，其中包括 Linux 内核 5.11.16 和 <a href="https://openjdk.java.net/projects/jdk/11/">java-11-openjdk</a> 11.0.11.0 的版本更新，其更新量非常大，解决了两个<a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">常见漏洞和暴露</a>。在 <a href="https://github.com/containers/container-selinux">container-selinux</a> 2.160.1 的更新中，对容器运行时的二进制标签进行了修复。<a href="https://vapier.github.io/ncompress/">ncompress</a> 5.0 的一个主要版本清理了一些代码并修复了递归模式。通用加密库 <a href="https://www.gnupg.org/software/libgcrypt/index.html">libgcrypt</a> 在 1.9.3 的更新中为 <a href="https://en.wikipedia.org/wiki/X86-64">x86_64</a> 提供了一些加速的实现。快照中需要更新的其他软件包有 <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/releases">pipewire</a> 0.3.26, <a href="https://rubygems.org/gems/nokogiri">rubygem-nokogiri</a> 1.11.3, <a href="https://pypi.org/project/pydot/">python-pydot</a> 1.4.2 等。</p>
+
+<p><a href="https://kde.org/announcements/gear/21.04/">KDE Gear 21.04.0</a>，也就是 KDE 应用程序的新名字，在快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/">20210425</a> 可用。文件存档器 <a href="https://apps.kde.org/ark/">Ark</a> 中新增一个新的菜单选项，以显示有关 <a href="https://techbase.kde.org/Development/Tutorials/Using_KParts">kpart</a> 的对话框。文件管理器 <a href="https://apps.kde.org/dolphin/">Dolphin</a> 删除了一些输入方法，并修复了首次启动时位置栏的对齐问题。KDE 的文本编辑器 <a href="https://kate-editor.org/">Kate</a> 修复了一个内存泄漏和一些编译器警告。视频编辑器  <a href="https://kdenlive.org/en/">Kdenlive</a> 修正了一些崩溃和从剪贴板导入时的关键帧限制。<a href="https://forty.gnome.org/">GNOME 40</a> 有多个更新。对 <a href="https://wiki.gnome.org/Apps/Gedit">gedit</a> 40.1 进行了翻译，文档查看器 evince 40.1 增加了三个补丁以移除更多的 <a href="https://help.gnome.org/users/evince/stable/synctex-compile.html.en">SyncTeX</a>， <a href="https://gitlab.gnome.org/GNOME/gnome-tweaks">gnome-tweaks</a> 40.0 对测试版进行了修正，该版本无法识别在候选版本中运行的 GNOME Shell 。<a href="https://www.gtk.org/">gtk3</a> 和 <a href="https://www.gtk.org/">gtk4</a> 都分别更新到了 3.24.28 和 4.2.0 。GTK4 为 <a href="https://wayland.freedesktop.org/">Wayland</a> 带来了一些事件匹配的修复，以避免错过布局。其他在快照中更新的软件包有 <a href="https://wiki.gnome.org/Projects/NetworkManager">NetworkManager</a> 1.30.4、<a href="https://wiki.gnome.org/Projects/GLib">glib2</a> 2.68.1、<a href="https://pango.gnome.org/">pango</a> 1.48.4、<a href="https://www.rsyslog.com/">rsyslog</a> 8.2104.0 和 <a href="https://www.wireshark.org/">wireshark</a> 3.4.5，其中修复了 GeoIP 信息的打印。</p>
+
+<p>在快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EX2H4OGBPHRV27MINSTGZ5MKFLAMJB7Z/">20210423</a> 中， Mozilla Firefox 的版本将更新到 88.0 ，Thunderbird 的版本将更新到 78.10.0 。该浏览器有一个新功能，PDF表格现在支持嵌入 JavaScript 的 PDF 文件。该开源浏览器还对麦克风和摄像头的提示进行了修改，减少了在网站上要求授予设备访问权限的提示次数。Thunderbird 电子邮件客户端修复了9个 CVE；其中一个可能在 FTP 服务器上使用编码的 URL 执行任意的 FTP 命令。<a href="https://redis.io/">Redis</a> 6.2.2 修复了回归问题，<a href="https://xenproject.org/">Xen</a> 更新恢复了两年前默默删除的一个变化。<a href="https://yast.opensuse.org/">YaST</a> 更新了多个软件包，其中许多需要清理一些规格文件。</p>
+
+<p>本周即将到来的快照，<a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AKPMC2NLBFYAOE5WIK2FDSCW654ZPM6W/">20210422</a> ，给音频用户提供了Audacity 3.0.2的更新；该音频软件增加了一些新的输出偏好，并改进了诊断报告。<a href="https://releases.llvm.org/12.0.0/docs/ReleaseNotes.html">llvm12 12.0.0</a> 的主要版本可用，编译器带来了大量更新。架构目标、<a href="https://webassembly.org/">WebAssembly</a> 目标、<a href="https://golang.org/">go</a> 绑定、C <a href="https://en.wikipedia.org/wiki/API">应用编程接口</a>等都有变化。<a href="https://github.com/ximion/appstream">AppStream</a> 做了一些解析方面的改进，并改进了文字包，以应对文字过长的情况。由大家喜欢的字体专家 <a href="https://en.wikipedia.org/wiki/Behdad_Esfahbod">Behdad Esfahbod</a> 开发的文本塑造包 <a href="https://github.com/harfbuzz/harfbuzz">harfbuzz</a> 改进了一些形状连接脚本，并提供了文档改进。快照中更新的其他软件包还有 <a href="https://github.com/openSUSE/hwinfo">hwinfo</a> 21.73、<a href="https://www.sqlite.org/index.html">sqlite</a> 3.35.5、<a href="https://www.sudo.ws/">sudo</a> 1.9.6 等等。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2021/04/30/llvm-kde-gear-gnome-update-in-tw/">LLVM, KDE Gear, GNOME Update in Tumbleweed</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+			<a href="/tag/llvm">
+				LLVM
+			</a>
+			
+			<a href="/tag/kde-gear">
+				KDE Gear
+			</a>
+			
+			<a href="/tag/gnome">
+				GNOME
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html&amp;title=LLVM%E3%80%81KDE%20Gear%E3%80%81GNOME%20%E6%9B%B4%E6%96%B0"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=LLVM%E3%80%81KDE%20Gear%E3%80%81GNOME%20%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011–2021 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
