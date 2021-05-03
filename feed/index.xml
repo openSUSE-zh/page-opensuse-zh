@@ -7,6 +7,32 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/03/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E9%82%AE%E4%BB%B6%E5%88%97%E8%A1%A8%E9%87%8D%E6%96%B0%E4%B8%8A%E7%BA%BF.html</guid>
+      <title>中文社区邮件列表重新上线</title>
+      <pubDate>Mon, 03 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/03/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E9%82%AE%E4%BB%B6%E5%88%97%E8%A1%A8%E9%87%8D%E6%96%B0%E4%B8%8A%E7%BA%BF.html</link>
+      <author>Nianqing Yao</author>
+      <description>数年前中文社区的邮件列表因为长期的静默而被关停，近期 openSUSE 中文社区决定重新启用邮件列表。
+
+
+
+经过了与 openSUSE 方面的协商工作，邮件列表已于昨天夜间开始运行。您可以访问我们的邮件列表网站，来订阅邮件列表，也可以直接向我们的邮件列表服务器发送消息来获取有关信息与操作指南。感谢 openSUSE 中文社区钦定吉祥物精灵猫猫( 周杰伦 Grover Chou )对此做出的贡献。
+
+我们将发挥邮件列表本身的作用，在其中为用户提供重要的公告与新闻。您也可以在邮件列表内展开讨论。
+
+</description>
+      <content:encoded>&lt;p&gt;数年前中文社区的邮件列表因为长期的静默而被关停，近期 openSUSE 中文社区决定重新启用邮件列表。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-05/中文社区邮件列表重新上线.png&quot; alt=&quot;我们的 Jay Chou&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;经过了与 openSUSE 方面的协商工作，邮件列表已于昨天夜间开始运行。您可以访问我们的&lt;a href=&quot;https://lists.opensuse.org/manage/lists/users-zh.lists.opensuse.org/&quot;&gt;邮件列表网站&lt;/a&gt;，来订阅邮件列表，也可以直接向我们的邮件列表服务器&lt;a href=&quot;mailto:users-zh-request@lists.opensuse.org?subject=help&quot;&gt;发送消息&lt;/a&gt;来获取有关信息与操作指南。感谢 openSUSE 中文社区&lt;del&gt;钦定吉祥物&lt;/del&gt;精灵猫猫( &lt;del&gt;周杰伦&lt;/del&gt; Grover Chou )对此做出的贡献。&lt;/p&gt;
+
+&lt;p&gt;我们将发挥邮件列表本身的作用，在其中为用户提供重要的公告与新闻。您也可以在邮件列表内展开讨论。&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/04/30/LLVM,-KDE-Gear,-GNOME-%E6%9B%B4%E6%96%B0.html</guid>
       <title>LLVM、KDE Gear、GNOME 更新</title>
       <pubDate>Fri, 30 Apr 2021 14:40:00 -0500</pubDate>
