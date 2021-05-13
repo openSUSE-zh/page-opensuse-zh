@@ -7,6 +7,89 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/05/13/openSUSE-Step.html</guid>
+      <title>openSUSE Step</title>
+      <pubDate>Thu, 13 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/05/13/openSUSE-Step.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Step 是什么？ openSUSE Step 是一项社区工作，旨在根据已发布的 SUSE Linux Enterprise 源码包重建 SUSE Linux Enterprise (SUSE Linux Enterprise)。这是在 Open Build Service (OBS) 的 openSUSE 实例中公开进行的，目的是保持完全的二进制兼容，并尽可能地与 SUSE Linux Enterprise 的源代码兼容。 为什么要 openSUSE Step? openSUSE Leap 15.3 继承了 SUSE Linux Enterprise 15 SP3 的基础操作系统。在 aarch64、powerpc64 和 x86_64 上，openSUSE 直接使用来自企业端的二进制软件包。除了这些架构之外，openSUSE 还支持 SUSE Linux Enterprise 没有提供的架构，例如...</description>
+      <content:encoded>&lt;h1 id=&quot;opensuse-step-是什么&quot;&gt;openSUSE Step 是什么？&lt;/h1&gt;
+
+&lt;p&gt;openSUSE Step 是一项社区工作，旨在根据已发布的 SUSE Linux Enterprise 源码包重建 SUSE Linux Enterprise (SUSE Linux Enterprise)。这是在 Open Build Service (OBS) 的 openSUSE 实例中公开进行的，目的是保持完全的二进制兼容，并尽可能地与 SUSE Linux Enterprise 的源代码兼容。&lt;/p&gt;
+
+&lt;h1 id=&quot;为什么要-opensuse-step&quot;&gt;为什么要 openSUSE Step?&lt;/h1&gt;
+
+&lt;p&gt;openSUSE Leap 15.3 继承了 SUSE Linux Enterprise 15 SP3 的基础操作系统。在 aarch64、powerpc64 和 x86_64 上，openSUSE 直接使用来自企业端的二进制软件包。除了这些架构之外，openSUSE 还支持 SUSE Linux Enterprise 没有提供的架构，例如 armv7hl，根据最近 openSUSE ARM &lt;a href=&quot;https://news.opensuse.org/2020/12/01/opensuse-release-team-to-share-results-from-arm-survey-in-online-meetup.md&quot;&gt;社区调查&lt;/a&gt; 的结果，它在 openSUSE 用户中相对流行。对于这些架构，我们现在从 OBS 中公布的 SUSE Linux Enterprise 源中构建完全兼容的二进制包。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Step 并非旨在成为一个适用于最终用户的发行版。它并不取代 openSUSE Leap 或提供替代品。Step 是一个中间构件（”步骤”），用来实现像 openSUSE Leap 或其他未来的社区衍生品这样的社区发行版。&lt;/p&gt;
+
+&lt;h1 id=&quot;opensuse-step-现在在做什么&quot;&gt;openSUSE Step 现在在做什么?&lt;/h1&gt;
+
+&lt;p&gt;目前有四个平行定义和存在的版本：openSUSE Step 15，15-SP1，15-SP2，和 15-SP3 。这些版本被托管在 OBS 的 openSUSE 项目命名空间下，并使用 SUSE Linux Enterprise 发布的源码，以及为能够从源码构建它们而需要的最小修改，同时纳入已发布的维护更新。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Step 目前包括 i586/x86_64 和 armv7hl 。更多的架构，例如 RISC-V，可以根据贡献者的兴趣和资源能力来添加。&lt;/p&gt;
+
+&lt;h1 id=&quot;它和的-opensuse-leap-关系是怎样的&quot;&gt;它和的 openSUSE Leap 关系是怎样的？&lt;/h1&gt;
+
+&lt;p&gt;随着 “缩小差距（Closing the Leap Gap）” 项目的推进，openSUSE Leap 将成为一个由三个不同来源的二进制软件包组成的“分层蛋糕”：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;直接从 SUSE Linux Enterprise 复制的基础操作系统二进制包。&lt;/li&gt;
+  &lt;li&gt;目前大约有 50 个软件包的一小部分软件包，为这些 SUSE Linux Enterprise 软件包提供 openSUSE 商标与标记。&lt;/li&gt;
+  &lt;li&gt;openSUSE Backports，它在上面提供了大量大家喜欢使用的应用程序和库。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;openSUSE Step 为那些像 32 位架构那样，没有对应 SUSE Linux Enterprise 版本的 Leap 架构提供了一个替代方案。其他两组起源的软件包将和其他架构一样。&lt;/p&gt;
+
+&lt;p&gt;除此之外，openSUSE Step 还为每个人提供了访问构建日志和拥有 “经过构建验证” 的 SUSE Linux Enterprise 项目库的能力，供社区定制，这对那些想从 SUSE Linux Enterprise 软件包来源中衍生的相关项目来说是一个合作空间。&lt;/p&gt;
+
+&lt;p&gt;Leap 在 2020 年秋季通过一个名为 Jump 的原型项目过渡到构建 Leap 版本的新方式。Jump 原型被用作概念验证，但现在已经不存在了；事实证明，它在构建发行版和将 openSUSE Leap 和 SUSE Linux Enterprise 的代码流更紧密地联系在一起方面是有效的。这个概念验证被用于构建 Leap 15.3 的发行版。&lt;/p&gt;
+
+&lt;h1 id=&quot;它和-opensuse-tumbleweed-的关系是怎样的&quot;&gt;它和 openSUSE Tumbleweed 的关系是怎样的？&lt;/h1&gt;
+
+&lt;p&gt;openSUSE Tumbleweed 是一个完全由 openSUSE 社区管理和构建的滚动发布版本，它非常注重不断整合新的上游发布版本，同时保持高质量的滚动更新，不出现重大退步。Tumbleweed 是下一个主要 SUSE Linux Enterprise 版本的起源。Tumbleweed 和维护的 SUSE Linux Enterprise 版本之间没有直接的一般关系。openSUSE Backports 项目经常从 Tumbleweed 中获取变化。&lt;/p&gt;
+
+&lt;h1 id=&quot;opensuse-step-允许社区发行版吗&quot;&gt;openSUSE Step 允许社区发行版吗？&lt;/h1&gt;
+
+&lt;p&gt;是的，如果社区的贡献能够提高从源代码构建的能力，并且不以任何方式修改二进制的兼容性，我们是欢迎的。openSUSE Step 的使命是完全兼容，并且在所有的实际应用中，它是 SUSE Linux Enterprise 的一个等价物。&lt;/p&gt;
+
+&lt;p&gt;出于（内部）质量验证的目的，Step x86_64 架构也将与其他架构一起构建，但它不会被交付给 openSUSE Leap 或以其他方式暂时可用。&lt;/p&gt;
+
+&lt;h1 id=&quot;我如何联系-opensuse-step-团队&quot;&gt;我如何联系 openSUSE Step 团队？&lt;/h1&gt;
+
+&lt;p&gt;openSUSE Step 团队正在 Freenode 的 #opensuse-step 频道中闲聊。如果发现问题，可以在 GitHub 的 https://github.com/openSUSE/step/issues 下报告。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;源文：&lt;a href=&quot;https://en.opensuse.org/Portal:Leap/openSUSE:Step&quot;&gt;Portal:Leap/openSUSE:Step&lt;/a&gt;&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/12/openSUSE-Leap-15.3-%E5%A2%9E%E5%8A%A0%E5%AF%B9-armv7-%E6%94%AF%E6%8C%81.html</guid>
+      <title>openSUSE Leap 15.3 增加 armv7 支持</title>
+      <pubDate>Wed, 12 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/12/openSUSE-Leap-15.3-%E5%A2%9E%E5%8A%A0%E5%AF%B9-armv7-%E6%94%AF%E6%8C%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 社区的开发者希望在 openSUSE Step 的背景下利用 armv7l 的努力来发展 openSUSE Leap 和 SUSE Linux Enterprise 的共同开发方式。 在2月份，社区宣布了 openSUSE Step 计划，目的是扩大 SUSE Linux Enterprise (SLE) 未来的对不同 CPU 架构的覆盖。 Step 项目从开放构建服务（OBS）的 openSUSE 实例中发布的源码包中重建 SLE，目的是尽可能地与 SLE 保持兼容。就在最近，该项目在 OBS 中建立了 armv7l 作为一个 Leap 兼容适配。 “正如调查的结果显示，Leap 仍然有很多 armv7 用户，” arm 开发者和社区贡献者 Guillaume Gardet 说，“我们听取了这一反馈，以解决 armv7 用户的潜在用例，并找到了一个解决方案。” Leap...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的开发者希望在 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的背景下利用 armv7l 的努力来发展 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap&quot;&gt;openSUSE Leap&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 的共同开发方式。&lt;/p&gt;
+
+&lt;p&gt;在2月份，社区宣布了 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap/openSUSE:Step&quot;&gt;openSUSE Step&lt;/a&gt; 计划，目的是扩大 SUSE Linux Enterprise (SLE) 未来的对不同 CPU 架构的覆盖。&lt;/p&gt;
+
+&lt;p&gt;Step 项目从&lt;a href=&quot;https://build.opensuse.org/&quot;&gt;开放构建服务&lt;/a&gt;（OBS）的 openSUSE 实例中发布的源码包中重建 SLE，目的是尽可能地与 SLE 保持兼容。就在最近，该项目在 OBS 中建立了 armv7l 作为一个 Leap 兼容适配。&lt;/p&gt;
+
+&lt;p&gt;“正如&lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Surveys/ARM_Usecases&quot;&gt;调查的结果&lt;/a&gt;显示，Leap 仍然有很多 armv7 用户，” arm 开发者和社区贡献者 Guillaume Gardet 说，“我们听取了这一反馈，以解决 armv7 用户的潜在用例，并找到了一个解决方案。”&lt;/p&gt;
+
+&lt;p&gt;Leap ports 为 SLE 不支持的架构提 Leap 发行版， 例如 32 位架构。Step armv7l 与 &lt;a href=&quot;https://en.opensuse.org/Portal:Backports&quot;&gt;Backports&lt;/a&gt; 一起构成了 armv7l 的 Leap 兼容适配。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/12/opensuse-leap-15-3-expands-with-armv7/&quot;&gt;openSUSE Leap 15.3 Expands with armv7&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/03/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E9%82%AE%E4%BB%B6%E5%88%97%E8%A1%A8%E9%87%8D%E6%96%B0%E4%B8%8A%E7%BA%BF.html</guid>
       <title>中文社区邮件列表重新上线</title>
       <pubDate>Mon, 03 May 2021 00:00:00 -0500</pubDate>
@@ -420,30 +503,6 @@ Leap
 
 &lt;p&gt;openSUSE 社区论坛讨论串：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13814&quot;&gt;KDE社区新闻简报 #1&lt;/a&gt;&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/21/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A%E7%BA%BF.html</guid>
-      <title>openSUSE 中文社区主页上线</title>
-      <pubDate>Wed, 21 Apr 2021 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/21/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E4%B8%BB%E9%A1%B5%E4%B8%8A%E7%BA%BF.html</link>
-      <author>Nianqing Yao</author>
-      <description>经过一系列的讨论与准备工作，openSUSE 中文社区主页已经上线 Github 存储库，具体的邮件列表服务器以及网站编译事项还有待确定。
-
-本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。
-
-目前您可以通过克隆存储库并遵循README.md内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。
-
-如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的Github 存储库上提交PR。
-</description>
-      <content:encoded>&lt;p&gt;经过一系列的&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13785&quot;&gt;讨论与准备工作&lt;/a&gt;，openSUSE 中文社区主页已经上线 &lt;a href=&quot;https://github.com/openSUSE-zh/page-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;，具体的邮件列表服务器以及网站编译事项还有待确定。&lt;/p&gt;
-
-&lt;p&gt;本站的目的是给 openSUSE 用户提供公告以及新闻，作为一个滚动发行版，这一功能能够减少一些因为更新出现问题产生的时间浪费。同时我们也会翻译一些来自官方的动态，帮助中文社区成员了解社区走向以及技术趋势。&lt;/p&gt;
-
-&lt;p&gt;目前您可以通过克隆存储库并遵循&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README.md&lt;/code&gt;内的指引来构建与预览本站。本站的代码在GPL协议下发布，内容的许可协议则视具体情况而定。&lt;/p&gt;
-
-&lt;p&gt;如果您对此有建议或者意见，欢迎到论坛上与我们讨论。如果你想为本站贡献文章，请向我们的&lt;a href=&quot;https://github.com/openSUSE-zh/page-opensuse-zh&quot;&gt;Github 存储库&lt;/a&gt;上提交PR。&lt;/p&gt;
 </content:encoded>
     </item>
 
