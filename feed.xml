@@ -7,6 +7,40 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</guid>
+      <title>openSUSE 社区为发布派对做准备</title>
+      <pubDate>Wed, 26 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE项目计划在 openSUSE Leap 15.3 发布后立即在 openSUSE 线上酒吧举办一个24小时的发布派对（Release Party）。
+
+这个虚拟发布派对将有发布团队的成员、社区成员和董事会成员参加。
+
+从 6 月 2 日 12:00 UTC 开始，发布派对将持续到 6 月 3 日 11:59 UTC（编注：及北京时间 6月2日 4:00 到 6月3日 3:59）。预计参与者将来自多个国家，欢迎人们参加并与 openSUSE 成员见面。
+
+该活动让人们有机会认识参与项目的人和帮助发布 openSUSE Leap 发行版的贡献者。该活动还为社区提供了一个机会，使他们能够见面、社交并随意讨论经过6个多月开发的版本。
+
+
+
+原文：openSUSE Community Readies for Release Party，作者：Douglas DeMaio
+
+</description>
+      <content:encoded>&lt;p&gt;openSUSE项目计划在 &lt;a href=&quot;https://en.opensuse.org/Portal:15.3&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 发布后立即在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 线上酒吧&lt;/a&gt;举办一个24小时的发布派对（Release Party）。&lt;/p&gt;
+
+&lt;p&gt;这个虚拟发布派对将有发布团队的成员、社区成员和董事会成员参加。&lt;/p&gt;
+
+&lt;p&gt;从 6 月 2 日 12:00 UTC 开始，发布派对将持续到 6 月 3 日 11:59 UTC（编注：及北京时间 6月2日 4:00 到 6月3日 3:59）。预计参与者将来自多个国家，欢迎人们参加并与 openSUSE 成员见面。&lt;/p&gt;
+
+&lt;p&gt;该活动让人们有机会认识参与项目的人和帮助发布 openSUSE Leap 发行版的贡献者。该活动还为社区提供了一个机会，使他们能够见面、社交并随意讨论经过6个多月开发的版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/25/opensuse-community-readies-for-release-party/&quot;&gt;openSUSE Community Readies for Release Party&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</guid>
       <title>openSUSE.Asia 2021 亚洲峰会公告</title>
       <pubDate>Tue, 25 May 2021 00:00:00 -0500</pubDate>
@@ -319,48 +353,6 @@ Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/04/30/llvm-kde-gear-gnome-update-in-tw/&quot;&gt;LLVM, KDE Gear, GNOME Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/28/%E7%A4%BE%E5%8C%BA%E5%8A%A8%E6%80%81%E7%AE%80%E6%8A%A5-2021.04.28.html</guid>
-      <title>社区动态简报 #20210428</title>
-      <pubDate>Wed, 28 Apr 2021 09:20:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/04/28/%E7%A4%BE%E5%8C%BA%E5%8A%A8%E6%80%81%E7%AE%80%E6%8A%A5-2021.04.28.html</link>
-      <author>Dongri</author>
-      <description>Tumbleweed
-
-
-  新快照 20210426 发行。
-  Kernel 构建失败导致 kernel-* 子版本号不统一，此问题已在 20210426 快照中修复。
-  UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。
-  部分用户报告火狐88.0无法使用。
-
-
-Leap
-
-
-  Leap 15.3 &amp;amp; SLE 15 SP3 进入发布候选（RC）阶段。
-  Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。
-
-
-</description>
-      <content:encoded>&lt;h2 id=&quot;tumbleweed&quot;&gt;Tumbleweed&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://review.tumbleweed.boombatower.com/2021/04/26/release.html&quot;&gt;新快照 20210426 发行。&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKWLMVHPAFGFULOIAXKS3NUEOGKBIZAL/&quot;&gt;Kernel 构建失败导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kernel-*&lt;/code&gt; 子版本号不统一，此问题已在 20210426 快照中修复。&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MRSYKFUGFSBZDCZDP73O35T5HLVWCOEQ/&quot;&gt;UsrMerge 所需改动已进入 Factory 源并通过 openQA，预计正式推送可能与 GCC 11 大型重构建同时进行。&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1185267&quot;&gt;部分用户报告火狐88.0无法使用。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;leap&quot;&gt;Leap&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5/2021/04/28/openSUSE-Leap-15.3%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html&quot;&gt;Leap 15.3 &amp;amp; SLE 15 SP3 进入发布候选（RC）阶段。&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1184243#c3&quot;&gt;Leap 15.3 Alpha YAST 内置更新源地址暂时错误，将在未来出现更新时自动修复。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 </content:encoded>
     </item>
 
