@@ -7,10 +7,32 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/27/openSUSE-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9.html</guid>
+      <title>openSUSE 中文社区为发布派对</title>
+      <pubDate>Thu, 27 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/27/openSUSE-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9.html</link>
+      <author>Nianqing Yao</author>
+      <description>为了庆祝 Leap 15.3 的发布，我们 openSUSE 中文社区准备了自己的发布派对，预定时间为 6 月 19 号，地点是川东第一道观旁老君洞旁的重庆邮电大学。
+
+我们邀请了北京 SUSE 的工程师来渝分享话题，还有 Arch 和 Deepin 的开发者来现场和大家交流，欢迎的社区贡献者来渝参加。如果有想与各位贡献者讨论的话题，请在论坛讨论帖下报名。
+
+期待在火锅之城看见您的身影！（放心，我们提供清汤火锅）
+
+</description>
+      <content:encoded>&lt;p&gt;为了庆祝 Leap 15.3 的发布，我们 openSUSE 中文社区准备了自己的发布派对，预定时间为 6 月 19 号，地点是川东第一道观旁老君洞旁的重庆邮电大学。&lt;/p&gt;
+
+&lt;p&gt;我们邀请了&lt;a href=&quot;https://github.com/AbikoWarakawa&quot;&gt;北京 SUSE 的工程师&lt;/a&gt;来渝分享话题，还有 Arch 和 Deepin 的开发者来现场和大家交流，欢迎的社区贡献者来渝参加。如果有想与各位贡献者讨论的话题，请在&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13907&quot;&gt;论坛讨论帖&lt;/a&gt;下报名。&lt;/p&gt;
+
+&lt;p&gt;期待在火锅之城看见您的身影！（放心，我们提供清汤火锅）&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</guid>
       <title>openSUSE 社区为发布派对做准备</title>
       <pubDate>Wed, 26 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE项目计划在 openSUSE Leap 15.3 发布后立即在 openSUSE 线上酒吧举办一个24小时的发布派对（Release Party）。
 
@@ -41,10 +63,10 @@
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</guid>
       <title>openSUSE.Asia 2021 亚洲峰会公告</title>
       <pubDate>Tue, 25 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</link>
       <author>Hanjingxue Boling</author>
       <description>2021年 openSUSE.Asia 在线峰会，印度法里达巴德 我们原计划将 2020 年在印度举办 openSUSE.Asia 峰会，但由于 Covid 19 的大流行，不得不取消这次活动。由于世界已经从线下模式转变为线上模式，我们在 openSUSE.Asia 委员会成员的支持下，提议以线上模式组织 2021 年 openSUSE.Asia 峰会。我们很高兴我们的提议被 openSUSE 董事会接受。 印度 openSUSE 的支持者们，以及整个自由/自由开源软件（Free/Libre Open Source Software, FLOSS）的支持者们，对组织最令人期待的 openSUSE.Asia 峰会活动感到兴奋。在这个活动中，专家、贡献者、终端用户和技术爱好者将聚集在一起，分享关于 openSUSE 的发展和其他与 FLOSS 有关的经验，并获得很多乐趣。 openSUSE.Asia 峰会的地点是在印度尼西亚巴厘岛举行的 2019 年 openSUSE.Asia 峰会期间由印度社区提议后选定的。亚洲委员会决定法里达巴德为 2021 年 openSUSE.Asia 峰会的主办地，时间为 2021 年 8 月 6 日至 8 月...</description>
       <content:encoded>&lt;p&gt;&lt;em&gt;2021年 openSUSE.Asia 在线峰会，印度法里达巴德&lt;/em&gt;&lt;/p&gt;
@@ -322,51 +344,6 @@ Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方�
 
 &lt;p&gt;我们将发挥邮件列表本身的作用，在其中为用户提供重要的公告与新闻。您也可以在邮件列表内展开讨论。&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/tumbleweed%E5%91%A8%E6%8A%A5/2021/05/01/Tumbleweed%E5%91%A8%E6%8A%A5-2021wk17.html</guid>
-      <title>Tumbleweed 周报 2021/17</title>
-      <pubDate>Sat, 01 May 2021 04:20:00 -0500</pubDate>
-      <link>/tumbleweed%E5%91%A8%E6%8A%A5/2021/05/01/Tumbleweed%E5%91%A8%E6%8A%A5-2021wk17.html</link>
-      <author>Dominique Leuenberger, Dongri</author>
-      <description>亲爱的 Tumbleweed 用户们： 本周，除了由于 kernel 5.11.16 构建失败，导致某个快照中的 kernel 各包版本不统一外，基本平安无事。 本周5个快照的发布速度基本均匀（0423、0425、0426、0427、0428）。 本周的主要更新包括： Linux kernel 5.11.16 &amp;amp; 5.12.0 KDE Gear 21.04.0 （即 KDE Applications） Mozilla Firefox 88.0 NetworkManager 1.30.4 Virtualbox 6.1.20： 一些服务的名称变化，如 vboxautostart.service 变为 vboxautostart-service.service 对于接下来的快照，目前的更新计划包括： TeXLive 2021 (译注：已完成于tw20210429) 默认的 openmpi 从 openmpi2 切换到 openmpi4 GNOME 40.1 icu 69.1：剩下的唯一问题可能是 nodejs 15 从...</description>
-      <content:encoded>&lt;p&gt;亲爱的 Tumbleweed 用户们：&lt;/p&gt;
-
-&lt;p&gt;本周，除了由于 kernel 5.11.16 构建失败，导致某个快照中的 kernel 各包版本不统一外，基本平安无事。
-本周5个快照的发布速度基本均匀（0423、0425、0426、0427、0428）。&lt;/p&gt;
-
-&lt;p&gt;本周的主要更新包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Linux kernel 5.11.16 &amp;amp; 5.12.0&lt;/li&gt;
-  &lt;li&gt;KDE Gear 21.04.0 （即 KDE Applications）&lt;/li&gt;
-  &lt;li&gt;Mozilla Firefox 88.0&lt;/li&gt;
-  &lt;li&gt;NetworkManager 1.30.4&lt;/li&gt;
-  &lt;li&gt;Virtualbox 6.1.20： 一些服务的名称变化，如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vboxautostart.service&lt;/code&gt; 变为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vboxautostart-service.service&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对于接下来的快照，目前的更新计划包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TeXLive 2021 (译注：已完成于&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/M6IUNZK4MCSY5NQZHOU4BLDVH4Y4W7GV/&quot;&gt;tw20210429&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;默认的 openmpi 从 openmpi2 切换到 openmpi4&lt;/li&gt;
-  &lt;li&gt;GNOME 40.1&lt;/li&gt;
-  &lt;li&gt;icu 69.1：剩下的唯一问题可能是 nodejs 15&lt;/li&gt;
-  &lt;li&gt;从 go 1.15 切换到 go 1.16：多数包已经正常，Staging:M 中唯一构建失败的包是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cilium&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;默认编译器切换到 GCC 11：从测试用的 Staging:Gcc7 转移到 Staging:O（包括 openQA test coverage），还有几个构建错误需要解决&lt;/li&gt;
-  &lt;li&gt;UsrMerge：目前的情况是：我们已经签入所有更改，计划在近期正式切换，可能与为 GCC 11 安排的整体重构建同时进行&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;祝好，&lt;/p&gt;
-
-&lt;p&gt;Dominique&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/JH2RO23VUE4FPXRCYYPVNUN6OWSMMWAR/&quot;&gt;Dominique&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;翻译：Dongri&lt;/p&gt;
 </content:encoded>
     </item>
 
