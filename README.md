@@ -24,5 +24,5 @@ openSUSE 中文社区主页是给社区提供新闻与公告的页面。以下�
 
 ## 怎么发布文章？
 
-参见[CONTRIBUTION.md](CONTRIBUTION.md)
+参见[CONTRIBUTING.md](CONTRIBUTING.md)
 
