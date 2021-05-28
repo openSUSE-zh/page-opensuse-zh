@@ -29,6 +29,34 @@
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/27/Mesa,-Nodejs,-Zstd-%E5%9C%A8_Tumbleweed-%E4%B8%AD%E5%8D%87%E7%BA%A7.html</guid>
+      <title>Mesa, Nodejs, Zstd 在 Tumbleweed 中升级</title>
+      <pubDate>Thu, 27 May 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/27/Mesa,-Nodejs,-Zstd-%E5%9C%A8_Tumbleweed-%E4%B8%AD%E5%8D%87%E7%BA%A7.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周到目前为止，共发布了四个 openSUSE Tumbleweed 快照。 这些快照更新了 Mozilla Thunderbird、Mesa、Node.js、PipeWire 和压缩包 Zstd 以及其他一些软件包。 快照 20210524 更新了音频和视频包 pipewire 0.3.28，增加了一个新的强大的滤波链模块，可以用来创建 Linux Audio Developer’s Simple Plugin API 中的各种滤波链；还实现了许多 PulseAudio 模块。Node.js 16.2.0 在 import.meta.resolve 中增加了对 URL 的模块支持。文本和布局渲染包 pango 更新到了1.48.5版本，可以加速 Emoji 分类。pango 的更新还修复了一些挂起和一个内存泄漏。快照中的 Mesa 21.1.1 更新主要提供了 AMD 和 Intel 的变更，但也有相当数量的 arm 修复。快照中其他需要更新的软件包是 libstorage-ng 4.4.9 和 webkit2gtk3 2.32.1 。...</description>
+      <content:encoded>&lt;p&gt;本周到目前为止，共发布了四个 openSUSE Tumbleweed 快照。&lt;/p&gt;
+
+&lt;p&gt;这些快照更新了 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;、&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 和压缩包 &lt;a href=&quot;https://facebook.github.io/zstd/&quot;&gt;Zstd&lt;/a&gt; 以及其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FW66UOPY7RXXSW47DNGH53Q4EAFVTTF4/&quot;&gt;20210524&lt;/a&gt; 更新了音频和视频包 pipewire 0.3.28，增加了一个新的强大的滤波链模块，可以用来创建 &lt;a href=&quot;https://www.ladspa.org/&quot;&gt;Linux Audio Developer’s Simple Plugin API&lt;/a&gt; 中的各种滤波链；还实现了许多 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/PulseAudio/&quot;&gt;PulseAudio&lt;/a&gt; 模块。Node.js 16.2.0 在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;import.meta.resolve&lt;/code&gt; 中增加了对 URL 的模块支持。文本和布局渲染包 &lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 更新到了1.48.5版本，可以加速 Emoji 分类。&lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 的更新还修复了一些挂起和一个内存泄漏。快照中的  Mesa 21.1.1 更新主要提供了 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; 和 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; 的变更，但也有相当数量的 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 修复。快照中其他需要更新的软件包是 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.9 和 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.32.1 。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CLD477HZXZMEAZAP4VBTUWUGNMYT3M7F/&quot;&gt;20210522&lt;/a&gt; 中只有两个软件包被更新。纸牌游戏包 &lt;a href=&quot;https://www.shlomifish.org/open-source/projects/black-hole-solitaire-solver/&quot;&gt;black-hole-solver&lt;/a&gt; 更新到了1.10.1版本，并增加了一个最大牌量的标志。包处理包 &lt;a href=&quot;https://github.com/DPDK/dpdk&quot;&gt;dpdk&lt;/a&gt; 19.11.8 在其 19.11.4 版本的更新中修复了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和暴露&lt;/a&gt;，并增加了多个虚拟主机补丁。&lt;/p&gt;
+
+&lt;p&gt;Zstd 1.5.0 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/U5HMT5622MBFRJHLCV5IG7USOP2543K4/&quot;&gt;20210521&lt;/a&gt; 中改进了中级压缩速度和高级压缩率。也被称为 Zstandard，该压缩包还增加了一个补丁，以修复在 armv8 64 位内核上运行 armv6 用户空间的崩溃。压缩分割器包 &lt;a href=&quot;https://github.com/zchunk/zchunk&quot;&gt;zchunk&lt;/a&gt; 更新到了 1.1.14 版本，它修复了对新版 Zstd 的支持，并更新了对它的测试套件。蓝牙配置工具 &lt;a href=&quot;https://github.com/linuxmint/blueberry&quot;&gt;blueberry&lt;/a&gt; 1.4.2 更新了翻译。在快照中还有一些其他软件包的更新和一个修订；&lt;a href=&quot;https://rubygems.org/gems/marcel/&quot;&gt;rubygem-marcel&lt;/a&gt; 从1.0.1版恢复到0.3.3版，这是为了纠正和修复 &lt;a href=&quot;https://guides.rubyonrails.org/6_0_release_notes.html&quot;&gt;rails 6.0 的安装&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EGJXRZPZDCBWITAC3PUJYPBJP5CUJ3CB/&quot;&gt;20210520&lt;/a&gt; 是本周的开始，有最大数量的软件包更新。Mozilla Thunderbird 增加了对导入没有主秘钥的 &lt;a href=&quot;https://www.openpgp.org/&quot;&gt;OpenPGP&lt;/a&gt; 密钥的支持，并修复了一个存储没有主密码保护的 OpenPGP 秘钥的 CVE 。跨平台解码器 &lt;a href=&quot;https://code.videolan.org/videolan/dav1d/&quot;&gt;dav1d&lt;/a&gt; 0.9.0 增加了一个新的&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;应用程序接口&lt;/a&gt;，以提示解码过程中发生的事件。 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.12.4 在快照中进行了更新，并对蓝牙进行了修改，在删除主机控制器接口层时消除了潜在的竞争条件。编程语言 &lt;a href=&quot;https://www.gnu.org/software/guile/&quot;&gt;guile&lt;/a&gt; 更新到了3.0.7版本，并优化了运行时重定位；它还有一个新的库搜索路径变量 - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GUILE_EXTENSIONS_PATH&lt;/code&gt; 。在快照中，有几个主要的版本更新；用于管理窗口和工作区的库在 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libwnck&quot;&gt;libwnck&lt;/a&gt; 40.0主要版本更新中增加了禁用滚动的API。&lt;a href=&quot;https://github.com/linux-rdma/rdma-core&quot;&gt;rdma-core&lt;/a&gt; 的 35.0 主要版本更新修复了 Tumbleweed 启动过程中的一些dracut路径问题。其他在快照中更新的软件包有 poppler 21.05.0，&lt;a href=&quot;https://www.hwinfo.com/&quot;&gt;hwinfo&lt;/a&gt; 21.74，&lt;a href=&quot;https://extensions.gnome.org/&quot;&gt;gnome-shell-extensions&lt;/a&gt; 40.1 和 &lt;a href=&quot;https://github.com/SSSD/sssd&quot;&gt;ssd&lt;/a&gt; 2.5.0。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/27/mesa-nodejs-zstd-update-in-tw/&quot;&gt;Mesa, Nodejs, Zstd Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</guid>
       <title>openSUSE 社区为发布派对做准备</title>
       <pubDate>Wed, 26 May 2021 00:00:00 -0500</pubDate>
@@ -317,32 +345,6 @@ Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/12/opensuse-leap-15-3-expands-with-armv7/&quot;&gt;openSUSE Leap 15.3 Expands with armv7&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/03/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E9%82%AE%E4%BB%B6%E5%88%97%E8%A1%A8%E9%87%8D%E6%96%B0%E4%B8%8A%E7%BA%BF.html</guid>
-      <title>中文社区邮件列表重新上线</title>
-      <pubDate>Mon, 03 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/03/%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E9%82%AE%E4%BB%B6%E5%88%97%E8%A1%A8%E9%87%8D%E6%96%B0%E4%B8%8A%E7%BA%BF.html</link>
-      <author>Nianqing Yao</author>
-      <description>数年前中文社区的邮件列表因为长期的静默而被关停，近期 openSUSE 中文社区决定重新启用邮件列表。
-
-
-
-经过了与 openSUSE 方面的协商工作，邮件列表已于昨天夜间开始运行。您可以访问我们的邮件列表网站，来订阅邮件列表，也可以直接向我们的邮件列表服务器发送消息来获取有关信息与操作指南。感谢 openSUSE 中文社区钦定吉祥物精灵猫猫( 周杰伦 Grover Chou )对此做出的贡献。
-
-我们将发挥邮件列表本身的作用，在其中为用户提供重要的公告与新闻。您也可以在邮件列表内展开讨论。
-
-</description>
-      <content:encoded>&lt;p&gt;数年前中文社区的邮件列表因为长期的静默而被关停，近期 openSUSE 中文社区决定重新启用邮件列表。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-05/中文社区邮件列表重新上线.png&quot; alt=&quot;我们的 Jay Chou&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;经过了与 openSUSE 方面的协商工作，邮件列表已于昨天夜间开始运行。您可以访问我们的&lt;a href=&quot;https://lists.opensuse.org/manage/lists/users-zh.lists.opensuse.org/&quot;&gt;邮件列表网站&lt;/a&gt;，来订阅邮件列表，也可以直接向我们的邮件列表服务器&lt;a href=&quot;mailto:users-zh-request@lists.opensuse.org?subject=help&quot;&gt;发送消息&lt;/a&gt;来获取有关信息与操作指南。感谢 openSUSE 中文社区&lt;del&gt;钦定吉祥物&lt;/del&gt;精灵猫猫( &lt;del&gt;周杰伦&lt;/del&gt; Grover Chou )对此做出的贡献。&lt;/p&gt;
-
-&lt;p&gt;我们将发挥邮件列表本身的作用，在其中为用户提供重要的公告与新闻。您也可以在邮件列表内展开讨论。&lt;/p&gt;
 
 </content:encoded>
     </item>
