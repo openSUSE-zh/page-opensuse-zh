@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/31/%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E8%80%85%E6%8F%90%E4%BE%9B%E6%9C%89%E5%85%B3_Leap_15_4_%E6%97%A9%E6%9C%9F%E5%8A%9F%E8%83%BD%E7%94%B3%E8%AF%B7%E7%9A%84%E6%9C%80%E6%96%B0%E4%BF%A1%E6%81%AF.html</guid>
+      <title>发布管理者提供有关 Leap 15.4 早期功能申请的最新信息</title>
+      <pubDate>Mon, 31 May 2021 03:10:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/31/%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E8%80%85%E6%8F%90%E4%BE%9B%E6%9C%89%E5%85%B3_Leap_15_4_%E6%97%A9%E6%9C%9F%E5%8A%9F%E8%83%BD%E7%94%B3%E8%AF%B7%E7%9A%84%E6%9C%80%E6%96%B0%E4%BF%A1%E6%81%AF.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 的发布管理者正在完成 Leap 15.3 的发布，但希望让贡献者和开发者了解 Leap 15.4 版本的早期功能请求截止日期。 早期功能请求非常重要，因为 Leap 与 SUSE Linux Enterprise 兼容，而且 Service Pack 4 的早期功能请求截止日期是 6 月 26 日。 “这对 openSUSE Leap 15.4 的贡献者非常重要，因为 Leap 15.4 三分之一的二进制文件将复用来自 SUSE Linux Enterprise 的二进制包，因此那里接受提交请求，”发布管理者 Lubos Kocman 在项目的邮件列表中写道。“只是要澄清一下，这个截止日期对每个人都是一样的，无论是最大的合作伙伴、社区贡献者还是员工”。 openSUSE Leap 和 Package Hub 专属软件包将有类似的截止日期，如路线图中所述。 “我们的目标是在 2022 年 6 月初推出...</description>
+      <content:encoded>&lt;p&gt;openSUSE Leap 的发布管理者正在完成 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt; 的发布，但希望让贡献者和开发者了解 Leap 15.4 版本的早期功能请求截止日期。&lt;/p&gt;
+
+&lt;p&gt;早期功能请求非常重要，因为 Leap 与 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 兼容，而且 Service Pack 4 的早期功能请求截止日期是 6 月 26 日。&lt;/p&gt;
+
+&lt;p&gt;“这对 openSUSE Leap 15.4 的贡献者非常重要，因为 Leap 15.4 三分之一的二进制文件将复用来自 SUSE Linux Enterprise 的二进制包，因此那里接受提交请求，”发布管理者 Lubos Kocman 在&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/S3QFUB3CFWKP2KAHV63DG2QKYRQOPNQ5/&quot;&gt;项目的邮件列表&lt;/a&gt;中写道。“只是要澄清一下，这个截止日期对每个人都是一样的，无论是最大的合作伙伴、社区贡献者还是员工”。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 和 Package Hub 专属软件包将有类似的截止日期，如&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;中所述。&lt;/p&gt;
+
+&lt;p&gt;“我们的目标是在 2022 年 6 月初推出 Leap 15.4 GA，因此截止日期只会与之前的版本略有不同，”Kocman 写道。&lt;/p&gt;
+
+&lt;p&gt;这种交流主要是为了确定人们希望在 SLE 15 SP4 中拥有的非常明显的更新或功能要求，从而继承到 openSUSE Leap 15.4 。在后来的开发周期中的请求有一个更复杂的路径，但也有&lt;a href=&quot;https://en.opensuse.org/ECO&quot;&gt;相应的流程&lt;/a&gt;。这些过程有更多的复杂因素需要通过，而且一般需要更长的时间，所以请尽早申请功能。请求并不意味着提交的代码必须准备好，但它确实意味着为它创建一个 issue 。&lt;/p&gt;
+
+&lt;p&gt;“我正在与 Neal Gompa 和其他&lt;a href=&quot;https://en.opensuse.org/Portal:Jump/Policy/CommunitySLEChangeRequests#Weekly_reviews_of_open_features&quot;&gt;在周一加入我们电话会议&lt;/a&gt;的人一起处理请求，”科克曼写道。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/31/release-manager-provides-update-on-early-feature-requests-for-leap/&quot;&gt;Release Manager Provides Update on Early Features Requisitions for Leap 15.4&lt;/a&gt;，作者： Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/27/openSUSE-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9.html</guid>
       <title>openSUSE 中文社区发布派对</title>
       <pubDate>Thu, 27 May 2021 00:00:00 -0500</pubDate>
@@ -321,30 +350,6 @@ Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方�
 
 &lt;hr /&gt;
 &lt;p&gt;源文：&lt;a href=&quot;https://en.opensuse.org/Portal:Leap/openSUSE:Step&quot;&gt;Portal:Leap/openSUSE:Step&lt;/a&gt;&lt;/p&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/12/openSUSE-Leap-15.3-%E5%A2%9E%E5%8A%A0%E5%AF%B9-armv7-%E6%94%AF%E6%8C%81.html</guid>
-      <title>openSUSE Leap 15.3 增加 armv7 支持</title>
-      <pubDate>Wed, 12 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/12/openSUSE-Leap-15.3-%E5%A2%9E%E5%8A%A0%E5%AF%B9-armv7-%E6%94%AF%E6%8C%81.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 社区的开发者希望在 openSUSE Step 的背景下利用 armv7l 的努力来发展 openSUSE Leap 和 SUSE Linux Enterprise 的共同开发方式。 在2月份，社区宣布了 openSUSE Step 计划，目的是扩大 SUSE Linux Enterprise (SLE) 未来的对不同 CPU 架构的覆盖。 Step 项目从开放构建服务（OBS）的 openSUSE 实例中发布的源码包中重建 SLE，目的是尽可能地与 SLE 保持兼容。就在最近，该项目在 OBS 中建立了 armv7l 作为一个 Leap 兼容适配。 “正如调查的结果显示，Leap 仍然有很多 armv7 用户，” arm 开发者和社区贡献者 Guillaume Gardet 说，“我们听取了这一反馈，以解决 armv7 用户的潜在用例，并找到了一个解决方案。” Leap...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的开发者希望在 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的背景下利用 armv7l 的努力来发展 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap&quot;&gt;openSUSE Leap&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 的共同开发方式。&lt;/p&gt;
-
-&lt;p&gt;在2月份，社区宣布了 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap/openSUSE:Step&quot;&gt;openSUSE Step&lt;/a&gt; 计划，目的是扩大 SUSE Linux Enterprise (SLE) 未来的对不同 CPU 架构的覆盖。&lt;/p&gt;
-
-&lt;p&gt;Step 项目从&lt;a href=&quot;https://build.opensuse.org/&quot;&gt;开放构建服务&lt;/a&gt;（OBS）的 openSUSE 实例中发布的源码包中重建 SLE，目的是尽可能地与 SLE 保持兼容。就在最近，该项目在 OBS 中建立了 armv7l 作为一个 Leap 兼容适配。&lt;/p&gt;
-
-&lt;p&gt;“正如&lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Surveys/ARM_Usecases&quot;&gt;调查的结果&lt;/a&gt;显示，Leap 仍然有很多 armv7 用户，” arm 开发者和社区贡献者 Guillaume Gardet 说，“我们听取了这一反馈，以解决 armv7 用户的潜在用例，并找到了一个解决方案。”&lt;/p&gt;
-
-&lt;p&gt;Leap ports 为 SLE 不支持的架构提 Leap 发行版， 例如 32 位架构。Step armv7l 与 &lt;a href=&quot;https://en.opensuse.org/Portal:Backports&quot;&gt;Backports&lt;/a&gt; 一起构成了 armv7l 的 Leap 兼容适配。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/12/opensuse-leap-15-3-expands-with-armv7/&quot;&gt;openSUSE Leap 15.3 Expands with armv7&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 </content:encoded>
     </item>
