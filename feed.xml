@@ -59,6 +59,149 @@ ln -s ../../../../usr/src/linux-5.12.4-2-obj/x86_64/default build
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/02/Leap-15.3-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html</guid>
+      <title>Leap 15.3 发行公告</title>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/02/Leap-15.3-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html</link>
+      <author>Nianqing Yao</author>
+      <description>openSUSE Leap 15.3 搭建前往企业的桥梁 EN / CA / CS / DE / ES / FR / ID / IT / JA / NL / PT / SV / ZH-CN / ZH-TW 02/06/2021 纽伦堡，德国 – openSUSE Leap 15.3 现已发布！ 最近发布了最新的 openSUSE Leap 小版本，作为坚如磐石的 openSUSE 15.x 系列的新成员，它继承了前代产品的所有优秀特性。这次的版本相比较之前 Leap 的有了一个巨大的变化，openSUSE Leap 15.3 并没有像之前的版本一样编译自...</description>
+      <content:encoded>&lt;h2 id=&quot;opensuse-leap-153-搭建前往企业的桥梁&quot;&gt;openSUSE Leap 15.3 搭建前往企业的桥梁&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.opensuse.org/Release_announcement_15.3&quot;&gt;EN&lt;/a&gt; / &lt;a href=&quot;http://en.opensuse.org/Anunci_de_publicaci%C3%B3_15.3&quot;&gt;CA&lt;/a&gt; / CS / DE / &lt;a href=&quot;http://es.opensuse.org/Anuncio_publicaci%C3%B3n_15.3&quot;&gt; ES&lt;/a&gt; / &lt;a href=&quot;http://fr.opensuse.org/Annonce_de_version_15.3&quot;&gt;FR&lt;/a&gt; / &lt;a href=&quot;https://etherpad.opensuse.org/p/r.161fedc20391ba34693f1a04e1933ef5&quot;&gt;ID&lt;/a&gt; / &lt;a href=&quot;http://it.opensuse.org/Annuncio_di_rilascio_versione_15.3&quot;&gt;IT&lt;/a&gt; / JA / &lt;a href=&quot;http://nl.opensuse.org/Release_announcement_15.3&quot;&gt;NL&lt;/a&gt; / &lt;a href=&quot;http://pt.opensuse.org/Anuncio_de_lan%C3%A7amento_15.3&quot;&gt;PT&lt;/a&gt; / &lt;a href=&quot;https://en.opensuse.org/Release_announcement_15.3SV&quot;&gt;SV&lt;/a&gt; / &lt;strong&gt;ZH-CN&lt;/strong&gt; / &lt;a href=&quot;http://zh-tw.opensuse.org/Release_announcement_15.3&quot;&gt;ZH-TW&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;02/06/2021&lt;/p&gt;
+
+&lt;p&gt;纽伦堡，德国 – &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt; 现已发布！&lt;/p&gt;
+
+&lt;p&gt;最近发布了最新的 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap&quot;&gt;openSUSE Leap&lt;/a&gt; 小版本，作为坚如磐石的 openSUSE 15.x 系列的新成员，它继承了前代产品的所有优秀特性。这次的版本相比较之前 Leap 的有了一个巨大的变化，openSUSE Leap 15.3 并没有像之前的版本一样编译自 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 的代码，但是使用了完全一样的二进制包进行了构建，从而使 Leap 和 SLE 之间能像&lt;a href=&quot;https://youtu.be/ezmR9Attpyc&quot;&gt;阴阳&lt;/a&gt;一样对立而又统一。&lt;/p&gt;
+
+&lt;p&gt;版本经理 Lubos Kocman 说：“新版本的软件工程使得 openSUSE Leap 成为 IT 专家、企业家、业余爱好者、小型企业与教育人员在服务器、工作站、台式机和容器上运行的理想发行版。”&lt;/p&gt;
+
+&lt;p&gt;这个版本对与进行移植项目和进行用户测试（UAT）工作的用户有着明显优势。大型开发团队得以在 openSUSE Leap 15.3 
+上优化运行与测试工作的工作流程，从而减少转移到 SUSE Linux Enterprise Linux 15 SP3 进行长期的维护的工作。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 的每个版本通过提供至少 18 个月的升级获得了明显的优势。社区会通过社区渠道支持并且参与使用旧版本 Leap 的用户之间的交流，你可以通过如下社区渠道与他们交流：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;mailing lists （即将开启），&lt;a href=&quot;https://forum.suse.org.cn/&quot;&gt;openSUSE中文社区&lt;/a&gt;，&lt;a href=&quot;https://matrix.to/#/#openSUSE-cn:matrix.org&quot;&gt;Matrix&lt;/a&gt;，&lt;a href=&quot;https://discord.gg/CSUfDgMX8N&quot;&gt;Discord&lt;/a&gt;，&lt;a href=&quot;https://t.me/opensuse_cn&quot;&gt;Telegram&lt;/a&gt;，&lt;a href=&quot;irc://irc.opensuse.org/opensuse-cn&quot;&gt;IRC&lt;/a&gt;，等等。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这种社区发行版 Leap 与企业发行版 SLE 之间的交织，联系和相互支持，为开发者、系统管理员、发行版爱好者、独立软件开发商（ISV）还有 SUSE 用户与客户们带来了一个激动人心的版本。&lt;/p&gt;
+
+&lt;p&gt;由于 openSUSE Leap 15.3 and SLE 15 Service Pack 3 之间相互的共享关系，这给予了用户在成千上万个社区软件包里能有相同的选择。这些社区软件包构建于一个叫&lt;a href=&quot;https://en.opensuse.org/openSUSE:Packaging_for_Leap#How_do_packages_from_SUSE_Linux_Enterprise_get_to_openSUSE_Leap.3F&quot;&gt;“Backports”&lt;/a&gt;的基于 SLE 基线的项目。Backport 也发布于 &lt;a href=&quot;https://packagehub.suse.com/&quot;&gt;SUSE Package Hub&lt;/a&gt; 所以从 Leap 迁移至 SLE 是迅速而且统一的。在两者之间迁移是非常快的，通过 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 文件系统，用户可以在 Leap 上测试，在 SLE 上部署，甚至回滚到 Leap 版本的快照上。&lt;/p&gt;
+
+&lt;p&gt;Leap 授权其用户可以运行与多 CPU 硬件上并且无限制的托管虚拟机。如果以后 Leap 用户需要企业技术支持，可以直接把现有的服务器，虚拟机或者容器迁移至 SUSE Linux Enterprise。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 与&lt;a href=&quot;https://en.opensuse.org/Portal:15.2&quot;&gt;之前版本&lt;/a&gt;的许多软件包是相同的。Leap 15.3 带来了 Bug 修复和安全 backport，可用于经过验证的 &lt;a href=&quot;http://kroah.com/log/blog/2018/08/24/what-stable-kernel-should-i-use/#Distribution%20kernels&quot;&gt;长期支持（LTS）内核&lt;/a&gt;。这确保了用户有一个稳定的服务器系统，同时也为用户提供了一些新硬件的驱动。&lt;/p&gt;
+
+&lt;h2 id=&quot;从之前的-leap-版本升级&quot;&gt;从之前的 Leap 版本升级&lt;/h2&gt;
+
+&lt;p&gt;升级到
+openSUSE Leap 15.3 的用户需要注意，不建议从 openSUSE Leap 15.2 
+之前的版本直接升级。由于升级路径的原因，强烈建议在升级到 Leap 15.3 之前先升级到 Leap 15.2。该版本只支持从 openSUSE
+Leap 15.2 升级到 15.3，正如&lt;a href=&quot;https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/RELEASE-NOTES.zh_CN.html#upgrade&quot;&gt;发行说明&lt;/a&gt;中所强调的。&lt;/p&gt;
+
+&lt;h2 id=&quot;新鲜出炉&quot;&gt;新鲜出炉&lt;/h2&gt;
+
+&lt;p&gt;新的主要功能在 &lt;a href=&quot;https://www.xfce.org&quot;&gt;Xfce&lt;/a&gt; &lt;a href=&quot;https://www.xfce.org/about/news/?post=1608595200&quot;&gt;4.16&lt;/a&gt;。在
+Xfce 的这个版本中有一个新的视觉形象。有了新的图标和调色板，Xfce 
+在开箱后更闪亮了一些。设置管理器的过滤框得到了视觉上的更新，现在可以永久隐藏。通过搜索每个对话框的启动器（又称 
+.desktop）文件的描述性“评论”部分，过滤框的搜索功能得到了改进。电源管理器的设置对话框被清理，显示“使用电池”或“充电”的设置，而不是在一个巨大的表格中显示两者。&lt;/p&gt;
+
+&lt;p&gt;GNU Health，屡获殊荣的健康和医院管理及信息系统，在 3.8 
+版本中增加了一个新的牙科模块和牙形图。作为第一个发行版本，openSUSE 提供了MyGNUHealth，一个个人医疗健康管理器，它是由 GNU
+Health 和 KDE 项目合作开发的。它可以在 PinePhone 和 Plasma 桌面上运行，并给予用户对其数据的完全所有权和控制。&lt;/p&gt;
+
+&lt;p&gt;DNF 软件包管理器预计在维护更新中，将给用户提供 4.7.0 版本，在整个堆栈中提供新的功能和预期的改进。DNF 的 
+Python API 
+是稳定和受支持的。一个实验性的“opensuse/leap-dnf”和“opensuse/leap-microdnf”基础容器现在可用。包含了一个轻量级的
+DNF 的 C 实现，称为“Micro DNF”。它被设计用来在用户想要尽可能小而有用的环境时，做简单的包管理动作，而不需要一个完整的 
+DNF。这对于最小的容器和设备的情况很有用。Micro DNF 已被重新定位到 3.8.0，它带来了许多修复和改进。最后，一个实验性的 
+PackageKit 后台替代品也可以用于 DNF。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 在多种架构上运行良好，这个版本增加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;IBM Z 和 LinuxONE (s390x)&lt;/a&gt; 系统的支持。该社区发行版通过与 SLE 二进制兼容的努力中获得了对 s390x 架构的访问支持。&lt;/p&gt;
+
+&lt;p&gt;在以前的 Leap 版本中，&lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;arch64&lt;/a&gt; 是 ports 的一部分，由资源有限的独立社区团队维护。现在 openSUSE Leap 直接使用来自企业端的 aarch64、powerpc64 和 x86_64 的二进制包，所以用户可以在 &lt;a href=&quot;https://get.opensuse.org&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到这些镜像。对 armv7 和其他架构感兴趣的人应该阅读关于 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
+
+&lt;h3 id=&quot;容器技术&quot;&gt;容器技术&lt;/h3&gt;
+
+&lt;p&gt;容器技术的软件包都是与 Leap 15.2 的相同版本，但所有的包都有安全更新，如 &lt;a href=&quot;https://containerd.io/&quot;&gt;containerd&lt;/a&gt;、&lt;a href=&quot;https://podman.io/&quot;&gt;podman&lt;/a&gt;、&lt;a href=&quot;https://github.com/kubernetes/kubeadm&quot;&gt;kubeadm&lt;/a&gt; 和 &lt;a href=&quot;https://cri-o.io/&quot;&gt;cri-o&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.3 的用户将有更多的能力使用发行版中维护的较新的容器技术来开发、运送和部署容器化应用程序。
+&lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;
+极大地促进了容器编排能力，使用户能够自动部署、扩展和管理容器化应用。Helm 是 Kubernetes 
+的软件包管理器，通过定义、安装和升级最复杂的 Kubernetes 应用，帮助开发者和系统管理员管理复杂性。
+使用符合开放容器倡议（OCI）的运行时（CRI-O）的容器运行时接口（CRI）也包含在这个版本中。CRI-O 是使用 Docker 
+作为运行时的轻量级替代方案，它允许 Kubernetes 使用任何符合OCI的运行时作为容器运行时，以运行集群上运行的 pod 或进程。
+即使使用&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;，由于更多的容器软件包在这个版本中到可用，微服务的使用也会很安全。&lt;/p&gt;
+
+&lt;p&gt;容器如果以后需要“开启”企业支持的话，Leap 的用户可以在几分钟内将现有的服务器、虚拟机或容器迁移到 SUSE Linux Enterprise 上。&lt;/p&gt;
+
+&lt;p&gt;对于可以运行多少个 CPU，可以托管多少个虚拟机，机器可以运行多长时间，都没有任何限制。&lt;/p&gt;
+
+&lt;h3 id=&quot;人工智能-ai-与机器学习&quot;&gt;人工智能 (AI) 与机器学习&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;Tensorflow&lt;/a&gt;: 一个可供数据科学家使用的深度学习框架，提供数值计算和数据流图。其灵活的架构使用户能够将计算部署到桌面、服务器或移动设备的一个或多个 CPU 上，而无需重写代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pytorch.org/tutorials/&quot;&gt;PyTorch&lt;/a&gt;： 这个机器学习库同时适用于服务器和计算资源，它加速了高级用户对项目进行原型设计并将其转移到生产部署的能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://onnx.ai/&quot;&gt;ONNX&lt;/a&gt;：一种用于表示机器学习模型的开放格式，在人工智能工具领域提供了互操作性。它使人工智能开发者能够使用各种框架、工具、运行时和编译器的模型。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://grafana.com/&quot;&gt;Grafana&lt;/a&gt; 和 &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt; 对分析专家非常有用。Grafana 为最终用户提供了创建交互式可视化分析的能力。功能丰富的数据建模包：Graphite、Elastic 和 Prometheus ，为 openSUSE 用户提供了更大的自由度，可以更智能地构建、计算和解读数据。&lt;/p&gt;
+
+&lt;h3 id=&quot;桌面环境&quot;&gt;桌面环境&lt;/h3&gt;
+
+&lt;p&gt;KDE Plasma 5.18 的长期支持版在 Leap 15.3 中再次推出。LTS 
+有大量的润色和高质量的功能。通知更清晰，设置更精简，整体外观更有吸引力。GNOME 3.34 
+为一些应用程序提供了相当数量的视觉刷新。sysprof 中更多的数据源使得应用程序的性能分析变得更加容易，并且对 Builder 
+进行了多项改进，包括一个集成的 D-Bus 检查器。&lt;/p&gt;
+
+&lt;p&gt;加上 Cinnamon 的新模式，Leap 15.3 总共提供了8个有吸引力的桌面（平行）安装，以满足个人喜好和硬件能力。&lt;/p&gt;
+
+&lt;h3 id=&quot;云映像硬件和体系结构&quot;&gt;云映像，硬件和体系结构&lt;/h3&gt;
+
+&lt;p&gt;Leap 的 Linode 云端镜像今天可用，并准备好满足所有基础设施的需求。云主机服务将在未来几周提供 Leap 15.3 的镜像，如亚马逊网络服务、
+Azure、谷歌计算引擎和 OpenStack。Leap 15 作为宿主机系统和虚拟化系统，将不断为云使用场景进行优化。
+你可以购买预装了 Leap 15.2 的 TUXEDO 电脑和 Linux 笔记本。也可以购买预装了 Leap 15.3 的 Slimbooks
+的产品。&lt;/p&gt;
+
+&lt;h3 id=&quot;服务器和台式机&quot;&gt;服务器和台式机&lt;/h3&gt;
+
+&lt;p&gt;Leap 是桌面和服务器环境的理想选择。系统管理员和小型企业可以使用 Leap 
+来托管网络和邮件服务器。系统管理员可以充分利用网络管理协议动态主机配置协议（DHCP），使用域名系统（DNS）分配资源，或通过网络文件系统（NFS）为客户电脑提供文件访问。像 NextCloud 这样的文件和主机共享软件包也是可用的，团队协作套件 Kopano 是 Leap 15.3 正式版的一部分。&lt;/p&gt;
+
+&lt;p&gt;可用于&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试&lt;/a&gt;的架构包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;arch64&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;s390x&lt;/a&gt;。Armv7 架构应阅读有关 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
+
+&lt;p&gt;查找有关 openSUSE Leap 15.3 Windows Subsystem for Linux 的更多信息&lt;a href=&quot;https://en.opensuse.org/openSUSE:WSL&quot;&gt;请见这里&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h3 id=&quot;结束支持&quot;&gt;结束支持&lt;/h3&gt;
+
+&lt;p&gt;openSUSE Leap 15.2 将在今天发布后的六个月内完成其 &lt;a href=&quot;https://en.wikipedia.org/wiki/End-of-life_product&quot;&gt;结束支持&lt;/a&gt;。用户应该更新到 openSUSE Leap 15.3 以继续接收安全和维护更新。&lt;/p&gt;
+
+&lt;h3 id=&quot;立刻下载-leap-153&quot;&gt;立刻下载 Leap 15.3&lt;/h3&gt;
+
+&lt;p&gt;要下载 Leap 15.3 的镜像 ISO 文件，请访问：&lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;https://get.opensuse.org/leap/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;问题何在&quot;&gt;问题何在？&lt;/h3&gt;
+
+&lt;p&gt;如果你有关于该版本的问题，或者认为发现了一个错误，我们很愿意听到你的意见：&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://t.me/openSUSE_group&quot;&gt;https://t.me/openSUSE_group&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/opensuse-support/&quot;&gt;https://lists.opensuse.org/opensuse-support/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://discordapp.com/invite/openSUSE&quot;&gt;https://discordapp.com/invite/openSUSE&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;https://www.facebook.com/groups/opensuseproject&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;加入我们&quot;&gt;加入我们！&lt;/h3&gt;
+&lt;p&gt;openSUSE 项目是一个在世界各地推广使用 Linux 的社区。它创造了两个世界上最好的 Linux 发行版，Tumbleweed （滚动发行版）和 
+Leap（企业-社区混合发行版）。openSUSE 作为全球自由和开源软件社区的一部分，一直以开放、透明和友好的方式合作。该项目由其社区控制，并依靠个人的贡献，作为测试人员、作家、翻译、可用性专家、艺术家和大使或开发者工作。该项目接纳了各种各样的技术、具有不同专业水平的人、讲不同语言和具有不同文化背景的人。你可以在
+opensuse.org 上了解更多信息。&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/31/openSUSE.Asia-%E5%9C%A8%E7%BA%BF%E5%B3%B0%E4%BC%9A-2021-%E5%B9%B4%E5%BE%BD%E6%A0%87%E7%AB%9E%E8%B5%9B.html</guid>
       <title>openSUSE.Asia 在线峰会 2021 年徽标竞赛</title>
       <pubDate>Mon, 31 May 2021 05:20:00 -0500</pubDate>
@@ -341,29 +484,6 @@ Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/19/RealSenseID-available-for-openSUSE/&quot;&gt;RealSenseID compatibility with all openSUSE&lt;/a&gt;，作者： Alessandro de Oliveira Faria&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/14/Mesa-KDE_Frameworks-GlusterFS%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Mesa、KDE Frameworks、GlusterFS 更新</title>
-      <pubDate>Fri, 14 May 2021 07:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/14/Mesa-KDE_Frameworks-GlusterFS%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周到目前为止有三个 openSUSE Tumbleweed 快照发布。 这些快照更新了 Mozilla Thunderbird、Mozilla Firefox、Mesa、KDE Frameworks、glusterfs、php 和其他一些软件包。 最近发布的快照 20210511，只更新了少量的软件包。有一个来自 KDE Frameworks 5.82.0 的软件包更新了绘图框架 kplotting 。快照中更新了 Linux 5.12.2 版内核，为 x86 版 thinkpad_acpi 模块带来了热传感器修正，并对 Advanced Linux Sound Architecture（ALSA） USB 音频进行了一些修正。快照中的另一个软件包更新是 hivex 1.3.20，这是一个用于提取 Windows 注册表内容的系统；hivex 版本修复了一个常见的漏洞和暴露，这将允许攻击者读取超出正常界限的内存或导致程序崩溃。 Mesa 21.1.0 和大部分 KDE Frameworks 5.82.0 软件包在快照 20210510 中更新。Mesa 的更新增加了一些补丁，并在 /usr/include/vulkan/ 中删除了 vulkan_intel.h ，但决定保持该目录为空。KDE...</description>
-      <content:encoded>&lt;p&gt;本周到目前为止有三个 openSUSE Tumbleweed 快照发布。&lt;/p&gt;
-
-&lt;p&gt;这些快照更新了 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt;、&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.82.0/&quot;&gt;KDE Frameworks&lt;/a&gt;、&lt;a href=&quot;https://www.gluster.org/&quot;&gt;glusterfs&lt;/a&gt;、&lt;a href=&quot;https://www.php.net/&quot;&gt;php&lt;/a&gt; 和其他一些软件包。&lt;/p&gt;
-
-&lt;p&gt;最近发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CREVLOMAEMHKTOXVSRFEQQENQPDEZ3MH/&quot;&gt;20210511&lt;/a&gt;，只更新了少量的软件包。有一个来自 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.82.0/&quot;&gt;KDE Frameworks 5.82.0&lt;/a&gt; 的软件包更新了绘图框架 &lt;a href=&quot;https://api.kde.org/frameworks/kplotting/html/index.html&quot;&gt;kplotting&lt;/a&gt; 。快照中更新了 Linux 5.12.2 版&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt;，为 x86 版 thinkpad_acpi 模块带来了热传感器修正，并对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;Advanced Linux Sound Architecture（ALSA）&lt;/a&gt; USB 音频进行了一些修正。快照中的另一个软件包更新是 &lt;a href=&quot;https://libguestfs.org/hivex.3.html&quot;&gt;hivex&lt;/a&gt; 1.3.20，这是一个用于提取 Windows 注册表内容的系统；hivex 版本修复了一个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见的漏洞和暴露&lt;/a&gt;，这将允许攻击者读取超出正常界限的内存或导致程序崩溃。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.1.0 和大部分 KDE Frameworks 5.82.0 软件包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W22OUX626Z2XR572QRQNEMQMB4X33ZK4/&quot;&gt;20210510&lt;/a&gt; 中更新。Mesa 的更新增加了一些补丁，并在 /usr/include/vulkan/ 中删除了 vulkan_intel.h ，但决定保持该目录为空。KDE Frameworks 5.82.0 的更新增加了新的侧边栏显示和隐藏 &lt;a href=&quot;https://github.com/KDE/breeze-icons&quot;&gt;Breeze 图标&lt;/a&gt;。&lt;a href=&quot;https://api.kde.org/frameworks/kdbusaddons/html/index.html&quot;&gt;KDBusAddons&lt;/a&gt; 文件被重新授权为 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/lgpl-2.0.en.html&quot;&gt;LGPL-2.0&lt;/a&gt; 或更高版本。框架更新中进行了许多修复，包括 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 内存损坏修复和几个拖动的修复。Mozilla Thunderbird 78.10.1 的更新恢复了以前 78.9.0 版本中的一些行为。&lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt; 6.4.19 的更新现在可以正确报告选项解析错误。Tumbleweed 在将 &lt;a href=&quot;https://www.gluster.org/&quot;&gt;glusterfs&lt;/a&gt; 从7.1 版升级到9.1版时，跳过了能够扩展到几个 peta-bytes 的集群文件系统的整个主要版本；新的主要版本升级增加了对 5K卷的支持，改进了稀疏文件的再平衡，现在它的编译默认启用了&lt;a href=&quot;https://en.wikipedia.org/wiki/Interprocedural_optimization&quot;&gt;链接时间优化功能&lt;/a&gt;。DNS 协议的全功能实现 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind9&lt;/a&gt; 9.16.15，修复了一些 CVE，包括一个可能导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RUNTIME_CHECK&lt;/code&gt; 断言失败的问题。快照中还更新了 &lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 16.2.3.26，聊天客户端 &lt;a href=&quot;https://pidgin.im/&quot;&gt;pidgin&lt;/a&gt; 2.14.4 和终端多路复用器 &lt;a href=&quot;https://news.opensuse.org/2021/05/14/mesa-kde-glusterfs-update-in-tw/tmux.github.io&quot;&gt;tmux&lt;/a&gt; 3.2。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/32F2ZZ5GG2EPEBWKVLFXFB3TTCY456DW/&quot;&gt;20210508&lt;/a&gt; 更新了Mozilla Firefox 88.0.1，该修复程序修复了在某些 Gen6 Intel 图形芯片组上在 &lt;a href=&quot;https://twitter.com/&quot;&gt;Twitter&lt;/a&gt; 或 &lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt; 呼叫上播放的视频的损坏。该开源浏览器还修复了一个涉及网络渲染组件的 CVE。&lt;a href=&quot;https://www.php.net/&quot;&gt;php 7&lt;/a&gt; 7.4.19 中的一个更新&lt;a href=&quot;https://bugs.php.net/bug.php?id=80892&quot;&gt;恢复了一个&lt;/a&gt;将所有东西都当作 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PARAM_STR&lt;/code&gt; 的修复。谷歌用于解析、格式化和验证国际电话号码的库 &lt;a href=&quot;https://github.com/google/libphonenumber/blob/v8.12.22/release_notes.txt&quot;&gt;libphonenumber&lt;/a&gt; 更新到8.12.22版本，更新了运营商数据和德国 +49 和墨西哥 +52 电话代码的地理编码数据。快照中更新的其他软件包有 &lt;a href=&quot;https://github.com/vcrhonek/hwdata/releases&quot;&gt;hwdata&lt;/a&gt; 0.347、&lt;a href=&quot;https://www.perl.com/article/perl-and-cgi/&quot;&gt;perl-CGI&lt;/a&gt; 4.52 和 &lt;a href=&quot;https://github.com/kaio/ibus-table&quot;&gt;ibus-table&lt;/a&gt; 1.13.0。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/14/mesa-kde-glusterfs-update-in-tw/&quot;&gt;Mesa, KDE Frameworks, GlusterFS Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
