@@ -1,6 +1,6 @@
 ---
 author: Nianqing Yao
-date: 2021-06-02
+date: 2021-06-03
 layout: post
 license: CC-BY-SA-3.0
 title: '[重要] Tumbleweed 更新通告'
@@ -26,13 +26,13 @@ tags:
 
 1. Qv2Ray 运行失败
 
-   原因：直接原因是软件包 `Qv2Ray` 没有更新到与该快照匹配的版本，根本原因是 `Qv2Ray` 无法在最新的 `abseil-cpp` 下编译，Arch Linux 也遭遇了同样的问题，社区正在等待修复。  
-   **解决方案：**建议使用 AppImage 版本代替。
+   原因：直接原因是软件包 `Qv2Ray` 没有更新到与该快照匹配的版本，根本原因 ~~是 `Qv2Ray` 无法在最新的 `abseil-cpp` 下编译~~ (06-03更新) 是直接是构建依赖 gRPC 的构建失败，Arch Linux 也遭遇了同样的问题。  
+   **解决方案：** 上游已修复 gRPC 的构建，待提交进入到 Factory。建议暂时使用 AppImage 版本代替。
 
 2. 桌面特效故障
 
    部分用户在更新后报告KDE桌面环境的混成器出现异常。  
-   **解决方案：**在系统设置中调整渲染模式为 OpenGL 3.1
+   **解决方案：** 在系统设置中调整渲染模式为 OpenGL 3.1
 
 3. VMware 内核模块编译失败
 
