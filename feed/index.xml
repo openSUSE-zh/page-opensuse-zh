@@ -7,19 +7,47 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</guid>
+      <title>在线开放日过后的 openSUSE，调查开始了</title>
+      <pubDate>Fri, 04 Jun 2021 13:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目最近有很多事情发生。该项目刚刚发布了 Leap 15.3，在 openSUSE 酒吧举行了24小时的发布派对，并开启了一项调查，以获得对新 Leap 版本发布的反馈。 还有许多其他事情发生，其中之一是在线开放日。社区成员将在 SUSE Open House CZ 2021 期间有两场讨论 openSUSE 主题的会议 该活动将于 6 月 15 日 13:00 UTC 至 17:00 UTC 举行。Leap 发布管理者 Lubos Kocman 将介绍 openSUSE Leap 15.3 是如何制作的，社区成员 Jason Evans 将讨论如何为 openSUSE 做贡献。 参与者必须登记参加该活动。 该项目还将于 6 月 18 - 19 日举行 openSUSE...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;最近有很多事情发生。该项目刚刚发布了 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt;，在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 酒吧&lt;/a&gt;举行了24小时的发布派对，并开启了一项&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;，以获得对新 Leap 版本发布的反馈。&lt;/p&gt;
+
+&lt;p&gt;还有许多其他事情发生，其中之一是&lt;a href=&quot;https://more.suse.com/openhousecz&quot;&gt;在线开放日&lt;/a&gt;。社区成员将在 &lt;a href=&quot;https://more.suse.com/openhousecz&quot;&gt;SUSE Open House CZ 2021&lt;/a&gt; 期间有两场讨论 openSUSE 主题的会议&lt;/p&gt;
+
+&lt;p&gt;该活动将于 6 月 15 日 13:00  UTC 至 17:00 UTC 举行。Leap 发布管理者 Lubos Kocman 将介绍 openSUSE Leap 15.3 是如何制作的，社区成员 Jason Evans 将讨论如何为 openSUSE 做贡献。&lt;/p&gt;
+
+&lt;p&gt;参与者必须登记参加该活动。&lt;/p&gt;
+
+&lt;p&gt;该项目还将于 6 月 18 - 19 日举行 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 会议&lt;/a&gt;。会议有几个讲座，话题涉及社区、开源、新技术、云计算、容器、嵌入式软件等等。&lt;/p&gt;
+
+&lt;p&gt;Kockman 还将在会议上发表关于&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;结果的演讲，该演讲将在6月16日之前开放。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/04/online-open-house-goes-over-opensuse-survey-opens/&quot;&gt;Online Open House Goes Over openSUSE, Survey Opens&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/03/Tumbleweed-%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A.html</guid>
       <title>[重要] Tumbleweed 更新通告</title>
       <pubDate>Thu, 03 Jun 2021 00:00:00 -0500</pubDate>
       <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/03/Tumbleweed-%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A.html</link>
       <author>Nianqing Yao</author>
-      <description>近期释出的快照 20210527 包含了对文件系统架构的转变，即 UsrMerge 和对 Glibc 的升级。 这意味着即使上游软件的代码没有改变，几乎所有软件包都需要重新安装。同时这些改变也带来了链接符号与文件位置的变动，这意味着不规范的应用程序极有可能在升级后出现问题甚至崩溃。 对于用户，请使用 zypper dup 而非 zypper up ，也请务必在内核终端(TTY)下运行 zypper 进行更新。您可以按住 Ctrl+Alt+F1 与 Ctrl+Alt+F7 在内核终端与图形界面中切换，在内核终端环境下输入 export LANG=C 可以使程序显示为英文，避免出现中文显示为方块的现象，安装 fbterm 或 kmscon 也可以解决此问题。不要在桌面环境的终端下进行更新，因为若桌面环境在更新过中崩溃，终端内的进程也可能随之终止。 由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 sanpper 快照，我们建议您提前安装 busybox-static，以应对可能出现的意外状况。 同时，我们建议您检查您设备上的非官方源应用程序，已有多例报告表明部分第三方程序在该快照后无法运行，详细的报告参见后文。 已知问题 Qv2Ray 运行失败 原因：直接原因是软件包 Qv2Ray 没有更新到与该快照匹配的版本，根本原因 是 Qv2Ray 无法在最新的 abseil-cpp 下编译 (06-03更新) 是直接是构建依赖 gRPC 的构建失败，Arch Linux 也遭遇了同样的问题。...</description>
+      <description>近期释出的快照 20210527 包含了对文件系统架构的转变，即 UsrMerge 和对 Glibc 的升级。 这意味着即使上游软件的代码没有改变，几乎所有软件包都需要重新安装。同时这些改变也带来了链接符号与文件位置的变动，这意味着不规范的应用程序极有可能在升级后出现问题甚至崩溃。 对于用户，请使用 zypper dup 而非 zypper up ，也请务必在内核终端(TTY)下运行 zypper 进行更新。您可以按住 Ctrl+Alt+F1 与 Ctrl+Alt+F7 在内核终端与图形界面中切换，在内核终端环境下输入 export LANG=C 可以使程序显示为英文，避免出现中文显示为方块的现象，安装 fbterm 或 kmscon 也可以解决此问题。不要在桌面环境的终端下进行更新，因为若桌面环境在更新过中崩溃，终端内的进程也可能随之终止。 由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 Snapper 快照，我们建议您提前安装 busybox-static，以应对可能出现的意外状况。 同时，我们建议您检查您设备上的非官方源应用程序，已有多例报告表明部分第三方程序在该快照后无法运行，详细的报告参见后文。 已知问题 Qv2Ray 运行失败 原因：直接原因是软件包 Qv2Ray 没有更新到与该快照匹配的版本，根本原因 是 Qv2Ray 无法在最新的 abseil-cpp 下编译 (06-03更新) 是直接是构建依赖 gRPC 的构建失败，Arch Linux 也遭遇了同样的问题。...</description>
       <content:encoded>&lt;p&gt;近期释出的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IBCTE7GGE7WA2TIX7ENZ67G7O4H655GA/&quot;&gt;20210527&lt;/a&gt; 包含了对文件系统架构的转变，即 UsrMerge 和对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Glibc&lt;/code&gt; 的升级。&lt;/p&gt;
 
 &lt;p&gt;这意味着即使上游软件的代码没有改变，几乎所有软件包都需要重新安装。同时这些改变也带来了链接符号与文件位置的变动，这意味着不规范的应用程序极有可能在升级后出现问题甚至崩溃。&lt;/p&gt;
 
 &lt;p&gt;对于用户，请使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 而非 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper up&lt;/code&gt; ，也请&lt;strong&gt;务必&lt;/strong&gt;在内核终端(TTY)下运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt; 进行更新。您可以按住 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Alt+F1&lt;/code&gt; 与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Alt+F7&lt;/code&gt; 在内核终端与图形界面中切换，在内核终端环境下输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export LANG=C&lt;/code&gt; 可以使程序显示为英文，避免出现中文显示为方块的现象，安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fbterm&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kmscon&lt;/code&gt; 也可以解决此问题。不要在桌面环境的终端下进行更新，因为若桌面环境在更新过中崩溃，终端内的进程也可能随之终止。&lt;/p&gt;
 
-&lt;p&gt;由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 sanpper 快照，我们建议您提前安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busybox-static&lt;/code&gt;，以应对可能出现的意外状况。&lt;/p&gt;
+&lt;p&gt;由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 Snapper 快照，我们建议您提前安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busybox-static&lt;/code&gt;，以应对可能出现的意外状况。&lt;/p&gt;
 
 &lt;p&gt;同时，我们建议您检查您设备上的&lt;strong&gt;非官方源&lt;/strong&gt;应用程序，已有多例报告表明部分第三方程序在该快照后无法运行，详细的报告参见后文。&lt;/p&gt;
 
@@ -446,44 +474,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/21/kde-gear-gtk-btrfs-update-in-tw/&quot;&gt;KDE Gear, GTK, Btrfs Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html</guid>
-      <title>RealSenseID 与 openSUSE 完全兼容</title>
-      <pubDate>Wed, 19 May 2021 05:40:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。
-
-
-在作为 openSUSE 成员和 Intel oneAPI 官方创新者专注于 openSUSE 创新者计划时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSenseID 设备。通过这些工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上安装这个设备的文章。
-
-Intel RealSense ID 将主动深度传感器与专门的神经网络结合起来，旨在提供一个直观、安全和准确的面部认证解决方案，并随着时间的推移进行调整。该解决方案提供用户隐私，并由用户意识激活。内置的防欺骗技术可以防止使用照片、视频或面具的攻击。
-
-Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方简化了安全进入。支持从儿童到成人，并为智能锁、门禁控制、PoS、ATM 机以及 openSUSE（所谓“完全兼容”）中的 Kiosks 设计。
-
-更多信息详见：https://github.com/IntelRealSense/RealSenseID
-
-
-
-原文：RealSenseID compatibility with all openSUSE，作者： Alessandro de Oliveira Faria
-</description>
-      <content:encoded>&lt;p&gt;编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;在作为 openSUSE 成员和 &lt;a href=&quot;https://software.intel.com/content/www/us/en/develop/tools/oneapi.html&quot;&gt;Intel oneAPI&lt;/a&gt; 官方创新者专注于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE 创新者计划&lt;/a&gt;时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSenseID 设备。通过这些工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上安装这个设备的&lt;a href=&quot;https://en.opensuse.org/SDB:Install_RealSenseID&quot;&gt;文章&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.intelrealsense.com/facial-authentication/&quot;&gt;Intel RealSense ID&lt;/a&gt; 将主动深度传感器与专门的神经网络结合起来，旨在提供一个直观、安全和准确的面部认证解决方案，并随着时间的推移进行调整。该解决方案提供用户隐私，并由用户意识激活。内置的防欺骗技术可以防止使用照片、视频或面具的攻击。&lt;/p&gt;
-
-&lt;p&gt;Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方简化了安全进入。支持从儿童到成人，并为智能锁、门禁控制、PoS、ATM 机以及 openSUSE（所谓“完全兼容”）中的 Kiosks 设计。&lt;/p&gt;
-
-&lt;p&gt;更多信息详见：&lt;a href=&quot;https://github.com/IntelRealSense/RealSenseID&quot;&gt;https://github.com/IntelRealSense/RealSenseID&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/19/RealSenseID-available-for-openSUSE/&quot;&gt;RealSenseID compatibility with all openSUSE&lt;/a&gt;，作者： Alessandro de Oliveira Faria&lt;/p&gt;
 </content:encoded>
     </item>
 
