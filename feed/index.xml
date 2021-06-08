@@ -7,6 +7,41 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</guid>
+      <title>新的重建工作有望推进新的硬件支持</title>
+      <pubDate>Tue, 08 Jun 2021 07:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 社区的开发者们正在通过 FrontRunner 项目向更广泛的硬件支持迈进。 FrontRunner 是通过 openSUSE 的 Step 项目提供社区协作计划，旨在从 Open Build Service (开放构建服务, OBS) 中的源代码重建 SUSE Linux Enterprise。FrontRunner 在一个项目中重建了所有的源代码，其中包涵并体现推进未来 Leap 版本的架构启用的变化与更改。 openSUSE 董事会主席兼 SUSE 首席技术官 Gerald Pfeifer 博士说：“我很高兴 FrontRunner 为 openSUSE 和 SUSE 开辟了一种共同为 openSUSE Leap 启用新的硬件架构支持的新方法。” openSUSE Leap 继承了 SUSE Linux Enterprise 的基础（核心二进制包）。 于二月开始的 Step 项目旨在为未来的 openSUSE Leap...</description>
+      <content:encoded>&lt;p&gt;openSUSE 社区的开发者们正在通过 &lt;a href=&quot;https://build.opensuse.org/project/show/openSUSE:Step:FrontRunner&quot;&gt;FrontRunner 项目&lt;/a&gt;向更广泛的硬件支持迈进。&lt;/p&gt;
+
+&lt;p&gt;FrontRunner 是通过 openSUSE 的 Step 项目提供社区协作计划，旨在从 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;Open Build Service (开放构建服务, OBS)&lt;/a&gt; 中的源代码重建 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt;。FrontRunner 在一个项目中重建了所有的源代码，其中包涵并体现推进未来 Leap 版本的架构启用的变化与更改。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 董事会主席兼 SUSE 首席技术官 Gerald Pfeifer 博士说：“我很高兴 FrontRunner 为 openSUSE 和 SUSE 开辟了一种共同为 openSUSE Leap 启用新的硬件架构支持的新方法。”&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 继承了 SUSE Linux Enterprise 的基础（核心二进制包）。&lt;/p&gt;
+
+&lt;p&gt;于二月开始的 &lt;a href=&quot;https://zh.opensuse.org/Portal:Leap/openSUSE:Step&quot;&gt;Step 项目&lt;/a&gt;旨在为未来的 openSUSE Leap 和 SLE 版本扩展更多的架构可用性。FrontRunner 重建是在 OBS 的 &lt;a href=&quot;https://build.opensuse.org/project/show/openSUSE:Step:FrontRunner&quot;&gt;openSUSE:Step:Frontrunner&lt;/a&gt; 命名空间下的 Step 工作中建立的。&lt;/p&gt;
+
+&lt;p&gt;FrontRunner 旨在尝试修复旧版本中的构建故障，并取得足够的进展，使社区的建议可以体现在开发平台上。这有利于类似 armv7 的旧硬件，这样它就不会在阻碍我们的进展，并对其他架构的先驱性进步持开放态度。&lt;/p&gt;
+
+&lt;p&gt;“FrontRunner是关于经过良好测试的改变，我们希望在下一个服务包（service pack）中合并”，SLE 工程总监 Milisav Radmanic 说：“获得这些新的平台和架构开发是一个游戏规则改变者。”&lt;/p&gt;
+
+&lt;p&gt;Step 已经可以为可重复性和跨架构的构建提供互相认可的修复方案。FrontRunner 将提供前导测试，以配合实施挑战和项目目标。&lt;/p&gt;
+
+&lt;p&gt;FrontRunner 的目标是在一个单一的层中构建所有的资源，其中包括打算在服务包中登陆的补丁。这可能会使它成为一个 Leap 点发布或维护更新。有了 FrontRunner 对 SLE 源代码的重建和 Step 作为中间构件，预计这些构建将使社区发行版（如 openSUSE Leap）或其他社区衍生产品成为可能。&lt;/p&gt;
+
+&lt;p&gt;与 openSUSE Leap 不同，openSUSE Step 和 FrontRunner 并不打算成为终端用户的发行版。它们是为了推动 SLE 和 Leap 的发展。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/08/new-rebuilds-look-to-advance-new-hardware/&quot;&gt;New Rebuilds Look to Advance New Hardware&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</guid>
       <title>在线开放日过后的 openSUSE，调查开始了</title>
       <pubDate>Fri, 04 Jun 2021 13:00:00 -0500</pubDate>
@@ -447,32 +482,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/22/openSUSE.Asia-2021-Announcement/&quot;&gt;openSUSE.Asia 2021 Announcement&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/21/KDE-Gear-GTK-Btrfs-%E6%9B%B4%E6%96%B0.html</guid>
-      <title>KDE Gear、GTK、Btrfs 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 21 May 2021 09:10:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/21/KDE-Gear-GTK-Btrfs-%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周到目前为止已经发布了四个 openSUSE Tumbleweed 快照。 这些快照更新了 KDE Gear 21.04.1、GTK 4、Btrfs、postgresql 和 sudo 等。 快照 20210519 更新了 postgresql 13.3 软件包，并解决了三个常见的漏洞和暴露；其中一个包括对目标列表的错误处理，另一个防止了数组计算的整数溢出。文本编辑器 vim 8.2.2850 修复了一些崩溃，开放远程计算解决方案 SPICE 的 0.15.0 更新提供了一些行为变化和与 OpenSSL 的兼容性。gtk 4 4.2.1 的更新改进了渲染和 Wayland 的字体设置回退。GNOME 的类似俄罗斯方块的游戏 quadrapassel 有了 40.1 的主要版本，它更新了翻译，按返回键现在可以重新启动游戏。另一个在快照中更新的主要版本是 python-incremental 21.3.0，它符合 PEP 440 的要求。 在快照 20210517 中的 KDE Gear 21.04.1 的更新中进行了多项修复。KDE Gear...</description>
-      <content:encoded>&lt;p&gt;本周到目前为止已经发布了四个 openSUSE Tumbleweed 快照。&lt;/p&gt;
-
-&lt;p&gt;这些快照更新了 &lt;a href=&quot;https://kde.org/announcements/gear/21.04.1/&quot;&gt;KDE Gear 21.04.1&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK 4&lt;/a&gt;、&lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;Btrfs&lt;/a&gt;、&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 和  &lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt;  等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EPZ7MHKAGJOU6AKFIHPVBS26XEM3XY5H/&quot;&gt;20210519&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.postgresql.org/docs/13/release-13-3.html&quot;&gt;postgresql 13.3&lt;/a&gt; 软件包，并解决了三个常见的&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;漏洞和暴露&lt;/a&gt;；其中一个包括对目标列表的错误处理，另一个防止了数组计算的整数溢出。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.2850 修复了一些崩溃，开放远程计算解决方案 &lt;a href=&quot;https://www.spice-space.org/&quot;&gt;SPICE&lt;/a&gt; 的 0.15.0 更新提供了一些行为变化和与 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 的兼容性。gtk 4 4.2.1 的更新改进了渲染和 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的字体设置回退。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的类似俄罗斯方块的游戏 &lt;a href=&quot;https://help.gnome.org/users/quadrapassel/stable/&quot;&gt;quadrapassel&lt;/a&gt; 有了 40.1 的主要版本，它更新了翻译，按返回键现在可以重新启动游戏。另一个在快照中更新的主要版本是 &lt;a href=&quot;https://pypi.org/project/incremental/&quot;&gt;python-incremental 21.3.0&lt;/a&gt;，它符合 &lt;a href=&quot;https://www.python.org/dev/peps/pep-0440/&quot;&gt;PEP 440&lt;/a&gt; 的要求。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/UUXYRSYZQ6JVY6IDH5EWVNKFO73RPU7P/&quot;&gt;20210517&lt;/a&gt; 中的 KDE Gear 21.04.1 的更新中进行了多项修复。KDE Gear 21.04.1 软件包更新了视频编辑器 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; ，它修复了渲染预设；文本编辑器 &lt;a href=&quot;https://kate-editor.org/&quot;&gt;Kate&lt;/a&gt; 修复了一个可能的泄漏；图表程序 &lt;a href=&quot;https://umbrello.kde.org/&quot;&gt;umbrello&lt;/a&gt; 做了一些外观和错误检测方面的改进。这次更新还恢复了 ffmpeg3 对 &lt;a href=&quot;https://apps.kde.org/ffmpegthumbs/&quot;&gt;ffmpegthumbs&lt;/a&gt; 的兼容性。快照中其他需要更新的软件包有 &lt;a href=&quot;https://rubygems.org/gems/rubocop&quot;&gt;rubygem-rubocop&lt;/a&gt; 1.14.0、&lt;a href=&quot;https://github.com/firecat53/urlscan&quot;&gt;urlscan&lt;/a&gt; 0.9.6 和 &lt;a href=&quot;https://re2c.org/&quot;&gt;re2c&lt;/a&gt; 2.1.1，后者为 Linux、macOS 和 Windows 增加了 &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt; 持续集成。&lt;/p&gt;
-
-&lt;p&gt;Btrfs 和 sudo 都在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/KADKG6TF35BXDEUVHGTVP6MAJMOF33SV/&quot;&gt;20210515&lt;/a&gt; 中更新。1.9.7 版的 sudo 修正了前一版本中引入的一个错误，该错误导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo -V&lt;/code&gt; 报告使用错误。Sudo 现在需要 autoconf 2.70 或更高版本来重新生成 configure 脚本。Btrfs 从 5.11 版更新到了 5.12.1 版，并修复了 libbtrfs 中丢失的用于构建的符号；还修复了文件系统的 CI 支持脚本的符号链接路径。&lt;a href=&quot;https://sourceware.org/elfutils/&quot;&gt;elfutils&lt;/a&gt; 的 0.184 更新在缓存中创建了一个空的 000 权限文件，如果对一个文件的查询以 404 失败。&lt;a href=&quot;https://pypi.org/project/kiwi/&quot;&gt;python- kiwi 9.23.28&lt;/a&gt; 软件包增加了对基于 Debian 的发行版上 &lt;a href=&quot;https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface&quot;&gt;UEFI&lt;/a&gt; 的支持。其他在快照中更新的软件包有 shell 工具 &lt;a href=&quot;https://sourceforge.net/projects/hdparm/&quot;&gt;hdparm 9.62&lt;/a&gt;，&lt;a href=&quot;http://www.andre-simon.de/doku/highlight/highlight.php&quot;&gt;highlight 4.1&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.6。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YWMDNFUKCWJFRDTZNGZZ72ZHHPQSAAVP/&quot;&gt;20210514&lt;/a&gt; 开始了本周的工作，它将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到 5.12.3。进行了多项&lt;a href=&quot;https://www.kernel.org/doc/html/latest/driver-api/driver-model/bus.html&quot;&gt;总线&lt;/a&gt;更新，并对磁盘加密 &lt;a href=&quot;https://en.wikipedia.org/wiki/ECryptfs&quot;&gt;ecryptfs&lt;/a&gt; 进行了内核恐慌。&lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 的鼠标垫 0.5.5 的更新增加了各种插件支持，并在设置中增加了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.desktop&lt;/code&gt; 文件。Xfce 在 4.16.3 的更新中还对 xfce4-panel 进行了几个关键修复，&lt;a href=&quot;https://en.wikipedia.org/wiki/Thunar&quot;&gt;thunar 4.16.8&lt;/a&gt; 更新了翻译并修复了打开编辑菜单时的错误。远程桌面客户端 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina 1.4.16&lt;/a&gt; 修复了一个数据路径，并更新了一些 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 软件包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/21/kde-gear-gtk-btrfs-update-in-tw/&quot;&gt;KDE Gear, GTK, Btrfs Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 </content:encoded>
     </item>
