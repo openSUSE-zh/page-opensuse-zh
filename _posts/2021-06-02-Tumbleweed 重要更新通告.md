@@ -46,5 +46,12 @@ tags:
 4. （可能存在）Nvidia 驱动分辨率错误
 
    **解决方案：** 暂无
-   
+
+5. Nvidia 驱动失效
+
+   **解决方案：** 以 root 用户执行：
+   ```
+   cd / && ln -s . /usr/usr
+   ```
+
 参见英文邮件列表的[讨论](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/XFPS2KBKSZL2KORYMXY2X77Q2ZR2DAFD/)以获取更多信息。
