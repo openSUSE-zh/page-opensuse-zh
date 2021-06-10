@@ -7,6 +7,36 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</guid>
+      <title>促进 openSUSE Leap 15.3 的发展</title>
+      <pubDate>Wed, 09 Jun 2021 10:10:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>在 openSUSE Leap 15.3 发布一个多星期后，openSUSE 酒吧的发布派对仍在继续，然而这并不是该项目唯一飙升的东西。 新版本的适应性在 metrics.opensuse.org 上继续显示出稳定的增长，因为在发布后的一周内，有4万个安装量，这是一种向上和向右的趋势。一般而言，适应性的主要增长发生在发布后的几个月内，因为用户被期望在最新的小版本发布后的六个月内升级到最新的小版本。 该项目可以使用帮助的一个领域是 openSUSE Leap 15.3 的推广。用户可以在 github 艺术作品库中找到新的 Leap 传单，以及更新的横幅和新的 Leap 图片。 社区营销一直在强调 Leap 在服务器、工作站、桌面上的使用，以及用于虚拟化和容器。迁移项目和用户验收测试也从最新的 Leap 中受益。大型开发团队可以运行和测试工作负载，如果需要的话，可以提升和转移到 SUSE Linux Enterprise Linux 15 Service Pack 3 进行长期维护。最新的小版本坚如磐石，从 Leap 15.2 升级很简单。 openSUSE Leap 15.3 是用与 SLE 完全相同的二进制包构建的。 社区是支持性的，并通过社区渠道，如邮件列表、Matrix、Discord、Telegram 和 Facebook 与使用 Leap 的人进行交流。通过在 DistroWatch...</description>
+      <content:encoded>&lt;p&gt;在 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 发布一个多星期后，&lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 酒吧&lt;/a&gt;的发布派对仍在继续，然而这并不是&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;该项目&lt;/a&gt;唯一飙升的东西。&lt;/p&gt;
+
+&lt;p&gt;新版本的适应性在 &lt;a href=&quot;https://metrics.opensuse.org/&quot;&gt;metrics.opensuse.org&lt;/a&gt; 上继续显示出稳定的增长，因为在发布后的一周内，有4万个安装量，这是一种向上和向右的趋势。一般而言，适应性的主要增长发生在发布后的几个月内，因为用户被期望在最新的小版本发布后的六个月内升级到最新的小版本。&lt;/p&gt;
+
+&lt;p&gt;该项目可以使用帮助的一个领域是 openSUSE Leap 15.3 的推广。用户可以在 &lt;a href=&quot;https://github.com/openSUSE/artwork&quot;&gt;github 艺术作品库&lt;/a&gt;中找到新的 &lt;a href=&quot;https://github.com/openSUSE/artwork/tree/master/flyers/flyer_153&quot;&gt;Leap 传单&lt;/a&gt;，以及更新的横幅和新的 &lt;a href=&quot;https://github.com/openSUSE/artwork/blob/master/logos/distros-prototype/leap.png&quot;&gt;Leap 图片&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;社区营销一直在强调 Leap 在服务器、工作站、桌面上的使用，以及用于虚拟化和容器。迁移项目和用户验收测试也从最新的 Leap 中受益。大型开发团队可以运行和测试工作负载，如果需要的话，可以提升和转移到 SUSE Linux Enterprise Linux 15 Service Pack 3 进行长期维护。最新的小版本坚如磐石，从 Leap 15.2 升级很简单。 openSUSE Leap 15.3 是用与 SLE 完全相同的二进制包构建的。&lt;/p&gt;
+
+&lt;p&gt;社区是支持性的，并通过社区渠道，如&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;、&lt;a href=&quot;https://matrix.to/#/#newscom:opensuse.org&quot;&gt;Matrix&lt;/a&gt;、&lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;Discord&lt;/a&gt;、&lt;a href=&quot;https://t.me/openSUSE_group&quot;&gt;Telegram&lt;/a&gt; 和 &lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;Facebook&lt;/a&gt; 与使用 Leap 的人进行交流。通过在 &lt;a href=&quot;https://distrowatch.com/table.php?distribution=opensuse&quot;&gt;DistroWatch&lt;/a&gt; 上发表评论或通过视频或博客对该版本进行评论来帮助推广该版本。&lt;/p&gt;
+
+&lt;p&gt;发布团队也希望得到用户的反馈，可以在 6 月 16 日之前进行有关发布的&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;有关中文社区的交流渠道信息详见：&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E4%BA%A4%E6%B5%81%E6%B8%A0%E9%81%93#.E5.85.B3.E4.BA.8E.E7.AE.80.E4.BD.93.E4.B8.AD.E6.96.87&quot;&gt;openSUSE:中文交流渠道&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/09/foster-opensuse-leap-growth/&quot;&gt;Foster openSUSE Leap 15.3 Growth&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</guid>
       <title>新的重建工作有望推进新的硬件支持</title>
       <pubDate>Tue, 08 Jun 2021 07:00:00 -0500</pubDate>
@@ -114,6 +144,13 @@ ln -s ../../../../usr/src/linux-5.12.4-2-obj/x86_64/default build
     &lt;p&gt;（可能存在）Nvidia 驱动分辨率错误&lt;/p&gt;
 
     &lt;p&gt;&lt;strong&gt;解决方案：&lt;/strong&gt; 暂无&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Nvidia 驱动失效&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;解决方案：&lt;/strong&gt; 以 root 用户执行：&lt;/p&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd / &amp;amp;&amp;amp; ln -s . /usr/usr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -445,43 +482,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/25/opensuse-community-readies-for-release-party/&quot;&gt;openSUSE Community Readies for Release Party&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</guid>
-      <title>openSUSE.Asia 2021 亚洲峰会公告</title>
-      <pubDate>Tue, 25 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/25/openSUSE.Asia-2021-%E4%BA%9A%E6%B4%B2%E5%B3%B0%E4%BC%9A%E5%85%AC%E5%91%8A.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>2021年 openSUSE.Asia 在线峰会，印度法里达巴德 我们原计划将 2020 年在印度举办 openSUSE.Asia 峰会，但由于 Covid 19 的大流行，不得不取消这次活动。由于世界已经从线下模式转变为线上模式，我们在 openSUSE.Asia 委员会成员的支持下，提议以线上模式组织 2021 年 openSUSE.Asia 峰会。我们很高兴我们的提议被 openSUSE 董事会接受。 印度 openSUSE 的支持者们，以及整个自由/自由开源软件（Free/Libre Open Source Software, FLOSS）的支持者们，对组织最令人期待的 openSUSE.Asia 峰会活动感到兴奋。在这个活动中，专家、贡献者、终端用户和技术爱好者将聚集在一起，分享关于 openSUSE 的发展和其他与 FLOSS 有关的经验，并获得很多乐趣。 openSUSE.Asia 峰会的地点是在印度尼西亚巴厘岛举行的 2019 年 openSUSE.Asia 峰会期间由印度社区提议后选定的。亚洲委员会决定法里达巴德为 2021 年 openSUSE.Asia 峰会的主办地，时间为 2021 年 8 月 6 日至 8 月...</description>
-      <content:encoded>&lt;p&gt;&lt;em&gt;2021年 openSUSE.Asia 在线峰会，印度法里达巴德&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;我们原计划将 2020 年在印度举办 openSUSE.Asia 峰会，但由于 Covid 19 的大流行，不得不取消这次活动。由于世界已经从线下模式转变为线上模式，我们在 openSUSE.Asia 委员会成员的支持下，提议以线上模式组织 2021 年 openSUSE.Asia 峰会。我们很高兴我们的提议被 openSUSE 董事会接受。&lt;/p&gt;
-
-&lt;p&gt;印度 openSUSE 的支持者们，以及整个自由/自由开源软件（Free/Libre Open Source Software, FLOSS）的支持者们，对组织最令人期待的 openSUSE.Asia 峰会活动感到兴奋。在这个活动中，专家、贡献者、终端用户和技术爱好者将聚集在一起，分享关于 openSUSE 的发展和其他与 FLOSS 有关的经验，并获得很多乐趣。 openSUSE.Asia 峰会的地点是在印度尼西亚巴厘岛举行的 &lt;a href=&quot;https://events.opensuse.org/conferences/summitasia19&quot;&gt;2019 年 openSUSE.Asia 峰会&lt;/a&gt;期间由印度社区提议后选定的。亚洲委员会决定法里达巴德为 2021 年 openSUSE.Asia 峰会的主办地，时间为 2021 年 8 月 6 日至 8 月 8 日，地点为&lt;a href=&quot;https://manavrachna.edu.in/international-institute-of-research-and-studies/&quot;&gt;法里达巴德的 Manav Rachna 国际研究学院&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;2021年 openSUSE.Asia 线上峰会要实现的目标包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;在印度推广 openSUSE。&lt;/li&gt;
-  &lt;li&gt;为 openSUSE 吸引来自印度和其他亚洲国家的新贡献者。&lt;/li&gt;
-  &lt;li&gt;为更多的社区提供一个选择，让他们知道 FLOSS 可以成为他们日常工作的有力工具。&lt;/li&gt;
-  &lt;li&gt;提供一个分享用户和开发者经验的平台。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;预告&quot;&gt;预告&lt;/h5&gt;
-
-&lt;p&gt;openSUSE.Asia 峰会 2021 将立即向潜在的演讲者公开征集论文。此外，2021 年 openSUSE.Asia 峰会的标志竞赛也将开启。这对亚洲的设计师来说肯定是一个互相竞争的机会，以展示他们的能力并为这个活动做出贡献。有关上述信息的更多细节将在不久的将来通过 &lt;a href=&quot;https://news.opensuse.org&quot;&gt;https://news.opensuse.org&lt;/a&gt; 告知。（编注：也敬请关注我们中文社区新闻组，我们将为您翻译这些来自官方的新闻）&lt;/p&gt;
-
-&lt;p&gt;网上见！!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/22/openSUSE.Asia-2021-Announcement/&quot;&gt;openSUSE.Asia 2021 Announcement&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
 
 </content:encoded>
     </item>
