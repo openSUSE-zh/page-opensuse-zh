@@ -7,6 +7,30 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/11/Plasma-Mesa-%E5%92%8C-curl-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Plasma、Mesa 和 curl 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 11 Jun 2021 11:10:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/11/Plasma-Mesa-%E5%92%8C-curl-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周发布了三个 openSUSE Tumbleweed 快照，周末还有可能发布另一个快照，如果它及时通过 openQA测试的话。 最新的快照 20210609，为 KDE 用户带来了更新；Plasma 5.22.0 几天前刚刚发布，根据发布公告，它全面提高了稳定性和实用性。开发人员在该版本的美学上投入了大量的工作。该版本中最大的新功能被称为自适应透明度（Adaptive Transparency），它提供了一个令人愉快的半透明面板和面板小部件，如果有任何最大化的窗口，这些小部件就会变得完全不透明；这样做是为了避免在用户需要集中注意力时出现任何视觉干扰。新版本还在系统设置中打开了一个快捷设置页面，使用户可以直接访问最常用的设置，以及访问最多的设置。Mozilla Thunderbird 在 78.11.0 版本中更新了一个过期的钥匙圈，并修复了两个常见漏洞和暴露。Wireshark 3.4.6 修复了一个显示过滤器崩溃和宏过滤器对转义字符的处理。随着 filesystem 从 15.5 版跳到 84.87 版，对基本目录结构进行了一次重大的版本更新。GNOME 40 在快照中也得到了一些更新，gnome-software 被更新到了 40.2 版；一些崩溃的修复和对 Flatpak 的低磁盘空间错误报告的改进。其他在快照中更新的软件包有 git 2.32.0、powertop 2.14、xfce4-settings 和 nftables 0.9.9。 快照 20210605 提供了curl 7.77.0 的更新，修复了三个 CVE；CVE-2021-22901 在使用 curl 库握手一个新的 TLS 会话或在现有连接上请求一个客户端证书时，可能被欺骗使用已经释放的内存。打印协议 cups-filters 更新到1.28.8版本，并修复了几个内存泄漏问题，还为灰度模式（grayscale...</description>
+      <content:encoded>&lt;p&gt;本周发布了三个 openSUSE Tumbleweed 快照，周末还有可能发布另一个快照，如果它及时通过 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt;测试的话。&lt;/p&gt;
+
+&lt;p&gt;最新的快照 20210609，为 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户带来了更新；&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.0/&quot;&gt;Plasma 5.22.0&lt;/a&gt; 几天前刚刚发布，根据发布公告，它全面提高了稳定性和实用性。开发人员在该版本的美学上投入了大量的工作。该版本中最大的新功能被称为自适应透明度（Adaptive Transparency），它提供了一个令人愉快的半透明面板和面板小部件，如果有任何最大化的窗口，这些小部件就会变得完全不透明；这样做是为了避免在用户需要集中注意力时出现任何视觉干扰。新版本还在系统设置中打开了一个快捷设置页面，使用户可以直接访问最常用的设置，以及访问最多的设置。&lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 在 78.11.0 版本中更新了一个过期的钥匙圈，并修复了两个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和暴露&lt;/a&gt;。&lt;a href=&quot;https://www.wireshark.org/&quot;&gt;Wireshark&lt;/a&gt; 3.4.6 修复了一个显示过滤器崩溃和宏过滤器对转义字符的处理。随着 &lt;a href=&quot;https://software.opensuse.org/package/filesystem&quot;&gt;filesystem&lt;/a&gt; 从 15.5 版跳到 84.87 版，对基本目录结构进行了一次重大的版本更新。&lt;a href=&quot;https://forty.gnome.org/&quot;&gt;GNOME 40&lt;/a&gt; 在快照中也得到了一些更新，gnome-software 被更新到了 40.2 版；一些崩溃的修复和对 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 的低磁盘空间错误报告的改进。其他在快照中更新的软件包有 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.32.0、&lt;a href=&quot;https://01.org/powertop/&quot;&gt;powertop&lt;/a&gt; 2.14、&lt;a href=&quot;https://www.xfce.org/&quot;&gt;xfce4-settings&lt;/a&gt; 和 &lt;a href=&quot;https://git.netfilter.org/nftables/&quot;&gt;nftables&lt;/a&gt; 0.9.9。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/R2OCXFKPN2RU5NBQPTGEWU2QJ6QAWLTX/&quot;&gt;20210605&lt;/a&gt; 提供了&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 7.77.0 的更新，修复了三个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；&lt;a href=&quot;https://curl.se/docs/CVE-2021-22901.html&quot;&gt;CVE-2021-22901&lt;/a&gt; 在使用 curl 库握手一个新的 TLS 会话或在现有连接上请求一个客户端证书时，可能被欺骗使用已经释放的内存。打印协议 &lt;a href=&quot;https://github.com/OpenPrinting/cups-filters&quot;&gt;cups-filters&lt;/a&gt; 更新到1.28.8版本，并修复了几个内存泄漏问题，还为灰度模式（grayscale mode）提供了一些修正。&lt;a href=&quot;https://chrony.tuxfamily.org/&quot;&gt;chrony&lt;/a&gt; 4.1 的一个主要版本更新在快照中到达。网络时间协议（Network Time Protocol）的较新实现增加了对网络时间安全（Network Time Security, NTS）认证的支持，并通过低级加密库 &lt;a href=&quot;https://git.lysator.liu.se/nettle/nettle&quot;&gt;Nettle&lt;/a&gt; 增加了对高级加密标准密钥的支持。在更新到 1.2.5 版本时，为&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;高级 Linux 声音架构&lt;/a&gt;包（Advanced Linux Sound Architecture, ALSA）和 asla-plugins 包增加了多个补丁。容器镜像和镜像仓库的命令行工具包 &lt;a href=&quot;https://github.com/containers/skopeo&quot;&gt;Skopeo&lt;/a&gt; 更新到了1.2.3版本，并增加了对登录和注销注册表参数的修复。&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.4.9版的更新禁用了基 于产品和虚拟机的休眠功能。快照中其他需要更新的软件包有 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 7.4.0、&lt;a href=&quot;https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git&quot;&gt;kmod&lt;/a&gt; 29、&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.2918 等。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TL2ELE37YFOAC2FRFSPIP3H742GAPDXX/&quot;&gt;20210604&lt;/a&gt; 中，3D 图形驱动 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 包和 Mesa-drivers 包更新到 21.1.2 版本。在 Mesa 更新中，&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt;的 Tiger Lake 芯片在渲染时出现的一些闪烁得到了修复。大多数更新包括针对 &lt;a href=&quot;https://www.amd.com/en&quot;&gt;AMD&lt;/a&gt; 和英特尔的变化，但也有相当数量的 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 修复。&lt;a href=&quot;https://httpd.apache.org/&quot;&gt;apache2&lt;/a&gt; 2.4.48 的更新中进行了多项修复，在服务器&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt;中增加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0&quot;&gt;SSL&lt;/a&gt; 相关的查询功能。&lt;a href=&quot;https://en.wikipedia.org/wiki/Thunderbolt_(interface)&quot;&gt;Thunderbolt 3&lt;/a&gt; 设备管理器 &lt;a href=&quot;https://gitlab.freedesktop.org/bolt/bolt&quot;&gt;bolt&lt;/a&gt; 的更新更新到了 0.9.1 版本，修复了日志，现在有了嵌入式 thunderbolt 控制器的主机识别。&lt;a href=&quot;https://redis.io/&quot;&gt;Redis&lt;/a&gt; 6.2.4 修复了一些崩溃和一个利用&lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;漏洞的 CVE。&lt;a href=&quot;https://en.opensuse.org/Portal:Zypper&quot;&gt;zypper&lt;/a&gt; 软件包在版本更新到 1.14.45 时增加了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;trust GPG key&lt;/code&gt;（信任 GPG 密钥）的提示；该软件包还收到了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Kabyle_language&quot;&gt;Kabyle&lt;/a&gt; 的翻译，这是一种在北非使用的语言。其他在快照中更新的软件包有 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina&lt;/a&gt; 1.4.18，&lt;a href=&quot;https://github.com/linuxmint/xapp&quot;&gt;xapps&lt;/a&gt; 2.2.0，&lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.348 等等。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/11/plasma-mesa-curl-update-in-tw/&quot;&gt;Plasma, Mesa, curl Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</guid>
       <title>促进 openSUSE Leap 15.3 的发展</title>
       <pubDate>Wed, 09 Jun 2021 10:10:00 -0500</pubDate>
@@ -448,40 +472,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/27/mesa-nodejs-zstd-update-in-tw/&quot;&gt;Mesa, Nodejs, Zstd Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</guid>
-      <title>openSUSE 社区为发布派对做准备</title>
-      <pubDate>Wed, 26 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/26/openSUSE-%E7%A4%BE%E5%8C%BA%E4%B8%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9%E5%81%9A%E5%87%86%E5%A4%87.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE项目计划在 openSUSE Leap 15.3 发布后立即在 openSUSE 线上酒吧举办一个24小时的发布派对（Release Party）。
-
-这个虚拟发布派对将有发布团队的成员、社区成员和董事会成员参加。
-
-从 6 月 2 日 12:00 UTC 开始，发布派对将持续到 6 月 3 日 11:59 UTC（编注：及北京时间 6月2日 4:00 到 6月3日 3:59）。预计参与者将来自多个国家，欢迎人们参加并与 openSUSE 成员见面。
-
-该活动让人们有机会认识参与项目的人和帮助发布 openSUSE Leap 发行版的贡献者。该活动还为社区提供了一个机会，使他们能够见面、社交并随意讨论经过6个多月开发的版本。
-
-
-
-原文：openSUSE Community Readies for Release Party，作者：Douglas DeMaio
-
-</description>
-      <content:encoded>&lt;p&gt;openSUSE项目计划在 &lt;a href=&quot;https://en.opensuse.org/Portal:15.3&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 发布后立即在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 线上酒吧&lt;/a&gt;举办一个24小时的发布派对（Release Party）。&lt;/p&gt;
-
-&lt;p&gt;这个虚拟发布派对将有发布团队的成员、社区成员和董事会成员参加。&lt;/p&gt;
-
-&lt;p&gt;从 6 月 2 日 12:00 UTC 开始，发布派对将持续到 6 月 3 日 11:59 UTC（编注：及北京时间 6月2日 4:00 到 6月3日 3:59）。预计参与者将来自多个国家，欢迎人们参加并与 openSUSE 成员见面。&lt;/p&gt;
-
-&lt;p&gt;该活动让人们有机会认识参与项目的人和帮助发布 openSUSE Leap 发行版的贡献者。该活动还为社区提供了一个机会，使他们能够见面、社交并随意讨论经过6个多月开发的版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/25/opensuse-community-readies-for-release-party/&quot;&gt;openSUSE Community Readies for Release Party&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 </content:encoded>
     </item>
