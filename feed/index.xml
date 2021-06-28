@@ -7,6 +7,117 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E5%BE%81%E9%9B%86%E8%AE%BA%E6%96%87.html</guid>
+      <title>openSUSE.Asia  2021 峰会征集论文</title>
+      <pubDate>Mon, 28 Jun 2021 07:25:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E5%BE%81%E9%9B%86%E8%AE%BA%E6%96%87.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>主题：使用.分享.贡献 我们很高兴宣布： 2021 年 openSUSE.Asia 峰会的论文征集活动开始。即日起，openSUSE.Asia 委员会期待着看到您的提案。委员会正在寻找来自不同生活领域的演讲者，代表和倡导自由和开源软件。openSUSE.Asia 峰会每年都会举办，以促进自由和开源软件的使用。它是亚洲地区 openSUSE 社区（即贡献者和使用者）最期待的活动之一。今年的活动将是一个在线活动，并将是一个对爱好者和用户都很好的平台。 继上次巴厘岛亚洲峰会之后，2021 年第七届 openSUSE.Asia 峰会将由 openSUSE 印度团队于 2021 年 8 月 6-8 日举行。过去的亚洲峰会得到了来自印度尼西亚、中国、台湾、日本、韩国和印度的主要参与。通过利用互联网的力量，我们希望这次在线活动圆满举行。我们希望看到社区成员学习围绕 openSUSE 的 FLOSS（自由和开源软件） 技术，并分享他们最新的知识与经验。 话题 openSUSE.Asia 峰会 2021 将邀请与 openSUSE 和其他主题相关的会谈，如云、虚拟化、容器、容器编排、Linux 桌面环境和应用程序，因为 openSUSE 是各种 FLOSS 产品的集合。这些话题的例子（不限于此）如下： openSUSE (包括 Leap、Tumbleweed、Open Build Services、openQA 和 YaST) openSUSE Kubic &amp;amp; MicroOS、云、虚拟化、容器和容器编排 嵌入式和物联网...</description>
+      <content:encoded>&lt;h1 id=&quot;主题使用分享贡献&quot;&gt;主题：使用.分享.贡献&lt;/h1&gt;
+
+&lt;p&gt;我们很高兴宣布： 2021 年 openSUSE.Asia 峰会的论文征集活动开始。即日起，openSUSE.Asia 委员会期待着看到您的提案。委员会正在寻找来自不同生活领域的演讲者，代表和倡导自由和开源软件。openSUSE.Asia 峰会每年都会举办，以促进自由和开源软件的使用。它是亚洲地区 openSUSE 社区（即贡献者和使用者）最期待的活动之一。今年的活动将是一个在线活动，并将是一个对爱好者和用户都很好的平台。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-06/Banner-connect.png&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;继上次巴厘岛亚洲峰会之后，2021 年第七届 openSUSE.Asia 峰会将由 openSUSE 印度团队于 2021 年 8 月 6-8 日举行。过去的亚洲峰会得到了来自印度尼西亚、中国、台湾、日本、韩国和印度的主要参与。通过利用互联网的力量，我们希望这次在线活动圆满举行。我们希望看到社区成员学习围绕 openSUSE 的 FLOSS（自由和开源软件） 技术，并分享他们最新的知识与经验。&lt;/p&gt;
+
+&lt;h1 id=&quot;话题&quot;&gt;话题&lt;/h1&gt;
+
+&lt;p&gt;openSUSE.Asia 峰会 2021 将邀请与 openSUSE 和其他主题相关的会谈，如云、虚拟化、容器、容器编排、Linux 桌面环境和应用程序，因为 openSUSE 是各种 FLOSS 产品的集合。这些话题的例子（不限于此）如下：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openSUSE (包括 Leap、Tumbleweed、Open Build Services、openQA 和 YaST)&lt;/li&gt;
+  &lt;li&gt;openSUSE Kubic &amp;amp; MicroOS、云、虚拟化、容器和容器编排&lt;/li&gt;
+  &lt;li&gt;嵌入式和物联网&lt;/li&gt;
+  &lt;li&gt;安全（访问/完整性控制、密码学、漏洞管理)&lt;/li&gt;
+  &lt;li&gt;桌面环境和应用程序（例如，GNOME、KDE、XFCE）&lt;/li&gt;
+  &lt;li&gt;办公套件、图形艺术、多媒体（如LibreOffice、Calligra、GIMP、Inkscape）&lt;/li&gt;
+  &lt;li&gt;多语言化支持（例如，输入法、翻译）&lt;/li&gt;
+  &lt;li&gt;在 openSUSE 上运行的其他软件&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;请注意，我们也欢迎非技术性的会谈。例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;对 FLOSS 技术的解释&lt;/li&gt;
+  &lt;li&gt;开发、质量保证、翻译&lt;/li&gt;
+  &lt;li&gt;技巧和窍门，经验故事（成功或失败），最佳实践&lt;/li&gt;
+  &lt;li&gt;市场营销和社区管理&lt;/li&gt;
+  &lt;li&gt;教育&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;会议类型&quot;&gt;会议类型&lt;/h1&gt;
+
+&lt;p&gt;我们正在邀请这3类会议的提案：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;研讨会（90分钟 + 问答）&lt;/li&gt;
+  &lt;li&gt;主题演讲或有演讲的长谈（30分钟 + 问答）&lt;/li&gt;
+  &lt;li&gt;有/无演讲的短谈（15分钟 + 问答)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;由于在线会议的注意力较短，我们将保持会谈的简短和吸引人。&lt;/p&gt;
+
+&lt;h1 id=&quot;时间表&quot;&gt;时间表&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;征集提案的截止日期。2021 年 7 月 10 日&lt;/li&gt;
+  &lt;li&gt;通知发言人：2021 年 7 月 22 日&lt;/li&gt;
+  &lt;li&gt;2021 年 openSUSE.Asia 峰会：8 月 6 日 - 8 日&lt;/li&gt;
+  &lt;li&gt;会议时间：UTC 4.00 至 UTC 11.30 （IST 9.30 至 IST 17.00）（编注：北京时间 12.00-19.30）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;如何提交你的提案&quot;&gt;如何提交你的提案&lt;/h1&gt;
+
+&lt;p&gt;请将您的提案提交到以下网站：&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS21/&quot;&gt;events.opensuse.org&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;你的提案必须用英语书写，长度为 150 - 500 字，并有适当的标题。&lt;/li&gt;
+  &lt;li&gt;如果你在要求栏中写上 “印地语演讲”，你可以用当地语言（仅印地语）进行演讲，但建议幻灯片使用英语。&lt;/li&gt;
+  &lt;li&gt;在提交之前，请对你的提案进行拼写和语法检查： &lt;a href=&quot;https://extensions.libreoffice.org/extensions/languagetool&quot;&gt;LibreOffice 语法检查&lt;/a&gt;  &lt;a href=&quot;https://www.grammarly.com/&quot;&gt;在线语法检查&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;你在个人资料页上的传记也是一份参与审查的文件。请不要忘记写上你的背景，国家，和你的时区（UTC格式）。&lt;/li&gt;
+  &lt;li&gt;您必须遵守 openSUSE 会议的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Conference_code_of_conduct&quot;&gt;行为准则&lt;/a&gt; ，在成功提交提案后，您会收到一个表格链接，以了解进一步的信息要求。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;撰写提案指南&quot;&gt;撰写提案指南&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;请确保你的建议是关于和围绕一个主题的&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;例如，如果你的演讲是关于安全或桌面应用程序，一个健康的的提案总是以安装应用程序的步骤开始。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;请包括为什么你的提案应该是一个的理由&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;它可以包含以下的理由：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;应用/技术/解决方案的需要&lt;/li&gt;
+  &lt;li&gt;建议解决方案的未来前景&lt;/li&gt;
+  &lt;li&gt;目标受众（初学者、贡献者）的学习内容&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;只有研讨会：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;我们建议在你的提案中制定一个简单的时间表，以安排研讨会期间的时间使用；&lt;/li&gt;
+  &lt;li&gt;请事先说明要求（笔记本电脑、互联网接入、普通纸张、彩色笔等）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;如果你对撰写提案或准备演讲有疑问，请毫不犹豫地在社交媒体上联系当地团队或写信给委员会。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;联系组织委员会&quot;&gt;联系组织委员会：&lt;/h1&gt;
+
+&lt;p&gt;有关该计划的任何询问，请联系：&lt;/p&gt;
+
+&lt;p&gt;opensuseasia-summit@googlegroups.com&lt;/p&gt;
+
+&lt;p&gt;我们期待在 2021 年印度 openSUSE.Asia 峰会上见到您。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/28/0SA2021-CFP/&quot;&gt;openSUSE.Asia Summit 2021 Call For Paper&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/16/openSUSE-Leap-15.3-%E7%89%88%E6%9C%AC%E7%9A%84%E8%B0%83%E6%9F%A5%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F.html</guid>
       <title>openSUSE Leap 15.3 版本的调查已经结束</title>
       <pubDate>Wed, 16 Jun 2021 11:15:00 -0500</pubDate>
@@ -463,28 +574,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/31/release-manager-provides-update-on-early-feature-requests-for-leap/&quot;&gt;Release Manager Provides Update on Early Features Requisitions for Leap 15.4&lt;/a&gt;，作者： Douglas DeMaio&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/27/openSUSE-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9.html</guid>
-      <title>openSUSE 中文社区发布派对</title>
-      <pubDate>Thu, 27 May 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/27/openSUSE-%E4%B8%AD%E6%96%87%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E6%B4%BE%E5%AF%B9.html</link>
-      <author>Nianqing Yao</author>
-      <description>为了庆祝 Leap 15.3 的发布，我们 openSUSE 中文社区准备了自己的发布派对，预定时间为 6 月 19 号，地点是川东第一道观旁老君洞旁的重庆邮电大学。
-
-我们邀请了北京 SUSE 的工程师来渝分享话题，还有 Arch 和 Deepin 的开发者来现场和大家交流，欢迎的社区贡献者来渝参加。如果有想与各位贡献者讨论的话题，请在论坛讨论帖下报名。
-
-期待在火锅之城看见您的身影！（放心，我们提供清汤火锅）
-
-</description>
-      <content:encoded>&lt;p&gt;为了庆祝 Leap 15.3 的发布，我们 openSUSE 中文社区准备了自己的发布派对，预定时间为 6 月 19 号，地点是川东第一道观旁老君洞旁的重庆邮电大学。&lt;/p&gt;
-
-&lt;p&gt;我们邀请了&lt;a href=&quot;https://github.com/AbikoWarakawa&quot;&gt;北京 SUSE 的工程师&lt;/a&gt;来渝分享话题，还有 Arch 和 Deepin 的开发者来现场和大家交流，欢迎的社区贡献者来渝参加。如果有想与各位贡献者讨论的话题，请在&lt;a href=&quot;https://forum.suse.org.cn/t/topic/13907&quot;&gt;论坛讨论帖&lt;/a&gt;下报名。&lt;/p&gt;
-
-&lt;p&gt;期待在火锅之城看见您的身影！（放心，我们提供清汤火锅）&lt;/p&gt;
-
 </content:encoded>
     </item>
 
