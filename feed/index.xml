@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/01/VLC-Plasma-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>VLC、Plasma、PipeWire 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 01 Jul 2021 11:25:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/01/VLC-Plasma-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周到目前为止已经发布了三个 openSUSE Tumbleweed 快照。 有两个较大的快照和一个较小的，带来了 ClamAV 更新的快照。 揭开本周序幕的是快照 20210625，它为 3D 图形 Mesa 和 Mesa-drivers 软件包提供了更新；更新的 21.1.3 版本主要提供了 AMD 的变更，而且该版本不再需要检查环境变量的 GStreamer Video Acceleration API 插件。ImageMagick 更新到 7.1.0.0 版本，修复了 SVG 解析器 会陷入无限循环的问题。Mozilla Firefox 89.0.2 版的更新修复了 Linux 上 WebRender 的性能和稳定性问题，还修复了 WebRender 偶尔出现的挂起。VLC 3.0.16 修复了 MP4 掉线、广播流的一些倒退问题，并提供了设置方面的改进。Linux 审计框架的一个新的主要版本，audit，从 2.8.5 更新到 3.0.2 ，并更新了一些 syscall 参数的解释。PipeWire...</description>
+      <content:encoded>&lt;p&gt;本周到目前为止已经发布了三个 openSUSE Tumbleweed 快照。&lt;/p&gt;
+
+&lt;p&gt;有两个较大的快照和一个较小的，带来了 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 更新的快照。&lt;/p&gt;
+
+&lt;p&gt;揭开本周序幕的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6YTZRZGT6W677MTN3XIEVEPXBZ5APYWW/&quot;&gt;20210625&lt;/a&gt;，它为 3D 图形 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 和 Mesa-drivers 软件包提供了更新；更新的 21.1.3 版本主要提供了 AMD 的变更，而且该版本不再需要检查环境变量的 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; Video Acceleration API 插件。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 更新到 7.1.0.0 版本，&lt;a href=&quot;https://github.com/ImageMagick/ImageMagick/issues/3818&quot;&gt;修复了 SVG 解析器&lt;/a&gt; 会陷入无限循环的问题。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 89.0.2 版的更新修复了 Linux 上 &lt;a href=&quot;https://github.com/servo/webrender&quot;&gt;WebRender&lt;/a&gt; 的性能和稳定性问题，还修复了 WebRender 偶尔出现的挂起。&lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 3.0.16 修复了 MP4 掉线、广播流的一些倒退问题，并提供了设置方面的改进。Linux 审计框架的一个新的主要版本，&lt;a href=&quot;https://github.com/linux-audit/audit-userspace&quot;&gt;audit&lt;/a&gt;，从 2.8.5 更新到 3.0.2 ，并更新了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/System_call&quot;&gt;syscall&lt;/a&gt; 参数的解释。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 更新至 0.3.30+55 版，其中包括更新了一些高级 Linux 声音架构（&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;）规则。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 16.4.0 的更新升级了依赖关系并稳定了类：&lt;a href=&quot;https://nodejs.org/api/async_context.html#async_context_class_asynclocalstorage&quot;&gt;AsyncLocalStorage&lt;/a&gt;。在快照中更新的其他软件包有 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的视频播放器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Videos&quot;&gt;totem&lt;/a&gt; 3.38.1、&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.11.2、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.15 和 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.16.18。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3RPNR2RLYQ2EX3PL3LAQQU6HYT6FVH3U/&quot;&gt;20210626&lt;/a&gt; 中只有两个软件包被更新。ClamAV 0.103.3 修复了扫描性能问题，并试图改进关于正在使用的版本的指标。快照中还有 libqt5-qttranslations 软件包的更新翻译，其中包括 &lt;a href=&quot;https://www.qt.io/qt-5-12&quot;&gt;Qt 5.12&lt;/a&gt; 的中文简化语言更新。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;Poppler&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZKXNJ2SJ364PVV3RFYKSJJVQBOU6LFBU/&quot;&gt;20210628&lt;/a&gt; 中更新到了 21.06.1 版本，并修复了注释中一些扩展 latin1 字符的渲染；它还增加了一个 API，以便在 &lt;a href=&quot;https://linux.die.net/man/3/xref&quot;&gt;xref&lt;/a&gt; 被重建时获得通知。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.2&quot;&gt;KDE Plasma 5.22.2.1&lt;/a&gt; 是一个错误修复更新，它在 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 中实现了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的活动窗口规则，而且 Discover 现在正确地通知了用户关于 Flatpaks 的更新。快照还更新了一些 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt 5&lt;/a&gt; 库，如 ibqt5-qtbase、libqt5-qtconnectivity、libqt5-qtquickcontrols、libqt5-qtscript 等。在更新 &lt;a href=&quot;https://cgit.freedesktop.org/mesa/glu/&quot;&gt;glu&lt;/a&gt; 到 9.0.2 版本时提交了一个补丁；这个 Mesa OpenGL Utility 库也有一些额外的错误修正。 &lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite&lt;/a&gt; 的 3.36.0 版本进行了输出方面的改进，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;memdb&lt;/code&gt; VFS 现在允许同一进程中的多个数据库连接共享同一个内存数据库，只要数据库名称以 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; 开头。压缩包 &lt;a href=&quot;https://github.com/zchunk/zchunk&quot;&gt;zchunk&lt;/a&gt; 更新到了 1.1.16 版本，并修复了用字典压缩时的一个重大错误。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/01/vlc-plasma-pipewire-update-in-tw/&quot;&gt;VLC, Plasma, PipeWire Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86.html</guid>
       <title>openSUSE.Asia 2021 峰会话题征集</title>
       <pubDate>Mon, 28 Jun 2021 07:25:00 -0500</pubDate>
@@ -545,35 +568,6 @@ opensuse.org 上了解更多信息。&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/31/%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E8%80%85%E6%8F%90%E4%BE%9B%E6%9C%89%E5%85%B3_Leap_15_4_%E6%97%A9%E6%9C%9F%E5%8A%9F%E8%83%BD%E7%94%B3%E8%AF%B7%E7%9A%84%E6%9C%80%E6%96%B0%E4%BF%A1%E6%81%AF.html</guid>
-      <title>发布管理者提供有关 Leap 15.4 早期功能申请的最新信息</title>
-      <pubDate>Mon, 31 May 2021 03:10:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/31/%E5%8F%91%E5%B8%83%E7%AE%A1%E7%90%86%E8%80%85%E6%8F%90%E4%BE%9B%E6%9C%89%E5%85%B3_Leap_15_4_%E6%97%A9%E6%9C%9F%E5%8A%9F%E8%83%BD%E7%94%B3%E8%AF%B7%E7%9A%84%E6%9C%80%E6%96%B0%E4%BF%A1%E6%81%AF.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Leap 的发布管理者正在完成 Leap 15.3 的发布，但希望让贡献者和开发者了解 Leap 15.4 版本的早期功能请求截止日期。 早期功能请求非常重要，因为 Leap 与 SUSE Linux Enterprise 兼容，而且 Service Pack 4 的早期功能请求截止日期是 6 月 26 日。 “这对 openSUSE Leap 15.4 的贡献者非常重要，因为 Leap 15.4 三分之一的二进制文件将复用来自 SUSE Linux Enterprise 的二进制包，因此那里接受提交请求，”发布管理者 Lubos Kocman 在项目的邮件列表中写道。“只是要澄清一下，这个截止日期对每个人都是一样的，无论是最大的合作伙伴、社区贡献者还是员工”。 openSUSE Leap 和 Package Hub 专属软件包将有类似的截止日期，如路线图中所述。 “我们的目标是在 2022 年 6 月初推出...</description>
-      <content:encoded>&lt;p&gt;openSUSE Leap 的发布管理者正在完成 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt; 的发布，但希望让贡献者和开发者了解 Leap 15.4 版本的早期功能请求截止日期。&lt;/p&gt;
-
-&lt;p&gt;早期功能请求非常重要，因为 Leap 与 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 兼容，而且 Service Pack 4 的早期功能请求截止日期是 6 月 26 日。&lt;/p&gt;
-
-&lt;p&gt;“这对 openSUSE Leap 15.4 的贡献者非常重要，因为 Leap 15.4 三分之一的二进制文件将复用来自 SUSE Linux Enterprise 的二进制包，因此那里接受提交请求，”发布管理者 Lubos Kocman 在&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/S3QFUB3CFWKP2KAHV63DG2QKYRQOPNQ5/&quot;&gt;项目的邮件列表&lt;/a&gt;中写道。“只是要澄清一下，这个截止日期对每个人都是一样的，无论是最大的合作伙伴、社区贡献者还是员工”。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap 和 Package Hub 专属软件包将有类似的截止日期，如&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;中所述。&lt;/p&gt;
-
-&lt;p&gt;“我们的目标是在 2022 年 6 月初推出 Leap 15.4 GA，因此截止日期只会与之前的版本略有不同，”Kocman 写道。&lt;/p&gt;
-
-&lt;p&gt;这种交流主要是为了确定人们希望在 SLE 15 SP4 中拥有的非常明显的更新或功能要求，从而继承到 openSUSE Leap 15.4 。在后来的开发周期中的请求有一个更复杂的路径，但也有&lt;a href=&quot;https://en.opensuse.org/ECO&quot;&gt;相应的流程&lt;/a&gt;。这些过程有更多的复杂因素需要通过，而且一般需要更长的时间，所以请尽早申请功能。请求并不意味着提交的代码必须准备好，但它确实意味着为它创建一个 issue 。&lt;/p&gt;
-
-&lt;p&gt;“我正在与 Neal Gompa 和其他&lt;a href=&quot;https://en.opensuse.org/Portal:Jump/Policy/CommunitySLEChangeRequests#Weekly_reviews_of_open_features&quot;&gt;在周一加入我们电话会议&lt;/a&gt;的人一起处理请求，”科克曼写道。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/31/release-manager-provides-update-on-early-feature-requests-for-leap/&quot;&gt;Release Manager Provides Update on Early Features Requisitions for Leap 15.4&lt;/a&gt;，作者： Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
 </content:encoded>
     </item>
 
