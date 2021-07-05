@@ -7,6 +7,75 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</guid>
+      <title>谷歌编程之夏 2021：IBus 定制</title>
+      <pubDate>Mon, 05 Jul 2021 00:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>大家好！我叫 Songlin Jiang，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 Google Summer of Code 。在这篇博客中，我将向你介绍我目前的工作和经历。 关于 IME 和 IBus 对于不熟悉非拉丁语系语言的人来说，IME（输入法）可能是一个全新的概念，因为他们在打字的时候会发现键盘上存在所有的字符。然而，对于亚洲的大多数人来说，如果没有 IME，用他们的语言打字将是不可能的。例如，如果你想打中文，总共有几千个 汉字，而键盘太小，无法将它们全部放在上面。但在 IME 的帮助下，你可以选择使用拼音或其他类型的 输入模式，如五笔。这样，一个标准的美国键盘就足以输入所有的汉字了。 IBus 是一个输入法框架，用于开发提供统一的用户界面的输入法。很多流行的输入法都是基于 IBus 的，而且 IBus 也是 GNOME 上默认的输入法框架。即使你不使用非拉丁语系的语言，在安装了 IBus 输入法助推器（ Ibus-typing-booster） 之后，你也会发现 IBus 很有用。 我的项目：IBus 定制 由于 IBus 的前端是基于 GTK 的，而 GNOME 用它的 GJS 版本取代了这个前端，使其与 GNOME 更加统一，目前，IBus 的主题在 GNOME 中遵循全局...</description>
+      <content:encoded>&lt;p&gt;大家好！我叫 &lt;a href=&quot;https://github.com/HollowMan6&quot;&gt;Songlin Jiang&lt;/a&gt;，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; 。在这篇博客中，我将向你介绍我目前的工作和经历。&lt;/p&gt;
+
+&lt;h1 id=&quot;关于-ime-和-ibus&quot;&gt;关于 IME 和 IBus&lt;/h1&gt;
+
+&lt;p&gt;对于不熟悉非拉丁语系语言的人来说，&lt;a href=&quot;https://en.wikipedia.org/wiki/Input_method&quot;&gt;IME&lt;/a&gt;（输入法）可能是一个全新的概念，因为他们在打字的时候会发现键盘上存在所有的字符。然而，对于亚洲的大多数人来说，如果没有 IME，用他们的语言打字将是不可能的。例如，如果你想打中文，总共有几千个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_characters&quot;&gt;汉字&lt;/a&gt;，而键盘太小，无法将它们全部放在上面。但在 IME 的帮助下，你可以选择使用拼音或其他类型的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers&quot;&gt;输入模式&lt;/a&gt;，如五笔。这样，一个标准的美国键盘就足以输入所有的汉字了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_Input_Bus&quot;&gt;IBus&lt;/a&gt; 是一个输入法框架，用于开发提供统一的用户界面的输入法。很多流行的输入法都是基于 IBus 的，而且 IBus 也是 GNOME 上默认的输入法框架。即使你不使用非拉丁语系的语言，在安装了 &lt;a href=&quot;https://github.com/mike-fabian/ibus-typing-booster&quot;&gt;IBus 输入法助推器（ Ibus-typing-booster）&lt;/a&gt; 之后，你也会发现 IBus 很有用。&lt;/p&gt;
+
+&lt;h1 id=&quot;我的项目ibus-定制&quot;&gt;我的项目：IBus 定制&lt;/h1&gt;
+
+&lt;p&gt;由于 IBus 的前端是基于 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 的，而 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 用它的 GJS 版本取代了这个前端，使其与 GNOME 更加统一，目前，IBus 的主题在 GNOME 中遵循全局 GNOME-Shell 主题，在其他桌面环境中遵循全局 GTK 主题，并且 IBus 在 GNOME 中缺乏自定义，因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ibus-setup&lt;/code&gt;（IBus 初始化命令）由于前面的原因在 GNOME 上无法工作。&lt;/p&gt;
+
+&lt;p&gt;因此，我的项目旨在使 IBus 主题与当前的 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/134/&quot;&gt;GNOME-Shell 主题&lt;/a&gt; 和 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/135/&quot;&gt;GTK 主题&lt;/a&gt; 分开，以便用户可以用其他 GNOME-Shell 主题和 GTK 主题来定制它。还有，在 GNOME 上做一个扩展，提供对 IBus 的外观、行为、系统托盘和输入源指示器的完全定制。&lt;/p&gt;
+
+&lt;p&gt;该项目分为三个部分：&lt;a href=&quot;https://github.com/openSUSE/Customize-IBus&quot;&gt;自定义 IBus&lt;/a&gt;、&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Tools&quot;&gt;IBus 主题工具&lt;/a&gt; 以及 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub&quot;&gt;IBus 主题中心&lt;/a&gt;。这是使用这些项目的 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus/blob/main/GUIDE.md&quot;&gt;用户指南&lt;/a&gt;，我将在下面的部分逐一向大家介绍这些项目，同时也介绍我创建这些项目的经验。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-07/ibus-logo.png&quot; alt=&quot;ibus-logo&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;用户需要什么&quot;&gt;用户需要什么？&lt;/h1&gt;
+
+&lt;p&gt;由于使用 IME 是许多非拉丁语系的人在使用电脑时不可分割的、最重要的一部分，所以最重要的是提供足够的定制化，以适应用户的需求。另外，由于每个操作系统都提供了自己的一套 IME，所以 IME 的配置方式应该让用户觉得熟悉，而不改变目前的用户习惯，这样可以减少用户刚从其他平台转换过来时的学习成本。&lt;/p&gt;
+
+&lt;h1 id=&quot;自定义-ibus&quot;&gt;自定义 IBus&lt;/h1&gt;
+
+&lt;p&gt;自定义 IBus 是 &lt;a href=&quot;https://extensions.gnome.org/extension/4112/customize-ibus/&quot;&gt;GNOME 的一个扩展&lt;/a&gt;，为 IBus 提供全面的自定义功能。这个扩展所支持的功能列表可以在 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus#features&quot;&gt;这里&lt;/a&gt; 找到。&lt;/p&gt;
+
+&lt;p&gt;这个项目最初是从 &lt;a href=&quot;https://github.com/tuberry/ibus-tweaker&quot;&gt;ibus-tweaker&lt;/a&gt; 导入的，因为我必须为整个项目从头开始，而且在我申请 GSoC 之前，我没有创建 GNOME Shell 扩展的经验。&lt;/p&gt;
+
+&lt;p&gt;Ibus-tweaker 是一个很好的开始项目。通过学习和重用它的部分代码，我理解了 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell/-/blob/master/js/ui/ibusCandidatePopup.js&quot;&gt;IBus GJS 前端&lt;/a&gt; 背后的机制，并进一步参考了 &lt;a href=&quot;https://gjs-docs.gnome.org/&quot;&gt;GJS 文档&lt;/a&gt;，我最终成功地创建了一个全新的扩展，提供了更多的功能。&lt;/p&gt;
+
+&lt;p&gt;你可以从 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus#changelog&quot;&gt;这里&lt;/a&gt; 看到这个项目的演变。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/Customize-IBus&quot;&gt;你可以在这里找到自定义的 IBus 资源库！&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ibus-主题工具&quot;&gt;IBus 主题工具&lt;/h1&gt;
+
+&lt;p&gt;IBus 主题工具专门用于从 GNOME Shell 主题中提取 IBus 相关的样式（样式类名称以 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;candidate-&lt;/code&gt; 开头，还有一些补丁，这样它就可以按照定义显示）到样式表中，可以在 GNOME 的自定义 IBus 扩展中使用。它还支持在非 GNOME 桌面中直接用可用的 GTK 主题改变 IBus 主题。&lt;/p&gt;
+
+&lt;p&gt;该工具是用 Python 编码的，使用 &lt;a href=&quot;https://github.com/Kozea/tinycss2&quot;&gt;tinycss2&lt;/a&gt; 作为 GNOME Shell 主题样式表的解析器。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Tools&quot;&gt;你可以在这里找到 IBus 主题工具库！&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ibus-主题中心&quot;&gt;IBus 主题中心&lt;/h1&gt;
+
+&lt;p&gt;IBus 主题中心是可以被自定义 IBus 扩展使用的主题集合。&lt;/p&gt;
+
+&lt;p&gt;目前，它有 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub/tree/main/%E4%BB%BF%E5%BE%AE%E8%BD%AFMicrosoft&quot;&gt;Microsoft IME Themes&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;如果你已经为 IBus 设计了一个主题，我欢迎你在这里 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub/issues/1&quot;&gt;贡献你的 IBus 主题&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub&quot;&gt;你可以在这里找到 IBus 主题中心的资料库！&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;最后&quot;&gt;最后……&lt;/h1&gt;
+
+&lt;p&gt;我希望你喜欢这篇文章。如果你认为我的项目对你有很大帮助，别忘了与你的朋友分享这篇文章，这样每个人都能从我的 GSoC 2021 项目中得到最佳利用。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/05/gsoc-2021-ibus-customize/&quot;&gt;Google Summer of Code 2021: IBus Customize&lt;/a&gt;，作者：Songlin Jiang&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/01/VLC-Plasma-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>VLC、Plasma、PipeWire 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 01 Jul 2021 11:25:00 -0500</pubDate>
@@ -496,78 +565,6 @@ Azure、谷歌计算引擎和 OpenStack。Leap 15 作为宿主机系统和虚拟
 &lt;p&gt;openSUSE 项目是一个在世界各地推广使用 Linux 的社区。它创造了两个世界上最好的 Linux 发行版，Tumbleweed （滚动发行版）和 
 Leap（企业-社区混合发行版）。openSUSE 作为全球自由和开源软件社区的一部分，一直以开放、透明和友好的方式合作。该项目由其社区控制，并依靠个人的贡献，作为测试人员、作家、翻译、可用性专家、艺术家和大使或开发者工作。该项目接纳了各种各样的技术、具有不同专业水平的人、讲不同语言和具有不同文化背景的人。你可以在
 opensuse.org 上了解更多信息。&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/31/openSUSE.Asia-%E5%9C%A8%E7%BA%BF%E5%B3%B0%E4%BC%9A-2021-%E5%B9%B4%E5%BE%BD%E6%A0%87%E7%AB%9E%E8%B5%9B.html</guid>
-      <title>openSUSE.Asia 在线峰会 2021 年徽标竞赛</title>
-      <pubDate>Mon, 31 May 2021 05:20:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/05/31/openSUSE.Asia-%E5%9C%A8%E7%BA%BF%E5%B3%B0%E4%BC%9A-2021-%E5%B9%B4%E5%BE%BD%E6%A0%87%E7%AB%9E%E8%B5%9B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE.Asia 在线峰会 2021 年徽标竞赛公告 openSUSE 在社区驱动的项目中享有盛誉，这是一个理性认可的事实。系好安全带，这是你为这一社区活动做出贡献的机会! 自从 openSUSE.Asia 峰会成立以来，logo 就完美地诠释了组织国的含义。继而，为 2021 年印度 openSUSE.Asia 峰会组织了一次标志设计比赛。 主办方将送出 “Geeko 神秘盒子”，作为对 openSUSE 亚洲委员会投票选出的最佳标志设计的感谢。 截止日期：2021 年 6 月 26 日（世界协调时）13:00 获奖者声明: 2021 年 7 月 26 日（世界协调时）13:00 比赛的规则如下: 该标志应以 CC-BY-SA 4.0 授权，如果您的作品被用作 2021 年 openSUSE.Asia 峰会的标志，需要允许所有人使用该标志而不需注明出处（BY）。请注意，该出处将在峰会网站上展示。 任何抄袭的设计将被取消资格。此外，它必须不包括任何第三方材料。 单色和彩色格式都是提交的必要条件。 提交的作品必须是 SVG 格式。 设计应展示亚洲的 openSUSE 社区。 以下内容不得构成标志的一部分：...</description>
-      <content:encoded>&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-04-21.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuseasia-在线峰会-2021-年徽标竞赛公告&quot;&gt;openSUSE.Asia 在线峰会 2021 年徽标竞赛公告&lt;/h2&gt;
-
-&lt;p&gt;openSUSE 在社区驱动的项目中享有盛誉，这是一个理性认可的事实。系好安全带，这是你为这一社区活动做出贡献的机会! 自从 openSUSE.Asia 峰会成立以来，logo 就完美地诠释了组织国的含义。继而，为 2021 年印度 openSUSE.Asia 峰会组织了一次标志设计比赛。&lt;/p&gt;
-
-&lt;p&gt;主办方将送出 “Geeko 神秘盒子”，作为对 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Asia_Organization_Committee&quot;&gt;openSUSE 亚洲委员会&lt;/a&gt;投票选出的最佳标志设计的感谢。&lt;/p&gt;
-
-&lt;p&gt;截止日期：2021 年 6 月 26 日（世界协调时）13:00&lt;/p&gt;
-
-&lt;p&gt;获奖者声明: 2021 年 7 月 26 日（世界协调时）13:00&lt;/p&gt;
-
-&lt;p&gt;比赛的规则如下:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;该标志应以 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 授权，如果您的作品被用作 2021 年 openSUSE.Asia 峰会的标志，需要允许所有人使用该标志而不需注明出处（BY）。请注意，该出处将在峰会网站上展示。&lt;/li&gt;
-  &lt;li&gt;任何抄袭的设计将被取消资格。此外，它必须不包括任何第三方材料。&lt;/li&gt;
-  &lt;li&gt;单色和彩色格式都是提交的必要条件。&lt;/li&gt;
-  &lt;li&gt;提交的作品必须是 SVG 格式。&lt;/li&gt;
-  &lt;li&gt;设计应展示亚洲的 openSUSE 社区。&lt;/li&gt;
-  &lt;li&gt;以下内容不得构成标志的一部分：&lt;/li&gt;
-  &lt;li&gt;任何种类的品牌名称或商标。
-    &lt;ul&gt;
-      &lt;li&gt;攻击性的、不适当的、仇恨的、侵权的、诽谤性的或中伤性的。&lt;/li&gt;
-      &lt;li&gt;性暗示或挑衅性的图像。&lt;/li&gt;
-      &lt;li&gt;暴力或武器。&lt;/li&gt;
-      &lt;li&gt;酒精、烟草或毒品的使用图像。&lt;/li&gt;
-      &lt;li&gt;基于种族、性别、宗教、国籍、残疾、性取向或年龄的歧视。&lt;/li&gt;
-      &lt;li&gt;针对群体或个人的偏执、种族主义、仇恨或伤害&lt;/li&gt;
-      &lt;li&gt;宗教、政治或民族主义的图像。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;徽标应遵循 “openSUSE 项目商标指南”，该指南发布于： https://en.opensuse.org/File:openSUSE_Trademark_Guidelines.pdf&lt;/li&gt;
-  &lt;li&gt;品牌指南将有助于设计你的标志（可选）： https://opensuse.github.io/branding-guidelines/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;请联系opensuseasia-summit@googlegroups.com 提交您的作品，并提供以下详细信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主题: openSUSE.Asia Summit 2021 Logo Design -  [您的名字]&lt;/li&gt;
-  &lt;li&gt;您的姓名和电子邮件地址&lt;/li&gt;
-  &lt;li&gt;一份阐明设计背后的想法/动机/观点的文件（ txt 或 pdf )&lt;/li&gt;
-  &lt;li&gt;仅限 SVG 格式的设计矢量文件&lt;/li&gt;
-  &lt;li&gt;附件中的设计位图——图像大小：至少 256 * 256 px，PNG 格式&lt;/li&gt;
-  &lt;li&gt;文件大小：小于 512 KB&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;往期作品&quot;&gt;往期作品&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-06.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;
-&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-10.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;
-&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-13.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;
-&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-16.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;
-&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-19.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;
-&lt;img src=&quot;/assets/posts/2021-05/openSUSE.Asia-在线峰会-2021-年徽标竞赛/photo_2021-05-31_19-05-22.jpg&quot; alt=&quot;&quot; height=&quot;256px&quot; width=&quot;256px&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/05/31/osa-logo-competition-announcement/&quot;&gt;openSUSE.Asia Summit 2021 Logo Competition Announcement&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-
 </content:encoded>
     </item>
 
