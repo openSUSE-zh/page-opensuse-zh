@@ -7,10 +7,119 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</guid>
+      <guid>/%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0/2021/07/06/openSUSE-%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F.html</guid>
+      <title>openSUSE 与谷歌编程之夏</title>
+      <pubDate>Tue, 06 Jul 2021 00:55:00 -0500</pubDate>
+      <link>/%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0/2021/07/06/openSUSE-%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>谷歌编程之夏是什么？ 编程之夏开始前，每年的 2 月至 3 月间会分别接受两方面的报名，一方面是学生，以擅长程序设计的大学生为主；另一方面是开放源代码项目组织，每个组织需指定指导者（导师），以指导参加该项目的学生。活动要求参与者必须年满 18 周岁且是在读大学生；而对于 14 至 17 周岁的中学生，另有 Google Code-in 项目通过相对低难度的任务指导学生参与开源项目。 每个项目都必须从属于一个开源项目组织以及一个或多个导师。参加的学生需向开放源代码项目组织提出程序开发构想，多数大的开源项目组织都拥有项目列表（Idea List）供不熟悉组织的新人选择。申请项目时，学生首先需要提交有关国籍和在读情况的证明，待 Google 公司确认通过后再提交关于项目的申请（Proposal）。每个学生最多可提交 3 份申请，但只能参与 1 个项目。所有学生的申请会经过每个组织的审阅和讨论。通常申请入口于 3 月初开放，月底结束；4 月底公布有资格参与的学生列表；5 月下旬起即可开始程序开发。 openSUSE 与该活动相关的项目 1. Porting PRoot to Rust 参与者：imlk 导师：Lucas Ramage 描述：用 Rust 语言实现一个 proot 的原型版本，具有最基本的功能。 2. Interpersonal Identity Verification 参与者：Quinn Okabayashi 导师：Firstyear 描述：通过允许用户断言未知来电者的有效性来防止电话诈骗...</description>
+      <content:encoded>&lt;h2 id=&quot;谷歌编程之夏是什么&quot;&gt;谷歌编程之夏是什么？&lt;/h2&gt;
+
+&lt;p&gt;编程之夏开始前，每年的 2 月至 3 月间会分别接受两方面的报名，一方面是学生，以擅长程序设计的大学生为主；另一方面是开放源代码项目组织，每个组织需指定指导者（导师），以指导参加该项目的学生。活动要求参与者必须年满 18 周岁且是在读大学生；而对于 14 至 17 周岁的中学生，另有 &lt;a href=&quot;https://zh.wikipedia.org/wiki/Google_Code-in&quot;&gt;Google Code-in&lt;/a&gt; 项目通过相对低难度的任务指导学生参与开源项目。&lt;/p&gt;
+
+&lt;p&gt;每个项目都必须从属于一个开源项目组织以及一个或多个导师。参加的学生需向开放源代码项目组织提出程序开发构想，多数大的开源项目组织都拥有项目列表（Idea List）供不熟悉组织的新人选择。申请项目时，学生首先需要提交有关国籍和在读情况的证明，待 Google 公司确认通过后再提交关于项目的申请（Proposal）。每个学生最多可提交 3 份申请，但只能参与 1 个项目。所有学生的申请会经过每个组织的审阅和讨论。通常申请入口于 3 月初开放，月底结束；4 月底公布有资格参与的学生列表；5 月下旬起即可开始程序开发。&lt;/p&gt;
+
+&lt;h2 id=&quot;opensuse-与该活动相关的项目&quot;&gt;&lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/6417107362775040/&quot;&gt;openSUSE 与该活动相关的项目&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-porting-proot-to-rust&quot;&gt;1. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#4577823219515392&quot;&gt;Porting PRoot to Rust&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：imlk&lt;/li&gt;
+  &lt;li&gt;导师：Lucas Ramage&lt;/li&gt;
+  &lt;li&gt;描述：用 Rust 语言实现一个 proot 的原型版本，具有最基本的功能。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-interpersonal-identity-verification&quot;&gt;2. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5262106988904448&quot;&gt;Interpersonal Identity Verification&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：Quinn Okabayashi&lt;/li&gt;
+  &lt;li&gt;导师：Firstyear&lt;/li&gt;
+  &lt;li&gt;描述：通过允许用户断言未知来电者的有效性来防止电话诈骗&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-ibus-customize&quot;&gt;3. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5505085183885312&quot;&gt;IBus Customize&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：Songlin Jiang&lt;/li&gt;
+  &lt;li&gt;导师：Qiang Zhao、Peng Wu、Hillwood Yang&lt;/li&gt;
+  &lt;li&gt;描述：
+    &lt;blockquote&gt;
+      &lt;p&gt;目前，&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_Input_Bus&quot;&gt;IBus&lt;/a&gt; 主题在 GNOME 中遵循全局 GNOME-Shell 主题，在其他桌面环境中遵循全局 GTK 主题，IBus 在 GNOME 中缺乏对用户的定制。&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;主要焦点：&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;本项目旨在使 IBus 主题与当前的 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/134/&quot;&gt;GNOME-Shell 主题&lt;/a&gt; 和 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/135/&quot;&gt;GTK 主题&lt;/a&gt; 分离，以便用户可以用其他 GNOME-Shell 主题和 GTK 主题对其进行定制。&lt;/p&gt;
+
+      &lt;p&gt;&lt;strong&gt;其他目标：&lt;/strong&gt;&lt;/p&gt;
+
+      &lt;p&gt;为自定义 IBus 添加更多的功能，包括自定义方向、动画、字体。支持右键切换输入源或打开托盘菜单，滚动切换页面或候选者，固定候选框和 IME 切换列表顺序，ASCII 模式自动切换，重新定位，显示或隐藏候选框页面按钮，设置系统托盘设置，输入源指示灯与设置。主题和背景图片遵循 GNOME 夜光模式。如果用户刚刚从另一个平台转换过来，这些定制将使他们快速在 GNOME 中找到熟悉的 IBus 。最终，一个提供 IBus 的外观、行为、系统托盘和输入源指示器完全自定义的扩展将可用。&lt;/p&gt;
+
+      &lt;p&gt;&lt;a href=&quot;https://github.com/IBus-Customize&quot;&gt;&lt;strong&gt;源码库&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-container-based-backend-for-openqa&quot;&gt;4. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5626298556219392&quot;&gt;Container-based backend for openQA&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：Kelvin Kipkorir&lt;/li&gt;
+  &lt;li&gt;导师：Oliver Kurz&lt;/li&gt;
+  &lt;li&gt;描述：
+    &lt;blockquote&gt;
+      &lt;p&gt;OpenQA 是 openSUSE 自动化测试计划的一个自动化测试框架。该框架允许你在一端测试 GUI 应用程序，在另一端测试引导程序和内核。OpenQA 运行虚拟机，密切监视它们的状态并在上面运行测试。该测试框架分为两个部分： -管理逻辑（测试调度、管理、高级 API）-Web 前端
+该建议旨在开发一个能够与不同的容器技术（如 docker）直接互动的后端，允许软件在发布前测试容器镜像。这将有助于提高容器环境的开发和发布工作流程。后台将能够提供一个抽象的接口，允许 os-autoinst 和测试案例与特定的容器技术进行交互，并为当前的工作流程提供相同的集成。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;5-logging-pipeline-plumber-for-rancher&quot;&gt;5. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6415301094146048&quot;&gt;Logging Pipeline Plumber for Rancher&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：Isala Piyarisi&lt;/li&gt;
+  &lt;li&gt;导师：Jacob Payne&lt;/li&gt;
+  &lt;li&gt;描述：
+    &lt;blockquote&gt;
+      &lt;p&gt;Banzai Logging Operator 允许用户通过编写 Kubernetes 自定义资源配置来建立复杂的日志管道。但是，当我们有 100 多个服务同时吐出 1000 多条日志记录时，要正确理解这些日志管道的工作方式可能是一项繁琐的任务。&lt;/p&gt;
+
+      &lt;p&gt;这方面的目标是创建 &lt;a href=&quot;https://i.imgur.com/IxHIZLA.png&quot;&gt;一个工具&lt;/a&gt;，从正在运行的 pod 中捕获日志流，让用户按照他们的意愿进行重放，同时将这些日志与 &lt;a href=&quot;https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/&quot;&gt;Flow&lt;/a&gt; 资源规格相关联，并突出显示应用的过滤器，以便用户能够轻松了解日志操作员如何与他们的应用程序互动，并根据他们的喜好进行微调。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;6-update-kanidm-project-mfa-backup-code&quot;&gt;6. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6642879985876992&quot;&gt;Update Kanidm project: MFA backup code&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：victorcwai&lt;/li&gt;
+  &lt;li&gt;导师：Firstyear&lt;/li&gt;
+  &lt;li&gt;描述：
+    &lt;blockquote&gt;
+      &lt;p&gt;这个项目建议使用一个备份代码来恢复单设备账户。用户必须在他们已经认证的时候生成备份代码，以便他们以后可以使用它。当他们想登录时，他们可以用备份代码取代 TOTP/WebAuthn 挑战。例如，TOTP+ 密码认证将被替换为备份代码 + 密码。&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;7-convert-virtual-systems-page-to-reactjs&quot;&gt;7. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6696890608910336&quot;&gt;Convert Virtual Systems Page to ReactJS&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;参与者：Riya Kalra&lt;/li&gt;
+  &lt;li&gt;导师：Cédric Bosdonnat-1&lt;/li&gt;
+  &lt;li&gt;描述：将虚拟系统页面的 JSP 代码转换为 ReactJS 改进新创建的虚拟系统页面的用户界面。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;交流&quot;&gt;交流：&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:IRC_list&quot;&gt;openSUSE IRC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:Mailing_lists_subscription&quot;&gt;openSUSE 邮件列表&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;opensuse-project@opensuse.org&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;引用：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Google%E5%A4%8F%E6%97%A5%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%A4%A7%E8%B3%BD&quot;&gt;Google 编程之夏&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</guid>
       <title>谷歌编程之夏 2021：IBus 定制</title>
       <pubDate>Mon, 05 Jul 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</link>
       <author>Hanjingxue Boling</author>
       <description>大家好！我叫 Songlin Jiang，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 Google Summer of Code 。在这篇博客中，我将向你介绍我目前的工作和经历。 关于 IME 和 IBus 对于不熟悉非拉丁语系语言的人来说，IME（输入法）可能是一个全新的概念，因为他们在打字的时候会发现键盘上存在所有的字符。然而，对于亚洲的大多数人来说，如果没有 IME，用他们的语言打字将是不可能的。例如，如果你想打中文，总共有几千个 汉字，而键盘太小，无法将它们全部放在上面。但在 IME 的帮助下，你可以选择使用拼音或其他类型的 输入模式，如五笔。这样，一个标准的美国键盘就足以输入所有的汉字了。 IBus 是一个输入法框架，用于开发提供统一的用户界面的输入法。很多流行的输入法都是基于 IBus 的，而且 IBus 也是 GNOME 上默认的输入法框架。即使你不使用非拉丁语系的语言，在安装了 IBus 输入法助推器（ Ibus-typing-booster） 之后，你也会发现 IBus 很有用。 我的项目：IBus 定制 由于 IBus 的前端是基于 GTK 的，而 GNOME 用它的 GJS 版本取代了这个前端，使其与 GNOME 更加统一，目前，IBus 的主题在 GNOME 中遵循全局...</description>
       <content:encoded>&lt;p&gt;大家好！我叫 &lt;a href=&quot;https://github.com/HollowMan6&quot;&gt;Songlin Jiang&lt;/a&gt;，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; 。在这篇博客中，我将向你介绍我目前的工作和经历。&lt;/p&gt;
@@ -99,10 +208,10 @@
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86.html</guid>
       <title>openSUSE.Asia 2021 峰会话题征集</title>
       <pubDate>Mon, 28 Jun 2021 07:25:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/28/openSUSE.Asia-2021-%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86.html</link>
       <author>Hanjingxue Boling</author>
       <description>主题：使用.分享.贡献 我们很高兴宣布： 2021 年 openSUSE.Asia 峰会的话题征集活动开始。即日起，openSUSE.Asia 委员会期待着看到您的提案。委员会正在寻找来自不同生活领域的演讲者，代表和倡导自由和开源软件。openSUSE.Asia 峰会每年都会举办，以促进自由和开源软件的使用。它是亚洲地区 openSUSE 社区（即贡献者和使用者）最期待的活动之一。今年的活动将是一个在线活动，并将是一个对爱好者和用户都很好的平台。 继上次巴厘岛亚洲峰会之后，2021 年第七届 openSUSE.Asia 峰会将由 openSUSE 印度团队于 2021 年 8 月 6-8 日举行。过去的亚洲峰会得到了来自印度尼西亚、中国、台湾、日本、韩国和印度的主要参与。通过利用互联网的力量，我们希望这次在线活动圆满举行。我们希望看到社区成员学习围绕 openSUSE 的 FLOSS（自由和开源软件） 技术，并分享他们最新的知识与经验。 话题 openSUSE.Asia 峰会 2021 将邀请与 openSUSE 和其他主题相关的会谈，如云、虚拟化、容器、容器编排、Linux 桌面环境和应用程序，因为 openSUSE 是各种 FLOSS 产品的集合。这些话题的例子（不限于此）如下： openSUSE (包括 Leap、Tumbleweed、Open Build Services、openQA 和 YaST) openSUSE Kubic &amp;amp; MicroOS、云、虚拟化、容器和容器编排 嵌入式和物联网...</description>
       <content:encoded>&lt;h1 id=&quot;主题使用分享贡献&quot;&gt;主题：使用.分享.贡献&lt;/h1&gt;
@@ -210,10 +319,10 @@
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/16/openSUSE-Leap-15.3-%E7%89%88%E6%9C%AC%E7%9A%84%E8%B0%83%E6%9F%A5%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/16/openSUSE-Leap-15.3-%E7%89%88%E6%9C%AC%E7%9A%84%E8%B0%83%E6%9F%A5%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F.html</guid>
       <title>openSUSE Leap 15.3 版本的调查已经结束</title>
       <pubDate>Wed, 16 Jun 2021 11:15:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/16/openSUSE-Leap-15.3-%E7%89%88%E6%9C%AC%E7%9A%84%E8%B0%83%E6%9F%A5%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/16/openSUSE-Leap-15.3-%E7%89%88%E6%9C%AC%E7%9A%84%E8%B0%83%E6%9F%A5%E5%B7%B2%E7%BB%8F%E7%BB%93%E6%9D%9F.html</link>
       <author>Hanjingxue Boling</author>
       <description>我们关于 openSUSE Leap 15.3 发布的调查已经结束，结果将在未来几天的 openSUSE 大会上的发布回顾中讨论。
 
@@ -274,10 +383,10 @@ Kocman 将在 6 月 19 日 09:00 UTC 的 openSUSE 大会上发表演讲并讨论
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</guid>
       <title>促进 openSUSE Leap 15.3 的发展</title>
       <pubDate>Wed, 09 Jun 2021 10:10:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/09/%E4%BF%83%E8%BF%9B-openSUSE-Leap-15.3-%E7%9A%84%E5%8F%91%E5%B1%95.html</link>
       <author>Hanjingxue Boling</author>
       <description>在 openSUSE Leap 15.3 发布一个多星期后，openSUSE 酒吧的发布派对仍在继续，然而这并不是该项目唯一飙升的东西。 新版本的适应性在 metrics.opensuse.org 上继续显示出稳定的增长，因为在发布后的一周内，有4万个安装量，这是一种向上和向右的趋势。一般而言，适应性的主要增长发生在发布后的几个月内，因为用户被期望在最新的小版本发布后的六个月内升级到最新的小版本。 该项目可以使用帮助的一个领域是 openSUSE Leap 15.3 的推广。用户可以在 github 艺术作品库中找到新的 Leap 传单，以及更新的横幅和新的 Leap 图片。 社区营销一直在强调 Leap 在服务器、工作站、桌面上的使用，以及用于虚拟化和容器。迁移项目和用户验收测试也从最新的 Leap 中受益。大型开发团队可以运行和测试工作负载，如果需要的话，可以提升和转移到 SUSE Linux Enterprise Linux 15 Service Pack 3 进行长期维护。最新的小版本坚如磐石，从 Leap 15.2 升级很简单。 openSUSE Leap 15.3 是用与 SLE 完全相同的二进制包构建的。 社区是支持性的，并通过社区渠道，如邮件列表、Matrix、Discord、Telegram 和 Facebook 与使用 Leap 的人进行交流。通过在 DistroWatch...</description>
       <content:encoded>&lt;p&gt;在 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 发布一个多星期后，&lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 酒吧&lt;/a&gt;的发布派对仍在继续，然而这并不是&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;该项目&lt;/a&gt;唯一飙升的东西。&lt;/p&gt;
@@ -304,10 +413,10 @@ Kocman 将在 6 月 19 日 09:00 UTC 的 openSUSE 大会上发表演讲并讨论
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</guid>
       <title>新的重建工作有望推进新的硬件支持</title>
       <pubDate>Tue, 08 Jun 2021 07:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/08/%E6%96%B0%E7%9A%84%E9%87%8D%E5%BB%BA%E5%B7%A5%E4%BD%9C%E6%9C%89%E6%9C%9B%E6%8E%A8%E8%BF%9B%E6%96%B0%E7%9A%84%E7%A1%AC%E4%BB%B6%E6%94%AF%E6%8C%81.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE 社区的开发者们正在通过 FrontRunner 项目向更广泛的硬件支持迈进。 FrontRunner 是通过 openSUSE 的 Step 项目提供社区协作计划，旨在从 Open Build Service (开放构建服务, OBS) 中的源代码重建 SUSE Linux Enterprise。FrontRunner 在一个项目中重建了所有的源代码，其中包涵并体现推进未来 Leap 版本的架构启用的变化与更改。 openSUSE 董事会主席兼 SUSE 首席技术官 Gerald Pfeifer 博士说：“我很高兴 FrontRunner 为 openSUSE 和 SUSE 开辟了一种共同为 openSUSE Leap 启用新的硬件架构支持的新方法。” openSUSE Leap 继承了 SUSE Linux Enterprise 的基础（核心二进制包）。 于二月开始的 Step 项目旨在为未来的 openSUSE Leap...</description>
       <content:encoded>&lt;p&gt;openSUSE 社区的开发者们正在通过 &lt;a href=&quot;https://build.opensuse.org/project/show/openSUSE:Step:FrontRunner&quot;&gt;FrontRunner 项目&lt;/a&gt;向更广泛的硬件支持迈进。&lt;/p&gt;
@@ -339,10 +448,10 @@ Kocman 将在 6 月 19 日 09:00 UTC 的 openSUSE 大会上发表演讲并讨论
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</guid>
       <title>在线开放日过后的 openSUSE，调查开始了</title>
       <pubDate>Fri, 04 Jun 2021 13:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE 项目最近有很多事情发生。该项目刚刚发布了 Leap 15.3，在 openSUSE 酒吧举行了24小时的发布派对，并开启了一项调查，以获得对新 Leap 版本发布的反馈。 还有许多其他事情发生，其中之一是在线开放日。社区成员将在 SUSE Open House CZ 2021 期间有两场讨论 openSUSE 主题的会议 该活动将于 6 月 15 日 13:00 UTC 至 17:00 UTC 举行。Leap 发布管理者 Lubos Kocman 将介绍 openSUSE Leap 15.3 是如何制作的，社区成员 Jason Evans 将讨论如何为 openSUSE 做贡献。 参与者必须登记参加该活动。 该项目还将于 6 月 18 - 19 日举行 openSUSE...</description>
       <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;最近有很多事情发生。该项目刚刚发布了 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt;，在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 酒吧&lt;/a&gt;举行了24小时的发布派对，并开启了一项&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;，以获得对新 Leap 版本发布的反馈。&lt;/p&gt;
@@ -422,149 +531,6 @@ ln -s ../../../../usr/src/linux-5.12.4-2-obj/x86_64/default build
 &lt;/ol&gt;
 
 &lt;p&gt;参见英文邮件列表的&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/XFPS2KBKSZL2KORYMXY2X77Q2ZR2DAFD/&quot;&gt;讨论&lt;/a&gt;以获取更多信息。&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/02/Leap-15.3-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html</guid>
-      <title>Leap 15.3 发行公告</title>
-      <pubDate>Wed, 02 Jun 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/02/Leap-15.3-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html</link>
-      <author>Nianqing Yao</author>
-      <description>openSUSE Leap 15.3 搭建前往企业的桥梁 EN / CA / CS / DE / ES / FR / ID / IT / JA / NL / PT / SV / ZH-CN / ZH-TW 02/06/2021 纽伦堡，德国 – openSUSE Leap 15.3 现已发布！ 最近发布了最新的 openSUSE Leap 小版本，作为坚如磐石的 openSUSE 15.x 系列的新成员，它继承了前代产品的所有优秀特性。这次的版本相比较之前 Leap 的有了一个巨大的变化，openSUSE Leap 15.3 并没有像之前的版本一样编译自...</description>
-      <content:encoded>&lt;h2 id=&quot;opensuse-leap-153-搭建前往企业的桥梁&quot;&gt;openSUSE Leap 15.3 搭建前往企业的桥梁&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://en.opensuse.org/Release_announcement_15.3&quot;&gt;EN&lt;/a&gt; / &lt;a href=&quot;http://en.opensuse.org/Anunci_de_publicaci%C3%B3_15.3&quot;&gt;CA&lt;/a&gt; / CS / DE / &lt;a href=&quot;http://es.opensuse.org/Anuncio_publicaci%C3%B3n_15.3&quot;&gt; ES&lt;/a&gt; / &lt;a href=&quot;http://fr.opensuse.org/Annonce_de_version_15.3&quot;&gt;FR&lt;/a&gt; / &lt;a href=&quot;https://etherpad.opensuse.org/p/r.161fedc20391ba34693f1a04e1933ef5&quot;&gt;ID&lt;/a&gt; / &lt;a href=&quot;http://it.opensuse.org/Annuncio_di_rilascio_versione_15.3&quot;&gt;IT&lt;/a&gt; / JA / &lt;a href=&quot;http://nl.opensuse.org/Release_announcement_15.3&quot;&gt;NL&lt;/a&gt; / &lt;a href=&quot;http://pt.opensuse.org/Anuncio_de_lan%C3%A7amento_15.3&quot;&gt;PT&lt;/a&gt; / &lt;a href=&quot;https://en.opensuse.org/Release_announcement_15.3SV&quot;&gt;SV&lt;/a&gt; / &lt;strong&gt;ZH-CN&lt;/strong&gt; / &lt;a href=&quot;http://zh-tw.opensuse.org/Release_announcement_15.3&quot;&gt;ZH-TW&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;02/06/2021&lt;/p&gt;
-
-&lt;p&gt;纽伦堡，德国 – &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt; 现已发布！&lt;/p&gt;
-
-&lt;p&gt;最近发布了最新的 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap&quot;&gt;openSUSE Leap&lt;/a&gt; 小版本，作为坚如磐石的 openSUSE 15.x 系列的新成员，它继承了前代产品的所有优秀特性。这次的版本相比较之前 Leap 的有了一个巨大的变化，openSUSE Leap 15.3 并没有像之前的版本一样编译自 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 的代码，但是使用了完全一样的二进制包进行了构建，从而使 Leap 和 SLE 之间能像&lt;a href=&quot;https://youtu.be/ezmR9Attpyc&quot;&gt;阴阳&lt;/a&gt;一样对立而又统一。&lt;/p&gt;
-
-&lt;p&gt;版本经理 Lubos Kocman 说：“新版本的软件工程使得 openSUSE Leap 成为 IT 专家、企业家、业余爱好者、小型企业与教育人员在服务器、工作站、台式机和容器上运行的理想发行版。”&lt;/p&gt;
-
-&lt;p&gt;这个版本对与进行移植项目和进行用户测试（UAT）工作的用户有着明显优势。大型开发团队得以在 openSUSE Leap 15.3 
-上优化运行与测试工作的工作流程，从而减少转移到 SUSE Linux Enterprise Linux 15 SP3 进行长期的维护的工作。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap 的每个版本通过提供至少 18 个月的升级获得了明显的优势。社区会通过社区渠道支持并且参与使用旧版本 Leap 的用户之间的交流，你可以通过如下社区渠道与他们交流：&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;mailing lists （即将开启），&lt;a href=&quot;https://forum.suse.org.cn/&quot;&gt;openSUSE中文社区&lt;/a&gt;，&lt;a href=&quot;https://matrix.to/#/#openSUSE-cn:matrix.org&quot;&gt;Matrix&lt;/a&gt;，&lt;a href=&quot;https://discord.gg/CSUfDgMX8N&quot;&gt;Discord&lt;/a&gt;，&lt;a href=&quot;https://t.me/opensuse_cn&quot;&gt;Telegram&lt;/a&gt;，&lt;a href=&quot;irc://irc.opensuse.org/opensuse-cn&quot;&gt;IRC&lt;/a&gt;，等等。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这种社区发行版 Leap 与企业发行版 SLE 之间的交织，联系和相互支持，为开发者、系统管理员、发行版爱好者、独立软件开发商（ISV）还有 SUSE 用户与客户们带来了一个激动人心的版本。&lt;/p&gt;
-
-&lt;p&gt;由于 openSUSE Leap 15.3 and SLE 15 Service Pack 3 之间相互的共享关系，这给予了用户在成千上万个社区软件包里能有相同的选择。这些社区软件包构建于一个叫&lt;a href=&quot;https://en.opensuse.org/openSUSE:Packaging_for_Leap#How_do_packages_from_SUSE_Linux_Enterprise_get_to_openSUSE_Leap.3F&quot;&gt;“Backports”&lt;/a&gt;的基于 SLE 基线的项目。Backport 也发布于 &lt;a href=&quot;https://packagehub.suse.com/&quot;&gt;SUSE Package Hub&lt;/a&gt; 所以从 Leap 迁移至 SLE 是迅速而且统一的。在两者之间迁移是非常快的，通过 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 文件系统，用户可以在 Leap 上测试，在 SLE 上部署，甚至回滚到 Leap 版本的快照上。&lt;/p&gt;
-
-&lt;p&gt;Leap 授权其用户可以运行与多 CPU 硬件上并且无限制的托管虚拟机。如果以后 Leap 用户需要企业技术支持，可以直接把现有的服务器，虚拟机或者容器迁移至 SUSE Linux Enterprise。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 与&lt;a href=&quot;https://en.opensuse.org/Portal:15.2&quot;&gt;之前版本&lt;/a&gt;的许多软件包是相同的。Leap 15.3 带来了 Bug 修复和安全 backport，可用于经过验证的 &lt;a href=&quot;http://kroah.com/log/blog/2018/08/24/what-stable-kernel-should-i-use/#Distribution%20kernels&quot;&gt;长期支持（LTS）内核&lt;/a&gt;。这确保了用户有一个稳定的服务器系统，同时也为用户提供了一些新硬件的驱动。&lt;/p&gt;
-
-&lt;h2 id=&quot;从之前的-leap-版本升级&quot;&gt;从之前的 Leap 版本升级&lt;/h2&gt;
-
-&lt;p&gt;升级到
-openSUSE Leap 15.3 的用户需要注意，不建议从 openSUSE Leap 15.2 
-之前的版本直接升级。由于升级路径的原因，强烈建议在升级到 Leap 15.3 之前先升级到 Leap 15.2。该版本只支持从 openSUSE
-Leap 15.2 升级到 15.3，正如&lt;a href=&quot;https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.3/RELEASE-NOTES.zh_CN.html#upgrade&quot;&gt;发行说明&lt;/a&gt;中所强调的。&lt;/p&gt;
-
-&lt;h2 id=&quot;新鲜出炉&quot;&gt;新鲜出炉&lt;/h2&gt;
-
-&lt;p&gt;新的主要功能在 &lt;a href=&quot;https://www.xfce.org&quot;&gt;Xfce&lt;/a&gt; &lt;a href=&quot;https://www.xfce.org/about/news/?post=1608595200&quot;&gt;4.16&lt;/a&gt;。在
-Xfce 的这个版本中有一个新的视觉形象。有了新的图标和调色板，Xfce 
-在开箱后更闪亮了一些。设置管理器的过滤框得到了视觉上的更新，现在可以永久隐藏。通过搜索每个对话框的启动器（又称 
-.desktop）文件的描述性“评论”部分，过滤框的搜索功能得到了改进。电源管理器的设置对话框被清理，显示“使用电池”或“充电”的设置，而不是在一个巨大的表格中显示两者。&lt;/p&gt;
-
-&lt;p&gt;GNU Health，屡获殊荣的健康和医院管理及信息系统，在 3.8 
-版本中增加了一个新的牙科模块和牙形图。作为第一个发行版本，openSUSE 提供了MyGNUHealth，一个个人医疗健康管理器，它是由 GNU
-Health 和 KDE 项目合作开发的。它可以在 PinePhone 和 Plasma 桌面上运行，并给予用户对其数据的完全所有权和控制。&lt;/p&gt;
-
-&lt;p&gt;DNF 软件包管理器预计在维护更新中，将给用户提供 4.7.0 版本，在整个堆栈中提供新的功能和预期的改进。DNF 的 
-Python API 
-是稳定和受支持的。一个实验性的“opensuse/leap-dnf”和“opensuse/leap-microdnf”基础容器现在可用。包含了一个轻量级的
-DNF 的 C 实现，称为“Micro DNF”。它被设计用来在用户想要尽可能小而有用的环境时，做简单的包管理动作，而不需要一个完整的 
-DNF。这对于最小的容器和设备的情况很有用。Micro DNF 已被重新定位到 3.8.0，它带来了许多修复和改进。最后，一个实验性的 
-PackageKit 后台替代品也可以用于 DNF。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap 在多种架构上运行良好，这个版本增加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;IBM Z 和 LinuxONE (s390x)&lt;/a&gt; 系统的支持。该社区发行版通过与 SLE 二进制兼容的努力中获得了对 s390x 架构的访问支持。&lt;/p&gt;
-
-&lt;p&gt;在以前的 Leap 版本中，&lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;arch64&lt;/a&gt; 是 ports 的一部分，由资源有限的独立社区团队维护。现在 openSUSE Leap 直接使用来自企业端的 aarch64、powerpc64 和 x86_64 的二进制包，所以用户可以在 &lt;a href=&quot;https://get.opensuse.org&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到这些镜像。对 armv7 和其他架构感兴趣的人应该阅读关于 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
-
-&lt;h3 id=&quot;容器技术&quot;&gt;容器技术&lt;/h3&gt;
-
-&lt;p&gt;容器技术的软件包都是与 Leap 15.2 的相同版本，但所有的包都有安全更新，如 &lt;a href=&quot;https://containerd.io/&quot;&gt;containerd&lt;/a&gt;、&lt;a href=&quot;https://podman.io/&quot;&gt;podman&lt;/a&gt;、&lt;a href=&quot;https://github.com/kubernetes/kubeadm&quot;&gt;kubeadm&lt;/a&gt; 和 &lt;a href=&quot;https://cri-o.io/&quot;&gt;cri-o&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Leap 15.3 的用户将有更多的能力使用发行版中维护的较新的容器技术来开发、运送和部署容器化应用程序。
-&lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;
-极大地促进了容器编排能力，使用户能够自动部署、扩展和管理容器化应用。Helm 是 Kubernetes 
-的软件包管理器，通过定义、安装和升级最复杂的 Kubernetes 应用，帮助开发者和系统管理员管理复杂性。
-使用符合开放容器倡议（OCI）的运行时（CRI-O）的容器运行时接口（CRI）也包含在这个版本中。CRI-O 是使用 Docker 
-作为运行时的轻量级替代方案，它允许 Kubernetes 使用任何符合OCI的运行时作为容器运行时，以运行集群上运行的 pod 或进程。
-即使使用&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;，由于更多的容器软件包在这个版本中到可用，微服务的使用也会很安全。&lt;/p&gt;
-
-&lt;p&gt;容器如果以后需要“开启”企业支持的话，Leap 的用户可以在几分钟内将现有的服务器、虚拟机或容器迁移到 SUSE Linux Enterprise 上。&lt;/p&gt;
-
-&lt;p&gt;对于可以运行多少个 CPU，可以托管多少个虚拟机，机器可以运行多长时间，都没有任何限制。&lt;/p&gt;
-
-&lt;h3 id=&quot;人工智能-ai-与机器学习&quot;&gt;人工智能 (AI) 与机器学习&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;Tensorflow&lt;/a&gt;: 一个可供数据科学家使用的深度学习框架，提供数值计算和数据流图。其灵活的架构使用户能够将计算部署到桌面、服务器或移动设备的一个或多个 CPU 上，而无需重写代码。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://pytorch.org/tutorials/&quot;&gt;PyTorch&lt;/a&gt;： 这个机器学习库同时适用于服务器和计算资源，它加速了高级用户对项目进行原型设计并将其转移到生产部署的能力。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://onnx.ai/&quot;&gt;ONNX&lt;/a&gt;：一种用于表示机器学习模型的开放格式，在人工智能工具领域提供了互操作性。它使人工智能开发者能够使用各种框架、工具、运行时和编译器的模型。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://grafana.com/&quot;&gt;Grafana&lt;/a&gt; 和 &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt; 对分析专家非常有用。Grafana 为最终用户提供了创建交互式可视化分析的能力。功能丰富的数据建模包：Graphite、Elastic 和 Prometheus ，为 openSUSE 用户提供了更大的自由度，可以更智能地构建、计算和解读数据。&lt;/p&gt;
-
-&lt;h3 id=&quot;桌面环境&quot;&gt;桌面环境&lt;/h3&gt;
-
-&lt;p&gt;KDE Plasma 5.18 的长期支持版在 Leap 15.3 中再次推出。LTS 
-有大量的润色和高质量的功能。通知更清晰，设置更精简，整体外观更有吸引力。GNOME 3.34 
-为一些应用程序提供了相当数量的视觉刷新。sysprof 中更多的数据源使得应用程序的性能分析变得更加容易，并且对 Builder 
-进行了多项改进，包括一个集成的 D-Bus 检查器。&lt;/p&gt;
-
-&lt;p&gt;加上 Cinnamon 的新模式，Leap 15.3 总共提供了8个有吸引力的桌面（平行）安装，以满足个人喜好和硬件能力。&lt;/p&gt;
-
-&lt;h3 id=&quot;云映像硬件和体系结构&quot;&gt;云映像，硬件和体系结构&lt;/h3&gt;
-
-&lt;p&gt;Leap 的 Linode 云端镜像今天可用，并准备好满足所有基础设施的需求。云主机服务将在未来几周提供 Leap 15.3 的镜像，如亚马逊网络服务、
-Azure、谷歌计算引擎和 OpenStack。Leap 15 作为宿主机系统和虚拟化系统，将不断为云使用场景进行优化。
-你可以购买预装了 Leap 15.2 的 TUXEDO 电脑和 Linux 笔记本。也可以购买预装了 Leap 15.3 的 Slimbooks
-的产品。&lt;/p&gt;
-
-&lt;h3 id=&quot;服务器和台式机&quot;&gt;服务器和台式机&lt;/h3&gt;
-
-&lt;p&gt;Leap 是桌面和服务器环境的理想选择。系统管理员和小型企业可以使用 Leap 
-来托管网络和邮件服务器。系统管理员可以充分利用网络管理协议动态主机配置协议（DHCP），使用域名系统（DNS）分配资源，或通过网络文件系统（NFS）为客户电脑提供文件访问。像 NextCloud 这样的文件和主机共享软件包也是可用的，团队协作套件 Kopano 是 Leap 15.3 正式版的一部分。&lt;/p&gt;
-
-&lt;p&gt;可用于&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试&lt;/a&gt;的架构包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;arch64&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;s390x&lt;/a&gt;。Armv7 架构应阅读有关 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
-
-&lt;p&gt;查找有关 openSUSE Leap 15.3 Windows Subsystem for Linux 的更多信息&lt;a href=&quot;https://en.opensuse.org/openSUSE:WSL&quot;&gt;请见这里&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;结束支持&quot;&gt;结束支持&lt;/h3&gt;
-
-&lt;p&gt;openSUSE Leap 15.2 将在今天发布后的六个月内完成其 &lt;a href=&quot;https://en.wikipedia.org/wiki/End-of-life_product&quot;&gt;结束支持&lt;/a&gt;。用户应该更新到 openSUSE Leap 15.3 以继续接收安全和维护更新。&lt;/p&gt;
-
-&lt;h3 id=&quot;立刻下载-leap-153&quot;&gt;立刻下载 Leap 15.3&lt;/h3&gt;
-
-&lt;p&gt;要下载 Leap 15.3 的镜像 ISO 文件，请访问：&lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;https://get.opensuse.org/leap/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;问题何在&quot;&gt;问题何在？&lt;/h3&gt;
-
-&lt;p&gt;如果你有关于该版本的问题，或者认为发现了一个错误，我们很愿意听到你的意见：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://t.me/openSUSE_group&quot;&gt;https://t.me/openSUSE_group&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/opensuse-support/&quot;&gt;https://lists.opensuse.org/opensuse-support/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://discordapp.com/invite/openSUSE&quot;&gt;https://discordapp.com/invite/openSUSE&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;https://www.facebook.com/groups/opensuseproject&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;加入我们&quot;&gt;加入我们！&lt;/h3&gt;
-&lt;p&gt;openSUSE 项目是一个在世界各地推广使用 Linux 的社区。它创造了两个世界上最好的 Linux 发行版，Tumbleweed （滚动发行版）和 
-Leap（企业-社区混合发行版）。openSUSE 作为全球自由和开源软件社区的一部分，一直以开放、透明和友好的方式合作。该项目由其社区控制，并依靠个人的贡献，作为测试人员、作家、翻译、可用性专家、艺术家和大使或开发者工作。该项目接纳了各种各样的技术、具有不同专业水平的人、讲不同语言和具有不同文化背景的人。你可以在
-opensuse.org 上了解更多信息。&lt;/p&gt;
 </content:encoded>
     </item>
 
