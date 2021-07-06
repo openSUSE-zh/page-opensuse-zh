@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: 促进 openSUSE Leap 15.3 的发展
 image: /assets/posts/2021-06/促进 openSUSE Leap 15.3 的发展.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Leap
 - 翻译作品

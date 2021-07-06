@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap 15.3 版本的调查已经结束
 image: /assets/posts/2021-06/openSUSE Leap 15.3 版本的调查已经结束.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Leap
 - 翻译作品
