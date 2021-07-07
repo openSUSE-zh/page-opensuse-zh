@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/07/IRC-%E5%92%8C-Matrix-%E5%85%AC%E5%91%8A.html</guid>
+      <title>关于 IRC 和 Matrix 的公告</title>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/07/IRC-%E5%92%8C-Matrix-%E5%85%AC%E5%91%8A.html</link>
+      <author>Nianqing Yao</author>
+      <description>openSUSE 项目从一开始就使用 IRC 在社区内进行实时聊天。到近期为止，使用的 IRC 网络一直是 Freenode。 由于该网络最近发生了各种变化，openSUSE 项目正在将我们的 IRC 通信转移到 Libera.Chat。 如果您目前是 IRC 用户，请在 Libera.Chat 上注册您的昵称，然后重新加入您之前在 Freenode 上加入的 #opensuse 相关频道。请借此机会选择一个新的安全密码，并确保您通过 SSL 进行连接。 Libera.Chat 提供有关选择 IRC 客户端的文档。 许多 openSUSE 频道已经转移并且已经在 Libera.Chat 上。但是，较少使用的频道尚未自动迁移。如果您需要迁移特定的 #opensuse-* IRC 频道，请提交请求频道迁移的签条(Ticket)。 新频道的名称与它们在 Freenode 上的名称相同。例如：#opensuse-factory 、 #opensuse 和 #kubic 。 如果您想要一个 openSUSE IRC “cloak”（它会混淆您的客户端主机地址并显示“opensuse”）并且您是 openSUSE 会员，请提交请求 cloak...</description>
+      <content:encoded>&lt;p&gt;openSUSE 项目从一开始就使用 IRC 在社区内进行实时聊天。到近期为止，使用的 IRC 网络一直是 Freenode。&lt;/p&gt;
+
+&lt;p&gt;由于该网络最近发生了各种变化，openSUSE 项目正在将我们的 IRC 通信转移到 Libera.Chat。&lt;/p&gt;
+
+&lt;p&gt;如果您目前是 IRC 用户，请在 Libera.Chat 上&lt;a href=&quot;https://libera.chat/guides/registration#registering&quot;&gt;注册您的昵称&lt;/a&gt;，然后重新加入您之前在 Freenode 上加入的 #opensuse 相关频道。请借此机会选择一个新的安全密码，并确保您通过 SSL 进行连接。 Libera.Chat 提供有关选择 IRC 客户端的&lt;a href=&quot;https://libera.chat/guides/clients&quot;&gt;文档&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;许多 openSUSE 频道已经转移并且已经在 Libera.Chat 上。但是，较少使用的频道尚未自动迁移。如果您需要迁移特定的 #opensuse-* IRC 频道，请&lt;a href=&quot;https://code.opensuse.org/project/irc&quot;&gt;提交请求频道迁移的签条(Ticket)&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;新频道的名称与它们在 Freenode 上的名称相同。例如：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#opensuse-factory&lt;/code&gt; 、 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#opensuse&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#kubic&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;p&gt;如果您想要一个 openSUSE IRC “cloak”（它会混淆您的客户端主机地址并显示“opensuse”）并且您是 openSUSE 会员，请提交请求 cloak 的签条。请注意，“cloak”并非万无一失，人们仍然可以通过多种方式获取您的 IP，但它们确实使人们更难以获取您的 IP。&lt;/p&gt;
+
+&lt;p&gt;如果您是 Matrix 用户，那么您还会看见更多的改进，因为 IRC 渠道正在被桥接到 Matrix，以将 IRC 和 Matrix 上的 openSUSE 社区连接在一起。此外，Discord 和 Telegram 也会连接到 Matrix，使其成为所有实时聊天的统一点。&lt;/p&gt;
+
+&lt;p&gt;最后，openSUSE 项目托管的 Matrix 实例开放供社区使用。您可以访问 chat.opensuse.org 以使用您的 openSUSE 帐户登录该服务。从那里，您将能够与任何和所有 Matrix 房间进行交互，尤其是托管在我们服务器上的 openSUSE 房间，这些房间已经连接了 IRC。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/07/irc-matrix-announcement/&quot;&gt;IRC and Matrix announcements&lt;/a&gt;，作者：Neal Gompa&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0/2021/07/06/openSUSE-%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F.html</guid>
       <title>openSUSE 与谷歌编程之夏</title>
       <pubDate>Tue, 06 Jul 2021 00:55:00 -0500</pubDate>
@@ -472,65 +501,6 @@ Kocman 将在 6 月 19 日 09:00 UTC 的 openSUSE 大会上发表演讲并讨论
 
 &lt;!--在上面写上原文来源与作者--&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/03/Tumbleweed-%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A.html</guid>
-      <title>[重要] Tumbleweed 更新通告</title>
-      <pubDate>Thu, 03 Jun 2021 00:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/06/03/Tumbleweed-%E9%87%8D%E8%A6%81%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A.html</link>
-      <author>Nianqing Yao</author>
-      <description>近期释出的快照 20210527 包含了对文件系统架构的转变，即 UsrMerge 和对 Glibc 的升级。 这意味着即使上游软件的代码没有改变，几乎所有软件包都需要重新安装。同时这些改变也带来了链接符号与文件位置的变动，这意味着不规范的应用程序极有可能在升级后出现问题甚至崩溃。 对于用户，请使用 zypper dup 而非 zypper up ，也请务必在内核终端(TTY)下运行 zypper 进行更新。您可以按住 Ctrl+Alt+F1 与 Ctrl+Alt+F7 在内核终端与图形界面中切换，在内核终端环境下输入 export LANG=C 可以使程序显示为英文，避免出现中文显示为方块的现象，安装 fbterm 或 kmscon 也可以解决此问题。不要在桌面环境的终端下进行更新，因为若桌面环境在更新过中崩溃，终端内的进程也可能随之终止。 由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 Snapper 快照，我们建议您提前安装 busybox-static，以应对可能出现的意外状况。 同时，我们建议您检查您设备上的非官方源应用程序，已有多例报告表明部分第三方程序在该快照后无法运行，详细的报告参见后文。 已知问题 Qv2Ray 运行失败 原因：直接原因是软件包 Qv2Ray 没有更新到与该快照匹配的版本，根本原因 是 Qv2Ray 无法在最新的 abseil-cpp 下编译 (06-03更新) 是直接是构建依赖 gRPC 的构建失败，Arch Linux 也遭遇了同样的问题。...</description>
-      <content:encoded>&lt;p&gt;近期释出的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IBCTE7GGE7WA2TIX7ENZ67G7O4H655GA/&quot;&gt;20210527&lt;/a&gt; 包含了对文件系统架构的转变，即 UsrMerge 和对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Glibc&lt;/code&gt; 的升级。&lt;/p&gt;
-
-&lt;p&gt;这意味着即使上游软件的代码没有改变，几乎所有软件包都需要重新安装。同时这些改变也带来了链接符号与文件位置的变动，这意味着不规范的应用程序极有可能在升级后出现问题甚至崩溃。&lt;/p&gt;
-
-&lt;p&gt;对于用户，请使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 而非 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper up&lt;/code&gt; ，也请&lt;strong&gt;务必&lt;/strong&gt;在内核终端(TTY)下运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt; 进行更新。您可以按住 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Alt+F1&lt;/code&gt; 与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Alt+F7&lt;/code&gt; 在内核终端与图形界面中切换，在内核终端环境下输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;export LANG=C&lt;/code&gt; 可以使程序显示为英文，避免出现中文显示为方块的现象，安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fbterm&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kmscon&lt;/code&gt; 也可以解决此问题。不要在桌面环境的终端下进行更新，因为若桌面环境在更新过中崩溃，终端内的进程也可能随之终止。&lt;/p&gt;
-
-&lt;p&gt;由于更新了大量软件包，在升级前一定要确保磁盘上有足够的剩余空间。如果您没有配置 Snapper 快照，我们建议您提前安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busybox-static&lt;/code&gt;，以应对可能出现的意外状况。&lt;/p&gt;
-
-&lt;p&gt;同时，我们建议您检查您设备上的&lt;strong&gt;非官方源&lt;/strong&gt;应用程序，已有多例报告表明部分第三方程序在该快照后无法运行，详细的报告参见后文。&lt;/p&gt;
-
-&lt;h4 id=&quot;已知问题&quot;&gt;已知问题&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Qv2Ray 运行失败&lt;/p&gt;
-
-    &lt;p&gt;原因：直接原因是软件包 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Qv2Ray&lt;/code&gt; 没有更新到与该快照匹配的版本，根本原因 &lt;del&gt;是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Qv2Ray&lt;/code&gt; 无法在最新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abseil-cpp&lt;/code&gt; 下编译&lt;/del&gt; (06-03更新) 是直接是构建依赖 gRPC 的构建失败，Arch Linux 也遭遇了同样的问题。&lt;br /&gt;
-&lt;strong&gt;解决方案：&lt;/strong&gt; 上游已修复 gRPC 的构建，待提交进入到 Factory。建议暂时使用 AppImage 版本代替。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;桌面特效故障&lt;/p&gt;
-
-    &lt;p&gt;部分用户在更新后报告KDE桌面环境的混成器出现异常。&lt;br /&gt;
-&lt;strong&gt;解决方案：&lt;/strong&gt; 在系统设置中调整渲染模式为 OpenGL 3.1&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;VMware 内核模块编译失败&lt;/p&gt;
-
-    &lt;p&gt;原因：内核头文件路径改变。&lt;br /&gt;
-&lt;strong&gt;解决方案：&lt;/strong&gt; 参见&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/TEZY5HUBYM6CLPVA7YQS6EORCRD63WEK/&quot;&gt;此处&lt;/a&gt;，创建软链接：&lt;/p&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /usr/lib/modules/5.12.4-2-default
-ln -s ../../../../usr/src/linux-5.12.4-2-obj/x86_64/default build
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;（可能存在）Nvidia 驱动分辨率错误&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;解决方案：&lt;/strong&gt; 暂无&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Nvidia 驱动失效&lt;/p&gt;
-
-    &lt;p&gt;&lt;strong&gt;解决方案：&lt;/strong&gt; 以 root 用户执行：&lt;/p&gt;
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd / &amp;amp;&amp;amp; ln -s . /usr/usr
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;参见英文邮件列表的&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/XFPS2KBKSZL2KORYMXY2X77Q2ZR2DAFD/&quot;&gt;讨论&lt;/a&gt;以获取更多信息。&lt;/p&gt;
 </content:encoded>
     </item>
 
