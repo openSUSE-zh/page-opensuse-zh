@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/09/RubyGems-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>RubyGems 和 systemd 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 09 Jul 2021 08:10:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/09/RubyGems-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>RubyGems 和 systemd 在 Tumbleweed 中更新。 自上次更新以来，总共有四个 openSUSE Tumbleweed 快照被发布。 三个较小的快照，包括一个新的 systemd 更新，和一个大的快照，包括一堆 RubyGems 更新，为滚动发布的用户提供了几个上游软件包。 终端用户可以使用的最新快照是 20210703，它只带来了两个更新包。第一个软件包的更新是针对数据压缩库 zlib-ng-compat 的；更新到 2.0.5 版本，对小数据块做了一些小的改进，并修复了 AArch64 上的膨胀损坏。GNU Compiler Collection 11 更新了 headbranch，并修复了一些遗留的 Fortran 代码，这是一种通用的，已编译的命令式编程语言，在 20 世纪 50 年代由 IBM 开发，用于数字计算和科学计算。 最大的快照是 20210702 。该快照主要由 RubyGems 构成。rubygem-rails 6.0.4 和 5.2.6 都已更新。6.0.4 版本修复了 ActiveSupport::Cache::RedisCacheStore 中的一个问题，即没有向 read_multi 传递选项，这导致...</description>
+      <content:encoded>&lt;p&gt;RubyGems 和 systemd 在 Tumbleweed 中更新。&lt;/p&gt;
+
+&lt;p&gt;自上次更新以来，总共有四个 openSUSE Tumbleweed 快照被发布。&lt;/p&gt;
+
+&lt;p&gt;三个较小的快照，包括一个新的 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 更新，和一个大的快照，包括一堆 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 更新，为滚动发布的用户提供了几个上游软件包。&lt;/p&gt;
+
+&lt;p&gt;终端用户可以使用的最新快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QLPJGOTMXU456LOE7QN6ROLOG4SI3G3S/&quot;&gt;20210703&lt;/a&gt;，它只带来了两个更新包。第一个软件包的更新是针对数据压缩库 &lt;a href=&quot;https://github.com/zlib-ng/zlib-ng&quot;&gt;zlib-ng-compat&lt;/a&gt; 的；更新到 2.0.5 版本，对小数据块做了一些小的改进，并修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 上的膨胀损坏。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GNU Compiler Collection&lt;/a&gt; 11 更新了 headbranch，并修复了一些遗留的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Fortran&quot;&gt;Fortran&lt;/a&gt; 代码，这是一种通用的，已编译的命令式编程语言，在 20 世纪 50 年代由 &lt;a href=&quot;https://www.ibm.com/&quot;&gt;IBM&lt;/a&gt; 开发，用于数字计算和科学计算。&lt;/p&gt;
+
+&lt;p&gt;最大的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/O2C3ONUNNZFPUAYP4DUL7TGBIA72UP7W/&quot;&gt;20210702&lt;/a&gt; 。该快照主要由 RubyGems 构成。&lt;a href=&quot;https://rubygems.org/gems/rails/&quot;&gt;rubygem-rails&lt;/a&gt; 6.0.4 和 5.2.6 都已更新。6.0.4 版本修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ActiveSupport::Cache::RedisCacheStore&lt;/code&gt; 中的一个问题，即没有向 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read_multi&lt;/code&gt; 传递选项，这导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch_multi&lt;/code&gt; 不能正常工作。4.6.0 版本的 &lt;a href=&quot;https://rubygems.org/gems/commander&quot;&gt;rubygem-commander&lt;/a&gt;，它连接了终端相关的库，放弃了对 &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 2.4 的支持，并修复了 Ruby 3.0 上 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SortedSet&lt;/code&gt; 的错误。用于捆绑应用的补丁级验证包 &lt;a href=&quot;https://rubygems.org/gems/bundler-audit&quot;&gt;rubygem-bundler-audit&lt;/a&gt; 0.8.0 增加了一些配置，现在支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--database&lt;/code&gt; 选项，用于指定替代 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ruby-advisory-db&lt;/code&gt; 副本的路径。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 更新到了 0.3.31 版，并为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;Advanced Linux Sound Architecture-Library&lt;/a&gt; 1.2.5 提供了一些修复，蓝牙现在使用硬件数据库来禁用列出设备上的非工作功能。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的 IRC 应用 &lt;a href=&quot;https://wiki.gnome.org/Apps/Polari&quot;&gt;Polari&lt;/a&gt; 更新到了 40.0 版，它将 &lt;a href=&quot;https://libera.chat/&quot;&gt;Libera.Chat&lt;/a&gt; 加入了预定义网络。其他在快照中要更新的软件包是 GNOME 的库，有很多用于手机的 GTK+ 部件 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libhandy&quot;&gt;libhandy 1.2.3&lt;/a&gt;，文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.3075，&lt;a href=&quot;http://ftp.sendmail.org/snapshots/&quot;&gt;sendmail&lt;/a&gt; 8.17.0.3 和 openSUSE 的 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.19 软件包。&lt;/p&gt;
+
+&lt;p&gt;更新频率不高的 systemd 软件包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DC754T4KB6HRILY5KCBFVFH5XTRPT4LK/&quot;&gt;20210701&lt;/a&gt; 中到来。从版本 246.13 升级至 248.3，带来了一个新的 &lt;a href=&quot;https://www.freedesktop.org/software/systemd/man/systemd-sysext.html&quot;&gt;systemd-sysext&lt;/a&gt; 工具，可以用来合并、取消合并、列出和刷新系统扩展层次结构。新版本引入了系统扩展映像（system extension images）的概念，现在允许在系统安装过程中覆盖 sysusers 配置文件，这些文件是由 systemd rpms 提供的。如果 systemd 被安装到 sysuser-shadow，3.1 版的 &lt;a href=&quot;https://software.opensuse.org/package/sysuser-tools&quot;&gt;sysuser-tools&lt;/a&gt; 会增加了对那些大于或等于 systemd 238 的依赖。&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 跳了几个版本到 4.4.14，并增加了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/RISC-V&quot;&gt;RISC-V&lt;/a&gt; 64 位架构的助手。远程桌面客户端软件包 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina&lt;/a&gt; 1.4.19 为 &lt;a href=&quot;https://snapcraft.io/remmina&quot;&gt;remmina snapcraft&lt;/a&gt; 增加了一个进程控制，并做了一些用户界面的改进。其他在快照中更新的软件包有蓝牙工具包 &lt;a href=&quot;https://software.opensuse.org/package/blueberry&quot;&gt;blueberry&lt;/a&gt; 1.4.4 和 &lt;a href=&quot;https://github.com/GStreamer/gst-python&quot;&gt;python-gst&lt;/a&gt; 1.18.4。&lt;/p&gt;
+
+&lt;p&gt;就在上周更新前不久发布的快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZZEP5NMHMXWLIGAJOE2DM7QBADM3QZLQ/&quot;&gt;20210629&lt;/a&gt;。这个快照更新了四个 RubyGems 软件包。这些软件包包括 &lt;a href=&quot;https://rubygems.org/gems/virtus/versions/2.0.0&quot;&gt;rubygem-virtus 2.0.0&lt;/a&gt;，它增加了一个新的方法，并用一个内部 virtus/equalizer 替换了一个均衡器；以及 &lt;a href=&quot;https://rubygems.org/gems/webpacker&quot;&gt;rubygem-webpacker 5.4.0&lt;/a&gt;，它增加了对 &lt;a href=&quot;https://yarnpkg.com/&quot;&gt;Yarn 2&lt;/a&gt; 包管理器的实验性支持。&lt;a href=&quot;https://rubygems.org/gems/tzinfo/versions/0.3.60&quot;&gt;rubygem-tzinfo-0 0.3.60&lt;/a&gt; 和 &lt;a href=&quot;https://rubygems.org/gems/websocket-driver&quot;&gt;rubygem-websocket-driver 0.7.5&lt;/a&gt; 也都包含在快照中。针对重复性劳损的 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 软件包名为 &lt;a href=&quot;https://userbase.kde.org/RSIBreak&quot;&gt;rsibreak&lt;/a&gt;，在更新到 0.12.14 时清理了规范文件、镜像代码并做了一些翻译方面的改进；该软件包帮助人们在电脑前坐得太久时定期休息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/09/tw-gets-rubygems-update-new-systemd/&quot;&gt;Tumbleweed Gets RubyGems Updates, New systemd&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/07/IRC-%E5%92%8C-Matrix-%E5%85%AC%E5%91%8A.html</guid>
       <title>关于 IRC 和 Matrix 的公告</title>
       <pubDate>Wed, 07 Jul 2021 00:00:00 -0500</pubDate>
@@ -473,34 +500,6 @@ Kocman 将在 6 月 19 日 09:00 UTC 的 openSUSE 大会上发表演讲并讨论
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/08/new-rebuilds-look-to-advance-new-hardware/&quot;&gt;New Rebuilds Look to Advance New Hardware&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</guid>
-      <title>在线开放日过后的 openSUSE，调查开始了</title>
-      <pubDate>Fri, 04 Jun 2021 13:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/06/04/%E5%9C%A8%E7%BA%BF%E5%BC%80%E6%94%BE%E6%97%A5%E8%BF%87%E5%90%8E%E7%9A%84_openSUSE-%E8%B0%83%E6%9F%A5%E5%BC%80%E5%A7%8B%E4%BA%86.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目最近有很多事情发生。该项目刚刚发布了 Leap 15.3，在 openSUSE 酒吧举行了24小时的发布派对，并开启了一项调查，以获得对新 Leap 版本发布的反馈。 还有许多其他事情发生，其中之一是在线开放日。社区成员将在 SUSE Open House CZ 2021 期间有两场讨论 openSUSE 主题的会议 该活动将于 6 月 15 日 13:00 UTC 至 17:00 UTC 举行。Leap 发布管理者 Lubos Kocman 将介绍 openSUSE Leap 15.3 是如何制作的，社区成员 Jason Evans 将讨论如何为 openSUSE 做贡献。 参与者必须登记参加该活动。 该项目还将于 6 月 18 - 19 日举行 openSUSE...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;最近有很多事情发生。该项目刚刚发布了 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 15.3&lt;/a&gt;，在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 酒吧&lt;/a&gt;举行了24小时的发布派对，并开启了一项&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;，以获得对新 Leap 版本发布的反馈。&lt;/p&gt;
-
-&lt;p&gt;还有许多其他事情发生，其中之一是&lt;a href=&quot;https://more.suse.com/openhousecz&quot;&gt;在线开放日&lt;/a&gt;。社区成员将在 &lt;a href=&quot;https://more.suse.com/openhousecz&quot;&gt;SUSE Open House CZ 2021&lt;/a&gt; 期间有两场讨论 openSUSE 主题的会议&lt;/p&gt;
-
-&lt;p&gt;该活动将于 6 月 15 日 13:00  UTC 至 17:00 UTC 举行。Leap 发布管理者 Lubos Kocman 将介绍 openSUSE Leap 15.3 是如何制作的，社区成员 Jason Evans 将讨论如何为 openSUSE 做贡献。&lt;/p&gt;
-
-&lt;p&gt;参与者必须登记参加该活动。&lt;/p&gt;
-
-&lt;p&gt;该项目还将于 6 月 18 - 19 日举行 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 会议&lt;/a&gt;。会议有几个讲座，话题涉及社区、开源、新技术、云计算、容器、嵌入式软件等等。&lt;/p&gt;
-
-&lt;p&gt;Kockman 还将在会议上发表关于&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;结果的演讲，该演讲将在6月16日之前开放。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/06/04/online-open-house-goes-over-opensuse-survey-opens/&quot;&gt;Online Open House Goes Over openSUSE, Survey Opens&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-
 </content:encoded>
     </item>
 
