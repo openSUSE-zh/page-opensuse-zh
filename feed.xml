@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/29/Node.js-curl-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Node.js ，curl 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 29 Jul 2021 17:45:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/29/Node.js-curl-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周共发布了六个 openSUSE Tumbleweed 快照。 本周在滚动更新中发布的更新包包括 curl 、GCC 、Node.js 、redis 和 LibreOffice 。 快照 20210728 中发布了办公套件 LibreOffice 的 7.1.5.2 更新包，提供了解决一些回归的错误修正，并进行了一些修正以防止 Writer 中的崩溃。在本次快照中还更新了 Linux 内核固件，PDF 渲染库 poppler 21.07.0 为构建系统提供了一些次要的代码改进，同时还修复了受损文件触发的内存泄漏。 webkit2gtk3 2.32.3 版本修复了几个崩溃和渲染问题，并解决了十几个公共漏洞和暴露。 快照 20210727 只提供了单一软件包更新至 gcc11 。头部分支的更新包括 11.2 候选版本和对通用公共许可证 3.0 的修正。该更新包还提供了一个用于 AArch64 和 RISC-V 的 libc-bootstrap 交叉编译器。 快照 20210726 提供了四个软件包的更新。更新的软件包包括 gnome-sudoku 40.2...</description>
+      <content:encoded>&lt;p&gt;本周共发布了六个 openSUSE Tumbleweed 快照。&lt;/p&gt;
+
+&lt;p&gt;本周在滚动更新中发布的更新包包括 &lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 、&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; 、&lt;a href=&quot;https://redis.io/&quot;&gt;redis&lt;/a&gt; 和 &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4ANQEHP4EVVDOBQNMGE6H7TE6RB6I56V/&quot;&gt;20210728&lt;/a&gt; 中发布了办公套件 LibreOffice 的 7.1.5.2 更新包，提供了解决一些回归的错误修正，并进行了一些修正以防止 Writer 中的崩溃。在本次快照中还更新了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;固件，PDF 渲染库 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 21.07.0 为构建系统提供了一些次要的代码改进，同时还修复了受损文件触发的内存泄漏。 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.32.3 版本修复了几个崩溃和渲染问题，并解决了十几个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;公共漏洞和暴露&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4ANQEHP4EVVDOBQNMGE6H7TE6RB6I56V/&quot;&gt;20210727&lt;/a&gt; 只提供了单一软件包更新至 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc11&lt;/a&gt; 。头部分支的更新包括 11.2 候选版本和对通用公共许可证 3.0 的修正。该更新包还提供了一个用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 的 libc-bootstrap 交叉编译器。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AVMNENILQU4JHSEHK7KVV744YTSHNVDA/&quot;&gt;20210726&lt;/a&gt; 提供了四个软件包的更新。更新的软件包包括 &lt;a href=&quot;https://wiki.gnome.org/Apps/Sudoku&quot;&gt;gnome-sudoku&lt;/a&gt; 40.2 ，它修复了打印 sudokus 的复杂文本；Linux 网络软件包 &lt;a href=&quot;https://github.com/iputils/iputils&quot;&gt;iputils&lt;/a&gt; 20210722 增加了一个构建要求，并修复了一个损坏的启动服务功能。快照中更新的两个 openSUSE 软件包是 &lt;a href=&quot;https://github.com/openSUSE/polkit-default-privs&quot;&gt;polkit-default-privs&lt;/a&gt; 和模块管理器 &lt;a href=&quot;https://github.com/yast/yast-nfs-server&quot;&gt;yast2-nfs-server&lt;/a&gt; 4.4.1 ，其中有一个修正，以正确确定客户名称。&lt;/p&gt;
+
+&lt;p&gt;Node.js 在 16.5.0 版本中升级了一些依赖项，并在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/34WIKAAECHI5ORNLHMZUFVFW7FHVRMPT/&quot;&gt;20210725&lt;/a&gt; 中对 &lt;a href=&quot;https://nodejs.org/api/webstreams.html&quot;&gt;Web Streams API&lt;/a&gt; 进行了实验性实现。支持不同种类的&lt;a href=&quot;https://en.wikipedia.org/wiki/Abstract_data_type&quot;&gt;抽象数据结构&lt;/a&gt;的 &lt;a href=&quot;https://redis.io/&quot;&gt;redis&lt;/a&gt; 的 6.2.5 版本中修复了 CVE &lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;。一些 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 软件包在快照中被更新，如 &lt;a href=&quot;https://github.com/yast/yast-control-center&quot;&gt;yast2-control-center&lt;/a&gt; 4.4.1 和 &lt;a href=&quot;https://github.com/yast/yast-iscsi-client&quot;&gt;yast2-iscsi-client&lt;/a&gt; 4.4.2 。 &lt;a href=&quot;https://github.com/rpm-software-management/createrepo_c&quot;&gt;createrepo_c&lt;/a&gt; 的 0.17.3 版本停止了对 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python2&lt;/a&gt; 的支持，并删除了一些在 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python3&lt;/a&gt; 中被弃用的 distutils 。&lt;/p&gt;
+
+&lt;p&gt;在快照中对还将 &lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 更新至最新的 57.4 版本；此次从 57.0 版本的升级修改了向后和跨工具的兼容性部分，以消除混乱，该软件包现在依赖于本地 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0&quot;&gt;SSL&lt;/a&gt; 实现。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Q2BKWGBZTHAUM2RIRRNP42JLSYEHBIVE/&quot;&gt;20210724&lt;/a&gt; 中只有两个软件包被更新。 Linux 内核 5.13.4 带来了针对 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-33909.html&quot;&gt;Sequoia CVE-20212-33909&lt;/a&gt; 的补丁。该内核版本还修复了一些用于 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 的以太网插件检测问题，以及一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/USB4&quot;&gt;USB4&lt;/a&gt; 目标模块节点的重复问题。同一版本的 &lt;a href=&quot;https://github.com/torvalds/linux/tree/master/tools/kvm/kvm_stat&quot;&gt;kvm_stat&lt;/a&gt; 增加了一个重启补丁，以使 kvm 服务重启，因为 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 最初尝试启动 kvm 单元文件可能会失败；这似乎是为了防止 kvm 模块没有加载。&lt;/p&gt;
+
+&lt;p&gt;本周发布的第一个快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W7C74SG5BZZ5EAY2SY2BCIPM3BDZO4AF/&quot;&gt;20210723&lt;/a&gt; ，给 &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/90.0/releasenotes/&quot;&gt;Mozilla Firefox&lt;/a&gt; 90 带来了一些修复更新。Firefox 90.0.1 版本修复了一个关机时的罕见崩溃，和一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/HTTP/3&quot;&gt;HTTP3&lt;/a&gt; 响应的循环过程。 Daniel Stenberg 提供了一个 curl 7.78.0 安全修复&lt;a href=&quot;https://youtu.be/XHaJGFj6wVg&quot;&gt;更新&lt;/a&gt;，它是一个流行的库和命令行工具，使用各种网络协议传输数据。curl 团队解决了一些 CVE 问题，包括一个基于配置匹配功能的不良连接的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-22924.html&quot;&gt;CVE-2021-22924&lt;/a&gt; 。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK3&lt;/a&gt; 3.24.30 有一些可访问性改进，并修复了一个内存泄漏。&lt;a href=&quot;https://github.com/NetworkManager/NetworkManager&quot;&gt;NetworkManager&lt;/a&gt; 的 1.32.4 更新包改变了一些 IPv4 配置，并修复了一个 &lt;a href=&quot;https://wiki.nftables.org/&quot;&gt;nftables&lt;/a&gt; 后端。允许 &lt;a href=&quot;https://clang.llvm.org/&quot;&gt;clang&lt;/a&gt; 理解 Qt 语义的编译器插件 &lt;a href=&quot;https://github.com/KDE/clazy&quot;&gt;clazy&lt;/a&gt; ，更新至 1.10 版，并修复了&lt;a href=&quot;https://en.wikipedia.org/wiki/Platform_Controller_Hub&quot;&gt;平台控制器枢纽&lt;/a&gt;启用时的崩溃。本次快照中更新的其他软件包有 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.24、&lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt;、&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.4.21 和 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.32.2 。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/30/nodejs-curl-update-in-tw/&quot;&gt;Node.js, curl update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/26/%E5%81%9C%E7%94%A8-connect.opensuse.org.html</guid>
       <title>停用 connect.opensuse.org</title>
       <pubDate>Mon, 26 Jul 2021 04:40:00 -0500</pubDate>
@@ -480,29 +513,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/05/gsoc-2021-ibus-customize/&quot;&gt;Google Summer of Code 2021: IBus Customize&lt;/a&gt;，作者：Songlin Jiang&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/01/VLC-Plasma-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>VLC、Plasma、PipeWire 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 01 Jul 2021 11:25:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/01/VLC-Plasma-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周到目前为止已经发布了三个 openSUSE Tumbleweed 快照。 有两个较大的快照和一个较小的，带来了 ClamAV 更新的快照。 揭开本周序幕的是快照 20210625，它为 3D 图形 Mesa 和 Mesa-drivers 软件包提供了更新；更新的 21.1.3 版本主要提供了 AMD 的变更，而且该版本不再需要检查环境变量的 GStreamer Video Acceleration API 插件。ImageMagick 更新到 7.1.0.0 版本，修复了 SVG 解析器 会陷入无限循环的问题。Mozilla Firefox 89.0.2 版的更新修复了 Linux 上 WebRender 的性能和稳定性问题，还修复了 WebRender 偶尔出现的挂起。VLC 3.0.16 修复了 MP4 掉线、广播流的一些倒退问题，并提供了设置方面的改进。Linux 审计框架的一个新的主要版本，audit，从 2.8.5 更新到 3.0.2 ，并更新了一些 syscall 参数的解释。PipeWire...</description>
-      <content:encoded>&lt;p&gt;本周到目前为止已经发布了三个 openSUSE Tumbleweed 快照。&lt;/p&gt;
-
-&lt;p&gt;有两个较大的快照和一个较小的，带来了 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 更新的快照。&lt;/p&gt;
-
-&lt;p&gt;揭开本周序幕的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6YTZRZGT6W677MTN3XIEVEPXBZ5APYWW/&quot;&gt;20210625&lt;/a&gt;，它为 3D 图形 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 和 Mesa-drivers 软件包提供了更新；更新的 21.1.3 版本主要提供了 AMD 的变更，而且该版本不再需要检查环境变量的 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; Video Acceleration API 插件。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 更新到 7.1.0.0 版本，&lt;a href=&quot;https://github.com/ImageMagick/ImageMagick/issues/3818&quot;&gt;修复了 SVG 解析器&lt;/a&gt; 会陷入无限循环的问题。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 89.0.2 版的更新修复了 Linux 上 &lt;a href=&quot;https://github.com/servo/webrender&quot;&gt;WebRender&lt;/a&gt; 的性能和稳定性问题，还修复了 WebRender 偶尔出现的挂起。&lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 3.0.16 修复了 MP4 掉线、广播流的一些倒退问题，并提供了设置方面的改进。Linux 审计框架的一个新的主要版本，&lt;a href=&quot;https://github.com/linux-audit/audit-userspace&quot;&gt;audit&lt;/a&gt;，从 2.8.5 更新到 3.0.2 ，并更新了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/System_call&quot;&gt;syscall&lt;/a&gt; 参数的解释。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 更新至 0.3.30+55 版，其中包括更新了一些高级 Linux 声音架构（&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;）规则。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 16.4.0 的更新升级了依赖关系并稳定了类：&lt;a href=&quot;https://nodejs.org/api/async_context.html#async_context_class_asynclocalstorage&quot;&gt;AsyncLocalStorage&lt;/a&gt;。在快照中更新的其他软件包有 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的视频播放器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Videos&quot;&gt;totem&lt;/a&gt; 3.38.1、&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.11.2、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.15 和 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.16.18。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3RPNR2RLYQ2EX3PL3LAQQU6HYT6FVH3U/&quot;&gt;20210626&lt;/a&gt; 中只有两个软件包被更新。ClamAV 0.103.3 修复了扫描性能问题，并试图改进关于正在使用的版本的指标。快照中还有 libqt5-qttranslations 软件包的更新翻译，其中包括 &lt;a href=&quot;https://www.qt.io/qt-5-12&quot;&gt;Qt 5.12&lt;/a&gt; 的中文简化语言更新。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;Poppler&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZKXNJ2SJ364PVV3RFYKSJJVQBOU6LFBU/&quot;&gt;20210628&lt;/a&gt; 中更新到了 21.06.1 版本，并修复了注释中一些扩展 latin1 字符的渲染；它还增加了一个 API，以便在 &lt;a href=&quot;https://linux.die.net/man/3/xref&quot;&gt;xref&lt;/a&gt; 被重建时获得通知。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.2&quot;&gt;KDE Plasma 5.22.2.1&lt;/a&gt; 是一个错误修复更新，它在 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 中实现了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的活动窗口规则，而且 Discover 现在正确地通知了用户关于 Flatpaks 的更新。快照还更新了一些 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt 5&lt;/a&gt; 库，如 ibqt5-qtbase、libqt5-qtconnectivity、libqt5-qtquickcontrols、libqt5-qtscript 等。在更新 &lt;a href=&quot;https://cgit.freedesktop.org/mesa/glu/&quot;&gt;glu&lt;/a&gt; 到 9.0.2 版本时提交了一个补丁；这个 Mesa OpenGL Utility 库也有一些额外的错误修正。 &lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite&lt;/a&gt; 的 3.36.0 版本进行了输出方面的改进，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;memdb&lt;/code&gt; VFS 现在允许同一进程中的多个数据库连接共享同一个内存数据库，只要数据库名称以 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; 开头。压缩包 &lt;a href=&quot;https://github.com/zchunk/zchunk&quot;&gt;zchunk&lt;/a&gt; 更新到了 1.1.16 版本，并修复了用字典压缩时的一个重大错误。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/01/vlc-plasma-pipewire-update-in-tw/&quot;&gt;VLC, Plasma, PipeWire Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
