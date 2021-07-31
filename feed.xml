@@ -7,6 +7,78 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/29/openSUSE-%E7%A4%BE%E5%8C%BA%E5%8A%A8%E6%80%81-1.html</guid>
+      <title>openSUSE 社区动态 #1</title>
+      <pubDate>Thu, 29 Jul 2021 20:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/29/openSUSE-%E7%A4%BE%E5%8C%BA%E5%8A%A8%E6%80%81-1.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>社区会议：与我们随意交流！ 今天（ 7 月 31 日，星期六，17:00 UTC ，即本地时间 8 月 1 日， 1:00 CST ）是最近恢复的社区会议的第三期！会议将在 Jist Meet 上举行，这将是讨论和协调项目改进方案的绝佳机会。在 Jist Meet 上举行，这将是一个很好的机会来讨论和协调项目中的改进方案。 其中一个重要的话题是 openSUSE 会员的问题，它很快就会受到 connect.opensuse.org 的关闭的影响。 为 “defrag” 社区 API 招募 Python 开发人员 在过去的几个月里，我们一直在开发 “defrag” (因为我们试图在 openSUSE 中对抗碎片化。)，这是一个用户友好的 REST API ，允许用户在所有平台（如 Matrix、Telegram、Discord、论坛、网络）上进行各种搜索，例如: zypper 搜索 文档搜索 bugzilla 搜索 维基搜索 进度/ pagure...</description>
+      <content:encoded>&lt;h2 id=&quot;社区会议与我们随意交流&quot;&gt;社区会议：与我们随意交流！&lt;/h2&gt;
+
+&lt;p&gt;今天（ 7 月 31 日，星期六，17:00 UTC ，即本地时间 8 月 1 日， 1:00 CST ）是最近恢复的社区会议的第三期！会议将在 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;Jist Meet&lt;/a&gt; 上举行，这将是讨论和协调项目改进方案的绝佳机会。在 Jist Meet 上举行，这将是一个很好的机会来讨论和协调项目中的改进方案。&lt;/p&gt;
+
+&lt;p&gt;其中一个重要的话题是 openSUSE 会员的问题，它很快就会受到 connect.opensuse.org 的关闭的影响。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-defrag-社区-api-招募-python-开发人员&quot;&gt;为 “defrag” 社区 API 招募 Python 开发人员&lt;/h2&gt;
+
+&lt;p&gt;在过去的几个月里，我们一直在开发 “defrag” (因为我们试图在 openSUSE 中对抗碎片化。)，这是一个用户友好的 REST API ，允许用户在所有平台（如 Matrix、Telegram、Discord、论坛、网络）上进行各种搜索，例如:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;zypper 搜索&lt;/li&gt;
+  &lt;li&gt;文档搜索&lt;/li&gt;
+  &lt;li&gt;bugzilla 搜索&lt;/li&gt;
+  &lt;li&gt;维基搜索&lt;/li&gt;
+  &lt;li&gt;进度/ pagure 搜索&lt;/li&gt;
+  &lt;li&gt;新闻&lt;/li&gt;
+  &lt;li&gt;事件和其他活动&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;…可能还包含更多。该项目目前的状态可以在 &lt;a href=&quot;https://github.com/KaratekHD/defrag&quot;&gt;defrag - GitHub&lt;/a&gt; 上看到。别担心，它将来会被转移到 code.opensuse.org 。&lt;/p&gt;
+
+&lt;p&gt;现在，有两个人正在进行碎片整理工作，他们是 &lt;a href=&quot;https://en.opensuse.org/User:KaratekHD&quot;&gt;KaratekHD&lt;/a&gt; 和 &lt;a href=&quot;https://en.opensuse.org/User:Nycticorax&quot;&gt;Nycticorax&lt;/a&gt; 。第三个人因个人原因暂停参与。&lt;/p&gt;
+
+&lt;p&gt;然而，在这样一个项目上工作，只有两个人是相当困难的。因此，我们正在寻找至少第三个人帮助我们构建我们的 API 。如果你是一个 Python 开发者，并且愿意在 defrag 方面提供帮助，请与我们联系。我们很乐意听到你的声音!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;联系我们：&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/openSUSE_defrag&quot;&gt;Telegram&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;邮件：opensuse-defrag@karatek.net&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;文档分享您安装-opensuse-发行版后的首要-必做-事项&quot;&gt;文档：分享您安装 openSUSE 发行版后的首要 “必做 “事项&lt;/h2&gt;
+
+&lt;p&gt;新的文档平台 – 更专注于 Tumbleweed – 正在接近测试版发布日期，团队很想知道社区是否愿意在我们的&lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/best_of_post.html&quot;&gt;安装后最佳方案&lt;/a&gt;中增加（或删除！）项目。&lt;/p&gt;
+
+&lt;p&gt;如果你有任何尚未涵盖的提示，我们将竭诚欢迎你的建议！如果你有时间，请让我们知道你的最佳/最有用的&lt;a href=&quot;https://en.opensuse.org/Main_Page&quot;&gt;维基页面&lt;/a&gt;。我们将很高兴把它们迁移到新的平台。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;联系我们：&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Matrix: #docs:opensuse.org&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/opensuse_docs&quot;&gt;Telegram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;意外收获采访-dominique-leuenberger&quot;&gt;意外收获：采访 Dominique Leuenberger&lt;/h2&gt;
+
+&lt;p&gt;Dominique Leuenberger，Tumbleweed 的发行管理员，已经欣然同意在接下来的几周内进行一次采访。尽管为了简单起见，访谈将不在现场举行，但我们还是非常欢迎社区的提问。如果你想听 Dominique 讲一些我们没有想到的事情，请在下面两个频道之一加入我们。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;联系我们：&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Matrix: #newscom:opensuse.org&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/openSUSE_newscom&quot;&gt;Telegram&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/31/recently_soon1/#fn:1&quot;&gt;Recently and soon in openSUSE #1&lt;/a&gt;，作者：Adrien(nycticorax@opensuse.org) &amp;amp; Jens (karatekhd@opensuse.org)&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/29/Node.js-curl-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Node.js ，curl 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 29 Jul 2021 17:45:00 -0500</pubDate>
@@ -444,75 +516,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Google%E5%A4%8F%E6%97%A5%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%A4%A7%E8%B3%BD&quot;&gt;Google 编程之夏&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</guid>
-      <title>谷歌编程之夏 2021：IBus 定制</title>
-      <pubDate>Mon, 05 Jul 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/05/%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F-2021-IBus-%E5%AE%9A%E5%88%B6.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>大家好！我叫 Songlin Jiang，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 Google Summer of Code 。在这篇博客中，我将向你介绍我目前的工作和经历。 关于 IME 和 IBus 对于不熟悉非拉丁语系语言的人来说，IME（输入法）可能是一个全新的概念，因为他们在打字的时候会发现键盘上存在所有的字符。然而，对于亚洲的大多数人来说，如果没有 IME，用他们的语言打字将是不可能的。例如，如果你想打中文，总共有几千个 汉字，而键盘太小，无法将它们全部放在上面。但在 IME 的帮助下，你可以选择使用拼音或其他类型的 输入模式，如五笔。这样，一个标准的美国键盘就足以输入所有的汉字了。 IBus 是一个输入法框架，用于开发提供统一的用户界面的输入法。很多流行的输入法都是基于 IBus 的，而且 IBus 也是 GNOME 上默认的输入法框架。即使你不使用非拉丁语系的语言，在安装了 IBus 输入法助推器（ Ibus-typing-booster） 之后，你也会发现 IBus 很有用。 我的项目：IBus 定制 由于 IBus 的前端是基于 GTK 的，而 GNOME 用它的 GJS 版本取代了这个前端，使其与 GNOME 更加统一，目前，IBus 的主题在 GNOME 中遵循全局...</description>
-      <content:encoded>&lt;p&gt;大家好！我叫 &lt;a href=&quot;https://github.com/HollowMan6&quot;&gt;Songlin Jiang&lt;/a&gt;，是一名来自中国兰州大学的大三学生，主修计算机科学与技术专业。这是我第一次和 openSUSE 项目的导师们一起参加 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google Summer of Code&lt;/a&gt; 。在这篇博客中，我将向你介绍我目前的工作和经历。&lt;/p&gt;
-
-&lt;h1 id=&quot;关于-ime-和-ibus&quot;&gt;关于 IME 和 IBus&lt;/h1&gt;
-
-&lt;p&gt;对于不熟悉非拉丁语系语言的人来说，&lt;a href=&quot;https://en.wikipedia.org/wiki/Input_method&quot;&gt;IME&lt;/a&gt;（输入法）可能是一个全新的概念，因为他们在打字的时候会发现键盘上存在所有的字符。然而，对于亚洲的大多数人来说，如果没有 IME，用他们的语言打字将是不可能的。例如，如果你想打中文，总共有几千个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_characters&quot;&gt;汉字&lt;/a&gt;，而键盘太小，无法将它们全部放在上面。但在 IME 的帮助下，你可以选择使用拼音或其他类型的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Chinese_input_methods_for_computers&quot;&gt;输入模式&lt;/a&gt;，如五笔。这样，一个标准的美国键盘就足以输入所有的汉字了。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_Input_Bus&quot;&gt;IBus&lt;/a&gt; 是一个输入法框架，用于开发提供统一的用户界面的输入法。很多流行的输入法都是基于 IBus 的，而且 IBus 也是 GNOME 上默认的输入法框架。即使你不使用非拉丁语系的语言，在安装了 &lt;a href=&quot;https://github.com/mike-fabian/ibus-typing-booster&quot;&gt;IBus 输入法助推器（ Ibus-typing-booster）&lt;/a&gt; 之后，你也会发现 IBus 很有用。&lt;/p&gt;
-
-&lt;h1 id=&quot;我的项目ibus-定制&quot;&gt;我的项目：IBus 定制&lt;/h1&gt;
-
-&lt;p&gt;由于 IBus 的前端是基于 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 的，而 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 用它的 GJS 版本取代了这个前端，使其与 GNOME 更加统一，目前，IBus 的主题在 GNOME 中遵循全局 GNOME-Shell 主题，在其他桌面环境中遵循全局 GTK 主题，并且 IBus 在 GNOME 中缺乏自定义，因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ibus-setup&lt;/code&gt;（IBus 初始化命令）由于前面的原因在 GNOME 上无法工作。&lt;/p&gt;
-
-&lt;p&gt;因此，我的项目旨在使 IBus 主题与当前的 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/134/&quot;&gt;GNOME-Shell 主题&lt;/a&gt; 和 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/135/&quot;&gt;GTK 主题&lt;/a&gt; 分开，以便用户可以用其他 GNOME-Shell 主题和 GTK 主题来定制它。还有，在 GNOME 上做一个扩展，提供对 IBus 的外观、行为、系统托盘和输入源指示器的完全定制。&lt;/p&gt;
-
-&lt;p&gt;该项目分为三个部分：&lt;a href=&quot;https://github.com/openSUSE/Customize-IBus&quot;&gt;自定义 IBus&lt;/a&gt;、&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Tools&quot;&gt;IBus 主题工具&lt;/a&gt; 以及 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub&quot;&gt;IBus 主题中心&lt;/a&gt;。这是使用这些项目的 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus/blob/main/GUIDE.md&quot;&gt;用户指南&lt;/a&gt;，我将在下面的部分逐一向大家介绍这些项目，同时也介绍我创建这些项目的经验。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2021-07/ibus-logo.png&quot; alt=&quot;ibus-logo&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;用户需要什么&quot;&gt;用户需要什么？&lt;/h1&gt;
-
-&lt;p&gt;由于使用 IME 是许多非拉丁语系的人在使用电脑时不可分割的、最重要的一部分，所以最重要的是提供足够的定制化，以适应用户的需求。另外，由于每个操作系统都提供了自己的一套 IME，所以 IME 的配置方式应该让用户觉得熟悉，而不改变目前的用户习惯，这样可以减少用户刚从其他平台转换过来时的学习成本。&lt;/p&gt;
-
-&lt;h1 id=&quot;自定义-ibus&quot;&gt;自定义 IBus&lt;/h1&gt;
-
-&lt;p&gt;自定义 IBus 是 &lt;a href=&quot;https://extensions.gnome.org/extension/4112/customize-ibus/&quot;&gt;GNOME 的一个扩展&lt;/a&gt;，为 IBus 提供全面的自定义功能。这个扩展所支持的功能列表可以在 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus#features&quot;&gt;这里&lt;/a&gt; 找到。&lt;/p&gt;
-
-&lt;p&gt;这个项目最初是从 &lt;a href=&quot;https://github.com/tuberry/ibus-tweaker&quot;&gt;ibus-tweaker&lt;/a&gt; 导入的，因为我必须为整个项目从头开始，而且在我申请 GSoC 之前，我没有创建 GNOME Shell 扩展的经验。&lt;/p&gt;
-
-&lt;p&gt;Ibus-tweaker 是一个很好的开始项目。通过学习和重用它的部分代码，我理解了 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell/-/blob/master/js/ui/ibusCandidatePopup.js&quot;&gt;IBus GJS 前端&lt;/a&gt; 背后的机制，并进一步参考了 &lt;a href=&quot;https://gjs-docs.gnome.org/&quot;&gt;GJS 文档&lt;/a&gt;，我最终成功地创建了一个全新的扩展，提供了更多的功能。&lt;/p&gt;
-
-&lt;p&gt;你可以从 &lt;a href=&quot;https://github.com/openSUSE/Customize-IBus#changelog&quot;&gt;这里&lt;/a&gt; 看到这个项目的演变。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/Customize-IBus&quot;&gt;你可以在这里找到自定义的 IBus 资源库！&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;ibus-主题工具&quot;&gt;IBus 主题工具&lt;/h1&gt;
-
-&lt;p&gt;IBus 主题工具专门用于从 GNOME Shell 主题中提取 IBus 相关的样式（样式类名称以 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;candidate-&lt;/code&gt; 开头，还有一些补丁，这样它就可以按照定义显示）到样式表中，可以在 GNOME 的自定义 IBus 扩展中使用。它还支持在非 GNOME 桌面中直接用可用的 GTK 主题改变 IBus 主题。&lt;/p&gt;
-
-&lt;p&gt;该工具是用 Python 编码的，使用 &lt;a href=&quot;https://github.com/Kozea/tinycss2&quot;&gt;tinycss2&lt;/a&gt; 作为 GNOME Shell 主题样式表的解析器。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Tools&quot;&gt;你可以在这里找到 IBus 主题工具库！&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;ibus-主题中心&quot;&gt;IBus 主题中心&lt;/h1&gt;
-
-&lt;p&gt;IBus 主题中心是可以被自定义 IBus 扩展使用的主题集合。&lt;/p&gt;
-
-&lt;p&gt;目前，它有 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub/tree/main/%E4%BB%BF%E5%BE%AE%E8%BD%AFMicrosoft&quot;&gt;Microsoft IME Themes&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;如果你已经为 IBus 设计了一个主题，我欢迎你在这里 &lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub/issues/1&quot;&gt;贡献你的 IBus 主题&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/IBus-Theme-Hub&quot;&gt;你可以在这里找到 IBus 主题中心的资料库！&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;最后&quot;&gt;最后……&lt;/h1&gt;
-
-&lt;p&gt;我希望你喜欢这篇文章。如果你认为我的项目对你有很大帮助，别忘了与你的朋友分享这篇文章，这样每个人都能从我的 GSoC 2021 项目中得到最佳利用。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/05/gsoc-2021-ibus-customize/&quot;&gt;Google Summer of Code 2021: IBus Customize&lt;/a&gt;，作者：Songlin Jiang&lt;/p&gt;
 </content:encoded>
     </item>
 
