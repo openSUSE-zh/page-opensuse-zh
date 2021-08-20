@@ -7,6 +7,25 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/20/Tumbleweed-%E5%BF%AB%E9%80%9F%E6%8E%A8%E8%BF%9B-KDE_Gear-%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Tumbleweed 快速推进 KDE Gear 和框架更新</title>
+      <pubDate>Fri, 20 Aug 2021 08:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/20/Tumbleweed-%E5%BF%AB%E9%80%9F%E6%8E%A8%E8%BF%9B-KDE_Gear-%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周，为了发布 openSUSE Tumbleweed 快照，开发团队在后台进行了大量的工作。 在最新的 openSUSE 发布工程会议的邮件列表中，记录了关于在本周 Tumbleweed 开发工作中使用开放构建服务构建镜像时遇到的一些挑战。有一些构建失败，这导致了一些损坏的构建的出现。这些构建没有作为快照发布，因为这些构建必须通过 openSUSE 的 openQA 测试。ISO 介质的尺寸也变得太大而无法装入 DVD ；当容量超过尺寸限制时，会经常进行调整，所以让我们看看已发布的快照。 构建、测试和发布一个成功的快照的努力确实随着快照 20210817 的发布而来。用户收到了一些期待已久的软件和一些非常酷的新功能。KDE Gear 21.08.0 是滚动发布用户的众多软件包之一。Dolphin 文件管理器现在对包含大量可预览文件的文件夹显示一串动画预览。它的预览代码也被优化了，所以缩略图弹出的速度更快，而且加密位置的文件，比如 Plasma Vaults，可以显示预览。PDF 阅读器 Okular 在工具栏上做了一些改进，允许采用彩色设计，使阅读更舒适，有助于避免眼睛疲劳。Konsole 终端提供将光标悬停在命令行的图像文件名上时，出现预览的功能。Gwenview 图像查看器和 Elsa 音乐播放器也得到了改进。KDE Frameworks 5.85.0 也出现在快照中。开发者用户界面 Kirigami 修正了关闭按钮和行动按钮之间的一些间距。它还增加了一种可以在桌面上将一个页面推送为一个新窗口的方法。本次快照对 KTextEditor 的网络挂载性能进行了优化，修复了 KWayland 对 mmap 系统调用失败的检查。AppStream 是一个为跨发行版创建应用商店提供标准的软件包，它更新到了 0.14.4 版本，并改进了文本行的包装。Mozilla Thunderbird 78.13.0 修复了 6...</description>
+      <content:encoded>&lt;p&gt;本周，为了发布 openSUSE Tumbleweed 快照，开发团队在后台进行了大量的工作。&lt;/p&gt;
+
+&lt;p&gt;在最新的 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QZMCZJWWNU3KHYSC4ID7X4HMKCUYZCBY/&quot;&gt;openSUSE 发布工程会议&lt;/a&gt;的邮件列表中，记录了关于在本周 Tumbleweed 开发工作中使用&lt;a href=&quot;https://build.opensuse.org/&quot;&gt;开放构建服务&lt;/a&gt;构建镜像时遇到的一些挑战。有一些构建失败，这导致了一些损坏的构建的出现。这些构建没有作为快照发布，因为这些构建必须通过 openSUSE 的 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试。ISO 介质的尺寸也变得太大而无法装入 DVD ；当容量超过尺寸限制时，会经常进行调整，所以让我们看看已发布的快照。&lt;/p&gt;
+
+&lt;p&gt;构建、测试和发布一个成功的快照的努力确实随着快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7LW3JRIVNQRISP2AQOUONQKUZMPSMXPV/&quot;&gt;20210817&lt;/a&gt; 的发布而来。用户收到了一些期待已久的软件和一些非常酷的新功能。&lt;a href=&quot;https://kde.org/announcements/gear/21.08.0/&quot;&gt;KDE Gear 21.08.0&lt;/a&gt; 是滚动发布用户的众多软件包之一。&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 文件管理器现在对包含大量可预览文件的文件夹显示一串动画预览。它的预览代码也被优化了，所以缩略图弹出的速度更快，而且加密位置的文件，比如 Plasma Vaults，可以显示预览。PDF 阅读器 &lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 在工具栏上做了一些改进，允许采用彩色设计，使阅读更舒适，有助于避免眼睛疲劳。&lt;a href=&quot;https://konsole.kde.org/&quot;&gt;Konsole&lt;/a&gt; 终端提供将光标悬停在命令行的图像文件名上时，出现预览的功能。&lt;a href=&quot;https://apps.kde.org/gwenview/&quot;&gt;Gwenview&lt;/a&gt; 图像查看器和 &lt;a href=&quot;https://elisa.kde.org/&quot;&gt;Elsa&lt;/a&gt; 音乐播放器也得到了改进。&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.85.0/&quot;&gt;KDE Frameworks 5.85.0&lt;/a&gt; 也出现在快照中。开发者用户界面 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 修正了关闭按钮和行动按钮之间的一些间距。它还增加了一种可以在桌面上将一个页面推送为一个新窗口的方法。本次快照对 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 的网络挂载性能进行了优化，修复了 &lt;a href=&quot;https://api.kde.org/frameworks/kwayland/html/index.html&quot;&gt;KWayland&lt;/a&gt; 对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Mmap&quot;&gt;mmap&lt;/a&gt; 系统调用失败的检查。&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 是一个为跨发行版创建应用商店提供标准的软件包，它更新到了 0.14.4 版本，并改进了文本行的包装。&lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 78.13.0 修复了 6 个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和披露&lt;/a&gt;；其中三个涉及对可能的内存损坏的修复。在媒体 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/multimedia/sdl2.html&quot;&gt;SDL2 2.0.16&lt;/a&gt; 的更新中，提供了对处理客户端装饰，更好的原生 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 支持和其他功能。&lt;a href=&quot;https://firewalld.org/&quot;&gt;Firewalld&lt;/a&gt; 的第一个主要版本 1.0.0 在快照中发布；动态管理的防火墙减少了依赖性，清理了规范文件，并废弃了 iptables 后端。矢量图形编辑器 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; 经数个小版本更新至 1.1，并增加了一个可以选择 Inkscape 的外观，一些关于新文档大小或打开文件的选择的欢迎对话框。当粘贴复制的对象时，Inkscape 现在默认将其直接粘贴在当前选定的对象之上。在快照中还列出了一些更新的软件包。在这些更新的软件包中，有 &lt;a href=&quot;https://apparmor.net/&quot;&gt;apparmor&lt;/a&gt; 3.0.3、&lt;a href=&quot;https://netfilter.org/projects/ipset/&quot;&gt;ipset&lt;/a&gt; 7.15、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 16.6.2、&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.5.3、&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.3318、&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.33 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-users&lt;/a&gt; 4.4.6，它们进行了一次更新，允许编辑现有用户的名字，另一次更新是删除现有用户的密码。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/08/20/tw-ff-w-kde-gear-frameworks-updates/&quot;&gt;Tumbleweed Fast Forwards with KDE Gear, Frameworks Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/29/openSUSE-%E7%A4%BE%E5%8C%BA%E5%8A%A8%E6%80%81-1.html</guid>
       <title>openSUSE 社区动态 #1</title>
       <pubDate>Thu, 29 Jul 2021 20:30:00 -0500</pubDate>
@@ -117,9 +136,7 @@
       <pubDate>Mon, 26 Jul 2021 04:40:00 -0500</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/26/%E5%81%9C%E7%94%A8-connect.opensuse.org.html</link>
       <author>Hanjingxue Boling</author>
-      <description>
-
-我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。
+      <description>我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。
 
 当 Facebook 和 LinkedIn 成为数十亿美元的市场时，我们的社区门户则主要用于组织 openSUSE 的成员，并成为成员的 “联络点”，他们提供自己的资料来帮助其他人联系他们。
 
@@ -145,9 +162,7 @@ Lars - 以 openSUSE Hero 的名义 -
 
 
 </description>
-      <content:encoded>&lt;p&gt;&lt;img src=&quot;https://news.opensuse.org/wp-content/uploads/2021/07/connect_o_o.png&quot; alt=&quot;News&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。&lt;/p&gt;
+      <content:encoded>&lt;p&gt;我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。&lt;/p&gt;
 
 &lt;p&gt;当 Facebook 和 LinkedIn 成为数十亿美元的市场时，我们的社区门户则主要用于组织 openSUSE 的成员，并成为成员的 “联络点”，他们提供自己的资料来帮助其他人联系他们。&lt;/p&gt;
 
@@ -407,115 +422,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/07/irc-matrix-announcement/&quot;&gt;IRC and Matrix announcements&lt;/a&gt;，作者：Neal Gompa&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0/2021/07/06/openSUSE-%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F.html</guid>
-      <title>openSUSE 与谷歌编程之夏</title>
-      <pubDate>Tue, 06 Jul 2021 00:55:00 -0500</pubDate>
-      <link>/%E5%85%B6%E4%BB%96%E6%96%87%E7%AB%A0/2021/07/06/openSUSE-%E4%B8%8E%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>谷歌编程之夏是什么？ 编程之夏开始前，每年的 2 月至 3 月间会分别接受两方面的报名，一方面是学生，以擅长程序设计的大学生为主；另一方面是开放源代码项目组织，每个组织需指定指导者（导师），以指导参加该项目的学生。活动要求参与者必须年满 18 周岁且是在读大学生；而对于 14 至 17 周岁的中学生，另有 Google Code-in 项目通过相对低难度的任务指导学生参与开源项目。 每个项目都必须从属于一个开源项目组织以及一个或多个导师。参加的学生需向开放源代码项目组织提出程序开发构想，多数大的开源项目组织都拥有项目列表（Idea List）供不熟悉组织的新人选择。申请项目时，学生首先需要提交有关国籍和在读情况的证明，待 Google 公司确认通过后再提交关于项目的申请（Proposal）。每个学生最多可提交 3 份申请，但只能参与 1 个项目。所有学生的申请会经过每个组织的审阅和讨论。通常申请入口于 3 月初开放，月底结束；4 月底公布有资格参与的学生列表；5 月下旬起即可开始程序开发。 openSUSE 与该活动相关的项目 1. Porting PRoot to Rust 参与者：imlk 导师：Lucas Ramage 描述：用 Rust 语言实现一个 proot 的原型版本，具有最基本的功能。 2. Interpersonal Identity Verification 参与者：Quinn Okabayashi 导师：Firstyear 描述：通过允许用户断言未知来电者的有效性来防止电话诈骗...</description>
-      <content:encoded>&lt;h2 id=&quot;谷歌编程之夏是什么&quot;&gt;谷歌编程之夏是什么？&lt;/h2&gt;
-
-&lt;p&gt;编程之夏开始前，每年的 2 月至 3 月间会分别接受两方面的报名，一方面是学生，以擅长程序设计的大学生为主；另一方面是开放源代码项目组织，每个组织需指定指导者（导师），以指导参加该项目的学生。活动要求参与者必须年满 18 周岁且是在读大学生；而对于 14 至 17 周岁的中学生，另有 &lt;a href=&quot;https://zh.wikipedia.org/wiki/Google_Code-in&quot;&gt;Google Code-in&lt;/a&gt; 项目通过相对低难度的任务指导学生参与开源项目。&lt;/p&gt;
-
-&lt;p&gt;每个项目都必须从属于一个开源项目组织以及一个或多个导师。参加的学生需向开放源代码项目组织提出程序开发构想，多数大的开源项目组织都拥有项目列表（Idea List）供不熟悉组织的新人选择。申请项目时，学生首先需要提交有关国籍和在读情况的证明，待 Google 公司确认通过后再提交关于项目的申请（Proposal）。每个学生最多可提交 3 份申请，但只能参与 1 个项目。所有学生的申请会经过每个组织的审阅和讨论。通常申请入口于 3 月初开放，月底结束；4 月底公布有资格参与的学生列表；5 月下旬起即可开始程序开发。&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuse-与该活动相关的项目&quot;&gt;&lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/6417107362775040/&quot;&gt;openSUSE 与该活动相关的项目&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;1-porting-proot-to-rust&quot;&gt;1. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#4577823219515392&quot;&gt;Porting PRoot to Rust&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：imlk&lt;/li&gt;
-  &lt;li&gt;导师：Lucas Ramage&lt;/li&gt;
-  &lt;li&gt;描述：用 Rust 语言实现一个 proot 的原型版本，具有最基本的功能。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2-interpersonal-identity-verification&quot;&gt;2. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5262106988904448&quot;&gt;Interpersonal Identity Verification&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：Quinn Okabayashi&lt;/li&gt;
-  &lt;li&gt;导师：Firstyear&lt;/li&gt;
-  &lt;li&gt;描述：通过允许用户断言未知来电者的有效性来防止电话诈骗&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;3-ibus-customize&quot;&gt;3. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5505085183885312&quot;&gt;IBus Customize&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：Songlin Jiang&lt;/li&gt;
-  &lt;li&gt;导师：Qiang Zhao、Peng Wu、Hillwood Yang&lt;/li&gt;
-  &lt;li&gt;描述：
-    &lt;blockquote&gt;
-      &lt;p&gt;目前，&lt;a href=&quot;https://en.wikipedia.org/wiki/Intelligent_Input_Bus&quot;&gt;IBus&lt;/a&gt; 主题在 GNOME 中遵循全局 GNOME-Shell 主题，在其他桌面环境中遵循全局 GTK 主题，IBus 在 GNOME 中缺乏对用户的定制。&lt;/p&gt;
-
-      &lt;p&gt;&lt;strong&gt;主要焦点：&lt;/strong&gt;&lt;/p&gt;
-
-      &lt;p&gt;本项目旨在使 IBus 主题与当前的 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/134/&quot;&gt;GNOME-Shell 主题&lt;/a&gt; 和 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/135/&quot;&gt;GTK 主题&lt;/a&gt; 分离，以便用户可以用其他 GNOME-Shell 主题和 GTK 主题对其进行定制。&lt;/p&gt;
-
-      &lt;p&gt;&lt;strong&gt;其他目标：&lt;/strong&gt;&lt;/p&gt;
-
-      &lt;p&gt;为自定义 IBus 添加更多的功能，包括自定义方向、动画、字体。支持右键切换输入源或打开托盘菜单，滚动切换页面或候选者，固定候选框和 IME 切换列表顺序，ASCII 模式自动切换，重新定位，显示或隐藏候选框页面按钮，设置系统托盘设置，输入源指示灯与设置。主题和背景图片遵循 GNOME 夜光模式。如果用户刚刚从另一个平台转换过来，这些定制将使他们快速在 GNOME 中找到熟悉的 IBus 。最终，一个提供 IBus 的外观、行为、系统托盘和输入源指示器完全自定义的扩展将可用。&lt;/p&gt;
-
-      &lt;p&gt;&lt;a href=&quot;https://github.com/IBus-Customize&quot;&gt;&lt;strong&gt;源码库&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;4-container-based-backend-for-openqa&quot;&gt;4. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#5626298556219392&quot;&gt;Container-based backend for openQA&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：Kelvin Kipkorir&lt;/li&gt;
-  &lt;li&gt;导师：Oliver Kurz&lt;/li&gt;
-  &lt;li&gt;描述：
-    &lt;blockquote&gt;
-      &lt;p&gt;OpenQA 是 openSUSE 自动化测试计划的一个自动化测试框架。该框架允许你在一端测试 GUI 应用程序，在另一端测试引导程序和内核。OpenQA 运行虚拟机，密切监视它们的状态并在上面运行测试。该测试框架分为两个部分： -管理逻辑（测试调度、管理、高级 API）-Web 前端
-该建议旨在开发一个能够与不同的容器技术（如 docker）直接互动的后端，允许软件在发布前测试容器镜像。这将有助于提高容器环境的开发和发布工作流程。后台将能够提供一个抽象的接口，允许 os-autoinst 和测试案例与特定的容器技术进行交互，并为当前的工作流程提供相同的集成。&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;5-logging-pipeline-plumber-for-rancher&quot;&gt;5. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6415301094146048&quot;&gt;Logging Pipeline Plumber for Rancher&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：Isala Piyarisi&lt;/li&gt;
-  &lt;li&gt;导师：Jacob Payne&lt;/li&gt;
-  &lt;li&gt;描述：
-    &lt;blockquote&gt;
-      &lt;p&gt;Banzai Logging Operator 允许用户通过编写 Kubernetes 自定义资源配置来建立复杂的日志管道。但是，当我们有 100 多个服务同时吐出 1000 多条日志记录时，要正确理解这些日志管道的工作方式可能是一项繁琐的任务。&lt;/p&gt;
-
-      &lt;p&gt;这方面的目标是创建 &lt;a href=&quot;https://i.imgur.com/IxHIZLA.png&quot;&gt;一个工具&lt;/a&gt;，从正在运行的 pod 中捕获日志流，让用户按照他们的意愿进行重放，同时将这些日志与 &lt;a href=&quot;https://banzaicloud.com/docs/one-eye/logging-operator/configuration/flow/&quot;&gt;Flow&lt;/a&gt; 资源规格相关联，并突出显示应用的过滤器，以便用户能够轻松了解日志操作员如何与他们的应用程序互动，并根据他们的喜好进行微调。&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;6-update-kanidm-project-mfa-backup-code&quot;&gt;6. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6642879985876992&quot;&gt;Update Kanidm project: MFA backup code&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：victorcwai&lt;/li&gt;
-  &lt;li&gt;导师：Firstyear&lt;/li&gt;
-  &lt;li&gt;描述：
-    &lt;blockquote&gt;
-      &lt;p&gt;这个项目建议使用一个备份代码来恢复单设备账户。用户必须在他们已经认证的时候生成备份代码，以便他们以后可以使用它。当他们想登录时，他们可以用备份代码取代 TOTP/WebAuthn 挑战。例如，TOTP+ 密码认证将被替换为备份代码 + 密码。&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;7-convert-virtual-systems-page-to-reactjs&quot;&gt;7. &lt;a href=&quot;https://summerofcode.withgoogle.com/projects/#6696890608910336&quot;&gt;Convert Virtual Systems Page to ReactJS&lt;/a&gt;&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;参与者：Riya Kalra&lt;/li&gt;
-  &lt;li&gt;导师：Cédric Bosdonnat-1&lt;/li&gt;
-  &lt;li&gt;描述：将虚拟系统页面的 JSP 代码转换为 ReactJS 改进新创建的虚拟系统页面的用户界面。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;交流&quot;&gt;交流：&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:IRC_list&quot;&gt;openSUSE IRC&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:Mailing_lists_subscription&quot;&gt;openSUSE 邮件列表&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;opensuse-project@opensuse.org&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;引用：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Google%E5%A4%8F%E6%97%A5%E7%A8%8B%E5%BC%8F%E7%A2%BC%E5%A4%A7%E8%B3%BD&quot;&gt;Google 编程之夏&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
     </item>
 
