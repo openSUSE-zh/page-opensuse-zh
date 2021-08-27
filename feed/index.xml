@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/26/Tumbleweed-%E6%9B%B4%E6%96%B0-Kismet-PulseAudio-Python.html</guid>
+      <title>Tumbleweed 更新 Kismet 、PulseAudio 、Python</title>
+      <pubDate>Thu, 26 Aug 2021 19:50:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/26/Tumbleweed-%E6%9B%B4%E6%96%B0-Kismet-PulseAudio-Python.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 的快照版本本周开始为滚动版本提供流量。 摆脱了上周的构建失败和 ISO 介质尺寸过大的障碍，本周发布了三个快照。 最新的快照 20210824 将 Mozilla Thunderbird 的版本从 78.13.0 更新到了 91.0.1 ，这是下一个长期支持版本的代码库。新的电子邮件客户端提供了许多新的功能，如访问 To/CC/BCC 字段的键盘快捷键，而且现在 Thunderbird 中还包括一个 PDF JavaScript 浏览器。在快照中，有两个主要的版本更新；nftables 更新至 1.0.0 ，现在可以识别命令行选项 -define 。基于 GTK 的音量控制工具 pavucontrol 5.0 支持切换蓝牙编解码器，这在 PulseAudio 15.0 中是新出现的，后者在 24 小时前的快照 20210823 中发布。GNU 编译器集的版本更新至 11.2 ，并修复了 glibc 2.34 的 One-time Passwords In Everything...</description>
+      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 的快照版本本周开始为滚动版本提供流量。&lt;/p&gt;
+
+&lt;p&gt;摆脱了上周的构建失败和 ISO 介质尺寸过大的障碍，本周发布了三个快照。&lt;/p&gt;
+
+&lt;p&gt;最新的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TI4L56TZS6TVK4GOA5A56JGLJDJQH7TC/&quot;&gt;20210824&lt;/a&gt; 将 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 的版本从 78.13.0 更新到了 91.0.1 ，这是下一个长期支持版本的代码库。新的电子邮件客户端提供了许多&lt;a href=&quot;https://www.thunderbird.net/en-US/thunderbird/91.0/releasenotes/#whatsnew&quot;&gt;新的功能&lt;/a&gt;，如访问 To/CC/BCC 字段的键盘快捷键，而且现在 Thunderbird 中还包括一个 PDF JavaScript 浏览器。在快照中，有两个主要的版本更新；&lt;a href=&quot;https://netfilter.org/projects/nftables/&quot;&gt;nftables&lt;/a&gt; 更新至 1.0.0 ，现在可以识别命令行选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-define&lt;/code&gt; 。基于 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 的音量控制工具 &lt;a href=&quot;https://freedesktop.org/software/pulseaudio/pavucontrol/&quot;&gt;pavucontrol&lt;/a&gt; 5.0 支持切换蓝牙编解码器，这在 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/PulseAudio/&quot;&gt;PulseAudio&lt;/a&gt; 15.0 中是新出现的，后者在 24 小时前的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K2LJ7BDXF6X2QU3VPNW3LMSHTD5VQWCB/&quot;&gt;20210823&lt;/a&gt; 中发布。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GNU 编译器集&lt;/a&gt;的版本更新至 11.2 ，并修复了 glibc 2.34 的 One-time Passwords In Everything 包。一些 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 和 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 软件包在快照中更新。命令行工具 &lt;a href=&quot;https://www.gnu.org/software/grep/&quot;&gt;grep&lt;/a&gt; 更新至 3.7 版，跳过了 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 构建中的堆栈溢出测试。运行时 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 的 16.6.2 更新修复了域名中非典型字符的不当处理，并修复了三个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和披露&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;网络检测器、数据包嗅探器和入侵检测包 &lt;a href=&quot;https://www.kismetwireless.net/&quot;&gt;Kismet&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K2LJ7BDXF6X2QU3VPNW3LMSHTD5VQWCB/&quot;&gt;20210823&lt;/a&gt; 中更新到最新的 2021.08 版本；该包做了一些小的改进，并有一个新的无线入侵检测系统警报。&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/PulseAudio/&quot;&gt;PulseAudio&lt;/a&gt; 15.0 弃用了几个 BlueTooth 补丁，并改进了硬件支持。PDF 渲染包 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 21.08.0 增加了一个&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;应用程序接口&lt;/a&gt;，允许在 PDF 中添加和修改大纲。 &lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 更新至1.9.7 版本，启用了 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 支持，以实现安全的中心会话记录收集。 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-bootloader&lt;/a&gt; 4.4.6 用 &lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 替换了 &lt;a href=&quot;https://linux.die.net/man/8/mkinitrd&quot;&gt;mkinitrd&lt;/a&gt; 。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/UCB426DWSMO5HVMFEHXTMBSDLJ54SIVE/&quot;&gt;20210820&lt;/a&gt; 将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到 5.13.12 版本，其中有几个网络设备支持的修复。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 的 91.0.1 版本更新修复了一个导致隐私窗口的标签在非隐私窗口可见的问题，新更新的浏览器版本中有几个 CVE 修复。&lt;a href=&quot;https://www.python.org/downloads/release/python-3811/&quot;&gt;python38 3.8.11 &lt;/a&gt; 版本更新解决了一些安全问题，并修复了先前版本中引入的一个回归问题。图形包 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 更新至 21.2.0 ，启用了 Gallium3D OpenGL 驱动，以防某些视频硬件加速出现问题。快照中更新的其他软件包有：文档阅读器 &lt;a href=&quot;https://okular.kde.org/&quot;&gt;okular 21.08.0&lt;/a&gt; 、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.35 、&lt;a href=&quot;https://www.gnu.org/software/diffutils/&quot;&gt;diffutils&lt;/a&gt; 3.8 和几个 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 软件包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/08/25/tw-updates-kismet-pulseaudio-python/&quot;&gt;Tumbleweed Updates Kismet, PulseAudio, Python&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/20/Tumbleweed-%E5%BF%AB%E9%80%9F%E6%8E%A8%E8%BF%9B-KDE_Gear-%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9B%B4%E6%96%B0.html</guid>
       <title>Tumbleweed 快速推进 KDE Gear 和框架更新</title>
       <pubDate>Fri, 20 Aug 2021 08:30:00 -0500</pubDate>
@@ -393,35 +416,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/09/tw-gets-rubygems-update-new-systemd/&quot;&gt;Tumbleweed Gets RubyGems Updates, New systemd&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/07/IRC-%E5%92%8C-Matrix-%E5%85%AC%E5%91%8A.html</guid>
-      <title>关于 IRC 和 Matrix 的公告</title>
-      <pubDate>Wed, 07 Jul 2021 00:00:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/07/IRC-%E5%92%8C-Matrix-%E5%85%AC%E5%91%8A.html</link>
-      <author>Nianqing Yao</author>
-      <description>openSUSE 项目从一开始就使用 IRC 在社区内进行实时聊天。到近期为止，使用的 IRC 网络一直是 Freenode。 由于该网络最近发生了各种变化，openSUSE 项目正在将我们的 IRC 通信转移到 Libera.Chat。 如果您目前是 IRC 用户，请在 Libera.Chat 上注册您的昵称，然后重新加入您之前在 Freenode 上加入的 #opensuse 相关频道。请借此机会选择一个新的安全密码，并确保您通过 SSL 进行连接。 Libera.Chat 提供有关选择 IRC 客户端的文档。 许多 openSUSE 频道已经转移并且已经在 Libera.Chat 上。但是，较少使用的频道尚未自动迁移。如果您需要迁移特定的 #opensuse-* IRC 频道，请提交请求频道迁移的签条(Ticket)。 新频道的名称与它们在 Freenode 上的名称相同。例如：#opensuse-factory 、 #opensuse 和 #kubic 。 如果您想要一个 openSUSE IRC “cloak”（它会混淆您的客户端主机地址并显示“opensuse”）并且您是 openSUSE 会员，请提交请求 cloak...</description>
-      <content:encoded>&lt;p&gt;openSUSE 项目从一开始就使用 IRC 在社区内进行实时聊天。到近期为止，使用的 IRC 网络一直是 Freenode。&lt;/p&gt;
-
-&lt;p&gt;由于该网络最近发生了各种变化，openSUSE 项目正在将我们的 IRC 通信转移到 Libera.Chat。&lt;/p&gt;
-
-&lt;p&gt;如果您目前是 IRC 用户，请在 Libera.Chat 上&lt;a href=&quot;https://libera.chat/guides/registration#registering&quot;&gt;注册您的昵称&lt;/a&gt;，然后重新加入您之前在 Freenode 上加入的 #opensuse 相关频道。请借此机会选择一个新的安全密码，并确保您通过 SSL 进行连接。 Libera.Chat 提供有关选择 IRC 客户端的&lt;a href=&quot;https://libera.chat/guides/clients&quot;&gt;文档&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;许多 openSUSE 频道已经转移并且已经在 Libera.Chat 上。但是，较少使用的频道尚未自动迁移。如果您需要迁移特定的 #opensuse-* IRC 频道，请&lt;a href=&quot;https://code.opensuse.org/project/irc&quot;&gt;提交请求频道迁移的签条(Ticket)&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;新频道的名称与它们在 Freenode 上的名称相同。例如：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#opensuse-factory&lt;/code&gt; 、 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#opensuse&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#kubic&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;p&gt;如果您想要一个 openSUSE IRC “cloak”（它会混淆您的客户端主机地址并显示“opensuse”）并且您是 openSUSE 会员，请提交请求 cloak 的签条。请注意，“cloak”并非万无一失，人们仍然可以通过多种方式获取您的 IP，但它们确实使人们更难以获取您的 IP。&lt;/p&gt;
-
-&lt;p&gt;如果您是 Matrix 用户，那么您还会看见更多的改进，因为 IRC 渠道正在被桥接到 Matrix，以将 IRC 和 Matrix 上的 openSUSE 社区连接在一起。此外，Discord 和 Telegram 也会连接到 Matrix，使其成为所有实时聊天的统一点。&lt;/p&gt;
-
-&lt;p&gt;最后，openSUSE 项目托管的 Matrix 实例开放供社区使用。您可以访问 chat.opensuse.org 以使用您的 openSUSE 帐户登录该服务。从那里，您将能够与任何和所有 Matrix 房间进行交互，尤其是托管在我们服务器上的 openSUSE 房间，这些房间已经连接了 IRC。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/07/irc-matrix-announcement/&quot;&gt;IRC and Matrix announcements&lt;/a&gt;，作者：Neal Gompa&lt;/p&gt;
 </content:encoded>
     </item>
 
