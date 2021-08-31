@@ -7,12 +7,12 @@
 
   <title>
     
-    RealSenseID 与 openSUSE 完全兼容 -
+    GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性 -
     
     openSUSE 中文社区
   </title>
   <meta name="description"
-    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 成员和 Intel oneAPI 官方创新者专注于 openSUSE 创新者计划时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSens...">
+    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。...">
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="/assets/css/chameleon.css">
@@ -39,38 +39,34 @@
 
   <!-- open graph meta -->
   <meta property="og:site_name" content="openSUSE 中文社区">
-  <meta property="og:title" content="RealSenseID 与 openSUSE 完全兼容">
+  <meta property="og:title" content="GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性">
   <meta property="og:description"
-    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 成员和 Intel oneAPI 官方创新者专注于 openSUSE 创新者计划时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSens...">
-  <meta property=" og:url" content="/_posts/2021-05-19-RealSenseID%20%E4%B8%8E%20openSUSE%20%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.md">
+    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。...">
+  <meta property=" og:url" content="/_posts/2021-08-30-GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.md">
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Hanjingxue Boling">
-  <meta property="og:article:published_time" content="2021-05-19T05:40:00-05:00">
-  
-  <meta property="og:article:tag" content="Tumbleweed">
+  <meta property="og:article:published_time" content="2021-08-30T10:50:00-05:00">
   
   <meta property="og:article:tag" content="翻译作品">
   
   <meta property="og:article:tag" content="官方新闻">
   
   <meta property="og:article:tag" content="广告推广">
-  
-  <meta property="og:article:tag" content="Leap">
     
-  <meta property="og:image" content="/assets/posts/2021-05/RealSenseID.jpg">
+  <meta property="og:image" content="/assets/posts/2021-08/NUC11.jpg">
   
 
   <!-- twitter meta -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="RealSenseID 与 openSUSE 完全兼容">
+  <meta name="twitter:title" content="GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性">
   
   <meta name="twitter:description"
-    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 成员和 Intel oneAPI 官方创新者专注于 openSUSE 创新者计划时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSens...">
+    content="编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。...">
   
-  <meta name="twitter:url" content="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html">
+  <meta name="twitter:url" content="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html">
   
-  <meta name="twitter:image" content="/assets/posts/2021-05/RealSenseID.jpg">
+  <meta name="twitter:image" content="/assets/posts/2021-08/NUC11.jpg">
   
 
   <!-- javascript -->
@@ -84,7 +80,7 @@
   <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed/">
   
 
-  <link rel="canonical" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html">
+  <link rel="canonical" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html">
 
   <!-- Extra Head Content -->
 
@@ -246,25 +242,25 @@
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2021/05">
+		<a href="/2021/08">
 			
-			五月
+			八月
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2021/05/19">
-			19
+		<a href="/2021/08/30">
+			30
 		</a>
 	</li>
 	<li class="breadcrumb-item active">
-		RealSenseID 与 openSUSE 完全兼容
+		GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性
 	</li>
 </ol>
 <div class="container my-5 article">
 	<header class="article-header col-md-9 col-12 mx-auto py-3">
-		<h1 class="decorated-title">RealSenseID 与 openSUSE 完全兼容</h1>
+		<h1 class="decorated-title">GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性</h1>
 		<p class="text-center text-muted">
-			19. May 2021
+			30. Aug 2021
 			|
 			Hanjingxue Boling
 			|
@@ -272,25 +268,23 @@
 		</p>
 		
 		<img class="rounded mx-auto d-block h-carousel"
-			src="/assets/posts/2021-05/RealSenseID.jpg"
-			alt="RealSenseID 与 openSUSE 完全兼容">
+			src="/assets/posts/2021-08/NUC11.jpg"
+			alt="GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性">
 		
 	</header>
 	<div class="col-md-7 col-12 mx-auto text-justify">
 		<p>编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。</p>
 
 <hr />
-<p>在作为 openSUSE 成员和 <a href="https://software.intel.com/content/www/us/en/develop/tools/oneapi.html">Intel oneAPI</a> 官方创新者专注于 <a href="https://en.opensuse.org/openSUSE:INNOVATORS">openSUSE 创新者计划</a>时，我们在 openSUSE Leap 15.1、15.2、15.3 RC 和 Tumbleweed 上测试了 RealSenseID 设备。通过这些工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上安装这个设备的<a href="https://en.opensuse.org/SDB:Install_RealSenseID">文章</a>。</p>
+<p>在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。通过所有的工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上使用 GNA Technologie 的文章。更多信息可以在这里查看： <a href="https://en.opensuse.org/SDB:Install_GNA_in_NUC_Beast_Canyon">SDB:Install GNA in NUC Beast Canyon</a> 。</p>
 
-<p><a href="https://www.intelrealsense.com/facial-authentication/">Intel RealSense ID</a> 将主动深度传感器与专门的神经网络结合起来，旨在提供一个直观、安全和准确的面部认证解决方案，并随着时间的推移进行调整。该解决方案提供用户隐私，并由用户意识激活。内置的防欺骗技术可以防止使用照片、视频或面具的攻击。</p>
+<p>Beast Canyon（仍在预购中）是目前性能最高的 Intel® NUC。Beast Canyon 是英特尔模块化游戏迷你电脑的进化版，比大多数游戏玩家梦想中自己建造的电脑更为紧凑的游戏电脑。某些型号的设备搭载了酷睿 i9-11900KB 处理器，具有 GNA 功能：Gaussian 与神经加速器库。</p>
 
-<p>Intel RealSense ID 是一个自然的解决方案，为每个人、每个地方简化了安全进入。支持从儿童到成人，并为智能锁、门禁控制、PoS、ATM 机以及 openSUSE（所谓“完全兼容”）中的 Kiosks 设计。</p>
-
-<p>更多信息详见：<a href="https://github.com/IntelRealSense/RealSenseID">https://github.com/IntelRealSense/RealSenseID</a></p>
+<p>Intel® Gaussian 与神经加速器是一种低功耗的神经协处理器，用于边缘的连续推理。欲了解更多信息，请访问：<a href="https://github.com/intel/gna">https://github.com/intel/gna</a></p>
 
 <hr />
 
-<p>原文：<a href="https://news.opensuse.org/2021/05/19/RealSenseID-available-for-openSUSE/">RealSenseID compatibility with all openSUSE</a>，作者： Alessandro de Oliveira Faria</p>
+<p>原文：<a href="https://news.opensuse.org/2021/08/30/GNA-and-Beast-Canyon-NUC11-compatibility-with-openSUSE/">GNA and Beast Canyon NUC11 compatibility with openSUSE</a>，作者：Alessandro de Oliveira Faria</p>
 
 	</div>
 	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
@@ -305,10 +299,6 @@
 		<p>
 			<b>标签:</b>
 			
-			<a href="/tag/tumbleweed">
-				Tumbleweed
-			</a>
-			
 			<a href="/tag/翻译作品">
 				翻译作品
 			</a>
@@ -321,38 +311,34 @@
 				广告推广
 			</a>
 			
-			<a href="/tag/leap">
-				Leap
-			</a>
-			
 		</p>
 	</div>
 	<div class="col-md-7 col-12 mx-auto text-center">
 		<h5>分享帖子:</h5>
 		<div class="btn-group" role="group" aria-label="Share article">
 			<a class="twitter-link btn btn-secondary"
-				href="https://twitter.com/intent/tweet?counturl=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html&url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html&via=openSUSE">
+				href="https://twitter.com/intent/tweet?counturl=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html&url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html&via=openSUSE">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
 				</svg>
 			</a>
 			<a class="facebook-link btn btn-secondary"
-				href="https://www.facebook.com/sharer.php?u=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html">
+				href="https://www.facebook.com/sharer.php?u=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
 				</svg>
 			</a>
 			<a class="telegram-link btn btn-secondary"
-				href="https://telegram.me/share/url?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html">
+				href="https://telegram.me/share/url?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
 				</svg>
 			</a>
 			<a class="reddit-link btn btn-secondary"
-				href="http://reddit.com/submit?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html&amp;title=RealSenseID%20%E4%B8%8E%20openSUSE%20%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9"
+				href="http://reddit.com/submit?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html&amp;title=GNA%20%E5%92%8C%20Beast%20Canyon%20NUC11%20%E4%B8%8E%20openSUSE%20%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7"
 				target="_blank">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
@@ -360,7 +346,7 @@
 				</svg>
 			</a>
 			<a class="mail-link btn btn-secondary"
-				href="mailto:?subject=RealSenseID%20%E4%B8%8E%20openSUSE%20%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9&amp;body=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/05/19/RealSenseID-%E4%B8%8E-openSUSE-%E5%AE%8C%E5%85%A8%E5%85%BC%E5%AE%B9.html">
+				href="mailto:?subject=GNA%20%E5%92%8C%20Beast%20Canyon%20NUC11%20%E4%B8%8E%20openSUSE%20%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7&amp;body=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
