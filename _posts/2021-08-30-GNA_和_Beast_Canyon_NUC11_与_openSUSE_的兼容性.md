@@ -13,7 +13,8 @@ tags:
 - 广告推广
 ---
 
-编注：这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。
+编注： 这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。  
+更新： 此文章因为内容适用性原因，已从 news.opensuse.org 网站上移除，敬请读者注意。英文网站编者认为此篇文章更适合在博客等平台上发表。
 
 ---
 在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。通过所有的工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上使用 GNA Technologie 的文章。更多信息可以在这里查看： [SDB:Install GNA in NUC Beast Canyon](https://en.opensuse.org/SDB:Install_GNA_in_NUC_Beast_Canyon) 。
