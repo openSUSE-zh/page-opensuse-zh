@@ -7,6 +7,41 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/06/openSUSE-%E5%9C%A8%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F%E7%9A%84%E6%88%90%E6%9E%9C.html</guid>
+      <title>openSUSE 在谷歌编程之夏的成果</title>
+      <pubDate>Mon, 06 Sep 2021 09:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/06/openSUSE-%E5%9C%A8%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F%E7%9A%84%E6%88%90%E6%9E%9C.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目与几个指导机构一起参加了今年的谷歌编程之夏。 七个被接受的项目中有六个成功完成，参与项目的导师们在为期 10 周的项目中帮助学生提高了他们的编程技能和对开源的认识。 让我们回顾一下这些贡献！ 我们要介绍的第一个贡献涉及 Uyuni 项目。这个项目的目的是将虚拟系统页面的 JSP 代码转换为 ReactJS 。改进了导致拉取请求 4152 的，新创建的虚拟系统页面的用户界面；该请求被列为正在进行中并接近完成。 另一个贡献专注于改进 IBus 主题，使其与当前的 GNOME-Shell 主题和 GTK 主题分开。这将允许用户用其他 GNOME-Shell 主题和 GTK 主题对 IBus 进行定制。三个社区成员帮助和指导了学生 Songlin Jiang ，Songlin Jiang 在 他的博客 上详述了整个 GSoC 期间的经历。 另一位在博客上讲述自己经历的学生是来自斯沃斯莫尔学院的 Quinn Okabayashi 。Quinn 在他的博客上列出了几个拉取请求，同时致力于用 Rust 编写的名为 Kanidm 的身份管理平台。Quinn 在我的项目：将 Tokio 追踪技术整合到 Kanidm...</description>
+      <content:encoded>&lt;p&gt;openSUSE 项目与几个指导机构一起参加了今年的谷歌编程之夏。&lt;/p&gt;
+
+&lt;p&gt;七个被接受的项目中有六个成功完成，参与项目的导师们在为期 10 周的项目中帮助学生提高了他们的编程技能和对开源的认识。&lt;/p&gt;
+
+&lt;p&gt;让我们回顾一下这些贡献！&lt;/p&gt;
+
+&lt;p&gt;我们要介绍的第一个贡献涉及 &lt;a href=&quot;https://www.uyuni-project.org/&quot;&gt;Uyuni 项目&lt;/a&gt;。这个项目的目的是将虚拟系统页面的 JSP 代码转换为 &lt;a href=&quot;https://reactjs.org/&quot;&gt;ReactJS&lt;/a&gt; 。改进了导致&lt;a href=&quot;https://github.com/uyuni-project/uyuni/pull/4152&quot;&gt;拉取请求 4152&lt;/a&gt; 的，新创建的虚拟系统页面的用户界面；该请求被列为正在进行中并接近完成。&lt;/p&gt;
+
+&lt;p&gt;另一个贡献专注于改进 &lt;a href=&quot;https://github.com/IBus-Customize/Customize-IBus&quot;&gt;IBus&lt;/a&gt; 主题，使其与当前的 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;GNOME-Shell&lt;/a&gt; 主题和 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 主题分开。这将允许用户用其他 GNOME-Shell 主题和 GTK 主题对 IBus 进行定制。三个社区成员帮助和指导了学生 Songlin Jiang ，Songlin Jiang 在 &lt;a href=&quot;https://hollowmansblog.wordpress.com/2021/08/21/my-google-summer-of-code-2021/&quot;&gt;他的博客&lt;/a&gt; 上详述了整个 GSoC 期间的经历。&lt;/p&gt;
+
+&lt;p&gt;另一位在博客上讲述自己经历的学生是来自&lt;a href=&quot;https://www.swarthmore.edu/&quot;&gt;斯沃斯莫尔学院&lt;/a&gt;的 Quinn Okabayashi 。Quinn 在他的博客上列出了几个拉取请求，同时致力于用 Rust 编写的名为 Kanidm 的身份管理平台。Quinn 在&lt;a href=&quot;https://qnnokabayashi.github.io/Google-Summer-of-Code-'21-Work-Product/&quot;&gt;我的项目：将 Tokio 追踪技术整合到 Kanidm 中&lt;/a&gt;的博文中列出了代码和细节。&lt;/p&gt;
+
+&lt;p&gt;在今年的 GSoC 上有更多的 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 代码贡献，因为 &lt;a href=&quot;https://wiki.termux.com/wiki/PRoot&quot;&gt;PRoot&lt;/a&gt; 希望用 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust 语言&lt;/a&gt;实现 PRoot 的原型版本。该项目正在研究最基本的功能。每天都有&lt;a href=&quot;https://www.notion.so/Daily-Reports-58e5e724aae14eb6814251ab237b9826&quot;&gt;报告&lt;/a&gt;发布，在 &lt;a href=&quot;https://gist.github.com/KB5201314/7f0acf0239f9b1388be55f5cd0bb2b43&quot;&gt;GitHub Gist&lt;/a&gt; 上可以找到全面的概述。&lt;/p&gt;
+
+&lt;p&gt;今年 &lt;a href=&quot;https://github.com/rancher/rancher&quot;&gt;Rancher&lt;/a&gt; 参加了 GSoC，openSUSE 是&lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/?sp-page=5#6417107362775040&quot;&gt;指导机构&lt;/a&gt;。导师和学生专注于通过编写 &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; 自定义资源配置来构建复杂的日志记录管道。 目标是创建一个工具，该工具可以从正在运行的 pod 中捕获日志流，并让用户根据需要重放它，同时将这些日志与 Flow 资源规范相关联并突出显示应用的过滤器。 用户可以轻松了解 Logging Operator 如何与他们的应用程序交互并根据自己的喜好对其进行微调。 八月充满了 &lt;a href=&quot;https://github.com/MrSupiri&quot;&gt;Isala Piyarisi&lt;/a&gt; 的杰出贡献。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kanidm/kanidm&quot;&gt;Kanidm&lt;/a&gt; 在今年的 GSoC 中有另一个项目，8 月的最后一个月是学生 &lt;a href=&quot;https://github.com/victorcwai&quot;&gt;victorcwai&lt;/a&gt; 的几个提交。 victorcwai 为身份管理平台提供了两个可交付成果。 第一个建议使用备份代码来恢复单设备帐户。 经过身份验证的用户可以生成备份代码并在以后使用它。 当他们想登录时，他们可以用备份代码替换 TOTP/WebAuthn 质询。 例如，TOTP + 密码认证将改为备份代码 + 密码。 第二个交付物是在 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 上集成 &lt;a href=&quot;https://github.com/async-rs/async-std&quot;&gt;async-std&lt;/a&gt; 库和 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 网页框架 &lt;a href=&quot;https://crates.io/crates/tide&quot;&gt;tide&lt;/a&gt;，以拥有一个带有 async-std 运行时的 openssl 和tide ssl 侦听器的异步库。 拉取请求列表和项目概述发布在 victorcwai 的&lt;a href=&quot;https://victorcwai.github.io/blog/2021/08/21/gsoc-final&quot;&gt;博客&lt;/a&gt;上。&lt;/p&gt;
+
+&lt;p&gt;自2006年以来，openSUSE 项目已经参加了多次 GSoC 活动，项目的导师们已经帮助 60 多个学生成为自由软件开发者。该项目一直在寻找有兴趣为 GSoc 提供指导的社区成员，如果他们想帮助指导，可以发邮件到 ddemaio@opensuse.org 。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/06/os-results-from-gsoc/&quot;&gt;openSUSE Results from Google Summer of Code&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/03/Wireshark-PipeWire_%E5%92%8C_Audacity_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Wireshark、PipeWire 和 Audacity 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 03 Sep 2021 05:50:00 -0500</pubDate>
@@ -321,92 +356,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/19/leap-gains-maintenance-update-improvements/&quot;&gt;Leap Gains Maintenance Update Improvements&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/16/%E5%85%B3%E4%BA%8E%E7%A4%BE%E5%8C%BA%E5%AE%9A%E6%9C%9F%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%8B%9F%E8%AE%AE%E5%A4%A7%E7%BA%B2.html</guid>
-      <title>关于社区定期会议的拟议大纲</title>
-      <pubDate>Fri, 16 Jul 2021 19:20:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/16/%E5%85%B3%E4%BA%8E%E7%A4%BE%E5%8C%BA%E5%AE%9A%E6%9C%9F%E4%BC%9A%E8%AE%AE%E7%9A%84%E6%8B%9F%E8%AE%AE%E5%A4%A7%E7%BA%B2.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>大家好，
-
-最近的社区调查结果显示，72.46% 的受访者认为为 openSUSE 社区举办每周一次的例会是个好主意。为了在项目中存在的其他技术会议之外有一个定期的会议，最好能有一个结构和一套会议的协议。此外，如果有几个人愿意承担领导会议的责任，这也是有意义的。我知道我不能在本周六参加会议，因为我整个周末都在参加一个婚礼。
-
-召开定期社区会议的想法是为了。
-
-  改善 openSUSE 项目的交流
-  改善 openSUSE 项目中的社会环境和对项目的认识
-  了解项目和参与者是如何互动和结构化的
-
-
-以下是会议的拟议大纲。
-
-会议细节：
-
-日期：每周六 17:00 至 19:00 UTC（根据调查结果）
-地点：https://meet.opensuse.org/meeting
-协作文档编辑：https://etherpad.opensuse.org/p/weeklymeeting
-主持人：由两到三个人组成的小组或团队愿意轮流担任领导者，做笔记和发邮件
-领导：愿意领导本周主题的人
-支持者：愿意支持正在讨论的主题的人
-主题：默认议题完全是一个社交会议
-
-  计划中的话题/提案：应在会前一周在会议记录中提交
-  即兴的话题：如果时间允许，而且没有任何计划的话
-
-
-主题可以涉及技术讲座、项目提案、代码冲刺、维基维护、桌面或软件包开发、市场营销等。这就是基本上是一个供社区决定的会议。
-
-会议记录的副本需要在会议结束后发送至 opensus-project@opensuse.org 。
-
-
-
-编注：这篇文章来源于官方邮件列表，并非官方新闻，我们中文社区翻译这篇文章旨在传递社区动态。
-
-原文：Proposed outline on regular community meetings，作者： ddemaio
-
-
-</description>
-      <content:encoded>&lt;p&gt;大家好，&lt;/p&gt;
-
-&lt;p&gt;最近的社区调查结果显示，72.46% 的受访者认为为 openSUSE 社区举办每周一次的例会是个好主意。为了在项目中存在的其他技术会议之外有一个定期的会议，最好能有一个结构和一套会议的协议。此外，如果有几个人愿意承担领导会议的责任，这也是有意义的。我知道我不能在本周六参加会议，因为我整个周末都在参加一个婚礼。&lt;/p&gt;
-
-&lt;p&gt;召开定期社区会议的想法是为了。&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;改善 openSUSE 项目的交流&lt;/li&gt;
-  &lt;li&gt;改善 openSUSE 项目中的社会环境和对项目的认识&lt;/li&gt;
-  &lt;li&gt;了解项目和参与者是如何互动和结构化的&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以下是会议的拟议大纲。&lt;/p&gt;
-
-&lt;p&gt;会议细节：&lt;/p&gt;
-
-&lt;p&gt;日期：每周六 17:00 至 19:00 UTC（根据调查结果）&lt;br /&gt;
-地点：&lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;https://meet.opensuse.org/meeting&lt;/a&gt;&lt;br /&gt;
-协作文档编辑：&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;https://etherpad.opensuse.org/p/weeklymeeting&lt;/a&gt;&lt;br /&gt;
-主持人：由两到三个人组成的小组或团队愿意轮流担任领导者，做笔记和发邮件&lt;br /&gt;
-领导：愿意领导本周主题的人&lt;br /&gt;
-支持者：愿意支持正在讨论的主题的人&lt;br /&gt;
-主题：默认议题完全是一个社交会议&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;计划中的话题/提案：应在会前一周在会议记录中提交&lt;/li&gt;
-  &lt;li&gt;即兴的话题：如果时间允许，而且没有任何计划的话&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;主题可以涉及技术讲座、项目提案、代码冲刺、维基维护、桌面或软件包开发、市场营销等。这就是基本上是一个供社区决定的会议。&lt;/p&gt;
-
-&lt;p&gt;会议记录的副本需要在会议结束后发送至 opensus-project@opensuse.org 。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;编注：这篇文章来源于官方邮件列表，并非官方新闻，我们中文社区翻译这篇文章旨在传递社区动态。&lt;/p&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/CGS5JIK6M5MDDGQG4CPL3ZBCPXM4OC26/&quot;&gt;Proposed outline on regular community meetings&lt;/a&gt;，作者： &lt;a href=&quot;https://lists.opensuse.org/archives/users/b4316a84969340d58990abb35361149a/&quot;&gt;ddemaio&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
 </content:encoded>
     </item>
 
