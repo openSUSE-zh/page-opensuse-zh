@@ -7,6 +7,64 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/17/Thunar-Firefox_%E5%92%8C_Python_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Thunar、Firefox 和 Python 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 17 Sep 2021 19:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/17/Thunar-Firefox_%E5%92%8C_Python_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周有五个快照提供给 openSUSE Tumbleweed 用户。 几个小型和中型快照为 Xfce 的 Thunar、Linux Kernel、Mozilla Firefox、PostgreSQL 和 Python 等软件包提供了新的更新。 快照 20210915 有两个软件包更新。manpages-l10n 软件包的翻译更新到了 4.11.0 版本，启用了匈牙利语的翻译。用于访问和修改虚拟机映像的工具集包 libguestfs 1.44.2 有大量更改； 它添加和删除了几个补丁，并将 setup.py 从其原始 GPLv2+ 许可证重新授权为 LGPLv2+。 Xfce 的 Thunar 软件包在快照 20210914 中进行了更新；对文件管理器 4.16.9 版本的更新修复了一个内存泄漏，更新了翻译并禁用了文件传输的自动排队。Linux Kernel 5.14.2 有一些 USB 串行控制的修复和一个公共漏洞和暴露的修复；CVE-2021-3640 修复了可能允许有特权的本地用户使系统崩溃或提升他们在系统上的权限的漏洞。用于视频和图像框架的软件包 pfstools 更新到 2.2.0 版本，并提供了许多修复，使该软件包能够与较新版本的库一起工作。快照中还更新了 aria2 1.36.0 和文本浏览器 links...</description>
+      <content:encoded>&lt;p&gt;本周有五个快照提供给 openSUSE  Tumbleweed 用户。&lt;/p&gt;
+
+&lt;p&gt;几个小型和中型快照为 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Thunar&quot;&gt;Thunar&lt;/a&gt;、&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt;、&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt;、&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt; 和 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 等软件包提供了新的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AUAI2VO24ZA6LNITLKF7US7N6MWAOZZ6/&quot;&gt;20210915&lt;/a&gt; 有两个软件包更新。&lt;a href=&quot;https://software.opensuse.org/package/manpages-l10n?search_term=manpages-l10n&quot;&gt;manpages-l10n&lt;/a&gt; 软件包的翻译更新到了 4.11.0 版本，启用了匈牙利语的翻译。用于访问和修改虚拟机映像的工具集包 &lt;a href=&quot;https://libguestfs.org/&quot;&gt;libguestfs&lt;/a&gt; 1.44.2 有大量更改； 它添加和删除了几个补丁，并将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt; 从其原始 GPLv2+ 许可证重新授权为 LGPLv2+。&lt;/p&gt;
+
+&lt;p&gt;Xfce 的 Thunar 软件包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AV53ZJ6IA4SYCFTCUZ2T5CGIP4U5KNFK/&quot;&gt;20210914&lt;/a&gt; 中进行了更新；对文件管理器 4.16.9 版本的更新修复了一个内存泄漏，更新了翻译并禁用了文件传输的自动排队。Linux Kernel 5.14.2 有一些 USB 串行控制的修复和一个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;公共漏洞和暴露&lt;/a&gt;的修复；CVE-2021-3640 修复了可能允许有特权的本地用户使系统崩溃或提升他们在系统上的权限的漏洞。用于视频和图像框架的软件包 &lt;a href=&quot;http://pfstools.sourceforge.net/&quot;&gt;pfstools&lt;/a&gt; 更新到 2.2.0 版本，并提供了许多修复，使该软件包能够与较新版本的库一起工作。快照中还更新了 &lt;a href=&quot;https://aria2.github.io/&quot;&gt;aria2&lt;/a&gt; 1.36.0 和文本浏览器 &lt;a href=&quot;http://links.twibright.com/about.php&quot;&gt;links&lt;/a&gt; 2.24 。&lt;/p&gt;
+
+&lt;p&gt;Mozilla Firefox 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/G6PLDXAUGBHRUDNHDOUHN3ZHE7BF7Y55/&quot;&gt;20210913&lt;/a&gt; 中更新到了 &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/92.0/releasenotes/&quot;&gt;92.0&lt;/a&gt; 主要版本。一个新的功能是全范围的色阶现在已经支持许多系统上的视频播放。火狐现在可以使用 HTTPS RR 作为 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Alt-Svc&quot;&gt;Alt-Svc&lt;/a&gt; 头文件自动升级到 HTTPS 。&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 13.4 的更新在 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390x&lt;/a&gt; 上使用 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM12&lt;/a&gt; 进行了修复构建，并修复了 CVE-2021-3677 。应用程序生成器 &lt;a href=&quot;https://pypi.org/project/kiwi/&quot;&gt;python-kiwi&lt;/a&gt; 9.23.54 做了一些修改，以修复 &lt;a href=&quot;https://git.samba.org/rsync.git/&quot;&gt;rsync&lt;/a&gt; 工具的行为。本次快照中的更新还有 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; &lt;a href=&quot;https://amarok.kde.org/&quot;&gt;amarok&lt;/a&gt;、&lt;a href=&quot;https://tuned-project.org/&quot;&gt;tuned&lt;/a&gt; 2.16.0 和 &lt;a href=&quot;https://github.com/cisco/libsrtp&quot;&gt;libsrtp2&lt;/a&gt; 2.4.1 等软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NFQRR6H5PBLMLG4NB6MNNNJD2ATKCYGH/&quot;&gt;20210912&lt;/a&gt; 为 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 提供了 91.1.0 的版本更新。该电子邮件客户端修复了两个 CVE 和一个内存安全漏洞。&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.35 的更新对蓝牙编解码器进行了调整，现在将它们分离为插件以使其更易于发布。PipeWire 的音频混合器现在可以混合更多的格式。&lt;a href=&quot;https://www.python.org/&quot;&gt;python38&lt;/a&gt; 3.8.12 的更新提供了安全更新，并使电子邮件日期解析对格式错误的输入（即仅限空格）更加稳健。一些 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 软件包得到了更新，比如 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-installation&lt;/a&gt; 4.4.18，它现在可以在升级时显示发行说明。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JHJZCF4MNGAMLLSDYGZYZRVJK4ZYOXKP/&quot;&gt;20210910&lt;/a&gt; 中也有一些更新；&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-update&lt;/a&gt; 4.4.3 软件包修复了系统升级过程中的崩溃，同步 YaST 和 libzypp 软件库以避免删除已使用软件库的缓存。 &lt;a href=&quot;https://github.com/ibus/ibus/wiki&quot;&gt;ibus&lt;/a&gt; 1.5.25 增加了一个补丁，修复了openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 上的构建；&lt;a href=&quot;https://nmap.org/&quot;&gt;nmap&lt;/a&gt; &lt;a href=&quot;https://nmap.org/changelog.html#7.92&quot;&gt;7.92&lt;/a&gt; 有一些改进，包括安全传输层 1.3，支持大多数与安全扫描器相关的脚本。Linux 内核也在快照中更新至 5.14.1 。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/17/thunar-firefox-python-update-in-tw/&quot;&gt;Thunar, Firefox, Python Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/10/KDE_Gear-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>KDE Gear、Plasma 和 systemd 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 10 Sep 2021 10:15:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/10/KDE_Gear-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周的五个 openSUSE Tumbleweed 快照中，有一个为使用滚动发行的用户带来了大量的软件包更新的快照。 快照 20210904 带来了 systemd、GTK4、Mesa、KDE 的 Plasma 和 Gear 以及许多其他软件包的更新。 最近发布的是快照 20210908；它更新了 fuse3 3.10.5，并对用户空间包中的文件系统的单元测试进行了各种改进，使其更加强大。mpg123 1.29.0 的更新增加了一个 --enable-runtime-tables 。yast2 4.4.17 的更新为本周早些时候发布的 systemd 软件包提供了一些维护。其他一些软件包如 glslang 11.6.0、libstorage-ng 4.4.36 和 pinentry 1.2.0 也在快照中被更新。 快照 20210907 更新了七个软件包。软件包管理器 zypper 1.14.49 做了一个避免调用 su 的修改，因为它对 sudo 用户 umask 的限制可能过于严格。软件包管理库 libzypp 也更新到了 17.28.3 版本，它有一个避免破坏单个 rpm 处理的政策修改。AV1...</description>
+      <content:encoded>&lt;p&gt;本周的五个 openSUSE Tumbleweed 快照中，有一个为使用滚动发行的用户带来了大量的软件包更新的快照。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4GVG5YDVNASCWUR4CMZ2O4OTIPGZRYE/&quot;&gt;20210904&lt;/a&gt; 带来了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/gear/21.08.1/&quot;&gt;Gear&lt;/a&gt; 以及许多其他软件包的更新。&lt;/p&gt;
+
+&lt;p&gt;最近发布的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Z7PYWGBGGWYGXBCZR3BIB553GLWGTYRB/&quot;&gt;20210908&lt;/a&gt;；它更新了 &lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fuse3&lt;/a&gt; 3.10.5，并对用户空间包中的文件系统的单元测试进行了各种改进，使其更加强大。&lt;a href=&quot;https://www.mpg123.de/download.shtml&quot;&gt;mpg123&lt;/a&gt; 1.29.0 的更新增加了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--enable-runtime-tables&lt;/code&gt; 。&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.4.17 的更新为本周早些时候发布的 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 软件包提供了一些维护。其他一些软件包如 &lt;a href=&quot;https://github.com/KhronosGroup/glslang&quot;&gt;glslang&lt;/a&gt; 11.6.0、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.36 和 &lt;a href=&quot;https://github.com/gpg/pinentry&quot;&gt;pinentry&lt;/a&gt; 1.2.0 也在快照中被更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FA6FUFD6MQRNP5QUYK5VV3WK4RNX56BK/&quot;&gt;20210907&lt;/a&gt; 更新了七个软件包。软件包管理器 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt; 1.14.49 做了一个避免调用 su 的修改，因为它对 sudo 用户 umask 的限制可能过于严格。软件包管理库 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 也更新到了 17.28.3 版本，它有一个避免破坏单个 &lt;a href=&quot;http://rpm.org/&quot;&gt;rpm&lt;/a&gt; 处理的政策修改。AV1 解码器包 &lt;a href=&quot;https://code.videolan.org/videolan/dav1d&quot;&gt;dav1d&lt;/a&gt; 0.9.2 有一些针对 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt; 的&lt;a href=&quot;https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions&quot;&gt;SSE&lt;/a&gt; 3 和 SSE4 优化。其他在快照中更新的软件包有  &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/basicnet/geoclue2.html&quot;&gt;geoclue2&lt;/a&gt; 2.5.7、&lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/postlfs/nss.html&quot;&gt;mozilla-nss 3.69.1&lt;/a&gt;、&lt;a href=&quot;https://download.libguestfs.org/supermin/&quot;&gt;supermin&lt;/a&gt; 5.2.1 和 &lt;a href=&quot;https://www.freedesktop.org/software/plymouth/releases/&quot;&gt;plymouth&lt;/a&gt; 的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MT56C7WEWS5RWDV3CTBM3UMB24JMSVNX/&quot;&gt;20210906&lt;/a&gt; 有两个软件包更新。iproute2 在 5.14 更新版本中增加了 Docker 本地网络驱动 MacVLAN 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-nodst&lt;/code&gt; 选项。该软件包还增加了对无线广域网设备的支持。20210901.1550 &lt;a href=&quot;https://software.opensuse.org/package/permissions&quot;&gt;权限&lt;/a&gt;更新中有大约四个月的更新，它清理了一些路径并更新了 &lt;a href=&quot;https://manned.org/kdesud/b14ce481&quot;&gt;ksdesud&lt;/a&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ksgrd_network_helper&lt;/code&gt; 路径。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4GVG5YDVNASCWUR4CMZ2O4OTIPGZRYE/&quot;&gt;20210904&lt;/a&gt; 中的 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.4.0 更新添加了对 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 标题栏手势协议的支持，并进行了更改以使用 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 获取颜色字体信息。本次快照还发布了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.4 的更新；新的 systemd 版本经过了广泛的测试，并已添加更新所需的依赖项。&lt;a href=&quot;https://lists.freedesktop.org/archives/mesa-dev/2021-August/225464.html&quot;&gt;Mesa 21.2.1&lt;/a&gt; 是 mesa 21.2 系列的第一个错误修复版本，主要是&lt;a href=&quot;https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/11485&quot;&gt;对 fossilize_db 的修复&lt;/a&gt;。本次快照还更新了 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 91.0.2 和 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 91.0.3。浏览器在清除跟踪器时不再清除认证数据；这样做是为了避免重复提示输入密码。电子邮件客户端修复了一些用户体验设置问题，并推送了一个针对有时会发送不必要的 “SMTPUTF8” 的修复程序，这 BUG 会导致一些服务器拒绝电子邮件。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.5/&quot;&gt;KDE Plasma 5.22.5&lt;/a&gt; 修复了 &lt;a href=&quot;https://commits.kde.org/ksystemstats&quot;&gt;ksystemstats&lt;/a&gt; 对 IPV6 地址的处理，并且对 &lt;a href=&quot;https://commits.kde.org/plasma-desktop&quot;&gt;Plasma 桌面&lt;/a&gt;进行了多项修复，包括对&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=441097&quot;&gt; emoji 表情符号选择器&lt;/a&gt;的修复和对一些涉及&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=439094&quot;&gt;悬停在工具提示&lt;/a&gt;上的不一致行为的修复。&lt;a href=&quot;https://kde.org/announcements/gear/21.08.1/&quot;&gt;KDE Gear 21.08.1&lt;/a&gt; 修复了 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 中与 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 有关的亮度效应损坏。Gear 还修复了 &lt;a href=&quot;https://konsole.kde.org/&quot;&gt;Konsole&lt;/a&gt; 中涉及&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=440976&quot;&gt;关闭分割视图&lt;/a&gt;的问题。以太网 station-activity-monitor 软件包 &lt;a href=&quot;https://linux.die.net/man/8/arpwatch&quot;&gt;arpwatch&lt;/a&gt; 有一个重要的版本更新到 3.1 ，它提供了一个值得注意的上游变化，即为 &lt;a href=&quot;https://linux.die.net/man/8/massagevendor&quot;&gt;massagevendor&lt;/a&gt; 增加了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python 2&lt;/a&gt; 的兼容性。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到 5.14.0 版本，更新并启用了 ARMv6 和 ARMv7 的配置。其他在快照中更新的软件包有 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.11.3、&lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.351、&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 7.7.0、&lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.23、&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 6.1.0 以及其他几个。&lt;/p&gt;
+
+&lt;p&gt;本周开始的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GSIGHDFGQQLVRX4PUBVKXFXM2DNBX65B/&quot;&gt;20210902&lt;/a&gt;。Linux 蓝牙协议 &lt;a href=&quot;http://www.bluez.org/&quot;&gt;bluez&lt;/a&gt; 5.61 提供了几个高级音频分布配置文件的修复，并修复了一个存储可发现设置的问题。磁盘加密包 &lt;a href=&quot;https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home&quot;&gt;cryptsetup&lt;/a&gt; 更新到 2.4.0 版本，并提供了对 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL3&lt;/a&gt; 的后端支持。打印包 hplip 3.21.6 中增加了对新发行版的支持， transactional-update 3.5.2 修复了与 &lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux&lt;/a&gt; 的覆盖同步错误。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/10/kde-gear-plasma-systemd-update-in-tw/&quot;&gt;KDE Gear, Plasma, systemd Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+&lt;!--在上面写上原文来源与作者--&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/06/openSUSE-%E5%9C%A8%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F%E7%9A%84%E6%88%90%E6%9E%9C.html</guid>
       <title>openSUSE 在谷歌编程之夏的成果</title>
       <pubDate>Mon, 06 Sep 2021 09:30:00 -0500</pubDate>
@@ -295,67 +353,6 @@ Lars - 以 openSUSE Hero 的名义 -
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/26/deavtivating_connect_o_o/&quot;&gt;Deactivating connect.opensuse.org&lt;/a&gt;，作者：Lars Vogdt&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/23/GNOME-%E5%92%8C-Wireshark-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E5%8D%87%E7%BA%A7.html</guid>
-      <title>GNOME 和 Wireshark 在 Tumbleweed 中升级</title>
-      <pubDate>Fri, 23 Jul 2021 10:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/23/GNOME-%E5%92%8C-Wireshark-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E5%8D%87%E7%BA%A7.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>自上周五以来，已经发布了五个 openSUSE Tumbleweed 快照。 GNOME 40、btrfs、Mesa、Wireshark 和其他几个软件包的更新在本周的滚动更新中发布。 最新一次发布到 openSUSE-Factory 邮件列表的快照是 20210721 。该快照包含了对 GNOME 40 和管理 btrfs 文件系统的用户空间工具的更新；btrfsprogs 5.13 改进了文档，做了一些修正，并增加了对 Linux kernel 5.14 的准备工作。另一方面，GNOME 40 有一系列的更新，集中在更新翻译和错误修复上。gnome-maps 的 40.3 版本软件包修复了一个回归， gnome-software 的 40.3 版本软件包修复了在点击详情页上的网站按钮时有时发生的崩溃。在 gnome-terminal 3.40.3 中修复的另一个崩溃影响了参考架构源的加载，导致它失败了。autoyast2 4.4.14 版本软件包现在可以根据 bsc#1188357 中列出的细节将文件复制到一个正确的位置。被称为 harfbuzz 的文本锐化包更新到了 2.8.2 版本，并对子集器进行了各种修复和改进。其他在快照中值得注意的更新的包有 yast2-users 4.4.4，文本渲染包 pango 1.48.7，系统调用跟踪器 strace 5.13 和其他许多包。...</description>
-      <content:encoded>&lt;p&gt;自上周五以来，已经发布了五个 openSUSE Tumbleweed 快照。&lt;/p&gt;
-
-&lt;p&gt;GNOME 40、btrfs、Mesa、Wireshark 和其他几个软件包的更新在本周的滚动更新中发布。&lt;/p&gt;
-
-&lt;p&gt;最新一次发布到 &lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;openSUSE-Factory 邮件列表&lt;/a&gt;的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/RLAJDGDG2WGJLIQIZT5YNV4QKVBDS5S6/&quot;&gt;20210721&lt;/a&gt; 。该快照包含了对 &lt;a href=&quot;https://forty.gnome.org/&quot;&gt;GNOME 40&lt;/a&gt; 和管理 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 文件系统的用户空间工具的更新；&lt;a href=&quot;https://github.com/kdave/btrfs-progs&quot;&gt;btrfsprogs&lt;/a&gt; 5.13 改进了文档，做了一些修正，并增加了对 Linux kernel 5.14 的准备工作。另一方面，GNOME 40 有一系列的更新，集中在更新翻译和错误修复上。&lt;a href=&quot;https://wiki.gnome.org/Apps/Maps&quot;&gt;gnome-maps&lt;/a&gt; 的 40.3 版本软件包修复了一个回归， gnome-software 的 40.3 版本软件包修复了在点击详情页上的网站按钮时有时发生的崩溃。在 gnome-terminal 3.40.3 中修复的另一个崩溃影响了参考架构源的加载，导致它失败了。autoyast2 4.4.14 版本软件包现在可以根据 &lt;a href=&quot;https://bugzilla.suse.com/show_bug.cgi?id=1188357&quot;&gt;bsc#1188357&lt;/a&gt; 中列出的细节将文件复制到一个正确的位置。被称为 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 的文本锐化包更新到了 2.8.2 版本，并对子集器进行了各种修复和改进。其他在快照中值得注意的更新的包有 yast2-users 4.4.4，文本渲染包 &lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 1.48.7，系统调用跟踪器 &lt;a href=&quot;https://strace.io/&quot;&gt;strace&lt;/a&gt; 5.13 和其他许多包。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4KWRJF25XFOIWSVSNTR4YGF5R3BIMUIX/&quot;&gt;20210720&lt;/a&gt; 中只有三个软件包被更新。&lt;a href=&quot;https://software.opensuse.org/package/cpupower&quot;&gt;cpupower&lt;/a&gt; 5.14 包括一个上游补丁，并为&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt;硬件提供了一个速度选择修改。另外两个需要更新的软件包是 ibus-table-others 1.3.12，它更新了一些功能键，以及 openblas_pthreads 0.3.16 库，它有一些架构修复和针对 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 的改进。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6TMUHK3DXJO4M66Y4SD2TBG3TSPI72OK/&quot;&gt;20210718&lt;/a&gt; 中更新了五个软件包。&lt;a href=&quot;https://www.wireshark.org/&quot;&gt;Wireshark&lt;/a&gt; 3.4.7 修复了一个分布式网络协议解析器崩溃和一个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和暴露&lt;/a&gt;。用于管理设备的 &lt;a href=&quot;https://github.com/mdevctl/mdevctl&quot;&gt;mdevctl&lt;/a&gt; 程序更新至0.81版，并修复了 json 文件中的一个定义 aspect 。视频编解码器库 &lt;a href=&quot;https://guix.gnu.org/packages/libaom-3.1.1/&quot;&gt;libaom 3.1.1&lt;/a&gt; 中修复了一个崩溃以及一个初始化错误。&lt;a href=&quot;https://gitlab.freedesktop.org/slirp/libslirp&quot;&gt;libslirp&lt;/a&gt; 4.6.0 和 polkit-default-privs 也都被更新。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.13.2 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/N2RYH7OGGOZE2MZSMGKDBCLLQR3X4UWL/&quot;&gt;20210717&lt;/a&gt; 中有一些蓝牙和&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;高级 Linux 声音架构&lt;/a&gt;的修复。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 在快照中版本提升到 21.1.5 ，这是一个小的错误修复版本。被更新的 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 软件包集中在安全和用户界面方面。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;火狐浏览器&lt;/a&gt;进行了 CVE 排查，并在其全新的 &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/90.0/releasenotes/&quot;&gt;Firefox 90&lt;/a&gt; 中修复了大约九个漏洞；其中一个是内存安全漏洞。用于 Flash 插件的 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK2&lt;/a&gt; 支持在该浏览器的更新中被删除。Mozilla 在 Tumbleweed 快照中也对 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Thunderbird&lt;/a&gt; 进行了更新。在该版本中仅修复了四个 CVE，还修复了影响 Firefox 90 和 Firefox ESR（延长支持版）78.12 候选版本的内存安全漏洞。&lt;/p&gt;
-
-&lt;p&gt;本周以快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZTS7MWV7E6EZ4V7AV26TYVF5G7BCOQGM/&quot;&gt;20210716&lt;/a&gt; 开始，其中有超过少量的 Python 软件包索引更新；python-setuptools 从 44.1.1 更新到 57.0.0。在新的主要版本中加入了一个补丁，以消除一个简单函数的依赖周期。根据更新日志，新版本的 setuptools 中没有 python2 的支持。以太网设备管理工具 &lt;a href=&quot;https://git.kernel.org/pub/scm/network/ethtool/ethtool.git&quot;&gt;ethtool&lt;/a&gt; 5.13 增加了一些上游功能，如模块的 netlink handler 和 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 21.1.2。&lt;/p&gt;
-
-&lt;p&gt;根据&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JNUOS7H5WAOR4TJMC7MAQK3XB42KC5JZ/&quot;&gt;第 29 周的审查&lt;/a&gt;，&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249 和 &lt;a href=&quot;https://github.com/rpm-software-management/rpmlint&quot;&gt;rpmlint&lt;/a&gt; 2.0 已经进入测试阶段，很快就会发布。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/23/gnome-wireshark-update-in-tw/&quot;&gt;GNOME, Wireshark update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/19/Leap-%E8%8E%B7%E5%BE%97%E7%BB%B4%E6%8A%A4%E6%9B%B4%E6%96%B0%E7%9A%84%E6%94%B9%E8%BF%9B.html</guid>
-      <title>Leap 获得维护更新的改进</title>
-      <pubDate>Mon, 19 Jul 2021 10:00:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/07/19/Leap-%E8%8E%B7%E5%BE%97%E7%BB%B4%E6%8A%A4%E6%9B%B4%E6%96%B0%E7%9A%84%E6%94%B9%E8%BF%9B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>最近发布的 openSUSE Leap 15.3 从新的软件库设置中获得了一些维护方面的改进。 与 “Closing the Leap Gap” 有关的 Leap 维护工作扩展到有三个独立的资源库组而不是一个。 被称为 oss 和 non-oss 的 openSUSE 特定软件包仓库发生了变化。虽然这两个软件库包含了 Leap 15.2 及更早版本的所有内容，但现在它们只包含品牌和相关的安装软件包。 PackageHub 和 openSUSE 共享的软件包所在的软件库名为 backports 仓库，包含了 里面包含的软件包既不在 SUSE Linux Enterprise 里面也不在 openSUSE 特有软件里面。以前，PackageHub 是针对 SLE 的，它在 openSUSE 和 PackageHub 之间重复了软件包；现在这个单一项目在 PackageHub 和 openSUSE Leap 15.3 之间共享。这个单一的仓库将提高交付更新的质量，并避免像 openSUSE...</description>
-      <content:encoded>&lt;p&gt;最近发布的 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap 15.3&lt;/a&gt; 从新的软件库设置中获得了一些维护方面的改进。&lt;/p&gt;
-
-&lt;p&gt;与 “&lt;a href=&quot;https://www.suse.com/c/closing-the-leap-gap-src/&quot;&gt;Closing the Leap Gap&lt;/a&gt;” 有关的 Leap 维护工作扩展到有三个独立的资源库组而不是一个。&lt;/p&gt;
-
-&lt;p&gt;被称为 oss 和 non-oss 的 openSUSE 特定软件包仓库发生了变化。虽然这两个软件库包含了 Leap 15.2 及更早版本的所有内容，但现在它们只包含品牌和相关的安装软件包。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://packagehub.suse.com/&quot;&gt;PackageHub&lt;/a&gt; 和 openSUSE 共享的软件包所在的软件库名为 &lt;a href=&quot;https://en.opensuse.org/Portal:Backports&quot;&gt;backports&lt;/a&gt; 仓库，包含了  里面包含的软件包既不在 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 里面也不在 openSUSE 特有软件里面。以前，PackageHub 是针对 SLE 的，它在 openSUSE 和 PackageHub 之间重复了软件包；现在这个单一项目在 PackageHub 和 openSUSE Leap 15.3 之间共享。这个单一的仓库将提高交付更新的质量，并避免像 openSUSE Leap 15.3 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper patch&lt;/code&gt; 那样的软件包冲突。&lt;/p&gt;
-
-&lt;p&gt;有一个包含 SLE 导入软件包的单一仓库，它包含了 SLE 的基本软件包和其他软件包。通过脚本重新生成的单一通道将不需要手动调整，并且有益于在 aarch64、s390x、x86_64/i586 和 ppc64le 架构中安装 openSUSE 。&lt;/p&gt;
-
-&lt;p&gt;第一个用于为 Leap 导出 SLE 导入的软件包库的方法在目前的软件仓库系统中效果不佳，这导致了一些依赖性问题、软件包版本重叠和其他相关的不稳定性。&lt;/p&gt;
-
-&lt;p&gt;上周，新的导出方法使用常规的 SLES 模块技术进行了部署。这解决了目前所有的问题，也使协调团队更容易处理和调试软件仓库。&lt;/p&gt;
-
-&lt;p&gt;这个话题在 &lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Retrospective&quot;&gt;Leap 的回顾&lt;/a&gt;中得到了各种反馈。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/19/leap-gains-maintenance-update-improvements/&quot;&gt;Leap Gains Maintenance Update Improvements&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
