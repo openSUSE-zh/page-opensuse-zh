@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/01/GNOME_%E5%92%8C_Plasma_%E7%89%88%E6%9C%AC%E5%9C%A8%E9%A3%8E%E6%BB%9A%E8%8D%89%E6%BB%9A%E5%8A%A8%E6%97%B6%E5%8F%96%E5%BE%97%E8%BF%9B%E5%B1%95.html</guid>
+      <title>GNOME 和 Plasma 版本在风滚草滚动时取得进展</title>
+      <pubDate>Fri, 01 Oct 2021 09:15:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/01/GNOME_%E5%92%8C_Plasma_%E7%89%88%E6%9C%AC%E5%9C%A8%E9%A3%8E%E6%BB%9A%E8%8D%89%E6%BB%9A%E5%8A%A8%E6%97%B6%E5%8F%96%E5%BE%97%E8%BF%9B%E5%B1%95.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>GNOME 41 已经进入 openSUSE Factory 阶段，而 KDE Plasma 5.23 即将在 openSUSE Tumbleweed 快照中发布，因为它正在逐步升级。 openSUSE 的滚动分支本周发布了四个快照，更新了 Mesa、curl、catfish、PipeWire 和 Perl 等软件包。 快照 20210928 通过对 curl 7.79.1 的更新改进了数据的传输，使其能够与 OpenSSH 8.7 一起工作；这个命令行工具和库也调整了一个设置，在重复调用时不改变连接数据。 inkscape 1.1.1 的更新修复了一个崩溃，并改善了这个图形编辑程序的启动时间。在快照中更新的另外两个软件包是 yast2-network 4.4.26 和 yast2-nfs-client 4.4.1；后者有一个更新，支持 fstab 中的 systemd 挂载选项。 文件搜索工具 catfish 在快照 20210927 中更新，4.16.3 版本完成了更好的图标更新和侧边栏背景颜色修复。Intel 的 dleyna-renderer 包更新到 0.7.1；...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://help.gnome.org/misc/release-notes/41.0/&quot;&gt;GNOME 41&lt;/a&gt; 已经进入 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Factory_development_model#Staging_Projects&quot;&gt;openSUSE Factory 阶段&lt;/a&gt;，而 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.90/&quot;&gt;KDE Plasma 5.23&lt;/a&gt; 即将在 openSUSE Tumbleweed 快照中发布，因为它正在逐步升级。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 的滚动分支本周发布了四个快照，更新了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt;、&lt;a href=&quot;https://docs.xfce.org/apps/catfish/start&quot;&gt;catfish&lt;/a&gt;、&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 和 &lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 等软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IWOA4ZCTB7232UASJPCTDHISIMMP6Y3U/&quot;&gt;20210928&lt;/a&gt; 通过对 &lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 7.79.1 的更新改进了数据的传输，使其能够与 &lt;a href=&quot;https://www.openssh.com/txt/release-8.7&quot;&gt;OpenSSH 8.7&lt;/a&gt; 一起工作；这个命令行工具和库也调整了一个设置，在重复调用时不改变连接数据。 &lt;a href=&quot;https://inkscape.org/&quot;&gt;inkscape&lt;/a&gt; 1.1.1 的更新修复了一个崩溃，并改善了这个图形编辑程序的启动时间。在快照中更新的另外两个软件包是 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-network&lt;/a&gt; 4.4.26 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-nfs-client&lt;/a&gt; 4.4.1；后者有一个更新，支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/Fstab&quot;&gt;fstab&lt;/a&gt; 中的 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 挂载选项。&lt;/p&gt;
+
+&lt;p&gt;文件搜索工具 &lt;a href=&quot;https://docs.xfce.org/apps/catfish/start&quot;&gt;catfish&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DPINW76V5KUALYSPX657SHP347GRKD6G/&quot;&gt;20210927&lt;/a&gt; 中更新，4.16.3 版本完成了更好的图标更新和侧边栏背景颜色修复。&lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/intel/dleyna-renderer&quot;&gt;dleyna-renderer&lt;/a&gt; 包更新到 0.7.1； 这个包允许客户端发现和操作数字媒体渲染器，提供了一个构建修复和一个到 &lt;a href=&quot;https://github.com/GNOME/gupnp&quot;&gt;GUPnP 1.2&lt;/a&gt; 面向对象框架的端口。桌面环境包 &lt;a href=&quot;https://bluesabre.org/menulibre/&quot;&gt;menulibre&lt;/a&gt; 2.2.3 修复了在 KDE 上可选择诊断文本的问题，并添加了对 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME 特定类别&lt;/a&gt;的支持。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 91.1.1 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SQLYSZI6GCYEOXADHGL7PKES4MOZDILC/&quot;&gt;20210926&lt;/a&gt; 中发布；添加了用于禁用单个消息主题加密的菜单项，不再支持打印当前未显示的电子邮件消息，包括一次打印多条消息。 &lt;a href=&quot;https://thekelleys.org.uk/dnsmasq/doc.html&quot;&gt;dnsmasq&lt;/a&gt; 2.86 版本修复了一个错误，该错误导致 dnsmasq 在重负载下无法跟踪处理&lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_Control_Protocol&quot;&gt;传输控制协议&lt;/a&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;域名系统&lt;/a&gt;连接的分叉进程。 &lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 5.34.0 添加了一个补丁来修复 &lt;a href=&quot;https://www.gnu.org.ua/software/gdbm/&quot;&gt;gdbm&lt;/a&gt; 1.20 的构建并修复了正则表达式中的内存泄漏。 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;gnome-shell&lt;/a&gt; 40.5 更新优化了全屏缩放的渲染，&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.37 提供了一些 JACK 稳定性改进，并在某些应用程序中更改了缓冲区大小和采样率。 快照中的其他更新包括 &lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.24、&lt;a href=&quot;https://docs.xfce.org/apps/mousepad/start&quot;&gt;mousepad&lt;/a&gt; 0.5.7、&lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 的版本升级、&lt;a href=&quot;https://download.gnome.org/sources/mutter/&quot;&gt;mutter&lt;/a&gt; 40.5、&lt;a href=&quot;https://pypi.org/project/numpy/&quot;&gt;python-numpy 1.21.2&lt;/a&gt; 和一些 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 软件包的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2W73XWYC4UURVPARVPIMPXWHJHRM3IBE/&quot;&gt;20210924&lt;/a&gt; 带来了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.2.2 的更新；3D 图形包提供了一些错误修复，并且做了大量工作使 &lt;a href=&quot;https://gitlab.freedesktop.org/panfrost&quot;&gt;panfrost&lt;/a&gt; 更接近于一致。 创作套件 &lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.8 修复了一些颜色转换并添加了一个选项来读取原始图像的缩略图并将其存储为名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dng:thumbnail&lt;/code&gt; 的配置文件。 聊天客户端 &lt;a href=&quot;https://www.pidgin.im/&quot;&gt;pidgin&lt;/a&gt; 2.14.7 删除了一些过时的翻译并修复了一些漏洞。 其他在快照中更新的软件包是 &lt;a href=&quot;https://github.com/containers/bubblewrap&quot;&gt;bubblewrap&lt;/a&gt; 0.5.0、&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.32.4、&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-control-center&quot;&gt;gnome-control-center&lt;/a&gt; 40.1 和 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.37 。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/01/gnome-plasma-releases-make-progress-while-tw-rolls/&quot;&gt;GNOME, Plasma Releases Make Progress While Tumbleweed Rolls&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/17/Thunar-Firefox_%E5%92%8C_Python_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Thunar、Firefox 和 Python 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 17 Sep 2021 19:30:00 -0500</pubDate>
@@ -291,66 +316,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/30/nodejs-curl-update-in-tw/&quot;&gt;Node.js, curl update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/26/%E5%81%9C%E7%94%A8-connect.opensuse.org.html</guid>
-      <title>停用 connect.opensuse.org</title>
-      <pubDate>Mon, 26 Jul 2021 04:40:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/07/26/%E5%81%9C%E7%94%A8-connect.opensuse.org.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。
-
-当 Facebook 和 LinkedIn 成为数十亿美元的市场时，我们的社区门户则主要用于组织 openSUSE 的成员，并成为成员的 “联络点”，他们提供自己的资料来帮助其他人联系他们。
-
-超过 20,000 个活跃的注册用户和 100 个团体可能会让人了解 openSUSE 社区的多样性和灵活性。从艺术家到音乐家，再到本地用户组和所有不同的窗口管理器及其爱好者的小组。每个人都在 openSUSE 的世界里找到了自己的位置。
-
-但时间过得很快–尤其是技术部门从来没有停滞不前。今天，我们需要宣布最终关闭我们的社区门户网站。原因很简单：虽然我们多次请求帮助，请求有人愿意积极维护和管理这项服务，但没有人站出来。由于我们无法在没有大的时间投资的情况下保证应用程序的安全，我们决定关闭它，让它平静地休息。
-
-通过这样做，我们对这个决定可能给一些人带来的麻烦表示歉意。这些年来，我们尽最大努力支持你们，尽可能长时间地运行这项服务。但是，如果没有人站出来，愿意继续接管这项工作，那么最好是说 “再见”，而不是等待世界上的黑客分享我们用户的数据。
-
-一个时代要结束了。一个确实不错的时代。但这也意味着可能有一个新的时代即将到来。一些新的工具会有一个维护者，会有人照顾它们。
-
-请看我们的论坛 ，我们的维基，邮件列表或新的 Matrix 服务器。我们不会停止对你的支持，我们将尽最大努力保证你和你的数据安全。
-
-使用 Pagure 进行会员管理和申请的计划。
-
-请记住，要玩得愉快！
-
-Lars - 以 openSUSE Hero 的名义 -
-
-
-
-原文：Deactivating connect.opensuse.org，作者：Lars Vogdt
-
-
-</description>
-      <content:encoded>&lt;p&gt;我们的社区门户网站，可通过 https://connect.opensuse.org 访问， 自 2010 年以来一直伴随着我们的社区。一个很长很长的时间。特别是，如果你把它与 Facebook（2006 年开始运营）或 LinkedIn（2010 年成为一家国际公司）相比。&lt;/p&gt;
-
-&lt;p&gt;当 Facebook 和 LinkedIn 成为数十亿美元的市场时，我们的社区门户则主要用于组织 openSUSE 的成员，并成为成员的 “联络点”，他们提供自己的资料来帮助其他人联系他们。&lt;/p&gt;
-
-&lt;p&gt;超过 20,000 个活跃的注册用户和 100 个团体可能会让人了解 openSUSE 社区的多样性和灵活性。从艺术家到音乐家，再到本地用户组和所有不同的窗口管理器及其爱好者的小组。每个人都在 openSUSE 的世界里找到了自己的位置。&lt;/p&gt;
-
-&lt;p&gt;但时间过得很快–尤其是技术部门从来没有停滞不前。今天，我们需要宣布最终关闭我们的社区门户网站。原因很简单：虽然我们多次请求帮助，请求有人愿意积极维护和管理这项服务，但没有人站出来。由于我们无法在没有大的时间投资的情况下保证应用程序的安全，我们决定关闭它，让它平静地休息。&lt;/p&gt;
-
-&lt;p&gt;通过这样做，我们对这个决定可能给一些人带来的麻烦表示歉意。这些年来，我们尽最大努力支持你们，尽可能长时间地运行这项服务。但是，如果没有人站出来，愿意继续接管这项工作，那么最好是说 “再见”，而不是等待世界上的黑客分享我们用户的数据。&lt;/p&gt;
-
-&lt;p&gt;一个时代要结束了。一个确实不错的时代。但这也意味着可能有一个新的时代即将到来。一些新的工具会有一个维护者，会有人照顾它们。&lt;/p&gt;
-
-&lt;p&gt;请看我们的&lt;a href=&quot;https://forums.opensuse.org/&quot;&gt;论坛&lt;/a&gt; ，我们的&lt;a href=&quot;https://en.opensuse.org/&quot;&gt;维基&lt;/a&gt;，&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;或新的 &lt;a href=&quot;https://chat.opensuse.org/&quot;&gt;Matrix&lt;/a&gt; 服务器。我们不会停止对你的支持，我们将尽最大努力保证你和你的数据安全。&lt;/p&gt;
-
-&lt;p&gt;使用 &lt;a href=&quot;https://code.opensuse.org/&quot;&gt;Pagure&lt;/a&gt; 进行会员管理和申请的计划。&lt;/p&gt;
-
-&lt;p&gt;请记住，要玩得愉快！&lt;/p&gt;
-
-&lt;p&gt;Lars - 以 openSUSE Hero 的名义 -&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/07/26/deavtivating_connect_o_o/&quot;&gt;Deactivating connect.opensuse.org&lt;/a&gt;，作者：Lars Vogdt&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
 </content:encoded>
