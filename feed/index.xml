@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/14/openSUSE-Leap-%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6%E7%9A%84%E9%87%8D%E5%88%B6%E7%89%88%E5%8D%B3%E5%B0%86%E5%88%B0%E6%9D%A5.html</guid>
+      <title>openSUSE Leap 镜像文件的重制版即将到来</title>
+      <pubDate>Thu, 14 Oct 2021 05:40:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/14/openSUSE-Leap-%E9%95%9C%E5%83%8F%E6%96%87%E4%BB%B6%E7%9A%84%E9%87%8D%E5%88%B6%E7%89%88%E5%8D%B3%E5%B0%86%E5%88%B0%E6%9D%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>为了回应 openSUSE 用户的反馈，Leap 预计很快就会按季度或根据需要对该发行版进行定期重建。 这些 Leap ISO 镜像的重制版（respin iso）将接受 openQA 测试，并在设置过程完成后有节奏地发布。 这些重制版镜像允许用户立即使用最新的错误修复和更新，这减少了安装通用（GA）版本后在线更新的带宽。 修正后的 ISO 镜像可以更新 GRUB 和 shim 之类的软件包，为用户改进这些引导加载程序和固件软件包。 更新后的 ISO 镜像在文件名中包含一个数字扩展名，例如 15.3-X，以区别于 GA 版本，其校验和将与之前发布的镜像不同。 get.opensuse.org 上的旧版 ISO 镜像将被删除并替换为最新的 respin 镜像。 随着设置过程和初始重建的完成，测试结果与 Leap 15.3 的原始 GA 版本几乎没有区别； 工作仍在继续，很快就会发布重制版镜像。 由于 Leap 和 SLE 都已连接，用户可以期待在任何 SUSE Linux Enterprise 重建后重新构建 Leap 镜像文件。 与...</description>
+      <content:encoded>&lt;p&gt;为了回应 openSUSE 用户的反馈，Leap 预计很快就会按季度或根据需要对该发行版进行定期&lt;a href=&quot;https://openqa.opensuse.org/group_overview/88&quot;&gt;重建&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这些 Leap ISO 镜像的重制版（respin iso）将接受 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/88&quot;&gt;openQA&lt;/a&gt; 测试，并在&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-process/issues/104&quot;&gt;设置过程&lt;/a&gt;完成后有节奏地发布。&lt;/p&gt;
+
+&lt;p&gt;这些重制版镜像允许用户立即使用最新的错误修复和更新，这减少了安装通用（GA）版本后在线更新的带宽。 修正后的 ISO 镜像可以更新 &lt;a href=&quot;https://www.gnu.org/software/grub/&quot;&gt;GRUB&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/rhboot/shim&quot;&gt;shim&lt;/a&gt; 之类的软件包，为用户改进这些引导加载程序和固件软件包。&lt;/p&gt;
+
+&lt;p&gt;更新后的 ISO 镜像在文件名中&lt;a href=&quot;https://build.opensuse.org/package/binaries/openSUSE:Leap:15.3:Update:Respin/000product:Leap-dvd5-dvd-aarch64/images&quot;&gt;包含一个数字扩展名&lt;/a&gt;，例如 15.3-X，以区别于 GA 版本，其校验和将与之前发布的镜像不同。 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 上的旧版 ISO 镜像将被删除并替换为最新的 respin 镜像。&lt;/p&gt;
+
+&lt;p&gt;随着&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-process/issues/104&quot;&gt;设置过程&lt;/a&gt;和初始&lt;a href=&quot;https://build.opensuse.org/package/binaries/openSUSE:Leap:15.3:Update:Respin/000product:Leap-dvd5-dvd-aarch64/images&quot;&gt;重建&lt;/a&gt;的完成，测试结果与 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 15.3&lt;/a&gt; 的原始 GA 版本几乎没有区别； 工作仍在继续，很快就会发布重制版镜像。&lt;/p&gt;
+
+&lt;p&gt;由于 Leap 和 SLE 都已连接，用户可以期待在任何 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 重建后重新构建 Leap 镜像文件。&lt;/p&gt;
+
+&lt;p&gt;与 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 博客类似，Leap 的每次重制预计都会在 &lt;a href=&quot;https://news.opensuse.org/&quot;&gt;news.opensuse.org&lt;/a&gt; 上发表一篇文章，向人们提供有关重建更改或修复内容的信息，这些信息也将在 &lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt; 的&lt;a href=&quot;http://download.opensuse.org/distribution/leap/15.3/ChangeLogs/&quot;&gt;变更日志&lt;/a&gt;中提供。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/14/respin-of-os-leap-images-are-coming/&quot;&gt;Respin of openSUSE Leap Images are Coming&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/08/GNOME-%E5%92%8C-Salt-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>GNOME 和 Salt 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 08 Oct 2021 07:30:00 -0500</pubDate>
@@ -253,25 +280,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/08/25/tw-updates-kismet-pulseaudio-python/&quot;&gt;Tumbleweed Updates Kismet, PulseAudio, Python&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/20/Tumbleweed-%E5%BF%AB%E9%80%9F%E6%8E%A8%E8%BF%9B-KDE_Gear-%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Tumbleweed 快速推进 KDE Gear 和框架更新</title>
-      <pubDate>Fri, 20 Aug 2021 08:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/08/20/Tumbleweed-%E5%BF%AB%E9%80%9F%E6%8E%A8%E8%BF%9B-KDE_Gear-%E5%92%8C%E6%A1%86%E6%9E%B6%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周，为了发布 openSUSE Tumbleweed 快照，开发团队在后台进行了大量的工作。 在最新的 openSUSE 发布工程会议的邮件列表中，记录了关于在本周 Tumbleweed 开发工作中使用开放构建服务构建镜像时遇到的一些挑战。有一些构建失败，这导致了一些损坏的构建的出现。这些构建没有作为快照发布，因为这些构建必须通过 openSUSE 的 openQA 测试。ISO 介质的尺寸也变得太大而无法装入 DVD ；当容量超过尺寸限制时，会经常进行调整，所以让我们看看已发布的快照。 构建、测试和发布一个成功的快照的努力确实随着快照 20210817 的发布而来。用户收到了一些期待已久的软件和一些非常酷的新功能。KDE Gear 21.08.0 是滚动发布用户的众多软件包之一。Dolphin 文件管理器现在对包含大量可预览文件的文件夹显示一串动画预览。它的预览代码也被优化了，所以缩略图弹出的速度更快，而且加密位置的文件，比如 Plasma Vaults，可以显示预览。PDF 阅读器 Okular 在工具栏上做了一些改进，允许采用彩色设计，使阅读更舒适，有助于避免眼睛疲劳。Konsole 终端提供将光标悬停在命令行的图像文件名上时，出现预览的功能。Gwenview 图像查看器和 Elisa 音乐播放器也得到了改进。KDE Frameworks 5.85.0 也出现在快照中。开发者用户界面 Kirigami 修正了关闭按钮和行动按钮之间的一些间距。它还增加了一种可以在桌面上将一个页面推送为一个新窗口的方法。本次快照对 KTextEditor 的网络挂载性能进行了优化，修复了 KWayland 对 mmap 系统调用失败的检查。AppStream 是一个为跨发行版创建应用商店提供标准的软件包，它更新到了 0.14.4 版本，并改进了文本行的包装。Mozilla Thunderbird 78.13.0 修复了 6...</description>
-      <content:encoded>&lt;p&gt;本周，为了发布 openSUSE Tumbleweed 快照，开发团队在后台进行了大量的工作。&lt;/p&gt;
-
-&lt;p&gt;在最新的 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QZMCZJWWNU3KHYSC4ID7X4HMKCUYZCBY/&quot;&gt;openSUSE 发布工程会议&lt;/a&gt;的邮件列表中，记录了关于在本周 Tumbleweed 开发工作中使用&lt;a href=&quot;https://build.opensuse.org/&quot;&gt;开放构建服务&lt;/a&gt;构建镜像时遇到的一些挑战。有一些构建失败，这导致了一些损坏的构建的出现。这些构建没有作为快照发布，因为这些构建必须通过 openSUSE 的 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试。ISO 介质的尺寸也变得太大而无法装入 DVD ；当容量超过尺寸限制时，会经常进行调整，所以让我们看看已发布的快照。&lt;/p&gt;
-
-&lt;p&gt;构建、测试和发布一个成功的快照的努力确实随着快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7LW3JRIVNQRISP2AQOUONQKUZMPSMXPV/&quot;&gt;20210817&lt;/a&gt; 的发布而来。用户收到了一些期待已久的软件和一些非常酷的新功能。&lt;a href=&quot;https://kde.org/announcements/gear/21.08.0/&quot;&gt;KDE Gear 21.08.0&lt;/a&gt; 是滚动发布用户的众多软件包之一。&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 文件管理器现在对包含大量可预览文件的文件夹显示一串动画预览。它的预览代码也被优化了，所以缩略图弹出的速度更快，而且加密位置的文件，比如 Plasma Vaults，可以显示预览。PDF 阅读器 &lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 在工具栏上做了一些改进，允许采用彩色设计，使阅读更舒适，有助于避免眼睛疲劳。&lt;a href=&quot;https://konsole.kde.org/&quot;&gt;Konsole&lt;/a&gt; 终端提供将光标悬停在命令行的图像文件名上时，出现预览的功能。&lt;a href=&quot;https://apps.kde.org/gwenview/&quot;&gt;Gwenview&lt;/a&gt; 图像查看器和 &lt;a href=&quot;https://elisa.kde.org/&quot;&gt;Elisa&lt;/a&gt; 音乐播放器也得到了改进。&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.85.0/&quot;&gt;KDE Frameworks 5.85.0&lt;/a&gt; 也出现在快照中。开发者用户界面 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 修正了关闭按钮和行动按钮之间的一些间距。它还增加了一种可以在桌面上将一个页面推送为一个新窗口的方法。本次快照对 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 的网络挂载性能进行了优化，修复了 &lt;a href=&quot;https://api.kde.org/frameworks/kwayland/html/index.html&quot;&gt;KWayland&lt;/a&gt; 对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Mmap&quot;&gt;mmap&lt;/a&gt; 系统调用失败的检查。&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 是一个为跨发行版创建应用商店提供标准的软件包，它更新到了 0.14.4 版本，并改进了文本行的包装。&lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 78.13.0 修复了 6 个&lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;常见漏洞和披露&lt;/a&gt;；其中三个涉及对可能的内存损坏的修复。在媒体 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/multimedia/sdl2.html&quot;&gt;SDL2 2.0.16&lt;/a&gt; 的更新中，提供了对处理客户端装饰，更好的原生 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 支持和其他功能。&lt;a href=&quot;https://firewalld.org/&quot;&gt;Firewalld&lt;/a&gt; 的第一个主要版本 1.0.0 在快照中发布；动态管理的防火墙减少了依赖性，清理了规范文件，并废弃了 iptables 后端。矢量图形编辑器 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt; 经数个小版本更新至 1.1，并增加了一个可以选择 Inkscape 的外观，一些关于新文档大小或打开文件的选择的欢迎对话框。当粘贴复制的对象时，Inkscape 现在默认将其直接粘贴在当前选定的对象之上。在快照中还列出了一些更新的软件包。在这些更新的软件包中，有 &lt;a href=&quot;https://apparmor.net/&quot;&gt;apparmor&lt;/a&gt; 3.0.3、&lt;a href=&quot;https://netfilter.org/projects/ipset/&quot;&gt;ipset&lt;/a&gt; 7.15、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 16.6.2、&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.5.3、&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.3318、&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.33 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-users&lt;/a&gt; 4.4.6，它们进行了一次更新，允许编辑现有用户的名字，另一次更新是删除现有用户的密码。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/08/20/tw-ff-w-kde-gear-frameworks-updates/&quot;&gt;Tumbleweed Fast Forwards with KDE Gear, Frameworks Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
