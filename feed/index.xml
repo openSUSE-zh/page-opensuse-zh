@@ -7,6 +7,27 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/22/KDE_Plasma-Gear_%E5%92%8C_Frameworks_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>KDE Plasma、Gear 和 Frameworks 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 22 Oct 2021 08:20:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/22/KDE_Plasma-Gear_%E5%92%8C_Frameworks_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>上周制作了两个 openSUSE Tumbleweed 快照，并且都包含了许多针对 KDE 用户的更新。 Plasma、Gear 和 Frameworks 并不是快照中唯一需要更新的软件包。 快照 20211019 提供了相当多的更新包。 远程访问包 remmina 1.4.21 为 GNOME 40 运行环境提供更新，并与 WebKit 2.32.0 及更老的版本向后兼容。可刷新的盲文显示包 brltty 更新到 6.4 版，使 sysusers.d 成为一个新包，同时还删除了一些旧的 SUSE RPM 结构。PDF 渲染库 poppler 21.10.0 修复了一些奇怪的飞溅图案的渲染问题，并添加了对设置自定义图章注释的支持。Mesa 21.2.4 有几个修复程序，并为 PowerPC 和 LLVM i386 编译推出了补丁。在快照中获得重大更新的软件包是 rdma-core 37.1，它专注于 Linux 内核驱动程序 / infiniband 子系统的用户空间组件；...</description>
+      <content:encoded>&lt;p&gt;上周制作了两个 openSUSE Tumbleweed 快照，并且都包含了许多针对 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户的更新。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt;、&lt;a href=&quot;https://kde.org/announcements/gear/21.08.2/&quot;&gt;Gear&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.87.0/&quot;&gt;Frameworks&lt;/a&gt; 并不是快照中唯一需要更新的软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WCGWGALNS66I4U7J7FXXBHEXG7I5KYHO/&quot;&gt;20211019&lt;/a&gt; 提供了相当多的更新包。 远程访问包 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina&lt;/a&gt; 1.4.21 为 &lt;a href=&quot;https://forty.gnome.org/&quot;&gt;GNOME 40&lt;/a&gt; 运行环境提供更新，并与 &lt;a href=&quot;https://webkit.org/&quot;&gt;WebKit&lt;/a&gt; 2.32.0 及更老的版本向后兼容。可刷新的盲文显示包 &lt;a href=&quot;https://github.com/brltty/brltty&quot;&gt;brltty&lt;/a&gt; 更新到 6.4 版，使 sysusers.d 成为一个新包，同时还删除了一些旧的 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; &lt;a href=&quot;https://rpm.org/&quot;&gt;RPM&lt;/a&gt; 结构。PDF 渲染库 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 21.10.0 修复了一些奇怪的飞溅图案的渲染问题，并添加了对设置自定义图章注释的支持。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.2.4 有几个修复程序，并为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ppc64&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/I386&quot;&gt;i386&lt;/a&gt; 编译推出了补丁。在快照中获得重大更新的软件包是 &lt;a href=&quot;https://github.com/linux-rdma/rdma-core&quot;&gt;rdma-core 37.1&lt;/a&gt;，它专注于 Linux 内核驱动程序 / infiniband  子系统的用户空间组件； 这个新的主要版本修复了 &lt;a href=&quot;https://cmake.org/&quot;&gt;cmake&lt;/a&gt; 标志以更正 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/pkg-config/&quot;&gt;pkg-config&lt;/a&gt; 的路径。KDE &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.87.0/&quot;&gt;Frameworks 5.87.0&lt;/a&gt; 在本次快照中更新了大量软件包。本次更新中包括在 Plasma 框架中删除已失效的 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 和 &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 脚本引擎。&lt;a href=&quot;https://github.com/KDE/breeze-icons&quot;&gt;Breeze Icons&lt;/a&gt; 5.87.0 添加了首选项图标的 22px 变体，并且相同版本的 UI 框架包 &lt;a href=&quot;https://kde.org/products/kirigami/&quot;&gt;Kirigami&lt;/a&gt; 在使用图层时修复了移动设备上的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Breadcrumb_navigation&quot;&gt;Breadcrumb Control&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;本周上一个快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YCFSAFUQAB5L7OLSXYOYL6AKE2K7NC73/&quot;&gt;20211016&lt;/a&gt;，更新了 KDE Plasma 25 周年纪念版； &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.23.0/&quot;&gt;5.23.0 版本&lt;/a&gt;采用了酷蓝色的默认配色方案，提供系统设置，让用户挑选强调色，使他们的系统突出个人风格。位于屏幕的左下角的 Plasma 的 Kickoff 启动器，有大量的重构代码，使其更快、更易于使用。Plasma 还进行了更改，让用户可以在本机 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 和 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;XWayland&lt;/a&gt; 应用程序之间拖放内容。KDE &lt;a href=&quot;https://kde.org/announcements/gear/21.08.2/&quot;&gt;21.08.2&lt;/a&gt; 的 &lt;a href=&quot;https://kde.org/announcements/gear/21.08.2/&quot;&gt;Gear&lt;/a&gt; 恢复了在应用程序 &lt;a href=&quot;https://apps.kde.org/gwenview/&quot;&gt;Gwenview&lt;/a&gt; 中使用键盘快捷键快速切换 “缩放以适合” 和 “实际大小” 的能力；视频编辑应用程序 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 为启动崩溃检测做了轻微的时间延迟。更新到 3.0.5 版的声音编辑应用程序 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; 修复了一个错误；&lt;a href=&quot;https://www.gimp.org/&quot;&gt;gimp&lt;/a&gt; 2.10.28 通过在鼠标悬停上添加白色边框改进了深色主题。该图形编辑器还为图层中的选定文本设置了浅色背景，并删除了 3D 阴影框。 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.33.1 的更新版本修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pull&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git rebase -r&lt;/code&gt; 的各种极端情况和错误。&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.2.2.2 更新了翻译，容器命令行实用程序包 &lt;a href=&quot;https://github.com/containers/skopeo&quot;&gt;skopeo&lt;/a&gt; 更新到版本 1.5.0，其中引入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--ignore&lt;/code&gt; 选项，即使在特定镜像同步失败后，也允许同步命令（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sync&lt;/code&gt;）继续同步。快照中要更新的其他软件包是 GNOME 的视频播放器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Videos&quot;&gt;totem&lt;/a&gt; 3.38.2、&lt;a href=&quot;https://pypi.org/project/kiwi/&quot;&gt;python-kiwi&lt;/a&gt; 9.24.0 和小部件抽象库 &lt;a href=&quot;https://github.com/libyui/libyui&quot;&gt;libyui&lt;/a&gt; 的几个 4.2.17 版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/22/kde-pgf-update-in-tw/&quot;&gt;KDE Plasma, Gear, Frameworks Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/15/OpenSSH-Squid_%E5%92%8C_PostgreSQL_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>OpenSSH、Squid 和 PostgreSQL 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 15 Oct 2021 09:20:00 -0500</pubDate>
@@ -255,29 +276,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/03/wireshark-pipewire-audacity-update-in-tw/&quot;&gt;Wireshark, PipeWire, Audacity Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html</guid>
-      <title>GNA 和 Beast Canyon NUC11 与 openSUSE 的兼容性</title>
-      <pubDate>Mon, 30 Aug 2021 10:50:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/08/30/GNA_%E5%92%8C_Beast_Canyon_NUC11_%E4%B8%8E_openSUSE_%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>编注： 这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。 更新： 此文章因为内容适用性原因，已从 news.opensuse.org 网站上移除，敬请读者注意。英文网站编者认为此篇文章更适合在博客等平台上发表。 在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。通过所有的工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上使用 GNA Technologie 的文章。更多信息可以在这里查看： SDB:Install GNA in NUC Beast Canyon 。 Beast Canyon（仍在预购中）是目前性能最高的 Intel® NUC。Beast Canyon 是英特尔模块化游戏迷你电脑的进化版，比大多数游戏玩家梦想中自己建造的电脑更为紧凑的游戏电脑。某些型号的设备搭载了酷睿 i9-11900KB 处理器，具有 GNA 功能：Gaussian 与神经加速器库。 Intel®...</description>
-      <content:encoded>&lt;p&gt;编注： 这篇文章有一定广告性质，我们中文社区翻译这篇文章旨在与官方新闻保持同步。&lt;br /&gt;
-更新： 此文章因为内容适用性原因，已从 news.opensuse.org 网站上移除，敬请读者注意。英文网站编者认为此篇文章更适合在博客等平台上发表。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;在作为 openSUSE 会员和英特尔官方 oneAPI 创新者专注于 openSUSE 创新者计划的同时，我在 openSUSE Leap 15.3 和 Tumbleweed 上测试了 Beast Canyon NUC 11 机器。通过所有的工作，我们在 SDB 中提供了一篇关于如何在 openSUSE 平台上使用 GNA Technologie 的文章。更多信息可以在这里查看： &lt;a href=&quot;https://en.opensuse.org/SDB:Install_GNA_in_NUC_Beast_Canyon&quot;&gt;SDB:Install GNA in NUC Beast Canyon&lt;/a&gt; 。&lt;/p&gt;
-
-&lt;p&gt;Beast Canyon（仍在预购中）是目前性能最高的 Intel® NUC。Beast Canyon 是英特尔模块化游戏迷你电脑的进化版，比大多数游戏玩家梦想中自己建造的电脑更为紧凑的游戏电脑。某些型号的设备搭载了酷睿 i9-11900KB 处理器，具有 GNA 功能：Gaussian 与神经加速器库。&lt;/p&gt;
-
-&lt;p&gt;Intel® Gaussian 与神经加速器是一种低功耗的神经协处理器，用于边缘的连续推理。欲了解更多信息，请访问：&lt;a href=&quot;https://github.com/intel/gna&quot;&gt;https://github.com/intel/gna&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/08/30/GNA-and-Beast-Canyon-NUC11-compatibility-with-openSUSE/&quot;&gt;GNA and Beast Canyon NUC11 compatibility with openSUSE&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
 </content:encoded>
     </item>
 
