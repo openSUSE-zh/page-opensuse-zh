@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 29 Oct 2021 03:50:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>滚动发布用户本周收到了各种软件包更新，包括 rpm、Plasma、rsyslog、webkit2gtk3、systemd 和 AppStream 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。 最新发布的快照 20211027，更新了 8 个包。Mozilla Thunderbird 91.2.1 增加了 AArch64 的每个线程所需的内存以避免内存不足状态，并且电子邮件客户端还为 Tumbleweed 启用了链接时间优化。php7 7.4.25 更新是一个安全版本，专注于错误修复，例如在编码检测期间影响高内存使用率的错误修复，以及解决 CVE-2021-21703 的另一个修复。实时 web 框架 perl-Mojolicious 的 9.22 版本添加了一个参考方法并修复了响应状态日志消息以使用跟踪日志级别而不是调试级别。mpg123 本周的第二个版本将软件包更新到 1.29.2，该版本对非实时解码器保护进行了单独修复。AppStream 是一个用于标准化软件组件元数据的跨发行版包，更新到 0.14.6 版本； 新版本更新了文档并添加了对源语言环境的支持。 该软件包还增加了对图像和视频屏幕截图处理的支持，以及将 Fedora 添加到持续集成环境的更改状态。 快照 20211025 更新了 rpm 4.17.0。 更新有许多改进，新的翻译、python 生成器和 debuginfo 提取已拆分到一个单独的上游项目。rsyslog 本周在 Tumbleweed 中进行了两次更新，此快照带来了...</description>
+      <content:encoded>&lt;p&gt;滚动发布用户本周收到了各种软件包更新，包括 &lt;a href=&quot;https://rpm.org/&quot;&gt;rpm&lt;/a&gt;、&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt;、&lt;a href=&quot;https://www.rsyslog.com/&quot;&gt;rsyslog&lt;/a&gt;、&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt;、&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 和 &lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。&lt;/p&gt;
+
+&lt;p&gt;最新发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/U7WM4CYNMFB2QPHU5OOBJYYBOEY7JJA6/&quot;&gt;20211027&lt;/a&gt;，更新了 8 个包。&lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 91.2.1 增加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 的每个线程所需的内存以避免&lt;a href=&quot;https://en.wikipedia.org/wiki/Out_of_memory&quot;&gt;内存不足&lt;/a&gt;状态，并且电子邮件客户端还为 Tumbleweed 启用了&lt;a href=&quot;https://gcc.gnu.org/wiki/LinkTimeOptimization&quot;&gt;链接时间优化&lt;/a&gt;。&lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.25 更新是一个安全版本，专注于错误修复，例如在编码检测期间影响高内存使用率的错误修复，以及解决 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE-2021-21703&lt;/a&gt; 的另一个修复。实时 web 框架 &lt;a href=&quot;https://mojolicious.org/&quot;&gt;perl-Mojolicious&lt;/a&gt; 的 9.22 版本添加了一个参考方法并修复了响应状态日志消息以使用跟踪日志级别而不是调试级别。&lt;a href=&quot;https://www.mpg123.de/&quot;&gt;mpg123&lt;/a&gt; 本周的第二个版本将软件包更新到 1.29.2，该版本对非实时解码器保护进行了单独修复。&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 是一个用于标准化软件组件元数据的跨发行版包，更新到 &lt;a href=&quot;https://github.com/ximion/appstream/blob/master/NEWS&quot;&gt;0.14.6&lt;/a&gt; 版本； 新版本更新了文档并添加了对源语言环境的支持。 该软件包还增加了对图像和视频屏幕截图处理的支持，以及将 &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 添加到持续集成环境的更改状态。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FR4PWXGYV44LUQ2YUBH344YFKEH4UNKT/&quot;&gt;20211025&lt;/a&gt; 更新了 &lt;a href=&quot;https://rpm.org/wiki/Releases/4.17.0&quot;&gt;rpm 4.17.0&lt;/a&gt;。 更新有许多改进，新的翻译、python 生成器和 debuginfo 提取已拆分到一个单独的上游项目。&lt;a href=&quot;https://www.rsyslog.com/&quot;&gt;rsyslog&lt;/a&gt; 本周在 Tumbleweed 中进行了两次更新，此快照带来了 8.2110.0 版本，该版本修复了几个影响配置的错误。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.14.14 对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 和 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;Btrfs&lt;/a&gt; 进行了大量修复。&lt;a href=&quot;https://github.com/libyui/libyui&quot;&gt;libyui&lt;/a&gt; 也有几个 4.2.20 库更新，它为包插件实现了 &lt;a href=&quot;https://en.wikipedia.org/wiki/C%2B%2B17&quot;&gt;C++17 标准&lt;/a&gt;。快照中的另一个更新是自由远程桌面包 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;freerdp&lt;/a&gt; 2.4.1 的更新； 本次更新解决了两个 CVE，其中一个是网关连接的客户端输入验证不正确，这将允许覆盖内存。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/S4GPGNEW6H6NKRBE6SEJPZGMZXSR4GQW/&quot;&gt;20211024&lt;/a&gt; 提供了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.23.1/&quot;&gt;Plasma 5.23.1&lt;/a&gt; 更新。 第一个小更新对其 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 应用商店进行了修复，以防止在禁用源时 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 崩溃。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE Plasma&lt;/a&gt; 的 X 窗口管理器和 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 混成器 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 修复了用于 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 处理的下载软件旋转纹理。&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma 桌面&lt;/a&gt;修复了 “清除表情符号历史记录” 操作。&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.28 版本更新修复了一些音频问题，并带来了对网络范围的更多管理控制。该管理程序还修复了从保存状态恢复后第一次调整大小时发生的虚拟机黑屏问题。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.34.1的更新修复了几个影响 &lt;a href=&quot;https://webkit.org/&quot;&gt;WebKit&lt;/a&gt; 渲染引擎的崩溃；其中一个崩溃会在加载 &lt;a href=&quot;https://www.reddit.com/&quot;&gt;reddit&lt;/a&gt; 上的视频时发生。&lt;a href=&quot;https://www.oreilly.com/pub/au/219&quot;&gt;Ian Darwin&lt;/a&gt; 在对 &lt;a href=&quot;https://www.darwinsys.com/file/&quot;&gt;file(1) 命令&lt;/a&gt;工具的开源重新的 5.41 版中实现删除了几个补丁； 该包添加了一个新标志，并要求匹配是一个完整的单词而不是部分单词匹配。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.44 升级至 4.4.51 版本，新增了捷克语、日语和斯洛伐克语的翻译。该存储包还简化了分离标志的处理。 快照中其他要更新的包有 &lt;a href=&quot;https://acpica.org/&quot;&gt;acpica&lt;/a&gt; 20210930、&lt;a href=&quot;https://openjdk.java.net/projects/jdk/11/&quot;&gt;java-11-openjdk&lt;/a&gt; 11.0.13.0、图形可视化包 &lt;a href=&quot;https://graphviz.org/&quot;&gt;graphviz&lt;/a&gt; 2.49.1 和十多个其他包。&lt;/p&gt;
+
+&lt;p&gt;音频包 &lt;a href=&quot;https://jackaudio.org/&quot;&gt;JACK&lt;/a&gt; 1.9.19 版本已在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YUTNSSPGG5IIVURIB2LU7P7HWLKCK7TA/&quot;&gt;20211021&lt;/a&gt; 中发布。新版本添加了等待声卡可用的参数并修复了一批文档。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 服务管理器更新到 249.5 ，删除了有效网络命名方案的列表，本次更新允许了在配置期间定义额外的网络命名方案。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.10 改进了自动计算标题和标签点大小的算法。&lt;a href=&quot;https://salsa.debian.org/iso-codes-team/iso-codes&quot;&gt;iso-codes&lt;/a&gt; 4.7.0 版更新了印尼语翻译； 国际标准化组织包还添加了韩国和朝鲜的通用名称。&lt;a href=&quot;https://www.rsyslog.com/&quot;&gt;rsyslog&lt;/a&gt; 在 8.2108.0 版本中改进了传输层安全失败的错误消息输出； 超高速日志系统还添加了参数 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ignoreolderthan&lt;/code&gt; 选项，并指示文本文件输入模块不要摄取在指定秒数内未修改的文件。音频播放器和解码器库 &lt;a href=&quot;https://www.mpg123.de/&quot;&gt;mpg123&lt;/a&gt; 1.29.1 修复了缓冲器 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libmpg123&lt;/code&gt; 的设备属性标志的报告。快照中更新了多个 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python Package Index&lt;/a&gt; 版本； &lt;a href=&quot;https://pypi.org/project/apipkg/&quot;&gt;python-apipkg&lt;/a&gt; 2.1.0 进行了重大更新：&lt;a href=&quot;https://pypi.org/project/cachetools/&quot;&gt;python-cachetools&lt;/a&gt; 4.2.4 添加了子模块 shims 以实现向后兼容性；&lt;a href=&quot;https://pypi.org/project/greenlet/&quot;&gt;python-greenlet&lt;/a&gt; 修复了版本 1.1.2 中的潜在崩溃和泄漏。 快照中要更新的其他软件包包括 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.28.6、&lt;a href=&quot;https://midnight-commander.org/&quot;&gt;mc&lt;/a&gt; 4.8.27、&lt;a href=&quot;https://github.com/tlwg/fonts-tlwg&quot;&gt;thai-fonts&lt;/a&gt; 0.7.3、&lt;a href=&quot;https://wiki.gnome.org/Apps/Clocks&quot;&gt;gnome-clocks&lt;/a&gt; 41.0 等。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/29/vb-plasma-systemd-update-in-tw/&quot;&gt;VirtualBox, Plasma, systemd Updates in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/28/%E6%96%B0%E7%9A%84-openSUSE-%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD%E8%AE%BA%E5%9D%9B.html</guid>
       <title>新的 openSUSE 西班牙语论坛</title>
       <pubDate>Thu, 28 Oct 2021 11:10:00 -0500</pubDate>
@@ -251,41 +274,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/10/kde-gear-plasma-systemd-update-in-tw/&quot;&gt;KDE Gear, Plasma, systemd Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/06/openSUSE-%E5%9C%A8%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F%E7%9A%84%E6%88%90%E6%9E%9C.html</guid>
-      <title>openSUSE 在谷歌编程之夏的成果</title>
-      <pubDate>Mon, 06 Sep 2021 09:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/06/openSUSE-%E5%9C%A8%E8%B0%B7%E6%AD%8C%E7%BC%96%E7%A8%8B%E4%B9%8B%E5%A4%8F%E7%9A%84%E6%88%90%E6%9E%9C.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目与几个指导机构一起参加了今年的谷歌编程之夏。 七个被接受的项目中有六个成功完成，参与项目的导师们在为期 10 周的项目中帮助学生提高了他们的编程技能和对开源的认识。 让我们回顾一下这些贡献！ 我们要介绍的第一个贡献涉及 Uyuni 项目。这个项目的目的是将虚拟系统页面的 JSP 代码转换为 ReactJS 。改进了导致拉取请求 4152 的，新创建的虚拟系统页面的用户界面；该请求被列为正在进行中并接近完成。 另一个贡献专注于改进 IBus 主题，使其与当前的 GNOME-Shell 主题和 GTK 主题分开。这将允许用户用其他 GNOME-Shell 主题和 GTK 主题对 IBus 进行定制。三个社区成员帮助和指导了学生 Songlin Jiang ，Songlin Jiang 在 他的博客 上详述了整个 GSoC 期间的经历。 另一位在博客上讲述自己经历的学生是来自斯沃斯莫尔学院的 Quinn Okabayashi 。Quinn 在他的博客上列出了几个拉取请求，同时致力于用 Rust 编写的名为 Kanidm 的身份管理平台。Quinn 在我的项目：将 Tokio 追踪技术整合到 Kanidm...</description>
-      <content:encoded>&lt;p&gt;openSUSE 项目与几个指导机构一起参加了今年的谷歌编程之夏。&lt;/p&gt;
-
-&lt;p&gt;七个被接受的项目中有六个成功完成，参与项目的导师们在为期 10 周的项目中帮助学生提高了他们的编程技能和对开源的认识。&lt;/p&gt;
-
-&lt;p&gt;让我们回顾一下这些贡献！&lt;/p&gt;
-
-&lt;p&gt;我们要介绍的第一个贡献涉及 &lt;a href=&quot;https://www.uyuni-project.org/&quot;&gt;Uyuni 项目&lt;/a&gt;。这个项目的目的是将虚拟系统页面的 JSP 代码转换为 &lt;a href=&quot;https://reactjs.org/&quot;&gt;ReactJS&lt;/a&gt; 。改进了导致&lt;a href=&quot;https://github.com/uyuni-project/uyuni/pull/4152&quot;&gt;拉取请求 4152&lt;/a&gt; 的，新创建的虚拟系统页面的用户界面；该请求被列为正在进行中并接近完成。&lt;/p&gt;
-
-&lt;p&gt;另一个贡献专注于改进 &lt;a href=&quot;https://github.com/IBus-Customize/Customize-IBus&quot;&gt;IBus&lt;/a&gt; 主题，使其与当前的 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;GNOME-Shell&lt;/a&gt; 主题和 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 主题分开。这将允许用户用其他 GNOME-Shell 主题和 GTK 主题对 IBus 进行定制。三个社区成员帮助和指导了学生 Songlin Jiang ，Songlin Jiang 在 &lt;a href=&quot;https://hollowmansblog.wordpress.com/2021/08/21/my-google-summer-of-code-2021/&quot;&gt;他的博客&lt;/a&gt; 上详述了整个 GSoC 期间的经历。&lt;/p&gt;
-
-&lt;p&gt;另一位在博客上讲述自己经历的学生是来自&lt;a href=&quot;https://www.swarthmore.edu/&quot;&gt;斯沃斯莫尔学院&lt;/a&gt;的 Quinn Okabayashi 。Quinn 在他的博客上列出了几个拉取请求，同时致力于用 Rust 编写的名为 Kanidm 的身份管理平台。Quinn 在&lt;a href=&quot;https://qnnokabayashi.github.io/Google-Summer-of-Code-'21-Work-Product/&quot;&gt;我的项目：将 Tokio 追踪技术整合到 Kanidm 中&lt;/a&gt;的博文中列出了代码和细节。&lt;/p&gt;
-
-&lt;p&gt;在今年的 GSoC 上有更多的 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 代码贡献，因为 &lt;a href=&quot;https://wiki.termux.com/wiki/PRoot&quot;&gt;PRoot&lt;/a&gt; 希望用 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust 语言&lt;/a&gt;实现 PRoot 的原型版本。该项目正在研究最基本的功能。每天都有&lt;a href=&quot;https://www.notion.so/Daily-Reports-58e5e724aae14eb6814251ab237b9826&quot;&gt;报告&lt;/a&gt;发布，在 &lt;a href=&quot;https://gist.github.com/KB5201314/7f0acf0239f9b1388be55f5cd0bb2b43&quot;&gt;GitHub Gist&lt;/a&gt; 上可以找到全面的概述。&lt;/p&gt;
-
-&lt;p&gt;今年 &lt;a href=&quot;https://github.com/rancher/rancher&quot;&gt;Rancher&lt;/a&gt; 参加了 GSoC，openSUSE 是&lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/?sp-page=5#6417107362775040&quot;&gt;指导机构&lt;/a&gt;。导师和学生专注于通过编写 &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; 自定义资源配置来构建复杂的日志记录管道。 目标是创建一个工具，该工具可以从正在运行的 pod 中捕获日志流，并让用户根据需要重放它，同时将这些日志与 Flow 资源规范相关联并突出显示应用的过滤器。 用户可以轻松了解 Logging Operator 如何与他们的应用程序交互并根据自己的喜好对其进行微调。 八月充满了 &lt;a href=&quot;https://github.com/MrSupiri&quot;&gt;Isala Piyarisi&lt;/a&gt; 的杰出贡献。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kanidm/kanidm&quot;&gt;Kanidm&lt;/a&gt; 在今年的 GSoC 中有另一个项目，8 月的最后一个月是学生 &lt;a href=&quot;https://github.com/victorcwai&quot;&gt;victorcwai&lt;/a&gt; 的几个提交。 victorcwai 为身份管理平台提供了两个可交付成果。 第一个建议使用备份代码来恢复单设备帐户。 经过身份验证的用户可以生成备份代码并在以后使用它。 当他们想登录时，他们可以用备份代码替换 TOTP/WebAuthn 质询。 例如，TOTP + 密码认证将改为备份代码 + 密码。 第二个交付物是在 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 上集成 &lt;a href=&quot;https://github.com/async-rs/async-std&quot;&gt;async-std&lt;/a&gt; 库和 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 网页框架 &lt;a href=&quot;https://crates.io/crates/tide&quot;&gt;tide&lt;/a&gt;，以拥有一个带有 async-std 运行时的 openssl 和tide ssl 侦听器的异步库。 拉取请求列表和项目概述发布在 victorcwai 的&lt;a href=&quot;https://victorcwai.github.io/blog/2021/08/21/gsoc-final&quot;&gt;博客&lt;/a&gt;上。&lt;/p&gt;
-
-&lt;p&gt;自2006年以来，openSUSE 项目已经参加了多次 GSoC 活动，项目的导师们已经帮助 60 多个学生成为自由软件开发者。该项目一直在寻找有兴趣为 GSoc 提供指导的社区成员，如果他们想帮助指导，可以发邮件到 ddemaio@opensuse.org 。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/06/os-results-from-gsoc/&quot;&gt;openSUSE Results from Google Summer of Code&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
 </content:encoded>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="滚动发布用户本周收到了各种软件包更新，包括 rpm、Plasma、rsyslog、webkit2gtk3、systemd 和 AppStream 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。 最新发布的快照 20211027，更新了 8 个包。Mozilla Thunderb...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新">
+  <meta property="og:description"
+    content="滚动发布用户本周收到了各种软件包更新，包括 rpm、Plasma、rsyslog、webkit2gtk3、systemd 和 AppStream 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。 最新发布的快照 20211027，更新了 8 个包。Mozilla Thunderb...">
+  <meta property=" og:url" content="/_posts/2021-10-29-VirtualBox%E3%80%81Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Hanjingxue Boling">
+  <meta property="og:article:published_time" content="2021-10-29T03:50:00-05:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新">
+  
+  <meta name="twitter:description"
+    content="滚动发布用户本周收到了各种软件包更新，包括 rpm、Plasma、rsyslog、webkit2gtk3、systemd 和 AppStream 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。 最新发布的快照 20211027，更新了 8 个包。Mozilla Thunderb...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+  
+  <meta name="twitter:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed/">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021">
+			2021
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021/10">
+			
+			十月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2021/10/29">
+			29
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新</h1>
+		<p class="text-center text-muted">
+			29. Oct 2021
+			|
+			Hanjingxue Boling
+			|
+			CC-BY-SA-3.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/misc/systemd-logo.png"
+			alt="VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>滚动发布用户本周收到了各种软件包更新，包括 <a href="https://rpm.org/">rpm</a>、<a href="https://kde.org/plasma-desktop/">Plasma</a>、<a href="https://www.rsyslog.com/">rsyslog</a>、<a href="https://webkitgtk.org/">webkit2gtk3</a>、<a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 和 <a href="https://www.freedesktop.org/wiki/Distributions/AppStream/">AppStream</a> 等的更新，这些更新贯穿了本周的四个 openSUSE Tumbleweed 快照。</p>
+
+<p>最新发布的快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/U7WM4CYNMFB2QPHU5OOBJYYBOEY7JJA6/">20211027</a>，更新了 8 个包。<a href="https://www.thunderbird.net/">Mozilla Thunderbird</a> 91.2.1 增加了 <a href="https://en.wikipedia.org/wiki/AArch64">AArch64</a> 的每个线程所需的内存以避免<a href="https://en.wikipedia.org/wiki/Out_of_memory">内存不足</a>状态，并且电子邮件客户端还为 Tumbleweed 启用了<a href="https://gcc.gnu.org/wiki/LinkTimeOptimization">链接时间优化</a>。<a href="https://www.php.net/">php7</a> 7.4.25 更新是一个安全版本，专注于错误修复，例如在编码检测期间影响高内存使用率的错误修复，以及解决 <a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE-2021-21703</a> 的另一个修复。实时 web 框架 <a href="https://mojolicious.org/">perl-Mojolicious</a> 的 9.22 版本添加了一个参考方法并修复了响应状态日志消息以使用跟踪日志级别而不是调试级别。<a href="https://www.mpg123.de/">mpg123</a> 本周的第二个版本将软件包更新到 1.29.2，该版本对非实时解码器保护进行了单独修复。<a href="https://www.freedesktop.org/wiki/Distributions/AppStream/">AppStream</a> 是一个用于标准化软件组件元数据的跨发行版包，更新到 <a href="https://github.com/ximion/appstream/blob/master/NEWS">0.14.6</a> 版本； 新版本更新了文档并添加了对源语言环境的支持。 该软件包还增加了对图像和视频屏幕截图处理的支持，以及将 <a href="https://getfedora.org/">Fedora</a> 添加到持续集成环境的更改状态。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FR4PWXGYV44LUQ2YUBH344YFKEH4UNKT/">20211025</a> 更新了 <a href="https://rpm.org/wiki/Releases/4.17.0">rpm 4.17.0</a>。 更新有许多改进，新的翻译、python 生成器和 debuginfo 提取已拆分到一个单独的上游项目。<a href="https://www.rsyslog.com/">rsyslog</a> 本周在 Tumbleweed 中进行了两次更新，此快照带来了 8.2110.0 版本，该版本修复了几个影响配置的错误。<a href="https://www.kernel.org/">Linux 内核</a> 5.14.14 对 <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> 和 <a href="https://btrfs.wiki.kernel.org/index.php/Main_Page">Btrfs</a> 进行了大量修复。<a href="https://github.com/libyui/libyui">libyui</a> 也有几个 4.2.20 库更新，它为包插件实现了 <a href="https://en.wikipedia.org/wiki/C%2B%2B17">C++17 标准</a>。快照中的另一个更新是自由远程桌面包 <a href="https://www.freerdp.com/">freerdp</a> 2.4.1 的更新； 本次更新解决了两个 CVE，其中一个是网关连接的客户端输入验证不正确，这将允许覆盖内存。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/S4GPGNEW6H6NKRBE6SEJPZGMZXSR4GQW/">20211024</a> 提供了 <a href="https://kde.org/announcements/plasma/5/5.23.1/">Plasma 5.23.1</a> 更新。 第一个小更新对其 <a href="https://apps.kde.org/discover/">Discover</a> 应用商店进行了修复，以防止在禁用源时 <a href="https://flatpak.org/">Flatpak</a> 崩溃。<a href="https://kde.org/">KDE Plasma</a> 的 X 窗口管理器和 <a href="https://wayland.freedesktop.org/">Wayland</a> 混成器 <a href="https://invent.kde.org/plasma/kwin">KWin</a> 修复了用于 <a href="https://pipewire.org/">PipeWire</a> 处理的下载软件旋转纹理。<a href="https://kde.org/plasma-desktop/">Plasma 桌面</a>修复了 “清除表情符号历史记录” 操作。<a href="https://www.virtualbox.org/">virtualbox</a> 6.1.28 版本更新修复了一些音频问题，并带来了对网络范围的更多管理控制。该管理程序还修复了从保存状态恢复后第一次调整大小时发生的虚拟机黑屏问题。<a href="https://webkitgtk.org/">webkit2gtk3</a> 2.34.1的更新修复了几个影响 <a href="https://webkit.org/">WebKit</a> 渲染引擎的崩溃；其中一个崩溃会在加载 <a href="https://www.reddit.com/">reddit</a> 上的视频时发生。<a href="https://www.oreilly.com/pub/au/219">Ian Darwin</a> 在对 <a href="https://www.darwinsys.com/file/">file(1) 命令</a>工具的开源重新的 5.41 版中实现删除了几个补丁； 该包添加了一个新标志，并要求匹配是一个完整的单词而不是部分单词匹配。<a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.4.44 升级至 4.4.51 版本，新增了捷克语、日语和斯洛伐克语的翻译。该存储包还简化了分离标志的处理。 快照中其他要更新的包有 <a href="https://acpica.org/">acpica</a> 20210930、<a href="https://openjdk.java.net/projects/jdk/11/">java-11-openjdk</a> 11.0.13.0、图形可视化包 <a href="https://graphviz.org/">graphviz</a> 2.49.1 和十多个其他包。</p>
+
+<p>音频包 <a href="https://jackaudio.org/">JACK</a> 1.9.19 版本已在快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YUTNSSPGG5IIVURIB2LU7P7HWLKCK7TA/">20211021</a> 中发布。新版本添加了等待声卡可用的参数并修复了一批文档。<a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 服务管理器更新到 249.5 ，删除了有效网络命名方案的列表，本次更新允许了在配置期间定义额外的网络命名方案。<a href="https://imagemagick.org/index.php">ImageMagick</a> 7.1.0.10 改进了自动计算标题和标签点大小的算法。<a href="https://salsa.debian.org/iso-codes-team/iso-codes">iso-codes</a> 4.7.0 版更新了印尼语翻译； 国际标准化组织包还添加了韩国和朝鲜的通用名称。<a href="https://www.rsyslog.com/">rsyslog</a> 在 8.2108.0 版本中改进了传输层安全失败的错误消息输出； 超高速日志系统还添加了参数 <code class="language-plaintext highlighter-rouge">ignoreolderthan</code> 选项，并指示文本文件输入模块不要摄取在指定秒数内未修改的文件。音频播放器和解码器库 <a href="https://www.mpg123.de/">mpg123</a> 1.29.1 修复了缓冲器 <code class="language-plaintext highlighter-rouge">libmpg123</code> 的设备属性标志的报告。快照中更新了多个 <a href="https://pypi.org/">Python Package Index</a> 版本； <a href="https://pypi.org/project/apipkg/">python-apipkg</a> 2.1.0 进行了重大更新：<a href="https://pypi.org/project/cachetools/">python-cachetools</a> 4.2.4 添加了子模块 shims 以实现向后兼容性；<a href="https://pypi.org/project/greenlet/">python-greenlet</a> 修复了版本 1.1.2 中的潜在崩溃和泄漏。 快照中要更新的其他软件包包括 <a href="https://github.com/openSUSE/libzypp">libzypp</a> 17.28.6、<a href="https://midnight-commander.org/">mc</a> 4.8.27、<a href="https://github.com/tlwg/fonts-tlwg">thai-fonts</a> 0.7.3、<a href="https://wiki.gnome.org/Apps/Clocks">gnome-clocks</a> 41.0 等。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2021/10/29/vb-plasma-systemd-update-in-tw/">VirtualBox, Plasma, systemd Updates in Tumbleweed</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html&amp;title=VirtualBox%E3%80%81Plasma%20%E5%92%8C%20systemd%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=VirtualBox%E3%80%81Plasma%20%E5%92%8C%20systemd%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011–2021 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
