@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/02/Leap-%E5%8F%91%E5%B8%83%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%AD%A3%E5%BA%A6%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Leap 发布第一个季度更新</title>
+      <pubDate>Tue, 02 Nov 2021 07:00:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/02/Leap-%E5%8F%91%E5%B8%83%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%AD%A3%E5%BA%A6%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 的发布管理者宣布 openSUSE Leap 15.3 的 ISO 镜像的第一个季度更新的发布。 这些更新被称为重制版（respin），更新了基于通用 (General Availability, GA) 版本的 iso 镜像，并包含上一季度的所有更新。 “随着时间的推移，openSUSE 发布团队收到了很多要求定期更新安装媒体的请求，”发布管理者 Lubos Kocman 在给该项目的电子邮件中写道。 “其中一些 15.X 请求可以追溯到 15.2 开发周期。” 重置版镜像允许用户立即使用最新的错误修复和更新，这有助于减少安装后下载和在线更新的带宽使用。 由于 Leap 和 SUSE Linux Enterprise（也进行了季度重制）连接在一起，因此 Leap 15.3 的重制版可用。 有关季度版本发布的更多信息可以在 Leap 路线图或 Kocman 撰写的电子邮件中找到。 用户可以在 get.opensuse.org 下载更新的 iso。 原文：Leap’s First Quarterly Update is...</description>
+      <content:encoded>&lt;p&gt;openSUSE Leap 的发布管理者宣布&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/GFTDCDUUZ4L34WNNRUI5A2VKJSZYPONN/&quot;&gt; openSUSE Leap 15.3 的 ISO 镜像的第一个季度更新的发布&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这些更新被称为重制版（&lt;a href=&quot;https://news.opensuse.org/2021/10/14/respin-of-os-leap-images-are-coming/&quot;&gt;respin&lt;/a&gt;），更新了基于通用 (General Availability, GA) 版本的 iso 镜像，并包含上一季度的所有更新。&lt;/p&gt;
+
+&lt;p&gt;“随着时间的推移，openSUSE 发布团队收到了很多要求定期更新安装媒体的请求，”发布管理者 Lubos Kocman 在给该项目的电子邮件中写道。 “其中一些 15.X 请求可以追溯到 15.2 开发周期。”&lt;/p&gt;
+
+&lt;p&gt;重置版镜像允许用户立即使用最新的错误修复和更新，这有助于减少安装后下载和在线更新的带宽使用。&lt;/p&gt;
+
+&lt;p&gt;由于 &lt;a href=&quot;http://get.opensuse.org/&quot;&gt;Leap&lt;/a&gt; 和 SUSE Linux Enterprise（也进行了季度重制）连接在一起，因此 Leap 15.3 的重制版可用。 有关季度版本发布的更多信息可以在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#Schedule_of_Quarterly_Updates_for_15.3&quot;&gt;Leap 路线图&lt;/a&gt;或 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/GFTDCDUUZ4L34WNNRUI5A2VKJSZYPONN/&quot;&gt;Kocman 撰写的电子邮件&lt;/a&gt;中找到。&lt;/p&gt;
+
+&lt;p&gt;用户可以在 &lt;a href=&quot;http://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载更新的 iso。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/02/leaps-first-quarterly-update-is-released/&quot;&gt;Leap’s First Quarterly Update is Released&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/29/VirtualBox-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>VirtualBox、Plasma 和 systemd 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 29 Oct 2021 03:50:00 -0500</pubDate>
@@ -245,35 +270,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/17/thunar-firefox-python-update-in-tw/&quot;&gt;Thunar, Firefox, Python Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-&lt;!--在上面写上原文来源与作者--&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/10/KDE_Gear-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>KDE Gear、Plasma 和 systemd 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 10 Sep 2021 10:15:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/09/10/KDE_Gear-Plasma_%E5%92%8C_systemd_%E5%9C%A8_Tumbleweed_%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周的五个 openSUSE Tumbleweed 快照中，有一个为使用滚动发行的用户带来了大量的软件包更新的快照。 快照 20210904 带来了 systemd、GTK4、Mesa、KDE 的 Plasma 和 Gear 以及许多其他软件包的更新。 最近发布的是快照 20210908；它更新了 fuse3 3.10.5，并对用户空间包中的文件系统的单元测试进行了各种改进，使其更加强大。mpg123 1.29.0 的更新增加了一个 --enable-runtime-tables 。yast2 4.4.17 的更新为本周早些时候发布的 systemd 软件包提供了一些维护。其他一些软件包如 glslang 11.6.0、libstorage-ng 4.4.36 和 pinentry 1.2.0 也在快照中被更新。 快照 20210907 更新了七个软件包。软件包管理器 zypper 1.14.49 做了一个避免调用 su 的修改，因为它对 sudo 用户 umask 的限制可能过于严格。软件包管理库 libzypp 也更新到了 17.28.3 版本，它有一个避免破坏单个 rpm 处理的政策修改。AV1...</description>
-      <content:encoded>&lt;p&gt;本周的五个 openSUSE Tumbleweed 快照中，有一个为使用滚动发行的用户带来了大量的软件包更新的快照。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4GVG5YDVNASCWUR4CMZ2O4OTIPGZRYE/&quot;&gt;20210904&lt;/a&gt; 带来了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/gear/21.08.1/&quot;&gt;Gear&lt;/a&gt; 以及许多其他软件包的更新。&lt;/p&gt;
-
-&lt;p&gt;最近发布的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Z7PYWGBGGWYGXBCZR3BIB553GLWGTYRB/&quot;&gt;20210908&lt;/a&gt;；它更新了 &lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fuse3&lt;/a&gt; 3.10.5，并对用户空间包中的文件系统的单元测试进行了各种改进，使其更加强大。&lt;a href=&quot;https://www.mpg123.de/download.shtml&quot;&gt;mpg123&lt;/a&gt; 1.29.0 的更新增加了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--enable-runtime-tables&lt;/code&gt; 。&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.4.17 的更新为本周早些时候发布的 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 软件包提供了一些维护。其他一些软件包如 &lt;a href=&quot;https://github.com/KhronosGroup/glslang&quot;&gt;glslang&lt;/a&gt; 11.6.0、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.36 和 &lt;a href=&quot;https://github.com/gpg/pinentry&quot;&gt;pinentry&lt;/a&gt; 1.2.0 也在快照中被更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FA6FUFD6MQRNP5QUYK5VV3WK4RNX56BK/&quot;&gt;20210907&lt;/a&gt; 更新了七个软件包。软件包管理器 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt; 1.14.49 做了一个避免调用 su 的修改，因为它对 sudo 用户 umask 的限制可能过于严格。软件包管理库 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 也更新到了 17.28.3 版本，它有一个避免破坏单个 &lt;a href=&quot;http://rpm.org/&quot;&gt;rpm&lt;/a&gt; 处理的政策修改。AV1 解码器包 &lt;a href=&quot;https://code.videolan.org/videolan/dav1d&quot;&gt;dav1d&lt;/a&gt; 0.9.2 有一些针对 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt; 的&lt;a href=&quot;https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions&quot;&gt;SSE&lt;/a&gt; 3 和 SSE4 优化。其他在快照中更新的软件包有  &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/basicnet/geoclue2.html&quot;&gt;geoclue2&lt;/a&gt; 2.5.7、&lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/postlfs/nss.html&quot;&gt;mozilla-nss 3.69.1&lt;/a&gt;、&lt;a href=&quot;https://download.libguestfs.org/supermin/&quot;&gt;supermin&lt;/a&gt; 5.2.1 和 &lt;a href=&quot;https://www.freedesktop.org/software/plymouth/releases/&quot;&gt;plymouth&lt;/a&gt; 的更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MT56C7WEWS5RWDV3CTBM3UMB24JMSVNX/&quot;&gt;20210906&lt;/a&gt; 有两个软件包更新。iproute2 在 5.14 更新版本中增加了 Docker 本地网络驱动 MacVLAN 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-nodst&lt;/code&gt; 选项。该软件包还增加了对无线广域网设备的支持。20210901.1550 &lt;a href=&quot;https://software.opensuse.org/package/permissions&quot;&gt;权限&lt;/a&gt;更新中有大约四个月的更新，它清理了一些路径并更新了 &lt;a href=&quot;https://manned.org/kdesud/b14ce481&quot;&gt;ksdesud&lt;/a&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ksgrd_network_helper&lt;/code&gt; 路径。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4GVG5YDVNASCWUR4CMZ2O4OTIPGZRYE/&quot;&gt;20210904&lt;/a&gt; 中的 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.4.0 更新添加了对 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 标题栏手势协议的支持，并进行了更改以使用 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 获取颜色字体信息。本次快照还发布了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.4 的更新；新的 systemd 版本经过了广泛的测试，并已添加更新所需的依赖项。&lt;a href=&quot;https://lists.freedesktop.org/archives/mesa-dev/2021-August/225464.html&quot;&gt;Mesa 21.2.1&lt;/a&gt; 是 mesa 21.2 系列的第一个错误修复版本，主要是&lt;a href=&quot;https://gitlab.freedesktop.org/mesa/mesa/-/merge_requests/11485&quot;&gt;对 fossilize_db 的修复&lt;/a&gt;。本次快照还更新了 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 91.0.2 和 &lt;a href=&quot;https://www.thunderbird.net/&quot;&gt;Mozilla Thunderbird&lt;/a&gt; 91.0.3。浏览器在清除跟踪器时不再清除认证数据；这样做是为了避免重复提示输入密码。电子邮件客户端修复了一些用户体验设置问题，并推送了一个针对有时会发送不必要的 “SMTPUTF8” 的修复程序，这 BUG 会导致一些服务器拒绝电子邮件。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.22.5/&quot;&gt;KDE Plasma 5.22.5&lt;/a&gt; 修复了 &lt;a href=&quot;https://commits.kde.org/ksystemstats&quot;&gt;ksystemstats&lt;/a&gt; 对 IPV6 地址的处理，并且对 &lt;a href=&quot;https://commits.kde.org/plasma-desktop&quot;&gt;Plasma 桌面&lt;/a&gt;进行了多项修复，包括对&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=441097&quot;&gt; emoji 表情符号选择器&lt;/a&gt;的修复和对一些涉及&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=439094&quot;&gt;悬停在工具提示&lt;/a&gt;上的不一致行为的修复。&lt;a href=&quot;https://kde.org/announcements/gear/21.08.1/&quot;&gt;KDE Gear 21.08.1&lt;/a&gt; 修复了 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 中与 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 有关的亮度效应损坏。Gear 还修复了 &lt;a href=&quot;https://konsole.kde.org/&quot;&gt;Konsole&lt;/a&gt; 中涉及&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=440976&quot;&gt;关闭分割视图&lt;/a&gt;的问题。以太网 station-activity-monitor 软件包 &lt;a href=&quot;https://linux.die.net/man/8/arpwatch&quot;&gt;arpwatch&lt;/a&gt; 有一个重要的版本更新到 3.1 ，它提供了一个值得注意的上游变化，即为 &lt;a href=&quot;https://linux.die.net/man/8/massagevendor&quot;&gt;massagevendor&lt;/a&gt; 增加了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python 2&lt;/a&gt; 的兼容性。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到 5.14.0 版本，更新并启用了 ARMv6 和 ARMv7 的配置。其他在快照中更新的软件包有 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.11.3、&lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.351、&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 7.7.0、&lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.23、&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 6.1.0 以及其他几个。&lt;/p&gt;
-
-&lt;p&gt;本周开始的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GSIGHDFGQQLVRX4PUBVKXFXM2DNBX65B/&quot;&gt;20210902&lt;/a&gt;。Linux 蓝牙协议 &lt;a href=&quot;http://www.bluez.org/&quot;&gt;bluez&lt;/a&gt; 5.61 提供了几个高级音频分布配置文件的修复，并修复了一个存储可发现设置的问题。磁盘加密包 &lt;a href=&quot;https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home&quot;&gt;cryptsetup&lt;/a&gt; 更新到 2.4.0 版本，并提供了对 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL3&lt;/a&gt; 的后端支持。打印包 hplip 3.21.6 中增加了对新发行版的支持， transactional-update 3.5.2 修复了与 &lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux&lt;/a&gt; 的覆盖同步错误。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/09/10/kde-gear-plasma-systemd-update-in-tw/&quot;&gt;KDE Gear, Plasma, systemd Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
 &lt;!--在上面写上原文来源与作者--&gt;
 </content:encoded>
