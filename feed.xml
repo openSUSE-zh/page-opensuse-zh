@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/01/openSUSE_Leap_15.4_%E7%9A%84_Alpha_%E7%89%88%E6%9C%AC%E7%8E%B0%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95.html</guid>
+      <title>openSUSE Leap 15.4 的 Alpha 版本现可供测试</title>
+      <pubDate>Wed, 01 Dec 2021 10:10:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/01/openSUSE_Leap_15.4_%E7%9A%84_Alpha_%E7%89%88%E6%9C%AC%E7%8E%B0%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 15.4 的 Alpha 版本现在可以在 get.opensuse.org 上下载。Leap 15 的第四个小版本已经进入了 alpha 开发阶段。 在 Alpha 阶段，常规 Alpha 镜像将在滚动更新的基础上构建，直到 2 月中旬，届时小数点版本计划过渡到 Beta 构建阶段。根据路线图，测试版提交截止日期为 2 月 16 日。直到一般可用版本（General Availability）发布之前，Beta 阶段有一个类似的开发模型。Beta 阶段完成后滚动构建停止，Leap 在公开发行后过渡到维护和安全更新阶段。 我们鼓励喜欢变更发行版的跳跃者、爱好者、用户和技术爱好者下载当前版本并帮助测试版本以确保错误在 alpha 和 beta 阶段得到解决。有兴趣测试它以确保一切正常的人可以单击“了解更多”按钮查找下载。 根据发布的路线图，Leap 15.4 的公开可用性计划于 2022 年 6 月发布。Leap 15.3 的用户需要在 Leap 15.4 公开发布后的六个月内更新到最新版本。 openSUSE Leap 15.2 的用户应该在本月结束上线之前进行更新；如果用户还没有更新到...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;openSUSE Leap 15.4&lt;/a&gt; 的 Alpha 版本现在可以在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 上下载。Leap 15 的第四个小版本已经进入了 alpha 开发阶段。&lt;/p&gt;
+
+&lt;p&gt;在 Alpha 阶段，常规 Alpha 镜像将在滚动更新的基础上构建，直到 2 月中旬，届时小数点版本计划过渡到 Beta 构建阶段。根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，测试版提交截止日期为 2 月 16 日。直到一般可用版本（General Availability）发布之前，Beta 阶段有一个类似的开发模型。Beta 阶段完成后滚动构建停止，Leap 在公开发行后过渡到维护和安全更新阶段。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励喜欢变更发行版的跳跃者、爱好者、用户和技术爱好者下载当前版本并帮助测试版本以确保错误在 alpha 和 beta 阶段得到解决。有兴趣测试它以确保一切正常的人可以单击“&lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;了解更多&lt;/a&gt;”按钮查找下载。&lt;/p&gt;
+
+&lt;p&gt;根据发布的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，Leap 15.4 的公开可用性计划于 2022 年 6 月发布。Leap 15.3 的用户需要在 Leap 15.4 公开发布后的六个月内更新到最新版本。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 15.2 的用户应该在本月结束上线之前进行更新；如果用户还没有更新到 Leap 15.3，他们应该更新到 Leap 15.3，以确保他们继续收到维护和安全更新。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/02/alpha-release-leap-test/&quot;&gt;Alpha Releases of openSUSE Leap 15.4 are Available for Testing&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/26/Git-curl-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Git、curl 和 systemd 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 26 Nov 2021 07:55:00 -0600</pubDate>
@@ -272,45 +295,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/29/vb-plasma-systemd-update-in-tw/&quot;&gt;VirtualBox, Plasma, systemd Updates in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/28/%E6%96%B0%E7%9A%84-openSUSE-%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD%E8%AE%BA%E5%9D%9B.html</guid>
-      <title>新的 openSUSE 西班牙语论坛</title>
-      <pubDate>Thu, 28 Oct 2021 11:10:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/10/28/%E6%96%B0%E7%9A%84-openSUSE-%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD%E8%AE%BA%E5%9D%9B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>你好，极客们， 目前已停用的 openSUSE 西班牙语论坛 ForoSuSE 的前版主 DiabloRojo、Karlgest 和 Victorhck 很高兴地用拉丁语向你们宣布： 我们现在有一个论坛了！ 多年来，Forosuse 一直是 openSUSE 用户的西班牙语社区的聚会场所。 管理员 Riven 负责维护这个地方，在那里我们可以学习、分享并成为我们这些热爱 openSUSE 的人的聚会点。 我们相信他们的工作应该受到赞赏，因为他们为维护 forumsuse.org 付出了无私的时间和资源。 但是事情发生了变化，生活中出现了新的兴趣，新的项目占用了我们的时间，这是正常的。 由于技术原因，我们心爱的 forumuse 在最近几个月遭受了挫折，由于论坛自身软件的更新和主机的其他问题，使得论坛一直处于离线状态。在经历了许多个月未解决的问题后，我们这些前论坛版主做出了一个决定。 我们决定在 openSUSE 项目的官方基础设施中创建新的论坛，而不是创建一个新的域名，这样我们就可以集中精力为 Geeko 用户提供帮助，而把论坛的维护工作从我们手中剥离将是比我们更聪明的人的工作。 在此也值得强调和感谢论坛管理员发挥的作用，他们总是热心帮助我们，给我们提供工具，并通过启动论坛和可用的西班牙语界面，开展了与系统管理有关的工作。 我们对新的论坛感到兴奋，我们期待着你的帮助，为我们心爱的 geeko 在我们的语言中建立一个社区。你可以在此处找到我们： https://forums.opensuse.org/forumdisplay.php/957-Espa%C3%B1ol-(Spanish) 在自己的西班牙语论坛内。请不要犹豫，创建一个新的帐户。这个新的地方希望能让西班牙语的 openSUSE 社区重新团结起来，继续提供相互支持，并再次围绕 openSUSE 进行分享。 我们希望在你的帮助下，网站能够逐步发展和完善。欢迎在新的论坛上写作，告诉你在 Geeko 上发生了什么，最重要的是： 祝你玩得愉快！ 原文：Nuevo foro en espanol...</description>
-      <content:encoded>&lt;p&gt;你好，极客们，&lt;/p&gt;
-
-&lt;p&gt;目前已停用的 openSUSE 西班牙语论坛 ForoSuSE 的前版主 DiabloRojo、Karlgest 和 Victorhck 很高兴地用拉丁语向你们宣布：&lt;/p&gt;
-
-&lt;p&gt;我们现在有一个论坛了！&lt;/p&gt;
-
-&lt;p&gt;多年来，Forosuse 一直是 openSUSE 用户的西班牙语社区的聚会场所。 管理员 Riven 负责维护这个地方，在那里我们可以学习、分享并成为我们这些热爱 openSUSE 的人的聚会点。&lt;/p&gt;
-
-&lt;p&gt;我们相信他们的工作应该受到赞赏，因为他们为维护 forumsuse.org 付出了无私的时间和资源。 但是事情发生了变化，生活中出现了新的兴趣，新的项目占用了我们的时间，这是正常的。&lt;/p&gt;
-
-&lt;p&gt;由于技术原因，我们心爱的 forumuse 在最近几个月遭受了挫折，由于论坛自身软件的更新和主机的其他问题，使得论坛一直处于离线状态。在经历了许多个月未解决的问题后，我们这些前论坛版主做出了一个决定。&lt;/p&gt;
-
-&lt;p&gt;我们决定在 openSUSE 项目的官方基础设施中创建新的论坛，而不是创建一个新的域名，这样我们就可以集中精力为 Geeko 用户提供帮助，而把论坛的维护工作从我们手中剥离将是比我们更聪明的人的工作。&lt;/p&gt;
-
-&lt;p&gt;在此也值得强调和感谢论坛管理员发挥的作用，他们总是热心帮助我们，给我们提供工具，并通过启动论坛和可用的西班牙语界面，开展了与系统管理有关的工作。&lt;/p&gt;
-
-&lt;p&gt;我们对新的论坛感到兴奋，我们期待着你的帮助，为我们心爱的 geeko 在我们的语言中建立一个社区。你可以在此处找到我们：&lt;/p&gt;
-
-&lt;p&gt;https://forums.opensuse.org/forumdisplay.php/957-Espa%C3%B1ol-(Spanish)&lt;/p&gt;
-
-&lt;p&gt;在自己的西班牙语论坛内。请不要犹豫，创建一个新的帐户。这个新的地方希望能让西班牙语的 openSUSE 社区重新团结起来，继续提供相互支持，并再次围绕 openSUSE 进行分享。&lt;/p&gt;
-
-&lt;p&gt;我们希望在你的帮助下，网站能够逐步发展和完善。欢迎在新的论坛上写作，告诉你在 Geeko 上发生了什么，最重要的是：&lt;/p&gt;
-
-&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/10/28/nuevo-foro-en-espanol-de-opensuse/&quot;&gt;Nuevo foro en espanol de openSUSE&lt;/a&gt;，作者：Victorhck&lt;/p&gt;
 </content:encoded>
     </item>
 
