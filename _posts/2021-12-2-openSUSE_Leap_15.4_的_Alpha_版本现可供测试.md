@@ -7,7 +7,7 @@ title: openSUSE Leap 15.4 的 Alpha 版本现可供测试
 image: /assets/posts/misc/leapa.png
 categories:
 - 更新通告
-  tags:
+tags:
 - Leap
 - 翻译作品
 - 官方新闻
