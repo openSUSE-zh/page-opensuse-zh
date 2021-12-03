@@ -1,6 +1,6 @@
 ---
 author: Hanjingxue Boling 
-date: 2021-12-2 00:10:00 +0800
+date: 2021-12-02 00:10:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: openSUSE Leap 15.4 的 Alpha 版本现可供测试
