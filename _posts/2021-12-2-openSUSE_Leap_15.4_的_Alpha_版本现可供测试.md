@@ -1,5 +1,4 @@
------
-
+---
 author: Hanjingxue Boling 
 date: 2021-12-2 00:10:00 +0800
 layout: post
@@ -7,14 +6,12 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap 15.4 的 Alpha 版本现可供测试
 image: /assets/posts/misc/leapa.png
 categories:
-
 - 更新通告
   tags:
 - Leap
 - 翻译作品
 - 官方新闻
-
-------
+---
 
 [openSUSE Leap 15.4](https://get.opensuse.org/testing) 的 Alpha 版本现在可以在 [get.opensuse.org](https://get.opensuse.org/) 上下载。Leap 15 的第四个小版本已经进入了 alpha 开发阶段。
 
