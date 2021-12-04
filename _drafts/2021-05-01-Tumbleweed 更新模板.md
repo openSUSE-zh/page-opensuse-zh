@@ -1,6 +1,6 @@
 ---
 author:  # 此处写入你的名字
-date: 2021-05-01 03:40:00 +0800 # 时间必须以 XXXX-XX-XX 的格式表示
+date: 2021-05-01 03:40:00 +0800 # 日期必须以 XXXX-XX-XX 的格式表示
 layout: post
 license: CC-BY-SA-3.0
 title: # 此处写入本次新闻的标题
