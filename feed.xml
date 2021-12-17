@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/17/KDE-Frameworks-Gear-%E5%92%8C-Pipewire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>KDE Frameworks、Gear 和 Pipewire 在 Tumbleweed 中更新</title>
+      <pubDate>Fri, 17 Dec 2021 06:00:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/17/KDE-Frameworks-Gear-%E5%92%8C-Pipewire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周快照并没有放慢速度，因为新软件继续随着每日发布的 openSUSE Tumbleweed 而流动。风滚草本周共有七个快照！ 快照 20211214 中只有两个更新。远程访问包 remmina 1.4.22 提供了对 freerdp3 兼容性的修复，并且 remmina 还修复了主窗口关闭时崩溃的问题。libcap-ng 0.7.11 软件包会分析具有过多权限的应用程序的系统，删除了不需要的规则。 在快照 20211213 更新的众多软件包中，有 KDE Gear 21.12.0 和 Frameworks 5.89.0。Gear 21.12.0 有一些 Dolphin 文件管理器增强功能，例如 Ctrl + i 过滤器功能，可在主面板下显示一个框，通过右键单击空白区域添加新的详细视图功能；从弹出菜单中选择 查看模式 &amp;gt; 详细信息。截图应用程序 Spectacle 为 KDE 用户提供了更清晰的图像外观，他们可以将图像从 Spectacle 的预览面板拖放到 Dolphin 或在线图像存储站点以进行共享。Gear 的视频编辑器 Kdenlive 改进了运动跟踪工具；你只需使用监视器中的框覆盖要跟踪的区域，单击效果面板中的分析，即可愉快地使用新功能！该视频编辑器还有一个新的音频效果，可以去除录音中的背景噪音；噪声抑制器允许将音频效果选项卡中的语音抓取放到音轨上进行清理。Frameworks 5.89.0 对微风图标进行了大量错误修复，其中包括添加了缺失的 kmail...</description>
+      <content:encoded>&lt;p&gt;本周快照并没有放慢速度，因为新软件继续随着每日发布的 openSUSE Tumbleweed 而流动。风滚草本周共有七个快照！&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211214.txt&quot;&gt;20211214&lt;/a&gt; 中只有两个更新。远程访问包 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina&lt;/a&gt; 1.4.22 提供了对 &lt;a href=&quot;https://github.com/FreeRDP/FreeRDP&quot;&gt;freerdp3&lt;/a&gt; 兼容性的修复，并且 remmina 还修复了主窗口关闭时崩溃的问题。&lt;a href=&quot;https://github.com/stevegrubb/libcap-ng&quot;&gt;libcap-ng&lt;/a&gt; 0.7.11 软件包会分析具有过多权限的应用程序的系统，删除了不需要的规则。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211213.txt&quot;&gt;20211213&lt;/a&gt; 更新的众多软件包中，有 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; &lt;a href=&quot;https://kde.org/announcements/gear/21.12.0/&quot;&gt;Gear 21.12.0&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.89.0/&quot;&gt;Frameworks 5.89.0&lt;/a&gt;。Gear 21.12.0 有一些 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 文件管理器增强功能，例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + i&lt;/code&gt; 过滤器功能，可在主面板下显示一个框，通过右键单击空白区域添加新的详细视图功能；从弹出菜单中选择 查看模式 &amp;gt; 详细信息。截图应用程序 &lt;a href=&quot;https://apps.kde.org/spectacle/&quot;&gt;Spectacle&lt;/a&gt; 为 KDE 用户提供了更清晰的图像外观，他们可以将图像从 Spectacle 的预览面板拖放到 Dolphin 或在线图像存储站点以进行共享。Gear 的视频编辑器 &lt;a href=&quot;https://kdenlive.org/&quot;&gt;Kdenlive&lt;/a&gt; 改进了运动跟踪工具；你只需使用监视器中的框覆盖要跟踪的区域，单击效果面板中的分析，即可愉快地使用新功能！该视频编辑器还有一个新的音频效果，可以去除录音中的背景噪音；噪声抑制器允许将音频效果选项卡中的语音抓取放到音轨上进行清理。Frameworks 5.89.0 对&lt;a href=&quot;https://develop.kde.org/frameworks/breeze-icons/&quot;&gt;微风图标&lt;/a&gt;进行了大量错误修复，其中包括添加了&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=392534&quot;&gt;缺失的 kmail 微风图标&lt;/a&gt;。&lt;a href=&quot;https://api.kde.org/frameworks/kcontacts/html/index.html&quot;&gt;KContacts&lt;/a&gt; 修复了仅限国家/地区地址的地址格式，并弃用了 &lt;a href=&quot;https://rdrr.io/github/Dmirandae/geocleaMT-1/man/ISOTocountry.html&quot;&gt;countryToISO/ISOToCountry&lt;/a&gt; 以支持 &lt;a href=&quot;https://api.kde.org/frameworks/ki18n/html/classKCountry.html&quot;&gt;KCountry&lt;/a&gt;。&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/products/kirigami/&quot;&gt;Kirigami&lt;/a&gt; 都有一些变化； 后一个包让退出键关闭并推动对话层。应用库 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;exo&lt;/a&gt; 更新至 4.16.3 版本，修复编译警告；针对 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 应用程序开发的 exo 还添加了类型检查验证以防止 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 错误警告.&lt;a href=&quot;https://www.mpg123.de/&quot;&gt;mpg123&lt;/a&gt; 1.29.3 包修正了拼写错误，并在手册页中添加了关于均衡器频段的注释。&lt;a href=&quot;https://invisible-island.net/xterm/&quot;&gt;xterm&lt;/a&gt; 370 版本提高了慢速连接的性能，并在启用 &lt;a href=&quot;https://invisible-island.net/xterm/manpage/xterm.html#VT100-Widget-Resources:colorITMode&quot;&gt;colorITmode&lt;/a&gt; 时抑制了一些地方的斜体字体的加载。其他要更新的软件包是 &lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 4.4.10 和 &lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.4.23，它们增加了对与 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 一起使用的挂载选项的支持，以确定 &lt;a href=&quot;https://github.com/rhboot/efibootmgr&quot;&gt;efibootmgr&lt;/a&gt; 是否可用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;高级 Linux 声音体系&lt;/a&gt;的本周第二次更新在快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211212.txt&quot;&gt;20211212&lt;/a&gt; 中发布。&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;alsa&lt;/a&gt; 1.2.6.1 版本修复了设备解析的配置；并在 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 5.15.7 更新中进行了几项 alsa 更改。Linux Kernel 还有几个 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 修复程序，包括一个没有&lt;a href=&quot;https://www.kernel.org/doc/html/latest/core-api/protection-keys.html&quot;&gt;用户空间保护密钥&lt;/a&gt;的影子嵌套分页。由于现在有一个依赖关系，&lt;a href=&quot;https://gitlab.freedesktop.org/pipewire/wireplumber&quot;&gt;wireplumber&lt;/a&gt; 成为快照中 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.40 的会话管理器；根据更新日志，”当有疑问时，会选择建议的软件包”。&lt;a href=&quot;https://pypi.org/project/cryptography/&quot;&gt;python-cryptography&lt;/a&gt; 包从 3.4.8 版本更新到 36.0.0，在 9 月份经历了版本号更改。新的 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python Package Index&lt;/a&gt; 包含用 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 编写的整个 &lt;a href=&quot;https://en.wikipedia.org/wiki/X.509&quot;&gt;X.509&lt;/a&gt; 层；这允许替代的非对称密钥实现，这些实现可以支持云密钥管理服务或硬件安全模块，前提是它们实现了必要的接口。 快照中还有大约 10 个更新。&lt;/p&gt;
+
+&lt;p&gt;相当多的 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 软件包在快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211211.txt&quot;&gt;20211211&lt;/a&gt; 中收到了版本更新。虽然 &lt;a href=&quot;https://wiki.gnome.org/Apps/Maps&quot;&gt;gnome-maps&lt;/a&gt; 41.2 有翻译更新，但 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;gnome-software&lt;/a&gt; 41.2 修复了仅在项目未安装/删除应用程序时处理年龄评级和重新加载应用程序详细信息时的崩溃。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gupnp&quot;&gt;gupnp&lt;/a&gt; 1.4.1 包修复了异步弃用的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 中的回归。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/95.0/releasenotes/&quot;&gt;95.0&lt;/a&gt; 在快照中更新，并修复了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。该版本似乎是对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Windows_95&quot;&gt;Windows 95&lt;/a&gt; 的认可，因为该浏览器已上架 Microsoft Store。&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.70.2 更新修复了使用带有 &lt;a href=&quot;https://www.freedesktop.org/software/systemd/man/journald.conf.html&quot;&gt;journald&lt;/a&gt; 名字空间的默认日志编写器的问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.354、&lt;a href=&quot;https://fireeye.dev/&quot;&gt;FireEye&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/fireeye/HXTool&quot;&gt;hxtools&lt;/a&gt; 20211204、&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.2.4.1、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; 16.13.1、&lt;a href=&quot;https://wiki.gnome.org/Apps/Terminal/VTE&quot;&gt;vte&lt;/a&gt; 0.66.2 和 &lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.28 等等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211210.txt&quot;&gt;20211210&lt;/a&gt; 中更新了三个包。在 &lt;a href=&quot;https://wiki.gnome.org/Projects/Mutter/RemoteDesktop&quot;&gt;gnome-remote-desktop&lt;/a&gt; 41.2 更新中添加了断开代理信号的方法；该软件包也可使用截屏，使警告消息更加明确。Linux 笔记本电池优化包 &lt;a href=&quot;https://github.com/linrunner/TLP&quot;&gt;tlp&lt;/a&gt; 1.4.0 将 “Battery Features” 重命名为 “Battery Care”，并引入插件在非 ThinkPad 笔记本上支持 Battery Care；华硕、华为、LG、联想和三星率先受益于这些插件。内核头文件在 &lt;a href=&quot;https://software.opensuse.org/download.html?project=Base%3ASystem&amp;amp;package=linux-glibc-devel&quot;&gt;linux-glibc-devel&lt;/a&gt; 5.15 版本中更新。&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;a href=&quot;https://github.com/libffi/libffi&quot;&gt;libffi&lt;/a&gt; 3.4.2 和 &lt;a href=&quot;https://github.com/linux-nvme/nvme-cli&quot;&gt;nvme-cli&lt;/a&gt; 1.16 更新之外，快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211209.txt&quot;&gt;20211209&lt;/a&gt; 中的大部分更新都是 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPi&lt;/a&gt; 更新。快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20211208.txt&quot;&gt;20211208&lt;/a&gt; 提供了第一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;asla&lt;/a&gt; &lt;a href=&quot;https://www.alsa-project.org/wiki/Changes_v1.2.5.1_v1.2.6#alsa-lib&quot;&gt;1.2.6&lt;/a&gt; 更新，它改进了&lt;a href=&quot;https://en.wikipedia.org/wiki/Pulse-code_modulation&quot;&gt;脉冲编码调制&lt;/a&gt;中对多种格式的支持。&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.8p2 包修复了一些小的内存泄漏，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo_logsrvd&lt;/code&gt; 现在只为会话的第一个命令发送日志 ID，因此不需要为每个子命令发送日志 ID。快照中还更新了其他几个包，如屏幕阅读器 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/orca&quot;&gt;orca&lt;/a&gt; 41.1、&lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/multimedia/soundtouch.html&quot;&gt;soundtouch&lt;/a&gt; 2.3.1 和 &lt;a href=&quot;https://github.com/yast/yast-journal&quot;&gt;yast2-journal&lt;/a&gt; 4.4.1，它们正在为 &lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/11/09/ruby-3-1-0-preview1-released/&quot;&gt;Ruby3&lt;/a&gt; 以及许多其他 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 包准备代码。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/17/frame-gear-pipewire-update-in-tw/&quot;&gt;Frameworks, Gear, Pipewire Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/16/%E5%BA%86%E7%A5%9D-openSUSE-%E9%85%92%E5%90%A7%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E6%97%A5.html</guid>
       <title>庆祝 openSUSE 酒吧第一个周年纪念日</title>
       <pubDate>Thu, 16 Dec 2021 05:15:00 -0600</pubDate>
@@ -285,52 +312,6 @@ Gertjan™ - Knurpht™, [19.12.20 05:42]
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/10/survey-results-of-pm-posted/&quot;&gt;Survey Results of Packagers, Maintainers Posted&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/11/08/%E9%A1%B9%E7%9B%AE%E5%AF%BB%E6%B1%82-openSUSE-%E8%91%A3%E4%BA%8B%E4%BC%9A%E9%80%89%E4%B8%BE%E7%9A%84%E5%80%99%E9%80%89%E4%BA%BA.html</guid>
-      <title>项目寻求 openSUSE 董事会选举的候选人</title>
-      <pubDate>Mon, 08 Nov 2021 22:50:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/11/08/%E9%A1%B9%E7%9B%AE%E5%AF%BB%E6%B1%82-openSUSE-%E8%91%A3%E4%BA%8B%E4%BC%9A%E9%80%89%E4%B8%BE%E7%9A%84%E5%80%99%E9%80%89%E4%BA%BA.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目正在为 openSUSE 董事会候选人寻求提名和申请。 该项目还希望在选举前获得更多成员。
-
-选举委员会发出了一份通知，告知项目成员选举过程的时间表。
-
-本选举周期有两个席位空缺。对提名和申请的征集将持续到11月22日星期一。如果您想从 openSUSE 社区提名一位成员或宣布自己为候选人，请发邮件给选举委员会，地址是：election-officials@opensuse.org 。
-
-该过程计划分三个阶段进行：
-
-  第 0 阶段，即当前阶段，宣布选举时间表，寻找候选人竞选董事会，并为希望成为项目成员的人提供会员资格。
-  第 1 阶段，继续进行会员活动以吸引新会员，已宣布的候选人，将在这个阶段宣布，可以开始竞选。
-  进入最后的第 2 阶段，成员可以开始为候选人投票，而候选人可以继续竞选投票。 第二阶段计划于 12 月 13 日开始，预计结果将在 2021 年的最后一天公布。
-
-
-只有 openSUSE 会员才有资格参加 openSUSE 董事会的竞选。
-
-
-
-原文：Project seeks Candidates for openSUSE Board Election，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;正在为 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election&quot;&gt;openSUSE 董事会&lt;/a&gt;候选人寻求提名和申请。 该项目还希望在选举前获得更多成员。&lt;/p&gt;
-
-&lt;p&gt;选举委员会发出了一份&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/O7HVRIVYEA65YHCXDZHY62DCDECHPNOP/&quot;&gt;通知&lt;/a&gt;，告知项目成员选举过程的时间表。&lt;/p&gt;
-
-&lt;p&gt;本选举周期有两个席位空缺。对提名和申请的征集将持续到11月22日星期一。如果您想从 openSUSE 社区提名一位成员或宣布自己为候选人，请发邮件给选举委员会，地址是：election-officials@opensuse.org 。&lt;/p&gt;
-
-&lt;p&gt;该过程计划分三个阶段进行：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;第 0 阶段，即当前阶段，宣布选举时间表，寻找候选人竞选董事会，并为希望成为项目成员的人提供&lt;a href=&quot;https://en.opensuse.org/openSUSE:Members#How_to_become_a_Member&quot;&gt;会员资格&lt;/a&gt;。&lt;/li&gt;
-  &lt;li&gt;第 1 阶段，继续进行会员活动以吸引新会员，已宣布的候选人，将在这个阶段宣布，可以开始竞选。&lt;/li&gt;
-  &lt;li&gt;进入最后的第 2 阶段，成员可以开始为候选人投票，而候选人可以继续竞选投票。 第二阶段计划于 12 月 13 日开始，预计结果将在 2021 年的最后一天公布。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;只有 openSUSE 会员才有资格参加 openSUSE 董事会的竞选。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/09/os-board-elections-2021/&quot;&gt;Project seeks Candidates for openSUSE Board Election&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
