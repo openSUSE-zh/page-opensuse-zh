@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/13/openSUSE-Leap-15.2-%E7%BB%93%E6%9D%9F%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html</guid>
+      <title>openSUSE 15.2 生命周期结束</title>
+      <pubDate>Thu, 13 Jan 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/13/openSUSE-Leap-15.2-%E7%BB%93%E6%9D%9F%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 15.2 的用户将不会收到安全和维护更新，因为该版本已于 2022 年 1 月 4 日达到 EOL（生命周期结束）。 EOL 结束操作系统次要版本的更新。那些继续使用 EOL 版本的人将面临漏洞，因为这些已停产的版本不再接收安全和维护更新。这就是用户需要升级到较新的次要版本的原因； openSUSE Leap 15.3！ 用户可以通过下载 iso 镜像文件或按照 SDB:系统升级 上的升级说明从 15.2 升级到 15.3。 对于全新安装，请在 Get Leap 下载 openSUSE Leap 15.3 镜像文件。Leap 15.3 版本受到安全补丁和更新的支持，预计将于 2022 年 11 月达到其 EOL。根据路线图，Leap 15.4 预计将于 2022 年 6 月发布。 有兴趣从定期发布版本更改为滚动版本的用户可以转移到 Tumbleweed，它提供官方软件源中所有软件的大量每日和频繁更新。 从这里下载它，进行更改的最佳方法是重新安装您的系统，因此请备份您的...</description>
+      <content:encoded>&lt;p&gt;openSUSE Leap 15.2 的用户将不会收到安全和维护更新，因为该版本已于 2022 年 1 月 4 日达到 EOL（生命周期结束）。&lt;/p&gt;
+
+&lt;p&gt;EOL 结束操作系统次要版本的更新。那些继续使用 EOL 版本的人将面临漏洞，因为这些已停产的版本不再接收安全和维护更新。这就是用户需要升级到较新的次要版本的原因； openSUSE Leap 15.3！&lt;/p&gt;
+
+&lt;p&gt;用户可以通过下载 iso 镜像文件或按照 &lt;a href=&quot;https://zh.opensuse.org/SDB:%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7&quot;&gt;SDB:系统升级&lt;/a&gt; 上的升级说明从 15.2 升级到 15.3。&lt;/p&gt;
+
+&lt;p&gt;对于全新安装，请在 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Get Leap&lt;/a&gt; 下载 openSUSE Leap 15.3 镜像文件。Leap 15.3 版本受到安全补丁和更新的支持，预计将于 2022 年 11 月达到其 EOL。根据路线图，Leap 15.4 预计将于 2022 年 6 月发布。&lt;/p&gt;
+
+&lt;p&gt;有兴趣从定期发布版本更改为滚动版本的用户可以转移到 Tumbleweed，它提供官方软件源中所有软件的大量每日和频繁更新。&lt;/p&gt;
+
+&lt;p&gt;从&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;这里&lt;/a&gt;下载它，进行更改的最佳方法是重新安装您的系统，因此请备份您的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/home&lt;/code&gt; 目录和您要保存的任何配置文件（例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var&lt;/code&gt;）。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;附注：&lt;/p&gt;
+
+    &lt;p&gt;对于简体中文用户，你可以通过查询&lt;a href=&quot;https://zh.opensuse.org/SDB:%E5%88%B6%E4%BD%9C%E5%AE%89%E8%A3%85_U_%E7%9B%98#.E8.8E.B7.E5.8F.96_ISO_.E6.96.87.E4.BB.B6&quot;&gt;镜像站&lt;/a&gt;下载最新版本的 Leap ISO，或者依照文档&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E5%8D%87%E7%BA%A7_Tumbleweed&quot;&gt;将 Leap 更新至 Tumbleweed&lt;/a&gt;，也可进行一次&lt;a href=&quot;https://zh.opensuse.org/SDB:DVD_%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F&quot;&gt;全新的安装&lt;/a&gt;。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/13/opensuse-reaches-eol/&quot;&gt;openSUSE 15.2 Reached End-of-Life&lt;/a&gt;，作者：Community Meeting&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/12/27/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81.html</guid>
       <title>下载重定向器当前状态</title>
       <pubDate>Mon, 27 Dec 2021 23:30:00 -0600</pubDate>
@@ -361,31 +394,6 @@ Gertjan™ - Knurpht™, [19.12.20 05:42]
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/24/keylime-microos/&quot;&gt;MicroOS Expands Security With Keylime&lt;/a&gt;，作者：Alberto Planas&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/19/Ruby-Plasma-%E5%92%8C-GTK-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Ruby、Plasma 和 GTK 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 19 Nov 2021 10:20:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/19/Ruby-Plasma-%E5%92%8C-GTK-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周总共发布了四个 openSUSE Tumbleweed 快照。 快照 20211117 为 KDE 用户提供了 Plasma 5.23.3 更新。错误修复版本对 systemsettings5 包进行了更改，该包修复了触摸屏点击。plasma-desktop 有一个涉及拖放重置位置和重叠的修复；该软件包还有一个修复程序，显示一个非活动的 kwin 控制台。kwin 还进行了一些修复，以防止截屏崩溃，并为 Wayland 提供了一些修复。kplotting 的更新是快照中更新的 KDE Frameworks 5.88.0 中单独的一个包； 其余的来自前一天的快照。Xfce 用户还在快照中收到了 xfce4-whiskermenu-plugin 2.6.2 的更新，该更新为按 Esc 键后菜单不切换的问题提供了修复。该包还修复了在显示菜单时移动背景的问题。 快照中要更新的其他软件包是 fribidi 1.0.11 和 restorecond 3.3，这是一个监视文件创建的守护进程。 许多 KDE Frameworks 5.88.0 包在快照 20211116 中发布。本次快照提供了对 KTextEditor 进行了改进打开/保存高级对话框的更新，并且插件 KParts 弃用了未使用的和内部方法。 Kirigami...</description>
-      <content:encoded>&lt;p&gt;本周总共发布了四个 openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/M4AB2UMQOCBZYGN4EGAGKCYA5KSCTATU/&quot;&gt;20211117&lt;/a&gt; 为 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户提供了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.23.3/&quot;&gt;Plasma 5.23.3&lt;/a&gt; 更新。错误修复版本对 systemsettings5 包进行了更改，该包修复了触摸屏点击。&lt;a href=&quot;https://invent.kde.org/plasma/plasma-desktop&quot;&gt;plasma-desktop&lt;/a&gt; 有一个涉及拖放重置位置和重叠的&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=444366&quot;&gt;修复&lt;/a&gt;；该软件包还有一个修复程序，显示一个非活动的 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;kwin&lt;/a&gt; 控制台。kwin 还进行了一些修复，以防止截屏崩溃，并为 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 提供了一些修复。&lt;a href=&quot;https://api.kde.org/frameworks/kplotting/html/index.html&quot;&gt;kplotting&lt;/a&gt; 的更新是快照中更新的 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.88.0/&quot;&gt;KDE Frameworks 5.88.0&lt;/a&gt; 中单独的一个包； 其余的来自前一天的快照。&lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户还在快照中收到了 &lt;a href=&quot;https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start&quot;&gt;xfce4-whiskermenu-plugin&lt;/a&gt; 2.6.2 的更新，该更新为按 Esc 键后菜单不切换的问题提供了修复。该包还修复了在显示菜单时移动背景的问题。 快照中要更新的其他软件包是 &lt;a href=&quot;https://github.com/fribidi/fribidi&quot;&gt;fribidi&lt;/a&gt; 1.0.11 和 &lt;a href=&quot;https://linux.die.net/man/8/restorecond&quot;&gt;restorecond&lt;/a&gt; 3.3，这是一个监视文件创建的守护进程。&lt;/p&gt;
-
-&lt;p&gt;许多 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.88.0/&quot;&gt;KDE Frameworks 5.88.0&lt;/a&gt; 包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K64OBLTPRGE6V64QY3TQZUXS3E72PGLI/&quot;&gt;20211116&lt;/a&gt; 中发布。本次快照提供了对 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 进行了改进打开/保存高级对话框的更新，并且插件 &lt;a href=&quot;https://api.kde.org/frameworks/kparts/html/index.html&quot;&gt;KParts&lt;/a&gt; 弃用了未使用的和内部方法。 &lt;a href=&quot;https://develop.kde.org/frameworks/kirigami&quot;&gt;Kirigami&lt;/a&gt; 的&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;应用程序接口&lt;/a&gt;文档有一些小的改进； 用户界面框架包还修复了在平板电脑上设置组件的问题。&lt;a href=&quot;https://www.learnplasma.org/en/learn/framework.html&quot;&gt;plasma-framework&lt;/a&gt; 包添加了额外的键盘快捷键，增加了视觉样式的标签页边距，并为 &lt;a href=&quot;https://github.com/KDE/breeze&quot;&gt;breeze&lt;/a&gt; 按钮提供了更逼真的阴影。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户并不是唯一从超大快照中获得修复和功能的用户。&lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfsprogs&lt;/a&gt; 5.15 的更新为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Mkfs&quot;&gt;mkfs&lt;/a&gt; 设置了新的默认值，并在仅启用了 v2（空闲空间树）时修复了有关 v1 空间缓存的警告。根据变更日志，&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 在从 git 构建时禁用了 &lt;a href=&quot;https://github.com/sass/sassc&quot;&gt;SassC&lt;/a&gt; 构建要求，并删除了与 &lt;a href=&quot;https://en.wikipedia.org/wiki/32-bit_computing&quot;&gt;32 位&lt;/a&gt;相关且可能未被使用的配置。&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;ruby&lt;/a&gt; &lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/07/07/ruby-2-7-4-released/&quot;&gt;2.7.4&lt;/a&gt; 和 &lt;a href=&quot;https://www.ruby-lang.org/en/news/2021/07/07/ruby-3-0-2-released/&quot;&gt;3.0.2&lt;/a&gt; 都在快照中更新，以解决一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://mariadb.org/&quot;&gt;mariadb&lt;/a&gt; &lt;a href=&quot;https://mariadb.com/kb/en/mariadb-1065-changelog/&quot;&gt;10.6.5&lt;/a&gt; 的更新删除了一些补丁，并且不受已经影响了其他其他数据库管理系统的 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35604&quot;&gt;CVE-2021-35604&lt;/a&gt; 的影响。&lt;a href=&quot;https://www.postgresql.org/docs/14/release-14-1.html&quot;&gt;postgresql14 14.1&lt;/a&gt; 更新中修复了两个 CVE；其中之一使服务器在 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0&quot;&gt;SSL&lt;/a&gt; 或 &lt;a href=&quot;https://en.wikipedia.org/wiki/Generic_Security_Services_Application_Program_Interface&quot;&gt;GSS&lt;/a&gt; 加密握手后拒绝无关数据。&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;libreoffice&lt;/a&gt; 7.2.3.1 的更新删除了两个补丁。 &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 8.2.3587、&lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 4.16.0 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-network&lt;/a&gt; 4.4.31 是许多要更新的软件包和库之一。 快照中有 30 多个额外的软件包需要更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/D6BSYASDQBMVUVUYGT4DAMGZOKYWQ32U/&quot;&gt;20211111&lt;/a&gt; 中只有两个包。&lt;a href=&quot;https://www.gnu.org/software/coreutils/&quot;&gt;coreutils&lt;/a&gt; 9.0 的主要版本出现在快照中。chmod -v 不再错误报告悬空符号链接的模式，这是在 coreutils-5.3.0 中引入的错误。本次更新修复了更多错误，并添加了新功能，例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cksum&lt;/code&gt; 现在支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a (--algorithm)&lt;/code&gt; 选项以选择任何现有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sum&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;md5sum&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b2sum&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sha*sum&lt;/code&gt; 实现等。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cksum&lt;/code&gt; 现在包含所有这些程序，并且 coreutils 将不会引入未来的独立校验和实用程序。在 &lt;a href=&quot;https://www.x.org/wiki/&quot;&gt;xorg-x11-server&lt;/a&gt; 更新到 21.1.1 版本时，发布了大量错误修复和新功能。 X 服务器现在可以在更多情况下正确报告显示 DPI，这可能会影响对高 DPI 屏幕具有自己的解决方法的客户端应用程序的呈现。&lt;/p&gt;
-
-&lt;p&gt;本周首先发布的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IWV3MFNVBXGETA6B3GXSP54QJ4B4RS7Q/&quot;&gt;20211110&lt;/a&gt;。此快照将 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 更新到 &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/94.0/releasenotes/&quot;&gt;94.0.1&lt;/a&gt;，这为高级用户提供了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about:unloads&lt;/code&gt;，通过手动卸载选项卡而不关闭它们来释放系统资源。 &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 在这个快照中也有一个更新到版本 8.2.3582；该文本编辑器在提供拼写建议时读取了一些未初始化的内存。 快照中要更新的其他软件包是 &lt;a href=&quot;https://xorg.freedesktop.org/wiki/&quot;&gt;xwayland&lt;/a&gt; 21.1.3、&lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 16.2.6.462 和几个 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 软件包。&lt;/p&gt;
-
-&lt;p&gt;发送到 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;Factory 邮件列表&lt;/a&gt;的 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EHDPUTZBUV6VCQJOABTVWPLSUEVWKHZK/&quot;&gt;Tumbleweed-Review&lt;/a&gt; 显示 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.15.2（使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zstd&lt;/code&gt; 压缩内核模块）、&lt;a href=&quot;https://icu.unicode.org/&quot;&gt;ICU&lt;/a&gt; 70.1、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.3.0 和 &lt;a href=&quot;https://cmake.org/&quot;&gt;cmake&lt;/a&gt; 3.22.0 正在测试中，并处于未来版本的暂存项目中。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/19/ruby-plasma-gtk-update-in-tw/&quot;&gt;Ruby, Plasma, GTK Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
