@@ -67,6 +67,42 @@
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/31/openSUSE-%E5%BC%80%E5%A7%8B%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5.html</guid>
+      <title>openSUSE 开始年度调查</title>
+      <pubDate>Fri, 31 Dec 2021 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/31/openSUSE-%E5%BC%80%E5%A7%8B%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 调查已经开始，我们鼓励用户、开源贡献者和社区成员参加年度调查。
+
+去年，社区开始了年终调查，并在社区会议上讨论了结果。
+
+结果和会议反馈指导了当前调查的时间和格式的变化，该调查现在向人们开放。对上一年的问题进行了一些更改，调查将持续到 2 月 28 日。
+
+该调查预计将提供有关人们如何看待项目以及如何与项目互动的见解。 该调查还将帮助社区更好地了解越来越多的 openSUSE 发行版和工具的使用。
+
+该调查预计将于 2021 年 12 月开始，但由于另一项关于社区安全的调查和 openSUSE 董事会的选举时间安排，我们决定在新的一年开始调查。请通过调查帮助我们。
+
+
+
+原文：openSUSE Begins Annual Survey，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;已经开始，我们鼓励用户、开源贡献者和社区成员参加年度调查。&lt;/p&gt;
+
+&lt;p&gt;去年，社区开始了&lt;a href=&quot;https://news.opensuse.org/2020/12/19/introducing-the-opensuse-2020-end-of-year-survey/&quot;&gt;年终调查&lt;/a&gt;，并在&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;上&lt;a href=&quot;https://news.opensuse.org/2021/01/18/meetup-will-discuss-survey-results-project-improvements/&quot;&gt;讨论了结果&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;结果和会议反馈指导了当前调查的时间和格式的变化，该调查现在向人们开放。对上一年的问题进行了一些更改，调查将持续到 2 月 28 日。&lt;/p&gt;
+
+&lt;p&gt;该调查预计将提供有关人们如何看待项目以及如何与项目互动的见解。 该调查还将帮助社区更好地了解越来越多的 openSUSE 发行版和工具的使用。&lt;/p&gt;
+
+&lt;p&gt;该调查预计将于 2021 年 12 月开始，但由于另一项关于社区安全的调查和 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;openSUSE 董事会&lt;/a&gt;的选举时间安排，我们决定在新的一年开始调查。请通过调查帮助我们。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/17/os-begins-annual-survey/&quot;&gt;openSUSE Begins Annual Survey&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/12/27/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81.html</guid>
       <title>下载重定向器当前状态</title>
       <pubDate>Mon, 27 Dec 2021 23:30:00 -0600</pubDate>
@@ -355,35 +391,6 @@ Gertjan™ - Knurpht™, [19.12.20 05:42]
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/02/alpha-release-leap-test/&quot;&gt;Alpha Releases of openSUSE Leap 15.4 are Available for Testing&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/26/Git-curl-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Git、curl 和 systemd 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 26 Nov 2021 07:55:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/11/26/Git-curl-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 过去一周每天都向滚动发布用户提供快照。 最新发布的快照是 20211124。这个快照带来了 systemd 249.7，它专注于包测试和测试套件的更新依赖项。文本编辑器 vim 8.2.3640 版本是一个小更新，但它充满了许多修复； 一些修复包括处理与 GTK 相关的内存泄漏、崩溃和性能问题。本次快照在 dracut 的更新中删除了一个多余的脚本头，并为 Linux-boot 进程包中的 zstd 设置了最佳压缩参数。快照中要更新的其他软件包包括 autoyast2 4.4.22、嵌入式 Linux 库 ell 0.46、GNOME 的文档查看器 evince 41.3 和 gtk-vnc 1.3.0。 快照 20211123 更新了 git 2.34.0，去掉了git rebase 的 --preserve-merges 选项。该软件包还调整了 git add、git mv 和 git rm 以避免更新 sparse-checkout 定义之外的路径，除非用户指定 --sparse...</description>
-      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 过去一周每天都向滚动发布用户提供快照。&lt;/p&gt;
-
-&lt;p&gt;最新发布的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/L6WQM2H7VAIYSROPKLSZFJZW4WF3CGQ6/&quot;&gt;20211124&lt;/a&gt;。这个快照带来了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.7，它专注于包测试和测试套件的更新依赖项。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.3640 版本是一个小更新，但它充满了许多修复； 一些修复包括处理与 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 相关的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;、崩溃和性能问题。本次快照在 &lt;a href=&quot;https://git.kernel.org/pub/scm/boot/dracut/dracut.git&quot;&gt;dracut&lt;/a&gt; 的更新中删除了一个多余的脚本头，并为 Linux-boot 进程包中的 &lt;a href=&quot;https://github.com/facebook/zstd&quot;&gt;zstd&lt;/a&gt; 设置了最佳压缩参数。快照中要更新的其他软件包包括 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;autoyast2&lt;/a&gt; 4.4.22、嵌入式 Linux 库 &lt;a href=&quot;https://git.kernel.org/pub/scm/libs/ell/ell.git/&quot;&gt;ell 0.46&lt;/a&gt;、&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的文档查看器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Evince&quot;&gt;evince&lt;/a&gt; 41.3 和 &lt;a href=&quot;https://wiki.gnome.org/Projects/gtk-vnc&quot;&gt;gtk-vnc&lt;/a&gt; 1.3.0。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/L6WQM2H7VAIYSROPKLSZFJZW4WF3CGQ6/&quot;&gt;20211123&lt;/a&gt; 更新了 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.34.0，去掉了&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git rebase&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--preserve-merges&lt;/code&gt; 选项。该&lt;a href=&quot;https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.34.0.txt&quot;&gt;软件包&lt;/a&gt;还调整了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git mv&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git rm&lt;/code&gt; 以避免更新 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sparse-checkout&lt;/code&gt; 定义之外的路径，除非用户指定 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--sparse&lt;/code&gt; 选项。C 客户端库 &lt;a href=&quot;https://mariadb.com/kb/en/mariadb-connector-c-325-release-notes/&quot;&gt;mariadb-connector-c 3.2.5&lt;/a&gt; 删除了一个回调函数，因为它无法被清除；受影响的版本等于或小于 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 1.0.2。 快照中还更新了 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-packager&lt;/a&gt; 4.4.14、&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-schema&lt;/a&gt; 4.4.6 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2-trans&lt;/a&gt;； 后者更新了日语、斯洛伐克语和加泰罗尼亚语的翻译。&lt;/p&gt;
-
-&lt;p&gt;本周的第二个 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OEBOU5XKAIVCYLCOLNBIEZN6MMYOZMCL/&quot;&gt;20211122&lt;/a&gt; 中发布。通过 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 5.15.3 更新，修复了 &lt;a href=&quot;https://clevo-computer.com/&quot;&gt;Clevo 计算机&lt;/a&gt;的&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;高级 Linux 声音体系&lt;/a&gt;。&lt;a href=&quot;https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine&quot;&gt;KVM&lt;/a&gt; 进行了一些更改，其中包括一项用于处理动态 MSR 寄存器（Model Specific Register）拦截切换的更改。&lt;a href=&quot;https://daniel.haxx.se/&quot;&gt;Daniel Stenberg&lt;/a&gt; 提供了有关 &lt;a href=&quot;https://youtu.be/GCjvJnlziLY&quot;&gt;curl 7.80.0&lt;/a&gt; 更新的视频内容；该版本是第 204 个版本，添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Public_key_fingerprint&quot;&gt;SHA256 指纹&lt;/a&gt;支持并修复了如果无法将 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0,_and_3.0&quot;&gt;SSL&lt;/a&gt; 会话添加到缓存中的内存泄漏。&lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/postlfs/xfsprogs.html&quot;&gt;xfsprogs&lt;/a&gt; 更新至 5.14.0 ，并引入了 &lt;a href=&quot;https://liburcu.org/&quot;&gt;liburcu&lt;/a&gt; 支持。&lt;a href=&quot;https://github.com/yast/yast-bootloader/pull/654&quot;&gt;yast2-bootloader&lt;/a&gt; 4.4.8 包配置了自定义引导分区，使其更加&lt;a href=&quot;https://github.com/yast/yast-bootloader/pull/654&quot;&gt;健壮和直观&lt;/a&gt;。其他要更改的 openSUSE 软件包是 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt;，它从版本 0.9.1 降级到 0.9.0，以及 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update 3.6.2&lt;/a&gt;，它修复了如果挂载点设置了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unbindable&lt;/code&gt; 挂载标志而无法运行的几个应用程序。Web 框架包 &lt;a href=&quot;https://falcon.readthedocs.io/en/stable/&quot;&gt;python-falcon&lt;/a&gt; 的主要版本有一个升级到 3.0.1 的小版本更新；此次更新包括&lt;a href=&quot;https://docs.python.org/3/library/asyncio.html#module-asyncio&quot;&gt;基于 ASGI 的 asyncio&lt;/a&gt; 和 &lt;a href=&quot;https://falcon.readthedocs.io/en/stable/api/websocket.html#falcon.asgi.WebSocket&quot;&gt;WebSocket&lt;/a&gt; 支持；该软件包通过增强现有功能带来了更好的错误处理。 在这次和前一天的快照中，有几个 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 软件包被更新。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EQ64LS3VMHJP5RRGA73IGNK4SLUUNBAI/&quot;&gt;20211121&lt;/a&gt; 中更新的 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 包是 &lt;a href=&quot;https://pypi.org/project/requests/&quot;&gt;python-requests 2.26.0&lt;/a&gt;、&lt;a href=&quot;https://pypi.org/project/importlib-resources/&quot;&gt;python-importlib-resources 5.4.0&lt;/a&gt; 和 &lt;a href=&quot;https://pypi.org/project/packaging/21.2/&quot;&gt;python-packaging 21.2&lt;/a&gt;，它们放弃了对 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.7、Python 3.4 和 Python 3.5 的支持。 随着 &lt;a href=&quot;https://pkgs.org/download/systemd-rpm-macros&quot;&gt;systemd-rpm-macros&lt;/a&gt; 14 的更新，上游提交的向后移植变得可用。快照中要更新的另外两个包是 &lt;a href=&quot;https://github.com/util-linux/util-linux&quot;&gt;util-linux&lt;/a&gt; 2.37.2 和 &lt;a href=&quot;https://software.opensuse.org/package/util-linux-systemd&quot;&gt;util-linux-systemd&lt;/a&gt; 2.37.2。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.6 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LTH4VIBQT7LHHD2QLP7I5GRDYBF77THK/&quot;&gt;20211120&lt;/a&gt; 中发布，GitHub 上有&lt;a href=&quot;https://github.com/openSUSE/systemd/compare/8521f8d22fd44400289fcea03493ebd7f8b1487d...61c79e68381801428c0bc00a56b9e2e9cfa68373&quot;&gt;完整的更改列表&lt;/a&gt;；更新包中也有大量&lt;a href=&quot;https://github.com/openSUSE/systemd/commit/c029dc6272288fa1a526b06e60d9071ff29dce9e&quot;&gt;文档改进&lt;/a&gt;。&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 1.0.2 的更新修复了一些与 &lt;a href=&quot;https://netfilter.org/projects/nftables/&quot;&gt;nftables&lt;/a&gt; 相关的拼写错误和分类。来自 &lt;a href=&quot;https://yast.opensuse.org/blog/2021-10-26/sprints-133-134&quot;&gt;YaST Sprint&lt;/a&gt; 的 yast2-storage-ng 4.4.14 的 10 月份更新调整了 YaST 在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fstab&lt;/code&gt; 文件中引用 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup&quot;&gt;LUKS&lt;/a&gt; 设备的方式，以使 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 更容易处理某些情况。 快照中更新的其他软件包是 &lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.26、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.57 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3 等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.3.0 是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DH2BTRGDWKI6YTBA5SOZP3S7NZX26NZV/&quot;&gt;20211119&lt;/a&gt; 中要更新的软件包之一。Meda 更新使 &lt;a href=&quot;https://docs.mesa3d.org/drivers/panfrost.html&quot;&gt;Panfrost&lt;/a&gt; 驱动程序正式符合 &lt;a href=&quot;https://en.wikipedia.org/wiki/OpenGL_ES&quot;&gt;GLES&lt;/a&gt; 3.1。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs16&lt;/a&gt; 16.13.0 的更新带来了一个实验性的 &lt;a href=&quot;https://github.com/nodejs/node/pull/37468&quot;&gt;ESM Loader&lt;/a&gt; Hooks &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;应用程序接口&lt;/a&gt;。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.14 的更新修复了解析恶意 &lt;a href=&quot;https://fileinfo.com/extension/ps&quot;&gt;ps 图像文件&lt;/a&gt;时堆栈溢出的问题。该图像编辑器将不再将 PSD 文件的配置文件复制到所有图像； 只有第一个返回的图像将包含配置文件。 要重新启用旧行为，请添加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-define psd:replicate-profile=true&lt;/code&gt;。&lt;a href=&quot;https://en.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 更新至 0.9.1 版，旨在修复一些 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 沙箱，然后在稍后的快照中进行回溯。 许多 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 包在快照中更新，如 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.4.22、autoyast2 4.4.21、yast2-installation 4.4.22、yast2-packager 4.4.13 和 yast2-update 4.4.4。&lt;a href=&quot;https://yast.opensuse.org/blog/&quot;&gt;YaST 博客&lt;/a&gt;中定期描述了这些包的更新。&lt;/p&gt;
-
-&lt;p&gt;从本周开始，快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7AXG5RDEUWEKWZXCO47NDZ3V37FNMW5Q/&quot;&gt;20211118&lt;/a&gt; 给了用户一个微笑的理由 —— &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的网络摄像头应用程序 &lt;a href=&quot;https://wiki.gnome.org/Apps/Cheese&quot;&gt;cheese&lt;/a&gt; 41.1的更新，该更新更新了项目描述和翻译。&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 5.15 的更新添加了&lt;a href=&quot;https://en.wikipedia.org/wiki/Link_aggregation&quot;&gt;链路聚合控制协议&lt;/a&gt;主动支持，&lt;a href=&quot;https://pypi.org/project/argon2-cffi/&quot;&gt;python-argon2-cffi&lt;/a&gt; 21.1.0 被修改为跳过 Python 2 的构建，因为它不再受支持。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;在 Tumbleweed 中从 5.14.14 更新到了 5.15.2 ，开始了连续一周的快乐的快照。祝你们玩得很开心！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/11/26/git-curl-systmed-with-tw/&quot;&gt;Git, curl, systemd Roll with Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
