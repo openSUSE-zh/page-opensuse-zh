@@ -7,6 +7,47 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/17/2022-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</guid>
+      <title>2022 年 openSUSE 大会征稿启事</title>
+      <pubDate>Mon, 17 Jan 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/17/2022-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Conference 2022 话题征集已开启！ 话题征集开放至 4 月 14 日。这使得提交提案的时间只有不到 90 天时间。会议日期定于 6 月 2 日至 4 日。组织团队正在准备一场线上线下混合会议，其中包括来自德国纽伦堡 Z-Bau 的现场演讲和线上的虚拟演讲。会议的注册也已经开始。 演示文稿可以提交以下时间长度： 闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟） 普通谈话（30 分钟）或普通虚拟谈话（30 分钟） 长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟） 研讨会（1 小时）或虚拟研讨会（1 小时） 会议列出了以下主题： 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE 该会议已经有两个赞助商，Fedora 和 SUSE。有兴趣赞助该活动的公司可以在项目的 wiki 页面上查看赞助信息。 愿意帮助策划活动的志愿者可以参加我们每周二 19:00 UTC 的策划会议。查看注释了解详细信息。 原文：Call for...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 话题征集已开启！&lt;/p&gt;
+
+&lt;p&gt;话题征集开放至 4 月 14 日。这使得提交提案的时间只有不到 90 天时间。会议日期定于 6 月 2 日至 4 日。组织团队正在准备一场线上线下混合会议，其中包括来自德国纽伦堡 Z-Bau 的现场演讲和线上的虚拟演讲。会议的注册也已经开始。&lt;/p&gt;
+
+&lt;p&gt;演示文稿可以提交以下时间长度：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟）&lt;/li&gt;
+  &lt;li&gt;普通谈话（30 分钟）或普通虚拟谈话（30 分钟）&lt;/li&gt;
+  &lt;li&gt;长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟）&lt;/li&gt;
+  &lt;li&gt;研讨会（1 小时）或虚拟研讨会（1 小时）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;会议列出了以下主题：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;云和容器&lt;/li&gt;
+  &lt;li&gt;社区&lt;/li&gt;
+  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
+  &lt;li&gt;新技术&lt;/li&gt;
+  &lt;li&gt;开源&lt;/li&gt;
+  &lt;li&gt;openSUSE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;该会议已经有两个赞助商，&lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt;。有兴趣赞助该活动的公司可以在&lt;a href=&quot;https://en.opensuse.org/Portal:Conference/Sponsor&quot;&gt;项目的 wiki 页面&lt;/a&gt;上查看赞助信息。&lt;/p&gt;
+
+&lt;p&gt;愿意帮助策划活动的志愿者可以参加我们每周二 19:00 UTC 的&lt;a href=&quot;https://etherpad.opensuse.org/p/osc22&quot;&gt;策划会议&lt;/a&gt;。查看&lt;a href=&quot;https://etherpad.opensuse.org/p/osc22&quot;&gt;注释&lt;/a&gt;了解详细信息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/18/cfp-opens-for-osc22/&quot;&gt;Call for Papers Opens for openSUSE Conference 2022&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/13/openSUSE-Leap-15.2-%E7%BB%93%E6%9D%9F%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html</guid>
       <title>openSUSE 15.2 生命周期结束</title>
       <pubDate>Thu, 13 Jan 2022 17:30:00 -0600</pubDate>
@@ -368,29 +409,6 @@ Gertjan™ - Knurpht™, [19.12.20 05:42]
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/03/os-tw-rolls-into-dec/&quot;&gt;openSUSE Tumbleweed Rolls into December&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/01/openSUSE_Leap_15.4_%E7%9A%84_Alpha_%E7%89%88%E6%9C%AC%E7%8E%B0%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95.html</guid>
-      <title>openSUSE Leap 15.4 的 Alpha 版本现可供测试</title>
-      <pubDate>Wed, 01 Dec 2021 10:10:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/01/openSUSE_Leap_15.4_%E7%9A%84_Alpha_%E7%89%88%E6%9C%AC%E7%8E%B0%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Leap 15.4 的 Alpha 版本现在可以在 get.opensuse.org 上下载。Leap 15 的第四个小版本已经进入了 alpha 开发阶段。 在 Alpha 阶段，常规 Alpha 镜像将在滚动更新的基础上构建，直到 2 月中旬，届时小数点版本计划过渡到 Beta 构建阶段。根据路线图，测试版提交截止日期为 2 月 16 日。直到一般可用版本（General Availability）发布之前，Beta 阶段有一个类似的开发模型。Beta 阶段完成后滚动构建停止，Leap 在公开发行后过渡到维护和安全更新阶段。 我们鼓励喜欢变更发行版的跳跃者、爱好者、用户和技术爱好者下载当前版本并帮助测试版本以确保错误在 alpha 和 beta 阶段得到解决。有兴趣测试它以确保一切正常的人可以单击“了解更多”按钮查找下载。 根据发布的路线图，Leap 15.4 的公开可用性计划于 2022 年 6 月发布。Leap 15.3 的用户需要在 Leap 15.4 公开发布后的六个月内更新到最新版本。 openSUSE Leap 15.2 的用户应该在本月结束上线之前进行更新；如果用户还没有更新到...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;openSUSE Leap 15.4&lt;/a&gt; 的 Alpha 版本现在可以在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 上下载。Leap 15 的第四个小版本已经进入了 alpha 开发阶段。&lt;/p&gt;
-
-&lt;p&gt;在 Alpha 阶段，常规 Alpha 镜像将在滚动更新的基础上构建，直到 2 月中旬，届时小数点版本计划过渡到 Beta 构建阶段。根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，测试版提交截止日期为 2 月 16 日。直到一般可用版本（General Availability）发布之前，Beta 阶段有一个类似的开发模型。Beta 阶段完成后滚动构建停止，Leap 在公开发行后过渡到维护和安全更新阶段。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励喜欢变更发行版的跳跃者、爱好者、用户和技术爱好者下载当前版本并帮助测试版本以确保错误在 alpha 和 beta 阶段得到解决。有兴趣测试它以确保一切正常的人可以单击“&lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;了解更多&lt;/a&gt;”按钮查找下载。&lt;/p&gt;
-
-&lt;p&gt;根据发布的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，Leap 15.4 的公开可用性计划于 2022 年 6 月发布。Leap 15.3 的用户需要在 Leap 15.4 公开发布后的六个月内更新到最新版本。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap 15.2 的用户应该在本月结束上线之前进行更新；如果用户还没有更新到 Leap 15.3，他们应该更新到 Leap 15.3，以确保他们继续收到维护和安全更新。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/02/alpha-release-leap-test/&quot;&gt;Alpha Releases of openSUSE Leap 15.4 are Available for Testing&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
