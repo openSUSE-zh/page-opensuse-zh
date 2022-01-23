@@ -1,6 +1,6 @@
 ---
 author: Hanjingxue Boling
-date: 2022-01-01 07:30:00 +0800
+date: 2022-01-21 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: Tumbleweed 中的工具 Strace、BusyBox 更新
