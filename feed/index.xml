@@ -7,6 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/25/openSUSE-%E5%A4%A7%E4%BC%9A%E8%AE%BE%E8%AE%A1%E6%AF%94%E8%B5%9B%E5%BC%80%E5%A7%8B.html</guid>
+      <title>openSUSE 大会设计比赛开始</title>
+      <pubDate>Tue, 25 Jan 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/25/openSUSE-%E5%A4%A7%E4%BC%9A%E8%AE%BE%E8%AE%A1%E6%AF%94%E8%B5%9B%E5%BC%80%E5%A7%8B.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>由 openSUSE 为 openSUSE Conference 2022 举办的徽标设计大赛已经开始了。该比赛的最终获奖徽标将用于会议海报和 T 恤。 提交的图片必须满足下列和竞赛 wiki 页面上列出的某些要求。我们鼓励设计师使用开源图形编辑软件，如 Inkscape、Gimp 或 Krita。 提交的徽标设计应使用 CC-BY-SA 4.0 进行授权分发，并允许所有人在不署名的情况下使用它。提交的徽标设计必须是原创的，并且不应包含任何与 CC-BY-SA 4.0 冲突的第三方素材。 设计大赛有以下要求： 徽标设计的源文件必须是 svg 格式； 你需要将图片通过电子邮件发送到 ddemaio@opensuse.org，邮件标题为 “oSC22 Design Contest”； 徽标的尺寸必须能够以相同尺寸打印在小号和 3XL T 恤上。这意味着设计不能印在 T 恤的底部、顶部或边缘，也不能环绕 T 恤； 必须在徽标中包含 openSUSE Conference 字样； 徽标图片应以 png 格式添加到竞赛 wiki 页面，以便人们查看设计。 设计指南： 避免使用细线;...</description>
+      <content:encoded>&lt;p&gt;由 openSUSE 为 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 举办的徽标设计大赛已经开始了。该比赛的最终获奖徽标将用于会议海报和 T 恤。&lt;/p&gt;
+
+&lt;p&gt;提交的图片必须满足下列和竞赛 &lt;a href=&quot;https://en.opensuse.org/TshirtoSC22&quot;&gt;wiki 页面&lt;/a&gt;上列出的某些要求。我们鼓励设计师使用开源图形编辑软件，如 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;、&lt;a href=&quot;https://www.gimp.org/&quot;&gt;Gimp&lt;/a&gt; 或 &lt;a href=&quot;https://krita.org/&quot;&gt;Krita&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;提交的徽标设计应使用 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 进行授权分发，并允许所有人在不署名的情况下使用它。提交的徽标设计必须是原创的，并且不应包含任何与 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 冲突的第三方素材。&lt;/p&gt;
+
+&lt;h2 id=&quot;设计大赛有以下要求&quot;&gt;设计大赛有以下要求：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;徽标设计的源文件必须是 svg 格式；&lt;/li&gt;
+  &lt;li&gt;你需要将图片通过电子邮件发送到 ddemaio@opensuse.org，邮件标题为 “oSC22 Design Contest”；&lt;/li&gt;
+  &lt;li&gt;徽标的尺寸必须能够以相同尺寸打印在小号和 3XL T 恤上。这意味着设计不能印在 T 恤的底部、顶部或边缘，也不能环绕 T 恤；&lt;/li&gt;
+  &lt;li&gt;必须在徽标中包含 openSUSE Conference 字样；&lt;/li&gt;
+  &lt;li&gt;徽标图片应以 png 格式添加到竞赛 &lt;a href=&quot;https://en.opensuse.org/TshirtoSC22&quot;&gt;wiki 页面&lt;/a&gt;，以便人们查看设计。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;设计指南&quot;&gt;设计指南：&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;避免使用细线;&lt;/li&gt;
+  &lt;li&gt;避免使用渐变;&lt;/li&gt;
+  &lt;li&gt;将徽标使用的颜色种类限制为 2 到 3 种颜色;&lt;/li&gt;
+  &lt;li&gt;徽标设计应遵守&lt;a href=&quot;https://opensuse.github.io/branding-guidelines/&quot;&gt;品牌指南&lt;/a&gt;和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Artwork_brand&quot;&gt;在设计中使用 logo 的指南&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;比赛从今天开始。比赛的截止日期是 3 月 31 日 23:59 UTC。获奖徽标设计将在截止日期后不久公布。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/26/os-con-design-contest-begins/&quot;&gt;openSUSE Conference Design Contest Begins&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/24/openSUSE-%E8%8E%B7%E5%BE%97%E6%96%B0%E7%A1%AC%E4%BB%B6.html</guid>
       <title>openSUSE 获得新硬件</title>
       <pubDate>Mon, 24 Jan 2022 17:30:00 -0600</pubDate>
@@ -356,61 +396,6 @@ The openSUSE BAR crowd!&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/17/frame-gear-pipewire-update-in-tw/&quot;&gt;Frameworks, Gear, Pipewire Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/12/16/%E5%BA%86%E7%A5%9D-openSUSE-%E9%85%92%E5%90%A7%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E6%97%A5.html</guid>
-      <title>庆祝 openSUSE 酒吧第一个周年纪念日</title>
-      <pubDate>Thu, 16 Dec 2021 05:15:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2021/12/16/%E5%BA%86%E7%A5%9D-openSUSE-%E9%85%92%E5%90%A7%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E6%97%A5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>大约一年前，2020 年 12 月 19 日，openSUSE 会员 knurpht 和 m4u 进行了以下对话： Gertjan™ - Knurpht™, [19.12.20 00:05] 伙计，在 meet.opensuse.org/beer 上喝一杯吗？ Gertjan™ - Knurpht™, [19.12.20 01:11] 哟，我们（尼尔和我在等你出现 Maurizio G., [19.12.20 05:36] 让我们看看我喝完咖啡的感觉 Maurizio G., [19.12.20 05:38] 你和尼尔还在酒吧吗？ Gertjan™ - Knurpht™，[19.12.20 05:39] 不 顺便说一句，我们在啤酒里😃 Maurizio G., [19.12.20 05:41] 是的，我看到了你的消息 Maurizio G., [19.12.20 05:41]...</description>
-      <content:encoded>&lt;p&gt;大约一年前，2020 年 12 月 19 日，openSUSE 会员 knurpht 和 m4u 进行了以下对话：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Gertjan™ - Knurpht™, [19.12.20 00:05]
-伙计，在 meet.opensuse.org/beer 上喝一杯吗？
-
-Gertjan™ - Knurpht™, [19.12.20 01:11]
-哟，我们（尼尔和我在等你出现
-
-Maurizio G., [19.12.20 05:36]
-让我们看看我喝完咖啡的感觉
-
-Maurizio G., [19.12.20 05:38]
-你和尼尔还在酒吧吗？
-
-Gertjan™ - Knurpht™，[19.12.20 05:39]
-不
-顺便说一句，我们在啤酒里😃
-
-Maurizio G., [19.12.20 05:41]
-是的，我看到了你的消息
-
-Maurizio G., [19.12.20 05:41]
-我刚醒来。 也许一会儿
-
-Gertjan™ - Knurpht™, [19.12.20 05:42]
-现在在 meet.opensuse.org/BAR
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这就是我们亲爱的openSUSE BAR（openSUSE 酒吧）的诞生。从那时起，酒吧就成了一个贡献的地方，可以一起修理东西，也可以一起闲逛。&lt;/p&gt;
-
-&lt;p&gt;酒吧已经发展成为我们社区的一个重要部分，它帮助人们在项目中相互了解。它接纳了新的贡献者，加强了旧的友谊，带来了各种问题的修复，并且是历史事件的发生地，比如可能是最年长的openSUSE 会员（89岁）遇到了最年轻的 openSUSE 会员（16岁）。&lt;/p&gt;
-
-&lt;p&gt;在旨在持续 24 小时的在线 openSUSE Leap 15.3 发布派对期间，酒吧于 2021 年 6 月 6 日接待了 50 多位客人和 100 小时 BAR 会话的标记，随后在 2021 年 6 月 10 日达到了 200 小时 BAR 会议标记。&lt;/p&gt;
-
-&lt;p&gt;为了庆祝酒吧一周年，第二大酒吧活动将于 12 月 18 日 16:00 UTC ，在 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;meet.opensuse.org/bar&lt;/a&gt; 开始！！让我们看看这一次我们能把派对持续多久!&lt;/p&gt;
-
-&lt;p&gt;我们非常期待在那里见到你们！！新面孔、老朋友、经常访问酒吧的人和以前从未登录过的人。干杯！&lt;/p&gt;
-
-&lt;p&gt;注意：如果你需要尝试几次才能连接，请不要气馁！继续努力吧！！只要继续尝试并一直按着 F5 键即可刷新，你不会后悔的！！&lt;/p&gt;
-
-&lt;p&gt;openSUSE 酒吧人群&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/15/bar-anniversary/&quot;&gt;Celebrate the first openSUSE BAR anniversary!&lt;/a&gt;，作者：Jens (karatekhd@opensuse.org)&lt;/p&gt;
 </content:encoded>
     </item>
 
