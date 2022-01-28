@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    Tumbleweed 中的 Bash、systemd、libvirt 更新 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="本周每天都有 openSUSE Tumbleweed 快照。 Tumbleweed 中其他一些值得注意的消息是 Wicked 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 NetworkManager。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。 最新的 T...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="Tumbleweed 中的 Bash、systemd、libvirt 更新">
+  <meta property="og:description"
+    content="本周每天都有 openSUSE Tumbleweed 快照。 Tumbleweed 中其他一些值得注意的消息是 Wicked 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 NetworkManager。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。 最新的 T...">
+  <meta property=" og:url" content="/_posts/2022-01-28-Tumbleweed%20%E4%B8%AD%E7%9A%84%20Bash%E3%80%81systemd%E3%80%81libvirt%20%E6%9B%B4%E6%96%B0.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Hanjingxue Boling">
+  <meta property="og:article:published_time" content="2022-01-27T17:30:00-06:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tumbleweed 中的 Bash、systemd、libvirt 更新">
+  
+  <meta name="twitter:description"
+    content="本周每天都有 openSUSE Tumbleweed 快照。 Tumbleweed 中其他一些值得注意的消息是 Wicked 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 NetworkManager。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。 最新的 T...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html">
+  
+  <meta name="twitter:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed/">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022">
+			2022
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022/01">
+			
+			一月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022/01/27">
+			27
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		Tumbleweed 中的 Bash、systemd、libvirt 更新
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">Tumbleweed 中的 Bash、systemd、libvirt 更新</h1>
+		<p class="text-center text-muted">
+			27. Jan 2022
+			|
+			Hanjingxue Boling
+			|
+			CC-BY-SA-3.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/misc/systemd-logo.png"
+			alt="Tumbleweed 中的 Bash、systemd、libvirt 更新">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>本周每天都有 openSUSE Tumbleweed 快照。</p>
+
+<p><a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 中其他一些值得注意的消息是 <a href="https://github.com/openSUSE/wicked">Wicked</a> 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 <a href="https://networkmanager.dev/">NetworkManager</a>。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。</p>
+
+<p>最新的 Tumbleweed 快照是 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/COKAP2GGB7YKF2546IHL4UKQ72KSLPU7/">20220126</a>。<a href="https://www.samba.org/">Samba</a> 本周更新了两次；此快照引入了 4.15.4 版本，该版本提供了一些清理和配置更改。<a href="https://www.kernel.org/">Linux Kernel</a> 5.16.2 很快从<a href="https://en.opensuse.org/openSUSE:Factory_development_model#Staging_Projects">暂存状态</a>发布至快照。更新的内核为较新的<a href="https://www.lenovo.com/">联想</a>笔记本电脑提供了多个 <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> 修复程序，并为 <a href="https://en.wikipedia.org/wiki/IBM_System/390">s390</a> 和 <a href="https://en.wikipedia.org/wiki/X86">x86</a> 架构提供了 <a href="https://www.linux-kvm.org/page/Main_Page">KVM</a> 修复程序。文本编辑器 vim 在其 8.2.4186 版本中对实验性 <a href="https://github.com/brammool/vim9/blob/master/README.md">vim9</a> 分支进行了一些修复以及一些额外的更改。<a href="http://sillycycle.com/xlockmore.html">xlockmore</a> 是一个屏幕保护程序和 X Window 系统软件包，在其 5.68 版本中更新了一个 xscreensaver 端口并修复了一些模块。<a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS">mozilla-nss</a> 的 3.74 版本替换了四个 <a href="https://pki.goog/">Google Trust Services LLC 根证书</a>，添加了一些 iTrusChina 根证书，并在<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">在线证书状态协议</a>响应的 CertID 中添加了对 <a href="https://en.wikipedia.org/wiki/SHA-2">SHA-2</a> 哈希的支持。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FPZXSLBAKLI5JZNU4JNP4O6UVRDJ5KTX/">20220125</a> 带来了一些令人兴奋的系统更新。<a href="https://www.gnu.org/software/bash/">bash</a> 5.1.16 更新中添加了一些补丁；其中一个修复了损坏的输入。另一个修复了 <a href="https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html">posix 模式</a>下赋值语句右侧未引用冒号后的<a href="https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html">波浪号扩展</a>。<a href="https://getfedora.org/">Fedora</a> 的企业级软件包 <a href="https://directory.fedoraproject.org/">389-ds</a> 2.0.13 添加了一个用户界面功能，修复了一个编译器警告。用于访问音频、键盘、鼠标、操纵杆和图形硬件的跨平台开发库 <a href="https://www.libsdl.org/">SDL2</a> 2.0.20 提高了使用 <a href="https://www.opengl.org//">OpenGL</a> 时水平和垂直线条绘制的准确性。棋盘游戏 <a href="https://en.wikipedia.org/wiki/Blokus">Blokus</a> 的计算机对手，<a href="https://github.com/enz/pentobi">pentobi</a> 20.0 的大版本更新主要是针对 <a href="https://www.qt.io/blog/qt-6.2-lts-released">Qt 6.2</a> 中有时会导致未下棋的棋子位置错误的 bug 进行了修复。快照中更新了相当多的 <a href="https://get.opensuse.org/">openSUSE</a> 软件包。<a href="https://github.com/yast/yast-security">yast2-security</a> 4.4.8 的更新修复了一个声明性 <a href="https://gitlab.com/apparmor">AppArmor</a> 选项；<a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.4.76 的更新增加了对 <a href="https://en.wikipedia.org/wiki/RAID">RAID</a> 元数据版本 1.1 和 1.2 的支持； <a href="https://github.com/yast/yast-bootloader">yast2-bootloader</a> 4.4.14、<a href="https://github.com/yast/yast-installation">yast2-installation</a> 4.4.35、<a href="https://github.com/yast/yast-storage-ng">yast2-storage-ng</a> 4.4.33、<a href="https://github.com/yast/yast-autoinstallation">autoyast2</a> 4.4.27 和 <a href="https://yast.opensuse.org/">yast2</a> 4.4.39 只是更新的众多 <a href="https://yast.opensuse.org/">YaST</a> 软件包中的一小部分。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/R3WK5QQ5B3UAAQALOUGNPMDD4UGOW5LP/">20220124</a> 更新了两个包。文本网络浏览器 <a href="https://lynx.invisible-island.net/">lynx</a> 2.9.0.10 更新了一些翻译，并为使用 asan2 和<a href="https://fuzzing-project.org/">模糊器生成的数据</a>发现的问题提供了一些修复。<a href="https://github.com/Z3Prover/z3">z3</a> 4.8.14 更新修复了一些约束，并为<a href="https://en.wikipedia.org/wiki/Automated_theorem_proving">定理证明器</a>提供了一些额外的用户功能。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XFWRVTZEQT4JAVAGMA3RY67M2OT73AJZ/">20220123</a> 引入了 <a href="https://www.virtualbox.org/">virtualbox</a> 6.1.32，它修复了 <a href="https://www.suse.com/security/cve/CVE-2022-21394.html">CVE-2022-21394</a>，该漏洞允许未经授权访问关键数据；该软件包更改了在使用 Hyper-V 时，虚拟机 RAM 管理，以便与<a href="https://docs.microsoft.com/zh-cn/windows-hardware/test/hlk/testref/driver-compatibility-with-device-guard">虚拟机监控程序保护的代码完整性</a>更加兼容。virtualbox 还修复了对一些未正确处理的 USB 设备和设备类的访问。<a href="https://www.mozilla.org/">Mozilla Firefox</a> 96.0.2 修复了导致在 <a href="https://www.kernel.org/">Linux</a> 上播放音频时选项卡高度显示不一致的问题。<a href="https://bind9.readthedocs.io/">Bind</a> 9.16.25 进行了一些更改，以防止在当前读取回调完成之前执行回调。高度可移植的 <a href="https://en.wikipedia.org/wiki/Domain_Name_System">DNS</a> 协议实现在更新中修复了另外七个错误。<a href="https://www.samba.org/">Samba</a> 4.15.3 修复了 <a href="https://www.samba.org/samba/security/CVE-2020-25717.html">CVE-2020-25717</a>，该漏洞使用 Windows 活动目录，可能允许以不希望的方式将域用户映射到本地用户。Samba 还在构建要求中添加了 <a href="https://github.com/openSUSE/python-rpm-macros">python-rpm-macros</a>。快照中要更新的另一个包是 <a href="https://webkitgtk.org/">webkit2gtk3</a> 2.34.4，它修复了几个崩溃和渲染问题；该软件包版本还修复了许多安全问题，包括允许网站读取其他网站创建的 <a href="https://en.wikipedia.org/wiki/Indexed_Database_API">IndexedDB 数据库</a>名称的严重问题。快照中要更新的其他软件包包括 <a href="https://github.com/drowe67/codec2">codec2</a> 1.0.3、<a href="https://salsa.debian.org/iso-codes-team/iso-codes">iso-codes</a> 4.9.0、<a href="https://github.com/openSUSE/kdump">kdump</a> 1.0 等。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K5OSE3BFE3H6E43B52YGM6TGAYQCU5ZF/">20220122</a> 中的 <a href="https://github.com/yast/yast-autoinstallation">autoyast2</a> 4.4.26 更新更改了附加签名设置的处理。快照中包含三个主要版本更新；分别是 <a href="https://pkgs.org/download/systemd-rpm-macros">systemd-rpm-macros</a> 15 和用户空间工具包 <a href="https://github.com/linux-nvme/nvme-cli">nvme-cli</a> 2.0，它修复了一些依赖项和版本字符串。<a href="https://pypi.org/project/ipython/">python-ipython</a> 8.0.1 的大版本更新修复了 <a href="https://www.suse.com/de-de/security/cve/CVE-2022-21699.html">CVE-2022-21699</a> 并从 <a href="https://www.python.org/downloads/release/python-3100/">Python 3.10</a> 向后移植了一些修复。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/P457MFZIC6XQ4XB5UPKOWIBRAQYYVTEB/">20220121</a> 发布了 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 249.9。systemd 此次更新移动了 <a href="https://en.wikipedia.org/wiki/Udev">udev</a> 包中的网络配置 <code class="language-plaintext highlighter-rouge">systemd-network-generator</code>；该生成器可以生成 <code class="language-plaintext highlighter-rouge">.link</code> 文件，主要用于必须使用 udev 的 <code class="language-plaintext highlighter-rouge">initrd</code>。systemd 的更新还删除了一些补丁并修复了未公开的 <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3997">CVE-2021-3997</a>。快照中更新了 <a href="https://libvirt.org/">libvirt</a> 的 8.0 主要版本。<a href="https://libvirt.org/news.html#v8-0-0-2022-01-14">新特性</a>之一是用于磁盘复制操作的 <a href="https://www.qemu.org/">qemu</a> 同步写入模式。快照中要更新的其他软件包包括 <a href="https://en.wikipedia.org/wiki/Ncurses">ncurses</a> 6.3.20220115、<a href="https://flatpak.org/">flatpak</a> 1.12.4、<a href="https://git.kernel.org/pub/scm/linux/storage/autofs/autofs.git">autofs</a> 5.1.8 和 <a href="https://www.gnutls.org/">gnutls</a> 3.7.3 等。</p>
+
+<p>于上周四发布的快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YUYVSC355EMXNBHFRFM7DNTNH35WQ3J5/">20220120</a>，将 <a href="https://www.kernel.org/">Linux Kernel</a> 更新到了 5.16.1 版本。该更新提供了多项<a href="https://en.wikipedia.org/wiki/Bluetooth">蓝牙</a>修复，其中包括针对 MacBook Air 8,1 和 8,2 的修复。根据更新日志，用户空间设置工具 <a href="https://gitlab.com/cryptsetup/cryptsetup/">cryptsetup</a> 2.4.3 的更新修复了 <a href="https://www.suse.com/security/cve/CVE-2021-4122.html">CVE-2021-4122</a>，该漏洞允许通过 <code class="language-plaintext highlighter-rouge">LUKS2</code> 在线重新加密扩展崩溃恢复对数据机密性进行可能的攻击。<a href="https://www.sqlite.org/index.html">sqlite</a> 3.37.2 修复了版本 3.35.0 中引入的错误，该错误可能导致数据库损坏并修复了涉及重置选项的长期问题。<a href="https://github.com/yast/yast-bootloader">yast2-bootloader</a> 4.4.13 的更新增加了对密码保护的支持并增加了对 <a href="https://en.wikipedia.org/wiki/PowerPC">PowerPC</a> <a href="https://en.opensuse.org/openSUSE:UEFI">安全启动</a>的支持。</p>
+
+<p>本周发布的支持 <a href="https://www.arm.com/">arm</a> 架构的 Tumbleweed 快照是 <a href="https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/TOJPWPPCCCZCV7OVQOLU34KW26WV4PTA/">arm 20220125</a> 和 <a href="https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/ZNMXXCPC575EGJVOP6HROKRTLWHUJCIX/">arm 20220123</a>。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2022/01/28/bash-systemd-libvirt-update-in-tw/">Bash, systemd, libvirt Update in Tumbleweed</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html&amp;title=Tumbleweed%20%E4%B8%AD%E7%9A%84%20Bash%E3%80%81systemd%E3%80%81libvirt%20%E6%9B%B4%E6%96%B0"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=Tumbleweed%20%E4%B8%AD%E7%9A%84%20Bash%E3%80%81systemd%E3%80%81libvirt%20%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011–2021 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
