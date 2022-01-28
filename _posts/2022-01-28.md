@@ -1,0 +1,38 @@
+---
+author: Hanjingxue Boling
+date: 2022-01-28 07:30:00 +0800
+layout: post
+license: CC-BY-SA-3.0
+title: Tumbleweed 中的 Bash、systemd、libvirt 更新
+image: /assets/posts/misc/systemd-logo.png
+categories:
+- 更新通告
+tags:
+- Tumbleweed
+- 翻译作品
+- 官方新闻
+---
+
+本周每天都有 openSUSE Tumbleweed 快照。
+
+[Tumbleweed](https://get.opensuse.org/tumbleweed/) 中其他一些值得注意的消息是 [Wicked](https://github.com/openSUSE/wicked) 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 [NetworkManager](https://networkmanager.dev/)。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。
+
+最新的 Tumbleweed 快照是 [20220126](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/COKAP2GGB7YKF2546IHL4UKQ72KSLPU7/)。[Samba](https://www.samba.org/) 本周更新了两次；此快照引入了 4.15.4 版本，该版本提供了一些清理和配置更改。[Linux Kernel](https://www.kernel.org/) 5.16.2 很快从[暂存状态](https://en.opensuse.org/openSUSE:Factory_development_model#Staging_Projects)发布至快照。更新的内核为较新的[联想](https://www.lenovo.com/)笔记本电脑提供了多个 [ALSA](https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture) 修复程序，并为 [s390](https://en.wikipedia.org/wiki/IBM_System/390) 和 [x86](https://en.wikipedia.org/wiki/X86) 架构提供了 [KVM](https://www.linux-kvm.org/page/Main_Page) 修复程序。文本编辑器 vim 在其 8.2.4186 版本中对实验性 [vim9](https://github.com/brammool/vim9/blob/master/README.md) 分支进行了一些修复以及一些额外的更改。[xlockmore](http://sillycycle.com/xlockmore.html) 是一个屏幕保护程序和 X Window 系统软件包，在其 5.68 版本中更新了一个 xscreensaver 端口并修复了一些模块。[mozilla-nss](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS) 的 3.74 版本替换了四个 [Google Trust Services LLC 根证书](https://pki.goog/)，添加了一些 iTrusChina 根证书，并在[在线证书状态协议](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)响应的 CertID 中添加了对 [SHA-2](https://en.wikipedia.org/wiki/SHA-2) 哈希的支持。
+
+快照 [20220125](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FPZXSLBAKLI5JZNU4JNP4O6UVRDJ5KTX/) 带来了一些令人兴奋的系统更新。[bash](https://www.gnu.org/software/bash/) 5.1.16 更新中添加了一些补丁；其中一个修复了损坏的输入。另一个修复了 [posix 模式](https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html)下赋值语句右侧未引用冒号后的[波浪号扩展](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)。[Fedora](https://getfedora.org/) 的企业级软件包 [389-ds](https://directory.fedoraproject.org/) 2.0.13 添加了一个用户界面功能，修复了一个编译器警告。用于访问音频、键盘、鼠标、操纵杆和图形硬件的跨平台开发库 [SDL2](https://www.libsdl.org/) 2.0.20 提高了使用 [OpenGL](https://www.opengl.org//) 时水平和垂直线条绘制的准确性。棋盘游戏 [Blokus](https://en.wikipedia.org/wiki/Blokus) 的计算机对手，[pentobi](https://github.com/enz/pentobi) 20.0 的大版本更新主要是针对 [Qt 6.2](https://www.qt.io/blog/qt-6.2-lts-released) 中有时会导致未下棋的棋子位置错误的 bug 进行了修复。快照中更新了相当多的 [openSUSE](https://get.opensuse.org/) 软件包。[yast2-security](https://github.com/yast/yast-security) 4.4.8 的更新修复了一个声明性 [AppArmor](https://gitlab.com/apparmor) 选项；[libstorage-ng](https://github.com/openSUSE/libstorage-ng) 4.4.76 的更新增加了对 [RAID](https://en.wikipedia.org/wiki/RAID) 元数据版本 1.1 和 1.2 的支持； [yast2-bootloader](https://github.com/yast/yast-bootloader) 4.4.14、[yast2-installation](https://github.com/yast/yast-installation) 4.4.35、[yast2-storage-ng](https://github.com/yast/yast-storage-ng) 4.4.33、[autoyast2](https://github.com/yast/yast-autoinstallation) 4.4.27 和 [yast2](https://yast.opensuse.org/) 4.4.39 只是更新的众多 [YaST](https://yast.opensuse.org/) 软件包中的一小部分。
+
+快照 [20220124](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/R3WK5QQ5B3UAAQALOUGNPMDD4UGOW5LP/) 更新了两个包。文本网络浏览器 [lynx](https://lynx.invisible-island.net/) 2.9.0.10 更新了一些翻译，并为使用 asan2 和[模糊器生成的数据](https://fuzzing-project.org/)发现的问题提供了一些修复。[z3](https://github.com/Z3Prover/z3) 4.8.14 更新修复了一些约束，并为[定理证明器](https://en.wikipedia.org/wiki/Automated_theorem_proving)提供了一些额外的用户功能。
+
+快照 [20220123](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XFWRVTZEQT4JAVAGMA3RY67M2OT73AJZ/) 引入了 [virtualbox](https://www.virtualbox.org/) 6.1.32，它修复了 [CVE-2022-21394](https://www.suse.com/security/cve/CVE-2022-21394.html)，该漏洞允许未经授权访问关键数据；该软件包更改了在使用 Hyper-V 时，虚拟机 RAM 管理，以便与[虚拟机监控程序保护的代码完整性](https://docs.microsoft.com/zh-cn/windows-hardware/test/hlk/testref/driver-compatibility-with-device-guard)更加兼容。virtualbox 还修复了对一些未正确处理的 USB 设备和设备类的访问。[Mozilla Firefox](https://www.mozilla.org/) 96.0.2 修复了导致在 [Linux](https://www.kernel.org/) 上播放音频时选项卡高度显示不一致的问题。[Bind](https://bind9.readthedocs.io/) 9.16.25 进行了一些更改，以防止在当前读取回调完成之前执行回调。高度可移植的 [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) 协议实现在更新中修复了另外七个错误。[Samba](https://www.samba.org/) 4.15.3 修复了 [CVE-2020-25717](https://www.samba.org/samba/security/CVE-2020-25717.html)，该漏洞使用 Windows 活动目录，可能允许以不希望的方式将域用户映射到本地用户。Samba 还在构建要求中添加了 [python-rpm-macros](https://github.com/openSUSE/python-rpm-macros)。快照中要更新的另一个包是 [webkit2gtk3](https://webkitgtk.org/) 2.34.4，它修复了几个崩溃和渲染问题；该软件包版本还修复了许多安全问题，包括允许网站读取其他网站创建的 [IndexedDB 数据库](https://en.wikipedia.org/wiki/Indexed_Database_API)名称的严重问题。快照中要更新的其他软件包包括 [codec2](https://github.com/drowe67/codec2) 1.0.3、[iso-codes](https://salsa.debian.org/iso-codes-team/iso-codes) 4.9.0、[kdump](https://github.com/openSUSE/kdump) 1.0 等。
+
+快照 [20220122](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K5OSE3BFE3H6E43B52YGM6TGAYQCU5ZF/) 中的 [autoyast2](https://github.com/yast/yast-autoinstallation) 4.4.26 更新更改了附加签名设置的处理。快照中包含三个主要版本更新；分别是 [systemd-rpm-macros](https://pkgs.org/download/systemd-rpm-macros) 15 和用户空间工具包 [nvme-cli](https://github.com/linux-nvme/nvme-cli) 2.0，它修复了一些依赖项和版本字符串。[python-ipython](https://pypi.org/project/ipython/) 8.0.1 的大版本更新修复了 [CVE-2022-21699](https://www.suse.com/de-de/security/cve/CVE-2022-21699.html) 并从 [Python 3.10](https://www.python.org/downloads/release/python-3100/) 向后移植了一些修复。
+
+快照 [20220121](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/P457MFZIC6XQ4XB5UPKOWIBRAQYYVTEB/) 发布了 [systemd](https://freedesktop.org/wiki/Software/systemd/) 249.9。systemd 此次更新移动了 [udev](https://en.wikipedia.org/wiki/Udev) 包中的网络配置 `systemd-network-generator`；该生成器可以生成 `.link` 文件，主要用于必须使用 udev 的 `initrd`。systemd 的更新还删除了一些补丁并修复了未公开的 [CVE-2021-3997](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3997)。快照中更新了 [libvirt](https://libvirt.org/) 的 8.0 主要版本。[新特性](https://libvirt.org/news.html#v8-0-0-2022-01-14)之一是用于磁盘复制操作的 [qemu](https://www.qemu.org/) 同步写入模式。快照中要更新的其他软件包包括 [ncurses](https://en.wikipedia.org/wiki/Ncurses) 6.3.20220115、[flatpak](https://flatpak.org/) 1.12.4、[autofs](https://git.kernel.org/pub/scm/linux/storage/autofs/autofs.git) 5.1.8 和 [gnutls](https://www.gnutls.org/) 3.7.3 等。
+
+于上周四发布的快照 [20220120](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YUYVSC355EMXNBHFRFM7DNTNH35WQ3J5/)，将 [Linux Kernel](https://www.kernel.org/) 更新到了 5.16.1 版本。该更新提供了多项[蓝牙](https://en.wikipedia.org/wiki/Bluetooth)修复，其中包括针对 MacBook Air 8,1 和 8,2 的修复。根据更新日志，用户空间设置工具 [cryptsetup](https://gitlab.com/cryptsetup/cryptsetup/) 2.4.3 的更新修复了 [CVE-2021-4122](https://www.suse.com/security/cve/CVE-2021-4122.html)，该漏洞允许通过 `LUKS2` 在线重新加密扩展崩溃恢复对数据机密性进行可能的攻击。[sqlite](https://www.sqlite.org/index.html) 3.37.2 修复了版本 3.35.0 中引入的错误，该错误可能导致数据库损坏并修复了涉及重置选项的长期问题。[yast2-bootloader](https://github.com/yast/yast-bootloader) 4.4.13 的更新增加了对密码保护的支持并增加了对 [PowerPC](https://en.wikipedia.org/wiki/PowerPC) [安全启动](https://en.opensuse.org/openSUSE:UEFI)的支持。
+
+本周发布的支持 [arm](https://www.arm.com/) 架构的 Tumbleweed 快照是 [arm 20220125](https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/TOJPWPPCCCZCV7OVQOLU34KW26WV4PTA/) 和 [arm 20220123](https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/ZNMXXCPC575EGJVOP6HROKRTLWHUJCIX/)。
+
+------
+
+原文：[Bash, systemd, libvirt Update in Tumbleweed](https://news.opensuse.org/2022/01/28/bash-systemd-libvirt-update-in-tw/)，作者：Douglas DeMaio
