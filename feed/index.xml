@@ -7,6 +7,30 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/03/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E5%92%8C-IRC-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>版本控制工具和 IRC 客户端在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 03 Feb 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/03/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E5%92%8C-IRC-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 本周发布了四个快照，更新了 Internet Relay Chat 客户端和 Ruby 新的默认版本。 版本控制包 git 在快照 20220201 中更新。git 2.35.1 版本现在使用 --show-stash 显示存储条目的数量，就像正常输出一样。git grep 使用的调色板已更新以匹配 GNU grep。Mozilla Firefox 96.0.3 更新修复了允许在某些搜索遥测中提交意外数据的问题。 Google 的数据交换格式 protobuf 3.19.4 修复了当消息中的可选字段数量是 32 的精确倍数时发生的数据丢失错误；这影响了快照中的 Ruby 和 php。快照中要更新的其他包是 yast 4.4.43、python-fsspec 2022.1.0、suse-module-tools 16.0.19) 和已转换为非对称通信的包容性命名的 yast2-network 4.4.35。 IRC 客户端 hexchat 是快照 20220131 中更新的单个包。hexchat 2.16.0 版本更新了网络列表，并将...</description>
+      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 本周发布了四个快照，更新了 Internet Relay Chat 客户端和 Ruby 新的默认版本。&lt;/p&gt;
+
+&lt;p&gt;版本控制包 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YWNQRTG5H47AML2HJKKIBFE7ML44YRUE/&quot;&gt;20220201&lt;/a&gt; 中更新。git 2.35.1 版本现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--show-stash&lt;/code&gt; 显示存储条目的数量，就像正常输出一样。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git grep&lt;/code&gt; 使用的调色板已更新以匹配 &lt;a href=&quot;https://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt;。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 96.0.3 更新修复了允许在某些搜索&lt;a href=&quot;https://en.wikipedia.org/wiki/Telemetry&quot;&gt;遥测&lt;/a&gt;中提交意外数据的问题。 Google 的数据交换格式 &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;protobuf&lt;/a&gt; 3.19.4 修复了当消息中的可选字段数量是 32 的精确倍数时发生的数据丢失错误；这影响了快照中的 &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 和 &lt;a href=&quot;https://www.php.net/&quot;&gt;php&lt;/a&gt;。快照中要更新的其他包是 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast&lt;/a&gt; 4.4.43、&lt;a href=&quot;https://pypi.org/project/fsspec/&quot;&gt;python-fsspec&lt;/a&gt; 2022.1.0、&lt;a href=&quot;https://github.com/openSUSE/suse-module-tools&quot;&gt;suse-module-tools&lt;/a&gt; 16.0.19) 和已转换为非对称通信的包容性命名的 &lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.4.35。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt; 客户端 &lt;a href=&quot;https://github.com/hexchat/hexchat&quot;&gt;hexchat&lt;/a&gt; 是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/65GJNT2PZQPBH5XPITG6O6W4TH2KRXFC/&quot;&gt;20220131&lt;/a&gt; 中更新的单个包。hexchat 2.16.0 版本更新了网络列表，并将 &lt;a href=&quot;https://libera.chat/&quot;&gt;Libera.Chat&lt;/a&gt; 作为默认值。聊天客户端还修复了各种解析问题并增加了对&lt;del&gt;删除线格式&lt;/del&gt;的支持。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HRHXQPD2YDB63GUHTJNKWEXRESZ7QRJW/&quot;&gt;20220130&lt;/a&gt; 更新 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.44；这个音频和视频包更改了一些属性，可以将缓冲区大小配置为大于 8192，这是 &lt;a href=&quot;https://jackaudio.org/&quot;&gt;JACK&lt;/a&gt; 应用程序使用硬编码的限制。该软件包还可以在没有会话管理器的情况下运行最小的 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 服务器，足以运行 JACK 客户端。&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 默认版本已更新至 3.1 版。该版本带来了改进的调试性能，支持远程调试并合并了 YJIT，这是 &lt;a href=&quot;https://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; 开发的新的进程内&lt;a href=&quot;https://en.wikipedia.org/wiki/Just-in-time_compilation&quot;&gt;即时编译器&lt;/a&gt;。快照中的 &lt;a href=&quot;https://docs.saltproject.io/en/master/topics/releases/3004.html&quot;&gt;Salt 3004&lt;/a&gt; 带来了新功能。像 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 这样的事务性系统的新模块带来了挑战，然而 Salt 3004 通过两个新模块， &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional_update&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rebootmgr&lt;/code&gt;，以及一个新的执行器 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional_update&lt;/code&gt; 支持&lt;a href=&quot;https://en.wikipedia.org/wiki/Atomicity_(database_systems)&quot;&gt;原子性&lt;/a&gt;系统；这些模块将有助于透明地对待事务性系统。&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.70.3 更新修复了在 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 上保存文件时由于缺少 &lt;a href=&quot;https://man7.org/linux/man-pages/man2/fdatasync.2.html&quot;&gt;fsync&lt;/a&gt; 而导致的潜在数据丢失。快照中要更新的其他软件包包括 &lt;a href=&quot;http://snapper.io/&quot;&gt;snapper&lt;/a&gt; 0.9.1、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.78、&lt;a href=&quot;https://gitlab.freedesktop.org/bolt/bolt&quot;&gt;bolt&lt;/a&gt; 0.9.2 和 &lt;a href=&quot;https://www.gnu.org/software/freeipmi/&quot;&gt;freeipmi&lt;/a&gt; 1.6.9 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WUETGRQZC6LW4NZZU2IM3IUL5WI5HS4I/&quot;&gt;20220128&lt;/a&gt; 更新了 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt;；该更新提供了巴西葡萄牙语的翻译。本周初还更新了 &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;protobuf&lt;/a&gt; 3.19.3 版本，改进了解析性能并对齐了构建包的依赖处理最佳实践。网络和硬件实用程序包 &lt;a href=&quot;https://mirrors.edge.kernel.org/pub/software/network/ethtool/&quot;&gt;ethtool&lt;/a&gt; 5.16 添加了一些新功能，例如使用内存映射来解析模块 &lt;a href=&quot;https://en.wikipedia.org/wiki/EEPROM&quot;&gt;EEPROM&lt;/a&gt;，并修复了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--show-fec&lt;/code&gt; 显示的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Error_correction_code#Forward_error_correction&quot;&gt;FEC&lt;/a&gt; 模式的转储。&lt;a href=&quot;https://www.proofpoint.com/us/products/email-protection/open-source-email-solution&quot;&gt;sendmail&lt;/a&gt; 8.17.1 包解决了几个潜在的内存泄漏和其他与错误处理相关的类似问题。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 的策略管理器包 &lt;a href=&quot;https://pipewire.pages.freedesktop.org/wireplumber/&quot;&gt;wireplumber&lt;/a&gt; 0.4.7 修复了导致默认音频源选择延迟的回归，并修复了影响回声消除 pipewire 模块的回归。快照中还更新了几个 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 和 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; 包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/04/vc-tool-irc-client-update-in-tw/&quot;&gt;Version Control Tool, IRC Client Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/%E5%8F%91%E5%B8%83%E7%BB%8F%E7%90%86%E5%9C%A8%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%B8%AD%E6%8F%90%E4%BE%9B%E7%A4%BE%E5%8C%BA%E6%9B%B4%E6%96%B0.html</guid>
       <title>发布经理在桌面环境中提供社区更新</title>
       <pubDate>Thu, 27 Jan 2022 17:30:00 -0600</pubDate>
@@ -300,63 +324,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/17/os-begins-annual-survey/&quot;&gt;openSUSE Begins Annual Survey&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/12/27/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81.html</guid>
-      <title>下载重定向器当前状态</title>
-      <pubDate>Mon, 27 Dec 2021 23:30:00 -0600</pubDate>
-      <link>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2021/12/27/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E5%BD%93%E5%89%8D%E7%8A%B6%E6%80%81.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>下载重定向器当前状态（download.opensuse.org） 介绍 软件包更新在 openSUSE 世界中是一个有点争议的点，有时与有问题的用户体验有关，尤其是对于欧洲和美国以外的用户。 重要的是要了解与其他发行版中的经验进行比较是有争议的，因为 openSUSE 基础设施不仅负责下载 Leap 和 Tumbleweed 软件包，还可能负责任何受支持架构/操作系统上的任何其他 OBS 项目。这使得 openSUSE 基础设施需要关注约 95000 个各种项目，每个项目都可以随时接收更新；相比之下，在其他 Linux 供应商的典型基础架构中，只有5-8个项目有或多或少确定的发布时间表。 现在，有人可以指出 openSUSE 可以拆分这些挑战，为 Leap 和 Tumbleweed 等选定项目提供更一致的体验，并为其他 OBS 项目提供单独的解决方案。这种方式可以最大限度地减少大多数用户和新手体验不佳的几率。这将是一个正确的观点，只是它不会使整体技术挑战变得更简单，并且可能需要更多资源来启用和支持这两种解决方案。无论如何，本文无意深入讨论此类讨论，其主要目标是服务一般 OBS 下载和 Leap/Tumbleweed 下载作为其中的一部分。 MirrorBrain 在历史上，download.opensuse.org 背后的下载重定向器是 MirrorBrain 项目。我在 2020 年 5 月左右开始为它做出贡献，在那年早些时候有一些故障排除经验。我引入了一个 CI 环境，修复了一些 bug，还有一些其他的计划。 但是，考虑到部署和故障排除 —— 通过大量的 cron 作业日志来描绘正在发生的事情是一种令人懊恼的经历。如果没有在如此繁忙的环境中任何部署和维护...</description>
-      <content:encoded>&lt;h1 id=&quot;下载重定向器当前状态downloadopensuseorg&quot;&gt;下载重定向器当前状态（&lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt;）&lt;/h1&gt;
-
-&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
-
-&lt;p&gt;软件包更新在 openSUSE 世界中是一个有点争议的点，有时与有问题的用户体验有关，尤其是对于欧洲和美国以外的用户。&lt;/p&gt;
-
-&lt;p&gt;重要的是要了解与其他发行版中的经验进行比较是有争议的，因为 openSUSE 基础设施不仅负责下载 Leap 和 Tumbleweed 软件包，还可能负责任何受支持架构/操作系统上的任何其他 OBS 项目。这使得 openSUSE 基础设施需要关注约 95000 个各种项目，每个项目都可以随时接收更新；相比之下，在其他 Linux 供应商的典型基础架构中，只有5-8个项目有或多或少确定的发布时间表。&lt;/p&gt;
-
-&lt;p&gt;现在，有人可以指出 openSUSE 可以拆分这些挑战，为 Leap 和 Tumbleweed 等选定项目提供更一致的体验，并为其他 OBS 项目提供单独的解决方案。这种方式可以最大限度地减少大多数用户和新手体验不佳的几率。这将是一个正确的观点，只是它不会使整体技术挑战变得更简单，并且可能需要更多资源来启用和支持这两种解决方案。无论如何，本文无意深入讨论此类讨论，其主要目标是服务一般 OBS 下载和 Leap/Tumbleweed 下载作为其中的一部分。&lt;/p&gt;
-
-&lt;h2 id=&quot;mirrorbrain&quot;&gt;MirrorBrain&lt;/h2&gt;
-
-&lt;p&gt;在历史上，download.opensuse.org 背后的下载重定向器是 &lt;a href=&quot;https://mirrorbrain.org/&quot;&gt;MirrorBrain&lt;/a&gt; 项目。我在 2020 年 5 月左右开始为它做出贡献，在那年早些时候有一些故障排除经验。我引入了一个 CI 环境，修复了一些 bug，还有一些其他的计划。 但是，考虑到部署和故障排除 —— 通过大量的 cron 作业日志来描绘正在发生的事情是一种令人懊恼的经历。如果没有在如此繁忙的环境中任何部署和维护 MirrorBrain 的经验 —— 我几乎没有机会快速成功改进 openSUSE 基础设施。此外：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;由于镜像扫描期间发生死锁，SQL 模式需要返工；&lt;/li&gt;
-  &lt;li&gt;MirrorBrain 是 python/Perl/C（apache2 插件）/cron 的混合体，感觉有点散乱；&lt;/li&gt;
-  &lt;li&gt;使用额外的 WebUI 来管理镜像、管理任务、报告等的需求很可能会引入额外的框架并使项目更加复杂。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;为了控制和排除信息流故障，我迫切需要一个合适的作业队列。由于我之前的项目与 OpenQA 相关 —— 我清楚地了解如何使用 Mojolicious 框架，必要时重用 OpenQA 的部分代码来应对挑战。&lt;/p&gt;
-
-&lt;p&gt;所以我打算在 MirrorBrain 中添加一个作业队列，但是一种新的感觉很快就产生了 —— 看起来我试图在同一个 git repo 中管理两个项目，事情变得更加复杂。所以我决定拆分成一个新项目，看看进展如何。&lt;/p&gt;
-
-&lt;h2 id=&quot;mirrorcache&quot;&gt;MirrorCache&lt;/h2&gt;
-
-&lt;p&gt;因此，目前发送到 &lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt; 的 SSL 加密流量（https 请求）被重定向到新的重定向器服务 —— &lt;a href=&quot;http://mirrorcache.opensuse.org/&quot;&gt;mirrorcache.opensuse.org&lt;/a&gt;。这是一个明显的开始，因为 MirrorBrain 缺少 http / https 路由，并且当前 https 负载量比 http 小几倍，这提供了一个很好的机会在较小的负载下测试性能。&lt;/p&gt;
-
-&lt;p&gt;此外，北美镜像由 &lt;a href=&quot;http://mirrorcache-us.opensuse.org/&quot;&gt;mirrorcache-us.opensuse.org&lt;/a&gt; 管理，大洋洲镜像由 &lt;a href=&quot;http://mirrorcache-au.opensuse.org/&quot;&gt;mirrorcache-au.opensuse.org&lt;/a&gt;（又名 &lt;a href=&quot;http://mirrorcache.firstyer.id.au/&quot;&gt;mirrorcache.firstyer.id.au&lt;/a&gt; —— 感谢 William Brown！）管理，因此来自这些地区被送到 &lt;a href=&quot;http://mirrorcache.opensuse.org/&quot;&gt;mirrorcache.opensuse.org&lt;/a&gt; 的请求被相应地重定向。已有一些计划让 zypper 了解区域实例，但它们处于早期设计阶段。&lt;/p&gt;
-
-&lt;p&gt;因此，如果你在大洋洲或北美地区 —— 请考虑直接使用你当地的镜像缓存实例，而不是进行跨大陆请求。也可以考虑调整访问权限以使用 https &lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt;。（不像 https 大大提高了安全性，但是无论如何它是一个很好的做法）。&lt;/p&gt;
-
-&lt;p&gt;特权用户现在可以选择使用 https://mirrorcache.opensuse.org/app/server 上的 WebUI 编辑镜像的详细信息，并且计划引入单独的镜像管理员，以便每个人都可以添加和维护自己的镜像。&lt;/p&gt;
-
-&lt;p&gt;请继续关注有关从 MirrorBrain 到 MirrorCache 的完全切换以及更多区域性镜像缓存实例的更多消息。&lt;/p&gt;
-
-&lt;h2 id=&quot;有用的链接&quot;&gt;有用的链接&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;为你的机器明确配置 MirrorCache：https://en.opensuse.org/MirrorCache#Setting_up_MirrorCache_for_your_machine&lt;/li&gt;
-  &lt;li&gt;故障排除：https://en.opensuse.org/MirrorCache#Troubleshooting&lt;/li&gt;
-  &lt;li&gt;寻求帮助：https://en.opensuse.org/MirrorCache#How_to_get_help&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2021/12/23/download-redirector-state/&quot;&gt;Download redirector current state&lt;/a&gt;，作者：Andrii Nikitin&lt;/p&gt;
 </content:encoded>
     </item>
 
