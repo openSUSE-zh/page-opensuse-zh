@@ -1,0 +1,33 @@
+---
+author: Hanjingxue Boling
+date: 2022-02-11 07:30:00 +0800
+layout: post
+license: CC-BY-SA-3.0
+title: 最新的 Plasma 已在 Tumbleweed 上发布，即将登录 Leap Beta
+image: /assets/posts/2022-02/plasma.png
+categories:
+- 更新通告
+tags:
+- Tumbleweed
+- 翻译作品
+- 官方新闻
+- KDE
+---
+
+本周的 [openSUSE](https://get.opensuse.org/) [Tumbleweed](https://get.opensuse.org/tumbleweed/) 快照不仅为滚动发布用户带来了激动人心的消息，也为长期使用 [Leap](https://get.opensuse.org/leap) 版本的用户带来了重大消息。
+
+[KDE](https://kde.org/) 的下一个长期支持 (LTS) 版本 [Plasma 5.24](https://kde.org/announcements/plasma/5/5.24.0/) 在最近的快照中发布，它为 Tumbleweed 和 Leap 用户带来了 “Perfect Harmony”。[Plasma 5.24](https://kde.org/announcements/plasma/5/5.24.0/) 将成为 [Leap 15.4](https://get.opensuse.org/testing/) 中的桌面环境之一；根据[路线图](https://en.opensuse.org/openSUSE:Roadmap)，Leap 15.4 的 beta 版本预计将在未来几周内发布，用于测试新的 Plasma 版本。
+
+[Plasma 5.24](https://kde.org/announcements/plasma/5/5.24.0/) 在快照 [20220207](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/64QHKSSL6RL2WF4MHMNMYC33LWDMVEEE/) 中发布。该版本在外观和易用性方面有所改进。在过渡到 [Plasma 6](https://community.kde.org/Schedules/Plasma_6) 之前，它是 Plasma 5 的最终版本。Plasma 的默认主题 [Breeze](https://community.kde.org/Get_Involved/design/Breeze) 进行了更改，从而提高了桌面环境的视觉一致性。Breeze 允许用户选择强调色，浅色/深色首选项为尊重 FreeDesktop 首选项的非 KDE 应用程序提供了基于所选配色方案的自动浅色或深色开关。[Discover](https://apps.kde.org/discover/) 让用户可以选择在更新完成后自动重启。只需单击“更新”页面底部的复选框，用户就可以休息一下，稍后就能回到已重启更新完毕的系统。更新中还有其他几项功能改进，人们可以观看为该版本开发的 [Honeywave 壁纸](https://youtu.be/ofxf7xCOuQQ)的构建，因为它在 YouTube 上直播。[Linux Kernel](https://www.kernel.org/) 5.16.5 更新为半导体公司兼 openSUSE 赞助商 [Marvell](https://www.marvell.com/) 带来了一些变化；其中大部分集中在 [OCTEON® TX2](https://www.marvell.com/content/dam/marvell/en/company/media-kit/infrastructure-processors/marvell-octeon-tx2-press-deck.pdf) 处理器系列的修复和赋能上。Facebook 的快速压缩包 [zstd](https://github.com/facebook/zstd) 更新到 1.5.2 版，做了一些规范文件清理并启用了 zlib/gzip 兼容的后端，因为压缩库 [zlib](https://github.com/madler/zlib) 被证明比 [gzip](https://www.gnu.org/software/gzip/) 快得多。快照中更新了大约 50 个 [RubyGem](https://rubygems.org/) 包，而 [ruby​​gem-spring 4.0.0](https://rubygems.org/gems/spring/versions/4.0.0) 是快照中唯一的主要版本更新。
+
+本周的一些每日快照体积很大，快照 [20220206](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HMLM76HDAOWYCBJQUWA4QSFGXYW7SGRE/) 更新了大量软件包。[Mesa](https://www.mesa3d.org/) 21.3.5 和 Mesa-drivers 21.3.5 的更新修复了 Zink 驱动程序错误。[libstorage-ng](https://github.com/openSUSE/libstorage-ng) 4.4.79 更新了芬兰语翻译，openSUSE 的 [opensuse-welcome](https://software.opensuse.org/package/opensuse-welcome) 0.1.8 版本也更新了翻译。Google 正则表达式库 [re2](https://github.com/google/re2) 20220201 的季度更新解决了来自 [Clang](https://clang.llvm.org/) 13.x 和 [yast2-storage-ng](https://github.com/yast/yast-storage-ng) 4.4.35 的 `-Wunused-but-set-variable` 警告改进了与 yast2-nfs-client 的集成以提供一致的用户体验。快照中要更新的其他软件包是 [xwayland](https://wayland.freedesktop.org/xserver.html) 22.0.99.902、[llvm13](https://github.com/llvm/llvm-project) 13.0.1 和 [python-Pillow](https://pypi.org/project/Pillow/) 9.0.1。
+
+快照 [20220205](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZXZAZ3YS4PL3CEVO7URFN7A77WM3Z6CX/) 共发布了六个包。文本编辑器 [vim](https://www.vim.org/) 8.2.4286 在更改日志中指出，使用 `CTRL V` 输入字符可能包含修饰符。vim 此次更新还修复了两个 [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)：[CVE-2022-0417](https://www.suse.com/de-de/security/cve/CVE-2022-0417.html) 和 [CVE-2022-0393](https://www.suse.com/security/cve/CVE-2022-0393.html)。文件系统实用程序 [e2fsprogs](https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git) 更新 1.46.5 版本，修复了崩溃并修复了将超出索引节点限制的调整文件系统大小的操作。轻量级编程语言 [lua54 5.4.4](https://www.lua.org/versions.html) 修复了一些错误并删除了两个补丁；如果 `--with-caps` 指定的文件不存在，[ncurses](https://en.wikipedia.org/wiki/Ncurses) 6.3.20220129 会在配置脚本中添加警告。本次快照还更新了 [yast2-core](https://github.com/yast/yast-core) 4.4.1 和 [yast2-country](https://github.com/yast/yast-country) 4.4.11；后者修复了 `localectl set-locale` 的参数。
+
+快照 [20220204](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SBJ37SGLEFT2T73LCAQUEFSEGWE7GEN3/) 带来了 [KDE Gear 21.12.2](https://kde.org/announcements/gear/21.12.2/)。文件管理器 [Dolphin](https://apps.kde.org/dolphin/) 改进了文件的缩放。 视频编辑器 Kdenlive 修复了仅存在一个空帧时有时无法将分组剪辑向右移动的问题。它还修复了尝试拖动刚刚添加到 Bin 的剪辑时的冻结问题。[Kmail](https://apps.kde.org/kmail2/) 修复了 [GCC](https://gcc.gnu.org/) 12 的构建问题，学习工具 [kgeography](https://edu.kde.org/kgeography/) 修复了[美国小岛 Howland、Baker 和 Jarvis 岛的颜色](https://bugs.kde.org/show_bug.cgi?id=449048)。Amazon Web Services 的通用命令行界面 [aws-cli](https://github.com/aws/aws-cli) 1.22.46 更新了 `setup.py` 中规范文件中的要求。该版本为 [Sagemaker Neo](https://aws.amazon.com/sagemaker/neo/) 添加了新的 NNA 加速器编译支持，用于优化机器学习。patterns-kde 20220203 在更新中添加了 [Qt 6](https://www.qt.io/product/qt6) 开发模式。[findutils 4.9.0](https://www.gnu.org/software/findutils/manual/html_mono/find.html) 和 git + 版本的移动 shell [mosh](https://mosh.org/) 1.3.2 都在快照中进行了更新。
+
+本周开始的两个快照发布了一些软件包。虽然快照 [20220202](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PNIZSX7UVKRFPAYHF4ZXCPSTKL32XGMK/) 主要更新了 [RubyGem](https://rubygems.org/) 包，但快照 [20220203](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PWPNABJGMBZIKPPOLYZSWVSV7DKG4ECQ/) 有更多 [PyPI](https://pypi.org/) 和 [YaST](https://yast.opensuse.org/) 包的更新。快照 20220203 为广大用户提供了多个软件包更新。音频包 [PipeWire](https://pipewire.org/) 更新了 0.3.45 版本，应该再次能够在 Zoom、telegram 和其他应用程序中播放声音。PipeWire 中的默认接收器和源名称和属性也得到了改进。[ImageMagick](https://imagemagick.org/index.php) 7.1.0.22 更新了对前景和背景图像的无缝和显着性混合的支持。用于视觉障碍人士的屏幕阅读器包 [orca](https://wiki.gnome.org/Projects/Orca)，已更新至 41.2 版，修复了几个错误，提高了处理性能并增加了更多的[洪泛事件](https://en.wikipedia.org/wiki/Flooding_(computer_networking))检测。内核转储帮助程序包 [kdump](https://github.com/openSUSE/kdump) 1.0.2 修复了网络接口命名并添加了对 `kdumptool` 的依赖。快照 20220203 中要更新的其他软件包是 [sudo](https://www.sudo.ws/) 1.9.9 和 [samba](https://www.samba.org/) 4.15.5 的 git + 更新。快照 [20220202](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PNIZSX7UVKRFPAYHF4ZXCPSTKL32XGMK/) 更新至 [Linux 内核](https://www.kernel.org/) 5.16.4，通过更改 [MTD](https://en.wikipedia.org/wiki/Memory_Technology_Device) 对[闪存](https://en.wikipedia.org/wiki/Flash_memory)进行了相当大的改进。XML 解析器库 [expat](https://libexpat.github.io/) 2.4.4 修复了影响整数溢出的 [CVE-2022-23852](https://www.suse.com/security/cve/CVE-2022-23852.html) 和 [CVE-2022-23990](https://www.suse.com/security/cve/CVE-2022-23990.html)。在快照中要更新的 26 个 [RubyGem](https://rubygems.org/) 包中，[rubygem-hashie 5.0.0](https://rubygems.org/gems/hashie) 是唯一一个有主要版本更新的包，它添加了通过 `to_hash` 方法从非重要的包中导出普通哈希。
+
+------
+
+原文：[Latest Plasma Lands in Tumbleweed, Set for Leap Beta](https://news.opensuse.org/2022/02/11/plasma-lands-in-tw-set-leap-beta/)，作者：Douglas DeMaio
