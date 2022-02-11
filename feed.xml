@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/10/%E6%9C%80%E6%96%B0%E7%9A%84-Plasma-%E5%B7%B2%E5%9C%A8-Tumbleweed-%E4%B8%8A%E5%8F%91%E5%B8%83-%E5%8D%B3%E5%B0%86%E7%99%BB%E5%BD%95-Leap-Beta.html</guid>
+      <title>最新的 Plasma 已在 Tumbleweed 上发布，即将登录 Leap Beta</title>
+      <pubDate>Thu, 10 Feb 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/10/%E6%9C%80%E6%96%B0%E7%9A%84-Plasma-%E5%B7%B2%E5%9C%A8-Tumbleweed-%E4%B8%8A%E5%8F%91%E5%B8%83-%E5%8D%B3%E5%B0%86%E7%99%BB%E5%BD%95-Leap-Beta.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周的 openSUSE Tumbleweed 快照不仅为滚动发布用户带来了激动人心的消息，也为长期使用 Leap 版本的用户带来了重大消息。 KDE 的下一个长期支持 (LTS) 版本 Plasma 5.24 在最近的快照中发布，它为 Tumbleweed 和 Leap 用户带来了 “Perfect Harmony”。Plasma 5.24 将成为 Leap 15.4 中的桌面环境之一；根据路线图，Leap 15.4 的 beta 版本预计将在未来几周内发布，用于测试新的 Plasma 版本。 Plasma 5.24 在快照 20220207 中发布。该版本在外观和易用性方面有所改进。在过渡到 Plasma 6 之前，它是 Plasma 5 的最终版本。Plasma 的默认主题 Breeze 进行了更改，从而提高了桌面环境的视觉一致性。Breeze 允许用户选择强调色，浅色/深色首选项为尊重 FreeDesktop 首选项的非 KDE 应用程序提供了基于所选配色方案的自动浅色或深色开关。Discover 让用户可以选择在更新完成后自动重启。只需单击“更新”页面底部的复选框，用户就可以休息一下，稍后就能回到已重启更新完毕的系统。更新中还有其他几项功能改进，人们可以观看为该版本开发的...</description>
+      <content:encoded>&lt;p&gt;本周的 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照不仅为滚动发布用户带来了激动人心的消息，也为长期使用 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 版本的用户带来了重大消息。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的下一个长期支持 (LTS) 版本 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.0/&quot;&gt;Plasma 5.24&lt;/a&gt; 在最近的快照中发布，它为 Tumbleweed 和 Leap 用户带来了 “Perfect Harmony”。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.0/&quot;&gt;Plasma 5.24&lt;/a&gt; 将成为 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 15.4&lt;/a&gt; 中的桌面环境之一；根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，Leap 15.4 的 beta 版本预计将在未来几周内发布，用于测试新的 Plasma 版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.0/&quot;&gt;Plasma 5.24&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/64QHKSSL6RL2WF4MHMNMYC33LWDMVEEE/&quot;&gt;20220207&lt;/a&gt; 中发布。该版本在外观和易用性方面有所改进。在过渡到 &lt;a href=&quot;https://community.kde.org/Schedules/Plasma_6&quot;&gt;Plasma 6&lt;/a&gt; 之前，它是 Plasma 5 的最终版本。Plasma 的默认主题 &lt;a href=&quot;https://community.kde.org/Get_Involved/design/Breeze&quot;&gt;Breeze&lt;/a&gt; 进行了更改，从而提高了桌面环境的视觉一致性。Breeze 允许用户选择强调色，浅色/深色首选项为尊重 FreeDesktop 首选项的非 KDE 应用程序提供了基于所选配色方案的自动浅色或深色开关。&lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 让用户可以选择在更新完成后自动重启。只需单击“更新”页面底部的复选框，用户就可以休息一下，稍后就能回到已重启更新完毕的系统。更新中还有其他几项功能改进，人们可以观看为该版本开发的 &lt;a href=&quot;https://youtu.be/ofxf7xCOuQQ&quot;&gt;Honeywave 壁纸&lt;/a&gt;的构建，因为它在 YouTube 上直播。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.16.5 更新为半导体公司兼 openSUSE 赞助商 &lt;a href=&quot;https://www.marvell.com/&quot;&gt;Marvell&lt;/a&gt; 带来了一些变化；其中大部分集中在 &lt;a href=&quot;https://www.marvell.com/content/dam/marvell/en/company/media-kit/infrastructure-processors/marvell-octeon-tx2-press-deck.pdf&quot;&gt;OCTEON® TX2&lt;/a&gt; 处理器系列的修复和赋能上。Facebook 的快速压缩包 &lt;a href=&quot;https://github.com/facebook/zstd&quot;&gt;zstd&lt;/a&gt; 更新到 1.5.2 版，做了一些规范文件清理并启用了 zlib/gzip 兼容的后端，因为压缩库 &lt;a href=&quot;https://github.com/madler/zlib&quot;&gt;zlib&lt;/a&gt; 被证明比 &lt;a href=&quot;https://www.gnu.org/software/gzip/&quot;&gt;gzip&lt;/a&gt; 快得多。快照中更新了大约 50 个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; 包，而 &lt;a href=&quot;https://rubygems.org/gems/spring/versions/4.0.0&quot;&gt;ruby​​gem-spring 4.0.0&lt;/a&gt; 是快照中唯一的主要版本更新。&lt;/p&gt;
+
+&lt;p&gt;本周的一些每日快照体积很大，快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HMLM76HDAOWYCBJQUWA4QSFGXYW7SGRE/&quot;&gt;20220206&lt;/a&gt; 更新了大量软件包。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.3.5 和 Mesa-drivers 21.3.5 的更新修复了 Zink 驱动程序错误。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.79 更新了芬兰语翻译，openSUSE 的 &lt;a href=&quot;https://software.opensuse.org/package/opensuse-welcome&quot;&gt;opensuse-welcome&lt;/a&gt; 0.1.8 版本也更新了翻译。Google 正则表达式库 &lt;a href=&quot;https://github.com/google/re2&quot;&gt;re2&lt;/a&gt; 20220201 的季度更新解决了来自 &lt;a href=&quot;https://clang.llvm.org/&quot;&gt;Clang&lt;/a&gt; 13.x 和 &lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.4.35 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Wunused-but-set-variable&lt;/code&gt; 警告改进了与 yast2-nfs-client 的集成以提供一致的用户体验。快照中要更新的其他软件包是 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 22.0.99.902、&lt;a href=&quot;https://github.com/llvm/llvm-project&quot;&gt;llvm13&lt;/a&gt; 13.0.1 和 &lt;a href=&quot;https://pypi.org/project/Pillow/&quot;&gt;python-Pillow&lt;/a&gt; 9.0.1。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZXZAZ3YS4PL3CEVO7URFN7A77WM3Z6CX/&quot;&gt;20220205&lt;/a&gt; 共发布了六个包。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 8.2.4286 在更改日志中指出，使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL V&lt;/code&gt; 输入字符可能包含修饰符。vim 此次更新还修复了两个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-0417.html&quot;&gt;CVE-2022-0417&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-0393.html&quot;&gt;CVE-2022-0393&lt;/a&gt;。文件系统实用程序 &lt;a href=&quot;https://git.kernel.org/pub/scm/fs/ext2/e2fsprogs.git&quot;&gt;e2fsprogs&lt;/a&gt; 更新 1.46.5 版本，修复了崩溃并修复了将超出索引节点限制的调整文件系统大小的操作。轻量级编程语言 &lt;a href=&quot;https://www.lua.org/versions.html&quot;&gt;lua54 5.4.4&lt;/a&gt; 修复了一些错误并删除了两个补丁；如果 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--with-caps&lt;/code&gt; 指定的文件不存在，&lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220129 会在配置脚本中添加警告。本次快照还更新了 &lt;a href=&quot;https://github.com/yast/yast-core&quot;&gt;yast2-core&lt;/a&gt; 4.4.1 和 &lt;a href=&quot;https://github.com/yast/yast-country&quot;&gt;yast2-country&lt;/a&gt; 4.4.11；后者修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localectl set-locale&lt;/code&gt; 的参数。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SBJ37SGLEFT2T73LCAQUEFSEGWE7GEN3/&quot;&gt;20220204&lt;/a&gt; 带来了 &lt;a href=&quot;https://kde.org/announcements/gear/21.12.2/&quot;&gt;KDE Gear 21.12.2&lt;/a&gt;。文件管理器 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 改进了文件的缩放。 视频编辑器 Kdenlive 修复了仅存在一个空帧时有时无法将分组剪辑向右移动的问题。它还修复了尝试拖动刚刚添加到 Bin 的剪辑时的冻结问题。&lt;a href=&quot;https://apps.kde.org/kmail2/&quot;&gt;Kmail&lt;/a&gt; 修复了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 的构建问题，学习工具 &lt;a href=&quot;https://edu.kde.org/kgeography/&quot;&gt;kgeography&lt;/a&gt; 修复了&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=449048&quot;&gt;美国小岛 Howland、Baker 和 Jarvis 岛的颜色&lt;/a&gt;。Amazon Web Services 的通用命令行界面 &lt;a href=&quot;https://github.com/aws/aws-cli&quot;&gt;aws-cli&lt;/a&gt; 1.22.46 更新了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt; 中规范文件中的要求。该版本为 &lt;a href=&quot;https://aws.amazon.com/sagemaker/neo/&quot;&gt;Sagemaker Neo&lt;/a&gt; 添加了新的 NNA 加速器编译支持，用于优化机器学习。patterns-kde 20220203 在更新中添加了 &lt;a href=&quot;https://www.qt.io/product/qt6&quot;&gt;Qt 6&lt;/a&gt; 开发模式。&lt;a href=&quot;https://www.gnu.org/software/findutils/manual/html_mono/find.html&quot;&gt;findutils 4.9.0&lt;/a&gt; 和 git + 版本的移动 shell &lt;a href=&quot;https://mosh.org/&quot;&gt;mosh&lt;/a&gt; 1.3.2 都在快照中进行了更新。&lt;/p&gt;
+
+&lt;p&gt;本周开始的两个快照发布了一些软件包。虽然快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PNIZSX7UVKRFPAYHF4ZXCPSTKL32XGMK/&quot;&gt;20220202&lt;/a&gt; 主要更新了 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; 包，但快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PWPNABJGMBZIKPPOLYZSWVSV7DKG4ECQ/&quot;&gt;20220203&lt;/a&gt; 有更多 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 包的更新。快照 20220203 为广大用户提供了多个软件包更新。音频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 更新了 0.3.45 版本，应该再次能够在 Zoom、telegram 和其他应用程序中播放声音。PipeWire 中的默认接收器和源名称和属性也得到了改进。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.22 更新了对前景和背景图像的无缝和显着性混合的支持。用于视觉障碍人士的屏幕阅读器包 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;orca&lt;/a&gt;，已更新至 41.2 版，修复了几个错误，提高了处理性能并增加了更多的&lt;a href=&quot;https://en.wikipedia.org/wiki/Flooding_(computer_networking)&quot;&gt;洪泛事件&lt;/a&gt;检测。内核转储帮助程序包 &lt;a href=&quot;https://github.com/openSUSE/kdump&quot;&gt;kdump&lt;/a&gt; 1.0.2 修复了网络接口命名并添加了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kdumptool&lt;/code&gt; 的依赖。快照 20220203 中要更新的其他软件包是 &lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.9 和 &lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 4.15.5 的 git + 更新。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PNIZSX7UVKRFPAYHF4ZXCPSTKL32XGMK/&quot;&gt;20220202&lt;/a&gt; 更新至 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.16.4，通过更改 &lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_Technology_Device&quot;&gt;MTD&lt;/a&gt; 对&lt;a href=&quot;https://en.wikipedia.org/wiki/Flash_memory&quot;&gt;闪存&lt;/a&gt;进行了相当大的改进。XML 解析器库 &lt;a href=&quot;https://libexpat.github.io/&quot;&gt;expat&lt;/a&gt; 2.4.4 修复了影响整数溢出的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-23852.html&quot;&gt;CVE-2022-23852&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-23990.html&quot;&gt;CVE-2022-23990&lt;/a&gt;。在快照中要更新的 26 个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; 包中，&lt;a href=&quot;https://rubygems.org/gems/hashie&quot;&gt;rubygem-hashie 5.0.0&lt;/a&gt; 是唯一一个有主要版本更新的包，它添加了通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;to_hash&lt;/code&gt; 方法从非重要的包中导出普通哈希。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/11/plasma-lands-in-tw-set-leap-beta/&quot;&gt;Latest Plasma Lands in Tumbleweed, Set for Leap Beta&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/03/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E5%92%8C-IRC-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>版本控制工具和 IRC 客户端在 Tumbleweed 中更新</title>
       <pubDate>Thu, 03 Feb 2022 17:30:00 -0600</pubDate>
@@ -288,42 +315,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/14/curl-gnome-kde-updates-arrive-in-tw/&quot;&gt;curl, GNOME, KDE Updates Arrive in Tumbleweed&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/31/openSUSE-%E5%BC%80%E5%A7%8B%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5.html</guid>
-      <title>openSUSE 开始年度调查</title>
-      <pubDate>Fri, 31 Dec 2021 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2021/12/31/openSUSE-%E5%BC%80%E5%A7%8B%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 调查已经开始，我们鼓励用户、开源贡献者和社区成员参加年度调查。
-
-去年，社区开始了年终调查，并在社区会议上讨论了结果。
-
-结果和会议反馈指导了当前调查的时间和格式的变化，该调查现在向人们开放。对上一年的问题进行了一些更改，调查将持续到 2 月 28 日。
-
-该调查预计将提供有关人们如何看待项目以及如何与项目互动的见解。 该调查还将帮助社区更好地了解越来越多的 openSUSE 发行版和工具的使用。
-
-该调查预计将于 2021 年 12 月开始，但由于另一项关于社区安全的调查和 openSUSE 董事会的选举时间安排，我们决定在新的一年开始调查。请通过调查帮助我们。
-
-
-
-原文：openSUSE Begins Annual Survey，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;已经开始，我们鼓励用户、开源贡献者和社区成员参加年度调查。&lt;/p&gt;
-
-&lt;p&gt;去年，社区开始了&lt;a href=&quot;https://news.opensuse.org/2020/12/19/introducing-the-opensuse-2020-end-of-year-survey/&quot;&gt;年终调查&lt;/a&gt;，并在&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;上&lt;a href=&quot;https://news.opensuse.org/2021/01/18/meetup-will-discuss-survey-results-project-improvements/&quot;&gt;讨论了结果&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;结果和会议反馈指导了当前调查的时间和格式的变化，该调查现在向人们开放。对上一年的问题进行了一些更改，调查将持续到 2 月 28 日。&lt;/p&gt;
-
-&lt;p&gt;该调查预计将提供有关人们如何看待项目以及如何与项目互动的见解。 该调查还将帮助社区更好地了解越来越多的 openSUSE 发行版和工具的使用。&lt;/p&gt;
-
-&lt;p&gt;该调查预计将于 2021 年 12 月开始，但由于另一项关于社区安全的调查和 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;openSUSE 董事会&lt;/a&gt;的选举时间安排，我们决定在新的一年开始调查。请通过调查帮助我们。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/17/os-begins-annual-survey/&quot;&gt;openSUSE Begins Annual Survey&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
