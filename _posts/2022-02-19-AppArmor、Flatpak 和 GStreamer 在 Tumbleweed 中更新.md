@@ -1,6 +1,6 @@
 ---
 author: Hanjingxue Boling
-date: 2022-02-01 07:30:00 +0800
+date: 2022-02-19 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: AppArmor、Flatpak 和 GStreamer 在 Tumbleweed 中更新
