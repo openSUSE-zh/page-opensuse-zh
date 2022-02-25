@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/24/Nano-Plasma-%E5%92%8C-TigerVNC-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Nano、Plasma 和 TigerVNC 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 24 Feb 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/24/Nano-Plasma-%E5%92%8C-TigerVNC-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 的快照继续以稳定的速度发布。自我们上次回顾以来，已经发布了七张快照。 最新的快照是快照 20220223，它删除了 systemd 249.10 的更新版本。该版本更改了设置以将处理核心转储的外部核心大小增加到无穷大。Flatpak 1.12.6 更新了翻译并修复了在下载中断或取消时有时会导致 repo 损坏的错误。mariadb 10.7.3 更新中修复了一些 CVE。导致应用程序崩溃的 CVE-2021-46665、CVE-2021-46664、CVE-2021-46661、CVE-2021-46668 和 CVE-2021-46663 均已在此次更新版本中修复。XML 解析器 expat 2.4.6 也修复了许多 CVE； 其中之一是修复 copyString 函数中的整数溢出。快照中更新了其他几个软件包，包括 autoyast2 4.4.31、yast2-security 4.4.12 和 yast2-installation 4.4.44。 文本编辑器 nano 6.2 在快照 20220222 中发布。在此版本中，在使用 --minibar 时，文件浏览器会清除提示栏；nano 现在可使用更新的源文件解析器 pyflakes 以更好地分析代码。虚拟化包 Xen 在 4.16.0_06 版本中添加了多个 x86_64 补丁，并且...</description>
+      <content:encoded>&lt;p&gt;openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的快照继续以稳定的速度发布。自我们上次回顾以来，已经发布了七张快照。&lt;/p&gt;
+
+&lt;p&gt;最新的快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AFUN6FXOL7NMHDYJN2RFAPJPUQ5HL2AU/&quot;&gt;20220223&lt;/a&gt;，它删除了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.10 的更新版本。该版本更改了设置以将处理&lt;a href=&quot;https://en.wikipedia.org/wiki/Core_dump&quot;&gt;核心转储&lt;/a&gt;的外部核心大小增加到无穷大。&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.12.6 更新了翻译并修复了在下载中断或取消时有时会导致 repo 损坏的错误。&lt;a href=&quot;https://mariadb.org/&quot;&gt;mariadb&lt;/a&gt; 10.7.3 更新中修复了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。导致应用程序崩溃的 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46665&quot;&gt;CVE-2021-46665&lt;/a&gt;、&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46664&quot;&gt;CVE-2021-46664&lt;/a&gt;、&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46661&quot;&gt;CVE-2021-46661&lt;/a&gt;、&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46668&quot;&gt;CVE-2021-46668&lt;/a&gt; 和 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46663&quot;&gt;CVE-2021-46663&lt;/a&gt; 均已在此次更新版本中修复。XML 解析器 &lt;a href=&quot;https://github.com/libexpat/libexpat/blob/R_2_4_6/expat/Changes&quot;&gt;expat 2.4.6&lt;/a&gt; 也修复了许多 CVE； 其中之一是修复 copyString 函数中的&lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.4.31、&lt;a href=&quot;https://github.com/yast/yast-security&quot;&gt;yast2-security&lt;/a&gt; 4.4.12 和 &lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.44。&lt;/p&gt;
+
+&lt;p&gt;文本编辑器 &lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;nano&lt;/a&gt; 6.2 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JVTMD32S2GAWBWTLD6QOJWWVYRUUXFDU/&quot;&gt;20220222&lt;/a&gt; 中发布。在此版本中，在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--minibar&lt;/code&gt; 时，文件浏览器会清除提示栏；nano 现在可使用更新的源文件解析器 &lt;a href=&quot;https://pypi.org/project/pyflakes/&quot;&gt;pyflakes&lt;/a&gt; 以更好地分析代码。虚拟化包 &lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt; 在 4.16.0_06 版本中添加了多个 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt; 补丁，并且 &lt;a href=&quot;https://vulkan.lunarg.com/doc/sdk/1.3.204.0/linux/release_notes.html&quot;&gt;vulkan-tools 和 vulkan-loader 1.3.204.0&lt;/a&gt; 的更新为应用程序开发人员带来了新功能，例如配置文件工具解决方案，使开发人员能够生成自己的应用程序特定功能配置文件。快照中有一个&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核固件更新&lt;/a&gt;，并且 &lt;a href=&quot;https://github.com/yast/yast-firstboot&quot;&gt;yast2-firstboot&lt;/a&gt; 4.4.8 添加了为 SUSE Linux Enterprise 启用注册步骤的选项，即使在 &lt;a href=&quot;https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux&quot;&gt;WSL&lt;/a&gt; 中运行也是如此。&lt;/p&gt;
+
+&lt;p&gt;网络浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6RZIW2EMYE3VGFX2UGFI7TA6G7UIOSIN/&quot;&gt;20220221&lt;/a&gt; 中更新到 97.0.1。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 项目修复的主要是与 &lt;a href=&quot;https://www.tiktok.com/en/&quot;&gt;TikTok&lt;/a&gt; 和 &lt;a href=&quot;https://www.hulu.com/&quot;&gt;Hulu&lt;/a&gt; 相关的一些功能。&lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.28 的更新是一个安全版本，旨在修复 &lt;a href=&quot;https://security-tracker.debian.org/tracker/CVE-2021-21708&quot;&gt;CVE-2021-21708&lt;/a&gt;，它可能允许攻击者注入恶意文件，导致崩溃或&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;存储器区段错误&lt;/a&gt;。意大利语、德语、简中和繁中语言在 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.88 中进行了更新。通用电子邮件包 &lt;a href=&quot;https://mailutils.org/&quot;&gt;mailutils&lt;/a&gt; 3.14 重构了&lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;传输层安全性协议&lt;/a&gt;支持的代码，并修复了&lt;a href=&quot;https://savannah.gnu.org/bugs/?61239&quot;&gt;时区计算错误&lt;/a&gt;。快照中要更新的其他软件包包括 &lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.42、&lt;a href=&quot;https://pypi.org/project/lxml/&quot;&gt;python-lxml&lt;/a&gt; 4.8.0、&lt;a href=&quot;https://gitlab.freedesktop.org/libinput/libinput/-/releases/1.20.0&quot;&gt;libinput&lt;/a&gt; 1.20.0 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/H7ZVNPCYA4JTNXQBPFDBDOM3G7A5KPG6/&quot;&gt;20220219&lt;/a&gt; 中仅更新了两个包。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到 5.16.10 版本。内核对&lt;a href=&quot;https://en.wikipedia.org/wiki/Network_File_System&quot;&gt;网络文件系统&lt;/a&gt;协议进行了多次更新，并修复了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/SCSI&quot;&gt;小型计算机系统接口&lt;/a&gt;。适用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;arm64&lt;/a&gt; 架构的 Linux 内核也有一些更新，增加了对&lt;a href=&quot;https://www.kernel.org/doc/html/latest/trace/coresight/coresight-trbe.html&quot;&gt;跟踪缓冲区扩展&lt;/a&gt;的检测。&lt;a href=&quot;https://pkgs.org/download/systemd-rpm-macros&quot;&gt;systemd-rpm-macros&lt;/a&gt; 16 的更新修复了一些依赖关系，并将 systemd-sysvinit 重命名为 systemd-sysvcompat。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2JD7MTZMAQ63O6O3YIPHZHRGDNGCXGDG/&quot;&gt;20220218&lt;/a&gt; 发布了 &lt;a href=&quot;https://tigervnc.org/&quot;&gt;tigervnc&lt;/a&gt; 1.12.0 版本，此次更新让本机查看器现在支持在一部分监视器上全屏显示。现在可以通过本机查看器的环境指定密码和用户名，并使用与远程计算机上的图形应用程序交互的包。渲染引擎 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.34.6 修复了几个崩溃。该软件包还修复了禁用覆盖滚动条时滚动条的呈现，并且 webkit2gtk3 还修复了在许多未调用主 &lt;a href=&quot;https://www.opengl.org//&quot;&gt;OpenGL&lt;/a&gt; 库的情况下的构建。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; Plasma 用户都在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FG43JAADJ57QO637MOM372Y3S4KID42E/&quot;&gt;20220217&lt;/a&gt; 中收到了更新。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.1/&quot;&gt;Plasma 5.24.1&lt;/a&gt; 已更新，并且此新长期支持版本将在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;Leap 15.4&lt;/a&gt; 中实装。此次更新提供了一些对 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 文件管理器进行的修改。&lt;a href=&quot;https://github.com/KDE/kscreen&quot;&gt;KScreen&lt;/a&gt; 管理器针对导致恢复的对话框不可见的未知 Qt 问题调整了解决方法。窗口管理器 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 进行了多项修复，其中包括一个针对 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的修复工具提示错误定位的问题。光标颜色已在 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;xwayland&lt;/a&gt; 22.1.0 更新中修复。&lt;a href=&quot;https://extensions.gnome.org/&quot;&gt;gnome-shell-extensions&lt;/a&gt; 41.2 的更新修复了窗口跟踪以避免丢失图标。目录列表程序 &lt;a href=&quot;http://mama.indstate.edu/users/ice/tree/&quot;&gt;tree&lt;/a&gt; 2.0.2 更改了一些设置并修复了 HTML URL 输出问题。快照还更新了更多软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://rsync.opensuse.org/tumbleweed/iso/Changes.20220216.txt?fbclid=IwAR0QJ7qOnL8dXddIxU0n0WO6lGBIvB1q1ITO9uN-BJGCI9jy34F_mLanfeU&quot;&gt;20220216&lt;/a&gt; 是在上周的 Tumbleweed 回顾发布后不久发布的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/25/nano-plasma-tigervnc-up-in-tw/&quot;&gt;Nano, Plasma, TigerVNC update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/22/%E9%98%BF%E5%B0%94%E5%B7%B4%E5%B0%BC%E4%BA%9A%E5%B3%B0%E4%BC%9A%E8%AF%9D%E9%A2%98%E5%BE%81%E9%9B%86%E6%B4%BB%E5%8A%A8%E5%BC%80%E5%A7%8B.html</guid>
       <title>阿尔巴尼亚峰会话题征集活动开始</title>
       <pubDate>Tue, 22 Feb 2022 17:30:00 -0600</pubDate>
@@ -275,47 +304,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/21/tools-strace-busybox-up-in-tw/&quot;&gt;Tools Strace, BusyBox Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/17/2022-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</guid>
-      <title>2022 年 openSUSE 大会征稿启事</title>
-      <pubDate>Mon, 17 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/17/2022-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Conference 2022 话题征集已开启！ 话题征集开放至 4 月 14 日。这使得提交提案的时间只有不到 90 天时间。会议日期定于 6 月 2 日至 4 日。组织团队正在准备一场线上线下混合会议，其中包括来自德国纽伦堡 Z-Bau 的现场演讲和线上的虚拟演讲。会议的注册也已经开始。 演示文稿可以提交以下时间长度： 闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟） 普通谈话（30 分钟）或普通虚拟谈话（30 分钟） 长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟） 研讨会（1 小时）或虚拟研讨会（1 小时） 会议列出了以下主题： 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE 该会议已经有两个赞助商，Fedora 和 SUSE。有兴趣赞助该活动的公司可以在项目的 wiki 页面上查看赞助信息。 愿意帮助策划活动的志愿者可以参加我们每周二 19:00 UTC 的策划会议。查看注释了解详细信息。 原文：Call for...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 话题征集已开启！&lt;/p&gt;
-
-&lt;p&gt;话题征集开放至 4 月 14 日。这使得提交提案的时间只有不到 90 天时间。会议日期定于 6 月 2 日至 4 日。组织团队正在准备一场线上线下混合会议，其中包括来自德国纽伦堡 Z-Bau 的现场演讲和线上的虚拟演讲。会议的注册也已经开始。&lt;/p&gt;
-
-&lt;p&gt;演示文稿可以提交以下时间长度：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟）&lt;/li&gt;
-  &lt;li&gt;普通谈话（30 分钟）或普通虚拟谈话（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟）&lt;/li&gt;
-  &lt;li&gt;研讨会（1 小时）或虚拟研讨会（1 小时）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;会议列出了以下主题：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;云和容器&lt;/li&gt;
-  &lt;li&gt;社区&lt;/li&gt;
-  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
-  &lt;li&gt;新技术&lt;/li&gt;
-  &lt;li&gt;开源&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;该会议已经有两个赞助商，&lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt;。有兴趣赞助该活动的公司可以在&lt;a href=&quot;https://en.opensuse.org/Portal:Conference/Sponsor&quot;&gt;项目的 wiki 页面&lt;/a&gt;上查看赞助信息。&lt;/p&gt;
-
-&lt;p&gt;愿意帮助策划活动的志愿者可以参加我们每周二 19:00 UTC 的&lt;a href=&quot;https://etherpad.opensuse.org/p/osc22&quot;&gt;策划会议&lt;/a&gt;。查看&lt;a href=&quot;https://etherpad.opensuse.org/p/osc22&quot;&gt;注释&lt;/a&gt;了解详细信息。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/18/cfp-opens-for-osc22/&quot;&gt;Call for Papers Opens for openSUSE Conference 2022&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
