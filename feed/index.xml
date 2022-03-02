@@ -7,6 +7,47 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/%E4%B8%8E%E6%8A%AB%E8%90%A8-%E6%9C%8B%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%B5%8B%E8%AF%95-Leap-%E7%9A%84%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC.html</guid>
+      <title>与披萨、朋友一起测试 Leap 的测试版本</title>
+      <pubDate>Tue, 01 Mar 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/%E4%B8%8E%E6%8A%AB%E8%90%A8-%E6%9C%8B%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%B5%8B%E8%AF%95-Leap-%E7%9A%84%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>根据路线图，openSUSE Leap 的发布经理 Luboš Kocman 预计将在本周宣布 Leap 15.4 的 Beta 发布阶段。这意味着 openSUSE 社区可以下载、安装和测试该版本。 直到它的正式发布前，Leap 的 Beta 阶段有滚动更新，然后将过渡到维护阶段。 为了庆祝这个 Beta 阶段，为什么不开个比萨派对，测试一下 openSUSE Leap 15.4 Beta 呢？ 如果你附近没有聚会，那就自己组织吧；只要把它添加到维基页面，并邀请当地社区的其他人加入你的测试 openSUSE Leap。找些披萨送到你的家里或办公室，把朋友和同事召集起来。一个新的 openSUSE 用户可能会出现! 如果您不确定如何做，请阅读这个。 下载 Beta ISO Leap 15.4 Beta 可在 get.opensuse.org 上获得。首先选择适合您需要的镜像文件。将它安装在虚拟机或实体机上。 测试和帮助！ 报告或帮助解决您遇到的任何问题。 Beta Pizza Party 的重点是建立本地 openSUSE 社区和测试 Leap 15.4...</description>
+      <content:encoded>&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE Leap&lt;/a&gt; 的发布经理 Luboš Kocman 预计将在本周宣布 Leap 15.4 的 Beta 发布阶段。这意味着 openSUSE 社区可以下载、安装和测试该版本。&lt;/p&gt;
+
+&lt;p&gt;直到它的正式发布前，&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 的 Beta 阶段&lt;/a&gt;有滚动更新，然后将过渡到维护阶段。&lt;/p&gt;
+
+&lt;p&gt;为了庆祝这个 Beta 阶段，为什么不开个比萨派对，测试一下 openSUSE Leap 15.4 Beta 呢？&lt;/p&gt;
+
+&lt;p&gt;如果你附近没有聚会，那就&lt;a href=&quot;https://en.opensuse.org/openSUSE:BetaPizzaParty#Beta_Pizza_Party&quot;&gt;自己组织吧&lt;/a&gt;；只要把它添加到&lt;a href=&quot;https://en.opensuse.org/openSUSE:BetaPizzaParty#Beta_Pizza_Party&quot;&gt;维基页面&lt;/a&gt;，并邀请当地社区的其他人加入你的测试 openSUSE Leap。找些披萨送到你的家里或办公室，把朋友和同事召集起来。一个新的 openSUSE 用户可能会出现! 如果您不确定如何做，请阅读&lt;a href=&quot;https://en.opensuse.org/openSUSE:Launch_party_HOWTO&quot;&gt;这个&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;下载-beta-iso&quot;&gt;下载 Beta ISO&lt;/h2&gt;
+
+&lt;p&gt;Leap 15.4 Beta 可在 &lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;get.opensuse.org&lt;/a&gt; 上获得。首先选择适合您需要的镜像文件。将它安装在&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;虚拟机&lt;/a&gt;或实体机上。&lt;/p&gt;
+
+&lt;h2 id=&quot;测试和帮助&quot;&gt;测试和帮助！&lt;/h2&gt;
+
+&lt;p&gt;报告或帮助解决您遇到的任何问题。 Beta Pizza Party 的重点是建立本地 openSUSE 社区和测试 Leap 15.4 Beta。这意味着安装 Leap 并&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;提交错误报告&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;在测试期间，我们鼓励测试人员在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt; Beta 测试工作表&lt;/a&gt;上记录他们的测试。了解如何在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;openSUSE wiki&lt;/a&gt; 上报告错误。&lt;/p&gt;
+
+&lt;p&gt;关于 openSUSE 开发的讨论在 &lt;a href=&quot;https://lists.opensuse.org/archives/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;中进行。如果您想提供帮助，请参阅有关&lt;a href=&quot;https://en.opensuse.org/openSUSE:How_to_contribute_to_Factory&quot;&gt;如何为 Factory 做贡献&lt;/a&gt;的 wiki 页面。贡献是容易和受欢迎的！&lt;/p&gt;
+
+&lt;p&gt;可用于测试的架构包括 x86_64、aarch64、PowerPC 和 s390。对 armv7 和其他架构感兴趣的人应该阅读关于 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
+
+&lt;p&gt;那些对 openSUSE Leap 15.4 WSL 的 beta ISO 镜像感兴趣的人可以联系 Leap 发布经理 Kocman 或通过电子邮件发送工厂邮件列表。&lt;/p&gt;
+
+&lt;p&gt;Leap beta 测试人员可以选择接受一份感谢礼物，因此请务必填写所有&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;正确的信息和错误报告&lt;/a&gt;以获得一份礼物。然后使用您的地址向 ddemaio#opensuse.org 发送电子邮件。 请将邮件标题设为 “Leap beta testings”。&lt;/p&gt;
+
+&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/01/test-leap-beta/&quot;&gt;Beta Test Leap with Pizza, Friends&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/24/Nano-Plasma-%E5%92%8C-TigerVNC-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Nano、Plasma 和 TigerVNC 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 24 Feb 2022 17:30:00 -0600</pubDate>
@@ -271,39 +312,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/25/os-gains-new-hardeware/&quot;&gt;openSUSE Gains New Hardware&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/20/Tumbleweed-%E4%B8%AD%E7%9A%84%E5%B7%A5%E5%85%B7-Strace-BusyBox-%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Tumbleweed 中的工具 Strace、BusyBox 更新</title>
-      <pubDate>Thu, 20 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/20/Tumbleweed-%E4%B8%AD%E7%9A%84%E5%B7%A5%E5%85%B7-Strace-BusyBox-%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>注意，本文的配图由 Vitaly Chaykovsky 提供，基于 CC BY-SA 4.0 协议进行发布。 openSUSE Tumbleweed 本周在较小的快照中进行了各种软件包更新。 Tumbleweed 正在准备的一些事情是，Linux Kernel 5.16.1 已计划装载，并且 GCC 12 的预集成测试已经开始；此滚动版本预计将在春季中期合并 GCC 12。 最新的 Tumbleweed 快照 20220117 更新了 libstorage-ng 4.4.75 的意大利语翻译，并添加了用于构建包的 python-rpm-macros。Haskell 支持在 thrift 0.15.0 包中被删除，这是一个可扩展的跨语言服务框架，用于远程过程调用和进程间通信。使用 Rust 编写的名为 gstreamer-plugins-rs 的插件包没有提供更改日志。快照中剩余的包都是 Python 包索引更新。需要强调的关键 PyPI 包之一是 python-unicodedata2 14.0.0 的主要版本更新，它停止了对已经结束生命周期的 Python 2.7 和 3.5 的支持，并增加了对...</description>
-      <content:encoded>&lt;ul&gt;
-  &lt;li&gt;注意，本文的配图由 Vitaly Chaykovsky 提供，基于 CC BY-SA 4.0 协议进行发布。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;openSUSE Tumbleweed 本周在较小的快照中进行了各种软件包更新。&lt;/p&gt;
-
-&lt;p&gt;Tumbleweed 正在准备的一些事情是，&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.16.1 已计划装载，并且 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 的预集成测试已经开始；此滚动版本预计将在春季中期合并 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12。&lt;/p&gt;
-
-&lt;p&gt;最新的 Tumbleweed 快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/46VGHTG3ELSVZV34GUYN3ESKYMESFT3G/&quot;&gt;20220117&lt;/a&gt; 更新了 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.75 的意大利语翻译，并添加了用于构建包的 python-rpm-macros。&lt;a href=&quot;https://www.haskell.org/&quot;&gt;Haskell&lt;/a&gt; 支持在 &lt;a href=&quot;https://thrift.apache.org/&quot;&gt;thrift&lt;/a&gt; 0.15.0 包中被删除，这是一个可扩展的跨语言服务框架，用于&lt;a href=&quot;https://en.wikipedia.org/wiki/Remote_procedure_call&quot;&gt;远程过程调用&lt;/a&gt;和&lt;a href=&quot;https://en.wikipedia.org/wiki/Inter-process_communication&quot;&gt;进程间通信&lt;/a&gt;。使用 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 编写的名为 &lt;a href=&quot;https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs&quot;&gt;gstreamer-plugins-rs&lt;/a&gt; 的插件包没有提供更改日志。快照中剩余的包都是 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python 包索引&lt;/a&gt;更新。需要强调的关键 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 包之一是 &lt;a href=&quot;https://pypi.org/project/unicodedata2/&quot;&gt;python-unicodedata2&lt;/a&gt; 14.0.0 的主要版本更新，它停止了对已经&lt;a href=&quot;https://en.wikipedia.org/wiki/End-of-life_product&quot;&gt;结束生命周期&lt;/a&gt;的 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 2.7 和 3.5 的支持，并增加了对 Python 3.9、3.10 和 &lt;a href=&quot;https://www.pypy.org/&quot;&gt;PyPy3&lt;/a&gt; 的支持。Tumbleweed &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/6Y5UILGXNK2DHKE7E4TIVQCLXQ62B75W/&quot;&gt;arm 20220118&lt;/a&gt; 快照已发布，更新了上面列出的相同软件包。&lt;/p&gt;
-
-&lt;p&gt;反病毒工具包 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 0.103.5 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GLHGR533JVNVGTHEFDSPLTVN7WNON2GE/&quot;&gt;20220116&lt;/a&gt; 中更新；该程序包修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，该 CVE 具有可能导致崩溃的无效指针读取。将 UNIX 密码文件转换为影子密码格式的 &lt;a href=&quot;https://github.com/shadow-maint/shadow/&quot;&gt;shadow&lt;/a&gt; 包已更新到版本 4.11.1。 此软件包修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2013-4235.html&quot;&gt;CVE-2013-4235&lt;/a&gt;，它在复制和删除目录树时会影响竞争条件。 面向对象的通用即插即用框架 &lt;a href=&quot;https://wiki.gnome.org/Projects/GUPnP&quot;&gt;gupnp&lt;/a&gt; 1.4.3 现在可以在不推荐使用的调用和修复的不推荐使用的异步调用中正确传播取消的操作。此快照中的 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 更新是 &lt;a href=&quot;https://pypi.org/project/python-lzo/&quot;&gt;python-python-lzo&lt;/a&gt; 1.14、&lt;a href=&quot;https://pypi.org/project/tables/&quot;&gt;python-tables&lt;/a&gt; 3.7.0，并且 &lt;a href=&quot;https://pypi.org/project/hiredis/&quot;&gt;python-hiredis&lt;/a&gt; 2.0.0 的主要版本更新放弃了对已经结束生命周期的 Python 版本（Python 2.7、3.4 和 3.5 ）支持。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 96.0.1 已在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/KMGNCVT4LYPUSKNSYXRRADADZRMYUIAV/&quot;&gt;20220115&lt;/a&gt; 快照中更新。火狐浏览器对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content-length&lt;/code&gt; 标头的解析进行了改进。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 21.3.4 的更新能够修复 &lt;a href=&quot;http://www.rock-chips.com/a/en/index.html&quot;&gt;Rockchip&lt;/a&gt; &lt;a href=&quot;http://rockchip.wikidot.com/rk3399&quot;&gt;RK3399&lt;/a&gt; 处理器的一些故障以及 &lt;a href=&quot;https://docs.mesa3d.org/drivers/panfrost.html&quot;&gt;Panfrost&lt;/a&gt; G52 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; 在 &lt;a href=&quot;https://www.youtube.com/&quot;&gt;YouTube&lt;/a&gt; 播放时出现故障。&lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220101 的更新添加了几个补丁，改进了 &lt;a href=&quot;https://linux.die.net/man/3/getttynam&quot;&gt;getttynam&lt;/a&gt; 的配置检查。openSUSE 的 &lt;a href=&quot;https://github.com/openSUSE/perl-bootloader&quot;&gt;perl-Bootloader&lt;/a&gt; 0.937 包现在支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 上的&lt;a href=&quot;https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface#Secure_boot&quot;&gt;安全启动&lt;/a&gt;，并且 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation/blob/master/package/autoyast2.changes&quot;&gt;autoyast2&lt;/a&gt; 4.4.25 能够在使用在线媒体时正确合并自动升级工作流程。快照中另一个要更新的软件包是 &lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 1.0.3，它修复了一些构建功能、&lt;a href=&quot;https://ipset.netfilter.org/&quot;&gt;ipsets&lt;/a&gt; 和输入。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://strace.io/&quot;&gt;strace&lt;/a&gt; 5.16 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JFYRSJQRMYJQPZZNBH4SAZOTGFTGHW6Q/&quot;&gt;20220114&lt;/a&gt; 中有许多改进和几个实现。该包用于监视和干预进程与 Linux 内核之间的交互，包括系统调用、信号传递和进程状态的更改。更新后的 &lt;a href=&quot;https://strace.io/&quot;&gt;Strace&lt;/a&gt; 实现了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--secontext=mismatch&lt;/code&gt; 选项来查找 SELinux 上下文中的不匹配，并实现了对 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.16 中引入的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;futex_waitv&lt;/code&gt; 系统调用的解码。&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.12.3 的更新对搜索命令、列表命令和修复命令进行了小幅改进。Flatpak 还修复了一个具有恶意存储库的 CVE，该存储库可能以隐藏安装期间显示的某些应用程序权限的方式发送无效的应用程序元数据。由于 &lt;a href=&quot;https://busybox.net/&quot;&gt;busybox&lt;/a&gt; 1.35.0 解决了 17 个CVE，本次快照是一个 CVE 杀手。其中之一，&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6301&quot;&gt;CVE-2016-6301&lt;/a&gt; 是一个网络时间协议服务器拒绝服务漏洞。BusyBox 还在 find、date 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Cpio&quot;&gt;cpio&lt;/a&gt; 中添加了一些新功能。远程桌面协议的自由实现 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;freerdp&lt;/a&gt; 2.5.0 向后移植 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.0 支持以及修复了一些 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 客户端剪贴板问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfsprogs&lt;/a&gt; 5.16、&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 显示管理器 &lt;a href=&quot;https://wiki.gnome.org/Projects/GDM&quot;&gt;gdm&lt;/a&gt; 41.3、&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-session&quot;&gt;gnome-session&lt;/a&gt; 41.3、&lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 22.01.0 和大约 15 个其他软件包。&lt;/p&gt;
-
-&lt;p&gt;本周开始的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/G7PVDLMGIUAK7YKWWSQ5RAPUGJJOHR2W/&quot;&gt;20220113&lt;/a&gt; 仅更新了两个包。&lt;a href=&quot;https://directory.fedoraproject.org/&quot;&gt;389-ds&lt;/a&gt; 2.0.11 的更新修复了各种用户界面错误。这个用于开源 LDAP 服务器的企业级软件包修复了许多错误，还修复了 openldap 迁移中未处理的多种索引类型。快照中要更新的第二个包是 sqlite3 3.37.1。这个 C 语言库添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.connection&lt;/code&gt; 命令，允许 CLI 保持多个数据库连接同时打开。SQL 数据库引擎还添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--safe&lt;/code&gt; 命令行选项，该选项禁用点命令和 SQL 语句，这些语句可能会导致超出命令行上命名的单个数据库文件的副作用。&lt;/p&gt;
-
-&lt;p&gt;本周发布了另一个特定于 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 架构的 Tumbleweed 快照； &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/IATJZAMYCAUDMWZ4HVRTRT7LNZ6UC33Y/&quot;&gt;arm 20220116&lt;/a&gt; 快照更新了从快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/G7PVDLMGIUAK7YKWWSQ5RAPUGJJOHR2W/&quot;&gt;20220113&lt;/a&gt;、&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JFYRSJQRMYJQPZZNBH4SAZOTGFTGHW6Q/&quot;&gt;20220114&lt;/a&gt;、&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/KMGNCVT4LYPUSKNSYXRRADADZRMYUIAV/&quot;&gt;20220115&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GLHGR533JVNVGTHEFDSPLTVN7WNON2GE/&quot;&gt;20220116&lt;/a&gt; 发布的上述所有软件包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/21/tools-strace-busybox-up-in-tw/&quot;&gt;Tools Strace, BusyBox Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
