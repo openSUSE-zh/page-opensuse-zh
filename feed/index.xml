@@ -48,6 +48,39 @@
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5-Beta-%E6%9E%84%E5%BB%BA%E9%98%B6%E6%AE%B5.html</guid>
+      <title>openSUSE Leap 15.4 进入 Beta 构建阶段</title>
+      <pubDate>Tue, 01 Mar 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5-Beta-%E6%9E%84%E5%BB%BA%E9%98%B6%E6%AE%B5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>下一个 openSUSE Leap 次要版本 15.4 已于今天进入 beta 发布阶段，用户可以在 6 月 8 日的正式发布计划之前开始测试次要版本以查找错误。 与之前的 15 系列版本不同，Leap 15.4 将为发行版提供更新的更现代的软件包。 openSUSE Leap 15.4 的许多软件包与 Leap 15.3 中的软件包版本不同，但有些软件包，如 Xfce 4.16 将与之前的版本保持一致。Qt 5、Plasma、GNOME、Enlightenment 和许多其他软件包的版本也将有更新的版本。 Leap 15.4 beta 阶段预计将引入 Leap Micro 5.2 的运行版本，这是 Leap 的 MicroOS 的新产品。MicroOS 是 Tumbleweed 的变体。Leap Micro 是一个现代轻量级操作系统，具有不可改变性，是主机容器和虚拟化工作负载的理想选择；它提供自动化管理和修补。Leap Micro 非常适合去中心化计算环境，是面向开发人员、分布式计算项目和专业人士的微服务发行版。Beta 测试人员很可能会在几周内看到 Leap...</description>
+      <content:encoded>&lt;p&gt;下一个 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 次要版本 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;15.4&lt;/a&gt; 已于今天进入 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;beta 发布阶段&lt;/a&gt;，用户可以在 6 月 8 日的正式发布计划之前开始测试次要版本以查找错误。&lt;/p&gt;
+
+&lt;p&gt;与之前的 15 系列版本不同，&lt;a href=&quot;https://en.opensuse.org/Portal:15.4&quot;&gt;Leap 15.4&lt;/a&gt; 将为发行版提供更新的更现代的软件包。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 15.4 的许多软件包与 &lt;a href=&quot;https://en.opensuse.org/Portal:15.3&quot;&gt;Leap 15.3&lt;/a&gt; 中的软件包版本不同，但有些软件包，如 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; &lt;a href=&quot;https://www.xfce.org/about/news/?post=1608595200&quot;&gt;4.16&lt;/a&gt; 将与之前的版本保持一致。&lt;a href=&quot;https://www.qt.io/blog/qt-5.15.2-released&quot;&gt;Qt 5&lt;/a&gt;、&lt;a href=&quot;https://community.kde.org/Schedules/Plasma_5&quot;&gt;Plasma&lt;/a&gt;、&lt;a href=&quot;https://help.gnome.org/misc/release-notes/41.0/&quot;&gt;GNOME&lt;/a&gt;、&lt;a href=&quot;https://www.enlightenment.org/news/2021-12-26-enlightenment-0.25.0&quot;&gt;Enlightenment&lt;/a&gt; 和许多其他软件包的版本也将有更新的版本。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.4 beta 阶段预计将引入 &lt;a href=&quot;https://code.opensuse.org/leap/features/roadmap/Micro%205.2&quot;&gt;Leap Micro 5.2&lt;/a&gt; 的运行版本，这是 Leap 的 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 的新产品。MicroOS 是 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的变体。Leap Micro 是一个现代轻量级操作系统，具有不可改变性，是主机容器和虚拟化工作负载的理想选择；它提供自动化管理和修补。Leap Micro 非常适合去中心化计算环境，是面向开发人员、分布式计算项目和专业人士的微服务发行版。Beta 测试人员很可能会在几周内看到 Leap Micro 的第一个 Beta 版本，并将在春季看到一般版本；这将在 Leap 15.4 正式发布之前完成。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目在幕后继续取得进展，以确保可以根据最终用户的需要通过一系列点击来安装 H.264 和 gstreamer 插件。这些应该在 Beta 阶段的后期或 Leap 15.4 推出其候选版本时可用。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励测试人员在多台笔记本电脑、工作站和其他硬件设备上试用 Leap 15.4。并鼓励测试 Beta 版的人在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;此电子表格&lt;/a&gt;上记录他们的 Leap Beta 测试工作。贡献者还想为那些&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;在电子表格上&lt;/a&gt;测试高性能计算的人提供反馈。&lt;/p&gt;
+
+&lt;p&gt;Leap beta 测试人员可以选择接受一份感谢礼物，因此请务必填写所有正确的信息和错误报告以获得一份礼物。然后使用您的电子邮箱向 ddemaio#opensuse.org 发送电子邮件；并将主题标题设为 “Leap beta testings”。&lt;/p&gt;
+
+&lt;p&gt;错误和漏洞应该在 openSUSE &lt;a href=&quot;http://bugzilla.opensuse.org/&quot;&gt;bugzilla&lt;/a&gt; 上报告。从 SUSE Linux Enterprise 继承的软件包的错误应以针对 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Accessing_Bugzilla&quot;&gt;PUBLIC SUSE Linux Enterprise SP4&lt;/a&gt;、&lt;a href=&quot;https://bugzilla.suse.com/enter_bug.cgi?classification=SUSE%20Linux%20Enterprise%20Server&quot;&gt;服务器&lt;/a&gt;和&lt;a href=&quot;https://bugzilla.suse.com/enter_bug.cgi?classification=SUSE%20Linux%20Enterprise%20High%20Availability%20Extension&quot;&gt;高可用性&lt;/a&gt;的形式进行提交报告。上面列出的这些公共产品的优先级&lt;a href=&quot;https://en.opensuse.org/openSUSE:Bug_definitions#Setting_and_Changing_Priorities_and_Severities&quot;&gt;政策&lt;/a&gt;已经更新。Leap 15.4 beta 的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_15.4&quot;&gt;最烦人的错误列表&lt;/a&gt;将发布在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_15.4&quot;&gt;wiki&lt;/a&gt; 上。&lt;/p&gt;
+
+&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，openSUSE Leap 15.4 将在 4 月下旬进入候选版本阶段，预计 5 月 27 日获得 Gold Master，随后将于 6 月 2 日公开发布。文档和翻译截止日期为 5 月 14 日。&lt;/p&gt;
+
+&lt;p&gt;可用于&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试&lt;/a&gt;的架构包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;aarch64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;s390x&lt;/a&gt;。那些对&lt;a href=&quot;https://en.opensuse.org/openSUSE:WSL.&quot;&gt;适用于 WSL 的 openSUSE Leap 15.4 beta 测试镜像&lt;/a&gt;感兴趣的人可以联系 Leap 发布经理 &lt;a href=&quot;https://github.com/lkocman&quot;&gt;Luboš Kocman&lt;/a&gt; 或 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/02/leap-reaches-beta-build-phase/&quot;&gt;openSUSE Leap 15.4 Reaches Beta Build Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/24/Nano-Plasma-%E5%92%8C-TigerVNC-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Nano、Plasma 和 TigerVNC 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 24 Feb 2022 17:30:00 -0600</pubDate>
@@ -285,33 +318,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/26/os-con-design-contest-begins/&quot;&gt;openSUSE Conference Design Contest Begins&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/24/openSUSE-%E8%8E%B7%E5%BE%97%E6%96%B0%E7%A1%AC%E4%BB%B6.html</guid>
-      <title>openSUSE 获得新硬件</title>
-      <pubDate>Mon, 24 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/24/openSUSE-%E8%8E%B7%E5%BE%97%E6%96%B0%E7%A1%AC%E4%BB%B6.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>注意，本文配图基于 CC BY-SA 4.0 进行授权分发。 由于 SUSE 是该项目的主要赞助商，openSUSE 项目在过去一年为其项目增加了大量的计算能力。新增的硬件将有助于开源开发。 该项目现在使用了大约一千个 x86 构建工作者，这将有助于在 Open Build Service 中为主要 Linux 发行版创建和分发软件。 OBS 中新增了多种其他架构硬件；几个月前，该项目增加了五台新的 POWER9 机器，每台机器的价值约为 80,000 美元。额外的机器将使 PowerPC 恢复到与 OBS arm 机器的构建能力一致的水平。PowerPC 并不是 IBM 对 OBS 的唯一补充。8月，该项目又增加了一台主机；一台 IBM LinuxONE SystemZ 被增加为借来的硬件。与一台 z13 大型计算机相匹配，这为 OBS 提供了广泛的 s390 构建能力。不带存储的新 LinuxONE 系统起价约为 135,000 美元，因此 IBM 还在...</description>
-      <content:encoded>&lt;ul&gt;
-  &lt;li&gt;注意，本文配图基于 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt; 进行授权分发。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;由于 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 是该项目的主要赞助商，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;在过去一年为其项目增加了大量的计算能力。新增的硬件将有助于&lt;a href=&quot;https://en.wikipedia.org/wiki/Open-source_software_development&quot;&gt;开源开发&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;该项目现在使用了大约一千个 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86&quot;&gt;x86&lt;/a&gt; 构建工作者，这将有助于在 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;Open Build Service&lt;/a&gt; 中为主要 Linux 发行版创建和分发软件。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://build.opensuse.org/&quot;&gt;OBS&lt;/a&gt; 中新增了多种其他架构硬件；几个月前，该项目增加了五台新的 &lt;a href=&quot;https://en.wikipedia.org/wiki/POWER9&quot;&gt;POWER9&lt;/a&gt; 机器，每台机器的价值约为 80,000 美元。额外的机器将使 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 恢复到与 OBS &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 机器的构建能力一致的水平。PowerPC 并不是 &lt;a href=&quot;https://www.ibm.com/&quot;&gt;IBM&lt;/a&gt; 对 OBS 的唯一补充。8月，该项目又增加了一台主机；一台 IBM &lt;a href=&quot;https://www.ibm.com/partnerworld/systems/z/linuxone&quot;&gt;LinuxONE SystemZ&lt;/a&gt; 被增加为借来的硬件。与一台 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_zEnterprise_System&quot;&gt;z13&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Mainframe_computer&quot;&gt;大型计算机&lt;/a&gt;相匹配，这为 OBS 提供了广泛的 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 构建能力。不带存储的新 LinuxONE 系统起价约为 135,000 美元，因此 IBM 还在 openSUSE 实用程序和基于社区的开源开发方面投入了大量资金。 可以肯定的一点是，OBS 的用户在收到有利于开源开发的计算资产后，将会体验到一些高性能的构建。&lt;/p&gt;
-
-&lt;p&gt;此外，SUSE 赞助了两台新的 arm 服务器，这是其在德国的第一款特定硬件类型。SUSE 还为 &lt;a href=&quot;http://rsync.opensuse.org/&quot;&gt;rsync.opensuse.org&lt;/a&gt; 贡献了一个额外的 x86 系统，该系统于秋季部署。经过增强的 &lt;a href=&quot;http://rsync.opensuse.org/&quot;&gt;rsync.opensuse.org&lt;/a&gt; 系统及其 42T 直连式存储，可以托管所有 &lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt; 内容的副本；这立即帮助了全球的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 用户，因为&lt;a href=&quot;https://en.wikipedia.org/wiki/Mirror_site&quot;&gt;镜像站&lt;/a&gt;复制了滚动版本的最终用户需要的软件包更新。感谢另一个赞助商 &lt;a href=&quot;https://www.ip-exchange.de/&quot;&gt;IP-Exchange&lt;/a&gt;，rsync.opensuse.org 在纽伦堡附近的外部托管数据中心运行。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 所受的慷慨资助不仅来自公司，也来自个人。在内核中从事 &lt;a href=&quot;https://evilpiepirate.org/git/linux-bcache.git&quot;&gt;bcache&lt;/a&gt; 工作的 Coly Li 为 rsync.opensuse.org 捐赠了两块 8TB SSD；bcache 是一种块缓存，它允许人们将 SSD 用作另一个块设备的快速读/写缓存。非常感谢 Li 和所有投资 openSUSE 项目的公司。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/25/os-gains-new-hardeware/&quot;&gt;openSUSE Gains New Hardware&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
