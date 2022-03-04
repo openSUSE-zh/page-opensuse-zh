@@ -7,6 +7,41 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/03/Tumbleweed-%E6%9C%AC%E5%91%A8%E5%8F%91%E5%B8%83%E4%BA%86%E5%85%AD%E4%B8%AA%E5%BF%AB%E7%85%A7-Leap-%E8%8E%B7%E5%BE%97%E5%AD%A3%E5%BA%A6%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Tumbleweed 本周发布了六个快照，Leap 获得季度更新</title>
+      <pubDate>Thu, 03 Mar 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/03/Tumbleweed-%E6%9C%AC%E5%91%A8%E5%8F%91%E5%B8%83%E4%BA%86%E5%85%AD%E4%B8%AA%E5%BF%AB%E7%85%A7-Leap-%E8%8E%B7%E5%BE%97%E5%AD%A3%E5%BA%A6%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周充满了围绕 openSUSE 的好消息。 除了 openSUSE Leap 15.4 进入 beta 构建阶段之外，openSUSE 的滚动分支 Tumbleweed 本周发布了六个快照，更新了一些网络包；Leap 15.3 正在推出其第二个季度的 repin ISO。 最新的快照是 20220302。NetworkManager 1.36.0 重写了网络层配置，从而在同时应用来自多个源（DHCP、手动配置、VPN）的寻址信息时会具有更强的处理能力；性能和内存也应该随着更新而略有提高。PipeWire 0.3.47 进行了修复，删除了无限循环，并且修复了缓冲区大小处理，使一些应用程序不再出现卡顿。快照中要更新的其他包包括 nftables 1.0.2、ruby3.1 3.1.1、xscreensaver 6.03 和几个 Python 包索引版本更新。 缓存代理 squid 5.4.1 在快照 20220301 中更新；该软件包进行了一些代码清理并进行了一些显著的开发人员更改。窗口管理器 screen 4.9.0 消除了一个 CVE，该漏洞可以通过精心设计的 UTF-8 字符序列进行拒绝服务攻击；这已通过替换弃用的 combchar.diff 得到解决。其他要更新的包是 autoyast2 4.4.32、yast2-trans 等。 快照 20220228 更新了一些...</description>
+      <content:encoded>&lt;p&gt;本周充满了围绕 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的好消息。&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;openSUSE Leap 15.4&lt;/a&gt; 进入 &lt;a href=&quot;https://news.opensuse.org/2022/03/02/leap-reaches-beta-build-phase/&quot;&gt;beta 构建阶段&lt;/a&gt;之外，openSUSE 的滚动分支 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周发布了六个快照，更新了一些网络包；&lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 15.3&lt;/a&gt; 正在推出其第二个季度的 repin ISO。&lt;/p&gt;
+
+&lt;p&gt;最新的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/5YQZP366ZUJI6XL22X53UIFJUZQJRJ4U/&quot;&gt;20220302&lt;/a&gt;。&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.36.0 重写了网络层配置，从而在同时应用来自多个源（&lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol&quot;&gt;DHCP&lt;/a&gt;、手动配置、VPN）的寻址信息时会具有更强的处理能力；性能和内存也应该随着更新而略有提高。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 0.3.47 进行了修复，删除了&lt;a href=&quot;https://en.wikipedia.org/wiki/Infinite_loop&quot;&gt;无限循环&lt;/a&gt;，并且修复了缓冲区大小处理，使一些应用程序不再出现卡顿。快照中要更新的其他包包括 &lt;a href=&quot;https://git.netfilter.org/nftables/&quot;&gt;nftables&lt;/a&gt; 1.0.2、&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;ruby3.1&lt;/a&gt; 3.1.1、&lt;a href=&quot;https://www.jwz.org/xscreensaver/&quot;&gt;xscreensaver&lt;/a&gt; 6.03 和几个 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python 包索引&lt;/a&gt;版本更新。&lt;/p&gt;
+
+&lt;p&gt;缓存代理 &lt;a href=&quot;http://www.squid-cache.org/&quot;&gt;squid&lt;/a&gt; 5.4.1 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YRD2XZTTUZQAGCEGJKXV5BSCTWX25LRM/&quot;&gt;20220301&lt;/a&gt; 中更新；该软件包进行了一些代码清理并进行了一些显著的开发人员更改。窗口管理器 &lt;a href=&quot;https://www.gnu.org/software/screen/&quot;&gt;screen&lt;/a&gt; 4.9.0 消除了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，该漏洞可以通过精心设计的 &lt;a href=&quot;https://en.wikipedia.org/wiki/UTF-8&quot;&gt;UTF-8&lt;/a&gt; 字符序列进行拒绝服务攻击；这已通过替换弃用的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;combchar.diff&lt;/code&gt; 得到解决。其他要更新的包是 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.4.32、&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7MT5GKXE4U7SXLXGZVXAXCTW5KEPQXZE/&quot;&gt;20220228&lt;/a&gt; 更新了一些 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; &lt;a href=&quot;https://rspec.info/&quot;&gt;RSpec&lt;/a&gt; 包，并且更新了 &lt;a href=&quot;https://github.com/openSUSE/branding&quot;&gt;branding-openSUSE&lt;/a&gt; 包，它删除了&lt;a href=&quot;https://github.com/openSUSE/artwork/tree/master/logos&quot;&gt;发行版 Logo&lt;/a&gt; 的 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 图标。&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 软件包更新到 1.7.6。此固件更新包添加了一些新功能，例如为永远不希望自动添加 &lt;a href=&quot;https://blog.csdn.net/u011057409/article/details/117636507&quot;&gt;capsule header&lt;/a&gt; 的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface&quot;&gt;UEFI&lt;/a&gt; 设备添加标志。它还修复了在 coreboot 模式下加载 flashrom 设备的问题。&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.45 更新修复了安装期间 &lt;a href=&quot;https://en.wikipedia.org/wiki/Virtual_Network_Computing&quot;&gt;VNC 服务器&lt;/a&gt;的问题。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/43MWJ6BXGCHIHPZXTXWK3P4EREJXCRVR/&quot;&gt;20220227&lt;/a&gt; 将 &lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 更新到 1.1.0 版本。新版本添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/HTTP/3&quot;&gt;http3&lt;/a&gt; 并为 &lt;a href=&quot;https://en.wikipedia.org/wiki/WS-Discovery&quot;&gt;WS-Discovery&lt;/a&gt; 发现添加了几个服务定义。数据存储包 &lt;a href=&quot;https://en.wikipedia.org/wiki/Hierarchical_Data_Format&quot;&gt;hdf5&lt;/a&gt; 1.10.8 添加了新的构建工具并修复了一些漏洞，例如 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2018-17432.html&quot;&gt;CVE-2018-17432&lt;/a&gt;，该漏洞将使攻击者能够通过精心制作的 hdf5 文件进行拒绝服务攻击。&lt;a href=&quot;https://urlscan.io/&quot;&gt;urlscan&lt;/a&gt; 0.9.9 切换到 &lt;a href=&quot;https://realpython.com/python-f-strings/&quot;&gt;f-strings&lt;/a&gt; 并且更新了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.26 更新优化了缩略图调整算法的性能，该更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VNAE5YA22EGNX45POA336HVHDDDDK3I5/&quot;&gt;20220226&lt;/a&gt; 中发布。一些无法识别的颜色也在此次更新中得到修复。3D 图形包 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 修复了 21.3.7 更新中的一些回归问题。&lt;a href=&quot;https://git.kernel.org/pub/scm/libs/ell/ell.git/&quot;&gt;Embedded Linux library (ell)&lt;/a&gt; 0.49 版本修复了影响 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol&quot;&gt;DHCP&lt;/a&gt; 服务器的问题。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs17&lt;/a&gt; 17.5.0 更新添加了 &lt;a href=&quot;https://www.npmjs.com/&quot;&gt;npm&lt;/a&gt; 8.4.1 的依赖，并添加了对 fetch &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的实验性支持；此更新添加了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--experimental-fetch&lt;/code&gt; 标志，用于安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fetch&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Request&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Response&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Headers&lt;/code&gt; 全局变量。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.16.11 进行了几项&lt;a href=&quot;https://en.wikipedia.org/wiki/Berkeley_Packet_Filter&quot;&gt;伯克利包过滤器&lt;/a&gt;调整。Kernel 还修复了一些影响&lt;a href=&quot;https://en.wikipedia.org/wiki/Direct_Rendering_Manager&quot;&gt;直接渲染管理器&lt;/a&gt;驱动程序的问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;freerdp&lt;/a&gt; 2.6.0、&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.29.5、&lt;a href=&quot;https://github.com/openSUSE/zypper&quot;&gt;zypper&lt;/a&gt; 1.14.52 和 &lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 的几个翻译更新。&lt;/p&gt;
+
+&lt;p&gt;上周五快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/RVG3NG6B4KVASAJQ5VZ7Q7MFYPS5AGZE/&quot;&gt;20220225&lt;/a&gt; 将 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/ModemManager/&quot;&gt;ModemManager&lt;/a&gt; 从版本 1.14.8 更新到 1.18.6。控制移动宽带设备和连接的 &lt;a href=&quot;https://gitlab.freedesktop.org/mobile-broadband/ModemManager&quot;&gt;DBus 激活守护程序&lt;/a&gt;现在可以在“快速挂起/恢复”模式下运行；挂起时不会触发显式数据断开连接，也不会从头开始进行显式设备重新探测。相反，守护进程会在挂起时尝试刷新所有接口的状态。&lt;a href=&quot;https://www.foxconn.com/&quot;&gt;富士康&lt;/a&gt;增加了对 T99W175 5G 无线模块的支持，其中包括内置的 FCC 解锁程序，富士康还增加了新的&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt; MBIM &lt;a href=&quot;https://www.qualcomm.com/&quot;&gt;高通&lt;/a&gt;设备更新固件方法。&lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;Fetchmail&lt;/a&gt; 6.4.27 更新了罗马尼亚语翻译并将 &lt;a href=&quot;https://github.com/wolfssl/wolfssl&quot;&gt;wolfSSL&lt;/a&gt; 升级到 5.1.1 版本，以引入安全修复程序。&lt;a href=&quot;https://rubygems.org/gems/faraday&quot;&gt;rubygem-faraday&lt;/a&gt; 2.2.0 软件包是快照中唯一要更新的其他软件包。&lt;/p&gt;
+
+&lt;h2 id=&quot;leap-季度更新&quot;&gt;Leap 季度更新&lt;/h2&gt;
+
+&lt;p&gt;openSUSE Leap 15.3 季度性更新的 respin ISO 镜像文件预计很快就会发布。Leap 15.3 ISO 文件的第一个季度更新&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/GFTDCDUUZ4L34WNNRUI5A2VKJSZYPONN/&quot;&gt;于去年 10 月发布&lt;/a&gt;。Respin ISO 根据通用版本更新原始 ISO 镜像文件，并包含上一季度的所有更新。Respin ISO 允许用户立即采用最新的错误修复和更新，这有助于减少安装后下载和在线更新的带宽使用。有关季度版本发布的更多信息，请参阅 Leap 路线图。&lt;/p&gt;
+
+&lt;p&gt;用户可以从 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载已更新的镜像文件。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/04/tw-has-six-snap-leap-qr/&quot;&gt;Tumbleweed Has Six Snapshots, Leap Gets Quarterly Respin&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/%E4%B8%8E%E6%8A%AB%E8%90%A8-%E6%9C%8B%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%B5%8B%E8%AF%95-Leap-%E7%9A%84%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC.html</guid>
       <title>与披萨、朋友一起测试 Leap 的测试版本</title>
       <pubDate>Tue, 01 Mar 2022 17:30:00 -0600</pubDate>
@@ -278,46 +313,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/28/bash-systemd-libvirt-update-in-tw/&quot;&gt;Bash, systemd, libvirt Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/25/openSUSE-%E5%A4%A7%E4%BC%9A%E8%AE%BE%E8%AE%A1%E6%AF%94%E8%B5%9B%E5%BC%80%E5%A7%8B.html</guid>
-      <title>openSUSE 大会设计比赛开始</title>
-      <pubDate>Tue, 25 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/25/openSUSE-%E5%A4%A7%E4%BC%9A%E8%AE%BE%E8%AE%A1%E6%AF%94%E8%B5%9B%E5%BC%80%E5%A7%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>由 openSUSE 为 openSUSE Conference 2022 举办的徽标设计大赛已经开始了。该比赛的最终获奖徽标将用于会议海报和 T 恤。 提交的图片必须满足下列和竞赛 wiki 页面上列出的某些要求。我们鼓励设计师使用开源图形编辑软件，如 Inkscape、Gimp 或 Krita。 提交的徽标设计应使用 CC-BY-SA 4.0 进行授权分发，并允许所有人在不署名的情况下使用它。提交的徽标设计必须是原创的，并且不应包含任何与 CC-BY-SA 4.0 冲突的第三方素材。 设计大赛有以下要求： 徽标设计的源文件必须是 svg 格式； 你需要将图片通过电子邮件发送到 ddemaio@opensuse.org，邮件标题为 “oSC22 Design Contest”； 徽标的尺寸必须能够以相同尺寸打印在小号和 3XL T 恤上。这意味着设计不能印在 T 恤的底部、顶部或边缘，也不能环绕 T 恤； 必须在徽标中包含 openSUSE Conference 字样； 徽标图片应以 png 格式添加到竞赛 wiki 页面，以便人们查看设计。 设计指南： 避免使用细线;...</description>
-      <content:encoded>&lt;p&gt;由 openSUSE 为 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 举办的徽标设计大赛已经开始了。该比赛的最终获奖徽标将用于会议海报和 T 恤。&lt;/p&gt;
-
-&lt;p&gt;提交的图片必须满足下列和竞赛 &lt;a href=&quot;https://en.opensuse.org/TshirtoSC22&quot;&gt;wiki 页面&lt;/a&gt;上列出的某些要求。我们鼓励设计师使用开源图形编辑软件，如 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;、&lt;a href=&quot;https://www.gimp.org/&quot;&gt;Gimp&lt;/a&gt; 或 &lt;a href=&quot;https://krita.org/&quot;&gt;Krita&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;提交的徽标设计应使用 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 进行授权分发，并允许所有人在不署名的情况下使用它。提交的徽标设计必须是原创的，并且不应包含任何与 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 冲突的第三方素材。&lt;/p&gt;
-
-&lt;h2 id=&quot;设计大赛有以下要求&quot;&gt;设计大赛有以下要求：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;徽标设计的源文件必须是 svg 格式；&lt;/li&gt;
-  &lt;li&gt;你需要将图片通过电子邮件发送到 ddemaio@opensuse.org，邮件标题为 “oSC22 Design Contest”；&lt;/li&gt;
-  &lt;li&gt;徽标的尺寸必须能够以相同尺寸打印在小号和 3XL T 恤上。这意味着设计不能印在 T 恤的底部、顶部或边缘，也不能环绕 T 恤；&lt;/li&gt;
-  &lt;li&gt;必须在徽标中包含 openSUSE Conference 字样；&lt;/li&gt;
-  &lt;li&gt;徽标图片应以 png 格式添加到竞赛 &lt;a href=&quot;https://en.opensuse.org/TshirtoSC22&quot;&gt;wiki 页面&lt;/a&gt;，以便人们查看设计。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;设计指南&quot;&gt;设计指南：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;避免使用细线;&lt;/li&gt;
-  &lt;li&gt;避免使用渐变;&lt;/li&gt;
-  &lt;li&gt;将徽标使用的颜色种类限制为 2 到 3 种颜色;&lt;/li&gt;
-  &lt;li&gt;徽标设计应遵守&lt;a href=&quot;https://opensuse.github.io/branding-guidelines/&quot;&gt;品牌指南&lt;/a&gt;和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Artwork_brand&quot;&gt;在设计中使用 logo 的指南&lt;/a&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;比赛从今天开始。比赛的截止日期是 3 月 31 日 23:59 UTC。获奖徽标设计将在截止日期后不久公布。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/26/os-con-design-contest-begins/&quot;&gt;openSUSE Conference Design Contest Begins&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
