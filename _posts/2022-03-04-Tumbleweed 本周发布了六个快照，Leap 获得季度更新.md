@@ -34,6 +34,8 @@ tags:
 
 openSUSE Leap 15.3 季度性更新的 respin ISO 镜像文件预计很快就会发布。Leap 15.3 ISO 文件的第一个季度更新[于去年 10 月发布](https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/GFTDCDUUZ4L34WNNRUI5A2VKJSZYPONN/)。Respin ISO 根据通用版本更新原始 ISO 镜像文件，并包含上一季度的所有更新。Respin ISO 允许用户立即采用最新的错误修复和更新，这有助于减少安装后下载和在线更新的带宽使用。有关季度版本发布的更多信息，请参阅 Leap 路线图。
 
+用户可以从 [get.opensuse.org](https://get.opensuse.org/) 下载已更新的镜像文件。
+
 ------
 
 原文：[Tumbleweed Has Six Snapshots, Leap Gets Quarterly Respin](https://news.opensuse.org/2022/03/04/tw-has-six-snap-leap-qr/)，作者：Douglas DeMaio
