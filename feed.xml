@@ -7,6 +7,49 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/07/openSUSE-%E8%A2%AB%E9%80%89%E4%B8%BA%E6%8C%87%E5%AF%BC%E7%BB%84%E7%BB%87.html</guid>
+      <title>openSUSE 被选为指导组织</title>
+      <pubDate>Mon, 07 Mar 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/07/openSUSE-%E8%A2%AB%E9%80%89%E4%B8%BA%E6%8C%87%E5%AF%BC%E7%BB%84%E7%BB%87.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目已被选为谷歌 2022 年编程之夏的导师组织。 作为被选入 GSoC 的 203 个开源项目之一，来自 openSUSE 的导师们有机会指导希望获得开源项目经验的有志学生开发者。 openSUSE 的专用网站 101.opensuse.org 为 GSoC 学生提供了几个项目。今年的项目包括质量保证测试项目 openQA、输入框架 ibus、用户空间实现 PRoot 和配置管理项目 Uyuni。 指导网站上列出的项目包括使用 Python、Perl 和 c/c++ 等编程语言进行开发。 以下是这些项目的名单： 从 openQA 测试结果中动态检测错误情况 基于容器的 openQA 后端 iBus 自定义主题增强工具 一个新的 Salt 测试框架 用 debbuild 为 Debian 建立 Uyuni 客户端工具包 将系统列表页从 JSP 转换为 ReactJS...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;已被选为&lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;谷歌 2022 年编程之夏&lt;/a&gt;的导师组织。&lt;/p&gt;
+
+&lt;p&gt;作为被选入 GSoC 的 &lt;a href=&quot;https://g.co/gsoc&quot;&gt;203 个开源项目&lt;/a&gt;之一，来自 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的导师们有机会指导希望获得开源项目经验的有志学生开发者。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 的专用网站 &lt;a href=&quot;http://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 为 GSoC 学生提供了几个项目。今年的项目包括质量保证测试项目 &lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt;、输入框架 &lt;a href=&quot;https://101.opensuse.org/#ibus&quot;&gt;ibus&lt;/a&gt;、用户空间实现 &lt;a href=&quot;https://101.opensuse.org/#PRoot&quot;&gt;PRoot&lt;/a&gt; 和配置管理项目 &lt;a href=&quot;https://www.uyuni-project.org/&quot;&gt;Uyuni&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;指导网站上列出的项目包括使用 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt;、&lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 和 &lt;a href=&quot;https://isocpp.org/&quot;&gt;c/c++&lt;/a&gt; 等编程语言进行开发。&lt;/p&gt;
+
+&lt;p&gt;以下是这些项目的名单：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/121&quot;&gt;从 openQA 测试结果中动态检测错误情况&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/120&quot;&gt;基于容器的 openQA 后端&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/182&quot;&gt;iBus 自定义主题增强工具&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/184&quot;&gt;一个新的 Salt 测试框架&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/183&quot;&gt;用 debbuild 为 Debian 建立 Uyuni 客户端工具包&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/181&quot;&gt;将系统列表页从 JSP 转换为 ReactJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/163&quot;&gt;在 PRoot 中实现 libseccomp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/161&quot;&gt;Root/CARE 和 Intel SGX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/mentoring/issues/160&quot;&gt;使用 PRoot 的无特权容器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;作为导师机构，符合条件的学生将有机会在 4 月 4 日至 4 月 19 日之间向 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;GSoC&lt;/a&gt; 项目网站提交申请方案。学生应通过 github 与 openSUSE 导师通过项目的评论进行互动。该计划对 18 岁以上的大学生开放。&lt;/p&gt;
+
+&lt;p&gt;这个一年一度的国际项目专注于将学生开发者带入&lt;a href=&quot;https://en.wikipedia.org/wiki/Open-source_software_development&quot;&gt;开源软件的开发&lt;/a&gt;。学生们在学校放假期间与开源组织合作进行为期 10 周的编程项目。&lt;/p&gt;
+
+&lt;p&gt;有兴趣的学生请访问&lt;a href=&quot;http://101.opensuse.org/&quot;&gt;指导网站&lt;/a&gt;和谷歌编程之夏网站，以了解有关项目和申请过程的更多信息。&lt;/p&gt;
+
+&lt;p&gt;自 2006 年以来，openSUSE 项目已经参加了几次 GSoC 活动。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/08/os-selected-as-mentor-org/&quot;&gt;openSUSE Selected as Mentor Organization&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/03/Tumbleweed-%E6%9C%AC%E5%91%A8%E5%8F%91%E5%B8%83%E4%BA%86%E5%85%AD%E4%B8%AA%E5%BF%AB%E7%85%A7-Leap-%E8%8E%B7%E5%BE%97%E5%AD%A3%E5%BA%A6%E6%9B%B4%E6%96%B0.html</guid>
       <title>Tumbleweed 本周发布了六个快照，Leap 获得季度更新</title>
       <pubDate>Thu, 03 Mar 2022 17:30:00 -0600</pubDate>
@@ -280,39 +323,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/27/release-manager-gives-update-on-de/&quot;&gt;Release Manager Gives Community Update On Desktop Environment&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Tumbleweed 中的 Bash、systemd、libvirt 更新</title>
-      <pubDate>Thu, 27 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/Tumbleweed-%E4%B8%AD%E7%9A%84-Bash-systemd-libvirt-%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周每天都有 openSUSE Tumbleweed 快照。 Tumbleweed 中其他一些值得注意的消息是 Wicked 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 NetworkManager。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。 最新的 Tumbleweed 快照是 20220126。Samba 本周更新了两次；此快照引入了 4.15.4 版本，该版本提供了一些清理和配置更改。Linux Kernel 5.16.2 很快从暂存状态发布至快照。更新的内核为较新的联想笔记本电脑提供了多个 ALSA 修复程序，并为 s390 和 x86 架构提供了 KVM 修复程序。文本编辑器 vim 在其 8.2.4186 版本中对实验性 vim9 分支进行了一些修复以及一些额外的更改。xlockmore 是一个屏幕保护程序和 X Window 系统软件包，在其 5.68 版本中更新了一个 xscreensaver 端口并修复了一些模块。mozilla-nss 的 3.74 版本替换了四个 Google Trust Services...</description>
-      <content:encoded>&lt;p&gt;本周每天都有 openSUSE Tumbleweed 快照。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 中其他一些值得注意的消息是 &lt;a href=&quot;https://github.com/openSUSE/wicked&quot;&gt;Wicked&lt;/a&gt; 正在逐步淘汰。新安装的 Tumbleweed 都默认使用 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt;。这不仅适用于桌面系统，也适用于服务器安装。但是，升级程序尚未计划完全弃用 Wicked。&lt;/p&gt;
-
-&lt;p&gt;最新的 Tumbleweed 快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/COKAP2GGB7YKF2546IHL4UKQ72KSLPU7/&quot;&gt;20220126&lt;/a&gt;。&lt;a href=&quot;https://www.samba.org/&quot;&gt;Samba&lt;/a&gt; 本周更新了两次；此快照引入了 4.15.4 版本，该版本提供了一些清理和配置更改。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.16.2 很快从&lt;a href=&quot;https://en.opensuse.org/openSUSE:Factory_development_model#Staging_Projects&quot;&gt;暂存状态&lt;/a&gt;发布至快照。更新的内核为较新的&lt;a href=&quot;https://www.lenovo.com/&quot;&gt;联想&lt;/a&gt;笔记本电脑提供了多个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 修复程序，并为 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86&quot;&gt;x86&lt;/a&gt; 架构提供了 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 修复程序。文本编辑器 vim 在其 8.2.4186 版本中对实验性 &lt;a href=&quot;https://github.com/brammool/vim9/blob/master/README.md&quot;&gt;vim9&lt;/a&gt; 分支进行了一些修复以及一些额外的更改。&lt;a href=&quot;http://sillycycle.com/xlockmore.html&quot;&gt;xlockmore&lt;/a&gt; 是一个屏幕保护程序和 X Window 系统软件包，在其 5.68 版本中更新了一个 xscreensaver 端口并修复了一些模块。&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS&quot;&gt;mozilla-nss&lt;/a&gt; 的 3.74 版本替换了四个 &lt;a href=&quot;https://pki.goog/&quot;&gt;Google Trust Services LLC 根证书&lt;/a&gt;，添加了一些 iTrusChina 根证书，并在&lt;a href=&quot;https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol&quot;&gt;在线证书状态协议&lt;/a&gt;响应的 CertID 中添加了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/SHA-2&quot;&gt;SHA-2&lt;/a&gt; 哈希的支持。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FPZXSLBAKLI5JZNU4JNP4O6UVRDJ5KTX/&quot;&gt;20220125&lt;/a&gt; 带来了一些令人兴奋的系统更新。&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; 5.1.16 更新中添加了一些补丁；其中一个修复了损坏的输入。另一个修复了 &lt;a href=&quot;https://www.gnu.org/software/bash/manual/html_node/Bash-POSIX-Mode.html&quot;&gt;posix 模式&lt;/a&gt;下赋值语句右侧未引用冒号后的&lt;a href=&quot;https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html&quot;&gt;波浪号扩展&lt;/a&gt;。&lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 的企业级软件包 &lt;a href=&quot;https://directory.fedoraproject.org/&quot;&gt;389-ds&lt;/a&gt; 2.0.13 添加了一个用户界面功能，修复了一个编译器警告。用于访问音频、键盘、鼠标、操纵杆和图形硬件的跨平台开发库 &lt;a href=&quot;https://www.libsdl.org/&quot;&gt;SDL2&lt;/a&gt; 2.0.20 提高了使用 &lt;a href=&quot;https://www.opengl.org//&quot;&gt;OpenGL&lt;/a&gt; 时水平和垂直线条绘制的准确性。棋盘游戏 &lt;a href=&quot;https://en.wikipedia.org/wiki/Blokus&quot;&gt;Blokus&lt;/a&gt; 的计算机对手，&lt;a href=&quot;https://github.com/enz/pentobi&quot;&gt;pentobi&lt;/a&gt; 20.0 的大版本更新主要是针对 &lt;a href=&quot;https://www.qt.io/blog/qt-6.2-lts-released&quot;&gt;Qt 6.2&lt;/a&gt; 中有时会导致未下棋的棋子位置错误的 bug 进行了修复。快照中更新了相当多的 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 软件包。&lt;a href=&quot;https://github.com/yast/yast-security&quot;&gt;yast2-security&lt;/a&gt; 4.4.8 的更新修复了一个声明性 &lt;a href=&quot;https://gitlab.com/apparmor&quot;&gt;AppArmor&lt;/a&gt; 选项；&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.76 的更新增加了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/RAID&quot;&gt;RAID&lt;/a&gt; 元数据版本 1.1 和 1.2 的支持； &lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 4.4.14、&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.35、&lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.4.33、&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.4.27 和 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.4.39 只是更新的众多 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 软件包中的一小部分。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/R3WK5QQ5B3UAAQALOUGNPMDD4UGOW5LP/&quot;&gt;20220124&lt;/a&gt; 更新了两个包。文本网络浏览器 &lt;a href=&quot;https://lynx.invisible-island.net/&quot;&gt;lynx&lt;/a&gt; 2.9.0.10 更新了一些翻译，并为使用 asan2 和&lt;a href=&quot;https://fuzzing-project.org/&quot;&gt;模糊器生成的数据&lt;/a&gt;发现的问题提供了一些修复。&lt;a href=&quot;https://github.com/Z3Prover/z3&quot;&gt;z3&lt;/a&gt; 4.8.14 更新修复了一些约束，并为&lt;a href=&quot;https://en.wikipedia.org/wiki/Automated_theorem_proving&quot;&gt;定理证明器&lt;/a&gt;提供了一些额外的用户功能。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XFWRVTZEQT4JAVAGMA3RY67M2OT73AJZ/&quot;&gt;20220123&lt;/a&gt; 引入了 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.32，它修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-21394.html&quot;&gt;CVE-2022-21394&lt;/a&gt;，该漏洞允许未经授权访问关键数据；该软件包更改了在使用 Hyper-V 时，虚拟机 RAM 管理，以便与&lt;a href=&quot;https://docs.microsoft.com/zh-cn/windows-hardware/test/hlk/testref/driver-compatibility-with-device-guard&quot;&gt;虚拟机监控程序保护的代码完整性&lt;/a&gt;更加兼容。virtualbox 还修复了对一些未正确处理的 USB 设备和设备类的访问。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 96.0.2 修复了导致在 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 上播放音频时选项卡高度显示不一致的问题。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;Bind&lt;/a&gt; 9.16.25 进行了一些更改，以防止在当前读取回调完成之前执行回调。高度可移植的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;DNS&lt;/a&gt; 协议实现在更新中修复了另外七个错误。&lt;a href=&quot;https://www.samba.org/&quot;&gt;Samba&lt;/a&gt; 4.15.3 修复了 &lt;a href=&quot;https://www.samba.org/samba/security/CVE-2020-25717.html&quot;&gt;CVE-2020-25717&lt;/a&gt;，该漏洞使用 Windows 活动目录，可能允许以不希望的方式将域用户映射到本地用户。Samba 还在构建要求中添加了 &lt;a href=&quot;https://github.com/openSUSE/python-rpm-macros&quot;&gt;python-rpm-macros&lt;/a&gt;。快照中要更新的另一个包是 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.34.4，它修复了几个崩溃和渲染问题；该软件包版本还修复了许多安全问题，包括允许网站读取其他网站创建的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Indexed_Database_API&quot;&gt;IndexedDB 数据库&lt;/a&gt;名称的严重问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://github.com/drowe67/codec2&quot;&gt;codec2&lt;/a&gt; 1.0.3、&lt;a href=&quot;https://salsa.debian.org/iso-codes-team/iso-codes&quot;&gt;iso-codes&lt;/a&gt; 4.9.0、&lt;a href=&quot;https://github.com/openSUSE/kdump&quot;&gt;kdump&lt;/a&gt; 1.0 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K5OSE3BFE3H6E43B52YGM6TGAYQCU5ZF/&quot;&gt;20220122&lt;/a&gt; 中的 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.4.26 更新更改了附加签名设置的处理。快照中包含三个主要版本更新；分别是 &lt;a href=&quot;https://pkgs.org/download/systemd-rpm-macros&quot;&gt;systemd-rpm-macros&lt;/a&gt; 15 和用户空间工具包 &lt;a href=&quot;https://github.com/linux-nvme/nvme-cli&quot;&gt;nvme-cli&lt;/a&gt; 2.0，它修复了一些依赖项和版本字符串。&lt;a href=&quot;https://pypi.org/project/ipython/&quot;&gt;python-ipython&lt;/a&gt; 8.0.1 的大版本更新修复了 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-21699.html&quot;&gt;CVE-2022-21699&lt;/a&gt; 并从 &lt;a href=&quot;https://www.python.org/downloads/release/python-3100/&quot;&gt;Python 3.10&lt;/a&gt; 向后移植了一些修复。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/P457MFZIC6XQ4XB5UPKOWIBRAQYYVTEB/&quot;&gt;20220121&lt;/a&gt; 发布了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 249.9。systemd 此次更新移动了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Udev&quot;&gt;udev&lt;/a&gt; 包中的网络配置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-network-generator&lt;/code&gt;；该生成器可以生成 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.link&lt;/code&gt; 文件，主要用于必须使用 udev 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。systemd 的更新还删除了一些补丁并修复了未公开的 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3997&quot;&gt;CVE-2021-3997&lt;/a&gt;。快照中更新了 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 的 8.0 主要版本。&lt;a href=&quot;https://libvirt.org/news.html#v8-0-0-2022-01-14&quot;&gt;新特性&lt;/a&gt;之一是用于磁盘复制操作的 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 同步写入模式。快照中要更新的其他软件包包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220115、&lt;a href=&quot;https://flatpak.org/&quot;&gt;flatpak&lt;/a&gt; 1.12.4、&lt;a href=&quot;https://git.kernel.org/pub/scm/linux/storage/autofs/autofs.git&quot;&gt;autofs&lt;/a&gt; 5.1.8 和 &lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.7.3 等。&lt;/p&gt;
-
-&lt;p&gt;于上周四发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YUYVSC355EMXNBHFRFM7DNTNH35WQ3J5/&quot;&gt;20220120&lt;/a&gt;，将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 更新到了 5.16.1 版本。该更新提供了多项&lt;a href=&quot;https://en.wikipedia.org/wiki/Bluetooth&quot;&gt;蓝牙&lt;/a&gt;修复，其中包括针对 MacBook Air 8,1 和 8,2 的修复。根据更新日志，用户空间设置工具 &lt;a href=&quot;https://gitlab.com/cryptsetup/cryptsetup/&quot;&gt;cryptsetup&lt;/a&gt; 2.4.3 的更新修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-4122.html&quot;&gt;CVE-2021-4122&lt;/a&gt;，该漏洞允许通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 在线重新加密扩展崩溃恢复对数据机密性进行可能的攻击。&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite&lt;/a&gt; 3.37.2 修复了版本 3.35.0 中引入的错误，该错误可能导致数据库损坏并修复了涉及重置选项的长期问题。&lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 4.4.13 的更新增加了对密码保护的支持并增加了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; &lt;a href=&quot;https://en.opensuse.org/openSUSE:UEFI&quot;&gt;安全启动&lt;/a&gt;的支持。&lt;/p&gt;
-
-&lt;p&gt;本周发布的支持 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 架构的 Tumbleweed 快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/TOJPWPPCCCZCV7OVQOLU34KW26WV4PTA/&quot;&gt;arm 20220125&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/ZNMXXCPC575EGJVOP6HROKRTLWHUJCIX/&quot;&gt;arm 20220123&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/28/bash-systemd-libvirt-update-in-tw/&quot;&gt;Bash, systemd, libvirt Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
