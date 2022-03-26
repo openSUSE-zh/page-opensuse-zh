@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/24/Tumbleweed-%E8%8E%B7%E5%BE%97-GNOME-42.html</guid>
+      <title>Tumbleweed 获得 gnome 42</title>
+      <pubDate>Thu, 24 Mar 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/24/Tumbleweed-%E8%8E%B7%E5%BE%97-GNOME-42.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 滚动分支 Tumbleweed 快速地为用户提供了最新发布的 GNOME 42。 这个由 gnome 贡献者们发布，备受关注的版本已在快照 20220323 中发布。 GNOME 42 具有新的全局深色用户界面样式偏好，并配备了重新设计的屏幕截图功能。GNOME 42 核心应用程序已移植到 GTK4 并提供下一代功能。GNOME 42 包括一组有价值的性能改进，例如视频现在使用具有硬件加速解码的现代 OpenGL 小部件；输入处理得到了显着增强，从而降低了输入延迟并提高了响应能力。全屏应用程序呈现方式的改进降低了视频播放的能耗并提高了游戏的帧速率。VLC 3.0.17.3 在快照中进行了更新，并修复了可能导致自适应流播放缺少音频的回归。快照中更新了其他几个软件包，包括 NetworkManager 1.36.4、GTK4 4.6.2、webkit2gtk3 2.36.0、yast2-installation 4.4.50 等。 于前一天发布的快照 20220322 提供了三个包更新。以太网和 IP 地址配对包 arpwatch 3.2 添加了一个配置选项来指定发送邮件的路径。aws-cli 1.22.65 更新了规范文件并进行了一些 API 更改，例如添加用于自定义插件删除 DeleteCustomPlugin 的操作以及添加 Hybridcast 作为 Dash Origin Endpoints 的可用配置文件选项。python-pip...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 滚动分支 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快速地为用户提供了最新发布的 &lt;a href=&quot;https://release.gnome.org/42/&quot;&gt;GNOME 42&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这个由 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;gnome&lt;/a&gt; 贡献者们发布，备受关注的版本已在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6JFVEVVR246ME4ODHTATDNWHYLNRC7TW/&quot;&gt;20220323&lt;/a&gt; 中发布。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://release.gnome.org/42/&quot;&gt;GNOME 42&lt;/a&gt; 具有新的全局深色用户界面样式偏好，并配备了&lt;a href=&quot;https://static.gnome.org/release/42/screenshots.webm&quot;&gt;重新设计的屏幕截图功能&lt;/a&gt;。GNOME 42 核心应用程序已移植到 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 并提供下一代功能。GNOME 42 包括一组有价值的性能改进，例如视频现在使用具有硬件加速解码的现代 &lt;a href=&quot;https://www.opengl.org//&quot;&gt;OpenGL&lt;/a&gt; 小部件；输入处理得到了显着增强，从而降低了输入延迟并提高了响应能力。全屏应用程序呈现方式的改进降低了视频播放的能耗并提高了游戏的帧速率。&lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 3.0.17.3 在快照中进行了更新，并修复了可能导致自适应流播放缺少音频的回归。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.36.4、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.6.2、&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.36.0、&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.50 等。&lt;/p&gt;
+
+&lt;p&gt;于前一天发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2U2QNDHOPR2GBVEORYVD2GUUGEKJJARI/&quot;&gt;20220322&lt;/a&gt; 提供了三个包更新。以太网和 IP 地址配对包 &lt;a href=&quot;https://ee.lbl.gov/downloads/arpwatch/&quot;&gt;arpwatch&lt;/a&gt; 3.2 添加了一个配置选项来指定发送邮件的路径。&lt;a href=&quot;https://github.com/aws/aws-cli&quot;&gt;aws-cli&lt;/a&gt; 1.22.65 更新了规范文件并进行了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 更改，例如添加用于自定义插件删除 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DeleteCustomPlugin&lt;/code&gt; 的操作以及添加 &lt;a href=&quot;https://www.nhk.or.jp/strl/english/publica/bt/51/2.html&quot;&gt;Hybridcast&lt;/a&gt; 作为 &lt;a href=&quot;https://docs.aws.amazon.com/mediapackage/latest/ug/endpoints-dash.html&quot;&gt;Dash Origin Endpoints&lt;/a&gt; 的可用配置文件选项。&lt;a href=&quot;https://pypi.org/project/pip/&quot;&gt;python-pip&lt;/a&gt; 更新至 22.0.4 版本；该包与 Python 3.6 不兼容，所以不适用于 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap 15&lt;/a&gt;。但是，此次更新修复了 pip 不考虑依赖关系的问题。之前的 20.2.4 版本在滚动版本中有大量更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AMOCYGLFJM3PEMLEUKYXWNM7FBWUFOM5/&quot;&gt;20220321&lt;/a&gt; 中更新了另外三个包。此快照为 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 11 提供了一个小更新，其中包含一个补丁来修复 i586 处理器上游戏 &lt;a href=&quot;https://en.wikipedia.org/wiki/0_A.D._(video_game)&quot;&gt;0 A.D.&lt;/a&gt; 的嵌入式预编译错误。C/C++ 代码分析工具 &lt;a href=&quot;http://cppcheck.wiki.sourceforge.net/&quot;&gt;cppcheck&lt;/a&gt; 更新到 2.7.1 版本。该工具对检查器进行了各种改进，并增加了对容器视图的支持；视图属性已被添加到容器库标签中，以指定该类是一个视图。寿命分析已被更新，以使用这个新属性来查找悬空的寿命容器。另一个要更新的包是 &lt;a href=&quot;https://github.com/openSUSE/rpm-config-SUSE&quot;&gt;rpm-config-SUSE&lt;/a&gt;，它改变了版本结构，从 0.g96 更新到了 20220317。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 在本周末继续发布快照，其中快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VOFY6P3ZET4DR3QX3IHKXD3SR3BGPIGC/&quot;&gt;20220320&lt;/a&gt; 更新了 15 个软件包。此快照将 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 更新到版本 41.5，以添加几个与 appstream 相关的修复；此更新还禁用了特色轮播上的鼠标滚轮。本次快照将 &lt;a href=&quot;https://github.com/containers/container-selinux&quot;&gt;container-selinux&lt;/a&gt; 从 2.171.0 更新到版本 2.180.0，并提供了几个附加选项，并允许用户角色使用容器域。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.94 的更新不再阻止扩展分区上的 &lt;a href=&quot;https://man7.org/linux/man-pages/man8/blkdiscard.8.html&quot;&gt;blkdiscard&lt;/a&gt;；&lt;a href=&quot;https://github.com/rfc1036/whois&quot;&gt;whois&lt;/a&gt; 客户端 5.5.12 更新了 &lt;a href=&quot;https://en.wikipedia.org/wiki/.pro&quot;&gt;.pro&lt;/a&gt; 顶级域服务器。其他值得注意的更新包是 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg&quot;&gt;librsvg&lt;/a&gt; 2.52.8、&lt;a href=&quot;https://pypi.org/project/kiwi/&quot;&gt;python-kiwi&lt;/a&gt; 9.24.29、&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.49 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YTP74YJMFWHBNKWB5DFD5HYIIO3YB6QY/&quot;&gt;20220319&lt;/a&gt; 更新了 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.36.2，现在可以加载插件目录中找到的所有已知插件。NetworkManager 还将 &lt;a href=&quot;https://wiki.linuxfoundation.org/networking/iproute2&quot;&gt;iproute2&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/iputils/iputils&quot;&gt;iputils&lt;/a&gt; 从需求依赖转换为推荐依赖。&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.12.7 在快照中进行了更新，并有一个变化，允许用 Flatpak 1.13.x 构建的应用程序在 share/metainfo 中导出 &lt;a href=&quot;https://github.com/ximion/appstream&quot;&gt;AppStream&lt;/a&gt; 元数据，这可能会在即将举行的 &lt;a href=&quot;https://linuxappsummit.org/&quot;&gt;Linux 应用程序峰会&lt;/a&gt;上讨论。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.16.15 似乎提供了一些 &lt;a href=&quot;https://www.arm.com/&quot;&gt;ARM&lt;/a&gt; 修复，并列出了 &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2022-0886&quot;&gt;CVE-2022-0886&lt;/a&gt; 的修复，这是 &lt;a href=&quot;https://nvd.nist.gov/vuln/detail/CVE-2022-27666&quot;&gt;CVE-2022-27666&lt;/a&gt; 的复制品。&lt;/p&gt;
+
+&lt;p&gt;于上周五发布，开启本周的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ML2CNPEGJVSOYWVK7MGCA76RE346RXNZ/&quot;&gt;20220318&lt;/a&gt;。该快照将 &lt;a href=&quot;https://rubygems.org/gems/formatador/versions/0.3.0&quot;&gt;rubygem-formatador&lt;/a&gt; 从 1.1.0 恢复到 0.3.0。&lt;a href=&quot;https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs&quot;&gt;gstreamer-plugins-rs&lt;/a&gt; 0.8.2 版本中有一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cargo.lock&lt;/code&gt; 的更新；&lt;a href=&quot;https://github.com/openSUSE/desktop-file-translations&quot;&gt;desktop-translations&lt;/a&gt; 84.87.20220316 的第六个月更新 9301f89b 完成了几百个翻译变更。快照中的其他更新包括 &lt;a href=&quot;https://github.com/fwupd/fwupd-efi&quot;&gt;fwupd-efi&lt;/a&gt; 1.2、&lt;a href=&quot;https://p11-glue.github.io/p11-glue/index.html&quot;&gt;p11-kit&lt;/a&gt; 0.24.1 和 &lt;a href=&quot;https://github.com/yast/yast-packager&quot;&gt;yast2-packager&lt;/a&gt; 4.4.26。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/25/tw-gets-gnome42/&quot;&gt;Tumbleweed Gets GNOME 42&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/07/openSUSE-%E8%A2%AB%E9%80%89%E4%B8%BA%E6%8C%87%E5%AF%BC%E7%BB%84%E7%BB%87.html</guid>
       <title>openSUSE 被选为指导组织</title>
       <pubDate>Mon, 07 Mar 2022 17:30:00 -0600</pubDate>
@@ -296,33 +325,6 @@
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/04/vc-tool-irc-client-update-in-tw/&quot;&gt;Version Control Tool, IRC Client Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/%E5%8F%91%E5%B8%83%E7%BB%8F%E7%90%86%E5%9C%A8%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%B8%AD%E6%8F%90%E4%BE%9B%E7%A4%BE%E5%8C%BA%E6%9B%B4%E6%96%B0.html</guid>
-      <title>发布经理在桌面环境中提供社区更新</title>
-      <pubDate>Thu, 27 Jan 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/01/27/%E5%8F%91%E5%B8%83%E7%BB%8F%E7%90%86%E5%9C%A8%E6%A1%8C%E9%9D%A2%E7%8E%AF%E5%A2%83%E4%B8%AD%E6%8F%90%E4%BE%9B%E7%A4%BE%E5%8C%BA%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>今天，在 Leap 发布经理 Luboš Kocman 更新社区的桌面环境后，openSUSE 社区收到了令人振奋的消息，预计下一个小版本将发布。 Leap 15.4 处于软件发布周期的 alpha 阶段，计划更新桌面环境。 Kocman 的电子邮件 “KDE Plasma 5.24 LTS will be in Leap 15.4（KDE Plasma 5.24 LTS 将在 Leap 15.4 中实装）” 通知 openSUSE 项目的 factory 邮件列表上的贡献者，所有“依赖项都已提交”给 SUSE Linux Enterprise。Leap 使用与 SLE 相同的源代码和完全相同的二进制包构建。 “我们已经获得了许可，” Kocman 写道。 issue #7 用于跟踪该功能的变动。 目前，Plasma 5.24 的长期支持版本处于...</description>
-      <content:encoded>&lt;p&gt;今天，在 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 发布经理 Luboš Kocman 更新社区的桌面环境后，openSUSE 社区收到了令人振奋的消息，预计&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;下一个小版本&lt;/a&gt;将发布。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 15.4&lt;/a&gt; 处于软件发布周期的 alpha 阶段，计划更新桌面环境。&lt;/p&gt;
-
-&lt;p&gt;Kocman 的电子邮件 “&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZKKEYZNAPJSWVLURGRKL7HY3YQZIRKKP/&quot;&gt;KDE Plasma 5.24 LTS will be in Leap 15.4&lt;/a&gt;（KDE Plasma 5.24 LTS 将在 Leap 15.4 中实装）” 通知 openSUSE 项目的 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;factory 邮件列表&lt;/a&gt;上的贡献者，所有“依赖项都已提交”给 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt;。&lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 使用与 SLE 相同的源代码和完全相同的二进制包构建。&lt;/p&gt;
-
-&lt;p&gt;“我们已经获得了许可，” Kocman 写道。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://code.opensuse.org/leap/features/issue/7&quot;&gt;issue #7&lt;/a&gt; 用于跟踪该功能的变动。&lt;/p&gt;
-
-&lt;p&gt;目前，&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.23.90/&quot;&gt;Plasma 5.24&lt;/a&gt; 的长期支持版本处于 beta 发布周期，很可能很快就会出现在 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 中。&lt;/p&gt;
-
-&lt;p&gt;根据 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的上游时间表和 Leap 的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，预计 &lt;a href=&quot;https://help.gnome.org/misc/release-notes/41.0/&quot;&gt;GNOME 41.x&lt;/a&gt; 将要发布。根据 &lt;a href=&quot;https://code.opensuse.org/leap/features/issue/9&quot;&gt;issue #9&lt;/a&gt;，&lt;a href=&quot;https://lxqt-project.org/&quot;&gt;LXQt&lt;/a&gt;、&lt;a href=&quot;http://www.lxde.org/&quot;&gt;LXDE&lt;/a&gt;、&lt;a href=&quot;https://github.com/linuxmint/Cinnamon&quot;&gt;Cinnamon&lt;/a&gt;、&lt;a href=&quot;https://mate-desktop.org/&quot;&gt;Mate&lt;/a&gt;、&lt;a href=&quot;https://xfce.org/&quot;&gt;XFCE&lt;/a&gt;、&lt;a href=&quot;https://en.opensuse.org/Sway&quot;&gt;sway&lt;/a&gt; 的版本尚未最终确定，该 issue 正在跟踪即将发布的 Leap 版本的桌面环境的最新版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/01/27/release-manager-gives-update-on-de/&quot;&gt;Release Manager Gives Community Update On Desktop Environment&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
