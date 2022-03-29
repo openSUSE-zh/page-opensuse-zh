@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/27/Leap-%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6%E6%8F%90%E5%8D%87%E4%BA%86.html</guid>
+      <title>Leap 错误报告的透明度提升了</title>
+      <pubDate>Sun, 27 Mar 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/27/Leap-%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6%E6%8F%90%E5%8D%87%E4%BA%86.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>多年来与 openSUSE Leap 相关的提交的错误报告存在一些异常情况，因为报告 Leap 发行版的错误需要考虑到 SUSE Linux Enterprise。 openSUSE 从 Leap 42.1 混合版本（源码兼容）演变为二进制兼容的 Leap 15.3 版本，因此需要大量错误报告。之前流程的异常导致贡献者无法看到被引用为 SLE 修复的错误，这使得这些错误被引入了 Leap，且贡献者无法在 bugzilla.opensuse.org 中查看它们。 根据 Leap 发布经理 Lubos Kocman 的电子邮件，现在流程已经简化了。 “我很高兴地通知您，开发人员努力寻找公开的 SUSE Linux Enterprise * Bugzilla 产品（默认情况下所有错误对社区可见）的日子终于结束了，”Kocman 在开发人员的邮件列表中写道。“现在可以在 bugzilla.opensuse.org 的默认 “Enter new bug” 对话框中看到公开的 SLE 产品。” 错误报告政策的变更在 Leap 和 SLE 中引入了更大的利用率和可公开访问的错误数量。针对所有从 SLE...</description>
+      <content:encoded>&lt;p&gt;多年来与 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 相关的提交的错误报告存在一些异常情况，因为报告 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 发行版的错误需要考虑到 SUSE Linux Enterprise。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 从 &lt;a href=&quot;https://news.opensuse.org/2015/11/04/opensuse-leap-42-1-becomes-first-hybrid-distribution/&quot;&gt;Leap 42.1 混合版本&lt;/a&gt;（源码兼容）演变为二进制兼容的 &lt;a href=&quot;https://news.opensuse.org/2021/06/02/opensuse-leap-bridges-path-to-enterprise/&quot;&gt;Leap 15.3&lt;/a&gt; 版本，因此需要大量错误报告。之前流程的异常导致贡献者无法看到被引用为 SLE 修复的错误，这使得这些错误被引入了 Leap，且贡献者无法在 bugzilla.opensuse.org 中查看它们。&lt;/p&gt;
+
+&lt;p&gt;根据 Leap 发布经理 Lubos Kocman 的电子邮件，现在流程已经简化了。&lt;/p&gt;
+
+&lt;p&gt;“我很高兴地通知您，开发人员努力寻找公开的 SUSE Linux Enterprise * Bugzilla 产品（默认情况下所有错误对社区可见）的日子终于结束了，”Kocman 在开发人员的&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7JLAC2TJLPNOGOU2NTHMZZ7H2GDVGZRR/&quot;&gt;邮件列表&lt;/a&gt;中写道。“现在可以在 &lt;a href=&quot;https://bugzilla.opensuse.org/&quot;&gt;bugzilla.opensuse.org&lt;/a&gt; 的默认 “Enter new bug” 对话框中看到公开的 SLE 产品。”&lt;/p&gt;
+
+&lt;p&gt;错误报告政策的变更在 Leap 和 SLE 中引入了更大的利用率和可公开访问的错误数量。针对所有从 SLE 继承的 Leap 软件包的错误应该在这些公开的 SLE 产品中报告。&lt;/p&gt;
+
+&lt;p&gt;“我们相信，这项工作将提高 Leap 更新中确切修复内容的透明度，”他写道：“和过去一样，补丁信息中引用的大多数错误都只是默认创建为非公开的。我们并没有取消该选项，而是确定了默认情况下我们可以“开放”的位置。即 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 和现在来自 Leap 和 SLE Beta 测试人员的所有错误，这些错误在创建期间未默认设置为非公开。”&lt;/p&gt;
+
+&lt;p&gt;Leap 发布经理感谢社区成员的帮助和推进工作。错误报告政策的变更为贡献者增加了清晰度和透明度。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/28/entering-leap-bugs-gains-new-clarity/&quot;&gt;Entering Leap Bugs Gains New Clarity&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/24/Tumbleweed-%E8%8E%B7%E5%BE%97-GNOME-42.html</guid>
       <title>Tumbleweed 获得 gnome 42</title>
       <pubDate>Thu, 24 Mar 2022 18:30:00 -0500</pubDate>
@@ -301,30 +328,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/11/plasma-lands-in-tw-set-leap-beta/&quot;&gt;Latest Plasma Lands in Tumbleweed, Set for Leap Beta&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/03/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E5%92%8C-IRC-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>版本控制工具和 IRC 客户端在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 03 Feb 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/02/03/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E5%B7%A5%E5%85%B7%E5%92%8C-IRC-%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 本周发布了四个快照，更新了 Internet Relay Chat 客户端和 Ruby 新的默认版本。 版本控制包 git 在快照 20220201 中更新。git 2.35.1 版本现在使用 --show-stash 显示存储条目的数量，就像正常输出一样。git grep 使用的调色板已更新以匹配 GNU grep。Mozilla Firefox 96.0.3 更新修复了允许在某些搜索遥测中提交意外数据的问题。 Google 的数据交换格式 protobuf 3.19.4 修复了当消息中的可选字段数量是 32 的精确倍数时发生的数据丢失错误；这影响了快照中的 Ruby 和 php。快照中要更新的其他包是 yast 4.4.43、python-fsspec 2022.1.0、suse-module-tools 16.0.19) 和已转换为非对称通信的包容性命名的 yast2-network 4.4.35。 IRC 客户端 hexchat 是快照 20220131 中更新的单个包。hexchat 2.16.0 版本更新了网络列表，并将...</description>
-      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 本周发布了四个快照，更新了 Internet Relay Chat 客户端和 Ruby 新的默认版本。&lt;/p&gt;
-
-&lt;p&gt;版本控制包 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YWNQRTG5H47AML2HJKKIBFE7ML44YRUE/&quot;&gt;20220201&lt;/a&gt; 中更新。git 2.35.1 版本现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--show-stash&lt;/code&gt; 显示存储条目的数量，就像正常输出一样。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git grep&lt;/code&gt; 使用的调色板已更新以匹配 &lt;a href=&quot;https://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt;。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 96.0.3 更新修复了允许在某些搜索&lt;a href=&quot;https://en.wikipedia.org/wiki/Telemetry&quot;&gt;遥测&lt;/a&gt;中提交意外数据的问题。 Google 的数据交换格式 &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;protobuf&lt;/a&gt; 3.19.4 修复了当消息中的可选字段数量是 32 的精确倍数时发生的数据丢失错误；这影响了快照中的 &lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 和 &lt;a href=&quot;https://www.php.net/&quot;&gt;php&lt;/a&gt;。快照中要更新的其他包是 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast&lt;/a&gt; 4.4.43、&lt;a href=&quot;https://pypi.org/project/fsspec/&quot;&gt;python-fsspec&lt;/a&gt; 2022.1.0、&lt;a href=&quot;https://github.com/openSUSE/suse-module-tools&quot;&gt;suse-module-tools&lt;/a&gt; 16.0.19) 和已转换为非对称通信的包容性命名的 &lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.4.35。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Internet_Relay_Chat&quot;&gt;IRC&lt;/a&gt; 客户端 &lt;a href=&quot;https://github.com/hexchat/hexchat&quot;&gt;hexchat&lt;/a&gt; 是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/65GJNT2PZQPBH5XPITG6O6W4TH2KRXFC/&quot;&gt;20220131&lt;/a&gt; 中更新的单个包。hexchat 2.16.0 版本更新了网络列表，并将 &lt;a href=&quot;https://libera.chat/&quot;&gt;Libera.Chat&lt;/a&gt; 作为默认值。聊天客户端还修复了各种解析问题并增加了对&lt;del&gt;删除线格式&lt;/del&gt;的支持。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HRHXQPD2YDB63GUHTJNKWEXRESZ7QRJW/&quot;&gt;20220130&lt;/a&gt; 更新 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.44；这个音频和视频包更改了一些属性，可以将缓冲区大小配置为大于 8192，这是 &lt;a href=&quot;https://jackaudio.org/&quot;&gt;JACK&lt;/a&gt; 应用程序使用硬编码的限制。该软件包还可以在没有会话管理器的情况下运行最小的 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 服务器，足以运行 JACK 客户端。&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 默认版本已更新至 3.1 版。该版本带来了改进的调试性能，支持远程调试并合并了 YJIT，这是 &lt;a href=&quot;https://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; 开发的新的进程内&lt;a href=&quot;https://en.wikipedia.org/wiki/Just-in-time_compilation&quot;&gt;即时编译器&lt;/a&gt;。快照中的 &lt;a href=&quot;https://docs.saltproject.io/en/master/topics/releases/3004.html&quot;&gt;Salt 3004&lt;/a&gt; 带来了新功能。像 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 这样的事务性系统的新模块带来了挑战，然而 Salt 3004 通过两个新模块， &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional_update&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rebootmgr&lt;/code&gt;，以及一个新的执行器 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional_update&lt;/code&gt; 支持&lt;a href=&quot;https://en.wikipedia.org/wiki/Atomicity_(database_systems)&quot;&gt;原子性&lt;/a&gt;系统；这些模块将有助于透明地对待事务性系统。&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.70.3 更新修复了在 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 上保存文件时由于缺少 &lt;a href=&quot;https://man7.org/linux/man-pages/man2/fdatasync.2.html&quot;&gt;fsync&lt;/a&gt; 而导致的潜在数据丢失。快照中要更新的其他软件包包括 &lt;a href=&quot;http://snapper.io/&quot;&gt;snapper&lt;/a&gt; 0.9.1、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.4.78、&lt;a href=&quot;https://gitlab.freedesktop.org/bolt/bolt&quot;&gt;bolt&lt;/a&gt; 0.9.2 和 &lt;a href=&quot;https://www.gnu.org/software/freeipmi/&quot;&gt;freeipmi&lt;/a&gt; 1.6.9 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WUETGRQZC6LW4NZZU2IM3IUL5WI5HS4I/&quot;&gt;20220128&lt;/a&gt; 更新了 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt;；该更新提供了巴西葡萄牙语的翻译。本周初还更新了 &lt;a href=&quot;https://developers.google.com/protocol-buffers/&quot;&gt;protobuf&lt;/a&gt; 3.19.3 版本，改进了解析性能并对齐了构建包的依赖处理最佳实践。网络和硬件实用程序包 &lt;a href=&quot;https://mirrors.edge.kernel.org/pub/software/network/ethtool/&quot;&gt;ethtool&lt;/a&gt; 5.16 添加了一些新功能，例如使用内存映射来解析模块 &lt;a href=&quot;https://en.wikipedia.org/wiki/EEPROM&quot;&gt;EEPROM&lt;/a&gt;，并修复了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--show-fec&lt;/code&gt; 显示的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Error_correction_code#Forward_error_correction&quot;&gt;FEC&lt;/a&gt; 模式的转储。&lt;a href=&quot;https://www.proofpoint.com/us/products/email-protection/open-source-email-solution&quot;&gt;sendmail&lt;/a&gt; 8.17.1 包解决了几个潜在的内存泄漏和其他与错误处理相关的类似问题。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 的策略管理器包 &lt;a href=&quot;https://pipewire.pages.freedesktop.org/wireplumber/&quot;&gt;wireplumber&lt;/a&gt; 0.4.7 修复了导致默认音频源选择延迟的回归，并修复了影响回声消除 pipewire 模块的回归。快照中还更新了几个 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 和 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGem&lt;/a&gt; 包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/02/04/vc-tool-irc-client-update-in-tw/&quot;&gt;Version Control Tool, IRC Client Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
 </content:encoded>
     </item>
 
