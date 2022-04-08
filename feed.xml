@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/07/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-GCC-%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</guid>
+      <title>Tumbleweed 更新了 GCC 默认版本</title>
+      <pubDate>Thu, 07 Apr 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/07/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-GCC-%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 在本周发布的其中一个快照中更新了 GCC 的默认版本。 快照 20220405 将 GCC 的默认版本升级到 GCC 12。 在更新 GCC 后出现的最新快照是 20220406。此快照更新了五个软件包。其中一个更新的软件包是 autoconf 2.71。autoconf 最新的配置脚本改进了与 C 变体前端编译器 clang 的兼容性，并且通过 automake 重新生成配置的规则恢复了兼容性。Linux SCSI 目标框架 tgt 更新到 1.0.82 版本并添加了对侦听随机端口的支持。快照中要更新的其他软件包是 xf86-video-dummy 0.4.0 和 yast2-slp-server 4.5.0。 使 GCC 12 成为 tumbleweed 的默认编译器的快照 20220405 更新了多个软件包。新的包继承自 GCC 11 的 GCC 12.0.1 更新，编译器提供了...</description>
+      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 在本周发布的其中一个快照中更新了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 的默认版本。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EXZXDQHCQEIVLC2RSBDGLTKBW5THRN2Y/&quot;&gt;20220405&lt;/a&gt; 将 GCC 的默认版本升级到 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC 12&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;在更新 GCC 后出现的最新快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JO5OD74UXQCEXCW6IBSOHXEDASYEQQHZ/&quot;&gt;20220406&lt;/a&gt;。此快照更新了五个软件包。其中一个更新的软件包是 &lt;a href=&quot;https://www.gnu.org/software/autoconf/&quot;&gt;autoconf&lt;/a&gt; 2.71。autoconf 最新的配置脚本改进了与 C 变体前端编译器 &lt;a href=&quot;https://clang.llvm.org/&quot;&gt;clang&lt;/a&gt; 的兼容性，并且通过 automake 重新生成配置的规则恢复了兼容性。Linux SCSI 目标框架 &lt;a href=&quot;https://github.com/fujita/tgt&quot;&gt;tgt&lt;/a&gt; 更新到 1.0.82 版本并添加了对侦听随机端口的支持。快照中要更新的其他软件包是 &lt;a href=&quot;https://gitlab.freedesktop.org/xorg/driver/xf86-video-dummy&quot;&gt;xf86-video-dummy&lt;/a&gt; 0.4.0 和 &lt;a href=&quot;https://github.com/yast/yast-slp-server&quot;&gt;yast2-slp-server&lt;/a&gt; 4.5.0。&lt;/p&gt;
+
+&lt;p&gt;使 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC 12&lt;/a&gt; 成为 tumbleweed 的默认编译器的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EXZXDQHCQEIVLC2RSBDGLTKBW5THRN2Y/&quot;&gt;20220405&lt;/a&gt; 更新了多个软件包。新的包继承自 GCC 11 的 GCC 12.0.1 更新，编译器提供了 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 交叉的冲突，因为只能同时安装目标的一个 GCC 版本；libgccjit 也做了同样的事情。&lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 42.0 更新中更新了翻译。&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 的新版本不再使用 network-&lt;a href=&quot;https://github.com/openSUSE/wicked&quot;&gt;wicked&lt;/a&gt; 作为默认网络处理程序。文本整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 4.2.0 的更新修复了上下文查找的处理。&lt;a href=&quot;https://wiki.documentfoundation.org/Releases/7.3.2/RC2&quot;&gt;libreoffice&lt;/a&gt; 7.3.2.2 修复了阿拉伯语文本中的单词选择错误，并修复了在各种情况和输入下发生的四个崩溃。快照中其他值得注意的更新是 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 8.2.0、&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 1.22.87 和文件同步器 &lt;a href=&quot;https://www.cis.upenn.edu/~bcpierce/unison/&quot;&gt;unison&lt;/a&gt; 2.52.0。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/N6CXYMVZP2ZCY65ERT2F3AZSPN46ZQHW/&quot;&gt;20220404&lt;/a&gt; 为 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户提供了文件管理器 &lt;a href=&quot;https://en.wikipedia.org/wiki/Thunar&quot;&gt;Thunar&lt;/a&gt; 的新版本；thunar 4.16.11 版本修复了一些重新加载视图，防止了格式错误的书签导致的崩溃和翻译更新。在 &lt;a href=&quot;https://www.x.org/archive/X11R6.8.1/doc/xclock.1.html&quot;&gt;xclock&lt;/a&gt; 1.1.0 更新中，时钟指针的渲染更加流畅。打印包 &lt;a href=&quot;https://github.com/OpenPrinting/cups-filters&quot;&gt;cups-filters&lt;/a&gt; 1.28.12 修复了一些分辨率和图像大小。快照中要更新的其他软件包包括 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;xwayland&lt;/a&gt; 22.1.1、&lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 16.2.7、&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.51 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ATW7Z3ET6DYTO6RF2SEQ7ZRSJUGTHM4E/&quot;&gt;20220403&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 1.0.2，新增对 &lt;a href=&quot;https://github.com/facebook/zstd&quot;&gt;Zstandard&lt;/a&gt; 压缩算法的支持；kdump 还为 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;的&lt;a href=&quot;https://en.wikipedia.org/wiki/Core_dump&quot;&gt;故障转储&lt;/a&gt;功能删除了一些补丁。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-logs&quot;&gt;gnome-logs&lt;/a&gt; 从 3.36.0 更新至 42.0，添加了一些新功能；其中包括直接打开日记文件和几个键盘快捷键来帮助覆盖。gnome-logs 的更新还改进了窗口大小。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.0.6 的更新包含各种 HTTP/2 修复、&lt;a href=&quot;https://github.com/mesonbuild/meson&quot;&gt;meson&lt;/a&gt; 构建改进并修复了 &lt;a href=&quot;https://visualstudio.microsoft.com/&quot;&gt;Visual Studio&lt;/a&gt; 的构建问题。快照中还更新了其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;本月的第二个快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VWR54ASN6Z5OGTSTP7SLSUTMURKCGZWR/&quot;&gt;20220402&lt;/a&gt; 有几个软件包更新。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.28 的小更新修复了几个缓冲区溢出；3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.0.1 修复了一些维护脚本和 &lt;a href=&quot;https://gitlab.freedesktop.org/panfrost&quot;&gt;panfrost&lt;/a&gt; 驱动程序。&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 1.1.1 更新添加了一些关于容器主机集成的文档，并为在容器内使用 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/dbus/&quot;&gt;dbus&lt;/a&gt; 进行了构建修复。&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.5.6 更新解决了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-0547.html&quot;&gt;该漏洞&lt;/a&gt;可能允许在外部身份验证插件中绕过身份验证。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 0.3.49 更新改进了&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles&quot;&gt;蓝牙高级音频分发配置文件&lt;/a&gt;流并减少了某些设备上的卡顿。快照还更新了其他几个软件包。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;Konqi&lt;/a&gt; 粉丝会在快照 20220402 中收到 Plasma 的 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.4/&quot;&gt;5.24.4&lt;/a&gt; 版本更新；该更新主要为 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 和 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace&quot;&gt;Plasma Workspace&lt;/a&gt; 提供了修复。&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 的更新修复了当剪辑与模糊区域相交时窗口闪烁的问题；Plasma Workspace 修复了锁屏界面的一些奇怪行为。快照中要更新的其他软件包包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220319、&lt;a href=&quot;https://libexpat.github.io/&quot;&gt;expat&lt;/a&gt; 2.4.8、&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite3&lt;/a&gt; 3.38.2 等。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/08/tw-gets-new-default-gcc/&quot;&gt;Tumbleweed Gets New Default GCC&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/04/Leap-Micro-Beta-%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95%E8%80%85%E4%BD%BF%E7%94%A8.html</guid>
       <title>Leap Micro Beta 现在可供测试者使用</title>
       <pubDate>Mon, 04 Apr 2022 18:30:00 -0500</pubDate>
@@ -306,39 +335,6 @@ openSUSE 行为准则可在此处找到。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/01/test-leap-beta/&quot;&gt;Beta Test Leap with Pizza, Friends&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5-Beta-%E6%9E%84%E5%BB%BA%E9%98%B6%E6%AE%B5.html</guid>
-      <title>openSUSE Leap 15.4 进入 Beta 构建阶段</title>
-      <pubDate>Tue, 01 Mar 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5-Beta-%E6%9E%84%E5%BB%BA%E9%98%B6%E6%AE%B5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>下一个 openSUSE Leap 次要版本 15.4 已于今天进入 beta 发布阶段，用户可以在 6 月 8 日的正式发布计划之前开始测试次要版本以查找错误。 与之前的 15 系列版本不同，Leap 15.4 将为发行版提供更新的更现代的软件包。 openSUSE Leap 15.4 的许多软件包与 Leap 15.3 中的软件包版本不同，但有些软件包，如 Xfce 4.16 将与之前的版本保持一致。Qt 5、Plasma、GNOME、Enlightenment 和许多其他软件包的版本也将有更新的版本。 Leap 15.4 beta 阶段预计将引入 Leap Micro 5.2 的运行版本，这是 Leap 的 MicroOS 的新产品。MicroOS 是 Tumbleweed 的变体。Leap Micro 是一个现代轻量级操作系统，具有不可改变性，是主机容器和虚拟化工作负载的理想选择；它提供自动化管理和修补。Leap Micro 非常适合去中心化计算环境，是面向开发人员、分布式计算项目和专业人士的微服务发行版。Beta 测试人员很可能会在几周内看到 Leap...</description>
-      <content:encoded>&lt;p&gt;下一个 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 次要版本 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;15.4&lt;/a&gt; 已于今天进入 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;beta 发布阶段&lt;/a&gt;，用户可以在 6 月 8 日的正式发布计划之前开始测试次要版本以查找错误。&lt;/p&gt;
-
-&lt;p&gt;与之前的 15 系列版本不同，&lt;a href=&quot;https://en.opensuse.org/Portal:15.4&quot;&gt;Leap 15.4&lt;/a&gt; 将为发行版提供更新的更现代的软件包。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap 15.4 的许多软件包与 &lt;a href=&quot;https://en.opensuse.org/Portal:15.3&quot;&gt;Leap 15.3&lt;/a&gt; 中的软件包版本不同，但有些软件包，如 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; &lt;a href=&quot;https://www.xfce.org/about/news/?post=1608595200&quot;&gt;4.16&lt;/a&gt; 将与之前的版本保持一致。&lt;a href=&quot;https://www.qt.io/blog/qt-5.15.2-released&quot;&gt;Qt 5&lt;/a&gt;、&lt;a href=&quot;https://community.kde.org/Schedules/Plasma_5&quot;&gt;Plasma&lt;/a&gt;、&lt;a href=&quot;https://help.gnome.org/misc/release-notes/41.0/&quot;&gt;GNOME&lt;/a&gt;、&lt;a href=&quot;https://www.enlightenment.org/news/2021-12-26-enlightenment-0.25.0&quot;&gt;Enlightenment&lt;/a&gt; 和许多其他软件包的版本也将有更新的版本。&lt;/p&gt;
-
-&lt;p&gt;Leap 15.4 beta 阶段预计将引入 &lt;a href=&quot;https://code.opensuse.org/leap/features/roadmap/Micro%205.2&quot;&gt;Leap Micro 5.2&lt;/a&gt; 的运行版本，这是 Leap 的 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 的新产品。MicroOS 是 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的变体。Leap Micro 是一个现代轻量级操作系统，具有不可改变性，是主机容器和虚拟化工作负载的理想选择；它提供自动化管理和修补。Leap Micro 非常适合去中心化计算环境，是面向开发人员、分布式计算项目和专业人士的微服务发行版。Beta 测试人员很可能会在几周内看到 Leap Micro 的第一个 Beta 版本，并将在春季看到一般版本；这将在 Leap 15.4 正式发布之前完成。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目在幕后继续取得进展，以确保可以根据最终用户的需要通过一系列点击来安装 H.264 和 gstreamer 插件。这些应该在 Beta 阶段的后期或 Leap 15.4 推出其候选版本时可用。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励测试人员在多台笔记本电脑、工作站和其他硬件设备上试用 Leap 15.4。并鼓励测试 Beta 版的人在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;此电子表格&lt;/a&gt;上记录他们的 Leap Beta 测试工作。贡献者还想为那些&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;在电子表格上&lt;/a&gt;测试高性能计算的人提供反馈。&lt;/p&gt;
-
-&lt;p&gt;Leap beta 测试人员可以选择接受一份感谢礼物，因此请务必填写所有正确的信息和错误报告以获得一份礼物。然后使用您的电子邮箱向 ddemaio#opensuse.org 发送电子邮件；并将主题标题设为 “Leap beta testings”。&lt;/p&gt;
-
-&lt;p&gt;错误和漏洞应该在 openSUSE &lt;a href=&quot;http://bugzilla.opensuse.org/&quot;&gt;bugzilla&lt;/a&gt; 上报告。从 SUSE Linux Enterprise 继承的软件包的错误应以针对 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Accessing_Bugzilla&quot;&gt;PUBLIC SUSE Linux Enterprise SP4&lt;/a&gt;、&lt;a href=&quot;https://bugzilla.suse.com/enter_bug.cgi?classification=SUSE%20Linux%20Enterprise%20Server&quot;&gt;服务器&lt;/a&gt;和&lt;a href=&quot;https://bugzilla.suse.com/enter_bug.cgi?classification=SUSE%20Linux%20Enterprise%20High%20Availability%20Extension&quot;&gt;高可用性&lt;/a&gt;的形式进行提交报告。上面列出的这些公共产品的优先级&lt;a href=&quot;https://en.opensuse.org/openSUSE:Bug_definitions#Setting_and_Changing_Priorities_and_Severities&quot;&gt;政策&lt;/a&gt;已经更新。Leap 15.4 beta 的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_15.4&quot;&gt;最烦人的错误列表&lt;/a&gt;将发布在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_15.4&quot;&gt;wiki&lt;/a&gt; 上。&lt;/p&gt;
-
-&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，openSUSE Leap 15.4 将在 4 月下旬进入候选版本阶段，预计 5 月 27 日获得 Gold Master，随后将于 6 月 2 日公开发布。文档和翻译截止日期为 5 月 14 日。&lt;/p&gt;
-
-&lt;p&gt;可用于&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试&lt;/a&gt;的架构包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;aarch64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_on_IBM_Z&quot;&gt;s390x&lt;/a&gt;。那些对&lt;a href=&quot;https://en.opensuse.org/openSUSE:WSL.&quot;&gt;适用于 WSL 的 openSUSE Leap 15.4 beta 测试镜像&lt;/a&gt;感兴趣的人可以联系 Leap 发布经理 &lt;a href=&quot;https://github.com/lkocman&quot;&gt;Luboš Kocman&lt;/a&gt; 或 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/02/leap-reaches-beta-build-phase/&quot;&gt;openSUSE Leap 15.4 Reaches Beta Build Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
