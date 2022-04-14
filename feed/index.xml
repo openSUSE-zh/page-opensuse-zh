@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/12/openSUSE-%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C.html</guid>
+      <title>openSUSE 社区发布年度调查结果</title>
+      <pubDate>Tue, 12 Apr 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/12/openSUSE-%E7%A4%BE%E5%8C%BA%E5%8F%91%E5%B8%83%E5%B9%B4%E5%BA%A6%E8%B0%83%E6%9F%A5%E7%BB%93%E6%9E%9C.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 社区已经公布了年度社区调查的结果。 今年的结果比去年的结果增加了 100 多名参与者，这次有 1,320 名受访者。虽然参与度有所增加，但结果表明更多位于欧洲的人参加了调查。由于其他地区的代表较少，人们在阅读结果时应该意识到这一事实。 本次调查收集了有关该项目、其分布、人口统计以及社区如何为该项目做出贡献的信息。今年调查中的一些问题为参与者提供了更广泛的机会来表达他们对上述主题的意见和满意度。一份文件列出了调查中的所有评论。 我们在前一年的调查基础上做了一些修改，但用户中比例最高的群体是 35 至 44 岁的人。绝大多数调查参与者来自北半球，在最近的每日节气之前，近 500 人处于 UTC+1 时区，其中大部分时间都在中欧时间。近 60% 的受访者拥有大学学位，超过 81% 的受访者至少拥有研究生学位。从事 IT 工作的受访者数量大约为 50/50。 调查的一个核心结论是 openSUSE 发行版对 IT 专业人士和开发者的支持很好。根据调查结果，用于专业内容创作者的技术似乎正在增长。 超过 40% 的人已经使用类似 Unix 的操作系统 10 年了，只有不到 3% 的人使用不到一年。大部分 openSUSE 的桌面用户喜欢使用 Tumbleweed，使用服务器的用户偏好选择 Leap。服务器上的 MicroOS 使用量增加了 40% 以上。打包者在调查中得到了很多认可。绝大多数调查者将官方软件库列为他们最喜欢的获取软件的来源；其次分别是 rpm 软件包以及 Flatpak、AppImages 和...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区已经&lt;a href=&quot;https://en.opensuse.org/End-of-year-surveys/2021&quot;&gt;公布&lt;/a&gt;了&lt;a href=&quot;https://news.opensuse.org/2022/01/17/os-begins-annual-survey/&quot;&gt;年度社区调查&lt;/a&gt;的结果。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/End-of-year-surveys/2021&quot;&gt;今年的结果&lt;/a&gt;比&lt;a href=&quot;https://en.opensuse.org/End-of-year-surveys/2020/Data&quot;&gt;去年的结果&lt;/a&gt;增加了 100 多名参与者，这次有 1,320 名受访者。虽然参与度有所增加，但结果表明更多位于欧洲的人参加了调查。由于其他地区的代表较少，人们在阅读结果时应该意识到这一事实。&lt;/p&gt;
+
+&lt;p&gt;本次调查收集了有关该项目、其分布、人口统计以及社区如何为该项目做出贡献的信息。今年调查中的一些问题为参与者提供了更广泛的机会来表达他们对上述主题的意见和满意度。一份文件列出了调查中的&lt;a href=&quot;https://en.opensuse.org/images/9/9e/Comments.pdf&quot;&gt;所有评论&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我们在前一年的调查基础上做了一些修改，但用户中比例最高的群体是 35 至 44 岁的人。绝大多数调查参与者来自北半球，在最近的每日节气之前，近 500 人处于 UTC+1 时区，其中大部分时间都在中欧时间。近 60% 的受访者拥有大学学位，超过 81% 的受访者至少拥有研究生学位。从事 IT 工作的受访者数量大约为 50/50。&lt;/p&gt;
+
+&lt;p&gt;调查的一个核心结论是 openSUSE 发行版对 IT 专业人士和开发者的支持很好。根据调查结果，用于专业内容创作者的技术似乎正在增长。&lt;/p&gt;
+
+&lt;p&gt;超过 40% 的人已经使用类似 Unix 的操作系统 10 年了，只有不到 3% 的人使用不到一年。大部分 openSUSE 的桌面用户喜欢使用 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt;，使用服务器的用户偏好选择 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt;。服务器上的 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 使用量增加了 40% 以上。打包者在调查中得到了很多认可。绝大多数调查者将&lt;a href=&quot;https://en.opensuse.org/Package_repositories#On-disk_official_repositories&quot;&gt;官方软件库&lt;/a&gt;列为他们最喜欢的获取软件的来源；其次分别是 &lt;a href=&quot;https://rpm.org/&quot;&gt;rpm&lt;/a&gt; 软件包以及 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt;、&lt;a href=&quot;https://appimage.org/&quot;&gt;AppImages&lt;/a&gt; 和 &lt;a href=&quot;https://snapcraft.io/&quot;&gt;snap&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;调查结果表明，大多数人会向高级用户推荐 openSUSE 发行版，而最不愿意向新用户推荐该发行版。人们的总体感觉是对发行版感到满意，并认为它们稳定可靠；发行版和易用性受到高度重视，尤其是服务器的核心用途，包括网络托管、数据库、容器和虚拟化。&lt;/p&gt;
+
+&lt;p&gt;大多数人更喜欢 openSUSE &lt;a href=&quot;https://forums.opensuse.org/&quot;&gt;论坛&lt;/a&gt;、&lt;a href=&quot;https://www.reddit.com/r/openSUSE/&quot;&gt;reddit&lt;/a&gt; 和 &lt;a href=&quot;https://twitter.com/openSUSE&quot;&gt;Twitter&lt;/a&gt; 来进行技术交流和关于 openSUSE 的知识分享。其他平台则被用来与社区进行更多的社交互动。&lt;/p&gt;
+
+&lt;p&gt;关于年度调查的更多细节，请访问 openSUSE &lt;a href=&quot;https://en.opensuse.org/End-of-year-surveys/2021&quot;&gt;Wiki&lt;/a&gt; 上的结果。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/13/os-community-publishes-annual-survey-results/&quot;&gt;openSUSE Community Publishes Annual Survey Results&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/07/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-GCC-%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</guid>
       <title>Tumbleweed 更新了 GCC 默认版本</title>
       <pubDate>Thu, 07 Apr 2022 18:30:00 -0500</pubDate>
@@ -294,47 +325,6 @@ openSUSE 行为准则可在此处找到。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/04/tw-has-six-snap-leap-qr/&quot;&gt;Tumbleweed Has Six Snapshots, Leap Gets Quarterly Respin&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/%E4%B8%8E%E6%8A%AB%E8%90%A8-%E6%9C%8B%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%B5%8B%E8%AF%95-Leap-%E7%9A%84%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC.html</guid>
-      <title>与披萨、朋友一起测试 Leap 的测试版本</title>
-      <pubDate>Tue, 01 Mar 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/01/%E4%B8%8E%E6%8A%AB%E8%90%A8-%E6%9C%8B%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%B5%8B%E8%AF%95-Leap-%E7%9A%84%E6%B5%8B%E8%AF%95%E7%89%88%E6%9C%AC.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>根据路线图，openSUSE Leap 的发布经理 Luboš Kocman 预计将在本周宣布 Leap 15.4 的 Beta 发布阶段。这意味着 openSUSE 社区可以下载、安装和测试该版本。 直到它的正式发布前，Leap 的 Beta 阶段有滚动更新，然后将过渡到维护阶段。 为了庆祝这个 Beta 阶段，为什么不开个比萨派对，测试一下 openSUSE Leap 15.4 Beta 呢？ 如果你附近没有聚会，那就自己组织吧；只要把它添加到维基页面，并邀请当地社区的其他人加入你的测试 openSUSE Leap。找些披萨送到你的家里或办公室，把朋友和同事召集起来。一个新的 openSUSE 用户可能会出现! 如果您不确定如何做，请阅读这个。 下载 Beta ISO Leap 15.4 Beta 可在 get.opensuse.org 上获得。首先选择适合您需要的镜像文件。将它安装在虚拟机或实体机上。 测试和帮助！ 报告或帮助解决您遇到的任何问题。 Beta Pizza Party 的重点是建立本地 openSUSE 社区和测试 Leap 15.4...</description>
-      <content:encoded>&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE Leap&lt;/a&gt; 的发布经理 Luboš Kocman 预计将在本周宣布 Leap 15.4 的 Beta 发布阶段。这意味着 openSUSE 社区可以下载、安装和测试该版本。&lt;/p&gt;
-
-&lt;p&gt;直到它的正式发布前，&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 的 Beta 阶段&lt;/a&gt;有滚动更新，然后将过渡到维护阶段。&lt;/p&gt;
-
-&lt;p&gt;为了庆祝这个 Beta 阶段，为什么不开个比萨派对，测试一下 openSUSE Leap 15.4 Beta 呢？&lt;/p&gt;
-
-&lt;p&gt;如果你附近没有聚会，那就&lt;a href=&quot;https://en.opensuse.org/openSUSE:BetaPizzaParty#Beta_Pizza_Party&quot;&gt;自己组织吧&lt;/a&gt;；只要把它添加到&lt;a href=&quot;https://en.opensuse.org/openSUSE:BetaPizzaParty#Beta_Pizza_Party&quot;&gt;维基页面&lt;/a&gt;，并邀请当地社区的其他人加入你的测试 openSUSE Leap。找些披萨送到你的家里或办公室，把朋友和同事召集起来。一个新的 openSUSE 用户可能会出现! 如果您不确定如何做，请阅读&lt;a href=&quot;https://en.opensuse.org/openSUSE:Launch_party_HOWTO&quot;&gt;这个&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;下载-beta-iso&quot;&gt;下载 Beta ISO&lt;/h2&gt;
-
-&lt;p&gt;Leap 15.4 Beta 可在 &lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;get.opensuse.org&lt;/a&gt; 上获得。首先选择适合您需要的镜像文件。将它安装在&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;虚拟机&lt;/a&gt;或实体机上。&lt;/p&gt;
-
-&lt;h2 id=&quot;测试和帮助&quot;&gt;测试和帮助！&lt;/h2&gt;
-
-&lt;p&gt;报告或帮助解决您遇到的任何问题。 Beta Pizza Party 的重点是建立本地 openSUSE 社区和测试 Leap 15.4 Beta。这意味着安装 Leap 并&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;提交错误报告&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;在测试期间，我们鼓励测试人员在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt; Beta 测试工作表&lt;/a&gt;上记录他们的测试。了解如何在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;openSUSE wiki&lt;/a&gt; 上报告错误。&lt;/p&gt;
-
-&lt;p&gt;关于 openSUSE 开发的讨论在 &lt;a href=&quot;https://lists.opensuse.org/archives/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;中进行。如果您想提供帮助，请参阅有关&lt;a href=&quot;https://en.opensuse.org/openSUSE:How_to_contribute_to_Factory&quot;&gt;如何为 Factory 做贡献&lt;/a&gt;的 wiki 页面。贡献是容易和受欢迎的！&lt;/p&gt;
-
-&lt;p&gt;可用于测试的架构包括 x86_64、aarch64、PowerPC 和 s390。对 armv7 和其他架构感兴趣的人应该阅读关于 &lt;a href=&quot;https://news.opensuse.org/2021/02/11/opensuse-new-project-looks-to-build-sle-on-more-architectures/&quot;&gt;openSUSE Step&lt;/a&gt; 的公告。&lt;/p&gt;
-
-&lt;p&gt;那些对 openSUSE Leap 15.4 WSL 的 beta ISO 镜像感兴趣的人可以联系 Leap 发布经理 Kocman 或通过电子邮件发送工厂邮件列表。&lt;/p&gt;
-
-&lt;p&gt;Leap beta 测试人员可以选择接受一份感谢礼物，因此请务必填写所有&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;正确的信息和错误报告&lt;/a&gt;以获得一份礼物。然后使用您的地址向 ddemaio#opensuse.org 发送电子邮件。 请将邮件标题设为 “Leap beta testings”。&lt;/p&gt;
-
-&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/01/test-leap-beta/&quot;&gt;Beta Test Leap with Pizza, Friends&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
