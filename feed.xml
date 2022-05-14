@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/12/GCC-12-%E6%88%90%E4%B8%BA-Tumbleweed-%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.html</guid>
+      <title>GCC 12 成为 Tumbleweed 默认的编译器</title>
+      <pubDate>Thu, 12 May 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/12/GCC-12-%E6%88%90%E4%B8%BA-Tumbleweed-%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>在准备将 openSUSE Tumbleweed 的默认编译器切换到 GCC 12 的一个多月后，最新的快照通过了 openQA 测试并使 GCC12 成为 Tumbleweed 的默认编译器。 完全重构的快照 20220510 正在与镜像站同步，并且用户很快就能通过 zypper dup 更改他们系统默认的编译器。作为一个完全重构的快照，与镜像站同步可能需要一些时间，但开发人员很快就会拥有最新的 GCC 用于他们的开发。 “OpenQA 在这个快照中没有发现任何奇怪的东西，与快照 20220509 相比，报告的错误大体上没有变化，这是一个好兆头，”发行经理 Dominique Leuenberger 在 factory 邮件列表中写道。“希望您会喜欢现在这个使用 GCC12 构建的快照！” 于前一天的快照 20220509 更新了 git 2.36.1。git 此次次要版本更新提供了一些修复，其中包括对 git submodule update 的修复。文本编辑器 vim 在其 8.2.4877 版本更新中处理了一个 CVE；CVE-2022-1381 的修复关闭了一个漏洞，该漏洞可能导致软件崩溃、修改内存并能够远程执行。VirtualBox 6.1.34 更新修复了五个...</description>
+      <content:encoded>&lt;p&gt;在&lt;a href=&quot;https://news.opensuse.org/2022/04/08/tw-gets-new-default-gcc/&quot;&gt;准备将 openSUSE Tumbleweed 的默认编译器切换到 GCC 12 &lt;/a&gt;的一个多月后，最新的快照通过了 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试并使 GCC12 成为 Tumbleweed 的默认编译器。&lt;/p&gt;
+
+&lt;p&gt;完全重构的快照 20220510 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AEFKIFZRIBGZQRVN6JVAIN764BJEBUYR/&quot;&gt;正在与镜像站同步&lt;/a&gt;，并且用户很快就能通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 更改他们系统默认的编译器。作为一个完全重构的快照，与镜像站同步可能需要一些时间，但开发人员很快就会拥有最新的 GCC 用于他们的开发。&lt;/p&gt;
+
+&lt;p&gt;“OpenQA 在这个快照中没有发现任何奇怪的东西，与快照 &lt;a href=&quot;https://news.opensuse.org/2022/05/13/gcc-12-is-coming/(https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TGLCVA7TEF2FLW7G5WKMOQ24UOSASV5G/)&quot;&gt;20220509&lt;/a&gt; 相比，报告的错误大体上没有变化，这是一个好兆头，”发行经理 Dominique Leuenberger 在 factory 邮件列表中写道。“希望您会喜欢现在这个使用 GCC12 构建的快照！”&lt;/p&gt;
+
+&lt;p&gt;于前一天的快照 20220509 更新了 git 2.36.1。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 此次次要版本更新提供了一些修复，其中包括对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git submodule update&lt;/code&gt; 的修复。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 在其 8.2.4877 版本更新中处理了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-1381.html&quot;&gt;CVE-2022-1381&lt;/a&gt; 的修复关闭了一个漏洞，该漏洞可能导致软件崩溃、修改内存并能够远程执行。&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt; 6.1.34 更新修复了五个 CVE。受 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.14 影响的虚拟机宿主机和来宾机修复程序也通过此更新修复。但是，Tumbleweed 用户在快照中收到了 Linux 内核版本是 5.17.5。PDF 渲染库 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 更新至 22.05.0 版本，对代码进行了改进，并添加了 TSV 模式，这是一种像编辑文件一样编辑表格的模式。由于 &lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 2.3.6 更新和 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GnuPG&lt;/a&gt; 将分离签名速度和 AES256.OCB 加密速度提高了一倍，加密和签名数据和通信的速度提高了五倍。快照中的其他更新包括 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 42.1、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.10、&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.5.3、&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.1 和 &lt;a href=&quot;https://github.com/Z3Prover/z3&quot;&gt;z3&lt;/a&gt; 4.8.17。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 的第 100 个版本在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/B76RSMLTI7TJ62HBEM6S2DH3NC4ZDE5L/&quot;&gt;20220506&lt;/a&gt; 中发布。新版本引入了画中画，支持使用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API&quot;&gt;WebVTT&lt;/a&gt; 格式的网站上的视频字幕。Firefox 拼写检查现在检查多种语言的拼写。&lt;a href=&quot;https://www.clamav.net/&quot;&gt;clamav&lt;/a&gt; 0.103.6 的更新修复了 &lt;a href=&quot;https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html&quot;&gt;TIFF&lt;/a&gt; 文件解析器中可能存在的无限循环漏洞的 CVE 和 HTML 文件解析器中可能存在的内存泄漏的另一个 CVE。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户将在快照中收到 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.5/&quot;&gt;Plasma 5.24.5&lt;/a&gt; 的更新。更新后的 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 提高了与 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 后端不同源集成的稳定性。此更新还修复了使用 &lt;a href=&quot;https://userbase.kde.org/KWin&quot;&gt;KWin&lt;/a&gt; 解锁 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 会话的问题。3D 图形驱动程序 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 的更新修复了 22.0.3 版本中的大部分主要驱动程序，并添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 架构支持。&lt;a href=&quot;https://gitlab.com/openconnect&quot;&gt;openconnect&lt;/a&gt; 8.20 的更新增加了对 &lt;a href=&quot;https://arraynetworks.com/ssl-vpn/&quot;&gt;Array Networks SSL VPN&lt;/a&gt; 的支持。&lt;a href=&quot;https://www.openexr.com/&quot;&gt;openexr&lt;/a&gt; 软件包，是电影行业的专业级图像存储格式，现已更新到 3.1.5 版本；它更新了持续集成工作流矩阵并修复了其中一个 Linux 发行版的构建失败。快照中要更新的其他软件包包括字体渲染库 &lt;a href=&quot;https://freetype.org/&quot;&gt;freetype2&lt;/a&gt; 2.12.1、&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.3.3.2、&lt;a href=&quot;https://re2c.org/&quot;&gt;re2c&lt;/a&gt; 3.0 和缓存 DNS 解析器 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/server/unbound.html&quot;&gt;unbound&lt;/a&gt; 1.15.0。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/13/gcc-12-is-coming/&quot;&gt;GCC 12 Becoming Default Compiler in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/05/GNOME-curl-%E5%92%8C-Fetchmail-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0-WSL-%E9%95%9C%E5%83%8F%E5%B7%B2%E5%8F%91%E5%B8%83.html</guid>
       <title>GNOME、curl 和 Fetchmail 在 Tumbleweed 中更新，WSL 镜像已发布</title>
       <pubDate>Thu, 05 May 2022 18:30:00 -0500</pubDate>
@@ -294,33 +317,6 @@ openSUSE 行为准则可在此处找到。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/29/os-finalizes-new-coc/&quot;&gt;openSUSE Finalizes New Code of Conduct&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/27/Leap-%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6%E6%8F%90%E5%8D%87%E4%BA%86.html</guid>
-      <title>Leap 错误报告的透明度提升了</title>
-      <pubDate>Sun, 27 Mar 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/27/Leap-%E9%94%99%E8%AF%AF%E6%8A%A5%E5%91%8A%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6%E6%8F%90%E5%8D%87%E4%BA%86.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>多年来与 openSUSE Leap 相关的提交的错误报告存在一些异常情况，因为报告 Leap 发行版的错误需要考虑到 SUSE Linux Enterprise。 openSUSE 从 Leap 42.1 混合版本（源码兼容）演变为二进制兼容的 Leap 15.3 版本，因此需要大量错误报告。之前流程的异常导致贡献者无法看到被引用为 SLE 修复的错误，这使得这些错误被引入了 Leap，且贡献者无法在 bugzilla.opensuse.org 中查看它们。 根据 Leap 发布经理 Lubos Kocman 的电子邮件，现在流程已经简化了。 “我很高兴地通知您，开发人员努力寻找公开的 SUSE Linux Enterprise * Bugzilla 产品（默认情况下所有错误对社区可见）的日子终于结束了，”Kocman 在开发人员的邮件列表中写道。“现在可以在 bugzilla.opensuse.org 的默认 “Enter new bug” 对话框中看到公开的 SLE 产品。” 错误报告政策的变更在 Leap 和 SLE 中引入了更大的利用率和可公开访问的错误数量。针对所有从 SLE...</description>
-      <content:encoded>&lt;p&gt;多年来与 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 相关的提交的错误报告存在一些异常情况，因为报告 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 发行版的错误需要考虑到 SUSE Linux Enterprise。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 从 &lt;a href=&quot;https://news.opensuse.org/2015/11/04/opensuse-leap-42-1-becomes-first-hybrid-distribution/&quot;&gt;Leap 42.1 混合版本&lt;/a&gt;（源码兼容）演变为二进制兼容的 &lt;a href=&quot;https://news.opensuse.org/2021/06/02/opensuse-leap-bridges-path-to-enterprise/&quot;&gt;Leap 15.3&lt;/a&gt; 版本，因此需要大量错误报告。之前流程的异常导致贡献者无法看到被引用为 SLE 修复的错误，这使得这些错误被引入了 Leap，且贡献者无法在 bugzilla.opensuse.org 中查看它们。&lt;/p&gt;
-
-&lt;p&gt;根据 Leap 发布经理 Lubos Kocman 的电子邮件，现在流程已经简化了。&lt;/p&gt;
-
-&lt;p&gt;“我很高兴地通知您，开发人员努力寻找公开的 SUSE Linux Enterprise * Bugzilla 产品（默认情况下所有错误对社区可见）的日子终于结束了，”Kocman 在开发人员的&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7JLAC2TJLPNOGOU2NTHMZZ7H2GDVGZRR/&quot;&gt;邮件列表&lt;/a&gt;中写道。“现在可以在 &lt;a href=&quot;https://bugzilla.opensuse.org/&quot;&gt;bugzilla.opensuse.org&lt;/a&gt; 的默认 “Enter new bug” 对话框中看到公开的 SLE 产品。”&lt;/p&gt;
-
-&lt;p&gt;错误报告政策的变更在 Leap 和 SLE 中引入了更大的利用率和可公开访问的错误数量。针对所有从 SLE 继承的 Leap 软件包的错误应该在这些公开的 SLE 产品中报告。&lt;/p&gt;
-
-&lt;p&gt;“我们相信，这项工作将提高 Leap 更新中确切修复内容的透明度，”他写道：“和过去一样，补丁信息中引用的大多数错误都只是默认创建为非公开的。我们并没有取消该选项，而是确定了默认情况下我们可以“开放”的位置。即 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 和现在来自 Leap 和 SLE Beta 测试人员的所有错误，这些错误在创建期间未默认设置为非公开。”&lt;/p&gt;
-
-&lt;p&gt;Leap 发布经理感谢社区成员的帮助和推进工作。错误报告政策的变更为贡献者增加了清晰度和透明度。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/28/entering-leap-bugs-gains-new-clarity/&quot;&gt;Entering Leap Bugs Gains New Clarity&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
