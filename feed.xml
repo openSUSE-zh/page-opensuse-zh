@@ -7,6 +7,43 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/16/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
+      <title>openSUSE Leap 15.4 进入候选发布阶段</title>
+      <pubDate>Mon, 16 May 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/16/openSUSE-Leap-15.4-%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目已进入 openSUSE Leap 的下一个次要发行版本的候选发布阶段。 在 Build 230.2 通过 openQA 质量保证测试后，即将发布的 Leap 15.4 版本从 Beta 阶段过渡到候选发布（RC）阶段。 “测试结果看起来非常可靠，正如你对 RC 所期望的那样，”发行经理 Lubos Kocman 昨天在 openSUSE Factory 邮件列表上的一封电子邮件中写道。“我最初的预计时间是星期三，但我们设法更快地完成了构建并进行了测试。” 新阶段还将新产品 Leap Micro 更改为发布候选阶段，Leap Micro 是一种现代轻量级操作系统，非常适合主机容器和虚拟化工作负载。 RC 表示软件的软件包冻结，这些软件将进入发行版，用于服务器、工作站、台式机以及虚拟化和容器使用。 根据 Kocman 的说法，Leap 15.4 Gold Master (GM) 版本目前定于 5 月 27 日发布，预计这将为 SUSE Linux Enterprise 的更改及其 Services...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;已进入 openSUSE Leap 的下一个次要发行版本的候选发布阶段。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href=&quot;https://openqa.opensuse.org/tests/overview?distri=opensuse&amp;amp;version=15.4&amp;amp;build=230.2&amp;amp;groupid=50&quot;&gt;Build 230.2&lt;/a&gt; 通过 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 质量保证测试后，即将发布的 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 15.4&lt;/a&gt; 版本从 Beta 阶段过渡到候选发布（RC）阶段。&lt;/p&gt;
+
+&lt;p&gt;“测试结果看起来非常可靠，正如你对 RC 所期望的那样，”发行经理 Lubos Kocman 昨天在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/APWGH6QWOBEQW4RF2JOOAGVMGB5RJIHX/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;上的一封电子邮件中写道。“我最初的预计时间是星期三，但我们设法更快地完成了构建并进行了测试。”&lt;/p&gt;
+
+&lt;p&gt;新阶段还将新产品 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.2/&quot;&gt;Leap Micro&lt;/a&gt; 更改为发布候选阶段，Leap Micro 是一种现代轻量级操作系统，非常适合主机容器和虚拟化工作负载。&lt;/p&gt;
+
+&lt;p&gt;RC 表示软件的软件包冻结，这些软件将进入发行版，用于服务器、工作站、台式机以及虚拟化和容器使用。&lt;/p&gt;
+
+&lt;p&gt;根据 Kocman 的说法，Leap 15.4 Gold Master (GM) 版本目前定于 5 月 27 日发布，预计这将为 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 的更改及其 Services Pack 4 GM 的接受留出时间；这将允许提取任何翻译更新并完成未决任务，例如另一次安全审计。&lt;/p&gt;
+
+&lt;p&gt;Kocman 建议 Beta 和 RC 测试人员在发布后升级到一般可用 (GA) 版本时使用终端中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 命令。&lt;/p&gt;
+
+&lt;p&gt;在 Leap 版本的开发阶段，贡献者、打包者和发布团队采用滚动开发方式，分阶段进行，而不是单一的&lt;a href=&quot;https://en.wikipedia.org/wiki/Software_release_life_cycle#Pre-alpha&quot;&gt;里程碑版&lt;/a&gt;发布；直到 GM 的最终版本发布前，一旦通过自动化测试，快照将与次要版本的软件更新一起发布。正式发布后，Leap 15.4 将从滚动开发方法转变为受支持的发布周期，在此周期中它会接收更新直到其生命周期结束 (EOL)。你可以查看 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;openSUSE 路线图&lt;/a&gt;以获取有关该版本的一般可用性（GA）的更多详细信息。&lt;/p&gt;
+
+&lt;p&gt;你可以通过&lt;a href=&quot;https://lists.opensuse.org/archives/&quot;&gt;邮件列表&lt;/a&gt;、&lt;a href=&quot;https://matrix.to/#/#newscom:opensuse.org&quot;&gt;Matrix&lt;/a&gt;、&lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;Discord&lt;/a&gt;、&lt;a href=&quot;https://t.me/openSUSE_group&quot;&gt;Telegram&lt;/a&gt; 和 &lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;Facebook&lt;/a&gt; 等社区渠道与使用旧版 Leap 的人互动以获得社区支持。请访问 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Communication_channels&quot;&gt;wiki&lt;/a&gt; 以了解有关 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Communication_channels&quot;&gt;openSUSE 社区交流渠道&lt;/a&gt;的更多信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;中文社区联络方式详见此处：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E4%BA%A4%E6%B5%81%E6%B8%A0%E9%81%93#.E5.85.B3.E4.BA.8E.E7.AE.80.E4.BD.93.E4.B8.AD.E6.96.87&quot;&gt;openSUSE:交流渠道&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/17/leap-reaches-rc-phase/&quot;&gt;openSUSE Leap 15.4 Enters Release Candidate Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/12/GCC-12-%E6%88%90%E4%B8%BA-Tumbleweed-%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.html</guid>
       <title>GCC 12 成为 Tumbleweed 默认的编译器</title>
       <pubDate>Thu, 12 May 2022 18:30:00 -0500</pubDate>
@@ -277,46 +314,6 @@ openSUSE 会议将遵循巴伐利亚州卫生部关于 COVID 的要求和态度�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/30/know-visa-health-requirements-osc/&quot;&gt;Know the Visa, Health Requirements to Attend oSC22&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/29/openSUSE-%E5%8F%91%E5%B8%83%E4%BA%86%E6%96%B0%E7%9A%84%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99.html</guid>
-      <title>openSUSE 发布了新的行为准则</title>
-      <pubDate>Tue, 29 Mar 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/29/openSUSE-%E5%8F%91%E5%B8%83%E4%BA%86%E6%96%B0%E7%9A%84%E8%A1%8C%E4%B8%BA%E5%87%86%E5%88%99.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 社区很自豪地宣布其新的行为准则得到了 openSUSE 董事会的批准。
-
-openSUSE 行为准则是在几次社区会议期间作为一个协作项目编写的，并且报告已发送到项目邮件列表。openSUSE 社区成员的意见被发送到 openSUSE 委员会，并在两次公开的 openSUSE 委员会会议上进行了详细讨论。
-
-在 2022 年 2 月 28 日的公开董事会会议上，人们认识到 openSUSE 没有足够的行为准则；因此，董事会询问是否有任何与会者愿意采取倡议与社区合作开发一个。通过定期安排的社区会议，编写了一份，随后向董事会提出了建议。
-
-在 2022 年 2 月 28 日的公开董事会会议上，人们认识到 openSUSE 没有合适的行为准则；因此，董事会询问是否有任何与会者愿意采取倡议与社区合作开发一个。通过定期安排的社区会议，社区编写了一份草案，随后提交给了董事会。
-
-我们希望通过为项目制定清晰简洁的行为准则，openSUSE 社区能够在未来几年继续发展壮大。
-
-openSUSE 行为准则可在此处找到。
-
-
-
-原文：openSUSE Finalizes New Code of Conduct，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;openSUSE 社区很自豪地宣布其新的行为准则得到了 openSUSE 董事会的批准。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 行为准则是在几次社区会议期间作为一个协作项目编写的，并且报告已发送到项目邮件列表。openSUSE 社区成员的意见被发送到 openSUSE 委员会，并在两次公开的 openSUSE 委员会会议上进行了详细讨论。&lt;/p&gt;
-
-&lt;p&gt;在 2022 年 2 月 28 日的公开董事会会议上，人们认识到 openSUSE 没有足够的行为准则；因此，董事会询问是否有任何与会者愿意采取倡议与社区合作开发一个。通过定期安排的社区会议，编写了一份，随后向董事会提出了建议。&lt;/p&gt;
-
-&lt;p&gt;在 2022 年 2 月 28 日的公开董事会会议上，人们认识到 openSUSE 没有合适的行为准则；因此，董事会询问是否有任何与会者愿意采取倡议与社区合作开发一个。通过定期安排的社区会议，社区编写了一份草案，随后提交给了董事会。&lt;/p&gt;
-
-&lt;p&gt;我们希望通过为项目制定清晰简洁的行为准则，openSUSE 社区能够在未来几年继续发展壮大。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 行为准则可在&lt;a href=&quot;https://en.opensuse.org/Code_of_Conduct&quot;&gt;此处&lt;/a&gt;找到。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/29/os-finalizes-new-coc/&quot;&gt;openSUSE Finalizes New Code of Conduct&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
