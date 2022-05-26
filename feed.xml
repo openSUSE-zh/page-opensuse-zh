@@ -147,6 +147,31 @@
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/Mesa-%E5%92%8C-ImageMagick-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Mesa 和 ImageMagick 在 Tumbleweed 中更新</title>
+      <pubDate>Sat, 30 Apr 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/Mesa-%E5%92%8C-ImageMagick-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 本月持续发布新快照。本周我们将查看自上周五以来在四个快照中发布的软件包。 然而，在进入这些快照之前，需要注意的是 NetworkManager 进行了一个更改，预计将在即将发布的快照中出现；它将为先前快照中所做的 wifi 块更改提供修复，此前的更改导致某些用户无法连接 WiFi。snapper 与 Btrfs 的优势可以让 openSUSE Tumbleweed 用户通过回滚系统保持网络连接；然后，用户也可以在下周更新而不会因此停滞。 最新的快照 20220523 提供了三个包更新。其中包括对安全通信库 gnutls 3.7.5 的更新，为未来的发布奠定了基础；该软件包通过添加选项以禁用 TLS 1.2 中的会话凭证使用，因为它不提供前向机密性；TLS 1.2 具有未来的向后不兼容性。快照中要更新的另外两个包是 libxkbcommon 1.4.1 和 python-sympy 1.10.1，它们删除了长期弃用的 densearith、densesolve 和 densetools。 3D 图形库 Mesa 22.1.0 在快照 20220522 中发布；此处更新包括一些新功能，例如对 Intel Alchemist DG2 平台的支持、对 Lavapipe 的 Vulkan 1.3 支持以及用于...</description>
+      <content:encoded>&lt;p&gt;openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本月持续发布新快照。本周我们将查看自上周五以来在四个快照中发布的软件包。&lt;/p&gt;
+
+&lt;p&gt;然而，在进入这些快照之前，需要注意的是 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 进行了一个更改，预计将在即将发布的快照中出现；它将为&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15025&quot;&gt;先前快照中所做的 wifi 块更改&lt;/a&gt;提供修复，此前的更改导致某些用户无法连接 WiFi。&lt;a href=&quot;https://doc.opensuse.org/documentation/leap/archive/15.0/reference/html/book.opensuse.reference/cha.snapper.html&quot;&gt;snapper&lt;/a&gt; 与 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;Btrfs&lt;/a&gt; 的优势可以让 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Tumbleweed 用户通过回滚系统保持网络连接；然后，用户也可以在下周更新而不会因此停滞。&lt;/p&gt;
+
+&lt;p&gt;最新的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W24SLRECQV2OF2GS22REZ6FXCIW6D3GW/&quot;&gt;20220523&lt;/a&gt; 提供了三个包更新。其中包括对安全通信库 &lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.7.5 的更新，为未来的发布奠定了基础；该软件包通过添加选项以禁用 TLS 1.2 中的会话凭证使用，因为它不提供前向机密性；TLS 1.2 具有未来的向后不兼容性。快照中要更新的另外两个包是 &lt;a href=&quot;https://github.com/xkbcommon/libxkbcommon&quot;&gt;libxkbcommon&lt;/a&gt; 1.4.1 和 &lt;a href=&quot;https://docs.sympy.org/latest/index.html&quot;&gt;python-sympy&lt;/a&gt; 1.10.1，它们删除了长期弃用的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densearith&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densesolve&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densetools&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.1.0 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/UZKKJQ6VHYXGZ5PSHQPARBKILVJEIXBY/&quot;&gt;20220522&lt;/a&gt; 中发布；此处更新包括一些新功能，例如对 Intel Alchemist DG2 平台的支持、对 &lt;a href=&quot;https://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Lavapipe-Vulkan-1.3-Pending&quot;&gt;Lavapipe&lt;/a&gt; 的 Vulkan 1.3 支持以及用于 &lt;a href=&quot;https://docs.mesa3d.org/drivers/zink.html&quot;&gt;Zink&lt;/a&gt; 的 Kopper 接口反向移植。&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 1.24.4 的更新在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GetStageDeploymentIntegrationTests&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ListStageDeploymentIntegrationTests&lt;/code&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的响应中添加了一个可选的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DeploymentResult&lt;/code&gt; 字段。该版本还增加了对人类可读警报的支持。gtk3 3.24.34 更新了翻译并修复了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 的构建问题。照片管理器 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/shotwell&quot;&gt;shotwell&lt;/a&gt; 0.30.16 修复了深色模式壁纸以及来自索尼 A7C 相机的导入和视频的问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://linux.die.net/man/8/iptables&quot;&gt;iptables&lt;/a&gt; 1.8.8、&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.2 等。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 100 第个小版本更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IQWNVN2HQZ6XO3O3RFE6CUYYE2SHWXYD/&quot;&gt;20220521&lt;/a&gt; 中发布。该更新处理了两个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，即 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-1802.html&quot;&gt;CVE-2022-1802&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-1529.html&quot;&gt;CVE-2022-1529&lt;/a&gt;，火狐浏览器还修复了使用 Netflix 时画中画模式下的字幕问题。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.17.9 更新修复了 Nvidia 显卡的开源驱动程序 &lt;a href=&quot;https://nouveau.freedesktop.org/&quot;&gt;Nouveau&lt;/a&gt; 中潜在的理论漏洞；还修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 的潜在内存泄漏问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.35 更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NK2XHGBZPXF36FOHUEOB3NMWUBEV4UUX/&quot;&gt;20220520&lt;/a&gt; 中发布。图像编辑器 ImageMagick 删除了一些特殊的 dolor 扣除并修复了临时文件泄漏。沙盒工具 &lt;a href=&quot;https://github.com/containers/bubblewrap&quot;&gt;bubblewrap&lt;/a&gt; 0.6.2 对安装目录进行了更改，并允许使用较旧的 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 进行编译。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的字符映射 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gucharmap&quot;&gt;gucharmap&lt;/a&gt; 14.0.3 改进了韩文&lt;a href=&quot;https://en.wikipedia.org/wiki/Hanja&quot;&gt;汉字&lt;/a&gt;发音属性并启用了 &lt;a href=&quot;hhttps://www.unicode.org/main.html&quot;&gt;Unicode&lt;/a&gt; 块的字母排序。快照中要更新的其他包是一些库，例如 &lt;a href=&quot;https://github.com/yast/yast-packager&quot;&gt;yast2-packager&lt;/a&gt; 4.5.4 和 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;orca&lt;/a&gt; 42.1；orca 对 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;WebKitGtk&lt;/a&gt; 的工具包名称大小写的处理进行了一些更改，因此旧版本的 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;orca&lt;/a&gt; 继续使用新版本的 WebKit 渲染 引擎。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/25/mesa-imagemagick-update-in-tw/&quot;&gt;Mesa, ImageMagick Packages Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/21/LLVM-PipeWire-%E5%92%8C-Git-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>LLVM、PipeWire 和 Git 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 21 Apr 2022 18:30:00 -0500</pubDate>
@@ -278,42 +303,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/31/tw-updates-sudo-systemd-ibus/&quot;&gt;Tumbleweed updates sudo, systemd, ibus&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/29/%E4%BA%86%E8%A7%A3%E5%8F%82%E5%8A%A0-osC22-%E7%9A%84%E7%AD%BE%E8%AF%81-%E5%81%A5%E5%BA%B7%E8%A6%81%E6%B1%82.html</guid>
-      <title>了解参加 osC22 的签证、健康要求</title>
-      <pubDate>Tue, 29 Mar 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/03/29/%E4%BA%86%E8%A7%A3%E5%8F%82%E5%8A%A0-osC22-%E7%9A%84%E7%AD%BE%E8%AF%81-%E5%81%A5%E5%BA%B7%E8%A6%81%E6%B1%82.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>对于计划于 6 月 2 日至 4 日在德国纽伦堡参加 2022 年 openSUSE 大会的人们，入境旅行需要满足一些特定的健康和签证要求。
-
-openSUSE 会议将遵循巴伐利亚州卫生部关于 COVID 的要求和态度。参会者可能需要佩戴 FFP-2 口罩，遵守社交疏远。这些规定在会议之前或到会议当天都会有变化。
-
-那些计划参加的非申根国家公民应查看进入德意志联邦共和国的签证要求/豁免概述，该概述可在联邦外交部网站上找到。
-
-请注意：旅行支持计划没有规定报销签证费用，因此旅客需要自行支付额外费用。
-
-对于不属于申根国家的公民，您可能需要一份正式的邀请函，充分说明您的访问性质。按字母顺序排列的需要邀请函的国家的人员名单可以在联邦外交部网站上找到。如果需要该信件，请联系会议组织者。
-
-
-
-原文：Know the Visa, Health Requirements to Attend oSC22，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;对于计划于 6 月 2 日至 4 日在德国纽伦堡参加 2022 年 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;的人们，入境旅行需要满足一些特定的健康和签证要求。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 会议将遵循&lt;a href=&quot;https://www.muenchen.de/int/en/events/corona-virus-current-rules-regulations.html&quot;&gt;巴伐利亚州卫生部&lt;/a&gt;关于 COVID 的要求和态度。参会者可能需要佩戴 FFP-2 口罩，遵守社交疏远。这些规定在会议之前或到会议当天都会有变化。&lt;/p&gt;
-
-&lt;p&gt;那些计划参加的非申根国家公民应查看进入德意志联邦共和国的签证要求/豁免概述，该概述可在&lt;a href=&quot;https://www.auswaertiges-amt.de/en/visa-service/-/231148&quot;&gt;联邦外交部网站&lt;/a&gt;上找到。&lt;/p&gt;
-
-&lt;p&gt;请注意：&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;旅行支持计划&lt;/a&gt;没有规定报销签证费用，因此旅客需要自行支付额外费用。&lt;/p&gt;
-
-&lt;p&gt;对于不属于申根国家的公民，您可能需要一份正式的邀请函，充分说明您的访问性质。按字母顺序排列的需要邀请函的国家的人员名单可以在&lt;a href=&quot;https://www.auswaertiges-amt.de/en/visa-service/-/231148&quot;&gt;联邦外交部网站&lt;/a&gt;上找到。如果需要该信件，请联系&lt;a href=&quot;https://en.opensuse.org/images/8/85/OSC22prospectus.pdf&quot;&gt;会议组织者&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/03/30/know-visa-health-requirements-osc/&quot;&gt;Know the Visa, Health Requirements to Attend oSC22&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
