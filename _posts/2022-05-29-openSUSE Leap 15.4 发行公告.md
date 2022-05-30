@@ -49,11 +49,11 @@ Leap 15.4 将提供基于 [Qt 5.15 LTS](https://www.qt.io/blog/qt-5.15-released)
 
 其他几个特意挑选的软件包是针对 Leap 15.4 的稳定性和开发目的，包括 [Qt6](https://www.qt.io/product/qt6)。
 
-Leap 15.4 为用户提供了一些较新的桌面环境，如 [Plasma 5.24](https://kde.org/announcements/plasma/5/5.24.0/)、[GNOME 41](https://help.gnome.org/misc/release-notes/41.0/) 和 [Enlightenment 0.25](https://www.enlightenment.org/news/2021-12-26-enlightenment-0.25.0)。这些桌面将提供新功能，尽管不是所有版本的桌面都会获得新的功能。例如，Leap 15.4 将继续使用 [Xfce 4.16](https://www.xfce.org/about/news/?post=1608595200)，因为它已在 Leap 15.3 版本中更新。
+Leap 15.4 为用户提供了一些较新的桌面环境，如 [Plasma 5.24](https://kde.org/announcements/plasma/5/5.24.0/)、[GNOME 41](https://help.gnome.org/misc/release-notes/41.0/)、[Enlightenment 0.25](https://www.enlightenment.org/news/2021-12-26-enlightenment-0.25.0) 和  [MATE 1.26](https://mate-desktop.org/blog/2021-08-08-mate-1-26-released/)。这些桌面将提供新功能，尽管不是所有版本的桌面都会获得新的功能。例如，Leap 15.4 将继续使用 [Xfce 4.16](https://www.xfce.org/about/news/?post=1608595200)，因为它已在 Leap 15.3 版本中更新。[Deepin 20.3](https://www.deepin.org/en/2021/11/23/deepin-20-3/) 首次引入 Leap 15.4。
 
 Leap 15.4 的用户现在可以使用 [KDE Frameworks 5.90.0](https://kde.org/announcements/frameworks/5/5.90.0/)，本次更新包括 对 Baloo、Breeze Icons、KConfig、KIO、Kirigami、KWayland 和 Oxygen Icons 等几个软件包的改进。Leap 15.4 还装载了 [KDE Gear 21.12.2](https://kde.org/announcements/gear/21.12.2/)；本次更新包括对音乐播放器 Elisa 的改进，文件管理器 Dolphin 的搜索标签，并为 KDE 高级视频编辑应用程序 Kdenlive 提供了更快的编辑。
 
-Leap 15.4 将多功能应用程序框架更新至 [https://www.qt.io/blog/qt-5.15.2-released Qt 5.15.2]；Qt 5.12.7 版本自 Leap 15.2 以来一直在发行版中没有改变。Leap 15.4 将带来了三个次要版本的功能，并带有完全支持的 [https://doc-snapshots.qt.io/qt5-5.15/qtquick3d-index.html Qt Quick 3D]。
+Leap 15.4 将多功能应用程序框架更新至 [Qt 5.15.2](https://www.qt.io/blog/qt-5.15.2-released)；Qt 5.12.7 版本自 Leap 15.2 以来一直在发行版中没有改变。Leap 15.4 将带来了三个次要版本的功能，并带有完全支持的 [Qt Quick 3D](https://doc-snapshots.qt.io/qt5-5.15/qtquick3d-index.html)。
 
 系统的核心部分已经收到了大量更新。Leap 15.4 将 [systemd](https://github.com/systemd/systemd) 更新到 249 版本，其中有大量的变化以提升用户体验。新的系统组件现在可以正确识别亚马逊 EC2 环境，并对 DHCP 服务器网络管理协议进行了各种改进。Leap 15.4 为 FireWire 设备增加了一个新的 udev 硬件数据库；该版本中另一个值得注意的变化是整个文件系统的 A/B 更新，新的操作系统版本被投放到分区中，这些分区的标签随后被更新为匹配的版本标识。Leap 15.4 提供了最新的编译器集。[LLVM Compiler 13.0](https://releases.llvm.org/13.0.0/tools/clang/docs/ReleaseNotes.html) 有一些主要的新功能和对 Clang 诊断的改进。大约还有几个新的编译器 flag。
 
