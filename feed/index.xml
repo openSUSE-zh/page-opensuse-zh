@@ -7,6 +7,63 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</guid>
+      <title>来自 ALP 工作组的动态</title>
+      <pubDate>Tue, 31 May 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>SUSE 和 openSUSE 的成员已经成立了几个工作组 (Work Groups, WG) 来讨论自适应 Linux 平台（Adaptable Linux Platform, ALP）的结构。请阅读下文，浏览来自开源项目的各个工作组的最新简报。 系统管理工作组一直在推进 Cockpit 的品牌推广。他们一直在尝试将其容器化；尽管除了使用虫洞的可能机会之外，它看起来并不乐观。他们确实继续以良好的速度在 Cointainers 中向 YaST 添加功能。 ALP 虚拟化团队已经在支持等方面做出了一些技术决策。在他们关于容器内虚拟机的第一次技术会议上，已经完成了一些工作来寻找最佳方法和阻塞点。 在下一代构建服务工作组中，最初的反馈表明对基于 git 的打包方法兴趣不大。通过 git 托管的按需即用软件仍然非常昂贵，但可考虑本地自托管选项。到目前为止，自托管的 Gitea 似乎是最好的选择，而目前关于用 git 存储大文件的（Large-File-Storing-in-Git）的讨论目前已暂停。 组件交付和生命周期工作组的目标是找到一种替代方法来运送具有不同生命周期的包裹。考虑到这一点，该小组一直在收集有关 RHEL 模块化的意见，以便比较和了解他们可以从中获得什么。 机密计算工作组一直在收集信息，以确定他们希望长期处于什么位置，以及在给定时间段内可以实现什么目标。这使他们能够在机密计算中建立时间表，以支持上游项目的努力。 容器管理前端工作组非常喜欢 Podman，因与 systemd 集成，podman 潜在地允许服务即容器和 RPM 交付的服务。工作组可能还需要 Docker，以及嵌入到他们的产品中的 Rancher 和 nerdctl/containerd。该小组希望其他工作组对他们的技术决策提供反馈，因为到目前为止还没有反馈。 简易部署与安装容器工作组一直在讨论问题空间和对 quadlet 和 systemd...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的成员已经成立了几个工作组 (Work Groups, WG) 来讨论自适应 Linux 平台（Adaptable Linux Platform, ALP）的结构。请阅读下文，浏览来自开源项目的各个工作组的最新简报。&lt;/p&gt;
+
+&lt;p&gt;系统管理工作组一直在推进 Cockpit 的品牌推广。他们一直在尝试将其容器化；尽管除了使用&lt;a href=&quot;https://en.wikipedia.org/wiki/Wormhole_switching&quot;&gt;虫洞&lt;/a&gt;的可能机会之外，它看起来并不乐观。他们确实继续以良好的速度在 &lt;a href=&quot;https://www.docker.com/resources/what-container/#:~:text=Containers%20are%20an%20abstraction%20at%20the%20app%20layer,each%20running%20as%20isolated%20processes%20in%20user%20space.&quot;&gt;Cointainers&lt;/a&gt; 中向 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 添加功能。&lt;/p&gt;
+
+&lt;p&gt;ALP 虚拟化团队已经在支持等方面做出了一些技术决策。在他们关于容器内虚拟机的第一次技术会议上，已经完成了一些工作来寻找最佳方法和阻塞点。&lt;/p&gt;
+
+&lt;p&gt;在下一代构建服务工作组中，最初的反馈表明对基于 git 的打包方法兴趣不大。通过 git 托管的&lt;a href=&quot;https://en.wikipedia.org/wiki/Software_as_a_service&quot;&gt;按需即用软件&lt;/a&gt;仍然非常昂贵，但可考虑&lt;a href=&quot;https://en.wikipedia.org/wiki/On-premises_software&quot;&gt;本地自托管&lt;/a&gt;选项。到目前为止，自托管的 &lt;a href=&quot;https://gitea.io/&quot;&gt;Gitea&lt;/a&gt; 似乎是最好的选择，而目前关于用 git 存储大文件的（Large-File-Storing-in-Git）的讨论目前已暂停。&lt;/p&gt;
+
+&lt;p&gt;组件交付和生命周期工作组的目标是找到一种替代方法来运送具有不同生命周期的包裹。考虑到这一点，该小组一直在收集有关 RHEL 模块化的意见，以便比较和了解他们可以从中获得什么。&lt;/p&gt;
+
+&lt;p&gt;机密计算工作组一直在收集信息，以确定他们希望长期处于什么位置，以及在给定时间段内可以实现什么目标。这使他们能够在机密计算中建立时间表，以支持上游项目的努力。&lt;/p&gt;
+
+&lt;p&gt;容器管理前端工作组非常喜欢 &lt;a href=&quot;https://podman.io/&quot;&gt;Podman&lt;/a&gt;，因与 &lt;a href=&quot;https://github.com/systemd/systemd&quot;&gt;systemd&lt;/a&gt; 集成，podman 潜在地允许服务即容器和 RPM 交付的服务。工作组可能还需要 &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;，以及嵌入到他们的产品中的 &lt;a href=&quot;https://rancher.com/&quot;&gt;Rancher&lt;/a&gt; 和 nerdctl/&lt;a href=&quot;https://containerd.io/&quot;&gt;containerd&lt;/a&gt;。该小组希望其他工作组对他们的技术决策提供反馈，因为到目前为止还没有反馈。&lt;/p&gt;
+
+&lt;p&gt;简易部署与安装容器工作组一直在讨论问题空间和对 &lt;a href=&quot;https://github.com/containers/quadlet&quot;&gt;quadlet&lt;/a&gt; 和 systemd 便携服务等的初步研究。&lt;/p&gt;
+
+&lt;p&gt;社区工作组起草了一份沟通计划，并确定了与项目当前状态相关的主题。工作组现已经建立了每周会议，并在 &lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;etherpad.opensuse.org&lt;/a&gt; 上发布了会议纪要。社区工作组鼓励所有其他工作组自行进行公开更新，并推荐 &lt;a href=&quot;https://yast.opensuse.org/blog/2021-06-01/sprint-124&quot;&gt;YaST&lt;/a&gt; 团队作为榜样。&lt;/p&gt;
+
+&lt;p&gt;部署/管理框架工作组正在寻找并决定下一代配置和管理工具。目前看起来最能满足客户需求并集成到 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 其他产品中的两个选项是 &lt;a href=&quot;https://saltproject.io/&quot;&gt;SALT&lt;/a&gt; 和 &lt;a href=&quot;https://www.ansible.com/&quot;&gt;Ansible&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;桌面 WG 正在研究基于远程 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的远程桌面，重点是无头 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 解决方案。其他讨论集中在无 Xorg 的轻量级 Windows 管理器和桌面、容器化 GNOME 核心堆栈以及 Wayland 中的 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;nvidia&lt;/a&gt; 开源内核模块。&lt;/p&gt;
+
+&lt;p&gt;文档工作组开始更新文档页面的外观，以便更好地导航。&lt;/p&gt;
+
+&lt;p&gt;数据处理单元（DPU）集成团队正在调查与&lt;a href=&quot;https://www.dell.com/&quot;&gt;戴尔&lt;/a&gt;正在进行的业务和技术讨论。&lt;/p&gt;
+
+&lt;p&gt;全盘加密专家正在寻求使用 LUKS2 进行（在支持它的系统上的） TPM 自动解锁并设计简单、安全且易于使用的加密系统。&lt;/p&gt;
+
+&lt;p&gt;高性能计算工作组正在参与多个社区项目，以开发和增强最先进的部署系统。&lt;/p&gt;
+
+&lt;p&gt;安装和部署工作组正在讨论传统安装程序的演变，包括使其更有用的模块化。还可以选择动态创建自定义映像以进行部署。&lt;/p&gt;
+
+&lt;p&gt;内核和实时补丁团队目前正忙于推出用户空间实时补丁。&lt;/p&gt;
+
+&lt;p&gt;内核性能测试已经开始，重点是在每两周一次的电话会议期间定义范围和设置，以及用于进一步讨论的邮件列表。&lt;/p&gt;
+
+&lt;p&gt;质量工程工作组为大多数其他工作组分配了代表，并计划召开一次会议，和创建一个 slack 通道。&lt;/p&gt;
+
+&lt;p&gt;安全框架工作组已经成立并举行了启动电话会议。正在讨论如何从 AppArmor 顺利切换到 SELinux 以及如何为它做准备。&lt;/p&gt;
+
+&lt;p&gt;数据遥测工作组一直在收集所需的数据，以总结衡量订阅的要求。&lt;/p&gt;
+
+&lt;p&gt;在接下来的几天里，&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE Conference&lt;/a&gt; 上将会有几场讨论。对 ALP 新闻动态和工作组感兴趣的人可以注册参加&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;会议&lt;/a&gt;并在线观看讨论。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/01/wg-for-alp-give-updates/&quot;&gt;Work Groups for ALP Give Updates&lt;/a&gt;，作者：Community Work Group&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/28/openSUSE-Leap-15.4-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html</guid>
       <title>openSUSE Leap 15.4 发行公告</title>
       <pubDate>Sat, 28 May 2022 18:30:00 -0500</pubDate>
@@ -341,33 +398,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/08/tw-gets-new-default-gcc/&quot;&gt;Tumbleweed Gets New Default GCC&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/04/Leap-Micro-Beta-%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95%E8%80%85%E4%BD%BF%E7%94%A8.html</guid>
-      <title>Leap Micro Beta 现在可供测试者使用</title>
-      <pubDate>Mon, 04 Apr 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/04/Leap-Micro-Beta-%E7%8E%B0%E5%9C%A8%E5%8F%AF%E4%BE%9B%E6%B5%8B%E8%AF%95%E8%80%85%E4%BD%BF%E7%94%A8.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>浏览 openSUSE 网站的人可能会在 get.opensuse.org 上发现一些新内容。 目前正在展示的 Leap Micro 已更新至 5.2 beta 版本，主要用于容器化和虚拟化工作负载。它是不可变的，是主机容器的理想选择，被描述为面向专家用户，可用于计算部署的超可靠、轻量级操作系统。Leap Micro 的社区版本基于 SUSE Linux Enterprise Micro，并利用 SUSE Linux Enterprise 和 openSUSE Leap 的企业强化安全性，将其合并为一个现代、不可变、对开发人员友好的操作系统平台。 Leap Micro 有几个用于边缘计算、嵌入式/物联网部署等方面的产品实例。Leap Micro 非常适合去中心化计算环境、微服务、分布式计算项目等。该版本将帮助开发人员和 IT 专业人士构建和扩展用于航空航天、电信、汽车、国防、医疗保健、机器人、区块链等领域的系统。 Leap Micro 提供自动化管理和补丁。 Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。另外，它基于 SUSE Linux Enterprise 和 Leap，而非与 MicroOS 一样基于...</description>
-      <content:encoded>&lt;p&gt;浏览 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 网站的人可能会在 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;get.opensuse.org&lt;/a&gt; 上发现一些新内容。&lt;/p&gt;
-
-&lt;p&gt;目前正在展示的 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.2/&quot;&gt;Leap Micro&lt;/a&gt; 已更新至 5.2 beta 版本，主要用于容器化和虚拟化工作负载。它是不可变的，是主机容器的理想选择，被描述为面向专家用户，可用于计算部署的超可靠、轻量级操作系统。Leap Micro 的社区版本基于 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SUSE Linux Enterprise Micro&lt;/a&gt;，并利用 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;openSUSE Leap&lt;/a&gt; 的企业强化安全性，将其合并为一个现代、不可变、对开发人员友好的操作系统平台。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 有几个用于&lt;a href=&quot;https://en.wikipedia.org/wiki/Edge_computing&quot;&gt;边缘计算&lt;/a&gt;、嵌入式/物联网部署等方面的产品实例。Leap Micro 非常适合去中心化计算环境、微服务、分布式计算项目等。该版本将帮助开发人员和 IT 专业人士构建和扩展用于航空航天、电信、汽车、国防、医疗保健、机器人、区块链等领域的系统。 Leap Micro 提供自动化管理和补丁。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 与 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。另外，它基于 SUSE Linux Enterprise 和 Leap，而非与 MicroOS 一样基于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Leap 发布经理 &lt;a href=&quot;https://github.com/lkocman&quot;&gt;Luboš Kocman&lt;/a&gt; 在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;factory 邮件列表&lt;/a&gt;中宣布了&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LWO4OGGY3N2KKOWNJXIRUV76I3FJX3HV/&quot;&gt;相关的镜像文件已开放下载&lt;/a&gt;供测试者进行测试。&lt;/p&gt;
-
-&lt;p&gt;想要测试 Leap Micro 的用户应该查看 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_5.2&quot;&gt;openSUSE wiki 页面&lt;/a&gt;。那些使用&lt;a href=&quot;https://www.raspberrypi.org/&quot;&gt;树莓派&lt;/a&gt;或 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; Base 的预配置镜像的用户应该查看 &lt;a href=&quot;https://documentation.suse.com/sle-micro/5.0/single-html/SLE-Micro-installation/index.html#sec-slem-combustion&quot;&gt;the combustion and ignition&lt;/a&gt; 的文档。用户需要在 USB 驱动器上将卷名标记为 ignition。这可以通过磁盘实用程序（格式化分区）或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo e2label /dev/sdY ignition&lt;/code&gt; 点火来完成。 如果 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config.ign&lt;/code&gt; 文件有以下内容： &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;passwordHash&lt;/code&gt; : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O9h4s2UUtAtok&lt;/code&gt;，则密码为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;password&lt;/code&gt;。Leap Micro 当前使用了 openSUSE 的默认值，即 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PermitRootLogin = without-password&lt;/code&gt;。因此用户需要通过 &lt;a href=&quot;https://documentation.suse.com/sle-micro/5.0/single-html/SLE-Micro-installation/index.html#sec-slem-combustion&quot;&gt;combustion&lt;/a&gt; 提供公钥；这是一个已知问题，后续将得到修复。&lt;/p&gt;
-
-&lt;p&gt;用户应该知道不应该在 Leap Micro 使用 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt;，而应使用 &lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/microos_getting_started/#transcational-update-default&quot;&gt;transactional-update&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/05/leap-micro-beta-available-for-testers/&quot;&gt;Leap Micro Beta Available for Testers&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
