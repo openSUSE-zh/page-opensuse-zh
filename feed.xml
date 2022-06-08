@@ -7,6 +7,38 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/07/openSUSE-%E5%B7%B4%E8%A5%BF%E7%A4%BE%E5%8C%BA%E5%BA%86%E7%A5%9D-Leap-15.4-%E5%8F%91%E5%B8%83.html</guid>
+      <title>openSUSE 巴西社区庆祝 Leap 15.4 发布</title>
+      <pubDate>Tue, 07 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/07/openSUSE-%E5%B7%B4%E8%A5%BF%E7%A4%BE%E5%8C%BA%E5%BA%86%E7%A5%9D-Leap-15.4-%E5%8F%91%E5%B8%83.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 巴西社区的成员将在 6 月 15 日聚在一起，为 openSUSE Leap 15.4 举行发行派对。
+
+该团队正在制定一个完整的时间表，将进行现场讲座，并将赠送一些物品。
+
+该活动将在 YouTube 上进行，人们被要求注册购票以获得参与链接。
+
+该活动将从巴西标准时间下午 1 点到 6 点（16:00 UTC - 22:00 UTC）进行。Leap 15.4 将于 6 月 8 日发布。
+
+
+
+原文：openSUSE’s Brazilian Community to Celebrate Leap Release，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 巴西社区的成员将在 6 月 15 日聚在一起，为 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 15.4&lt;/a&gt; 举行发行派对。&lt;/p&gt;
+
+&lt;p&gt;该团队正在制定一个完整的时间表，将进行现场讲座，并将赠送一些物品。&lt;/p&gt;
+
+&lt;p&gt;该活动将在 YouTube 上进行，人们被要求&lt;a href=&quot;https://www.eventbrite.com/e/lancamento-opensuse-leap-154-tickets-356824390357&quot;&gt;注册购票&lt;/a&gt;以获得参与链接。&lt;/p&gt;
+
+&lt;p&gt;该活动将从巴西标准时间下午 1 点到 6 点（16:00 UTC - 22:00 UTC）进行。&lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 15.4&lt;/a&gt; 将于 6 月 8 日发布。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/07/os-brazil-community-leap-release/&quot;&gt;openSUSE’s Brazilian Community to Celebrate Leap Release&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</guid>
       <title>来自 ALP 工作组的动态</title>
       <pubDate>Tue, 31 May 2022 18:30:00 -0500</pubDate>
@@ -369,35 +401,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/13/os-community-publishes-annual-survey-results/&quot;&gt;openSUSE Community Publishes Annual Survey Results&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/07/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-GCC-%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</guid>
-      <title>Tumbleweed 更新了 GCC 默认版本</title>
-      <pubDate>Thu, 07 Apr 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/07/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-GCC-%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 在本周发布的其中一个快照中更新了 GCC 的默认版本。 快照 20220405 将 GCC 的默认版本升级到 GCC 12。 在更新 GCC 后出现的最新快照是 20220406。此快照更新了五个软件包。其中一个更新的软件包是 autoconf 2.71。autoconf 最新的配置脚本改进了与 C 变体前端编译器 clang 的兼容性，并且通过 automake 重新生成配置的规则恢复了兼容性。Linux SCSI 目标框架 tgt 更新到 1.0.82 版本并添加了对侦听随机端口的支持。快照中要更新的其他软件包是 xf86-video-dummy 0.4.0 和 yast2-slp-server 4.5.0。 使 GCC 12 成为 tumbleweed 的默认编译器的快照 20220405 更新了多个软件包。新的包继承自 GCC 11 的 GCC 12.0.1 更新，编译器提供了...</description>
-      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 在本周发布的其中一个快照中更新了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 的默认版本。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EXZXDQHCQEIVLC2RSBDGLTKBW5THRN2Y/&quot;&gt;20220405&lt;/a&gt; 将 GCC 的默认版本升级到 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC 12&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;在更新 GCC 后出现的最新快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JO5OD74UXQCEXCW6IBSOHXEDASYEQQHZ/&quot;&gt;20220406&lt;/a&gt;。此快照更新了五个软件包。其中一个更新的软件包是 &lt;a href=&quot;https://www.gnu.org/software/autoconf/&quot;&gt;autoconf&lt;/a&gt; 2.71。autoconf 最新的配置脚本改进了与 C 变体前端编译器 &lt;a href=&quot;https://clang.llvm.org/&quot;&gt;clang&lt;/a&gt; 的兼容性，并且通过 automake 重新生成配置的规则恢复了兼容性。Linux SCSI 目标框架 &lt;a href=&quot;https://github.com/fujita/tgt&quot;&gt;tgt&lt;/a&gt; 更新到 1.0.82 版本并添加了对侦听随机端口的支持。快照中要更新的其他软件包是 &lt;a href=&quot;https://gitlab.freedesktop.org/xorg/driver/xf86-video-dummy&quot;&gt;xf86-video-dummy&lt;/a&gt; 0.4.0 和 &lt;a href=&quot;https://github.com/yast/yast-slp-server&quot;&gt;yast2-slp-server&lt;/a&gt; 4.5.0。&lt;/p&gt;
-
-&lt;p&gt;使 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC 12&lt;/a&gt; 成为 tumbleweed 的默认编译器的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EXZXDQHCQEIVLC2RSBDGLTKBW5THRN2Y/&quot;&gt;20220405&lt;/a&gt; 更新了多个软件包。新的包继承自 GCC 11 的 GCC 12.0.1 更新，编译器提供了 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 交叉的冲突，因为只能同时安装目标的一个 GCC 版本；libgccjit 也做了同样的事情。&lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 42.0 更新中更新了翻译。&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 的新版本不再使用 network-&lt;a href=&quot;https://github.com/openSUSE/wicked&quot;&gt;wicked&lt;/a&gt; 作为默认网络处理程序。文本整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 4.2.0 的更新修复了上下文查找的处理。&lt;a href=&quot;https://wiki.documentfoundation.org/Releases/7.3.2/RC2&quot;&gt;libreoffice&lt;/a&gt; 7.3.2.2 修复了阿拉伯语文本中的单词选择错误，并修复了在各种情况和输入下发生的四个崩溃。快照中其他值得注意的更新是 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 8.2.0、&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 1.22.87 和文件同步器 &lt;a href=&quot;https://www.cis.upenn.edu/~bcpierce/unison/&quot;&gt;unison&lt;/a&gt; 2.52.0。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/N6CXYMVZP2ZCY65ERT2F3AZSPN46ZQHW/&quot;&gt;20220404&lt;/a&gt; 为 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户提供了文件管理器 &lt;a href=&quot;https://en.wikipedia.org/wiki/Thunar&quot;&gt;Thunar&lt;/a&gt; 的新版本；thunar 4.16.11 版本修复了一些重新加载视图，防止了格式错误的书签导致的崩溃和翻译更新。在 &lt;a href=&quot;https://www.x.org/archive/X11R6.8.1/doc/xclock.1.html&quot;&gt;xclock&lt;/a&gt; 1.1.0 更新中，时钟指针的渲染更加流畅。打印包 &lt;a href=&quot;https://github.com/OpenPrinting/cups-filters&quot;&gt;cups-filters&lt;/a&gt; 1.28.12 修复了一些分辨率和图像大小。快照中要更新的其他软件包包括 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;xwayland&lt;/a&gt; 22.1.1、&lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 16.2.7、&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.4.51 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ATW7Z3ET6DYTO6RF2SEQ7ZRSJUGTHM4E/&quot;&gt;20220403&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 1.0.2，新增对 &lt;a href=&quot;https://github.com/facebook/zstd&quot;&gt;Zstandard&lt;/a&gt; 压缩算法的支持；kdump 还为 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;的&lt;a href=&quot;https://en.wikipedia.org/wiki/Core_dump&quot;&gt;故障转储&lt;/a&gt;功能删除了一些补丁。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-logs&quot;&gt;gnome-logs&lt;/a&gt; 从 3.36.0 更新至 42.0，添加了一些新功能；其中包括直接打开日记文件和几个键盘快捷键来帮助覆盖。gnome-logs 的更新还改进了窗口大小。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.0.6 的更新包含各种 HTTP/2 修复、&lt;a href=&quot;https://github.com/mesonbuild/meson&quot;&gt;meson&lt;/a&gt; 构建改进并修复了 &lt;a href=&quot;https://visualstudio.microsoft.com/&quot;&gt;Visual Studio&lt;/a&gt; 的构建问题。快照中还更新了其他一些软件包。&lt;/p&gt;
-
-&lt;p&gt;本月的第二个快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VWR54ASN6Z5OGTSTP7SLSUTMURKCGZWR/&quot;&gt;20220402&lt;/a&gt; 有几个软件包更新。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.28 的小更新修复了几个缓冲区溢出；3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.0.1 修复了一些维护脚本和 &lt;a href=&quot;https://gitlab.freedesktop.org/panfrost&quot;&gt;panfrost&lt;/a&gt; 驱动程序。&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 1.1.1 更新添加了一些关于容器主机集成的文档，并为在容器内使用 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/dbus/&quot;&gt;dbus&lt;/a&gt; 进行了构建修复。&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.5.6 更新解决了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-0547.html&quot;&gt;该漏洞&lt;/a&gt;可能允许在外部身份验证插件中绕过身份验证。&lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 0.3.49 更新改进了&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles&quot;&gt;蓝牙高级音频分发配置文件&lt;/a&gt;流并减少了某些设备上的卡顿。快照还更新了其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;Konqi&lt;/a&gt; 粉丝会在快照 20220402 中收到 Plasma 的 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.4/&quot;&gt;5.24.4&lt;/a&gt; 版本更新；该更新主要为 &lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 和 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace&quot;&gt;Plasma Workspace&lt;/a&gt; 提供了修复。&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 的更新修复了当剪辑与模糊区域相交时窗口闪烁的问题；Plasma Workspace 修复了锁屏界面的一些奇怪行为。快照中要更新的其他软件包包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220319、&lt;a href=&quot;https://libexpat.github.io/&quot;&gt;expat&lt;/a&gt; 2.4.8、&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite3&lt;/a&gt; 3.38.2 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/04/08/tw-gets-new-default-gcc/&quot;&gt;Tumbleweed Gets New Default GCC&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
