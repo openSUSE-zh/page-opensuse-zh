@@ -4,7 +4,7 @@ date: 2022-06-08 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: openSUSE Leap 15.4 已经正式发布
-image: 
+image: /assets/posts/2022-06/leap.png
 categories:
 - 更新通告
 tags:
