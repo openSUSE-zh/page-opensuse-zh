@@ -21,7 +21,3 @@ tags:
 如果你遇到了问题，你可以通过 [openSUSE:交流渠道](https://zh.opensuse.org/openSUSE:%E4%BA%A4%E6%B5%81%E6%B8%A0%E9%81%93#.E5.85.B3.E4.BA.8E.E7.AE.80.E4.BD.93.E4.B8.AD.E6.96.87)联系我们。如果你遇到了 BUG，请前往 [Bugzilla](https://bugzilla.opensuse.org/index.cgi) 提交错误报告。
 
 openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时加入。😚
-
-------
-
-原文：[]()，作者：
