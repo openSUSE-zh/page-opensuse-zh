@@ -7,6 +7,69 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/15/%E6%9D%A5%E8%87%AA-ALP-%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</guid>
+      <title>来自 ALP 质量工程工作组的动态</title>
+      <pubDate>Wed, 15 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/15/%E6%9D%A5%E8%87%AA-ALP-%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>以开放和透明的方式构建我们的产品使我们能够重新思考我们的测试方式。 我们 ALP （自适应 Linux 平台）质量工程工作组的 Jose Lausuch 受邀参加社区工作组每周会议，讨论 ALP 质量工程的当前计划。 Jose 提到质量工程工作组希望开始使用现有的 MicroOS 测试套件测试现有的 ALP 镜像。 这个工作在 poo#112409 中进行协调。 让我们从已有的内容开始，在 openqa.opensuse.org 中针对 ALP 运行它。我们最初会涵盖 x86_64 和 aarch64 的 KVM 和自安装映像。VMware 和可能的其他平台支持会稍后出现。 一旦我们有了概念验证，其他质量工程专家将进入特定的测试领域（虚拟化、容器、公共云、yast）并为 ALP 做出贡献，同时回馈上游，在本例中的上游是 MicroOS。 我们希望这种新模式能够提高社区对质量工程领域作贡献的兴趣，因为这一直是一个挑战。 Jose 已经向 o3 提交了初始 ALP 作业组，并开始向上游测试存储库添加一些代码。 原文：An update from ALP Quality Engineering，作者：Lubos Kocman...</description>
+      <content:encoded>&lt;p&gt;以开放和透明的方式构建我们的产品使我们能够重新思考我们的测试方式。&lt;/p&gt;
+
+&lt;p&gt;我们 ALP （自适应 Linux 平台）质量工程工作组的 Jose Lausuch 受邀参加社区工作组&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220614&quot;&gt;每周会议&lt;/a&gt;，讨论 ALP 质量工程的当前计划。&lt;/p&gt;
+
+&lt;p&gt;Jose 提到质量工程工作组希望开始使用现有的 MicroOS 测试套件测试现有的 ALP &lt;a href=&quot;https://download.opensuse.org/repositories/devel:/LEO/images/&quot;&gt;镜像&lt;/a&gt;。 这个工作在 &lt;a href=&quot;https://progress.opensuse.org/issues/112409&quot;&gt;poo#112409&lt;/a&gt; 中进行协调。&lt;/p&gt;
+
+&lt;p&gt;让我们从已有的内容开始，在 openqa.opensuse.org 中针对 ALP 运行它。我们最初会涵盖 x86_64 和 aarch64 的 KVM 和自安装映像。VMware 和可能的其他平台支持会稍后出现。&lt;/p&gt;
+
+&lt;p&gt;一旦我们有了概念验证，其他质量工程专家将进入特定的测试领域（虚拟化、容器、公共云、yast）并为 ALP 做出贡献，同时回馈上游，在本例中的上游是 MicroOS。&lt;/p&gt;
+
+&lt;p&gt;我们希望这种新模式能够提高社区对质量工程领域作贡献的兴趣，因为这一直是一个挑战。&lt;/p&gt;
+
+&lt;p&gt;Jose 已经向 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;o3&lt;/a&gt; 提交了初始 &lt;a href=&quot;https://github.com/os-autoinst/opensuse-jobgroups/pull/160&quot;&gt;ALP 作业组&lt;/a&gt;，并开始向&lt;a href=&quot;https://github.com/os-autoinst/os-autoinst-distri-opensuse/pull/15098&quot;&gt;上游测试存储库&lt;/a&gt;添加一些代码。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/16/ALP-Quality-Engineering-update/&quot;&gt;An update from ALP Quality Engineering&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</guid>
+      <title>社区的目标是发展交流和营销团队</title>
+      <pubDate>Tue, 14 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>近段时间以来，openSUSE 社区一直在定期举行社区会议，最近一次会议的与会者表达了发展交流和营销团队的愿望。
+
+openSUSE 项目目前有一个 Telegram 营销群组和一个 #marketing discord 频道。
+
+在征集有兴趣帮助营销、沟通和规划的人的同时，几个工作组正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。
+
+有一些直接的方面可以由团队来解决，比如彻底审查前几年的交流和营销工作计划的基本内容，以及如何调整或改进这些计划。
+
+周四的社区会议计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 Telegram 营销小组的 @profetik777。
+
+
+
+原文：Community aims to grow communication, marketing team，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;近段时间以来，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区一直在定期举行&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;，最近一次会议的与会者表达了发展交流和营销团队的愿望。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目目前有一个 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销群组&lt;/a&gt;和一个 #marketing &lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;discord 频道&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;在征集有兴趣帮助营销、沟通和规划的人的同时，几个&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html&quot;&gt;工作组&lt;/a&gt;正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。&lt;/p&gt;
+
+&lt;p&gt;有一些直接的方面可以由团队来解决，比如彻底审查前几年的&lt;a href=&quot;https://progress.opensuse.org/projects/opensuse-leap-15-4/issues/gantt&quot;&gt;交流和营销工作计划&lt;/a&gt;的基本内容，以及如何调整或改进这些计划。&lt;/p&gt;
+
+&lt;p&gt;周四的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销小组&lt;/a&gt;的 @profetik777。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/15/community-aims-to-grow-comms-marketing-team/&quot;&gt;Community aims to grow communication, marketing team&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/07/openSUSE-%E5%B7%B4%E8%A5%BF%E7%A4%BE%E5%8C%BA%E5%BA%86%E7%A5%9D-Leap-15.4-%E5%8F%91%E5%B8%83.html</guid>
       <title>openSUSE 巴西社区庆祝 Leap 15.4 发布</title>
       <pubDate>Tue, 07 Jun 2022 18:30:00 -0500</pubDate>
@@ -350,67 +413,6 @@ openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/05/cov-os-asia-summit/&quot;&gt;Call for Volunteers This Year’s openSUSE.Asia Summit&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</guid>
-      <title>社区的目标是发展交流和营销团队</title>
-      <pubDate>Sat, 30 Apr 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>近段时间以来，openSUSE 社区一直在定期举行社区会议，最近一次会议的与会者表达了发展交流和营销团队的愿望。
-
-openSUSE 项目目前有一个 Telegram 营销群组和一个 #marketing discord 频道。
-
-在征集有兴趣帮助营销、沟通和规划的人的同时，几个工作组正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。
-
-有一些直接的方面可以由团队来解决，比如彻底审查前几年的交流和营销工作计划的基本内容，以及如何调整或改进这些计划。
-
-周四的社区会议计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 Telegram 营销小组的 @profetik777。
-
-
-
-原文：Community aims to grow communication, marketing team，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;近段时间以来，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区一直在定期举行&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;，最近一次会议的与会者表达了发展交流和营销团队的愿望。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目目前有一个 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销群组&lt;/a&gt;和一个 #marketing &lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;discord 频道&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;在征集有兴趣帮助营销、沟通和规划的人的同时，几个&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html&quot;&gt;工作组&lt;/a&gt;正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。&lt;/p&gt;
-
-&lt;p&gt;有一些直接的方面可以由团队来解决，比如彻底审查前几年的&lt;a href=&quot;https://progress.opensuse.org/projects/opensuse-leap-15-4/issues/gantt&quot;&gt;交流和营销工作计划&lt;/a&gt;的基本内容，以及如何调整或改进这些计划。&lt;/p&gt;
-
-&lt;p&gt;周四的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销小组&lt;/a&gt;的 @profetik777。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/15/community-aims-to-grow-comms-marketing-team/&quot;&gt;Community aims to grow communication, marketing team&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/Mesa-%E5%92%8C-ImageMagick-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Mesa 和 ImageMagick 在 Tumbleweed 中更新</title>
-      <pubDate>Sat, 30 Apr 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/04/30/Mesa-%E5%92%8C-ImageMagick-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 本月持续发布新快照。本周我们将查看自上周五以来在四个快照中发布的软件包。 然而，在进入这些快照之前，需要注意的是 NetworkManager 进行了一个更改，预计将在即将发布的快照中出现；它将为先前快照中所做的 wifi 块更改提供修复，此前的更改导致某些用户无法连接 WiFi。snapper 与 Btrfs 的优势可以让 openSUSE Tumbleweed 用户通过回滚系统保持网络连接；然后，用户也可以在下周更新而不会因此停滞。 最新的快照 20220523 提供了三个包更新。其中包括对安全通信库 gnutls 3.7.5 的更新，为未来的发布奠定了基础；该软件包通过添加选项以禁用 TLS 1.2 中的会话凭证使用，因为它不提供前向机密性；TLS 1.2 具有未来的向后不兼容性。快照中要更新的另外两个包是 libxkbcommon 1.4.1 和 python-sympy 1.10.1，它们删除了长期弃用的 densearith、densesolve 和 densetools。 3D 图形库 Mesa 22.1.0 在快照 20220522 中发布；此处更新包括一些新功能，例如对 Intel Alchemist DG2 平台的支持、对 Lavapipe 的 Vulkan 1.3 支持以及用于...</description>
-      <content:encoded>&lt;p&gt;openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本月持续发布新快照。本周我们将查看自上周五以来在四个快照中发布的软件包。&lt;/p&gt;
-
-&lt;p&gt;然而，在进入这些快照之前，需要注意的是 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 进行了一个更改，预计将在即将发布的快照中出现；它将为&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15025&quot;&gt;先前快照中所做的 wifi 块更改&lt;/a&gt;提供修复，此前的更改导致某些用户无法连接 WiFi。&lt;a href=&quot;https://doc.opensuse.org/documentation/leap/archive/15.0/reference/html/book.opensuse.reference/cha.snapper.html&quot;&gt;snapper&lt;/a&gt; 与 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;Btrfs&lt;/a&gt; 的优势可以让 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Tumbleweed 用户通过回滚系统保持网络连接；然后，用户也可以在下周更新而不会因此停滞。&lt;/p&gt;
-
-&lt;p&gt;最新的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W24SLRECQV2OF2GS22REZ6FXCIW6D3GW/&quot;&gt;20220523&lt;/a&gt; 提供了三个包更新。其中包括对安全通信库 &lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.7.5 的更新，为未来的发布奠定了基础；该软件包通过添加选项以禁用 TLS 1.2 中的会话凭证使用，因为它不提供前向机密性；TLS 1.2 具有未来的向后不兼容性。快照中要更新的另外两个包是 &lt;a href=&quot;https://github.com/xkbcommon/libxkbcommon&quot;&gt;libxkbcommon&lt;/a&gt; 1.4.1 和 &lt;a href=&quot;https://docs.sympy.org/latest/index.html&quot;&gt;python-sympy&lt;/a&gt; 1.10.1，它们删除了长期弃用的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densearith&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densesolve&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;densetools&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.1.0 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/UZKKJQ6VHYXGZ5PSHQPARBKILVJEIXBY/&quot;&gt;20220522&lt;/a&gt; 中发布；此处更新包括一些新功能，例如对 Intel Alchemist DG2 平台的支持、对 &lt;a href=&quot;https://www.phoronix.com/scan.php?page=news_item&amp;amp;px=Lavapipe-Vulkan-1.3-Pending&quot;&gt;Lavapipe&lt;/a&gt; 的 Vulkan 1.3 支持以及用于 &lt;a href=&quot;https://docs.mesa3d.org/drivers/zink.html&quot;&gt;Zink&lt;/a&gt; 的 Kopper 接口反向移植。&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 1.24.4 的更新在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GetStageDeploymentIntegrationTests&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ListStageDeploymentIntegrationTests&lt;/code&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的响应中添加了一个可选的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DeploymentResult&lt;/code&gt; 字段。该版本还增加了对人类可读警报的支持。gtk3 3.24.34 更新了翻译并修复了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 的构建问题。照片管理器 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/shotwell&quot;&gt;shotwell&lt;/a&gt; 0.30.16 修复了深色模式壁纸以及来自索尼 A7C 相机的导入和视频的问题。快照中要更新的其他软件包包括 &lt;a href=&quot;https://linux.die.net/man/8/iptables&quot;&gt;iptables&lt;/a&gt; 1.8.8、&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.2 等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 100 第一个小版本更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IQWNVN2HQZ6XO3O3RFE6CUYYE2SHWXYD/&quot;&gt;20220521&lt;/a&gt; 中发布。该更新处理了两个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，即 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-1802.html&quot;&gt;CVE-2022-1802&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-1529.html&quot;&gt;CVE-2022-1529&lt;/a&gt;，火狐浏览器还修复了使用 Netflix 时画中画模式下的字幕问题。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.17.9 更新修复了 Nvidia 显卡的开源驱动程序 &lt;a href=&quot;https://nouveau.freedesktop.org/&quot;&gt;Nouveau&lt;/a&gt; 中潜在的理论漏洞；还修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 的潜在内存泄漏问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.35 更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NK2XHGBZPXF36FOHUEOB3NMWUBEV4UUX/&quot;&gt;20220520&lt;/a&gt; 中发布。图像编辑器 ImageMagick 删除了一些特殊的 dolor 扣除并修复了临时文件泄漏。沙盒工具 &lt;a href=&quot;https://github.com/containers/bubblewrap&quot;&gt;bubblewrap&lt;/a&gt; 0.6.2 对安装目录进行了更改，并允许使用较旧的 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 进行编译。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的字符映射 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gucharmap&quot;&gt;gucharmap&lt;/a&gt; 14.0.3 改进了韩文&lt;a href=&quot;https://en.wikipedia.org/wiki/Hanja&quot;&gt;汉字&lt;/a&gt;发音属性并启用了 &lt;a href=&quot;hhttps://www.unicode.org/main.html&quot;&gt;Unicode&lt;/a&gt; 块的字母排序。快照中要更新的其他包是一些库，例如 &lt;a href=&quot;https://github.com/yast/yast-packager&quot;&gt;yast2-packager&lt;/a&gt; 4.5.4 和 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;orca&lt;/a&gt; 42.1；orca 对 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;WebKitGtk&lt;/a&gt; 的工具包名称大小写的处理进行了一些更改，因此旧版本的 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;orca&lt;/a&gt; 继续使用新版本的 WebKit 渲染 引擎。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/25/mesa-imagemagick-update-in-tw/&quot;&gt;Mesa, ImageMagick Packages Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
