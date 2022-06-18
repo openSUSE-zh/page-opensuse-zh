@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/16/%E8%87%AA-osC2022-%E5%90%8E%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF.html</guid>
+      <title>自 osC2022 后社区工作组的最新消息</title>
+      <pubDate>Thu, 16 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/16/%E8%87%AA-osC2022-%E5%90%8E%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>自适应 Linux 平台 (ALP) 的社区工作组 (CWG) 想向你介绍自 openSUSE Conference 2022 以来发生的最新情况。请确保查看与 ALP 指导委员会相关的小组讨论以及 osC22 的其他公开讨论。 首先，我们有一个新的官方沟通渠道！我们正在使用名为 “openSUSE ALP” 的 Matrix 交流群组，同时该群组与 https://discord.gg/opensuse 和 ircs://libera.chat/#opensuse-alp 完成了桥接。我们已经开始为你服务了！这是获取更新动态的最佳方式。 我们已经重新审视了我们希望传达 ALP 最新信息的方式。我们的想法是，从为所有工作组提供的摘要报告转变为更容易理解和更令人兴奋的阅读方式。 我们邀请了 SUSE 新任命的工程总监 Marco Varlese 参加 ALP CWG 的每周例会，我们还有好消息要分享！ 下周二，即 6 月 21 日，Marco 将与 SUSE 社区团队的 Robert Sirchia 合作，在 suse.com 上撰写一篇关于自适应...</description>
+      <content:encoded>&lt;p&gt;自适应 Linux 平台 (ALP) 的&lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups/Community&quot;&gt;社区工作组&lt;/a&gt; (CWG) 想向你介绍自 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 以来发生的最新情况。请确保查看与 ALP 指导委员会相关的小组讨论以及 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;osC22&lt;/a&gt; 的其他公开&lt;a href=&quot;https://www.youtube.com/playlist?list=PL_AMhvchzBae22JG6CeBsSpjdrgMaeyN7&quot;&gt;讨论&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;首先，我们有一个新的官方沟通渠道！我们正在使用名为 “openSUSE ALP” 的 &lt;a href=&quot;https://chat.opensuse.org/&quot;&gt;Matrix&lt;/a&gt; 交流群组，同时该群组与 https://discord.gg/opensuse 和 ircs://libera.chat/#opensuse-alp 完成了桥接。我们已经开始为你服务了！这是获取更新动态的最佳方式。&lt;/p&gt;
+
+&lt;p&gt;我们已经重新审视了我们希望&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html&quot;&gt;传达&lt;/a&gt; ALP 最新信息的方式。我们的想法是，从为所有工作组提供的摘要报告转变为更容易理解和更令人兴奋的阅读方式。&lt;/p&gt;
+
+&lt;p&gt;我们邀请了 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 新任命的工程总监 Marco Varlese 参加 ALP CWG 的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220607&quot;&gt;每周例会&lt;/a&gt;，我们还有好消息要分享！&lt;/p&gt;
+
+&lt;p&gt;下周二，即 6 月 21 日，Marco 将与 SUSE 社区团队的 Robert Sirchia 合作，在 &lt;a href=&quot;https://www.suse.com/&quot;&gt;suse.com&lt;/a&gt; 上撰写一篇关于自适应 Linux 平台战略和愿景的文章。然后，我们想采访各个工作组，并以讲故事的方式分享一些最新情况，并更好地交流他们如何融入 Marco 分享的宏大设想。Dan Čermák 将按照对 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的影响，整理出一个工作组的分类清单。这将确保采访尽可能地切题。&lt;/p&gt;
+
+&lt;p&gt;本周我们进行了&lt;a href=&quot;https://news.opensuse.org/2022/06/16/ALP-Quality-Engineering-update/&quot;&gt;质量工程&lt;/a&gt;。下周二，我们邀请了 ALP 指导委员会的 Jiří Šrain 和 Frederic Crozat，我们想与他们讨论构建 ALP 的社区部分，本质也就是 ALP 的 Package Hub。我们关注的其余项目是 Fedocal 和集中式文档的测试实例。&lt;/p&gt;
+
+&lt;p&gt;该社区平台在其与 SUSE 的开发周期中被称为 openSUSE ALP，以简明扼要地规划下一个社区版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/17/ALP-Community-update/&quot;&gt;Community work group update post oSC22&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/15/%E6%9D%A5%E8%87%AA-ALP-%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</guid>
       <title>来自 ALP 质量工程工作组的动态</title>
       <pubDate>Wed, 15 Jun 2022 18:30:00 -0500</pubDate>
@@ -358,61 +385,6 @@ openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/06/gnome-curl-fetchmail-wsl-tw/&quot;&gt;GNOME, curl, Fetchmail update in Tumbleweed, WSL Image Published&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/04/%E4%B8%BA%E4%BB%8A%E5%B9%B4%E7%9A%84-openSUSE.Asia-%E5%B3%B0%E4%BC%9A%E5%BE%81%E9%9B%86%E5%BF%97%E6%84%BF%E8%80%85.html</guid>
-      <title>为今年的 openSUSE.Asia 峰会征集志愿者</title>
-      <pubDate>Wed, 04 May 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/04/%E4%B8%BA%E4%BB%8A%E5%B9%B4%E7%9A%84-openSUSE.Asia-%E5%B3%B0%E4%BC%9A%E5%BE%81%E9%9B%86%E5%BF%97%E6%84%BF%E8%80%85.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>征集志愿者 openSUSE.Asia 峰会是来自亚洲各地的贡献者和爱好者参加的一年一度的 openSUSE 亚洲会议。该活动主要关注 openSUSE 发行版和社区、其在个人和企业方面的应用以及开源文化。自 2014 年以来，openSUSE.Asia 峰会活动一直线下举行，因此是社区见面的绝佳机会。 然后，因为 COVID-19 疫情，2020 年的峰会取消了。在 2021 年，线上峰会由印度团队举办。 openSUSE.Asia 2022 峰会会怎么样 openSUSE.Asia 2022 峰会将是一个混合活动。 我们将举行统一的线上峰会。 每个国家/城市的社区可以制作不同的线下活动部分。 全亚洲部分（Asian-wide part；线上 + 线下活动） 将在世界标准时间 4:00-6:00 左右举行，从任何亚洲城市都可以轻松加入。 主题演讲、特邀演讲等 当地部分（Local part；线上或线下活动） 每个国家/城市都可以根据 COVID-19 的限制组织当地的离线活动。 内容取决于当地实际情况；会谈、研讨会、聚会等。 我们对志愿者的期望 我们期待着志愿者们让这个活动顺利进行。今年志愿者可以来自任何地方。 志愿者应当 参加定期在线会议以准备亚洲范围的部分。（目前周五 13:00 UTC，使用 Slack 聊天） 组织当地活动，调整亚洲部分的日程安排。 帮助在线会议，并与其他志愿者协调会议日程。如果您需要任何支持，请与亚洲委员会讨论举办活动。 如果您对志愿服务感兴趣，请在 2022...</description>
-      <content:encoded>&lt;h2 id=&quot;征集志愿者&quot;&gt;征集志愿者&lt;/h2&gt;
-
-&lt;p&gt;openSUSE.Asia 峰会是来自亚洲各地的贡献者和爱好者参加的一年一度的 openSUSE 亚洲会议。该活动主要关注 openSUSE 发行版和社区、其在个人和企业方面的应用以及开源文化。自 2014 年以来，openSUSE.Asia 峰会活动一直线下举行，因此是社区见面的绝佳机会。&lt;/p&gt;
-
-&lt;p&gt;然后，因为 COVID-19 疫情，2020 年的峰会取消了。在 2021 年，线上峰会由印度团队举办。&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuseasia-2022-峰会会怎么样&quot;&gt;openSUSE.Asia 2022 峰会会怎么样&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openSUSE.Asia 2022 峰会将是一个混合活动。&lt;/li&gt;
-  &lt;li&gt;我们将举行&lt;strong&gt;统一的&lt;/strong&gt;线上峰会。&lt;/li&gt;
-  &lt;li&gt;每个国家/城市的社区可以制作不同的线下活动部分。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;全亚洲部分asian-wide-part线上--线下活动&quot;&gt;全亚洲部分（Asian-wide part；线上 + 线下活动）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;将在世界标准时间 4:00-6:00 左右举行，从任何亚洲城市都可以轻松加入。&lt;/li&gt;
-  &lt;li&gt;主题演讲、特邀演讲等&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;当地部分local-part线上或线下活动&quot;&gt;当地部分（Local part；线上或线下活动）&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;每个国家/城市都可以根据 COVID-19 的限制组织当地的离线活动。&lt;/li&gt;
-  &lt;li&gt;内容取决于当地实际情况；会谈、研讨会、聚会等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;我们对志愿者的期望&quot;&gt;我们对志愿者的期望&lt;/h2&gt;
-
-&lt;p&gt;我们期待着志愿者们让这个活动顺利进行。今年志愿者可以来自任何地方。&lt;/p&gt;
-
-&lt;h3 id=&quot;志愿者应当&quot;&gt;志愿者应当&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;参加定期在线会议以准备亚洲范围的部分。（目前周五 13:00 UTC，使用 Slack 聊天）&lt;/li&gt;
-  &lt;li&gt;组织当地活动，调整亚洲部分的日程安排。&lt;/li&gt;
-  &lt;li&gt;帮助在线会议，并与其他志愿者协调会议日程。如果您需要任何支持，请与亚洲委员会讨论举办活动。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如果您对志愿服务感兴趣，请在 &lt;strong&gt;2022 年 5 月 30 日星期一&lt;/strong&gt;之前向 &lt;a href=&quot;https://news.opensuse.org/2022/05/05/cov-os-asia-summit/opensuseasia-summit@googlegroups.com&quot;&gt;opensuseasia-summit@googlegroups.com&lt;/a&gt; 发送电子邮件并附上您的简短介绍。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/05/cov-os-asia-summit/&quot;&gt;Call for Volunteers This Year’s openSUSE.Asia Summit&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
 </content:encoded>
     </item>
 
