@@ -7,6 +7,54 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/28/openSUSE-Leap-15.4-%E5%8F%91%E8%A1%8C%E5%8F%8D%E9%A6%88%E8%B0%83%E6%9F%A5.html</guid>
+      <title>openSUSE Leap 15.4 发行反馈调查</title>
+      <pubDate>Tue, 28 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/28/openSUSE-Leap-15.4-%E5%8F%91%E8%A1%8C%E5%8F%8D%E9%A6%88%E8%B0%83%E6%9F%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>我们正在寻求有关 openSUSE Leap 15.4 版本发布后的反馈，该版本于 6 月 8 日向公众发布。
+
+通过本次调查，我们希望从您那里得到了与 openSUSE Leap 15.4 的可用性和个人体验相关的正面和负面反馈。您的参与对我们来说非常宝贵。
+
+参与很简单，本次调查只包含两个问题；通过这种方式，我们将努力继续做得好的事情，并尝试解决错误的问题。因此，请按照这个链接参与这项调查：
+
+
+  https://survey.opensuse.org/
+
+
+收集反馈的截止日期是 7 月 7 日。然后您的回复将被分组、审核并传递给各自的 openSUSE 团队。
+
+你可以在此处找到以前反馈调查的结果。
+
+非常感谢您成为 openSUSE 社区的一员。
+
+
+
+原文：openSUSE Leap 15.4 release retrospective，作者：Victorhck
+</description>
+      <content:encoded>&lt;p&gt;我们正在寻求有关 &lt;a href=&quot;https://get.opensuse.org/leap/15.4/&quot;&gt;openSUSE Leap 15.4&lt;/a&gt; 版本发布后的反馈，该版本于 6 月 8 日向公众发布。&lt;/p&gt;
+
+&lt;p&gt;通过本次调查，我们希望从您那里得到了与 openSUSE Leap 15.4 的可用性和个人体验相关的正面和负面反馈。您的参与对我们来说非常宝贵。&lt;/p&gt;
+
+&lt;p&gt;参与很简单，本次调查只包含两个问题；通过这种方式，我们将努力继续做得好的事情，并尝试解决错误的问题。因此，请按照这个链接参与这项调查：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://survey.opensuse.org/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;收集反馈的截止日期是 7 月 7 日。然后您的回复将被分组、审核并传递给各自的 openSUSE 团队。&lt;/p&gt;
+
+&lt;p&gt;你可以在&lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Retrospective&quot;&gt;此处&lt;/a&gt;找到以前反馈调查的结果。&lt;/p&gt;
+
+&lt;p&gt;非常感谢您成为 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的一员。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/28/os-leap-release-retrospective/&quot;&gt;openSUSE Leap 15.4 release retrospective&lt;/a&gt;，作者：Victorhck&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/21/%E4%B8%BA%E4%BA%BA%E7%B1%BB%E8%80%8C%E9%BB%91%E5%AE%A2%E7%9A%84%E9%BB%91%E5%AE%A2%E5%91%A8%E4%B8%8B%E5%91%A8%E5%BC%80%E5%A7%8B%E4%B8%BE%E8%A1%8C.html</guid>
       <title>为人类而黑客的黑客周下周开始举行</title>
       <pubDate>Tue, 21 Jun 2022 18:30:00 -0500</pubDate>
@@ -381,29 +429,6 @@ openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/17/leap-reaches-rc-phase/&quot;&gt;openSUSE Leap 15.4 Enters Release Candidate Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/12/GCC-12-%E6%88%90%E4%B8%BA-Tumbleweed-%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.html</guid>
-      <title>GCC 12 成为 Tumbleweed 默认的编译器</title>
-      <pubDate>Thu, 12 May 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/12/GCC-12-%E6%88%90%E4%B8%BA-Tumbleweed-%E9%BB%98%E8%AE%A4%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>在准备将 openSUSE Tumbleweed 的默认编译器切换到 GCC 12 的一个多月后，最新的快照通过了 openQA 测试并使 GCC12 成为 Tumbleweed 的默认编译器。 完全重构的快照 20220510 正在与镜像站同步，并且用户很快就能通过 zypper dup 更改他们系统默认的编译器。作为一个完全重构的快照，与镜像站同步可能需要一些时间，但开发人员很快就会拥有最新的 GCC 用于他们的开发。 “OpenQA 在这个快照中没有发现任何奇怪的东西，与快照 20220509 相比，报告的错误大体上没有变化，这是一个好兆头，”发行经理 Dominique Leuenberger 在 factory 邮件列表中写道。“希望您会喜欢现在这个使用 GCC12 构建的快照！” 于前一天的快照 20220509 更新了 git 2.36.1。git 此次次要版本更新提供了一些修复，其中包括对 git submodule update 的修复。文本编辑器 vim 在其 8.2.4877 版本更新中处理了一个 CVE；CVE-2022-1381 的修复关闭了一个漏洞，该漏洞可能导致软件崩溃、修改内存并能够远程执行。VirtualBox 6.1.34 更新修复了五个...</description>
-      <content:encoded>&lt;p&gt;在&lt;a href=&quot;https://news.opensuse.org/2022/04/08/tw-gets-new-default-gcc/&quot;&gt;准备将 openSUSE Tumbleweed 的默认编译器切换到 GCC 12 &lt;/a&gt;的一个多月后，最新的快照通过了 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试并使 GCC12 成为 Tumbleweed 的默认编译器。&lt;/p&gt;
-
-&lt;p&gt;完全重构的快照 20220510 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AEFKIFZRIBGZQRVN6JVAIN764BJEBUYR/&quot;&gt;正在与镜像站同步&lt;/a&gt;，并且用户很快就能通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 更改他们系统默认的编译器。作为一个完全重构的快照，与镜像站同步可能需要一些时间，但开发人员很快就会拥有最新的 GCC 用于他们的开发。&lt;/p&gt;
-
-&lt;p&gt;“OpenQA 在这个快照中没有发现任何奇怪的东西，与快照 &lt;a href=&quot;https://news.opensuse.org/2022/05/13/gcc-12-is-coming/(https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TGLCVA7TEF2FLW7G5WKMOQ24UOSASV5G/)&quot;&gt;20220509&lt;/a&gt; 相比，报告的错误大体上没有变化，这是一个好兆头，”发行经理 Dominique Leuenberger 在 factory 邮件列表中写道。“希望您会喜欢现在这个使用 GCC12 构建的快照！”&lt;/p&gt;
-
-&lt;p&gt;于前一天的快照 20220509 更新了 git 2.36.1。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 此次次要版本更新提供了一些修复，其中包括对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git submodule update&lt;/code&gt; 的修复。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 在其 8.2.4877 版本更新中处理了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-1381.html&quot;&gt;CVE-2022-1381&lt;/a&gt; 的修复关闭了一个漏洞，该漏洞可能导致软件崩溃、修改内存并能够远程执行。&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt; 6.1.34 更新修复了五个 CVE。受 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.14 影响的虚拟机宿主机和来宾机修复程序也通过此更新修复。但是，Tumbleweed 用户在快照中收到了 Linux 内核版本是 5.17.5。PDF 渲染库 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 更新至 22.05.0 版本，对代码进行了改进，并添加了 TSV 模式，这是一种像编辑文件一样编辑表格的模式。由于 &lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 2.3.6 更新和 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GnuPG&lt;/a&gt; 将分离签名速度和 AES256.OCB 加密速度提高了一倍，加密和签名数据和通信的速度提高了五倍。快照中的其他更新包括 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 42.1、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.10、&lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.5.3、&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.1 和 &lt;a href=&quot;https://github.com/Z3Prover/z3&quot;&gt;z3&lt;/a&gt; 4.8.17。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 的第 100 个版本在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/B76RSMLTI7TJ62HBEM6S2DH3NC4ZDE5L/&quot;&gt;20220506&lt;/a&gt; 中发布。新版本引入了画中画，支持使用 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/WebVTT_API&quot;&gt;WebVTT&lt;/a&gt; 格式的网站上的视频字幕。Firefox 拼写检查现在检查多种语言的拼写。&lt;a href=&quot;https://www.clamav.net/&quot;&gt;clamav&lt;/a&gt; 0.103.6 的更新修复了 &lt;a href=&quot;https://www.adobe.com/creativecloud/file-types/image/raster/tiff-file.html&quot;&gt;TIFF&lt;/a&gt; 文件解析器中可能存在的无限循环漏洞的 CVE 和 HTML 文件解析器中可能存在的内存泄漏的另一个 CVE。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户将在快照中收到 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.24.5/&quot;&gt;Plasma 5.24.5&lt;/a&gt; 的更新。更新后的 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 提高了与 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 后端不同源集成的稳定性。此更新还修复了使用 &lt;a href=&quot;https://userbase.kde.org/KWin&quot;&gt;KWin&lt;/a&gt; 解锁 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 会话的问题。3D 图形驱动程序 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 的更新修复了 22.0.3 版本中的大部分主要驱动程序，并添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 架构支持。&lt;a href=&quot;https://gitlab.com/openconnect&quot;&gt;openconnect&lt;/a&gt; 8.20 的更新增加了对 &lt;a href=&quot;https://arraynetworks.com/ssl-vpn/&quot;&gt;Array Networks SSL VPN&lt;/a&gt; 的支持。&lt;a href=&quot;https://www.openexr.com/&quot;&gt;openexr&lt;/a&gt; 软件包，是电影行业的专业级图像存储格式，现已更新到 3.1.5 版本；它更新了持续集成工作流矩阵并修复了其中一个 Linux 发行版的构建失败。快照中要更新的其他软件包包括字体渲染库 &lt;a href=&quot;https://freetype.org/&quot;&gt;freetype2&lt;/a&gt; 2.12.1、&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.3.3.2、&lt;a href=&quot;https://re2c.org/&quot;&gt;re2c&lt;/a&gt; 3.0 和缓存 DNS 解析器 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/server/unbound.html&quot;&gt;unbound&lt;/a&gt; 1.15.0。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/05/13/gcc-12-is-coming/&quot;&gt;GCC 12 Becoming Default Compiler in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
