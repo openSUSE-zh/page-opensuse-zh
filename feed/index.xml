@@ -7,6 +7,79 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/13/openSUSE-%E4%B8%BA-Nim-%E8%AF%AD%E8%A8%80%E6%8F%90%E4%BE%9B%E4%B8%80%E6%B5%81%E7%9A%84%E6%94%AF%E6%8C%81.html</guid>
+      <title>openSUSE 为 Nim 语言提供一流的支持</title>
+      <pubDate>Wed, 13 Jul 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/13/openSUSE-%E4%B8%BA-Nim-%E8%AF%AD%E8%A8%80%E6%8F%90%E4%BE%9B%E4%B8%80%E6%B5%81%E7%9A%84%E6%94%AF%E6%8C%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 与其他开源项目 Arch Linux 一起为 Nim 语言提供最新的软件包，openSUSE 现在拥有一流的静态类型的命令式编程语言（Nim）支持 Nim 语言为程序员提供了运行时效率（runtime efficiency），并结合了 Python、Ada 和 Modula 等成熟语言的成功概念。 “这是真正的不依赖操作系统也可运行的软件，但如果您需要操作系统，请选择像 SUSE 一样提供一流 Nim 支持的系统。”当被问及 openSUSE 从现在开始支持最新的 Nim 时，Nim 编程语言创建者 Andreas Rumpf 说道。 Rumpf 早在 2005 年就创造了 Nim，最近出版的由他编写的 Mastering Nim 一书涵盖了这种新兴编程语言的各个方面。 现已有使用 openSUSE 为 x86-64、i586、ppc64le 和 ARM64 架构编译构建的 Nim 包。 “我们很高兴拥有第一个宣布对 Nim 提供一流支持的 Linux 发行版，”Nim...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 与其他开源项目 &lt;a href=&quot;https://archlinux.org/&quot;&gt;Arch Linux&lt;/a&gt; 一起为 &lt;a href=&quot;https://nim-lang.org/&quot;&gt;Nim 语言&lt;/a&gt;提供最新的软件包，openSUSE 现在拥有一流的静态类型的命令式编程语言（Nim）支持&lt;/p&gt;
+
+&lt;p&gt;Nim 语言为程序员提供了运行时效率（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runtime efficiency&lt;/code&gt;），并结合了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt;、&lt;a href=&quot;https://www.adaic.org/&quot;&gt;Ada&lt;/a&gt; 和 &lt;a href=&quot;http://www.modula3.org/&quot;&gt;Modula&lt;/a&gt; 等成熟语言的成功概念。&lt;/p&gt;
+
+&lt;p&gt;“这是真正的不依赖操作系统也可运行的软件，但如果您需要操作系统，请选择像 SUSE 一样提供一流 Nim 支持的系统。”当被问及 openSUSE 从现在开始支持最新的 Nim 时，Nim 编程语言创建者 Andreas Rumpf 说道。&lt;/p&gt;
+
+&lt;p&gt;Rumpf 早在 2005 年就创造了 Nim，最近出版的由他编写的 &lt;a href=&quot;https://nim-lang.org/blog/2022/06/29/mastering-nim.html&quot;&gt;Mastering Nim&lt;/a&gt; 一书涵盖了这种新兴编程语言的各个方面。&lt;/p&gt;
+
+&lt;p&gt;现已有使用 openSUSE 为 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Pentium_(original)&quot;&gt;i586&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Ppc64&quot;&gt;ppc64le&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;ARM64&lt;/a&gt; 架构编译构建的 Nim 包。&lt;/p&gt;
+
+&lt;p&gt;“我们很高兴拥有第一个宣布对 Nim 提供一流支持的 Linux 发行版，”Nim 核心开发人员和 &lt;a href=&quot;https://book.picheta.me/&quot;&gt;Nim in Action&lt;/a&gt; 一书的作者 &lt;a href=&quot;https://picheta.me/&quot;&gt;Dominik Picheta&lt;/a&gt; 说。“希望这为其他发行版提供良好支持提供先例。”&lt;/p&gt;
+
+&lt;p&gt;除了宏系统和运行时效率之外，Nim 的优势之一是它与其他语言类似，涵盖了大多数标准功能的标准库；这些标准库包括字符串处理和格式化、异步代码开发、网络甚至高级语言功能（如编译器本身），以及 NimScript，它是 Nim 的一个子集，专门为脚本构建，可以在运行时嵌入和执行。&lt;/p&gt;
+
+&lt;p&gt;此外，Nim 附带了许多默认包含的工具。编译器允许以 C、C++ 和 Javascript 作为其后端。有一些工具可用于轻松开发：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;nim 编译器&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/nimsuggest&quot;&gt;nimsuggest&lt;/a&gt;（支持语言建议、自动完成、错误/问题检测等）&lt;/li&gt;
+  &lt;li&gt;nimgrep（一个强大的，内置 Nim 支持的 grep 替代方案，用以查找符号和检查 Nim 代码库）。&lt;/li&gt;
+  &lt;li&gt;nim-gdb 包装器（对 Nim 类型的 gdb 支持）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/nimble#readme&quot;&gt;nimble&lt;/a&gt;（包管理器）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;openSUSE 构建有自动化测试。openSUSE 的 Nim 的普遍可用性包括将特定架构的损坏测试与安全补丁的向后移植和同步至上游。&lt;/p&gt;
+
+&lt;p&gt;Nim 有一个非常有趣且充满活力的软件包生态系统，可以在许多方面轻松开发；从 Web 开发到系统编程，从科学到数据处理等方面，这里仅举几例。你可以使用 &lt;a href=&quot;https://github.com/mratsim/weave&quot;&gt;Weave&lt;/a&gt; 开发极其快速和并行化的应用程序，使用 &lt;a href=&quot;https://github.com/karaxnim/karax&quot;&gt;Karax&lt;/a&gt; 或 &lt;a href=&quot;https://github.com/dom96/jester&quot;&gt;Jester&lt;/a&gt; 完全在 Nim 中开发前端和后端 Web 应用程序，并使用 &lt;a href=&quot;https://github.com/mratsim/Arraymancer&quot;&gt;ArrayMancer&lt;/a&gt; 执行大量基于计算的数学运算。在游戏的方面，Nim 可用于通过使用 &lt;a href=&quot;https://github.com/pragmagic/godot-nim&quot;&gt;Godot-Nim&lt;/a&gt; 作为桥梁来开发高性能 3D 可视化和使用 &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; 进行游戏开发。&lt;/p&gt;
+
+&lt;p&gt;即使开发人员只想支持另一种语言，Nim 也允许丰富的&lt;a href=&quot;https://en.wikipedia.org/wiki/Foreign_function_interface&quot;&gt;外部函数接口&lt;/a&gt; (FFI) 技术生态系统与其他语言进行交互。除了与 &lt;a href=&quot;https://nim-lang.org/docs/manual.html#implementation-specific-pragmas-importcpp-pragma&quot;&gt;C++ 代码库&lt;/a&gt;和&lt;a href=&quot;https://nim-lang.org/docs/manual.html#foreign-function-interface-importc-pragma&quot;&gt; C 交互的原生支持&lt;/a&gt;外，还可以使用 Nim 通过 &lt;a href=&quot;https://github.com/yglukhov/nimpy&quot;&gt;NimPy&lt;/a&gt; 轻松构建 Python 模块。&lt;/p&gt;
+
+&lt;p&gt;开发人员可以在 https://play.nim-lang.org/ 上试用 Nim，并且可以在&lt;a href=&quot;https://learnxinyminutes.com/docs/nim/&quot;&gt;五分钟内了解它&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Nim 的一个示例：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import strformat
+
+type
+  Person = object
+    name*: string # Field is exported using `*`.
+    age: Natural  # Natural type ensures the age is positive.
+
+var people = [
+  Person(name: &quot;John&quot;, age: 45),
+  Person(name: &quot;Kate&quot;, age: 30)
+]
+
+for person in people:
+  # Type-safe string interpolation.
+  echo(fmt&quot;{person.name} is {person.age} years old&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;有用的信息链接：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/Nim&quot;&gt;开发仓库&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/docs/nimc.html&quot;&gt;编译期用户指南&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/documentation.html&quot;&gt;文档&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/docs/manual.html&quot;&gt;手册&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/14/os-reaches-first-class-support-for-nim/&quot;&gt;openSUSE Reaches First-Class Support for Nim Language&lt;/a&gt;，作者：David Anes and Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/07/Vim-Plasma-%E5%92%8C-PipeWire-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Vim、Plasma 和 PipeWire 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 07 Jul 2022 18:30:00 -0500</pubDate>
@@ -429,34 +502,6 @@ openSUSE 项目目前有一个 Telegram 营销群组和一个 #marketing discord
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/07/os-brazil-community-leap-release/&quot;&gt;openSUSE’s Brazilian Community to Celebrate Leap Release&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/07/openSUSE-Leap-15.4-%E5%B7%B2%E7%BB%8F%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83.html</guid>
-      <title>openSUSE Leap 15.4 已经正式发布</title>
-      <pubDate>Tue, 07 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/07/openSUSE-Leap-15.4-%E5%B7%B2%E7%BB%8F%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>我们很高兴地宣布：openSUSE Leap 15.4 作为 Leap 15 的一个小版本更新，现已正式发布。有关 Leap 15.4 的发行公告详见上期新闻。
-
-你可以通过镜像站下载最新的 Leap 15.4，但请注意，国内的镜像站可能需要几天的时间才能同步 Leap 15.4。你可以前往 get.opensuse.org 下载最新的 ISO 镜像文件，然后参考 SDB:制作安装 U 盘和 SDB:DVD 安装方式将焕然一新的大蜥蜴安装到你的设备之中。虽然某些细节可能和维基文档描述的略有不同，但整体的操作逻辑是不变的。在安装完成以后，我们希望你能仔细读读 SDB:快速配置指南，以完成对 Leap 初次启动后的系统配置。
-
-哦，别忘了，openSUSE 中文社区也正在筹备线上发行派对，你可以加入这个帖子，进行讨论。
-
-如果你遇到了问题，你可以通过 openSUSE:交流渠道联系我们。如果你遇到了 BUG，请前往 Bugzilla 提交错误报告。
-
-openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时加入。😚
-</description>
-      <content:encoded>&lt;p&gt;我们很高兴地宣布：openSUSE Leap 15.4 作为 Leap 15 的一个小版本更新，现已正式发布。有关 Leap 15.4 的发行公告详见&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/28/openSUSE-Leap-15.4-%E5%8F%91%E8%A1%8C%E5%85%AC%E5%91%8A.html&quot;&gt;上期新闻&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;你可以通过&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E9%95%9C%E5%83%8F&quot;&gt;镜像站&lt;/a&gt;下载最新的 Leap 15.4，但请注意，国内的镜像站可能需要几天的时间才能同步 Leap 15.4。你可以前往 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;get.opensuse.org&lt;/a&gt; 下载最新的 ISO 镜像文件，然后参考 &lt;a href=&quot;https://zh.opensuse.org/SDB:%E5%88%B6%E4%BD%9C%E5%AE%89%E8%A3%85_U_%E7%9B%98&quot;&gt;SDB:制作安装 U 盘&lt;/a&gt;和 &lt;a href=&quot;https://zh.opensuse.org/SDB:DVD_%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F&quot;&gt;SDB:DVD 安装方式&lt;/a&gt;将焕然一新的大蜥蜴安装到你的设备之中。虽然某些细节可能和维基文档描述的略有不同，但整体的操作逻辑是不变的。在安装完成以后，我们希望你能仔细读读 &lt;a href=&quot;https://zh.opensuse.org/SDB:%E5%BF%AB%E9%80%9F%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97&quot;&gt;SDB:快速配置指南&lt;/a&gt;，以完成对 Leap 初次启动后的系统配置。&lt;/p&gt;
-
-&lt;p&gt;哦，别忘了，openSUSE 中文社区也正在筹备线上发行派对，你可以加入这个&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15049&quot;&gt;帖子&lt;/a&gt;，进行讨论。&lt;/p&gt;
-
-&lt;p&gt;如果你遇到了问题，你可以通过 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E4%BA%A4%E6%B5%81%E6%B8%A0%E9%81%93#.E5.85.B3.E4.BA.8E.E7.AE.80.E4.BD.93.E4.B8.AD.E6.96.87&quot;&gt;openSUSE:交流渠道&lt;/a&gt;联系我们。如果你遇到了 BUG，请前往 &lt;a href=&quot;https://bugzilla.opensuse.org/index.cgi&quot;&gt;Bugzilla&lt;/a&gt; 提交错误报告。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 社区是一个友好包容的自由与开源社区，欢迎你随时加入。😚&lt;/p&gt;
 </content:encoded>
     </item>
 
