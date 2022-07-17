@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap 15.4 进入 Beta 构建阶段
 image: /assets/posts/2022-03/lm.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Tumbleweed
 - 翻译作品

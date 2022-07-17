@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap 15.4 发行反馈调查
 image: /assets/posts/2022-06/JustLeap.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Tumbleweed
 - 翻译作品

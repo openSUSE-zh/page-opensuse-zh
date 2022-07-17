@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE 巴西社区庆祝 Leap 15.4 发布
 image: /assets/posts/2022-06/rp.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Leap
 - 翻译作品

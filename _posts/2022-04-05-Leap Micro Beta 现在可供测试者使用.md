@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: Leap Micro Beta 现在可供测试者使用
 image: /assets/posts/2022-04/lmb.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Leap
 - 翻译作品

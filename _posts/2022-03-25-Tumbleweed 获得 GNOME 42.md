@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: Tumbleweed 获得 gnome 42
 image: /assets/posts/2022-03/gnomed.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Tumbleweed
 - 翻译作品
