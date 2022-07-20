@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</guid>
+      <title>MicroOS 桌面用于帮助 ALP 收集反馈</title>
+      <pubDate>Tue, 19 Jul 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>来自于 openSUSE 社区，致力于即将发布的自适应 Linux 平台（ALP）的参与者鼓励人们尝试使用 openSUSE MicroOS Desktop，以获得用户对其适用性的看法。 我们鼓励用户通过安装 MicroOS Desktop 并在笔记本电脑或工作站上使用一周左右来试用它。通过这样做，开发者可通过用户的反馈为 ALP 的发展制定一个参考框架；社区希望获得用户对 ALP 的可用性、如何适合用户工作流程等方面的反馈。社区希望看到对用户有用的批评和评价。我们鼓励人们向 ALP-community-wg 邮件列表发送反馈。 临时使用 MicroOS Desktop 将帮助开发者评估如何推进 ALP 的概念验证（PoC）。 目前 MicroOS Desktop 有 GNOME 和 KDE Plasma 两种可选桌面环境。 ALP 的概念验证目前没有图形桌面要求，但预计在概念验证完成后不久会有一个新快照发布。 本次行动有几个工作组（WG）参与其中，工程师的目标是在今年秋季发布 ALP 的初始概念验证版本。如果 ALP 的概念验证版本在 9 月 30 日和 10 月 1 日的 openSUSE.Asia 峰会之前发布，那么我们会计划在...</description>
+      <content:encoded>&lt;p&gt;来自于 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区，致力于即将发布的自适应 Linux 平台（ALP）的参与者鼓励人们尝试使用 openSUSE &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; Desktop，以获得用户对其适用性的看法。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励用户通过安装 MicroOS Desktop 并在笔记本电脑或工作站上使用一周左右来试用它。通过这样做，开发者可通过用户的反馈为 ALP 的发展制定一个参考框架；社区希望获得用户对 ALP 的可用性、如何适合用户工作流程等方面的反馈。社区希望看到对用户有用的批评和评价。我们鼓励人们向 &lt;a href=&quot;https://lists.opensuse.org/archives/list/alp-community-wg@lists.opensuse.org/&quot;&gt;ALP-community-wg 邮件列表&lt;/a&gt;发送反馈。&lt;/p&gt;
+
+&lt;p&gt;临时使用 MicroOS Desktop 将帮助开发者评估如何推进 ALP 的概念验证（PoC）。&lt;/p&gt;
+
+&lt;p&gt;目前 MicroOS Desktop 有 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 和 KDE &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 两种可选桌面环境。&lt;/p&gt;
+
+&lt;p&gt;ALP 的概念验证目前没有图形桌面要求，但预计在概念验证完成后不久会有一个新快照发布。&lt;/p&gt;
+
+&lt;p&gt;本次行动有几个&lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups&quot;&gt;工作组（WG）&lt;/a&gt;参与其中，工程师的目标是在今年秋季发布 ALP 的初始概念验证版本。如果 ALP 的概念验证版本在 9 月 30 日和 10 月 1 日的 openSUSE.Asia 峰会之前发布，那么我们会计划在 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAS22&quot;&gt;2022 年的 openSUSE.Asia 峰会&lt;/a&gt;期间举办 ALP 研讨会和安装盛会（作为一个混合的线下/线上活动）。&lt;/p&gt;
+
+&lt;p&gt;社区成员和利益相关者继续讨论与 flatpak 有关的问题，以及它们将如何与 RPM 和其他软件包一起融入更广泛的 ALP 生态系统。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/19/microos-desktop-use-to-help-with-alp-feedback/&quot;&gt;MicroOS Desktop Use to Help with ALP Feedback&lt;/a&gt;，作者：Emily Gonyer and Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2022/07/16/Retbleed.html</guid>
       <title>内核受到 Retbleed 漏洞影响</title>
       <pubDate>Sat, 16 Jul 2022 23:30:00 -0500</pubDate>
@@ -466,42 +493,6 @@ openSUSE 中文论坛相关帖子详见此处。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/16/ALP-Quality-Engineering-update/&quot;&gt;An update from ALP Quality Engineering&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</guid>
-      <title>社区的目标是发展交流和营销团队</title>
-      <pubDate>Tue, 14 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>近段时间以来，openSUSE 社区一直在定期举行社区会议，最近一次会议的与会者表达了发展交流和营销团队的愿望。
-
-openSUSE 项目目前有一个 Telegram 营销群组和一个 #marketing discord 频道。
-
-在征集有兴趣帮助营销、沟通和规划的人的同时，几个工作组正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。
-
-有一些直接的方面可以由团队来解决，比如彻底审查前几年的交流和营销工作计划的基本内容，以及如何调整或改进这些计划。
-
-周四的社区会议计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 Telegram 营销小组的 @profetik777。
-
-
-
-原文：Community aims to grow communication, marketing team，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;近段时间以来，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区一直在定期举行&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;，最近一次会议的与会者表达了发展交流和营销团队的愿望。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目目前有一个 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销群组&lt;/a&gt;和一个 #marketing &lt;a href=&quot;https://discord.com/invite/opensuse&quot;&gt;discord 频道&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;在征集有兴趣帮助营销、沟通和规划的人的同时，几个&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/05/31/%E6%9D%A5%E8%87%AA-ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html&quot;&gt;工作组&lt;/a&gt;正专注于组建一个自适应 Linux 平台；该平台还没有正式确定（未来可能会更改）的社区平台的名称。&lt;/p&gt;
-
-&lt;p&gt;有一些直接的方面可以由团队来解决，比如彻底审查前几年的&lt;a href=&quot;https://progress.opensuse.org/projects/opensuse-leap-15-4/issues/gantt&quot;&gt;交流和营销工作计划&lt;/a&gt;的基本内容，以及如何调整或改进这些计划。&lt;/p&gt;
-
-&lt;p&gt;周四的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;计划在每周更新中安排定期营销环节。有兴趣加入该小组的人应该联系 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 营销小组&lt;/a&gt;的 @profetik777。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/15/community-aims-to-grow-comms-marketing-team/&quot;&gt;Community aims to grow communication, marketing team&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
