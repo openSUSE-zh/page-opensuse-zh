@@ -324,6 +324,37 @@ for person in people:
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/30/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</guid>
+      <title>社区工作组讨论下一个版本</title>
+      <pubDate>Thu, 30 Jun 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/30/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 的成员有一位访问者参加了最近的工作组会议，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。 SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。 SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。 其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。 “如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。” 某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 Hack Week 计划进行一些工作，以提供有关工作负载构建的文档。 已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于...</description>
+      <content:encoded>&lt;p&gt;openSUSE 的成员有一位访问者参加了&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220621&quot;&gt;最近的工作组会议&lt;/a&gt;，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。&lt;/p&gt;
+
+&lt;p&gt;SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。&lt;/p&gt;
+
+&lt;p&gt;SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。&lt;/p&gt;
+
+&lt;p&gt;其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。&lt;/p&gt;
+
+&lt;p&gt;“如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。”&lt;/p&gt;
+
+&lt;p&gt;某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 计划进行一些工作，以提供有关工作负载构建的文档。&lt;/p&gt;
+
+&lt;p&gt;已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于 openSUSE，因为人们并没有被阻止编写可升级的脚本。&lt;/p&gt;
+
+&lt;p&gt;ALP 社区版的工作计划在概念验证之后进行，但社区目前正在积极参与开发概念验证。访问者提出的一些观点是，最初的构建将以英特尔为目标，然后再扩展到其他架构。&lt;/p&gt;
+
+&lt;p&gt;该社区平台在其与 SUSE 的开发周期中被称为 openSUSE ALP，以简明扼要地规划下一个社区版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/20/community-wg-discusses-next-edition/&quot;&gt;Community Work Group Discusses Next Edition&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/29/OpenSSL-Squid-%E5%92%8C-Dracut-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>OpenSSL、Squid 和 Dracut 在 Tumbleweed 中更新</title>
       <pubDate>Wed, 29 Jun 2022 18:30:00 -0500</pubDate>
@@ -466,33 +497,6 @@ openSUSE 中文论坛相关帖子详见此处。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/17/ALP-Community-update/&quot;&gt;Community work group update post oSC22&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/15/%E6%9D%A5%E8%87%AA-ALP-%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</guid>
-      <title>来自 ALP 质量工程工作组的动态</title>
-      <pubDate>Wed, 15 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/15/%E6%9D%A5%E8%87%AA-ALP-%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>以开放和透明的方式构建我们的产品使我们能够重新思考我们的测试方式。 我们 ALP （自适应 Linux 平台）质量工程工作组的 Jose Lausuch 受邀参加社区工作组每周会议，讨论 ALP 质量工程的当前计划。 Jose 提到质量工程工作组希望开始使用现有的 MicroOS 测试套件测试现有的 ALP 镜像。 这个工作在 poo#112409 中进行协调。 让我们从已有的内容开始，在 openqa.opensuse.org 中针对 ALP 运行它。我们最初会涵盖 x86_64 和 aarch64 的 KVM 和自安装映像。VMware 和可能的其他平台支持会稍后出现。 一旦我们有了概念验证，其他质量工程专家将进入特定的测试领域（虚拟化、容器、公共云、yast）并为 ALP 做出贡献，同时回馈上游，在本例中的上游是 MicroOS。 我们希望这种新模式能够提高社区对质量工程领域作贡献的兴趣，因为这一直是一个挑战。 Jose 已经向 o3 提交了初始 ALP 作业组，并开始向上游测试存储库添加一些代码。 原文：An update from ALP Quality Engineering，作者：Lubos Kocman...</description>
-      <content:encoded>&lt;p&gt;以开放和透明的方式构建我们的产品使我们能够重新思考我们的测试方式。&lt;/p&gt;
-
-&lt;p&gt;我们 ALP （自适应 Linux 平台）质量工程工作组的 Jose Lausuch 受邀参加社区工作组&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220614&quot;&gt;每周会议&lt;/a&gt;，讨论 ALP 质量工程的当前计划。&lt;/p&gt;
-
-&lt;p&gt;Jose 提到质量工程工作组希望开始使用现有的 MicroOS 测试套件测试现有的 ALP &lt;a href=&quot;https://download.opensuse.org/repositories/devel:/LEO/images/&quot;&gt;镜像&lt;/a&gt;。 这个工作在 &lt;a href=&quot;https://progress.opensuse.org/issues/112409&quot;&gt;poo#112409&lt;/a&gt; 中进行协调。&lt;/p&gt;
-
-&lt;p&gt;让我们从已有的内容开始，在 openqa.opensuse.org 中针对 ALP 运行它。我们最初会涵盖 x86_64 和 aarch64 的 KVM 和自安装映像。VMware 和可能的其他平台支持会稍后出现。&lt;/p&gt;
-
-&lt;p&gt;一旦我们有了概念验证，其他质量工程专家将进入特定的测试领域（虚拟化、容器、公共云、yast）并为 ALP 做出贡献，同时回馈上游，在本例中的上游是 MicroOS。&lt;/p&gt;
-
-&lt;p&gt;我们希望这种新模式能够提高社区对质量工程领域作贡献的兴趣，因为这一直是一个挑战。&lt;/p&gt;
-
-&lt;p&gt;Jose 已经向 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;o3&lt;/a&gt; 提交了初始 &lt;a href=&quot;https://github.com/os-autoinst/opensuse-jobgroups/pull/160&quot;&gt;ALP 作业组&lt;/a&gt;，并开始向&lt;a href=&quot;https://github.com/os-autoinst/os-autoinst-distri-opensuse/pull/15098&quot;&gt;上游测试存储库&lt;/a&gt;添加一些代码。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/16/ALP-Quality-Engineering-update/&quot;&gt;An update from ALP Quality Engineering&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
