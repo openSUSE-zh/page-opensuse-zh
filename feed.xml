@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</guid>
+      <title>社区准备庆祝 openSUSE 生日</title>
+      <pubDate>Tue, 26 Jul 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目正准备在 8 月 9 日庆祝其 17 岁生日。 届时访问 openSUSE 虚拟酒吧的与会者可参加一场由 openSUSE 项目举办，长达 24 小时的社交聚会。 该虚拟酒吧通常被称为 openSUSE Bar 或 /bar，openSUSE 的 Jitsi 实例已成为常客和新手的常见虚拟聚会场所。 我们也欢迎喜欢或使用 openSUSE 发行版和工具的人在庆祝活动期间访问、闲逛和与其他与会者聊天。 这个特别的 24 小时庆祝活动会一直持续，并将有音乐放送和其他社交活动，例如游玩 openSUSE skribble.io 的特别版本；这是一个人们绘制和猜测 openSUSE 和开源主题主题的游戏。 你可以在 https://meet.opensuse.org/bar 找到 openSUSE Bar。 openSUSE 项目于 2005 年 8 月 9 日成立。openSUSE 项目成员在 8 月...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目正准备在 8 月 9 日庆祝其 17 岁生日。&lt;/p&gt;
+
+&lt;p&gt;届时访问 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 虚拟酒吧&lt;/a&gt;的与会者可参加一场由 openSUSE 项目举办，长达 24 小时的社交聚会。&lt;/p&gt;
+
+&lt;p&gt;该虚拟酒吧通常被称为 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE Bar&lt;/a&gt; 或 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;/bar&lt;/a&gt;，openSUSE 的 &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; 实例已成为常客和新手的常见虚拟聚会场所。&lt;/p&gt;
+
+&lt;p&gt;我们也欢迎喜欢或使用 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 发行版&lt;/a&gt;和工具的人在庆祝活动期间访问、闲逛和与其他与会者聊天。&lt;/p&gt;
+
+&lt;p&gt;这个特别的 24 小时庆祝活动会一直持续，并将有音乐放送和其他社交活动，例如游玩 openSUSE &lt;a href=&quot;https://skribble.io/&quot;&gt;skribble.io&lt;/a&gt; 的特别版本；这是一个人们绘制和猜测 openSUSE 和开源主题主题的游戏。&lt;/p&gt;
+
+&lt;p&gt;你可以在 https://meet.opensuse.org/bar 找到 openSUSE Bar。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目于 2005 年 8 月 9 日成立。openSUSE 项目成员在 8 月 3 日发送了一封关于推出基于社区的 Linux 发行版的&lt;a href=&quot;https://lists.opensuse.org/archives/list/users@lists.opensuse.org/thread/T3SJWQDKZS635EHR5SX2AY3Z3LZAVNX5/&quot;&gt;电子邮件&lt;/a&gt;，并在 2005 年 8 月 8 日至 11 日在旧金山的 LinuxWorld 上宣布了这一消息。宣布发布的电子邮件讨论了在 SuSE 9.3 升级到 KDE 3.4.2。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/26/community-to-celebrate-os-birthday/&quot;&gt;Community to celebrate openSUSE Birthday&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</guid>
       <title>MicroOS 桌面用于帮助 ALP 收集反馈</title>
       <pubDate>Tue, 19 Jul 2022 18:30:00 -0500</pubDate>
@@ -470,33 +497,6 @@ openSUSE 中文论坛相关帖子详见此处。
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/22/hw-starts-hacking-nw/&quot;&gt;Hack Week starts Hacking for Humanity next week&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/16/%E8%87%AA-osC2022-%E5%90%8E%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF.html</guid>
-      <title>自 osC2022 后社区工作组的最新消息</title>
-      <pubDate>Thu, 16 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/16/%E8%87%AA-osC2022-%E5%90%8E%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E7%BB%84%E7%9A%84%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>自适应 Linux 平台 (ALP) 的社区工作组 (CWG) 想向你介绍自 openSUSE Conference 2022 以来发生的最新情况。请确保查看与 ALP 指导委员会相关的小组讨论以及 osC22 的其他公开讨论。 首先，我们有一个新的官方沟通渠道！我们正在使用名为 “openSUSE ALP” 的 Matrix 交流群组，同时该群组与 https://discord.gg/opensuse 和 ircs://libera.chat/#opensuse-alp 完成了桥接。我们已经开始为你服务了！这是获取更新动态的最佳方式。 我们已经重新审视了我们希望传达 ALP 最新信息的方式。我们的想法是，从为所有工作组提供的摘要报告转变为更容易理解和更令人兴奋的阅读方式。 我们邀请了 SUSE 新任命的工程总监 Marco Varlese 参加 ALP CWG 的每周例会，我们还有好消息要分享！ 下周二，即 6 月 21 日，Marco 将与 SUSE 社区团队的 Robert Sirchia 合作，在 suse.com 上撰写一篇关于自适应...</description>
-      <content:encoded>&lt;p&gt;自适应 Linux 平台 (ALP) 的&lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups/Community&quot;&gt;社区工作组&lt;/a&gt; (CWG) 想向你介绍自 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;openSUSE Conference 2022&lt;/a&gt; 以来发生的最新情况。请确保查看与 ALP 指导委员会相关的小组讨论以及 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC22&quot;&gt;osC22&lt;/a&gt; 的其他公开&lt;a href=&quot;https://www.youtube.com/playlist?list=PL_AMhvchzBae22JG6CeBsSpjdrgMaeyN7&quot;&gt;讨论&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;首先，我们有一个新的官方沟通渠道！我们正在使用名为 “openSUSE ALP” 的 &lt;a href=&quot;https://chat.opensuse.org/&quot;&gt;Matrix&lt;/a&gt; 交流群组，同时该群组与 https://discord.gg/opensuse 和 ircs://libera.chat/#opensuse-alp 完成了桥接。我们已经开始为你服务了！这是获取更新动态的最佳方式。&lt;/p&gt;
-
-&lt;p&gt;我们已经重新审视了我们希望&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/14/%E7%A4%BE%E5%8C%BA%E7%9A%84%E7%9B%AE%E6%A0%87%E6%98%AF%E5%8F%91%E5%B1%95%E4%BA%A4%E6%B5%81%E5%92%8C%E8%90%A5%E9%94%80%E5%9B%A2%E9%98%9F.html&quot;&gt;传达&lt;/a&gt; ALP 最新信息的方式。我们的想法是，从为所有工作组提供的摘要报告转变为更容易理解和更令人兴奋的阅读方式。&lt;/p&gt;
-
-&lt;p&gt;我们邀请了 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 新任命的工程总监 Marco Varlese 参加 ALP CWG 的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220607&quot;&gt;每周例会&lt;/a&gt;，我们还有好消息要分享！&lt;/p&gt;
-
-&lt;p&gt;下周二，即 6 月 21 日，Marco 将与 SUSE 社区团队的 Robert Sirchia 合作，在 &lt;a href=&quot;https://www.suse.com/&quot;&gt;suse.com&lt;/a&gt; 上撰写一篇关于自适应 Linux 平台战略和愿景的文章。然后，我们想采访各个工作组，并以讲故事的方式分享一些最新情况，并更好地交流他们如何融入 Marco 分享的宏大设想。Dan Čermák 将按照对 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的影响，整理出一个工作组的分类清单。这将确保采访尽可能地切题。&lt;/p&gt;
-
-&lt;p&gt;本周我们进行了&lt;a href=&quot;https://news.opensuse.org/2022/06/16/ALP-Quality-Engineering-update/&quot;&gt;质量工程&lt;/a&gt;。下周二，我们邀请了 ALP 指导委员会的 Jiří Šrain 和 Frederic Crozat，我们想与他们讨论构建 ALP 的社区部分，本质也就是 ALP 的 Package Hub。我们关注的其余项目是 Fedocal 和集中式文档的测试实例。&lt;/p&gt;
-
-&lt;p&gt;该社区平台在其与 SUSE 的开发周期中被称为 openSUSE ALP，以简明扼要地规划下一个社区版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/17/ALP-Community-update/&quot;&gt;Community work group update post oSC22&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
