@@ -7,10 +7,10 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</guid>
       <title>社区准备庆祝 openSUSE 生日</title>
       <pubDate>Tue, 26 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE 项目正准备在 8 月 9 日庆祝其 17 岁生日。 届时访问 openSUSE 虚拟酒吧的与会者可参加一场由 openSUSE 项目举办，长达 24 小时的社交聚会。 该虚拟酒吧通常被称为 openSUSE Bar 或 /bar，openSUSE 的 Jitsi 实例已成为常客和新手的常见虚拟聚会场所。 我们也欢迎喜欢或使用 openSUSE 发行版和工具的人在庆祝活动期间访问、闲逛和与其他与会者聊天。 这个特别的 24 小时庆祝活动会一直持续，并将有音乐放送和其他社交活动，例如游玩 openSUSE skribble.io 的特别版本；这是一个人们绘制和猜测 openSUSE 和开源主题主题的游戏。 你可以在 https://meet.opensuse.org/bar 找到 openSUSE Bar。 openSUSE 项目于 2005 年 8 月 9 日成立。openSUSE 项目成员在 8 月...</description>
       <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目正准备在 8 月 9 日庆祝其 17 岁生日。&lt;/p&gt;
@@ -34,10 +34,70 @@
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</guid>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/MicroOS-%E5%AE%89%E8%A3%85%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%92%8C%E8%AE%A1%E5%88%92%E4%B8%AD%E7%9A%84%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</guid>
+      <title>MicroOS 安装研讨会，计划中的反馈会议</title>
+      <pubDate>Tue, 26 Jul 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/MicroOS-%E5%AE%89%E8%A3%85%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%92%8C%E8%AE%A1%E5%88%92%E4%B8%AD%E7%9A%84%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>为了获得更多用户对自适应 Linux 平台 (ALP) 开发的见解和看法，openSUSE 社区工作组的成员将在 8 月 2 日举办 MicroOS 桌面安装研讨会。 在接下来几周的社区工作组和社区会议期间，社区将举行反馈会议。 我们鼓励用户在 8 月 1 日的这一周安装 MicroOS Desktop。在 8 月 2 日 14:30 UTC 的 ALP 工作组会议期间，我们将为需要一点帮助的人提供简短的安装演示。 在接下来的两周会议中，将在 8 月 16 日定期举行的工作组会议上进行后续工作，并进行最后的清晰演示。 我们鼓励用户在电子表格上记录他们的使用、安装和体验如何进行，同时也将其用作有关尝试的提示和示例的参考。 我们呼吁人们测试 MicroOS Desktop spin 的行动已经收到很多反馈，例如需要在 flatpak 用户配置文件（位于 ~/.var/app）上提供 Flatpak 的文档以及许多其他关键点，这也是尝试 MicroOS 的全部意义，以便为 ALP 获得一些宝贵经验。 在管理期望时，测试...</description>
+      <content:encoded>&lt;p&gt;为了获得更多用户对自适应 Linux 平台 (ALP) 开发的见解和看法，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区工作组的成员将在 8 月 2 日举办 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS 桌面&lt;/a&gt;安装研讨会。&lt;/p&gt;
+
+&lt;p&gt;在接下来几周的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区工作组和社区会议&lt;/a&gt;期间，社区将举行反馈会议。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励用户在 8 月 1 日的这一周安装 MicroOS Desktop。在 8 月 2 日 14:30 UTC 的 ALP 工作组会议期间，我们将为需要一点帮助的人提供简短的安装演示。&lt;/p&gt;
+
+&lt;p&gt;在接下来的两周会议中，将在 8 月 16 日定期举行的工作组会议上进行后续工作，并进行最后的清晰演示。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励用户在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;上记录他们的使用、安装和体验如何进行，同时也将其用作有关尝试的提示和示例的参考。&lt;/p&gt;
+
+&lt;p&gt;我们&lt;a href=&quot;https://news.opensuse.org/2022/07/19/microos-desktop-use-to-help-with-alp-feedback/&quot;&gt;呼吁人们测试 MicroOS Desktop spin &lt;/a&gt;的行动已经收到很多反馈，例如需要在 flatpak 用户配置文件（位于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.var/app&lt;/code&gt;）上提供 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 的文档以及许多其他关键点，这也是尝试 MicroOS 的全部意义，以便为 ALP 获得一些宝贵经验。&lt;/p&gt;
+
+&lt;p&gt;在管理期望时，测试 MicroOS 的人应该意识到它是基于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 的，YaST 是不可用的，并且 MicroOS 的发布经理更希望收到贡献而不是错误报告。 MicroOS 目前支持两种桌面环境。GNOME 目前作为候选版本被支持，而 KDE Plasma 处于 Alpha 阶段。MicroOS Desktop 目前是最接近用户期望的 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 下一代桌面的代表。&lt;/p&gt;
+
+&lt;p&gt;你可在 https://get.opensuse.org/microos/ 下载 MicroOS 桌面 ISO 安装镜像，并在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;上查看说明和记录评论。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/27/microos-install-workshop-feedback-sessions-planned/&quot;&gt;MicroOS Install Workshop, Feedback Sessions Planned&lt;/a&gt;，作者：Emily Gonyer 和 Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/19/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</guid>
+      <title>社区工作组讨论下一个版本</title>
+      <pubDate>Tue, 19 Jul 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/19/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 的成员有一位访问者参加了最近的工作组会议，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。 SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。 SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。 其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。 “如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。” 某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 Hack Week 计划进行一些工作，以提供有关工作负载构建的文档。 已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于...</description>
+      <content:encoded>&lt;p&gt;openSUSE 的成员有一位访问者参加了&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220621&quot;&gt;最近的工作组会议&lt;/a&gt;，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。&lt;/p&gt;
+
+&lt;p&gt;SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。&lt;/p&gt;
+
+&lt;p&gt;SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。&lt;/p&gt;
+
+&lt;p&gt;其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。&lt;/p&gt;
+
+&lt;p&gt;“如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。”&lt;/p&gt;
+
+&lt;p&gt;某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 计划进行一些工作，以提供有关工作负载构建的文档。&lt;/p&gt;
+
+&lt;p&gt;已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于 openSUSE，因为人们并没有被阻止编写可升级的脚本。&lt;/p&gt;
+
+&lt;p&gt;ALP 社区版的工作计划在概念验证之后进行，但社区目前正在积极参与开发概念验证。访问者提出的一些观点是，最初的构建将以英特尔为目标，然后再扩展到其他架构。&lt;/p&gt;
+
+&lt;p&gt;该社区平台在其与 SUSE 的开发周期中被称为 openSUSE ALP，以简明扼要地规划下一个社区版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/20/community-wg-discusses-next-edition/&quot;&gt;Community Work Group Discusses Next Edition&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</guid>
       <title>MicroOS 桌面用于帮助 ALP 收集反馈</title>
       <pubDate>Tue, 19 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</link>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/19/MicroOS-%E6%A1%8C%E9%9D%A2%E7%94%A8%E4%BA%8E%E5%B8%AE%E5%8A%A9-ALP-%E6%94%B6%E9%9B%86%E5%8F%8D%E9%A6%88.html</link>
       <author>Hanjingxue Boling</author>
       <description>来自于 openSUSE 社区，致力于即将发布的自适应 Linux 平台（ALP）的参与者鼓励人们尝试使用 openSUSE MicroOS Desktop，以获得用户对其适用性的看法。 我们鼓励用户通过安装 MicroOS Desktop 并在笔记本电脑或工作站上使用一周左右来试用它。通过这样做，开发者可通过用户的反馈为 ALP 的发展制定一个参考框架；社区希望获得用户对 ALP 的可用性、如何适合用户工作流程等方面的反馈。社区希望看到对用户有用的批评和评价。我们鼓励人们向 ALP-community-wg 邮件列表发送反馈。 临时使用 MicroOS Desktop 将帮助开发者评估如何推进 ALP 的概念验证（PoC）。 目前 MicroOS Desktop 有 GNOME 和 KDE Plasma 两种可选桌面环境。 ALP 的概念验证目前没有图形桌面要求，但预计在概念验证完成后不久会有一个新快照发布。 本次行动有几个工作组（WG）参与其中，工程师的目标是在今年秋季发布 ALP 的初始概念验证版本。如果 ALP 的概念验证版本在 9 月 30 日和 10 月 1 日的 openSUSE.Asia 峰会之前发布，那么我们会计划在...</description>
       <content:encoded>&lt;p&gt;来自于 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区，致力于即将发布的自适应 Linux 平台（ALP）的参与者鼓励人们尝试使用 openSUSE &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; Desktop，以获得用户对其适用性的看法。&lt;/p&gt;
@@ -351,37 +411,6 @@ for person in people:
     </item>
 
     <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/30/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</guid>
-      <title>社区工作组讨论下一个版本</title>
-      <pubDate>Thu, 30 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/30/%E7%A4%BE%E5%8C%BA%E5%B7%A5%E4%BD%9C%E8%80%85%E8%AE%A8%E8%AE%BA%E4%B8%8B%E4%B8%80%E4%B8%AA%E7%89%88%E6%9C%AC.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 的成员有一位访问者参加了最近的工作组会议，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。 SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。 SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。 其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。 “如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。” 某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 Hack Week 计划进行一些工作，以提供有关工作负载构建的文档。 已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于...</description>
-      <content:encoded>&lt;p&gt;openSUSE 的成员有一位访问者参加了&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting20220621&quot;&gt;最近的工作组会议&lt;/a&gt;，该会议向社区提供了一位关注下一代发行版开发的领导者的最新信息。&lt;/p&gt;
-
-&lt;p&gt;SUSE 和 openSUSE 社区有一个指导委员会和几个工作组，共同创新被称为自适应 Linux 平台（ALP）的东西。&lt;/p&gt;
-
-&lt;p&gt;SUSE 的 Frederic Crozat 是 ALP 架构师之一，也是 ALP 指导委员会的成员，他参与了想法和意见的交流，并为团队提供了一些关于推动技术决策向前发展的见解。&lt;/p&gt;
-
-&lt;p&gt;其愿景是超越 SUSE 对 SUSE LInux Enterprise (SLE) 15 等模块所做的工作。这在 openSUSE 方面还没有真正出现过。在 SLE 方面，它有点不同，但重点是在开发过程中更加灵活和敏捷。达到这个目的的方法还没有完全决定，但有一点可以肯定的是，容器化是确保自适应性的最简单方法之一。&lt;/p&gt;
-
-&lt;p&gt;“如果人们在容器或虚拟机中部署自己的工作负载，那么他们的系统受到破坏的机会就会低得多，”openSUSE Leap 发布经理 Lubos Kocman 在会议中指出。“我们需要确保用户可以轻松地搜索和安装来自受信任方的‘工作负载’。”&lt;/p&gt;
-
-&lt;p&gt;某些情况下，系统会在人们使用来源于发行版软件仓库之外的软件时受到破坏。ALP 的一些特征被称为对容器的严格使用，例如 flatpaks，但最好将这些项目称为工作负载。社区将在 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 计划进行一些工作，以提供有关工作负载构建的文档。&lt;/p&gt;
-
-&lt;p&gt;已经确认不会有从 SLES 到 ALP 的迁移路径，大多数人认为 Leap 同样无法迁移到 ALP，但这并不一定适用于 openSUSE，因为人们并没有被阻止编写可升级的脚本。&lt;/p&gt;
-
-&lt;p&gt;ALP 社区版的工作计划在概念验证之后进行，但社区目前正在积极参与开发概念验证。访问者提出的一些观点是，最初的构建将以英特尔为目标，然后再扩展到其他架构。&lt;/p&gt;
-
-&lt;p&gt;该社区平台在其与 SUSE 的开发周期中被称为 openSUSE ALP，以简明扼要地规划下一个社区版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/20/community-wg-discusses-next-edition/&quot;&gt;Community Work Group Discusses Next Edition&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/06/29/OpenSSL-Squid-%E5%92%8C-Dracut-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>OpenSSL、Squid 和 Dracut 在 Tumbleweed 中更新</title>
       <pubDate>Wed, 29 Jun 2022 18:30:00 -0500</pubDate>
@@ -453,50 +482,6 @@ for person in people:
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/28/os-leap-release-retrospective/&quot;&gt;openSUSE Leap 15.4 release retrospective&lt;/a&gt;，作者：Victorhck&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/21/%E4%B8%BA%E4%BA%BA%E7%B1%BB%E8%80%8C%E9%BB%91%E5%AE%A2%E7%9A%84%E9%BB%91%E5%AE%A2%E5%91%A8%E4%B8%8B%E5%91%A8%E5%BC%80%E5%A7%8B%E4%B8%BE%E8%A1%8C.html</guid>
-      <title>为人类而黑客的黑客周下周开始举行</title>
-      <pubDate>Tue, 21 Jun 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/06/21/%E4%B8%BA%E4%BA%BA%E7%B1%BB%E8%80%8C%E9%BB%91%E5%AE%A2%E7%9A%84%E9%BB%91%E5%AE%A2%E5%91%A8%E4%B8%8B%E5%91%A8%E5%BC%80%E5%A7%8B%E4%B8%BE%E8%A1%8C.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>它回来了。不，不是 McRib。这次是黑客周（Hack Week）。
-
-令人羡慕的 Hack Week 21 从 6 月 27 日持续到 7 月 1 日，有线上虚拟和线下实地参与的基础部分。黑客周是为 openSUSE 的贡献而举办的，为任何开源贡献者和 SUSE 员工提供了一个实验、创新、合作和学习的游乐场，为期整整一周。
-
-全世界的人们都可以在 hackweek.opensuse.org 上创建、查看或加入项目。项目范围从免费软件游戏的打包到改进全盘加密，从学习网络相关知识到编写 software.opensuse.org 替代品应有尽有。甚至还有一个项目使用太阳能电池板来调节水加热。今年的黑客周有 80 多个项目。
-
-我们鼓励公司、爱好者和技术人员参与。参加黑客周不需要任何隶属关系。
-
-这些努力都是为了创新并为用户、开发人员和行业提供解决方案。 这个黑客周的主题是为人类而黑客！（Hacking for Humanity!）
-
-Hack Week 自 2007 年以来每年都有举办，你可以通过加入一个项目来了解它是如何运作的。
-
-openSUSE 中文论坛相关帖子详见此处。
-
-
-
-原文：Hack Week starts Hacking for Humanity next week，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;它回来了。不，不是 McRib。这次是黑客周（&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt;）。&lt;/p&gt;
-
-&lt;p&gt;令人羡慕的 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 21 从 6 月 27 日持续到 7 月 1 日，有线上虚拟和线下实地参与的基础部分。黑客周是为 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的贡献而举办的，为任何开源贡献者和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 员工提供了一个实验、创新、合作和学习的游乐场，为期整整一周。&lt;/p&gt;
-
-&lt;p&gt;全世界的人们都可以在 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;hackweek.opensuse.org&lt;/a&gt; 上创建、查看或加入项目。项目范围从免费软件游戏的打包到改进全盘加密，从学习网络相关知识到编写 &lt;a href=&quot;https://software.opensuse.org/&quot;&gt;software.opensuse.org&lt;/a&gt; 替代品应有尽有。甚至还有一个项目使用太阳能电池板来调节水加热。今年的黑客周有 80 多个项目。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励公司、爱好者和技术人员参与。参加黑客周不需要任何隶属关系。&lt;/p&gt;
-
-&lt;p&gt;这些努力都是为了创新并为用户、开发人员和行业提供解决方案。 这个黑客周的主题是为人类而黑客！（Hacking for Humanity!）&lt;/p&gt;
-
-&lt;p&gt;Hack Week 自 2007 年以来每年都有举办，你可以通过加入一个项目来了解它是&lt;a href=&quot;https://hackweek.opensuse.org/faqs&quot;&gt;如何运作的&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 中文论坛相关帖子详见&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15094&quot;&gt;此处&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/06/22/hw-starts-hacking-nw/&quot;&gt;Hack Week starts Hacking for Humanity next week&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
