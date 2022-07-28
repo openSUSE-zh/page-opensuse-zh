@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: MicroOS 桌面用于帮助 ALP 收集反馈
 image: /assets/posts/misc/opensuse-alp-concept-unofficial.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - Tumbleweed
 - 翻译作品
