@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/11/%E5%86%85%E6%A0%B8%E5%92%8C-HarfBuzz-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>内核和 HarfBuzz 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 11 Aug 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/11/%E5%86%85%E6%A0%B8%E5%92%8C-HarfBuzz-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 本周每天都会向用户推出新快照。 本周发布的几个大版本更新包括 Linux Kernel 5.19 和 HarfBuzz 5.1，它们都在快照 20220810 中发布。 快照 20220810 还带来了大量软件包更新。关于内核 5.19 版本的讨论重点包括增加对 arm 的支持、与更大的 IPv6 包大小相关的 TCP 改进，以及 Intel 和 AMD GPU 的图形改进。文本整形引擎 harfbuzz 5.1 修复了位图字体渲染中的回归问题，改进了对一些阿拉伯语和希伯来语字体的支持，并改进了对命令行选项的处理。hplip 更新至 3.22.6，增加了对几种新打印机的支持，并增加了对最近发布的新发行版的支持。gnome-software 42.4 更新中有意大利语和塞尔维亚语翻译更改，其中还修复了包含标记时的详细文本。webkit2gtk3 更新至 2.36.6，修复了 GTK4 版本上触摸板滚动的处理以及一些崩溃和渲染问题。快照中要更新的其他软件包包括 postfix 3.7.2、ModemManager 1.18.10、mutt 2.2.7 等。 开源防病毒引擎 ClamAV 在快照 20220809 中更新到 0.103.7...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周每天都会向用户推出新快照。&lt;/p&gt;
+
+&lt;p&gt;本周发布的几个大版本更新包括 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.19 和 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;HarfBuzz&lt;/a&gt; 5.1，它们都在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/47TESSV3J2IFCCRASW7HVKMFNRBNBGGU/&quot;&gt;20220810&lt;/a&gt; 中发布。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/47TESSV3J2IFCCRASW7HVKMFNRBNBGGU/&quot;&gt;20220810&lt;/a&gt; 还带来了大量软件包更新。关于&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt; 5.19 版本的讨论重点包括增加对 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 的支持、与更大的 IPv6 包大小相关的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_Control_Protocol&quot;&gt;TCP&lt;/a&gt; 改进，以及 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; 和 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; GPU 的图形改进。文本整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 5.1 修复了位图字体渲染中的回归问题，改进了对一些阿拉伯语和希伯来语字体的支持，并改进了对命令行选项的处理。&lt;a href=&quot;https://en.wikipedia.org/wiki/HP_Linux_Imaging_and_Printing&quot;&gt;hplip&lt;/a&gt; 更新至 3.22.6，增加了对几种新打印机的支持，并增加了对最近发布的新发行版的支持。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software/-/releases&quot;&gt;gnome-software&lt;/a&gt; 42.4 更新中有意大利语和塞尔维亚语翻译更改，其中还修复了包含标记时的详细文本。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 更新至 2.36.6，修复了 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 版本上触摸板滚动的处理以及一些崩溃和渲染问题。快照中要更新的其他软件包包括 &lt;a href=&quot;http://www.postfix.org/announcements/postfix-3.7.2.html&quot;&gt;postfix 3.7.2&lt;/a&gt;、&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/ModemManager/&quot;&gt;ModemManager&lt;/a&gt; 1.18.10、&lt;a href=&quot;http://www.mutt.org/&quot;&gt;mutt&lt;/a&gt; 2.2.7 等。&lt;/p&gt;
+
+&lt;p&gt;开源防病毒引擎 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKEO6ZEFOPRUTE3CYF77T32QIM6D6DSQ/&quot;&gt;20220809&lt;/a&gt; 中更新到 0.103.7 版本。更新后的版本允许跳过&lt;a href=&quot;https://en.wikipedia.org/wiki/Solid_compression&quot;&gt;固实压缩文件&lt;/a&gt;中的文件，并将 UnRAR 库升级到 6.1.7 版本。远程桌面协议包 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;freerdp&lt;/a&gt; 2.8.0 的更新向后移植了几个项目并防止 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt; 的越界读取。内核固件包 &lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/&quot;&gt;kernel-firmware&lt;/a&gt; 本次更新提供了多个英特尔蓝牙更新，并为音频放大器芯片 &lt;a href=&quot;https://www.cirrus.com/products/cs35l41/&quot;&gt;Cirrus CS35L41&lt;/a&gt; 添加了固件。本次快照更新的软件包还有原子更新包 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt;，它从候选发布版本过渡到现在的 4.0.0 版本。在 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 中使用的 transactional-update 增加了删除快照的方法，改变了快照 &lt;a href=&quot;https://cgit.freedesktop.org/dbus/dbus/&quot;&gt;D-Bus&lt;/a&gt; 的 “List” 方法。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 的更新增强了几个瑞典语翻译。快照中剩余的大部分软件包都是 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 更新。&lt;/p&gt;
+
+&lt;p&gt;虽然快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4SJEP2QE6Z6ZYLXRW2J4DRI76TBKEQM/&quot;&gt;20220808&lt;/a&gt; 的后续版本含有 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 更新，但此快照主要提供的是 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python 包索引&lt;/a&gt;更新。更新的 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 包包括 &lt;a href=&quot;https://www.python-httpx.org/&quot;&gt;python-httpx&lt;/a&gt; 0.23.0、&lt;a href=&quot;https://pypi.org/project/pyparsing/&quot;&gt;python310-pyparsing&lt;/a&gt; 3.0.9 和 &lt;a href=&quot;https://pypi.org/project/kiwisolver/&quot;&gt;python-kiwisolver&lt;/a&gt; 1.4.4。&lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 从 58.3.0 更新到 63.2.0；此次更新进行了性能优化，删除了一些打包依赖项并修复了 60.8.0 版本中一些出现损坏的功能。快照中要更新的另外两个重要软件包是：&lt;a href=&quot;https://virt-manager.org/&quot;&gt;virt-manager&lt;/a&gt; 4.1.0，它刷新和删除了补丁；以及 &lt;a href=&quot;http://rpm.org/wiki/Releases/4.17.1&quot;&gt;rpm 4.17.1&lt;/a&gt;，它修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-3521.html&quot;&gt;CVE-2021-3521&lt;/a&gt;，这是 RPM 签名功能中的一个缺陷。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4JDTDAONDYHOBTE6D5ENBWNQQC6C6ZGA/&quot;&gt;20220807&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NTYQSPSPXPOAEQHSDFTAGWIUSY4JWI4P/&quot;&gt;20220806&lt;/a&gt; 都更新了几个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt;。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4JDTDAONDYHOBTE6D5ENBWNQQC6C6ZGA/&quot;&gt;20220807&lt;/a&gt; 将引导处理包 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/Plymouth/&quot;&gt;plymouth&lt;/a&gt; 更新至 22.02.122 版本，此次更新更新了源代码美化器 &lt;a href=&quot;https://github.com/uncrustify/uncrustify&quot;&gt;uncrustify&lt;/a&gt; 的脚本。本周到达的另一个大版本更新是 hwinfo 22.0。 硬件信息工具 &lt;a href=&quot;https://github.com/openSUSE/hwinfo&quot;&gt;hwinfo&lt;/a&gt; 改进了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/NVM_Express&quot;&gt;NVME&lt;/a&gt; 设备的处理，修复了编译器警告并添加了新的 NVME 硬件类。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 粉丝在快照 &lt;a href=&quot;9https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NVPJHHZN7KZDJYYJR3IZJP6BSZHNQ2NR/&quot;&gt;20220805&lt;/a&gt; 中收到了更新。此次快照发布了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.25.4/&quot;&gt;KDE Plasma 5.25.4&lt;/a&gt;，并在 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-desktop&quot;&gt;Plasma 桌面&lt;/a&gt;中添加了键盘导航支持。功耗控制器 &lt;a href=&quot;https://invent.kde.org/plasma/powerdevil&quot;&gt;PowerDevil&lt;/a&gt; 更新了电池通知，现在在电池耗尽时插入交流电压时会显示通知。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的文本编辑器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 42.2 修复了文本截断情况并更新了翻译。&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 更新至 1.25.45，在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt; 的规范文件中添加了要求。&lt;a href=&quot;https://ostreedev.github.io/ostree/&quot;&gt;libostree&lt;/a&gt; 2022.5 版本带来了将近一年的更新。该版本为 s390x SE、&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 附件，并了修复 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 绑定。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/12/new-kernel-harfbuzz-v-update-in-tw/&quot;&gt;New Kernel, HarfBuzz Versions update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/04/Xen-%E5%92%8C-QEMU-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Xen 和 QEMU 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 04 Aug 2022 18:30:00 -0500</pubDate>
@@ -313,162 +340,6 @@ for person in people:
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/08/tw-gets-vim-plasma-pipewire-updates/&quot;&gt;Tumbleweed Gets Vim, Plasma, PipeWire Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/02/openSUSE.Asia-2022-%E5%B3%B0%E4%BC%9A%E6%BC%94%E8%AE%B2%E5%BE%81%E9%9B%86%E6%B4%BB%E5%8A%A8%E4%B8%8E-Logo-%E7%AB%9E%E8%B5%9B.html</guid>
-      <title>openSUSE.Asia 2022 峰会演讲征集活动与 Logo 竞赛</title>
-      <pubDate>Sat, 02 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/02/openSUSE.Asia-2022-%E5%B3%B0%E4%BC%9A%E6%BC%94%E8%AE%B2%E5%BE%81%E9%9B%86%E6%B4%BB%E5%8A%A8%E4%B8%8E-Logo-%E7%AB%9E%E8%B5%9B.html</link>
-      <author>ExplosiveFinFET</author>
-      <description>openSUSE.Asia 2022 峰会演讲征集活动 很高兴宣布 2022 年 openSUSE.Asia 峰会主会场的演讲稿件征集从今天开始了。openSUSE.Asia 委员会正在寻找来自不同领域的演讲者。openSUSE 每年都会举办 openSUSE.Asia 峰会以促进自由和开放源码软件的使用，并且在亚洲 openSUSE 社区（贡献者和使用者）拥有良好的口碑。历届亚洲峰会的主要参与者有印度尼西亚、中国大陆、中国台湾、日本、韩国和印度，继上次由印度团队主办的亚洲虚拟峰会之后，2022 年 openSUSE.Asia 峰会（第八届）将由 openSUSE 在线志愿者团队举办，时间定于 9 月下旬。 今年的峰会活动将分为两部分: 亚洲峰会主会场和部分亚洲国家和地区的当地的线上/线下活动，本次征集主要面向主会场，本次峰会主会场为线上形式，使用在线会议工具。演讲形式为直播演讲，不过您也可以提前录制视频。 主题 因为 openSUSE 是各种 FLOSS（自由与免费软件）产品的集合，所以 openSUSE.Asia 2022 峰会欢迎 openSUSE 和其他主题相关的会谈，例如云计算、虚拟化、容器、容器编排、Linux 桌面环境和应用。您可以参考以下话题： openSUSE (包括 Leap, Tumbleweed, Open Build Services, openQA, YaST) openSUSE Kubic &amp;amp; MicroOS, 云计算, 虚拟化, 容器和容器编排...</description>
-      <content:encoded>&lt;h2 id=&quot;opensuseasia-2022-峰会演讲征集活动&quot;&gt;openSUSE.Asia 2022 峰会演讲征集活动&lt;/h2&gt;
-
-&lt;p&gt;很高兴宣布 2022 年 openSUSE.Asia 峰会主会场的演讲稿件征集从今天开始了。openSUSE.Asia 委员会正在寻找来自不同领域的演讲者。openSUSE 每年都会举办 openSUSE.Asia 峰会以促进自由和开放源码软件的使用，并且在亚洲 openSUSE 社区（贡献者和使用者）拥有良好的口碑。历届亚洲峰会的主要参与者有印度尼西亚、中国大陆、中国台湾、日本、韩国和印度，继上次由印度团队主办的亚洲虚拟峰会之后，2022 年 openSUSE.Asia 峰会（第八届）将由 openSUSE 在线志愿者团队举办，时间定于 9 月下旬。&lt;/p&gt;
-
-&lt;p&gt;今年的峰会活动将分为两部分: 亚洲峰会主会场和部分亚洲国家和地区的当地的线上/线下活动，本次征集主要面向主会场，本次峰会主会场为线上形式，使用在线会议工具。演讲形式为直播演讲，不过您也可以提前录制视频。&lt;/p&gt;
-
-&lt;h3 id=&quot;主题&quot;&gt;主题&lt;/h3&gt;
-
-&lt;p&gt;因为 openSUSE 是各种 FLOSS（自由与免费软件）产品的集合，所以 openSUSE.Asia 2022 峰会欢迎 openSUSE 和其他主题相关的会谈，例如云计算、虚拟化、容器、容器编排、Linux 桌面环境和应用。您可以参考以下话题：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openSUSE (包括 Leap, Tumbleweed, Open Build Services, openQA, YaST)&lt;/li&gt;
-  &lt;li&gt;openSUSE Kubic &amp;amp; MicroOS, 云计算, 虚拟化, 容器和容器编排&lt;/li&gt;
-  &lt;li&gt;嵌入式和物联网&lt;/li&gt;
-  &lt;li&gt;安全 (访问与完整性控制, 密码学, 脆弱性管理)&lt;/li&gt;
-  &lt;li&gt;桌面环境与应用程序 (e.g. GNOME, KDE, XFCE)&lt;/li&gt;
-  &lt;li&gt;办公套件, 平面艺术, 多媒体 (栗如： LibreOffice, Calligra, GIMP, Inkscape)&lt;/li&gt;
-  &lt;li&gt;多语言支持 (栗如. input methods, translation)&lt;/li&gt;
-  &lt;li&gt;能够在 penSUSE 上运行的其他程序&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;同样的，我们也很欢迎非技术相关的话题，举个栗子：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;科普开源与自由软件&lt;/li&gt;
-  &lt;li&gt;开发，QA，翻译&lt;/li&gt;
-  &lt;li&gt;技巧和诀窍, 使用经验 (不论成功还是失败), 最佳实践&lt;/li&gt;
-  &lt;li&gt;市场营销与社群管理&lt;/li&gt;
-  &lt;li&gt;教育&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;关于演讲&quot;&gt;关于演讲&lt;/h3&gt;
-
-&lt;p&gt;我们征集如下两种形式的演讲：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;带演示的主题演讲或者长篇演讲 (30 分钟 + 答疑解惑)&lt;/li&gt;
-  &lt;li&gt;有无演示都行的短篇演讲 (15 分钟 + 答疑解惑)&lt;/li&gt;
-  &lt;li&gt;因为会议全程为在线形式，考虑到线上会议可能会影响大家注意力集中的时间，我们尽可能的在控制较短的演讲时间的同时保持话题的吸引力。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;日程&quot;&gt;日程&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;征稿的最后期限是: 2022 年 7 月 31 日&lt;/li&gt;
-  &lt;li&gt;通知演讲者的时间是: 2022 年 8 月 15 日（这一周）&lt;/li&gt;
-  &lt;li&gt;openSUSE.Asia 2022 峰会: 9 月 26 日（这一周）(您当地的活动时间将会在与各个地区社群沟通后公布，请耐心等待)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;会议时间:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;2022 年 9 月 30 : 10:00 UTC - 15:00 UTC&lt;/li&gt;
-  &lt;li&gt;2022年10月1日: 4:00 UTC - 7:00 UTC&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;如何提交稿件&quot;&gt;如何提交稿件&lt;/h3&gt;
-
-&lt;p&gt;请在 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAS22/&quot;&gt;event.o.o&lt;/a&gt; 提交您的稿件。在提交前请注意以下几点：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;您的稿件全文请使用英文撰写，建议长度在 150-500 词左右并搭配一个合适的题目。&lt;/li&gt;
-  &lt;li&gt;您在演讲和演示中请同样请使用英语。&lt;/li&gt;
-  &lt;li&gt;请在提交前使用拼写与语法检查，建议使用 &lt;a href=&quot;https://extensions.libreoffice.org/&quot;&gt;LibreOffice Extensions&lt;/a&gt; 和 &lt;a href=&quot;https://www.grammarly.com/&quot;&gt;Languagetool&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;您在个人主页的简介同样是我们的关注点，请不要忘记简述您的背景&lt;/li&gt;
-  &lt;li&gt;您必须遵守 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Conference_code_of_conduct&quot;&gt;openSUSE 会议行为准则&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;您将在提交成功后收到一个表格链接以进一步填写更多信息。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;稿件编写指南&quot;&gt;稿件编写指南&lt;/h3&gt;
-
-&lt;p&gt;请在撰写稿件时确保以您的主题为中心，围绕您的主题进行扩展。&lt;/p&gt;
-
-&lt;p&gt;举个栗子，比如您想讨论安全或桌面应用，那么建议您先从如何安装相关的工具与应用落手。还有请您附上，您认为您的稿件具有怎样的优势可以入围峰会演讲，或许您可以从以下几点分析：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;您的主题是应用/技术/解决方案某一或多个方面的需求。&lt;/li&gt;
-  &lt;li&gt;解决方案的未来前景或建议&lt;/li&gt;
-  &lt;li&gt;针对目标受众（初学者，贡献者）的学习内容。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如果您在撰写中有什么疑问，不要害羞，请尽快联系组委会或者当地社群获取帮助。&lt;/p&gt;
-
-&lt;h3 id=&quot;组委会联系方式&quot;&gt;组委会联系方式&lt;/h3&gt;
-
-&lt;p&gt;如果您有什么意见，建议或者疑问，请联系：&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;mailto:opensuseasia-summit@googlegroups.com&quot;&gt;opensuseasia-summit@googlegroups.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;期待与您在 openSUSE.Asia 2022 峰会见面！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;opensuseasia-2022-峰会-logo-竞赛&quot;&gt;openSUSE.Asia 2022 峰会 Logo 竞赛&lt;/h2&gt;
-
-&lt;p&gt;今天，我们将开始征集 2022 年的 openSUSE.Asia 峰会 Logo。Logo 是举办峰会的重要组成部分。历届 openSUSE.Asia 峰会都有自己独特的 Logo，通过 Logo 反映峰会举办地的社区文化。遵循传统，2022 年同样举办 Logo 竞赛，为今年的峰会征求优秀的 Logo。值得注意的是，今年的峰会有两个部分。一个是亚洲峰会主会场，包括虚拟在线会议，另一个是当地举行的离线/在线活动。本次征集的 Logo 是针对亚洲峰会主会场的。因此，这个 Logo 将代表亚洲整体。&lt;/p&gt;
-
-&lt;p&gt;比赛即日起开始并于2022年7月23日结束。赛后主办方将赠送 “Geeko Mystery Box “作为对最佳 Logo 设计的感谢。&lt;/p&gt;
-
-&lt;p&gt;截止日期为: 2022年7月23日&lt;/p&gt;
-
-&lt;p&gt;公布优秀设计者: 2022年8月14日（这一周）&lt;/p&gt;
-
-&lt;p&gt;本次竞赛规则如下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;本次为参加竞赛所设计的 Logo 应使用 CC-BY-SA 4.0 协议授权，并且允许所有人使用并不用注明出处（BY），如果您的 Logo 最后被峰会采用，那么在峰会网站上会出现您的署名。&lt;/li&gt;
-  &lt;li&gt;您的设计必须是原创的，并且不能包括任何与 CC-BY-SA 4.0 相冲突的素材，若使用了素材请务必注明署名。&lt;/li&gt;
-  &lt;li&gt;请一同提交单色设计文件和彩色设计文件，缺一不可。&lt;/li&gt;
-  &lt;li&gt;您提交的设计稿件应为 SVG 格式。&lt;/li&gt;
-  &lt;li&gt;您的设计应反映亚洲的 openSUSE 社区。&lt;/li&gt;
-  &lt;li&gt;Logo 设计应避免出现如下几点:
-    &lt;ul&gt;
-      &lt;li&gt;任何形式的品牌名和商标。&lt;/li&gt;
-      &lt;li&gt;可能被认为是不适当的、具有攻击性的、散播仇恨的、扭曲的、诽谤的、诬蔑或中伤的插图。&lt;/li&gt;
-      &lt;li&gt;明显的性行为或挑衅性的图像。&lt;/li&gt;
-      &lt;li&gt;暴力或武器。&lt;/li&gt;
-      &lt;li&gt;酒精，烟草，毒品及使用的行为图片。&lt;/li&gt;
-      &lt;li&gt;基于种族、性别、宗教、国籍、残疾、性取向或年龄的歧视。&lt;/li&gt;
-      &lt;li&gt;对群体或个人的偏见、种族主义、仇恨或伤害。&lt;/li&gt;
-      &lt;li&gt;宗教、政治或民族主义的内容&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;logo 应该符合 &lt;a href=&quot;https://en.opensuse.org/File:OpenSUSE_Trademark_Guidelines.pdf&quot;&gt;openSUSE 项目标志指南&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://opensuse.github.io/branding-guidelines/&quot;&gt;设计指南&lt;/a&gt;可能会帮助您设计 Logo (可选)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;请将您的设计提交到 &lt;a href=&quot;mailto:opensuseasia-summit@googlegroups.com&quot;&gt;opensuseasia-summit@googlegroups.com&lt;/a&gt; ，并附上以下条目：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主题: openSUSE.Asia Summit 2022 Logo Design - [您的名字]&lt;/li&gt;
-  &lt;li&gt;您的姓名和邮件地址，以便联系&lt;/li&gt;
-  &lt;li&gt;一份关于您的设计理念的文件（txt 或 pdf）。&lt;/li&gt;
-  &lt;li&gt;仅限 SVG 格式的矢量设计文件。&lt;/li&gt;
-  &lt;li&gt;一份设计效果图片（包含在附件中）– 图片大小：至少 256*256 px，PNG 格式。&lt;/li&gt;
-  &lt;li&gt;文件大小不超过 512KB。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;openSUSE.Asia 峰会组委会将在最后敲定使用的 Logo，它可能不是得分最高的那一个，但条件是该 Logo 必须符合所有要求。&lt;/p&gt;
-
-&lt;p&gt;我们推荐设计师使用 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;，这是一个强大的、免费的、开源的可用于各种设计的矢量图形工具。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15166&quot;&gt;openSUSE.Asia 2022 峰会 Logo 竞赛&lt;/a&gt;，作者：ExplosiveFinFET&lt;br /&gt;
-原文：&lt;a href=&quot;https://forum.suse.org.cn/t/topic/15165&quot;&gt;openSUSE.Asia 2022 峰会演讲征集活动&lt;/a&gt;，作者：ExplosiveFinFET&lt;/p&gt;
 </content:encoded>
     </item>
 
