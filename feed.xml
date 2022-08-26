@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/24/ALP-%E6%97%A8%E5%9C%A8%E5%B9%B3%E8%A1%A1%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E5%92%8C%E6%9C%AA%E6%9D%A5.html</guid>
+      <title>ALP 旨在平衡过去、现在和未来</title>
+      <pubDate>Wed, 24 Aug 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/24/ALP-%E6%97%A8%E5%9C%A8%E5%B9%B3%E8%A1%A1%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E5%92%8C%E6%9C%AA%E6%9D%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目一直在开发邮件列表中讨论自适应 Linux 平台 (Adaptable Linux Platform, ALP) 技术方面的话题。 一封标题为《x86_64 architecture level requirements, x86-64-v2 for openSUSE Factory》的电子邮件引发了一场讨论，确认了因 x86-64 架构的不同子集的指令集差异而生的挑战。x86-64 体系结构的四个定义级分为 x86-64-v1、x86-64-v2、x86-64-v3 和 x86-64-v4。86-64-v2 之后的较新微架构具有更大的性能优势，并且当前市场上许多较新硬件也采用此类架构。 所有这些架构都存在于 openSUSE Factory 针对特定的构建和发行版的代码流中。例如，openSUSE Tumbleweed 是所有代码一起运行的定制构建蓝图，它为滚动发布分发提供了经过良好测试的快照版本。另一个是超级稳定的 openSUSE Leap 版，它基于多年来朝着成熟目标的构建，此举旨在实现 Leap 和 SUSE Linux Enterprise 之间的一致性。 在过渡到下一个长期的开放周期时，SUSE 的适应性 Linux 平台和 openSUSE 的 ALP 在架构上呈现出分歧，即企业构建适用于未来的硬件，社区构建适用于过去、现在和未来的硬件使用情况。 SUSE 的 ALP...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目一直在开发&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;中讨论自适应 Linux 平台 (Adaptable Linux Platform, ALP) 技术方面的话题。&lt;/p&gt;
+
+&lt;p&gt;一封标题为《&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JTFUDX72VB7WPCBH4CV5E4XYXFWWKHXQ/&quot;&gt;x86_64 architecture level requirements, x86-64-v2 for openSUSE Factory&lt;/a&gt;》的电子邮件引发了一场讨论，确认了因 x86-64 架构的不同子集的指令集差异而生的挑战。&lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt; 体系结构的四个定义级分为 x86-64-v1、x86-64-v2、x86-64-v3 和 x86-64-v4。86-64-v2 之后的较新微架构具有更大的性能优势，并且当前市场上许多较新硬件也采用此类架构。&lt;/p&gt;
+
+&lt;p&gt;所有这些架构都存在于 openSUSE &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;Factory&lt;/a&gt; 针对特定的构建和发行版的代码流中。例如，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 是所有代码一起运行的定制构建蓝图，它为滚动发布分发提供了经过良好测试的快照版本。另一个是超级稳定的 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/15.4/&quot;&gt;Leap&lt;/a&gt; 版，它基于多年来朝着成熟目标的构建，此举旨在实现 Leap 和 SUSE Linux Enterprise 之间的一致性。&lt;/p&gt;
+
+&lt;p&gt;在过渡到下一个长期的开放周期时，SUSE 的适应性 Linux 平台和 openSUSE 的 ALP 在架构上呈现出分歧，即企业构建适用于未来的硬件，社区构建适用于过去、现在和未来的硬件使用情况。&lt;/p&gt;
+
+&lt;p&gt;SUSE 的 &lt;a href=&quot;https://www.suse.com/c/alp-prototype-is-evolving-proof-of-concept-expected-in-fall/&quot;&gt;ALP&lt;/a&gt; 旨在构建一个新的基于不可变特性的操作系统，以在更新的硬件上增强应用层功能和容器编排。预计不久后发布的原型将以 x86-64-v3 架构为基准。&lt;/p&gt;
+
+&lt;p&gt;电子邮件列表中的一项建议将 Factory 从 x86-64-v1 迁移到 x86-64-v2 的提议似乎得到了 80 多条表示赞同的评论。无论决定如何，ALP 向 x86-64-vX 的过渡都将基于社区为 Factory 做出的决定。然而，这并不是关于 x86-64-vX 的全部。openSUSE 的 ALP 同时面向新旧机器用户进行构建。虽然 SUSE 的 ALP 目标架构特定于 v3，但社区不会让用户失望，社区会为这些老硬件提供支持。随着架构的扩展，相同的基于不可变的操作系统预计将为 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 平台的新硬件提供支持。ALP 社区版将利用 Factory 代码流中可用的相同架构可用性。因 openSUSE 对于架构的需求，社区可能需要重构 SUSE 的 ALP。但是，一旦原型发布，发布团队计划运行测试并收集比较数据，以了解 v2 和 v3 的性能差异。希望为迁移路径提供帮助。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/25/alp-aims-to-balance-ppf/&quot;&gt;ALP Aims to Balance Past, Present with Future&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/17/Frameworks-PostgreSQL-%E5%92%8C-Vim-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Frameworks、PostgreSQL 和 Vim 在 Tumbleweed 中更新</title>
       <pubDate>Wed, 17 Aug 2022 18:30:00 -0500</pubDate>
@@ -267,79 +292,6 @@ SUSE 的 CVE 页面：CVE-2022-29900 CVE-2022-29901
 &lt;p&gt;SUSE 的 CVE 页面：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-29900.html&quot;&gt;CVE-2022-29900&lt;/a&gt; &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-29901.html&quot;&gt;CVE-2022-29901&lt;/a&gt; &lt;br /&gt;
 苏黎世联邦理工学院的原始报告：&lt;a href=&quot;https://comsec.ethz.ch/research/microarch/retbleed/&quot;&gt;Retbleed: Arbitrary Speculative Code Execution with Return Instructions&lt;/a&gt;&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/13/openSUSE-%E4%B8%BA-Nim-%E8%AF%AD%E8%A8%80%E6%8F%90%E4%BE%9B%E4%B8%80%E6%B5%81%E7%9A%84%E6%94%AF%E6%8C%81.html</guid>
-      <title>openSUSE 为 Nim 语言提供一流的支持</title>
-      <pubDate>Wed, 13 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/07/13/openSUSE-%E4%B8%BA-Nim-%E8%AF%AD%E8%A8%80%E6%8F%90%E4%BE%9B%E4%B8%80%E6%B5%81%E7%9A%84%E6%94%AF%E6%8C%81.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 与其他开源项目 Arch Linux 一起为 Nim 语言提供最新的软件包，openSUSE 现在拥有一流的静态类型的命令式编程语言（Nim）支持 Nim 语言为程序员提供了运行时效率（runtime efficiency），并结合了 Python、Ada 和 Modula 等成熟语言的成功概念。 “这是真正的不依赖操作系统也可运行的软件，但如果您需要操作系统，请选择像 SUSE 一样提供一流 Nim 支持的系统。”当被问及 openSUSE 从现在开始支持最新的 Nim 时，Nim 编程语言创建者 Andreas Rumpf 说道。 Rumpf 早在 2005 年就创造了 Nim，最近出版的由他编写的 Mastering Nim 一书涵盖了这种新兴编程语言的各个方面。 现已有使用 openSUSE 为 x86-64、i586、ppc64le 和 ARM64 架构编译构建的 Nim 包。 “我们很高兴拥有第一个宣布对 Nim 提供一流支持的 Linux 发行版，”Nim...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 与其他开源项目 &lt;a href=&quot;https://archlinux.org/&quot;&gt;Arch Linux&lt;/a&gt; 一起为 &lt;a href=&quot;https://nim-lang.org/&quot;&gt;Nim 语言&lt;/a&gt;提供最新的软件包，openSUSE 现在拥有一流的静态类型的命令式编程语言（Nim）支持&lt;/p&gt;
-
-&lt;p&gt;Nim 语言为程序员提供了运行时效率（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runtime efficiency&lt;/code&gt;），并结合了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt;、&lt;a href=&quot;https://www.adaic.org/&quot;&gt;Ada&lt;/a&gt; 和 &lt;a href=&quot;http://www.modula3.org/&quot;&gt;Modula&lt;/a&gt; 等成熟语言的成功概念。&lt;/p&gt;
-
-&lt;p&gt;“这是真正的不依赖操作系统也可运行的软件，但如果您需要操作系统，请选择像 SUSE 一样提供一流 Nim 支持的系统。”当被问及 openSUSE 从现在开始支持最新的 Nim 时，Nim 编程语言创建者 Andreas Rumpf 说道。&lt;/p&gt;
-
-&lt;p&gt;Rumpf 早在 2005 年就创造了 Nim，最近出版的由他编写的 &lt;a href=&quot;https://nim-lang.org/blog/2022/06/29/mastering-nim.html&quot;&gt;Mastering Nim&lt;/a&gt; 一书涵盖了这种新兴编程语言的各个方面。&lt;/p&gt;
-
-&lt;p&gt;现已有使用 openSUSE 为 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Pentium_(original)&quot;&gt;i586&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Ppc64&quot;&gt;ppc64le&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;ARM64&lt;/a&gt; 架构编译构建的 Nim 包。&lt;/p&gt;
-
-&lt;p&gt;“我们很高兴拥有第一个宣布对 Nim 提供一流支持的 Linux 发行版，”Nim 核心开发人员和 &lt;a href=&quot;https://book.picheta.me/&quot;&gt;Nim in Action&lt;/a&gt; 一书的作者 &lt;a href=&quot;https://picheta.me/&quot;&gt;Dominik Picheta&lt;/a&gt; 说。“希望这为其他发行版提供良好支持提供先例。”&lt;/p&gt;
-
-&lt;p&gt;除了宏系统和运行时效率之外，Nim 的优势之一是它与其他语言类似，涵盖了大多数标准功能的标准库；这些标准库包括字符串处理和格式化、异步代码开发、网络甚至高级语言功能（如编译器本身），以及 NimScript，它是 Nim 的一个子集，专门为脚本构建，可以在运行时嵌入和执行。&lt;/p&gt;
-
-&lt;p&gt;此外，Nim 附带了许多默认包含的工具。编译器允许以 C、C++ 和 Javascript 作为其后端。有一些工具可用于轻松开发：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;nim 编译器&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/nimsuggest&quot;&gt;nimsuggest&lt;/a&gt;（支持语言建议、自动完成、错误/问题检测等）&lt;/li&gt;
-  &lt;li&gt;nimgrep（一个强大的，内置 Nim 支持的 grep 替代方案，用以查找符号和检查 Nim 代码库）。&lt;/li&gt;
-  &lt;li&gt;nim-gdb 包装器（对 Nim 类型的 gdb 支持）&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/nimble#readme&quot;&gt;nimble&lt;/a&gt;（包管理器）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;openSUSE 构建有自动化测试。openSUSE 的 Nim 的普遍可用性包括将特定架构的损坏测试与安全补丁的向后移植和同步至上游。&lt;/p&gt;
-
-&lt;p&gt;Nim 有一个非常有趣且充满活力的软件包生态系统，可以在许多方面轻松开发；从 Web 开发到系统编程，从科学到数据处理等方面，这里仅举几例。你可以使用 &lt;a href=&quot;https://github.com/mratsim/weave&quot;&gt;Weave&lt;/a&gt; 开发极其快速和并行化的应用程序，使用 &lt;a href=&quot;https://github.com/karaxnim/karax&quot;&gt;Karax&lt;/a&gt; 或 &lt;a href=&quot;https://github.com/dom96/jester&quot;&gt;Jester&lt;/a&gt; 完全在 Nim 中开发前端和后端 Web 应用程序，并使用 &lt;a href=&quot;https://github.com/mratsim/Arraymancer&quot;&gt;ArrayMancer&lt;/a&gt; 执行大量基于计算的数学运算。在游戏的方面，Nim 可用于通过使用 &lt;a href=&quot;https://github.com/pragmagic/godot-nim&quot;&gt;Godot-Nim&lt;/a&gt; 作为桥梁来开发高性能 3D 可视化和使用 &lt;a href=&quot;https://godotengine.org/&quot;&gt;Godot&lt;/a&gt; 进行游戏开发。&lt;/p&gt;
-
-&lt;p&gt;即使开发人员只想支持另一种语言，Nim 也允许丰富的&lt;a href=&quot;https://en.wikipedia.org/wiki/Foreign_function_interface&quot;&gt;外部函数接口&lt;/a&gt; (FFI) 技术生态系统与其他语言进行交互。除了与 &lt;a href=&quot;https://nim-lang.org/docs/manual.html#implementation-specific-pragmas-importcpp-pragma&quot;&gt;C++ 代码库&lt;/a&gt;和&lt;a href=&quot;https://nim-lang.org/docs/manual.html#foreign-function-interface-importc-pragma&quot;&gt; C 交互的原生支持&lt;/a&gt;外，还可以使用 Nim 通过 &lt;a href=&quot;https://github.com/yglukhov/nimpy&quot;&gt;NimPy&lt;/a&gt; 轻松构建 Python 模块。&lt;/p&gt;
-
-&lt;p&gt;开发人员可以在 https://play.nim-lang.org/ 上试用 Nim，并且可以在&lt;a href=&quot;https://learnxinyminutes.com/docs/nim/&quot;&gt;五分钟内了解它&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Nim 的一个示例：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import strformat
-
-type
-  Person = object
-    name*: string # Field is exported using `*`.
-    age: Natural  # Natural type ensures the age is positive.
-
-var people = [
-  Person(name: &quot;John&quot;, age: 45),
-  Person(name: &quot;Kate&quot;, age: 30)
-]
-
-for person in people:
-  # Type-safe string interpolation.
-  echo(fmt&quot;{person.name} is {person.age} years old&quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;有用的信息链接：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/nim-lang/Nim&quot;&gt;开发仓库&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/docs/nimc.html&quot;&gt;编译期用户指南&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/documentation.html&quot;&gt;文档&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nim-lang.org/docs/manual.html&quot;&gt;手册&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/14/os-reaches-first-class-support-for-nim/&quot;&gt;openSUSE Reaches First-Class Support for Nim Language&lt;/a&gt;，作者：David Anes and Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
