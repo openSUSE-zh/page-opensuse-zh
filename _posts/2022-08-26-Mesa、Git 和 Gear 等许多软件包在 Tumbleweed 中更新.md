@@ -4,7 +4,7 @@ date: 2022-08-26 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: Mesa、Git 和 Gear 等许多软件包在 Tumbleweed 中更新
-image: [](/assets/posts/2022-08/xfcegeeko.png)
+image: /assets/posts/2022-08/xfcegeeko.png
 categories:
 - 更新通告
 tags:
