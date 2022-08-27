@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/25/Mesa-Git-%E5%92%8C-Gear-%E7%AD%89%E8%AE%B8%E5%A4%9A%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Mesa、Git 和 Gear 等许多软件包在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 25 Aug 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/25/Mesa-Git-%E5%92%8C-Gear-%E7%AD%89%E8%AE%B8%E5%A4%9A%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>这是又一整周不间断发布的 openSUSE Tumbleweed 快照。 Tumbleweed 每天都在快速发布新版本的软件。 最近的快照是 20220824，它更新了 Linux 蓝牙协议 bluez 5.65；该软件包修复了一些高级音频分发配置文件问题并添加了对 ISO 套接字的实验性支持。虚拟机管理程序 xen 更新至 4.16.2 版本，删除了新 tar 包中包含的几个补丁，其中包括针对 AMD x86 的 CLFLUSH 工作。更新后的 xen 修复了一些 CVE。本次快照有一些与 Vulkan 相关的更新，例如 shaderc 2022.2 的更新，它增加了对高级着色器语言中 16 位类型的支持。vulkan-loader 和 vulkan-tools 1.3.224.0 也有更新。用于嵌入式系统的 OpenGL 和 OpenGL 着色器 glslang 11.11.0 添加了 OpSource 支持，并避免了 vulkan 在宽松模式下的函数克隆出现双重释放。...</description>
+      <content:encoded>&lt;p&gt;这是又一整周不间断发布的 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照。&lt;/p&gt;
+
+&lt;p&gt;Tumbleweed 每天都在快速发布新版本的软件。&lt;/p&gt;
+
+&lt;p&gt;最近的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/RVJAKRVM2CT6KI5I3IIQ6POXQ43HSJST/&quot;&gt;20220824&lt;/a&gt;，它更新了 Linux 蓝牙协议 &lt;a href=&quot;http://www.bluez.org/&quot;&gt;bluez&lt;/a&gt; 5.65；该软件包修复了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Advanced_Audio_Distribution_Profile_(A2DP)&quot;&gt;高级音频分发配置文件&lt;/a&gt;问题并添加了对 ISO 套接字的实验性支持。虚拟机管理程序 &lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 更新至 4.16.2 版本，删除了新 tar 包中包含的几个补丁，其中包括针对 &lt;a href=&quot;https://www.amd.com/en&quot;&gt;AMD&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86&lt;/a&gt; 的 &lt;a href=&quot;https://www.felixcloutier.com/x86/clflush&quot;&gt;CLFLUSH&lt;/a&gt; 工作。更新后的 xen 修复了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。本次快照有一些与 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 相关的更新，例如 &lt;a href=&quot;https://github.com/google/shaderc&quot;&gt;shaderc&lt;/a&gt; 2022.2 的更新，它增加了对&lt;a href=&quot;https://en.wikipedia.org/wiki/High-Level_Shader_Language&quot;&gt;高级着色器语言&lt;/a&gt;中 16 位类型的支持。&lt;a href=&quot;https://vulkan.lunarg.com/doc/sdk/1.3.224.0/windows/release_notes.html&quot;&gt;vulkan-loader&lt;/a&gt; 和 &lt;a href=&quot;https://vulkan.lunarg.com/doc/sdk/1.3.224.0/windows/release_notes.html&quot;&gt;vulkan-tools 1.3.224.0&lt;/a&gt; 也有更新。用于嵌入式系统的 &lt;a href=&quot;https://www.opengl.org//&quot;&gt;OpenGL&lt;/a&gt; 和 OpenGL 着色器 &lt;a href=&quot;https://github.com/KhronosGroup/glslang&quot;&gt;glslang 11.11.0&lt;/a&gt; 添加了 OpSource 支持，并避免了 vulkan 在宽松模式下的函数克隆出现双重释放。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 及其驱动程序包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/UWSUT4HJV4O3EAIOOK2ZGWEKF2GKY7TX/&quot;&gt;20220823&lt;/a&gt; 中更新到 22.1.7 版本。3d 图形库 Mesa 的新版本对整个代码树进行了修复和清理；大多数修复是针对发出 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 调用的 &lt;a href=&quot;https://docs.mesa3d.org/drivers/zink.html&quot;&gt;Zink&lt;/a&gt; 驱动程序。快照中更新了几个 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 包。&lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.5.8 进行了一些调整，以适应 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 的新型挂载，并且 &lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.5 添加了一个类来生成&lt;a href=&quot;https://en.wikipedia.org/wiki/Fibre_Channel_over_Ethernet&quot;&gt;以太网光纤通道&lt;/a&gt;所需的配置。快照中要更新的其他包是 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt; 4.0.1、&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.3 和许多其他库。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EFHGJPJS6U776UTKDDJR3QAORBKNGDCV/&quot;&gt;20220822&lt;/a&gt; 更新了六个软件包。&lt;a href=&quot;https://github.com/aws/aws-cli&quot;&gt;aws-cli&lt;/a&gt; 1.25.55 的更新修复了导致为新配置文件设置配置值存在问题的回归。该软件包还从几个小版本的更新中收到了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 更改。&lt;a href=&quot;https://docs.xfce.org/xfce/xfce4-panel/start/&quot;&gt;xfce4-panel&lt;/a&gt; 4.16.5 修复了在断开连接的设备上启动时出现的严重警告并更新了 &lt;a href=&quot;https://git-scm.com/docs/gitignore&quot;&gt;.gitignore&lt;/a&gt;。&lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 的桌面管理器 &lt;a href=&quot;https://docs.xfce.org/xfce/xfdesktop/start&quot;&gt;xfdesktop&lt;/a&gt; 4.16.1 删除了一个未使用的函数调用，并在错误处理后分配内存。其他要更新的软件包是 &lt;a href=&quot;https://lttng.org/&quot;&gt;lttng-ust&lt;/a&gt; 2.13.3、&lt;a href=&quot;https://matplotlib.org/stable/users/installing/index.html&quot;&gt;python-matplotlib&lt;/a&gt; 3.5.3 和 &lt;a href=&quot;https://pypi.org/project/pbr/&quot;&gt;python-pbr&lt;/a&gt; 5.10.0&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3XLGQUH3JWVR2BSHGSETF3XPQI7U6MNO/&quot;&gt;20220821&lt;/a&gt; 中进行了本周的首次更新，更新至 22.1.5 版本。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 放弃了未处理的 &lt;a href=&quot;http://osr507doc.xinuos.com/en/man/html.C/hwconfig.C.html&quot;&gt;hwconfig&lt;/a&gt; 键的警告。&lt;a href=&quot;https://github.com/libsdl-org/SDL&quot;&gt;SDL2&lt;/a&gt; 2.24.0 更新添加了许多与键盘和操纵杆等输入设备相关的功能。它还增加了对 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; Shield 控制器的支持。另外两个要更新的软件包是 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/libevdev/&quot;&gt;libevdev&lt;/a&gt; 1.13.0 和 &lt;a href=&quot;http://git.linux-nfs.org/?p=steved/libtirpc.git;a=summary&quot;&gt;libtirpc&lt;/a&gt; 1.3.3，它们修复了一个拒绝服务漏洞。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IYJNHUDCVYUEACPW6I37IQR54JL7SSDL/&quot;&gt;20220820&lt;/a&gt; 提供了 &lt;a href=&quot;https://imagemagick.org/&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.46 的更新，其&lt;a href=&quot;https://github.com/ImageMagick/Website/blob/main/ChangeLog.md&quot;&gt;变更日志&lt;/a&gt;称它已将构建依赖项移至单独的文件并消除了编译器警告。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.6 的更新修复了配置的转发器发送错误的响应时发生的一些崩溃，并使用 dnssec-policy 进行了一个修复。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.19.2 在快照中更新，大部分代码与&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;高级 Linux 声音架构&lt;/a&gt;附件和 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 修复补丁有关。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 251.4 更新删除了冲突的标头，并添加了一个补丁来解决与 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 2.36 的冲突。 快照还提供了一些 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python 包索引&lt;/a&gt;更新。&lt;/p&gt;
+
+&lt;p&gt;在本周开始的三个快照中，即 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EVQ3VTX4QNVPCNLOJQ7SKCWGL7O6TUGG/&quot;&gt;20220819&lt;/a&gt;、&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IRBUJJSBL25KCJFRMSDMRKJ47LKQUFKZ/&quot;&gt;20220818&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QFQEQDFEGADRPMWLYWUCHUC7CVLG5JZ6/&quot;&gt;20220817&lt;/a&gt;，其中有几个包脱颖而出。这些要更新的包中有 &lt;a href=&quot;https://kde.org/announcements/gear/22.08.0/&quot;&gt;KDE Gear 22.08.0&lt;/a&gt;，它允许你在使用 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 时也可以按文件扩展名对文件进行排序。&lt;a href=&quot;https://apps.kde.org/kwrite/&quot;&gt;KWrite&lt;/a&gt; 添加了另一个有趣的新功能，现在支持选项卡和屏幕拆分，因此你可以同时打开多个文档。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.7.2 为 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt; 后端添加了音频支持，并修复了触摸板保持事件的处理。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0224 重绘未明确命名的标志，并修复了可能重复虚拟文本的行拆分。版本控制处理程序 &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;git&lt;/a&gt; 更新至 2.37.2，修复了开发人员可见的多个错误；git 改进了 &lt;a href=&quot;https://git-scm.com/docs/git-p4&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git p4&lt;/code&gt;&lt;/a&gt; 的非 &lt;a href=&quot;https://en.wikipedia.org/wiki/ASCII&quot;&gt;ASCII&lt;/a&gt; 支持。其他要更新的软件包是 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc12&lt;/a&gt; 12.1.1 的一个 git 版本、&lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220813、&lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt; 3.2.5 和 &lt;a href=&quot;https://www.iana.org/time-zones&quot;&gt;timezone 2022c&lt;/a&gt;，它们更新了伊朗将在 2022 年之后不再遵守夏令时的事实。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/26/mesa-git-gear-more-update-in-tw/&quot;&gt;Mesa, Git, Gear, More Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/24/ALP-%E6%97%A8%E5%9C%A8%E5%B9%B3%E8%A1%A1%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E5%92%8C%E6%9C%AA%E6%9D%A5.html</guid>
       <title>ALP 旨在平衡过去、现在和未来</title>
       <pubDate>Wed, 24 Aug 2022 18:30:00 -0500</pubDate>
@@ -260,38 +289,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/19/microos-desktop-use-to-help-with-alp-feedback/&quot;&gt;MicroOS Desktop Use to Help with ALP Feedback&lt;/a&gt;，作者：Emily Gonyer and Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2022/07/16/Retbleed.html</guid>
-      <title>内核受到 Retbleed 漏洞影响</title>
-      <pubDate>Sat, 16 Jul 2022 23:30:00 -0500</pubDate>
-      <link>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2022/07/16/Retbleed.html</link>
-      <author>Nianqing Yao</author>
-      <description>建议用户尽快更新自己的内核或安装相应补丁
-
-要应用相关补丁或更新，请先刷新软件源，之后 Leap 用户请用 zypper patch ，Tumbleweed 请用 zypper dup 。
-
-英特尔第 6 至第 8 代微处理器、 AMD 微处理器系列 15h 到 18h （Zen、Zen+到Zen2）以及部分 ARM 架构处理器受到新 Spectre 变体的影响，该变体被命名为 Retbleed，能够绕过内核中的 retpoline 缓解以泄漏任意数据。具有非特权用户访问权限的攻击者可以劫持返回指令，以在某些与微架构相关的条件下实现任意推测代码执行。
-
-相关链接：
-
-SUSE 的 CVE 页面：CVE-2022-29900 CVE-2022-29901 
-苏黎世联邦理工学院的原始报告：Retbleed: Arbitrary Speculative Code Execution with Return Instructions
-
-</description>
-      <content:encoded>&lt;p&gt;&lt;strong&gt;建议用户尽快更新自己的内核或安装相应补丁&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;要应用相关补丁或更新，请先刷新软件源，之后 Leap 用户请用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper patch&lt;/code&gt; ，Tumbleweed 请用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/advisory-guidance/return-stack-buffer-underflow.html&quot;&gt;英特尔&lt;/a&gt;第 6 至第 8 代微处理器、 &lt;a href=&quot;https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1037&quot;&gt;AMD&lt;/a&gt; 微处理器系列 15h 到 18h （Zen、Zen+到Zen2）以及部分 &lt;a href=&quot;https://developer.arm.com/documentation/ka005138/1-0/?lang=en&quot;&gt;ARM 架构&lt;/a&gt;处理器受到新 Spectre 变体的影响，该变体被命名为 Retbleed，能够绕过内核中的 retpoline 缓解以泄漏任意数据。具有非特权用户访问权限的攻击者可以劫持返回指令，以在某些与微架构相关的条件下实现任意推测代码执行。&lt;/p&gt;
-
-&lt;p&gt;相关链接：&lt;/p&gt;
-
-&lt;p&gt;SUSE 的 CVE 页面：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-29900.html&quot;&gt;CVE-2022-29900&lt;/a&gt; &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-29901.html&quot;&gt;CVE-2022-29901&lt;/a&gt; &lt;br /&gt;
-苏黎世联邦理工学院的原始报告：&lt;a href=&quot;https://comsec.ethz.ch/research/microarch/retbleed/&quot;&gt;Retbleed: Arbitrary Speculative Code Execution with Return Instructions&lt;/a&gt;&lt;/p&gt;
-
 </content:encoded>
     </item>
 
