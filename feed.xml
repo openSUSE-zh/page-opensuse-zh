@@ -41,6 +41,41 @@
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/08/Leap-Micro-5.3-Beta-%E7%8E%B0%E5%B7%B2%E5%BC%80%E6%94%BE%E6%B5%8B%E8%AF%95.html</guid>
+      <title>Leap Micro 5.3 Beta 现已开放测试</title>
+      <pubDate>Thu, 08 Sep 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/08/Leap-Micro-5.3-Beta-%E7%8E%B0%E5%B7%B2%E5%BC%80%E6%94%BE%E6%B5%8B%E8%AF%95.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>Leap Micro 5.3 是一个现代轻量级主机操作系统，现在可在 get.opensuse.org 上下载用于 beta 测试。 测试版预计只会在 openSUSE 的网站上提供几周，然后它会迅速过渡到发布候选版本。 Leap Micro 是一个可用于生产部署的超可靠、轻量级且不可变的操作系统；它非常适合分散式计算环境以及边缘、嵌入式和物联网部署。开发人员和专业人士可以构建和扩展系统，用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、Web 服务器、机器人、区块链等。 Leap Micro 主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可引导系统。 Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。该操作系统基于 SUSE Linux Enterprise 和 Leap，而不是 MicroOS 所使用的 Tumbleweed 的变体。Leap Micro 新版本的最大变化是 NetworkManager 作为新的默认工具和相关工具，如 Cockpit 插件、ModemManager、wpa_suplicant 和 Amazon ECS 的附加用途。对于那些不使用 ignition 或 combustion 的人来说，Leap Micro...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://code.opensuse.org/leap/features/roadmap/Micro%205.2&quot;&gt;Leap Micro 5.3&lt;/a&gt; 是一个现代轻量级主机操作系统，现在可在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 上下载用于 beta 测试。&lt;/p&gt;
+
+&lt;p&gt;测试版预计只会在 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的网站上提供几周，然后它会迅速过渡到发布候选版本。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 是一个可用于生产部署的超可靠、轻量级且不可变的操作系统；它非常适合分散式计算环境以及边缘、嵌入式和物联网部署。开发人员和专业人士可以构建和扩展系统，用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、Web 服务器、机器人、区块链等。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可引导系统。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/leapmicro/5.3/&quot;&gt;Leap Micro&lt;/a&gt; 与 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 有相似之处，但 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.3/&quot;&gt;Leap Micro&lt;/a&gt; 不提供图形用户界面或桌面版本。该操作系统基于 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt;，而不是 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 所使用的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的变体。Leap Micro 新版本的最大变化是 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 作为新的默认工具和相关工具，如 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 插件、&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/ModemManager/&quot;&gt;ModemManager&lt;/a&gt;、&lt;a href=&quot;https://w1.fi/wpa_supplicant/&quot;&gt;wpa_suplicant&lt;/a&gt; 和 &lt;a href=&quot;https://aws.amazon.com/ecs/&quot;&gt;Amazon ECS&lt;/a&gt; 的附加用途。对于那些不使用 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Ignition&quot;&gt;ignition&lt;/a&gt; 或 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Combustion&quot;&gt;combustion&lt;/a&gt; 的人来说，Leap Micro 冷启动时间更短（超时时间更短）并使用 jeos-firstboot 进行部署后配置（root 密码等）。&lt;/p&gt;
+
+&lt;p&gt;与 Leap Micro 相关的开发人员包之一是 &lt;a href=&quot;https://github.com/containers/podman/blob/main/RELEASE_NOTES.md#342&quot;&gt;Podman&lt;/a&gt;。Podman 为开发人员提供了在生产环境中使用 Podman 运行他们的应用程序的选项，升级后的 &lt;a href=&quot;https://github.com/containers/podman/blob/main/RELEASE_NOTES.md#342&quot;&gt;3.4.2&lt;/a&gt; 版本为 init 容器带来了新的 pod 支持，这些容器是在其余 pod 启动之前运行的容器。&lt;/p&gt;
+
+&lt;p&gt;大型开发团队可以通过尝试 Leap Micro 并过渡到 SUSE 的 &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;SLE Micro&lt;/a&gt; 来进行扩展维护和认证，从而为其运营增值。&lt;/p&gt;
+
+&lt;p&gt;测试人员可以在 &lt;a href=&quot;https://bugzilla.opensuse.org/&quot;&gt;bugzilla.opensuse.org&lt;/a&gt; 上提交针对 Leap Micro 5.3 的错误报告。&lt;/p&gt;
+
+&lt;p&gt;用户应该知道 Leap Micro 不使用 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt;，而是使用 &lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/microos_getting_started/#transcational-update-default&quot;&gt;transactional-update&lt;/a&gt; 作为默认的包管理器。&lt;a href=&quot;https://doc.opensuse.org/release-notes/x86_64/openSUSE/LeapMicro/5.2/&quot;&gt;Leap Micro 5.2 的文档&lt;/a&gt;可以帮助对运行这个以边缘计算为目标的现代操作系统有疑问的用户。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap Micro 每个版本的生命周期为六个月。&lt;/p&gt;
+
+&lt;p&gt;你可以在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载 ISO 文件用于部署 Leap Micro。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/09/leap-micro-beta-available-for-testing/&quot;&gt;Leap Micro 5.3 Beta Available for Testing&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/01/Tumbleweed-%E7%BB%A7%E7%BB%AD%E8%BF%9E%E7%BB%AD%E5%8F%91%E5%B8%83%E5%BF%AB%E7%85%A7.html</guid>
       <title>Tumbleweed 继续连续发布快照</title>
       <pubDate>Thu, 01 Sep 2022 18:30:00 -0500</pubDate>
@@ -265,35 +300,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/26/community-to-celebrate-os-birthday/&quot;&gt;Community to celebrate openSUSE Birthday&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/MicroOS-%E5%AE%89%E8%A3%85%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%92%8C%E8%AE%A1%E5%88%92%E4%B8%AD%E7%9A%84%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</guid>
-      <title>MicroOS 安装研讨会，计划中的反馈会议</title>
-      <pubDate>Tue, 26 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/MicroOS-%E5%AE%89%E8%A3%85%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%92%8C%E8%AE%A1%E5%88%92%E4%B8%AD%E7%9A%84%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>为了获得更多用户对自适应 Linux 平台 (ALP) 开发的见解和看法，openSUSE 社区工作组的成员将在 8 月 2 日举办 MicroOS 桌面安装研讨会。 在接下来几周的社区工作组和社区会议期间，社区将举行反馈会议。 我们鼓励用户在 8 月 1 日的这一周安装 MicroOS Desktop。在 8 月 2 日 14:30 UTC 的 ALP 工作组会议期间，我们将为需要一点帮助的人提供简短的安装演示。 在接下来的两周会议中，将在 8 月 16 日定期举行的工作组会议上进行后续工作，并进行最后的清晰演示。 我们鼓励用户在电子表格上记录他们的使用、安装和体验如何进行，同时也将其用作有关尝试的提示和示例的参考。 我们呼吁人们测试 MicroOS Desktop spin 的行动已经收到很多反馈，例如需要在 flatpak 用户配置文件（位于 ~/.var/app）上提供 Flatpak 的文档以及许多其他关键点，这也是尝试 MicroOS 的全部意义，以便为 ALP 获得一些宝贵经验。 在管理期望时，测试...</description>
-      <content:encoded>&lt;p&gt;为了获得更多用户对自适应 Linux 平台 (ALP) 开发的见解和看法，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区工作组的成员将在 8 月 2 日举办 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS 桌面&lt;/a&gt;安装研讨会。&lt;/p&gt;
-
-&lt;p&gt;在接下来几周的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区工作组和社区会议&lt;/a&gt;期间，社区将举行反馈会议。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励用户在 8 月 1 日的这一周安装 MicroOS Desktop。在 8 月 2 日 14:30 UTC 的 ALP 工作组会议期间，我们将为需要一点帮助的人提供简短的安装演示。&lt;/p&gt;
-
-&lt;p&gt;在接下来的两周会议中，将在 8 月 16 日定期举行的工作组会议上进行后续工作，并进行最后的清晰演示。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励用户在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;上记录他们的使用、安装和体验如何进行，同时也将其用作有关尝试的提示和示例的参考。&lt;/p&gt;
-
-&lt;p&gt;我们&lt;a href=&quot;https://news.opensuse.org/2022/07/19/microos-desktop-use-to-help-with-alp-feedback/&quot;&gt;呼吁人们测试 MicroOS Desktop spin &lt;/a&gt;的行动已经收到很多反馈，例如需要在 flatpak 用户配置文件（位于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.var/app&lt;/code&gt;）上提供 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 的文档以及许多其他关键点，这也是尝试 MicroOS 的全部意义，以便为 ALP 获得一些宝贵经验。&lt;/p&gt;
-
-&lt;p&gt;在管理期望时，测试 MicroOS 的人应该意识到它是基于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 的，YaST 是不可用的，并且 MicroOS 的发布经理更希望收到贡献而不是错误报告。 MicroOS 目前支持两种桌面环境。GNOME 目前作为候选版本被支持，而 KDE Plasma 处于 Alpha 阶段。MicroOS Desktop 目前是最接近用户期望的 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 下一代桌面的代表。&lt;/p&gt;
-
-&lt;p&gt;你可在 https://get.opensuse.org/microos/ 下载 MicroOS 桌面 ISO 安装镜像，并在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;上查看说明和记录评论。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/27/microos-install-workshop-feedback-sessions-planned/&quot;&gt;MicroOS Install Workshop, Feedback Sessions Planned&lt;/a&gt;，作者：Emily Gonyer 和 Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
