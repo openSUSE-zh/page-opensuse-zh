@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/14/Plasma-Gear-%E5%92%8C-Frameworks-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Plasma、Gear 和 Frameworks 在 Tumbleweed 中更新</title>
+      <pubDate>Wed, 14 Sep 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/14/Plasma-Gear-%E5%92%8C-Frameworks-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周的 openSUSE Tumbleweed 快照更新了几个 KDE 软件包和一个影响与 grep 相关的脚本的更新。 除了 YaST 影响 grep 的一些更改之外，Tumbleweed 还包含按顺序发布快照更新了 Plasma、Gear 和 Frameworks。 快照 20220914 正在完成测试，此快照可能会在本文发布之前发布，如果测试通过 openQA，这将使本周又是一整周连续发布的快照。 Frameworks 5.98.0 在快照 20220913 中发布。此次更新删除了 KConfigWidgets 重复的颜色加载代码，修复了 Kirigami 中潜在的图像颜色崩溃问题。Frameworks 还为 KTextEditor 提供了大量的补充和修复。此次更新在完成配置选项卡中修复了一些不一致的问题，并且在 KTextEditor 中启用了非只读的剪贴板历史记录。fetchmail 6.4.33 的更新删除了上游补丁，并且由于 snapd 版本的脚本已损坏，增加了一个用于 Flatpak 的 HTMLDOC 包装脚本。音频格式 flac 1.4.0 添加了 FMA 指令集扩展以加速 x86_64 CPU...</description>
+      <content:encoded>&lt;p&gt;本周的 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照更新了几个 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 软件包和一个影响与 &lt;a href=&quot;https://en.wikipedia.org/wiki/Grep&quot;&gt;grep&lt;/a&gt; 相关的脚本的更新。&lt;/p&gt;
+
+&lt;p&gt;除了 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 影响 &lt;a href=&quot;https://en.wikipedia.org/wiki/Grep&quot;&gt;grep&lt;/a&gt; 的一些更改之外，Tumbleweed 还包含按顺序发布快照更新了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.25.5/&quot;&gt;Plasma&lt;/a&gt;、&lt;a href=&quot;https://kde.org/announcements/gear/22.08.1/&quot;&gt;Gear&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.98.0/&quot;&gt;Frameworks&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://openqa.opensuse.org/tests/overview?distri=microos&amp;amp;distri=opensuse&amp;amp;version=Tumbleweed&amp;amp;build=20220914&amp;amp;groupid=1&quot;&gt;20220914&lt;/a&gt; 正在完成测试，此快照可能会在本文发布之前发布，如果测试通过 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt;，这将使本周又是一整周连续发布的快照。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.98.0/&quot;&gt;Frameworks 5.98.0&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XLFRDW7FU2BXTOTMIMRGKTF722TKXARN/&quot;&gt;20220913&lt;/a&gt; 中发布。此次更新删除了 &lt;a href=&quot;https://api.kde.org/frameworks/kconfigwidgets/html/index.html&quot;&gt;KConfigWidgets&lt;/a&gt; 重复的颜色加载代码，修复了 &lt;a href=&quot;https://kde.org/products/kirigami/&quot;&gt;Kirigami&lt;/a&gt; 中潜在的图像颜色崩溃问题。&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.98.0/&quot;&gt;Frameworks&lt;/a&gt; 还为 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 提供了大量的补充和修复。此次更新在完成配置选项卡中修复了一些不一致的问题，并且在 KTextEditor 中启用了非只读的剪贴板历史记录。&lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt; 6.4.33 的更新删除了上游补丁，并且由于 &lt;a href=&quot;https://snapcraft.io/docs/installing-snapd&quot;&gt;snapd&lt;/a&gt; 版本的脚本已损坏，增加了一个用于 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/michaelrsweet/htmldoc/&quot;&gt;HTMLDOC&lt;/a&gt; 包装脚本。音频格式 &lt;a href=&quot;https://xiph.org/flac/&quot;&gt;flac&lt;/a&gt; 1.4.0 添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/FMA_instruction_set&quot;&gt;FMA 指令集&lt;/a&gt;扩展以加速 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86_64&lt;/a&gt; CPU 的音频处理。现在还有一组文件可用于测试 FLAC 解码器是否正确实现格式。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.44 的更新修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup&quot;&gt;LUKS&lt;/a&gt; 的大小调整并进行了一些捷克语翻译。快照中还更新了 &lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/yast/yast-kdump&quot;&gt;yast2-kdump&lt;/a&gt; 的 4.5.4 版本。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MNFXLUGPEV32EUFP4PMYYBEOLGPTXG2P/&quot;&gt;20220912&lt;/a&gt; 中仅更新了几个包。缓存代理包 &lt;a href=&quot;http://www.squid-cache.org/&quot;&gt;squid&lt;/a&gt; 5.7 修复了回归和一些错误。 该软件包现在支持 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.0。智能卡中间件库 &lt;a href=&quot;https://pcsclite.apdu.fr/&quot;&gt;pcsc-lite&lt;/a&gt; 1.9.9 的更新做了一些小的改进，并改进了智能卡守护进程的日志，以文本而不是十六进制记录返回码。本次快照还修复了 &lt;a href=&quot;http://mama.indstate.edu/users/ice/tree/&quot;&gt;tree&lt;/a&gt; 2.0.4 的 JSON 输出中缺少逗号的问题，并且 &lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 对德语和捷克语有多个翻译更新。&lt;/p&gt;
+
+&lt;p&gt;设备映射程序包 &lt;a href=&quot;https://github.com/opensvc/multipath-tools&quot;&gt;multipath-tools&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XAWANZS6DH3UAQ2VENEGR2YCUYHY3OYA/&quot;&gt;20220911&lt;/a&gt; 中进行了本周的第二次更新。快照中要更新的另一个包是字体绘图库 &lt;a href=&quot;https://xorg.freedesktop.org/wiki/&quot;&gt;libXft&lt;/a&gt; 2.3.6，它修复了 2.3.5 版本中用于尺寸长度检查的回归。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/RRBH7TTEQMKPRSIYMZEYTJWG52N5VOPQ/&quot;&gt;20220910&lt;/a&gt; 发布了一个对 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.4 的非常重要的更新，它将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 替换为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt;。这对于 Tumbleweed 用户来说很值得留意，因为该软件包将过时的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 替换为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt;。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fgrep&lt;/code&gt; 都被弃用，取而代之的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -F&lt;/code&gt; 并且弃用警告输出可能会破坏输出解析脚本。此 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt; 更改也已在 &lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.13、&lt;a href=&quot;https://github.com/yast/yast-printer&quot;&gt;yast2-printer&lt;/a&gt; 4.5.2 和 &lt;a href=&quot;https://github.com/yast/yast-scanner&quot;&gt;yast2-scanner&lt;/a&gt; 4.5.1 版本更新日志中列出。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 更新到 5.19.8 版本。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;修复了虚拟多层交换机 &lt;a href=&quot;https://docs.openvswitch.org/&quot;&gt;Open vSwitch&lt;/a&gt; 的内存泄漏。内核在设备表中添加了一个 Rosewill USB 适配器加密狗，其中本次内核更新的大部分修复都与蓝牙相关。快照中要更新的其他软件包包括 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/Plymouth/&quot;&gt;Plymouth&lt;/a&gt; 22.02.122 版本、&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-browser-connector&quot;&gt;gnome-browser-connector&lt;/a&gt; 42.1、&lt;a href=&quot;https://github.com/acevery/ibus-table&quot;&gt;ibus-table&lt;/a&gt; 1.16.12 等。&lt;/p&gt;
+
+&lt;p&gt;随着 &lt;a href=&quot;https://kde.org/announcements/gear/22.08.1/&quot;&gt;Gear 22.08.1&lt;/a&gt; 的更新，KDE 应用程序在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XNLX4KEMB2DEFJLHHBYTZ6WFETG64WNP/&quot;&gt;20220909&lt;/a&gt; 中接收到了更新。&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 修复了如果尝试&lt;a href=&quot;https://invent.kde.org/multimedia/kdenlive/-/commit/6c52d311559b033fa47600a56280d0f911d6323b&quot;&gt;粘贴无效剪辑&lt;/a&gt;时，导致损坏的粘贴剪辑的错误。Kdenlive 还确保任务在关闭时正确终止，并修复了可能&lt;a href=&quot;https://invent.kde.org/multimedia/kdenlive/-/commit/bb8e6ffef87bbbdaf1808a07d35675a174c296c3&quot;&gt;导致损坏&lt;/a&gt;的错误锁定。&lt;a href=&quot;https://invent.kde.org/pim/kmail&quot;&gt;KMail&lt;/a&gt; 进行了一些逻辑和国际化修复。由于该部分当前未维护，因此 &lt;a href=&quot;https://invent.kde.org/kdevelop/kdevelop&quot;&gt;KDevelop&lt;/a&gt; 禁用了起始页上的新闻。网络时间协议 (NTP) 包 &lt;a href=&quot;https://chrony.tuxfamily.org/&quot;&gt;chrony&lt;/a&gt; 在其 4.3 版本更新中通过硬件时间戳提高了稳定性；它还改进了过滤器选项，以更好地处理丢失的 NTP 样本。&lt;a href=&quot;https://github.com/yast/yast-core&quot;&gt;yast2-core&lt;/a&gt; 4.5.4 和 &lt;a href=&quot;https://github.com/yast/yast-hardware-detection&quot;&gt;yast2-hardware-detection&lt;/a&gt; 4.5.1 更新的一些更改对 Tumbleweed 用户很重要，因为这些软件包用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -F&lt;/code&gt; 替换了过时的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fgrep&lt;/code&gt;；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fgrep&lt;/code&gt; 都被弃用，取而代之的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -F&lt;/code&gt;。弃用警告输出可能会破坏输出解析脚本，所以 Tumbleweed 用户要小心使用。另一个要在快照中更新的包是 &lt;a href=&quot;https://github.com/opensvc/multipath-tools&quot;&gt;multipath-tools&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;KDE 用户在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DRVDREO3GE7HKOOEXVI5XRC23Q6QUDCC/&quot;&gt;20220908&lt;/a&gt; 中收到了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.25.5/&quot;&gt;Plasma 5.25.5&lt;/a&gt; 的更新，这似乎解决了一些棘手话题。此错误修复版本禁用了 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-desktop&quot;&gt;Plasma 桌面&lt;/a&gt;的拖放以进行触摸；它与拖动/轻弹滚动冲突。拖放&lt;a href=&quot;https://bugs.kde.org/show_bug.cgi?id=450448&quot;&gt;被认为&lt;/a&gt;不如滚动或打开上下文菜单进行触摸重要。&lt;a href=&quot;https://invent.kde.org/plasma/powerdevil&quot;&gt;PowerDevil&lt;/a&gt; 更改了一些亮度操作，&lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace&quot;&gt;Plasma Workspace&lt;/a&gt; 的配置模块现在在计算默认状态时会考虑 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 主题设置。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.8.0 的更新还修复了滚动动画的问题。该快照还改进了工具包对 OpenType 字体功能的处理。快照中要更新的另一个包是 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 104.0.2。该软件包修复了一个错误，该错误导致无法使用触摸或使用触控笔在页面上拖动滚动条。快照中要更新的其他软件包包括 &lt;a href=&quot;https://github.com/ipmitool/ipmitool&quot;&gt;ipmitool&lt;/a&gt; 1.8.19.0、&lt;a href=&quot;https://www.libssh.org/&quot;&gt;libssh&lt;/a&gt; 0.10.4、&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.6 等。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/15/plasma-gear-frameworks-up-in-tw/&quot;&gt;Plasma, Gear, Frameworks update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/08/Tumbleweed-%E7%BB%93%E6%9D%9F%E4%BA%86%E6%8C%81%E7%BB%AD%E7%9A%84%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0-%E7%BB%A7%E7%BB%AD%E6%BB%9A%E5%8A%A8%E4%B8%AD.html</guid>
       <title>Tumbleweed 结束了持续的每日更新，继续滚动中</title>
       <pubDate>Thu, 08 Sep 2022 18:30:00 -0500</pubDate>
@@ -273,33 +304,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/03/wg-shifts-to-feedback/&quot;&gt;Work Group Shifts to Feedback Session&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</guid>
-      <title>社区准备庆祝 openSUSE 生日</title>
-      <pubDate>Tue, 26 Jul 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/%E7%A4%BE%E5%8C%BA%E5%87%86%E5%A4%87%E5%BA%86%E7%A5%9D-openSUSE-%E7%94%9F%E6%97%A5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目正准备在 8 月 9 日庆祝其 17 岁生日。 届时访问 openSUSE 虚拟酒吧的与会者可参加一场由 openSUSE 项目举办，长达 24 小时的社交聚会。 该虚拟酒吧通常被称为 openSUSE Bar 或 /bar，openSUSE 的 Jitsi 实例已成为常客和新手的常见虚拟聚会场所。 我们也欢迎喜欢或使用 openSUSE 发行版和工具的人在庆祝活动期间访问、闲逛和与其他与会者聊天。 这个特别的 24 小时庆祝活动会一直持续，并将有音乐放送和其他社交活动，例如游玩 openSUSE skribble.io 的特别版本；这是一个人们绘制和猜测 openSUSE 和开源主题主题的游戏。 你可以在 https://meet.opensuse.org/bar 找到 openSUSE Bar。 openSUSE 项目于 2005 年 8 月 9 日成立。openSUSE 项目成员在 8 月...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目正准备在 8 月 9 日庆祝其 17 岁生日。&lt;/p&gt;
-
-&lt;p&gt;届时访问 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 虚拟酒吧&lt;/a&gt;的与会者可参加一场由 openSUSE 项目举办，长达 24 小时的社交聚会。&lt;/p&gt;
-
-&lt;p&gt;该虚拟酒吧通常被称为 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE Bar&lt;/a&gt; 或 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;/bar&lt;/a&gt;，openSUSE 的 &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt; 实例已成为常客和新手的常见虚拟聚会场所。&lt;/p&gt;
-
-&lt;p&gt;我们也欢迎喜欢或使用 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 发行版&lt;/a&gt;和工具的人在庆祝活动期间访问、闲逛和与其他与会者聊天。&lt;/p&gt;
-
-&lt;p&gt;这个特别的 24 小时庆祝活动会一直持续，并将有音乐放送和其他社交活动，例如游玩 openSUSE &lt;a href=&quot;https://skribble.io/&quot;&gt;skribble.io&lt;/a&gt; 的特别版本；这是一个人们绘制和猜测 openSUSE 和开源主题主题的游戏。&lt;/p&gt;
-
-&lt;p&gt;你可以在 https://meet.opensuse.org/bar 找到 openSUSE Bar。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目于 2005 年 8 月 9 日成立。openSUSE 项目成员在 8 月 3 日发送了一封关于推出基于社区的 Linux 发行版的&lt;a href=&quot;https://lists.opensuse.org/archives/list/users@lists.opensuse.org/thread/T3SJWQDKZS635EHR5SX2AY3Z3LZAVNX5/&quot;&gt;电子邮件&lt;/a&gt;，并在 2005 年 8 月 8 日至 11 日在旧金山的 LinuxWorld 上宣布了这一消息。宣布发布的电子邮件讨论了在 SuSE 9.3 升级到 KDE 3.4.2。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/07/26/community-to-celebrate-os-birthday/&quot;&gt;Community to celebrate openSUSE Birthday&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
