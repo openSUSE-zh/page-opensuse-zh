@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/20/Virtualbox-grep-%E5%92%8C-gawk-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Virtualbox、grep 和 gawk 在 Tumbleweed 中更新</title>
+      <pubDate>Tue, 20 Sep 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/20/Virtualbox-grep-%E5%92%8C-gawk-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 本周继续以稳定的节奏发布新快照。 自快照 20220903 以来，Tumbleweed 似乎一直在连续发布快照。 快照 20220919 更新了两个包。其中之一是与 X.509 证书一起使用的 libksba 1.6.1，它修复了 rpmlint 警告，并现在确保在线证书状态协议服务器不会返回发送的 Nonce。另一个要更新的软件包是 xfce4-pulseaudio-plugin 0.4.5，它修复了意外切换静音开关和使用 GCC 10 进行编译的问题。 快照 20220918 更新了 virtualbox 6.1.38。此次版本更新修复了数个 CVE。CVE-2022-21571 和 CVE-2022-21554 都可能允许虚拟机未经授权获得造成挂起或重复崩溃的能力。virtualbox-kmp 在本次快照中更新，引入了对 Linux Kernel 6.0 的原始支持。该软件包还修复了 /dev/vboxuser 的权限问题。快照中要更新的其他软件包是 ibus-m17n 1.4.17、python-charset-normalizer 2.1.1 和 python-idna 3.4，它们已更新到最近发布的 Unicode 15.0.0。 快照 20220917 中更新了数个包。静态代码分析工具 cppcheck...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周继续以稳定的节奏发布新快照。&lt;/p&gt;
+
+&lt;p&gt;自快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NGLGIEHGPWUYWF5WLPNNNFBR5K7Z3DJG/&quot;&gt;20220903&lt;/a&gt; 以来，Tumbleweed 似乎一直在连续发布快照。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FB3PBVZ4SB6HQ3DIC4CAQ4JYISOW5GQ7/&quot;&gt;20220919&lt;/a&gt; 更新了两个包。其中之一是与 &lt;a href=&quot;https://en.wikipedia.org/wiki/X.509&quot;&gt;X.509&lt;/a&gt; 证书一起使用的 &lt;a href=&quot;https://gnupg.org/software/libksba/index.html&quot;&gt;libksba&lt;/a&gt; 1.6.1，它修复了 &lt;a href=&quot;https://github.com/rpm-software-management/rpmlint&quot;&gt;rpmlint&lt;/a&gt; 警告，并现在确保在线证书状态协议服务器不会返回发送的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Cryptographic_nonce&quot;&gt;Nonce&lt;/a&gt;。另一个要更新的软件包是 &lt;a href=&quot;https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start&quot;&gt;xfce4-pulseaudio-plugin 0.4.5&lt;/a&gt;，它修复了意外切换静音开关和使用 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 10 进行编译的问题。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OJRDN6OHLCBTV7PG6V2EVZKC4PHLC5T6/&quot;&gt;20220918&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.38。此次版本更新修复了数个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-21571.html&quot;&gt;CVE-2022-21571&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-21554.html&quot;&gt;CVE-2022-21554&lt;/a&gt; 都可能允许虚拟机未经授权获得造成挂起或重复崩溃的能力。&lt;a href=&quot;https://software.opensuse.org/package/virtualbox-kmp-default&quot;&gt;virtualbox-kmp&lt;/a&gt; 在本次快照中更新，引入了对 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.0 的原始支持。该软件包还修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/vboxuser&lt;/code&gt; 的权限问题。快照中要更新的其他软件包是 &lt;a href=&quot;https://github.com/ibus/ibus-m17n&quot;&gt;ibus-m17n&lt;/a&gt; 1.4.17、&lt;a href=&quot;https://github.com/ousret/charset_normalizer&quot;&gt;python-charset-normalizer&lt;/a&gt; 2.1.1 和 &lt;a href=&quot;https://pypi.org/project/idna/&quot;&gt;python-idna&lt;/a&gt; 3.4，它们已更新到最近发布的 &lt;a href=&quot;https://unicode.org/versions/Unicode15.0.0/&quot;&gt;Unicode 15.0.0&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/L6BCPBL5VMOK2MGJCIWGA4A2ACDLNPCM/&quot;&gt;20220917&lt;/a&gt; 中更新了数个包。静态代码分析工具 &lt;a href=&quot;https://github.com/danmar/cppcheck&quot;&gt;cppcheck&lt;/a&gt; 2.9 从外部函数调用传播条件值，它支持在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;valueflow&lt;/code&gt; 中评估更多数学函数。&lt;a href=&quot;https://github.com/dracutdevs/dracut&quot;&gt;dracut&lt;/a&gt; 的更新更改了默认的持久性策略并修复了由不属于包的 bash-completion 目录引起的&lt;a href=&quot;https://forums.opensuse.org/showthread.php/464077-directories-not-owned-by-a-package&quot;&gt;“不属于包的目录”&lt;/a&gt;。&lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.14 的更新从代码中删除了一些模式；&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.7 的更新进行了一次变更，现在会在导入和读取网络配置之前激活 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 设备；否则相关的 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 设备将不存在并且会被忽略。快照中更新的其他一些软件包是 &lt;a href=&quot;https://github.com/openSUSE/microos-tools&quot;&gt;microos-tools&lt;/a&gt; 2.17 和 &lt;a href=&quot;https://www.python.org/downloads/release/python-3107/&quot;&gt;python310 3.10.7&lt;/a&gt;，解决了 python 语言中一个被标记为 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2020-10735.html&quot;&gt;CVE-2020-10735&lt;/a&gt; 的缺陷。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/N3WFZ3GUTKOH466MTFG2PVQNL7L24D6C/&quot;&gt;20220916&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.gnu.org/software/grep/&quot;&gt;grep&lt;/a&gt; 3.8；该软件包现在警告 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fgrep&lt;/code&gt; 都已过时，取而代之的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -F&lt;/code&gt;。&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.58 的更新修复了启动系统流时的一些回归和潜在的崩溃。当使用过滤器链，并在配置文件中使用不存在的控件属性时，grep 会发出警告。文件类型识别包 &lt;a href=&quot;https://www.darwinsys.com/file/&quot;&gt;file&lt;/a&gt; 5.43 增加了 &lt;a href=&quot;https://facebook.github.io/zstd/&quot;&gt;zstd&lt;/a&gt; 解压支持和对 &lt;a href=&quot;http://ndjson.org/&quot;&gt;ndjson.org&lt;/a&gt; 的支持。&lt;a href=&quot;https://www.gnu.org/software/gawk/&quot;&gt;gawk&lt;/a&gt; 5.2.0 的更新现在支持 Terence Kelly 的&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3534855&quot;&gt;持久化 malloc&lt;/a&gt;，允许实用程序解释器在运行之间保留其变量、数组和用户定义的函数。快照中要更新的其他一些软件包是 &lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fuse3&lt;/a&gt; 3.12.0、&lt;a href=&quot;https://sourceforge.net/projects/hdparm/&quot;&gt;hdparm&lt;/a&gt; 9.65 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 等。&lt;/p&gt;
+
+&lt;p&gt;本周开始更新的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3SIOZZQ5YRGJZGYQGBKSS24N27RPOCRP/&quot;&gt;20220915&lt;/a&gt;。此快照更新了 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg-5&lt;/a&gt; 5.1.1，解决了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-2566.html&quot;&gt;CVE-2022-2566&lt;/a&gt;。ffmpeg-5 还修复了未初始化值的使用。&lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt; 3.2.6 对文件列表验证代码进行了一些改进，并为文件传输包添加了安全检查。快照中更新了其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;你可在&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;中阅读有关 Tumbleweed 快照的软件包更新的更多信息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/21/vb-grep-gawk-up-in-tw/&quot;&gt;Virtualbox, grep, gawk update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/14/Plasma-Gear-%E5%92%8C-Frameworks-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Plasma、Gear 和 Frameworks 在 Tumbleweed 中更新</title>
       <pubDate>Wed, 14 Sep 2022 18:30:00 -0500</pubDate>
@@ -267,43 +296,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/04/xen-qemu-update-in-tw/&quot;&gt;Xen, QEMU update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/03/%E5%B7%A5%E4%BD%9C%E7%BB%84%E8%BD%AC%E5%90%91%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</guid>
-      <title>工作组转向反馈会议</title>
-      <pubDate>Wed, 03 Aug 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/03/%E5%B7%A5%E4%BD%9C%E7%BB%84%E8%BD%AC%E5%90%91%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 的自适应 Linux 平台 (ALP) 社区工作组的成员在 8 月 2 日成功举办了一次安装研讨会，并将过渡到两次安装反馈会议。 第一次反馈会议计划在 openSUSE 生日当天（8 月 9 日 14:30 UTC）举行。第二次反馈会议计划于 8 月 11 日 19:00 UTC 的社区会议期间举行。 我们要求研讨会的与会者需要安装 MicroOS Desktop 并临时使用它。这样做是为了获得一些关于人们如何使用他们的操作系统的反馈，这使得工作组能够为 ALP 的发展制定一个参考框架。 号召大家测试 MicroOS Desktop spin 的行动已经收到很多反馈，研讨会也提供了很多反馈。线上虚拟反馈环节的评论之一是“稳定的基础+全新的应用程序？我要报名”。 社区已在 openSUSETV YouTube 频道发布了两个安装视频，以帮助人们开始安装和测试 MicroOS。 《Installing Workshop Video (MicroOS Desktop) 》回顾了对 ALP 的期望，然后讨论了从测试电子表格收集的用户体验。 另一个视频由于时间限制没有在研讨会期间展示，该视频名为在...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的自适应 Linux 平台 (ALP) 社区工作组的成员在 8 月 2 日成功举办了一次&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/07/26/MicroOS-%E5%AE%89%E8%A3%85%E7%A0%94%E8%AE%A8%E4%BC%9A%E5%92%8C%E8%AE%A1%E5%88%92%E4%B8%AD%E7%9A%84%E5%8F%8D%E9%A6%88%E4%BC%9A%E8%AE%AE.html&quot;&gt;安装研讨会&lt;/a&gt;，并将过渡到两次安装反馈会议。&lt;/p&gt;
-
-&lt;p&gt;第一次反馈会议计划在 openSUSE 生日当天（8 月 9 日 14:30 UTC）举行。第二次反馈会议计划于 8 月 11 日 19:00 UTC 的社区会议期间举行。&lt;/p&gt;
-
-&lt;p&gt;我们要求研讨会的与会者需要安装 MicroOS Desktop 并临时使用它。这样做是为了获得一些关于人们如何使用他们的操作系统的反馈，这使得工作组能够为 ALP 的发展制定一个参考框架。&lt;/p&gt;
-
-&lt;p&gt;号召大家测试 MicroOS Desktop spin 的行动已经收到很多反馈，研讨会也提供了很多反馈。线上虚拟反馈环节的评论之一是“稳定的基础+全新的应用程序？我要报名”。&lt;/p&gt;
-
-&lt;p&gt;社区已在 &lt;a href=&quot;https://www.youtube.com/c/openSUSE&quot;&gt;openSUSETV YouTube 频道&lt;/a&gt;发布了两个安装视频，以帮助人们开始安装和测试 MicroOS。&lt;/p&gt;
-
-&lt;p&gt;《&lt;a href=&quot;https://youtu.be/--hoHcNjWgE&quot;&gt;Installing Workshop Video (MicroOS Desktop)&lt;/a&gt; 》回顾了对 ALP 的期望，然后讨论了从测试&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;收集的用户体验。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-08/hqdefault.jpg&quot; alt=&quot;image01&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;另一个视频由于时间限制没有在研讨会期间展示，该视频名为&lt;a href=&quot;https://youtu.be/EY5-fYb8wGQ&quot;&gt;在 Raspberry Pi 400 上安装 MicroOS&lt;/a&gt;，并概述了如何在 Raspberry Pi 上运行具有图形界面的 MicroOS Desktop。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-08/hqdefault%20(1).jpg&quot; alt=&quot;image02&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最终的清晰演示定于 8 月 16 日在定期安排的工作组期间进行。&lt;/p&gt;
-
-&lt;p&gt;我们励人们向 &lt;a href=&quot;https://lists.opensuse.org/archives/list/alp-community-wg@lists.opensuse.org/&quot;&gt;ALP-community-wg 邮件列表&lt;/a&gt;发送反馈并参加反馈会议，这些会议将在社区会议记录中列出。&lt;/p&gt;
-
-&lt;p&gt;用户可以在 https://get.opensuse.org/microos/ 下载 MicroOS Desktop 安装镜像文件，并在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;此电子表格&lt;/a&gt;上查看说明和记录评论。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/03/wg-shifts-to-feedback/&quot;&gt;Work Group Shifts to Feedback Session&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
