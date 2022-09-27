@@ -7,6 +7,79 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E6%9C%80%E5%B0%8F%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E7%BA%A7%E5%88%AB%E5%B0%86%E6%98%AF-x86_64-2.html</guid>
+      <title>ALP 最小架构基础级别将是 x86_64-2</title>
+      <pubDate>Mon, 26 Sep 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E6%9C%80%E5%B0%8F%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E7%BA%A7%E5%88%AB%E5%B0%86%E6%98%AF-x86_64-2.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>我们很快就会发布重要新闻！SUSE 已重新考虑将 ALP 的最小架构基础级别从最初宣布的 x86_64-v3 调整为 x86_64-v2。
+
+SUSE 目前正在考虑通过 hwcaps 功能为 x86_64-v3 甚至 v4 提供支持，就像它目前正在其他非英特尔架构上所做的一样。
+
+Dimstar 已经宣布 openSUSE Factory 将在未来几周内率先将英特尔的最低架构级别设置为 x86_64-v2。
+
+那些拥有比 x86_64-v2 更旧的硬件的人仍然可以安装 openSUSE Tumbleweed 的 32 位 x86_64-v1 架构变体。我们继续为您服务！
+
+你可以在此处（20220728）找到更改 Factory 中最小架构基础级别的提案的原始讨论。
+
+
+
+原文：ALP minimal arch baselevel will be x86_64-2，作者：Lubos Kocman
+</description>
+      <content:encoded>&lt;p&gt;我们很快就会发布重要新闻！SUSE 已重新考虑将 &lt;a href=&quot;https://build.opensuse.org/project/show/SUSE:ALP&quot;&gt;ALP&lt;/a&gt; 的最小架构基础级别从最初宣布的 x86_64-v3 调整为 x86_64-v2。&lt;/p&gt;
+
+&lt;p&gt;SUSE 目前正在考虑通过 hwcaps 功能为 x86_64-v3 甚至 v4 提供支持，就像它目前正在其他非英特尔架构上所做的一样。&lt;/p&gt;
+
+&lt;p&gt;Dimstar 已经宣布 openSUSE Factory 将在未来几周内率先将英特尔的最低架构级别设置为 x86_64-v2。&lt;/p&gt;
+
+&lt;p&gt;那些拥有比 x86_64-v2 更旧的硬件的人仍然可以安装 openSUSE Tumbleweed 的 32 位 x86_64-v1 架构变体。我们继续为您服务！&lt;/p&gt;
+
+&lt;p&gt;你可以在此处（&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JTFUDX72VB7WPCBH4CV5E4XYXFWWKHXQ/&quot;&gt;20220728&lt;/a&gt;）找到更改 Factory 中最小架构基础级别的提案的原始讨论。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-architecture-baselevel-x86_64-v2/&quot;&gt;ALP minimal arch baselevel will be x86_64-2&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E5%8E%9F%E5%9E%8B-Les-Droites-%E9%A2%84%E8%AE%A1%E5%B0%86%E4%BA%8E%E6%9C%AC%E5%91%A8%E6%99%9A%E4%BA%9B%E6%97%B6%E5%80%99%E6%8E%A8%E5%87%BA.html</guid>
+      <title>ALP 原型 “Les Droites” 预计将于本周晚些时候推出。</title>
+      <pubDate>Mon, 26 Sep 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E5%8E%9F%E5%9E%8B-Les-Droites-%E9%A2%84%E8%AE%A1%E5%B0%86%E4%BA%8E%E6%9C%AC%E5%91%A8%E6%99%9A%E4%BA%9B%E6%97%B6%E5%80%99%E6%8E%A8%E5%87%BA.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>所有 ALP 工作组都在努力交付承诺于 9 月发布的 ALP 原型，代号为 “Les Droites”。SUSE 将继续为所有即将推出的原型使用山脉命名主题，这些原型将在三个月后交付。 自适应 Linux 平台（Adaptable Linux Platform, ALP）以开放的方式进行规划、开发和测试，因此用户可以简单地从 OBS 获取安装镜像并在 openQA 中查看测试结果 就 “Les Droites” 而言，用户可以期待 ALP 是一个像 HostOS 这样具有自我修复能力的 SLE Micro，为我们的操作系统即服务/零配置的故事做贡献。ALP 的大理念是用户专注于应用程序而不是底层主机，底层主机会自我管理、修复和优化。Salt（预装）和 Ansible 都可以用来进一步简化管理工作。 用户可以期待在 x86_64 上默认支持 TPM 的全盘加密 (FDE)。可交付成果的另一部分是众多容器化系统组件，包括 yast2、podman、k3s、cockpit、Display Manager (GDM) 和 KVM。所有这些用户都可以进行试验，这些试验被简单地称为工作负载。 无缝系统集成将稍后推出，并且可能因工作负载类型而异。一个例子是通过 rpm 部署的 /usr/bin 包装器，等等。在 ALP...</description>
+      <content:encoded>&lt;p&gt;所有 &lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups&quot;&gt;ALP 工作组&lt;/a&gt;都在努力交付承诺于 9 月发布的 ALP 原型，代号为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Les_Droites&quot;&gt;“Les Droites”&lt;/a&gt;。SUSE 将继续为所有即将推出的原型使用山脉命名主题，这些原型将在三个月后交付。&lt;/p&gt;
+
+&lt;p&gt;自适应 Linux 平台（Adaptable Linux Platform, ALP）以开放的方式进行规划、开发和测试，因此用户可以简单地从 &lt;a href=&quot;https://download.opensuse.org/repositories/SUSE:/ALP/images/&quot;&gt;OBS&lt;/a&gt; 获取安装镜像并在 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/100&quot;&gt;openQA&lt;/a&gt; 中查看测试结果&lt;/p&gt;
+
+&lt;p&gt;就 “Les Droites” 而言，用户可以期待 ALP 是一个像 HostOS 这样具有自我修复能力的 SLE Micro，为我们的操作系统即服务/零配置的故事做贡献。ALP 的大理念是用户专注于应用程序而不是底层主机，底层主机会自我管理、修复和优化。Salt（预装）和 Ansible 都可以用来进一步简化管理工作。&lt;/p&gt;
+
+&lt;p&gt;用户可以期待在 x86_64 上默认支持 TPM 的全盘加密 (FDE)。可交付成果的另一部分是众多容器化系统组件，包括 yast2、podman、k3s、cockpit、Display Manager (&lt;a href=&quot;https://github.com/fcrozat/gdm-container&quot;&gt;GDM&lt;/a&gt;) 和 KVM。所有这些用户都可以进行试验，这些试验被简单地称为&lt;a href=&quot;https://build.opensuse.org/project/show/SUSE:ALP:Workloads&quot;&gt;工作负载&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;无缝系统集成将稍后推出，并且可能因工作负载类型而异。一个例子是通过 rpm 部署的 /usr/bin 包装器，等等。在 ALP 或实际上任何支持 podman 的 Linux 系统上运行 YaST 工作负载的 ncurses 变体的示例如下：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ podman container runlabel run \
+registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/workloads/yast-mgmt-ncurses:latest
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-09/yast-curses.png&quot; alt=&quot;01&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我们强烈建议用户阅读以下文章，了解有关 ALP 工作负载的更多信息：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yast.opensuse.org/blog/2022-08-23/yast-report-2022-7&quot;&gt;yast-report-2022-7&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://yast.opensuse.org/blog/2022-09-06/yast-report-2022-8&quot;&gt;yast-report-2022-8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups/SysMngmnt/Cockpit#Cockpit_at_ALP&quot;&gt;Cockpit_at_ALP wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-les-droites/&quot;&gt;ALP prototype ‘Les Droites’ is to be expected later this week.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/20/Virtualbox-grep-%E5%92%8C-gawk-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Virtualbox、grep 和 gawk 在 Tumbleweed 中更新</title>
       <pubDate>Tue, 20 Sep 2022 18:30:00 -0500</pubDate>
@@ -244,58 +317,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/18/fw-postgre-vim-update-in-tw/&quot;&gt;Frameworks, PostgreSQL, Vim Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/11/%E5%86%85%E6%A0%B8%E5%92%8C-HarfBuzz-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>内核和 HarfBuzz 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 11 Aug 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/11/%E5%86%85%E6%A0%B8%E5%92%8C-HarfBuzz-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 本周每天都会向用户推出新快照。 本周发布的几个大版本更新包括 Linux Kernel 5.19 和 HarfBuzz 5.1，它们都在快照 20220810 中发布。 快照 20220810 还带来了大量软件包更新。关于内核 5.19 版本的讨论重点包括增加对 arm 的支持、与更大的 IPv6 包大小相关的 TCP 改进，以及 Intel 和 AMD GPU 的图形改进。文本整形引擎 harfbuzz 5.1 修复了位图字体渲染中的回归问题，改进了对一些阿拉伯语和希伯来语字体的支持，并改进了对命令行选项的处理。hplip 更新至 3.22.6，增加了对几种新打印机的支持，并增加了对最近发布的新发行版的支持。gnome-software 42.4 更新中有意大利语和塞尔维亚语翻译更改，其中还修复了包含标记时的详细文本。webkit2gtk3 更新至 2.36.6，修复了 GTK4 版本上触摸板滚动的处理以及一些崩溃和渲染问题。快照中要更新的其他软件包包括 postfix 3.7.2、ModemManager 1.18.10、mutt 2.2.7 等。 开源防病毒引擎 ClamAV 在快照 20220809 中更新到 0.103.7...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周每天都会向用户推出新快照。&lt;/p&gt;
-
-&lt;p&gt;本周发布的几个大版本更新包括 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.19 和 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;HarfBuzz&lt;/a&gt; 5.1，它们都在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/47TESSV3J2IFCCRASW7HVKMFNRBNBGGU/&quot;&gt;20220810&lt;/a&gt; 中发布。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/47TESSV3J2IFCCRASW7HVKMFNRBNBGGU/&quot;&gt;20220810&lt;/a&gt; 还带来了大量软件包更新。关于&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt; 5.19 版本的讨论重点包括增加对 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 的支持、与更大的 IPv6 包大小相关的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_Control_Protocol&quot;&gt;TCP&lt;/a&gt; 改进，以及 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; 和 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; GPU 的图形改进。文本整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 5.1 修复了位图字体渲染中的回归问题，改进了对一些阿拉伯语和希伯来语字体的支持，并改进了对命令行选项的处理。&lt;a href=&quot;https://en.wikipedia.org/wiki/HP_Linux_Imaging_and_Printing&quot;&gt;hplip&lt;/a&gt; 更新至 3.22.6，增加了对几种新打印机的支持，并增加了对最近发布的新发行版的支持。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software/-/releases&quot;&gt;gnome-software&lt;/a&gt; 42.4 更新中有意大利语和塞尔维亚语翻译更改，其中还修复了包含标记时的详细文本。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 更新至 2.36.6，修复了 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 版本上触摸板滚动的处理以及一些崩溃和渲染问题。快照中要更新的其他软件包包括 &lt;a href=&quot;http://www.postfix.org/announcements/postfix-3.7.2.html&quot;&gt;postfix 3.7.2&lt;/a&gt;、&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/ModemManager/&quot;&gt;ModemManager&lt;/a&gt; 1.18.10、&lt;a href=&quot;http://www.mutt.org/&quot;&gt;mutt&lt;/a&gt; 2.2.7 等。&lt;/p&gt;
-
-&lt;p&gt;开源防病毒引擎 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DKEO6ZEFOPRUTE3CYF77T32QIM6D6DSQ/&quot;&gt;20220809&lt;/a&gt; 中更新到 0.103.7 版本。更新后的版本允许跳过&lt;a href=&quot;https://en.wikipedia.org/wiki/Solid_compression&quot;&gt;固实压缩文件&lt;/a&gt;中的文件，并将 UnRAR 库升级到 6.1.7 版本。远程桌面协议包 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;freerdp&lt;/a&gt; 2.8.0 的更新向后移植了几个项目并防止 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt; 的越界读取。内核固件包 &lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/&quot;&gt;kernel-firmware&lt;/a&gt; 本次更新提供了多个英特尔蓝牙更新，并为音频放大器芯片 &lt;a href=&quot;https://www.cirrus.com/products/cs35l41/&quot;&gt;Cirrus CS35L41&lt;/a&gt; 添加了固件。本次快照更新的软件包还有原子更新包 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt;，它从候选发布版本过渡到现在的 4.0.0 版本。在 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 中使用的 transactional-update 增加了删除快照的方法，改变了快照 &lt;a href=&quot;https://cgit.freedesktop.org/dbus/dbus/&quot;&gt;D-Bus&lt;/a&gt; 的 “List” 方法。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 的更新增强了几个瑞典语翻译。快照中剩余的大部分软件包都是 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 更新。&lt;/p&gt;
-
-&lt;p&gt;虽然快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y4SJEP2QE6Z6ZYLXRW2J4DRI76TBKEQM/&quot;&gt;20220808&lt;/a&gt; 的后续版本含有 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 更新，但此快照主要提供的是 &lt;a href=&quot;https://pypi.org/&quot;&gt;Python 包索引&lt;/a&gt;更新。更新的 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 包包括 &lt;a href=&quot;https://www.python-httpx.org/&quot;&gt;python-httpx&lt;/a&gt; 0.23.0、&lt;a href=&quot;https://pypi.org/project/pyparsing/&quot;&gt;python310-pyparsing&lt;/a&gt; 3.0.9 和 &lt;a href=&quot;https://pypi.org/project/kiwisolver/&quot;&gt;python-kiwisolver&lt;/a&gt; 1.4.4。&lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 从 58.3.0 更新到 63.2.0；此次更新进行了性能优化，删除了一些打包依赖项并修复了 60.8.0 版本中一些出现损坏的功能。快照中要更新的另外两个重要软件包是：&lt;a href=&quot;https://virt-manager.org/&quot;&gt;virt-manager&lt;/a&gt; 4.1.0，它刷新和删除了补丁；以及 &lt;a href=&quot;http://rpm.org/wiki/Releases/4.17.1&quot;&gt;rpm 4.17.1&lt;/a&gt;，它修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-3521.html&quot;&gt;CVE-2021-3521&lt;/a&gt;，这是 RPM 签名功能中的一个缺陷。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4JDTDAONDYHOBTE6D5ENBWNQQC6C6ZGA/&quot;&gt;20220807&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NTYQSPSPXPOAEQHSDFTAGWIUSY4JWI4P/&quot;&gt;20220806&lt;/a&gt; 都更新了几个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt;。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4JDTDAONDYHOBTE6D5ENBWNQQC6C6ZGA/&quot;&gt;20220807&lt;/a&gt; 将引导处理包 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/Plymouth/&quot;&gt;plymouth&lt;/a&gt; 更新至 22.02.122 版本，此次更新更新了源代码美化器 &lt;a href=&quot;https://github.com/uncrustify/uncrustify&quot;&gt;uncrustify&lt;/a&gt; 的脚本。本周到达的另一个大版本更新是 hwinfo 22.0。 硬件信息工具 &lt;a href=&quot;https://github.com/openSUSE/hwinfo&quot;&gt;hwinfo&lt;/a&gt; 改进了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/NVM_Express&quot;&gt;NVME&lt;/a&gt; 设备的处理，修复了编译器警告并添加了新的 NVME 硬件类。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 粉丝在快照 &lt;a href=&quot;9https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NVPJHHZN7KZDJYYJR3IZJP6BSZHNQ2NR/&quot;&gt;20220805&lt;/a&gt; 中收到了更新。此次快照发布了 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.25.4/&quot;&gt;KDE Plasma 5.25.4&lt;/a&gt;，并在 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-desktop&quot;&gt;Plasma 桌面&lt;/a&gt;中添加了键盘导航支持。功耗控制器 &lt;a href=&quot;https://invent.kde.org/plasma/powerdevil&quot;&gt;PowerDevil&lt;/a&gt; 更新了电池通知，现在在电池耗尽时插入交流电压时会显示通知。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的文本编辑器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 42.2 修复了文本截断情况并更新了翻译。&lt;a href=&quot;https://aws.amazon.com/cli/&quot;&gt;aws-cli&lt;/a&gt; 更新至 1.25.45，在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup.py&lt;/code&gt; 的规范文件中添加了要求。&lt;a href=&quot;https://ostreedev.github.io/ostree/&quot;&gt;libostree&lt;/a&gt; 2022.5 版本带来了将近一年的更新。该版本为 s390x SE、&lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 附件，并了修复 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 绑定。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/12/new-kernel-harfbuzz-v-update-in-tw/&quot;&gt;New Kernel, HarfBuzz Versions update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/04/Xen-%E5%92%8C-QEMU-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Xen 和 QEMU 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 04 Aug 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/04/Xen-%E5%92%8C-QEMU-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>自上周四以来，openSUSE Tumbleweed 已经连续发布了四个快照。 除了本文标题中列出的软件包之外，本周更新的一些软件包还有 curl、ffmpeg、fetchmail 和 vim 等。 快照 20220801 发布了 xen 4.16.1_06，本次更新提供了几个补丁。其中之一是修复了 GCC 13 编译错误；此次更新还解决了一个 CVE：CVE-2022-33745，由于代码移动而错误地使用了变量，该漏洞会导致错误的 TLB 刷新条件。快照发布的另一个包是 fetchmail 6.4.32；该软件包更新了翻译并添加了一个补丁来清理一些脚本。mozilla-nss 更新至 3.80 版本，进行了许多更改，此次更新添加了一些证书并支持异步客户端身份验证挂钩。该软件包还删除了 Hellenic Academic 2011 根证书。终端多路复用器 tmux，更新到 3.3a 版本并添加了 systemd 套接字激活支持，编译软件时可以使用 -enable-systemd 启用此功能。 快照 20220731 更新了许多软件包。ImageMagick 跳了几个小版本直接更新至 7.1.0.44。ImageMagick 本次更新消除了一些警告和可能的缓冲区溢出。curl 更新至 7.84.0，删除了两个过时的 OpenSSL 选项并修复了四个 CVE。Daniel Stenberg 的视频详细介绍了 CVE-2022-32205，这可能有效地导致了同层级站点可能的拒绝服务。kdump 的更新修复了固件辅助转储的与网络相关的...</description>
-      <content:encoded>&lt;p&gt;自上周四以来，openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 已经连续发布了四个快照。&lt;/p&gt;
-
-&lt;p&gt;除了本文标题中列出的软件包之外，本周更新的一些软件包还有 &lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt;、&lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt;、&lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt; 和 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;http://ftp.uni-erlangen.de/opensuse/tumbleweed/iso/Changes.20220801.txt&quot;&gt;20220801&lt;/a&gt; 发布了 &lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 4.16.1_06，本次更新提供了几个补丁。其中之一是修复了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 13 编译错误；此次更新还解决了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposure&quot;&gt;CVE&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-33745.html&quot;&gt;CVE-2022-33745&lt;/a&gt;，由于代码移动而错误地使用了变量，该漏洞会导致错误的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Translation_lookaside_buffer&quot;&gt;TLB&lt;/a&gt; 刷新条件。快照发布的另一个包是 &lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt; 6.4.32；该软件包更新了翻译并添加了一个补丁来清理一些脚本。&lt;a href=&quot;https://firefox-source-docs.mozilla.org/security/nss/index.html&quot;&gt;mozilla-nss&lt;/a&gt; 更新至 3.80 版本，进行了许多更改，此次更新添加了一些证书并支持异步客户端身份验证挂钩。该软件包还删除了 &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1759815&quot;&gt;Hellenic Academic 2011 根证书&lt;/a&gt;。终端多路复用器 &lt;a href=&quot;https://github.com/tmux/tmux&quot;&gt;tmux&lt;/a&gt;，更新到 3.3a 版本并添加了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 套接字激活支持，编译软件时可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-enable-systemd&lt;/code&gt; 启用此功能。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;http://ftp.uni-erlangen.de/opensuse/tumbleweed/iso/Changes.20220731.txt&quot;&gt;20220731&lt;/a&gt; 更新了许多软件包。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 跳了几个小版本直接更新至 7.1.0.44。ImageMagick 本次更新消除了一些警告和可能的缓冲区溢出。curl 更新至 7.84.0，删除了两个过时的 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 选项并修复了四个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposure&quot;&gt;CVE&lt;/a&gt;。Daniel Stenberg 的&lt;a href=&quot;https://bit.ly/3BK9Kb8&quot;&gt;视频&lt;/a&gt;详细介绍了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-32205.html&quot;&gt;CVE-2022-32205&lt;/a&gt;，这可能有效地导致了同层级站点可能的拒绝服务。&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 的更新修复了&lt;a href=&quot;https://www.kernel.org/doc/html/latest/powerpc/firmware-assisted-dump.html&quot;&gt;固件辅助转储&lt;/a&gt;的与网络相关的 &lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 处理。&lt;a href=&quot;https://github.com/drowe67/codec2&quot;&gt;codec2&lt;/a&gt; 更新至 1.0.5，修复了先前次要版本中的 &lt;a href=&quot;https://freedv.org/&quot;&gt;FreeDV&lt;/a&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 向后兼容性问题。&lt;a href=&quot;https://inkscape.org/&quot;&gt;inkscape&lt;/a&gt; 更新至 1.2.1，修复了 5 个崩溃、超过 25 个错误并改进了 15 个用户界面翻译。PDF 渲染库 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 更新到 22.07.0 版本并修复了在某些文件中填写表单时的崩溃。它还为发布 tarball 添加了 &lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg&lt;/a&gt; 密钥环验证。&lt;a href=&quot;https://dev.gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 更新至 2.3.7 版本，修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-34903.html&quot;&gt;CVE-2022-34903&lt;/a&gt;，在不寻常的情况下，此漏洞可能允许通过注入状态行来伪造签名。快照中要更新的其他关键包是 &lt;a href=&quot;https://unbound.net/&quot;&gt;unbound&lt;/a&gt; 1.16.1、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.33、&lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 4.5.2 和 &lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/&quot;&gt;kernel-firmware&lt;/a&gt; 20220714。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;http://ftp.uni-erlangen.de/opensuse/tumbleweed/iso/Changes.20220729.txt&quot;&gt;20220729&lt;/a&gt; 跳过四个小版本，直接发布了 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;yast2&lt;/a&gt; 4.5.10；新版本添加了根据模组查找包的方法，并修复了 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 初始化。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0073，修复了 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2522&quot;&gt;CVE-2022-2522&lt;/a&gt; 和几个编译器警告。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;安全模块 &lt;a href=&quot;https://apparmor.net/&quot;&gt;Apparmor&lt;/a&gt; 3.0.5 修复了一个构建错误，添加了几个配置文件和抽象附件，并删除了几个上游补丁。GCC 12 和 &lt;a href=&quot;https://ceph.io/&quot;&gt;ceph&lt;/a&gt; 分别在 12.1.1 和 16.2.9 版本中进行了一些小 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;http://ftp.uni-erlangen.de/opensuse/tumbleweed/iso/Changes.20220728.txt&quot;&gt;20220728&lt;/a&gt; 有两个主要版本更新。&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 更新至 7.0 版本，对规范文件进行了大量修改，并正确修复了 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-0216.html&quot;&gt;CVE-2022-0216&lt;/a&gt;。qemu 添加了几个 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 附件；默认支持 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 并启用 Hypervisor 扩展。根据变更日志，该包还添加了新的 audio-dbus 和 ui-dbus 子包。另一个大版本更新是 &lt;a href=&quot;https://fonts.adobe.com/fonts/source-han-serif-traditional-chinese&quot;&gt;adobe-sourcehanserif-fonts&lt;/a&gt; 2.001。新版本为装饰字体添加了针对所有地区的香港特定子集字体和可变字体。另一个要在快照中更新的包是 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt;。ffmpeg 5.1 版本引入了 &lt;a href=&quot;https://ipfs.tech/&quot;&gt;IPFS&lt;/a&gt; 协议支持并删除了 &lt;a href=&quot;https://wiki.archlinux.org/title/XvMC&quot;&gt;XvMC&lt;/a&gt; 硬件加速。该快照还更新了 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.5、&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite2&lt;/a&gt; 3.39.2、&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.36、&lt;a href=&quot;https://github.com/openSUSE/zypper&quot;&gt;zypper&lt;/a&gt; 1.14.55 和许多其他包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/04/xen-qemu-update-in-tw/&quot;&gt;Xen, QEMU update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
