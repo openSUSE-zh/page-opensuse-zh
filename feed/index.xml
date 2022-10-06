@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/05/%E5%BC%80%E8%AE%BE%E5%B1%95%E4%BD%8D-%E6%8F%90%E9%AB%98-openSUSE-%E7%9A%84%E7%9F%A5%E5%90%8D%E5%BA%A6.html</guid>
+      <title>开设展位，提高 openSUSE 的知名度</title>
+      <pubDate>Wed, 05 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/05/%E5%BC%80%E8%AE%BE%E5%B1%95%E4%BD%8D-%E6%8F%90%E9%AB%98-openSUSE-%E7%9A%84%E7%9F%A5%E5%90%8D%E5%BA%A6.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 社区充满了大量的志愿者、专业人士和爱好者，他们为该项目做出了贡献并希望看到它蓬勃发展。 其中一种方法是为活动组织一个 openSUSE 展位。 最近，安全工程师 Paolo Perego 在罗马的一个名为 RomHack Camp 的活动中做到了这一点。Perego 在 9 月 23 日至 25 日举行的活动中学到了很多东西，并在 openSUSE 项目邮件列表上分享了他在 RomHack Camp 的经历。 Perego 写道，会议上的人们惊讶地看到操作系统供应商有一个展位，并且能够让他们知道 openSUSE 也是一个充满开源开发工具的项目。 “以前听说过我们的人认为我们生产的是’派生’发行版，”Perego 在给社区的一份报告中写道。“我解释说，我们使用 rpm，我们在非常早期的阶段开始时就像 Slackware 的分叉一样。” “现在（我们）拥有自己的身份、品牌和增值服务。” Perego 除了鼓励社区成员联系报纸、科技记者和 youtuber 来推广 openSUSE 之外，他还鼓励社区成员采取行动。 “大多数来到我们展位的人都不知道…… openSUSE 的存在，”他写道。 “也许如果我们参加更多这样的活动（它）可能是改变这种状况的第一步。” 成员可以在项目的 wiki 页面上了解有关组织 openSUSE 展位的更多信息。 除了许多发行版之外，openSUSE...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区充满了大量的志愿者、专业人士和爱好者，他们为该项目做出了贡献并希望看到它蓬勃发展。&lt;/p&gt;
+
+&lt;p&gt;其中一种方法是为活动&lt;a href=&quot;https://en.opensuse.org/openSUSE:Organising_a_booth&quot;&gt;组织一个 openSUSE 展位&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;最近，安全工程师 Paolo Perego 在罗马的一个名为 &lt;a href=&quot;https://romhack.camp/&quot;&gt;RomHack Camp&lt;/a&gt; 的活动中做到了这一点。Perego 在 9 月 23 日至 25 日举行的活动中学到了很多东西，并在 &lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;openSUSE 项目邮件列表&lt;/a&gt;上分享了他在 RomHack Camp 的经历。&lt;/p&gt;
+
+&lt;p&gt;Perego 写道，会议上的人们惊讶地看到操作系统供应商有一个展位，并且能够让他们知道 openSUSE 也是一个充满开源开发工具的项目。&lt;/p&gt;
+
+&lt;p&gt;“以前听说过我们的人认为我们生产的是’派生’发行版，”Perego 在&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/52GOSTYK4OO5FVDUYBJFKZGKBF2JVS3G/&quot;&gt;给社区的一份报告&lt;/a&gt;中写道。“我解释说，我们使用 rpm，我们在非常早期的阶段开始时就像 Slackware 的分叉一样。”&lt;/p&gt;
+
+&lt;p&gt;“现在（我们）拥有自己的身份、品牌和增值服务。”&lt;/p&gt;
+
+&lt;p&gt;Perego 除了鼓励社区成员联系报纸、科技记者和 youtuber 来推广 openSUSE 之外，他还鼓励社区成员采取行动。&lt;/p&gt;
+
+&lt;p&gt;“大多数来到我们展位的人都不知道…… openSUSE 的存在，”他写道。 “也许如果我们参加更多这样的活动（它）可能是改变这种状况的第一步。”&lt;/p&gt;
+
+&lt;p&gt;成员可以在项目的 wiki 页面上了解有关&lt;a href=&quot;https://en.opensuse.org/openSUSE:Organising_a_booth&quot;&gt;组织 openSUSE 展位&lt;/a&gt;的更多信息。&lt;/p&gt;
+
+&lt;p&gt;除了许多&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;发行版&lt;/a&gt;之外，openSUSE 还为开源开发人员和业余爱好者提供了一些开源工具，例如 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt;、&lt;a href=&quot;https://openbuildservice.org/&quot;&gt;Open Build Service&lt;/a&gt;、&lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt; 以及更多。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/05/run-a-booth/&quot;&gt;Run a Booth, Increase Awareness of openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E6%9C%80%E5%B0%8F%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E7%BA%A7%E5%88%AB%E5%B0%86%E6%98%AF-x86_64-2.html</guid>
       <title>ALP 最小架构基础级别将是 x86_64-2</title>
       <pubDate>Mon, 26 Sep 2022 18:30:00 -0500</pubDate>
@@ -288,35 +321,6 @@ registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/work
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/25/alp-aims-to-balance-ppf/&quot;&gt;ALP Aims to Balance Past, Present with Future&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/17/Frameworks-PostgreSQL-%E5%92%8C-Vim-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Frameworks、PostgreSQL 和 Vim 在 Tumbleweed 中更新</title>
-      <pubDate>Wed, 17 Aug 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/08/17/Frameworks-PostgreSQL-%E5%92%8C-Vim-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>8 月对于 openSUSE Tumbleweed 来说是个燥动的月份，因为似乎每天都在发布新快照。 Tumbleweed 本周的趋势也是不断地在快照发布后发布新快照。 在快照 20220816 的更新包中，postgresql14 14.5 因修复了一个 CVE 而引起了轰动；在 CVE-2022-2625 中，在没有根据记录的规则遵守使用 CREATE OR REPLACE 或 CREATE IF NOT EXISTS 的扩展时，攻击者可以受害者的权限（受害者也可能是超级用户）运行任意代码。PostgreSQL 在核心服务器中阻止了这种攻击，因此无需修改单独的扩展脚本。现在让我们转到更轻松的话题：本次快照将文件系统实用程序 xfsprogs 更新至 5.19.0。更新后的 xfsprogs 提供了更多的 autoconf 现代化并修复了内存泄漏。它的对应版本，xfsdump 3.1.10 修复了损坏转储的绑定挂载处理，并删除了数据管理 API 支持。由于 xfce4-screenshooter 1.9.11 的更新，Xfce 用户现在可以在 HiDPI 模式下进行窗口捕获。 KDE Frameworks 5.97.0 在快照 20220815 发表，并为 Plasma...</description>
-      <content:encoded>&lt;p&gt;8 月对于 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 来说是个燥动的月份，因为似乎每天都在发布新快照。&lt;/p&gt;
-
-&lt;p&gt;Tumbleweed 本周的趋势也是不断地在快照发布后发布新快照。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/T53U2II5CYG3FT6RK2QGLJOMXIP6LRBN/&quot;&gt;20220816&lt;/a&gt; 的更新包中，postgresql14 14.5 因修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt; 而引起了轰动；在 &lt;a href=&quot;https://www.postgresql.org/support/security/CVE-2022-2625/&quot;&gt;CVE-2022-2625&lt;/a&gt; 中，在没有根据记录的规则遵守使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CREATE OR REPLACE&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CREATE IF NOT EXISTS&lt;/code&gt; 的扩展时，攻击者可以受害者的权限（受害者也可能是超级用户）运行任意代码。&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt; 在核心服务器中阻止了这种攻击，因此无需修改单独的扩展脚本。现在让我们转到更轻松的话题：本次快照将文件系统实用程序 xfsprogs 更新至 5.19.0。更新后的 &lt;a href=&quot;https://xfs.org/&quot;&gt;xfsprogs&lt;/a&gt; 提供了更多的 autoconf 现代化并修复了内存泄漏。它的对应版本，&lt;a href=&quot;https://xfs.org/&quot;&gt;xfsdump&lt;/a&gt; 3.1.10 修复了损坏转储的绑定挂载处理，并删除了数据管理 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 支持。由于 &lt;a href=&quot;https://docs.xfce.org/apps/screenshooter/start&quot;&gt;xfce4-screenshooter&lt;/a&gt; 1.9.11 的更新，&lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户现在可以在 HiDPI 模式下进行窗口捕获。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.97.0/&quot;&gt;Frameworks 5.97.0&lt;/a&gt; 在快照 &lt;a href=&quot;https://kde.org/&quot;&gt;20220815&lt;/a&gt; 发表，并为 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma Desktop&lt;/a&gt; 用户提供了一些修复。Frameworks 更新了当对话框改变大小时的模糊和其他窗口效果；用于密码存储的 &lt;a href=&quot;https://invent.kde.org/frameworks/kwallet&quot;&gt;KWallet Framework&lt;/a&gt; 引入了一个安全服务 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt;。用户界面框架 &lt;a href=&quot;https://develop.kde.org/frameworks/kirigami/&quot;&gt;Kirigami&lt;/a&gt; 为 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt; 水平滚动视图错误添加了解决方法。本次快照还更新了 &lt;a href=&quot;https://invent.kde.org/frameworks/kio&quot;&gt;KIO&lt;/a&gt;，以更好地防止同一&lt;a href=&quot;https://www.pcmag.com/encyclopedia/term/href&quot;&gt;超文本引用&lt;/a&gt;出现重复书签。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 本周进行了第二次更新，更新至 9.0.0203 版本；对&lt;a href=&quot;https://www.intel.com/content/www/us/en/develop/documentation/inspector-user-guide-linux/top/problem-type-reference/invalid-memory-access.html&quot;&gt;无效内存访问&lt;/a&gt;进行了一些修复，并修复了设置“换行符”时虚拟文本的额外空间。诊断、调试和指导用户空间包 &lt;a href=&quot;https://strace.io/&quot;&gt;strace&lt;/a&gt; 更新至 5.19；此次更新改变了行为并实现了一些解码套接字选项和 netlink 属性。快照中最后一个更新的包是 &lt;a href=&quot;https://www.hdfgroup.org/solutions/hdf5/&quot;&gt;hdf5&lt;/a&gt; 1.12.2；这种用于存储科学数据的通用库和文件格式包删除了一个补丁，禁用了另一个补丁，并在 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 上启用了 rpm 和 deb CPack 生成器。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WWDE4M456CUEUF2YDNKAYRKUZ3O7I2QO/&quot;&gt;20220814&lt;/a&gt; 将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新至 5.19.1。近三分之一的内核更新与蓝牙相关，其中大部分是针对 RTL8852C 无线模块的。&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 42.4 进行了一次更新，改进了概览动画性能，并修复了记住蓝牙设备的设置。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的布局和文本渲染包 &lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 更新到 1.50.9 并修复了&lt;a href=&quot;https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Rendering/ThreadedRendering/&quot;&gt;线程&lt;/a&gt;安全问题。引导启动包 &lt;a href=&quot;https://gitlab.freedesktop.org/plymouth/plymouth&quot;&gt;plymouth&lt;/a&gt; 有一个小更新；根据更新日志，该更新可用于检查安全启动配置，并在安全启动被禁用时在屏幕上显示红色警告图像。&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.38.4 和 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/mutter&quot;&gt;mutter&lt;/a&gt; 42.4 也在快照中更新。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; 的二进制工具集 &lt;a href=&quot;https://www.gnu.org/software/binutils/&quot;&gt;binutils&lt;/a&gt; 2.39 是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DQE43NY7I5E632IPRBPT4K7PSDL36PBA/&quot;&gt;20220813&lt;/a&gt; 中唯一更新的软件包。&lt;a href=&quot;https://en.wikipedia.org/wiki/Executable_and_Linkable_Format&quot;&gt;ELF 链接器&lt;/a&gt;现在支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--package-metadata&lt;/code&gt; 选项，该选项允许根据包元数据规范嵌入 &lt;a href=&quot;https://www.json.org/&quot;&gt;JSON&lt;/a&gt; 有效负载。如果堆栈可执行，链接器现在也可以生成警告消息。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/T6WDISAHUWEWIPMJELDBKP4MJOXOMQTT/&quot;&gt;20220812&lt;/a&gt; 更新的软件包相对较少。解析和域名分解器 &lt;a href=&quot;https://rubygems.org/gems/public_suffix&quot;&gt;rubygem-public_suffix&lt;/a&gt; 5.0.0 进行了一次大版本更新；更新了定义并且 &lt;a href=&quot;https://www.ruby-lang.org/&quot;&gt;Ruby&lt;/a&gt; 的最低依赖版本是 2.6。&lt;a href=&quot;https://pypi.org/project/pbr/5.9.0/&quot;&gt;python-pbr&lt;/a&gt; 更新至 &lt;a href=&quot;https://pypi.org/project/pbr/5.9.0/&quot;&gt;5.9.0&lt;/a&gt;，使用 &lt;a href=&quot;https://pypi.org/project/importlib-metadata/&quot;&gt;importlib-metadata&lt;/a&gt; 进行运行时包版本查找，用于管理 setuptools 打包。另一个要在快照中更新的包是 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt;，它删除了一些在 &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 36 中出现的但不需要的链接器选项。&lt;/p&gt;
-
-&lt;p&gt;本周的第一个快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZCCO7VEQFSQSIH4OITXOJ6L4ALE32APV/&quot;&gt;20220811&lt;/a&gt;。此次快照将浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 更新至 103.0.2 版本，为 JAWS 屏幕阅读器的用户修复了菜单快捷方式，并修复了偶尔出现的不可覆盖的证书错误。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-desktop&quot;&gt;gnome-desktop&lt;/a&gt; 42.4 进行了一次更新，对意大利语和塞尔维亚语的翻译进行了更改，并在包含标记时修复了详细文本。&lt;a href=&quot;https://ice-wm.org/&quot;&gt;icewm&lt;/a&gt; 更新至 2.9.8，进行了更改：如果没有窗口管理器处于活动状态，则重新启动将启动 icewm；并且 icewm 还在删除任务时更新了分组菜单。&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 在此快照中进行了本周的第一次更新。&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 更新至 5.19，添加了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;set&lt;/code&gt; 命令和一个与它的 ipstats 相关的组链接（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link&lt;/code&gt;）。&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt;在 &lt;a href=&quot;https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/tree/main/intel-ucode&quot;&gt;ucode-intel&lt;/a&gt; 20220809 更新中修复了一个 CVE；该公司感谢相关人员帮助查找和解决影响某些处理器的 &lt;a href=&quot;https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00657.html&quot;&gt;CVE-2022-21233&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/18/fw-postgre-vim-update-in-tw/&quot;&gt;Frameworks, PostgreSQL, Vim Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
