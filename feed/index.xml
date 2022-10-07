@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/06/QEMU-%E5%92%8C-Vim-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>QEMU 和 Vim 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 06 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/06/QEMU-%E5%92%8C-Vim-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 在 9 月份发布了非常多的快照版本，Tumbleweed 在该月的 30 天中提供了 27 个快照。 自上周五以来，已经发布了四张快照。 快照 20221003 中更新了几个库。其中包括了 Linux 的视频加速 API，libva 2.16.0 的更新；此次更新简化了一些映射表。另一个要更新的库是 libcap 2.66。这个库使 Makefile 更稳固地解决错误，并且包修复了一些文档拼写错误。links 2.28 软件包在遵循来自 consent.google.com 的重定向时禁用了缓存。yast2-network 4.5.8 的更新修复了在没有网关的情况下编写 NetworkManager 配置时出现的问题。用于解析命令行参数的 C 库，popt 1.19，修复了多个资源和内存泄漏。它还改进了随机数处理。快照中还有其他几个包需要更新，包括 libbluray 1.3.3、tdb 1.4.7、python-cryptography 38.0.1 等。 文本编辑器 vim 9.0.0626 在快照 20221001 中更新，并修复了 CVE-2022-3352。vim 还修复了使用 CTRL-C 退出时仍然可见的命令行窗口。qemu 7.1.0...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在 9 月份发布了非常多的快照版本，Tumbleweed 在该月的 30 天中提供了 27 个快照。&lt;/p&gt;
+
+&lt;p&gt;自上周五以来，已经发布了四张快照。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NSXTEHQ237GJYUTFEGEGUB7B2O7MO6ZS/&quot;&gt;20221003&lt;/a&gt; 中更新了几个库。其中包括了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 的视频加速 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt;，&lt;a href=&quot;https://01.org/linuxmedia/vaapi&quot;&gt;libva&lt;/a&gt; 2.16.0 的更新；此次更新简化了一些映射表。另一个要更新的库是 &lt;a href=&quot;https://sites.google.com/site/fullycapable/&quot;&gt;libcap&lt;/a&gt; 2.66。这个库使 &lt;a href=&quot;https://opensource.com/article/18/8/what-how-makefile&quot;&gt;Makefile&lt;/a&gt; 更稳固地解决错误，并且包修复了一些文档拼写错误。&lt;a href=&quot;http://links.twibright.com/&quot;&gt;links&lt;/a&gt; 2.28 软件包在遵循来自 consent.google.com 的重定向时禁用了缓存。&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.8 的更新修复了在没有网关的情况下编写 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 配置时出现的问题。用于解析命令行参数的 C 库，&lt;a href=&quot;https://github.com/rpm-software-management/popt&quot;&gt;popt&lt;/a&gt; 1.19，修复了多个资源和内存泄漏。它还改进了随机数处理。快照中还有其他几个包需要更新，包括 &lt;a href=&quot;https://www.videolan.org/developers/libbluray.html&quot;&gt;libbluray&lt;/a&gt; 1.3.3、&lt;a href=&quot;https://tdb.samba.org/&quot;&gt;tdb&lt;/a&gt; 1.4.7、&lt;a href=&quot;https://pypi.org/project/cryptography/&quot;&gt;python-cryptography&lt;/a&gt; 38.0.1 等。&lt;/p&gt;
+
+&lt;p&gt;文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0626 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/633SD5O3QRIGF5DBR5LBQFVMWOMTMXIG/&quot;&gt;20221001&lt;/a&gt; 中更新，并修复了 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=2022-3352&quot;&gt;CVE-2022-3352&lt;/a&gt;。vim 还修复了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL-C&lt;/code&gt; 退出时仍然可见的命令行窗口。&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 7.1.0 的更新切换了 QEMU Linux 用于在默认情况下模拟与主机相同的 CPU。根据变更日志，虽然有争议且棘手，但对于 Linux 用户来说应该没问题。qemu 还对 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 进行了一些修复，并添加了对特权规范版本 1.12.0 的 RISC-V 支持。qemu 还为 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 的向量扩展提供了优化和改进。php7 7.4.32 是一次安全更新。修复了两个 CVE；其中之一是存在潜在的拒绝服务问题的 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31628&quot;&gt;CVE-2022-31628&lt;/a&gt;，另一个是 &lt;a href=&quot;https://ubuntu.com/security/CVE-2022-31629&quot;&gt;CVE-2022-31629&lt;/a&gt;，它是一个使网络和同一站点的攻击者能够在受害者的浏览器中设置一个标准的不安全 cookie 的漏洞。DBus 接口 &lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 上的超薄层（super-thin layer）更新到 1.7.10 版本。它有几个修复，包括检查无效的深度要求和对齐大于 4GB 的地址。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SJURUX4GO2TUPYCQNJZ273PHBQEF4WYN/&quot;&gt;20220930&lt;/a&gt; 更新了一些 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 软件包。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-logs&quot;&gt;gnome-logs&lt;/a&gt; 和屏幕阅读器语音/盲文包 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/orca&quot;&gt;orca&lt;/a&gt; 都从 beta 版本过渡到了 43 版本。后者防止了通知的双重呈现，并修复了 Nautilus 项目的 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 呈现。它还修复了导致使用错误声音的错误。gnome-logs 和 orca 都更新了翻译，而 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-logs&quot;&gt;gnome-logs&lt;/a&gt; 更新了屏幕截图。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的拼写检查包 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gspell&quot;&gt;gspell&lt;/a&gt; 1.12.0 有一些小的维护任务和简化更改。&lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 更新至 1.50.10 版本，它是一个文本布局和渲染包，固定行高计算。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs18&lt;/a&gt; 更新至 18.10.0，共修复了三个 CVE，只有 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35255&quot;&gt;CVE-2022-35255&lt;/a&gt; 被认为大于中度威胁。本次快照还将 &lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 更新到 4.5.15 版本，可以更好地检测 &lt;a href=&quot;https://github.com/yast/yast-journal&quot;&gt;yast2-journal&lt;/a&gt;。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.19.12 有多个适用于华硕的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;。快照中要更新的其他软件包是 &lt;a href=&quot;https://software.opensuse.org/package/perl-Image-ExifTool&quot;&gt;perl-Image-ExifTool&lt;/a&gt; 12.45 和 &lt;a href=&quot;https://invisible-island.net/xterm/&quot;&gt;xterm&lt;/a&gt; 373。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XIGJUF36OHKJWNPYEPOHQHBLR2CMWMHF/&quot;&gt;20220929&lt;/a&gt; 中需要更新的软件包是 &lt;a href=&quot;https://github.com/FedoraQt/adwaita-qt&quot;&gt;adwaita-qt-src&lt;/a&gt; 1.4.2、&lt;a href=&quot;https://www.qt.io/&quot;&gt;libqt5-qttranslations&lt;/a&gt; 5.15.6 和 &lt;a href=&quot;https://github.com/umlaeute/v4l2loopback&quot;&gt;v4l2loopback&lt;/a&gt; 0.12.7。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/07/qemu-vim-up-in-tw/&quot;&gt;QEMU, Vim update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/05/%E5%BC%80%E8%AE%BE%E5%B1%95%E4%BD%8D-%E6%8F%90%E9%AB%98-openSUSE-%E7%9A%84%E7%9F%A5%E5%90%8D%E5%BA%A6.html</guid>
       <title>开设展位，提高 openSUSE 的知名度</title>
       <pubDate>Wed, 05 Oct 2022 18:30:00 -0500</pubDate>
@@ -296,31 +321,6 @@ registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/work
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/26/mesa-git-gear-more-update-in-tw/&quot;&gt;Mesa, Git, Gear, More Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/24/ALP-%E6%97%A8%E5%9C%A8%E5%B9%B3%E8%A1%A1%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E5%92%8C%E6%9C%AA%E6%9D%A5.html</guid>
-      <title>ALP 旨在平衡过去、现在和未来</title>
-      <pubDate>Wed, 24 Aug 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/08/24/ALP-%E6%97%A8%E5%9C%A8%E5%B9%B3%E8%A1%A1%E8%BF%87%E5%8E%BB-%E7%8E%B0%E5%9C%A8%E5%92%8C%E6%9C%AA%E6%9D%A5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目一直在开发邮件列表中讨论自适应 Linux 平台 (Adaptable Linux Platform, ALP) 技术方面的话题。 一封标题为《x86_64 architecture level requirements, x86-64-v2 for openSUSE Factory》的电子邮件引发了一场讨论，确认了因 x86-64 架构的不同子集的指令集差异而生的挑战。x86-64 体系结构的四个定义级分为 x86-64-v1、x86-64-v2、x86-64-v3 和 x86-64-v4。86-64-v2 之后的较新微架构具有更大的性能优势，并且当前市场上许多较新硬件也采用此类架构。 所有这些架构都存在于 openSUSE Factory 针对特定的构建和发行版的代码流中。例如，openSUSE Tumbleweed 是所有代码一起运行的定制构建蓝图，它为滚动发布分发提供了经过良好测试的快照版本。另一个是超级稳定的 openSUSE Leap 版，它基于多年来朝着成熟目标的构建，此举旨在实现 Leap 和 SUSE Linux Enterprise 之间的一致性。 在过渡到下一个长期的开放周期时，SUSE 的适应性 Linux 平台和 openSUSE 的 ALP 在架构上呈现出分歧，即企业构建适用于未来的硬件，社区构建适用于过去、现在和未来的硬件使用情况。 SUSE 的 ALP...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目一直在开发&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;中讨论自适应 Linux 平台 (Adaptable Linux Platform, ALP) 技术方面的话题。&lt;/p&gt;
-
-&lt;p&gt;一封标题为《&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JTFUDX72VB7WPCBH4CV5E4XYXFWWKHXQ/&quot;&gt;x86_64 architecture level requirements, x86-64-v2 for openSUSE Factory&lt;/a&gt;》的电子邮件引发了一场讨论，确认了因 x86-64 架构的不同子集的指令集差异而生的挑战。&lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt; 体系结构的四个定义级分为 x86-64-v1、x86-64-v2、x86-64-v3 和 x86-64-v4。86-64-v2 之后的较新微架构具有更大的性能优势，并且当前市场上许多较新硬件也采用此类架构。&lt;/p&gt;
-
-&lt;p&gt;所有这些架构都存在于 openSUSE &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;Factory&lt;/a&gt; 针对特定的构建和发行版的代码流中。例如，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 是所有代码一起运行的定制构建蓝图，它为滚动发布分发提供了经过良好测试的快照版本。另一个是超级稳定的 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/15.4/&quot;&gt;Leap&lt;/a&gt; 版，它基于多年来朝着成熟目标的构建，此举旨在实现 Leap 和 SUSE Linux Enterprise 之间的一致性。&lt;/p&gt;
-
-&lt;p&gt;在过渡到下一个长期的开放周期时，SUSE 的适应性 Linux 平台和 openSUSE 的 ALP 在架构上呈现出分歧，即企业构建适用于未来的硬件，社区构建适用于过去、现在和未来的硬件使用情况。&lt;/p&gt;
-
-&lt;p&gt;SUSE 的 &lt;a href=&quot;https://www.suse.com/c/alp-prototype-is-evolving-proof-of-concept-expected-in-fall/&quot;&gt;ALP&lt;/a&gt; 旨在构建一个新的基于不可变特性的操作系统，以在更新的硬件上增强应用层功能和容器编排。预计不久后发布的原型将以 x86-64-v3 架构为基准。&lt;/p&gt;
-
-&lt;p&gt;电子邮件列表中的一项建议将 Factory 从 x86-64-v1 迁移到 x86-64-v2 的提议似乎得到了 80 多条表示赞同的评论。无论决定如何，ALP 向 x86-64-vX 的过渡都将基于社区为 Factory 做出的决定。然而，这并不是关于 x86-64-vX 的全部。openSUSE 的 ALP 同时面向新旧机器用户进行构建。虽然 SUSE 的 ALP 目标架构特定于 v3，但社区不会让用户失望，社区会为这些老硬件提供支持。随着架构的扩展，相同的基于不可变的操作系统预计将为 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 平台的新硬件提供支持。ALP 社区版将利用 Factory 代码流中可用的相同架构可用性。因 openSUSE 对于架构的需求，社区可能需要重构 SUSE 的 ALP。但是，一旦原型发布，发布团队计划运行测试并收集比较数据，以了解 v2 和 v3 的性能差异。希望为迁移路径提供帮助。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/08/25/alp-aims-to-balance-ppf/&quot;&gt;ALP Aims to Balance Past, Present with Future&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
