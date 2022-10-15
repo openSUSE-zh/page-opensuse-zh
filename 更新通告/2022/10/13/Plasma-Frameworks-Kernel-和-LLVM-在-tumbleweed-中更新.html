@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="本周有一个大的和几个较小的 openSUSE Tumbleweed 快照。 Tumbleweed 在本周早些时候发布了一些较小的快照，最新的快照包含了大量需要更新的软件包。 快照 20221012 中要更新的软件包包括 Frameworks 5.99.0 和 Plasma 5.26。Plasma 带来了很多新的变...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新">
+  <meta property="og:description"
+    content="本周有一个大的和几个较小的 openSUSE Tumbleweed 快照。 Tumbleweed 在本周早些时候发布了一些较小的快照，最新的快照包含了大量需要更新的软件包。 快照 20221012 中要更新的软件包包括 Frameworks 5.99.0 和 Plasma 5.26。Plasma 带来了很多新的变...">
+  <meta property=" og:url" content="/_posts/2022-10-14-Plasma%E3%80%81Frameworks%E3%80%81Kernel%20%E5%92%8C%20LLVM%20%E5%9C%A8%20tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Hanjingxue Boling">
+  <meta property="og:article:published_time" content="2022-10-13T18:30:00-05:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/misc/DragonFull.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新">
+  
+  <meta name="twitter:description"
+    content="本周有一个大的和几个较小的 openSUSE Tumbleweed 快照。 Tumbleweed 在本周早些时候发布了一些较小的快照，最新的快照包含了大量需要更新的软件包。 快照 20221012 中要更新的软件包包括 Frameworks 5.99.0 和 Plasma 5.26。Plasma 带来了很多新的变...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+  
+  <meta name="twitter:image" content="/assets/posts/misc/DragonFull.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022">
+			2022
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022/10">
+			
+			十月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2022/10/13">
+			13
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新</h1>
+		<p class="text-center text-muted">
+			2022-10-13
+			|
+			Hanjingxue Boling
+			|
+			CC-BY-SA-3.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/misc/DragonFull.png"
+			alt="Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>本周有一个大的和几个较小的 <a href="https://get.opensuse.org/">openSUSE</a> <a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 快照。</p>
+
+<p>Tumbleweed 在本周早些时候发布了一些较小的快照，最新的快照包含了大量需要更新的软件包。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/C54EI5L7UXL7T72ESVGBH5I6TD4HHUW5/">20221012</a> 中要更新的软件包包括 <a href="https://kde.org/announcements/frameworks/5/5.99.0/">Frameworks 5.99.0</a> 和 <a href="https://kde.org/announcements/plasma/5/5.26.0/">Plasma 5.26</a>。Plasma 带来了很多新的变化。你可以在面板、通知器和 KDE Con​​nect 监视器和音量控制中调整时钟和日历等小部件的大小。所有应用程序部分很容易允许使用按字母顺序排列的索引进行导航。对于智能电视爱好者来说，<a href="https://plasma-bigscreen.org/">Plasma Big Screen</a> 有两款新应用落地；Aura 是专为大屏幕电视设计的浏览器，而 Plank Player 是一个简单易用的媒体播放器，允许从存储设备播放视频。Frameworks 使用 <a href="https://github.com/KDE/kconfig">KConfig</a> 修复了多显示器设置上的大小和位置恢复。Frameworks 修复了使用 <code class="language-plaintext highlighter-rouge">Ctrl+Shift+U</code> 清除 PasswordField 的错误，并更新了桌面主题。用户界面框架 <a href="https://kde.org/products/kirigami/">Kirigami</a> 改进了 <a href="https://api.kde.org/frameworks/plasma-framework/html/classDefaultListItemBackground.html">DefaultListItemBackground</a> 代码。<a href="https://imagemagick.org/index.php">ImageMagick</a> 7.1.0.49 的更新修复了线性 RGB 令人困惑的色彩空间。<a href="https://www.freedesktop.org/wiki/Software/ModemManager/">ModemManager</a> 1.18.12 版本修复了在使用等于或高于 2.73.2 版本的 <a href="https://wiki.gnome.org/Projects/GLib">glib2</a> 时发生的一些非常严重的问题。该软件包还添加了新的 pkgconfig 模块构建要求。<a href="https://www.mozilla.org/">Mozilla Firefox</a> 105.0.3 更新修复了 Linux 系统上使用某些主题时，各种菜单项的对比度差的问题。Firefox 在此次更新中修复了几个额外的 <a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE</a>。其中之一是在初始化图形时导致<a href="https://en.wikipedia.org/wiki/Stack_buffer_overflow">堆栈缓冲区溢出</a>的 <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2022-40/#CVE-2022-40961">CVE-2022-40961</a>。音频和视频包 <a href="https://pipewire.org/">pipewire</a> 0.3.59 的更新修复了节点在添加到图表时可能暂停的情况，这可能导致潜在的崩溃。由于一个 <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> 插件，<a href="https://ice-wm.org/">pipewire</a> 现在有更多选项来控制缓冲区大小。窗口管理器 icewm 3.0.1 更新增加了对选项卡式窗口的支持。快照中还更新了许多其他软件包，包括 <a href="https://www.ffmpeg.org/">ffmpeg-4</a> 4.4.3、<a href="https://github.com/git">git</a> 2.38.0、<a href="https://github.com/harfbuzz/harfbuzz">harfbuzz</a> 5.3.0 和引入了 <a href="https://en.wikipedia.org/wiki/Point-to-Point_Protocol_over_Ethernet">PPPoE</a> 支持的 <a href="https://git.kernel.org/pub/scm/network/iproute2/iproute2.git">iproute2</a> 6.0。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PZAJNUNMKQP2K5563M7BII7SFYQM53H5/">20221008</a> 发布了 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 251.5。新版本修复了<a href="https://github.com/openSUSE/systemd/commit/f279a6f4d1feceaf32fdc790ae242044bb672a16">内存泄漏</a>和与<a href="https://github.com/openSUSE/systemd/commit/175ba30cf64772b136b5b982f04ff3c9a8295e23">无效自省数据</a>有关的警告。拼写检查包 <a href="https://www.cs.hmc.edu/~geoff/ispell.html">ispell</a> 3.4.05 修复了一个导致多种语言出现错误行为的主要错误，并在英语词典中添加了六千多个单词。XZ 和 LZMA 压缩 <a href="https://tukaani.org/xz/">xz</a> 的命令行工具已更新至 5.2.7 版本。它添加了一些土耳其语翻译，修复了与旧 shell 的兼容性并修复了检查类型统计信息的复制。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HNIJQKTOKMY3TLXTLI524GBOHGBGAQZE/">20221006</a> 发布了 <a href="https://www.kernel.org/">Linux 内核</a> 6.0。一些人<a href="https://twitter.com/dmacvicar/status/1578688668688351232?s=20&amp;t=CwdIzuLmkhmG_8LAnws-Qw">没有注意</a>到向新内核的过渡，因为它是快照中唯一要更新的包。新内核引入了对 <a href="https://en.wikipedia.org/wiki/AArch64">AArch64</a> 和 <a href="https://riscv.org/">RISC-V</a> 架构的一些支持。根据<a href="https://www.theregister.com/2022/10/02/linux_kernel_6_0_released/">一些报道</a>，内核 6.1 预计会有一些更大的变化。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3LEX5IRCGHTNEQLCXIZ3O44CGF7TJMKO/">20221004</a> 中有几个主要版本更新。<a href="https://www.postgresql.org/">postgresql</a> 和 <a href="https://llvm.org/">llvm15</a> 15 的两个主要版本都在本次快照中发布。新的 <a href="https://www.postgresql.org/">PostgreSQL</a> 主要版本改进了内存和磁盘排序算法。它还添加了一个新的内置扩展 <code class="language-plaintext highlighter-rouge">pg_walinspect</code>，允许用户直接从 SQL 接口检查预写日志文件的内容。其他更改之一避免了基于 <code class="language-plaintext highlighter-rouge">/bin/sh</code> 的启动脚本中的 <a href="https://en.wiktionary.org/wiki/bashism">bashisms</a>。随着 <a href="https://llvm.org/">llvm15</a> 15.0.1 的更新，RISC-V 后端发生了变化，并对新兴架构进行了各种改进和优化。对于 <a href="https://en.wikipedia.org/wiki/X86-64">x86_64</a> 用户，当使用 <code class="language-plaintext highlighter-rouge">half type</code> 发现故障时，应检查代码的调用转换，切换到新的 <a href="https://en.wikipedia.org/wiki/Application_binary_interface">ABI</a>。<a href="https://llvm.org/">LLVM</a> 的工具有一些新改进：<code class="language-plaintext highlighter-rouge">llvm-ar</code> 新增了一些功能，<code class="language-plaintext highlighter-rouge">llvm-nm</code> 新增了一些选项。<a href="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git">kernel-firmware</a> 更新至 20220930 版本，并为一些<a href="https://www.mediatek.com/">联发科</a>芯片提供 wifi 集成，并为几个 <a href="https://github.com/radeonopencompute/rock-kernel-driver/">AMDGPU</a> 驱动程序添加了一些固件更新。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2022/10/14/plasma-frameworks-kernel-llvm-up-in-tw/">Plasma, Frameworks, Kernel, LLVM update in Tumbleweed</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&amp;title=Plasma%E3%80%81Frameworks%E3%80%81Kernel%20%E5%92%8C%20LLVM%20%E5%9C%A8%20tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=Plasma%E3%80%81Frameworks%E3%80%81Kernel%20%E5%92%8C%20LLVM%20%E5%9C%A8%20tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
