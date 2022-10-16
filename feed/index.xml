@@ -7,6 +7,110 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/15/%E9%95%9C%E5%83%8F%E7%AB%99%E6%9C%8D%E5%8A%A1%E4%B8%AD%E6%96%AD.html</guid>
+      <title>镜像站服务中断</title>
+      <pubDate>Sat, 15 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/15/%E9%95%9C%E5%83%8F%E7%AB%99%E6%9C%8D%E5%8A%A1%E4%B8%AD%E6%96%AD.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>根据上游消息：
+
+
+  Arch Linux Chinese Messages：
+
+
+
+  近日多所高校的镜像站已不可访问，阿里云镜像站亦数日未同步数据。未来几天可能会有更多中国镜像站出现访问问题。请各位用户知悉，如遇更新异常，请参考镜像站状态页面选择另外的站点。
+
+  Arch Linux 官方仓库的状态页面：  
+https://archlinux.org/mirrors/status/ 
+[archlinuxcn] 仓库的状态页面：
+https://build.archlinuxcn.org/~imlonghao/status/
+t.me/archlinuxcn/234
+
+
+
+  SJTUG 镜像站新闻：
+
+
+
+  各位 SJTUG 镜像站用户，
+
+  早上好！接上海交通大学网络信息中心通知，由于上游校园主干网络维护，SJTUG 软件源镜像站 (mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn) 目前公网服务中断。
+
+  本次服务中断的影响范围是 mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn 上存储的所有软件源。
+
+  本次维护的服务不可用时间窗口预计如下。
+
+  
+    2022年10月16日 (周日) 至 2022年10月24日（周一）：上游校园主干网络维护
+  
+
+  感谢您对 SJTUG 镜像站的关注。
+
+
+多个镜像站点近日已经出现服务中断的情况，考虑到 Tumbleweed 的功能特性，受影响的范围主要是系统更新、ISO 镜像文件下载和软件包的获取。
+
+对于只使用镜像站的用户，建议先使用 snapper 工具对当前系统创建一个快照，并等待镜像站点恢复服务后更新，或者参考下文切换到官方服务器：
+
+
+  SDB:添加软件源
+  openSUSE 镜像站列表
+  SDB:配置代理
+
+
+
+</description>
+      <content:encoded>&lt;p&gt;根据上游消息：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/archlinuxcn/234&quot;&gt;Arch Linux Chinese Messages&lt;/a&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;近日多所高校的镜像站已不可访问，阿里云镜像站亦数日未同步数据。未来几天可能会有更多中国镜像站出现访问问题。请各位用户知悉，如遇更新异常，请参考镜像站状态页面选择另外的站点。&lt;/p&gt;
+
+  &lt;p&gt;Arch Linux 官方仓库的状态页面：  &lt;br /&gt;
+https://archlinux.org/mirrors/status/ &lt;br /&gt;
+[archlinuxcn] 仓库的状态页面：&lt;br /&gt;
+https://build.archlinuxcn.org/~imlonghao/status/&lt;br /&gt;
+t.me/archlinuxcn/234&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/sjtug_mirrors_news/67&quot;&gt;SJTUG 镜像站新闻&lt;/a&gt;：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;各位 SJTUG 镜像站用户，&lt;/p&gt;
+
+  &lt;p&gt;早上好！接上海交通大学网络信息中心通知，由于上游校园主干网络维护，SJTUG 软件源镜像站 (mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn) 目前公网服务中断。&lt;/p&gt;
+
+  &lt;p&gt;本次服务中断的影响范围是 mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn 上存储的所有软件源。&lt;/p&gt;
+
+  &lt;p&gt;本次维护的服务不可用时间窗口预计如下。&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;2022年10月16日 (周日) 至 2022年10月24日（周一）：上游校园主干网络维护&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;p&gt;感谢您对 SJTUG 镜像站的关注。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;多个镜像站点近日已经出现服务中断的情况，考虑到 Tumbleweed 的功能特性，受影响的范围主要是系统更新、ISO 镜像文件下载和软件包的获取。&lt;/p&gt;
+
+&lt;p&gt;对于只使用镜像站的用户，建议先使用 &lt;a href=&quot;https://zh.opensuse.org/SDB:Snapper_Tutorial&quot;&gt;snapper 工具&lt;/a&gt;对当前系统创建一个快照，并等待镜像站点恢复服务后更新，或者参考下文切换到官方服务器：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/SDB:%E6%B7%BB%E5%8A%A0%E8%BD%AF%E4%BB%B6%E6%BA%90&quot;&gt;SDB:添加软件源&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mirrors.opensuse.org/&quot;&gt;openSUSE 镜像站列表&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/SDB:%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86&quot;&gt;SDB:配置代理&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/13/Plasma-Frameworks-Kernel-%E5%92%8C-LLVM-%E5%9C%A8-tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Plasma、Frameworks、Kernel 和 LLVM 在 tumbleweed 中更新</title>
       <pubDate>Thu, 13 Oct 2022 18:30:00 -0500</pubDate>
@@ -288,35 +392,6 @@ registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/work
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/09/leap-micro-beta-available-for-testing/&quot;&gt;Leap Micro 5.3 Beta Available for Testing&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/01/Tumbleweed-%E7%BB%A7%E7%BB%AD%E8%BF%9E%E7%BB%AD%E5%8F%91%E5%B8%83%E5%BF%AB%E7%85%A7.html</guid>
-      <title>Tumbleweed 继续连续发布快照</title>
-      <pubDate>Thu, 01 Sep 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/01/Tumbleweed-%E7%BB%A7%E7%BB%AD%E8%BF%9E%E7%BB%AD%E5%8F%91%E5%B8%83%E5%BF%AB%E7%85%A7.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>Tumbleweed 连续每日发布快照的次数达到了惊人的 26 次。 openSUSE Tumbleweed 本周依旧快速滚动中，glibc、ibus、Mozilla Firefox 和 sudo 等软件包都收到了更新。 在快照 20220829 之后，这种情况还会继续吗？ 用户应该很快就会知道。 快照 20220829 为 AppArmor 和 libapparmor3.0.7 提供了更新。新版本修复了 buildpath.py 中的 setuptools-version 检测。日文用户手册 man-pages-ja 20220815 在本次快照中更新，进行了一些改进。tree 2.0.3 版本更新为 .gitignore 功能提供了多个修复，并修复了几个段错误。 快照 20220828 更新了十个包。其中包括 ibus 1.5.27，它在 GNOME 桌面中启用了 ibus 重新启动，并在 Plasma Wayland 中禁用了 XKB 引擎。webkit2gtk3 2.36.7 的更新修复了几个崩溃和渲染问题，并解决了一个与 Apple...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 连续每日发布快照的次数达到了惊人的 26 次。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Tumbleweed 本周依旧快速滚动中，&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt;、&lt;a href=&quot;https://github.com/ibus/ibus&quot;&gt;ibus&lt;/a&gt;、&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 和 &lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 等软件包都收到了更新。&lt;/p&gt;
-
-&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7EMUFLAU26GUSRBO5375FR63YX5R3H5B/&quot;&gt;20220829&lt;/a&gt; 之后，这种情况还会继续吗？ 用户应该很快就会知道。&lt;/p&gt;
-
-&lt;p&gt;快照 20220829 为 AppArmor 和 libapparmor3.0.7 提供了更新。新版本修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;buildpath.py&lt;/code&gt; 中的 setuptools-version 检测。日文用户手册 man-pages-ja 20220815 在本次快照中更新，进行了一些改进。tree 2.0.3 版本更新为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; 功能提供了多个修复，并修复了几个&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;段错误&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ADNYZGI3BMQTOXE4WDBF2KGP5I5FGHB5/&quot;&gt;20220828&lt;/a&gt; 更新了十个包。其中包括 &lt;a href=&quot;https://github.com/ibus/ibus&quot;&gt;ibus&lt;/a&gt; 1.5.27，它在 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 桌面中启用了 ibus 重新启动，并在 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 中禁用了 &lt;a href=&quot;https://wiki.archlinux.org/title/X_keyboard_extension#Basic_information_on_XKB&quot;&gt;XKB 引擎&lt;/a&gt;。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.36.7 的更新修复了几个崩溃和渲染问题，并解决了一个与 Apple 使用该软件包遇到的相关 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; web 框架和异步网络库 &lt;a href=&quot;https://www.tornadoweb.org/&quot;&gt;python-tornado6&lt;/a&gt; 6.2 默认启用 &lt;a href=&quot;https://www.ssl.com/&quot;&gt;SSL 证书&lt;/a&gt;验证和主机名检查，其&lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;持续集成&lt;/a&gt;已从 &lt;a href=&quot;https://www.travis-ci.com/&quot;&gt;Travis&lt;/a&gt; 和 &lt;a href=&quot;https://www.appveyor.com/&quot;&gt;Appveyor&lt;/a&gt; 转移到 &lt;a href=&quot;https://github.com/features/actions&quot;&gt;Github Actions&lt;/a&gt;。快照中要更新的另一个包是字体处理程序 &lt;a href=&quot;https://gitlab.freedesktop.org/xorg/lib/libxfont&quot;&gt;libXfont2&lt;/a&gt; 2.0.6。libXfont2 新版本修复了一些拼写和措辞问题；它还修复了注释以反映删除了对旧版 &lt;a href=&quot;https://en.wikipedia.org/wiki/OS/2&quot;&gt;OS/2&lt;/a&gt; 的支持。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 浏览器新的大版本在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Z57FAHMW4QZDHDMWGMQVGCLRLFOY7P4Q/&quot;&gt;20220827&lt;/a&gt; 中发布。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; 104.0 解决了多个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，包括地址栏欺骗以伪装 URL 的 CVE；另一个修复了一个漏洞，该漏洞可显示内存损坏的证据以及可被用于运行任意代码的可能性。&lt;a href=&quot;https://www.gnu.org/&quot;&gt;GNU&lt;/a&gt; C 库的更新增加了重要的新特性；&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 2.36 添加了 &lt;a href=&quot;https://man7.org/linux/man-pages/man2/process_madvise.2.html&quot;&gt;process_madvise&lt;/a&gt; 和 &lt;a href=&quot;https://lwn.net/Articles/864184/&quot;&gt;process_mrelease&lt;/a&gt; 函数。glibc 添加了对 &lt;a href=&quot;https://sourceware.org/bugzilla/show_bug.cgi?id=27924&quot;&gt;DT_RELR&lt;/a&gt; 重定位格式的支持，并添加了套接字连接 &lt;a href=&quot;https://www.php.net/manual/en/function.fsockopen.php&quot;&gt;fsopen&lt;/a&gt; 和许多其他排序功能。&lt;a href=&quot;https://www.vmware.com/&quot;&gt;VMware&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/vmware/open-vm-tools&quot;&gt;open-vm-tools&lt;/a&gt; 12.1.0 启用了多项功能，可以更好地管理用户与虚拟机的无缝交互，修复了允许本地权限提升的漏洞；它还修复了用于 32 位 Linux 版本的 &lt;a href=&quot;https://docs.vmware.com/en/VMware-Tools/12.0.0/com.vmware.vsphere.vmwaretools.doc/GUID-82490A5C-014C-46D9-815A-18B1C9E5312C.html&quot;&gt;ContainerInfo&lt;/a&gt; 插件的构建。快照中还更新了一些 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt;，例如 &lt;a href=&quot;https://rubygems.org/gems/faraday-net_http/versions/3.0.0&quot;&gt;rubygem-faraday-net_http&lt;/a&gt; 3.0.0、&lt;a href=&quot;https://rubygems.org/gems/parser/versions/2.2.3.0&quot;&gt;rubygem-parser&lt;/a&gt; 3.1.2.1 和 &lt;a href=&quot;https://rubygems.org/gems/rubocop&quot;&gt;rubygem-rubocop&lt;/a&gt; 1.35.1。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/H5IU6SQW7APQ7G4ZXUY4HAOBKGUXD6Z6/&quot;&gt;20220826&lt;/a&gt; 总共更新了三个包。简单的 PIN 或密码短语安全阅读器 pinentry 更新到 1.2.1；&lt;a href=&quot;https://gnupg.org/related_software/pinentry/&quot;&gt;pinentry&lt;/a&gt; 改进了可访问性并修复了初始化期间的错误处理。更新后的 pinentry 还确保了始终从内存中清除输入的 PIN。它的图形用户界面 &lt;a href=&quot;https://gnupg.org/related_software/pinentry/&quot;&gt;pinentry-gui&lt;/a&gt; 也更新到了 1.2.1 版本。将 UNIX 密码文件转换为影子密码格式的 &lt;a href=&quot;https://github.com/shadow-maint/shadow&quot;&gt;shadow&lt;/a&gt; 已更新至 4.12.3 版本。shadow 修复了一个有 9 年历史的 CVE。&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2013-4235.html&quot;&gt;CVE-2013-4235&lt;/a&gt; 修复了在复制和删除目录树时 &lt;a href=&quot;https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use&quot;&gt;TOCTOU&lt;/a&gt; 的竞争条件存在的漏洞。该软件包还更新并修复了一些西班牙语和法语翻译。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.11p3 的次要版本更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4QAT3JA6LVXCDNJ4DMF2UW4CJINQR4ER/&quot;&gt;20220825&lt;/a&gt; 中发布。sudo 修复了 Python 模块在某些系统上与 Python 3.9.10 的崩溃，并且 &lt;a href=&quot;https://apparmor.net/&quot;&gt;AppArmor&lt;/a&gt; 集成可用于 Linux，因此 sudoers 规则现在可以指定一个 APPARMOR_PROFILE 选项来运行一个由命名的 AppArmor 配置文件限制的命令。&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 还修复了 1.9.11p1 中引入的回归，该回归从未在 Tumbleweed 快照中发布；如果命令没有返回输出，则在登录到 sudo_logsrvd 时此漏洞会导致警告。开源磁盘加密包 &lt;a href=&quot;https://gitlab.com/cryptsetup/cryptsetup&quot;&gt;cryptsetup&lt;/a&gt; 更新到 2.5.0 。这个新版本从项目中删除了 cryptsetup-reencrypt 工具，并将 reencryption 移动到已经存在的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptsetup reencrypt&lt;/code&gt; 命令。快照中要更新的其他软件包包括 &lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeBluetooth&quot;&gt;gnome-bluetooth&lt;/a&gt; 42.3、设备内存启用程序 &lt;a href=&quot;https://github.com/pmem/ndctl&quot;&gt;ndctl&lt;/a&gt; 74、&lt;a href=&quot;https://github.com/yast/yast-tune&quot;&gt;yast2-tune&lt;/a&gt; 4.5.1 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/02/tw-continues-release-streak/&quot;&gt;Tumbleweed Continues Release Streak&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
