@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/18/%E5%8C%BB%E7%96%97%E6%B4%BB%E5%8A%A8%E4%BD%BF%E7%94%A8-GNU-Health-openSUSE.html</guid>
+      <title>医疗活动使用 GNU Health、openSUSE</title>
+      <pubDate>Tue, 18 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/18/%E5%8C%BB%E7%96%97%E6%B4%BB%E5%8A%A8%E4%BD%BF%E7%94%A8-GNU-Health-openSUSE.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>2022 年 10 月 19 日，德国纽伦堡：一个非政府组织最近在塞内加尔开展的医疗外科援助活动突出了使用开源软件的好处。 Cirugía Solidaria 是一个在贫困国家提供医疗援助以及其他健康促进活动的非政府组织，其团队于 9 月 23 日至 10 月 3 日与 Elizabeth Diouf 基金会开展了一项活动。 数名医疗专业人员参与该活动，同时使用来自 GNU Health 和 openSUSE 项目的开源技术进行医疗援助。 GNU Health 是一个医院管理信息系统，允许包括护士、外科医生、儿科医生、妇科医生等在内的多学科团队在医疗援助活动期间组织和促进日常医疗护理。医疗团队设备上的医疗软件和打印机都在使用 openSUSE 的本地服务器上运行，这为团队提供了组织、评估和治疗患者的最大机会。 开源设施 10 天不间断运行的同时，医疗团队进行了四次会诊，搭建了五张手术台、一间复苏室和约 40 张病床；使该团队能够为来自塞内加尔不同地区和地区的 1,200 名患者进行诊治，并进行了约 370 台手术，其中包括 77 台儿童手术、八台紧急手术。 这是非洲第二个着重使用 GNU Health 和 openSUSE 软件的卫生项目。去年，喀麦隆克里比沿海地区的 Ebomé 医院采用了这些开源解决方案，接待了数千名患者，扩大了西非的医疗保健服务。...</description>
+      <content:encoded>&lt;p&gt;2022 年 10 月 19 日，德国纽伦堡：一个非政府组织最近在塞内加尔开展的医疗外科援助活动突出了使用开源软件的好处。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.cirugiasolidaria.es/&quot;&gt;Cirugía Solidaria&lt;/a&gt; 是一个在贫困国家提供医疗援助以及其他健康促进活动的非政府组织，其团队于 9 月 23 日至 10 月 3 日与 Elizabeth Diouf 基金会开展了一项活动。&lt;/p&gt;
+
+&lt;p&gt;数名医疗专业人员参与该活动，同时使用来自 &lt;a href=&quot;https://www.gnuhealth.org/&quot;&gt;GNU Health&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目的开源技术进行医疗援助。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gnuhealth.org/&quot;&gt;GNU Health&lt;/a&gt; 是一个&lt;a href=&quot;https://en.wikipedia.org/wiki/Hospital_information_system&quot;&gt;医院管理信息系统&lt;/a&gt;，允许包括护士、外科医生、儿科医生、妇科医生等在内的多学科团队在医疗援助活动期间组织和促进日常医疗护理。医疗团队设备上的医疗软件和打印机都在使用 openSUSE 的本地服务器上运行，这为团队提供了组织、评估和治疗患者的最大机会。&lt;/p&gt;
+
+&lt;p&gt;开源设施 10 天不间断运行的同时，医疗团队进行了四次会诊，搭建了五张手术台、一间复苏室和约 40 张病床；使该团队能够为来自塞内加尔不同地区和地区的 1,200 名患者进行诊治，并进行了约 370 台手术，其中包括 77 台儿童手术、八台紧急手术。&lt;/p&gt;
+
+&lt;p&gt;这是非洲第二个着重使用 &lt;a href=&quot;https://www.gnuhealth.org/&quot;&gt;GNU Health&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 软件的卫生项目。去年，喀麦隆克里比沿海地区的 &lt;a href=&quot;https://news.opensuse.org/2021/10/20/hospital-to-run-gnu-health-openSUSE/&quot;&gt;Ebomé 医院&lt;/a&gt;采用了这些开源解决方案，接待了数千名患者，扩大了西非的医疗保健服务。&lt;/p&gt;
+
+&lt;p&gt;来自 GNU Health 和 openSUSE 的一些团队和成员预计将参加下个月的 &lt;a href=&quot;https://www.gnuhealthcon.org/2022/&quot;&gt;GNU Health 会议&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-10/ogm.jpg&quot; alt=&quot;02&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/19/med-campaign-uses-gnuhealth-opensuse/&quot;&gt;Medical Campaign uses GNU Health, openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/18/openSUSE-%E9%A1%B9%E7%9B%AE%E8%BF%9B%E5%85%A5%E9%80%89%E4%B8%BE%E9%98%B6%E6%AE%B5-0.html</guid>
       <title>openSUSE 项目进入选举阶段 0</title>
       <pubDate>Tue, 18 Oct 2022 18:30:00 -0500</pubDate>
@@ -371,40 +400,6 @@ registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/work
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/15/plasma-gear-frameworks-up-in-tw/&quot;&gt;Plasma, Gear, Frameworks update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/08/Tumbleweed-%E7%BB%93%E6%9D%9F%E4%BA%86%E6%8C%81%E7%BB%AD%E7%9A%84%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0-%E7%BB%A7%E7%BB%AD%E6%BB%9A%E5%8A%A8%E4%B8%AD.html</guid>
-      <title>Tumbleweed 结束了持续的每日更新，继续滚动中</title>
-      <pubDate>Thu, 08 Sep 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/08/Tumbleweed-%E7%BB%93%E6%9D%9F%E4%BA%86%E6%8C%81%E7%BB%AD%E7%9A%84%E6%AF%8F%E6%97%A5%E6%9B%B4%E6%96%B0-%E7%BB%A7%E7%BB%AD%E6%BB%9A%E5%8A%A8%E4%B8%AD.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>Tumbleweed 连续每日发布新快照的记录在上周以 26 个快照的新记录结束，但 openSUSE Tumbleweed 似乎并没有随着快照持续发布的频率而放缓。 快照 20220829 打破了连胜纪录，但 Tumbleweed 本周继续快速前进，并发布了几个快照和软件包更新。 在详细讨论这些快照之前，GNOME 43 可能需要一些援助才能将其纳入 Tumbleweed 快照中。如果你有兴趣，请阅读 @openSUSE 的推文并在 https://matrix.to/#/#gnome:opensuse.org 上与团队进行沟通。 The @gnome 43 release candidate is packaged up in @openSUSE&amp;#39;s GNOME:Next, which is our unstable branch. The extensions haven&amp;#39;t been tested. Looking for people to test. Chat at https://t.co/iEBQH4ZRt9...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 连续每日发布新快照的记录在上周以 26 个快照的新记录结束，但 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Tumbleweed 似乎并没有随着快照持续发布的频率而放缓。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7EMUFLAU26GUSRBO5375FR63YX5R3H5B/&quot;&gt;20220829&lt;/a&gt; 打破了连胜纪录，但 Tumbleweed 本周继续快速前进，并发布了几个快照和软件包更新。&lt;/p&gt;
-
-&lt;p&gt;在详细讨论这些快照之前，&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 43 可能需要一些援助才能将其纳入 Tumbleweed 快照中。如果你有兴趣，请阅读 @openSUSE 的&lt;a href=&quot;https://twitter.com/openSUSE/status/1567513985271865344?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1567513985271865344%7Ctwgr%5Ea2ec627f8fcb14ea35b12478a3daa662de6d5995%7Ctwcon%5Es1_&amp;amp;ref_url=https%3A%2F%2Fnews.opensuse.org%2F2022%2F09%2F08%2Ftw-ends-streak-keeps-rolling%2F&quot;&gt;推文&lt;/a&gt;并在 https://matrix.to/#/#gnome:opensuse.org 上与团队进行沟通。&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;The &lt;a href=&quot;https://twitter.com/gnome?ref_src=twsrc%5Etfw&quot;&gt;@gnome&lt;/a&gt; 43 release candidate is packaged up in &lt;a href=&quot;https://twitter.com/openSUSE?ref_src=twsrc%5Etfw&quot;&gt;@openSUSE&lt;/a&gt;&amp;#39;s GNOME:Next, which is our unstable branch. The extensions haven&amp;#39;t been tested. Looking for people to test. Chat at &lt;a href=&quot;https://t.co/iEBQH4ZRt9&quot;&gt;https://t.co/iEBQH4ZRt9&lt;/a&gt; for more info. &lt;a href=&quot;https://t.co/nTJuOkZ6ae&quot;&gt;pic.twitter.com/nTJuOkZ6ae&lt;/a&gt;&lt;/p&gt;&amp;mdash; openSUSE Linux (@openSUSE) &lt;a href=&quot;https://twitter.com/openSUSE/status/1567513985271865344?ref_src=twsrc%5Etfw&quot;&gt;September 7, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;最新发布的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EJKDOJQ2HQCKHXRYBXNY24TDVLKWNE5G/&quot;&gt;20220907&lt;/a&gt;。&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeBluetooth&quot;&gt;gnome-bluetooth&lt;/a&gt; 42.4 的更新使其 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口现在可以导出 &lt;a href=&quot;https://upower.freedesktop.org/&quot;&gt;UPower&lt;/a&gt; 中列出的所有蓝牙设备的电池信息。&lt;a href=&quot;https://packagehub.suse.com/packages/microos-tools/&quot;&gt;microos-tools&lt;/a&gt; 2.16 更新了 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 的文件和脚本。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.0.8 的更新对 HTTP/2 的可靠性进行了大量改进，并使用默认代理解析器修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http&lt;/code&gt; 代理身份验证。SVG 渲染库 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/librsvg&quot;&gt;librsvg&lt;/a&gt; 已更新至 2.55.1 版本，并正在尝试为 librsvg 提供奇偶版本控制；奇数次要版本将被视为不稳定，偶数次要版本将被视为稳定。这应该很有趣！快照中更新了其他一些软件包，包括 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-firmwarel&lt;/a&gt; 20220902 和 &lt;a href=&quot;https://github.com/yast/yast-vpn&quot;&gt;yast2-vpn&lt;/a&gt; 4.5.1 等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FSWRQZORTARWQWB5L6DGA4RJCZBPHYWF/&quot;&gt;20220906&lt;/a&gt; 中从 5.19.2 更新到 5.19.7。随着&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt;中的 &lt;a href=&quot;https://github.com/radeonopencompute/rock-kernel-driver/&quot;&gt;amdgpu&lt;/a&gt; 驱动程序更新的同时，用户还收到一些 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 修复和更改。用户空间工具集软件包 &lt;a href=&quot;https://sourceware.org/lvm2/&quot;&gt;lvm2&lt;/a&gt; 2.03.16 的更新修复了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;段错误&lt;/a&gt;，添加了几个补丁并修复了精简池扩展上已删除消息的丢失。&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/Plymouth/&quot;&gt;Plymouth&lt;/a&gt; 22.02.122 的更新对虚拟现实进行了更改，因为不需要在&lt;a href=&quot;https://en.wikipedia.org/wiki/Virtual_reality_headset&quot;&gt;虚拟现实眼镜&lt;/a&gt;上显示启动屏幕。或者需要？文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0381 修复了一些崩溃、闪烁和发出警告的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Clang&quot;&gt;Clang&lt;/a&gt; 静态分析器。快照中还对 &lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite&lt;/a&gt; 3.39.3 和其他软件包进行了更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LCR7HLZW5WQW565NHFVQVAURAJSUQJ32/&quot;&gt;20220905&lt;/a&gt; 中仅更新了两个包。网络映射工具 &lt;a href=&quot;https://nmap.org/&quot;&gt;nmap&lt;/a&gt; 发布 7.93 版本以&lt;a href=&quot;https://nmap.org/p51-11.html&quot;&gt;纪念 Nmap 发布 25 周年&lt;/a&gt;。恭喜！该工具升级了几个库并确保 &lt;a href=&quot;https://nmap.org/&quot;&gt;Nmap&lt;/a&gt; 使用 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.0 构建，同时不使用已弃用的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 函数。该软件包还修复了一个错误，该错误会阻止它在未配置 IPv4 地址时发现 Linux 上的接口。另一个要更新的软件包是 Thunderbolt 3 设备管理器 &lt;a href=&quot;https://gitlab.freedesktop.org/bolt/bolt&quot;&gt;bolt&lt;/a&gt; 0.9.3。该更新围绕 &lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib&lt;/a&gt; 创建了一个工作。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/RUJ2PAIXWPV7AZS3U3ZVMLNTH5UKMHY5/&quot;&gt;20220904&lt;/a&gt; 更新了十几个软件包。其中包括：&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 0.15.5、&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.37.3、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.43、&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.1、&lt;a href=&quot;https://github.com/openSUSE/zypper&quot;&gt;zypper&lt;/a&gt; 1.14.56 和 &lt;a href=&quot;https://www.hboehm.info/gc/&quot;&gt;gc&lt;/a&gt; 8.2.2。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 的更新纠正了一些回归并进行了一些 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git fsck&lt;/code&gt; 改进。openSUSE 的 &lt;a href=&quot;https://github.com/openSUSE/zypper&quot;&gt;zypper&lt;/a&gt; 确保 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;up&lt;/code&gt; 尊重求解器相关的命令行界面选项。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NGLGIEHGPWUYWF5WLPNNNFBR5K7Z3DJG/&quot;&gt;20220903&lt;/a&gt; 对 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfs&lt;/a&gt; 进行了更新。文件系统 btrfs 的更新为 &lt;a href=&quot;http://www.oberhumer.com/opensource/lzo/&quot;&gt;LZO&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/facebook/zstd&quot;&gt;ZSTD&lt;/a&gt; 压缩提供了一些可选支持；该更新还带来了与 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 2.36 的一些兼容性。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12.2.1+git416 的更新最近从主干向后移植了一些修复，并对 armv7l 架构进行了一些更改。像素编码器和色彩空间转换器包 &lt;a href=&quot;https://gegl.org/babl/&quot;&gt;babl&lt;/a&gt; 0.1.96 删除了一些补丁并修复了单指令多数据 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_instruction,_multiple_data&quot;&gt;SIMD&lt;/a&gt;) 的非对齐数据崩溃。其他要更新的软件包是 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 8.7.0、&lt;a href=&quot;http://sg.danny.cz/scsi/lsscsi.html&quot;&gt;lsscsi&lt;/a&gt; 0.32、&lt;a href=&quot;https://upower.freedesktop.org/&quot;&gt;upower&lt;/a&gt; 1.90.0 和几个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;自连续更新中断以来发布的第一个快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/D7ASEAMXO5K7ALZCB3X53D4HYJFV4KF5/&quot;&gt;20220901&lt;/a&gt;。此快照更新了 &lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; &lt;a href=&quot;https://youtu.be/I4vYSKjvHGE&quot;&gt;7.85.0&lt;/a&gt;。新版本中有 79 位贡献者；此次更新还修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://curl.se/docs/CVE-2022-35252.html&quot;&gt;CVE-2022-35252&lt;/a&gt; 是在 curl 4.9 中引入的，&lt;a href=&quot;https://youtu.be/I4vYSKjvHGE?t=174&quot;&gt;允许“姐妹站点”拒绝为兄弟站点提供服务&lt;/a&gt;。该版本更新还增加了对&lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;传输层安全协议&lt;/a&gt; 1.3 的支持。&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.40.0 在本次快照中更新；如果设备上的 &lt;a href=&quot;https://en.wikipedia.org/wiki/MAC_address&quot;&gt;MAC&lt;/a&gt; 发生变化，现在可以重新启动 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol&quot;&gt;DHCP&lt;/a&gt;。NetworkManager 也进行了一些国际化和本地化更改。&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.14.0 的更新改进了对在两个本地设备之间传输文件的支持，称为&lt;a href=&quot;https://en.wikipedia.org/wiki/Sideloading&quot;&gt;侧载&lt;/a&gt;。该软件部署和包管理实用程序还为 &lt;a href=&quot;https://curl.se/libcurl/&quot;&gt;libcurl&lt;/a&gt; 添加了包配置，以启用新的 HTTP 后端。快照中要更新的其他软件包包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20220820、&lt;a href=&quot;https://wiki.gnome.org/Projects/Grilo&quot;&gt;grilo&lt;/a&gt; 0.3.15、&lt;a href=&quot;https://mariadb.org/&quot;&gt;mariadb&lt;/a&gt; 10.8.3、一个 &lt;a href=&quot;https://wiki.archlinux.org/title/Kdump&quot;&gt;kdump&lt;/a&gt; git 更新等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/08/tw-ends-streak-keeps-rolling/&quot;&gt;Tumbleweed Ends Continuous Streak, Keeps Rolling&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
