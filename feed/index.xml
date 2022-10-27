@@ -7,6 +7,50 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/26/%E5%91%BC%E5%90%81%E7%94%A8%E6%88%B7%E6%B5%8B%E8%AF%95%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.html</guid>
+      <title>呼吁用户测试下一代安装程序</title>
+      <pubDate>Wed, 26 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/26/%E5%91%BC%E5%90%81%E7%94%A8%E6%88%B7%E6%B5%8B%E8%AF%95%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目的发布团队成员正在请求社区帮助 YaST 团队对安装镜像进行早期测试。
+
+安装器正在提交至 openSUSE Factory，并稍后将在 Adaptable Linux Platform 原型中发布。
+
+该安装器被 YeaST 团队称为 D-Installer，具有可用于测试的系统安装镜像，开发团队并正在通过反馈指南寻求建议或反馈。
+
+指南中有几组说明旨在征求对下一代安装程序的反馈。
+
+该团队还希望将 D-Installer 重命名为另一个名称，并且 openSUSE 的一则推文请求人们建议一个新名称。D-Installer 可一目了然地检查安装设置，这是发布团队希望社区在接下来的几周内关注的关键领域之一。
+
+安装器研讨会计划在 11 月 8 日的社区会议期间举行。人们可以使用此反馈指南来测试下一代安装器的技术细节，并在文档中或在研讨会期间提供反馈。
+
+当前的 ALP 原型只适用于 x86-64 架构。
+
+
+
+原文：Call for Testing Next Generation Installer，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;的发布团队成员正在请求社区帮助 &lt;a href=&quot;https://yast.opensuse.org/blog&quot;&gt;YaST 团队&lt;/a&gt;对&lt;a href=&quot;https://build.opensuse.org/package/binaries/YaST:Head:D-Installer/d-installer-live/images&quot;&gt;安装镜像&lt;/a&gt;进行早期测试。&lt;/p&gt;
+
+&lt;p&gt;安装器正在提交至 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt;，并稍后将在 Adaptable Linux Platform &lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E5%8E%9F%E5%9E%8B-Les-Droites-%E9%A2%84%E8%AE%A1%E5%B0%86%E4%BA%8E%E6%9C%AC%E5%91%A8%E6%99%9A%E4%BA%9B%E6%97%B6%E5%80%99%E6%8E%A8%E5%87%BA.html&quot;&gt;原型&lt;/a&gt;中发布。&lt;/p&gt;
+
+&lt;p&gt;该安装器被 YeaST 团队称为 D-Installer，具有可用于测试的&lt;a href=&quot;https://build.opensuse.org/package/binaries/YaST:Head:D-Installer/d-installer-live/images&quot;&gt;系统安装镜像&lt;/a&gt;，开发团队并正在通过&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;反馈指南&lt;/a&gt;寻求建议或反馈。&lt;/p&gt;
+
+&lt;p&gt;指南中有几组说明旨在征求对下一代安装程序的反馈。&lt;/p&gt;
+
+&lt;p&gt;该团队还希望将 D-Installer 重命名为另一个名称，并且 openSUSE 的一则推文请求人们建议一个新名称。D-Installer 可一目了然地检查安装设置，这是发布团队希望社区在接下来的几周内关注的关键领域之一。&lt;/p&gt;
+
+&lt;p&gt;安装器研讨会计划在 11 月 8 日的社区会议期间举行。人们可以使用此&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;反馈指南&lt;/a&gt;来测试下一代安装器的技术细节，并在&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;文档&lt;/a&gt;中或在研讨会期间提供反馈。&lt;/p&gt;
+
+&lt;p&gt;当前的 ALP 原型只适用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt; 架构。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/27/call-for-testing-next-gen-installer/&quot;&gt;Call for Testing Next Generation Installer&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/20/Audacity-Gear-%E5%92%8C-GPG-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Audacity、Gear 和 GPG 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 20 Oct 2022 18:30:00 -0500</pubDate>
@@ -369,35 +413,6 @@ registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/work
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-les-droites/&quot;&gt;ALP prototype ‘Les Droites’ is to be expected later this week.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/20/Virtualbox-grep-%E5%92%8C-gawk-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Virtualbox、grep 和 gawk 在 Tumbleweed 中更新</title>
-      <pubDate>Tue, 20 Sep 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/09/20/Virtualbox-grep-%E5%92%8C-gawk-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 本周继续以稳定的节奏发布新快照。 自快照 20220903 以来，Tumbleweed 似乎一直在连续发布快照。 快照 20220919 更新了两个包。其中之一是与 X.509 证书一起使用的 libksba 1.6.1，它修复了 rpmlint 警告，并现在确保在线证书状态协议服务器不会返回发送的 Nonce。另一个要更新的软件包是 xfce4-pulseaudio-plugin 0.4.5，它修复了意外切换静音开关和使用 GCC 10 进行编译的问题。 快照 20220918 更新了 virtualbox 6.1.38。此次版本更新修复了数个 CVE。CVE-2022-21571 和 CVE-2022-21554 都可能允许虚拟机未经授权获得造成挂起或重复崩溃的能力。virtualbox-kmp 在本次快照中更新，引入了对 Linux Kernel 6.0 的原始支持。该软件包还修复了 /dev/vboxuser 的权限问题。快照中要更新的其他软件包是 ibus-m17n 1.4.17、python-charset-normalizer 2.1.1 和 python-idna 3.4，它们已更新到最近发布的 Unicode 15.0.0。 快照 20220917 中更新了数个包。静态代码分析工具 cppcheck...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周继续以稳定的节奏发布新快照。&lt;/p&gt;
-
-&lt;p&gt;自快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NGLGIEHGPWUYWF5WLPNNNFBR5K7Z3DJG/&quot;&gt;20220903&lt;/a&gt; 以来，Tumbleweed 似乎一直在连续发布快照。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FB3PBVZ4SB6HQ3DIC4CAQ4JYISOW5GQ7/&quot;&gt;20220919&lt;/a&gt; 更新了两个包。其中之一是与 &lt;a href=&quot;https://en.wikipedia.org/wiki/X.509&quot;&gt;X.509&lt;/a&gt; 证书一起使用的 &lt;a href=&quot;https://gnupg.org/software/libksba/index.html&quot;&gt;libksba&lt;/a&gt; 1.6.1，它修复了 &lt;a href=&quot;https://github.com/rpm-software-management/rpmlint&quot;&gt;rpmlint&lt;/a&gt; 警告，并现在确保在线证书状态协议服务器不会返回发送的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Cryptographic_nonce&quot;&gt;Nonce&lt;/a&gt;。另一个要更新的软件包是 &lt;a href=&quot;https://docs.xfce.org/panel-plugins/xfce4-pulseaudio-plugin/start&quot;&gt;xfce4-pulseaudio-plugin 0.4.5&lt;/a&gt;，它修复了意外切换静音开关和使用 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 10 进行编译的问题。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OJRDN6OHLCBTV7PG6V2EVZKC4PHLC5T6/&quot;&gt;20220918&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.38。此次版本更新修复了数个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-21571.html&quot;&gt;CVE-2022-21571&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-21554.html&quot;&gt;CVE-2022-21554&lt;/a&gt; 都可能允许虚拟机未经授权获得造成挂起或重复崩溃的能力。&lt;a href=&quot;https://software.opensuse.org/package/virtualbox-kmp-default&quot;&gt;virtualbox-kmp&lt;/a&gt; 在本次快照中更新，引入了对 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.0 的原始支持。该软件包还修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/dev/vboxuser&lt;/code&gt; 的权限问题。快照中要更新的其他软件包是 &lt;a href=&quot;https://github.com/ibus/ibus-m17n&quot;&gt;ibus-m17n&lt;/a&gt; 1.4.17、&lt;a href=&quot;https://github.com/ousret/charset_normalizer&quot;&gt;python-charset-normalizer&lt;/a&gt; 2.1.1 和 &lt;a href=&quot;https://pypi.org/project/idna/&quot;&gt;python-idna&lt;/a&gt; 3.4，它们已更新到最近发布的 &lt;a href=&quot;https://unicode.org/versions/Unicode15.0.0/&quot;&gt;Unicode 15.0.0&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/L6BCPBL5VMOK2MGJCIWGA4A2ACDLNPCM/&quot;&gt;20220917&lt;/a&gt; 中更新了数个包。静态代码分析工具 &lt;a href=&quot;https://github.com/danmar/cppcheck&quot;&gt;cppcheck&lt;/a&gt; 2.9 从外部函数调用传播条件值，它支持在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;valueflow&lt;/code&gt; 中评估更多数学函数。&lt;a href=&quot;https://github.com/dracutdevs/dracut&quot;&gt;dracut&lt;/a&gt; 的更新更改了默认的持久性策略并修复了由不属于包的 bash-completion 目录引起的&lt;a href=&quot;https://forums.opensuse.org/showthread.php/464077-directories-not-owned-by-a-package&quot;&gt;“不属于包的目录”&lt;/a&gt;。&lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.14 的更新从代码中删除了一些模式；&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.7 的更新进行了一次变更，现在会在导入和读取网络配置之前激活 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 设备；否则相关的 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 设备将不存在并且会被忽略。快照中更新的其他一些软件包是 &lt;a href=&quot;https://github.com/openSUSE/microos-tools&quot;&gt;microos-tools&lt;/a&gt; 2.17 和 &lt;a href=&quot;https://www.python.org/downloads/release/python-3107/&quot;&gt;python310 3.10.7&lt;/a&gt;，解决了 python 语言中一个被标记为 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2020-10735.html&quot;&gt;CVE-2020-10735&lt;/a&gt; 的缺陷。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/N3WFZ3GUTKOH466MTFG2PVQNL7L24D6C/&quot;&gt;20220916&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.gnu.org/software/grep/&quot;&gt;grep&lt;/a&gt; 3.8；该软件包现在警告 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egrep&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fgrep&lt;/code&gt; 都已过时，取而代之的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -E&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep -F&lt;/code&gt;。&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.58 的更新修复了启动系统流时的一些回归和潜在的崩溃。当使用过滤器链，并在配置文件中使用不存在的控件属性时，grep 会发出警告。文件类型识别包 &lt;a href=&quot;https://www.darwinsys.com/file/&quot;&gt;file&lt;/a&gt; 5.43 增加了 &lt;a href=&quot;https://facebook.github.io/zstd/&quot;&gt;zstd&lt;/a&gt; 解压支持和对 &lt;a href=&quot;http://ndjson.org/&quot;&gt;ndjson.org&lt;/a&gt; 的支持。&lt;a href=&quot;https://www.gnu.org/software/gawk/&quot;&gt;gawk&lt;/a&gt; 5.2.0 的更新现在支持 Terence Kelly 的&lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3534855&quot;&gt;持久化 malloc&lt;/a&gt;，允许实用程序解释器在运行之间保留其变量、数组和用户定义的函数。快照中要更新的其他一些软件包是 &lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fuse3&lt;/a&gt; 3.12.0、&lt;a href=&quot;https://sourceforge.net/projects/hdparm/&quot;&gt;hdparm&lt;/a&gt; 9.65 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 等。&lt;/p&gt;
-
-&lt;p&gt;本周开始更新的是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3SIOZZQ5YRGJZGYQGBKSS24N27RPOCRP/&quot;&gt;20220915&lt;/a&gt;。此快照更新了 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg-5&lt;/a&gt; 5.1.1，解决了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-2566.html&quot;&gt;CVE-2022-2566&lt;/a&gt;。ffmpeg-5 还修复了未初始化值的使用。&lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt; 3.2.6 对文件列表验证代码进行了一些改进，并为文件传输包添加了安全检查。快照中更新了其他一些软件包。&lt;/p&gt;
-
-&lt;p&gt;你可在&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;邮件列表&lt;/a&gt;中阅读有关 Tumbleweed 快照的软件包更新的更多信息。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/21/vb-grep-gawk-up-in-tw/&quot;&gt;Virtualbox, grep, gawk update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
