@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/27/GStreamer-GNOME-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>GStreamer、GNOME 和 systemd 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 27 Oct 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/27/GStreamer-GNOME-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 继续在本周每日发布新快照，此次新纪录是 15 个。 本周的滚动更新为用户带来了 fetchmail、GNOME、GStreamer、rsync 和 systemd 等软件包的更新。 快照 20221026 更新了一些软件包。文本编辑器 vim 9.0.0814 修复了 Kitty 终端和无法识别的 Clang 格式配置文件。vim 还使用空 shell 命令修复了内存泄漏，并且 OpenVPN 文件也无法识别。用于智能卡读卡器的 Linux 驱动程序包 pcsc-towitoko 2.0.8 更正了为西班牙国民身份证等某些卡设置的过低超时值。可移植的外部函数接口包 libffi 3.4.4 具有重要的 AArch64 修复，其中包括对具有链接时优化的 Linux 构建的支持。包装库 libp11 0.4.12 修复了几个内存泄漏和一些在令牌上的存储证书。 gstreamer 1.20.4 的更新在快照 20221025 中发布，它修复了一个在更新未更改的 ping 源时发生的崩溃，更新了翻译，并且现在在更新客户端剪贴板时总是清除 MIME 类型表。几个 gstreamer...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 继续在本周每日发布新快照，此次新纪录是 15 个。&lt;/p&gt;
+
+&lt;p&gt;本周的滚动更新为用户带来了 &lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt;、&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt;、&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt;、&lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt; 和 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 等软件包的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3GKBGS352GFFCTUQ6K7373KPWEKHYOGM/&quot;&gt;20221026&lt;/a&gt; 更新了一些软件包。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0814 修复了 &lt;a href=&quot;https://sw.kovidgoyal.net/kitty/index.html&quot;&gt;Kitty 终端&lt;/a&gt;和无法识别的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Clang&quot;&gt;Clang&lt;/a&gt; 格式配置文件。vim 还使用空 shell 命令修复了内存泄漏，并且 &lt;a href=&quot;https://openvpn.net/&quot;&gt;OpenVPN&lt;/a&gt; 文件也无法识别。用于智能卡读卡器的 Linux 驱动程序包 &lt;a href=&quot;https://github.com/cprados/towitoko-linux&quot;&gt;pcsc-towitoko&lt;/a&gt; 2.0.8 更正了为西班牙国民身份证等某些卡设置的过低超时值。可移植的外部函数接口包 &lt;a href=&quot;https://github.com/libffi/libffi&quot;&gt;libffi 3.4.4&lt;/a&gt; 具有重要的 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 修复，其中包括对具有&lt;a href=&quot;https://developer.arm.com/documentation/101458/2100/Optimize/Link-Time-Optimization--LTO-/What-is-Link-Time-Optimization--LTO-&quot;&gt;链接时优化&lt;/a&gt;的 Linux 构建的支持。包装库 &lt;a href=&quot;https://github.com/OpenSC/libp11&quot;&gt;libp11&lt;/a&gt; 0.4.12 修复了几个内存泄漏和一些在令牌上的存储证书。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;gstreamer&lt;/a&gt; 1.20.4 的更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/22MJFGX6526DQONOVPOOHHHYP547ACAR/&quot;&gt;20221025&lt;/a&gt; 中发布，它修复了一个在更新未更改的 ping 源时发生的崩溃，更新了翻译，并且现在在更新客户端剪贴板时总是清除 &lt;a href=&quot;https://en.wikipedia.org/wiki/Media_type&quot;&gt;MIME 类型&lt;/a&gt;表。几个 gstreamer 插件也更新到 1.20.4 版本。xwayland 22.1.4 的更新提高了 Wayland 构建要求并修复了一些过度缓存。&lt;a href=&quot;https://wiki.gnome.org/Apps/Maps&quot;&gt;gnome-maps&lt;/a&gt; 43.1 的更新修复了与 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 端口相关的各种问题并修复了几个&lt;a href=&quot;https://en.wikipedia.org/wiki/Drag_and_drop&quot;&gt;拖放&lt;/a&gt;问题。文件压缩包 &lt;a href=&quot;https://github.com/zchunk/zchunk&quot;&gt;zchunk&lt;/a&gt; 1.2.3 增加了许可证扫描报告和状态的可用性。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt;，它更新了捷克语、荷兰语、斯洛伐克语、日语和加泰罗尼亚语。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OPNWWMPHZODBGIEI7RYQVFJS2CBKZ72Z/&quot;&gt;20221024&lt;/a&gt; 中仅更新了两个包。&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.6 修复了配置文件位置解析和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;add repo&lt;/code&gt; URL 方案的问题。autoyast2 还为选定的网络后端添加了包，以防止它在软件部分中被声明。另一个需要更新的软件包是从 20221019 恢复到 20220714 版本的 selinux-policy。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 43.1 的更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XZ3S5XI6A7CWX6EK3MXUM2KNHC2N7W6U/&quot;&gt;20221023&lt;/a&gt; 中到达。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME 社区&lt;/a&gt;发布的次要版本修复了在同时安装和卸载应用程序时搜索未完成的问题。gnome-software 修复了存在包冲突时的发行版升级，并修复了在启动期间显示脱机更新错误时的崩溃。浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 更新至 106.0.1 版本，它解决了使用 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; Zen 1 &lt;a href=&quot;https://en.wikipedia.org/wiki/Central_processing_unit&quot;&gt;CPU&lt;/a&gt; 的用户遇到的崩溃问题。本次快照更新了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12，添加了与 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 相关的补丁，并将嵌入式库 newlib 更新为 4.2.0 版本。Linux &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.0.3 的更新对在释放请求后对非易失性内存的处理效果进行了一些更改。域名查询包 &lt;a href=&quot;https://github.com/rfc1036/whois&quot;&gt;whois&lt;/a&gt; 5.5.14 添加了 &lt;a href=&quot;https://whois.auda.org.au/&quot;&gt;whois.auda.org.au&lt;/a&gt; 的隐藏字符串。DBus 接口 &lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 1.8.6 上的超薄层封装修复了获取 &lt;a href=&quot;https://en.wikipedia.org/wiki/I%C2%B2C&quot;&gt;I²C 总线编号&lt;/a&gt; 时的回归问题。渲染扩展库 &lt;a href=&quot;https://xorg.freedesktop.org/wiki/&quot;&gt;libXrender&lt;/a&gt; 还在 0.9.11 版本更新中修复了一个回归问题。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NH3N5DUWIBLXNV7IZWVJRX3M7YLKOSDC/&quot;&gt;20221022&lt;/a&gt; 更新了3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.2.2。Mesa 添加了一个补丁来修复 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 优化，以避免在 ARMv7 上出现故障。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 251.6 更新避免了导致安装错误的注释中的扩展宏。该软件包还确保从 &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_release_life_cycle#RTM&quot;&gt;RTM 镜像&lt;/a&gt;安装时不会在系统上复制相同的种子。&lt;a href=&quot;https://linux.die.net/man/1/cpupower&quot;&gt;cpupower&lt;/a&gt; 6.0.2 的主要版本更新删除了 powercap 功能以修补最新的 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-sources&lt;/a&gt;。&lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt; 包在 3.2.7 版本中修复了远程发送者过滤行为的客户端验证，并且优化了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--fuzzy&lt;/code&gt; 选项，以减少考虑大文件池时的计算量，这使得速度提高了约2倍。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2022-44/&quot;&gt;106.0&lt;/a&gt; 的主要版本更新修复了六个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;；例如如果网站以特定方式调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window.print()&lt;/code&gt;，可能会导致浏览器&lt;a href=&quot;https://en.wikipedia.org/wiki/Denial-of-service_attack&quot;&gt;拒绝服务&lt;/a&gt;的 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2022-44/#CVE-2022-42929&quot;&gt;CVE-2022-42929&lt;/a&gt;。&lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;Harfbuzz&lt;/a&gt; 5.3.1 和其他几个软件包在快照中进行了更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TCIEP2J32ZLLJZBYCR4E5XUMZKGSF376/&quot;&gt;20221021&lt;/a&gt; 仅更改了一个包；&lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt; 删除了一个需要 &lt;a href=&quot;https://github.com/openSUSE/python-rpm-macros&quot;&gt;python-rpm-macros&lt;/a&gt; 的子包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SFCYFDH5I3BKD2N2XQ7FUX42C7OEQ2ZY/&quot;&gt;20221020&lt;/a&gt; 也更新了 &lt;a href=&quot;https://www.fetchmail.info/&quot;&gt;fetchmail&lt;/a&gt;。Fetchmail 6.4.34 更新了塞尔维亚语翻译并修复了一个错误，该错误会在 SMTP 接收者拒绝投递时启用软退回选项，但仍会从邮件存储中删除邮件。&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.40.2 的更新修复了几个&lt;a href=&quot;https://en.wikipedia.org/wiki/Race_condition&quot;&gt;竞争条件&lt;/a&gt;行为，如果所有地址都未能通过 &lt;a href=&quot;https://en.wikipedia.org/wiki/IPv6&quot;&gt;IPv6&lt;/a&gt; &lt;a href=&quot;https://www.ibm.com/docs/en/zos/2.2.0?topic=discovery-duplicate-address-detection&quot;&gt;重复地址检测&lt;/a&gt;，它现在会拒绝 DHCPv6 租约。&lt;a href=&quot;https://kde.org/announcements/plasma/5/5.26.1/&quot;&gt;Plasma 5.26.1&lt;/a&gt; 更新带来了错误修复。软件中心 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 提高了 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 测试的可靠性，但也禁用了持续集成上的测试。当服务器没有响应时，Plasma 的 Audio Volume Control 现在应该不会崩溃，并且 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-desktop&quot;&gt;Plasma Desktop&lt;/a&gt; 使 &lt;a href=&quot;https://userbase.kde.org/Plasma/Pager&quot;&gt;Pager&lt;/a&gt; 小部件的拖放更加可靠。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-control-center&quot;&gt;gnome-control-center&lt;/a&gt; 43.1 的更新修复了编辑网络时崩溃的问题。&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 6.1.40 更新修复了在控制器重置端口，设备分离时的崩溃。&lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 65.5.0 改进了其文档中关于当前工作目录中的冲突条目和可编辑安装的信息。该软件包还修复了可编辑安装和直接从 distutils 继承的自定义 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;build_ext&lt;/code&gt; 命令的向后兼容性。本周的第一个快照还更新了其他几个包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/28/gstreamer-gnome-systemd-up-in-tw/&quot;&gt;GStreamer, GNOME, systemd update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/26/%E5%91%BC%E5%90%81%E7%94%A8%E6%88%B7%E6%B5%8B%E8%AF%95%E4%B8%8B%E4%B8%80%E4%BB%A3%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.html</guid>
       <title>呼吁用户测试下一代安装程序</title>
       <pubDate>Wed, 26 Oct 2022 18:30:00 -0500</pubDate>
@@ -376,43 +407,6 @@ Dimstar 已经宣布 openSUSE Factory 将在未来几周内率先将英特尔的
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-architecture-baselevel-x86_64-v2/&quot;&gt;ALP minimal arch baselevel will be x86_64-2&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E5%8E%9F%E5%9E%8B-Les-Droites-%E9%A2%84%E8%AE%A1%E5%B0%86%E4%BA%8E%E6%9C%AC%E5%91%A8%E6%99%9A%E4%BA%9B%E6%97%B6%E5%80%99%E6%8E%A8%E5%87%BA.html</guid>
-      <title>ALP 原型 “Les Droites” 预计将于本周晚些时候推出。</title>
-      <pubDate>Mon, 26 Sep 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E5%8E%9F%E5%9E%8B-Les-Droites-%E9%A2%84%E8%AE%A1%E5%B0%86%E4%BA%8E%E6%9C%AC%E5%91%A8%E6%99%9A%E4%BA%9B%E6%97%B6%E5%80%99%E6%8E%A8%E5%87%BA.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>所有 ALP 工作组都在努力交付承诺于 9 月发布的 ALP 原型，代号为 “Les Droites”。SUSE 将继续为所有即将推出的原型使用山脉命名主题，这些原型将在三个月后交付。 自适应 Linux 平台（Adaptable Linux Platform, ALP）以开放的方式进行规划、开发和测试，因此用户可以简单地从 OBS 获取安装镜像并在 openQA 中查看测试结果 就 “Les Droites” 而言，用户可以期待 ALP 是一个像 HostOS 这样具有自我修复能力的 SLE Micro，为我们的操作系统即服务/零配置的故事做贡献。ALP 的大理念是用户专注于应用程序而不是底层主机，底层主机会自我管理、修复和优化。Salt（预装）和 Ansible 都可以用来进一步简化管理工作。 用户可以期待在 x86_64 上默认支持 TPM 的全盘加密 (FDE)。可交付成果的另一部分是众多容器化系统组件，包括 yast2、podman、k3s、cockpit、Display Manager (GDM) 和 KVM。所有这些用户都可以进行试验，这些试验被简单地称为工作负载。 无缝系统集成将稍后推出，并且可能因工作负载类型而异。一个例子是通过 rpm 部署的 /usr/bin 包装器，等等。在 ALP...</description>
-      <content:encoded>&lt;p&gt;所有 &lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups&quot;&gt;ALP 工作组&lt;/a&gt;都在努力交付承诺于 9 月发布的 ALP 原型，代号为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Les_Droites&quot;&gt;“Les Droites”&lt;/a&gt;。SUSE 将继续为所有即将推出的原型使用山脉命名主题，这些原型将在三个月后交付。&lt;/p&gt;
-
-&lt;p&gt;自适应 Linux 平台（Adaptable Linux Platform, ALP）以开放的方式进行规划、开发和测试，因此用户可以简单地从 &lt;a href=&quot;https://download.opensuse.org/repositories/SUSE:/ALP/images/&quot;&gt;OBS&lt;/a&gt; 获取安装镜像并在 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/100&quot;&gt;openQA&lt;/a&gt; 中查看测试结果&lt;/p&gt;
-
-&lt;p&gt;就 “Les Droites” 而言，用户可以期待 ALP 是一个像 HostOS 这样具有自我修复能力的 SLE Micro，为我们的操作系统即服务/零配置的故事做贡献。ALP 的大理念是用户专注于应用程序而不是底层主机，底层主机会自我管理、修复和优化。Salt（预装）和 Ansible 都可以用来进一步简化管理工作。&lt;/p&gt;
-
-&lt;p&gt;用户可以期待在 x86_64 上默认支持 TPM 的全盘加密 (FDE)。可交付成果的另一部分是众多容器化系统组件，包括 yast2、podman、k3s、cockpit、Display Manager (&lt;a href=&quot;https://github.com/fcrozat/gdm-container&quot;&gt;GDM&lt;/a&gt;) 和 KVM。所有这些用户都可以进行试验，这些试验被简单地称为&lt;a href=&quot;https://build.opensuse.org/project/show/SUSE:ALP:Workloads&quot;&gt;工作负载&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;无缝系统集成将稍后推出，并且可能因工作负载类型而异。一个例子是通过 rpm 部署的 /usr/bin 包装器，等等。在 ALP 或实际上任何支持 podman 的 Linux 系统上运行 YaST 工作负载的 ncurses 变体的示例如下：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ podman container runlabel run \
-registry.opensuse.org/suse/alp/workloads/tumbleweed_containerfiles/suse/alp/workloads/yast-mgmt-ncurses:latest
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-09/yast-curses.png&quot; alt=&quot;01&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;我们强烈建议用户阅读以下文章，了解有关 ALP 工作负载的更多信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yast.opensuse.org/blog/2022-08-23/yast-report-2022-7&quot;&gt;yast-report-2022-7&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://yast.opensuse.org/blog/2022-09-06/yast-report-2022-8&quot;&gt;yast-report-2022-8&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:ALP/Workgroups/SysMngmnt/Cockpit#Cockpit_at_ALP&quot;&gt;Cockpit_at_ALP wiki&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-les-droites/&quot;&gt;ALP prototype ‘Les Droites’ is to be expected later this week.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
