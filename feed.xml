@@ -7,6 +7,61 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/01/%E5%B7%B4%E8%A5%BF%E5%92%8C%E5%8D%97%E7%BE%8E%E9%95%9C%E5%83%8F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E8%8E%B7%E5%BE%97%E9%87%8D%E5%A4%A7%E6%94%B9%E8%BF%9B.html</guid>
+      <title>巴西和南美镜像基础设施获得重大改进</title>
+      <pubDate>Tue, 01 Nov 2022 18:30:00 -0500</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/01/%E5%B7%B4%E8%A5%BF%E5%92%8C%E5%8D%97%E7%BE%8E%E9%95%9C%E5%83%8F%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E8%8E%B7%E5%BE%97%E9%87%8D%E5%A4%A7%E6%94%B9%E8%BF%9B.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>根据 openSUSE 项目的开源网络分析实例 Matomo（以前被称为 Piwik），巴西是使用 openSUSE 发行版的前五个国家之一。 根据使用的普及程度，巴西仅次于美国和德国，位居第三。为南美洲的用户带来发行版的下载和软件包更新，拥有一个副本网络是必不可少的。 感谢 openSUSE 项目的一些成员，如 Alexandre Vicenzi、Erico Mendonça、Ricardo Klein 等等，从 download.opensuse.org 向镜像站分发 openSUSE 的速度有了显着提高。 在努力改进镜像站之前，巴西仅有包括巴拉那联邦大学在内的几个镜像站。UFPR 的 C3SL 是整个南美最大的镜像站，但它并不是最快的，因为许多其他项目也使用它。 “风滚草的更新环境很糟糕，因为南美很少有镜像站保存主源并保持同步，”Vicenzi 说。 openSUSE Tumbleweed 每周都会带来数百 MB 的更新包，吞吐量如此之高，致使 Tumbleweed 的南美用户使用 zypper dup 命令定期更新他们的发行版。 Vicenzi 表示，一些 openSUSE 贡献者和 Telegram 上的巴西 openSUSE 社区抱怨巴西的镜像质量。 “我想，我们需要为此做点什么，”他说。“许多镜像站都有六小时更新甚至更长间隔的政策。因此，南美洲用户的更新请求时常被重定向到欧洲国家。这大大增加了延迟和定向错误的流量。” 甚至一些企业客户也抱怨此事。某些客户使用来自 openSUSE 存储库的社区包，因此改进镜像站不仅可使社区爱好者受益，还可改进使用社区软件的企业的体验。 这促使社区联系公司和大学以获得支持。 “有些人非常支持，有些人从未回复，有些人虽然感兴趣，但没有给我们提供任何空闲的基础设施，因为它们已经满载，正在托管其他东西”，Vicenzi...</description>
+      <content:encoded>&lt;p&gt;根据 openSUSE 项目的开源网络分析实例 &lt;a href=&quot;https://matomo.org/&quot;&gt;Matomo&lt;/a&gt;（以前被称为 Piwik），巴西是使用 openSUSE 发行版的前五个国家之一。&lt;/p&gt;
+
+&lt;p&gt;根据使用的普及程度，巴西仅次于美国和德国，位居第三。为南美洲的用户带来&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;发行版&lt;/a&gt;的下载和软件包更新，拥有一个副本网络是必不可少的。&lt;/p&gt;
+
+&lt;p&gt;感谢 openSUSE 项目的一些成员，如 Alexandre Vicenzi、Erico Mendonça、Ricardo Klein 等等，从 &lt;a href=&quot;http://download.opensuse.org/&quot;&gt;download.opensuse.org&lt;/a&gt; 向镜像站分发 openSUSE 的速度有了显着提高。&lt;/p&gt;
+
+&lt;p&gt;在努力改进镜像站之前，巴西仅有包括&lt;a href=&quot;https://www.ufpr.br/&quot;&gt;巴拉那联邦大学&lt;/a&gt;在内的几个镜像站。&lt;a href=&quot;https://www.ufpr.br/&quot;&gt;UFPR&lt;/a&gt; 的 &lt;a href=&quot;https://www.c3sl.ufpr.br/2021-o-c3/2021-espelhos/&quot;&gt;C3SL&lt;/a&gt; 是整个南美最大的镜像站，但它并不是最快的，因为许多其他项目也使用它。&lt;/p&gt;
+
+&lt;p&gt;“风滚草的更新环境很糟糕，因为南美很少有镜像站保存主源并保持同步，”Vicenzi  说。&lt;/p&gt;
+
+&lt;p&gt;openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 每周都会带来数百 MB 的更新包，吞吐量如此之高，致使 Tumbleweed 的南美用户使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 命令定期更新他们的发行版。&lt;/p&gt;
+
+&lt;p&gt;Vicenzi 表示，一些 openSUSE 贡献者和 &lt;a href=&quot;https://t.me/openSUSEbr&quot;&gt;Telegram 上的巴西 openSUSE 社区&lt;/a&gt;抱怨巴西的镜像质量。&lt;/p&gt;
+
+&lt;p&gt;“我想，我们需要为此做点什么，”他说。“许多镜像站都有六小时更新甚至更长间隔的政策。因此，南美洲用户的更新请求时常被重定向到欧洲国家。这大大增加了延迟和定向错误的流量。”&lt;/p&gt;
+
+&lt;p&gt;甚至一些企业客户也抱怨此事。某些客户使用来自 openSUSE 存储库的社区包，因此改进镜像站不仅可使社区爱好者受益，还可改进使用社区软件的企业的体验。&lt;/p&gt;
+
+&lt;p&gt;这促使社区联系公司和大学以获得支持。&lt;/p&gt;
+
+&lt;p&gt;“有些人非常支持，有些人从未回复，有些人虽然感兴趣，但没有给我们提供任何空闲的基础设施，因为它们已经满载，正在托管其他东西”，Vicenzi 说。“第一个也是最支持的公司是 &lt;a href=&quot;https://binario.cloud/&quot;&gt;Binario Cloud&lt;/a&gt;。他们为我们提供了一台服务器和 1TB 的存储空间。”&lt;/p&gt;
+
+&lt;p&gt;Vicenzi 为 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 管理 Binario Cloud 镜像；它每 15 分钟更新一次。此镜像站现在甚至有了 &lt;a href=&quot;http://packman.links2linux.org/&quot;&gt;Packman&lt;/a&gt; 存储库。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ufmt.br/&quot;&gt;马托格罗索联邦大学&lt;/a&gt;也是表示支持的大学之一。&lt;/p&gt;
+
+&lt;p&gt;“他们为我们提供了大约 300 GB，我帮助他们设置了一切”，他说。&lt;/p&gt;
+
+&lt;p&gt;在 Klein 的帮助下，努力再次得到了回报。该小组能够与 &lt;a href=&quot;https://start.edgium.net/start&quot;&gt;Edgium&lt;/a&gt; 取得联系以获取一台机器，并与 &lt;a href=&quot;https://www.locaweb.com.br/&quot;&gt;Locaweb&lt;/a&gt; 取得联系以获取另一台镜像。Edgium 机器托管了一个 &lt;a href=&quot;https://en.opensuse.org/MirrorCache&quot;&gt;MirrorCache&lt;/a&gt;，Locaweb 提供了一个最初为 3TB 的镜像，这仍需要一些调整，但未来具有更大的增长潜力。&lt;/p&gt;
+
+&lt;p&gt;最近支持这项工作的公司是 &lt;a href=&quot;https://tynahost.com/&quot;&gt;Tyna Host&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;“他们为我们提供了三个虚拟机和大约 1TB 存储空间”，Vicenzi 说。这些虚拟机用于托管镜像、MirrorCache 和下载内容。&lt;/p&gt;
+
+&lt;p&gt;Mendonça 一直在管理 &lt;a href=&quot;http://opensuse.net.br/&quot;&gt;opensuse.net.br&lt;/a&gt; 域名和官方 openSUSE 巴西周边商店。他还在巴西运行监控工具并评估新基础设施的性能。&lt;/p&gt;
+
+&lt;p&gt;巴西 openSUSE 团队托管的所有内容都可以在 &lt;a href=&quot;https://github.com/opensuse-brasil/&quot;&gt;github.com/opensuse-brasil/&lt;/a&gt; 上找到，并且此团队在南美了解的所有内容都在 &lt;a href=&quot;https://status.opensuse.net.br/&quot;&gt;status.opensuse.net.br&lt;/a&gt; 上进行监控。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目要感谢所有帮助改善巴西和南美基础设施的公司和个人。&lt;/p&gt;
+
+&lt;p&gt;欢迎加入&lt;a href=&quot;https://t.me/openSUSEbr&quot;&gt; openSUSE 巴西社区 Telegram 群组&lt;/a&gt;的团队以获得更多信息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/02/significant-improvements-in-brazil-south-america-mirror-infra/&quot;&gt;Melhoria na infraestrutura de mirrors no Brasil e América do Sul&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/27/GStreamer-GNOME-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>GStreamer、GNOME 和 systemd 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 27 Oct 2022 18:30:00 -0500</pubDate>
@@ -371,42 +426,6 @@ t.me/archlinuxcn/234&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/05/run-a-booth/&quot;&gt;Run a Booth, Increase Awareness of openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E6%9C%80%E5%B0%8F%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E7%BA%A7%E5%88%AB%E5%B0%86%E6%98%AF-x86_64-2.html</guid>
-      <title>ALP 最小架构基础级别将是 x86_64-2</title>
-      <pubDate>Mon, 26 Sep 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/09/26/ALP-%E6%9C%80%E5%B0%8F%E6%9E%B6%E6%9E%84%E5%9F%BA%E7%A1%80%E7%BA%A7%E5%88%AB%E5%B0%86%E6%98%AF-x86_64-2.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>我们很快就会发布重要新闻！SUSE 已重新考虑将 ALP 的最小架构基础级别从最初宣布的 x86_64-v3 调整为 x86_64-v2。
-
-SUSE 目前正在考虑通过 hwcaps 功能为 x86_64-v3 甚至 v4 提供支持，就像它目前正在其他非英特尔架构上所做的一样。
-
-Dimstar 已经宣布 openSUSE Factory 将在未来几周内率先将英特尔的最低架构级别设置为 x86_64-v2。
-
-那些拥有比 x86_64-v2 更旧的硬件的人仍然可以安装 openSUSE Tumbleweed 的 32 位 x86_64-v1 架构变体。我们继续为您服务！
-
-你可以在此处（20220728）找到更改 Factory 中最小架构基础级别的提案的原始讨论。
-
-
-
-原文：ALP minimal arch baselevel will be x86_64-2，作者：Lubos Kocman
-</description>
-      <content:encoded>&lt;p&gt;我们很快就会发布重要新闻！SUSE 已重新考虑将 &lt;a href=&quot;https://build.opensuse.org/project/show/SUSE:ALP&quot;&gt;ALP&lt;/a&gt; 的最小架构基础级别从最初宣布的 x86_64-v3 调整为 x86_64-v2。&lt;/p&gt;
-
-&lt;p&gt;SUSE 目前正在考虑通过 hwcaps 功能为 x86_64-v3 甚至 v4 提供支持，就像它目前正在其他非英特尔架构上所做的一样。&lt;/p&gt;
-
-&lt;p&gt;Dimstar 已经宣布 openSUSE Factory 将在未来几周内率先将英特尔的最低架构级别设置为 x86_64-v2。&lt;/p&gt;
-
-&lt;p&gt;那些拥有比 x86_64-v2 更旧的硬件的人仍然可以安装 openSUSE Tumbleweed 的 32 位 x86_64-v1 架构变体。我们继续为您服务！&lt;/p&gt;
-
-&lt;p&gt;你可以在此处（&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JTFUDX72VB7WPCBH4CV5E4XYXFWWKHXQ/&quot;&gt;20220728&lt;/a&gt;）找到更改 Factory 中最小架构基础级别的提案的原始讨论。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-architecture-baselevel-x86_64-v2/&quot;&gt;ALP minimal arch baselevel will be x86_64-2&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
