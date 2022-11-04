@@ -1,0 +1,36 @@
+---
+author: Hanjingxue Boling
+date: 2022-11-04 07:30:00 +0800
+layout: post
+license: CC-BY-SA-3.0
+title: LLVM、sudo 和 Plasma 在 Tumbleweed 中更新
+image: /assets/posts/misc/DragonFull.png
+categories:
+- 更新通告
+tags:
+- Tumbleweed
+- 翻译作品
+- 官方新闻
+---
+
+本周的 [openSUSE](https://get.opensuse.org/) [Tumbleweed](https://get.opensuse.org/tumbleweed/) 继续滚动发布快照并更新了 150 多个软件包。
+
+除了 [LLVM](https://llvm.org/)、[sudo](https://www.sudo.ws/) 和 [KDE](https://kde.org/) [Plasma](https://kde.org/announcements/plasma/5/5.26.2/) 的更新之外，[systemd](https://freedesktop.org/wiki/Software/systemd/)、[curl](https://curl.se/)、[strace](https://strace.io/) 和 [tracker](https://tracker.gnome.org/) 等软件包也获得了软件更新。
+
+[gnome-terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) 3.46.3 的更新在快照 [20221101](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/F5LVJ7HZIWK72DYHX3EEH2E4TEGQYEQ6/) 中发布。gnome-terminal 更新了翻译，使用了新图标并删除了 XML 命名空间。快照还更新了其他 [GNOME](https://www.gnome.org/) 包，如文档查看器 [evince](https://wiki.gnome.org/Apps/Evince) 43.1。evince 修复了崩溃并避免了呈现问题。[glib2](https://wiki.gnome.org/Projects/GLib) 2.74.1 的更新增加了一个补丁，它恢复了标准输入/输出文件描述符和新创建的文件描述符之间的冲突处理，解决了密码和秘密存储 [gnome-keyring-daemon](https://wiki.gnome.org/Projects/GnomeKeyring) 占用 100% CPU 的问题。用 C 编写的库和应用程序的构建块包还修复 [int64](https://www.geeksforgeeks.org/difference-between-int16-int32-and-int64-in-c-sharp/) 的回归；它用于表示 64 位有符号整数；该软件包还修复了不同情况下的各种构建失败。终端模拟器 [vte](https://wiki.gnome.org/Apps/Terminal/VTE) 0.70.1 为 [GTK4](https://www.gtk.org/) 实现了剪贴板，为 Apple 的 [darwin](https://opensource.apple.com/) 添加了定义，并修复了不需要的环境变量的过滤器。[yast2-trans](https://software.opensuse.org/package/yast2-trans) 的更新添加了马其顿语翻译。快照中更新了其他一些软件包。
+
+快照 [20221031](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZR7JCGD4ESIWFVGYVBEKEJU6Y32RES5Q/) 提供了诊断、调试和指导用户空间包 [strace](https://strace.io/) 的新主要版本。strace 6.0 更新了 setns [系统调用](https://en.wikipedia.org/wiki/System_call)的解码，允许调用线程移动到不同的命名空间，并更新了 [Linux Kernel](https://www.kernel.org/) 6.0 相关的 [ioctl](https://man7.org/linux/man-pages/man2/ioctl.2.html) 命令列表。[timezone](https://www.iana.org/time-zones) 2022f 的更新将让阅读此 [Tumbleweed](https://get.opensuse.org/tumbleweed/) 博客的人知道，除了美国边境附近，墨西哥不再遵守夏令时。Chihuahua  改为全年时间，但尚不清楚这是针对州还是市。timezone 更新更改了斐济的时间，因为它也不再遵守夏令时。快照中也更新了少数 [Python 包索引](https://pypi.org/)和 [RubyGems](https://rubygems.org/) 包。
+
+快照 [20221030](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EY6B3NOE4D3LOWQBZP3JF2PEL4SACEZA/) 更像是一个 [RubyGems](https://rubygems.org/) 快照，尽管它有两个 [PyPI](https://pypi.org/) 更新；[python-zope.interface](https://pypi.org/project/zope.interface/) 5.5.0 和 [python-colorama](https://pypi.org/project/colorama/) 0.4.6。一些像 [rubygem-openid_connect](https://github.com/nov/openid_connect/pull/76) 这样的 [RubyGems](https://rubygems.org/) 包在 2.2.0 更新中添加了双向认证 [mTLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/) 访问令牌功能。[rubygem-pg](https://rubygems.org/gems/pg) 1.4.4 的更新恢复了一项更改，让 [libpq](https://www.postgresql.org/docs/9.5/libpq.html) 进行主机迭代，同时确保仍然遵守参数 [`connect_timeout`](https://github.com/ged/ruby-pg/pull/485)。[RubyGems](https://rubygems.org/) 应用程序依赖包 [rubygem-bundler](https://rubygems.org/gems/bundler) 修复了捆绑器复制 gem 时的用户界面问题；这是通过[对此列表](https://github.com/rubygems/rubygems/pull/5965)进行重复数据删除来完成的。在快照中更新的少数非 [RubyGems](https://rubygems.org/) 包之一是应用程序和模拟器过滤器 [luit](https://invisible-island.net/luit/luit.html) 0221028，它更新了配置脚本以解决 [grep](https://www.gnu.org/software/grep/) 3.8 中的回归问题。
+
+[Plasma 5.26.2](https://kde.org/announcements/plasma/5/5.26.2/) 在快照 [20221029](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NRBS6QB5VQZPYJO36CELTB2SCWGSTNDI/) 中更新。[KDE](https://kde.org/) 的软件中心 [Discover](https://invent.kde.org/plasma/discover) 确保为 [Flatpak](https://flatpak.org/) 查找正确的资源，现在[在后端显示应用程序的 beta 信息](https://bugs.kde.org/show_bug.cgi?id=459131)。窗口管理器和 [Wayland](https://wayland.freedesktop.org/) 混成器 [KWin](https://invent.kde.org/plasma/kwin) 用调用替换了一些手动指针转换，并修复了当文本输入状态更改和焦点更改同时发生时潜在的[竞争条件](https://en.wikipedia.org/wiki/Race_condition)。[Plasma-desktop](https://invent.kde.org/plasma/plasma-desktop) 更新修复了拖动桌面组件的问题，该软件包修复了从 [Plasma 5.25](https://kde.org/announcements/plasma/5/5.25.0/) 迁移时的字体大小变化。[llvm15](https://llvm.org/) 15.0.3 的次要更新添加了一个补丁来修复 [ARMv7](https://www.arm.com/) 上非规范向量比较的降低。解码器 [mpg123](https://www.mpg123.de/) 1.31.0 的更新修复了暂停（循环）与缓冲区的交互，添加了 `--pauseloop` 来设置循环间隔。该软件包还添加了中断处理以修复某些 [ALSA](https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture) 设置的错误。快照中更新了其他几个软件包。
+
+于快照 [20221028](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XXXYWDD2QJIQYK5BWPRVXEMAIAGBRYCE/) 中更新的浏览器 [Mozilla Firefox](https://www.mozilla.org/) 106.0.2 修复了一些错误。其中一个修复了子面板设置中的通知，另一个修复了浏览器在某些站点上的冻结。[sudo](https://www.sudo.ws/) 1.9.12 的更新非常广泛。它修复了在拦截模式下记录命令退出状态时的错误。它还修复了在未启用 I/O 日志记录时阻止将事件日志数据发送到日志服务器的错误。搜索和索引功能包 [Tracker](https://tracker.gnome.org/) 和 [tracker-miners](https://tracker.gnome.org/) 都更新到了 3.4.1 版本。此次更新修复了内存泄漏。tracker-miners 改进了性能查找并提供了对系统调用的新处理。移动远程终端应用程序 [mosh](https://mosh.org/) 1.4.0 的更新增加了真彩色支持和链接的 syslog 日志记录。[libstorage-ng](https://github.com/openSUSE/libstorage-ng) 4.5.48 更新集使用了功能标志；[Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/) 的更新修复了一些插件并删除了一些补丁。Linux [kernel-source](https://www.kernel.org/) 6.0.5 更新提供了对 [GCC](https://gcc.gnu.org/) 12.1 和更新编译器的支持，并且如果成功加载[高级配置和电源接口表](https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface)，它不会释放内存的固件更改。快照中更新了 [Python](https://www.python.org/)；[python310](https://www.python.org/) 3.10.8 更新修复了将列表乘以整数以在新分配的长度接近最大大小时检测整数溢出的问题。快照中更新了许多其他软件包，包括 [yast2-firstboot](https://github.com/yast/yast-firstboot) 4.5.5 和 [yast2-packager](https://github.com/yast/yast-packager) 4.5.6。
+
+上周博客发布后不久出现的 [20221027](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IFDIESH6YJA4KOCEBP7C2LEUOBQ6BVZJ/) 快照包含大量更新包。[curl](https://curl.se/) 7.86.0 更新修复了三个 [CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)；Daniel Stenberg 在 10 月 26 日发布了一则[视频](https://youtu.be/nIJUock7mjE)，介绍了功能更改并讨论未来将要进行的待删除操作。[ImageMagick](https://imagemagick.org/index.php) 7.1.0.51 添加了一个私有 [API](https://en.wikipedia.org/wiki/API) 接口来通过链表而不使用[信号量](https://en.wikipedia.org/wiki/Semaphore_(programming))。[ALSA](https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture) 1.2.8 添加了密钥环并添加了对暂停/恢复和 [ID3v2](https://wiki.hydrogenaud.io/index.php?title=ID3v2) 标签跳过的支持。[systemd](https://freedesktop.org/wiki/Software/systemd/) 251.7 的更新增加了对 QR 码编码库 [libqrencode](https://github.com/fukuchi/libqrencode) 3.0 的支持，并恢复了系统时间设置，该设置引入了影响许多用户的回归。[LibreOffice](https://www.libreoffice.org/) 7.4.2.3 修复了直接通过图形用户界面执行查询时不显示任何内容的错误。[yast2](https://github.com/yast/yast-yast2) 4.5.18 更新改进了产品控制模块中的日志记录，并使用新的 `log.group` 调用对每个工作流程步骤的日志进行分组。快照中要更新的其他软件包包括 [GTK4](https://www.gtk.org/)、[dbus-1](https://wiki.freedesktop.org/www/Software/dbus/) 1.14.4、[mtools](https://www.gnu.org/software/mtools/) 4.0.42、[webkit2gtk3](https://webkitgtk.org/) 2.38.1 等等。
+
+[Tumbleweed](https://get.opensuse.org/tumbleweed/) 连续发布快照达到了 21 张。
+
+------
+
+原文：[LLVM, sudo, Plasma update in Tumbleweed](https://news.opensuse.org/2022/11/03/llvm-sudo-plasma-up-in-tw/)，作者：Douglas DeMaio
