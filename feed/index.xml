@@ -7,6 +7,53 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/09/Leap-Micro-%E7%9A%84%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%E7%8E%B0%E5%B7%B2%E5%85%AC%E5%B8%83.html</guid>
+      <title>Leap Micro 的候选发布版本现已公布</title>
+      <pubDate>Wed, 09 Nov 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/09/Leap-Micro-%E7%9A%84%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E7%89%88%E6%9C%AC%E7%8E%B0%E5%B7%B2%E5%85%AC%E5%B8%83.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 的现代轻量级主机操作系统 Leap Micro 5.3 的候选版本现已在 get.opensuse.org 上提供。 该版本使 NetworkManager 作为默认的网络配置工具；autoyast 确保了这一点。用户应该知道，只有在安装过程中启用了防火墙时，才会从 ISO 安装 firewalld。 Cockpit 的新 SELinux 模块为用户排除配置故障提供了基本功能。 首次启动向导为用户提供了通过 combustion/ignition 设置密码的替代方法，它允许格式化分区、配置用户以及写入常规文件、systemd 单元等。 此候选版本为 Leap Micro 引入了新生成的 QEMU 写时复制镜像。 该版本基于 SUSE Linux Enterprise SUSE (SLE) Micro 5.3，基于 SLE 15 Service Pack 4 更新进行构建。 从 SLE Micro 5.3 继承的一个已知问题是缺少一个用户组：rpc:rpc。在启用 SELinux 的情况下启动时，控制台上也会出现错误。...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;Leap Micro 5.3&lt;/a&gt; 的候选版本现已在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 上提供。&lt;/p&gt;
+
+&lt;p&gt;该版本使 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 作为默认的网络配置工具；&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast&lt;/a&gt; 确保了这一点。用户应该知道，只有在安装过程中启用了防火墙时，才会从 &lt;a href=&quot;https://en.wikipedia.org/wiki/Optical_disc_image&quot;&gt;ISO&lt;/a&gt; 安装 &lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 的新 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 模块为用户排除配置故障提供了基本功能。&lt;/p&gt;
+
+&lt;p&gt;首次启动向导为用户提供了通过 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Combustion&quot;&gt;combustion&lt;/a&gt;/&lt;a href=&quot;https://coreos.github.io/ignition/&quot;&gt;ignition&lt;/a&gt; 设置密码的替代方法，它允许格式化分区、配置用户以及写入常规文件、&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 单元等。&lt;/p&gt;
+
+&lt;p&gt;此候选版本为 Leap Micro 引入了新生成的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Qcow&quot;&gt;QEMU 写时复制&lt;/a&gt;镜像。&lt;/p&gt;
+
+&lt;p&gt;该版本基于 SUSE Linux Enterprise SUSE &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;(SLE) Micro 5.3&lt;/a&gt;，基于 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP4/index.html&quot;&gt;SLE 15 Service Pack 4&lt;/a&gt; 更新进行构建。&lt;/p&gt;
+
+&lt;p&gt;从 SLE Micro 5.3 继承的一个已知问题是&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1204929&quot;&gt;缺少一个用户组&lt;/a&gt;：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpc:rpc&lt;/code&gt;。&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.3/index.html#issue-selinux-boot&quot;&gt;在启用 SELinux 的情况下启动时&lt;/a&gt;，控制台上也会出现错误。&lt;/p&gt;
+
+&lt;p&gt;然而，这种超可靠、轻量级且不可变的操作系统可用于去中心化计算环境、边缘、嵌入式和物联网部署。&lt;/p&gt;
+
+&lt;p&gt;主机操作系统具有自动管理和修补功能，因此自动更新为用户提供了一个持久的可引导系统，用于他们的容器和虚拟化工作负载。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 的发布周期为六个月，因此其产品的生命周期将在第二次后续发布的时间范围内结束。这意味着 Leap Micro 5.4 将使 Leap Micro 5.2 进入 &lt;a href=&quot;https://en.wikipedia.org/wiki/End-of-life_product&quot;&gt;EOL&lt;/a&gt;，而 Leap Micro 5.5 将使 Leap Micro 5.3 版本 EOL。*在 Leap 5.4 发布后，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;Leap Micro 5.2&lt;/a&gt; 用户应升级到新版本或迁移到 &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;SLE Micro&lt;/a&gt;，以获得长达四年的支持。&lt;/p&gt;
+
+&lt;p&gt;用户应该知道 Leap Micro 不使用 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt;，而是使用 &lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/microos_getting_started/#transcational-update-default&quot;&gt;transactional-update&lt;/a&gt;。与 Leap Micro 相关的开发人员包之一是 &lt;a href=&quot;https://github.com/containers/podman/blob/main/RELEASE_NOTES.md#342&quot;&gt;Podman&lt;/a&gt;。Podman 为开发人员提供了在生产环境中使用 Podman 运行他们的应用程序的选项。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/leapmicro/5.3/&quot;&gt;Leap Micro&lt;/a&gt; 与 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 有相似之处，但 &lt;a href=&quot;https://get.opensuse.org/leapmicro/&quot;&gt;Leap Micro&lt;/a&gt; 不提供图形用户界面或桌面版本。但是，用户可以&lt;a href=&quot;https://youtu.be/uf5C5OMscDk&quot;&gt;使用 Cockpit 通过网络浏览器来管理他们的主机操作系统&lt;/a&gt;。Leap Micro 基于 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt;，而并非与 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 一样是基于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的变体。&lt;/p&gt;
+
+&lt;p&gt;大型开发团队可以通过尝试 Leap Micro 并过渡到 SUSE 的 &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;SLE Micro&lt;/a&gt; 来进行扩展维护和认证，从而为其运营增值。&lt;/p&gt;
+
+&lt;p&gt;开发人员和专业人士可以构建和扩展系统，用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、Web 服务器、机器人、区块链等。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.3/index.html&quot;&gt;Leap Micro 5.3 文档&lt;/a&gt;可以帮助对运行这个现代操作系统版本有疑问的用户。&lt;/p&gt;
+
+&lt;p&gt;要下载 ISO 镜像，请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;*&lt;sup&gt; &lt;sup&gt;这是一个预期的示例。版本号有时会发生变化。 这是提供连续编号系统作为示例。&lt;sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/09/rc-of-leapmicro-now-available/&quot;&gt;Release Candidate of Leap Micro Now Available&lt;/a&gt;，作者：Lubos Kocman &amp;amp; Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/07/openSUSE-%E6%89%8B%E5%86%8C%E9%A1%B5%E4%BB%93%E5%BA%93%E5%B0%86%E4%B8%8E%E4%B8%8A%E6%B8%B8%E6%96%87%E6%A1%A3%E4%BF%9D%E6%8C%81%E4%B8%80%E8%87%B4.html</guid>
       <title>openSUSE 手册页仓库将与上游文档保持一致</title>
       <pubDate>Mon, 07 Nov 2022 17:30:00 -0600</pubDate>
@@ -346,110 +393,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/18/project-enters-election-phase/&quot;&gt;Project Enters Election Phase 0&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/15/%E9%95%9C%E5%83%8F%E7%AB%99%E6%9C%8D%E5%8A%A1%E4%B8%AD%E6%96%AD.html</guid>
-      <title>镜像站服务中断</title>
-      <pubDate>Sat, 15 Oct 2022 18:30:00 -0500</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/10/15/%E9%95%9C%E5%83%8F%E7%AB%99%E6%9C%8D%E5%8A%A1%E4%B8%AD%E6%96%AD.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>根据上游消息：
-
-
-  Arch Linux Chinese Messages：
-
-
-
-  近日多所高校的镜像站已不可访问，阿里云镜像站亦数日未同步数据。未来几天可能会有更多中国镜像站出现访问问题。请各位用户知悉，如遇更新异常，请参考镜像站状态页面选择另外的站点。
-
-  Arch Linux 官方仓库的状态页面：  
-https://archlinux.org/mirrors/status/ 
-[archlinuxcn] 仓库的状态页面：
-https://build.archlinuxcn.org/~imlonghao/status/
-t.me/archlinuxcn/234
-
-
-
-  SJTUG 镜像站新闻：
-
-
-
-  各位 SJTUG 镜像站用户，
-
-  早上好！接上海交通大学网络信息中心通知，由于上游校园主干网络维护，SJTUG 软件源镜像站 (mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn) 目前公网服务中断。
-
-  本次服务中断的影响范围是 mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn 上存储的所有软件源。
-
-  本次维护的服务不可用时间窗口预计如下。
-
-  
-    2022年10月16日 (周日) 至 2022年10月24日（周一）：上游校园主干网络维护
-  
-
-  感谢您对 SJTUG 镜像站的关注。
-
-
-多个镜像站点近日已经出现服务中断的情况，考虑到 Tumbleweed 的功能特性，受影响的范围主要是系统更新、ISO 镜像文件下载和软件包的获取。
-
-对于只使用镜像站的用户，建议先使用 snapper 工具对当前系统创建一个快照，并等待镜像站点恢复服务后更新，或者参考下文切换到官方服务器：
-
-
-  SDB:添加软件源
-  openSUSE 镜像站列表
-  SDB:配置代理
-
-
-
-</description>
-      <content:encoded>&lt;p&gt;根据上游消息：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/archlinuxcn/234&quot;&gt;Arch Linux Chinese Messages&lt;/a&gt;：&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;近日多所高校的镜像站已不可访问，阿里云镜像站亦数日未同步数据。未来几天可能会有更多中国镜像站出现访问问题。请各位用户知悉，如遇更新异常，请参考镜像站状态页面选择另外的站点。&lt;/p&gt;
-
-  &lt;p&gt;Arch Linux 官方仓库的状态页面：  &lt;br /&gt;
-https://archlinux.org/mirrors/status/ &lt;br /&gt;
-[archlinuxcn] 仓库的状态页面：&lt;br /&gt;
-https://build.archlinuxcn.org/~imlonghao/status/&lt;br /&gt;
-t.me/archlinuxcn/234&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/sjtug_mirrors_news/67&quot;&gt;SJTUG 镜像站新闻&lt;/a&gt;：&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;各位 SJTUG 镜像站用户，&lt;/p&gt;
-
-  &lt;p&gt;早上好！接上海交通大学网络信息中心通知，由于上游校园主干网络维护，SJTUG 软件源镜像站 (mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn) 目前公网服务中断。&lt;/p&gt;
-
-  &lt;p&gt;本次服务中断的影响范围是 mirror.sjtu.edu.cn 及 mirrors.sjtug.sjtu.edu.cn 上存储的所有软件源。&lt;/p&gt;
-
-  &lt;p&gt;本次维护的服务不可用时间窗口预计如下。&lt;/p&gt;
-
-  &lt;ul&gt;
-    &lt;li&gt;2022年10月16日 (周日) 至 2022年10月24日（周一）：上游校园主干网络维护&lt;/li&gt;
-  &lt;/ul&gt;
-
-  &lt;p&gt;感谢您对 SJTUG 镜像站的关注。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;多个镜像站点近日已经出现服务中断的情况，考虑到 Tumbleweed 的功能特性，受影响的范围主要是系统更新、ISO 镜像文件下载和软件包的获取。&lt;/p&gt;
-
-&lt;p&gt;对于只使用镜像站的用户，建议先使用 &lt;a href=&quot;https://zh.opensuse.org/SDB:Snapper_Tutorial&quot;&gt;snapper 工具&lt;/a&gt;对当前系统创建一个快照，并等待镜像站点恢复服务后更新，或者参考下文切换到官方服务器：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/SDB:%E6%B7%BB%E5%8A%A0%E8%BD%AF%E4%BB%B6%E6%BA%90&quot;&gt;SDB:添加软件源&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mirrors.opensuse.org/&quot;&gt;openSUSE 镜像站列表&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/SDB:%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%90%86&quot;&gt;SDB:配置代理&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
 </content:encoded>
     </item>
 
