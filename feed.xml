@@ -49,6 +49,39 @@ ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/16/%E6%96%B0%E7%89%88-Leap-Micro-%E7%8E%B0%E5%B7%B2%E5%8F%91%E5%B8%83.html</guid>
+      <title>新版 Leap Micro 现已发布</title>
+      <pubDate>Wed, 16 Nov 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/16/%E6%96%B0%E7%89%88-Leap-Micro-%E7%8E%B0%E5%B7%B2%E5%8F%91%E5%B8%83.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目高兴地宣布其现代轻量级主机操作系统 Leap Micro 5.3 的发布。 此版本有一个用于 Cockpit 的新 SELinux 模块，它为用户提供基本功能来解决配置问题，并使 NetworkManager 成为默认的网络配置工具。 此版本基于 SUSE Linux Enterprise SUSE (SLE) Micro 5.3，构建于 SLE 15 Service Pack 4 更新之上。 这种超可靠、轻量级和不可变的操作系统可用于多种计算环境，如边缘、嵌入式、物联网部署等。 主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可启动系统。 用户应该知道 Leap Micro 不使用 zypper，而是使用 transactional-update。与 Leap Micro 相关的开发人员包之一是 Podman。Podman 为开发人员提供了在生产环境中使用 Podman 运行其应用程序的选项。 Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。但是，用户可以使用...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;高兴地宣布其现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro&quot;&gt;Leap Micro 5.3&lt;/a&gt; 的发布。&lt;/p&gt;
+
+&lt;p&gt;此版本有一个用于 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 的新 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 模块，它为用户提供基本功能来解决配置问题，并使 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 成为默认的网络配置工具。&lt;/p&gt;
+
+&lt;p&gt;此版本基于 SUSE Linux Enterprise SUSE &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;(SLE) Micro&lt;/a&gt; 5.3，构建于 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP4/index.html&quot;&gt;SLE 15 Service Pack 4&lt;/a&gt; 更新之上。&lt;/p&gt;
+
+&lt;p&gt;这种超可靠、轻量级和不可变的操作系统可用于多种计算环境，如边缘、嵌入式、物联网部署等。&lt;/p&gt;
+
+&lt;p&gt;主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可启动系统。&lt;/p&gt;
+
+&lt;p&gt;用户应该知道 Leap Micro 不使用 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt;，而是使用 &lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/microos_getting_started/#transcational-update-default&quot;&gt;transactional-update&lt;/a&gt;。与 Leap Micro 相关的开发人员包之一是 &lt;a href=&quot;https://github.com/containers/podman/blob/main/RELEASE_NOTES.md#342&quot;&gt;Podman&lt;/a&gt;。Podman 为开发人员提供了在生产环境中使用 Podman 运行其应用程序的选项。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。但是，用户可以&lt;a href=&quot;https://youtu.be/uf5C5OMscDk&quot;&gt;使用 Cockpit 通过网络浏览器管理他们的主机操作系统&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;大型开发团队可以通过尝试 Leap Micro 并过渡到 SUSE 的 &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;SLE Micro&lt;/a&gt; 以获得扩展维护和认证，从而为其运营增加价值。&lt;/p&gt;
+
+&lt;p&gt;开发人员和专业人士可以构建和扩展用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、网络服务器、机器人、区块链等领域的系统。&lt;/p&gt;
+
+&lt;p&gt;要下载 ISO 镜像文件，请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/17/new-leapmicro-version-now-available/&quot;&gt;New Leap Micro Version Now Available&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/10/Git-PostgreSQL-%E5%92%8C-Btrfs-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Git、PostgreSQL 和 Btrfs 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 10 Nov 2022 17:30:00 -0600</pubDate>
@@ -360,35 +393,6 @@ ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/27/call-for-testing-next-gen-installer/&quot;&gt;Call for Testing Next Generation Installer&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/20/Audacity-Gear-%E5%92%8C-GPG-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Audacity、Gear 和 GPG 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 20 Oct 2022 18:30:00 -0500</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/10/20/Audacity-Gear-%E5%92%8C-GPG-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 在本周持续发布新快照。 自 10 月 12 日以来，Tumbleweed 每天都会发布快照，本周带来了一些主要版本更新以及 KDE Gear 更新。 最新的快照 20221019 在几个小时前发布，更新了网络文件共享系统和用户空间工具 cifs-utils 7.0。该更新修复了一些警告，包括一个编译器警告以及修复一些内存分配问题。Netscape 便携运行时 mozilla-nspr 更新到 4.35 版，并且修复了使用 clang 编译器构建的问题。mozilla-nspr 还在某些平台上使用了许多在线处理器。Mozilla 的网络安全服务包 mozilla-nss 更新到 3.83 版本，删除了旧的 unix 支持，添加了两个 DigitalSign 根证书并更改了配置设置行为以跳过具有不受支持的强制扩展的配置，而不是这些失败；这主要是针对加密客户端 Hello 扩展。快照还更新了其他一些软件包。 GNOME 的加密接口 Seahorse 在快照 20221018 中更新到主要版本 43。这个包加入了其他几个已经在滚动发布的 GNOME 43 Guadalajara 包。Seahorse 修复了与授权密钥相关的警告，并且默认情况下禁用了通过 DNS 服务发现的密钥共享。gpg2...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在本周持续发布新快照。&lt;/p&gt;
-
-&lt;p&gt;自 10 月 12 日以来，Tumbleweed 每天都会发布快照，本周带来了一些主要版本更新以及 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; &lt;a href=&quot;https://kde.org/announcements/gear/22.08.2/&quot;&gt;Gear&lt;/a&gt; 更新。&lt;/p&gt;
-
-&lt;p&gt;最新的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MGBKM43VLEGB2ENMAJ42T3Z6JXPV6FBV/&quot;&gt;20221019&lt;/a&gt; 在几个小时前发布，更新了网络文件共享系统和用户空间工具 &lt;a href=&quot;https://wiki.samba.org/index.php/LinuxCIFS_utils&quot;&gt;cifs-utils&lt;/a&gt; 7.0。该更新修复了一些警告，包括一个编译器警告以及修复一些内存分配问题。Netscape 便携运行时 &lt;a href=&quot;https://hg.mozilla.org/projects/nspr&quot;&gt;mozilla-nspr&lt;/a&gt; 更新到 4.35 版，并且修复了使用 &lt;a href=&quot;https://clang.llvm.org/&quot;&gt;clang&lt;/a&gt; 编译器构建的问题。mozilla-nspr 还在某些平台上使用了许多在线处理器。Mozilla 的网络安全服务包 &lt;a href=&quot;https://firefox-source-docs.mozilla.org/security/nss/legacy/nss_releases/index.htm&quot;&gt;mozilla-nss&lt;/a&gt; 更新到 3.83 版本，删除了旧的 unix 支持，添加了两个 &lt;a href=&quot;https://www.digitalsign.pt/en/&quot;&gt;DigitalSign&lt;/a&gt; 根证书并更改了配置设置行为以跳过具有不受支持的强制扩展的配置，而不是这些失败；这主要是针对加密客户端 Hello 扩展。快照还更新了其他一些软件包。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的加密接口 &lt;a href=&quot;https://wiki.gnome.org/Apps/Seahorse&quot;&gt;Seahorse&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OPDYKAN5RYAX6KYM2D4BQZTZLUQV5QM2/&quot;&gt;20221018&lt;/a&gt; 中更新到主要版本 43。这个包加入了其他几个已经在滚动发布的 &lt;a href=&quot;https://release.gnome.org/43/&quot;&gt;GNOME 43 Guadalajara&lt;/a&gt; 包。Seahorse 修复了与授权密钥相关的警告，并且默认情况下禁用了通过 &lt;a href=&quot;http://www.dns-sd.org/&quot;&gt;DNS 服务发现&lt;/a&gt;的密钥共享。&lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 更新至 2.3.8 版本，修复了 &lt;a href=&quot;https://www.yubico.com/products/&quot;&gt;Yubikey&lt;/a&gt; 5.4 固件的问题并修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;READKEY --format=ssh&lt;/code&gt; 中的回归。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.2.1 的更新修复了轻微的内存泄漏，&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home&quot;&gt;libxml2&lt;/a&gt; 2.10.3 修复了&lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;，解决了 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40303&quot;&gt;CVE-2022-40303&lt;/a&gt;；这对 &lt;a href=&quot;https://www.openstack.org/&quot;&gt;OpenStack&lt;/a&gt; Cloud 的 8 和 9 没有影响。&lt;a href=&quot;https://www.kernel.org/doc/html/v4.12/driver-api/80211/cfg80211.html&quot;&gt;cfg80211&lt;/a&gt; 是 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 中 802.11 设备的配置 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt;，在 Kernel-source 6.0.2 更新中发生了一些变化。它修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/.bss&quot;&gt;BSS 段&lt;/a&gt;引用计数错误并避免了未传输的 &lt;a href=&quot;https://en.wikipedia.org/wiki/.bss&quot;&gt;BSS&lt;/a&gt; 列表损坏。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs18&lt;/a&gt; 更新至 18.11.0，进行了一些更改；它添加了一个实验性的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch&lt;/code&gt; 模式。使 node 在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch&lt;/code&gt; 模式下运行后，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watch&lt;/code&gt; 会在导入的文件发生更改时重新启动进程。快照还更新了其他几个软件包，包括 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.4、&lt;a href=&quot;https://www.gnupg.org/software/libgcrypt/index.html&quot;&gt;libgcrypt&lt;/a&gt; 4.4.28、&lt;a href=&quot;https://github.com/yast/yast-network&quot;&gt;yast2-network&lt;/a&gt; 4.5.9 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/26XESV4C3MC5NROARCQBN333Q7WM6GHX/&quot;&gt;20221017&lt;/a&gt; 更新了两个包。使用 Tumbleweed 的播客将注意到音频编辑包 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 获得更新。Audacity 3.2.1 倒计时版本修复了一些错误并进行了小幅改进。其中之一修复了某些系统上的启动崩溃以及快速启动和停止播放时的冻结。用于操作模块元数据文件的 C 库 &lt;a href=&quot;https://github.com/fedora-modularity/libmodulemd&quot;&gt;libmodulemd&lt;/a&gt; 已更新至 2.14.0 版，并且它具有从索引中剥离 XMD 的新功能。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7YK3XMZLR7INJMZCTYURMSKJSZF2ANWC/&quot;&gt;20221016&lt;/a&gt; 中连续第二次收到 &lt;a href=&quot;https://kde.org/announcements/gear/22.08.2/&quot;&gt;Gear 22.08.2&lt;/a&gt; 更新。&lt;a href=&quot;https://kde.org/announcements/gear/22.08.2/&quot;&gt;Gear 22.08.2&lt;/a&gt; 更新了几个包。文件存档器 &lt;a href=&quot;https://apps.kde.org/ark/&quot;&gt;Ark&lt;/a&gt; 停止在 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;dolphin&lt;/a&gt; 退出时杀死提取/压缩工作。&lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;itinerary&lt;/a&gt; 在更改门票时更新了活动页面的当前预订标识，并明确定位了活动门票的标题字段。Gear 的 &lt;a href=&quot;https://apps.kde.org/kalendar/&quot;&gt;kalendar&lt;/a&gt; 在新版本中进行了多项更新，例如修复了任务视图中的双击编辑以及实现使用标准键来查看导航操作。Gear 的视频编辑器 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 进行了多项更改，包括时间码显示，因此它可以监听配置文件的更改并自动调整每秒帧数。Kdenlive 还修复了部分损坏的关键帧的粘贴效果。用于在内存中存储 RDF 数据的轻量级 C 库 &lt;a href=&quot;https://drobilla.net/software/sord.html&quot;&gt;sord&lt;/a&gt; 0.16.14，修复了意外暴露内部 zix 符号的问题。第一个稳定版本随着 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gcr&quot;&gt;gcr&lt;/a&gt; 4.0.0 主要版本的更新而到来；更新日志中没有提供太多的信息。快照中要更新的其他包是 &lt;a href=&quot;https://metacpan.org/pod/HTML::Parser&quot;&gt;perl-HTML-Parser&lt;/a&gt; 3.79、&lt;a href=&quot;https://metacpan.org/pod/HTTP::Message&quot;&gt;perl-HTTP-Message&lt;/a&gt; 6.41、&lt;a href=&quot;https://metacpan.org/dist/JSON&quot;&gt;perl-JSON&lt;/a&gt; 4.10 等。&lt;/p&gt;
-
-&lt;p&gt;大多数 KDE &lt;a href=&quot;https://kde.org/announcements/gear/22.08.2/&quot;&gt;Gear 22.08.2&lt;/a&gt; 软件包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SD4EULDOI2WGJP5N4BBKLIAYGLBY6ONN/&quot;&gt;20221015&lt;/a&gt; 中发布，只有少数其他软件包在此快照中更新。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 的 4.5.46 版本合并了一项更改，允许它&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng/pull/899&quot;&gt;与其他 linux 风格一起使用&lt;/a&gt;。&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.3、&lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.17 等也有更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/5XD56SXTHBHBWX2F5FVFY63VTVONDCOH/&quot;&gt;20221014&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PBG6BOTLON7FY3F2EJMFYPY3WQCYCM7D/&quot;&gt;20221013&lt;/a&gt; 都有多个包更新。用于控制网络驱动程序和硬件的实用程序 &lt;a href=&quot;https://mirrors.edge.kernel.org/pub/software/network/ethtool/&quot;&gt;ethtool&lt;/a&gt; 6.0 更新修复了广告模式自动选择的问题。3D 图形包 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.2.1 实现了 Vulkan 1.3 API，修复了 Sony PlayStation 3 开源模拟器 &lt;a href=&quot;https://rpcs3.net/&quot;&gt;RPCS3&lt;/a&gt; 在没有任何内容被渲染时出现的回归。&lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast2-bootloader&lt;/a&gt; 4.5.7 的更新可防止 &lt;a href=&quot;https://www.gnu.org/software/grub/manual/grub/grub.html&quot;&gt;grub2&lt;/a&gt; 密码泄漏到日志中。&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.0.50 的更新添加了一个私有 API 来遍历链表而不使用&lt;a href=&quot;https://en.wikipedia.org/wiki/Semaphore_(programming)&quot;&gt;信号量&lt;/a&gt;，并且它具有最新的 &lt;a href=&quot;https://github.com/ImageMagick/ImageMagick/commit/a88a3b5b6a81e4d123e31928402c4fce2ccd7476&quot;&gt;automake 配置&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/10/20/audacity-gear-gpg-update-in-tw/&quot;&gt;Audacity, Gear, GPG update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
