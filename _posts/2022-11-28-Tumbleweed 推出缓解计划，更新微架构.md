@@ -19,15 +19,13 @@ tags:
 
 Tumbleweed 发布经理 Dominique Leuenberger 在寄给 [openSUSE Factory 邮件列表](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4OIMNHRDMSRLUNZRA5OPHMVSPXRRQVSB/)的电子邮件中写道：“openSUSE Factory 存储库的目标架构将更新至 x86-64-v2。”一个新的存储库“将与 openSUSE Factory 存储库一同存在。此更改对于符合 [SUSE 的 factory 优先政策](https://opensource.suse.com/legal/policy)以与项目发起人的开发工作保持一致是必要的。”
 
-这个为 x86-64-v1 用户设计的新存储库看起来将被命名为 openSUSE:Factory:LegacyX86，并且需要志愿者来维护该存储库的各个方面。
+这个为 x86-64-v1 用户设计的新存储库看起来将被命名为 `openSUSE:Factory:LegacyX86`，并且需要志愿者来维护该存储库的各个方面。
 
 “我将帮助执行初始设置（包括 openQA），但一旦运行，我就不再碰它了（除非存储库的用户寻求特定帮助），”Leuenberger 在回复中写道。“我期待离线 ISO 安装镜像的发布，但我不期待有可用的 Live ISO。”
 
 参加 openSUSE 的公开[发布工程会议](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EDJ4ST6IYDVZ7ZY4VB7LBU3NQBKKADE5/)的人们讨论了这个话题并提出了一个行动计划。
 
 讨论并达成一致的解决方案是将原有的 Tumbleweed 主存储库的目标架构更新至 x86-64-v2，[就像 ALP 将在其发布时一样](https://news.opensuse.org/2022/09/26/alp-architecture-baselevel-x86_64-v2/)。[i586](https://en.wikipedia.org/wiki/Pentium_(original)) 支持将从存储库中移除，仅保留特定软件包所需的 32 位软件包，但完整的 32 位存储库将不复存在。当存储库迁移到 x86-64-v2 时，除了 `zypper dup` 之外，用户无需执行任何操作，但预计会收到项目维护人员发送有关此更改的通知。
-
-对于保留在 x86-64-v1 上的老式系统的用户，需要采取措施。
 
 对于停留在基于 x86-64-v1 架构的老式系统的用户，需要手动将主存储库的地址从 `download.opensuse.org/tumbleweed/repo/oss` 变更为 `download.opensuse.org/ports/legacyx86/tumblewed/repo/oss`。
 
