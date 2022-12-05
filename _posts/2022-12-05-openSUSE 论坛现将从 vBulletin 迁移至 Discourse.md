@@ -3,7 +3,7 @@ author: Hanjingxue Boling
 date: 2022-12-05 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
-title: openSUSE 论坛现已从 vBulletin 迁移至 Discourse
+title: openSUSE 论坛将从 vBulletin 迁移至 Discourse
 image: /assets/posts/2021-12/openSUSE_party.jpg
 categories:
 - 社区新闻
