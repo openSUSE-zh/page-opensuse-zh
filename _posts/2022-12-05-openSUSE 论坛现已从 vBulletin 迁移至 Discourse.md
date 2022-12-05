@@ -6,16 +6,16 @@ license: CC-BY-SA-3.0
 title: openSUSE 论坛现已从 vBulletin 迁移至 Discourse
 image: /assets/posts/2021-12/openSUSE_party.jpg
 categories:
-- 更新通告
+- 社区新闻
 tags:
-- Tumbleweed
+- forums.opensuse.org
 - 翻译作品
 - 官方新闻
 ---
 
 也许您已经在 [openSUSE 论坛上](https://forums.opensuse.org/)看到了这个公告，并对于使用论坛的方式产生了疑惑。也有可能您并不明白，或是只是模糊地理解 [vBulletin](https://en.wikipedia.org/wiki/VBulletin) 和 [Discourse](https://en.wikipedia.org/wiki/Discourse_(software)) 这两个词的意思。
 
-vBulletin 是一个商业软件包，forums.opensuse.org 使用它处理用户交互界面，存储和管理讨论贴和主题，执行论坛成员的用户管理。同时，这个商业软件包显而易见地为社区带来了不可忽视的负担。
+vBulletin 是一个商业软件包，[forums.opensuse.org](https://forums.opensuse.org/) 使用它处理用户交互界面，存储和管理讨论贴和主题，执行论坛成员的用户管理。同时，这个商业软件包显而易见地为社区带来了不可忽视的负担。
 
 因为所有活跃的软件都会迁移到新版本，vBulletin 也是如此。这意味需要在 openSUSE 的服务器上对 vBulletin 新版本进行兼容变更。在这样的时刻，是时候看看是否有更好的不同解决方案了。
 
