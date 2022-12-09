@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新</title>
+      <pubDate>Wed, 07 Dec 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。 Factory 邮件列表在过去一周中新增了 200 多条有关更改 Tumbleweed 微架构级别的消息，与此同时，Tumbleweed 保持滚动，不断发布 vim、mutt 等软件包的更新。 快照 20221206 中只有少数软件包获得更新。urlscan 0.9.10 就是其中要更新的软件包之一，它将 * 添加为允许的 URL 特殊字符。由于 Gentoo 和 openSUSE 都遇到了挂起/崩溃，因此快照将 libX11 还原为 1.8.1 版本。用于处理音频文件，为 JSON 和 YAML 插件提供了曲目和光盘编号支持的 Python 工具，eyeD3，有一个很酷的名字和 LOGO；此次更新将 eyeD3 更新至 0.9.7 版本，但删除了对 Python 3.6 的支持。Pidgin 聊天插件 purple-mattermost 更新到 2.1 版本，将在第一次加入频道时获取最近...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。&lt;/p&gt;
+
+&lt;p&gt;Factory 邮件列表在过去一周中新增了 200 多条有关更改 &lt;a href=&quot;https://news.opensuse.org/2022/11/28/tw-to-roll-out-mitigation-plan-advance-microarchitecture/&quot;&gt;Tumbleweed 微架构级别&lt;/a&gt;的消息，与此同时，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 保持滚动，不断发布 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt;、&lt;a href=&quot;http://www.mutt.org/&quot;&gt;mutt&lt;/a&gt; 等软件包的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EAY3RYGXYUJJJS3HAOS4DVDXKLP32VFS/&quot;&gt;20221206&lt;/a&gt; 中只有少数软件包获得更新。&lt;a href=&quot;https://urlscan.io/&quot;&gt;urlscan&lt;/a&gt; 0.9.10 就是其中要更新的软件包之一，它将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; 添加为允许的 URL 特殊字符。&lt;a href=&quot;https://gitlab.freedesktop.org/xorg/lib/libx11/-/issues/170&quot;&gt;由于 Gentoo 和 openSUSE 都遇到了挂起/崩溃&lt;/a&gt;，因此快照将 &lt;a href=&quot;https://gitlab.freedesktop.org/xorg/lib/libx11&quot;&gt;libX11&lt;/a&gt; 还原为 1.8.1 版本。用于处理音频文件，为 JSON 和 YAML 插件提供了曲目和光盘编号支持的 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 工具，&lt;a href=&quot;https://eyed3.readthedocs.io/&quot;&gt;eyeD3&lt;/a&gt;，有一个很酷的名字和 LOGO；此次更新将 eyeD3 更新至 0.9.7 版本，但删除了对 Python 3.6 的支持。&lt;a href=&quot;https://pidgin.im/&quot;&gt;Pidgin&lt;/a&gt; 聊天插件 &lt;a href=&quot;https://github.com/EionRobb/purple-mattermost&quot;&gt;purple-mattermost&lt;/a&gt; 更新到 2.1 版本，将在第一次加入频道时获取最近 60 条消息。自解释包 &lt;a href=&quot;https://github.com/openSUSE/perl-bootloader&quot;&gt;perl-Bootloader&lt;/a&gt; 0.940 添加了一些对 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd-boot&lt;/a&gt; 的基本支持。&lt;/p&gt;
+
+&lt;p&gt;在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YVTK3E74IEQB5LNSHKMNKWFZUDAI7JIF/&quot;&gt;20221205&lt;/a&gt; 中，PDF 渲染包 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 更新到 22.12.0 版本，似乎解决了寻找字体的一些顽固问题。电子邮件客户端 &lt;a href=&quot;http://www.mutt.org/&quot;&gt;mutt&lt;/a&gt; 更新到 2.2.9 版本并将 &lt;a href=&quot;https://gnupg.org/software/gpgme/index.html&quot;&gt;gpgme&lt;/a&gt; autoconf 文件更新到最新版本。它还修复了一个不可打印的键名，并向 0 参数函数定义添加了显式无效。用于检测程序是否在虚拟机中运行的 &lt;a href=&quot;https://people.redhat.com/~rjones/virt-what/&quot;&gt;virt-what&lt;/a&gt; 更新到 1.25 版本；该软件包现在将 &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;AWS&lt;/a&gt; &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 虚拟实例检测为 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt;，并增加了对 &lt;a href=&quot;https://www.alibabacloud.com/product/alibaba-cloud-linux-2&quot;&gt;Alibaba Cloud Linux&lt;/a&gt; 和运行在 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 设备上的 &lt;a href=&quot;https://www.vmware.com/products/esxi-and-esx.html&quot;&gt;VMware ESXi&lt;/a&gt; 的支持。本次快照还更新了包括 &lt;a href=&quot;https://pagure.io/newt&quot;&gt;newt&lt;/a&gt; 0.52.23 和 &lt;a href=&quot;https://github.com/qpdf/qpdf&quot;&gt;qpdf&lt;/a&gt; 11.2.0 在内的一些其他软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HCDFGDG6BTC4LYUEZ6677T2JQRNIXGGF/&quot;&gt;20221204&lt;/a&gt; 发布了 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.40.6。它恢复并设置了一个空端口配置。该软件包还进行了一些各种文档修复，并为客户端库提供了一个非导出的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_binary_interface&quot;&gt;ABI&lt;/a&gt; 接口。底层核心库 &lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.74.3 的更新修复了几个回归，并修复了对文本格式变体的 &lt;a href=&quot;https://www.freedesktop.org/software/gstreamer-sdk/data/docs/latest/glib/glib-GVariant.html&quot;&gt;GVariant&lt;/a&gt; 类型深度检查。因为 &lt;a href=&quot;https://libsoup.org/gio/GTask.html&quot;&gt;GTask 标签&lt;/a&gt;提供了错误返回路径，glib2 还切换到更严格的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口。快照还更新了相当多的 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; &lt;a href=&quot;https://github.com/rspec&quot;&gt;rspec&lt;/a&gt; 包。除了升级到 3.12.0 版本的许多内容之外，&lt;a href=&quot;https://github.com/rspec/rspec-mocks/blob/main/Changelog.md&quot;&gt;rubygem-rspec-mocks&lt;/a&gt; 包还改进了在根据哈希值比较关键字参数时的差异输出。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.54 通过使用 &lt;a href=&quot;https://weblate.org/&quot;&gt;Weblate&lt;/a&gt; 更新了马其顿语翻译；数个 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 43 软件包在快照中更新，例如 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 43.2，它修复了在 &lt;a href=&quot;https://rpm-ostree.readthedocs.io/&quot;&gt;rpm-ostree&lt;/a&gt; 下搜索提供某些功能的应用程序。 快照还更新了其他几个包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K6F5H6EZ6KZGNW6ENLZZITSJOUIUZODY/&quot;&gt;20221203&lt;/a&gt; 更新了 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.11，避免了当 autoinst.ycp 文件为空或丢失时可能发生的崩溃。对于不清楚的读者，YCP 表示 YaST 控制编程语言（YaST Control Programming language），它是通过 &lt;a href=&quot;https://github.com/yast/ycp-killer&quot;&gt;ycp-killer&lt;/a&gt; 和其他库和工具移植到 Ruby 的。&lt;a href=&quot;https://github.com/xianyi/OpenBLAS&quot;&gt;openblas_pthreads&lt;/a&gt; 0.3.21 的更新有一些 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; &lt;a href=&quot;https://en.wikichip.org/wiki/intel/cores/skylake_x&quot;&gt;SkyLakeX&lt;/a&gt; 编译修复，并且该软件包修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Power10&quot;&gt;Power10&lt;/a&gt; 的性能回归。&lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt;+ 更新引入了一个规范标志（spec flag）。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MSVAS35OPS4DJIEK7HQYADVFFUYLDYTJ/&quot;&gt;20221202&lt;/a&gt; 让 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 107.0.1 修复了一个问题，即颜色管理对某些用户不可用，并且浏览器修复了另一个问题，即显示警告对话框时无法访问 DevTools 用户界面。&lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.20 更新中添加了一个允许统一定义硬件架构过滤器的新类（class）。文本编辑器 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 43.2 的更新对 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 进行了修复，并且还更新了一些翻译。&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 是另一个在快照中收到更新的文本编辑器，它有许多错误修复；&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0978 修复了在终端窗口中键入字母时的崩溃、声音虚拟中的持续集成失败、&lt;a href=&quot;https://vimdoc.sourceforge.net/htmldoc/autocmd.html&quot;&gt;autocmd&lt;/a&gt; 窗口内存泄漏和无效内存访问以及许多其他问题。跨平台小部件工具包 GTK3 3.24.35 更新进行了多项更改。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK3&lt;/a&gt; 修复了运动压缩问题，重构了即时消息客户端更新的处理，删除了上游补丁并添加了对标题栏手势的支持。快照中要更新的其他软件包是 &lt;a href=&quot;https://pango.gnome.org/&quot;&gt;pango&lt;/a&gt; 1.50.12、&lt;a href=&quot;https://inai.de/projects/hxtools/&quot;&gt;hxtools&lt;/a&gt; 20221120、&lt;a href=&quot;https://ostreedev.github.io/ostree/&quot;&gt;libostree&lt;/a&gt; 2022.7 等。&lt;/p&gt;
+
+&lt;p&gt;本月的第一个快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZY3E4EOFL27S2Q36ZNTHYMNKVZKQNPEZ/&quot;&gt;20221201&lt;/a&gt;；它将 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 更新到 0.3.61 版本。类似于音频格式 MP3，可实现无损压缩文件的 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 音频和视频包 &lt;a href=&quot;https://xiph.org/flac/&quot;&gt;flac&lt;/a&gt; 更新至 1.4.2 版本。开源智能卡工具和中间件包 &lt;a href=&quot;https://github.com/OpenSC/OpenSC&quot;&gt;opensc&lt;/a&gt;，更新至 0.23.0 版本。该软件包进行了一些常规改进，并增加了对对称加密和解密、包装和解包操作以及初始化向量的支持。快照还更新了几个其他软件包，如 &lt;a href=&quot;https://fc-solve.shlomifish.org/&quot;&gt;freecell-solver&lt;/a&gt; 6.8.0 和更新了一些用于高级 &lt;a href=&quot;https://www.mediatek.com/&quot;&gt;MediaTek&lt;/a&gt; wifi 芯片固件的 &lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git&quot;&gt;kernel-firmware&lt;/a&gt; 20221130。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/08/glib-gtk-networkmanager-up-in-tw/&quot;&gt;GLib, GTK, NetworkManager update in Tumbleweed &lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/04/openSUSE-%E8%AE%BA%E5%9D%9B%E7%8E%B0%E5%B0%86%E4%BB%8E-vBulletin-%E8%BF%81%E7%A7%BB%E8%87%B3-Discourse.html</guid>
       <title>openSUSE 论坛将从 vBulletin 迁移至 Discourse</title>
       <pubDate>Sun, 04 Dec 2022 17:30:00 -0600</pubDate>
@@ -355,58 +384,6 @@ ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/09/rc-of-leapmicro-now-available/&quot;&gt;Release Candidate of Leap Micro Now Available&lt;/a&gt;，作者：Lubos Kocman &amp;amp; Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/07/openSUSE-%E6%89%8B%E5%86%8C%E9%A1%B5%E4%BB%93%E5%BA%93%E5%B0%86%E4%B8%8E%E4%B8%8A%E6%B8%B8%E6%96%87%E6%A1%A3%E4%BF%9D%E6%8C%81%E4%B8%80%E8%87%B4.html</guid>
-      <title>openSUSE 手册页仓库将与上游文档保持一致</title>
-      <pubDate>Mon, 07 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/07/openSUSE-%E6%89%8B%E5%86%8C%E9%A1%B5%E4%BB%93%E5%BA%93%E5%B0%86%E4%B8%8E%E4%B8%8A%E6%B8%B8%E6%96%87%E6%A1%A3%E4%BF%9D%E6%8C%81%E4%B8%80%E8%87%B4.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>与操作系统和软件开发相关的文档有着数十年的丰富历史。
-
-手册页（manual pages 或 manpages）的创立是在家用电脑还不存在的时候为新技术用户提供服务的一种方式。
-
-为了获得程序、标准、抽象概念和约定的知识，用户需要计算机访问权限并通过 man 命令获取与系统内对应计算机程序有关的，以标准的绿色文本编码显示的文档。
-
-时代和技术发生了变化，但手册页的初衷没有改变。
-
-由于 openSUSE 项目的手册页存储库 manpages.opensuse.org 的存在，用户不再需要在他们的系统上安装特定的软件包来访问程序的文档。
-
-手册页存储库有数种不同的使用方法。人们可以浏览包含数千个包（目前为 111,387 个）的存储库索引，在搜索中输入包或在 URL 末尾加上软件包的名称（/package_name）。
-
-手册页存储库会与 openSUSE Factory 上游的手册页同步；每个软件包的手册页译文则基于上游的翻译工作。
-
-随着新软件包不断并入 openSUSE Factory，manpages.opensuse.org 的服务也会随之不断改进和更新。
-
-手册页存储库的链接很快将显示在 openSUSE 项目指向所有 openSUSE 网站、用户组、社交媒体帐户等内容的门户网站上。
-
-
-
-原文：openSUSE site Aligns with Upstream Documentation，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;与操作系统和软件开发相关的文档有着数十年的丰富历史。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/SDB:Manual_pages&quot;&gt;手册页&lt;/a&gt;（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;manual pages&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;manpages&lt;/code&gt;）的创立是在家用电脑还不存在的时候为新技术用户提供服务的一种方式。&lt;/p&gt;
-
-&lt;p&gt;为了获得程序、标准、抽象概念和约定的知识，用户需要计算机访问权限并通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;man&lt;/code&gt; 命令获取与系统内对应计算机程序有关的，以标准的绿色文本编码显示的文档。&lt;/p&gt;
-
-&lt;p&gt;时代和技术发生了变化，但手册页的初衷没有改变。&lt;/p&gt;
-
-&lt;p&gt;由于 openSUSE 项目的手册页存储库 &lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;manpages.opensuse.org&lt;/a&gt; 的存在，用户不再需要在他们的系统上安装特定的软件包来访问程序的文档。&lt;/p&gt;
-
-&lt;p&gt;手册页存储库有数种不同的使用方法。人们可以浏览包含数千个包（目前为 111,387 个）的&lt;a href=&quot;https://manpages.opensuse.org/openSUSE%20Tumbleweed/index.html&quot;&gt;存储库索引&lt;/a&gt;，在搜索中输入包或在 URL 末尾加上软件包的名称（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/package_name&lt;/code&gt;）。&lt;/p&gt;
-
-&lt;p&gt;手册页存储库会与 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt; 上游的手册页同步；每个软件包的手册页译文则基于上游的翻译工作。&lt;/p&gt;
-
-&lt;p&gt;随着新软件包不断并入 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt;，&lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;manpages.opensuse.org&lt;/a&gt; 的服务也会随之不断改进和更新。&lt;/p&gt;
-
-&lt;p&gt;手册页存储库的链接很快将显示在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目指向所有 openSUSE 网站、用户组、&lt;a href=&quot;https://en.opensuse.org/openSUSE:Communication_channels#Social_networks&quot;&gt;社交媒体帐户&lt;/a&gt;等内容的&lt;a href=&quot;https://github.com/openSUSE/universe-o-o/&quot;&gt;门户网站&lt;/a&gt;上。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/08/os-site-aligns-w-upstream-documentation/&quot;&gt;openSUSE site Aligns with Upstream Documentation&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
