@@ -7,6 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/14/openSUSE-%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B8%BE%E8%A1%8C%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BB%A5%E5%A2%9E%E5%8A%A0%E6%8C%87%E5%AF%BC%E5%B7%A5%E4%BD%9C.html</guid>
+      <title>openSUSE 项目计划举行研讨会以增加指导工作</title>
+      <pubDate>Wed, 14 Dec 2022 17:30:00 -0600</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/14/openSUSE-%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B8%BE%E8%A1%8C%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BB%A5%E5%A2%9E%E5%8A%A0%E6%8C%87%E5%AF%BC%E5%B7%A5%E4%BD%9C.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目将于世界标准时间 1 月 10 日 15:30 在 meet.opensuse.org/meeting 举办研讨会，重点关注为今年的 Google 编程之夏增加指导。
+
+openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导师或受训者参与的社区成员参加。
+
+研讨会的与会者将有机会提出项目想法，并将它们列在 101.opensuse.org 上，用于今年的申请，该申请于 1 月 23 日至 2 月 7 日开放。
+
+在管理员提交 GSoC 申请之前，研讨会将为导师、受训者和希望参与指导的人员提供足够的时间来描述几个项目想法。
+
+我们鼓励参与者在研讨会开始之前在本活动的 etherpad 上创建一些项目想法的大纲。
+
+参加过之前的 GSoC 项目的导师、受训者和管理人员将参加研讨会。
+
+
+
+原文：Project Plans Workshop to Grow Mentorship Efforts，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;将于世界标准时间 1 月 10 日 15:30 在 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 举办研讨会，重点关注为今年的 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google 编程之夏&lt;/a&gt;增加指导。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导师或受训者参与的社区成员参加。&lt;/p&gt;
+
+&lt;p&gt;研讨会的与会者将有机会提出项目想法，并将它们列在 &lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 上，用于今年的申请，该申请于 1 月 23 日至 2 月 7 日开放。&lt;/p&gt;
+
+&lt;p&gt;在管理员提交 GSoC 申请之前，研讨会将为导师、受训者和希望参与指导的人员提供足够的时间来描述几个项目想法。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励参与者在研讨会开始之前在&lt;a href=&quot;https://etherpad.opensuse.org/p/GSoC2023WS&quot;&gt;本活动的 etherpad&lt;/a&gt; 上创建一些项目想法的大纲。&lt;/p&gt;
+
+&lt;p&gt;参加过之前的 GSoC 项目的导师、受训者和管理人员将参加研讨会。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/14/project-plans-workshop-to-grow-mentorship-efforts/&quot;&gt;Project Plans Workshop to Grow Mentorship Efforts&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/11/openSUSE-Leap-15.3-%E8%BF%9B%E5%85%A5-EOL-%E7%8A%B6%E6%80%81.html</guid>
       <title>openSUSE Leap 15.3 进入 EOL 状态</title>
       <pubDate>Sun, 11 Dec 2022 17:30:00 -0600</pubDate>
@@ -333,37 +373,6 @@ ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/17/new-leapmicro-version-now-available/&quot;&gt;New Leap Micro Version Now Available&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/10/Git-PostgreSQL-%E5%92%8C-Btrfs-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Git、PostgreSQL 和 Btrfs 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 10 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/10/Git-PostgreSQL-%E5%92%8C-Btrfs-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 在本周创下连续发布快照数量的历史新高，超过了之前的 26 个。 Tumbleweed 仍然在持续发布新的每日快照，提供了一些主要版本的软件更新以及几个错误修复更新。 使连续每日快照累计数量达到历史最高（29 个）的最新快照是 20221109。此快照将 3D 图形包 Mesa 和 Mesa-drivers 更新到版本 22.2.3。Mesa 删除了与英特尔 Vulkan API 接口相关的包，并修复了一些影响持续集成的回归。libzypp 17.31.5 的更新在包中创建了一个 .no_auto_prune 以防止自动清理孤立的存储库。基于文本的用户界面编写器 ncurses 6.3.20221105 修复了另一个内存泄漏，并从 10 月开始添加了一些补丁。快照中要更新的其他软件包包括 mobile-broadband-provider-info 20221107、elfutils 0.188、perl-Image-ExifTool 12.50 以及另外六个软件包。 快照 20221108 对纸张设置包 libpaper 2.0.3 进行了一次主要版本更新。libpaper 修复了当 /HOME 未设置时的分段错误；该软件包还删除了一个补丁并修复了在解析纸张规格时出错的空间泄漏。开发人员不必担心 git 2.38.1 中两个已修复的 CVE。对 --local clone...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在本周创下连续发布快照数量的历史新高，超过了之前的 26 个。&lt;/p&gt;
-
-&lt;p&gt;Tumbleweed 仍然在持续发布新的每日快照，提供了一些主要版本的软件更新以及几个错误修复更新。&lt;/p&gt;
-
-&lt;p&gt;使连续每日快照累计数量达到历史最高（29 个）的最新快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2RTQ6PUEFD5C3STFJBCAT2HKWFGH3JEP/&quot;&gt;20221109&lt;/a&gt;。此快照将 3D 图形包 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 和 Mesa-drivers 更新到版本 22.2.3。Mesa 删除了与&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt; Vulkan &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口相关的包，并修复了一些影响持续集成的回归。&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.5 的更新在包中创建了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.no_auto_prune&lt;/code&gt; 以防止自动清理孤立的存储库。&lt;a href=&quot;https://en.wikipedia.org/wiki/Text-based_user_interface&quot;&gt;基于文本的用户界面&lt;/a&gt;编写器 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.3.20221105 修复了另一个&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;，并从 10 月开始添加了一些补丁。快照中要更新的其他软件包包括 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/mobile-broadband-provider-info&quot;&gt;mobile-broadband-provider-info&lt;/a&gt; 20221107、&lt;a href=&quot;https://github.com/roolebo/elfutils&quot;&gt;elfutils&lt;/a&gt; 0.188、&lt;a href=&quot;https://metacpan.org/pod/exiftool&quot;&gt;perl-Image-ExifTool&lt;/a&gt; 12.50 以及另外六个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/E7NQWFLERM6P7SFQTWS42L5X47YBO2ID/&quot;&gt;20221108&lt;/a&gt; 对纸张设置包 &lt;a href=&quot;https://packages.debian.org/unstable/source/libpaper&quot;&gt;libpaper&lt;/a&gt; 2.0.3 进行了一次主要版本更新。libpaper 修复了当 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/HOME&lt;/code&gt; 未设置时的&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;分段错误&lt;/a&gt;；该软件包还删除了一个补丁并修复了在解析纸张规格时出错的空间泄漏。开发人员不必担心 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.38.1 中两个已修复的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--local&lt;/code&gt; clone 优化的惊人行为进行了修复，解决了 &lt;a href=&quot;https://github.blog/2022-10-18-git-security-vulnerabilities-announced/#cve-2022-39253&quot;&gt;CVE-2022-39253&lt;/a&gt; 的问题；一个利用受害者将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git shell&lt;/code&gt; 暴露为登录 shell，并通过创建目录 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/HOME/git-shell-commands&lt;/code&gt; 启用了其交互模式的漏洞 &lt;a href=&quot;https://github.blog/2022-10-18-git-security-vulnerabilities-announced/#cve-2022-39260&quot;&gt;CVE-2022-39260&lt;/a&gt; 已被修复。&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs19&lt;/a&gt; 19.0.1 在本次更新中完成了固定迁移至 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.8 的更新添加了新功能，例如支持解析和验证 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dohpath&lt;/code&gt; 服务参数，其中添加了 DNS 记录类型 SVCB。bind 现在在启动时和命名为 -V 的输出中记录了支持的加密算法。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 43.1 修复了在某些情况下会在底部截断文本的问题；&lt;a href=&quot;https://thekelleys.org.uk/dnsmasq/doc.html&quot;&gt;dnsmasq&lt;/a&gt; 2.87 增加了对 DHCP 中继系统的 &lt;a href=&quot;https://en.wikipedia.org/wiki/IPv6&quot;&gt;IPv6&lt;/a&gt; 前缀委托的侦听。快照中要更新的其他包是 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.2.2、一些 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 43.1 更新和其他几个包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NSRTBXXCCIQ77XE5SNFP3A4OA4G3EXFP/&quot;&gt;20221107&lt;/a&gt; 非常小。它更新了 &lt;a href=&quot;https://invisible-island.net/xterm/&quot;&gt;xterm&lt;/a&gt; 375，修复了一些回归并更改了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Sixel&quot;&gt;sixel&lt;/a&gt; 滚动资源的默认值，以更好地匹配 VT330/VT340 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DECSDM&lt;/code&gt; 设置。根据变更日志，指纹读取包 &lt;a href=&quot;https://gitlab.freedesktop.org/libfprint/libfprint&quot;&gt;libfprint&lt;/a&gt; 有一个允许加载外部模块的分支，并且非自由模块将包含在 &lt;a href=&quot;http://packman.links2linux.de/&quot;&gt;Packman&lt;/a&gt; 存储库中。&lt;a href=&quot;https://www.gnu.org/software/make/manual/make.html&quot;&gt;make&lt;/a&gt; 4.4 版本对下一个版本的后向兼容性提出警告，并针对构建要求和其他向后不兼容问题发出若干警告。make 的次要更新中还有几个新特性和功能，例如“允许用户定义的函数定义一组局部变量：值可以从用户定义的函数内分配给这些变量，它们不会影响全局变量的分配。”&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JZVZ7KYBBDWHS5JQGHNPM67KZ74T2THB/&quot;&gt;20221106&lt;/a&gt; 也更新了一些软件包。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 106.0.5 修复了使用 Intel &lt;a href=&quot;https://en.wikichip.org/wiki/intel/cores/gemini_lake&quot;&gt;Gemini Lake&lt;/a&gt; CPU 的用户遇到的崩溃问题。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linuxl&lt;/a&gt; kernel-firmware 20221031 为 Cirrus CS35L41 添加了固件，这是业界首个用于移动设备的 55 nm 智能音频放大器解决方案。更新至 6.0.7 版本的 kernel-source 还侧重于音频，其中包含一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 更改。DWC3 驱动程序进行了一些 USB 调整。XML 安全库 &lt;a href=&quot;https://www.aleksey.com/xmlsec/index.html&quot;&gt;xmlsec1&lt;/a&gt; 1.2.36 已迁移到 OpenSSL 3.0 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口，并且该软件包不支持使用低于 1.1.0 版本的 OpenSSL 和低于 2.7.0 版本的 &lt;a href=&quot;https://www.libressl.org/&quot;&gt;LibreSSL&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.history.com/news/guy-fawkes-day-a-brief-history&quot;&gt;Guy Fawkes Day&lt;/a&gt; 快照，&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XDPOBJQCF7WMFL4B6P4I6UUTTX7UE3QD/&quot;&gt;20221105&lt;/a&gt;，似乎适合更新 &lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 1.2.1 和配置管理库 &lt;a href=&quot;https://github.com/hercules-team/augeas&quot;&gt;augeas&lt;/a&gt; 1.13.0。&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 修复了 nftables 在区域调度之前丢弃无效数据包的问题，并且该包将文档协议添加到 &lt;a href=&quot;https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/security_guide/configuring_complex_firewall_rules_with_the_rich-language_syntax&quot;&gt;rich language&lt;/a&gt; 中以扩展当前的区域元素。&lt;a href=&quot;https://github.com/hercules-team/augeas&quot;&gt;Augeas&lt;/a&gt; 改进了 &lt;a href=&quot;https://en.wikipedia.org/wiki/GNU_Readline&quot;&gt;readline&lt;/a&gt; 集成以处理引用问题，并添加了一个新的 lens 来解析 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/proc/cmdline&lt;/code&gt; 参数。本周快照中的另一个主要版本更新是从候选版本过渡到正式版本的 &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 15。postgresql 在管理本地和分布式部署中的工作负载方面具有显着优势，并改进了其内存和磁盘排序算法；根据&lt;a href=&quot;https://www.postgresql.org/about/news/postgresql-15-released-2526/&quot;&gt;公告&lt;/a&gt;，基于数据类型排序的基准测试加速了 25% 到 400%。其他一些软件包已更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JAKYUTJXD7KOMFSEAK3APCIT5PQAR7S3/&quot;&gt;20221104&lt;/a&gt; 更新了 &lt;a href=&quot;https://kde.org/announcements/gear/22.08.3/&quot;&gt;KDE Gear 22.08.3&lt;/a&gt;。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 文件管理器 &lt;a href=&quot;https://invent.kde.org/system/dolphin&quot;&gt;Dolphin&lt;/a&gt; 的更新修复了不必要地打开新窗口的问题，并且修复了 &lt;a href=&quot;https://invent.kde.org/education/kgeography&quot;&gt;KGeography&lt;/a&gt; 地图上未在亚洲显示的巴林，因此请务必使用 &lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma&lt;/a&gt; 告诉您认识的孩子巴林并不神秘，像澳大利亚这样的岛屿大陆只是较小。&lt;a href=&quot;https://kde.org/announcements/gear/22.08.3/&quot;&gt;KDE Gear 22.08.3&lt;/a&gt; 还对其旅行预订包 &lt;a href=&quot;https://invent.kde.org/pim/kitinerary&quot;&gt;KItinerary&lt;/a&gt; 进行了更新，添加了一个 Italo 火车票提取器脚本，因此意大利的检票员将减少尴尬的对话。&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite3&lt;/a&gt; 3.39.4 的更新修复了一个长期存在的问题，如果程序使用应用程序定义的页面缓存，该问题在极少数情况下会导致数据库损坏。快照中更新了其他几个包，包括 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 8.9.0、&lt;a href=&quot;https://www.php.net/&quot;&gt;php7&lt;/a&gt; 7.4.33 等。&lt;/p&gt;
-
-&lt;p&gt;在本周开始的两个快照中，有几个包值得一提。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4JQ4W7565VWVSQJGEJGLYKHZVHJN6BTI/&quot;&gt;20221103&lt;/a&gt; 将 &lt;a href=&quot;https://btrfs.wiki.kernel.org/index.php/Main_Page&quot;&gt;btrfsprogs&lt;/a&gt; 更新到 6.0 版本，现在有一个选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-O&lt;/code&gt; 接受来自 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-R&lt;/code&gt; 的值来统一接口，但 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-R&lt;/code&gt; 将继续工作。文件系统实用程序还为与 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.1 RC 相关的 block-group-tree 提供了一些实验性 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkfs&lt;/code&gt; 支持。&lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;xwayland&lt;/a&gt; 22.1.4 引入的一些回归，例如双滚轮事件和按键重复，已在 22.1.5 更新中得到修复。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HLIWUJY5XQM4PXOXWVIWYCTTKVFFL556/&quot;&gt;20221102&lt;/a&gt; 将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 更新至 6.0.6 版本；将 &lt;a href=&quot;https://www.mpg123.de/&quot;&gt;mpg123&lt;/a&gt; 更新到 1.31.1 版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/11/git-postgresql-btrfs-up-in-tw/&quot;&gt;Git, PostgreSQL, Btrfs update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
