@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/15/KDE-GNOME-%E5%92%8C%E9%9F%B3%E9%A2%91%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>KDE、GNOME 和音频包在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 15 Dec 2022 17:30:00 -0600</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/15/KDE-GNOME-%E5%92%8C%E9%9F%B3%E9%A2%91%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>根据 openSUSE 项目的发布工程会议的记录，本周到达的数个 openSUSE Tumbleweed 快照对声音、图像和系统组件进行了更新，并且 ARM 镜像再次滚动更新。 对于具有 aarch64 服务器和 NVIDIA 显卡的测试员和 NVIDIA 用户，openSUSE 现已提供针对 aarch64 架构的专有图形驱动程序，但仅适用于 G06 版本。 快照 20221214 可能会给人们带来一些好消息，因为 GNOME 网络摄像头应用程序 cheese 从 43 Alpha 版本更新到 43.0 正式版本；向新版本的过渡涉及删除 glibc 调试环境变量和翻译更新。本次快照更新了 pipewire 0.3.62 和 wireplumber 0.4.13，改善了在线网络摄像头用户的语音质量。更新后的 PipeWire 修复了在激活链接和驱动程序节点时由争用导致的屏幕共享回归。WirePlumber 的更新添加了对蓝牙卸载的支持，允许接收、解码和播放完全在硬件中进行。版本控制系统 git 更新到 2.39.0 版本。次要版本更新扩展了 git grep checkouts，对 get...</description>
+      <content:encoded>&lt;p&gt;根据 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;的&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LALV24HMN6HWGQDTXSUOKL2O747H4YVB/&quot;&gt;发布工程会议&lt;/a&gt;的记录，本周到达的数个 openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照对声音、图像和系统组件进行了更新，并且 &lt;a href=&quot;https://www.arm.com/&quot;&gt;ARM&lt;/a&gt; 镜像再次滚动更新。&lt;/p&gt;
+
+&lt;p&gt;对于具有 aarch64 服务器和 NVIDIA 显卡的测试员和 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 用户，openSUSE 现已提供&lt;a href=&quot;https://download.nvidia.com/opensuse/tumbleweed/aarch64/&quot;&gt;针对 aarch64 架构&lt;/a&gt;的专有图形驱动程序，但仅适用于 &lt;a href=&quot;https://forums.opensuse.org/t/switching-from-nividia-g05-to-g06/149856&quot;&gt;G06&lt;/a&gt; 版本。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YN3E7NZW5GTOL4YOPBIG55T5XYFUD2NW/&quot;&gt;20221214&lt;/a&gt; 可能会给人们带来一些好消息，因为 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 网络摄像头应用程序 &lt;a href=&quot;https://wiki.gnome.org/Apps/Cheese&quot;&gt;cheese&lt;/a&gt; 从 43 Alpha 版本更新到 43.0 正式版本；向新版本的过渡涉及删除 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 调试环境变量和翻译更新。本次快照更新了 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.62 和 &lt;a href=&quot;https://github.com/PipeWire/wireplumber&quot;&gt;wireplumber&lt;/a&gt; 0.4.13，改善了在线网络摄像头用户的语音质量。更新后的 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 修复了在激活链接和驱动程序节点时由争用导致的屏幕共享回归。&lt;a href=&quot;https://github.com/PipeWire/wireplumber&quot;&gt;WirePlumber&lt;/a&gt; 的更新添加了对蓝牙卸载的支持，允许接收、解码和播放完全在硬件中进行。版本控制系统 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 更新到 2.39.0 版本。次要版本更新扩展了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git grep checkouts&lt;/code&gt;，对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get branch&lt;/code&gt; 进行了一些更改，以便在切换之前编辑分支。快照中要更新的其他软件包是 &lt;a href=&quot;https://strace.io/&quot;&gt;strace&lt;/a&gt; 6.1、&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt;、&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XQPOVDRFTDBYF2RCZXONWHM6XTDA3KPA/&quot;&gt;20221213&lt;/a&gt; 中仅更新了几个 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 软件包。除了更新到 43.2 版本的 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 之外，它还有多个修复程序；其中包括对截屏用户界面被错误地禁用的修复，以及对 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/mutter&quot;&gt;mutter&lt;/a&gt; 的更新，它修复了在显示服务器的窗口调整大小后重新计算视口的问题。快照还更新了许多 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 包。其中，&lt;a href=&quot;https://rubygems.org/gems/ruby_parser/versions/3.19.1&quot;&gt;rubygem-ruby-parser&lt;/a&gt; 3.19.2 修复了解析数组模式的错误；&lt;a href=&quot;https://rubygems.org/gems/regexp_parser&quot;&gt;rubygem-regexp-parser&lt;/a&gt; 2.6.1 修复了两个负向后视边缘案例的扫描；&lt;a href=&quot;https://rubygems.org/gems/puma/versions/6.0.0-java&quot;&gt;rubygem-puma&lt;/a&gt; 6.0.0 正在放弃对 Ruby 2.2 和 2.3 的支持；&lt;a href=&quot;https://rubygems.org/gems/bootsnap&quot;&gt;rubygem-bootsnap&lt;/a&gt; 1.15.0 增加了一个只读模式，用于更新的缓存不会被持久化的环境。快照中更新了其他几个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 以及一些 &lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 包。&lt;/p&gt;
+
+&lt;p&gt;如果第二天发布的是一个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 快照，那么快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HJLBARP5AEW77UMVR2EDVRUFKZAAFE3T/&quot;&gt;20221212&lt;/a&gt; 就是一个 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.101.0/&quot;&gt;KDE Frameworks&lt;/a&gt; 快照。openSUSE 在 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.101.0/&quot;&gt;Frameworks 5.101.0&lt;/a&gt; 在发布后的 48 小时内将其推送给风滚草用户。此次错误修复版本弃用了 &lt;a href=&quot;https://api.kde.org/frameworks/kwindowsystem/html/&quot;&gt;KWindowSystem&lt;/a&gt; 的几个特性，并将 X11 特定的功能移至新的 &lt;a href=&quot;https://api.kde.org/frameworks/kwindowsystem/html/classKX11Extras.html#ab4d58f1f2bc052d19cb2f32349753ebe&quot;&gt;KX11Extras&lt;/a&gt; 类。&lt;a href=&quot;https://github.com/KDE/ktexteditor&quot;&gt;KTextEditor&lt;/a&gt; 修复了按下 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ctrl&lt;/code&gt; 时的默认设置标记。&lt;a href=&quot;https://kde.org/products/kirigami/&quot;&gt;Kirigami&lt;/a&gt; UI 框架修复了许多由 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Qt.createComponent&lt;/code&gt; 引起的内存泄漏。操作按钮还修复了由于导入更改而损坏的附加属性。提供对文件、网站和其他资源的访问的 &lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 系统库弃用了其他一些行为。轻量级显示管理器 &lt;a href=&quot;https://github.com/canonical/lightdm&quot;&gt;lightdm&lt;/a&gt; 更新至 1.32.0 版本。该软件包在测试中使用 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3 并改进了确定会话是 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的方法。&lt;/p&gt;
+
+&lt;p&gt;快照中更新了两个 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 软件包。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-characters&quot;&gt;gnome-characters&lt;/a&gt; 43.1 更新到了 &lt;a href=&quot;https://unicode.org/versions/Unicode15.0.0/&quot;&gt;Unicode 15&lt;/a&gt; 并更新了翻译。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-remote-desktop&quot;&gt;gnome-remote-desktop&lt;/a&gt; 43.2 特进行了翻译更新，并删除了一行新代码。&lt;a href=&quot;https://software.opensuse.org/package/arpwatch-ethercodes&quot;&gt;arpwatch-ethercodes&lt;/a&gt; 20221212 也在快照中更新，但缺少任何提交消息。&lt;a href=&quot;https://rpm.org/wiki/Releases/4.18.0&quot;&gt;rpm 4.18.0&lt;/a&gt; 更新修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。当 rpm 在安装文件后设置所需的权限和凭据时，会触发 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2021-35938.html&quot;&gt;CVE-2021-35938&lt;/a&gt;。本地非特权用户可能利用该缺陷将原始文件与安全关键文件的符号链接交换，并提升他们在系统上的权限。快照还更新了其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 20221211 只更新了一个包。&lt;a href=&quot;https://en.wikipedia.org/wiki/SubStation_Alpha&quot;&gt;ASS/SSA 字幕&lt;/a&gt;格式的便携式字幕渲染器 libass 更新至 0.17.0 版本，修复了与自动换行相关的各个部分，并发布了一个似乎与 LayoutResX 和 LayoutResY 标头相关的主要功能。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OZ4JSTZ3XE2QVBIDUJOZ32ULJCR5CQR3/&quot;&gt;20221210&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.0.12 修复了与 &lt;a href=&quot;https://www.kernel.org/doc/html/v4.12/driver-api/80211/cfg80211.html&quot;&gt;cfg80211 子系统&lt;/a&gt;相关的 wifi 缓冲区溢出并修复了错误处理。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 252.3 的更新删除了一个补丁并进行了一些向后移植工作。文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.1040 有很多变化；它修复了 kitty 键盘协议功能键可能无法工作的问题，并修复了测试可能卡在带有交换文件的缓冲区中的问题。&lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt; 的更新处理了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-33746.html&quot;&gt;CVE-2022-33746&lt;/a&gt;，它添加了一些需要的抢先检查。其他要更新的软件包是 &lt;a href=&quot;https://rpmfind.net/linux/rpm2html/search.php?query=libpaper&quot;&gt;libpaper&lt;/a&gt; 2.0.4、&lt;a href=&quot;https://www.wavpack.com/index.html&quot;&gt;wavpack&lt;/a&gt; 5.6.0 和 &lt;a href=&quot;https://github.com/yast/yast-kdump&quot;&gt;yast2-kdump&lt;/a&gt; 4.5.7。&lt;/p&gt;
+
+&lt;p&gt;本周开始的第一个快照是快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VYHQGZ2F3NH2C2DEQNLTV4WQCYMSB5MS/&quot;&gt;20221209&lt;/a&gt;，它更新了 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 3.2.2。audacity 的更新修复了编辑某些宏参数时的崩溃问题，它不再悄悄地放弃更改，而是在退出前询问是否应保存更改。audacity 还修复了一些卡在播放模式中的播放命令。在上游发布后的第二天出现在快照中的另一个 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 更新是 &lt;a href=&quot;https://kde.org/announcements/gear/22.12.0/&quot;&gt;Gear 22.12&lt;/a&gt;。该版本中的一项新功能是选择模式。点击空格键或点击汉堡形图标菜单按钮并选中选择文件和文件夹复选框，然后会出现一个浅绿色条。文本编辑器 &lt;a href=&quot;https://kate-editor.org/&quot;&gt;Kate&lt;/a&gt; 在启动时添加了一个欢迎窗口，新窗口允许创建新文件、从最近文件列表中打开现有文件并提供文档。视频制作编辑器 Kdenlive 改进了与其他视频应用程序的集成，用户现在可以将 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 时间线作为背景发送到矢量动画实用程序 &lt;a href=&quot;https://glaxnimate.mattbas.org/&quot;&gt;Glaxnimate&lt;/a&gt;。快照中还将 &lt;a href=&quot;https://github.com/yast/yast-users&quot;&gt;yast2-users&lt;/a&gt; 更新了 4.5.3 版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/16/kde-gnome-audio-packages-up-in-tw/&quot;&gt;KDE, GNOME, Audio packages update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/14/openSUSE-%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B8%BE%E8%A1%8C%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BB%A5%E5%A2%9E%E5%8A%A0%E6%8C%87%E5%AF%BC%E5%B7%A5%E4%BD%9C.html</guid>
       <title>openSUSE 项目计划举行研讨会以增加指导工作</title>
       <pubDate>Wed, 14 Dec 2022 17:30:00 -0600</pubDate>
@@ -340,39 +371,6 @@ ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://www.reddit.com/r/openSUSE/comments/ywymtc/workshop_invitation_consuming_community_software/&quot;&gt;Workshop invitation: Consuming community software in ALP&lt;/a&gt;，作者：&lt;a href=&quot;https://www.reddit.com/user/lkocman/&quot;&gt;lkocman&lt;/a&gt;&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/16/%E6%96%B0%E7%89%88-Leap-Micro-%E7%8E%B0%E5%B7%B2%E5%8F%91%E5%B8%83.html</guid>
-      <title>新版 Leap Micro 现已发布</title>
-      <pubDate>Wed, 16 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/16/%E6%96%B0%E7%89%88-Leap-Micro-%E7%8E%B0%E5%B7%B2%E5%8F%91%E5%B8%83.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目高兴地宣布其现代轻量级主机操作系统 Leap Micro 5.3 的发布。 此版本有一个用于 Cockpit 的新 SELinux 模块，它为用户提供基本功能来解决配置问题，并使 NetworkManager 成为默认的网络配置工具。 此版本基于 SUSE Linux Enterprise SUSE (SLE) Micro 5.3，构建于 SLE 15 Service Pack 4 更新之上。 这种超可靠、轻量级和不可变的操作系统可用于多种计算环境，如边缘、嵌入式、物联网部署等。 主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可启动系统。 用户应该知道 Leap Micro 不使用 zypper，而是使用 transactional-update。与 Leap Micro 相关的开发人员包之一是 Podman。Podman 为开发人员提供了在生产环境中使用 Podman 运行其应用程序的选项。 Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。但是，用户可以使用...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;高兴地宣布其现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro&quot;&gt;Leap Micro 5.3&lt;/a&gt; 的发布。&lt;/p&gt;
-
-&lt;p&gt;此版本有一个用于 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 的新 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 模块，它为用户提供基本功能来解决配置问题，并使 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 成为默认的网络配置工具。&lt;/p&gt;
-
-&lt;p&gt;此版本基于 SUSE Linux Enterprise SUSE &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;(SLE) Micro&lt;/a&gt; 5.3，构建于 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP4/index.html&quot;&gt;SLE 15 Service Pack 4&lt;/a&gt; 更新之上。&lt;/p&gt;
-
-&lt;p&gt;这种超可靠、轻量级和不可变的操作系统可用于多种计算环境，如边缘、嵌入式、物联网部署等。&lt;/p&gt;
-
-&lt;p&gt;主机操作系统具有自动管理和修补功能，因此自动更新为用户的容器和虚拟化工作负载提供了一个持久的可启动系统。&lt;/p&gt;
-
-&lt;p&gt;用户应该知道 Leap Micro 不使用 &lt;a href=&quot;https://en.opensuse.org/SDB:Zypper_usage&quot;&gt;zypper&lt;/a&gt;，而是使用 &lt;a href=&quot;https://opensuse.github.io/openSUSE-docs-revamped-temp/microos_getting_started/#transcational-update-default&quot;&gt;transactional-update&lt;/a&gt;。与 Leap Micro 相关的开发人员包之一是 &lt;a href=&quot;https://github.com/containers/podman/blob/main/RELEASE_NOTES.md#342&quot;&gt;Podman&lt;/a&gt;。Podman 为开发人员提供了在生产环境中使用 Podman 运行其应用程序的选项。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 与 MicroOS 有相似之处，但 Leap Micro 不提供图形用户界面或桌面版本。但是，用户可以&lt;a href=&quot;https://youtu.be/uf5C5OMscDk&quot;&gt;使用 Cockpit 通过网络浏览器管理他们的主机操作系统&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;大型开发团队可以通过尝试 Leap Micro 并过渡到 SUSE 的 &lt;a href=&quot;https://www.suse.com/download/sle-micro/&quot;&gt;SLE Micro&lt;/a&gt; 以获得扩展维护和认证，从而为其运营增加价值。&lt;/p&gt;
-
-&lt;p&gt;开发人员和专业人士可以构建和扩展用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、网络服务器、机器人、区块链等领域的系统。&lt;/p&gt;
-
-&lt;p&gt;要下载 ISO 镜像文件，请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/17/new-leapmicro-version-now-available/&quot;&gt;New Leap Micro Version Now Available&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
