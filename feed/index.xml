@@ -7,6 +7,80 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</guid>
+      <title>良好的提交信息有助于沟通协作</title>
+      <pubDate>Mon, 19 Dec 2022 17:30:00 -0600</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>清晰的提交（commit）消息可以极大地帮助开发人员，这篇简短的博客将分享一些为 openSUSE 和开源贡献编写高质量提交消息的最佳实践。
+
+提交消息用于在团队成员之间传达重要信息，并且由于开源软件是一个专注于开放协作的大团队，因此必须在这些消息中传达上下文。
+
+为什么？
+
+“为什么？” 现在对你来说可能很明显，但对其他人来说可能不是；特别是那些甚至可能还没有参与你的代码的人。精心编写的提交消息可帮助开发人员记住先前提交的各个方面，并帮助未来的开发人员了解更改的内容和更改的目的。
+
+提交消息并没有统一的结构和格式规范，但多花一点时间和精力修整提交信息就可以使世界全然不同。你可以考虑以一种直截了当的方式编写提交消息；有点像教官下达命令或指示。如，擦亮你的靴子。清洁厕所。做俯卧撑。更具体地说，想想父母告诉他们的孩子做什么以及为什么。如，清洁炉子，因为您洒在上面的食用油可能会导致下一个使用它的人着火。
+
+下面是一些其他有助于编写一份良好的提交消息的提示。
+
+重要的事
+
+
+  除了说明“发生了什么”之外，在提交消息中说明“为什么”（提供有价值的消息）
+  不要只链接到 bugtracker，因为这些以后可能会变得无法访问（“惟有变化才是永恒的。”——Heraclitus，古希腊哲学家）
+  保持一致的风格
+    
+      首字母大写（除非第一个单词是 openSUSE）😉
+      使用祈使形式（祈使形式不是粗鲁的表达形式；它详细且清晰，就像本博客的标题一样）
+      摘要中没有尾随点
+      限制行长度（一个好的规则是保持字符使用率低；第一行大约 50 个）
+    
+  
+
+
+对更多细节感兴趣的人，可在 https://cbea.ms/git-commit/ 获得有大量有用的提示。
+
+
+
+原文：Good Commit Messages Give Devs Meaning, Purpose，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;清晰的提交（commit）消息可以极大地帮助开发人员，这篇简短的博客将分享一些为 openSUSE 和开源贡献编写高质量提交消息的最佳实践。&lt;/p&gt;
+
+&lt;p&gt;提交消息用于在团队成员之间传达重要信息，并且由于开源软件是一个专注于开放协作的大团队，因此必须在这些消息中传达上下文。&lt;/p&gt;
+
+&lt;p&gt;为什么？&lt;/p&gt;
+
+&lt;p&gt;“为什么？” 现在对你来说可能很明显，但对其他人来说可能不是；特别是那些甚至可能还没有参与你的代码的人。精心编写的提交消息可帮助开发人员记住先前提交的各个方面，并帮助未来的开发人员了解更改的内容和更改的目的。&lt;/p&gt;
+
+&lt;p&gt;提交消息并没有统一的结构和格式规范，但多花一点时间和精力修整提交信息就可以使世界全然不同。你可以考虑以一种直截了当的方式编写提交消息；有点像教官下达命令或指示。&lt;strong&gt;如，擦亮你的靴子。清洁厕所。做俯卧撑。&lt;/strong&gt;更具体地说，想想父母告诉他们的孩子做什么以及为什么。&lt;strong&gt;如，清洁炉子，因为您洒在上面的食用油可能会导致下一个使用它的人着火。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;下面是一些其他有助于编写一份良好的提交消息的提示。&lt;/p&gt;
+
+&lt;h2 id=&quot;重要的事&quot;&gt;重要的事&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;除了说明“发生了什么”之外，在提交消息中说明“为什么”（提供有价值的消息）&lt;/li&gt;
+  &lt;li&gt;不要只链接到 bugtracker，因为这些以后可能会变得无法访问（&lt;em&gt;“惟有变化才是永恒的。”——Heraclitus，古希腊哲学家&lt;/em&gt;）&lt;/li&gt;
+  &lt;li&gt;保持一致的风格
+    &lt;ul&gt;
+      &lt;li&gt;首字母大写（除非第一个单词是 openSUSE）😉&lt;/li&gt;
+      &lt;li&gt;使用祈使形式（祈使形式不是粗鲁的表达形式；它详细且清晰，就像本博客的标题一样）&lt;/li&gt;
+      &lt;li&gt;摘要中没有&lt;a href=&quot;https://daniel.haxx.se/blog/2022/05/12/a-tale-of-a-trailing-dot/comment-page-1/&quot;&gt;尾随点&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;限制行长度（一个好的规则是保持字符使用率低；第一行大约 50 个）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对更多细节感兴趣的人，可在 &lt;a href=&quot;https://cbea.ms/git-commit/&quot;&gt;https://cbea.ms/git-commit/&lt;/a&gt; 获得有大量有用的提示。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/20/good-commit-messages-give-devs-meaning-purpose/&quot;&gt;Good Commit Messages Give Devs Meaning, Purpose&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/15/KDE-GNOME-%E5%92%8C%E9%9F%B3%E9%A2%91%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>KDE、GNOME 和音频包在 Tumbleweed 中更新</title>
       <pubDate>Thu, 15 Dec 2022 17:30:00 -0600</pubDate>
@@ -329,48 +403,6 @@ Reddit r/openSUSE 已有一个与此相关的新帖子，社区请求人们加�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/21/alp-wg-seeks-hlc-ideas/&quot;&gt;ALP Work Group Seeks High-Level Consuming Ideas&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/16/%E7%A0%94%E8%AE%A8%E4%BC%9A%E9%82%80%E8%AF%B7-%E5%9C%A8-ALP-%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%A4%BE%E5%8C%BA%E8%BD%AF%E4%BB%B6.html</guid>
-      <title>研讨会邀请：在 ALP 中使用社区软件</title>
-      <pubDate>Wed, 16 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/16/%E7%A0%94%E8%AE%A8%E4%BC%9A%E9%82%80%E8%AF%B7-%E5%9C%A8-ALP-%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%A4%BE%E5%8C%BA%E8%BD%AF%E4%BB%B6.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>Hi，大家好！
-
-让我邀请大家集思广益，重点关注“如何在 SUSE 的下一代企业 Linux 中使用社区内容”。虚拟会议将于世界标准时间下周二 14:30 举行。
-
-ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.com/ 使用社区包。我想挑战当前的模型并确保社区和企业都以相同的方式使用额外的社区内容。这可以为 ALP 上的社区发行版是什么样子奠定一些基础。
-
-请加入并帮助我们找出方法。
-
-详见此处：
-
-  https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/Q2ML4K55WCKQIQ3FUC47UHCZTJVAJQ7V/
-
-
-
-
-原文：Workshop invitation: Consuming community software in ALP，作者：lkocman
-</description>
-      <content:encoded>&lt;p&gt;Hi，&lt;a href=&quot;https://www.reddit.com/r/openSUSE/&quot;&gt;大家好&lt;/a&gt;！&lt;/p&gt;
-
-&lt;p&gt;让我邀请大家集思广益，重点关注&lt;strong&gt;“如何在 SUSE 的下一代企业 Linux 中使用社区内容”。虚拟会议将于世界标准时间下周二 14:30 举行。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;ALP 与 SLES 或 Leap 截然不同。企业客户通过 https://packagehub.suse.com/ 使用社区包。我想挑战当前的模型并确保社区和企业都以相同的方式使用额外的社区内容。这可以为 ALP 上的社区发行版是什么样子奠定一些基础。&lt;/p&gt;
-
-&lt;p&gt;请加入并帮助我们找出方法。&lt;/p&gt;
-
-&lt;p&gt;详见此处：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/Q2ML4K55WCKQIQ3FUC47UHCZTJVAJQ7V/&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://www.reddit.com/r/openSUSE/comments/ywymtc/workshop_invitation_consuming_community_software/&quot;&gt;Workshop invitation: Consuming community software in ALP&lt;/a&gt;，作者：&lt;a href=&quot;https://www.reddit.com/user/lkocman/&quot;&gt;lkocman&lt;/a&gt;&lt;/p&gt;
 </content:encoded>
     </item>
 
