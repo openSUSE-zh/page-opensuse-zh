@@ -7,9 +7,182 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html</guid>
+      <title>第二代原型推动 ALP 发展</title>
+      <pubDate>Thu, 22 Dec 2022 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>Geekos 正在推出新的操作系统，下一代操作系统的第二个原型正在快速推进。 第一个 Adaptable Linux Platform (自适应 Linux 平台，ALP) 原型 Les Droites 已被新的 ALP 原型 Punta Baretti 取代。 新原型的实现包括更多的灵活性、安全性和稳定性。 Punta Baretti 原型增加了全盘加密。ALP 将此全盘加密扩展到裸机服务器，使用可信平台模块将为利用无人值守启动打开大门，同时保持系统加密和安全。ALP 旨在在需要加密功能的私有云和公共云上运行。这些系统在启动时不需要用户交互，也不需要确保工作负载的安全性。Grub2 将成为默认的引导加载程序，并且考虑到 initramfs 已经加密，它也将有一个加密卷。 新原型解决了一些兼容性问题；SELinux 现在设置为完全执行访问控制，firewalld 默认设置为 netfilter 拒绝；这两个软件包以前出于兼容性和测试目的，策略更加开放。 自 Les Droites 原型以来的升级包括架构和网络更改。ARM 现在支持 aarch64，包括 Raspberry Pi，这将为更多创新者提供试验原型的机会。Network Manager 现在已完全集成并取代了 Wicked。 ALP 使用容器化工作负载隔离应用层的不同进程，包括管理 K3s 对基于 Kubernetes 的工作负载的使用，因为 Podman...</description>
+      <content:encoded>&lt;p&gt;Geekos 正在推出新的操作系统，下一代操作系统的第二个原型正在快速推进。&lt;/p&gt;
+
+&lt;p&gt;第一个 Adaptable Linux Platform (自适应 Linux 平台，ALP) 原型 &lt;a href=&quot;https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/&quot;&gt;Les Droites&lt;/a&gt; 已被新的 ALP 原型 &lt;a href=&quot;https://www.suse.com/c/alp-punta-baretti/&quot;&gt;Punta Baretti&lt;/a&gt; 取代。&lt;/p&gt;
+
+&lt;p&gt;新原型的实现包括更多的灵活性、安全性和稳定性。&lt;/p&gt;
+
+&lt;p&gt;Punta Baretti 原型增加了全盘加密。ALP 将此全盘加密扩展到裸机服务器，使用可信平台模块将为利用无人值守启动打开大门，同时保持系统加密和安全。ALP 旨在在需要加密功能的私有云和公共云上运行。这些系统在启动时不需要用户交互，也不需要确保工作负载的安全性。Grub2 将成为默认的引导加载程序，并且考虑到 &lt;a href=&quot;https://en.wikipedia.org/wiki/Initial_ramdisk&quot;&gt;initramfs&lt;/a&gt; 已经加密，它也将有一个加密卷。&lt;/p&gt;
+
+&lt;p&gt;新原型解决了一些兼容性问题；SELinux 现在设置为完全执行访问控制，&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 默认设置为 netfilter 拒绝；这两个软件包以前出于兼容性和测试目的，策略更加开放。&lt;/p&gt;
+
+&lt;p&gt;自 Les Droites 原型以来的升级包括架构和网络更改。ARM 现在支持 aarch64，包括 Raspberry Pi，这将为更多创新者提供试验原型的机会。Network Manager 现在已完全集成并取代了 Wicked。&lt;/p&gt;
+
+&lt;p&gt;ALP 使用容器化工作负载隔离应用层的不同进程，包括管理 K3s 对基于 Kubernetes 的工作负载的使用，因为 Podman 被用作首要的容器管理前端，ALP 增强了应用程序的运行、构建、共享和部署。&lt;/p&gt;
+
+&lt;p&gt;容器化的 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 实例将帮助用户通过 Web 用户界面部署和管理系统。Cockpit 似乎已成为 ALP 的默认 1.1 系统管理。&lt;/p&gt;
+
+&lt;p&gt;零接触方法将允许自我管理功能。 发布经理 Lubos Kocman 在 factory 邮件列表上写了&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZSZQ6TALB5WNQZ4UZAEQTCSQU4RUJDUO/&quot;&gt;关于自我管理和零接触的可能后续步骤&lt;/a&gt;，并正在查看开发人员是否想尝试自动调整解决方案。&lt;/p&gt;
+
+&lt;p&gt;另一个带有原型的容器化元素是 YaST，它自 ALP 成立以来就已实施，它提供了允许将包需求作为工作负载运行和管理的选项。在线存储库中提供了新的 ALP 工作负载，其中包含 &lt;a href=&quot;https://build.opensuse.org/package/show/SUSE:ALP:Workloads/firewalld-container&quot;&gt;firewalld-container&lt;/a&gt; 和 &lt;a href=&quot;https://build.opensuse.org/package/show/SUSE:ALP:Workloads/warewulf-container&quot;&gt;warewulf-container&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;在 D-Installer 内的整合增加了不同部署设置的可能性，并提供了在其上构建高级用户界面的机会。&lt;/p&gt;
+
+&lt;p&gt;第一个原型的反馈为下一代发行版提供了大量积极的讨论、测试、设置和工程参与。SUSE 的原型有望成为众多基于 ALP 的系列产品之一。&lt;/p&gt;
+
+&lt;p&gt;有关使用 ALP 原型的更多信息，请访问 &lt;a href=&quot;https://documentation.suse.com/alp/all/single-html/alp/index.html&quot;&gt;The Adaptable Linux Platform Guide&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/second-prototype-advances-alp/&quot;&gt;Second Prototype Advances ALP&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E7%8A%B6%E6%80%81-2022%E5%B9%B412%E6%9C%88.html</guid>
+      <title>下载重定向器状态（2022年12月）</title>
+      <pubDate>Thu, 22 Dec 2022 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E4%B8%8B%E8%BD%BD%E9%87%8D%E5%AE%9A%E5%90%91%E5%99%A8%E7%8A%B6%E6%80%81-2022%E5%B9%B412%E6%9C%88.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>介绍 该帖子描述了 download.opensuse.org 于 12 月 22 日上线的变更。预计不会发生重大功能变化，因此大多数用户可以忽略以下详细信息。该功能已经在 mirrorcache.opensuse.org 上可用了数周，不包括一些最终的视觉润色。 文件列表渲染的变化 之前目录列表的呈现是使用 Apache 模块完成的。 新功能提供了三种呈现文件夹内容的方法： 将 JSON 数据动态加载 (ajax) 到 HTML 表中，可在 /browse 路由中获得，例如 Leap 15.4 iso on /browse。 纯 HTML，类似于旧方法，可在 /download 路径获取，例如 Leap 15.4 iso on /download。 原始 JSON 数据——这需要一个特殊的 URL 参数 json 或 jsontable，例如 json，jsontable。 将 AJAX 与...</description>
+      <content:encoded>&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
+
+&lt;p&gt;该帖子描述了 download.opensuse.org 于 12 月 22 日上线的变更。预计不会发生重大功能变化，因此大多数用户可以忽略以下详细信息。该功能已经在 mirrorcache.opensuse.org 上可用了数周，不包括一些最终的视觉润色。&lt;/p&gt;
+
+&lt;h2 id=&quot;文件列表渲染的变化&quot;&gt;文件列表渲染的变化&lt;/h2&gt;
+
+&lt;p&gt;之前目录列表的呈现是使用 Apache 模块完成的。 新功能提供了三种呈现文件夹内容的方法：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;将 JSON 数据动态加载 (ajax) 到 HTML 表中，可在 /browse 路由中获得，例如 &lt;a href=&quot;https://mirrorcache.opensuse.org/browse/distribution/leap/15.4/iso/&quot;&gt;Leap 15.4 iso on /browse&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;纯 HTML，类似于旧方法，可在 /download 路径获取，例如 &lt;a href=&quot;https://mirrorcache.opensuse.org/download/distribution/leap/15.4/iso/&quot;&gt;Leap 15.4 iso on /download&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;原始 JSON 数据——这需要一个特殊的 URL 参数 json 或 jsontable，例如 &lt;a href=&quot;https://mirrorcache.opensuse.org/distribution/leap/15.4/iso/?json&quot;&gt;json&lt;/a&gt;，&lt;a href=&quot;https://mirrorcache.opensuse.org/distribution/leap/15.4/iso/?jsontable&quot;&gt;jsontable&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;将 AJAX 与 HTML 表格一起使用允许使用右上角的特殊框过滤行，以及按名称、大小或时间对文件进行排序。它还显着减少了包含许多文件的渲染文件夹的下载大小，此 &lt;a href=&quot;https://progress.opensuse.org/issues/62255&quot;&gt;ticket&lt;/a&gt; 中也提到了这一点。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-12/mirrorcache-browse-json-filter-sort.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;没有 JavaScript 支持的工具可以使用纯 HTML，例如 curl 和 wget。&lt;/p&gt;
+
+&lt;p&gt;JSON 渲染由 JavaScript 在内部使用，也可能被需要文件列表的最终工具使用。&lt;/p&gt;
+
+&lt;p&gt;如果未指定 /download 或 /browse 路由，则动态选择渲染方法：第一种方法用于浏览器，否则使用传统的 HTML 渲染。&lt;/p&gt;
+
+&lt;h2 id=&quot;在地图上显示镜像站&quot;&gt;在地图上显示镜像站&lt;/h2&gt;
+
+&lt;p&gt;Mirrorlist 现在可以在地图上显示镜像站的位置，这对于视觉表示可能很有用。（如果您单击文件列表中的 “Details” 链接或将 .mirrorlist 添加到文件 URL，则会显示镜像列表）。当按下&lt;a href=&quot;https://mirrorcache.opensuse.org/distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Current.iso.mirrorlist&quot;&gt;镜像站列表&lt;/a&gt;页面底部的 “Toggle map” 按钮时，地图就会出现。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-12/mirrorcache-mirror-map.png&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;下载报告&quot;&gt;下载报告&lt;/h2&gt;
+
+&lt;p&gt;你可以在 “Reports” 菜单中查看最近几天的下载统计信息；&lt;a href=&quot;https://mirrorcache.opensuse.org/report/download?group=country&quot;&gt;每个国家/地区的下载&lt;/a&gt;具有以下限制：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;当天结束后统计，即当天没有统计。&lt;/li&gt;
+  &lt;li&gt;地理区域的统计信息在相应的 MirrorCache 实例上可用（见下文）。&lt;/li&gt;
+  &lt;li&gt;“Bytes Redirected（重定向的字节数）”列中的值目前仅在主实例和美国实例上有效。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2022-12/mirrorcache-download-report-update.png&quot; alt=&quot;3&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;当前区域实例&quot;&gt;当前区域实例&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;北美 - &lt;a href=&quot;https://mirrorcache-us.opensuse.org/&quot;&gt;mirrorcache-us.opensuse.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;南美洲 - &lt;a href=&quot;https://mirrorcache-br-2.opensuse.org/&quot;&gt;mirrorcache-br-2.opensuse.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;大洋洲 - &lt;a href=&quot;https://mirrorcache-au.opensuse.org/&quot;&gt;mirrorcache-au.opensuse.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;日本 - &lt;a href=&quot;https://mirrorcache-jp.opensuse.org/&quot;&gt;mirrorcache-jp.opensuse.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;反馈&quot;&gt;反馈&lt;/h2&gt;
+
+&lt;p&gt;你可在 &lt;a href=&quot;https://github.com/openSUSE/MirrorCache/issues/new/choose&quot;&gt;GitHub&lt;/a&gt; 或 &lt;a href=&quot;https://progress.opensuse.org/projects/opensuse-admin/issues/new&quot;&gt;progress.opensuse.org&lt;/a&gt; 上打开 ticket，或在 opensuse.org 上向管理员发送电子邮件。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/state-of-download.o.o-dec-2022/&quot;&gt;Download Redirector State - December 2022&lt;/a&gt;，作者：Andrii Nikitin&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/download.o.o-%E4%B8%8E-mirrorcache.o.o-%E7%9A%84%E5%BC%82%E5%90%8C.html</guid>
+      <title>download.o.o 与 mirrorcache.o.o 的异同</title>
+      <pubDate>Thu, 22 Dec 2022 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/download.o.o-%E4%B8%8E-mirrorcache.o.o-%E7%9A%84%E5%BC%82%E5%90%8C.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>介绍 历史上，mirrorcache.opensuse.org（简写：mirrorcache.o.o） 的建立是为了评估新的后端引擎，而新引擎逐渐成为 download.opensuse.org（简写：download.o.o） 唯一使用的引擎。 这两种服务的主要任务是使用 GeoIP 信息将对 OBS（开放构建服务）生成的工件的请求重定向到社区镜像。这两种服务使用相同的数据库和相同的后端引擎，因此行为应该或多或少相同。 在最好的情况下，mirrorcache.o.o 可能会被弃用或只是一个别名，但 download.o.o 具有复杂的遗留设置并且还运行其他繁重的服务，这在某些情况下可能会影响用户体验。 不同之处一：设置 download.o.o 是一个功能强大的盒子，以 Apache 作为正向代理，具有相当复杂的遗留配置。download.o.o 还托管其他服务，其中最重的是 rsyncd 服务。它向镜像推送和提供文件，通常比 Apache 消耗更多的流量。 mirrorcache.o.o 是 http-proxy 后面相对较小的盒子，它只专用于 Web 服务。 不同之处二：文件访问 mirrorcache.o.o 无法轻松访问这些文件，因此它显示的是来自数据库的信息，并且在某些情况下可能已过时（这不会影响正常的 zypper 体验）。相比之下，download.o.o 直接从服务器的本地磁盘呈现文件可用性。 一个例子是，当文件夹在 OBS 中被删除时，它几乎立即从 download.o.o 中消失了，但它可能需要一些时间才能从 mirrorcache.o.o 中消失（应该是有人尝试访问它后的几个小时）。 另一个重要的例子是符号链接。例如，openSUSE-Tumbleweed-DVD-x86_64-Current.iso 通常是指向具有特定构建的文件名的符号链接；例如今天是 openSUSE-Tumbleweed-DVD-x86_64-Snapshot20221220-Media.iso。download.o.o 会立即注意到快照的变化，而 mirrorcache.o.o 可能需要一些时间才能对变化做出反应。 结论 请使用...</description>
+      <content:encoded>&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
+
+&lt;p&gt;历史上，mirrorcache.opensuse.org（简写：mirrorcache.o.o） 的建立是为了评估新的后端引擎，而新引擎逐渐成为 download.opensuse.org（简写：download.o.o） 唯一使用的引擎。&lt;/p&gt;
+
+&lt;p&gt;这两种服务的主要任务是使用 GeoIP 信息将对 OBS（开放构建服务）生成的工件的请求重定向到社区镜像。这两种服务使用相同的数据库和相同的后端引擎，因此行为应该或多或少相同。&lt;/p&gt;
+
+&lt;p&gt;在最好的情况下，mirrorcache.o.o 可能会被弃用或只是一个别名，但 download.o.o 具有复杂的遗留设置并且还运行其他繁重的服务，这在某些情况下可能会影响用户体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;不同之处一设置&quot;&gt;不同之处一：设置&lt;/h2&gt;
+
+&lt;p&gt;download.o.o 是一个功能强大的盒子，以 Apache 作为正向代理，具有相当复杂的遗留配置。download.o.o 还托管其他服务，其中最重的是 rsyncd 服务。它向镜像推送和提供文件，通常比 Apache 消耗更多的流量。&lt;/p&gt;
+
+&lt;p&gt;mirrorcache.o.o 是 http-proxy 后面相对较小的盒子，它只专用于 Web 服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;不同之处二文件访问&quot;&gt;不同之处二：文件访问&lt;/h2&gt;
+
+&lt;p&gt;mirrorcache.o.o 无法轻松访问这些文件，因此它显示的是来自数据库的信息，并且在某些情况下可能已过时（这不会影响正常的 zypper 体验）。相比之下，download.o.o 直接从服务器的本地磁盘呈现文件可用性。&lt;/p&gt;
+
+&lt;p&gt;一个例子是，当文件夹在 OBS 中被删除时，它几乎立即从 download.o.o 中消失了，但它可能需要一些时间才能从 mirrorcache.o.o 中消失（应该是有人尝试访问它后的几个小时）。&lt;/p&gt;
+
+&lt;p&gt;另一个重要的例子是符号链接。例如，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Tumbleweed-DVD-x86_64-Current.iso&lt;/code&gt; 通常是指向具有特定构建的文件名的符号链接；例如今天是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Tumbleweed-DVD-x86_64-Snapshot20221220-Media.iso&lt;/code&gt;。download.o.o 会立即注意到快照的变化，而 mirrorcache.o.o 可能需要一些时间才能对变化做出反应。&lt;/p&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;请使用 download.o.o 进行大部分操作，尤其是手动浏览或使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Current.iso&lt;/code&gt; 时。如果您遇到 download.o.o 问题，请使用 mirrorcache.o.o 作为后备，但不要忘记将这些问题报告给 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Heroes#Communication&quot;&gt;openSUSE Heroes&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/explaining-difference-between-download.o.o-and-mirrorcache.o.o/&quot;&gt;Explaining difference between download.o.o and mirrorcache.o.o&lt;/a&gt;，作者：	Andrii Nikitin&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/21/Bash-%E5%92%8C-GCC13-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Bash 和 GCC13 在 Tumbleweed 中更新</title>
+      <pubDate>Wed, 21 Dec 2022 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/21/Bash-%E5%92%8C-GCC13-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周 openSUSE Tumbleweed 的快照就像邮递员送礼物一样寄出。 快照很多，但随着开发人员在假期期间开始休假，每个快照中只有几个软件包到达。 快照 20221219 只更新了一个软件包。该软件包是 cppcheck 2.9.3，它是 C/C++ 代码的静态分析工具。此更新带来了各种图形用户界面和高级功能处理错误修复。该软件包使用 this 指针改进了生命周期分析，并添加了调试内部 debug valueflow 和 debug valuetype 以显示更多详细信息，包括源回溯。 快照 20221218 只更新了两个软件包。shell 和命令语言包 bash 5.2.15 的更新添加了一些 Tumbleweed 的上游补丁。这些补丁解决了 bash 在优化子 shell 中的分叉时过于激进的几种情况，以及 bash 在引用不存在的关联数组元素时如何泄漏内存。Bash 在运行 EXIT 陷阱时也会推迟处理额外的终止信号，同时由于终止信号而退出；该补丁允许新的终止信号立即杀死 shell。快照中要更新的另一个包是 XFS 文件系统实用程序 xfsdump 3.1.12。该软件包包含用于创建和恢复目录树备份的工具，这些工具修复了媒体解包、流解包、流打包和解包逻辑的媒体库存。 快照 20221217 对 VPN 客户端 openconnect 的进行了一次主要版本更新。openconnect...</description>
+      <content:encoded>&lt;p&gt;本周 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的快照就像邮递员送礼物一样寄出。&lt;/p&gt;
+
+&lt;p&gt;快照很多，但随着开发人员在假期期间开始休假，每个快照中只有几个软件包到达。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/APMYDEYJ4OUFQ6EUWLM5S5YC7IUAUOG7/&quot;&gt;20221219&lt;/a&gt; 只更新了一个软件包。该软件包是 &lt;a href=&quot;https://github.com/danmar/cppcheck&quot;&gt;cppcheck&lt;/a&gt; 2.9.3，它是 C/C++ 代码的静态分析工具。此更新带来了各种图形用户界面和高级功能处理错误修复。该软件包使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; 指针改进了生命周期分析，并添加了调试内部 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;debug valueflow&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;debug valuetype&lt;/code&gt; 以显示更多详细信息，包括源回溯。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/E2HXIR5PO3MXYNDW35QSDS5EL76AEG63/&quot;&gt;20221218&lt;/a&gt; 只更新了两个软件包。shell 和命令语言包 &lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; 5.2.15 的更新添加了一些 Tumbleweed 的上游补丁。这些补丁解决了 bash 在优化子 shell 中的分叉时过于激进的几种情况，以及 bash 在引用不存在的关联数组元素时如何泄漏内存。Bash 在运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EXIT&lt;/code&gt; 陷阱时也会推迟处理额外的终止信号，同时由于终止信号而退出；该补丁允许新的终止信号立即杀死 shell。快照中要更新的另一个包是 XFS 文件系统实用程序 &lt;a href=&quot;https://fossies.org/linux/misc/xfsdump-3.1.12.tar.xz/&quot;&gt;xfsdump&lt;/a&gt; 3.1.12。该软件包包含用于创建和恢复目录树备份的工具，这些工具修复了媒体解包、流解包、流打包和解包逻辑的媒体库存。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/M3V26PC3BYSN5WRXJEZA5HL54ELBBFY4/&quot;&gt;20221217&lt;/a&gt; 对 VPN 客户端 &lt;a href=&quot;https://www.infradead.org/openconnect/index.html&quot;&gt;openconnect&lt;/a&gt; 的进行了一次主要版本更新。openconnect 9.01 版本增加了 webview 回调和对 Cisco 的一些 AnyConnect 会话和验证的支持。Linux 音频和视频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.63 的更新修复了一个严重的错误，该错误在某些情况下使用高级矢量扩展 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Vector_Extensions&quot;&gt;AVX2&lt;/a&gt; 时会导致一些音频失真。pipewire 还修复了一些崩溃触发器和 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 的潜在启动问题。快照中更新了一些其他 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt5&lt;/a&gt; 包，以及 &lt;a href=&quot;https://libosinfo.org/&quot;&gt;osinfo-db&lt;/a&gt; 20221130，它添加了一些补丁以支持 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.3/&quot;&gt;Leap Micro&lt;/a&gt; 版本。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2UZC5OGKTYVQAHMBUGGGMWDTHSKXUJDL/&quot;&gt;20221216&lt;/a&gt; 中对 Linux 启动过程进行了功能改进，因为更新后的 &lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 会检查 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/libexec&lt;/code&gt; 中的 &lt;a href=&quot;https://www.systutorials.com/docs/linux/man/8-fipscheck/&quot;&gt;fipscheck&lt;/a&gt; 验证检查。&lt;a href=&quot;https://www.vmware.com/&quot;&gt;VMware&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/vmware/open-vm-tools&quot;&gt;open-vm-tools&lt;/a&gt; 更新到 12.1.5 版本。该软件包添加了一个 containerInfo 插件和一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Coverity&quot;&gt;Coverity&lt;/a&gt;，这是专有的静态代码分析工具，报告的问题得到了解决。密码检查库 &lt;a href=&quot;https://github.com/cracklib/cracklib&quot;&gt;cracklib&lt;/a&gt; 2.9.8 有一些翻译更新，并强制 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt; 在格式化文本文件时将输入视为文本。快照中更新了文本编辑器 &lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;nano&lt;/a&gt; 7.1、&lt;a href=&quot;https://ftp.gnu.org/gnu/mpc/&quot;&gt;mpc&lt;/a&gt; 1.3.0 和其他几个软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LFOGUQOFDTITQQ6MPAW5LBV4LOT2VWA3/&quot;&gt;20221215&lt;/a&gt; 更新了数个软件包。快照中的重大更新是对 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 的更新。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc13&lt;/a&gt; 13.0.0 &lt;a href=&quot;https://github.com/git&quot;&gt;git+&lt;/a&gt; 添加了两个新标头，并且 GCN 交叉编译器至少依赖于 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 13。编译器重新调整了一个补丁并包含了一个新补丁以支持 &lt;a href=&quot;https://developer.arm.com/documentation/ddi0406/latest&quot;&gt;armv7l&lt;/a&gt; 架构。 另一个主要版本更新是 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; Unicode 字符映射包 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gucharmap&quot;&gt;gucharmap&lt;/a&gt;；gucharmap 15.0.2 更新了翻译、&lt;a href=&quot;https://unicode.org/versions/Unicode15.0.0/&quot;&gt;unicode 15.0.0&lt;/a&gt;、添加了屏幕截图并从元信息链接它们。其他要更新的软件包是改进了对没有 GPS 高度的图像的处理的 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/shotwell&quot;&gt;shotwell&lt;/a&gt; 0.31.7、使基于 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; http 服务器的测试更加可靠的 &lt;a href=&quot;https://www.adiscon.com/news/news-release/rsyslog-8-2212-0-released/&quot;&gt;rsyslog 8.2212.0&lt;/a&gt; 等软件包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/21/bash-gcc-up-in-tw/&quot;&gt;Bash, GCC13 update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</guid>
       <title>良好的提交信息有助于沟通协作</title>
-      <pubDate>Mon, 19 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Mon, 19 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</link>
       <author>Hanjingxue Boling</author>
       <description>清晰的提交（commit）消息可以极大地帮助开发人员，这篇简短的博客将分享一些为 openSUSE 和开源贡献编写高质量提交消息的最佳实践。
@@ -83,7 +256,7 @@
     <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/15/KDE-GNOME-%E5%92%8C%E9%9F%B3%E9%A2%91%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>KDE、GNOME 和音频包在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 15 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Thu, 15 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/15/KDE-GNOME-%E5%92%8C%E9%9F%B3%E9%A2%91%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
       <author>Hanjingxue Boling</author>
       <description>根据 openSUSE 项目的发布工程会议的记录，本周到达的数个 openSUSE Tumbleweed 快照对声音、图像和系统组件进行了更新，并且 ARM 镜像再次滚动更新。 对于具有 aarch64 服务器和 NVIDIA 显卡的测试员和 NVIDIA 用户，openSUSE 现已提供针对 aarch64 架构的专有图形驱动程序，但仅适用于 G06 版本。 快照 20221214 可能会给人们带来一些好消息，因为 GNOME 网络摄像头应用程序 cheese 从 43 Alpha 版本更新到 43.0 正式版本；向新版本的过渡涉及删除 glibc 调试环境变量和翻译更新。本次快照更新了 pipewire 0.3.62 和 wireplumber 0.4.13，改善了在线网络摄像头用户的语音质量。更新后的 PipeWire 修复了在激活链接和驱动程序节点时由争用导致的屏幕共享回归。WirePlumber 的更新添加了对蓝牙卸载的支持，允许接收、解码和播放完全在硬件中进行。版本控制系统 git 更新到 2.39.0 版本。次要版本更新扩展了 git grep checkouts，对 get...</description>
@@ -114,7 +287,7 @@
     <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/14/openSUSE-%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B8%BE%E8%A1%8C%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BB%A5%E5%A2%9E%E5%8A%A0%E6%8C%87%E5%AF%BC%E5%B7%A5%E4%BD%9C.html</guid>
       <title>openSUSE 项目计划举行研讨会以增加指导工作</title>
-      <pubDate>Wed, 14 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Wed, 14 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/14/openSUSE-%E9%A1%B9%E7%9B%AE%E8%AE%A1%E5%88%92%E4%B8%BE%E8%A1%8C%E7%A0%94%E8%AE%A8%E4%BC%9A%E4%BB%A5%E5%A2%9E%E5%8A%A0%E6%8C%87%E5%AF%BC%E5%B7%A5%E4%BD%9C.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE 项目将于世界标准时间 1 月 10 日 15:30 在 meet.opensuse.org/meeting 举办研讨会，重点关注为今年的 Google 编程之夏增加指导。
@@ -154,7 +327,7 @@ openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导�
     <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/11/openSUSE-Leap-15.3-%E8%BF%9B%E5%85%A5-EOL-%E7%8A%B6%E6%80%81.html</guid>
       <title>openSUSE Leap 15.3 进入 EOL 状态</title>
-      <pubDate>Sun, 11 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Sun, 11 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/11/openSUSE-Leap-15.3-%E8%BF%9B%E5%85%A5-EOL-%E7%8A%B6%E6%80%81.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE Leap 15.3 会在 2022 年的最后一天进入 EOL（产品寿命结束），使用该版本的用户将不再接收到任何安全和维护更新。 Marcus Meissner 于 11 月 30 日在公告邮件列表中提前通知了用户；社区用户经常讨论 Leap 的生命周期。 因为 EOL 标志着社区不再维护操作系统的此次要版本，那些继续使用 EOL 版本的人将面临无人处理的系统漏洞。因此我们强烈建议用户更新到比较新的次要版本（Leap 15.4）以继续获取更新和维护。 仍在使用旧版系统的用户可以前往镜像站下 ISO 镜像文件进行一次全新安装，或者参考 wiki 文档从现有的系统版本升级至较新的系统版本。 在 2023 年 11 月进入 EOL 之前，Leap 15.4 预计将持续收到维护和安全补丁更新。根据路线图，Leap 15.5 预计将于 2023 年 6 月初发布。 有兴趣从定期发布版本迁移至滚动更新的 tumbleweed 的用户可以阅读 wiki 文档获得更多帮助信息。对于 MicroOS 感兴趣的用户也可访问 openSUSE...</description>
@@ -181,7 +354,7 @@ openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导�
     <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新</title>
-      <pubDate>Wed, 07 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Wed, 07 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
       <author>Hanjingxue Boling</author>
       <description>openSUSE Tumbleweed 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。 Factory 邮件列表在过去一周中新增了 200 多条有关更改 Tumbleweed 微架构级别的消息，与此同时，Tumbleweed 保持滚动，不断发布 vim、mutt 等软件包的更新。 快照 20221206 中只有少数软件包获得更新。urlscan 0.9.10 就是其中要更新的软件包之一，它将 * 添加为允许的 URL 特殊字符。由于 Gentoo 和 openSUSE 都遇到了挂起/崩溃，因此快照将 libX11 还原为 1.8.1 版本。用于处理音频文件，为 JSON 和 YAML 插件提供了曲目和光盘编号支持的 Python 工具，eyeD3，有一个很酷的名字和 LOGO；此次更新将 eyeD3 更新至 0.9.7 版本，但删除了对 Python 3.6 的支持。Pidgin 聊天插件 purple-mattermost 更新到 2.1 版本，将在第一次加入频道时获取最近...</description>
@@ -210,7 +383,7 @@ openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导�
     <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/04/openSUSE-%E8%AE%BA%E5%9D%9B%E7%8E%B0%E5%B0%86%E4%BB%8E-vBulletin-%E8%BF%81%E7%A7%BB%E8%87%B3-Discourse.html</guid>
       <title>openSUSE 论坛将从 vBulletin 迁移至 Discourse</title>
-      <pubDate>Sun, 04 Dec 2022 17:30:00 -0600</pubDate>
+      <pubDate>Sun, 04 Dec 2022 23:30:00 +0000</pubDate>
       <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/04/openSUSE-%E8%AE%BA%E5%9D%9B%E7%8E%B0%E5%B0%86%E4%BB%8E-vBulletin-%E8%BF%81%E7%A7%BB%E8%87%B3-Discourse.html</link>
       <author>Hanjingxue Boling</author>
       <description>也许您已经在 openSUSE 论坛上看到了这个公告，并对于使用论坛的方式产生了疑惑。也有可能您并不明白，或是只是模糊地理解 vBulletin 和 Discourse 这两个词的意思。
@@ -256,153 +429,6 @@ vBulletin 是一个商业软件包，forums.opensuse.org 使用它处理用户�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/05/openSUSE-forums-move-from-vBulletin-to-Discourse/&quot;&gt;The openSUSE forums move from vBulletin to Discourse&lt;/a&gt;，作者：	Victorhck&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/01/Nano-%E5%92%8C-VirtualBox-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Nano 和 VirtualBox 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 01 Dec 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/01/Nano-%E5%92%8C-VirtualBox-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周，openSUSE Tumbleweed 快照稳步到达用户手中，并且在 openSUSE Factory 邮件列表上有大量关于推进滚动版本微架构的计划的对话，以及关于缓解计划/求助呼救的讨论。 迁移至 x86-64-v2 的更改预计将在 2023 年新年第一季度进行，即将发生的更改将在邮件列表和博客上进行交流。 快照 20221128 更新了一个软件包。聊天客户端 Pidgin 的 Skype 插件 skype4pidgin 已更新到 1.7 版本。该插件更新修复了加入房间时失去管理员权限、通过客户端传输文件的问题以及人们不在线的问题。 gawk 5.2.1 的更新出现在快照 20221127 中。该实用程序修复了调试器的问题，删除了一些补丁并解决了将无类型数组元素传递给函数的一些微妙问题。基于 GnuPG 源码的通用密码库 libgcrypt 已更新至 1.10.1 版本并修复了轻微的内存泄漏。此次更新改进了对 PowerPC 架构的支持，并将硬件优化配置文件 hwf.deny 添加到 /etc/gcrypt/ 目录。快照中还有 kdump 的 git+ 更新、heaptrack 1.4.0、iputils 20221126 和添加了新的 API 接口调用并修复了一些编译问题的 libeconf 0.4.9...</description>
-      <content:encoded>&lt;p&gt;本周，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 快照稳步到达用户手中，并且在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;上有大量关于&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/27/Tumbleweed-%E6%8E%A8%E5%87%BA%E7%BC%93%E8%A7%A3%E8%AE%A1%E5%88%92-%E6%9B%B4%E6%96%B0%E5%BE%AE%E6%9E%B6%E6%9E%84.html&quot;&gt;推进滚动版本微架构&lt;/a&gt;的计划的对话，以及关于&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4OIMNHRDMSRLUNZRA5OPHMVSPXRRQVSB/&quot;&gt;缓解计划/求助呼救&lt;/a&gt;的讨论。&lt;/p&gt;
-
-&lt;p&gt;迁移至 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;x86-64-v2&lt;/a&gt; 的更改预计将在 2023 年新年第一季度进行，即将发生的更改将在邮件列表和博客上进行交流。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4WASMYQT2JL6ASBZPUTBYWQU5JCTUQPL/&quot;&gt;20221128&lt;/a&gt; 更新了一个软件包。聊天客户端 &lt;a href=&quot;https://keep.imfreedom.org/pidgin/pidgin/&quot;&gt;Pidgin&lt;/a&gt; 的 &lt;a href=&quot;https://www.skype.com/&quot;&gt;Skype&lt;/a&gt; 插件 &lt;a href=&quot;https://github.com/EionRobb/skype4pidgin&quot;&gt;skype4pidgin&lt;/a&gt; 已更新到 1.7 版本。该插件更新修复了加入房间时失去管理员权限、通过客户端传输文件的问题以及人们不在线的问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.gnu.org/software/gawk/&quot;&gt;gawk 5.2.1&lt;/a&gt; 的更新出现在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/V5QTPPNAU45ZXBOLAVB7RM4RXGNSGVDO/&quot;&gt;20221127&lt;/a&gt; 中。该实用程序修复了调试器的问题，删除了一些补丁并解决了将无类型数组元素传递给函数的一些微妙问题。基于 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GnuPG&lt;/a&gt; 源码的通用密码库 &lt;a href=&quot;https://gnupg.org/software/libgcrypt/index.html&quot;&gt;libgcrypt&lt;/a&gt; 已更新至 1.10.1 版本并修复了轻微的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。此次更新改进了对 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 架构的支持，并将硬件优化配置文件 &lt;a href=&quot;https://www.gnupg.org/documentation/manuals/gcrypt/Configuration.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hwf.deny&lt;/code&gt;&lt;/a&gt; 添加到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/gcrypt/&lt;/code&gt; 目录。快照中还有 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 的 git+ 更新、&lt;a href=&quot;https://milianw.de/tag/heaptrack&quot;&gt;heaptrack&lt;/a&gt; 1.4.0、&lt;a href=&quot;https://github.com/iputils/iputils&quot;&gt;iputils&lt;/a&gt; 20221126 和添加了新的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口调用并修复了一些编译问题的 &lt;a href=&quot;https://github.com/openSUSE/libeconf/releases&quot;&gt;libeconf&lt;/a&gt; 0.4.9 版本更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QXA5E6GUWDAWXKANCLFCS2UVWBCLISUZ/&quot;&gt;20221126&lt;/a&gt; 更新了五个软件包。&lt;a href=&quot;http://www.libpng.org/pub/png/libpng.html&quot;&gt;libpng16&lt;/a&gt; 1.6.39 的更新修复了内存泄漏和缓冲区溢出问题。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.53 更新进行了一些代码清理。&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.6 避免在信息已知时调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getsockopt&lt;/code&gt;，并且该补丁有望修复 &lt;a href=&quot;https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux&quot;&gt;WSL&lt;/a&gt; 日志记录。&lt;a href=&quot;https://manpages-l10n-team.pages.debian.net/manpages-l10n/&quot;&gt;manpages-l10n&lt;/a&gt; 4.16.0 为即将到来的 Leap 15.5 和 Fedora 37 进行了宏升级。 &lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 65.6.3 的更新修复了日志记录错误，并通过对源进行排序提高了 &lt;a href=&quot;https://www.clibs.org/&quot;&gt;clib&lt;/a&gt; 构建的可重复性。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EGLLVRWJQZY3FE57XIOTYIWDZ3NAGVXA/&quot;&gt;20221125&lt;/a&gt; 发布了文本编辑器 &lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;nano&lt;/a&gt; 的主要版本更新。Nano 7.0 允许（通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;M-V&lt;/code&gt;）输入没有前导零的 unicode 代码和完成短代码。nano 7.0 现在允许在大括号之间包含可绑定函数名称的字符串绑定。大括号函数名称可以与文字文本混合。Nano 并不是快照中唯一更新的文本编辑器。&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.0924 的更新在 more 提示符下执行 mapclear、unmenu 和 delfunc 时释放了内存。该软件包还修复了无法识别的 &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;Amazon Web Services&lt;/a&gt; 配置文件。视频媒体播放器 &lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 3.0.18 的更新修复了颜色回归以及旧 GPU 的一些渲染和性能问题。快照中更新了更多软件包，包括 &lt;a href=&quot;https://apparmor.net/&quot;&gt;apparmor&lt;/a&gt; 3.1.2、图像处理框架 &lt;a href=&quot;https://www.gegl.org/&quot;&gt;gegl&lt;/a&gt; 0.4.40、&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.5.8 等。&lt;/p&gt;
-
-&lt;p&gt;由于更新日志的准备错误，快照 20221124 的电子邮件公告未发送，但快照确实已发布。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 7.0.4 版本更新在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CVTLTSY3TFSSUMVLNLI3NCXMDMYBEBZY/&quot;&gt;20221123&lt;/a&gt; 中发布。新的主要版本有多个&lt;a href=&quot;https://en.wikipedia.org/wiki/Graphical_user_interface&quot;&gt;图形用户界面&lt;/a&gt;更改，包括修复新虚拟机向导中的回归。virtualbox 还增加了对&lt;a href=&quot;https://www.intel.com/content/www/us/en/support/articles/000006942/boards-and-kits/desktop-boards.html&quot;&gt;安全启动&lt;/a&gt;功能的支持。&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.12p1 的更新修复了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，该漏洞在启用密码身份验证时可能会&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-43995.html&quot;&gt;越界写入小于八个字符的密码&lt;/a&gt;。&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-43995.html&quot;&gt;CVE-2022-43995&lt;/a&gt; 不会影响使用其他身份验证方法（如 PAM、AIX 身份验证或 BSD 身份验证）的配置。&lt;a href=&quot;https://mariadb.org/&quot;&gt;mariadb&lt;/a&gt; 10.10.2 的更新修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/InnoDB&quot;&gt;InnoDB&lt;/a&gt; 存储崩溃恢复并改进了与许多表（包括 &lt;a href=&quot;https://jira.mariadb.org/browse/MDEV-28852&quot;&gt;eq_ref 表&lt;/a&gt;）的连接优化。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/01/nano-vb-up-in-tw/&quot;&gt;Nano, VirtualBox update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/27/Tumbleweed-%E6%8E%A8%E5%87%BA%E7%BC%93%E8%A7%A3%E8%AE%A1%E5%88%92-%E6%9B%B4%E6%96%B0%E5%BE%AE%E6%9E%B6%E6%9E%84.html</guid>
-      <title>Tumbleweed 推出缓解计划，更新微架构</title>
-      <pubDate>Sun, 27 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/27/Tumbleweed-%E6%8E%A8%E5%87%BA%E7%BC%93%E8%A7%A3%E8%AE%A1%E5%88%92-%E6%9B%B4%E6%96%B0%E5%BE%AE%E6%9E%B6%E6%9E%84.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周，一项关于微架构级别变更的缓解计划和关于将 openSUSE Tumbleweed 推进到 x86-64-v2 微架构的信息，为 openSUSE 项目的重大进展拉开了序幕。 Tumbleweed 和 openSUSE 的其他分支是为旧的 x86-64-v1 硬件构建的，过渡到 x86-64-v2 需要社区协力支持无法将硬件更新到 x86-64-v2 微架构的用户。 Tumbleweed 发布经理 Dominique Leuenberger 在寄给 openSUSE Factory 邮件列表的电子邮件中写道：“openSUSE Factory 存储库的目标架构将更新至 x86-64-v2。”一个新的存储库“将与 openSUSE Factory 存储库一同存在。此更改对于符合 SUSE 的 factory 优先政策以与项目发起人的开发工作保持一致是必要的。” 这个为 x86-64-v1 用户设计的新存储库看起来将被命名为 openSUSE:Factory:LegacyX86，并且需要志愿者来维护该存储库的各个方面。 “我将帮助执行初始设置（包括 openQA），但一旦运行，我就不再碰它了（除非存储库的用户寻求特定帮助），”Leuenberger 在回复中写道。“我期待离线 ISO 安装镜像的发布，但我不期待有可用的 Live ISO。” 参加 openSUSE 的公开发布工程会议的人们讨论了这个话题并提出了一个行动计划。...</description>
-      <content:encoded>&lt;p&gt;本周，一项关于&lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;微架构级别&lt;/a&gt;变更的缓解计划和关于将 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 推进到 x86-64-v2 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;微架构&lt;/a&gt;的信息，为 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;的重大进展拉开了序幕。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 的其他分支&lt;/a&gt;是为旧的 x86-64-v1 硬件构建的，过渡到 x86-64-v2 需要社区协力支持无法将硬件更新到 x86-64-v2 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;微架构&lt;/a&gt;的用户。&lt;/p&gt;
-
-&lt;p&gt;Tumbleweed 发布经理 Dominique Leuenberger 在寄给 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4OIMNHRDMSRLUNZRA5OPHMVSPXRRQVSB/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;的电子邮件中写道：“openSUSE Factory 存储库的目标架构将更新至 x86-64-v2。”一个新的存储库“将与 openSUSE Factory 存储库一同存在。此更改对于符合 &lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;SUSE 的 factory 优先政策&lt;/a&gt;以与项目发起人的开发工作保持一致是必要的。”&lt;/p&gt;
-
-&lt;p&gt;这个为 x86-64-v1 用户设计的新存储库看起来将被命名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE:Factory:LegacyX86&lt;/code&gt;，并且需要志愿者来维护该存储库的各个方面。&lt;/p&gt;
-
-&lt;p&gt;“我将帮助执行初始设置（包括 openQA），但一旦运行，我就不再碰它了（除非存储库的用户寻求特定帮助），”Leuenberger 在回复中写道。“我期待离线 ISO 安装镜像的发布，但我不期待有可用的 Live ISO。”&lt;/p&gt;
-
-&lt;p&gt;参加 openSUSE 的公开&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EDJ4ST6IYDVZ7ZY4VB7LBU3NQBKKADE5/&quot;&gt;发布工程会议&lt;/a&gt;的人们讨论了这个话题并提出了一个行动计划。&lt;/p&gt;
-
-&lt;p&gt;讨论并达成一致的解决方案是将原有的 Tumbleweed 主存储库的目标架构更新至 x86-64-v2，&lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-architecture-baselevel-x86_64-v2/&quot;&gt;就像 ALP 将在其发布时一样&lt;/a&gt;。&lt;a href=&quot;https://en.wikipedia.org/wiki/Pentium_(original)&quot;&gt;i586&lt;/a&gt; 支持将从存储库中移除，仅保留特定软件包所需的 32 位软件包，但完整的 32 位存储库将不复存在。当存储库迁移到 x86-64-v2 时，除了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 之外，用户无需执行任何操作，但预计会收到项目维护人员发送有关此更改的通知。&lt;/p&gt;
-
-&lt;p&gt;对于停留在基于 x86-64-v1 架构的老式系统的用户，需要手动将主存储库的地址从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;download.opensuse.org/tumbleweed/repo/oss&lt;/code&gt; 变更为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;download.opensuse.org/ports/legacyx86/tumblewed/repo/oss&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;“通过这个解决方案和更新的 CPU 指令，我们为使用比 x86-64-v1 更新的机器的用户提供了开发优势，”他写道。 “同时，这也为用户提供了一条在可能没有所需硬件的机器上仍然运行 Tumbleweed 的途径。”&lt;/p&gt;
-
-&lt;p&gt;要检查运行 Tumbleweed 的硬件，用户可以在终端中使用以下命令：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/lib64/ld-linux-x86-64.so.2 --help
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;命令输出应该是如下文本：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x86-64-v4
-
-x86-64-v3 (supported, searched)
-
-x86-64-v2 (supported, searched)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;最近 openSUSE 的 &lt;a href=&quot;https://twitter.com/openSUSE&quot;&gt;Twitter 账户&lt;/a&gt;进行的一项民意调查发现，51% 的受访者了解&lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;微架构级别&lt;/a&gt;以及它为开发人员和基础设施优化带来的好处。&lt;/p&gt;
-
-&lt;p&gt;有关更多信息，请关注 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4OIMNHRDMSRLUNZRA5OPHMVSPXRRQVSB/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;中的讨论。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/28/tw-to-roll-out-mitigation-plan-advance-microarchitecture/&quot;&gt;Tumbleweed to Roll Out Mitigation Plan, Advance Microarchitecture&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/23/PipeWire-Flatpak-%E5%92%8C-YaST-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>PipeWire、Flatpak 和 YaST 在 Tumbleweed 中更新</title>
-      <pubDate>Wed, 23 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/11/23/PipeWire-Flatpak-%E5%92%8C-YaST-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>到本周为止，openSUSE Tumbleweed 持续发布的快照达到 42 个。 本周发布的包更新包括 Mesa、bind、Flatpak 等。 以上三个软件包在快照 20221122 中发布。Mesa 22.2.4 修复了蜘蛛侠重制版中与 AMD 的 RADV 相关的一些闪烁问题，并修复了一些影响游戏的其他缺陷。bind 9.18.9 的更新修复了启动期间与连接问题相关的恢复，并修复了某些解决方案中的溢出问题。跨发行版包 Flatpak 1.14.1 添加了新功能，例如 httpbackend 变量，允许 GNOME Software 等依赖项目检测它们是否与 libflatpak 兼容。Flatpak 还修复了一个问题，使应用程序不会继承过时的 Wayland 和 X11 套接字地址。工具和脚本的集合 hxtools 在一年后，从 20211204 版本迁移到了 20221119 版本；hxtools 添加了一个新实用程序，并为选择性文件转储输出实现了纵横比校正。快照还更新了一些 yast2 软件包，例如 yast2-storage-ng 4.5.14，它建议使用 D-Installer 使用的可配置 PBKDF 支持 LUKS2...</description>
-      <content:encoded>&lt;p&gt;到本周为止，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 持续发布的快照达到 42 个。&lt;/p&gt;
-
-&lt;p&gt;本周发布的包更新包括 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt;、&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 等。&lt;/p&gt;
-
-&lt;p&gt;以上三个软件包在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/M6FGFNBDAVM5MBSSPYL6AGIJ4ZTDQFAA/&quot;&gt;20221122&lt;/a&gt; 中发布。&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.2.4 修复了&lt;a href=&quot;https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/&quot;&gt;蜘蛛侠重制版&lt;/a&gt;中与 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; 的 &lt;a href=&quot;https://docs.mesa3d.org/drivers/radv.html&quot;&gt;RADV&lt;/a&gt; 相关的一些闪烁问题，并修复了一些影响游戏的其他缺陷。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.9 的更新修复了启动期间与连接问题相关的恢复，并修复了某些解决方案中的溢出问题。跨发行版包 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.14.1 添加了新功能，例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;httpbackend&lt;/code&gt; 变量，允许 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; Software 等依赖项目检测它们是否与 libflatpak 兼容。Flatpak 还修复了一个问题，使应用程序不会继承过时的 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/X_Window_System&quot;&gt;X11&lt;/a&gt; 套接字地址。工具和脚本的集合 &lt;a href=&quot;https://inai.de/projects/hxtools/&quot;&gt;hxtools&lt;/a&gt; 在一年后，从 20211204 版本迁移到了 20221119 版本；hxtools 添加了一个新实用程序，并为选择性文件转储输出实现了纵横比校正。快照还更新了一些 &lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 软件包，例如 &lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.5.14，它建议使用 &lt;a href=&quot;https://news.opensuse.org/2022/10/27/call-for-testing-next-gen-installer/&quot;&gt;D-Installer&lt;/a&gt; 使用的可配置 &lt;a href=&quot;https://en.wikipedia.org/wiki/PBKDF2&quot;&gt;PBKDF&lt;/a&gt; 支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup&quot;&gt;LUKS2&lt;/a&gt; 加密。其他几个软件包也进行了更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/OSNBU7Z7FY4CDBC577AAINE4VUMUMFTU/&quot;&gt;20221121&lt;/a&gt; 只更新了两个包。用 &lt;a href=&quot;https://www.rust-lang.org/&quot;&gt;Rust&lt;/a&gt; 编写的 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 插件 &lt;a href=&quot;https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs&quot;&gt;gstreamer-plugins-rs&lt;/a&gt; 提供了最近 11 月的 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 0.9+ 更新。该软件包增加了对复用视频 &lt;a href=&quot;https://www.mux.com/video-glossary/vp9&quot;&gt;VP9&lt;/a&gt; 编解码器流的支持，并为容器格式添加了一个新的 &lt;a href=&quot;https://www.mux.com/&quot;&gt;mux&lt;/a&gt; 子目录。&lt;a href=&quot;https://gitlab.xfce.org/xfce/xfce4-settings&quot;&gt;xfce4-settings&lt;/a&gt; 4.16.5 更新了 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 的配置系统；该次要更新修复了版本 4.16.4 中引入的，导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exo-open&lt;/code&gt; 无法使用内部的路径空间的回归。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CNS3RPP5C2DR7BPY43XC72EJVEAZ3PKA/&quot;&gt;20221120&lt;/a&gt; 更新了一些软件包。其中包括终端模拟器 &lt;a href=&quot;https://invisible-island.net/xterm/&quot;&gt;xterm&lt;/a&gt; 376 的更新；此更新修改了配置脚本以始终检查 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 属性，并修复了复制/粘贴错误。本次快照还更新了多精度浮点库 &lt;a href=&quot;https://www.mpfr.org/mpfr-current/mpfr.html&quot;&gt;mpfr&lt;/a&gt;。mpfr 4.1.1 版本改进了手动格式化，更新了密钥环并修复了&lt;a href=&quot;https://www.mpfr.org/mpfr-4.1.0/#fixed&quot;&gt;多个错误&lt;/a&gt;，其中包括一个特别针对宏实现功能的错误。用于压缩文件的库和命令行工具 &lt;a href=&quot;https://tukaani.org/xz/&quot;&gt;xz&lt;/a&gt; 5.2.8 进行了与 &lt;a href=&quot;https://www.gnu.org/software/gzip/&quot;&gt;GNU gzip&lt;/a&gt; 匹配的更改，现在它对输出文件进行了更合乎逻辑的处理，当 xz 无法删除输入文件时，它会成功关闭。该软件包还修复了在进度指示器中显示文件大小的问题。输入设备管理和事件处理库 &lt;a href=&quot;https://gitlab.freedesktop.org/libinput&quot;&gt;libinput&lt;/a&gt; 1.22.0 更新添加了适用于 &lt;a href=&quot;https://www.lenovo.com/&quot;&gt;Lenovo&lt;/a&gt;、&lt;a href=&quot;https://www.acer.com/&quot;&gt;Acer&lt;/a&gt; 的笔记本电脑以及基于 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 的 Chromebook 的 &lt;a href=&quot;https://wayland.freedesktop.org/libinput/doc/latest/device-quirks.html&quot;&gt;quirks&lt;/a&gt; 文件。该软件包为跟踪点提供了一个新的平面加速曲线，使它们在某些情况下更有用。快照中要更新的最后一个包是便携式开源 UPnP 开发工具包 libupnp 1.14.15，它修复了 autotools 发行版中的一些 CMake 缺失文件。&lt;/p&gt;
-
-&lt;p&gt;PDF 渲染器 &lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6HRAZBBUCY56VI57SC3PI6PZ5IDOCB3G/&quot;&gt;20221119&lt;/a&gt; 中更新到 22.11.0 版本。该更新有一些次要的代码&lt;a href=&quot;https://en.wikipedia.org/wiki/Code_refactoring&quot;&gt;重构&lt;/a&gt;并防止文件损坏。&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 1.0.2+git20 的更新禁用了针对 &lt;a href=&quot;https://en.wikipedia.org/wiki/32-bit_computing&quot;&gt;32 位&lt;/a&gt; &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 架构的构建。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/NetworkManager-openvpn&quot;&gt;NetworkManager-openvpn&lt;/a&gt; 1.10.2 更新了翻译，修复了秘密标志初始化并增加了对 DOMAIN-SEARCH 选项的支持。快照中更新的其他软件包包括 &lt;a href=&quot;https://sourceforge.net/projects/linuxquota/&quot;&gt;quota&lt;/a&gt; 4.09、&lt;a href=&quot;https://libpipeline.gitlab.io/libpipeline/&quot;&gt;libpipeline&lt;/a&gt; 1.5.7 和 &lt;a href=&quot;https://taglib.org/&quot;&gt;taglib&lt;/a&gt; 1.13 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6C3VDCFDQT6BVF6VPWRI3WMDY33NR4QZ/&quot;&gt;20221118&lt;/a&gt; 更新了数个 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 包。&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.5.9 的更新编写了一个配置脚本以启用安全策略，并修正了安装摘要中的帮助，以包括相应建议中的文本。&lt;a href=&quot;https://github.com/yast/yast-security&quot;&gt;yast2-security&lt;/a&gt; 4.5.3 的更新修复了测试工具 &lt;a href=&quot;https://github.com/rspec/rspec-metagem&quot;&gt;RSpec&lt;/a&gt; 预期的哈希与关键字参数，这也反映在 &lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.19 的更新中。&lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;autoyast2&lt;/a&gt; 4.5.9 会在如果产品默认启用 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt;，但并对 kdump 部分进行定义时，自动为 kdump 添加必要的软件包。&lt;a href=&quot;https://llvm.org/&quot;&gt;llvm15&lt;/a&gt; 15.0.5 删除了几个补丁；&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs19&lt;/a&gt; 19.1.0 对 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; 测试运行器的支持功能进行了模拟。音频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.60 的更新添加了来自上游的补丁，修复了一些似乎无法在 48kHz 下工作的设备，并添加了一个新的&lt;a href=&quot;https://en.wikipedia.org/wiki/Real-time_Transport_Protocol&quot;&gt;实时传输协议&lt;/a&gt;模块，其中包含与 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/PulseAudio/&quot;&gt;PulseAudio&lt;/a&gt; RTP 模块兼容的发送器和接收器。&lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 的 4.17.3+git 更新修复了在 32 位系统上存在&lt;a href=&quot;https://en.wikipedia.org/wiki/Buffer_overflow&quot;&gt;缓冲区溢出&lt;/a&gt;的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;本周结束时，&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4OIMNHRDMSRLUNZRA5OPHMVSPXRRQVSB/&quot;&gt;openSUSE factory 邮件列表&lt;/a&gt;上已经开始讨论即将针对 openSUSE 发行版&lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels&quot;&gt;特定的 x86-64 微架构级别&lt;/a&gt;进行的变更。关于这次讨论的新闻和前进的道路将在下周发布。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/24/pipewire-flatpak-yast-pack-up-in-tw/&quot;&gt;PipeWire, Flatpak, YaST packages update in Tumbleweed&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/20/ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E5%AF%BB%E6%B1%82%E9%AB%98%E5%B1%82%E6%AC%A1%E7%9A%84%E5%88%A9%E7%94%A8%E6%83%B3%E6%B3%95.html</guid>
-      <title>ALP 工作组寻求高层次的利用想法</title>
-      <pubDate>Sun, 20 Nov 2022 17:30:00 -0600</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/11/20/ALP-%E5%B7%A5%E4%BD%9C%E7%BB%84%E5%AF%BB%E6%B1%82%E9%AB%98%E5%B1%82%E6%AC%A1%E7%9A%84%E5%88%A9%E7%94%A8%E6%83%B3%E6%B3%95.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目的成员将于明天 14:30 （世界标准时间）聚集在该项目的在线会议室，组成一个工作组来讨论高层次想法，该工作组将寻求确定在 SUSE 的自适应 Linux 平台上使用社区软件所需的要求。
-
-“我们与 Leap 15 处于不同的位置，因为 ALP 是完全公开开发的，因此我们可以在已经公开的东西之上构建，”openSUSE Leap 发布经理 Lubos Kocman 在寄给该项目的电子邮件中写道。 “我们不是在寻找任何技术实现细节，而是在寻找高层次的想法和需求。”
-
-所有与会者都应熟悉 ALP 原型的当前状态、D-Installer 的工作以及与开发相关的其他方面。此工作组是为那些已经尝试过 ALP 或想要跟随的人准备的。
-
-openSUSE 项目正在征求运行 ALP 原型的与会者的意见；与会者不必在工作组会议期间花时间解释系统的基础知识，因为此次研讨会的目标是通过集中讨论产生有意义的想法。
-
-Reddit r/openSUSE 已有一个与此相关的新帖子，社区请求人们加入并帮助社区收集想法。
-
-社区邀请成员集思广益，集中讨论如何在 SUSE 的下一代企业 Linux 中使用社区内容。在会议期间，与会者将使用启用匿名使用/访问的 Lucidspark 白板。更多信息详见邮件列表。
-
-
-
-原文：ALP Work Group Seeks High-Level Consuming Ideas，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;的成员&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;将于明天&lt;/a&gt; 14:30 （世界标准时间）聚集在该项目的&lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;在线会议室&lt;/a&gt;，组成一个工作组来讨论高层次想法，该工作组将寻求确定在 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 的&lt;a href=&quot;https://documentation.suse.com/alp/all/html/alp/concept-alp.html&quot;&gt;自适应 Linux 平台&lt;/a&gt;上使用社区软件所需的要求。&lt;/p&gt;
-
-&lt;p&gt;“我们与 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;Leap 15&lt;/a&gt; 处于不同的位置，因为 ALP 是完全公开开发的，因此我们可以在已经公开的东西之上构建，”openSUSE Leap 发布经理 Lubos Kocman 在寄给该项目的&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/Q2ML4K55WCKQIQ3FUC47UHCZTJVAJQ7V/&quot;&gt;电子邮件&lt;/a&gt;中写道。 “我们不是在寻找任何技术实现细节，而是在寻找高层次的想法和需求。”&lt;/p&gt;
-
-&lt;p&gt;所有与会者都应熟悉 &lt;a href=&quot;https://news.opensuse.org/2022/09/26/alp-les-droites/&quot;&gt;ALP 原型&lt;/a&gt;的当前状态、&lt;a href=&quot;https://news.opensuse.org/2022/10/27/call-for-testing-next-gen-installer/&quot;&gt;D-Installer&lt;/a&gt; 的工作以及与开发相关的其他方面。此工作组是为那些已经尝试过 ALP 或想要跟随的人准备的。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目正在征求运行 &lt;a href=&quot;https://download.opensuse.org/repositories/SUSE:/ALP:/PUBLISH/images/&quot;&gt;ALP 原型&lt;/a&gt;的与会者的意见；与会者不必在工作组会议期间花时间解释系统的基础知识，因为此次研讨会的目标是通过集中讨论产生有意义的想法。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/openSUSE/comments/ywymtc/workshop_invitation_consuming_community_software/&quot;&gt;Reddit r/openSUSE&lt;/a&gt; 已有一个与此相关的新帖子，社区请求人们加入并帮助社区收集想法。&lt;/p&gt;
-
-&lt;p&gt;社区邀请成员集思广益，集中讨论如何在 SUSE 的下一代企业 Linux 中使用社区内容。在会议期间，与会者将使用启用匿名使用/访问的 &lt;a href=&quot;https://lucidspark.com/&quot;&gt;Lucidspark 白板&lt;/a&gt;。更多信息详见&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/Q2ML4K55WCKQIQ3FUC47UHCZTJVAJQ7V/&quot;&gt;邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/11/21/alp-wg-seeks-hlc-ideas/&quot;&gt;ALP Work Group Seeks High-Level Consuming Ideas&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
