@@ -17,7 +17,7 @@ jobs:
           docker run \
           --entrypoint /bin/sh \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          docker.io/library/ruby:latest -c "gem install bundler jekyll && chmod 777 /srv/jekyll && cd /srv/jekyll && bundle install && jekyll build --future"
+          docker.io/library/ruby:latest -c "gem install bundler jekyll && chmod 777 /srv/jekyll && cd /srv/jekyll && bundle install && jekyll build --future --trace"
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
