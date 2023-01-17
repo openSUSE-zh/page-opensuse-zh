@@ -1,6 +1,6 @@
 ---
 author: Hanjingxue Boling
-date: 2023-01-01 07:30:00 +0800
+date: 2023-01-18 07:30:00 +0800
 layout: post
 license: CC-BY-SA-3.0
 title: 在 FOSDEM 上了解更多有关于 openSUSE 和 ALP 的信息
