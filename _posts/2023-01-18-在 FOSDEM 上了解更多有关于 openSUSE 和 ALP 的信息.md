@@ -19,7 +19,7 @@ openSUSE 项目将在 H 厅的操作系统空间设置展位，在其展览中�
 
 SUSE 于上月底发布了其自适应 Linux 平台（Adaptable Linux Platform, ALP）的第二个原型。届时现场将有专家共同探讨 ALP。
 
-目前 SUSE 已经发布了两个 ALP 原型；[Les Droites](https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/) 是 10 月发布的第一个，[Punta Baretti](https://news.opensuse.org/2022/12/22/second-prototype-advances-alp/) 是当前可用的测试原型。预计今年春季和夏季会有更多原型。
+目前 SUSE 已经发布了两个 ALP 原型；[Les Droites](https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/) 是 10 月发布的第一个，[Punta Baretti](https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html) 是当前可用的测试原型。预计今年春季和夏季会有更多原型。
 
 请不要错过来自 openSUSE 社区的演讲。Dan Čermák 将谈论[模块化和 ALP](https://fosdem.org/2023/schedule/event/modular_distro/)；Richard Brown 将为[发行渠道发表主题演讲](https://fosdem.org/2023/schedule/event/containerised_apps/)。Sarah Julia Kriesch 将就[协作和开放大型机项目](https://fosdem.org/2023/schedule/event/open_mainframe_project/)发表演讲。
 
