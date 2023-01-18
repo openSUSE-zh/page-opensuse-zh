@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/17/%E5%9C%A8-FOSDEM-%E4%B8%8A%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E6%9C%89%E5%85%B3%E4%BA%8E-openSUSE-%E5%92%8C-ALP-%E7%9A%84%E4%BF%A1%E6%81%AF.html</guid>
+      <title>在 FOSDEM 上了解更多有关于 openSUSE 和 ALP 的信息</title>
+      <pubDate>Tue, 17 Jan 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/17/%E5%9C%A8-FOSDEM-%E4%B8%8A%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E6%9C%89%E5%85%B3%E4%BA%8E-openSUSE-%E5%92%8C-ALP-%E7%9A%84%E4%BF%A1%E6%81%AF.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目正在计划今年的 FOSDEM 活动，该活动将于 2 月 4 日至 5 日在布鲁塞尔举行。 openSUSE 项目将在 H 厅的操作系统空间设置展位，在其展览中，参观者可与贡献者讨论所有与 openSUSE 相关的项目，包括 ALP、MicroOS、Tumbleweed、Leap、Open Build Service、openQA 等。 SUSE 于上月底发布了其自适应 Linux 平台（Adaptable Linux Platform, ALP）的第二个原型。届时现场将有专家共同探讨 ALP。 目前 SUSE 已经发布了两个 ALP 原型；Les Droites 是 10 月发布的第一个，Punta Baretti 是当前可用的测试原型。预计今年春季和夏季会有更多原型。 请不要错过来自 openSUSE 社区的演讲。Dan Čermák 将谈论模块化和 ALP；Richard Brown 将为发行渠道发表主题演讲。Sarah Julia Kriesch 将就协作和开放大型机项目发表演讲。...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;正在计划今年的 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 活动，该活动将于 2 月 4 日至 5 日在布鲁塞尔举行。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目将在 H 厅的操作系统空间设置展位，在其展览中，参观者可与贡献者讨论所有与 openSUSE 相关的项目，包括 ALP、MicroOS、Tumbleweed、Leap、Open Build Service、openQA 等。&lt;/p&gt;
+
+&lt;p&gt;SUSE 于上月底发布了其自适应 Linux 平台（Adaptable Linux Platform, ALP）的第二个原型。届时现场将有专家共同探讨 ALP。&lt;/p&gt;
+
+&lt;p&gt;目前 SUSE 已经发布了两个 ALP 原型；&lt;a href=&quot;https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/&quot;&gt;Les Droites&lt;/a&gt; 是 10 月发布的第一个，&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html&quot;&gt;Punta Baretti&lt;/a&gt; 是当前可用的测试原型。预计今年春季和夏季会有更多原型。&lt;/p&gt;
+
+&lt;p&gt;请不要错过来自 openSUSE 社区的演讲。Dan Čermák 将谈论&lt;a href=&quot;https://fosdem.org/2023/schedule/event/modular_distro/&quot;&gt;模块化和 ALP&lt;/a&gt;；Richard Brown 将为&lt;a href=&quot;https://fosdem.org/2023/schedule/event/containerised_apps/&quot;&gt;发行渠道发表主题演讲&lt;/a&gt;。Sarah Julia Kriesch 将就&lt;a href=&quot;https://fosdem.org/2023/schedule/event/open_mainframe_project/&quot;&gt;协作和开放大型机项目&lt;/a&gt;发表演讲。&lt;/p&gt;
+
+&lt;p&gt;展位将有免费赠品、测验和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Beer&quot;&gt;啤酒&lt;/a&gt;。启发自己。来看看我们，祝你玩得开心！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/17/learn-more-about-os-alp-at-fosdem/&quot;&gt;Learn More About openSUSE, ALP at FOSDEM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/12/BusyBox-systemd-%E5%92%8C-Gear-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>BusyBox、systemd 和 Gear 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 12 Jan 2023 23:30:00 +0000</pubDate>
@@ -395,33 +420,6 @@ openSUSE 项目参与 GSoC 有着悠久的传统，社区鼓励希望作为导�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/14/project-plans-workshop-to-grow-mentorship-efforts/&quot;&gt;Project Plans Workshop to Grow Mentorship Efforts&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/11/openSUSE-Leap-15.3-%E8%BF%9B%E5%85%A5-EOL-%E7%8A%B6%E6%80%81.html</guid>
-      <title>openSUSE Leap 15.3 进入 EOL 状态</title>
-      <pubDate>Sun, 11 Dec 2022 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/11/openSUSE-Leap-15.3-%E8%BF%9B%E5%85%A5-EOL-%E7%8A%B6%E6%80%81.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Leap 15.3 会在 2022 年的最后一天进入 EOL（产品寿命结束），使用该版本的用户将不再接收到任何安全和维护更新。 Marcus Meissner 于 11 月 30 日在公告邮件列表中提前通知了用户；社区用户经常讨论 Leap 的生命周期。 因为 EOL 标志着社区不再维护操作系统的此次要版本，那些继续使用 EOL 版本的人将面临无人处理的系统漏洞。因此我们强烈建议用户更新到比较新的次要版本（Leap 15.4）以继续获取更新和维护。 仍在使用旧版系统的用户可以前往镜像站下 ISO 镜像文件进行一次全新安装，或者参考 wiki 文档从现有的系统版本升级至较新的系统版本。 在 2023 年 11 月进入 EOL 之前，Leap 15.4 预计将持续收到维护和安全补丁更新。根据路线图，Leap 15.5 预计将于 2023 年 6 月初发布。 有兴趣从定期发布版本迁移至滚动更新的 tumbleweed 的用户可以阅读 wiki 文档获得更多帮助信息。对于 MicroOS 感兴趣的用户也可访问 openSUSE...</description>
-      <content:encoded>&lt;p&gt;openSUSE Leap 15.3 会在 2022 年的最后一天进入 EOL（产品寿命结束），使用该版本的用户将不再接收到任何安全和维护更新。&lt;/p&gt;
-
-&lt;p&gt;Marcus Meissner 于 11 月 30 日在&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;公告邮件列表&lt;/a&gt;中&lt;a href=&quot;https://lists.opensuse.org/archives/list/announce@lists.opensuse.org/thread/OCJDZIP63AUG4TW4W5JKR6TVWZ6N2TMT/&quot;&gt;提前通知&lt;/a&gt;了用户；社区用户经常讨论 &lt;a href=&quot;https://en.opensuse.org/Lifetime&quot;&gt;Leap 的生命周期&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;因为 EOL 标志着社区不再维护操作系统的此次要版本，那些继续使用 EOL 版本的人将面临无人处理的系统漏洞。因此我们强烈建议用户更新到比较新的次要版本（Leap 15.4）以继续获取更新和维护。&lt;/p&gt;
-
-&lt;p&gt;仍在使用旧版系统的用户可以前往&lt;a href=&quot;https://zh.opensuse.org/SDB:%E5%88%B6%E4%BD%9C%E5%AE%89%E8%A3%85_U_%E7%9B%98#.E8.8E.B7.E5.8F.96_ISO_.E6.96.87.E4.BB.B6&quot;&gt;镜像站&lt;/a&gt;下 ISO 镜像文件进行一次&lt;a href=&quot;https://zh.opensuse.org/SDB:DVD_%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F&quot;&gt;全新安装&lt;/a&gt;，或者参考 &lt;a href=&quot;https://zh.opensuse.org/SDB:%E7%B3%BB%E7%BB%9F%E5%8D%87%E7%BA%A7&quot;&gt;wiki 文档&lt;/a&gt;从现有的系统版本升级至较新的系统版本。&lt;/p&gt;
-
-&lt;p&gt;在 2023 年 11 月进入 EOL 之前，Leap 15.4 预计将持续收到维护和安全补丁更新。根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，Leap 15.5 预计将于 2023 年 6 月初发布。&lt;/p&gt;
-
-&lt;p&gt;有兴趣从定期发布版本迁移至滚动更新的 tumbleweed 的用户可以阅读 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E5%8D%87%E7%BA%A7_Tumbleweed&quot;&gt;wiki 文档&lt;/a&gt;获得更多帮助信息。对于 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS&quot;&gt;MicroOS&lt;/a&gt; 感兴趣的用户也可访问 openSUSE 维基获取更多的帮助信息。&lt;/p&gt;
-
-&lt;p&gt;在执行系统更新前，请注意备份你的用户数据以及常用软件的配置文件。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/12/leap-153-to-reach-eol/&quot;&gt;openSUSE Leap 15.3 to Reach End-of-Life&lt;/a&gt;，作者：Community Meeting&lt;/p&gt;
 </content:encoded>
     </item>
 
