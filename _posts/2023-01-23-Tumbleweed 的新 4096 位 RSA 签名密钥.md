@@ -63,8 +63,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-
-
 ------
 
 原文：[New 4096 bit RSA signing key for Tumbleweed](https://news.opensuse.org/2023/01/23/new-4096-bit-signing-key/)，作者：Marcus Meissner
