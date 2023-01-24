@@ -7,6 +7,68 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html</guid>
+      <title>Tumbleweed 的新 4096 位 RSA 签名密钥</title>
+      <pubDate>Sun, 22 Jan 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>本周的 openSUSE Tumbleweed 快照会将 Tumbleweed 的 RPM 和存储库签名密钥从 2048 位 RSA 更改为 4096 位 RSA 密钥。 这种转换对于满足当前的安全建议是必要的。如果您定期更新您的 Tumbleweed 安装，密钥将已经导入到 RPM 密钥环中，并且也在 openSUSE-build-key 包中。 新密钥的 GPG 指纹： pub rsa4096/0x35A2F86E29B700A4 2022-06-20 [SC] [expires: 2026-06-19] Key fingerprint = AD48 5664 E901 B867 051A B15F 35A2 F86E 29B7 00A4 uid openSUSE Project Signing Key...</description>
+      <content:encoded>&lt;p&gt;本周的 openSUSE Tumbleweed 快照会将 Tumbleweed 的 RPM 和存储库签名密钥从 2048 位 RSA 更改为 4096 位 RSA 密钥。&lt;/p&gt;
+
+&lt;p&gt;这种转换对于满足当前的安全建议是必要的。如果您定期更新您的 Tumbleweed 安装，密钥将已经导入到 RPM 密钥环中，并且也在 openSUSE-build-key 包中。&lt;/p&gt;
+
+&lt;p&gt;新密钥的 GPG 指纹：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pub   rsa4096/0x35A2F86E29B700A4 2022-06-20 [SC] [expires: 2026-06-19]
+      Key fingerprint = AD48 5664 E901 B867 051A  B15F 35A2 F86E 29B7 00A4
+uid   openSUSE Project Signing Key &amp;lt;opensuse@opensuse.org&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;请注意，openSUSE Leap 15.4 和 15.5 也将切换到使用此密钥，并且 openSUSE Backports 和 SLE 存储库将在 2023 年切换到 4096 位 RSA 密钥。&lt;/p&gt;
+
+&lt;p&gt;如果您对此有任何疑问，请随时联系&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;列表&lt;/a&gt;中的 Factory 或安全邮件列表。&lt;/p&gt;
+
+&lt;p&gt;如果您想手动导入，这里是整个 GPG 密钥：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.15 (GNU/Linux)
+
+mQINBGKwfiIBEADe9bKROWax5CI83KUly/ZRDtiCbiSnvWfBK1deAttV+qLTZ006
+090eQCOlMtcjhNe641Ahi/SwMsBLNMNich7/ddgNDJ99H8Oen6mBze00Z0Nlg2HZ
+VZibSFRYvg+tdivu83a1A1Z5U10Fovwc2awCVWs3i6/XrpXiKZP5/Pi3RV2K7VcG
+rt+TUQ3ygiCh1FhKnBfIGS+UMhHwdLUAQ5cB+7eAgba5kSvlWKRymLzgAPVkB/NJ
+uqjz+yPZ9LtJZXHYrjq9yaEy0J80Mn9uTmVggZqdTPWx5CnIWv7Y3fnWbkL/uhTR
+uDmNfy7a0ULB3qjJXMAnjLE/Oi14UE28XfMtlEmEEeYhtlPlH7hvFDgirRHN6kss
+BvOpT+UikqFhJ+IsarAqnnrEbD2nO7Jnt6wnYf9QWPnl93h2e0/qi4JqT9zw93zs
+fDENY/yhTuqqvgN6dqaD2ABBNeQENII+VpqjzmnEl8TePPCOb+pELQ7uk6j4D0j7
+slQjdns/wUHg8bGE3uMFcZFkokPv6Cw6Aby1ijqBe+qYB9ay7nki44OoOsJvirxv
+p00MRgsm+C8he+B8QDZNBWYiPkhHZBFi5GQSUY04FimR2BpudV9rJqbKP0UezEpc
+m3tmqLuIc9YCxqMt40tbQOUVSrtFcYlltJ/yTVxu3plUpwtJGQavCJM7RQARAQAB
+tDRvcGVuU1VTRSBQcm9qZWN0IFNpZ25pbmcgS2V5IDxvcGVuc3VzZUBvcGVuc3Vz
+ZS5vcmc+iQI+BBMBAgAoBQJisH4iAhsDBQkHhM4ABgsJCAcDAgYVCAIJCgsEFgID
+AQIeAQIXgAAKCRA1ovhuKbcApKRrEACJMhZhsPJBOkYmANvH5mqlk27brA3IZoM4
+8qTzERebzKa0ZH1fgRI/3DhrfBYL0M5XOb3+26Ize0pujyJQs61Nlo1ibtQqCoyu
+dvP/pmY1/Vr374wlMFBuCfAjdad4YXkbe7q7GGjo6cF89qtBfTqEtaRrfDgtPLx/
+s9/WXLGo0XYqCCSPVoU66jQYNcCt3pH+hqytvntXJDhU+DveOnQCOSBBHhCMST3E
+QvriN/GnHf+sO19UmPpyHH0TM5Ru4vDrgzKYKT/CzbllfaJSk9cEuTY8Sv1sP/7B
+Z7YvOE0soIgM1sVg0u3R/2ROx0MKoLcq7EtLw64eE+wnw9bHYZQNmS+J/18p7Bo8
+I7e+8WRi+m/pus5FEWsIH1uhxKLgJGFDTHHGZtW+myjnUzXVIkpJGrKoolzYjHdK
+lRYM2fVuNI1eq6CZ6PFXg2UxovVczSnGMO33HZE09vpgkRDBrw1vF0o/Wnm02kig
+V6xYHk5wJx8vL74wPvCbw73UNT9OSdxYAz7JPqGOD6cpKe7XcAH2sYmlGpggAIUz
+Rq/lROEF5lx4SxB838JU4ezxD++BJXfBTE8JZmlGscXv74y9nCtSOZza8KOKj8ou
+WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
+6q2h+hgWNQ==
+=nMh8
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/23/new-4096-bit-signing-key/&quot;&gt;New 4096 bit RSA signing key for Tumbleweed&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/19/Salt-Vim-%E5%92%8C-nodejs-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Salt、Vim 和 nodejs 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 19 Jan 2023 23:30:00 +0000</pubDate>
@@ -331,80 +393,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/21/bash-gcc-up-in-tw/&quot;&gt;Bash, GCC13 update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</guid>
-      <title>良好的提交信息有助于沟通协作</title>
-      <pubDate>Mon, 19 Dec 2022 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/19/%E8%89%AF%E5%A5%BD%E7%9A%84%E6%8F%90%E4%BA%A4%E4%BF%A1%E6%81%AF%E6%9C%89%E5%8A%A9%E4%BA%8E%E6%B2%9F%E9%80%9A%E5%8D%8F%E4%BD%9C.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>清晰的提交（commit）消息可以极大地帮助开发人员，这篇简短的博客将分享一些为 openSUSE 和开源贡献编写高质量提交消息的最佳实践。
-
-提交消息用于在团队成员之间传达重要信息，并且由于开源软件是一个专注于开放协作的大团队，因此必须在这些消息中传达上下文。
-
-为什么？
-
-“为什么？” 现在对你来说可能很明显，但对其他人来说可能不是；特别是那些甚至可能还没有参与你的代码的人。精心编写的提交消息可帮助开发人员记住先前提交的各个方面，并帮助未来的开发人员了解更改的内容和更改的目的。
-
-提交消息并没有统一的结构和格式规范，但多花一点时间和精力修整提交信息就可以使世界全然不同。你可以考虑以一种直截了当的方式编写提交消息；有点像教官下达命令或指示。如，擦亮你的靴子。清洁厕所。做俯卧撑。更具体地说，想想父母告诉他们的孩子做什么以及为什么。如，清洁炉子，因为您洒在上面的食用油可能会导致下一个使用它的人着火。
-
-下面是一些其他有助于编写一份良好的提交消息的提示。
-
-重要的事
-
-
-  除了说明“发生了什么”之外，在提交消息中说明“为什么”（提供有价值的消息）
-  不要只链接到 bugtracker，因为这些以后可能会变得无法访问（“惟有变化才是永恒的。”——Heraclitus，古希腊哲学家）
-  保持一致的风格
-    
-      首字母大写（除非第一个单词是 openSUSE）😉
-      使用祈使形式（祈使形式不是粗鲁的表达形式；它详细且清晰，就像本博客的标题一样）
-      摘要中没有尾随点
-      限制行长度（一个好的规则是保持字符使用率低；第一行大约 50 个）
-    
-  
-
-
-对更多细节感兴趣的人，可在 https://cbea.ms/git-commit/ 获得有大量有用的提示。
-
-
-
-原文：Good Commit Messages Give Devs Meaning, Purpose，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;清晰的提交（commit）消息可以极大地帮助开发人员，这篇简短的博客将分享一些为 openSUSE 和开源贡献编写高质量提交消息的最佳实践。&lt;/p&gt;
-
-&lt;p&gt;提交消息用于在团队成员之间传达重要信息，并且由于开源软件是一个专注于开放协作的大团队，因此必须在这些消息中传达上下文。&lt;/p&gt;
-
-&lt;p&gt;为什么？&lt;/p&gt;
-
-&lt;p&gt;“为什么？” 现在对你来说可能很明显，但对其他人来说可能不是；特别是那些甚至可能还没有参与你的代码的人。精心编写的提交消息可帮助开发人员记住先前提交的各个方面，并帮助未来的开发人员了解更改的内容和更改的目的。&lt;/p&gt;
-
-&lt;p&gt;提交消息并没有统一的结构和格式规范，但多花一点时间和精力修整提交信息就可以使世界全然不同。你可以考虑以一种直截了当的方式编写提交消息；有点像教官下达命令或指示。&lt;strong&gt;如，擦亮你的靴子。清洁厕所。做俯卧撑。&lt;/strong&gt;更具体地说，想想父母告诉他们的孩子做什么以及为什么。&lt;strong&gt;如，清洁炉子，因为您洒在上面的食用油可能会导致下一个使用它的人着火。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;下面是一些其他有助于编写一份良好的提交消息的提示。&lt;/p&gt;
-
-&lt;h2 id=&quot;重要的事&quot;&gt;重要的事&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;除了说明“发生了什么”之外，在提交消息中说明“为什么”（提供有价值的消息）&lt;/li&gt;
-  &lt;li&gt;不要只链接到 bugtracker，因为这些以后可能会变得无法访问（&lt;em&gt;“惟有变化才是永恒的。”——Heraclitus，古希腊哲学家&lt;/em&gt;）&lt;/li&gt;
-  &lt;li&gt;保持一致的风格
-    &lt;ul&gt;
-      &lt;li&gt;首字母大写（除非第一个单词是 openSUSE）😉&lt;/li&gt;
-      &lt;li&gt;使用祈使形式（祈使形式不是粗鲁的表达形式；它详细且清晰，就像本博客的标题一样）&lt;/li&gt;
-      &lt;li&gt;摘要中没有&lt;a href=&quot;https://daniel.haxx.se/blog/2022/05/12/a-tale-of-a-trailing-dot/comment-page-1/&quot;&gt;尾随点&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;限制行长度（一个好的规则是保持字符使用率低；第一行大约 50 个）&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对更多细节感兴趣的人，可在 &lt;a href=&quot;https://cbea.ms/git-commit/&quot;&gt;https://cbea.ms/git-commit/&lt;/a&gt; 获得有大量有用的提示。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/20/good-commit-messages-give-devs-meaning-purpose/&quot;&gt;Good Commit Messages Give Devs Meaning, Purpose&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
