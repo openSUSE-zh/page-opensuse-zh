@@ -7,6 +7,64 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/24/openSUSE-%E7%AE%80%E5%8C%96%E4%BA%86%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E5%AE%89%E8%A3%85.html</guid>
+      <title>openSUSE 简化了编解码器的安装</title>
+      <pubDate>Tue, 24 Jan 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/24/openSUSE-%E7%AE%80%E5%8C%96%E4%BA%86%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E5%AE%89%E8%A3%85.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>受 Fedora 为向其用户提供 Cisco 的 OpenH264 编解码器和 FDK AAC 所做的努力的启发，openSUSE 项目成员联系了 Cisco 的开源团队为其用户群做同样的事情。 需要克服的一个障碍是目前免费再分发编解码器的限制是 100,000 个用户，因此董事会成员 Neal Gompa 和 openSUSE Leap 发布经理 Lubos Kocman 提出了一种简化 openSUSE 中编解码器安装的方法。 支持 H.264 编解码的编解码库适合于 WebRTC 等实时应用。安装的简化将使 openSUSE 用户获得更好的开箱即用体验。 openSUSE 项目非常感谢 Cisco 的努力。Cisco 同意 openSUSE 项目通过 Cisco 拥有的基础设施向 openSUSE 用户重新分发 OpenH264。openSUSE 设想了 OpenH264 的发布工作流程，并通过 openSUSE...</description>
+      <content:encoded>&lt;p&gt;受 &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 为向其用户提供 &lt;a href=&quot;https://github.com/cisco/openh264&quot;&gt;Cisco 的 OpenH264 编解码器&lt;/a&gt;和 &lt;a href=&quot;https://en.opensuse.org/openSUSE:License/FDK-ACC&quot;&gt;FDK AAC&lt;/a&gt; 所做的努力的启发，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;成员联系了 &lt;a href=&quot;https://eti.cisco.com/open-source&quot;&gt;Cisco 的开源团队&lt;/a&gt;为其用户群做同样的事情。&lt;/p&gt;
+
+&lt;p&gt;需要克服的一个障碍是目前免费再分发编解码器的限制是 100,000 个用户，因此董事会成员 Neal Gompa 和 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/15.4/&quot;&gt;Leap&lt;/a&gt; 发布经理 Lubos Kocman 提出了&lt;a href=&quot;https://code.opensuse.org/leap/features/issue/22&quot;&gt;一种简化 openSUSE 中编解码器安装的方法&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Video_Coding&quot;&gt;H.264&lt;/a&gt; 编解码的编解码库适合于 &lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt; 等实时应用。安装的简化将使 openSUSE 用户获得更好的开箱即用体验。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目非常感谢 Cisco 的努力。Cisco 同意 openSUSE 项目通过 Cisco 拥有的基础设施向 openSUSE 用户重新分发 &lt;a href=&quot;https://en.opensuse.org/OpenH264&quot;&gt;OpenH264&lt;/a&gt;。openSUSE 设想了 OpenH264 的&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-tools/tree/master/openh264&quot;&gt;发布工作流程&lt;/a&gt;，并通过 openSUSE 发布工具中的一组脚本处理了一个&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-tools/tree/master/openh264&quot;&gt;三步法&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;工作流脚本触发时会向 Cisco 发送一封电子邮件，其中包含 OpenH264 rpm 软件包的存档；它制作了一个数据快照，然后发送或 “POSTed” 以手动提取 &lt;a href=&quot;https://ciscobinary.openh264.org/&quot;&gt;Cisco 二进制文件&lt;/a&gt;。该过程确保项目在&lt;a href=&quot;https://openbuildservice.org/&quot;&gt;开放构建服务&lt;/a&gt;中始终具有一组相关的二进制文件。&lt;/p&gt;
+
+&lt;p&gt;存档文件由 &lt;a href=&quot;https://build.opensuse.org/project/show/multimedia:libs:cisco-openh264&quot;&gt;multimedia:libs:cisco-openh264&lt;/a&gt; 项目维护者之一创建和发送。&lt;/p&gt;
+
+&lt;p&gt;该包在 OBS 中由 openSUSE 密钥签名，因此可以验证包的来源。存储库元数据由 OBS 在 &lt;a href=&quot;https://codecs.opensuse.org/openh264/&quot;&gt;codecs.opensuse.org/openh264&lt;/a&gt; 下发布。&lt;/p&gt;
+
+&lt;p&gt;存档必须仅包含带有 &lt;a href=&quot;https://github.com/cisco/openh264&quot;&gt;Cisco OpenH264&lt;/a&gt; 和相关 OpenH264 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 插件的包。根据 Cisco 的协议，在协议之外添加任何其他内容，尤其是其他编解码器，将导致违规。&lt;/p&gt;
+
+&lt;p&gt;社区已经讨论了潜在的改进以改进现有的工作流程，但最初的努力是为了在安装后为 openSUSE 提供更简化的体验。&lt;/p&gt;
+
+&lt;p&gt;或者通过运行以下命令手动启用软件源：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leap：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper ar http://codecs.opensuse.org/openh264/openSUSE_Leap repo-openh264
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tumbleweed 或 MicroOS:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper ar http://codecs.opensuse.org/openh264/openSUSE_Tumbleweed repo-openh264
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;安装：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper in gstreamer-1.20-plugin-openh264
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;从下一个快照 iso 构建开始，openh264 存储库将在所有新安装的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 上默认启用。它还将作为 &lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;openSUSE Leap 15.5 Beta&lt;/a&gt; 的一部分提供。&lt;/p&gt;
+
+&lt;p&gt;或者，使用 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 进行存储库管理将为用户提供 openh264 存储库定义作为最新更新的一部分。用户将需要手动&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/README.md#cleanup-of-distribution-repositories-not-managed-by-zypp-services&quot;&gt;删除&lt;/a&gt;项目&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/README.md&quot;&gt;自述文件&lt;/a&gt;中的旧重复 repo 定义。&lt;/p&gt;
+
+&lt;p&gt;AAC 已经参与发行几个月了。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/24/opensuse-simplifies-codec-install/&quot;&gt;openSUSE Simplifies Codec Installation&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html</guid>
       <title>Tumbleweed 的新 4096 位 RSA 签名密钥</title>
       <pubDate>Sun, 22 Jan 2023 23:30:00 +0000</pubDate>
@@ -366,33 +424,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/explaining-difference-between-download.o.o-and-mirrorcache.o.o/&quot;&gt;Explaining difference between download.o.o and mirrorcache.o.o&lt;/a&gt;，作者：	Andrii Nikitin&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/21/Bash-%E5%92%8C-GCC13-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
-      <title>Bash 和 GCC13 在 Tumbleweed 中更新</title>
-      <pubDate>Wed, 21 Dec 2022 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/21/Bash-%E5%92%8C-GCC13-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周 openSUSE Tumbleweed 的快照就像邮递员送礼物一样寄出。 快照很多，但随着开发人员在假期期间开始休假，每个快照中只有几个软件包到达。 快照 20221219 只更新了一个软件包。该软件包是 cppcheck 2.9.3，它是 C/C++ 代码的静态分析工具。此更新带来了各种图形用户界面和高级功能处理错误修复。该软件包使用 this 指针改进了生命周期分析，并添加了调试内部 debug valueflow 和 debug valuetype 以显示更多详细信息，包括源回溯。 快照 20221218 只更新了两个软件包。shell 和命令语言包 bash 5.2.15 的更新添加了一些 Tumbleweed 的上游补丁。这些补丁解决了 bash 在优化子 shell 中的分叉时过于激进的几种情况，以及 bash 在引用不存在的关联数组元素时如何泄漏内存。Bash 在运行 EXIT 陷阱时也会推迟处理额外的终止信号，同时由于终止信号而退出；该补丁允许新的终止信号立即杀死 shell。快照中要更新的另一个包是 XFS 文件系统实用程序 xfsdump 3.1.12。该软件包包含用于创建和恢复目录树备份的工具，这些工具修复了媒体解包、流解包、流打包和解包逻辑的媒体库存。 快照 20221217 对 VPN 客户端 openconnect 的进行了一次主要版本更新。openconnect...</description>
-      <content:encoded>&lt;p&gt;本周 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的快照就像邮递员送礼物一样寄出。&lt;/p&gt;
-
-&lt;p&gt;快照很多，但随着开发人员在假期期间开始休假，每个快照中只有几个软件包到达。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/APMYDEYJ4OUFQ6EUWLM5S5YC7IUAUOG7/&quot;&gt;20221219&lt;/a&gt; 只更新了一个软件包。该软件包是 &lt;a href=&quot;https://github.com/danmar/cppcheck&quot;&gt;cppcheck&lt;/a&gt; 2.9.3，它是 C/C++ 代码的静态分析工具。此更新带来了各种图形用户界面和高级功能处理错误修复。该软件包使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; 指针改进了生命周期分析，并添加了调试内部 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;debug valueflow&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;debug valuetype&lt;/code&gt; 以显示更多详细信息，包括源回溯。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/E2HXIR5PO3MXYNDW35QSDS5EL76AEG63/&quot;&gt;20221218&lt;/a&gt; 只更新了两个软件包。shell 和命令语言包 &lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; 5.2.15 的更新添加了一些 Tumbleweed 的上游补丁。这些补丁解决了 bash 在优化子 shell 中的分叉时过于激进的几种情况，以及 bash 在引用不存在的关联数组元素时如何泄漏内存。Bash 在运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EXIT&lt;/code&gt; 陷阱时也会推迟处理额外的终止信号，同时由于终止信号而退出；该补丁允许新的终止信号立即杀死 shell。快照中要更新的另一个包是 XFS 文件系统实用程序 &lt;a href=&quot;https://fossies.org/linux/misc/xfsdump-3.1.12.tar.xz/&quot;&gt;xfsdump&lt;/a&gt; 3.1.12。该软件包包含用于创建和恢复目录树备份的工具，这些工具修复了媒体解包、流解包、流打包和解包逻辑的媒体库存。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/M3V26PC3BYSN5WRXJEZA5HL54ELBBFY4/&quot;&gt;20221217&lt;/a&gt; 对 VPN 客户端 &lt;a href=&quot;https://www.infradead.org/openconnect/index.html&quot;&gt;openconnect&lt;/a&gt; 的进行了一次主要版本更新。openconnect 9.01 版本增加了 webview 回调和对 Cisco 的一些 AnyConnect 会话和验证的支持。Linux 音频和视频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.63 的更新修复了一个严重的错误，该错误在某些情况下使用高级矢量扩展 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Vector_Extensions&quot;&gt;AVX2&lt;/a&gt; 时会导致一些音频失真。pipewire 还修复了一些崩溃触发器和 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 的潜在启动问题。快照中更新了一些其他 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt5&lt;/a&gt; 包，以及 &lt;a href=&quot;https://libosinfo.org/&quot;&gt;osinfo-db&lt;/a&gt; 20221130，它添加了一些补丁以支持 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.3/&quot;&gt;Leap Micro&lt;/a&gt; 版本。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2UZC5OGKTYVQAHMBUGGGMWDTHSKXUJDL/&quot;&gt;20221216&lt;/a&gt; 中对 Linux 启动过程进行了功能改进，因为更新后的 &lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 会检查 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/libexec&lt;/code&gt; 中的 &lt;a href=&quot;https://www.systutorials.com/docs/linux/man/8-fipscheck/&quot;&gt;fipscheck&lt;/a&gt; 验证检查。&lt;a href=&quot;https://www.vmware.com/&quot;&gt;VMware&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/vmware/open-vm-tools&quot;&gt;open-vm-tools&lt;/a&gt; 更新到 12.1.5 版本。该软件包添加了一个 containerInfo 插件和一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Coverity&quot;&gt;Coverity&lt;/a&gt;，这是专有的静态代码分析工具，报告的问题得到了解决。密码检查库 &lt;a href=&quot;https://github.com/cracklib/cracklib&quot;&gt;cracklib&lt;/a&gt; 2.9.8 有一些翻译更新，并强制 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt; 在格式化文本文件时将输入视为文本。快照中更新了文本编辑器 &lt;a href=&quot;https://www.nano-editor.org/&quot;&gt;nano&lt;/a&gt; 7.1、&lt;a href=&quot;https://ftp.gnu.org/gnu/mpc/&quot;&gt;mpc&lt;/a&gt; 1.3.0 和其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LFOGUQOFDTITQQ6MPAW5LBV4LOT2VWA3/&quot;&gt;20221215&lt;/a&gt; 更新了数个软件包。快照中的重大更新是对 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 的更新。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc13&lt;/a&gt; 13.0.0 &lt;a href=&quot;https://github.com/git&quot;&gt;git+&lt;/a&gt; 添加了两个新标头，并且 GCN 交叉编译器至少依赖于 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 13。编译器重新调整了一个补丁并包含了一个新补丁以支持 &lt;a href=&quot;https://developer.arm.com/documentation/ddi0406/latest&quot;&gt;armv7l&lt;/a&gt; 架构。 另一个主要版本更新是 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; Unicode 字符映射包 &lt;a href=&quot;https://wiki.gnome.org/Apps/Gucharmap&quot;&gt;gucharmap&lt;/a&gt;；gucharmap 15.0.2 更新了翻译、&lt;a href=&quot;https://unicode.org/versions/Unicode15.0.0/&quot;&gt;unicode 15.0.0&lt;/a&gt;、添加了屏幕截图并从元信息链接它们。其他要更新的软件包是改进了对没有 GPS 高度的图像的处理的 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/shotwell&quot;&gt;shotwell&lt;/a&gt; 0.31.7、使基于 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; http 服务器的测试更加可靠的 &lt;a href=&quot;https://www.adiscon.com/news/news-release/rsyslog-8-2212-0-released/&quot;&gt;rsyslog 8.2212.0&lt;/a&gt; 等软件包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/21/bash-gcc-up-in-tw/&quot;&gt;Bash, GCC13 update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
