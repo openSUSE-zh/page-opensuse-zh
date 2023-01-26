@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/26/Firefox-Apache-%E5%92%8C-LibreOffice-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Firefox、Apache 和 LibreOffice 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 26 Jan 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/26/Firefox-Apache-%E5%92%8C-LibreOffice-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 在本周从 2048 位 RSA 更改为 4096 位 RSA 密钥，到目前为止共发布了四个快照。 基于一项安全建议，openSUSE 更换至新密钥；你可以在 /usr/lib/rpm/gnupg/keys 中找到新密钥。你也可以使用 rpm -qi 和密钥名称查看密钥。有关该主题的更多信息详见 Facotry 邮件列表讨论贴。 最新的快照是 20230124。这个快照更新了 apache2 2.4.55 并处理了一些 CVE。CVE-2022-37436 描述了一个缺陷，恶意后端可能导致响应标头被截断，因为在读取它们时发现错误时它们没有被清除。这可能会导致某些标头被合并到响应正文中，而不会被客户端解释。可能导致拒绝服务攻击的 CVE-2006-20001 已修复。gedit 44.2 的更新修复了一个插件错误并更新了翻译。gnome-desktop 43.1 版本修复了一个缩略图问题并使默认的 es-US 键盘更加合理。同时，glib2 2.74.5 也更新了翻译，并删除了一个由上游修复的补丁。dracut 在 059+suse 更新中添加的 058 版本中缺失的条目；它还为一些脚本添加了可执行权限。sudo 1.9.12p2 的更新修复了编译错误、潜在的崩溃和 CVE-2023-22809；该漏洞影响了 sudoedit 处理用户提供的环境变量的方式。用于 Linux 操作系统的原子更新包 transactional-update...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在本周&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html&quot;&gt;从 2048 位 RSA 更改为 4096 位 RSA 密钥&lt;/a&gt;，到目前为止共发布了四个快照。&lt;/p&gt;
+
+&lt;p&gt;基于一项安全建议，openSUSE 更换至新密钥；你可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib/rpm/gnupg/keys&lt;/code&gt; 中找到新密钥。你也可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpm -qi&lt;/code&gt; 和&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FA542JUB5KTAAR37CSY3W43DVWPDTXC4/&quot;&gt;密钥名称&lt;/a&gt;查看密钥。有关该主题的更多信息详见 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FA542JUB5KTAAR37CSY3W43DVWPDTXC4/&quot;&gt;Facotry 邮件列表讨论贴&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;最新的快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LK6QJ6ETQGFLZL4ZXHWPX53AS7ZZXNY5/&quot;&gt;20230124&lt;/a&gt;。这个快照更新了 &lt;a href=&quot;https://httpd.apache.org/&quot;&gt;apache2&lt;/a&gt; 2.4.55 并处理了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://cve.report/CVE-2022-37436&quot;&gt;CVE-2022-37436&lt;/a&gt; 描述了一个缺陷，恶意后端可能导致响应标头被截断，因为在读取它们时发现错误时它们没有被清除。这可能会导致某些标头被合并到响应正文中，而不会被客户端解释。可能导致拒绝服务攻击的 &lt;a href=&quot;https://www.cve.org/CVERecord?id=CVE-2006-20001&quot;&gt;CVE-2006-20001&lt;/a&gt; 已修复。&lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 44.2 的更新修复了一个插件错误并更新了翻译。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-desktop&lt;/a&gt; 43.1 版本修复了一个缩略图问题并使默认的 es-US 键盘更加合理。同时，&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.74.5 也更新了翻译，并删除了一个由上游修复的补丁。&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 在 059+suse 更新中添加的 &lt;a href=&quot;https://github.com/dracutdevs/dracut/releases/tag/058&quot;&gt;058 版本中缺失的条目&lt;/a&gt;；它还为一些脚本添加了可执行权限。&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.12p2 的更新修复了编译错误、潜在的崩溃和 &lt;a href=&quot;https://cve.report/CVE-2023-22809&quot;&gt;CVE-2023-22809&lt;/a&gt;；该漏洞影响了 sudoedit 处理用户提供的环境变量的方式。用于 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 操作系统的原子更新包 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt; 在 4.1.2 版本中进行了一些清理和小型代码优化。它还修复了以前的内部挂载可能会覆盖用户&lt;a href=&quot;https://docs.docker.com/storage/bind-mounts/&quot;&gt;绑定挂载&lt;/a&gt;的问题。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 更新了葡萄牙语和马其顿语。快照还更新了文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.0.1234 和其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FBPYNNKZ2XHAXA2XULYP3OI24W4BHEKR/&quot;&gt;20230123&lt;/a&gt; 中更新了一些 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 和 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt;。&lt;a href=&quot;https://rubygems.org/gems/rack/&quot;&gt;rubygem-rack&lt;/a&gt; 更新到 2.2.6.2 和 3.0.4.1 修复了三个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，它们都与 &lt;a href=&quot;https://en.wikipedia.org/wiki/ReDoS&quot;&gt;ReDoS&lt;/a&gt; 相关。&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 2 和 Python 3 之间缺少的兼容层 python-future 更新到 0.18.3 版本并添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker push&lt;/code&gt; 以优化&lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;持续集成&lt;/a&gt;。该软件包还投放了一个 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-40899.html&quot;&gt;CVE-2022-40899&lt;/a&gt; 补丁，该补丁可能允许远程攻击通过精心设计的 Set-Cookie 导致拒绝服务。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://github.com/cyring/CoreFreq&quot;&gt;CoreFreq&lt;/a&gt; 1.95.1，它是专为 64 位处理器设计的 CPU 监控软件；增加了对 &lt;a href=&quot;https://www.amd.com/en&quot;&gt;AMD&lt;/a&gt; 和 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; 硬件的支持。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W3JUIWUPJ3CMGAEKH3PIEBWZ6Z5CBA2T/&quot;&gt;20230122&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 的主要版本。&lt;a href=&quot;https://www.mozilla.org/en-US/firefox/109.0/releasenotes/&quot;&gt;Firefox 109.0&lt;/a&gt; 对称为 &lt;a href=&quot;https://extensionworkshop.com/documentation/develop/manifest-v3-migration-guide/&quot;&gt;Manifest V3 (MV3)&lt;/a&gt; 的 WebExtensions &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 进行了更改。现在默认启用扩展支持；它以看起来像拼图的&lt;a href=&quot;https://support.mozilla.org/en-US/kb/extensions-button?_gl=1%2Amv3fft%2A_ga%2AMzk0ODkwNzgzLjE2NzI2NTIxMDI.%2A_ga_MQ7767QQQW%2AMTY3NDc0MTAwMS4xLjAuMTY3NDc0MTAwMS4wLjAuMA..&amp;amp;redirectslug=unified-extensions&amp;amp;redirectlocale=en-US&quot;&gt;新扩展按钮&lt;/a&gt;的形式引入了用户界面变化。与 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 包装器相关的，特定于 Linux 的 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2023-01/#CVE-2023-23598&quot;&gt;CVE-2023-23598&lt;/a&gt; 已修复，同时改进了西班牙翻译。为 es-ES 和 es-AR 区域设置构建的 Firefox 浏览器现在带有一个用于 Firefox 拼写检查器的内置字典。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.39.1 的更新处理了日志格式和解析&lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;问题。&lt;a href=&quot;https://linux.die.net/man/8/iptables&quot;&gt;iptables&lt;/a&gt; 1.8.9 的更新在&lt;a href=&quot;https://en.wikipedia.org/wiki/Stream_Control_Transmission_Protocol&quot;&gt;流控制传输协议&lt;/a&gt;扩展中支持更多的 chunk 类型；它的管理空间工具 &lt;a href=&quot;https://linux.die.net/man/8/arptables&quot;&gt;arptables&lt;/a&gt; 也支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--exac&lt;/code&gt; 标志。&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.4.4.2 的更新修复了 110 多个错误。例如 &lt;a href=&quot;https://bugs.documentfoundation.org/show_bug.cgi?id=152495&quot;&gt;tdf#152495&lt;/a&gt; 这样的，在使用退出按钮关闭引导对话框时会导致 &lt;a href=&quot;https://www.libreoffice.org/discover/writer/&quot;&gt;Writer&lt;/a&gt; 崩溃的错误。LibreOffice 还对&lt;a href=&quot;https://bugs.documentfoundation.org/show_bug.cgi?id=151954&quot;&gt;在“跟踪更改”模式下移动文本时删除段落分隔符&lt;/a&gt;的问题进行了修复。快照中更新了其他几个软件包，如 &lt;a href=&quot;https://github.com/yast/yast-yast2&quot;&gt;yast2&lt;/a&gt; 4.5.22、&lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/postlfs/xfsprogs.html&quot;&gt;xfsprogs&lt;/a&gt; 6.1.1、&lt;a href=&quot;https://ice-wm.org/&quot;&gt;icewm&lt;/a&gt; 3.3.0、&lt;a href=&quot;https://llvm.org/&quot;&gt;llvm15&lt;/a&gt; 15.0.7 等。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7QREJJQ3TV5Y3JSQALTH3NUUEGHEZ32O/&quot;&gt;20230119&lt;/a&gt; 对 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 13.0.1 进行了更新，它添加了一个补丁来修复 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 上使用指针签名的展开。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.1.7 更新包含少量 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 修复和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Direct_Rendering_Manager&quot;&gt;DRM&lt;/a&gt; 优化。面向行的文本编辑器 &lt;a href=&quot;https://www.gnu.org/software/ed/ed.html&quot;&gt;ed&lt;/a&gt; 1.19 将选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s&lt;/code&gt; 的长名称更改为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--script&lt;/code&gt;；选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s&lt;/code&gt; 现在只抑制字节数。&lt;a href=&quot;https://github.com/hrdwrrsk/adwaita-xfce-icon-theme&quot;&gt;adwaita-xfce-icon-theme&lt;/a&gt; 0.0.3 包也在快照中更新。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/26/firefox-apache-libreoffice-up-in-tw/&quot;&gt;Firefox, Apache, LibreOffice update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/24/openSUSE-%E7%AE%80%E5%8C%96%E4%BA%86%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E5%AE%89%E8%A3%85.html</guid>
       <title>openSUSE 简化了编解码器的安装</title>
       <pubDate>Tue, 24 Jan 2023 23:30:00 +0000</pubDate>
@@ -385,45 +410,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/state-of-download.o.o-dec-2022/&quot;&gt;Download Redirector State - December 2022&lt;/a&gt;，作者：Andrii Nikitin&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/download.o.o-%E4%B8%8E-mirrorcache.o.o-%E7%9A%84%E5%BC%82%E5%90%8C.html</guid>
-      <title>download.o.o 与 mirrorcache.o.o 的异同</title>
-      <pubDate>Thu, 22 Dec 2022 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/download.o.o-%E4%B8%8E-mirrorcache.o.o-%E7%9A%84%E5%BC%82%E5%90%8C.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>介绍 历史上，mirrorcache.opensuse.org（简写：mirrorcache.o.o） 的建立是为了评估新的后端引擎，而新引擎逐渐成为 download.opensuse.org（简写：download.o.o） 唯一使用的引擎。 这两种服务的主要任务是使用 GeoIP 信息将对 OBS（开放构建服务）生成的工件的请求重定向到社区镜像。这两种服务使用相同的数据库和相同的后端引擎，因此行为应该或多或少相同。 在最好的情况下，mirrorcache.o.o 可能会被弃用或只是一个别名，但 download.o.o 具有复杂的遗留设置并且还运行其他繁重的服务，这在某些情况下可能会影响用户体验。 不同之处一：设置 download.o.o 是一个功能强大的盒子，以 Apache 作为正向代理，具有相当复杂的遗留配置。download.o.o 还托管其他服务，其中最重的是 rsyncd 服务。它向镜像推送和提供文件，通常比 Apache 消耗更多的流量。 mirrorcache.o.o 是 http-proxy 后面相对较小的盒子，它只专用于 Web 服务。 不同之处二：文件访问 mirrorcache.o.o 无法轻松访问这些文件，因此它显示的是来自数据库的信息，并且在某些情况下可能已过时（这不会影响正常的 zypper 体验）。相比之下，download.o.o 直接从服务器的本地磁盘呈现文件可用性。 一个例子是，当文件夹在 OBS 中被删除时，它几乎立即从 download.o.o 中消失了，但它可能需要一些时间才能从 mirrorcache.o.o 中消失（应该是有人尝试访问它后的几个小时）。 另一个重要的例子是符号链接。例如，openSUSE-Tumbleweed-DVD-x86_64-Current.iso 通常是指向具有特定构建的文件名的符号链接；例如今天是 openSUSE-Tumbleweed-DVD-x86_64-Snapshot20221220-Media.iso。download.o.o 会立即注意到快照的变化，而 mirrorcache.o.o 可能需要一些时间才能对变化做出反应。 结论 请使用...</description>
-      <content:encoded>&lt;h2 id=&quot;介绍&quot;&gt;介绍&lt;/h2&gt;
-
-&lt;p&gt;历史上，mirrorcache.opensuse.org（简写：mirrorcache.o.o） 的建立是为了评估新的后端引擎，而新引擎逐渐成为 download.opensuse.org（简写：download.o.o） 唯一使用的引擎。&lt;/p&gt;
-
-&lt;p&gt;这两种服务的主要任务是使用 GeoIP 信息将对 OBS（开放构建服务）生成的工件的请求重定向到社区镜像。这两种服务使用相同的数据库和相同的后端引擎，因此行为应该或多或少相同。&lt;/p&gt;
-
-&lt;p&gt;在最好的情况下，mirrorcache.o.o 可能会被弃用或只是一个别名，但 download.o.o 具有复杂的遗留设置并且还运行其他繁重的服务，这在某些情况下可能会影响用户体验。&lt;/p&gt;
-
-&lt;h2 id=&quot;不同之处一设置&quot;&gt;不同之处一：设置&lt;/h2&gt;
-
-&lt;p&gt;download.o.o 是一个功能强大的盒子，以 Apache 作为正向代理，具有相当复杂的遗留配置。download.o.o 还托管其他服务，其中最重的是 rsyncd 服务。它向镜像推送和提供文件，通常比 Apache 消耗更多的流量。&lt;/p&gt;
-
-&lt;p&gt;mirrorcache.o.o 是 http-proxy 后面相对较小的盒子，它只专用于 Web 服务。&lt;/p&gt;
-
-&lt;h2 id=&quot;不同之处二文件访问&quot;&gt;不同之处二：文件访问&lt;/h2&gt;
-
-&lt;p&gt;mirrorcache.o.o 无法轻松访问这些文件，因此它显示的是来自数据库的信息，并且在某些情况下可能已过时（这不会影响正常的 zypper 体验）。相比之下，download.o.o 直接从服务器的本地磁盘呈现文件可用性。&lt;/p&gt;
-
-&lt;p&gt;一个例子是，当文件夹在 OBS 中被删除时，它几乎立即从 download.o.o 中消失了，但它可能需要一些时间才能从 mirrorcache.o.o 中消失（应该是有人尝试访问它后的几个小时）。&lt;/p&gt;
-
-&lt;p&gt;另一个重要的例子是符号链接。例如，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Tumbleweed-DVD-x86_64-Current.iso&lt;/code&gt; 通常是指向具有特定构建的文件名的符号链接；例如今天是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Tumbleweed-DVD-x86_64-Snapshot20221220-Media.iso&lt;/code&gt;。download.o.o 会立即注意到快照的变化，而 mirrorcache.o.o 可能需要一些时间才能对变化做出反应。&lt;/p&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;请使用 download.o.o 进行大部分操作，尤其是手动浏览或使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Current.iso&lt;/code&gt; 时。如果您遇到 download.o.o 问题，请使用 mirrorcache.o.o 作为后备，但不要忘记将这些问题报告给 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Heroes#Communication&quot;&gt;openSUSE Heroes&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/explaining-difference-between-download.o.o-and-mirrorcache.o.o/&quot;&gt;Explaining difference between download.o.o and mirrorcache.o.o&lt;/a&gt;，作者：	Andrii Nikitin&lt;/p&gt;
 </content:encoded>
     </item>
 
