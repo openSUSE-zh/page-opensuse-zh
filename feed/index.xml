@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/31/Mesa-Remmina-%E7%AD%89%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Mesa、Remmina 等软件包在 Tumbleweed 中更新</title>
+      <pubDate>Tue, 31 Jan 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/31/Mesa-Remmina-%E7%AD%89%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>在黑客周开始和举办期间，openSUSE Tumbleweed 更新了数个快照。 在 FOSDEM 到来之前，Tumbleweed 将发布更多的软件更新包，但是本博客只简要概述自上一篇 Tumbleweed 博客发布后到达的快照。 快照 20230130 更新了三个软件包。其中之一是 C 库 libHX 4.10。该软件包在格式化程序中插入了内存泄漏并提供了一些多平台目录处理。实现转义字符的文本对象的 pypi 已更新，因此可以安全地在 HTML 和 XML 中使用。这个 python-MarkupSafe 包更新至 2.1.2 版本，提供了一个 striptags 插件，它不会去除包含换行符的标签。快照更新了 yast2-trans，添加了多种翻译，包括几种马其顿语和格鲁吉亚语。 快照 20230129 将写时复制文件系统 btrfsprogs 更新至 6.1.3 版本，设置大小已得到修复。btrfsprogs 改进了不匹配引用的错误消息。快照更新了 kdump，修复了 s390 上的校准构建以及其他一些小问题。libstorage-ng 更新至 4.5.67 版本，借助 Weblate 进行了一些德语翻译改进。快照还更新了其他几个包。rubygem-globalid 的 1.1.0 版本修复了容易受到正则表达式拒绝服务攻击的 CVE-2023-22799。另一个要更新的包是 neon...</description>
+      <content:encoded>&lt;p&gt;在&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/29/%E9%BB%91%E5%AE%A2%E5%91%A8%E7%8E%B0%E5%B7%B2%E5%BC%80%E5%A7%8B.html&quot;&gt;黑客周&lt;/a&gt;开始和举办期间，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 更新了数个快照。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 到来之前，Tumbleweed 将发布更多的软件更新包，但是本博客只简要概述自上一篇 &lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/26/Firefox-Apache-%E5%92%8C-LibreOffice-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&quot;&gt;Tumbleweed 博客&lt;/a&gt;发布后到达的快照。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/PVRNKLRRXRCPHUKOEOIZAFF5SHZCRPKG/&quot;&gt;20230130&lt;/a&gt; 更新了三个软件包。其中之一是 C 库 &lt;a href=&quot;https://inai.de/projects/libhx/&quot;&gt;libHX&lt;/a&gt; 4.10。该软件包在格式化程序中插入了&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;并提供了一些多平台目录处理。实现转义字符的文本对象的 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 已更新，因此可以安全地在 HTML 和 XML 中使用。这个 &lt;a href=&quot;https://pypi.org/project/MarkupSafe/&quot;&gt;python-MarkupSafe&lt;/a&gt; 包更新至 2.1.2 版本，提供了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;striptags&lt;/code&gt; 插件，它不会去除包含换行符的标签。快照更新了 &lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt;，添加了多种翻译，包括几种马其顿语和格鲁吉亚语。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YMPUFODRAO4UKOFVHOIZGGJAUDPW45YQ/&quot;&gt;20230129&lt;/a&gt; 将写时复制文件系统 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;btrfsprogs&lt;/a&gt; 更新至 6.1.3 版本，设置大小已得到修复。btrfsprogs 改进了不匹配引用的错误消息。快照更新了 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt;，修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 上的校准构建以及其他一些小问题。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 更新至 4.5.67 版本，借助 &lt;a href=&quot;https://weblate.org/&quot;&gt;Weblate&lt;/a&gt; 进行了一些德语翻译改进。快照还更新了其他几个包。&lt;a href=&quot;https://rubygems.org/gems/globalid/versions/0.3.7&quot;&gt;rubygem-globalid&lt;/a&gt; 的 1.1.0 版本修复了容易受到正则表达式拒绝服务攻击的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-22799.html&quot;&gt;CVE-2023-22799&lt;/a&gt;。另一个要更新的包是 &lt;a href=&quot;https://notroj.github.io/neon&quot;&gt;neon&lt;/a&gt; 0.32.5。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XUFCPQV4QVDN3FTHNGUH3NZ4KGW7AKY2/&quot;&gt;20230128&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 22.3.4，删除了一些构建要求。该软件包还修复了 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 在 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; &lt;a href=&quot;https://userbase.kde.org/KWin&quot;&gt;KWin&lt;/a&gt; 上的一些性能问题。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 音频和视频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.65 的更新修复了 AVX 代码中可能导致噼啪声的错误，并添加了一个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 插件规则来调整一些缓冲区设置。pipewire 还提供了支持，允许在某些使用 &lt;a href=&quot;https://github.com/alsa-project/tinycompress&quot;&gt;tinycompress&lt;/a&gt; 的设备上使用 ALSA 在硬件中解码压缩格式。快照还更新了其他几个包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3GWMJO37ZKCCPOX7DXEXOZSG5B7CL2AF/&quot;&gt;20230127&lt;/a&gt; 将远程桌面客户端 &lt;a href=&quot;https://remmina.org/&quot;&gt;remmina&lt;/a&gt; 更新到 1.4.29 版本。该软件包有多项更改，可以使用 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.0 构建和运行，它允许在仅限 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 的环境中构建。 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs19&lt;/a&gt; 9.5.0 的一次更新增加了系统控制补丁和修复 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 单元测试的补丁。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 的更新删除了上游包含的补丁；&lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 的更新处理了 &lt;a href=&quot;https://www.suse.com/pt-br/security/cve/CVE-2022-42330.html&quot;&gt;CVE-2022-42330&lt;/a&gt;，该漏洞可能允许恶意访客通过&lt;a href=&quot;https://xenbits.xen.org/xsa/advisory-425.html&quot;&gt;软重置&lt;/a&gt;导致崩溃。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FLRLACTS7AQ2RHTHTSOPEWFXQJFXCLXU/&quot;&gt;20230126&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DHTLCN4LWTTYVEONZSAG3AHCMKJUQWR5/&quot;&gt;20230125&lt;/a&gt; 均于上周到达。有数个重要的软件包在这些快照中陆续更新。其中包括修复了 &lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2022-3094.html&quot;&gt;CVE-2022-3094&lt;/a&gt;、&lt;a href=&quot;https://access.redhat.com/security/cve/cve-2022-3736&quot;&gt;CVE-2022-3736&lt;/a&gt; 和 &lt;a href=&quot;https://kb.isc.org/docs/cve-2022-3924&quot;&gt;CVE-2022-3924&lt;/a&gt; 的 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.11。&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 获得大版本更新，libvirt 9 有许多增量改进和错误修复。它具有的新功能之一是外部快照删除，现在可以使用现有的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virDomainSnapshotDelete()&lt;/code&gt;；允许删除子项或仅删除子项的标志现不被支持。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/01/tw-snapshots-up-mesa-remmina-more/&quot;&gt;Tumbleweed Snapshots Update Mesa, Remmina, More&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/29/%E9%BB%91%E5%AE%A2%E5%91%A8%E7%8E%B0%E5%B7%B2%E5%BC%80%E5%A7%8B.html</guid>
       <title>黑客周现已开始</title>
       <pubDate>Sun, 29 Jan 2023 23:30:00 +0000</pubDate>
@@ -338,45 +365,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/10/osc-cfp-opens/&quot;&gt;openSUSE Conference Call for Papers is Open&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html</guid>
-      <title>第二代原型推动 ALP 发展</title>
-      <pubDate>Thu, 22 Dec 2022 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>Geekos 正在推出新的操作系统，下一代操作系统的第二个原型正在快速推进。 第一个 Adaptable Linux Platform (自适应 Linux 平台，ALP) 原型 Les Droites 已被新的 ALP 原型 Punta Baretti 取代。 新原型的实现包括更多的灵活性、安全性和稳定性。 Punta Baretti 原型增加了全盘加密。ALP 将此全盘加密扩展到裸机服务器，使用可信平台模块将为利用无人值守启动打开大门，同时保持系统加密和安全。ALP 旨在在需要加密功能的私有云和公共云上运行。这些系统在启动时不需要用户交互，也不需要确保工作负载的安全性。Grub2 将成为默认的引导加载程序，并且考虑到 initramfs 已经加密，它也将有一个加密卷。 新原型解决了一些兼容性问题；SELinux 现在设置为完全执行访问控制，firewalld 默认设置为 netfilter 拒绝；这两个软件包以前出于兼容性和测试目的，策略更加开放。 自 Les Droites 原型以来的升级包括架构和网络更改。ARM 现在支持 aarch64，包括 Raspberry Pi，这将为更多创新者提供试验原型的机会。Network Manager 现在已完全集成并取代了 Wicked。 ALP 使用容器化工作负载隔离应用层的不同进程，包括管理 K3s 对基于 Kubernetes 的工作负载的使用，因为 Podman...</description>
-      <content:encoded>&lt;p&gt;Geekos 正在推出新的操作系统，下一代操作系统的第二个原型正在快速推进。&lt;/p&gt;
-
-&lt;p&gt;第一个 Adaptable Linux Platform (自适应 Linux 平台，ALP) 原型 &lt;a href=&quot;https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/&quot;&gt;Les Droites&lt;/a&gt; 已被新的 ALP 原型 &lt;a href=&quot;https://www.suse.com/c/alp-punta-baretti/&quot;&gt;Punta Baretti&lt;/a&gt; 取代。&lt;/p&gt;
-
-&lt;p&gt;新原型的实现包括更多的灵活性、安全性和稳定性。&lt;/p&gt;
-
-&lt;p&gt;Punta Baretti 原型增加了全盘加密。ALP 将此全盘加密扩展到裸机服务器，使用可信平台模块将为利用无人值守启动打开大门，同时保持系统加密和安全。ALP 旨在在需要加密功能的私有云和公共云上运行。这些系统在启动时不需要用户交互，也不需要确保工作负载的安全性。Grub2 将成为默认的引导加载程序，并且考虑到 &lt;a href=&quot;https://en.wikipedia.org/wiki/Initial_ramdisk&quot;&gt;initramfs&lt;/a&gt; 已经加密，它也将有一个加密卷。&lt;/p&gt;
-
-&lt;p&gt;新原型解决了一些兼容性问题；SELinux 现在设置为完全执行访问控制，&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 默认设置为 netfilter 拒绝；这两个软件包以前出于兼容性和测试目的，策略更加开放。&lt;/p&gt;
-
-&lt;p&gt;自 Les Droites 原型以来的升级包括架构和网络更改。ARM 现在支持 aarch64，包括 Raspberry Pi，这将为更多创新者提供试验原型的机会。Network Manager 现在已完全集成并取代了 Wicked。&lt;/p&gt;
-
-&lt;p&gt;ALP 使用容器化工作负载隔离应用层的不同进程，包括管理 K3s 对基于 Kubernetes 的工作负载的使用，因为 Podman 被用作首要的容器管理前端，ALP 增强了应用程序的运行、构建、共享和部署。&lt;/p&gt;
-
-&lt;p&gt;容器化的 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 实例将帮助用户通过 Web 用户界面部署和管理系统。Cockpit 似乎已成为 ALP 的默认 1.1 系统管理。&lt;/p&gt;
-
-&lt;p&gt;零接触方法将允许自我管理功能。 发布经理 Lubos Kocman 在 factory 邮件列表上写了&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZSZQ6TALB5WNQZ4UZAEQTCSQU4RUJDUO/&quot;&gt;关于自我管理和零接触的可能后续步骤&lt;/a&gt;，并正在查看开发人员是否想尝试自动调整解决方案。&lt;/p&gt;
-
-&lt;p&gt;另一个带有原型的容器化元素是 YaST，它自 ALP 成立以来就已实施，它提供了允许将包需求作为工作负载运行和管理的选项。在线存储库中提供了新的 ALP 工作负载，其中包含 &lt;a href=&quot;https://build.opensuse.org/package/show/SUSE:ALP:Workloads/firewalld-container&quot;&gt;firewalld-container&lt;/a&gt; 和 &lt;a href=&quot;https://build.opensuse.org/package/show/SUSE:ALP:Workloads/warewulf-container&quot;&gt;warewulf-container&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;在 D-Installer 内的整合增加了不同部署设置的可能性，并提供了在其上构建高级用户界面的机会。&lt;/p&gt;
-
-&lt;p&gt;第一个原型的反馈为下一代发行版提供了大量积极的讨论、测试、设置和工程参与。SUSE 的原型有望成为众多基于 ALP 的系列产品之一。&lt;/p&gt;
-
-&lt;p&gt;有关使用 ALP 原型的更多信息，请访问 &lt;a href=&quot;https://documentation.suse.com/alp/all/single-html/alp/index.html&quot;&gt;The Adaptable Linux Platform Guide&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2022/12/22/second-prototype-advances-alp/&quot;&gt;Second Prototype Advances ALP&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
