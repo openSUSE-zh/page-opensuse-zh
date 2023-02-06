@@ -7,6 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/05/%E6%96%B0%E7%9A%84-openSUSE-%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E8%AE%BA%E5%9D%9B.html</guid>
+      <title>新的 openSUSE 葡萄牙语论坛</title>
+      <pubDate>Sun, 05 Feb 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/05/%E6%96%B0%E7%9A%84-openSUSE-%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD%E8%AE%BA%E5%9D%9B.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>大家好，
+
+我们很高兴为你带来我们新的葡萄牙语论坛。我们期待在你的帮助下，用我们的语言为我们钟爱的 Linux 发行版 openSUSE 建立一个引人入胜的社区。
+
+通过这个新地方，我们希望团结 openSUSE 葡萄牙社区并继续为我们的用户提供相互支持。请不要犹豫，创建一个帐户，提出问题并帮助其他用户。
+
+这个新的沟通渠道填补了我们的 Telegram 和 Matrix 频道，我们将继续为每个平台提供支持。与即时通讯相比，论坛具有一些优势，例如更好的搜索机制和更好的长期数据保留。
+
+希望葡萄牙语论坛在你的帮助下逐渐发展壮大。
+
+祝你玩得愉快！
+
+
+
+原文：Novo forum em portugues de openSUSE，作者：Victorhck
+</description>
+      <content:encoded>&lt;p&gt;大家好，&lt;/p&gt;
+
+&lt;p&gt;我们很高兴为你带来我们&lt;a href=&quot;https://forums.opensuse.org/c/portugues-portuguese/130&quot;&gt;新的葡萄牙语论坛&lt;/a&gt;。我们期待在你的帮助下，用我们的语言为我们钟爱的 Linux 发行版 openSUSE 建立一个引人入胜的社区。&lt;/p&gt;
+
+&lt;p&gt;通过这个新地方，我们希望团结 openSUSE 葡萄牙社区并继续为我们的用户提供相互支持。请不要犹豫，创建一个帐户，提出问题并帮助其他用户。&lt;/p&gt;
+
+&lt;p&gt;这个新的沟通渠道填补了我们的 Telegram 和 Matrix 频道，我们将继续为每个平台提供支持。与即时通讯相比，论坛具有一些优势，例如更好的搜索机制和更好的长期数据保留。&lt;/p&gt;
+
+&lt;p&gt;希望葡萄牙语论坛在你的帮助下逐渐发展壮大。&lt;/p&gt;
+
+&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/06/novo-forum-em-portugues/&quot;&gt;Novo forum em portugues de openSUSE&lt;/a&gt;，作者：Victorhck&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/01/31/Mesa-Remmina-%E7%AD%89%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Mesa、Remmina 等软件包在 Tumbleweed 中更新</title>
       <pubDate>Tue, 31 Jan 2023 23:30:00 +0000</pubDate>
@@ -320,51 +360,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/13/busybox-systemd-gear-up-in-tw/&quot;&gt;BusyBox, systemd, Gear update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/09/2023-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</guid>
-      <title>2023 年 openSUSE 大会征稿启事</title>
-      <pubDate>Mon, 09 Jan 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/09/2023-%E5%B9%B4-openSUSE-%E5%A4%A7%E4%BC%9A%E5%BE%81%E7%A8%BF%E5%90%AF%E4%BA%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 大会 2023 话题征集已经开始！ 2023 年的 openSUSE 大会计划于 5 月 26 日至 5 月 28 日举行。话题征集将于 4 月 9 日结束，届时还有 89 天时间提交演讲。 openSUSE 大会已经有 Fedora 和 SUSE 两个赞助商。有兴趣赞助该活动的公司可以在该项目的维基页面上查看赞助信息。 可以提交以下时间长度的演示文稿： 闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟） 普通谈话（30 分钟）或普通虚拟谈话（30 分钟） 长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟） 研讨会（1 小时）或虚拟研讨会（1 小时） 以下是 openSUSE 大会的主题列表： 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会 2023&lt;/a&gt; 话题征集已经开始！&lt;/p&gt;
-
-&lt;p&gt;2023 年的 openSUSE 大会计划于 5 月 26 日至 5 月 28 日举行。话题征集将于 4 月 9 日结束，届时还有 89 天时间提交演讲。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 大会已经有 Fedora 和 SUSE 两个赞助商。有兴趣赞助该活动的公司可以在该项目的维基页面上查看赞助信息。&lt;/p&gt;
-
-&lt;p&gt;可以提交以下时间长度的演示文稿：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;闪电谈话（10 分钟）或闪电虚拟谈话（10 分钟）&lt;/li&gt;
-  &lt;li&gt;普通谈话（30 分钟）或普通虚拟谈话（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长篇演讲（45 分钟）或长篇虚拟演讲（45 分钟）&lt;/li&gt;
-  &lt;li&gt;研讨会（1 小时）或虚拟研讨会（1 小时）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以下是 openSUSE 大会的主题列表：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;云和容器&lt;/li&gt;
-  &lt;li&gt;社区&lt;/li&gt;
-  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
-  &lt;li&gt;新技术&lt;/li&gt;
-  &lt;li&gt;开源&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;该会议已经有两个赞助商，&lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt;。有兴趣赞助该活动的公司可以在&lt;a href=&quot;https://en.opensuse.org/Portal:Conference/Sponsor&quot;&gt;项目的 wiki 页面&lt;/a&gt;上查看&lt;a href=&quot;https://en.opensuse.org/images/e/e5/OSC23sponsorship.pdf&quot;&gt;赞助说明书&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;愿意帮助计划委员会或组织团队的志愿者可以发送电子邮件至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 或参加正常安排的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;。查看注释以了解详细信息。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.rock-im-park.com/en&quot;&gt;Rock im Park&lt;/a&gt; 音乐节将在大会结束一周后举行。社区鼓励与会者尽快预订酒店。大多数 Rock im Park 游客不会提前一周来，但始终建议提前预订酒店。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/10/osc-cfp-opens/&quot;&gt;openSUSE Conference Call for Papers is Open&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
