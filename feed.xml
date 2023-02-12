@@ -7,6 +7,22 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/11/tw-ffmpeg5.html</guid>
+      <title>社区提醒： 请在 Tumbleweed 上使用 ffmpeg-5</title>
+      <pubDate>Sat, 11 Feb 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/11/tw-ffmpeg5.html</link>
+      <author>Nianqing Yao</author>
+      <description>只是一个提醒：
+
+Tumbleweed 的 RPM 版火狐解码需要来自 Packman 源的 FFMPEG-5 ，在遇到视频播放问题的时候请检查自己的 FFMPEG 是否是 ffmpeg-5 并且来自 Packman.
+</description>
+      <content:encoded>&lt;p&gt;只是一个提醒：&lt;/p&gt;
+
+&lt;p&gt;Tumbleweed 的 RPM 版火狐解码需要来自 Packman 源的 FFMPEG-5 ，在遇到视频播放问题的时候请检查自己的 FFMPEG 是否是 ffmpeg-5 并且来自 Packman.&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/09/Audacity-OpenSSL-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Audacity、OpenSSL 和 systemd 在 Tumbleweed 中更新</title>
       <pubDate>Thu, 09 Feb 2023 23:30:00 +0000</pubDate>
@@ -339,31 +355,6 @@ WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/18/mentorship-plans-finalization-submission/&quot;&gt;Mentorship Community Plans Project Finalization, Submission&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/17/%E5%9C%A8-FOSDEM-%E4%B8%8A%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E6%9C%89%E5%85%B3%E4%BA%8E-openSUSE-%E5%92%8C-ALP-%E7%9A%84%E4%BF%A1%E6%81%AF.html</guid>
-      <title>在 FOSDEM 上了解更多有关于 openSUSE 和 ALP 的信息</title>
-      <pubDate>Tue, 17 Jan 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/17/%E5%9C%A8-FOSDEM-%E4%B8%8A%E4%BA%86%E8%A7%A3%E6%9B%B4%E5%A4%9A%E6%9C%89%E5%85%B3%E4%BA%8E-openSUSE-%E5%92%8C-ALP-%E7%9A%84%E4%BF%A1%E6%81%AF.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 项目正在计划今年的 FOSDEM 活动，该活动将于 2 月 4 日至 5 日在布鲁塞尔举行。 openSUSE 项目将在 H 厅的操作系统空间设置展位，在其展览中，参观者可与贡献者讨论所有与 openSUSE 相关的项目，包括 ALP、MicroOS、Tumbleweed、Leap、Open Build Service、openQA 等。 SUSE 于上月底发布了其自适应 Linux 平台（Adaptable Linux Platform, ALP）的第二个原型。届时现场将有专家共同探讨 ALP。 目前 SUSE 已经发布了两个 ALP 原型；Les Droites 是 10 月发布的第一个，Punta Baretti 是当前可用的测试原型。预计今年春季和夏季会有更多原型。 请不要错过来自 openSUSE 社区的演讲。Dan Čermák 将谈论模块化和 ALP；Richard Brown 将为发行渠道发表主题演讲。Sarah Julia Kriesch 将就协作和开放大型机项目发表演讲。...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;正在计划今年的 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 活动，该活动将于 2 月 4 日至 5 日在布鲁塞尔举行。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目将在 H 厅的操作系统空间设置展位，在其展览中，参观者可与贡献者讨论所有与 openSUSE 相关的项目，包括 ALP、MicroOS、Tumbleweed、Leap、Open Build Service、openQA 等。&lt;/p&gt;
-
-&lt;p&gt;SUSE 于上月底发布了其自适应 Linux 平台（Adaptable Linux Platform, ALP）的第二个原型。届时现场将有专家共同探讨 ALP。&lt;/p&gt;
-
-&lt;p&gt;目前 SUSE 已经发布了两个 ALP 原型；&lt;a href=&quot;https://www.suse.com/c/the-first-prototype-of-adaptable-linux-platform-is-live/&quot;&gt;Les Droites&lt;/a&gt; 是 10 月发布的第一个，&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2022/12/22/%E7%AC%AC%E4%BA%8C%E4%BB%A3%E5%8E%9F%E5%9E%8B%E6%8E%A8%E5%8A%A8-ALP-%E5%8F%91%E5%B1%95.html&quot;&gt;Punta Baretti&lt;/a&gt; 是当前可用的测试原型。预计今年春季和夏季会有更多原型。&lt;/p&gt;
-
-&lt;p&gt;请不要错过来自 openSUSE 社区的演讲。Dan Čermák 将谈论&lt;a href=&quot;https://fosdem.org/2023/schedule/event/modular_distro/&quot;&gt;模块化和 ALP&lt;/a&gt;；Richard Brown 将为&lt;a href=&quot;https://fosdem.org/2023/schedule/event/containerised_apps/&quot;&gt;发行渠道发表主题演讲&lt;/a&gt;。Sarah Julia Kriesch 将就&lt;a href=&quot;https://fosdem.org/2023/schedule/event/open_mainframe_project/&quot;&gt;协作和开放大型机项目&lt;/a&gt;发表演讲。&lt;/p&gt;
-
-&lt;p&gt;展位将有免费赠品、测验和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Beer&quot;&gt;啤酒&lt;/a&gt;。启发自己。来看看我们，祝你玩得开心！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/17/learn-more-about-os-alp-at-fosdem/&quot;&gt;Learn More About openSUSE, ALP at FOSDEM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
