@@ -7,6 +7,51 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/20/Leap-15.5-%E8%BF%9B%E5%85%A5-Beta-%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
+      <title>Leap 15.5 进入 Beta 发布阶段</title>
+      <pubDate>Mon, 20 Feb 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/20/Leap-15.5-%E8%BF%9B%E5%85%A5-Beta-%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 的发布经理 Luboš Kocman 有望很快宣布 Leap 15.5 进入 Beta 发布阶段。第一个 Beta 版本正同步至全球镜像，供人们下载和测试。 根据路线图，用户可以在正式发布之前开始测试 Beta 版本以查找错误；正式版一般于 6 月初发布。 Leap 15.5 将提供一些较新的软件版本，但该版本不是功能版本。 我们计划为所有新安装的 Leap 15.5 系统使用更新的 Mesa 等软件包，并默认启用 OpenH264 软件源。Leap 15.5 的另一个新亮点是迁移选项。新的单击迁移简化了在以前的 openSUSE Leap 版本中需要三个步骤的迁移过程。想要从以前的版本或 15.5 Alpha 迁移至 15.5 Beta 的用户可以安装 openSUSE-repos-Leap；它带有 repo 定义，它利用 zypp 服务进行 repo 管理；尽管默认情况下不启用此功能。但是，作为对图形用户界面的主要请求的 zypper-migration-plugin 实现已实现为与 SLE...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE Leap&lt;/a&gt; 的发布经理 Luboš Kocman 有望很快宣布 &lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;Leap 15.5&lt;/a&gt; 进入 Beta 发布阶段。第一个 Beta 版本正同步至全球镜像，供人们下载和测试。&lt;/p&gt;
+
+&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;，用户可以在正式发布之前开始测试 Beta 版本以查找错误；正式版一般于 6 月初发布。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.5 将提供一些较新的软件版本，但该版本不是功能版本。&lt;/p&gt;
+
+&lt;p&gt;我们计划为所有新安装的 Leap 15.5 系统使用更新的 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 等软件包，并默认启用 &lt;a href=&quot;https://en.opensuse.org/OpenH264&quot;&gt;OpenH264&lt;/a&gt; 软件源。Leap 15.5 的另一个新亮点是迁移选项。新的单击迁移简化了在以前的 openSUSE Leap 版本中需要三个步骤的迁移过程。想要从以前的版本或 15.5 Alpha 迁移至 15.5 Beta 的用户可以安装 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos-Leap&lt;/a&gt;；它带有 repo 定义，它利用 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;zypp 服务&lt;/a&gt;进行 repo 管理；尽管默认情况下不启用此功能。但是，作为对图形用户界面的主要请求的 zypper-migration-plugin 实现已实现为与 &lt;a href=&quot;https://www.suse.com/c/suse-linux-enterprise-15-is-generally-available/&quot;&gt;SLE 15&lt;/a&gt; SP 5 相关的单独元素。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.10 及其相关模块将在 Beta 阶段后期提供给用户，这将为用户提供一个完全有能力替代 Python 3.6 默认系统的方案。用于管理 Linux 软件 RAID 阵列的实用程序 mdadm 已通过升级至 &lt;a href=&quot;https://code.opensuse.org/leap/features/issue/82&quot;&gt;4.2&lt;/a&gt; 版本得到维护。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 用户将在 Leap 15.5 收到桌面环境更新；Leap 将使用 &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.27.0/&quot;&gt;Plasma 5.27&lt;/a&gt;，这是一个长期支持版本，预计将维护至 2024 年直到下一个 LTS 版本发布。它提供出色的稳定性和错误修复。Leap 15.5 的一个已知问题是在 ppc64le 上安装 util-linux-lang 失败；此问题已被记录为 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1208196&quot;&gt;boo #1208196&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.5 仍然将使用与旧版相同的 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 5.14.21。&lt;/p&gt;
+
+&lt;p&gt;壁纸预计会如上图所示发生一些变化，但任何有兴趣提供设计贡献的人可以设计&lt;a href=&quot;https://github.com/openSUSE/branding/issues/135&quot;&gt;新壁纸&lt;/a&gt;。对此有兴趣的人可以阅读&lt;a href=&quot;https://en.opensuse.org/openSUSE:Artwork_guidelines#Wallpapers&quot;&gt;指导方针&lt;/a&gt;以了解更多信息。&lt;/p&gt;
+
+&lt;p&gt;Leap &lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;15.5&lt;/a&gt; 预计将是 Leap 15 系列版本的最后一个小版本，该大版本于 2018 年 5 月首次发布。&lt;/p&gt;
+
+&lt;p&gt;可用于测试的架构包括 x86_64、aarch64、PowerPC 和 s390x。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励测试人员在多台笔记本电脑、工作站和其他硬件设备上试用 Leap 15.5。我们鼓励测试它的人在此&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1AGKijKpKiJCB616-bHVoNQuhWHpQLHPWCb3m1p6gXPc/edit?usp=sharing&quot;&gt;电子表格&lt;/a&gt;上记录他们的 Leap Beta 测试工作。对于适用于 WSL 的 openSUSE Leap 15.5 beta 测试版镜像感兴趣的人可以联系 Kocman 或 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;测试人员与用户应该在 &lt;a href=&quot;https://bugzilla.opensuse.org/index.cgi&quot;&gt;openSUSE 的 bugzilla&lt;/a&gt; 上报告错误。应该针对 PUBLIC SUSE Linux Enterprise SP5、服务器和高可用性报告从 SLE 继承的软件包的错误。对上述这些公共产品设定优先顺序的政策已经更新。&lt;a href=&quot;https://en.opensuse.org/openSUSE:Most_annoying_bugs_15.5&quot;&gt;Leap 15.5 beta 最烦人的错误&lt;/a&gt;列表将发布在 wiki 上。&lt;/p&gt;
+
+&lt;p&gt;根据路线图，openSUSE Leap 15.5 将在 4 月下旬进入候选发布阶段，预计将在 5 月底进入 Gold Master 阶段，然后过渡到维护阶段。文档和翻译的截止日期定于 5 月 14 日。&lt;/p&gt;
+
+&lt;p&gt;为了庆祝此事，你可以举办安装派对并测试 openSUSE Leap 15.5 Beta。一个新的 openSUSE 用户可能就会出现！如果你不确定如何操作，请阅读&lt;a href=&quot;https://en.opensuse.org/openSUSE:Launch_party_HOWTO&quot;&gt;此文&lt;/a&gt;。你甚至可以访问 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE Bar&lt;/a&gt; 来讨论测试版。&lt;/p&gt;
+
+&lt;h2 id=&quot;下载-beta-镜像&quot;&gt;下载 Beta 镜像……&lt;/h2&gt;
+
+&lt;p&gt;你可在 &lt;a href=&quot;https://get.opensuse.org/testing&quot;&gt;get.opensuse.org&lt;/a&gt; 上获得 Leap 15.5 Beta ISO 文件。请根据你的目的筛选合适的 ISO 文件，并安装至虚拟机（如 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt;、&lt;a href=&quot;https://wiki.gnome.org/Apps/Boxes&quot;&gt;GNOME Boxes&lt;/a&gt;）或物理机上。&lt;/p&gt;
+
+&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/21/leap-reaches-beta-phase/&quot;&gt;Leap 15.5 Reaches Beta Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/16/Mesa-%E7%A3%81%E7%9B%98%E5%8A%A0%E5%AF%86%E5%92%8C-xfce-%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
       <title>Mesa、磁盘加密和 xfce 软件包在 Tumbleweed 中更新</title>
       <pubDate>Thu, 16 Feb 2023 23:30:00 +0000</pubDate>
@@ -321,68 +366,6 @@ Tumbleweed 的 RPM 版火狐解码需要来自 Packman 源的 FFMPEG-5 ，在遇
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/24/opensuse-simplifies-codec-install/&quot;&gt;openSUSE Simplifies Codec Installation&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html</guid>
-      <title>Tumbleweed 的新 4096 位 RSA 签名密钥</title>
-      <pubDate>Sun, 22 Jan 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/22/Tumbleweed-%E7%9A%84%E6%96%B0-4096-%E4%BD%8D-RSA-%E7%AD%BE%E5%90%8D%E5%AF%86%E9%92%A5.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>本周的 openSUSE Tumbleweed 快照会将 Tumbleweed 的 RPM 和存储库签名密钥从 2048 位 RSA 更改为 4096 位 RSA 密钥。 这种转换对于满足当前的安全建议是必要的。如果您定期更新您的 Tumbleweed 安装，密钥将已经导入到 RPM 密钥环中，并且也在 openSUSE-build-key 包中。 新密钥的 GPG 指纹： pub rsa4096/0x35A2F86E29B700A4 2022-06-20 [SC] [expires: 2026-06-19] Key fingerprint = AD48 5664 E901 B867 051A B15F 35A2 F86E 29B7 00A4 uid openSUSE Project Signing Key...</description>
-      <content:encoded>&lt;p&gt;本周的 openSUSE Tumbleweed 快照会将 Tumbleweed 的 RPM 和存储库签名密钥从 2048 位 RSA 更改为 4096 位 RSA 密钥。&lt;/p&gt;
-
-&lt;p&gt;这种转换对于满足当前的安全建议是必要的。如果您定期更新您的 Tumbleweed 安装，密钥将已经导入到 RPM 密钥环中，并且也在 openSUSE-build-key 包中。&lt;/p&gt;
-
-&lt;p&gt;新密钥的 GPG 指纹：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pub   rsa4096/0x35A2F86E29B700A4 2022-06-20 [SC] [expires: 2026-06-19]
-      Key fingerprint = AD48 5664 E901 B867 051A  B15F 35A2 F86E 29B7 00A4
-uid   openSUSE Project Signing Key &amp;lt;opensuse@opensuse.org&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;请注意，openSUSE Leap 15.4 和 15.5 也将切换到使用此密钥，并且 openSUSE Backports 和 SLE 存储库将在 2023 年切换到 4096 位 RSA 密钥。&lt;/p&gt;
-
-&lt;p&gt;如果您对此有任何疑问，请随时联系&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;列表&lt;/a&gt;中的 Factory 或安全邮件列表。&lt;/p&gt;
-
-&lt;p&gt;如果您想手动导入，这里是整个 GPG 密钥：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: GnuPG v2.0.15 (GNU/Linux)
-
-mQINBGKwfiIBEADe9bKROWax5CI83KUly/ZRDtiCbiSnvWfBK1deAttV+qLTZ006
-090eQCOlMtcjhNe641Ahi/SwMsBLNMNich7/ddgNDJ99H8Oen6mBze00Z0Nlg2HZ
-VZibSFRYvg+tdivu83a1A1Z5U10Fovwc2awCVWs3i6/XrpXiKZP5/Pi3RV2K7VcG
-rt+TUQ3ygiCh1FhKnBfIGS+UMhHwdLUAQ5cB+7eAgba5kSvlWKRymLzgAPVkB/NJ
-uqjz+yPZ9LtJZXHYrjq9yaEy0J80Mn9uTmVggZqdTPWx5CnIWv7Y3fnWbkL/uhTR
-uDmNfy7a0ULB3qjJXMAnjLE/Oi14UE28XfMtlEmEEeYhtlPlH7hvFDgirRHN6kss
-BvOpT+UikqFhJ+IsarAqnnrEbD2nO7Jnt6wnYf9QWPnl93h2e0/qi4JqT9zw93zs
-fDENY/yhTuqqvgN6dqaD2ABBNeQENII+VpqjzmnEl8TePPCOb+pELQ7uk6j4D0j7
-slQjdns/wUHg8bGE3uMFcZFkokPv6Cw6Aby1ijqBe+qYB9ay7nki44OoOsJvirxv
-p00MRgsm+C8he+B8QDZNBWYiPkhHZBFi5GQSUY04FimR2BpudV9rJqbKP0UezEpc
-m3tmqLuIc9YCxqMt40tbQOUVSrtFcYlltJ/yTVxu3plUpwtJGQavCJM7RQARAQAB
-tDRvcGVuU1VTRSBQcm9qZWN0IFNpZ25pbmcgS2V5IDxvcGVuc3VzZUBvcGVuc3Vz
-ZS5vcmc+iQI+BBMBAgAoBQJisH4iAhsDBQkHhM4ABgsJCAcDAgYVCAIJCgsEFgID
-AQIeAQIXgAAKCRA1ovhuKbcApKRrEACJMhZhsPJBOkYmANvH5mqlk27brA3IZoM4
-8qTzERebzKa0ZH1fgRI/3DhrfBYL0M5XOb3+26Ize0pujyJQs61Nlo1ibtQqCoyu
-dvP/pmY1/Vr374wlMFBuCfAjdad4YXkbe7q7GGjo6cF89qtBfTqEtaRrfDgtPLx/
-s9/WXLGo0XYqCCSPVoU66jQYNcCt3pH+hqytvntXJDhU+DveOnQCOSBBHhCMST3E
-QvriN/GnHf+sO19UmPpyHH0TM5Ru4vDrgzKYKT/CzbllfaJSk9cEuTY8Sv1sP/7B
-Z7YvOE0soIgM1sVg0u3R/2ROx0MKoLcq7EtLw64eE+wnw9bHYZQNmS+J/18p7Bo8
-I7e+8WRi+m/pus5FEWsIH1uhxKLgJGFDTHHGZtW+myjnUzXVIkpJGrKoolzYjHdK
-lRYM2fVuNI1eq6CZ6PFXg2UxovVczSnGMO33HZE09vpgkRDBrw1vF0o/Wnm02kig
-V6xYHk5wJx8vL74wPvCbw73UNT9OSdxYAz7JPqGOD6cpKe7XcAH2sYmlGpggAIUz
-Rq/lROEF5lx4SxB838JU4ezxD++BJXfBTE8JZmlGscXv74y9nCtSOZza8KOKj8ou
-WRl739FMnx9jRd7HHj3TIyymoveODnZ7f3IElyyFsjBW3XuQ9XfpZrIkwHuaZV5M
-6q2h+hgWNQ==
-=nMh8
------END PGP PUBLIC KEY BLOCK-----
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/23/new-4096-bit-signing-key/&quot;&gt;New 4096 bit RSA signing key for Tumbleweed&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
 </content:encoded>
     </item>
 
