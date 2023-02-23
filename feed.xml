@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/22/%E5%85%B3%E4%BA%8E%E4%B8%BA-GSoC-%E7%94%B3%E8%AF%B7%E8%80%85%E6%8F%90%E4%BE%9B%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%81%E9%9D%A2%E4%BC%9A.html</guid>
+      <title>关于为 GSoC 申请者提供的项目的见面会</title>
+      <pubDate>Wed, 22 Feb 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/22/%E5%85%B3%E4%BA%8E%E4%B8%BA-GSoC-%E7%94%B3%E8%AF%B7%E8%80%85%E6%8F%90%E4%BE%9B%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%81%E9%9D%A2%E4%BC%9A.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 的导师和管理员很高兴被接纳为今年 Google 编程之夏的导师组织，并将为潜在的学员提供讨论 101.opensuse.org 上所列项目的机会。 在所有 openSUSE 社区会议之前都会有 15 分钟的会议，学员们可以加入我们的 Jitsi 会议室，与 openSUSE 社区的成员取得联系，他们可以帮助学员们了解今年 GSoC 期间的项目情况。 社区会议每周二和周四举行，具体时间有所不同。周二的面向学员身份申请者的见面会于 15:15 UTC 开始，周四的小会于 19:45 UTC 开始。社区会议开始时间分别是 15:30 UTC 和 20:00 UTC。 潜在的学员申请人可以在 101.opensuse.org 上查看项目列表，并通过在列出感兴趣项目的 GitHub issue 上发表评论，与领导该项目的导师直接沟通。并非所有的导师都能在见面会的时间段内有空，但那些有时间的导师会根据他们所掌握的项目信息提供最大的帮助。 2 月 23 日至 4 月 4 日期间都将定期举行会议。今年有 15 个项目参加活动。101.opensuse.org 列出的一些项目涉及与运维、人工智能、安全、密码学、Kubernetes、容器和质量保证相关的主题。许多项目的语言包括 Python、Rust、Perl、ReactJS、JavaScript、Ruby 等。 原文：Awareness Sessions...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的导师和管理员很高兴被接纳为今年 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google 编程之夏&lt;/a&gt;的&lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;导师组织&lt;/a&gt;，并将为潜在的学员提供讨论 &lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 上所列项目的机会。&lt;/p&gt;
+
+&lt;p&gt;在所有 openSUSE 社区会议之前都会有 15 分钟的会议，学员们可以加入我们的 Jitsi 会议室，与 openSUSE 社区的成员取得联系，他们可以帮助学员们&lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;了解&lt;/a&gt;今年 GSoC 期间的项目情况。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;每周二和周四举行，具体时间有所不同。周二的面向学员身份申请者的见面会于 15:15 UTC 开始，周四的小会于 19:45 UTC 开始。社区会议开始时间分别是 15:30 UTC 和 20:00 UTC。&lt;/p&gt;
+
+&lt;p&gt;潜在的学员申请人可以在 &lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;101.opensuse.org&lt;/a&gt; 上查看项目列表，并通过在列出感兴趣项目的 &lt;a href=&quot;https://github.com/openSUSE/mentoring/issues&quot;&gt;GitHub issue&lt;/a&gt; 上发表评论，与领导该项目的导师直接沟通。并非所有的导师都能在见面会的时间段内有空，但那些有时间的导师会根据他们所掌握的项目信息提供最大的帮助。&lt;/p&gt;
+
+&lt;p&gt;2 月 23 日至 4 月 4 日期间都将定期举行会议。今年有 15 个项目参加活动。&lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 列出的一些项目涉及与运维、人工智能、安全、密码学、&lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;、容器和质量保证相关的主题。许多项目的语言包括 Python、Rust、Perl、ReactJS、JavaScript、Ruby 等。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/22/awareness-sessions-about-projects-available-to-gsoc/&quot;&gt;Awareness Sessions About Projects Available for GSoC Applicants&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/20/Leap-15.5-%E8%BF%9B%E5%85%A5-Beta-%E5%8F%91%E5%B8%83%E9%98%B6%E6%AE%B5.html</guid>
       <title>Leap 15.5 进入 Beta 发布阶段</title>
       <pubDate>Mon, 20 Feb 2023 23:30:00 +0000</pubDate>
@@ -308,64 +331,6 @@ Tumbleweed 的 RPM 版火狐解码需要来自 Packman 源的 FFMPEG-5 ，在遇
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/26/firefox-apache-libreoffice-up-in-tw/&quot;&gt;Firefox, Apache, LibreOffice update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/24/openSUSE-%E7%AE%80%E5%8C%96%E4%BA%86%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E5%AE%89%E8%A3%85.html</guid>
-      <title>openSUSE 简化了编解码器的安装</title>
-      <pubDate>Tue, 24 Jan 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/24/openSUSE-%E7%AE%80%E5%8C%96%E4%BA%86%E7%BC%96%E8%A7%A3%E7%A0%81%E5%99%A8%E7%9A%84%E5%AE%89%E8%A3%85.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>受 Fedora 为向其用户提供 Cisco 的 OpenH264 编解码器和 FDK AAC 所做的努力的启发，openSUSE 项目成员联系了 Cisco 的开源团队为其用户群做同样的事情。 需要克服的一个障碍是目前免费再分发编解码器的限制是 100,000 个用户，因此董事会成员 Neal Gompa 和 openSUSE Leap 发布经理 Lubos Kocman 提出了一种简化 openSUSE 中编解码器安装的方法。 支持 H.264 编解码的编解码库适合于 WebRTC 等实时应用。安装的简化将使 openSUSE 用户获得更好的开箱即用体验。 openSUSE 项目非常感谢 Cisco 的努力。Cisco 同意 openSUSE 项目通过 Cisco 拥有的基础设施向 openSUSE 用户重新分发 OpenH264。openSUSE 设想了 OpenH264 的发布工作流程，并通过 openSUSE...</description>
-      <content:encoded>&lt;p&gt;受 &lt;a href=&quot;https://getfedora.org/&quot;&gt;Fedora&lt;/a&gt; 为向其用户提供 &lt;a href=&quot;https://github.com/cisco/openh264&quot;&gt;Cisco 的 OpenH264 编解码器&lt;/a&gt;和 &lt;a href=&quot;https://en.opensuse.org/openSUSE:License/FDK-ACC&quot;&gt;FDK AAC&lt;/a&gt; 所做的努力的启发，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;成员联系了 &lt;a href=&quot;https://eti.cisco.com/open-source&quot;&gt;Cisco 的开源团队&lt;/a&gt;为其用户群做同样的事情。&lt;/p&gt;
-
-&lt;p&gt;需要克服的一个障碍是目前免费再分发编解码器的限制是 100,000 个用户，因此董事会成员 Neal Gompa 和 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/15.4/&quot;&gt;Leap&lt;/a&gt; 发布经理 Lubos Kocman 提出了&lt;a href=&quot;https://code.opensuse.org/leap/features/issue/22&quot;&gt;一种简化 openSUSE 中编解码器安装的方法&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Video_Coding&quot;&gt;H.264&lt;/a&gt; 编解码的编解码库适合于 &lt;a href=&quot;https://webrtc.org/&quot;&gt;WebRTC&lt;/a&gt; 等实时应用。安装的简化将使 openSUSE 用户获得更好的开箱即用体验。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目非常感谢 Cisco 的努力。Cisco 同意 openSUSE 项目通过 Cisco 拥有的基础设施向 openSUSE 用户重新分发 &lt;a href=&quot;https://en.opensuse.org/OpenH264&quot;&gt;OpenH264&lt;/a&gt;。openSUSE 设想了 OpenH264 的&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-tools/tree/master/openh264&quot;&gt;发布工作流程&lt;/a&gt;，并通过 openSUSE 发布工具中的一组脚本处理了一个&lt;a href=&quot;https://github.com/openSUSE/openSUSE-release-tools/tree/master/openh264&quot;&gt;三步法&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;工作流脚本触发时会向 Cisco 发送一封电子邮件，其中包含 OpenH264 rpm 软件包的存档；它制作了一个数据快照，然后发送或 “POSTed” 以手动提取 &lt;a href=&quot;https://ciscobinary.openh264.org/&quot;&gt;Cisco 二进制文件&lt;/a&gt;。该过程确保项目在&lt;a href=&quot;https://openbuildservice.org/&quot;&gt;开放构建服务&lt;/a&gt;中始终具有一组相关的二进制文件。&lt;/p&gt;
-
-&lt;p&gt;存档文件由 &lt;a href=&quot;https://build.opensuse.org/project/show/multimedia:libs:cisco-openh264&quot;&gt;multimedia:libs:cisco-openh264&lt;/a&gt; 项目维护者之一创建和发送。&lt;/p&gt;
-
-&lt;p&gt;该包在 OBS 中由 openSUSE 密钥签名，因此可以验证包的来源。存储库元数据由 OBS 在 &lt;a href=&quot;https://codecs.opensuse.org/openh264/&quot;&gt;codecs.opensuse.org/openh264&lt;/a&gt; 下发布。&lt;/p&gt;
-
-&lt;p&gt;存档必须仅包含带有 &lt;a href=&quot;https://github.com/cisco/openh264&quot;&gt;Cisco OpenH264&lt;/a&gt; 和相关 OpenH264 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 插件的包。根据 Cisco 的协议，在协议之外添加任何其他内容，尤其是其他编解码器，将导致违规。&lt;/p&gt;
-
-&lt;p&gt;社区已经讨论了潜在的改进以改进现有的工作流程，但最初的努力是为了在安装后为 openSUSE 提供更简化的体验。&lt;/p&gt;
-
-&lt;p&gt;或者通过运行以下命令手动启用软件源：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Leap：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper ar http://codecs.opensuse.org/openh264/openSUSE_Leap repo-openh264
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tumbleweed 或 MicroOS:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper ar http://codecs.opensuse.org/openh264/openSUSE_Tumbleweed repo-openh264
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;安装：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper in gstreamer-1.20-plugin-openh264
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;从下一个快照 iso 构建开始，openh264 存储库将在所有新安装的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 上默认启用。它还将作为 &lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;openSUSE Leap 15.5 Beta&lt;/a&gt; 的一部分提供。&lt;/p&gt;
-
-&lt;p&gt;或者，使用 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 进行存储库管理将为用户提供 openh264 存储库定义作为最新更新的一部分。用户将需要手动&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/README.md#cleanup-of-distribution-repositories-not-managed-by-zypp-services&quot;&gt;删除&lt;/a&gt;项目&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/README.md&quot;&gt;自述文件&lt;/a&gt;中的旧重复 repo 定义。&lt;/p&gt;
-
-&lt;p&gt;AAC 已经参与发行几个月了。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/24/opensuse-simplifies-codec-install/&quot;&gt;openSUSE Simplifies Codec Installation&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
