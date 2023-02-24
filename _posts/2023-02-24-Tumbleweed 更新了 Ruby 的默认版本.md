@@ -15,7 +15,7 @@ tags:
 
 本周的 [openSUSE](https://get.opensuse.org/) [Tumbleweed](https://get.opensuse.org/tumbleweed/) 综述将关注自上周五以来发布的五个快照。
 
-这些快照更换了 Ruby 的默认版本，更新了 [pidgin](https://pidgin.im/)、[parole](https://docs.xfce.org/apps/parole/start)、[OpenSSL](https://www.openssl.org/)、[php](https://www.php.net/)、[sudo](https://www.sudo.ws/)、[tigervnc](https://tigervnc.org/) 等软件包。
+这些快照更换了 Ruby 的默认版本，更新了 [pidgin](https://pidgin.im/)、[parole](https://docs.xfce.org/apps/parole/start)、[OpenSSL](https://www.openssl.org/)、[php](https://www.php.net/)、[sudo](https://www.sudo.ws/) 和 [tigervnc](https://tigervnc.org/) 等软件包。
 
 快照 [20230222](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FD5XDP2V7XH5EQHAQAAD5BWONPTXVX2Z/) 仅更新了四个包。[gnu-unifont-fonts](https://unifoundry.com/unifont/) 新的大版本，15.0.01 出现在快照中，它引入了几个新的子包并清理了[规范文件](https://en.opensuse.org/openSUSE:Specfile_guidelines)。curses 仿真库 [ncurses](https://en.wikipedia.org/wiki/Ncurses) 6.4.20230218 添加了一个补丁并对配置脚本进行一些改进。[ibus-m17n](https://github.com/ibus/ibus-m17n) 1.4.19 更新添加了鹦鹉图标表情符号，并使用 [Weblate](https://weblate.org/) 为[斯里兰卡](https://en.wikipedia.org/wiki/Sinhala_language)使用的僧伽罗语进行了一些翻译改进。还有一个针对 Ark Logic 视频卡的 [xf86-video-ark](https://packagehub.suse.com/packages/xf86-video-ark/) 0.7.6 更新，它带来了十年来积累的变更，具有针对 [xorg-server](https://en.wikipedia.org/wiki/X.Org_Server) 1.14 和更新版本的开箱构建能力。
 
