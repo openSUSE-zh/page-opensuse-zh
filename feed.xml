@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/28/%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%BC%80%E6%BA%90%E6%94%BF%E7%AD%96%E8%81%9A%E7%84%A6-AI-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
+      <title>更新后的开源政策聚焦 AI 注意事项</title>
+      <pubDate>Tue, 28 Feb 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/28/%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%BC%80%E6%BA%90%E6%94%BF%E7%AD%96%E8%81%9A%E7%84%A6-AI-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>随着人工智能聊天机器人和协议的普及，并被整合到全球社会的结构中，SUSE 开源政策的最新更新为开发人员、社区和项目提供了思考的依据。 该政策是针对所有 SUSE 员工的；然而，我们的目标是开放源代码社区和开发人员仔细考虑该政策，并且该政策将激励其他公司采用或引入开源政策。 “我们的‘为开源项目做贡献’政策意味着我们也会为新的开源项目确定与现有上游项目的合作和贡献机会，”根据更新的政策文本。“围绕 AI 结对编程（AI pair programming）的许可和潜在违规行为的法律结构没有解决。” 考虑到推荐许可是避免未来冲突的良好默认设置。该策略是针对代码的，但还有其他一些要点需要考虑。 SUSE 使用 OSI 批准的许可证。其他个案作为例外处理。 当项目是更大的开源生态系统的一部分时，请使用生态系统内现有的兼容许可证。这适用于代码和非代码许可证。 SUSE 对全新软件项目的许可建议是特定于上下文的；默认为 Apache-2.0。对于面向公共版权的项目，推荐使用 GPL-2.0 或更高版本。对于文档和艺术作品，SUSE 推荐使用 CC BY-SA 4.0。 SUSE 员工目前没有使用 AI 结对编程，并且在年度审查认为需要更改之前不会使用。 SUSE 的新员工将接受有关该政策的培训，该政策预计每年都会修订和更新。 为了了解 AI 聊天机器人如何看待这个话题，人们向 ChatGPT 询问了有关开发者和公司需要了解关于 AI 聊天机器人和其他协议的开源政策方面的注意事项。ChatGPT 聊天机器人提供的答案似乎证实了 SUSE 在其开源政策方面采取了很好的方法。聊天机器人给出了六个注意事项；即许可证兼容性、知识产权、源代码可用性、归属权、责任和数据隐私。未来的变化也列在另一个有关保持政策更新以保持符合新要求的相关问题中。 遵循政策的建议可以帮助避免像上图那样与 ChatGPT 的对话，这与 GitHub 和 OpenAI 的 copilot 项目有关。...</description>
+      <content:encoded>&lt;p&gt;随着人工智能聊天机器人和协议的普及，并被整合到全球社会的结构中，&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;SUSE 开源政策&lt;/a&gt;的最新更新为开发人员、社区和项目提供了思考的依据。&lt;/p&gt;
+
+&lt;p&gt;该政策是针对所有 SUSE 员工的；然而，我们的目标是开放源代码社区和开发人员仔细考虑&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;该政策&lt;/a&gt;，并且该政策将激励其他公司采用或引入开源政策。&lt;/p&gt;
+
+&lt;p&gt;“我们的‘为开源项目做贡献’政策意味着我们也会为新的开源项目确定与现有上游项目的合作和贡献机会，”根据更新的政策文本。“围绕 AI 结对编程（AI pair programming）的许可和潜在违规行为的法律结构没有解决。”&lt;/p&gt;
+
+&lt;p&gt;考虑到推荐许可是避免未来冲突的良好默认设置。该策略是针对代码的，但还有其他一些要点需要考虑。&lt;/p&gt;
+
+&lt;p&gt;SUSE 使用 &lt;a href=&quot;https://opensource.org/&quot;&gt;OSI&lt;/a&gt; 批准的许可证。其他个案作为例外处理。&lt;/p&gt;
+
+&lt;p&gt;当项目是更大的开源生态系统的一部分时，请使用生态系统内现有的兼容许可证。这适用于代码和非代码许可证。&lt;/p&gt;
+
+&lt;p&gt;SUSE 对全新软件项目的许可建议是特定于上下文的；默认为 Apache-2.0。对于面向公共版权的项目，推荐使用 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html&quot;&gt;GPL-2.0 或更高版本&lt;/a&gt;。对于文档和艺术作品，SUSE 推荐使用 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;SUSE 员工目前没有使用 AI 结对编程，并且在年度审查认为需要更改之前不会使用。 SUSE 的新员工将接受有关该政策的培训，该政策预计每年都会修订和更新。&lt;/p&gt;
+
+&lt;p&gt;为了了解 AI 聊天机器人如何看待这个话题，人们向 &lt;a href=&quot;https://chat.openai.com/&quot;&gt;ChatGPT&lt;/a&gt; 询问了有关开发者和公司需要了解关于 AI 聊天机器人和其他协议的开源政策方面的注意事项。ChatGPT 聊天机器人提供的答案似乎证实了 SUSE 在其&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;开源政策方面&lt;/a&gt;采取了很好的方法。聊天机器人给出了六个注意事项；即许可证兼容性、知识产权、源代码可用性、归属权、责任和数据隐私。未来的变化也列在另一个有关保持政策更新以保持符合新要求的相关问题中。&lt;/p&gt;
+
+&lt;p&gt;遵循政策的建议可以帮助避免像上图那样与 &lt;a href=&quot;https://chat.openai.com/&quot;&gt;ChatGPT&lt;/a&gt; 的对话，这与 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; 和 &lt;a href=&quot;https://openai.com/&quot;&gt;OpenAI&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/features/copilot&quot;&gt;copilot&lt;/a&gt; 项目有关。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/03/01/os-policy-up-spotlights-ai/&quot;&gt;Open Source Policy Update Spotlights AI Considerations&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/02/23/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86-Ruby-%E7%9A%84%E9%BB%98%E8%AE%A4%E7%89%88%E6%9C%AC.html</guid>
       <title>Tumbleweed 更新了 Ruby 的默认版本</title>
       <pubDate>Thu, 23 Feb 2023 23:30:00 +0000</pubDate>
@@ -298,41 +331,6 @@ Tumbleweed 的 RPM 版火狐解码需要来自 Packman 源的 FFMPEG-5 ，在遇
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/01/tw-snapshots-up-mesa-remmina-more/&quot;&gt;Tumbleweed Snapshots Update Mesa, Remmina, More&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/29/%E9%BB%91%E5%AE%A2%E5%91%A8%E7%8E%B0%E5%B7%B2%E5%BC%80%E5%A7%8B.html</guid>
-      <title>黑客周现已开始</title>
-      <pubDate>Sun, 29 Jan 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/01/29/%E9%BB%91%E5%AE%A2%E5%91%A8%E7%8E%B0%E5%B7%B2%E5%BC%80%E5%A7%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>欢乐的黑客周（Hack Week）开始了！ 本周对于 openSUSE 和开源贡献者来说是特别的，因为它从第 22 届黑客周开始，以全球最大的开源社区活动 FOSDEM 回归结束。 黑客周一直持续到 2 月 3 日，为所有开源贡献者提供了一个试验、创新、协作和共同学习的游乐场。 个人和公司可以加入 SUSE 的 openSUSE 贡献者和开发团队，在 hackweek.opensuse.org 上找到整整一周的项目合作。 任何人都可以创建、加入或查看网站上列出的项目。 今年的活动中列出的项目之一是调查桌面环境的 distrobox 支持的当前状态。该项目看起来是以 GNOME 为例，检查桌面环境可能的作用，与最新的 ALP 镜像的 gdm-container 集成。有人列出的另一个项目是探索 Steam Deck OS 的不可变方面，以获得一些灵感来帮助 ALP 开发。 一些项目专注于 Rancher 和 Kubernetes。一个项目正关注 K3s 控制面板作为一种服务的可行性，而另一个项目则希望开发新功能以从 KDM JSON 数据生成升级镜像列表。 黑客周的项目不仅仅是寻找解决方案和推进新技术。其中一个比较受欢迎的项目旨在移植一些 90 年代的经典游戏，例如《Master of...</description>
-      <content:encoded>&lt;p&gt;欢乐的&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;黑客周&lt;/a&gt;（Hack Week）开始了！&lt;/p&gt;
-
-&lt;p&gt;本周对于 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 和开源贡献者来说是特别的，因为它从第 22 届&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;黑客周&lt;/a&gt;开始，以全球最大的开源社区活动 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 回归结束。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;黑客周&lt;/a&gt;一直持续到 2 月 3 日，为所有开源贡献者提供了一个试验、创新、协作和共同学习的游乐场。&lt;/p&gt;
-
-&lt;p&gt;个人和公司可以加入 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 的 openSUSE 贡献者和开发团队，在 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;hackweek.opensuse.org&lt;/a&gt; 上找到整整一周的项目合作。&lt;/p&gt;
-
-&lt;p&gt;任何人都可以创建、加入或查看&lt;a href=&quot;https://hackweek.opensuse.org/22/projects&quot;&gt;网站上列出的项目&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;今年的活动中列出的&lt;a href=&quot;https://hackweek.opensuse.org/22/projects/look-into-distrobox-as-a-launcher-of-desktop-and-applications-on-alp&quot;&gt;项目之一&lt;/a&gt;是调查桌面环境的 &lt;a href=&quot;https://distrobox.privatedns.org/&quot;&gt;distrobox&lt;/a&gt; 支持的当前状态。该项目看起来是以 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 为例，检查桌面环境可能的作用，与最新的 &lt;a href=&quot;https://news.opensuse.org/2022/12/22/second-prototype-advances-alp/&quot;&gt;ALP 镜像&lt;/a&gt;的 &lt;a href=&quot;https://github.com/fcrozat/gdm-%20container&quot;&gt;gdm-container&lt;/a&gt; 集成。有人列出的&lt;a href=&quot;https://hackweek.opensuse.org/22/projects/explore-a-popular-desktop-distro-steam-deck-os&quot;&gt;另一个项目&lt;/a&gt;是探索 &lt;a href=&quot;https://www.steamdeck.com/en/software&quot;&gt;Steam Deck OS&lt;/a&gt; 的不可变方面，以获得一些灵感来帮助 &lt;a href=&quot;https://news.opensuse.org/2022/12/22/second-prototype-advances-alp/&quot;&gt;ALP&lt;/a&gt; 开发。&lt;/p&gt;
-
-&lt;p&gt;一些项目专注于 &lt;a href=&quot;https://www.rancher.com/&quot;&gt;Rancher&lt;/a&gt; 和 &lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;。一个项目正关注 &lt;a href=&quot;https://hackweek.opensuse.org/22/projects/k3s-control-planes-as-a-service&quot;&gt;K3s 控制面板作为一种服务的可行性&lt;/a&gt;，而另一个项目则希望开发新功能以&lt;a href=&quot;https://hackweek.opensuse.org/22/projects/image-tools-simple-tool-for-mirror-slash-save-slash-load-container-images-and-kdm-and-chart-image-list-generator&quot;&gt;从 KDM JSON 数据生成升级镜像列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;黑客周的项目不仅仅是寻找解决方案和推进新技术。其中一个比较受欢迎的项目旨在&lt;a href=&quot;https://hackweek.opensuse.org/22/projects/port-some-classic-game-to-linux&quot;&gt;移植一些 90 年代的经典游戏&lt;/a&gt;，例如《&lt;a href=&quot;https://en.wikipedia.org/wiki/Master_of_Orion_II:_Battle_at_Antares&quot;&gt;Master of Orion II：Battle at Antares&lt;/a&gt;》。&lt;/p&gt;
-
-&lt;p&gt;黑客周的&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;网站&lt;/a&gt;上已有 100 多个项目。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励公司、爱好者和技术专家参与活动。参加&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;黑客周&lt;/a&gt;不需要任何隶属关系。你只需要加入并享受很多乐趣！&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;黑客周&lt;/a&gt;自 2007 年以来一直在举办，参与其中的人员已经制作了几个有用的开源项目，如 &lt;a href=&quot;https://weblate.org/en/&quot;&gt;Weblate&lt;/a&gt;、&lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt; 和 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;openSUSE MicroOS&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/01/30/hw-fun-begins/&quot;&gt;Hack Week Fun Begins&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
