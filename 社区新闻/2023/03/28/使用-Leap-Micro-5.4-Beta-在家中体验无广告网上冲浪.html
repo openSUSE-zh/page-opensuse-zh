@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="我们的不可变主机操作系统 Leap Micro 5.4 Beta 版现已推出。该更新使 SELinux 默认进入强制模式并进行了调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机操作系统。 Leap Micro 是 SUSE 的 SLE Micro 的 openSUSE ...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪">
+  <meta property="og:description"
+    content="我们的不可变主机操作系统 Leap Micro 5.4 Beta 版现已推出。该更新使 SELinux 默认进入强制模式并进行了调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机操作系统。 Leap Micro 是 SUSE 的 SLE Micro 的 openSUSE ...">
+  <meta property=" og:url" content="/_posts/2023-03-28-%E4%BD%BF%E7%94%A8%20Leap%20Micro%205.4%20Beta%20%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Hanjingxue Boling">
+  <meta property="og:article:published_time" content="2023-03-28T23:30:00+00:00">
+  
+  <meta property="og:article:tag" content="Leap">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2023-03/leapmicro54-beta-pi-hole-deploy.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪">
+  
+  <meta name="twitter:description"
+    content="我们的不可变主机操作系统 Leap Micro 5.4 Beta 版现已推出。该更新使 SELinux 默认进入强制模式并进行了调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机操作系统。 Leap Micro 是 SUSE 的 SLE Micro 的 openSUSE ...">
+  
+  <meta name="twitter:url" content="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2023-03/leapmicro54-beta-pi-hole-deploy.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023">
+			2023
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/03">
+			
+			三月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/03/28">
+			28
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪</h1>
+		<p class="text-center text-muted">
+			2023-03-28
+			|
+			Hanjingxue Boling
+			|
+			CC-BY-SA-3.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2023-03/leapmicro54-beta-pi-hole-deploy.png"
+			alt="使用 Leap Micro 5.4 Beta 在家中体验无广告网上冲浪">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>我们的不可变主机操作系统 <a href="https://get.opensuse.org/leapmicro/5.4/">Leap Micro 5.4</a> Beta 版现已推出。该更新使 <a href="https://github.com/SELinuxProject">SELinux</a> 默认进入强制模式并进行了调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机操作系统。</p>
+
+<p>Leap Micro 是 SUSE 的 <a href="https://www.suse.com/products/micro">SLE Micro</a> 的 openSUSE 等价物。</p>
+
+<p>在本文中，我想向您展示如何实际使用它来增强您在家中的日常无广告体验。我能够在 15 分钟内在虚拟机中复制整个设置，包括下载镜像。</p>
+
+<p>我对 Leap Micro 的个人用例是尽可能多的无广告浏览、本地服务的 DNS 条目以及一个 <a href="https://nextcloud.com/">Nextcloud</a> 实例，作为在我妻子的 iPhone、儿童平板电脑和我的 Android 手机之间共享图片和视频的桥梁。</p>
+
+<p>我的私人家庭服务器配置是 Raspberry Pi 4 8GB 和一块通过 USB 3.0 转 SATA III 连接至 Raspberry 的 1TB SDD。我通过 TP Link Deco X20 接入网络。我还使用 Deco 的端口映射和静态公网 IP 向公网公开服务。</p>
+
+<p>RPI 有一个基于其 MAC 地址的保留地址，以保持简单配置。如果你有一个动态公网 IP，你可以考虑一些动态 DNS（DDNS）解决方案。</p>
+
+<p>我个人很高兴在装载有 Leap Micro 5.3 以及 <a href="https://pi-hole.net/">Pi-hole</a> 的 Raspberry Pi 4 8GB 上使用所描述的设置，以实现无广告浏览和将我的 NextCloud 实例映射到本地地址。</p>
+
+<p>如果您只想测试一下，虚拟机也可以运行此方案；只需确保虚拟机的虚拟网络接口处于桥接模式或使用传入连接转发。您只需单击两次，即可使用 <a href="https://networkmanager.dev/">NetworkManager</a> 轻松完成设置。 否则，您将无法访问虚拟机服务的 Web 管理，并且这篇文章变得毫无意义。</p>
+
+<p>我在使用 Leap Micro 时得到的好处是机器不需要我的任何关注。该系统有自动更新和自我修复功能。电脑会在（默认设置）定义的维护窗口期内自动重新启动到更新的快照，如果有需要我注意的问题，那么我只需通过 Web 浏览器中的 <a href="https://cockpit-project.org/">Cockpit</a> 界面解决它。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-cockpit-updates.png" alt="" /></p>
+
+<p>Leap Micro 是一个具有只读根目录的不可变操作系统。openSUSE 通过 btrfs 快照和工具解决了这个问题，这些工具在系统识别到引导至新快照失败时，自动回滚并引导到以前的快照。</p>
+
+<h2 id="获取-leap-micro-54-beta">获取 Leap Micro 5.4 Beta</h2>
+
+<p>什么是自安装镜像（self-install image）？</p>
+
+<p>自安装镜像本质上是一个将 Leap Micro 的预配置镜像写入磁盘并将系统分区扩大到磁盘大小的可引导镜像。因此，在虚拟机中的安装耗时不到两分钟（虚拟硬盘也是一个文件，我将其存放在一块 pcie 4.0 M.2 SSD 上）。</p>
+
+<p>请从 <a href="https://get.opensuse.org/leapmicro/5.4/">https://get.opensuse.org/leapmicro/5.4/</a> 下载自安装镜像；请确保为 <a href="https://www.arm.com/">arm</a> 设备选择正确的 <a href="https://en.wikipedia.org/wiki/X86-64">x86-64</a> 或 <a href="https://en.wikipedia.org/wiki/AArch64">AArch64</a> 架构。因为本文使用虚拟机进行演示，我们将使用 x86-64 自安装镜像。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-selfinstall-download.png" alt="" /></p>
+
+<p>如果您使用的是物理设备，请使用 zypper 安装镜像烧录工具。其他发行版的用户可以安装（例如来自 Flathub 的）Fedora Media Writer。请使用您选择的工具将下载的镜像写入 USB 闪存驱动器。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>zypper <span class="k">in </span>imagewriter <span class="c"># 对于openSUSE 用户</span>
+<span class="nv">$ </span>flatpak <span class="nt">--user</span> <span class="nb">install </span>org.fedoraproject.MediaWriter <span class="c">#对于其他发行版用户 </span>
+</code></pre></div></div>
+
+<p>如果您在 Windows 上阅读本文，请按照<a href="https://zh.opensuse.org/SDB:%E5%88%B6%E4%BD%9C%E5%AE%89%E8%A3%85_U_%E7%9B%98">此说明</a>操作。</p>
+
+<p>注意：对于未启用 USB 引导的情况下使用 Raspberry Pi 的用户：请直接下载预配置镜像并通过以下命令将其写入 SD 卡。其余步骤相同。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xzcat <span class="o">[</span>image].raw.xz | <span class="nb">dd </span><span class="nv">bs</span><span class="o">=</span>4M <span class="nv">of</span><span class="o">=</span>/dev/sdX <span class="nv">iflag</span><span class="o">=</span>fullblock <span class="nv">oflag</span><span class="o">=</span>direct <span class="nv">status</span><span class="o">=</span>progress<span class="p">;</span> <span class="nb">sync</span>
+</code></pre></div></div>
+
+<h2 id="在安装过程中需要避免用户交互吗">在安装过程中需要避免用户交互吗？</h2>
+
+<p>希望在安装过程中避免用户交互的用户（例如，没有将外围控制设备连接到机器）可以使用 <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> 或 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 为系统进行初始设置。对于该用例，请使用预配置镜像写入您自己的磁盘驱动器。自安装媒介需要用户确认覆盖磁盘。请查看<a href="https://www.youtube.com/watch?v=ft8UVx9elKc">此视频教程</a>以获取更多信息。</p>
+
+<h2 id="将自安装镜像写入-usb-驱动器">将自安装镜像写入 USB 驱动器</h2>
+
+<p>如果您使用的是虚拟机，则可以跳过此步骤。如果您在使用一个不可变系统并不希望重启设备，请确保有一个用于将镜像写入驱动器的工具，例如我们的<a href="https://software.opensuse.org/package/imagewriter">镜像烧录工具</a>或 flathub 上的 Fedora <a href="https://flathub.org/apps/details/org.fedoraproject.MediaWriter">Media Writer</a>。</p>
+
+<h2 id="启动镜像">启动镜像</h2>
+
+<p>出于演示目的，我将使用在 <a href="https://wiki.gnome.org/Apps/Boxes">GNOME Boxes</a> 中运行的 Leap Micro 5.4 Beta x86-64 自安装镜像。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-installer-boot.png" alt="" /></p>
+
+<p>自安装镜像非常简单。如上文，它本质上是一个将 Leap Micro 的预配置映像写入磁盘并将系统分区扩大到磁盘大小的可启动镜像。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-installer-disks.png" alt="" /></p>
+
+<p>大约一分钟后，我们已经启动到已部署的 Leap Micro 5.4 Beta。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-boot.png" alt="" /></p>
+
+<p>系统需要几秒钟启动，我们正在进入一个（从我们的最小图像（以前称为 JeOS）中借鉴而来的）简单的首次启动向导。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-firstboot.png" alt="" /></p>
+
+<p>首次启动向导让您选择时区、语言和 root 密码，然后您的 Leap Micro 5.4 就可以使用了（您可以通过 Ignition/Combustion 实现自动化）。完成初始配置（大约两分钟）后，我们就可以启动服务了。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-root-console.png" alt="" /></p>
+
+<h2 id="进入-cockpit">进入 cockpit</h2>
+
+<p>今日消息 (MOTD) 建议您启用 cockpit 网络。您可以通过 <code class="language-plaintext highlighter-rouge">此服务器的 IP 地址:9090</code> 访问系统，并以 root 身份登录到 cockpit。</p>
+
+<p>注意：对于家庭用途，我强烈建议不要将此端口公开至公网，并仅将其保留在本地网络中用于管理（至少我是这样设置的）。您可以完全跳过 SSH，因为 cockpit 允许您通过网络浏览器访问终端。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>systemctl <span class="nb">enable</span> <span class="nt">--now</span> cockpit.socket
+</code></pre></div></div>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-cockpit.png" alt="" /></p>
+
+<h2 id="podman-vs-docker">Podman vs Docker</h2>
+
+<p>在本教程中，我们将 Pi-hole 作为容器化工作负载运行。Leap Micro 默认使用 <a href="https://podman.io/">podman</a>。Cockpit 有一个很棒的 podman 插件，因此您可以直接从 cockpit 拉取并运行容器。</p>
+
+<p>除非建议的部署非常以 Docker 为中心，否则您应该能使用 podman-docker 将 docker 容器逐个替换为 podman 容器，同时负载不受影响。</p>
+
+<p>Pi-hole 在其示例中使用了 Docker；我们可以借此机会向您展示如何在 <code class="language-plaintext highlighter-rouge">transactional-update</code> 系统上安装附加软件。</p>
+
+<p>您可以使用 <code class="language-plaintext highlighter-rouge">transactional-update pkg install docker</code> 或最好使用 transactional-update shell；它会 <code class="language-plaintext highlighter-rouge">chroot</code> 至新创建的快照并为您提供一个 shell 会话。您可以在那里继续工作，就像在传统系统中一样。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># sudo transactional-update shell</span>
+<span class="c"># zypper install docker</span>
+<span class="c"># systemctl enable docker</span>
+<span class="c"># exit</span>
+<span class="c"># reboot</span>
+</code></pre></div></div>
+
+<p>要退出 <code class="language-plaintext highlighter-rouge">transactional-update</code> shell，请键入 <code class="language-plaintext highlighter-rouge">exit</code> 然后 <code class="language-plaintext highlighter-rouge">reboot</code>。所有更改都已在当前环境的 btrfs 快照中完成，因此我们必须重新启动系统才能看到更改。幸运的是，原始的 Leap Micro 的重启时间不到 10 秒。</p>
+
+<p>注意：在不重启的情况下安装附加工具的推荐方法是使用 <a href="https://en.opensuse.org/Distrobox">Distrobox</a>。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-tu-install-docker.png" alt="" /></p>
+
+<h2 id="部署-pi-hole">部署 Pi-hole</h2>
+
+<p>我们将按照 <a href="https://github.com/pi-hole/docker-pi-hole#readme">https://github.com/pi-hole/docker-pi-hole#readme</a> 中的说明进行操作。这部分花了我两分钟的时间。</p>
+
+<p>这本质上是从在后台运行 Pi-hole 容器的自述文件中复制粘贴的。请更改密码并设置您的时区。请特别注意 host-to-container 的 <code class="language-plaintext highlighter-rouge">-p HOST_PORT:CONTAINER_PORT</code> 端口映射，尤其是在运行多个工作负载时。</p>
+
+<p><code class="language-plaintext highlighter-rouge">-p 8888:80</code> 表示我们正在将主机的端口 8888 映射到容器中的端口 80（Web 管理界面）。端口 53（DNS）映射到容器中的同一端口。</p>
+
+<p>您可以将其存储在包装器中，例如 <code class="language-plaintext highlighter-rouge">/root/pihole_deploy.sh</code></p>
+
+<h2 id="docker-卷">Docker 卷</h2>
+
+<p>在此示例中，我们将本地 <code class="language-plaintext highlighter-rouge">/root/etc-pihole</code> 和 <code class="language-plaintext highlighter-rouge">/root/etc-dnsmaq.d</code> 目录作为 Docker 卷传递给容器，它们将分别作为 <code class="language-plaintext highlighter-rouge">/etc/pihole</code> 和 <code class="language-plaintext highlighter-rouge">/etc/dnsmasq.d</code> 存在：</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># mkdir -p /root/etc-pihole /root/etc-dnsmasq.d</span>
+
+<span class="c"># docker run -d \</span>
+
+<span class="nt">--name</span> pihole <span class="se">\</span>
+
+<span class="nt">-p</span> 53:53/tcp <span class="nt">-p</span> 53:53/udp <span class="se">\</span>
+
+<span class="nt">-p</span> 8888:80 <span class="se">\</span>
+
+<span class="nt">-e</span> <span class="nv">TZ</span><span class="o">=</span><span class="s2">"Europe/Prague"</span> <span class="se">\</span>
+
+<span class="nt">-e</span> <span class="nv">WEBPASSWORD</span><span class="o">=</span><span class="s2">"CHANGEME"</span> <span class="se">\</span>
+
+<span class="nt">-v</span> <span class="s2">"/root/etc-pihole:/etc/pihole"</span> <span class="se">\</span>
+
+<span class="nt">-v</span> <span class="s2">"/root/etc-dnsmasq.d:/etc/dnsmasq.d"</span> <span class="se">\</span>
+
+<span class="nt">--dns</span><span class="o">=</span>127.0.0.1 <span class="nt">--dns</span><span class="o">=</span>1.1.1.1 <span class="se">\</span>
+
+<span class="nt">--restart</span><span class="o">=</span>unless-stopped <span class="se">\</span>
+
+<span class="nt">--hostname</span> pi.hole <span class="se">\</span>
+
+<span class="nt">-e</span> <span class="nv">VIRTUAL_HOST</span><span class="o">=</span><span class="s2">"pi.hole"</span> <span class="se">\</span>
+
+<span class="nt">-e</span> <span class="nv">PROXY_LOCATION</span><span class="o">=</span><span class="s2">"pi.hole"</span> <span class="se">\</span>
+
+<span class="nt">-e</span> <span class="nv">FTLCONF_LOCAL_IPV4</span><span class="o">=</span><span class="s2">"127.0.0.1"</span> <span class="se">\</span>
+
+pihole/pihole:latest
+</code></pre></div></div>
+
+<p>请等待状态变为健康。您可以使用以下命令主动检查状态。</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># docker inspect -f "" pihole</span>
+</code></pre></div></div>
+
+<p>如果你搞错了配置，请运行：</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># docker rm -f pihole # ^ re-do the above</span>
+</code></pre></div></div>
+
+<h2 id="进入-pi-hole-网页管理">进入 Pi-hole 网页管理</h2>
+
+<p>此时容器化的 Pi-hole 已经被 daemon 化了，您可以通过 <code class="language-plaintext highlighter-rouge">此服务器的 IP 地址:8888/admin</code> 访问接口。</p>
+
+<p>有一个默认列表；但是，我觉得它不足以让我获得无广告的 YouTube 体验。您可以使用内置工具查找更多广告列表。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-beta-pihole-adlist-lookup.png" alt="" /></p>
+
+<h2 id="使用外部域名访问具有本地-ip-的服务">使用外部域名访问具有本地 IP 的服务</h2>
+
+<p>这在我们后面的 Nextcloud 示例中特别有用。在这里，我使用本地 IP 为我的公共域创建本地 DNS 记录，因此我可以使用外部域名访问我的 NextCloud 实例，但与本地 IP 交互。</p>
+
+<p><img src="/assets/posts/2023-03/leapmicro54-pihole-local-dns-entry.png" alt="" /></p>
+
+<h2 id="使用带有广告列表的新家庭-dns-服务器">使用带有广告列表的新家庭 DNS 服务器</h2>
+
+<p>最后一步是将路由器的 DHCP 服务器配置为使用新的 pi-hole 实例作为 DNS 服务器。 请仔细检查您的终端设备是否将其用作 DNS 服务器。否则，它将没有效果。在示例案例中，我在 TP-Link Deco 的 DHCP 设置中手动将 DNS 条目设置为（在我的示例中为）192.168.68.69。</p>
+
+<p>提示：我发现这个功能是为了在我试图调试访问某些网站的问题时，暂时禁止阻断。</p>
+
+<p>至此，我们完成了。祝你玩得开心！</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2023/03/28/leapmicro-54-beta-hands-on/">Hands-on, Ad-free browsing at your home with Leap Micro 5.4 Beta</a>，作者：Lubos Kocman</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/社区新闻">
+				社区新闻
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/leap">
+				Leap
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html&url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html&amp;title=%E4%BD%BF%E7%94%A8%20Leap%20Micro%205.4%20Beta%20%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=%E4%BD%BF%E7%94%A8%20Leap%20Micro%205.4%20Beta%20%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA&amp;body=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
