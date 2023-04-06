@@ -7,12 +7,12 @@
 
   <title>
     
-    GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新 -
+    Firefox，systemd 在 Tumbleweed 中更新 -
     
     openSUSE 中文社区
   </title>
   <meta name="description"
-    content="openSUSE Tumbleweed 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。 Factory 邮件列表在过去一周中新增了 200 多条有关更改 Tumbleweed 微架构级别的消息，与此同时，Tumbleweed 保持滚动，不断发布 vim、mutt 等软件包的更新。 快照 2...">
+    content="openSUSE Tumbleweed 持续滚动，不断释出快照。 本周的几个中型快照为 Tumbleweed 用户提供了一系列系统组件更新。 快照 20230404 更新了 systemd 253.2；此次更新将文件系统检查器 systemd-fsck 逻辑项目移至 udev 用户空间子包。规范文件还添加了 co...">
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="/assets/css/chameleon.css">
@@ -39,14 +39,14 @@
 
   <!-- open graph meta -->
   <meta property="og:site_name" content="openSUSE 中文社区">
-  <meta property="og:title" content="GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新">
+  <meta property="og:title" content="Firefox，systemd 在 Tumbleweed 中更新">
   <meta property="og:description"
-    content="openSUSE Tumbleweed 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。 Factory 邮件列表在过去一周中新增了 200 多条有关更改 Tumbleweed 微架构级别的消息，与此同时，Tumbleweed 保持滚动，不断发布 vim、mutt 等软件包的更新。 快照 2...">
-  <meta property=" og:url" content="/_posts/2022-12-08-GLib%E3%80%81GTK%20%E5%92%8C%20NetworkManager%20%E5%9C%A8%20Tumbleweed%C2%A0%E4%B8%AD%E6%9B%B4%E6%96%B0.md">
+    content="openSUSE Tumbleweed 持续滚动，不断释出快照。 本周的几个中型快照为 Tumbleweed 用户提供了一系列系统组件更新。 快照 20230404 更新了 systemd 253.2；此次更新将文件系统检查器 systemd-fsck 逻辑项目移至 udev 用户空间子包。规范文件还添加了 co...">
+  <meta property=" og:url" content="/_posts/2023-04-06-Firefox%EF%BC%8Csystemd%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0.md">
   
   <meta property="og:type" content="article">
   <meta property="og:article:author" content="Hanjingxue Boling">
-  <meta property="og:article:published_time" content="2022-12-07T23:30:00+00:00">
+  <meta property="og:article:published_time" content="2023-04-05T23:30:00+00:00">
   
   <meta property="og:article:tag" content="Tumbleweed">
   
@@ -54,19 +54,19 @@
   
   <meta property="og:article:tag" content="官方新闻">
     
-  <meta property="og:image" content="/assets/posts/2022-12/gtk.png">
+  <meta property="og:image" content="/assets/posts/misc/systemd-logo.png">
   
 
   <!-- twitter meta -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新">
+  <meta name="twitter:title" content="Firefox，systemd 在 Tumbleweed 中更新">
   
   <meta name="twitter:description"
-    content="openSUSE Tumbleweed 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。 Factory 邮件列表在过去一周中新增了 200 多条有关更改 Tumbleweed 微架构级别的消息，与此同时，Tumbleweed 保持滚动，不断发布 vim、mutt 等软件包的更新。 快照 2...">
+    content="openSUSE Tumbleweed 持续滚动，不断释出快照。 本周的几个中型快照为 Tumbleweed 用户提供了一系列系统组件更新。 快照 20230404 更新了 systemd 253.2；此次更新将文件系统检查器 systemd-fsck 逻辑项目移至 udev 用户空间子包。规范文件还添加了 co...">
   
-  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
   
-  <meta name="twitter:image" content="/assets/posts/2022-12/gtk.png">
+  <meta name="twitter:image" content="/assets/posts/misc/systemd-logo.png">
   
 
   <!-- javascript -->
@@ -80,7 +80,7 @@
   <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
   
 
-  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
 
   <!-- Extra Head Content -->
 
@@ -237,30 +237,30 @@
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2022">
-			2022
+		<a href="/2023">
+			2023
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2022/12">
+		<a href="/2023/04">
 			
-			十二月
+			四月
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2022/12/07">
-			07
+		<a href="/2023/04/05">
+			05
 		</a>
 	</li>
 	<li class="breadcrumb-item active">
-		GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新
+		Firefox，systemd 在 Tumbleweed 中更新
 	</li>
 </ol>
 <div class="container my-5 article">
 	<header class="article-header col-md-9 col-12 mx-auto py-3">
-		<h1 class="decorated-title">GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新</h1>
+		<h1 class="decorated-title">Firefox，systemd 在 Tumbleweed 中更新</h1>
 		<p class="text-center text-muted">
-			2022-12-07
+			2023-04-05
 			|
 			Hanjingxue Boling
 			|
@@ -268,30 +268,28 @@
 		</p>
 		
 		<img class="rounded mx-auto d-block h-carousel"
-			src="/assets/posts/2022-12/gtk.png"
-			alt="GLib、GTK 和 NetworkManager 在 Tumbleweed 中更新">
+			src="/assets/posts/misc/systemd-logo.png"
+			alt="Firefox，systemd 在 Tumbleweed 中更新">
 		
 	</header>
 	<div class="col-md-7 col-12 mx-auto text-justify">
-		<p><a href="https://get.opensuse.org/">openSUSE</a> <a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 在 12 月的前六天为用户带来了六个快照，并为开发人员带来了大量对话。</p>
+		<p>openSUSE Tumbleweed 持续滚动，不断释出快照。</p>
 
-<p>Factory 邮件列表在过去一周中新增了 200 多条有关更改 <a href="https://news.opensuse.org/2022/11/28/tw-to-roll-out-mitigation-plan-advance-microarchitecture/">Tumbleweed 微架构级别</a>的消息，与此同时，<a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 保持滚动，不断发布 <a href="https://www.vim.org/">vim</a>、<a href="http://www.mutt.org/">mutt</a> 等软件包的更新。</p>
+<p>本周的几个中型快照为 Tumbleweed 用户提供了一系列系统组件更新。</p>
 
-<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EAY3RYGXYUJJJS3HAOS4DVDXKLP32VFS/">20221206</a> 中只有少数软件包获得更新。<a href="https://urlscan.io/">urlscan</a> 0.9.10 就是其中要更新的软件包之一，它将 <code class="language-plaintext highlighter-rouge">*</code> 添加为允许的 URL 特殊字符。<a href="https://gitlab.freedesktop.org/xorg/lib/libx11/-/issues/170">由于 Gentoo 和 openSUSE 都遇到了挂起/崩溃</a>，因此快照将 <a href="https://gitlab.freedesktop.org/xorg/lib/libx11">libX11</a> 还原为 1.8.1 版本。用于处理音频文件，为 JSON 和 YAML 插件提供了曲目和光盘编号支持的 <a href="https://www.python.org/">Python</a> 工具，<a href="https://eyed3.readthedocs.io/">eyeD3</a>，有一个很酷的名字和 LOGO；此次更新将 eyeD3 更新至 0.9.7 版本，但删除了对 Python 3.6 的支持。<a href="https://pidgin.im/">Pidgin</a> 聊天插件 <a href="https://github.com/EionRobb/purple-mattermost">purple-mattermost</a> 更新到 2.1 版本，将在第一次加入频道时获取最近 60 条消息。自解释包 <a href="https://github.com/openSUSE/perl-bootloader">perl-Bootloader</a> 0.940 添加了一些对 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd-boot</a> 的基本支持。</p>
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Z4N3K3ECY2AACZB4OQIDZYKP2DDW5NKR/">20230404</a> 更新了 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 253.2；此次更新将文件系统检查器 <a href="https://www.freedesktop.org/software/systemd/man/systemd-fsck@.service.html">systemd-fsck</a> 逻辑项目移至 udev 用户空间子包。<a href="https://en.opensuse.org/openSUSE:Specfile_guidelines">规范文件</a>还添加了 <code class="language-plaintext highlighter-rouge">coredump</code> 文件。<a href="https://www.mozilla.org/">Mozilla Firefox</a> 处理了 13 个 <a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">CVE</a>。其中之一是 <a href="https://www.suse.com/security/cve/CVE-2023-28176.html">CVE-2023-28176</a>，它的严重性很高，被描述为<a href="https://en.wikipedia.org/wiki/Memory_safety">内存安全漏洞</a>。Web 服务发现主机守护程序 <a href="https://github.com/christgau/wsdd">wsdd</a> 已更新至 0.7.1 版本。wsdd 修复了由于 <a href="https://www.python.org/">Python</a> 3.10 <a href="https://en.wikipedia.org/wiki/API">API</a> 接口变更而导致的回归，并且它还强调了强制将这个 <a href="https://www.python.org/">Python</a> 版本用于 <a href="https://get.opensuse.org/leap/15.4/">openSUSE Leap</a>。硬件标识和配置数据包 <a href="https://github.com/vcrhonek/hwdata">hwdata</a> 0.369 更新了 PCI、USB 和供应商标识。<a href="https://github.com/yast/yast-storage-ng">yast2-storage-ng</a> 4.6.4 在克隆时导出精简 <a href="https://en.wikipedia.org/wiki/Logical_volume_management">LVM</a> 卷。快照中还有一些 <a href="https://yast.opensuse.org/">YaST</a> 包有更新。</p>
 
-<p>在快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YVTK3E74IEQB5LNSHKMNKWFZUDAI7JIF/">20221205</a> 中，PDF 渲染包 <a href="https://poppler.freedesktop.org/">poppler</a> 更新到 22.12.0 版本，似乎解决了寻找字体的一些顽固问题。电子邮件客户端 <a href="http://www.mutt.org/">mutt</a> 更新到 2.2.9 版本并将 <a href="https://gnupg.org/software/gpgme/index.html">gpgme</a> autoconf 文件更新到最新版本。它还修复了一个不可打印的键名，并向 0 参数函数定义添加了显式无效。用于检测程序是否在虚拟机中运行的 <a href="https://people.redhat.com/~rjones/virt-what/">virt-what</a> 更新到 1.25 版本；该软件包现在将 <a href="https://aws.amazon.com/">AWS</a> <a href="https://www.arm.com/">arm</a> 虚拟实例检测为 <a href="https://www.linux-kvm.org/page/Main_Page">KVM</a>，并增加了对 <a href="https://www.alibabacloud.com/product/alibaba-cloud-linux-2">Alibaba Cloud Linux</a> 和运行在 <a href="https://www.arm.com/">arm</a> 设备上的 <a href="https://www.vmware.com/products/esxi-and-esx.html">VMware ESXi</a> 的支持。本次快照还更新了包括 <a href="https://pagure.io/newt">newt</a> 0.52.23 和 <a href="https://github.com/qpdf/qpdf">qpdf</a> 11.2.0 在内的一些其他软件包。</p>
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IWEBYRKUNHMTGTF4KIV7IFND26VGN7JF/">20230403</a> 仅更新了几个软件包。<a href="https://github.com/openSUSE/aaa_base">aaa_base</a> 重新添加了一个有条件的 <a href="https://www.gnu.org/software/libc/">glibc</a> 依赖项并使其成为固定依赖。<a href="https://sites.google.com/site/fullycapable/Home">libcap</a> 2.68 更新强制将一些内部函数隐藏在库之外。该软件包还对文档和<a href="https://manpages.opensuse.org/">联机帮助页</a>分别进行了一些清理并添加支持。<a href="https://en.opensuse.org/openSUSE:Systemd_packaging_guidelines">systemd-rpm-macros</a> 20 的主要版本更新弃用了一些支持选项，并确保在 <code class="language-plaintext highlighter-rouge">/etc/sysconfig/service</code> 不存在时重新启动服务。</p>
 
-<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/HCDFGDG6BTC4LYUEZ6677T2JQRNIXGGF/">20221204</a> 发布了 <a href="https://networkmanager.dev/">NetworkManager</a> 1.40.6。它恢复并设置了一个空端口配置。该软件包还进行了一些各种文档修复，并为客户端库提供了一个非导出的 <a href="https://en.wikipedia.org/wiki/Application_binary_interface">ABI</a> 接口。底层核心库 <a href="https://wiki.gnome.org/Projects/GLib">glib2</a> 2.74.3 的更新修复了几个回归，并修复了对文本格式变体的 <a href="https://www.freedesktop.org/software/gstreamer-sdk/data/docs/latest/glib/glib-GVariant.html">GVariant</a> 类型深度检查。因为 <a href="https://libsoup.org/gio/GTask.html">GTask 标签</a>提供了错误返回路径，glib2 还切换到更严格的 <a href="https://en.wikipedia.org/wiki/API">API</a> 接口。快照还更新了相当多的 <a href="https://rubygems.org/">RubyGems</a> <a href="https://github.com/rspec">rspec</a> 包。除了升级到 3.12.0 版本的许多内容之外，<a href="https://github.com/rspec/rspec-mocks/blob/main/Changelog.md">rubygem-rspec-mocks</a> 包还改进了在根据哈希值比较关键字参数时的差异输出。<a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.5.54 通过使用 <a href="https://weblate.org/">Weblate</a> 更新了马其顿语翻译；数个 <a href="https://www.gnome.org/">GNOME</a> 43 软件包在快照中更新，例如 <a href="https://gitlab.gnome.org/GNOME/gnome-software">gnome-software</a> 43.2，它修复了在 <a href="https://rpm-ostree.readthedocs.io/">rpm-ostree</a> 下搜索提供某些功能的应用程序。 快照还更新了其他几个包。</p>
+<p><a href="https://en.wikipedia.org/wiki/NVM_Express">NVMe</a> 存储的 CLI 实用程序 nvme-cli 已在快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GUZLJDNKFAFRIXFMOEYHIT54ZZ2WTURV/">20230402</a> 中更新。<a href="https://github.com/linux-nvme/nvme-cli">nvme-cli</a> 2.4 版本添加了一个智能云日志插件，并启用了一些选项，包括 <code class="language-plaintext highlighter-rouge">--tls_key</code> 和 <code class="language-plaintext highlighter-rouge">--tls</code>。另一个在快照中更新的，与 NVMe 相关的是 <a href="https://github.com/linux-nvme/libnvme">libnvme</a> 1.4，它添加了直接媒体接口（DMI）sysinfo 的定义，并从 DMI 中过滤掉无效的 <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a>。<a href="https://www.suse.com/security/cve/CVE-2023-1393.html">CVE-2023-1393</a> 已通过 <a href="https://www.linuxfromscratch.org/blfs/view/svn/x/xwayland.html">xwayland 23.1.1</a> 和 <a href="https://www.x.org/wiki/">xorg-x11-server 21.1.8</a> 修复；该漏洞可能会用于本地提权。<a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.5.92 和 <a href="https://github.com/yast/yast-storage-ng">yast2-storage-ng</a> 4.6.3 更新了巴西葡萄牙语翻译。</p>
 
-<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K6F5H6EZ6KZGNW6ENLZZITSJOUIUZODY/">20221203</a> 更新了 <a href="https://github.com/yast/yast-autoinstallation">autoyast2</a> 4.5.11，避免了当 autoinst.ycp 文件为空或丢失时可能发生的崩溃。对于不清楚的读者，YCP 表示 YaST 控制编程语言（YaST Control Programming language），它是通过 <a href="https://github.com/yast/ycp-killer">ycp-killer</a> 和其他库和工具移植到 Ruby 的。<a href="https://github.com/xianyi/OpenBLAS">openblas_pthreads</a> 0.3.21 的更新有一些 <a href="https://www.intel.com/">Intel</a> <a href="https://en.wikichip.org/wiki/intel/cores/skylake_x">SkyLakeX</a> 编译修复，并且该软件包修复了 <a href="https://en.wikipedia.org/wiki/Power10">Power10</a> 的性能回归。<a href="https://www.samba.org/">samba</a> 的 <a href="https://github.com/git">git</a>+ 更新引入了一个规范标志（spec flag）。</p>
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QOMHLPOCKR2MFCA6LMB2XOAWGO7A5K3Q/">20230401</a> 更新了 <a href="https://www.kernel.org/">Linux 内核</a>；<a href="https://www.kernel.org/">kernel-source</a> 6.2.9 禁用了 Atheros 第 4 代 <a href="https://www.digikey.com/en/datasheets/qualcomm/qualcommar8031dsatherosrev10aug2011">AR8031</a> 的休眠模式；解决了与 <a href="https://www.arm.com/">arm</a> 架构相关的多个修复。快照还更新了一些 <a href="https://www.gnome.org/">GNOME</a> 软件包。<a href="https://gitlab.gnome.org/GNOME/gnome-shell">gnome-shell</a> 44.0+42 和 <a href="https://gitlab.gnome.org/GNOME/gnome-control-center">gnome-control-center</a> 44.0+20 均已更新。后者修复了一个不同步的网络时间协议开关。<a href="https://www.gnome.org/">GNOME</a> 的 wayland 显示服务器和窗口管理器 <a href="https://gitlab.gnome.org/GNOME/mutter">mutter</a> 44.0+18 清理了规范文件并为 bash 使用了更具互操作性的路径。Xen 已更新至 4.17.0_06。此处更新还提供了多个与 <a href="https://gcc.gnu.org/">GCC</a> 13 问题相关的虚拟化包补丁。其中在快照中更新的软件包有文本编辑器 <a href="https://www.vim.org/">vim</a> 9.0.1392、<a href="https://www.xfce.org/">xfce4-panel</a> 4.18.3、<a href="https://www.gnu.org/software/coreutils/">coreutils</a> 9.2 和其他几个软件包。</p>
 
-<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MSVAS35OPS4DJIEK7HQYADVFFUYLDYTJ/">20221202</a> 让 <a href="https://www.mozilla.org/">Mozilla Firefox</a> 107.0.1 修复了一个问题，即颜色管理对某些用户不可用，并且浏览器修复了另一个问题，即显示警告对话框时无法访问 DevTools 用户界面。<a href="https://github.com/yast/yast-yast2">yast2</a> 4.5.20 更新中添加了一个允许统一定义硬件架构过滤器的新类（class）。文本编辑器 <a href="https://wiki.gnome.org/Apps/Gedit">gedit</a> 43.2 的更新对 <a href="https://en.wikipedia.org/wiki/API">API</a> 进行了修复，并且还更新了一些翻译。<a href="https://www.vim.org/">Vim</a> 是另一个在快照中收到更新的文本编辑器，它有许多错误修复；<a href="https://www.vim.org/">vim</a> 9.0.0978 修复了在终端窗口中键入字母时的崩溃、声音虚拟中的持续集成失败、<a href="https://vimdoc.sourceforge.net/htmldoc/autocmd.html">autocmd</a> 窗口内存泄漏和无效内存访问以及许多其他问题。跨平台小部件工具包 GTK3 3.24.35 更新进行了多项更改。<a href="https://www.gtk.org/">GTK3</a> 修复了运动压缩问题，重构了即时消息客户端更新的处理，删除了上游补丁并添加了对标题栏手势的支持。快照中要更新的其他软件包是 <a href="https://pango.gnome.org/">pango</a> 1.50.12、<a href="https://inai.de/projects/hxtools/">hxtools</a> 20221120、<a href="https://ostreedev.github.io/ostree/">libostree</a> 2022.7 等。</p>
-
-<p>本月的第一个快照是快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZY3E4EOFL27S2Q36ZNTHYMNKVZKQNPEZ/">20221201</a>；它将 <a href="https://pipewire.org/">pipewire</a> 更新到 0.3.61 版本。类似于音频格式 MP3，可实现无损压缩文件的 <a href="https://www.kernel.org/">Linux</a> 音频和视频包 <a href="https://xiph.org/flac/">flac</a> 更新至 1.4.2 版本。开源智能卡工具和中间件包 <a href="https://github.com/OpenSC/OpenSC">opensc</a>，更新至 0.23.0 版本。该软件包进行了一些常规改进，并增加了对对称加密和解密、包装和解包操作以及初始化向量的支持。快照还更新了几个其他软件包，如 <a href="https://fc-solve.shlomifish.org/">freecell-solver</a> 6.8.0 和更新了一些用于高级 <a href="https://www.mediatek.com/">MediaTek</a> wifi 芯片固件的 <a href="https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git">kernel-firmware</a> 20221130。</p>
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ILKTUNMSR64T5Z5D2UTONTLJETL27A2X/">20230331</a> 和快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3QNVZMC5MTWVSFGNRCHTXFUDNKEOT5P2/">20230330</a> 中要更新的软件包数量较少。其中要更新的一些关键包是 <a href="https://imagemagick.org/index.php">ImageMagick</a> 7.1.1.5，它消除了编写 JPS 图像格式时的内存泄漏；以及 <a href="https://www.ruby-lang.org/en/">ruby3.2</a> 3.2.2，它处理了两个 CVE。<a href="https://www.ruby-lang.org/en/news/2023/03/28/redos-in-uri-cve-2023-28755/">CVE-2023-28755</a> 修复了错误处理无效 URL 的 URI 解析器，<a href="https://www.ruby-lang.org/en/news/2023/03/30/redos-in-time-cve-2023-28756/">CVE-2023-28756</a> 修复了错误处理无效字符串的时间解析器。图形库 <a href="https://www.gegl.org/">gegl</a> 0.4.44 修复了被 <a href="https://gitlab.gnome.org/GNOME/glib">glib</a> 2.75.3 和 <a href="https://github.com/yast/yast-yast2">yast2</a> 4.6.2 替换为 <a href="https://dracut.wiki.kernel.org/index.php/Main_Page">dracut</a> 的 <a href="https://linux.die.net/man/8/mkinitrd">mkinitrd</a> 模块调用的崩溃。</p>
 
 <hr />
 
-<p>原文：<a href="https://news.opensuse.org/2022/12/08/glib-gtk-networkmanager-up-in-tw/">GLib, GTK, NetworkManager update in Tumbleweed </a>，作者：Douglas DeMaio</p>
+<p>原文：<a href="https://news.opensuse.org/2023/04/06/firefox-systemd-up-in-tw/">Firefox, systemd update in Tumbleweed</a>，作者：Douglas DeMaio</p>
 
 	</div>
 	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
@@ -324,28 +322,28 @@
 		<h5>分享帖子:</h5>
 		<div class="btn-group" role="group" aria-label="Share article">
 			<a class="twitter-link btn btn-secondary"
-				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&via=openSUSE">
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&via=openSUSE">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
 				</svg>
 			</a>
 			<a class="facebook-link btn btn-secondary"
-				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
 				</svg>
 			</a>
 			<a class="telegram-link btn btn-secondary"
-				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
 				</svg>
 			</a>
 			<a class="reddit-link btn btn-secondary"
-				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&amp;title=GLib%E3%80%81GTK%20%E5%92%8C%20NetworkManager%20%E5%9C%A8%20Tumbleweed%C2%A0%E4%B8%AD%E6%9B%B4%E6%96%B0"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html&amp;title=Firefox%EF%BC%8Csystemd%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0"
 				target="_blank">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
@@ -353,7 +351,7 @@
 				</svg>
 			</a>
 			<a class="mail-link btn btn-secondary"
-				href="mailto:?subject=GLib%E3%80%81GTK%20%E5%92%8C%20NetworkManager%20%E5%9C%A8%20Tumbleweed%C2%A0%E4%B8%AD%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2022/12/07/GLib-GTK-%E5%92%8C-NetworkManager-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
+				href="mailto:?subject=Firefox%EF%BC%8Csystemd%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/05/Firefox-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
 					<path
 						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
