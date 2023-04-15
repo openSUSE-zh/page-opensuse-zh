@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/13/Frameworks-Shotwell-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</guid>
+      <title>Frameworks、Shotwell 和 systemd 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 13 Apr 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/13/Frameworks-Shotwell-%E5%92%8C-systemd-%E5%9C%A8-Tumbleweed-%E4%B8%AD%E6%9B%B4%E6%96%B0.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Tumbleweed 自上周五以来，已经发布了六个快照，更新了一些 GNOME 应用程序、KDE Framework、LLVM 编译器和其他几个软件包。 快照 20230412 将 GNOME 网络摄像头应用程序 cheese 从版本 43.0 更新到 44.0。照片和视频程序 cheese 更新了翻译并避免创建重复的相机设备，这与 GStreamer 发出调用有关。GNOME 的窗口管理器 Mutter 44 进行了一些更改，使其更具弹性并避免了 gnome-shell 上的一种崩溃。开发库 SDL2 2.26.5 的更新修复了 dbus 无法初始化时 Linux 内核崩溃的问题。 它还为 Linux 上的 DualSense Edge 无线控制器添加了映射。apache2 2.4.57 及其子包的更新修复了先前版本中引入的回归。yast2-storage-ng 4.6.5 的更新调整了对 Dell BOSS 设备的检测。AV1 编码器 rav1e 0.6.4+0...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 自上周五以来，已经发布了六个快照，更新了一些 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 应用程序、&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; Framework、&lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 编译器和其他几个软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CUR6A2D3R3HQC37RJGYVTWUDLGJCWMVQ/&quot;&gt;20230412&lt;/a&gt; 将 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 网络摄像头应用程序 &lt;a href=&quot;https://wiki.gnome.org/Apps/Cheese&quot;&gt;cheese&lt;/a&gt; 从版本 43.0 更新到 44.0。照片和视频程序 cheese 更新了翻译并避免创建重复的相机设备，这与 &lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 发出调用有关。&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的窗口管理器 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/mutter&quot;&gt;Mutter&lt;/a&gt; 44 进行了一些更改，使其更具弹性并避免了 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 上的一种崩溃。开发库 &lt;a href=&quot;https://libsdl.org/&quot;&gt;SDL2&lt;/a&gt; 2.26.5 的更新修复了 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/dbus/&quot;&gt;dbus&lt;/a&gt; 无法初始化时 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;崩溃的问题。 它还为 Linux 上的 DualSense Edge 无线控制器添加了映射。&lt;a href=&quot;https://httpd.apache.org/&quot;&gt;apache2&lt;/a&gt; 2.4.57 及其子包的更新修复了先前版本中引入的回归。&lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.6.5 的更新调整了对 Dell &lt;a href=&quot;https://www.dell.com/support/manuals/de-de/boss-s-1/boss_s1_ug_publication/%C3%BCbersicht?guid=guid-b20ef25b-b7e3-40f2-b7cd-e497358cd10a&amp;amp;lang=en-us&quot;&gt;BOSS&lt;/a&gt; 设备的检测。AV1 编码器 &lt;a href=&quot;https://github.com/xiph/rav1e/&quot;&gt;rav1e&lt;/a&gt; 0.6.4+0 是本次快照中变更最多的软件包。该软件包启用了 AVX2 12 位逆变换 x86 程序集以及新的 &lt;a href=&quot;https://en.wikipedia.org/wiki/SSE4&quot;&gt;SSE4.1&lt;/a&gt; HBD 逆变换 x86 程序集。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://inai.de/projects/hxtools/&quot;&gt;hxtools&lt;/a&gt; 和日语词典 &lt;a href=&quot;https://software.opensuse.org/package/edict&quot;&gt;edict&lt;/a&gt; 的更新各有一个匹配的 20230411 版本，它也与快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/MZXWUGJIAJP4JHVUCP5YSYHVKEHKBX5S/&quot;&gt;20230411&lt;/a&gt; 匹配。在 hxtools 删除了一个选项并更改了一个选项行为时，edict 没有记录任何更改日志。轻量级目录访问协议 &lt;a href=&quot;https://github.com/389ds/389-ds-base&quot;&gt;389-ds&lt;/a&gt; 更新至 2.3.2 版本。389-ds 为 WebUI 添加了测试，修复了&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;并为 setuptools 应用了上游修复程序。用户级数据包捕获包 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/basicnet/libpcap.html&quot;&gt;libpcap&lt;/a&gt; 1.10.4 的更新修复了启动&lt;a href=&quot;https://en.wikipedia.org/wiki/Daemon_(computing)&quot;&gt;守护程序&lt;/a&gt;服务的名称。传输层安全库 &lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.8.0 的更新解决了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-0361.html&quot;&gt;CVE-2023-0361&lt;/a&gt;。此漏洞可能允许侧信道足以恢复密钥加密的 &lt;a href=&quot;https://en.wikipedia.org/wiki/RSA_(cryptosystem)&quot;&gt;RSA&lt;/a&gt; 密文。gnutls 还通过 &lt;a href=&quot;https://gnutls.org/gnutls-release-keyring.gpg&quot;&gt;https://gnutls.org/gnutls-release-keyring.gpg&lt;/a&gt; 更新了密钥环。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 更新了七个翻译；&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 删除了 &lt;a href=&quot;https://linux.die.net/man/8/mkinitrd&quot;&gt;mkinitrd&lt;/a&gt; 包装器。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VZC4GLKGQKVOV3XLS42GSOIZBM4IXZX4/&quot;&gt;20230410&lt;/a&gt; 仅更新了两个包。 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 个人照片管理器应用程序 &lt;a href=&quot;https://wiki.gnome.org/Apps/Shotwell&quot;&gt;shotwell&lt;/a&gt; 已更新至 0.31.90 版本。新版本修复了图像连续偏移时区偏移的问题，并修复了未设置曝光时间的问题。照片管理器还启用了人脸识别。另一个要更新的包是视频驱动程序包 &lt;a href=&quot;https://github.com/freedesktop/xorg-xf86-video-savage&quot;&gt;xf86-video-savage&lt;/a&gt; 2.4.0；新版本有一个小的变化，改进了对使用 &lt;a href=&quot;https://www.x.org/wiki/&quot;&gt;Xorg&lt;/a&gt; 1.19 及更高版本构建的支持。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/C425HDRRFR4GXUHXTHKMNXEQYJCHMBQE/&quot;&gt;20230409&lt;/a&gt; 更新了 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.105.0/&quot;&gt;KDE Frameworks 5.105.0&lt;/a&gt;。具有 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt; 附加库的 Frameworks 对文本编辑器 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 进行了一些小的缩进修复。&lt;a href=&quot;https://github.com/KDE/breeze-icons&quot;&gt;Breeze 图标&lt;/a&gt;为 &lt;a href=&quot;https://github.com/jonls/redshift&quot;&gt;Redshift&lt;/a&gt; 图标添加了一些缺失的半透明和新的 breeze-dark 显示。用于电脑、手机、电视和其他设备的 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 修复了&lt;a href=&quot;https://github.com/KDE/kirigami/commit/6181af63d961bb10ac3fe24afba00fc07dd35f80&quot;&gt;标题不可见内容&lt;/a&gt;占用空间的问题，并调整了&lt;a href=&quot;https://github.com/KDE/kirigami/commit/6181af63d961bb10ac3fe24afba00fc07dd35f80&quot;&gt;默认页面分类设置&lt;/a&gt;。音视频处理包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.68 的更新添加了一个新的&lt;a href=&quot;https://en.wikipedia.org/wiki/Real-time_Transport_Protocol&quot;&gt;实时传输协议&lt;/a&gt;会话模块，并为流和节点添加了一个新的运行时调试属性，以触发将原始样本保存到 wav 文件。音乐播放器 &lt;a href=&quot;https://invent.kde.org/multimedia/amarok&quot;&gt;amarok&lt;/a&gt; 有一个小的调整；&lt;a href=&quot;https://build.opensuse.org/package/show/openSUSE:Factory/manpages-l10n&quot;&gt;manpages-l10n&lt;/a&gt; 4.18.0 进行了一些翻译改进。&lt;/p&gt;
+
+&lt;p&gt;编译器和工具链包 &lt;a href=&quot;https://llvm.org/&quot;&gt;llvm16&lt;/a&gt; 在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/BZQOLDKW7YCN7MFBKMH3EHKBQIIIDSEH/&quot;&gt;20230408&lt;/a&gt; 中发布了该版本的第一个次要版本。llvm16 16.0.1 添加了一个 rebase 补丁和一些错误修复。&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;libreoffice&lt;/a&gt; 7.5.2.2 更新修复了七个错误。其中之一返回了在中文、日文和韩文界面中消失的标题样式标签。libreoffice 修复了导致 &lt;a href=&quot;https://www.libreoffice.org/discover/writer/&quot;&gt;Writer&lt;/a&gt; 崩溃的另一个标题导航器。快照中要更新的其他软件包是 &lt;a href=&quot;https://github.com/kaio/ibus-table&quot;&gt;ibus-table&lt;/a&gt; 1.17.0、&lt;a href=&quot;https://github.com/yast/yast-packager&quot;&gt;yast2-packager&lt;/a&gt; 4.6.1 和 &lt;a href=&quot;https://github.com/yast/yast-ruby-bindings&quot;&gt;yast2-ruby-bindings&lt;/a&gt; 4.6.2。&lt;/p&gt;
+
+&lt;p&gt;上周五的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YKNKPDELQNY6DAJXAGIE7GOG7F2DTYLO/&quot;&gt;20230407&lt;/a&gt; 很小，但它已将 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 更新到 253.3 版本。不属于稳定版本的修复被合并到这个快照版本中，就像一个&lt;a href=&quot;https://github.com/openSUSE/systemd/commit/a3f2884ef29dee2ace12afe74b9d8d539237a10a&quot;&gt;关于发布标签的 github 工作流&lt;/a&gt;。更新后的版本还将 &lt;a href=&quot;https://github.com/openSUSE/systemd/commit/66f3a8a47d5bf6aea3f6fb181c01550a1a54406e&quot;&gt;tag ‘v253.3’ 合并到 SUSE/v253 中&lt;/a&gt;，并进行了与 &lt;a href=&quot;https://github.com/openSUSE/systemd/commit/c5bc8bb0805b2bc9ca01dbf01fcb318e92edda43&quot;&gt;mkosi 依赖项&lt;/a&gt;相关的持续集成操作。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.95 的更新禁用了一些 &lt;a href=&quot;https://nvmexpress.org/&quot;&gt;NVMe&lt;/a&gt; 检测并&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng/pull/924&quot;&gt;使用 Fedora 添加了一个 GitHub Action&lt;/a&gt;。&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 13 有一些小的支持并添加了 &lt;a href=&quot;https://gcc.gnu.org/wiki/BPFBackEnd&quot;&gt;cross-bpf&lt;/a&gt; 包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/04/14/frameworks-shotwell-systemd-up-in-tw/&quot;&gt;Frameworks, Shotwell, systemd update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/04/12/openSUSE.Asia-%E5%B3%B0%E4%BC%9A-2023-%E5%BE%81%E9%9B%86%E4%B8%BB%E5%8A%9E%E6%96%B9.html</guid>
       <title>openSUSE.Asia 峰会 2023：征集主办方</title>
       <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
@@ -446,29 +473,6 @@ pihole/pihole:latest
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/24/ruby-default-swtiches-in-tw/&quot;&gt;Ruby Default Switches in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/22/%E5%85%B3%E4%BA%8E%E4%B8%BA-GSoC-%E7%94%B3%E8%AF%B7%E8%80%85%E6%8F%90%E4%BE%9B%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%81%E9%9D%A2%E4%BC%9A.html</guid>
-      <title>关于为 GSoC 申请者提供的项目的见面会</title>
-      <pubDate>Wed, 22 Feb 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/22/%E5%85%B3%E4%BA%8E%E4%B8%BA-GSoC-%E7%94%B3%E8%AF%B7%E8%80%85%E6%8F%90%E4%BE%9B%E7%9A%84%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%81%E9%9D%A2%E4%BC%9A.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE 的导师和管理员很高兴被接纳为今年 Google 编程之夏的导师组织，并将为潜在的学员提供讨论 101.opensuse.org 上所列项目的机会。 在所有 openSUSE 社区会议之前都会有 15 分钟的会议，学员们可以加入我们的 Jitsi 会议室，与 openSUSE 社区的成员取得联系，他们可以帮助学员们了解今年 GSoC 期间的项目情况。 社区会议每周二和周四举行，具体时间有所不同。周二的面向学员身份申请者的见面会于 15:15 UTC 开始，周四的小会于 19:45 UTC 开始。社区会议开始时间分别是 15:30 UTC 和 20:00 UTC。 潜在的学员申请人可以在 101.opensuse.org 上查看项目列表，并通过在列出感兴趣项目的 GitHub issue 上发表评论，与领导该项目的导师直接沟通。并非所有的导师都能在见面会的时间段内有空，但那些有时间的导师会根据他们所掌握的项目信息提供最大的帮助。 2 月 23 日至 4 月 4 日期间都将定期举行会议。今年有 15 个项目参加活动。101.opensuse.org 列出的一些项目涉及与运维、人工智能、安全、密码学、Kubernetes、容器和质量保证相关的主题。许多项目的语言包括 Python、Rust、Perl、ReactJS、JavaScript、Ruby 等。 原文：Awareness Sessions...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的导师和管理员很高兴被接纳为今年 &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;Google 编程之夏&lt;/a&gt;的&lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;导师组织&lt;/a&gt;，并将为潜在的学员提供讨论 &lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 上所列项目的机会。&lt;/p&gt;
-
-&lt;p&gt;在所有 openSUSE 社区会议之前都会有 15 分钟的会议，学员们可以加入我们的 Jitsi 会议室，与 openSUSE 社区的成员取得联系，他们可以帮助学员们&lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;了解&lt;/a&gt;今年 GSoC 期间的项目情况。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;每周二和周四举行，具体时间有所不同。周二的面向学员身份申请者的见面会于 15:15 UTC 开始，周四的小会于 19:45 UTC 开始。社区会议开始时间分别是 15:30 UTC 和 20:00 UTC。&lt;/p&gt;
-
-&lt;p&gt;潜在的学员申请人可以在 &lt;a href=&quot;https://101.opensuse.org/#mentee&quot;&gt;101.opensuse.org&lt;/a&gt; 上查看项目列表，并通过在列出感兴趣项目的 &lt;a href=&quot;https://github.com/openSUSE/mentoring/issues&quot;&gt;GitHub issue&lt;/a&gt; 上发表评论，与领导该项目的导师直接沟通。并非所有的导师都能在见面会的时间段内有空，但那些有时间的导师会根据他们所掌握的项目信息提供最大的帮助。&lt;/p&gt;
-
-&lt;p&gt;2 月 23 日至 4 月 4 日期间都将定期举行会议。今年有 15 个项目参加活动。&lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 列出的一些项目涉及与运维、人工智能、安全、密码学、&lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;、容器和质量保证相关的主题。许多项目的语言包括 Python、Rust、Perl、ReactJS、JavaScript、Ruby 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/02/22/awareness-sessions-about-projects-available-to-gsoc/&quot;&gt;Awareness Sessions About Projects Available for GSoC Applicants&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
