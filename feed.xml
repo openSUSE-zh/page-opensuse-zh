@@ -7,6 +7,49 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/24/Leap-Micro-%E7%9A%84%E4%B8%8B%E4%B8%80%E7%89%88%E6%9C%AC%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E7%8A%B6%E6%80%81.html</guid>
+      <title>Leap Micro 的下一版本进入候选发布状态</title>
+      <pubDate>Mon, 24 Apr 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/24/Leap-Micro-%E7%9A%84%E4%B8%8B%E4%B8%80%E7%89%88%E6%9C%AC%E8%BF%9B%E5%85%A5%E5%80%99%E9%80%89%E5%8F%91%E5%B8%83%E7%8A%B6%E6%80%81.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE 项目很高兴地宣布其现代轻量级主机操作系统 Leap Micro 5.4 已进入候选发布阶段。 上一个测试版为 Cockpit 引入了一个新的 SELinux 模块。这个版本中，新安装的 SELinux 的默认设置已经从 permissive 模式改为 enforcing 模式，你可以切换到 permissive 模式或禁用。 Leap Micro 5.4 RC 将 Podman 更新至 4.3.1 版本。这个新版本带来了许多新功能和一些改进，例如更好地支持多个网络中的容器、更好的 IPv6 支持和改进的性能。 发行说明中有一条有关于 Podman，建议人们了解的警告信息。 在测试 Podman 4 和新的网络堆栈之前，你必须销毁当前所有的容器、镜像和网络。你必须在私有 registry 中导出/保存任何导入容器或镜像，或确保你的 Dockerfile 可用于重建，以及你的脚本/playbooks/states 可用于重新应用任何设置、重新生成 secret 等。 这个超可靠、轻量级和不可变的操作系统在 Cockpit 中集成了 Performance Co-Pilot 容器。该版本有新的 Cockpit...</description>
+      <content:encoded>&lt;p&gt;openSUSE 项目很高兴地宣布其现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.4/&quot;&gt;Leap Micro 5.4&lt;/a&gt; 已进入候选发布阶段。&lt;/p&gt;
+
+&lt;p&gt;上一个测试版为 Cockpit 引入了一个新的 SELinux 模块。这个版本中，新安装的 SELinux 的默认设置已经从 permissive 模式改为 enforcing 模式，你可以切换到 permissive 模式或禁用。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.4 RC 将 Podman 更新至 4.3.1 版本。这个新版本带来了许多新功能和一些改进，例如更好地支持多个网络中的容器、更好的 IPv6 支持和改进的性能。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.4/index.html#general-podman-4-3&quot;&gt;发行说明&lt;/a&gt;中有一条有关于 Podman，建议人们了解的警告信息。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在测试 Podman 4 和新的网络堆栈之前，你必须销毁当前所有的容器、镜像和网络。你必须在私有 registry 中导出/保存任何导入容器或镜像，或确保你的 Dockerfile 可用于重建，以及你的脚本/playbooks/states 可用于重新应用任何设置、重新生成 secret 等。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这个超可靠、轻量级和不可变的操作系统在 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 中集成了 &lt;a href=&quot;https://github.com/performancecopilot&quot;&gt;Performance Co-Pilot&lt;/a&gt; 容器。该版本有新的 Cockpit 模块，但由于依赖项的数量，并不是所有的 Cockpit 模块都是原始镜像的一部分；有些需要另外安装。安装程序现在包括了能够在&lt;a href=&quot;https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards&quot;&gt;联邦信息处理标准&lt;/a&gt;模式下运行的软件包。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 不提供图形用户界面或桌面版本，但用户可以使用 Cockpit 通过网络浏览器管理他们的主机操作系统。&lt;/p&gt;
+
+&lt;p&gt;新版本装载了适用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390x&lt;/a&gt; 的硬件加密加速软件包。内核实时修补仅适用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86-64&quot;&gt;x86-64&lt;/a&gt; 和 s390x 架构。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.4 RC 基于 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SLE Micro&lt;/a&gt; 5.4 进行构建；后者基于 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE&lt;/a&gt; 15 SP 4 更新进行构建。&lt;/p&gt;
+
+&lt;p&gt;此系统的用户应该知道 Leap Micro 不使用 zypper，而是使用 &lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt; 更新系统。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 可用于多种计算环境，如边缘、嵌入式和物联网部署。开发人员和专业人士可以构建和扩展用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、网络服务器、机器人、区块链等领域的系统。&lt;/p&gt;
+
+&lt;p&gt;更多详细信息，请查阅&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.4/index.html&quot;&gt;发行说明&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;大型开发团队可以通过尝试 Leap Micro 并过渡到 SUSE 的 SLE Micro 以进行扩展维护和认证，从而为其运营增加价值。&lt;/p&gt;
+
+&lt;p&gt;请前往 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载并测试 ISO 文件。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/04/25/next-v-leap-micro-reaches-rc/&quot;&gt;Next Version of Leap Micro Reaches Release Candidate&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/04/18/%E4%B8%BA%E4%BB%8A%E5%B9%B4%E7%9A%84-openSUSE-%E5%A4%A7%E4%BC%9A%E5%81%9A%E5%A5%BD%E5%87%86%E5%A4%87.html</guid>
       <title>为今年的 openSUSE 大会做好准备</title>
       <pubDate>Tue, 18 Apr 2023 23:30:00 +0000</pubDate>
@@ -440,39 +483,6 @@ pihole/pihole:latest
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/03/02/tw-gains-optional-optimizations/&quot;&gt;openSUSE Tumbleweed gains optional x86-64-v3 optimization&lt;/a&gt;，作者：	Dirk Müller&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/28/%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%BC%80%E6%BA%90%E6%94%BF%E7%AD%96%E8%81%9A%E7%84%A6-AI-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</guid>
-      <title>更新后的开源政策聚焦 AI 注意事项</title>
-      <pubDate>Tue, 28 Feb 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/02/28/%E6%9B%B4%E6%96%B0%E5%90%8E%E7%9A%84%E5%BC%80%E6%BA%90%E6%94%BF%E7%AD%96%E8%81%9A%E7%84%A6-AI-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>随着人工智能聊天机器人和协议的普及，并被整合到全球社会的结构中，SUSE 开源政策的最新更新为开发人员、社区和项目提供了思考的依据。 该政策是针对所有 SUSE 员工的；然而，我们的目标是开放源代码社区和开发人员仔细考虑该政策，并且该政策将激励其他公司采用或引入开源政策。 “我们的‘为开源项目做贡献’政策意味着我们也会为新的开源项目确定与现有上游项目的合作和贡献机会，”根据更新的政策文本。“围绕 AI 结对编程（AI pair programming）的许可和潜在违规行为的法律结构没有解决。” 考虑到推荐许可是避免未来冲突的良好默认设置。该策略是针对代码的，但还有其他一些要点需要考虑。 SUSE 使用 OSI 批准的许可证。其他个案作为例外处理。 当项目是更大的开源生态系统的一部分时，请使用生态系统内现有的兼容许可证。这适用于代码和非代码许可证。 SUSE 对全新软件项目的许可建议是特定于上下文的；默认为 Apache-2.0。对于面向公共版权的项目，推荐使用 GPL-2.0 或更高版本。对于文档和艺术作品，SUSE 推荐使用 CC BY-SA 4.0。 SUSE 员工目前没有使用 AI 结对编程，并且在年度审查认为需要更改之前不会使用。 SUSE 的新员工将接受有关该政策的培训，该政策预计每年都会修订和更新。 为了了解 AI 聊天机器人如何看待这个话题，人们向 ChatGPT 询问了有关开发者和公司需要了解关于 AI 聊天机器人和其他协议的开源政策方面的注意事项。ChatGPT 聊天机器人提供的答案似乎证实了 SUSE 在其开源政策方面采取了很好的方法。聊天机器人给出了六个注意事项；即许可证兼容性、知识产权、源代码可用性、归属权、责任和数据隐私。未来的变化也列在另一个有关保持政策更新以保持符合新要求的相关问题中。 遵循政策的建议可以帮助避免像上图那样与 ChatGPT 的对话，这与 GitHub 和 OpenAI 的 copilot 项目有关。...</description>
-      <content:encoded>&lt;p&gt;随着人工智能聊天机器人和协议的普及，并被整合到全球社会的结构中，&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;SUSE 开源政策&lt;/a&gt;的最新更新为开发人员、社区和项目提供了思考的依据。&lt;/p&gt;
-
-&lt;p&gt;该政策是针对所有 SUSE 员工的；然而，我们的目标是开放源代码社区和开发人员仔细考虑&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;该政策&lt;/a&gt;，并且该政策将激励其他公司采用或引入开源政策。&lt;/p&gt;
-
-&lt;p&gt;“我们的‘为开源项目做贡献’政策意味着我们也会为新的开源项目确定与现有上游项目的合作和贡献机会，”根据更新的政策文本。“围绕 AI 结对编程（AI pair programming）的许可和潜在违规行为的法律结构没有解决。”&lt;/p&gt;
-
-&lt;p&gt;考虑到推荐许可是避免未来冲突的良好默认设置。该策略是针对代码的，但还有其他一些要点需要考虑。&lt;/p&gt;
-
-&lt;p&gt;SUSE 使用 &lt;a href=&quot;https://opensource.org/&quot;&gt;OSI&lt;/a&gt; 批准的许可证。其他个案作为例外处理。&lt;/p&gt;
-
-&lt;p&gt;当项目是更大的开源生态系统的一部分时，请使用生态系统内现有的兼容许可证。这适用于代码和非代码许可证。&lt;/p&gt;
-
-&lt;p&gt;SUSE 对全新软件项目的许可建议是特定于上下文的；默认为 Apache-2.0。对于面向公共版权的项目，推荐使用 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html&quot;&gt;GPL-2.0 或更高版本&lt;/a&gt;。对于文档和艺术作品，SUSE 推荐使用 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;SUSE 员工目前没有使用 AI 结对编程，并且在年度审查认为需要更改之前不会使用。 SUSE 的新员工将接受有关该政策的培训，该政策预计每年都会修订和更新。&lt;/p&gt;
-
-&lt;p&gt;为了了解 AI 聊天机器人如何看待这个话题，人们向 &lt;a href=&quot;https://chat.openai.com/&quot;&gt;ChatGPT&lt;/a&gt; 询问了有关开发者和公司需要了解关于 AI 聊天机器人和其他协议的开源政策方面的注意事项。ChatGPT 聊天机器人提供的答案似乎证实了 SUSE 在其&lt;a href=&quot;https://opensource.suse.com/legal/policy&quot;&gt;开源政策方面&lt;/a&gt;采取了很好的方法。聊天机器人给出了六个注意事项；即许可证兼容性、知识产权、源代码可用性、归属权、责任和数据隐私。未来的变化也列在另一个有关保持政策更新以保持符合新要求的相关问题中。&lt;/p&gt;
-
-&lt;p&gt;遵循政策的建议可以帮助避免像上图那样与 &lt;a href=&quot;https://chat.openai.com/&quot;&gt;ChatGPT&lt;/a&gt; 的对话，这与 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; 和 &lt;a href=&quot;https://openai.com/&quot;&gt;OpenAI&lt;/a&gt; 的 &lt;a href=&quot;https://github.com/features/copilot&quot;&gt;copilot&lt;/a&gt; 项目有关。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/03/01/os-policy-up-spotlights-ai/&quot;&gt;Open Source Policy Update Spotlights AI Considerations&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
