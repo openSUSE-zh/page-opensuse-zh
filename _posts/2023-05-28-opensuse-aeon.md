@@ -6,7 +6,7 @@ license: GNU Free Documentation License 1.2
 title: 欢迎新的分支：openSUSE Aeon！
 image: /assets/posts/misc/openSUSE_party.jpg
 categories:
-- 更新通告
+- 社区新闻
 tags:
 - 翻译作品
 - openSUSE Aeon
