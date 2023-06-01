@@ -6,9 +6,8 @@ license: CC-BY-SA-3.0
 title: MicroOS Desktop 有了新名字
 image: /assets/posts/2023-06/msn.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
-- Tumbleweed
 - 翻译作品
 - 官方新闻
 ---
