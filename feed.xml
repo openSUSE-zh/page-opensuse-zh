@@ -7,6 +7,88 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/06/leap.15.6.html</guid>
+      <title>openSUSE 项目宣布另一个 Leap 15 小版本的计划</title>
+      <pubDate>Tue, 06 Jun 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/06/leap.15.6.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>我们想宣布 openSUSE 发行团队计划在 openSUSE Leap 15.6 上的工作。 openSUSE Leap 15.6 预计将于 2024 年 6 月上旬发布，并将在 2025 年底产品寿命结束。 这个决定是基于最近在 SUSE 实验室和 openSUSE 大会上的讨论，它反映了最近的变化、个别项目的进展以及我们新的分发架构师。 这也将使我们能够为 SUSE 客户提供更新的 Package HUB 模块，因为 SLES 15 SP5 和 Leap 15.6 都将被视为基于我们的 tick-tock 发布模型的功能版本。 通过 Leap 15.6，我们有更多时间用于与基于 ALP 的 Leap 15.X 继任者相关的工作。 你可以通过 lkocman 在 oSC2023 发表的，题为...</description>
+      <content:encoded>&lt;p&gt;我们想宣布 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Release_team&quot;&gt;openSUSE 发行团队&lt;/a&gt;计划在 openSUSE Leap 15.6 上的工作。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 15.6 预计将于 2024 年 6 月上旬发布，并将在 2025 年底产品寿命结束。&lt;/p&gt;
+
+&lt;p&gt;这个决定是基于最近在 SUSE 实验室和 openSUSE 大会上的讨论，它反映了最近的变化、个别项目的进展以及&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/Y2UOB7TYMGL7TUTOWVELRN4VBRAVXPZI/&quot;&gt;我们新的分发架构师&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这也将使我们能够为 SUSE 客户提供更新的 Package HUB 模块，因为 SLES 15 SP5 和 Leap 15.6 都将被视为基于我们的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Tick%E2%80%93tock_model&quot;&gt;tick-tock 发布模型&lt;/a&gt;的功能版本。&lt;/p&gt;
+
+&lt;p&gt;通过 Leap 15.6，我们有更多时间用于与&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NDFLLVILAIY5E5RFQ5FO4CCJR6LSL2LZ/&quot;&gt;基于 ALP 的 Leap 15.X 继任者&lt;/a&gt;相关的工作。&lt;/p&gt;
+
+&lt;p&gt;你可以通过 lkocman 在 oSC2023 发表的，题为 “Leap 16.0?” 的演讲了解更为详细的信息。演讲的录制版应该会在几天内在 &lt;a href=&quot;https://www.youtube.com/@openSUSE&quot;&gt;openSUSE youtube 频道&lt;/a&gt;上提供。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/06/leap-15.6-annoucement/&quot;&gt;Project Announces Plans for Another Minor Leap 15 Release&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/05/leap-python311.html</guid>
+      <title>Leap 的 Modern Python 堆栈</title>
+      <pubDate>Mon, 05 Jun 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/05/leap-python311.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>将 Python 3.11 添加到 Leap 15.4 及更新版本 Leap 使用的默认 Python 解释器“太旧”了。在 Leap 中，python3 调用的是上游于 2021 年底宣布产品寿命结束的 Python 3.6。Leap 当前版本基于 SUSE SLES 15，因此它得到了 SUSE 的支持，但它并不容易与 modern python 模块一起使用。 现在，你可以在 Leap 中安装一个更现代的 Python 解释器；存储库已经收录了 python310 和 python310-pip；你可以安装并使用 virtualenv 模块从 PyPI 中安装模块，python311 将在 Leap 15.5 发布时提供。 但有时这还不够，一些 python 模块需要安装非 python 库或工具，并且无法直接从 PyPI 使用它们。...</description>
+      <content:encoded>&lt;h2 id=&quot;将-python-311-添加到-leap-154-及更新版本&quot;&gt;将 Python 3.11 添加到 Leap 15.4 及更新版本&lt;/h2&gt;
+
+&lt;p&gt;Leap 使用的默认 Python 解释器“太旧”了。在 Leap 中，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3&lt;/code&gt; 调用的是上游于 2021 年底宣布产品寿命结束的 Python 3.6。Leap 当前版本基于 SUSE SLES 15，因此它得到了 SUSE 的支持，但它并不容易与 &lt;a href=&quot;https://dev.to/marrie/introduction-to-modern-python-48hh&quot;&gt;modern python&lt;/a&gt; 模块一起使用。&lt;/p&gt;
+
+&lt;p&gt;现在，你可以在 Leap 中安装一个更现代的 Python 解释器；存储库已经收录了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python310&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python310-pip&lt;/code&gt;；你可以安装并使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; 模块从 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 中安装模块，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python311&lt;/code&gt; 将在 Leap 15.5 发布时提供。&lt;/p&gt;
+
+&lt;p&gt;但有时这还不够，一些 python 模块需要安装非 python 库或工具，并且无法直接从 PyPI 使用它们。&lt;/p&gt;
+
+&lt;p&gt;这就是为 Leap 使用新的 Python 解释器&lt;strong&gt;和模块&lt;/strong&gt;的原因。&lt;/p&gt;
+
+&lt;p&gt;新的 Python 3.11 和 Python 模块旨在提供一个更新的 Python 解释器，和来自稳定的 SUSE 解决方案（SLES）的 Python 基础模块集。这些 Python 堆栈由 SUSE 维护，Leap 则可以直接从 SLES 继承新的工具集。&lt;/p&gt;
+
+&lt;p&gt;首先要记住的是，这个解决方案没有带来任何重大变化。Leap 默认的 Python 版本（3.6）保持不变，现有的 Python 模块没有更新。当前的 Python 3.6 解释器和包保持不变。出于软件兼容性原因，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3&lt;/code&gt; 二进制文件将保留 Python 3.6，但我们也提供了额外的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3.11&lt;/code&gt;。新的 Python 堆栈是一个补充，它不会与现有包冲突，因此它可以在系统中共同安装，而不会影响任何正在运行的应用程序。&lt;/p&gt;
+
+&lt;p&gt;你可以在 Leap 15.4 中使用新的 modern Python，Leap 的后续版本也将继承这一功能。你现在可以找到解释器了；但模块列表仍在开发中，很快就会发布。&lt;/p&gt;
+
+&lt;h2 id=&quot;python-版本&quot;&gt;Python 版本&lt;/h2&gt;
+
+&lt;p&gt;我们选择的 Python 版本是 3.11。这是最佳选择，因为：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;它是由 Python Foundation 支持的最新的 Python 正式版本。&lt;/li&gt;
+  &lt;li&gt;与以前的版本相比，它有一些明显的性能改进。&lt;/li&gt;
+  &lt;li&gt;它与以前的版本兼容，没有破坏不太旧的 Python 代码的重大更改，因此在 Python 3.10 或 Python 3.9 中工作的代码将在 Python 3.11 中正常工作，或者需要进行小的更改。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;除了解释器，还有一个提供最新版本的 Python 模块列表。这些 Python 模块是 Modern Python 的一部分，将与 Python 3.11 解释器一起提供，并且是上游发布的最新版本。新的堆栈提供了一个具有最新的解释器和 2023 年的 Python 模块的 Python 环境。&lt;/p&gt;
+
+&lt;p&gt;该模块列表将是 Leap 中现有模块的精简子集，大约 500 个软件包。但它是一个基础集，将允许构建更多现代包，并将使使用 &lt;a href=&quot;https://build.opensuse.org/project/show/devel:languages:python:backports&quot;&gt;Python Backports&lt;/a&gt; 的人们的生活更轻松。&lt;/p&gt;
+
+&lt;h2 id=&quot;对现有系统的影响&quot;&gt;对现有系统的影响&lt;/h2&gt;
+
+&lt;p&gt;新堆栈中的所有 python 包都将提供 “python311-” 版本；例如要安装 Flask，你将找到包 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python311-Flask&lt;/code&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3-Flask&lt;/code&gt; 将继续是 python 3.6 版本，它是你可以在 Leap 15.4 中找到的默认版本。&lt;/p&gt;
+
+&lt;p&gt;新的 Python 解释器和模块不会影响现有系统。但新的解释器和模块将在 Leap 15.4 及以后可用，所以我们建议大家从 Python 3.6 迁移到新的 Python 3.11 并尝试使用这个现代版本的解释器和 python 基础模块。&lt;/p&gt;
+
+&lt;p&gt;使用 Modern Python 提供的包会带来很多直接的好处：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;相当快的 Python 解释器。&lt;/li&gt;
+  &lt;li&gt;具有语法和标准库最新改进的 Modern Python 解释器。&lt;/li&gt;
+  &lt;li&gt;通过 PyPI 获取和使用具有改进功能的 Modern Python 模块，而不是等待发行版的更新。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/06/leap-modern-python-stack/&quot;&gt;Modern Python stack for Leap&lt;/a&gt;，作者：Daniel García Moreno&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/01/qemu-updated.html</guid>
       <title>Tumbleweed 更新了 QEMU 的主要版本</title>
       <pubDate>Thu, 01 Jun 2023 23:30:00 +0000</pubDate>
@@ -536,149 +618,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/05/21/openSUSE-Asia-2023-Announcement/&quot;&gt;openSUSE.Asia Summit 2023 Announcement&lt;/a&gt;，作者：openSUSE.Asia Summit Chongqing Team&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/05/04/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86%E5%86%85%E6%A0%B8-%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E5%AF%BB%E6%B1%82%E5%BF%97%E6%84%BF%E8%80%85.html</guid>
-      <title>Tumbleweed 更新了内核，开发工作寻求志愿者</title>
-      <pubDate>Thu, 04 May 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/05/04/Tumbleweed-%E6%9B%B4%E6%96%B0%E4%BA%86%E5%86%85%E6%A0%B8-%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E5%AF%BB%E6%B1%82%E5%BF%97%E6%84%BF%E8%80%85.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Tumbleweed 在本周频繁且持续地更新快照，同时另一个开发项目也在寻求进展。 一封寄给 Factory 邮件列表的开发者们，标题为 “openSUSE ALP：征集志愿者” 的邮件旨在获得贡献者的支持，以重建 openSUSE Leap 15 基于 SUSE 即将推出的商业化 ALP 发行版的后续版本（openSUSE Leap 16）。 虽然征集志愿者的帖子引起了人们的兴趣，但仍然有更多的事情等待完成。快照 20230503 发布了 Linux Kernel 6.3。kernel-source 从 6.2.12 到 6.3.1 的更新经过了大量测试，最终在此快照发布。内核对 Btrfs 的变更修复了一个未初始化的变量警告，并且在更新中添加了 6.3 版本的回归补丁。内核还有一个启用 armv7hl 和 arm64 配置的更新。libvirt 更新至 9.3 版本。该版本的改进包括更好地验证与 qemu 相关的 watchdog 设备，并且 arm 和 RISC-V 架构现在默认使用 virt...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在本周频繁且持续地更新快照，同时另一个开发项目也在寻求进展。&lt;/p&gt;
-
-&lt;p&gt;一封寄给 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;Factory 邮件列表&lt;/a&gt;的开发者们，标题为 “&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NDFLLVILAIY5E5RFQ5FO4CCJR6LSL2LZ/&quot;&gt;openSUSE ALP：征集志愿者&lt;/a&gt;” 的邮件旨在获得贡献者的支持，以重建 openSUSE Leap 15 基于 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 即将推出的商业化 ALP 发行版的后续版本（openSUSE Leap 16）。&lt;/p&gt;
-
-&lt;p&gt;虽然征集志愿者的帖子引起了人们的兴趣，但仍然有更多的事情等待完成。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FILOZFR2JOZ4RGY5HOMKEAGGBYGGGD34/&quot;&gt;20230503&lt;/a&gt; 发布了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.3。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 从 6.2.12 到 6.3.1 的更新经过了大量测试，最终在此快照发布。内核对 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;Btrfs&lt;/a&gt; 的变更修复了一个未初始化的变量警告，并且在更新中添加了 6.3 版本的回归补丁。内核还有一个启用 &lt;a href=&quot;https://www.arm.com/&quot;&gt;armv7hl&lt;/a&gt; 和 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm64&lt;/a&gt; 配置的更新。&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 更新至 9.3 版本。该版本的改进包括更好地验证与 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 相关的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;watchdog&lt;/code&gt; 设备，并且 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 架构现在默认使用 virt 机器类型。此外还有几个错误修复；一个与 &lt;a href=&quot;https://en.wikipedia.org/wiki/UEFI&quot;&gt;UEFI&lt;/a&gt; 固件有关，另一个与涉及锁定内存的 &lt;a href=&quot;https://nvmexpress.org/&quot;&gt;NVMe&lt;/a&gt; 驱动程序有关。拼写检查库 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gspell&quot;&gt;gspell&lt;/a&gt; 1.12.1 仅改进了一些文档和翻译。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk3&lt;/a&gt; 3.24.37+70 的更新修复了崩溃。文本编辑器 vim 9.0.1504 修复了一个导致在 &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt; 仓库中使用了一个超出范围的指针偏移的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-2426.html&quot;&gt;CVE-2023-2426&lt;/a&gt;，不会再给用户带来麻烦。快照中要更新的其他一些软件包包括 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的 &lt;a href=&quot;https://gitlab.gnome.org/Archive/amtk&quot;&gt;amtk&lt;/a&gt; 5.6.1、&lt;a href=&quot;https://wiki.gnome.org/Apps/Gucharmap&quot;&gt;gucharmap&lt;/a&gt; 15.0.4 等。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;Audacity&lt;/a&gt; 贡献者团队本周非常活跃，因为 Audacity 本周的第二次版本更新已在快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IWGA533EAWB2ECKRJQLJOEWDMXGNJ63O/&quot;&gt;20230502&lt;/a&gt; 中发布。音频编辑器 Audacity 3.3.1 修复了尝试上传到 audio.com 时的计算错误。Audacity 修复了崩溃报告被禁用的问题，并修复了自定义采样率不可编辑的问题。文件管理器 &lt;a href=&quot;https://en.wikipedia.org/wiki/Thunar&quot;&gt;thunar&lt;/a&gt; 4.18.6 进行了一次回退，使得 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户将很高兴感受到 CPU 使用率降低。Thunar 还改进了撤消和重做的错误处理。用于处理 RDF 数据的轻量级 C 库的社区软件包 &lt;a href=&quot;https://drobilla.net/software/serd.html&quot;&gt;serd&lt;/a&gt;，已更新至版本 0.30.16 并解决了阅读文档时的内存消耗问题，并修复了&lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;联机帮助页&lt;/a&gt;的拼写错误。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 更新了葡萄牙语和瑞典语翻译。快照中更新了一些其他软件包，包括 &lt;a href=&quot;https://github.com/docbook&quot;&gt;docbook-xsl&lt;/a&gt; 1.79.2.1、&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt; 3.4.2、&lt;a href=&quot;https://www.libguestfs.org/&quot;&gt;guestfs-tools&lt;/a&gt; 1.50.1、&lt;a href=&quot;https://pupnp.sourceforge.io/&quot;&gt;libupnp&lt;/a&gt; 1.14.17 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/L4MWL2AKM7P5CQL22324LOBE7KASDBI5/&quot;&gt;20230501&lt;/a&gt; 仅更新了一个软件包。用于加载和包装 &lt;a href=&quot;https://lv2plug.in/&quot;&gt;LV2 插件&lt;/a&gt;用户界面的轻量级 C 库 &lt;a href=&quot;https://drobilla.net/software/suil.html&quot;&gt;suil&lt;/a&gt; 更新至 0.10.18 版本，对 MacOS 进行了一些修复，还修复了较新工具链的问题，并删除了 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt 4&lt;/a&gt; 支持和一些已失效的代码。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TBGUMCGO7YCCGE72V436ABRCZVMCLIDZ/&quot;&gt;20230430&lt;/a&gt; 很大，但只更新了一些库。显示服务器 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 1.22.0 更新为首选缓冲区比例添加了显式事件。Wayland 还有一些新的便利功能和错误修复。3D 图形包 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 在 &lt;a href=&quot;https://docs.mesa3d.org/relnotes/23.0.3.html&quot;&gt;23.0.3&lt;/a&gt; 版本的几个方面进行了更改。Mesa 提供了一个无法在 &lt;a href=&quot;https://store.steampowered.com/&quot;&gt;Steam&lt;/a&gt; 上启动标题的覆盖修复程序，并且为 GNOME 修复了切片器的崩溃。&lt;a href=&quot;https://docs.mesa3d.org/drivers/radv.html&quot;&gt;RADV&lt;/a&gt; 的一些不正确设置也已修复；&lt;a href=&quot;https://github.com/yast/yast-country&quot;&gt;yast2-country&lt;/a&gt; 4.6.2 做了一些与俄罗斯键盘映射相关的配置模块清理。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ACOKOIP6ZXCH5PVQXM7ONZMVEPWCDT2I/&quot;&gt;20230429&lt;/a&gt; 更新了音频包 &lt;a href=&quot;https://jackaudio.org/&quot;&gt;JACK&lt;/a&gt;。JACK 1.9.22 删除了用于示例客户端的依赖项并修复了使用 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.11+ 的构建。&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.11 包修复了一个因存储了错误的凭据导致的无限循环，并且在配置中引入了超时。用于各种引导加载程序的 &lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 模块包 &lt;a href=&quot;https://github.com/openSUSE/perl-bootloader&quot;&gt;perl-Bootloader&lt;/a&gt; 发布了它的第一个主要版本。perl-Bootloader 从 0.941 更新到 1.0 并删除了遗留部分。spec 文件已移至 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 存储库，并进行了更改以区分 32 位和 64 位 UEFI 平台。快照中要更新的其他包是 &lt;a href=&quot;https://github.com/hughsie/libxmlb&quot;&gt;libxmlb&lt;/a&gt; 0.3.11、&lt;a href=&quot;https://github.com/makedumpfile/makedumpfile&quot;&gt;makedumpfile&lt;/a&gt; 1.7.3、&lt;a href=&quot;https://www.postfix.org/announcements/postfix-3.8.0.html&quot;&gt;postfix 3.8.0&lt;/a&gt; 和 &lt;a href=&quot;https://xorg.freedesktop.org/&quot;&gt;xdpyinfo&lt;/a&gt; 1.3.4。&lt;/p&gt;
-
-&lt;p&gt;于上周五发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/DDGXNL3WWW3T2GYYVYNAXQYLPS2OKNS3/&quot;&gt;20230428&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 3.3.0。audacity 现在支持 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt; 6。&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/ModemManager/&quot;&gt;ModemManager&lt;/a&gt; 更新至 1.20.6，增加了对 5G 调制解调器的额外支持，并修复了 LTE 的未经请求的消息。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 44.1 的更新修复了软件包的几个方面。其中包括修复蓝牙菜单中的占位符对齐、VPN 菜单中的可访问名称以及对浅色主题变体的各种改进。另一个要更新的 GNOME 包是它的窗口管理器 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/mutter&quot;&gt;mutter&lt;/a&gt; 44.1。该更新修复了一些通过键盘调整窗口大小的问题，拖动窗口时的锚点位置问题，该软件包还修复了堵塞的泄漏问题。快照还更新了其他几个包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/05/04/kernel-up-in-tw-devs-seek-volunteers/&quot;&gt;Kernel Updates in Tumbleweed, Development Seeks Volunteers&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/27/%E5%9F%BA%E4%BA%8E-Leap-Micro-5.4-%E7%9A%84-Nextcloud-%E5%AE%B6%E5%BA%AD%E5%AE%9E%E4%BE%8B.html</guid>
-      <title>基于 Leap Micro 5.4 的 Nextcloud 家庭实例</title>
-      <pubDate>Thu, 27 Apr 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/04/27/%E5%9F%BA%E4%BA%8E-Leap-Micro-5.4-%E7%9A%84-Nextcloud-%E5%AE%B6%E5%BA%AD%E5%AE%9E%E4%BE%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>这周是忙碌的一周！ Leap 15.5 进入候选发布阶段！根据路线图，用户可以期待在 6 月 7 日 openSUSE 大会 2023 后不久发布的最终版本。 我们的不可变主机系统 Leap Micro 5.4 的最终版本现已推出。 Leap Micro 5.4 正式发布后，Leap Micro 5.2 将自动被标记为生命周期结束（EOL），因为我们只发布给定版本的安全更新，直到下一个版本发布。我们希望在未来两年内继续使用 5.2 的用户应考虑切换到具有商业支持的 SLE Micro。 SLE Micro 更新使 SELinux 默认进入 enforcing 模式并进行调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机系统。 为了保持安全，Leap Micro 5.2 用户可以进行全新部署，这应该会花费约 5 分钟的时间；或者考虑运行以下操作，这在下一个版本发布之前基本上不会触及主机。Leap Micro 5.3 用户仍然可以保留现有版本并直到下一个 Leap Micro 版本发布前享受更新。我特别提到这一点是为了强调此发行版的零接触性质。 sudo...</description>
-      <content:encoded>&lt;p&gt;这周是忙碌的一周！&lt;/p&gt;
-
-&lt;p&gt;Leap 15.5 进入候选发布阶段！根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#Schedule_for_openSUSE_Leap_15.5&quot;&gt;路线图&lt;/a&gt;，用户可以期待在 6 月 7 日 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC23&quot;&gt;openSUSE 大会 2023&lt;/a&gt; 后不久发布的最终版本。&lt;/p&gt;
-
-&lt;p&gt;我们的不可变主机系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.4/&quot;&gt;Leap Micro 5.4&lt;/a&gt; 的最终版本现已推出。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 5.4 正式发布后，&lt;strong&gt;Leap Micro 5.2 将自动被标记为生命周期结束（EOL）&lt;/strong&gt;，因为我们只发布给定版本的安全更新，直到下一个版本发布。我们希望在未来两年内继续使用 5.2 的用户应考虑切换到具有商业支持的 &lt;a href=&quot;https://www.suse.com/products/micro&quot;&gt;SLE Micro&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;SLE Micro 更新使 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 默认进入 enforcing 模式并进行调整。Leap Micro 不是传统的发行版，而是用于运行虚拟机和容器化工作负载的轻量级主机系统。&lt;/p&gt;
-
-&lt;p&gt;为了保持安全，Leap Micro 5.2 用户可以进行全新部署，这应该会花费约 5 分钟的时间；或者考虑运行以下操作，这在下一个版本发布之前基本上不会触及主机。Leap Micro 5.3 用户仍然可以保留现有版本并直到下一个 Leap Micro 版本发布前享受更新。我特别提到这一点是为了强调此发行版的零接触性质。&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;transactional-update shell
-
-zypper dup &lt;span class=&quot;nt&quot;&gt;--releasever&lt;/span&gt; 5.4
-
-&lt;span class=&quot;nb&quot;&gt;exit
-
-&lt;/span&gt;reboot &lt;span class=&quot;c&quot;&gt;# Enjoy&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这篇文章是我们之前实战上手&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/03/28/%E4%BD%BF%E7%94%A8-Leap-Micro-5.4-Beta-%E5%9C%A8%E5%AE%B6%E4%B8%AD%E4%BD%93%E9%AA%8C%E6%97%A0%E5%B9%BF%E5%91%8A%E7%BD%91%E4%B8%8A%E5%86%B2%E6%B5%AA.html&quot;&gt;文章&lt;/a&gt;的续篇，重点介绍家用 &lt;a href=&quot;https://github.com/pi-hole/pi-hole&quot;&gt;pi-hole&lt;/a&gt; 无广告浏览。&lt;/p&gt;
-
-&lt;p&gt;在本文中，我们将利用上一篇文章中现有的 Pi-hole 并设置一个 &lt;a href=&quot;https://github.com/nextcloud/all-in-one&quot;&gt;Nextcloud AIO&lt;/a&gt; 的家庭实例。这样的解决方案特别适合重视隐私的用户，或者像我一样希望连接 Apple 和 Android 设备的用户。&lt;/p&gt;
-
-&lt;p&gt;加上之前动手操作的说明，本教程应花费不到 15 分钟的时间。&lt;/p&gt;
-
-&lt;h2 id=&quot;我的配置&quot;&gt;我的配置&lt;/h2&gt;
-
-&lt;p&gt;我对 Leap Micro 的个人用例是尽可能多的无广告浏览、本地服务的 DNS 条目，以及一个 &lt;a href=&quot;https://nextcloud.com/&quot;&gt;Nextcloud&lt;/a&gt; 实例作为在我妻子的 iPhone、孩子的平板电脑和我的 Android 手机之间共享图片和视频的桥梁。我的私人家庭服务器配置是 &lt;a href=&quot;https://www.raspberrypi.org/&quot;&gt;Raspberry Pi&lt;/a&gt; 4 8GB 和一块通过 USB 3.0 转 SATA III 连接至 Raspberry 的 1TB SDD。我通过 &lt;a href=&quot;https://www.tp-link.com/de/home-networking/deco/deco-x20/&quot;&gt;TP Link Deco X20&lt;/a&gt; 接入网络。我还使用 Deco 的端口映射和静态公网 IP 向公网公开服务。&lt;/p&gt;
-
-&lt;p&gt;Raspberry Pi 有一个基于其 MAC 地址的保留地址，以保持简单配置。如果你有一个动态公网 IP，你可以考虑一些动态 DNS（DDNS）解决方案。&lt;/p&gt;
-
-&lt;p&gt;我个人很高兴在装载有 Leap Micro 5.3 以及 &lt;a href=&quot;https://pi-hole.net/&quot;&gt;Pi-hole&lt;/a&gt; 的 Raspberry Pi 4 8GB 上使用所描述的设置，以实现无广告浏览和将我的 NextCloud 实例映射到本地地址。&lt;/p&gt;
-
-&lt;p&gt;如果您只想测试一下，虚拟机也可以运行此方案；只需确保虚拟机的虚拟网络接口处于桥接模式或使用传入连接转发。您只需单击两次，即可使用 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 轻松完成设置。否则，您将无法访问虚拟机服务的 Web 管理，并且这篇文章变得毫无意义。&lt;/p&gt;
-
-&lt;p&gt;我在使用 Leap Micro 时得到的好处是机器不需要我的任何关注。该系统有自动更新和自我修复功能。电脑会在（默认设置）定义的维护窗口期内自动重新启动到更新的快照，如果有需要我注意的问题，那么我只需通过 Web 浏览器中的 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 界面解决它。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2023-04/leapmicro54-beta-cockpit-updates.png&quot; alt=&quot;01&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 是一个具有只读根目录的不可变操作系统。openSUSE 通过 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;btrfs&lt;/a&gt; 快照和工具解决了这个问题，这些工具在系统识别到引导至新快照失败时，自动回滚并引导到以前的快照。&lt;/p&gt;
-
-&lt;h2 id=&quot;现有的设置&quot;&gt;现有的设置&lt;/h2&gt;
-
-&lt;p&gt;如上一篇文章所述，用户应该已经拥有在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.4/&quot;&gt;Leap Micro 5.4&lt;/a&gt; 和&lt;strong&gt;他们自己的公共域&lt;/strong&gt;上运行的现有 Pi-hole 设置。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;警告：运行 Nextcloud AIO 需要公共域。&lt;/strong&gt;除非您使用&lt;a href=&quot;https://www.reddit.com/r/NextCloud/comments/q1m2s3/https_on_local_network/&quot;&gt;自签名证书&lt;/a&gt;，否则您将遇到 SSL 错误，这样的设置超出了本文的范围，而且这样的解决方案也不实用。&lt;/p&gt;
-
-&lt;h2 id=&quot;为-nextcloud-创建本地-dns-条目&quot;&gt;为 NextCloud 创建本地 DNS 条目&lt;/h2&gt;
-
-&lt;p&gt;对于本地访问，用户应该创建一个本地 DNS 条目，其中的本地 IP 地址指向预期的域 nextcloud.mydomain.org。&lt;/p&gt;
-
-&lt;h2 id=&quot;部署-nextcloud-aio-容器&quot;&gt;部署 NextCloud AIO 容器&lt;/h2&gt;
-
-&lt;p&gt;只需遵循 &lt;a href=&quot;https://github.com/nextcloud/all-in-one&quot;&gt;https://github.com/nextcloud/all-in-one&lt;/a&gt; 的说明，我就尝试仅使用 podman 运行 AIO 镜像；但是，自述文件提供的解决方案非常依赖 docker，所以您必须使用 podman-docker；此软件包会在下一个 Leap Micro 版本中可用。&lt;/p&gt;
-
-&lt;p&gt;在我的设置中，我确实在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/srv/nextcloud&lt;/code&gt; 下的 Leap Micro 主机上挂载了一个 1TB 的磁盘。&lt;/p&gt;
-
-&lt;p&gt;您可以根据自己的喜好随意调整 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NEXTCLOUD_DATADIR&lt;/code&gt;。我个人在使用 Pi-hole 设置进行域验证时遇到了问题，因此我确实按照自述文件说明使用了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e SKIP_DOMAIN_VALIDATION=true&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;即使在不可变系统上，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/srv&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var&lt;/code&gt; 等目录当然也是可写的。&lt;/p&gt;
-
-&lt;p&gt;如果你正在使用家庭路由器的端口映射来向公网公开服务，你需要从路由器向 Leap Micro 主机公开和映射端口 80、8443 和 3478（对话容器）。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# mkdir -p /srv/nextcloud
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;我的 btrfs 格式的 1TB WD Blue SSD 驱动器的 fstab 条目通过 AXAGON ADSA-1S6 USB 转 SATA 连接器连接到我的 Raspberry Pi。&lt;/p&gt;
-
-&lt;p&gt;您可以使用 blkid 获取您的 UUID：&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# grep nextcloud /etc/fstab&lt;/span&gt;
-
-&lt;span class=&quot;nv&quot;&gt;UUID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;881ab56d-d577-4d12-8014-f5a76f3febe6&quot;&lt;/span&gt; /srv/nextcloud btrfs noatime 0 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;现在让我们部署 Nextcloud AIO 镜像。&lt;/p&gt;
-
-&lt;p&gt;请注意，我们的部署将在重启后继续存在。我强烈建议跳过域验证（示例命令的一部分），尤其是在描述的设置中。&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# docker run \&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--sig-proxy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; nextcloud-aio-mastercontainer &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--restart&lt;/span&gt; always &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--publish&lt;/span&gt; 80:80 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--publish&lt;/span&gt; 8080:8080 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--publish&lt;/span&gt; 8443:8443 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--volume&lt;/span&gt; nextcloud_aio_mastercontainer:/mnt/docker-aio-config &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;--volume&lt;/span&gt; /var/run/docker.sock:/var/run/docker.sock:ro &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;NEXTCLOUD_DATADIR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/srv/nextcloud&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;SKIP_DOMAIN_VALIDATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-nextcloud/all-in-one:latest
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;我们快完成了。剩余内容只是按照浏览器的说明进行操作。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2023-04/leapmicro54-beta-cockpit-updates.png&quot; alt=&quot;01&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/04/27/leap-micro-54-leap-155-enters-rc/&quot;&gt;Home instance of Nextcloud with Leap Micro 5.4, Leap Micro 5.2 is EOL, Leap 15.5 enters RC&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
