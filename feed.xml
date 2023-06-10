@@ -7,6 +7,51 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/08/leap15.5-retrospective.html</guid>
+      <title>Leap 15.5 版本回顾公开征求反馈意见</title>
+      <pubDate>Thu, 08 Jun 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/08/leap15.5-retrospective.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>openSUSE Leap 15.5 于本周早些时候发布，发布团队想听听你关于 openSUSE Leap 15.5 的体验。 有什么进展特别顺利，还是我们错过了什么？你在下载、安装 Leap 15.5 或为 Leap 15.5 做贡献时遇到过问题吗？你喜欢整体的交流吗？ 你只需前往 survey.opensuse.org 并告诉我们。 关于调查 该调查是匿名的，只有两个问题：“哪些事务进展顺利？”和“哪些事务不太顺利？”。 Leap 15.5 版本回顾调查将从发布开始持续两周，直到 6 月 21 日。 我们使用我们自己的 LimeSurvey 实例作为调研平台。 数据将如何使用？ 在此之后，我们将宣布几轮公开审查会议，我们将在会议上审查和分类反馈（查看以前版本的反馈），并尝试提出解决问题的行动项目。 认识团队或个人的机会 如果你想认识一些贡献者，请参与调查！我们将使用它作为版本认可电子感谢邮件的引用内容。openSUSE 团队或个人贡献者都会很高兴看到你欣赏他们的努力！ 欢迎大家帮助我们进行表彰工作，欢迎随时参与 Github 上的讨论。 以前版本的反馈 Leap 15.2 回顾调查结果 Leap 15.3 回顾调查结果 Leap 15.4 回顾调查结果 原文：Leap 15.5...</description>
+      <content:encoded>&lt;p&gt;openSUSE Leap 15.5 于本周早些时候发布，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Release_team&quot;&gt;发布团队&lt;/a&gt;想听听你关于 openSUSE Leap 15.5 的体验。&lt;/p&gt;
+
+&lt;p&gt;有什么进展特别顺利，还是我们错过了什么？你在下载、安装 Leap 15.5 或为 Leap 15.5 做贡献时遇到过问题吗？你喜欢整体的交流吗？&lt;/p&gt;
+
+&lt;p&gt;你只需前往 &lt;a href=&quot;https://survey.opensuse.org/index.php?r=survey/index&amp;amp;sid=129923&amp;amp;lang=en&quot;&gt;survey.opensuse.org&lt;/a&gt; 并告诉我们。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于调查&quot;&gt;关于调查&lt;/h2&gt;
+
+&lt;p&gt;该调查是匿名的，只有两个问题：“哪些事务进展顺利？”和“哪些事务不太顺利？”。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://survey.opensuse.org/index.php?r=survey/index&amp;amp;sid=129923&amp;amp;lang=en&quot;&gt;Leap 15.5 版本回顾调查&lt;/a&gt;将从发布开始持续两周，直到 6 月 21 日。&lt;/p&gt;
+
+&lt;p&gt;我们使用我们自己的 &lt;a href=&quot;https://www.limesurvey.org/&quot;&gt;LimeSurvey&lt;/a&gt; 实例作为调研平台。&lt;/p&gt;
+
+&lt;h2 id=&quot;数据将如何使用&quot;&gt;数据将如何使用？&lt;/h2&gt;
+
+&lt;p&gt;在此之后，我们将宣布几轮公开审查会议，我们将在会议上审查和分类反馈（查看以前版本的反馈），并尝试提出解决问题的行动项目。&lt;/p&gt;
+
+&lt;h2 id=&quot;认识团队或个人的机会&quot;&gt;认识团队或个人的机会&lt;/h2&gt;
+
+&lt;p&gt;如果你&lt;strong&gt;想认识一些贡献者&lt;/strong&gt;，请参与调查！我们将使用它作为版本认可电子感谢邮件的引用内容。openSUSE 团队或个人贡献者都会很高兴看到你欣赏他们的努力！&lt;/p&gt;
+
+&lt;p&gt;欢迎大家帮助我们进行表彰工作，欢迎随时参与 &lt;a href=&quot;https://github.com/openSUSE/artwork/pull/72&quot;&gt;Github&lt;/a&gt; 上的讨论。&lt;/p&gt;
+
+&lt;h2 id=&quot;以前版本的反馈&quot;&gt;以前版本的反馈&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.2/Retrospective&quot;&gt;Leap 15.2 回顾调查结果&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Retrospective&quot;&gt;Leap 15.3 回顾调查结果&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.4/Retrospective&quot;&gt;Leap 15.4 回顾调查结果&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/09/leap-15.5-release-retrospective/&quot;&gt;Leap 15.5 Release Retrospective is open for feedback&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/06/leap.15.6.html</guid>
       <title>openSUSE 项目宣布另一个 Leap 15 小版本的计划</title>
       <pubDate>Tue, 06 Jun 2023 23:30:00 +0000</pubDate>
@@ -631,33 +676,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;Portal:Aeon - openSUSE Wiki&lt;/a&gt;，作者：openSUSE community&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/23/openSUSE-%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A4%BE%E5%8C%BA%E4%BC%9A%E8%AE%AE%E5%B0%86%E4%BA%8E%E5%91%A8%E4%BA%94%E5%BC%80%E5%A7%8B.html</guid>
-      <title>openSUSE 项目的社区会议将于周五开始</title>
-      <pubDate>Tue, 23 May 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/23/openSUSE-%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%A4%BE%E5%8C%BA%E4%BC%9A%E8%AE%AE%E5%B0%86%E4%BA%8E%E5%91%A8%E4%BA%94%E5%BC%80%E5%A7%8B.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>今年的 openSUSE 大会将在大约 72 小时后开始，开源爱好者、贡献者和支持者正在前往德国纽伦堡参加协作社区活动。 会谈将于欧洲中部时间 5 月 26 日上午 9:30 开始，活动将由 c3voc 进行直播；直播链接将在活动开始前发布在 events.opensuse.org 上。日程表列出了从 Geeko 基金会的介绍到基于服务的 Linux 安装程序 Agama 的介绍等大量的话题。 会谈将在活动的两个演示室进行，并在日程表上标记为 Saal 和 Galerie。直播观众可以在活动期间通过与举行演示的房间相对应的两个 Telegram 频道向演讲者提问。有关 Saal 会谈的问题应在 https://t.me/oscsaal Telegram 频道中提出，有关 Galerie 会谈的问题应在 https://t.me/oscgalerie Telegram 频道中提出。只要时间允许，观众可以向演讲者提问。 也有其他与会者可以互动的在线活动。从 Fedora Hatch 活动到 Kubernetes 研讨会，与会者都可以与参与会议的人互动。就像 Telegram 的会谈频道一样，我们鼓励那些举办研讨会的人加入一个与他们的研讨会相对应的 Jitsi 房间。Seminar Raum 1...</description>
-      <content:encoded>&lt;p&gt;今年的 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;将在大约 72 小时后开始，开源爱好者、贡献者和支持者正在前往德国纽伦堡参加协作社区活动。&lt;/p&gt;
-
-&lt;p&gt;会谈将于欧洲中部时间 5 月 26 日上午 9:30 开始，活动将由 &lt;a href=&quot;https://c3voc.de/wiki/events:osc23&quot;&gt;c3voc&lt;/a&gt; 进行直播；直播链接将在活动开始前发布在 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;events.opensuse.org&lt;/a&gt; 上。&lt;a href=&quot;https://events.opensuse.org/conferences/oSC23/schedule&quot;&gt;日程表&lt;/a&gt;列出了从 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt;的介绍到基于服务的 Linux 安装程序 &lt;a href=&quot;https://github.com/openSUSE/agama&quot;&gt;Agama&lt;/a&gt; 的介绍等大量的话题。&lt;/p&gt;
-
-&lt;p&gt;会谈将在活动的两个演示室进行，并在日程表上标记为 Saal 和 Galerie。直播观众可以在活动期间通过与举行演示的房间相对应的两个 Telegram 频道向演讲者提问。有关 Saal 会谈的问题应在 &lt;a href=&quot;https://t.me/oscsaal&quot;&gt;https://t.me/oscsaal&lt;/a&gt; Telegram 频道中提出，有关 Galerie 会谈的问题应在 &lt;a href=&quot;https://t.me/oscgalerie&quot;&gt;https://t.me/oscgalerie&lt;/a&gt; Telegram 频道中提出。只要时间允许，观众可以向演讲者提问。&lt;/p&gt;
-
-&lt;p&gt;也有其他与会者可以互动的在线活动。从 Fedora Hatch 活动到 Kubernetes 研讨会，与会者都可以与参与会议的人互动。就像 Telegram 的会谈频道一样，我们鼓励那些举办研讨会的人加入一个与他们的研讨会相对应的 Jitsi 房间。Seminar Raum 1 中列出的时间表上的研讨会将有一个专用虚拟房间 &lt;a href=&quot;https://meet.opensuse.org/Seminarraum1&quot;&gt;https://meet.opensuse.org/Seminarraum1&lt;/a&gt;，Seminar Raum 2 将有一个专用虚拟房间 &lt;a href=&quot;https://meet.opensuse.org/Seminarraum2&quot;&gt;https://meet.opensuse.org/Seminarraum2&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;社区成员也在会议期间和结束后寻求帮助。视频团队在会议期间需要帮助。当地的团队确实需要帮助，因为如果没有足够的人愿意提供帮助，视频录制、编辑和流式传输可能要求很高。视频团队将于 5 月 26 日上午 9:00 在萨尔开会，所以请加入并帮助团队处理我们的在线收视率和录制的视频。&lt;/p&gt;
-
-&lt;p&gt;还有其他几个领域 openSUSE 社区需要帮助，相关的列表可以在 &lt;a href=&quot;https://etherpad.opensuse.org/p/help&quot;&gt;https://etherpad.opensuse.org/p/help&lt;/a&gt; 查阅。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目的年度 openSUSE 社区活动将来自世界各地的人们聚集在一起见面、协作和学习。openSUSE 大会 2023 通过有组织的演讲、研讨会和聚会会议，为社区提供了一个框架，以增强和改进开源技术和共享项目。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/05/23/projects-community-conference-to-begin-friday/&quot;&gt;Project’s Community Conference to Begin Friday&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
