@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/15/weekly-update.html</guid>
+      <title>Mesa、systemd、Gear 和 Frameworks 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 15 Jun 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/15/weekly-update.html</link>
+      <author>Hanjingxue Boling</author>
+      <description>快速滚动的 openSUSE 在本周为 KDE 爱好者们带来了全新制作的软件。 过去四个已发布的快照有两个与 KDE Gear 和 KDE Frameworks 有关。 快照 20230613 为 Xfce 用户提供了一些帮助。xfce4-panel-profiles 1.0.14 更新了面板布局；新版本修复了安装文件的文件列表和权限。xfce4-panel-profiles 还添加了一些缺失的可翻译标志，并提供了一些文件名一致性。Linux Kernel 更新至 6.3.7，修复了一个可能的内存泄漏问题，对传输控制协议进行了一些增强。内核还修复了 RISC-V 的未使用变量警告。perl-Image-ExifTool 更新至 12.63 版本，添加了对读取 7z 文件的支持，并对某些场景进行了警告。此快照还更新了 libzypp 17.31.13 和 Unicode 双向算法的自由实现 fribidi 1.0.13。 快照 20230612 更新了 3D 图形库 Mesa。Mesa 23.1.2 删除了不再使用的 meson 选项 -Ddri-drivers，VDPAU 功能将不再可用于 Radeon...</description>
+      <content:encoded>&lt;p&gt;快速滚动的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 在本周为 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 爱好者们带来了全新制作的软件。&lt;/p&gt;
+
+&lt;p&gt;过去四个已发布的快照有两个与 &lt;a href=&quot;https://kde.org/announcements/gear/23.04.2/&quot;&gt;KDE Gear&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.107.0/&quot;&gt;KDE Frameworks&lt;/a&gt; 有关。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/F7QOJYOMLHXQTWDNWMSMWRZJ6POOI63C/&quot;&gt;20230613&lt;/a&gt; 为 &lt;a href=&quot;https://www.xfce.org/&quot;&gt;Xfce&lt;/a&gt; 用户提供了一些帮助。&lt;a href=&quot;https://docs.xfce.org/apps/xfce4-panel-profiles/start&quot;&gt;xfce4-panel-profiles&lt;/a&gt; 1.0.14 更新了面板布局；新版本修复了安装文件的文件列表和权限。xfce4-panel-profiles 还添加了一些缺失的可翻译标志，并提供了一些文件名一致性。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 更新至 6.3.7，修复了一个可能的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;问题，对传输控制协议进行了一些增强。内核还修复了 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 的未使用变量警告。&lt;a href=&quot;https://exiftool.org/ExifTool.html&quot;&gt;perl-Image-ExifTool&lt;/a&gt; 更新至 12.63 版本，添加了对读取 7z 文件的支持，并对某些场景进行了警告。此快照还更新了 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.31.13 和 &lt;a href=&quot;https://www.unicode.org/reports/tr9/&quot;&gt;Unicode 双向算法&lt;/a&gt;的自由实现 &lt;a href=&quot;https://github.com/fribidi/fribidi&quot;&gt;fribidi&lt;/a&gt; 1.0.13。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IMTPRQ5RJYSTVJT7AI5GPZA5QAMB5GWD/&quot;&gt;20230612&lt;/a&gt; 更新了 3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;。Mesa 23.1.2 删除了不再使用的 meson 选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Ddri-drivers&lt;/code&gt;，&lt;a href=&quot;https://en.wikipedia.org/wiki/VDPAU&quot;&gt;VDPAU&lt;/a&gt; 功能将不再可用于 &lt;a href=&quot;https://en.wikipedia.org/wiki/Radeon_R300_series&quot;&gt;Radeon R300&lt;/a&gt; 显卡。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 253.5 采用了一种新方法来触发用户管理器对包更新的重新执行，这比以前的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemctl --user -M 1000@daemon-reexec&lt;/code&gt; 命令更安全且问题更少。此快照还发布了 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.107.0/&quot;&gt;KDE Frameworks 5.107.0&lt;/a&gt;。&lt;a href=&quot;https://invent.kde.org/frameworks/kio&quot;&gt;KIO&lt;/a&gt; 访问管理器和相关类已被弃用。如果缩略图目录位于加密卷上，则该软件包还会启用缩略图缓存。&lt;a href=&quot;https://develop.kde.org/frameworks/kirigami/&quot;&gt;Kirigami&lt;/a&gt; 的更新禁用了不可见的快捷方式并禁用了 ActionTextField 中的文本字段，并改进了文档中图标的绘制。作为框架更新的一部分，&lt;a href=&quot;https://api.kde.org/frameworks/kimageformats/html/index.html&quot;&gt;KImageFormats&lt;/a&gt; 的更新改进了图像处理和转换的可靠性和正确性。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 114.0.1 引入了一个用于通过 HTTPS 异常列表管理 DNS 的用户界面，Linux 用户现在可以使用 FIDO2 的 &lt;a href=&quot;https://en.wikipedia.org/wiki/WebAuthn&quot;&gt;WebAuthn&lt;/a&gt; 对 USB 的网络标准支持。&lt;a href=&quot;https://apparmor.net/&quot;&gt;AppArmor&lt;/a&gt; 3.1.5 的更新修复了处理挂载规则，删除了一个补丁，并在 Tumbleweed 构建中加载配置文件时阻止了关于不存在目录的警告。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://github.com/zchunk/zchunk&quot;&gt;zchunk&lt;/a&gt; 1.3.1、&lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.371、&lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 23.1.2 和其他几个。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://kde.org/announcements/gear/23.04.2/&quot;&gt;KDE Gear 23.04.2&lt;/a&gt; 在发布后不到 48 小时就到达了 Tumbleweed。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GYHXGAUGASIXHZCR2KSCC6FW4XABXCMT/&quot;&gt;20230610&lt;/a&gt; 提供了此次更新并且旅行预订包 &lt;a href=&quot;https://github.com/KDE/kitinerary&quot;&gt;kitinerary&lt;/a&gt; 是更新包之一；它增强了爱沙尼亚、立陶宛和拉脱维亚铁路车票的旅行证件解析和提取功能。kitinerary 扩展了对各种文档类型的支持，并提高了数据的准确性和可靠性。视频编辑器 &lt;a href=&quot;https://kdenlive.org/&quot;&gt;Kdenlive&lt;/a&gt; 的更新提供了一个冻结修复、一些性能优化、一个小的 UI 改进，并进行了一些更改以提供更流畅的编辑体验，例如修复了导致滚动到视图外的时间的剪辑拖动问题。KDE Gear 的 &lt;a href=&quot;https://api.kde.org/kdepim/messagelib/html/index.html&quot;&gt;Messagelib&lt;/a&gt; 对电子邮件处理进行了改进，修复了切换电子邮件时的崩溃问题。快照中还有一些其他包需要更新。运行时编译器 &lt;a href=&quot;https://gitlab.freedesktop.org/gstreamer/orc&quot;&gt;orc&lt;/a&gt; 0.4.34 进行了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;持续集成&lt;/a&gt;改进并修复了编译器警告。&lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 5.36.1 的更新解决了正则表达式代码中可能触发解释器崩溃的错误。快照中更新了一些其他软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/7422KZCY6CLFEJNKCZVMMIBBNO4OA24S/&quot;&gt;20230608&lt;/a&gt; 将 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 更新到 4.10.4 版本，解决了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;问题，并进行了修复以避免 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 出现一些黑色闪烁。&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 的更新帮助修复 &lt;a href=&quot;https://www.suse.com/c/suse-salp-raises-the-bar-on-confidential-computing/&quot;&gt;ALP&lt;/a&gt; 的 prefix，并为这个未来的版本添加校准值。&lt;a href=&quot;https://pypi.org/project/setuptools/&quot;&gt;python-setuptools&lt;/a&gt; 67.8.0 的更新进行了修改以确保正确更新 &lt;a href=&quot;https://medium.com/@lyl1617670866/what-exactly-is-the-pth-file-9a487044a36b&quot;&gt;.pth 文件&lt;/a&gt;，并且该软件包还进行了测试以确保 &lt;a href=&quot;https://virtualenv.pypa.io/en/latest/&quot;&gt;virtualenv&lt;/a&gt; 在 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.12 中工作。快照中还更新了一些其他软件包，如 &lt;a href=&quot;https://www.postfix.org/&quot;&gt;postfix&lt;/a&gt; 3.8.1、&lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.6.11 和 &lt;a href=&quot;https://wiki.gnome.org/Apps/Terminal/VTE&quot;&gt;vte&lt;/a&gt; 0.72.2。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/15/mesa-systemd-gear-frameworks-up-in-tw/&quot;&gt;Mesa, systemd, Gear, Frameworks update in Tumbleweed&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/08/leap15.5-retrospective.html</guid>
       <title>Leap 15.5 版本回顾公开征求反馈意见</title>
       <pubDate>Thu, 08 Jun 2023 23:30:00 +0000</pubDate>
@@ -426,256 +451,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/05/30/almalinux-contributes-to-openqa-addes-support-features/&quot;&gt;AlmaLinux Contributes to OpenQA Project, Adds Additional Architectures Support, New Features&lt;/a&gt;，作者：Douglas DeMaio &amp;amp; Andrew Lukoshko&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/27/opensuse-aeon.html</guid>
-      <title>欢迎新的分支：openSUSE Aeon！</title>
-      <pubDate>Sat, 27 May 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/27/opensuse-aeon.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>TL;DR 2023 年 5 月 27 日，Richard Brown 宣布 openSUSE MicroOS Desktop 更名为 openSUSE Aeon。 openSUSE Aeon 仅提供带有 GNOME 桌面环境和基本配置工具的最小基础系统。所有应用程序、浏览器、编解码器等均由 flathub 分发的 flatpak 软件包提供。 请注意！openSUSE Aeon 仍处于 RC 阶段，仍然有许多事情等待迁移和处理。 请关注官方推特：https://twitter.com/AeonDesktop openSUSE Aeon Wiki 页面在：https://en.opensuse.org/Portal:Aeon openSUSE Aeon 已经注册了一个域名：https://aeondesktop.org 搭载 KDE Plasma 桌面环境的 MicroOS Desktop 将被命名为 openSUSE Kalpa。 openSUSE Aeon 适合谁？ Aeon...</description>
-      <content:encoded>&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
-
-&lt;p&gt;2023 年 5 月 27 日，&lt;a href=&quot;https://t.me/openSUSE_Aeon/33344&quot;&gt;Richard Brown&lt;/a&gt; 宣布 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Desktop&quot;&gt;openSUSE MicroOS Desktop&lt;/a&gt; 更名为 &lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;openSUSE Aeon&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Aeon 仅提供带有 GNOME 桌面环境和基本配置工具的最小基础系统。所有应用程序、浏览器、编解码器等均由 &lt;a href=&quot;https://flathub.org/&quot;&gt;flathub&lt;/a&gt; 分发的 &lt;a href=&quot;https://flatpak.org/&quot;&gt;flatpak&lt;/a&gt; 软件包提供。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;请注意！&lt;/strong&gt;openSUSE Aeon 仍处于 RC 阶段，仍然有许多事情等待迁移和处理。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;请关注官方推特：&lt;a href=&quot;https://twitter.com/AeonDesktop&quot;&gt;https://twitter.com/AeonDesktop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openSUSE Aeon Wiki 页面在：&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;https://en.opensuse.org/Portal:Aeon&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;openSUSE Aeon 已经注册了一个域名：&lt;a href=&quot;https://aeondesktop.org&quot;&gt;https://aeondesktop.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;搭载 KDE Plasma 桌面环境的 MicroOS Desktop 将被命名为 &lt;a href=&quot;https://en.opensuse.org/Portal:Kalpa&quot;&gt;openSUSE Kalpa&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;opensuse-aeon-适合谁&quot;&gt;openSUSE Aeon 适合谁？&lt;/h2&gt;
-
-&lt;p&gt;Aeon 不适合所有人。高度可定制的 Tumbleweed &amp;amp; Leap 桌面是稳妥的，对于那些想要修改桌面的人来说仍然是最佳选择。&lt;/p&gt;
-
-&lt;p&gt;对于懒惰的开发人员来说，它应该是完美的选择，他们不想再摆弄他们的桌面，只想“把事情做好”，尤其是当他们围绕容器进行开发时。&lt;/p&gt;
-
-&lt;p&gt;它还应该会吸引那些现在更习惯于类似于 iOS、Chromebook 或 Android 体验的受众，其中操作系统是静态的、自动化的和可靠的，而应用程序是用户关心的主要内容。&lt;/p&gt;
-
-&lt;p&gt;要深入了解 openSUSE Aeon 的起源和原因，请查看以下研讨会：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jcl_4Vh6qP4&quot;&gt;MicroOS Desktop - The Road to Daily Driving&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;设计目标&quot;&gt;设计目标&lt;/h2&gt;
-
-&lt;p&gt;Aeon 应该是可靠的、可预测的和不可变的，就像 openSUSE MicroOS 一样。&lt;/p&gt;
-
-&lt;p&gt;Aeon 的可定制性应该不如常规的 openSUSE Tumbleweed/Leap。&lt;/p&gt;
-
-&lt;p&gt;Aeon 应该很小，但不能以牺牲功能为代价。打印、游戏、媒体制作等功能都应该可以使用。&lt;/p&gt;
-
-&lt;p&gt;Aeon 应该“开箱即用”，无需额外配置即可获得软件安装和网页浏览等关键功能。默认提供的所有功能都应该可用——不可用的功能不应向用户提供/可见/可用。&lt;/p&gt;
-
-&lt;h2 id=&quot;如何下载和安装&quot;&gt;如何下载和安装&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;安装介质目前只能以项目的旧名称 “MicroOS Desktop” 提供。&lt;/li&gt;
-  &lt;li&gt;请从 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Downloads&quot;&gt;https://en.opensuse.org/Portal:MicroOS/Downloads&lt;/a&gt; 下载 openSUSE MicroOS base ISO 镜像。&lt;/li&gt;
-  &lt;li&gt;将 ISO 写入 USB 驱动器并开始安装过程。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;按偏好顺序安装应用程序的方法&quot;&gt;按偏好顺序安装应用程序的方法&lt;/h2&gt;
-
-&lt;p&gt;现在你已经安装了 Aeon，你可能想安装软件。&lt;/p&gt;
-
-&lt;p&gt;因为 Aeon 只提供一个带有桌面环境的最小基础系统，所以它被设计成默认只带有基本的配置工具。&lt;/p&gt;
-
-&lt;p&gt;因此，全部的应用程序、浏览器和特定程序依赖的编解码器等软件包使用由 &lt;a href=&quot;https://flathub.org/&quot;&gt;flathub&lt;/a&gt; 提供的 flatpak 软件包。&lt;/p&gt;
-
-&lt;p&gt;为了让用户更轻松地完成此过程，包含所有可用 flatpak 包的 Flathub 存储库已集成至选定的软件中心（Gnome 桌面环境的 &lt;a href=&quot;https://apps.gnome.org/app/org.gnome.Software/&quot;&gt;Software&lt;/a&gt; 和 KDE Plasma 桌面环境的 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt;）。这样，你就可以简单地以一种无缝和集成的方式搜索和找到所有你喜欢的应用程序。&lt;/p&gt;
-
-&lt;p&gt;虽然还有其他安装软件的方法，但请务必记住，我们强烈建议按照以下优先顺序安装软件：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;从软件中心或 Flathub 获取的 flatpak 包；&lt;/li&gt;
-  &lt;li&gt;在 user &lt;a href=&quot;https://distrobox.privatedns.org/&quot;&gt;distrobox&lt;/a&gt; &lt;em&gt;distrobox-enter&lt;/em&gt; 中安装的 RPM 包；&lt;/li&gt;
-  &lt;li&gt;在 root distrobox &lt;em&gt;distrobox-enter -r&lt;/em&gt; 中安装的 RPM 包；&lt;/li&gt;
-  &lt;li&gt;通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 获得的 RPM 包，如驱动、内核模块，严格来说是你的主机操作系统工作所需要的软件包。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;重申一下：一切都应该通过 flatpak 完成，或者如果一个包不能作为 flatpak 提供，则应安装在 Distrobox 中。请使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 获取严格来说是你的主机操作系统工作所需要的东西（如奇异的驱动程序，专门的 vpn 服务）。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;注意：Aeon 默认预装了 Distrobox。该工具允许你以普通用户权限，在终端内安装任何的 Linux 发行版。对于那些想通过 Distrobox 运行 GUI 应用程序的人来说，可以使用特殊的导出命令来实现，这样你会感觉应用程序更原生并与系统集成度更高。请查看  &lt;a href=&quot;https://en.opensuse.org/Portal:Aeon#DistroBox&quot;&gt;Distrobox 部分&lt;/a&gt;以了解有关从主机菜单启动器启动基于 Distrobox 的应用程序的便捷方式的更多信息。&lt;/p&gt;
-
-&lt;h3 id=&quot;transactional-update---介绍&quot;&gt;transactional-update - 介绍&lt;/h3&gt;
-
-&lt;p&gt;openSUSE Aeon &lt;strong&gt;没有&lt;/strong&gt;像 openSUSE Tumbleweed 或 Leap 那样直接使用 zypper 安装 RPM 包。Aeon 在后台使用带有 zypper 的 &lt;strong&gt;transactional-update&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;大多数情况下，你不需要交互使用这些命令，因为 Aeon 通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update.service&lt;/code&gt; systemd 服务实现了系统自动更新。&lt;/p&gt;
-
-&lt;h3 id=&quot;transactional-update---示例命令&quot;&gt;transactional-update - 示例命令&lt;/h3&gt;
-
-&lt;p&gt;下面列出了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 的命令。&lt;strong&gt;注意：&lt;/strong&gt;请记住在命令完成后重新启动系统以查看更改！&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update pkg install package_name&lt;/code&gt; 安装 rpm 包&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update pkg remove package_name&lt;/code&gt; 删除 rpm 包&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update dup&lt;/code&gt; 将系统升级到下一个版本&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update shell&lt;/code&gt; 打开下一个快照的 shell（你可以在那里使用 zypper 命令）。&lt;strong&gt;这应该只用于调试目的。&lt;/strong&gt;任何只能通过使用 transactional-update shell 重现的错误报告几乎肯定会作为 WONTFIX 关闭。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;transactional-update---自动更新&quot;&gt;transactional-update - 自动更新&lt;/h3&gt;
-
-&lt;p&gt;默认情况下，用于处理系统的自动更新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update.timer&lt;/code&gt; 被设置为每天更新，即更新任务将在每天的 00:00:00 执行。&lt;/p&gt;
-
-&lt;p&gt;如果这可能是在计算机关闭的时候，因为 timer 被设置为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;persistance=true&lt;/code&gt;，那么更新将在第一时间发生。&lt;/p&gt;
-
-&lt;p&gt;可能无法触发更新的一些原因如下：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;电脑关机了&lt;/li&gt;
-  &lt;li&gt;在预定的时间，网络连接受到干扰。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;要避免自动重启：&lt;/p&gt;
-
-&lt;p&gt;请查看故障排除部分的&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon#Unexpected_reboot&quot;&gt;意外重启&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;由于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 的工作方式，这应该不会造成问题，因为新的软件包被安装在一个新的快照上，为了使其生效，你必须重启系统。&lt;/p&gt;
-
-&lt;p&gt;要跟踪 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 是否能够升级并正确运行，你可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;journalctl&lt;/code&gt;：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo journalctl -u transactional-update.service 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;你还可以使用带有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-f&lt;/code&gt; 标志的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;journalctl&lt;/code&gt; 来实时追踪日志。&lt;/p&gt;
-
-&lt;h3 id=&quot;transactional-update---关于快照和启动行为的最后一句话&quot;&gt;transactional-update - 关于快照和启动行为的最后一句话&lt;/h3&gt;
-
-&lt;p&gt;默认情况下，每条 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 命令都会产生一个单独的、完备的，包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 命令所要求的变化的快照。&lt;/p&gt;
-
-&lt;p&gt;此快照&lt;strong&gt;基于最后已知的良好/已启动快照。&lt;/strong&gt;由多个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 命令产生的最后一个快照会在重启时生效。&lt;/p&gt;
-
-&lt;p&gt;换句话说，如果你运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update pkg install $pkg1&lt;/code&gt;，然后 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update pkg install $pkg2&lt;/code&gt;，然后重启，你会发现新系统安装了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg2&lt;/code&gt;，而不是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg1&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;这是预期的，也是合理的默认行为——Aeon 总是希望以最小的、最不具破坏性的方式从最后一个已知的良好/已启动的快照转移到新的状态。&lt;/p&gt;
-
-&lt;p&gt;当你认为 Aeon 的默认/预期行为是自动更新，而大多数用户根本就不应该交互式地使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 时，这一点就特别合理。由于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update dup&lt;/code&gt; 经常在后台自动发生，Aeon 希望确保它只更新到最新的干净的系统更新状态，而不是一些奇怪的混合体，即以前未启动的、未检查的、中间的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update dup&lt;/code&gt; 从未被启动过。&lt;/p&gt;
-
-&lt;p&gt;然而，当忽略这一最佳实践并以交互方式使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 时，有时你可能希望针对现有的、未启动的，未知的快照运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;这时，请使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update --continue&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;如下：&lt;/p&gt;
-
-&lt;p&gt;在运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update pkg install $pkg1&lt;/code&gt; 之后，运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo transactional-update --continue pkg install $pkg2&lt;/code&gt;；这将安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg1&lt;/code&gt;，然后在包含 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg1&lt;/code&gt; 的同一快照中安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg2&lt;/code&gt;，并将该组合快照标记为下一个启动目标。&lt;/p&gt;
-
-&lt;p&gt;然而，如果出现问题，也不会有额外的复杂性，因为用户需要回滚到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg1&lt;/code&gt; 安装前的快照，返回到最后已知的良好状态，从而弄清楚是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg1&lt;/code&gt; 还是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$pkg2&lt;/code&gt; 破坏了什么东西。&lt;/p&gt;
-
-&lt;h2 id=&quot;gnome-software--flathub-集成&quot;&gt;GNOME Software + Flathub 集成&lt;/h2&gt;
-
-&lt;p&gt;Gnome 目前处于 &lt;strong&gt;RC&lt;/strong&gt; 阶段。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第一次启动时，系统将默认启用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flatpak&lt;/code&gt;，并安装一些 flatpak 包（&lt;a href=&quot;https://flathub.org/apps/org.mozilla.firefox&quot;&gt;Mozilla Firefox&lt;/a&gt;、&lt;a href=&quot;https://flathub.org/apps/org.gnome.TextEditor&quot;&gt;文本编辑器&lt;/a&gt;、&lt;a href=&quot;https://flathub.org/apps/org.gnome.Calculator&quot;&gt;Gnome 计算器&lt;/a&gt;和&lt;a href=&quot;https://flathub.org/apps/com.mattjakeman.ExtensionManager&quot;&gt;扩展管理器&lt;/a&gt;）。&lt;/li&gt;
-  &lt;li&gt;第一次启动脚本完成后，你可以打开 Gnome Software，从 flathub 上安装更多的软件。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kde-discover--flathub-集成&quot;&gt;KDE Discover + Flathub 集成&lt;/h2&gt;
-
-&lt;p&gt;KDE 目前处于 &lt;strong&gt;ALPHA&lt;/strong&gt; 阶段。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第一次登录时，Discover 的 flathub 存储库将自动启用，并默认安装一些 flatpak 应用（&lt;a href=&quot;https://flathub.org/apps/org.mozilla.firefox&quot;&gt;Mozilla Firefox&lt;/a&gt; 和 &lt;a href=&quot;https://flathub.org/apps/org.kde.kcalc&quot;&gt;kCalc&lt;/a&gt;）。文本编辑器 kate 仍然通过基本镜像中的 RPM 提供（到目前为止它还不能通过 flatpak 完全操作）。&lt;/li&gt;
-  &lt;li&gt;注意，对于主题美化，以正常方式安装的全局主题在 KDE Plasma 中是无效的，但是你可以通过 Discover 直接安装组件。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;distrobox&quot;&gt;DistroBox&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://distrobox.privatedns.org/&quot;&gt;Distrobox&lt;/a&gt; 可以像 &lt;a href=&quot;https://containertoolbx.org/&quot;&gt;toolbox&lt;/a&gt; 一样使用（默认情况下包含在服务器版本的 MicroOS 中），但对于桌面情景还有一些其他优势。有关所有选项，请参阅 &lt;a href=&quot;https://github.com/89luca89/distrobox&quot;&gt;https://github.com/89luca89/distrobox&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;故障排除&quot;&gt;故障排除&lt;/h2&gt;
-
-&lt;p&gt;本节描述了 openSUSE Aeon 上的已知问题和它们的解决方案。&lt;/p&gt;
-
-&lt;h3 id=&quot;设置-hostname&quot;&gt;设置 hostname&lt;/h3&gt;
-
-&lt;p&gt;因为目前它还不能从 Gnome 设置中设定，请使用以下命令设置你的主机名：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo hostnamectl set-hostname &amp;lt;new name&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;重启后，主机名的改变将生效。&lt;/p&gt;
-
-&lt;h3 id=&quot;调整-transactional-updatetimer&quot;&gt;调整 transactional-update.timer&lt;/h3&gt;
-
-&lt;p&gt;根据你的日常使用情况，即使在 persistent=true 的情况下，定时器也可能无法成功触发自动更新过程，因为它会在每次启动时使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RandomizedDelaySec=&lt;/code&gt; 添加随机延迟。&lt;/p&gt;
-
-&lt;p&gt;如果你想每天自动更新你的系统，你可能会发现你需要调整所述的延迟。&lt;/p&gt;
-
-&lt;p&gt;编辑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update.timer&lt;/code&gt;（创建 override.conf 文件）：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo systemctl edit transactional-update.timer
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;编辑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Timer]&lt;/code&gt; 部分下的一行：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;RandomizedDelaySec=5m
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;上面的例子是针对最大 5 分钟的随机延迟（默认值是 2 小时）。&lt;/p&gt;
-
-&lt;p&gt;更多信息可以参考&lt;a href=&quot;https://www.freedesktop.org/software/systemd/man/systemd.time.html&quot;&gt;此文&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;从-flathub-安装的-steam-protonbottleswinelutrisandroid-studio-emulator-无法工作&quot;&gt;从 flathub 安装的 Steam Proton、Bottles、WINE、Lutris、Android Studio emulator 无法工作。&lt;/h3&gt;
-
-&lt;p&gt;如果你在使用 WINE 以及 flatpak 中基于 WINE 的程序时遇到问题，这很可能是由于 SELinux 的问题，可以通过运行如下命令来检查：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo getsebool selinuxuser_execmod
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;对于 Android Studio：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo getsebool selinuxuser_execstack
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;如果返回结果是 “selinuxuser_execmod –&amp;gt; disabled” 和 “selinuxuser_execstack –&amp;gt; disabled”，你将需要启用它。这可以临时进行（在下次启动时重置）。&lt;/p&gt;
-
-&lt;p&gt;对于 WINE：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo setsebool selinuxuser_execmod 1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;对于 Android Studio：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo setsebool selinuxuser_execstack 1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;或者可以设置为持久性：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sudo setsebool -P selinuxuser_execmod 1
-# sudo setsebool -P selinuxuser_execstack 1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;openSUSE 安全团队正在审查这些默认策略，你需要自己承担启用这些策略的风险。请参阅 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1206292&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1206292&lt;/a&gt; 和 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1206789&quot;&gt;https://bugzilla.opensuse.org/show_bug.cgi?id=1206789&lt;/a&gt; 了解更多信息。&lt;/p&gt;
-
-&lt;h2 id=&quot;交流场所&quot;&gt;交流场所&lt;/h2&gt;
-
-&lt;p&gt;openSUSE Aeon 有许多可以讨论整个项目的地方：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/openSUSE_MicroOS_Desktop&quot;&gt;https://t.me/openSUSE_MicroOS_Desktop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Matrix: &lt;a href=&quot;https://matrix.to/#/#microos-desktop:opensuse.org&quot;&gt;https://matrix.to/#/#microos-desktop:opensuse.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Discord: &lt;a href=&quot;https://discord.gg/opensuse&quot;&gt;https://discord.gg/opensuse&lt;/a&gt; #MicroOS-Desktop 频道&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;所有这些渠道都是通过 &lt;a href=&quot;https://matrix.org/&quot;&gt;Matrix&lt;/a&gt; 连接在一起的，所以你在一个渠道中发送的评论，就会在另外两个渠道中被看到。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;Portal:Aeon - openSUSE Wiki&lt;/a&gt;，作者：openSUSE community&lt;/p&gt;
 </content:encoded>
     </item>
 
