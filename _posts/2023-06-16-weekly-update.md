@@ -54,7 +54,7 @@ tags:
 [hwdata]: https://github.com/vcrhonek/hwdata
 [xwayland]: https://wayland.freedesktop.org/xserver.html
 
-[KDE Gear 23.04.2] 在发布后不到 48 小时就到达了 Tumbleweed。快照 [20230610] 提供了此处更新并且旅行预订包 [kitinerary] 是更新包之一；它增强了爱沙尼亚、立陶宛和拉脱维亚铁路车票的旅行证件解析和提取功能。kitinerary 扩展了对各种文档类型的支持，并提高了数据的准确性和可靠性。视频编辑器 [Kdenlive] 的更新提供了一个冻结修复、一些性能优化、一个小的 UI 改进，并进行了一些更改以提供更流畅的编辑体验，例如修复了导致滚动到视图外的时间的剪辑拖动问题。KDE Gear 的 [Messagelib] 对电子邮件处理进行了改进，修复了切换电子邮件时的崩溃问题。快照中还有一些其他包需要更新。运行时编译器 [orc] 0.4.34 进行了一些[持续集成]改进并修复了编译器警告。[Perl] 5.36.1 的更新解决了正则表达式代码中可能触发解释器崩溃的错误。快照中更新了一些其他软件包。
+[KDE Gear 23.04.2] 在发布后不到 48 小时就到达了 Tumbleweed。快照 [20230610] 提供了此次更新并且旅行预订包 [kitinerary] 是更新包之一；它增强了爱沙尼亚、立陶宛和拉脱维亚铁路车票的旅行证件解析和提取功能。kitinerary 扩展了对各种文档类型的支持，并提高了数据的准确性和可靠性。视频编辑器 [Kdenlive] 的更新提供了一个冻结修复、一些性能优化、一个小的 UI 改进，并进行了一些更改以提供更流畅的编辑体验，例如修复了导致滚动到视图外的时间的剪辑拖动问题。KDE Gear 的 [Messagelib] 对电子邮件处理进行了改进，修复了切换电子邮件时的崩溃问题。快照中还有一些其他包需要更新。运行时编译器 [orc] 0.4.34 进行了一些[持续集成]改进并修复了编译器警告。[Perl] 5.36.1 的更新解决了正则表达式代码中可能触发解释器崩溃的错误。快照中更新了一些其他软件包。
 
 [KDE Gear 23.04.2]: https://kde.org/announcements/gear/23.04.2/
 [20230610]: https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GYHXGAUGASIXHZCR2KSCC6FW4XABXCMT/
