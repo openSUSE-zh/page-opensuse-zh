@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/29/weekly-update.html</guid>
+      <title>Kdump 和 firewalld 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 29 Jun 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/29/weekly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 本周正在稳步推出快照。 快照不大，但是一致的。 快照 20230628 提供了一些小更改，重点是删除一些过时的机制并在一些方面进行了清理，以帮助确定 Python 的未来方向。 快照 20230627 是本周较大的快照之一，它提供了 gegl、kdump、pipwire、strace 等软件包的更新。图形包 gegl 更新至 0.4.46 版本。该软件包提供了一些错误修复和性能改进，并重新启用了弃用警告。内核崩溃转储包 kdump 更新至 1.9.2 版本；该更新提供了一些增强功能，例如重写 kdump-save，并更新其他部分，以确保挂载现在完全由 dracut 处理。音频压缩包 flac 更新至 1.4.3 版本，提高了所有预设的编码器速度，并且对最快预设以及 24 位和 32 位输入进行了重大改进。多媒体框架 pipwire 0.3.72 修复了拒绝更新 JACK 客户端的严重错误，并且对 ALSA 进行了一些音频增强。Strace 6.4 和 perl-Bootloader 1.4 是快照中更新的其他几个软件包之一。 快照 20230626 中唯一更新的软件包是低级信号处理库 spandsp；更新后的 3.0.0 git...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周正在稳步推出快照。&lt;/p&gt;
+
+&lt;p&gt;快照不大，但是一致的。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LTA22K7AU76KPQ665J2725MAOWTMQRFD/&quot;&gt;20230628&lt;/a&gt; 提供了一些小更改，重点是删除一些过时的机制并在一些方面进行了清理，以帮助确定 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 的未来方向。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZACFCXQN24VNHQBWM2Y7S25VS2RZT5AL/&quot;&gt;20230627&lt;/a&gt; 是本周较大的快照之一，它提供了 &lt;a href=&quot;https://www.gegl.org/&quot;&gt;gegl&lt;/a&gt;、&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt;、&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipwire&lt;/a&gt;、&lt;a href=&quot;https://strace.io/&quot;&gt;strace&lt;/a&gt; 等软件包的更新。图形包 &lt;a href=&quot;https://www.gegl.org/&quot;&gt;gegl&lt;/a&gt; 更新至 0.4.46 版本。该软件包提供了一些错误修复和性能改进，并重新启用了弃用警告。内核崩溃转储包 &lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 更新至 1.9.2 版本；该更新提供了一些增强功能，例如重写 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kdump-save&lt;/code&gt;，并更新其他部分，以确保挂载现在完全由 &lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 处理。音频压缩包 &lt;a href=&quot;https://xiph.org/flac/&quot;&gt;flac&lt;/a&gt; 更新至 1.4.3 版本，提高了所有预设的编码器速度，并且对最快预设以及 24 位和 32 位输入进行了重大改进。多媒体框架 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipwire&lt;/a&gt; 0.3.72 修复了拒绝更新 &lt;a href=&quot;https://jackaudio.org/&quot;&gt;JACK&lt;/a&gt; 客户端的严重错误，并且对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 进行了一些音频增强。&lt;a href=&quot;https://strace.io/&quot;&gt;Strace&lt;/a&gt; 6.4 和 &lt;a href=&quot;https://github.com/openSUSE/perl-bootloader&quot;&gt;perl-Bootloader&lt;/a&gt; 1.4 是快照中更新的其他几个软件包之一。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/5GFCFV42EGIJ7QJYCD6KQVCFESFKY7KQ/&quot;&gt;20230626&lt;/a&gt; 中唯一更新的软件包是低级信号处理库 &lt;a href=&quot;https://github.com/freeswitch/spandsp&quot;&gt;spandsp&lt;/a&gt;；更新后的 3.0.0 git + 版本进行了一些修改，旨在减轻与缓冲区溢出、内存损坏以及因将过多数据复制到输出缓冲区中而可能出现的其他潜在问题有关的问题。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/QSBXBWGHZS4ZX6YSNG4LPASXYY5FFC5V/&quot;&gt;20230625&lt;/a&gt; 更新了两个软件包。&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 更新至新的主要版本。firewalld 2.0 获得了对 &lt;a href=&quot;https://git.netfilter.org/nftables/&quot;&gt;nftables&lt;/a&gt; flowtable 的支持，预计将加速 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transmission_Control_Protocol&quot;&gt;TCP&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/User_Datagram_Protocol&quot;&gt;UDP&lt;/a&gt; 议流。firewalld 还获得了一个名为 “&lt;a href=&quot;https://github.com/firewalld/firewalld/pull/1101&quot;&gt;Zone Priorities&lt;/a&gt;” 的新功能，该功能允许用户控制数据包分类到区域的顺序；可以使用命令行选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--set-priority&lt;/code&gt; 进行设置。快照中要更新的另一个软件包是身份管理客户端 &lt;a href=&quot;https://sssd.io/&quot;&gt;sssd&lt;/a&gt; 2.9.1。sssd 修复了几个回归问题，其中包括当 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cache_first&lt;/code&gt; 设置为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; 时，影响基于内核的自动挂载器 &lt;a href=&quot;https://mirrors.edge.kernel.org/pub/linux/daemons/autofs/&quot;&gt;autofs&lt;/a&gt; 的查找的回归问题。&lt;/p&gt;
+
+&lt;p&gt;快照 20230625 更新了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 和 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;，但 &lt;a href=&quot;https://libvnc.github.io/&quot;&gt;LibVNCServer&lt;/a&gt; 0.9.14 有几处变化需要强调。LibVNCServer 修复了与 &lt;a href=&quot;https://www.gnutls.org/&quot;&gt;GnuTLS&lt;/a&gt; 服务器的一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;TLS&lt;/a&gt; 互操作性，删除了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2020-29260.html&quot;&gt;CVE-2020-29260&lt;/a&gt; 补丁并添加了对 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 扩展按键事件的支持。Mesa 23.1.3 更新修复了与 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1209005&quot;&gt;boo#1209005&lt;/a&gt; 相关的回归，该回归在某些情况下导致崩溃。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 更新至 6.3.9 版本，解决了与 &lt;a href=&quot;https://en.wikipedia.org/wiki/X86&quot;&gt;x86&lt;/a&gt; 架构相关的问题，即在安装新的&lt;a href=&quot;https://en.wikipedia.org/wiki/Global_Descriptor_Table&quot;&gt;全局描述符表（GDT）&lt;/a&gt;后立即执行切换。与监管&lt;a href=&quot;https://www.wi-fi.org/&quot;&gt;无线设备通道验证&lt;/a&gt;相关的无线网络子系统也发生了变化。快照中要更新的另一个软件包是 &lt;a href=&quot;https://www.linuxfromscratch.org/blfs/view/svn/server/sendmail.html&quot;&gt;sendmail&lt;/a&gt; 8.17.2。该软件包改进了 TLS 设置失败的错误处理，引入了与&lt;a href=&quot;https://en.wikipedia.org/wiki/International_email&quot;&gt;电子邮件地址国际化&lt;/a&gt;支持相关的各种改进，并通过维护 &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities&quot;&gt;DANE&lt;/a&gt; 要求来提高安全性。快照中更新了其他几个包。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/30/kdump-firewalld-up-in-tw/&quot;&gt;Kdump, firewalld update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/20/CFP.html</guid>
       <title>openSUSE.Asia Summit 2023 演讲征集现已启动</title>
       <pubDate>Tue, 20 Jun 2023 06:30:00 +0000</pubDate>
@@ -454,73 +481,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/01/openSUSE-Asia-2023-CFL/&quot;&gt;openSUSE.Asia Summit 2023 Logo Competition Announcement&lt;/a&gt;，作者：openSUSE Asia Summit Chongqing Team&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/31/openSUSE-MicroOS.html</guid>
-      <title>MicroOS Desktop 有了新名字</title>
-      <pubDate>Wed, 31 May 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/05/31/openSUSE-MicroOS.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>新名字！ 正如 Richard Brown 在 openSUSE 大会 2023 上的演讲《Why you should be running the MicroOS Desktop》中所见，我们很高兴地宣布 MicroOS Desktop GNOME 和 MicroOS Desktop Plasma 有了新名字。 MicroOS Desktop GNOME 现在被称为：openSUSE Aeon。 MicroOS Desktop Plasma 现在被称为：openSUSE Kalpa。 为什么改变名字？ 简单的说？microOS 产品命名空间越来越拥挤。这会导致一定程度的混乱，并导致一些支持问题。 目前，使用 “microOS” 一词的产品包括： openSUSE MicroOS openSUSE Leap Micro SUSE Linux Enterprise Micro openSUSE...</description>
-      <content:encoded>&lt;h2 id=&quot;新名字&quot;&gt;新名字！&lt;/h2&gt;
-
-&lt;p&gt;正如  Richard Brown 在 openSUSE 大会 2023 上的演讲《&lt;a href=&quot;https://www.youtube.com/watch?v=lKYLF1tA4Ik&quot;&gt;Why you should be running the MicroOS Desktop&lt;/a&gt;》中所见，我们很高兴地宣布 MicroOS Desktop GNOME 和 MicroOS Desktop Plasma 有了新名字。&lt;/p&gt;
-
-&lt;p&gt;MicroOS Desktop GNOME 现在被称为：&lt;a href=&quot;https://aeondesktop.org/&quot;&gt;openSUSE Aeon&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;MicroOS Desktop Plasma 现在被称为：&lt;a href=&quot;https://kalpadesktop.org/&quot;&gt;openSUSE Kalpa&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;为什么改变名字&quot;&gt;为什么改变名字？&lt;/h2&gt;
-
-&lt;p&gt;简单的说？microOS 产品命名空间越来越拥挤。这会导致一定程度的混乱，并导致一些支持问题。&lt;/p&gt;
-
-&lt;p&gt;目前，使用 “microOS” 一词的产品包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;openSUSE MicroOS&lt;/li&gt;
-  &lt;li&gt;openSUSE Leap Micro&lt;/li&gt;
-  &lt;li&gt;SUSE Linux Enterprise Micro&lt;/li&gt;
-  &lt;li&gt;openSUSE MicroOS Desktop GNOME&lt;/li&gt;
-  &lt;li&gt;openSUSE MicroOS Desktop Plasma&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我想我们都同意，当有人加入某种支持论坛时，无论是 Matrix/Telegram/forums/IRC/等，并说“我正在运行 microOS，但我遇到了问题”，那么不可避免的问题是必须要问“哪个 microOS？”。&lt;/p&gt;
-
-&lt;p&gt;就其本质而言，桌面产品与服务器产品是完全不同的情景，并且具有完全不同的支持需求。&lt;/p&gt;
-
-&lt;p&gt;并且每次你想告诉别人你的机器上正在运行什么时，需要输入很长的 “openSUSE MicroOS Desktop GNOME”。&lt;/p&gt;
-
-&lt;h2 id=&quot;为什么叫-aeon--kalpa&quot;&gt;为什么叫 Aeon &amp;amp; Kalpa?&lt;/h2&gt;
-
-&lt;p&gt;你可能不禁发问，为什么使用这些名字？&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Aeon&quot;&gt;Aeon&lt;/a&gt; - （哲学上）不可估量的或无限长的时间，一种从永恒存在的力量。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Kalpa_(time)&quot;&gt;Kalpa&lt;/a&gt; -&lt;/p&gt;
-
-&lt;p&gt;正如 Aeon 和 Kalpa 的设计目标所述，我们希望产品能够持久，由于更新的原子性和核心系统的不可改变性，我们的目标是建立一个系统，你只需安装一次，然后不必关心它，以及提供开发人员需要的功能和工具，而不需要在安装后经常耗费大量时间的繁琐的调整和定制。&lt;/p&gt;
-
-&lt;p&gt;所以这些名字是很合适的。Aeon 是通过一些投票和讨论，由 Richard 选择的 MicroOS Desktop GNOME 的新名字，因为它是最接近发布的产品，并且拥有最活跃的开发，以及更大的用户群。&lt;/p&gt;
-
-&lt;p&gt;Kalpa 被选为 MicroOS Desktop Plasma 的新名字，因为它的概念与 Aeon 大致相同，而且为了向 KDE 致敬，它自然地以 “K” 开头，就像 KDE 项目的许多软件一样。&lt;/p&gt;
-
-&lt;h2 id=&quot;这对用户意味着什么&quot;&gt;这对用户意味着什么？&lt;/h2&gt;
-
-&lt;p&gt;那么，现在呢？没有什么变化。你们的装载有 MicroOS 的设备将继续像以前一样运行。目前，Richard 和我都不相信会有任何重新安装的要求，或需要对你目前已安装的系统进行任何特殊的改变。目前，可下载的安装介质将保持不变，你仍然会像预期的那样收到你的更新，品牌变化应该在定期更新过程中自动交付，因为我们已经完成了工作。&lt;/p&gt;
-
-&lt;h2 id=&quot;这对-microos-desktop-作为一个产品意味着什么&quot;&gt;这对 MicroOS Desktop 作为一个产品意味着什么？&lt;/h2&gt;
-
-&lt;p&gt;我个人一直在努力解决的一个难题是，目前使用 Aeon 和 Kalpa 的人在开发资源上的差距；通过 “拆分 “产品，这意味着虽然 Aeon 和 Kalpa 将继续在相同的基础上运行，并选择相同的软件包，但我们不再彼此绑在一起。Kalpa 较慢的开发速度与更接近正式发布的 Aeon 脱钩。这将减轻我们在 Plasma 方面有限的开发资源的压力，并允许 GNOME 产品从 RC 过渡到 GA 阶段。&lt;/p&gt;
-
-&lt;p&gt;此外，对于处理桌面支持的 MicroOS Server 开发人员来说，这也意味着更少的干扰；同样地，对于 Aeon 和 Kalpa 开发者来说，也意味着不必处理因寻求服务器产品支持引起的混乱。&lt;/p&gt;
-
-&lt;p&gt;总而言之，目前两个产品都没有什么变化。目前，从 “MicroOS Desktop” 到 “Aeon/Kalpa” 的过渡对我们的用户来说应该是无缝的。我强烈建议看一下 Richard 的演讲（链接在文章的顶部），看看他为 Aeon 计划的一些东西，并继续关注这个博客的公告。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/05/31/microos-desktop-has-new-name/&quot;&gt;MicroOS Desktop has new names!&lt;/a&gt;，作者：Shawn W Dunn&lt;/p&gt;
 </content:encoded>
     </item>
 
