@@ -7,6 +7,76 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/07/27/happy-sysadmin-day.html</guid>
+      <title>openSUSE 祝您系统管理员日快乐</title>
+      <pubDate>Thu, 27 Jul 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/07/27/happy-sysadmin-day.html</link>
+      <author>Poplar at twilight</author>
+      <description>系统管理员（sysadmins）是技术领域的无名英雄，openSUSE 项目感谢所有帮助我们项目运作的 openSUSE 英雄。
+
+系统管理员负责维护我们的技术骨干。他们在幕后工作，维护计算机系统的基础设施、安全性和整体功能。
+
+每年七月的最后一个星期五是系统管理员日（SysAdmin Day），这是一个特殊的节日，旨在表彰系统管理员在维持数字世界正常运行方面发挥的关键作用。
+
+系统管理员的职责包括安装、配置和维护硬件和软件。他们确保系统安全，排除故障并解决问题。这些人员不断学习和适应，同时营造积极的工作环境。有些人接听电话时可能会问你“有没有试着关机或开机”。😂
+
+这些人的努力对各种规模的企业和组织的顺利运行至关重要。没有系统管理员，数字世界就会停滞不前，一些开源项目也会停滞不前。
+
+值此 2023 年系统管理员日之际，让我们用一点时间来感谢这些兢兢业业的专业人员；他们值得我们的赞赏。
+
+以下是在系统管理员日向系统管理员表示感谢的一些方法：
+
+
+  从 shop.opensuse.org 向他们发送礼物
+  向他们赠送贺卡或发送电子邮件表示感谢
+  请他们吃午餐或晚餐
+  请他们喝啤酒
+
+
+无论您选择哪种方式，您的系统管理员都会对您的善意举动表示感谢。
+
+感谢系统管理员让我们的数字世界平稳运行。
+
+系统管理员节快乐！
+
+
+
+原文：openSUSE Wishes You a Happy SysAdmin Day，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;系统管理员（sysadmins）是技术领域的无名英雄，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;感谢所有帮助我们项目运作的 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Heroes&quot;&gt;openSUSE 英雄&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;系统管理员负责维护我们的技术骨干。他们在幕后工作，维护计算机系统的基础设施、安全性和整体功能。&lt;/p&gt;
+
+&lt;p&gt;每年七月的最后一个星期五是&lt;a href=&quot;https://sysadminday.com/&quot;&gt;系统管理员日&lt;/a&gt;（SysAdmin Day），这是一个特殊的节日，旨在表彰系统管理员在维持数字世界正常运行方面发挥的关键作用。&lt;/p&gt;
+
+&lt;p&gt;系统管理员的职责包括安装、配置和维护硬件和软件。他们确保系统安全，排除故障并解决问题。这些人员不断学习和适应，同时营造积极的工作环境。有些人接听电话时可能会问你“有没有试着关机或开机”。😂&lt;/p&gt;
+
+&lt;p&gt;这些人的努力对各种规模的企业和组织的顺利运行至关重要。没有系统管理员，数字世界就会停滞不前，一些开源项目也会停滞不前。&lt;/p&gt;
+
+&lt;p&gt;值此 2023 年系统管理员日之际，让我们用一点时间来感谢这些兢兢业业的专业人员；他们值得我们的赞赏。&lt;/p&gt;
+
+&lt;p&gt;以下是在系统管理员日向系统管理员表示感谢的一些方法：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;从 &lt;a href=&quot;https://shop.opensuse.org/&quot;&gt;shop.opensuse.org&lt;/a&gt; 向他们发送礼物&lt;/li&gt;
+  &lt;li&gt;向他们赠送贺卡或发送电子邮件表示感谢&lt;/li&gt;
+  &lt;li&gt;请他们吃午餐或晚餐&lt;/li&gt;
+  &lt;li&gt;请他们喝啤酒&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;无论您选择哪种方式，您的系统管理员都会对您的善意举动表示感谢。&lt;/p&gt;
+
+&lt;p&gt;感谢系统管理员让我们的数字世界平稳运行。&lt;/p&gt;
+
+&lt;p&gt;系统管理员节快乐！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/28/os-wishes-u-a-happy-sysadmin-day/&quot;&gt;openSUSE Wishes You a Happy SysAdmin Day&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/20/weekly-update.html</guid>
       <title>Redis 和 HarfBuzz 在 Tumbleweed 中获得更新</title>
       <pubDate>Thu, 20 Jul 2023 23:30:00 +0000</pubDate>
@@ -395,63 +465,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/07/leap-release-matures-sets-up-tech-transition/&quot;&gt;Leap 15.5 Release Matures, Sets Up Technological Transition&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/05/leap-python311.html</guid>
-      <title>Leap 的 Modern Python 堆栈</title>
-      <pubDate>Mon, 05 Jun 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/05/leap-python311.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>将 Python 3.11 添加到 Leap 15.4 及更新版本 Leap 使用的默认 Python 解释器“太旧”了。在 Leap 中，python3 调用的是上游于 2021 年底宣布产品寿命结束的 Python 3.6。Leap 当前版本基于 SUSE SLES 15，因此它得到了 SUSE 的支持，但它并不容易与 modern python 模块一起使用。 现在，你可以在 Leap 中安装一个更现代的 Python 解释器；存储库已经收录了 python310 和 python310-pip；你可以安装并使用 virtualenv 模块从 PyPI 中安装模块，python311 将在 Leap 15.5 发布时提供。 但有时这还不够，一些 python 模块需要安装非 python 库或工具，并且无法直接从 PyPI 使用它们。...</description>
-      <content:encoded>&lt;h2 id=&quot;将-python-311-添加到-leap-154-及更新版本&quot;&gt;将 Python 3.11 添加到 Leap 15.4 及更新版本&lt;/h2&gt;
-
-&lt;p&gt;Leap 使用的默认 Python 解释器“太旧”了。在 Leap 中，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3&lt;/code&gt; 调用的是上游于 2021 年底宣布产品寿命结束的 Python 3.6。Leap 当前版本基于 SUSE SLES 15，因此它得到了 SUSE 的支持，但它并不容易与 &lt;a href=&quot;https://dev.to/marrie/introduction-to-modern-python-48hh&quot;&gt;modern python&lt;/a&gt; 模块一起使用。&lt;/p&gt;
-
-&lt;p&gt;现在，你可以在 Leap 中安装一个更现代的 Python 解释器；存储库已经收录了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python310&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python310-pip&lt;/code&gt;；你可以安装并使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; 模块从 &lt;a href=&quot;https://pypi.org/&quot;&gt;PyPI&lt;/a&gt; 中安装模块，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python311&lt;/code&gt; 将在 Leap 15.5 发布时提供。&lt;/p&gt;
-
-&lt;p&gt;但有时这还不够，一些 python 模块需要安装非 python 库或工具，并且无法直接从 PyPI 使用它们。&lt;/p&gt;
-
-&lt;p&gt;这就是为 Leap 使用新的 Python 解释器&lt;strong&gt;和模块&lt;/strong&gt;的原因。&lt;/p&gt;
-
-&lt;p&gt;新的 Python 3.11 和 Python 模块旨在提供一个更新的 Python 解释器，和来自稳定的 SUSE 解决方案（SLES）的 Python 基础模块集。这些 Python 堆栈由 SUSE 维护，Leap 则可以直接从 SLES 继承新的工具集。&lt;/p&gt;
-
-&lt;p&gt;首先要记住的是，这个解决方案没有带来任何重大变化。Leap 默认的 Python 版本（3.6）保持不变，现有的 Python 模块没有更新。当前的 Python 3.6 解释器和包保持不变。出于软件兼容性原因，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3&lt;/code&gt; 二进制文件将保留 Python 3.6，但我们也提供了额外的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3.11&lt;/code&gt;。新的 Python 堆栈是一个补充，它不会与现有包冲突，因此它可以在系统中共同安装，而不会影响任何正在运行的应用程序。&lt;/p&gt;
-
-&lt;p&gt;你可以在 Leap 15.4 中使用新的 modern Python，Leap 的后续版本也将继承这一功能。你现在可以找到解释器了；但模块列表仍在开发中，很快就会发布。&lt;/p&gt;
-
-&lt;h2 id=&quot;python-版本&quot;&gt;Python 版本&lt;/h2&gt;
-
-&lt;p&gt;我们选择的 Python 版本是 3.11。这是最佳选择，因为：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;它是由 Python Foundation 支持的最新的 Python 正式版本。&lt;/li&gt;
-  &lt;li&gt;与以前的版本相比，它有一些明显的性能改进。&lt;/li&gt;
-  &lt;li&gt;它与以前的版本兼容，没有破坏不太旧的 Python 代码的重大更改，因此在 Python 3.10 或 Python 3.9 中工作的代码将在 Python 3.11 中正常工作，或者需要进行小的更改。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;除了解释器，还有一个提供最新版本的 Python 模块列表。这些 Python 模块是 Modern Python 的一部分，将与 Python 3.11 解释器一起提供，并且是上游发布的最新版本。新的堆栈提供了一个具有最新的解释器和 2023 年的 Python 模块的 Python 环境。&lt;/p&gt;
-
-&lt;p&gt;该模块列表将是 Leap 中现有模块的精简子集，大约 500 个软件包。但它是一个基础集，将允许构建更多现代包，并将使使用 &lt;a href=&quot;https://build.opensuse.org/project/show/devel:languages:python:backports&quot;&gt;Python Backports&lt;/a&gt; 的人们的生活更轻松。&lt;/p&gt;
-
-&lt;h2 id=&quot;对现有系统的影响&quot;&gt;对现有系统的影响&lt;/h2&gt;
-
-&lt;p&gt;新堆栈中的所有 python 包都将提供 “python311-” 版本；例如要安装 Flask，你将找到包 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python311-Flask&lt;/code&gt;，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3-Flask&lt;/code&gt; 将继续是 python 3.6 版本，它是你可以在 Leap 15.4 中找到的默认版本。&lt;/p&gt;
-
-&lt;p&gt;新的 Python 解释器和模块不会影响现有系统。但新的解释器和模块将在 Leap 15.4 及以后可用，所以我们建议大家从 Python 3.6 迁移到新的 Python 3.11 并尝试使用这个现代版本的解释器和 python 基础模块。&lt;/p&gt;
-
-&lt;p&gt;使用 Modern Python 提供的包会带来很多直接的好处：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;相当快的 Python 解释器。&lt;/li&gt;
-  &lt;li&gt;具有语法和标准库最新改进的 Modern Python 解释器。&lt;/li&gt;
-  &lt;li&gt;通过 PyPI 获取和使用具有改进功能的 Modern Python 模块，而不是等待发行版的更新。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/06/leap-modern-python-stack/&quot;&gt;Modern Python stack for Leap&lt;/a&gt;，作者：Daniel García Moreno&lt;/p&gt;
 </content:encoded>
     </item>
 
