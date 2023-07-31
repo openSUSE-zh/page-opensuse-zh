@@ -7,6 +7,81 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/30/try-new-cdn.html</guid>
+      <title>使用 openSUSE-repos 尝试新的 CDN</title>
+      <pubDate>Sun, 30 Jul 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/30/try-new-cdn.html</link>
+      <author>Poplar at twilight</author>
+      <description>一段时间以来，Dirk Mueller 一直在后台努力争取赞助 CDN 订阅。在他的努力下，Fastly.com 同意为 openSUSE 项目提供带宽赞助。我们主要打算用它来改善 download.opensuse.org 在全球不同地区的可达性（延迟），当然也可以扩展到其他用途。 openSUSE-repos 通过发行版核心存储库的存储库索引服务（RIS）为核心存储库简化了 openSUSE 存储库管理；其最新更新将用户切换到新的 cdn.opensuse.org。 Tumbleweed 刚刚发布了这一变更，openSUSE Leap 15.5 用户将在未来几天内通过维护更新收到这一变更。该变更也将作为 Leap Micro 5.5 的一部分提供。不想等待的用户可以从 Base:System/openSUSE-repos 获取新功能。 为你的发行版安装 openSUSE-repos openSUSE-repos 会备份并禁用所有具有原始文件名的默认系统存储库。用户定义的存储库将保持不变。 为你的发行版安装正确的软件包，就可以了： sudo zypper in openSUSE-repos-Leap sudo zypper in openSUSE-repos-Tumbleweed sudo zypper in openSUSE-repos-MicroOS sudo zypper in openSUSE-repos-LeapMicro 关于存储库索引服务 zypp 支持将（远程）repoindex.xml...</description>
+      <content:encoded>&lt;p&gt;一段时间以来，&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4YOJ2MMSET5JN42T2H2GAHQG5MG5YGBT/&quot;&gt;Dirk Mueller&lt;/a&gt; 一直在后台努力争取赞助 CDN 订阅。在他的努力下，&lt;a href=&quot;https://www.fastly.com/&quot;&gt;Fastly.com&lt;/a&gt; 同意为 openSUSE 项目提供带宽赞助。我们主要打算用它来改善 download.opensuse.org 在全球不同地区的可达性（延迟），当然也可以扩展到其他用途。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 通过发行版核心存储库的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Standards_Repository_Index_Service&quot;&gt;存储库索引服务（RIS）&lt;/a&gt;为核心存储库简化了 openSUSE 存储库管理；其最新更新将用户切换到新的 &lt;a href=&quot;https://code.opensuse.org/leap/features/issue/128&quot;&gt;cdn.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Tumbleweed 刚刚发布了这一变更，openSUSE Leap 15.5 用户将在未来几天内通过维护更新收到这一变更。该变更也将作为 Leap Micro 5.5 的一部分提供。不想等待的用户可以从 &lt;a href=&quot;https://build.opensuse.org/package/show/Base:System/openSUSE-repos&quot;&gt;Base:System/openSUSE-repos&lt;/a&gt; 获取新功能。&lt;/p&gt;
+
+&lt;h2 id=&quot;为你的发行版安装-opensuse-repos&quot;&gt;为你的发行版安装 openSUSE-repos&lt;/h2&gt;
+
+&lt;p&gt;openSUSE-repos &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/pull/26/files#diff-884378f84879c3adc93b6ee826da6c8c39ea6d299cb2352270538d95d9acb960&quot;&gt;会备份并禁用&lt;/a&gt;所有具有原始文件名的默认系统存储库。用户定义的存储库将保持不变。&lt;/p&gt;
+
+&lt;p&gt;为你的发行版安装正确的软件包，就可以了：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo zypper in openSUSE-repos-Leap
+
+sudo zypper in openSUSE-repos-Tumbleweed
+
+sudo zypper in openSUSE-repos-MicroOS
+
+sudo zypper in openSUSE-repos-LeapMicro
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;关于存储库索引服务&quot;&gt;关于存储库索引服务&lt;/h2&gt;
+
+&lt;p&gt;zypp 支持将（远程）repoindex.xml 转换为（本地）存储库定义的 RIS 服务。这些定义由前缀标识，在本例中为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;示例： &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/zypp/repos.d/openSUSE:repo-oss.repo&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;像将用户切换到 CDN 这样的更改只需在服务模板中做一行更改即可。服务模板可以引用 zypp 变量，例如新的 /etc/zypp/vars.d/DIST_ARCH。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# head /usr/share/zypp/local/service/openSUSE/repo/repoindex.xml
+&amp;lt;repoindex ttl=&quot;0&quot;
+disturl=&quot;https://cdn.opensuse.org&quot;
+distsub=&quot;leap/&quot;
+distver=&quot;${releasever}&quot;
+debugenable=&quot;false&quot;
+sourceenable=&quot;false&quot;&amp;gt;
+
+&amp;lt;repo url=&quot;%{disturl}/distribution/%{distsub}%{distver}/repo/oss&quot;
+alias=&quot;repo-oss&quot;
+name=&quot;%{alias} (%{distver})&quot;
+enabled=&quot;true&quot;
+autorefresh=&quot;true&quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;来看看我们的服务：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# zypper ls # list-services
+# | Alias | Name | Enabled | GPG Check | Refresh | Type
+--+----------------------------------------+----------------------+---------+-----------+---------+-------
+1 | openSUSE | openSUSE | Yes | ---- | Yes | ris
+2 | NVIDIA | NVIDIA | Yes | (r ) Yes | Yes | rpm-md
+3 | google-chrome | google-chrome | Yes | (r ) Yes | Yes | rpm-md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你可以选择使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper ref -s&lt;/code&gt; 来有意地刷新服务。你可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper refs -r&lt;/code&gt; 手动触发刷新服务，包括其存储库。&lt;/p&gt;
+
+&lt;p&gt;如果你想尝试自己的服务，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/var/log/zypper.log&lt;/code&gt; 将帮助你排除大部分与服务相关的问题。有关 zypper 和 RIS 的更多信息，请参阅 &lt;a href=&quot;https://doc.opensuse.org/projects/libzypp/HEAD/zypp-services.html&quot;&gt;doc-o-o&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;回滚&quot;&gt;回滚&lt;/h2&gt;
+
+&lt;p&gt;用户可以按照项目 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos#restoring-original-distribution-repositories&quot;&gt;README&lt;/a&gt; 文件中的说明恢复旧的存储库文件。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;Try out the new CDN with openSUSE-repos&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/07/27/happy-sysadmin-day.html</guid>
       <title>openSUSE 祝您系统管理员日快乐</title>
       <pubDate>Thu, 27 Jul 2023 23:30:00 +0000</pubDate>
@@ -389,82 +464,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/06/leap-15.6-annoucement/&quot;&gt;Project Announces Plans for Another Minor Leap 15 Release&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/06/leap.15.5-released.html</guid>
-      <title>Leap 15.5 已正式发布；开启技术转型</title>
-      <pubDate>Tue, 06 Jun 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/06/06/leap.15.5-released.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>德国纽伦堡——openSUSE Leap 15 最新系列版本的发布标志着五年多前开始的维护和安全工作已经完成。 随着过去五年新技术的变化，如容器技术、不可变系统、虚拟化、嵌入式开发和其他先进科技的进步，Leap 15.5 的发布开始发挥作用。 从每个小版本的使用量的增加可以看出，企业家、业余爱好者、专业人士和开发人员逐渐将 Leap 作为首选的 Linux 发行版。从老旧的软件跨越到更现代的系统是迫在眉睫的。 基于 SLE 15 SP5 的 Leap 15.5 在 2024 年末进入产品寿命结束之前，会持续收到为何和安全更新。这将为用户提供充足的时间来过渡到该版本的后续版本；后续版本尚未确认。对商业支持感兴趣的用户可以使用一个新工具来过渡到商业支持。Leap可以在 get.opensuse.org 下载。 Leap 15.5 带来了较新的软件包，如 Mesa 和其他一些软件包，但 Leap 15.5 不是一个以功能更新为主的版本。其中一些需要强调的较新软件包包括 KDE Plasma 5.27，直到下一个长期支持版在 2024 年推出前，该 LTS 版本将一直获得维护更新。Konqi 爱好者将享受到新的欢迎向导、桌面工作空间的动态定制和 KRunner 的更多功能，包括完整的桌面搜索、单位和货币汇率转换、字典功能、计算器，将数学函数的图形表示。拾色器有一些改进，增加了显示另一个预览色环的可能性。KDE Gear 22.12.3 将是该版本中的一个新包，并补充了 Plasma 5.27 的功能。该更新修复了桌面环境应用程序的错误，并强调了压缩/解压缩工具 ark 的增强，对文本编辑器...</description>
-      <content:encoded>&lt;p&gt;德国纽伦堡——&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 15 最新系列版本的发布标志着五年多前开始的维护和安全工作已经完成。&lt;/p&gt;
-
-&lt;p&gt;随着过去五年新技术的变化，如容器技术、不可变系统、虚拟化、嵌入式开发和其他先进科技的进步，&lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;Leap 15.5&lt;/a&gt; 的发布开始发挥作用。&lt;/p&gt;
-
-&lt;p&gt;从每个小版本的&lt;a href=&quot;https://metrics.opensuse.org/&quot;&gt;使用量的增加&lt;/a&gt;可以看出，企业家、业余爱好者、专业人士和开发人员逐渐将 Leap 作为首选的 Linux 发行版。从老旧的软件跨越到更现代的系统是迫在眉睫的。&lt;/p&gt;
-
-&lt;p&gt;基于 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE 15&lt;/a&gt; SP5 的 &lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;Leap 15.5&lt;/a&gt; 在 2024 年末进入产品寿命结束之前，会持续收到为何和安全更新。这将为用户提供充足的时间来过渡到该版本的后续版本；后续版本尚未确认。对商业支持感兴趣的用户可以使用一个&lt;a href=&quot;https://en.opensuse.org/SDB:How_to_migrate_to_SLE&quot;&gt;新工具&lt;/a&gt;来过渡到商业支持。Leap可以在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/leap/15.5/&quot;&gt;Leap 15.5&lt;/a&gt; 带来了较新的软件包，如 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 和其他一些软件包，但 Leap 15.5 不是一个以功能更新为主的版本。其中一些需要强调的较新软件包包括 KDE &lt;a href=&quot;https://kde.org/announcements/plasma/5/5.27.0/&quot;&gt;Plasma 5.27&lt;/a&gt;，直到下一个长期支持版在 2024 年推出前，该 LTS 版本将一直获得维护更新。&lt;a href=&quot;https://community.kde.org/Konqi&quot;&gt;Konqi&lt;/a&gt; 爱好者将享受到新的欢迎向导、桌面工作空间的动态定制和 &lt;a href=&quot;https://userbase.kde.org/Plasma/Krunner&quot;&gt;KRunner&lt;/a&gt; 的更多功能，包括完整的桌面搜索、单位和货币汇率转换、字典功能、计算器，将数学函数的图形表示。拾色器有一些改进，增加了显示另一个预览色环的可能性。&lt;a href=&quot;https://kde.org/announcements/gear/22.12.3/&quot;&gt;KDE Gear 22.12.3&lt;/a&gt; 将是该版本中的一个新包，并补充了 Plasma 5.27 的功能。该更新修复了桌面环境应用程序的错误，并强调了压缩/解压缩工具 &lt;a href=&quot;https://apps.kde.org/ark/&quot;&gt;ark&lt;/a&gt; 的增强，对文本编辑器 &lt;a href=&quot;https://apps.kde.org/kate/&quot;&gt;Kate&lt;/a&gt; 的改进，并修复了视频编辑器 &lt;a href=&quot;https://apps.kde.org/kdenlive/&quot;&gt;Kdenlive&lt;/a&gt; 的一些崩溃。Qt 5.15 LTS 可以通过 &lt;a href=&quot;https://dot.kde.org/2021/04/06/announcing-kdes-qt-5-patch-collection&quot;&gt;KDE Qt 5 补丁集&lt;/a&gt;获得。&lt;/p&gt;
-
-&lt;p&gt;文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 将升级到新的主要版本。Vim 9 有一种新的脚本语言，可以显着提高性能。文本编辑器的执行速度有望提高 10 到 100 倍。建议用户阅读该项目的 &lt;a href=&quot;https://www.vim.org/vim90.php&quot;&gt;Vim 9.0 发行信息&lt;/a&gt;，了解升级对遗留脚本、向后兼容性和发布中添加的其他新功能的影响。&lt;/p&gt;
-
-&lt;p&gt;对于配置 Linux 容器网络的专业人员，&lt;a href=&quot;https://github.com/containers/netavark&quot;&gt;netavark&lt;/a&gt; 1.5.0 已发布。已经过渡到 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 的用户将拥有更新的 &lt;a href=&quot;https://github.com/flatpak/flatpak/releases/tag/1.14.4&quot;&gt;1.14.4&lt;/a&gt; 版本，该版本解决了 &lt;a href=&quot;https://github.com/flatpak/flatpak/security/advisories/GHSA-h43h-fwqx-mpp8&quot;&gt;CVE-2023-28101&lt;/a&gt;。较新的版本修复了攻击者隐藏权限以恶意发布 Flatpak 应用程序以提升权限的问题。&lt;/p&gt;
-
-&lt;p&gt;感谢 &lt;a href=&quot;https://eti.cisco.com/open-source&quot;&gt;Cisco 的开源贡献&lt;/a&gt;，Leap 15.5 设置为默认为所有新安装启用 &lt;a href=&quot;https://en.opensuse.org/OpenH264&quot;&gt;OpenH264&lt;/a&gt; 存储库。&lt;/p&gt;
-
-&lt;p&gt;Leap 15.5 搭载了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 5.14.21，以及来自 SUSE 特定 LTS 内核的向后移植补丁。Leap 15.5 与 SLE 15 SP5 共享内核，SLE 15 SP5也收到了同样的修复和向后移植，其中包括其他几千个共享包。设备固件更新程序包 &lt;a href=&quot;https://github.com/fwupd/fwupd&quot;&gt;fwupd&lt;/a&gt; 将改为 1.8.6 版本。新版本修复了为 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390x&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ppc64&quot;&gt;ppc64le&lt;/a&gt; 构建时的编译错误。&lt;/p&gt;
-
-&lt;p&gt;对于 Python 开发人员来说，有一个好消息。LEAP 15.5 用户将具有与系统 Python（Python36）并行的完全可用的 Python 3.11 堆栈。这为用户和开发人员提供了更现代的版本。建议打包者切换到 Python 3.11。&lt;/p&gt;
-
-&lt;p&gt;其他软件包用户可能会注意到更改为 &lt;a href=&quot;https://github.com/Genivia/ugrep&quot;&gt;UGREP&lt;/a&gt; 3.11.0 和 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.38.6 的更新。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 和 &lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk4&lt;/a&gt; 都将更新为 2.38.5。Mozilla Firefox 更新至新的扩展支持版本——102.9.0。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla&lt;/a&gt; 的电子邮件客户端 &lt;a href=&quot;https://www.thunderbird.net/en-US/thunderbird/102.8.0/releasenotes/&quot;&gt;Thunderbird&lt;/a&gt; 更新至 102.8.0，获得了各种视觉和用户体验改进。&lt;/p&gt;
-
-&lt;h2 id=&quot;产品寿命结束&quot;&gt;产品寿命结束&lt;/h2&gt;
-
-&lt;p&gt;openSUSE Leap 15.4 将在 15.5 发布当日起，六个月后抵达产品寿命结束（EOL）。用户应当在这段时间内更新到 Leap 15.5，以继续获取安全和维护更新。&lt;/p&gt;
-
-&lt;h2 id=&quot;对于从以前版本升级的用户很重要的内容&quot;&gt;对于从以前版本升级的用户很重要的内容&lt;/h2&gt;
-
-&lt;p&gt;我们通过维护更新，引入了一个新的 4096 位 RSA 签名密钥，openSUSE Leap 15.5 以及 15.4 的一部分。Leap 15.4 用户需要在升级系统前将系统更新至最新状态。有关更多信息，请访问&lt;a href=&quot;https://en.opensuse.org/sdb:system_upgrade#0._new_4096_bit_rsa_signing_key&quot;&gt;此文&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;下载-leap-155&quot;&gt;下载 Leap 15.5&lt;/h2&gt;
-
-&lt;p&gt;要下载 ISO 镜像文件，请访问：&lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;https://get.opensuse.org/leap/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;中国大陆用户可以使用&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E9%95%9C%E5%83%8F&quot;&gt;镜像站列表&lt;/a&gt;查询最适合的下载镜像站。&lt;/p&gt;
-
-&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
-
-&lt;p&gt;有关如何安装 Leap，你可以阅读 &lt;a href=&quot;https://zh.opensuse.org/SDB:DVD_%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F&quot;&gt;SDB:DVD 安装方式&lt;/a&gt;一文以汲取灵感。&lt;/p&gt;
-
-&lt;h2 id=&quot;求助&quot;&gt;求助&lt;/h2&gt;
-
-&lt;p&gt;如果你对新版本有疑问或发现错误，我们很乐意收到你的来信：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://t.me/openSUSE&quot;&gt;https://t.me/openSUSE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chat.opensuse.org/&quot;&gt;https://chat.opensuse.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/opensuse-support/&quot;&gt;https://lists.opensuse.org/opensuse-support/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discordapp.com/invite/openSUSE&quot;&gt;https://discordapp.com/invite/openSUSE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;https://www.facebook.com/groups/opensuseproject&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;中国大陆用户可以访问：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://forum.suse.org.cn/&quot;&gt;https://forum.suse.org.cn/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://suse.org.cn/&quot;&gt;https://suse.org.cn/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;加入我们&quot;&gt;加入我们&lt;/h2&gt;
-
-&lt;p&gt;openSUSE 项目是一个全球性的社区，旨在促进 Linux 在任何地方的使用。它创建了两个世界上最好的 Linux 发行版，滚动发行的 Tumbleweed 和混合的企业-社区发行版 Leap。作为全球自由和开源软件社区的一部分，openSUSE 以开放、透明和友好的方式持续合作。该项目由其社区控制，并依赖于个人的贡献，包括测试人员、作家、翻译人员、可用性专家、艺术家和大使或开发人员。该项目包含各种各样的技术、具有不同专业水平、使用不同语言和具有不同文化背景的人员。请在 &lt;a href=&quot;https://opensuse.org/&quot;&gt;opensuse.org&lt;/a&gt; 上了解更多信息。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/07/leap-release-matures-sets-up-tech-transition/&quot;&gt;Leap 15.5 Release Matures, Sets Up Technological Transition&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
