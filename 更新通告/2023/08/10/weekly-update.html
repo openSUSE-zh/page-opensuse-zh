@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="Tumbleweed 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 openSUSE 本周为风滚草用户提供了数个主要版本更新。 快照 20230809 更新了 GCC。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新">
+  <meta property="og:description"
+    content="Tumbleweed 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 openSUSE 本周为风滚草用户提供了数个主要版本更新。 快照 20230809 更新了 GCC。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决...">
+  <meta property=" og:url" content="/_posts/2023-08-11-weekly-update.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Poplar at twilight">
+  <meta property="og:article:published_time" content="2023-08-10T23:30:00+00:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2023-08/gtw.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新">
+  
+  <meta name="twitter:description"
+    content="Tumbleweed 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 openSUSE 本周为风滚草用户提供了数个主要版本更新。 快照 20230809 更新了 GCC。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2023-08/gtw.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023">
+			2023
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/08">
+			
+			八月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/08/10">
+			10
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新</h1>
+		<p class="text-center text-muted">
+			2023-08-10
+			|
+			Poplar at twilight
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2023-08/gtw.png"
+			alt="Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p><a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 <a href="https://get.opensuse.org/">openSUSE</a> 本周为风滚草用户提供了数个主要版本更新。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JONO3B3IE6PM7XGJCDPLVCC7V7FYEY3A/">20230809</a> 更新了 <a href="https://gcc.gnu.org/">GCC</a>。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决了 <a href="https://github.com/ianlancetaylor/libbacktrace/tree/master">libbacktrace</a> 中损坏的测试用例的补丁，从而解决了 <a href="https://www.suse.com/products/server/">SLES</a> 12 上的构建问题。GNOME 用户收到了 <a href="https://www.gtk.org/">gtk4</a> 4.10.5 的更新。该版本解决了各种问题，包括修复过滤器模型信号的排序问题、避免徘徊的调整大小光标以及解决 <a href="https://en.wikipedia.org/wiki/SPARC">SPARC</a> 上的对齐问题。用户空间程序用于将文件系统导出到 Linux 内核的接口，<a href="https://github.com/libfuse/libfuse">fusion3</a>，更新至 3.16.1；进行了一些增强，使得 fusion 能够从高级 <a href="https://en.wikipedia.org/wiki/API">API</a> 启用 <code class="language-plaintext highlighter-rouge">readdir</code> 内核缓存。开源办公套件 <a href="https://www.libreoffice.org/">LibreOffice</a> 在更新至 7.5.4.2 版本后的第二天，再次更新至 7.6.0.2。该版本包含错误修复和捆绑依赖项更新，可确保提供更稳定、功能更丰富的办公体验。<a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.5.136 本周的第三次更新更新了印度尼西亚语翻译。用于电源管理和设备信息的 <a href="https://upower.freedesktop.org/">upower</a> 已更新至 1.90.2 版本。值得注意的是，该版本标志着 UPower 中 lid 处理的结束，因为该功能现在将由 <a href="https://www.freedesktop.org/software/systemd/man/systemd-logind.service.html">logind</a> 提供。快照中更新了其他一些软件包，例如 <a href="https://pypi.org/project/importlib-resources/">python-importlib-resources</a>，它更新到主要版本 6.0.1 并删除了 5.3 版本中弃用的遗留功能；它需要 <a href="https://www.python.org/">Python</a> 3.8 或更高版本。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LA4RF3TGDYRMTLM5OJPLF7HHHQ4IISE7/">20230808</a> 将 <a href="https://www.libreoffice.org/">LibreOffice</a> 从 7.5.4.2 更新至 7.6.0.1 版本，提供了广泛的功能、错误修复和改进，例如处理字体。LibreOffice 修复了更改文档语言时无限循环的问题，还添加了对 <a href="https://riscv.org/">RISC-V 64</a> 的 <a href="https://en.wikipedia.org/wiki/Java_(software_platform)#Java_Runtime_Environment">JRE</a> 64bit 缺少的依赖项。多媒体框架 <a href="https://pipewire.org/">pipewire</a> 更新至 0.3.77。此更新包括对 <a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> 源的修复，以防止 <a href="https://unix.stackexchange.com/questions/199498/what-are-xruns">xruns</a> 和强制节点链接的新 L 权限。虚拟广播音频网络模块现在支持 <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a>，并且对该软件包进行了一系列清理和修复。<a href="https://kde.org/">KDE</a> 编辑器 <a href="https://apps.kde.org/okteta/">okteta</a> 更新至 0.26.13 版本，改进了翻译、解码表和结构工具。它还改进了现在可能的 <a href="https://cmake.org/">CMake</a> Unity 构建。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/KUZ7AJCYOKZO4D5ZMNIGSW5NBLP6LWZQ/">20230807</a> 对 <a href="https://www.gnome.org/">GNOME</a> 进行了更新。<a href="https://gitlab.gnome.org/GNOME/gnome-software">gnome-software</a> 更新至 44.4 版本；此更新引入了一些值得注意的改进，例如增强来自失败的 <a href="https://gnupg.org">GPG</a> 检查的错误通知，以及改进涉及删除某些软件包以实现依赖项的更新的处理。<a href="https://www.perl.org/">Perl</a> 爱好者会对 Tumbleweed 当前发布的主要版本感到高兴。Perl 5.38.0 版本引入了许多新功能，包括 <a href="https://perldoc.perl.org/perlclassguts"><code class="language-plaintext highlighter-rouge">class</code> 功能</a>和对 <a href="https://unicode.org/">unicode</a> 15.0 的支持。Perl 还改进了签名中的 <code class="language-plaintext highlighter-rouge">defined-or</code> 和 <code class="language-plaintext highlighter-rouge">logical-or</code> 赋值默认表达式等。在该版本中，作为软件包名称分隔符的 <code class="language-plaintext highlighter-rouge">‘</code> 被大量淘汰。openSUSE 的 <a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 4.5.135 更新为格鲁吉亚用户提供了一些翻译改进。快照中还更新了 <a href="https://pypi.org/project/alembic/">python-alembic</a> 1.11.1，这也是一个主要版本。它修改了调用签名并修复了 <a href="https://www.sqlalchemy.org/">SQLAlchemy</a> 类的键入使用以及错误处理方面的一些增强。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WNQBSU7CYTLTMURJUMPVTWASGSBIUKHW/">20230806</a> 更新了数个软件包。<a href="https://kde.org/plasma-desktop/">Plasma5-desktop</a> 5.27.7.1 的更新包括修复了按小程序快捷方式后小程序未返回焦点的问题，并修复了为桌面环境提供更流畅和无缝处理的缺失功能。<a href="https://libvirt.org/">libvirt</a> 9.6.0 更新包括一个上游提交，用于修复 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 中的最大文件限制，从而有助于虚拟化环境的更顺畅操作。Python 开发人员获得了与 libvirt 最新更改保持一致的更新，以确保基于 Python 的虚拟化任务的兼容性和无缝集成。支持 openSUSE 软件管理的 <a href="https://github.com/openSUSE/libzypp">libzypp</a> 包管理库已更新至 17.31.18 版本。该版本在检查 zypp-rpm 锁时解决了 <code class="language-plaintext highlighter-rouge">ZYPP_READONLY_HACK</code> 的问题。<a href="https://webkitgtk.org/">webkit2gtk3</a> 2.40.5 版本引入了多个崩溃和渲染修复程序，以及多个解决 <a href="https://www.suse.com/security/cve/CVE-2023-38133.html">CVE-2023-38133</a>、<a href="https://www.suse.com/security/cve/CVE-2023-38572.html">CVE-2023-38572</a> 等漏洞的安全修复程序。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SUZUTCOUXGCXRUMNJ6C5G6VVGPTJC5Q4/">20230805</a> 更新了 <a href="https://www.kernel.org/">Linux 内核</a>。<a href="https://www.kernel.org/">kernel-source</a> 6.4.8 修复了一些 <a href="https://btrfs.wiki.kernel.org/">Btrfs</a> 问题，并进行了一些与 <a href="https://en.wikipedia.org/wiki/IBM_System/390">s390</a> 架构的 <a href="https://www.redhat.com/en/topics/virtualization/what-is-KVM">KVM</a> 相关的更改。GNU 多精度算术库 <a href="https://gmplib.org/">gmp</a> 6.3.0 更新带来了对整数溢出的更好处理，增强了对格式错误文件的错误处理，并改进了对构建<a href="https://gcc.gnu.org/wiki/LinkTimeOptimization">链接时优化</a>的支持。<a href="https://github.com/harfbuzz/harfbuzz">harfbuzz</a> 8.1.1 的更新解决了先前版本中引入的回归问题。还进行了优化以加速字体加载、子集化和整形。<a href="https://github.com/yast/yast-installation">yast2-installation</a> 4.6/6 更新修复了状态标签切换问题，并改进了软件安装过程中的用户界面和体验。本周三个 <a href="https://github.com/openSUSE/libstorage-ng">libstorage-ng</a> 更新中的第一个更新是此快照中的 4.5.134 版本更新。</p>
+
+<p>快照 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZAHKFUDUGIRMFFMJKIE3IQY3BOB3W4TA/">20230804</a> 更新了 <a href="https://www.mesa3d.org/">Mesa</a> 23.1.5，图形显示得到了改进。根据<a href="https://docs.mesa3d.org/relnotes/23.1.4.html">发行说明</a>，Mesa 对不同的图形驱动程序进行了多项修复，包括 <a href="https://www.amd.com/en/graphics/radeon-rx-graphics">Radeon</a>、<a href="https://docs.mesa3d.org/drivers/anv.html">ANV</a> 等。<a href="https://www.intel.com/">Intel</a> ANV 驱动程序在使用 Angle 进行[多重采样抗锯齿][MSAA]测试时不再遇到 GPU 挂起的情况。游戏玩家可能会喜欢 <a href="https://www.libsdl.org/">SDL2</a> 2.28.2 更新。该软件包通过解决各种问题并确保更好的兼容性而实现了飞跃。根据变更日志，该更新修复了初始化某些非官方 PS4 仿制控制器时控制器锁定的问题。<a href="https://www.openssl.org/">openssl-3</a> 3.1.2 的更新解决了潜在的漏洞，包括检查 DH 参数值花费过多时间以及使用 AES-SIV 加密正确处理关联数据条目。<a href="https://dracut.wiki.kernel.org/index.php/Main_Page">dracut</a> 的更新引入了一系列关键修复和功能。这些改进涵盖了广泛的领域，包括 systemd-udevd、systemd-journald、基本功能等等。openssl-3 3.1.2 更新包括针对使用 AES-SIV 加密正确处理关联数据条目的修复。快照中的另一个更新是针对 <a href="https://github.com/SELinuxProject">SELinux</a> 的策略分析工具；<a href="https://github.com/SELinuxProject/setools/wiki">setools</a> 4.4.3 版本包括与 <a href="https://github.com/cython/cython">Cython</a> 3.0.0 更好的兼容性和增强的<a href="https://manpages.opensuse.org/">联机帮助页</a>。</p>
+
+<p>Tumbleweed 用户可以在开放 GPU 内核模块和专有驱动程序之间进行选择，并且可以找到有关<a href="https://en.opensuse.org/SDB:NVIDIA_drivers#openSUSE-repos">在 openSUSE Tumbleweed 上使用 NVIDIA GPU 驱动程序</a>的指南。在 openSUSE 存储库中，NVIDIA 的专有驱动程序可通过 zypper 安装。重要的是要认识到，由于许可限制，这些专有驱动程序源自 NVIDIA 存储库。此外，用户还可以通过启用第三方 NVIDIA 存储库，通过改进下载可访问性并减少延迟来增强体验。此外，用户可以通过 Fastly.com 赞助 CDN 订阅来增强下载可访问性并减少延迟，从而提升体验，从而使 download.opensuse.org 受益。</p>
+
+<blockquote>
+  <p>有关于新 CDN 的使用，详见：<a href="https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/30/try-new-cdn.html">使用 openSUSE-repos 尝试新的 CDN</a></p>
+</blockquote>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2023/08/11/perl-pipewire-libreoffice-up-in-tw/">Perl, Pipewire, LibreOffice Update in Tumbleweed</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html&amp;title=Perl%E3%80%81Pipewire%20%E5%92%8C%20LibreOffice%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=Perl%E3%80%81Pipewire%20%E5%92%8C%20LibreOffice%20%E5%9C%A8%20Tumbleweed%20%E4%B8%AD%E6%9B%B4%E6%96%B0&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>

@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html</guid>
+      <title>Perl、Pipewire 和 LibreOffice 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 10 Aug 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/10/weekly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>Tumbleweed 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 openSUSE 本周为风滚草用户提供了数个主要版本更新。 快照 20230809 更新了 GCC。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决了 libbacktrace 中损坏的测试用例的补丁，从而解决了 SLES 12 上的构建问题。GNOME 用户收到了 gtk4 4.10.5 的更新。该版本解决了各种问题，包括修复过滤器模型信号的排序问题、避免徘徊的调整大小光标以及解决 SPARC 上的对齐问题。用户空间程序用于将文件系统导出到 Linux 内核的接口，fusion3，更新至 3.16.1；进行了一些增强，使得 fusion 能够从高级 API 启用 readdir 内核缓存。开源办公套件 LibreOffice 在更新至 7.5.4.2 版本后的第二天，再次更新至 7.6.0.2。该版本包含错误修复和捆绑依赖项更新，可确保提供更稳定、功能更丰富的办公体验。libstorage-ng 4.5.136 本周的第三次更新更新了印度尼西亚语翻译。用于电源管理和设备信息的 upower 已更新至 1.90.2 版本。值得注意的是，该版本标志着 UPower 中 lid 处理的结束，因为该功能现在将由 logind 提供。快照中更新了其他一些软件包，例如...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周的快照有许多令人兴奋的内容，因为多个软件包收到了更新，并且 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 本周为风滚草用户提供了数个主要版本更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JONO3B3IE6PM7XGJCDPLVCC7V7FYEY3A/&quot;&gt;20230809&lt;/a&gt; 更新了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt;。GCC 13.2.1+git7683 版本为依赖编译器的开发人员提供了 gcc 13.2 以及各种修复。值得注意的是，该更新解决了 &lt;a href=&quot;https://github.com/ianlancetaylor/libbacktrace/tree/master&quot;&gt;libbacktrace&lt;/a&gt; 中损坏的测试用例的补丁，从而解决了 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLES&lt;/a&gt; 12 上的构建问题。GNOME 用户收到了 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.10.5 的更新。该版本解决了各种问题，包括修复过滤器模型信号的排序问题、避免徘徊的调整大小光标以及解决 &lt;a href=&quot;https://en.wikipedia.org/wiki/SPARC&quot;&gt;SPARC&lt;/a&gt; 上的对齐问题。用户空间程序用于将文件系统导出到 Linux 内核的接口，&lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fusion3&lt;/a&gt;，更新至 3.16.1；进行了一些增强，使得 fusion 能够从高级 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 启用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;readdir&lt;/code&gt; 内核缓存。开源办公套件 &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 在更新至 7.5.4.2 版本后的第二天，再次更新至 7.6.0.2。该版本包含错误修复和捆绑依赖项更新，可确保提供更稳定、功能更丰富的办公体验。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.136 本周的第三次更新更新了印度尼西亚语翻译。用于电源管理和设备信息的 &lt;a href=&quot;https://upower.freedesktop.org/&quot;&gt;upower&lt;/a&gt; 已更新至 1.90.2 版本。值得注意的是，该版本标志着 UPower 中 lid 处理的结束，因为该功能现在将由 &lt;a href=&quot;https://www.freedesktop.org/software/systemd/man/systemd-logind.service.html&quot;&gt;logind&lt;/a&gt; 提供。快照中更新了其他一些软件包，例如 &lt;a href=&quot;https://pypi.org/project/importlib-resources/&quot;&gt;python-importlib-resources&lt;/a&gt;，它更新到主要版本 6.0.1 并删除了 5.3 版本中弃用的遗留功能；它需要 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.8 或更高版本。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LA4RF3TGDYRMTLM5OJPLF7HHHQ4IISE7/&quot;&gt;20230808&lt;/a&gt; 将 &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 从 7.5.4.2 更新至 7.6.0.1 版本，提供了广泛的功能、错误修复和改进，例如处理字体。LibreOffice 修复了更改文档语言时无限循环的问题，还添加了对 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V 64&lt;/a&gt; 的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_(software_platform)#Java_Runtime_Environment&quot;&gt;JRE&lt;/a&gt; 64bit 缺少的依赖项。多媒体框架 &lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 更新至 0.3.77。此更新包括对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 源的修复，以防止 &lt;a href=&quot;https://unix.stackexchange.com/questions/199498/what-are-xruns&quot;&gt;xruns&lt;/a&gt; 和强制节点链接的新 L 权限。虚拟广播音频网络模块现在支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/MIDI&quot;&gt;MIDI&lt;/a&gt;，并且对该软件包进行了一系列清理和修复。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 编辑器 &lt;a href=&quot;https://apps.kde.org/okteta/&quot;&gt;okteta&lt;/a&gt; 更新至 0.26.13 版本，改进了翻译、解码表和结构工具。它还改进了现在可能的 &lt;a href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; Unity 构建。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/KUZ7AJCYOKZO4D5ZMNIGSW5NBLP6LWZQ/&quot;&gt;20230807&lt;/a&gt; 对 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 进行了更新。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 更新至 44.4 版本；此更新引入了一些值得注意的改进，例如增强来自失败的 &lt;a href=&quot;https://gnupg.org&quot;&gt;GPG&lt;/a&gt; 检查的错误通知，以及改进涉及删除某些软件包以实现依赖项的更新的处理。&lt;a href=&quot;https://www.perl.org/&quot;&gt;Perl&lt;/a&gt; 爱好者会对 Tumbleweed 当前发布的主要版本感到高兴。Perl 5.38.0 版本引入了许多新功能，包括 &lt;a href=&quot;https://perldoc.perl.org/perlclassguts&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;class&lt;/code&gt; 功能&lt;/a&gt;和对 &lt;a href=&quot;https://unicode.org/&quot;&gt;unicode&lt;/a&gt; 15.0 的支持。Perl 还改进了签名中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defined-or&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;logical-or&lt;/code&gt; 赋值默认表达式等。在该版本中，作为软件包名称分隔符的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;‘&lt;/code&gt; 被大量淘汰。openSUSE 的 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.135 更新为格鲁吉亚用户提供了一些翻译改进。快照中还更新了 &lt;a href=&quot;https://pypi.org/project/alembic/&quot;&gt;python-alembic&lt;/a&gt; 1.11.1，这也是一个主要版本。它修改了调用签名并修复了 &lt;a href=&quot;https://www.sqlalchemy.org/&quot;&gt;SQLAlchemy&lt;/a&gt; 类的键入使用以及错误处理方面的一些增强。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WNQBSU7CYTLTMURJUMPVTWASGSBIUKHW/&quot;&gt;20230806&lt;/a&gt; 更新了数个软件包。&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma5-desktop&lt;/a&gt; 5.27.7.1 的更新包括修复了按小程序快捷方式后小程序未返回焦点的问题，并修复了为桌面环境提供更流畅和无缝处理的缺失功能。&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 9.6.0 更新包括一个上游提交，用于修复 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 中的最大文件限制，从而有助于虚拟化环境的更顺畅操作。Python 开发人员获得了与 libvirt 最新更改保持一致的更新，以确保基于 Python 的虚拟化任务的兼容性和无缝集成。支持 openSUSE 软件管理的 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 包管理库已更新至 17.31.18 版本。该版本在检查 zypp-rpm 锁时解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZYPP_READONLY_HACK&lt;/code&gt; 的问题。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.40.5 版本引入了多个崩溃和渲染修复程序，以及多个解决 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-38133.html&quot;&gt;CVE-2023-38133&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-38572.html&quot;&gt;CVE-2023-38572&lt;/a&gt; 等漏洞的安全修复程序。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/SUZUTCOUXGCXRUMNJ6C5G6VVGPTJC5Q4/&quot;&gt;20230805&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.4.8 修复了一些 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;Btrfs&lt;/a&gt; 问题，并进行了一些与 &lt;a href=&quot;https://en.wikipedia.org/wiki/IBM_System/390&quot;&gt;s390&lt;/a&gt; 架构的 &lt;a href=&quot;https://www.redhat.com/en/topics/virtualization/what-is-KVM&quot;&gt;KVM&lt;/a&gt; 相关的更改。GNU 多精度算术库 &lt;a href=&quot;https://gmplib.org/&quot;&gt;gmp&lt;/a&gt; 6.3.0 更新带来了对整数溢出的更好处理，增强了对格式错误文件的错误处理，并改进了对构建&lt;a href=&quot;https://gcc.gnu.org/wiki/LinkTimeOptimization&quot;&gt;链接时优化&lt;/a&gt;的支持。&lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 8.1.1 的更新解决了先前版本中引入的回归问题。还进行了优化以加速字体加载、子集化和整形。&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.6/6 更新修复了状态标签切换问题，并改进了软件安装过程中的用户界面和体验。本周三个 &lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 更新中的第一个更新是此快照中的 4.5.134 版本更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZAHKFUDUGIRMFFMJKIE3IQY3BOB3W4TA/&quot;&gt;20230804&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 23.1.5，图形显示得到了改进。根据&lt;a href=&quot;https://docs.mesa3d.org/relnotes/23.1.4.html&quot;&gt;发行说明&lt;/a&gt;，Mesa 对不同的图形驱动程序进行了多项修复，包括 &lt;a href=&quot;https://www.amd.com/en/graphics/radeon-rx-graphics&quot;&gt;Radeon&lt;/a&gt;、&lt;a href=&quot;https://docs.mesa3d.org/drivers/anv.html&quot;&gt;ANV&lt;/a&gt; 等。&lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; ANV 驱动程序在使用 Angle 进行[多重采样抗锯齿][MSAA]测试时不再遇到 GPU 挂起的情况。游戏玩家可能会喜欢 &lt;a href=&quot;https://www.libsdl.org/&quot;&gt;SDL2&lt;/a&gt; 2.28.2 更新。该软件包通过解决各种问题并确保更好的兼容性而实现了飞跃。根据变更日志，该更新修复了初始化某些非官方 PS4 仿制控制器时控制器锁定的问题。&lt;a href=&quot;https://www.openssl.org/&quot;&gt;openssl-3&lt;/a&gt; 3.1.2 的更新解决了潜在的漏洞，包括检查 DH 参数值花费过多时间以及使用 AES-SIV 加密正确处理关联数据条目。&lt;a href=&quot;https://dracut.wiki.kernel.org/index.php/Main_Page&quot;&gt;dracut&lt;/a&gt; 的更新引入了一系列关键修复和功能。这些改进涵盖了广泛的领域，包括 systemd-udevd、systemd-journald、基本功能等等。openssl-3 3.1.2 更新包括针对使用 AES-SIV 加密正确处理关联数据条目的修复。快照中的另一个更新是针对 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 的策略分析工具；&lt;a href=&quot;https://github.com/SELinuxProject/setools/wiki&quot;&gt;setools&lt;/a&gt; 4.4.3 版本包括与 &lt;a href=&quot;https://github.com/cython/cython&quot;&gt;Cython&lt;/a&gt; 3.0.0 更好的兼容性和增强的&lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;联机帮助页&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Tumbleweed 用户可以在开放 GPU 内核模块和专有驱动程序之间进行选择，并且可以找到有关&lt;a href=&quot;https://en.opensuse.org/SDB:NVIDIA_drivers#openSUSE-repos&quot;&gt;在 openSUSE Tumbleweed 上使用 NVIDIA GPU 驱动程序&lt;/a&gt;的指南。在 openSUSE 存储库中，NVIDIA 的专有驱动程序可通过 zypper 安装。重要的是要认识到，由于许可限制，这些专有驱动程序源自 NVIDIA 存储库。此外，用户还可以通过启用第三方 NVIDIA 存储库，通过改进下载可访问性并减少延迟来增强体验。此外，用户可以通过 Fastly.com 赞助 CDN 订阅来增强下载可访问性并减少延迟，从而提升体验，从而使 download.opensuse.org 受益。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;有关于新 CDN 的使用，详见：&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/30/try-new-cdn.html&quot;&gt;使用 openSUSE-repos 尝试新的 CDN&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/08/11/perl-pipewire-libreoffice-up-in-tw/&quot;&gt;Perl, Pipewire, LibreOffice Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/08/08/opensuse-birthday.html</guid>
       <title>是的！今天是 openSUSE 18 周年纪念日</title>
       <pubDate>Tue, 08 Aug 2023 23:30:00 +0000</pubDate>
@@ -421,51 +454,6 @@ autorefresh=&quot;true&quot;/&amp;gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/15/mesa-systemd-gear-frameworks-up-in-tw/&quot;&gt;Mesa, systemd, Gear, Frameworks update in Tumbleweed&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/08/leap15.5-retrospective.html</guid>
-      <title>Leap 15.5 版本回顾公开征求反馈意见</title>
-      <pubDate>Thu, 08 Jun 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/06/08/leap15.5-retrospective.html</link>
-      <author>Hanjingxue Boling</author>
-      <description>openSUSE Leap 15.5 于本周早些时候发布，发布团队想听听你关于 openSUSE Leap 15.5 的体验。 有什么进展特别顺利，还是我们错过了什么？你在下载、安装 Leap 15.5 或为 Leap 15.5 做贡献时遇到过问题吗？你喜欢整体的交流吗？ 你只需前往 survey.opensuse.org 并告诉我们。 关于调查 该调查是匿名的，只有两个问题：“哪些事务进展顺利？”和“哪些事务不太顺利？”。 Leap 15.5 版本回顾调查将从发布开始持续两周，直到 6 月 21 日。 我们使用我们自己的 LimeSurvey 实例作为调研平台。 数据将如何使用？ 在此之后，我们将宣布几轮公开审查会议，我们将在会议上审查和分类反馈（查看以前版本的反馈），并尝试提出解决问题的行动项目。 认识团队或个人的机会 如果你想认识一些贡献者，请参与调查！我们将使用它作为版本认可电子感谢邮件的引用内容。openSUSE 团队或个人贡献者都会很高兴看到你欣赏他们的努力！ 欢迎大家帮助我们进行表彰工作，欢迎随时参与 Github 上的讨论。 以前版本的反馈 Leap 15.2 回顾调查结果 Leap 15.3 回顾调查结果 Leap 15.4 回顾调查结果 原文：Leap 15.5...</description>
-      <content:encoded>&lt;p&gt;openSUSE Leap 15.5 于本周早些时候发布，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Release_team&quot;&gt;发布团队&lt;/a&gt;想听听你关于 openSUSE Leap 15.5 的体验。&lt;/p&gt;
-
-&lt;p&gt;有什么进展特别顺利，还是我们错过了什么？你在下载、安装 Leap 15.5 或为 Leap 15.5 做贡献时遇到过问题吗？你喜欢整体的交流吗？&lt;/p&gt;
-
-&lt;p&gt;你只需前往 &lt;a href=&quot;https://survey.opensuse.org/index.php?r=survey/index&amp;amp;sid=129923&amp;amp;lang=en&quot;&gt;survey.opensuse.org&lt;/a&gt; 并告诉我们。&lt;/p&gt;
-
-&lt;h2 id=&quot;关于调查&quot;&gt;关于调查&lt;/h2&gt;
-
-&lt;p&gt;该调查是匿名的，只有两个问题：“哪些事务进展顺利？”和“哪些事务不太顺利？”。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://survey.opensuse.org/index.php?r=survey/index&amp;amp;sid=129923&amp;amp;lang=en&quot;&gt;Leap 15.5 版本回顾调查&lt;/a&gt;将从发布开始持续两周，直到 6 月 21 日。&lt;/p&gt;
-
-&lt;p&gt;我们使用我们自己的 &lt;a href=&quot;https://www.limesurvey.org/&quot;&gt;LimeSurvey&lt;/a&gt; 实例作为调研平台。&lt;/p&gt;
-
-&lt;h2 id=&quot;数据将如何使用&quot;&gt;数据将如何使用？&lt;/h2&gt;
-
-&lt;p&gt;在此之后，我们将宣布几轮公开审查会议，我们将在会议上审查和分类反馈（查看以前版本的反馈），并尝试提出解决问题的行动项目。&lt;/p&gt;
-
-&lt;h2 id=&quot;认识团队或个人的机会&quot;&gt;认识团队或个人的机会&lt;/h2&gt;
-
-&lt;p&gt;如果你&lt;strong&gt;想认识一些贡献者&lt;/strong&gt;，请参与调查！我们将使用它作为版本认可电子感谢邮件的引用内容。openSUSE 团队或个人贡献者都会很高兴看到你欣赏他们的努力！&lt;/p&gt;
-
-&lt;p&gt;欢迎大家帮助我们进行表彰工作，欢迎随时参与 &lt;a href=&quot;https://github.com/openSUSE/artwork/pull/72&quot;&gt;Github&lt;/a&gt; 上的讨论。&lt;/p&gt;
-
-&lt;h2 id=&quot;以前版本的反馈&quot;&gt;以前版本的反馈&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.2/Retrospective&quot;&gt;Leap 15.2 回顾调查结果&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.3/Retrospective&quot;&gt;Leap 15.3 回顾调查结果&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:15.4/Retrospective&quot;&gt;Leap 15.4 回顾调查结果&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/06/09/leap-15.5-release-retrospective/&quot;&gt;Leap 15.5 Release Retrospective is open for feedback&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
