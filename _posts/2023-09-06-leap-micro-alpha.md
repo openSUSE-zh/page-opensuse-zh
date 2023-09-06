@@ -49,7 +49,7 @@ Leap Micro 可用于边缘、嵌入式和物联网部署等多种计算环境。
 
 [发行说明]: https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.5/index.html
 
-用户可[在此][提交]错误报告。
+用户可[在此] [提交]错误报告。
 
 [提交]: https://en.opensuse.org/openSUSE:Submitting_bug_reports
 [在此]: https://bugzilla.suse.com/enter_bug.cgi?product=openSUSE%20Leap%20Micro
