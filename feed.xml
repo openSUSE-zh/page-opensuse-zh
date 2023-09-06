@@ -7,6 +7,137 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/05/new-survey.html</guid>
+      <title>调查显示社区对 openSUSE 未来方向的偏好</title>
+      <pubDate>Tue, 05 Sep 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/05/new-survey.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 贡献者社区上周完成了一项全面调查，旨在确定该项目的未来方向。该调查结果来自 327 名受访者，揭示了 openSUSE 开发、部署和升级计划的各个方面。 你可以在 openSUSE Wiki 上找到该调查的 pdf 版本。 问题及结果如下： 身份和参与 问：您最认同您属于哪一个群体？ 对 openSUSE 感兴趣：3.98% openSUSE 发行版的用户：41.90% openSUSE 发行版的贡献者：22.02% openSUSE 项目范围内的贡献者：8.87% 没有回答：1.53% 未完成或未显示：21.71% 在 openSUSE 的经历 问：您参与 openSUSE 有多久了？ &amp;lt; 6 个月：7.03% &amp;lt; 2 年：12.84% &amp;lt; 5 年：10.40% 5年及以上：46.18% 没有回答：1.83% 未完成或未显示：21.71% 该数据显示了很大一部分长期用户和贡献者，这表明了一个专注且稳定的社区。 openSUSE Leap 的部署 问：您目前在哪里部署 openSUSE...</description>
+      <content:encoded>&lt;p&gt;openSUSE 贡献者社区上周完成了一项全面&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;，旨在确定该项目的未来方向。该调查结果来自 327 名受访者，揭示了 openSUSE 开发、部署和升级计划的各个方面。&lt;/p&gt;
+
+&lt;p&gt;你可以在 &lt;a href=&quot;https://en.opensuse.org/images/6/60/Contributorsurvey2023.pdf&quot;&gt;openSUSE Wiki&lt;/a&gt; 上找到该调查的 pdf 版本。&lt;/p&gt;
+
+&lt;p&gt;问题及结果如下：&lt;/p&gt;
+
+&lt;h2 id=&quot;身份和参与&quot;&gt;身份和参与&lt;/h2&gt;
+
+&lt;p&gt;问：您最认同您属于哪一个群体？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;对 openSUSE 感兴趣：3.98%
+openSUSE 发行版的用户：41.90%
+openSUSE 发行版的贡献者：22.02%
+openSUSE 项目范围内的贡献者：8.87%
+没有回答：1.53%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;在-opensuse-的经历&quot;&gt;在 openSUSE 的经历&lt;/h2&gt;
+
+&lt;p&gt;问：您参与 openSUSE 有多久了？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt; 6 个月：7.03%
+&amp;lt; 2 年：12.84%
+&amp;lt; 5 年：10.40%
+5年及以上：46.18%
+没有回答：1.83%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;该数据显示了很大一部分长期用户和贡献者，这表明了一个专注且稳定的社区。&lt;/p&gt;
+
+&lt;h2 id=&quot;opensuse-leap-的部署&quot;&gt;openSUSE Leap 的部署&lt;/h2&gt;
+
+&lt;p&gt;问：您目前在哪里部署 openSUSE Leap？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;我的私人服务器：32.42%
+我的私人笔记本电脑/台式机：50.15%
+我的工作机（台式机/笔记本电脑）：33.33%
+我的云设备：14.68%
+不适用：13.15%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这些发现表明 openSUSE Leap 从个人计算机到服务器环境，具有广泛的用例。&lt;/p&gt;
+
+&lt;h2 id=&quot;笔记本电脑台式机的升级首选项&quot;&gt;笔记本电脑/台式机的升级首选项&lt;/h2&gt;
+
+&lt;p&gt;问：您希望在笔记本电脑或台式机上多久升级到 openSUSE Leap 后续发行版的新版本？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;每周：10.40%
+每 3-6 个月：14.07%
+每 6-12 个月：20.49%
+每 12-18 个月：20.49%
+没有回答：12.84%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;服务器云服务器的升级首选项&quot;&gt;服务器/云服务器的升级首选项&lt;/h2&gt;
+
+&lt;p&gt;问：您希望在服务器/云服务器上多久升级到 openSUSE Leap 后续版本的新版本？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;每周：2.75%
+每 3-6 个月：6.73%
+每 6-12 个月：11.01%
+每 12-18 个月：33.64%
+没有回答：24.16%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;贡献者偏好&quot;&gt;贡献者偏好&lt;/h2&gt;
+
+&lt;p&gt;问：您更愿意为以下哪些选项做出贡献？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite：19.88%
+Slowroll：19.88%
+我不想为任何 Leap 替代品做出贡献，而只关注 Tumbleweed：20.80%
+没有回答：17.74%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;opensuse-社区的愿景&quot;&gt;openSUSE 社区的愿景&lt;/h2&gt;
+
+&lt;p&gt;问：对于 openSUSE 的发展方向，您最喜欢以下哪些总体选项？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 23.85%
+Slowroll: 27.83%
+我不喜欢 Leap 替代品，只关注 Tumbleweed：17.43%
+没有回答：9.17%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;笔记本电脑台式机和服务器云服务器首选项&quot;&gt;笔记本电脑/台式机和服务器/云服务器首选项&lt;/h2&gt;
+
+&lt;h3 id=&quot;对于笔记本电脑台式机&quot;&gt;对于笔记本电脑/台式机：&lt;/h3&gt;
+
+&lt;p&gt;问：您更喜欢在笔记本电脑或台式机上使用以下哪一项？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 18.65%
+Slowroll: 23.24%
+我不喜欢 Leap 替代品，只使用 Tumbleweed：33.94%
+没有答案：2.45%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;对于服务器云服务器机器&quot;&gt;对于服务器/云服务器机器：&lt;/h3&gt;
+
+&lt;p&gt;问：您更喜欢在服务器或云服务器计算机上使用以下哪一项？&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 28.75%
+Slowroll: 31.80%
+我不喜欢 Leap 替代品，只使用 Tumbleweed：15.29%
+没有答案：2.45%
+未完成或未显示：21.71%
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这项综合调查的结果清楚地反映了 openSUSE 社区的偏好和优先事项，这无疑将影响该项目的未来方向。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/05/survey-reveals-community-preferences/&quot;&gt;Survey Reveals Community Preferences for openSUSE’s Future Direction&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/30/weekly-news.html</guid>
       <title>Tumbleweed 因开放构建服务迁移而减慢更新速度</title>
       <pubDate>Wed, 30 Aug 2023 23:30:00 +0000</pubDate>
@@ -371,35 +502,6 @@ autorefresh=&quot;true&quot;/&amp;gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/21/tw-up-highlights-redis-harfbuzz-changes/&quot;&gt;Tumbleweed Update Highlights Redis, HarfBuzz Changes&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/14/weekly-update.html</guid>
-      <title>Tumbleweed 给 KDE 用户带来了 Frameworks、Gear 更新</title>
-      <pubDate>Fri, 14 Jul 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/14/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>本周，openSUSE 的滚动分支 Tumbleweed 为 KDE 带来了 Frameworks 和 Gear 的更新包。 本周发布的快照含有各种增强功能和错误修复。 最新的快照 20230712 更新了 GCC 13.1.1 以及与自适应 Linux 平台（Adaptable Linux Platform）有关架构水平变更。一个补丁也被删除了。快照还将 Linux Kernel 更新至 6.4.2 版本，解决了在访问和更新虚拟内存区域的锁处理不正确时，导致释放后使用问题的 CVE-2023-3269。用于复制文件的 cpio 向后移植了一些上游修复程序，刷新了一些补丁并删除了四个补丁。快照中更新了一些 GNOME 软件包。gnome-shell 44.3 中进行了各种错误修复，一些清理和更新的翻译；它还修复了放大镜的光标偏移问题。mutter 44.3 进行了改进，以确保始终包含首选监视器模式并避免快速切换动态最大渲染时间。它还修复了动态最大渲染时间的问题。此外，还有各种错误修复和更新的翻译。yast2-storage-ng 4.6.12 的更新确保为 MicroOS 正确添加存储支持包，MicroOS 使用自定义分区建议客户端而不是其他特定客户端。快照中还更新了其他几个软件包。 快照 20230710 中仅更新了一个包。一次性密码工具包 oath-toolkit 更新至 2.6.8 版本，带来了一些变化。libpskc 组件已更新，以解决与最新 libxmlsec 版本的兼容性问题，从而确保平稳运行以及与最新库的正确集成。pam_oath...</description>
-      <content:encoded>&lt;p&gt;本周，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的滚动分支 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 为 KDE 带来了 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.108.0/&quot;&gt;Frameworks&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/gear/23.04.3/&quot;&gt;Gear&lt;/a&gt; 的更新包。&lt;/p&gt;
-
-&lt;p&gt;本周发布的快照含有各种增强功能和错误修复。&lt;/p&gt;
-
-&lt;p&gt;最新的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K364RTOIQ64CDQYTKT7KVLNZHPGYQGR5/&quot;&gt;20230712&lt;/a&gt; 更新了 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 13.1.1 以及与自适应 Linux 平台（Adaptable Linux Platform）有关架构水平变更。一个补丁也被删除了。快照还将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 更新至 6.4.2 版本，解决了在访问和更新虚拟内存区域的锁处理不正确时，导致释放后使用问题的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-3269.html&quot;&gt;CVE-2023-3269&lt;/a&gt;。用于复制文件的 &lt;a href=&quot;https://www.gnu.org/software/cpio/&quot;&gt;cpio&lt;/a&gt; 向后移植了一些上游修复程序，刷新了一些补丁并删除了四个补丁。快照中更新了一些 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 软件包。&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell&quot;&gt;gnome-shell&lt;/a&gt; 44.3 中进行了各种错误修复，一些清理和更新的翻译；它还修复了放大镜的光标偏移问题。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/mutter&quot;&gt;mutter&lt;/a&gt; 44.3 进行了改进，以确保始终包含首选监视器模式并避免快速切换动态最大渲染时间。它还修复了动态最大渲染时间的问题。此外，还有各种错误修复和更新的翻译。&lt;a href=&quot;https://github.com/yast/yast-storage-ng&quot;&gt;yast2-storage-ng&lt;/a&gt; 4.6.12 的更新确保为 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 正确添加存储支持包，MicroOS 使用自定义分区建议客户端而不是其他特定客户端。快照中还更新了其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GTH3UH26MLM7CUTWY7LXSWXKZ6Y5KZLD/&quot;&gt;20230710&lt;/a&gt; 中仅更新了一个包。一次性密码工具包 &lt;a href=&quot;https://www.nongnu.org/oath-toolkit/&quot;&gt;oath-toolkit&lt;/a&gt; 更新至 2.6.8 版本，带来了一些变化。&lt;a href=&quot;https://www.nongnu.org/oath-toolkit/libpskc-api/pskc-tutorial-library.html&quot;&gt;libpskc&lt;/a&gt; 组件已更新，以解决与最新 &lt;a href=&quot;https://www.aleksey.com/xmlsec/index.html&quot;&gt;libxmlsec&lt;/a&gt; 版本的兼容性问题，从而确保平稳运行以及与最新库的正确集成。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pam_oath&lt;/code&gt; 中的身份验证过程已得到改进，以避免在特定情况下 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pam_modutil_getpwnam&lt;/code&gt; 无法识别用户时失败。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pam_oath&lt;/code&gt; 的自测试功能也得到了增强。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4LEUM2LBBQWN5CBAESOKRB532LO7IJPH/&quot;&gt;20230709&lt;/a&gt; 发布了 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.108.0/&quot;&gt;KDE Frameworks 5.108.0&lt;/a&gt;。&lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 修复了一些错误，改进了一些功能，并通过确保通知的正确行为和优先考虑用户输入事件以获得响应更快的界面来增强用户体验。&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 的更新恢复了与 Plasma 文件对话框的兼容性，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;previewjob&lt;/code&gt; 现在在访问 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumbRootDevice&lt;/code&gt; 设备之前检查其有效性。这些更新改进了 KIO 的功能、修复了错误并增强了用户体验。文件索引和文件搜索包 &lt;a href=&quot;https://community.kde.org/Baloo&quot;&gt;Baloo&lt;/a&gt; 修复了参数名称，并进行了更改以正确解析空引用字符串。Baloo 的另一项更改通过将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UnindexedFileIndexer&lt;/code&gt; 划分为多个较小的事务来提高对尚未索引的文件进行索引的性能。此快照中唯一需要更新的其他软件包是 &lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt; 4.17.1。Xen 解决了 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1027519&quot;&gt;Bugzilla&lt;/a&gt; 问题中记录的多个上游错误；修复了两个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，其中 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-42335.html&quot;&gt;CVE-2022-42335&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-42336.html&quot;&gt;CVE-2022-42336&lt;/a&gt; 已得到解决。后一个 CVE 解决了 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; 硬件上对虚拟机 SSBD 选择的错误处理，其中虚拟机可能会低于或溢出每核心线程计数器，从而导致设置 SSBD 的尝试无效并导致潜在的安全漏洞。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/TTB6FZ2MMSUBKZQ2FPGMH2JIXCYDGP23/&quot;&gt;20230708&lt;/a&gt; 有一个主要版本更新和浏览器版本更新。新的 &lt;a href=&quot;https://github.com/benhoyt/inih&quot;&gt;inih&lt;/a&gt; 57 主要增强了处理无符号值和读取 64 位整数的功能；这扩展了库的功能并提高了与不同类型配置的兼容性。用于查看和编辑文件原始数据的 KDE 十六进制编辑器 okteta，已更新至 0.26.12 版本，改进了翻译并解决了与导出和保存功能相关的问题。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 115.0.1 的主要版本于本周早些时候发布，有一个版本升级。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GE7I2H75DB2MXJEHKGLEJFYZSQSM4CIL/&quot;&gt;20230707&lt;/a&gt; 更新了 &lt;a href=&quot;https://kde.org/announcements/gear/23.04.3/&quot;&gt;KDE Gear 23.04.3&lt;/a&gt;。视频编辑器 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 更新修复了时间线序列中的一些消失效果和其他同步问题。&lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;kitinerary&lt;/a&gt; 的更新改进了 URL 的处理，并确保 URL 在传递到 Android &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QFile&lt;/code&gt; 时得到完全编码。图像查看器 &lt;a href=&quot;https://apps.kde.org/gwenview/&quot;&gt;gwenview&lt;/a&gt; 解决了一个错误，以防止 exiv2 库崩溃。&lt;a href=&quot;https://apps.kde.org/kmail2/&quot;&gt;KMail&lt;/a&gt; 软件包进行了更改，以防止删除某些边距并更新电子邮件主题字段的 HTML 字符。快照中更新了其他几个 &lt;a href=&quot;https://kde.org/announcements/gear/23.04.3/&quot;&gt;Gear&lt;/a&gt; 软件包，但仅更新了另外一个非 KDE 软件包。&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.122 设置了交换激活的优先级，这表明交换分区的处理被赋予更高的优先级，可能会导致更有效的交换利用率。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NAPCDHWTXJLVWVMMGNP7VV3HZOPJZPY2/&quot;&gt;20230706&lt;/a&gt; 发布了 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 最新的主要版本：115。Firefox 现在可以将基于 Chrome 的浏览器中保存的支付方式迁移到 Firefox。Linux 上的 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; GPU 启用了硬件视频解码。选项卡管理器下拉列表包括用于更快关闭选项卡的关闭按钮。缺少 H264 视频解码支持的用户可以回退到 Cisco 的 OpenH264 插件。openSUSE 的硬件检测工具 &lt;a href=&quot;https://github.com/openSUSE/hwinfo&quot;&gt;hwinfo&lt;/a&gt; 更新至新的主要版本；hwinfo 23.1 调整了导出符号，以匹配 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yast2-hardware-detection&lt;/code&gt; 中的测试用例以及与 &lt;a href=&quot;https://en.wikipedia.org/wiki/Point-to-Point_Protocol_over_Ethernet&quot;&gt;PPPoE&lt;/a&gt; 相关的编译警告。&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.11.4 的更新修复了一些安全漏洞。&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2007-4559.html&quot;&gt;CVE-2007-4559&lt;/a&gt; 的补丁也被删除。电源包 upower 更新至 1.90.1 版本。其变化包括在关闭时检测并自动隐藏带内置电池的耳机，从而隐藏重复的罗技蓝牙和无线设备。快照中要更新的其他软件包有 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-maps&quot;&gt;gnome-maps&lt;/a&gt; 44.3、&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gupnp&quot;&gt;gupnp&lt;/a&gt; 1.6.4、libxcrypt 4.4.35 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/14/tw-brings-kde-users-frameworks-gear-up/&quot;&gt;Tumbleweed Brings KDE Users Frameworks, Gear Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
