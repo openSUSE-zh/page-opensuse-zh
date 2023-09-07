@@ -138,6 +138,49 @@ Slowroll: 31.80%
     </item>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/05/leap-micro-alpha.html</guid>
+      <title>新的 Leap Micro Alpha 增强了 SELinux</title>
+      <pubDate>Tue, 05 Sep 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/05/leap-micro-alpha.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 项目很高兴地宣布，其现代轻量级主机操作系统 Leap Micro 5.5 刚刚进入 Alpha 阶段。 该版本带来了大量增强功能和新增功能，有望使其成为用户更通用、更高效的选择。 最明显的变化是增加了 settroubleshoot 服务器并将其与 cockpit-selinux 模块集成。 Leap Micro 还增加了可轻松集成 UEFI 固件更新的 fwupdate 和 fwupdate-efi 软件包。 此外，Leap Micro 还添加了 git、用于图像处理的 skopio 和使用 podman 模拟 Docker CLI 的 podman-docker。新增了适用于 x86_64 和 aarch64 的 QEMU Copy On Write (QCOW) RAW 镜像版本。 Leap Micro 不提供图形用户界面或桌面版本。用户可使用 Cockpit...</description>
+      <content:encoded>&lt;p&gt;openSUSE 项目很高兴地宣布，其现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.5/&quot;&gt;Leap Micro 5.5&lt;/a&gt; 刚刚进入 Alpha 阶段。&lt;/p&gt;
+
+&lt;p&gt;该版本带来了大量增强功能和新增功能，有望使其成为用户更通用、更高效的选择。&lt;/p&gt;
+
+&lt;p&gt;最明显的变化是增加了 settroubleshoot 服务器并将其与 &lt;a href=&quot;https://cockpit-project.org/guide/latest/feature-selinux&quot;&gt;cockpit-selinux&lt;/a&gt; 模块集成。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 还增加了可轻松集成 UEFI 固件更新的 fwupdate 和 fwupdate-efi 软件包。&lt;/p&gt;
+
+&lt;p&gt;此外，Leap Micro 还添加了 git、用于图像处理的 skopio 和使用 podman 模拟 Docker CLI 的 podman-docker。新增了适用于 x86_64 和 aarch64 的 QEMU Copy On Write (QCOW) RAW 镜像版本。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 不提供图形用户界面或桌面版本。用户可使用 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 通过网络浏览器管理主机操作系统。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.5 Alpha 基于 &lt;a href=&quot;https://www.suse.com/c/suse-linux-enterprise-micro-5-5-public-beta-is-out/&quot;&gt;SLE Micro 5.5 Beta&lt;/a&gt;，并构建在 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP5/index.html&quot;&gt;SLE 15 SP 5&lt;/a&gt; 更新之上。在 2023 年 9 月下旬发布 SLE Micro 5.5 RC 后不久，用户就能看到 Leap Micro 5.5 Beta。我们计划于 2023 年 10 月中旬与 SLE Micro 5.5 一起在全球发布。该时间表完全由 SLE Micro 准备情况决定。&lt;/p&gt;
+
+&lt;p&gt;更多详情请参见&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;用户应该知道，Leap Micro 不使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt;，而是使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 可用于边缘、嵌入式和物联网部署等多种计算环境。开发人员和专业人士可以构建和扩展用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、Web 服务器、机器人、区块链等领域的系统。&lt;/p&gt;
+
+&lt;p&gt;我们建议用户查看&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.5/index.html&quot;&gt;发行说明&lt;/a&gt;以了解更多内容。&lt;/p&gt;
+
+&lt;p&gt;用户可&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;在此&lt;/a&gt;错误报告。&lt;/p&gt;
+
+&lt;p&gt;大型开发团队可以尝试使用 Leap Micro，并过渡到 SUSE 的 SLE Micro 进行扩展维护和认证，从而为其业务增值。&lt;/p&gt;
+
+&lt;p&gt;要下载 ISO 镜像文件，请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;你可在&lt;a href=&quot;https://documentation.suse.com/sle-micro/&quot;&gt;此处&lt;/a&gt;查找有关该版本的最新文档。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/06/new-leap-micro-alpha-enhances-selinux/&quot;&gt;New Leap Micro Alpha Enhances SELInux&lt;/a&gt;，作者：Lubos Kocman 和 Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/30/weekly-news.html</guid>
       <title>Tumbleweed 因开放构建服务迁移而减慢更新速度</title>
       <pubDate>Wed, 30 Aug 2023 23:30:00 +0000</pubDate>
@@ -475,33 +518,6 @@ autorefresh=&quot;true&quot;/&amp;gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/28/os-wishes-u-a-happy-sysadmin-day/&quot;&gt;openSUSE Wishes You a Happy SysAdmin Day&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/20/weekly-update.html</guid>
-      <title>Redis 和 HarfBuzz 在 Tumbleweed 中获得更新</title>
-      <pubDate>Thu, 20 Jul 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/07/20/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Tumbleweed 在本周更新了 harfbuzz、xterm、Redis、Audacity 等软件包。 本周快照不断推出。 快照 20230718 更新了两个包。pentobi 23.1 的更新修复了一个覆盖 Android 上的游戏文件相关的问题。数据压缩优化器 zlib-ng-compat 更新至 2.1.3 进行了改进和更新，使库更强大、更高效。zlib-ng-compat 还删除了一个因上游更改而不再需要的补丁。 快照 20230717 更新了许多软件包。其中包括获得主要版本更新的 ext 整形引擎 harfbuzz。harfbuzz 8.0.1 包含了许多新功能，例如实验性 WebAssembly（WASM）整形器，以及许多错误修复。harfbuzz 通过利用嵌入在字体文件中的 WebAssembly 来提高字体整形的灵活性，但 WASM 整形器默认处于禁用状态，需要在构建过程中启用；该软件包还进行了一些优化。字体渲染 freetype2 2.13.1 有许多新功能和错误修复。最显着的变化是添加了新函数 FT_Get_Default_Named_Instance 和 FT_GlyphSlot_AdjustWeight，可用于水平或垂直调整字形权重。fusion3 3.15.1 将默认写入大小减少了一半。poppler 23.07.0 的更新进行了改进并解决了读取 UTF8-with-BOM 文件、渲染格式错误的文档等问题，并解决了与叠印预览和签名处理相关的崩溃问题。xterm 384 的更新还修正了位图字体双倍宽度字符的渲染，并修复了与远程图形指令集有关的问题，包括处理颜色初始化和颜色值的空白。总的来说，快照涵盖了一个共同的主题，即改进和增强与字体渲染、整形、文档处理和终端仿真相关的各种软件包。快照中更新的其他几个软件包包括 krb5 1.21.1 和 rsyslog...</description>
-      <content:encoded>&lt;p&gt;openSUSE Tumbleweed 在本周更新了 harfbuzz、xterm、Redis、Audacity 等软件包。&lt;/p&gt;
-
-&lt;p&gt;本周快照不断推出。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WJ6JUZ5AHP4T7MQ2OEO5IY4Q227HEEFA/&quot;&gt;20230718&lt;/a&gt; 更新了两个包。&lt;a href=&quot;https://github.com/enz/pentobi&quot;&gt;pentobi&lt;/a&gt; 23.1 的更新修复了一个覆盖 Android 上的游戏文件相关的问题。数据压缩优化器 &lt;a href=&quot;https://github.com/zlib-ng/zlib-ng&quot;&gt;zlib-ng-compat&lt;/a&gt; 更新至 2.1.3 进行了改进和更新，使库更强大、更高效。zlib-ng-compat 还删除了一个因上游更改而不再需要的补丁。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/FK37KIDTONED64QWUPBL2RIR3WVELEQA/&quot;&gt;20230717&lt;/a&gt; 更新了许多软件包。其中包括获得主要版本更新的 ext 整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt;。harfbuzz 8.0.1 包含了许多新功能，例如实验性 &lt;a href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt;（WASM）整形器，以及许多错误修复。harfbuzz 通过利用嵌入在字体文件中的 WebAssembly 来提高字体整形的灵活性，但 WASM 整形器默认处于禁用状态，需要在构建过程中启用；该软件包还进行了一些优化。字体渲染 &lt;a href=&quot;https://freetype.org/&quot;&gt;freetype2&lt;/a&gt; 2.13.1 有许多新功能和错误修复。最显着的变化是添加了新函数 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FT_Get_Default_Named_Instance&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FT_GlyphSlot_AdjustWeight&lt;/code&gt;，可用于水平或垂直调整字形权重。&lt;a href=&quot;https://github.com/libfuse/libfuse&quot;&gt;fusion3&lt;/a&gt; 3.15.1 将默认写入大小减少了一半。&lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 23.07.0 的更新进行了改进并解决了读取 UTF8-with-BOM 文件、渲染格式错误的文档等问题，并解决了与叠印预览和签名处理相关的崩溃问题。xterm 384 的更新还修正了位图字体双倍宽度字符的渲染，并修复了与远程图形指令集有关的问题，包括处理颜色初始化和颜色值的空白。总的来说，快照涵盖了一个共同的主题，即改进和增强与字体渲染、整形、文档处理和终端仿真相关的各种软件包。快照中更新的其他几个软件包包括 &lt;a href=&quot;https://web.mit.edu/kerberos/&quot;&gt;krb5&lt;/a&gt; 1.21.1 和 &lt;a href=&quot;https://www.rsyslog.com/&quot;&gt;rsyslog&lt;/a&gt; 8.2306.0。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YGU7CSYRDEB62V5LRRIGXMFUX6EUFVUL/&quot;&gt;20230716&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 115.0.2。Firefox 修复了许多错误以及 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://www.suse.com/de-de/security/cve/CVE-2023-3600.html&quot;&gt;CVE-2023-3600&lt;/a&gt; 是一个可通过崩溃来利用的释放后使用漏洞。&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 6.4 在 macvlan 组件中添加了一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bclim&lt;/code&gt; 的新参数。在 openSUSE 的 bugzilla 发现 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1012628&quot;&gt;issue 1012628&lt;/a&gt; 后，&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;更新到了 6.4.3。快照中另一个要更新的软件包是 &lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 9.5.0。新版本包括重要的更改，例如在 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 中配置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qcow2&lt;/code&gt; 驱动程序的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;discard-no-unref&lt;/code&gt; 功能，这有望减少映像的集群碎片。其他改进还包括处理 CPU 兼容性以及正确处理非 DIMM 设备的内存插槽。快照中还更新了其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JG7QUZZTXFYX3V75TXGDZ3IBRH4MR4FD/&quot;&gt;20230714&lt;/a&gt; 将 &lt;a href=&quot;https://redis.io/&quot;&gt;redis&lt;/a&gt; 更新至 7.0.12，解决了两个 CVE。&lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24834&quot;&gt;CVE-2022-24834&lt;/a&gt; 与可执行各种操作的 Lua 脚本有关。该漏洞允许特制的 Lua 脚本在 cjson 库中触发&lt;a href=&quot;https://en.wikipedia.org/wiki/Heap_overflow&quot;&gt;堆溢出&lt;/a&gt;。另一个漏洞 &lt;a href=&quot;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36824&quot;&gt;CVE-2023-36824&lt;/a&gt; 与从命令和参数列表中提取键名有关，在某些情况下，提取过程也可能触发堆溢出。&lt;a href=&quot;https://github.com/kaio/ibus-table&quot;&gt;ibus-table&lt;/a&gt; 1.17.1 更新了翻译和函数 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_active_window_xprop()&lt;/code&gt;，正如 &lt;a href=&quot;https://bugzilla.redhat.com/show_bug.cgi?id=2215466&quot;&gt;Fedora 已解决的问题&lt;/a&gt;所指出的，函数 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_active_window_xprop()&lt;/code&gt; 预计会返回空值。快照添加了对 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.12 的支持，并在 &lt;a href=&quot;https://pypi.org/project/pyparsing/&quot;&gt;python311-pyparsing&lt;/a&gt; 3.1.0 更新中更新了与 railroad-diagrams 软件包的兼容性。Netfilter 库 &lt;a href=&quot;https://netfilter.org/projects/libnftnl/&quot;&gt;libnftnl&lt;/a&gt; 1.2.6 引入了路由表的新表达式，&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 地图部件 &lt;a href=&quot;https://wiki.gnome.org/Projects/libshumate&quot;&gt;libshumate&lt;/a&gt; 1.0.4 更改了动画中的下载过程。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/J7QLLSKGUM3PQLNODZAERS6B6ZJBYW47/&quot;&gt;20230713&lt;/a&gt; 中没有软件包收到新版本，但对 &lt;a href=&quot;https://www.audacityteam.org/&quot;&gt;audacity&lt;/a&gt; 进行了小改动，更新了 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 架构的约束条件。&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 软件包也进行了修改，以提高其功能和可靠性。此外，快照还对软件包进行了修改，使其与最新的 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 12 版本兼容，这对本周晚些时候的构建很有帮助。快照还对 &lt;a href=&quot;https://github.com/libguestfs/libguestfs&quot;&gt;libguestfs&lt;/a&gt; 软件包进行了修改，以解决查找 &lt;a href=&quot;https://github.com/libguestfs/supermin&quot;&gt;supermin&lt;/a&gt; 工具时遇到的问题。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/21/tw-up-highlights-redis-harfbuzz-changes/&quot;&gt;Tumbleweed Update Highlights Redis, HarfBuzz Changes&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
