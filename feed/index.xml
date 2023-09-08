@@ -7,6 +7,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/07/weekly-update.html</guid>
+      <title>KDE Gear 和 FreeRDP 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 07 Sep 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/07/weekly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 本周的快照大小不一，同时还发布了适用于 ARM 架构，更新的 Tumbleweed 快照。 快照 20230904 对两个软件包进行了安全修复。XML 解析软件包 libxml2 解决了 CVE-2023-39615，该漏洞与可能导致全局缓冲区溢出的伪造 XML 有关，而 libxml2-python 则通过一个补丁缓解了该漏洞。 快照 20230902 更新了 FreeRDP。freerdp 2.11.0 的更新修复了各种输入验证问题，并解决了潜在的漏洞以增强安全性。freerdp 引入了各种 CMake 选项，以便在构建包时提供更大的灵活性。快照发布了与 LibreSSL 相关的修复以及对 endian systems 的支持。该软件包还通过采用新的 FFmpeg 来处理 H.264 编解码器。php8 8.2.10 的更新修复了 CLI 服务器崩溃并解决了 MySQLnd 扩展中的问题，以确保使用密码帐户进行正确的身份验证并防止段错误。SDL2 2.28.3 引入了 G-Shark GS-GP702 的游戏手柄映射，并且该软件包修复了 PS5 模式下 Razer Wolverine...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周的快照大小不一，同时还发布了适用于 ARM 架构，更新的 Tumbleweed 快照。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WXYAVFTLK4LFH44UMQH4VH2TFNAUUFQC/&quot;&gt;20230904&lt;/a&gt; 对两个软件包进行了安全修复。XML 解析软件包 &lt;a href=&quot;https://github.com/GNOME/libxml2&quot;&gt;libxml2&lt;/a&gt; 解决了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-39615.html&quot;&gt;CVE-2023-39615&lt;/a&gt;，该漏洞与可能导致全局&lt;a href=&quot;https://en.wikipedia.org/wiki/Buffer_overflow&quot;&gt;缓冲区溢出&lt;/a&gt;的伪造 XML 有关，而 &lt;a href=&quot;https://github.com/vingd/libxml2-python&quot;&gt;libxml2-python&lt;/a&gt; 则通过一个补丁缓解了该漏洞。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JK4K3O656KQCVRSNMZCGML7KLMG2ZI2A/&quot;&gt;20230902&lt;/a&gt; 更新了 &lt;a href=&quot;https://www.freerdp.com/&quot;&gt;FreeRDP&lt;/a&gt;。freerdp 2.11.0 的更新修复了各种输入验证问题，并解决了潜在的漏洞以增强安全性。freerdp 引入了各种 &lt;a href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; 选项，以便在构建包时提供更大的灵活性。快照发布了与 &lt;a href=&quot;https://www.libressl.org/&quot;&gt;LibreSSL&lt;/a&gt; 相关的修复以及对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Endianness&quot;&gt;endian systems&lt;/a&gt; 的支持。该软件包还通过采用新的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;FFmpeg&lt;/a&gt; 来处理 H.264 编解码器。&lt;a href=&quot;https://www.php.net/&quot;&gt;php8&lt;/a&gt; 8.2.10 的更新修复了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Command-line_interface&quot;&gt;CLI&lt;/a&gt; 服务器崩溃并解决了 &lt;a href=&quot;https://www.php.net/manual/en/book.mysqlnd.php&quot;&gt;MySQLnd&lt;/a&gt; 扩展中的问题，以确保使用密码帐户进行正确的身份验证并防止&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;段错误&lt;/a&gt;。&lt;a href=&quot;https://www.libsdl.org/&quot;&gt;SDL2&lt;/a&gt; 2.28.3 引入了 &lt;a href=&quot;https://github.com/GSharker/G-Shark&quot;&gt;G-Shark&lt;/a&gt; GS-GP702 的游戏手柄映射，并且该软件包修复了 PS5 模式下 &lt;a href=&quot;https://www.razer.com/&quot;&gt;Razer&lt;/a&gt; Wolverine V2 Pro 控制器的触摸板事件。&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/xdg-utils/&quot;&gt;xdg-utils&lt;/a&gt; 的更新合并了上游补丁，并进行了更改以在发布时支持 &lt;a href=&quot;https://community.kde.org/Plasma/Plasma_6&quot;&gt;KDE Plasma 6&lt;/a&gt;。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://github.com/openSUSE/suse-module-tools&quot;&gt;suse-module-tools&lt;/a&gt; 16.0.34、&lt;a href=&quot;https://gitlab.com/virtio-fs/virtiofsd&quot;&gt;virtiofsd&lt;/a&gt; 1.7.2 等。&lt;/p&gt;
+
+&lt;p&gt;9 月份的第一个快照中更新了 30 多个软件包。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/X7ATBMJWTWPPAH2OZJX35XFIAEPBNDMH/&quot;&gt;20230901&lt;/a&gt; 发布了 &lt;a href=&quot;https://kde.org/announcements/gear/23.08.0/&quot;&gt;KDE Gear&lt;/a&gt; 的更新。文件管理器 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 现在可以隐藏临时文件和备份文件，从而使用户的文件视图更加整洁。Dolphin 还引入了显示尺寸计算进度等功能。文档查看器 &lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 通过允许将原因和位置等附加元数据添加到签名中来增强数字签名。&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的旅行助手包 &lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;Itinerary&lt;/a&gt; 现在支持导入在线火车票，并改进了从 &lt;a href=&quot;https://www.airasia.com/&quot;&gt;Air Asia&lt;/a&gt;、&lt;a href=&quot;https://www.hotel-bb.com/&quot;&gt;B&amp;amp;B Hotels&lt;/a&gt;、&lt;a href=&quot;https://www.bahn.de/&quot;&gt;Deutsche Bahn&lt;/a&gt;、&lt;a href=&quot;https://www.eventbrite.com/&quot;&gt;Eventbrite&lt;/a&gt;、&lt;a href=&quot;https://global.flixbus.com/&quot;&gt;FlixBus&lt;/a&gt; 等多家公司文档中提取数据的功能。Web 浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 117.0 的更新进行了更改，以处理各个组件中的内存损坏问题，并修复了与整数溢出和未加密推送通知相关的问题。Firefox 还解决了 13 个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.42.0 的更新有一些显着的变化，包括使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pack-refs&lt;/code&gt; 模式调整引用层次结构的能力，以及使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pack-objects&lt;/code&gt; 中的新钩子程序来枚举额外的对象以进行锚定。git 在处理 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GPG&lt;/a&gt; 签名验证方面也进行了改进，并且增强了与稀疏索引功能的兼容性。&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 6.4.12 的更新修复了加密和 CIFS 中的错误处理。它还具有一些高级 Linux 声音架构 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;) 片上系统 (ASoC) 更改和稳定性改进。快照中更新的其他几个软件包包括 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 0.3.79、&lt;a href=&quot;https://pypi.org/project/pip/&quot;&gt;python-pip&lt;/a&gt; 23.2.1、&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 7.6.1.1、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 23.1.6、&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 0.16.3、&lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 4.18.6 等。&lt;/p&gt;
+
+&lt;p&gt;新的 &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/E3ZRUDU7WCXSC4FKDQ2ZQ5WQ5KZ6CFEI/&quot;&gt;Tumbleweed arm 快照 20230904&lt;/a&gt; 包括上面突出显示的软件的所有软件包更新。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/07/kde-gear-freerdp-up-in-tw/&quot;&gt;KDE Gear, FreeRDP update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/05/new-survey.html</guid>
       <title>调查显示社区对 openSUSE 未来方向的偏好</title>
       <pubDate>Tue, 05 Sep 2023 23:30:00 +0000</pubDate>
@@ -448,76 +471,6 @@ autorefresh=&quot;true&quot;/&amp;gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;Try out the new CDN with openSUSE-repos&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/07/27/happy-sysadmin-day.html</guid>
-      <title>openSUSE 祝您系统管理员日快乐</title>
-      <pubDate>Thu, 27 Jul 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/07/27/happy-sysadmin-day.html</link>
-      <author>Poplar at twilight</author>
-      <description>系统管理员（sysadmins）是技术领域的无名英雄，openSUSE 项目感谢所有帮助我们项目运作的 openSUSE 英雄。
-
-系统管理员负责维护我们的技术骨干。他们在幕后工作，维护计算机系统的基础设施、安全性和整体功能。
-
-每年七月的最后一个星期五是系统管理员日（SysAdmin Day），这是一个特殊的节日，旨在表彰系统管理员在维持数字世界正常运行方面发挥的关键作用。
-
-系统管理员的职责包括安装、配置和维护硬件和软件。他们确保系统安全，排除故障并解决问题。这些人员不断学习和适应，同时营造积极的工作环境。有些人接听电话时可能会问你“有没有试着关机或开机”。😂
-
-这些人的努力对各种规模的企业和组织的顺利运行至关重要。没有系统管理员，数字世界就会停滞不前，一些开源项目也会停滞不前。
-
-值此 2023 年系统管理员日之际，让我们用一点时间来感谢这些兢兢业业的专业人员；他们值得我们的赞赏。
-
-以下是在系统管理员日向系统管理员表示感谢的一些方法：
-
-
-  从 shop.opensuse.org 向他们发送礼物
-  向他们赠送贺卡或发送电子邮件表示感谢
-  请他们吃午餐或晚餐
-  请他们喝啤酒
-
-
-无论您选择哪种方式，您的系统管理员都会对您的善意举动表示感谢。
-
-感谢系统管理员让我们的数字世界平稳运行。
-
-系统管理员节快乐！
-
-
-
-原文：openSUSE Wishes You a Happy SysAdmin Day，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;系统管理员（sysadmins）是技术领域的无名英雄，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;感谢所有帮助我们项目运作的 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Heroes&quot;&gt;openSUSE 英雄&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;系统管理员负责维护我们的技术骨干。他们在幕后工作，维护计算机系统的基础设施、安全性和整体功能。&lt;/p&gt;
-
-&lt;p&gt;每年七月的最后一个星期五是&lt;a href=&quot;https://sysadminday.com/&quot;&gt;系统管理员日&lt;/a&gt;（SysAdmin Day），这是一个特殊的节日，旨在表彰系统管理员在维持数字世界正常运行方面发挥的关键作用。&lt;/p&gt;
-
-&lt;p&gt;系统管理员的职责包括安装、配置和维护硬件和软件。他们确保系统安全，排除故障并解决问题。这些人员不断学习和适应，同时营造积极的工作环境。有些人接听电话时可能会问你“有没有试着关机或开机”。😂&lt;/p&gt;
-
-&lt;p&gt;这些人的努力对各种规模的企业和组织的顺利运行至关重要。没有系统管理员，数字世界就会停滞不前，一些开源项目也会停滞不前。&lt;/p&gt;
-
-&lt;p&gt;值此 2023 年系统管理员日之际，让我们用一点时间来感谢这些兢兢业业的专业人员；他们值得我们的赞赏。&lt;/p&gt;
-
-&lt;p&gt;以下是在系统管理员日向系统管理员表示感谢的一些方法：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;从 &lt;a href=&quot;https://shop.opensuse.org/&quot;&gt;shop.opensuse.org&lt;/a&gt; 向他们发送礼物&lt;/li&gt;
-  &lt;li&gt;向他们赠送贺卡或发送电子邮件表示感谢&lt;/li&gt;
-  &lt;li&gt;请他们吃午餐或晚餐&lt;/li&gt;
-  &lt;li&gt;请他们喝啤酒&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;无论您选择哪种方式，您的系统管理员都会对您的善意举动表示感谢。&lt;/p&gt;
-
-&lt;p&gt;感谢系统管理员让我们的数字世界平稳运行。&lt;/p&gt;
-
-&lt;p&gt;系统管理员节快乐！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/07/28/os-wishes-u-a-happy-sysadmin-day/&quot;&gt;openSUSE Wishes You a Happy SysAdmin Day&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
