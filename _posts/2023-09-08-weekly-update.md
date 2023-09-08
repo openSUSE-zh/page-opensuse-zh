@@ -26,7 +26,7 @@ tags:
 [libxml2-python]: https://github.com/vingd/libxml2-python
 [缓冲区溢出]: https://en.wikipedia.org/wiki/Buffer_overflow
 
-快照 [20230902] 更新了 [FreeRDP]。freerdp 2.11.0 的更新修复了各种输入验证问题，并解决了潜在的漏洞以增强安全性。freerdp 入了各种 [CMake] 选项，以便在构建包时提供更大的灵活性。快照发布了与 [LibreSSL] 相关的修复以及对 [endian systems] 的支持。该软件包还通过采用新的 [FFmpeg] [API] 来处理 H.264 编解码器。[php8] 8.2.10 的更新修复了 [CLI] 服务器崩溃并解决了 [MySQLnd] 扩展中的问题，以确保使用密码帐户进行正确的身份验证并防止[段错误]。[SDL2] 2.28.3 引入了 [G-Shark] GS-GP702 的游戏手柄映射，并且该软件包修复了 PS5 模式下 [Razer] Wolverine V2 Pro 控制器的触摸板事件。[xdg-utils] 的更新合并了上游补丁，并进行了更改以在发布时支持 [KDE Plasma 6]。快照中更新了其他几个软件包，包括 [suse-module-tools] 16.0.34、[virtiofsd] 1.7.2 等。
+快照 [20230902] 更新了 [FreeRDP]。freerdp 2.11.0 的更新修复了各种输入验证问题，并解决了潜在的漏洞以增强安全性。freerdp 引入了各种 [CMake] 选项，以便在构建包时提供更大的灵活性。快照发布了与 [LibreSSL] 相关的修复以及对 [endian systems] 的支持。该软件包还通过采用新的 [FFmpeg] [API] 来处理 H.264 编解码器。[php8] 8.2.10 的更新修复了 [CLI] 服务器崩溃并解决了 [MySQLnd] 扩展中的问题，以确保使用密码帐户进行正确的身份验证并防止[段错误]。[SDL2] 2.28.3 引入了 [G-Shark] GS-GP702 的游戏手柄映射，并且该软件包修复了 PS5 模式下 [Razer] Wolverine V2 Pro 控制器的触摸板事件。[xdg-utils] 的更新合并了上游补丁，并进行了更改以在发布时支持 [KDE Plasma 6]。快照中更新了其他几个软件包，包括 [suse-module-tools] 16.0.34、[virtiofsd] 1.7.2 等。
 
 [20230902]: https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JK4K3O656KQCVRSNMZCGML7KLMG2ZI2A/
 [FreeRDP]: https://www.freerdp.com/
