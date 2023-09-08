@@ -77,24 +77,6 @@ tags:
 
 [Tumbleweed arm 快照 20230904]: https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/E3ZRUDU7WCXSC4FKDQ2ZQ5WQ5KZ6CFEI/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ------
 
 原文：[KDE Gear, FreeRDP update in Tumbleweed](https://news.opensuse.org/2023/09/07/kde-gear-freerdp-up-in-tw/)，作者：Douglas DeMaio
