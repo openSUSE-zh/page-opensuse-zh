@@ -21,7 +21,7 @@ tags:
 
 最新发布的快照是 [20230913]。网络浏览器 [Mozilla Firefox] 117.0.1 修复了导致长时间运行任务的扩展提前终止的错误。Firefox 解决了基于 [WebAssembly] 的站点的音频问题。[curl] 8.3.0 的更新删除了 [gskit] 和 [NSS] 务支持。该软件包还修复了地址问题，例如处理响应标头中的 [IPv6] 地址、减少了一些超时并改进了 SSL 和 HTTP 协议处理。虚拟化工具 [qemu] 8.1.0 的更新改进了对虚拟功能输入/输出 (VFIO) 的实时迁移支持，并为 [ARM]、[PowerPC] 和 [RISC-V] 架构提供了一些高级加密标准加速。[sudo] 1.9.14p3 的更新修复了与 [Python] 3.12 相关的崩溃问题，并解决了管道或重定向输出时的输出格式问题。快照还更新了其他几个包。
 
-[20230913]: 
+[20230913]: https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/BHC6HY2YTUVKJJFO76HKND5FQZLCXS6V/
 [GSKit]: https://www.ibm.com/docs/en/informix-servers/14.10?topic=protocol-global-security-kit-gskit
 [NSS]: https://en.wikipedia.org/wiki/Network_Security_Services
 [Mozilla Firefox]: https://www.mozilla.org/
