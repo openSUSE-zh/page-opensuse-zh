@@ -69,6 +69,7 @@ tags:
 [xfce4-whiskermenu-plugin]: https://gottcode.org/xfce4-whiskermenu-plugin/
 [Wayland]: https://wayland.freedesktop.org/
 [Xfce 4.14]: https://xfce.org/about/news/?post=1565568000
+[Breeze]: https://github.com/KDE/breeze
 
 ------
 
