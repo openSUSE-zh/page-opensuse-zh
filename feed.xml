@@ -7,6 +7,64 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/26/survey.html</guid>
+      <title>探索 openSUSE 用例和更多内容的问卷调查</title>
+      <pubDate>Tue, 26 Sep 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/26/survey.html</link>
+      <author>Poplar at twilight</author>
+      <description>最近发布的一项 openSUSE 调查询问了 IT 专业人士和用户对开源技术和不断发展的 Linux 生态系统的看法。 此次用例调查旨在收集有关 Linux 的未来及其在各行业中的作用的见解。调查分为四组，根据对第一个也是唯一一个必答问题的回答，最多可回答 30 个问题。调查时间不超过 10 分钟，具体取决于被调查者希望提供的详细信息的深度。调查的首要主题和想法如下： 了解用户需求和满意度 调查首先根据受访者对 IT 的使用情况进行分类：工作/业务、家庭/业余爱好或两者兼有。这种分类有助于调整调查方法，更好地满足受访者的需求。 对于工作/业务类别的受访者，调查将深入探讨其对 IT 服务的满意度。不满意者可以提出改进建议，并探讨 Linux 的未来发展前景。 家庭和业余爱好爱好者 对于那些在家中或出于爱好使用 Linux 的人，该调查询问了他们对 openSUSE 产品（如 Tumbleweed、Leap、MicroOS 和 SlowRoll）的偏好，以及为什么这些发行版对用户和开发人员有吸引力。 贡献和开源参与 作为一个开源项目，查询对开源项目和 openSUSE 的贡献是很有意义的。这不仅有助于了解开源软件和项目的使用情况，还有助于了解用户为其做出了多少贡献。 总体见解和未来趋势 该部分向所有受访者询问 Linux 在主要用途之外的更广泛使用情况。目的是帮助了解受访者体验到的好处和遇到的挑战。我们鼓励受访者分享他们对特定 Linux 发行版的偏好，以及他们对新兴 IT 趋势和技术的看法。发起这项调查的社区成员希望了解 Linux 是否能够通过中长期战略满足市场不断变化的需求。 openSUSE 的用例调查不仅仅是一组问题；它是一项集体努力，旨在确保 Linux 不断发展，以满足用户的不同需求，并为开源技术创造更美好的未来。请继续关注调查结果的更多更新和分析，调查将持续到...</description>
+      <content:encoded>&lt;p&gt;最近发布的一项 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;openSUSE 调查&lt;/a&gt;询问了 IT 专业人士和用户对开源技术和不断发展的 Linux 生态系统的看法。&lt;/p&gt;
+
+&lt;p&gt;此次&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;用例调查&lt;/a&gt;旨在收集有关 Linux 的未来及其在各行业中的作用的见解。调查分为四组，根据对第一个也是唯一一个必答问题的回答，最多可回答 30 个问题。调查时间不超过 10 分钟，具体取决于被调查者希望提供的详细信息的深度。调查的首要主题和想法如下：&lt;/p&gt;
+
+&lt;h2 id=&quot;了解用户需求和满意度&quot;&gt;了解用户需求和满意度&lt;/h2&gt;
+
+&lt;p&gt;调查首先根据受访者对 IT 的使用情况进行分类：工作/业务、家庭/业余爱好或两者兼有。这种分类有助于调整调查方法，更好地满足受访者的需求。&lt;/p&gt;
+
+&lt;p&gt;对于工作/业务类别的受访者，调查将深入探讨其对 IT 服务的满意度。不满意者可以提出改进建议，并探讨 Linux 的未来发展前景。&lt;/p&gt;
+
+&lt;h2 id=&quot;家庭和业余爱好爱好者&quot;&gt;家庭和业余爱好爱好者&lt;/h2&gt;
+
+&lt;p&gt;对于那些在家中或出于爱好使用 Linux 的人，该调查询问了他们对 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 产品&lt;/a&gt;（如 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt;、&lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt;、&lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 和 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;SlowRoll&lt;/a&gt;）的偏好，以及为什么这些发行版对用户和开发人员有吸引力。&lt;/p&gt;
+
+&lt;h2 id=&quot;贡献和开源参与&quot;&gt;贡献和开源参与&lt;/h2&gt;
+
+&lt;p&gt;作为一个开源项目，查询对开源项目和 openSUSE 的贡献是很有意义的。这不仅有助于了解开源软件和项目的使用情况，还有助于了解用户为其做出了多少贡献。&lt;/p&gt;
+
+&lt;h2 id=&quot;总体见解和未来趋势&quot;&gt;总体见解和未来趋势&lt;/h2&gt;
+
+&lt;p&gt;该部分向所有受访者询问 Linux 在主要用途之外的更广泛使用情况。目的是帮助了解受访者体验到的好处和遇到的挑战。我们鼓励受访者分享他们对特定 Linux 发行版的偏好，以及他们对新兴 IT 趋势和技术的看法。发起这项调查的社区成员希望了解 Linux 是否能够通过中长期战略满足市场不断变化的需求。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 的用例调查不仅仅是一组问题；它是一项集体努力，旨在确保 Linux 不断发展，以满足用户的不同需求，并为开源技术创造更美好的未来。请继续关注调查结果的更多更新和分析，调查将持续到 10 月 31 日。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/27/survey-to-explore-os-use-cases-more/&quot;&gt;Survey to Explore openSUSE’s Use Cases, More&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/26/leap-micro.html</guid>
+      <title>Leap Micro 5.5 Beta 版已发布，Leap Micro 5.3 即将 EOL</title>
+      <pubDate>Tue, 26 Sep 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/26/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 新版的现代化主机操作系统 Leap Micro 5.5 刚刚进入 Beta 开发阶段。 预计将快速过渡到候选发布版 (RC)，并将于 10 月上半月正式发布 (GA)。 Leap Micro 5.5 的突出特点之一是其 SELinux 增强功能。SELinux 得到了显着提升；它为 AArch64 带来了 podman-docker 和 hyper-v 支持，为用户提供更强大、更安全的计算体验。 与这一令人兴奋的更新同时，值得注意的是，Leap Micro 5.3 即将结束其生命周期（EOL）。Leap Micro 5.5 正式发布后，Leap Micro 5.3 将立即退役。我们强烈建议 Leap Micro 5.3 用户考虑升级到 Leap Micro 5.4 或即将发布的 5.5 版本。这样可确保获得最新功能、安全增强功能和持续支持。 原文：Leap Micro 5.5 reaches...</description>
+      <content:encoded>&lt;p&gt;openSUSE 新版的现代化主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.5/&quot;&gt;Leap Micro 5.5&lt;/a&gt; 刚刚进入 Beta 开发阶段。&lt;/p&gt;
+
+&lt;p&gt;预计将快速过渡到候选发布版 (RC)，并将于 10 月上半月正式发布 (GA)。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.5 的突出特点之一是其 &lt;a href=&quot;https://news.opensuse.org/2023/09/06/new-leap-micro-alpha-enhances-selinux/&quot;&gt;SELinux 增强功能&lt;/a&gt;。SELinux 得到了显着提升；它为 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 带来了 podman-docker 和 hyper-v 支持，为用户提供更强大、更安全的计算体验。&lt;/p&gt;
+
+&lt;p&gt;与这一令人兴奋的更新同时，值得注意的是，Leap Micro 5.3 即将结束其生命周期（EOL）。Leap Micro 5.5 正式发布后，Leap Micro 5.3 将立即退役。我们强烈建议 Leap Micro 5.3 用户考虑升级到 Leap Micro 5.4 或即将发布的 5.5 版本。这样可确保获得最新功能、安全增强功能和持续支持。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/27/leap-micro-reaches-beta-other-to-be-eol-soon/&quot;&gt;Leap Micro 5.5 reaches Beta, Leap Micro 5.3 soon to be EOL&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/25/slowroll.html</guid>
       <title>Slowroll 发行版保留名称</title>
       <pubDate>Mon, 25 Sep 2023 23:30:00 +0000</pubDate>
@@ -348,88 +406,6 @@ Slowroll: 31.80%
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/08/24/britty-libreoffice-openvpn-up-in-tw/&quot;&gt;Britty, LibreOffice, OpenVPN Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/08/23/OBS-notice.html</guid>
-      <title>开放构建服务会临时下线</title>
-      <pubDate>Wed, 23 Aug 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/08/23/OBS-notice.html</link>
-      <author>Poplar at twilight</author>
-      <description>从 UTC 时间 8 月 24 日 16:00（北京时间 8 月 25 日 00:00 A.M.）开始，使用某些 openSUSE 服务和工具的用户将遇到服务中断，因为开放构建服务（OBS）将发生重大转变。 整个 openSUSE OBS 系统正在迁移到新的数据中心，并将在第二天恢复上线时在新硬件上运行。 迁移过程结束后，由于通用构建系统有了新家，构建服务工程师要处理中断问题，因此可能会出现一些导致延迟上线的故障排除。 搬迁到新数据中心的初始阶段需要暂时关闭所有服务。这一间隔将有助于将文件修改同步到新的数据中心，预计将于 8 月 25 日（UTC）恢复服务。 在此迁移阶段，一系列服务将经历暂时停机，其中包括： amqp.opensuse.org api.opensuse.org build.opensuse.org rabbit.opensuse.org registry.opensuse.org software.opensuse.org obs-debug.opensuse.org obs-grafana.opensuse.org obs-measure.opensuse.org obs-telegraf.opensuse.org errbit.opensuse.org glitchtip.opensuse.org gs-stats.opensuse.org gs-stats-stage.opensuse.org obs-analyze.opensuse.org 在对该通知的响应中，需要注意的是，除非使用缓存版本，否则依赖于 registry.opensuse.org 镜像的多个持续集成系统将会遇到故障。 我们正在努力尽量减少不便，但在此期间建立临时服务器来提供常用下载的镜像是不可行的。用户仍然可以从 Docker Hub 访问最新的 Tumbleweed...</description>
-      <content:encoded>&lt;p&gt;从 UTC 时间 8 月 24 日 16:00（北京时间 8 月 25 日 00:00 A.M.）开始，使用某些 &lt;a href=&quot;https://status.opensuse.org/&quot;&gt;openSUSE 服务和工具&lt;/a&gt;的用户将遇到服务中断，因为&lt;a href=&quot;https://openbuildservice.org/&quot;&gt;开放构建服务&lt;/a&gt;（OBS）将发生重大转变。&lt;/p&gt;
-
-&lt;p&gt;整个 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;openSUSE OBS 系统&lt;/a&gt;正在迁移到新的数据中心，并将在第二天恢复上线时在新硬件上运行。&lt;/p&gt;
-
-&lt;p&gt;迁移过程结束后，由于通用构建系统有了新家，构建服务工程师要处理中断问题，因此可能会出现一些导致延迟上线的故障排除。&lt;/p&gt;
-
-&lt;p&gt;搬迁到新数据中心的初始阶段需要暂时关闭所有服务。这一间隔将有助于将文件修改同步到新的数据中心，预计将于 8 月 25 日（UTC）恢复服务。&lt;/p&gt;
-
-&lt;p&gt;在此迁移阶段，一系列服务将经历暂时停机，其中包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;amqp.opensuse.org&lt;/li&gt;
-  &lt;li&gt;api.opensuse.org&lt;/li&gt;
-  &lt;li&gt;build.opensuse.org&lt;/li&gt;
-  &lt;li&gt;rabbit.opensuse.org&lt;/li&gt;
-  &lt;li&gt;registry.opensuse.org&lt;/li&gt;
-  &lt;li&gt;software.opensuse.org&lt;/li&gt;
-  &lt;li&gt;obs-debug.opensuse.org&lt;/li&gt;
-  &lt;li&gt;obs-grafana.opensuse.org&lt;/li&gt;
-  &lt;li&gt;obs-measure.opensuse.org&lt;/li&gt;
-  &lt;li&gt;obs-telegraf.opensuse.org&lt;/li&gt;
-  &lt;li&gt;errbit.opensuse.org&lt;/li&gt;
-  &lt;li&gt;glitchtip.opensuse.org&lt;/li&gt;
-  &lt;li&gt;gs-stats.opensuse.org&lt;/li&gt;
-  &lt;li&gt;gs-stats-stage.opensuse.org&lt;/li&gt;
-  &lt;li&gt;obs-analyze.opensuse.org&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6K7XWWXNLVESDYOKRUKKCII5L3B4R3NH/&quot;&gt;在对该通知的响应中&lt;/a&gt;，需要注意的是，除非使用缓存版本，否则依赖于 registry.opensuse.org 镜像的多个持续集成系统将会遇到故障。&lt;/p&gt;
-
-&lt;p&gt;我们正在努力尽量减少不便，但在此期间建立临时服务器来提供常用下载的镜像是不可行的。用户仍然可以从 Docker Hub 访问最新的 Tumbleweed 和 Leap 基础容器。这些镜像可以在以下位置找到：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Tumbleweed: https://hub.docker.com/r/opensuse/tumbleweed
-Leap: https://hub.docker.com/r/opensuse/leap
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;请注意，Docker Hub 上通常的拉取速度限制将适用于这些映像。&lt;/p&gt;
-
-&lt;p&gt;暂时停机和镜像不可用是迈向更强大、更高效系统的必要一步。人们可以通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/buildservice@lists.opensuse.org/&quot;&gt;buildservice 邮件列表&lt;/a&gt;了解服务恢复和正常运行的最新情况。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/08/23/obs-will-be-down-temp/&quot;&gt;Open Build Service Will Be Down Temporarily&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/17/weekly-update.html</guid>
-      <title>PostgreSQL、Xen 和 glibc 在 Tumbleweed 中更新</title>
-      <pubDate>Thu, 17 Aug 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/08/17/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>本周的 openSUSE Tumbleweed 快照表现稳定，没有大的更新。 虽然每周更新一次 Tumbleweed 可能会积累较大的更新，但本周的每日更新将较小的更新。 最新快照是 20230816。此快照通过 ncurses 6.4.20230812 更新修复了编译器警告。该软件包添加了一些补丁并改进了 wgetnstr() 和 wget_wnstr() 的联机帮助页。用于读取联机帮助页的 man 2.11.2 也得到了更新。man 通过在构建较少的提示时将页面名称中的 $ 字符替换为 ? 来增强安全性，以及其他改进，例如处理数据库条目以更好地链接以及重新组织数据库以实现可重复性。可视文件管理器 mc 4.8.30 现在支持使用 PCRE 2 库作为搜索引擎，并改进了 extfs 帮助程序和 patchfs。yast2-installation 4.6.7 更新进行了一项更改，解决了需要在启动脚本中使用 awk 实用程序的特定问题。 快照 20230815 修复了 389-ds 更新的崩溃问题。389-ds 2.4.0~git74.4297d88 版本带来了持续不断的测试和改进多监听线程功能。gtk4 更新至 4.12.0 为列表小部件提供了一些新功能，并在 GtkFileLauncher 中提供了 always-ask...</description>
-      <content:encoded>&lt;p&gt;本周的 openSUSE Tumbleweed 快照表现稳定，没有大的更新。&lt;/p&gt;
-
-&lt;p&gt;虽然每周更新一次 Tumbleweed 可能会积累较大的更新，但本周的每日更新将较小的更新。&lt;/p&gt;
-
-&lt;p&gt;最新快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/W5YGH7Z4O44NDIXD7PPH2MRKVXXPXMYS/&quot;&gt;20230816&lt;/a&gt;。此快照通过 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.4.20230812 更新修复了编译器警告。该软件包添加了一些补丁并改进了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wgetnstr()&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wget_wnstr()&lt;/code&gt; 的&lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;联机帮助页&lt;/a&gt;。用于读取联机帮助页的 &lt;a href=&quot;https://gitlab.com/man-db/man-db&quot;&gt;man&lt;/a&gt; 2.11.2 也得到了更新。man 通过在构建较少的提示时将页面名称中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$&lt;/code&gt; 字符替换为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?&lt;/code&gt; 来增强安全性，以及其他改进，例如处理数据库条目以更好地链接以及重新组织数据库以实现可重复性。可视文件管理器 &lt;a href=&quot;https://midnight-commander.org/&quot;&gt;mc&lt;/a&gt; 4.8.30 现在支持使用 &lt;a href=&quot;https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions&quot;&gt;PCRE&lt;/a&gt; 2 库作为搜索引擎，并改进了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extfs&lt;/code&gt; 帮助程序和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;patchfs&lt;/code&gt;。&lt;a href=&quot;https://github.com/yast/yast-installation&quot;&gt;yast2-installation&lt;/a&gt; 4.6.7 更新进行了一项更改，解决了需要在启动脚本中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;awk&lt;/code&gt; 实用程序的特定问题。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/XNZ32NA3VEWHYHRRAGK462K23S6NBNQ6/&quot;&gt;20230815&lt;/a&gt; 修复了 &lt;a href=&quot;https://github.com/389ds/389-ds-base&quot;&gt;389-ds&lt;/a&gt; 更新的崩溃问题。389-ds 2.4.0~git74.4297d88 版本带来了持续不断的测试和改进&lt;a href=&quot;https://lwn.net/Articles/634113/&quot;&gt;多监听线程功能&lt;/a&gt;。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 更新至 4.12.0 为列表小部件提供了一些新功能，并在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GtkFileLauncher&lt;/code&gt; 中提供了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;always-ask&lt;/code&gt; 属性。检查器工具在辅助功能选项卡中提供了更多信息。&lt;a href=&quot;https://github.com/pmem/ndctl&quot;&gt;ndctl&lt;/a&gt; 78 更新改进了 &lt;a href=&quot;https://www.computeexpresslink.org&quot;&gt;CXL&lt;/a&gt; 支持，并删除了一些补丁。&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql15&lt;/a&gt; 15.4 更新解决了安全漏洞，包括 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-39417.html&quot;&gt;CVE-2023-39417&lt;/a&gt;（防止将某些字符替换到可能导致安全问题的扩展脚本中）和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-39418.html&quot;&gt;CVE-2023-39418&lt;/a&gt;（确保正确执行行安全策略）。该软件包还调整了 [Unicode 国际组件]处理方式，以便为 PostgreSQL 16 做准备。&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 更新了格鲁吉亚语、斯洛伐克语、日语、捷克语和荷兰语的 POT 文件。多个 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 包也获得更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/AAJVWSJAZLNOSANW5KVMOCJ6TC7ZN7ZY/&quot;&gt;20230814&lt;/a&gt; 只有一个包更新。&lt;a href=&quot;https://pygments.org/&quot;&gt;python-Pygments&lt;/a&gt; 2.16.1 更新改进了一些文档，并提供了有关创建终端代码突出显示命令以及将 &lt;a href=&quot;https://de.wikipedia.org/wiki/TrueType&quot;&gt;TrueType&lt;/a&gt; 字体加载到 ImageFormatter 以将突出显示的代码格式化为图像的指南。Python 库还具有适用于各种编程语言和格式的新语法荧光笔。&lt;/p&gt;
-
-&lt;p&gt;同样，快照 20230813 也对一个软件包进行了更新。绑定包 &lt;a href=&quot;https://pypi.org/project/pyzmq/&quot;&gt;python-pyzmq&lt;/a&gt; 25.1.1 与用于构建 Python 3.12 wheels 的 Cython 0.29.35 进行了一些兼容性修改，后者不再需要 Cython 3。该软件包还改进了错误信息，添加了 Cython 作为构建时依赖项，并清理了用于以非阻塞方式检查 &lt;a href=&quot;https://zeromq.org/&quot;&gt;ZeroMQ&lt;/a&gt; 套接字状态的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Socket.poll()&lt;/code&gt; 方法。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WGU54T2FGDM4AUUDMLYMA3HLDWNORHKY/&quot;&gt;20230812&lt;/a&gt; 提供了网络浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 新的大版本——116.0.2；更新主要针对增强性能和功能。Firefox 提供了多个 CVE 修复，包括内存漏洞、堆栈缓冲区溢出漏洞，以及消除了通过点击劫持绕过权限请求的可能性。一个新功能是侧边栏切换器，它允许用户轻松访问书签、历史和同步标签面板。&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.44.0 更新带来了一项重大改进，它引入了一个新的链接设置，用于保存与内核链接相关的属性（包括参数），现在它支持通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ipv6.dhcp-pd-hint&lt;/code&gt; 连接属性发送 DHCPv6 前缀委托提示。Xfce 文件搜索工具 &lt;a href=&quot;https://docs.xfce.org/apps/catfish/start&quot;&gt;Catfish&lt;/a&gt; 4.18.0 带来了性能改进，增强了用户体验，使其更流畅、反应更灵敏。该软件包还允许根据不同的文件类别进行更精细、更具体的搜索。&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt; 2.38 的更新引入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strlcpy&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strlcat&lt;/code&gt; 函数，并解决了一个与使用带有格式指定符和最小宽度指定符的 printf 系列函数有关的漏洞。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 253.8 的更新增强了安全性，并为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bus&lt;/code&gt; 组件添加了最小边界检查。systemd 还清理了一些改进和核心组件。快照还更新的其他几个软件包&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/2NPYCK6OEJZSBPIHSY2KPPWKMOCLNYBO/&quot;&gt;20230811&lt;/a&gt; 更新了 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs20&lt;/a&gt; 20.5.1。新版本处理了数个 CVE： &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-32002.html&quot;&gt;CVE-2023-32002&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-32558.html&quot;&gt;CVE-2023-32558&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-32004.html&quot;&gt;CVE-2023-32004&lt;/a&gt;。&lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 4.17.2_02 的更新解决了 [x86 AMD] 系统上的推测性返回堆栈溢出漏洞。[yast2-country] 4.6.3 的更新允许用户将日期更改为晚于 2032 年。&lt;a href=&quot;https://re2c.org/&quot;&gt;re2c&lt;/a&gt; 3.1 软件包引入了新选项，如用于捕获组的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--leftmost-captures&lt;/code&gt; 和用于非捕获组的语法。命令行工具和实用程序软件包 &lt;a href=&quot;https://tukaani.org/xz/&quot;&gt;xz&lt;/a&gt; 5.4.4 更新了文档和翻译，最新的 openSUSE-repos-Tumbleweed 软件包禁用了 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.4/&quot;&gt;LeapMicro&lt;/a&gt; 上的 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 软件包构建，因为部署预计会在容器内安装所有驱动程序和工具。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/08/18/postrgresql-xen-glibc-up-in-tw/&quot;&gt;PostgreSQL, Xen, glibc Update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
