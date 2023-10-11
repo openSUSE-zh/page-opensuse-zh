@@ -7,17 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html</guid>
+      <title>创新马拉松——黑客周 23 将于 11 月举行</title>
+      <pubDate>Tue, 10 Oct 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html</link>
+      <author>Poplar at twilight</author>
+      <description>今年 11 月，Hack Week 23 将开辟一条创新之路。 这个一年一度的传统活动始于 2007 年，这个一年一度的传统以某种方式弥补了迄今为止活动数量的差异；它将全球各地的 SUSE 员工、openSUSE 贡献者、开源开发者和爱好者聚集在一起，进行为期一周的不间断实验和边界突破。 今年的黑客周定于 11 月 6 日至 10 日举行，参与者们正准备利用他们的集体创造力来创新、贡献和扩展开源领域。 SUSE 员工走出日常角色，开始为期一周的协作、创新和社交之旅。今年的黑客周将是人才、专业知识和激情的动态汇聚，黑客们将跨团队、跨大陆合作，推动技术的发展。 黑客周不仅仅是一场编码马拉松，它还是 SUSE 致力于在全球范围内培养开源协作的见证。参与者将带来不同的技能、知识、激情和视角来构建和开发新的东西；这营造了一种环境，让创造性的想法蓬勃发展，让解决方案逐渐成形。 以往的黑客周都取得了突破性的进展和颠覆性的创新。其中值得一提的是 openQA、Aeon（正式名称为 MicroOS 的 GNOME 桌面）和 Weblate（openSUSE 用于翻译）。 尽管全球开源社区热切期待 Hack Week 23 的开始，一些人已经在准备编写他们打算承担或贡献的项目列表。 敬请关注 SUSE 的官方传播渠道和社交媒体平台，了解最新信息和公告，并抢先了解今年 11 月 Hack Week 23 的最新动态。 原文：Innovation Marathon Hack Week...</description>
+      <content:encoded>&lt;p&gt;今年 11 月，&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 23 将开辟一条创新之路。&lt;/p&gt;
+
+&lt;p&gt;这个一年一度的传统活动始于 2007 年，这个一年一度的传统以某种方式弥补了迄今为止活动数量的差异；它将全球各地的 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 员工、&lt;a href=&quot;https://www.opensusesuse.org/&quot;&gt;openSUSE&lt;/a&gt; 贡献者、开源开发者和爱好者聚集在一起，进行为期一周的不间断实验和边界突破。&lt;/p&gt;
+
+&lt;p&gt;今年的黑客周定于 11 月 6 日至 10 日举行，参与者们正准备利用他们的集体创造力来创新、贡献和扩展开源领域。&lt;/p&gt;
+
+&lt;p&gt;SUSE 员工走出日常角色，开始为期一周的协作、创新和社交之旅。今年的黑客周将是人才、专业知识和激情的动态汇聚，黑客们将跨团队、跨大陆合作，推动技术的发展。&lt;/p&gt;
+
+&lt;p&gt;黑客周不仅仅是一场编码马拉松，它还是 SUSE 致力于在全球范围内培养开源协作的见证。参与者将带来不同的技能、知识、激情和视角来构建和开发新的东西；这营造了一种环境，让创造性的想法蓬勃发展，让解决方案逐渐成形。&lt;/p&gt;
+
+&lt;p&gt;以往的黑客周都取得了突破性的进展和颠覆性的创新。其中值得一提的是 &lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt;、&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;Aeon&lt;/a&gt;（正式名称为 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS 的 GNOME 桌面&lt;/a&gt;）和 &lt;a href=&quot;https://weblate.org/en/&quot;&gt;Weblate&lt;/a&gt;（openSUSE 用于翻译）。&lt;/p&gt;
+
+&lt;p&gt;尽管全球开源社区热切期待 Hack Week 23 的开始，一些人已经在准备编写他们打算承担或贡献的项目列表。&lt;/p&gt;
+
+&lt;p&gt;敬请关注 SUSE 的官方传播渠道和社交媒体平台，了解最新信息和公告，并抢先了解今年 11 月 Hack Week 23 的最新动态。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/10/11/innovation-marathon-hw-set-for-nov/&quot;&gt;Innovation Marathon Hack Week Set for November&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/05/weekly-update.html</guid>
       <title>Tumbleweed 的图形更新大放异彩</title>
       <pubDate>Thu, 05 Oct 2023 23:30:00 +0000</pubDate>
       <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/05/weekly-update.html</link>
       <author>Poplar at twilight</author>
-      <description>由于多个图形和成像包的更新，openSUSE 本周的快照使图形显示更加清晰。 openSUSE Tumbleweed 已经发布了 Mesa、GTK、ImageMagick、webkit2gtk3 和 GraphicsMagick 等的软件包的更新。 即将发布的快照 20231003 对 Mesa 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 Vulkan 图形 API 的 VK_EXT_mesh_shader 扩展。gtk4 4.12.3 的更新增强了小部件，修复了 [GIMP Toolkit] 库中的小部件崩溃以及 Broadway 渲染器中的内存泄漏。webkit2gtk3 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 GraphicsMagick 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG...</description>
+      <description>由于多个图形和成像包的更新，openSUSE 本周的快照使图形显示更加清晰。 openSUSE Tumbleweed 已经发布了 Mesa、GTK、ImageMagick、webkit2gtk3 和 GraphicsMagick 等的软件包的更新。 即将发布的快照 20231003 对 Mesa 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 Vulkan 图形 API 的 VK_EXT_mesh_shader 扩展。gtk4 4.12.3 的更新增强了小部件，修复了 GIMP Toolkit 库中的小部件崩溃以及 Broadway 渲染器中的内存泄漏。webkit2gtk3 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 GraphicsMagick 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG...</description>
       <content:encoded>&lt;p&gt;由于多个图形和成像包的更新，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周的快照使图形显示更加清晰。&lt;/p&gt;
 
 &lt;p&gt;openSUSE Tumbleweed 已经发布了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt;、&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt;、&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 和 &lt;a href=&quot;http://www.graphicsmagick.org/&quot;&gt;GraphicsMagick&lt;/a&gt; 等的软件包的更新。&lt;/p&gt;
 
-&lt;p&gt;即将发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/75CFXEG2U7FB2XQYPYAI7RWNRWCGZWV7/&quot;&gt;20231003&lt;/a&gt; 对 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 图形 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_EXT_mesh_shader&lt;/code&gt; 扩展。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.12.3 的更新增强了小部件，修复了 [GIMP Toolkit] 库中的小部件崩溃以及 &lt;a href=&quot;https://blogs.gnome.org/alexl/2019/03/29/broadway-adventures-in-gtk4/&quot;&gt;Broadway&lt;/a&gt; 渲染器中的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 &lt;a href=&quot;http://www.graphicsmagick.org/&quot;&gt;GraphicsMagick&lt;/a&gt; 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG 压缩的 BMP 文件。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 254.5 的更新对包规范文件进行了一些调整，以更好地兼容 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE&lt;/a&gt;。快照中还更新了其他几个软件包。&lt;/p&gt;
+&lt;p&gt;即将发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/75CFXEG2U7FB2XQYPYAI7RWNRWCGZWV7/&quot;&gt;20231003&lt;/a&gt; 对 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 图形 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_EXT_mesh_shader&lt;/code&gt; 扩展。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.12.3 的更新增强了小部件，修复了 &lt;a href=&quot;https://www.gimp.org/&quot;&gt;GIMP Toolkit&lt;/a&gt; 库中的小部件崩溃以及 &lt;a href=&quot;https://blogs.gnome.org/alexl/2019/03/29/broadway-adventures-in-gtk4/&quot;&gt;Broadway&lt;/a&gt; 渲染器中的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 &lt;a href=&quot;http://www.graphicsmagick.org/&quot;&gt;GraphicsMagick&lt;/a&gt; 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG 压缩的 BMP 文件。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 254.5 的更新对包规范文件进行了一些调整，以更好地兼容 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE&lt;/a&gt;。快照中还更新了其他几个软件包。&lt;/p&gt;
 
 &lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/54VTY2DLJBY5ZVF65QHFWJGYUJUWQVXS/&quot;&gt;20231001&lt;/a&gt; 将多功能图像处理软件包 &lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 更新至 7.1.1.18 版本。此测试版本解决了多个静态分析器问题，消除了编译器警告并进行了一些外观更改。&lt;a href=&quot;https://www.php.net/&quot;&gt;php8&lt;/a&gt; 和 &lt;a href=&quot;https://software.opensuse.org/package/apache2-mod_php8&quot;&gt;apache2-mod_php8&lt;/a&gt; 8.2.11 的更新解决了一些 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 兼容性问题和一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。&lt;a href=&quot;https://github.com/openSUSE/suse-module-tools&quot;&gt;suse-module-tools&lt;/a&gt; 16.0.36 的更新解决了一个被识别为 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-1829.html&quot;&gt;CVE-2023-1829&lt;/a&gt; 的严重安全漏洞；此漏洞可能导致特权升级。针对存储和传输协议的命令行设备管理包 &lt;a href=&quot;https://github.com/linux-nvme/nvme-cli&quot;&gt;nvme-cli&lt;/a&gt; 的更新增强了在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-ns&lt;/code&gt; 命令中分配有效载荷缓冲区后的性能；nvme-cli 2.6 还将特定模块列入黑名单，以解决安全性和兼容性问题。该软件包还对插件和实用程序进行了各种改进。上述软件包以及 &lt;a href=&quot;https://github.com/linux-nvme/libnvme&quot;&gt;libnvme&lt;/a&gt; 的更新在快照中的变化最大。libnvme 1.6 的更新增强了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 兼容性，引入了一些解析和检索各种功能的函数，并具有与结构处理、子系统匹配算法和上下文检查相关的各种改进。快照还更新了其他几个软件包，包括 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/xdg-utils/&quot;&gt;xdg-utils&lt;/a&gt; 1.2.0 beta 版本，它增强了对 &lt;a href=&quot;https://lxqt-project.org/&quot;&gt;LXQt&lt;/a&gt; 桌面环境的支持，更好地处理 &lt;a href=&quot;https://wiki.archlinux.org/title/Desktop_entries&quot;&gt;desktop 文件&lt;/a&gt;路径中的空格并修复了一些 shell 脚本。&lt;/p&gt;
 
@@ -359,49 +388,6 @@ Slowroll: 31.80%
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/05/survey-reveals-community-preferences/&quot;&gt;Survey Reveals Community Preferences for openSUSE’s Future Direction&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/05/leap-micro-alpha.html</guid>
-      <title>新的 Leap Micro Alpha 增强了 SELinux</title>
-      <pubDate>Tue, 05 Sep 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/09/05/leap-micro-alpha.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目很高兴地宣布，其现代轻量级主机操作系统 Leap Micro 5.5 刚刚进入 Alpha 阶段。 该版本带来了大量增强功能和新增功能，有望使其成为用户更通用、更高效的选择。 最明显的变化是增加了 settroubleshoot 服务器并将其与 cockpit-selinux 模块集成。 Leap Micro 还增加了可轻松集成 UEFI 固件更新的 fwupdate 和 fwupdate-efi 软件包。 此外，Leap Micro 还添加了 git、用于图像处理的 skopio 和使用 podman 模拟 Docker CLI 的 podman-docker。新增了适用于 x86_64 和 aarch64 的 QEMU Copy On Write (QCOW) RAW 镜像版本。 Leap Micro 不提供图形用户界面或桌面版本。用户可使用 Cockpit...</description>
-      <content:encoded>&lt;p&gt;openSUSE 项目很高兴地宣布，其现代轻量级主机操作系统 &lt;a href=&quot;https://get.opensuse.org/leapmicro/5.5/&quot;&gt;Leap Micro 5.5&lt;/a&gt; 刚刚进入 Alpha 阶段。&lt;/p&gt;
-
-&lt;p&gt;该版本带来了大量增强功能和新增功能，有望使其成为用户更通用、更高效的选择。&lt;/p&gt;
-
-&lt;p&gt;最明显的变化是增加了 settroubleshoot 服务器并将其与 &lt;a href=&quot;https://cockpit-project.org/guide/latest/feature-selinux&quot;&gt;cockpit-selinux&lt;/a&gt; 模块集成。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 还增加了可轻松集成 UEFI 固件更新的 fwupdate 和 fwupdate-efi 软件包。&lt;/p&gt;
-
-&lt;p&gt;此外，Leap Micro 还添加了 git、用于图像处理的 skopio 和使用 podman 模拟 Docker CLI 的 podman-docker。新增了适用于 x86_64 和 aarch64 的 QEMU Copy On Write (QCOW) RAW 镜像版本。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 不提供图形用户界面或桌面版本。用户可使用 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 通过网络浏览器管理主机操作系统。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 5.5 Alpha 基于 &lt;a href=&quot;https://www.suse.com/c/suse-linux-enterprise-micro-5-5-public-beta-is-out/&quot;&gt;SLE Micro 5.5 Beta&lt;/a&gt;，并构建在 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP5/index.html&quot;&gt;SLE 15 SP 5&lt;/a&gt; 更新之上。在 2023 年 9 月下旬发布 SLE Micro 5.5 RC 后不久，用户就能看到 Leap Micro 5.5 Beta。我们计划于 2023 年 10 月中旬与 SLE Micro 5.5 一起在全球发布。该时间表完全由 SLE Micro 准备情况决定。&lt;/p&gt;
-
-&lt;p&gt;更多详情请参见&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;用户应该知道，Leap Micro 不使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt;，而是使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 可用于边缘、嵌入式和物联网部署等多种计算环境。开发人员和专业人士可以构建和扩展用于航空航天、电信、汽车、国防、医疗保健、酒店、制造、数据库、Web 服务器、机器人、区块链等领域的系统。&lt;/p&gt;
-
-&lt;p&gt;我们建议用户查看&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.5/index.html&quot;&gt;发行说明&lt;/a&gt;以了解更多内容。&lt;/p&gt;
-
-&lt;p&gt;用户可&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;在此&lt;/a&gt;错误报告。&lt;/p&gt;
-
-&lt;p&gt;大型开发团队可以尝试使用 Leap Micro，并过渡到 SUSE 的 SLE Micro 进行扩展维护和认证，从而为其业务增值。&lt;/p&gt;
-
-&lt;p&gt;要下载 ISO 镜像文件，请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;你可在&lt;a href=&quot;https://documentation.suse.com/sle-micro/&quot;&gt;此处&lt;/a&gt;查找有关该版本的最新文档。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/06/new-leap-micro-alpha-enhances-selinux/&quot;&gt;New Leap Micro Alpha Enhances SELInux&lt;/a&gt;，作者：Lubos Kocman 和 Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
