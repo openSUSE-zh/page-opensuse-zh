@@ -39,6 +39,7 @@ openSUSE Tumbleweed 已经发布了 [Mesa]、[GTK]、[ImageMagick]、[webkit2gtk
 [Leap]: https://get.opensuse.org/leap/
 [SLE]: https://www.suse.com/products/server/
 [内存泄漏]: https://en.wikipedia.org/wiki/Memory_leak
+[GIMP Toolkit]: https://www.gimp.org/
 
 快照 [20231001] 将多功能图像处理软件包 [ImageMagick] 更新至 7.1.1.18 版本。此测试版本解决了多个静态分析器问题，消除了编译器警告并进行了一些外观更改。[php8] 和 [apache2-mod_php8] 8.2.11 的更新解决了一些 [RISC-V] 兼容性问题和一些[内存泄漏]。[suse-module-tools] 16.0.36 的更新解决了一个被识别为 [CVE-2023-1829] 的严重安全漏洞；此漏洞可能导致特权升级。针对存储和传输协议的命令行设备管理包 [nvme-cli] 的更新增强了在 `create-ns` 命令中分配有效载荷缓冲区后的性能；nvme-cli 2.6 还将特定模块列入黑名单，以解决安全性和兼容性问题。该软件包还对插件和实用程序进行了各种改进。上述软件包以及 [libnvme] 的更新在快照中的变化最大。libnvme 1.6 的更新增强了 [Python] 兼容性，引入了一些解析和检索各种功能的函数，并具有与结构处理、子系统匹配算法和上下文检查相关的各种改进。快照还更新了其他几个软件包，包括 [xdg-utils] 1.2.0 beta 版本，它增强了对 [LXQt] 桌面环境的支持，更好地处理 [desktop 文件]路径中的空格并修复了一些 shell 脚本。
 
