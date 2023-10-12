@@ -3,7 +3,7 @@ author: Poplar at twilight
 date: 2023-10-12 07:30:00 +0800
 layout: post
 license: CC-BY-SA-4.0
-title: Leap Micro 5.5 现已发布，Leap Micro 现已退役
+title: Leap Micro 5.5 现已发布，Leap Micro 5.3 现已退役
 image: /assets/posts/2023-10/leapmicro54-rpi.jpg
 categories:
 - 更新通告
