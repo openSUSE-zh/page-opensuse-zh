@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/11/leap-micro.html</guid>
+      <title>Leap Micro 5.5 现已发布，Leap Micro 5.3 现已退役</title>
+      <pubDate>Wed, 11 Oct 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/11/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 的现代轻量级主机操作系统的新版本，Leap Micro 5.5 现已发布。所有文档（包括 SLE Micro 5.5 文档空间中的发行说明）也适用于 Leap Micro，因为 Leap Micro 本质上是重新命名的 SLE Micro。 值得一提的是，这也意味着 Leap Micro 5.3 现已结束生命周期 (EOL)。我们强烈建议 Leap Micro 5.3 用户考虑升级到 Leap Micro 5.4 或 5.5 版本。这可确保获得最新功能、安全增强功能和持续支持。 Leap Micro 5.5 的突出特点之一是其 SELinux 增强功能。SELinux 得到了显着提升。它为 AArch64 带来了 podman-docker 和 hyper-v 支持，为用户提供更强大、更安全的计算体验。 Leap Micro 5.5 搭载了 podman...</description>
+      <content:encoded>&lt;p&gt;openSUSE 的现代轻量级主机操作系统的新版本，&lt;a href=&quot;https://get.opensuse.org/leapmicro/5.5/&quot;&gt;Leap Micro 5.5&lt;/a&gt; 现&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#Schedule_for_openSUSE_Leap_Micro_5.5&quot;&gt;已发布&lt;/a&gt;。所有文档（包括 &lt;a href=&quot;https://documentation.suse.com/sle-micro/5.5/&quot;&gt;SLE Micro 5.5 文档空间&lt;/a&gt;中的&lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SLE-Micro/5.5/index.html&quot;&gt;发行说明&lt;/a&gt;）也适用于 Leap Micro，因为 Leap Micro 本质上是重新命名的 SLE Micro。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;值得一提的是，这也意味着 Leap Micro 5.3 现已结束生命周期 (EOL)。&lt;/strong&gt;我们强烈建议 Leap Micro 5.3 用户考虑升级到 Leap Micro 5.4 或 5.5 版本。这可确保获得最新功能、安全增强功能和持续支持。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.5 的突出特点之一是其 &lt;a href=&quot;https://news.opensuse.org/2023/09/06/new-leap-micro-alpha-enhances-selinux/&quot;&gt;SELinux 增强功能&lt;/a&gt;。SELinux 得到了显着提升。它为 &lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt; 带来了 podman-docker 和 hyper-v 支持，为用户提供更强大、更安全的计算体验。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 5.5 搭载了 podman 4.4；新版本的 podman 引入了 &lt;a href=&quot;https://www.redhat.com/sysadmin/quadlet-podman&quot;&gt;Podman Quadlet&lt;/a&gt;。如果你还没有尝试过 Quadlet，请务必检查一下我们&lt;a href=&quot;https://www.youtube.com/watch?v=mlqWeLkG55U&quot;&gt;使用 Quadlet 部署的 Nextcloud&lt;/a&gt;。我们还发布了 podman-docker，它是一个 podman 包装器，可以与 docker-compose 一起使用，或者至少在针对 SLE 和 Leap Micro 发布 &lt;a href=&quot;https://bugzilla.suse.com/show_bug.cgi?id=1215926&quot;&gt;Bug #1215926&lt;/a&gt; 的修复后使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cockpit-project.org/blog/cockpit-298.html&quot;&gt;Cockpit 298&lt;/a&gt; 容器管理界面明显成熟，因为我终于能够使用 Cockpit 来管理我所有的家庭工作负载。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2023-10/cockpit-298.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我们建议刚接触不可变操作系统空间（更目录只读的系统）的用户阅读 &lt;a href=&quot;https://kubic.opensuse.org/documentation/transactional-update-guide/transactional-update.html&quot;&gt;transactional-update 指南&lt;/a&gt;。用户还可以使用 &lt;a href=&quot;https://kubic.opensuse.org/blog/2019-10-22-toolbox/&quot;&gt;Toolbox&lt;/a&gt; 安装其​​他软件，而无需重新启动到新快照，这对于无法重新启动的调试尤其方便。&lt;/p&gt;
+
+&lt;p&gt;我们制作了一个简短的 YouTube &lt;a href=&quot;https://www.youtube.com/watch?v=j8kWT7HSjbw&amp;amp;list=PL_AMhvchzBacAxIOv3_lRHBRrIUNo6Abp&quot;&gt;播放列表&lt;/a&gt;，其中包含一些有关如何在家中实际使用 Leap Micro 的教程。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2023-10/hqdefault.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/10/12/leap-micro-55-hands-on/&quot;&gt;Leap Micro 5.5 availability and Leap Micro 5.3 EOL&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html</guid>
       <title>创新马拉松——黑客周 23 将于 11 月举行</title>
       <pubDate>Tue, 10 Oct 2023 23:30:00 +0000</pubDate>
@@ -257,137 +288,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/07/kde-gear-freerdp-up-in-tw/&quot;&gt;KDE Gear, FreeRDP update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/05/new-survey.html</guid>
-      <title>调查显示社区对 openSUSE 未来方向的偏好</title>
-      <pubDate>Tue, 05 Sep 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/09/05/new-survey.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 贡献者社区上周完成了一项全面调查，旨在确定该项目的未来方向。该调查结果来自 327 名受访者，揭示了 openSUSE 开发、部署和升级计划的各个方面。 你可以在 openSUSE Wiki 上找到该调查的 pdf 版本。 问题及结果如下： 身份和参与 问：您最认同您属于哪一个群体？ 对 openSUSE 感兴趣：3.98% openSUSE 发行版的用户：41.90% openSUSE 发行版的贡献者：22.02% openSUSE 项目范围内的贡献者：8.87% 没有回答：1.53% 未完成或未显示：21.71% 在 openSUSE 的经历 问：您参与 openSUSE 有多久了？ &amp;lt; 6 个月：7.03% &amp;lt; 2 年：12.84% &amp;lt; 5 年：10.40% 5年及以上：46.18% 没有回答：1.83% 未完成或未显示：21.71% 该数据显示了很大一部分长期用户和贡献者，这表明了一个专注且稳定的社区。 openSUSE Leap 的部署 问：您目前在哪里部署 openSUSE...</description>
-      <content:encoded>&lt;p&gt;openSUSE 贡献者社区上周完成了一项全面&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;调查&lt;/a&gt;，旨在确定该项目的未来方向。该调查结果来自 327 名受访者，揭示了 openSUSE 开发、部署和升级计划的各个方面。&lt;/p&gt;
-
-&lt;p&gt;你可以在 &lt;a href=&quot;https://en.opensuse.org/images/6/60/Contributorsurvey2023.pdf&quot;&gt;openSUSE Wiki&lt;/a&gt; 上找到该调查的 pdf 版本。&lt;/p&gt;
-
-&lt;p&gt;问题及结果如下：&lt;/p&gt;
-
-&lt;h2 id=&quot;身份和参与&quot;&gt;身份和参与&lt;/h2&gt;
-
-&lt;p&gt;问：您最认同您属于哪一个群体？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;对 openSUSE 感兴趣：3.98%
-openSUSE 发行版的用户：41.90%
-openSUSE 发行版的贡献者：22.02%
-openSUSE 项目范围内的贡献者：8.87%
-没有回答：1.53%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;在-opensuse-的经历&quot;&gt;在 openSUSE 的经历&lt;/h2&gt;
-
-&lt;p&gt;问：您参与 openSUSE 有多久了？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt; 6 个月：7.03%
-&amp;lt; 2 年：12.84%
-&amp;lt; 5 年：10.40%
-5年及以上：46.18%
-没有回答：1.83%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;该数据显示了很大一部分长期用户和贡献者，这表明了一个专注且稳定的社区。&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuse-leap-的部署&quot;&gt;openSUSE Leap 的部署&lt;/h2&gt;
-
-&lt;p&gt;问：您目前在哪里部署 openSUSE Leap？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;我的私人服务器：32.42%
-我的私人笔记本电脑/台式机：50.15%
-我的工作机（台式机/笔记本电脑）：33.33%
-我的云设备：14.68%
-不适用：13.15%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这些发现表明 openSUSE Leap 从个人计算机到服务器环境，具有广泛的用例。&lt;/p&gt;
-
-&lt;h2 id=&quot;笔记本电脑台式机的升级首选项&quot;&gt;笔记本电脑/台式机的升级首选项&lt;/h2&gt;
-
-&lt;p&gt;问：您希望在笔记本电脑或台式机上多久升级到 openSUSE Leap 后续发行版的新版本？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;每周：10.40%
-每 3-6 个月：14.07%
-每 6-12 个月：20.49%
-每 12-18 个月：20.49%
-没有回答：12.84%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;服务器云服务器的升级首选项&quot;&gt;服务器/云服务器的升级首选项&lt;/h2&gt;
-
-&lt;p&gt;问：您希望在服务器/云服务器上多久升级到 openSUSE Leap 后续版本的新版本？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;每周：2.75%
-每 3-6 个月：6.73%
-每 6-12 个月：11.01%
-每 12-18 个月：33.64%
-没有回答：24.16%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;贡献者偏好&quot;&gt;贡献者偏好&lt;/h2&gt;
-
-&lt;p&gt;问：您更愿意为以下哪些选项做出贡献？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite：19.88%
-Slowroll：19.88%
-我不想为任何 Leap 替代品做出贡献，而只关注 Tumbleweed：20.80%
-没有回答：17.74%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;opensuse-社区的愿景&quot;&gt;openSUSE 社区的愿景&lt;/h2&gt;
-
-&lt;p&gt;问：对于 openSUSE 的发展方向，您最喜欢以下哪些总体选项？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 23.85%
-Slowroll: 27.83%
-我不喜欢 Leap 替代品，只关注 Tumbleweed：17.43%
-没有回答：9.17%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;笔记本电脑台式机和服务器云服务器首选项&quot;&gt;笔记本电脑/台式机和服务器/云服务器首选项&lt;/h2&gt;
-
-&lt;h3 id=&quot;对于笔记本电脑台式机&quot;&gt;对于笔记本电脑/台式机：&lt;/h3&gt;
-
-&lt;p&gt;问：您更喜欢在笔记本电脑或台式机上使用以下哪一项？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 18.65%
-Slowroll: 23.24%
-我不喜欢 Leap 替代品，只使用 Tumbleweed：33.94%
-没有答案：2.45%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;对于服务器云服务器机器&quot;&gt;对于服务器/云服务器机器：&lt;/h3&gt;
-
-&lt;p&gt;问：您更喜欢在服务器或云服务器计算机上使用以下哪一项？&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Linarite: 28.75%
-Slowroll: 31.80%
-我不喜欢 Leap 替代品，只使用 Tumbleweed：15.29%
-没有答案：2.45%
-未完成或未显示：21.71%
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这项综合调查的结果清楚地反映了 openSUSE 社区的偏好和优先事项，这无疑将影响该项目的未来方向。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/09/05/survey-reveals-community-preferences/&quot;&gt;Survey Reveals Community Preferences for openSUSE’s Future Direction&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
