@@ -7,10 +7,12 @@
 
   <title>
     
+    Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题 -
+    
     openSUSE 中文社区
   </title>
   <meta name="description"
-    content="openSUSE 中文社区主页，为您带来最新的 openSUSE 资讯，为中文用户的交流提供一席之地。">
+    content="即将推出的 SLES 15 SP5 第一次季度更新包含了 BUG 1215802。 此更新也将适用于 Leap 15.5 用户，因为从 15 SP3/15.3 开始，SLES 和 Leap 共享相同的内核。 根据 Bug 1215802 的描述，具有 AMDGPU 驱动程序和 Radeon RX 7000 系列的...">
 
   <!-- stylesheet -->
   <link rel="stylesheet" href="/assets/css/chameleon.css">
@@ -37,21 +39,34 @@
 
   <!-- open graph meta -->
   <meta property="og:site_name" content="openSUSE 中文社区">
-  <meta property="og:title" content="openSUSE 中文社区">
+  <meta property="og:title" content="Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题">
   <meta property="og:description"
-    content="openSUSE 中文社区主页，为您带来最新的 openSUSE 资讯，为中文用户的交流提供一席之地。">
-  <meta property=" og:url" content="/2023/10/">
-   
-  <meta property="og:image" content="/assets/img/favicon-192.png">
+    content="即将推出的 SLES 15 SP5 第一次季度更新包含了 BUG 1215802。 此更新也将适用于 Leap 15.5 用户，因为从 15 SP3/15.3 开始，SLES 和 Leap 共享相同的内核。 根据 Bug 1215802 的描述，具有 AMDGPU 驱动程序和 Radeon RX 7000 系列的...">
+  <meta property=" og:url" content="/_posts/2023-10-15-leap-info.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Poplar at twilight">
+  <meta property="og:article:published_time" content="2023-10-14T23:30:00+00:00">
+  
+  <meta property="og:article:tag" content="Leap">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2023-10/rx7000.jpg">
   
 
   <!-- twitter meta -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="openSUSE 中文社区">
+  <meta name="twitter:title" content="Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题">
   
-  <meta name="twitter:url" content="/2023/10/">
+  <meta name="twitter:description"
+    content="即将推出的 SLES 15 SP5 第一次季度更新包含了 BUG 1215802。 此更新也将适用于 Leap 15.5 用户，因为从 15 SP3/15.3 开始，SLES 和 Leap 共享相同的内核。 根据 Bug 1215802 的描述，具有 AMDGPU 驱动程序和 Radeon RX 7000 系列的...">
   
-  <meta name="twitter:image" content="/assets/img/favicon-192.png">
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2023-10/rx7000.jpg">
   
 
   <!-- javascript -->
@@ -65,7 +80,7 @@
   <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
   
 
-  <link rel="canonical" href="/2023/10/">
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
 
   <!-- Extra Head Content -->
 
@@ -222,145 +237,122 @@
 		</a>
 	</li>
 	<li class="breadcrumb-item">
-		<a href="/2023">2023</a></li>
+		<a href="/2023">
+			2023
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/10">
+			
+			十月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/10/14">
+			14
+		</a>
+	</li>
 	<li class="breadcrumb-item active">
-		十月
+		Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题
 	</li>
 </ol>
-<div class="container">
-	<div class="col-12 col-lg-9 mx-auto">
-		<div class="row">
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题</h1>
+		<p class="text-center text-muted">
+			2023-10-14
+			|
+			Poplar at twilight
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2023-10/rx7000.jpg"
+			alt="Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>即将推出的 SLES 15 SP5 第一次季度更新包含了 <a href="https://bugzilla.suse.com/show_bug.cgi?id=1215802">BUG 1215802</a>。</p>
+
+<p>此更新也将适用于 Leap 15.5 用户，因为从 15 SP3/15.3 开始，SLES 和 Leap <a href="https://www.suse.com/c/closing-the-leap-gap-src/">共享</a>相同的内核。</p>
+
+<p>根据 Bug 1215802 的描述，具有 <a href="https://en.opensuse.org/SDB:AMDGPU">AMDGPU 驱动程序</a>和 Radeon RX 7000 系列的 openSUSE Leap 15.5 系统可能会在 kernel-default 5.14.21-150500.55.28.1 时遇到启动冻结问题。根据讨论，如果安装了最新的可用 kernel-firmware-amdgpu，似乎不会发生问题。<a href="https://bugzilla.suse.com/show_bug.cgi?id=1215802#c23">评论</a>说只要用户应用所有更新，这个问题就不会发生。</p>
+
+<p>如果你已经安装了更新并且系统无法启动，你可以通过在 grub 中向内核<a href="https://bugzilla.suse.com/show_bug.cgi?id=1215802#c12">传递 nomodeset</a> 选项来启动系统，并确保你安装了最新的 kernel-firmware-amdgpu。或者你可能需要考虑使用 <a href="https://zh.opensuse.org/openSUSE:Snapper_Tutorial">snapper</a> 来回滚更新。</p>
+
+<p>我们强烈建议 Leap 15.5 用户推迟进一步的内核更新，直到 <a href="https://bugzilla.suse.com/show_bug.cgi?id=1215802">Bug 1215802</a> 中的情况得到进一步澄清并发布可能的修复程序（如果需要）。最好的情况是不需要任何操作，只要用户安装所有可用的更新，一切就可以正常工作。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2023/10/13/leap-155-amdgpu-rx7000-freeze/">Leap 15.5 issue with Radeon RX 7000 series and amdgpu driver</a>，作者：openSUSE Community</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
 			
-			<div class="col-lg-6 col-12 p-3">
-	<a class="text-black link_unstyled" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
-		<div class="card h-100">
-			<div class="top-article bg-light d-flex border-bottom card-body"
-				style="background-image: url('/assets/posts/2023-10/rx7000.jpg');">
-				<h2 class="m-auto text-center ontop font-weight-bold">Leap 15.5 的 Radeon RX 7000 系列和 amdgpu 驱动程序出现问题</h2>
-			</div>
-			<div>
-				<div class="card-body">
-					<div class="font-weight-bold text-muted d-flex justify-content-between align-items-center">
-						<span>Poplar at twilight</span>
-						<span>2023-10-14</span>
-					</div>
-					<div class="text-justify h-96px">
-						<p>即将推出的 SLES 15 SP5 第一次季度更新包含了 BUG 1215802。
-
-此更新也将适用于 Leap 15.5 用户，因为从 15 SP3/15.3 开始，SLES 和 Leap 共享相同的内核。
-
-根据 Bug 1215802 的描述，具有 AMDGPU 驱动程序和 Radeon RX 7000 系列的 openSUSE Lea...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+			<a href="/category/更新通告">
+				更新通告
+			</a>
 			
-			<div class="col-lg-6 col-12 p-3">
-	<a class="text-black link_unstyled" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/12/weekly-update.html">
-		<div class="card h-100">
-			<div class="top-article bg-light d-flex border-bottom card-body"
-				style="background-image: url('/assets/posts/2023-10/robo.png');">
-				<h2 class="m-auto text-center ontop font-weight-bold">GPG、RubyGems 和 Kernel 在 Tumbleweed 中更新</h2>
-			</div>
-			<div>
-				<div class="card-body">
-					<div class="font-weight-bold text-muted d-flex justify-content-between align-items-center">
-						<span>Poplar at twilight</span>
-						<span>2023-10-12</span>
-					</div>
-					<div class="text-justify h-96px">
-						<p>openSUSE 本周的快照有各种软件包更新。
-
-Mesa 和 ImageMagick 都属于 Tumbleweed 本周和上周同时更新的软件包之中。
-
-最新的快照 20231011 发布了 gpg2 2.4.3，带来了一些重大变更。gpg2 将内部可执行文件安装在 /usr/libexec 目录而不是 /usr/lib64 中。内部可执行文...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+		</p>
+		<p>
+			<b>标签:</b>
 			
-			<div class="col-lg-6 col-12 p-3">
-	<a class="text-black link_unstyled" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/11/leap-micro.html">
-		<div class="card h-100">
-			<div class="top-article bg-light d-flex border-bottom card-body"
-				style="background-image: url('/assets/posts/2023-10/leapmicro54-rpi.jpg');">
-				<h2 class="m-auto text-center ontop font-weight-bold">Leap Micro 5.5 现已发布，Leap Micro 5.3 现已退役</h2>
-			</div>
-			<div>
-				<div class="card-body">
-					<div class="font-weight-bold text-muted d-flex justify-content-between align-items-center">
-						<span>Poplar at twilight</span>
-						<span>2023-10-11</span>
-					</div>
-					<div class="text-justify h-96px">
-						<p>openSUSE 的现代轻量级主机操作系统的新版本，Leap Micro 5.5 现已发布。所有文档（包括 SLE Micro 5.5 文档空间中的发行说明）也适用于 Leap Micro，因为 Leap Micro 本质上是重新命名的 SLE Micro。
-
-值得一提的是，这也意味着 Leap Micro 5.3 现已结束生命周期 (EOL...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+			<a href="/tag/leap">
+				Leap
+			</a>
 			
-			<div class="col-lg-6 col-12 p-3">
-	<a class="text-black link_unstyled" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html">
-		<div class="card h-100">
-			<div class="top-article bg-light d-flex border-bottom card-body"
-				style="background-image: url('/assets/posts/2023-10/hw23.png');">
-				<h2 class="m-auto text-center ontop font-weight-bold">创新马拉松——黑客周 23 将于 11 月举行</h2>
-			</div>
-			<div>
-				<div class="card-body">
-					<div class="font-weight-bold text-muted d-flex justify-content-between align-items-center">
-						<span>Poplar at twilight</span>
-						<span>2023-10-10</span>
-					</div>
-					<div class="text-justify h-96px">
-						<p>今年 11 月，Hack Week 23 将开辟一条创新之路。
-
-这个一年一度的传统活动始于 2007 年，这个一年一度的传统以某种方式弥补了迄今为止活动数量的差异；它将全球各地的 SUSE 员工、openSUSE 贡献者、开源开发者和爱好者聚集在一起，进行为期一周的不间断实验和边界突破。
-
-今年的黑客周定于 11 月 6 日至 10 日举行...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
 			
-			<div class="col-lg-6 col-12 p-3">
-	<a class="text-black link_unstyled" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/05/weekly-update.html">
-		<div class="card h-100">
-			<div class="top-article bg-light d-flex border-bottom card-body"
-				style="background-image: url('/assets/posts/2023-10/gtk.png');">
-				<h2 class="m-auto text-center ontop font-weight-bold">Tumbleweed 的图形更新大放异彩</h2>
-			</div>
-			<div>
-				<div class="card-body">
-					<div class="font-weight-bold text-muted d-flex justify-content-between align-items-center">
-						<span>Poplar at twilight</span>
-						<span>2023-10-05</span>
-					</div>
-					<div class="text-justify h-96px">
-						<p>由于多个图形和成像包的更新，openSUSE 本周的快照使图形显示更加清晰。
-
-openSUSE Tumbleweed 已经发布了 Mesa、GTK、ImageMagick、webkit2gtk3 和 GraphicsMagick 等的软件包的更新。
-
-即将发布的快照 20231003 对 Mesa 进行了更新。Mesa 23.2.0 修复了...</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</a>
-</div>
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
 			
-			
-
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html&amp;title=Leap%2015.5%20%E7%9A%84%20Radeon%20RX%207000%20%E7%B3%BB%E5%88%97%E5%92%8C%20amdgpu%20%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=Leap%2015.5%20%E7%9A%84%20Radeon%20RX%207000%20%E7%B3%BB%E5%88%97%E5%92%8C%20amdgpu%20%E9%A9%B1%E5%8A%A8%E7%A8%8B%E5%BA%8F%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/14/leap-info.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
 		</div>
 	</div>
 </div>
