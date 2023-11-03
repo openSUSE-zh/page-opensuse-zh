@@ -1,6 +1,6 @@
 ---
 author: Poplar at twilight
-date: 2023-10-01 07:30:00 +0800
+date: 2023-11-03 07:30:00 +0800
 layout: post
 license: CC-BY-SA-4.0
 title: Firefox、hiredis 和 Strace 在 Tumbleweed 中更新
