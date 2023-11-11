@@ -7,6 +7,62 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/10/ama-session.html</guid>
+      <title>社区通过 AMA 会议探索工程学的奥秘</title>
+      <pubDate>Fri, 10 Nov 2023 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/10/ama-session.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 项目的 Jitsi 实例将在下周的“有问必答（Ask Me Anything，AMA）”会议上提供有关质量工程团队如何工作的独特而有洞察力的信息，开源社区下周将大饱眼福。 AMA 将于 11 月 16 日 19:00 UTC 在 meet.opensuse.org/meeting 在线举行。 Santiago Zarate 是 SUSE 质量工程核心团队的产品负责人，他将主持在黑客周期间组织的会议。 AMA 会议旨在让大家近距离了解 SUSE 研发部门的开发人员是如何工作的。其主要目的是促进全球服务和基础设施与工程之间的合作与理解，这将有助于揭开错综复杂的开发工作流程，并为质量工程实践提供一些启示。 本次会议的目的很明确：为观众提供一个了解 SUSE 工程内部运作的窗口，让大家有机会提出问题并深入了解幕后流程。 我们鼓励与会者事先在 https://etherpad.opensuse.org/p/ama 上提交他们的问题，以确保在 AMA 现场活动期间进行活跃和引人入胜的讨论。 虽然 AMA 为开源与会者提供了一个了解 SUSE 工程的有限窗口，但它也是一个宝贵的平台，可以增进大家对组织流程的集体了解。 AMA 会议不仅是一个提问的机会，也是一个促进合作、消除隔阂、深入了解推动工程工作的复杂流程的机会。千万不要错过这个与志同道合的软件工程师交流的难得机会。 请在 11 月 16 日 19:00 UTC 的日历上做好标记，并加入 meet.opensuse.org/meeting...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://meet.opensuse.org/&quot;&gt;openSUSE 项目的 Jitsi 实例&lt;/a&gt;将在下周的“有问必答（Ask Me Anything，AMA）”会议上提供有关质量工程团队如何工作的独特而有洞察力的信息，开源社区下周将大饱眼福。&lt;/p&gt;
+
+&lt;p&gt;AMA 将于 11 月 16 日 19:00 UTC 在 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 在线举行。&lt;/p&gt;
+
+&lt;p&gt;Santiago Zarate 是 SUSE 质量工程核心团队的产品负责人，他将主持在&lt;a href=&quot;https://hackweek.opensuse.org/23/projects/run-ama-outside-of-suse-engineering&quot;&gt;黑客周&lt;/a&gt;期间组织的会议。&lt;/p&gt;
+
+&lt;p&gt;AMA 会议旨在让大家近距离了解 SUSE 研发部门的开发人员是如何工作的。其主要目的是促进全球服务和基础设施与工程之间的合作与理解，这将有助于揭开错综复杂的开发工作流程，并为质量工程实践提供一些启示。&lt;/p&gt;
+
+&lt;p&gt;本次会议的目的很明确：为观众提供一个了解 SUSE 工程内部运作的窗口，让大家有机会提出问题并深入了解幕后流程。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励与会者事先在 &lt;a href=&quot;https://etherpad.opensuse.org/p/ama&quot;&gt;https://etherpad.opensuse.org/p/ama&lt;/a&gt; 上提交他们的问题，以确保在 AMA 现场活动期间进行活跃和引人入胜的讨论。&lt;/p&gt;
+
+&lt;p&gt;虽然 AMA 为开源与会者提供了一个了解 SUSE 工程的有限窗口，但它也是一个宝贵的平台，可以增进大家对组织流程的集体了解。&lt;/p&gt;
+
+&lt;p&gt;AMA 会议不仅是一个提问的机会，也是一个促进合作、消除隔阂、深入了解推动工程工作的复杂流程的机会。千万不要错过这个与志同道合的软件工程师交流的难得机会。&lt;/p&gt;
+
+&lt;p&gt;请在 11 月 16 日 19:00 UTC 的日历上做好标记，并加入 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 上的对话。社区每周例会定于 AMA 结束后 20:00 UTC 举行，但社区会议时间可用于延长 AMA。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/09/community-to-explore-engineering-ama/&quot;&gt;Community to Explore Engineering Depths with AMA Session&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/09/weekly-update.html</guid>
+      <title>LLVM 和 VLC 在 Tumbleweed 中更新</title>
+      <pubDate>Thu, 09 Nov 2023 23:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/09/weekly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>在本周繁忙的 Hack Week 期间，openSUSE 仍然设法发布了四个快照。 本周人们将收到 LLVM、Linux 内核固件、VLC 和 fwupd 等软件包的更新。 快照 20231108 发布了 kernel-firmware 20231107，增强了各种硬件，其中包括了针对 AX201、AX203、AX210、AX211 等多种设备的英特尔蓝牙固件更新。sqlite3 3.44.0 的更新添加了 string_agg()、concat() 和 concat_ws() 等聚合函数，这与其他 SQL 项目保持了兼容性。一些错误处理表语句得到了改进，有助于更直接的错误识别过程。数据压缩包 brotli 更新至 1.1.0，构建过程现在包含最佳标志并引入了新的 --dictionary 命令行选项。另一个要更新的软件包是 libgusb 0.4.8，它引入了新的 busy 设备错误代码，增强了其更有效地处理设备错误的能力。 快照 20231107 将 Linux 蓝牙协议栈 bluez 更新至 5.70 版本。此更新修复了与通用属性配置文件（GATT）确认相关的问题，并引入了对媒体独立命令协议配置文件和网格独立控制服务的支持，同时添加了补丁以解决与游戏控制器配对时出现的回退问题。gupnp 1.6.6 的更新提高了自省期间处理异常格式的恢复能力，并添加了用于在 ServiceProxy 中创建操作的新 API 接口。它还解决了内存泄漏问题。快照更新了...</description>
+      <content:encoded>&lt;p&gt;在本周繁忙的 &lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 期间，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 仍然设法发布了四个快照。&lt;/p&gt;
+
+&lt;p&gt;本周人们将收到 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt;、&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核固件&lt;/a&gt;、&lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 和 &lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 等软件包的更新。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/CI74LQRORMLGR5D473Y4BYWUJFBYBQKF/&quot;&gt;20231108&lt;/a&gt; 发布了 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-firmware&lt;/a&gt; 20231107，增强了各种硬件，其中包括了针对 AX201、AX203、AX210、AX211 等多种设备的&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt;蓝牙固件更新。&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite3&lt;/a&gt; 3.44.0 的更新添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;string_agg()&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;concat()&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;concat_ws()&lt;/code&gt; 等聚合函数，这与其他 SQL 项目保持了兼容性。一些错误处理表语句得到了改进，有助于更直接的错误识别过程。数据压缩包 &lt;a href=&quot;https://github.com/google/brotli&quot;&gt;brotli&lt;/a&gt; 更新至 1.1.0，构建过程现在包含最佳标志并引入了新的  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--dictionary&lt;/code&gt; 命令行选项。另一个要更新的软件包是 &lt;a href=&quot;https://github.com/hughsie/libgusb&quot;&gt;libgusb&lt;/a&gt; 0.4.8，它引入了新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;busy&lt;/code&gt; 设备错误代码，增强了其更有效地处理设备错误的能力。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WU2DHUIJXE5AIH7GQHYBOAZFMEEYEUDP/&quot;&gt;20231107&lt;/a&gt; 将 Linux 蓝牙协议栈 &lt;a href=&quot;http://www.bluez.org/&quot;&gt;bluez&lt;/a&gt; 更新至 5.70 版本。此更新修复了与通用属性配置文件（&lt;a href=&quot;https://www.microchipdeveloper.com/wireless:ble-gatt-overview&quot;&gt;GATT&lt;/a&gt;）确认相关的问题，并引入了对媒体独立命令协议配置文件和网格独立控制服务的支持，同时添加了补丁以解决与游戏控制器配对时出现的回退问题。&lt;a href=&quot;https://github.com/GNOME/gupnp&quot;&gt;gupnp&lt;/a&gt; 1.6.6 的更新提高了自省期间处理异常格式的恢复能力，并添加了用于在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ServiceProxy&lt;/code&gt; 中创建操作的新 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 接口。它还解决了内存泄漏问题。快照更新了 &lt;a href=&quot;https://llvm.org/&quot;&gt;llvm17&lt;/a&gt; 17.0.4，以确保与 17.0.0 版本的兼容性，并保持 API 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_binary_interface&quot;&gt;ABI&lt;/a&gt; 的一致性。该软件包在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libomp*-devel&lt;/code&gt; 中包含了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libomptarget.devicertl.a&lt;/code&gt;，用于实现关键的 GPU 卸载功能。快照中还更新了其他一些软件包。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/JDNOBC5W6QWRXKZDI2FKUILK75RL3KSA/&quot;&gt;20231106&lt;/a&gt; 通过 &lt;a href=&quot;https://weblate.org/&quot;&gt;Weblate&lt;/a&gt; 对 &lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 更新了斯洛伐克语、捷克语、荷兰语、加泰罗尼亚语、日语和印度尼西亚语等语言的翻译。yast2-trans 还引入了用于存储、安装和更新等文本域的新 POT 文件。&lt;a href=&quot;https://community.jaspersoft.com/&quot;&gt;jasper&lt;/a&gt; 4.1.0 的更新引入了对通过 &lt;a href=&quot;https://wasi.dev/&quot;&gt;WASI&lt;/a&gt; 支持为 &lt;a href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt; 目标构建各种 JasPer 应用程序的支持。此更新还解决了&lt;a href=&quot;https://en.wikipedia.org/wiki/Integer_overflow&quot;&gt;整数溢出&lt;/a&gt;错误。快照还更新了一些其他软件包，其中包括 openSUSE 的用于管理 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;-boot &lt;a href=&quot;https://github.com/openSUSE/sdbootutil&quot;&gt;sdbootutil&lt;/a&gt; 的工具。此次 git+ 更新重点是增强 snapper hooks 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdboot&lt;/code&gt;、使用特定快照安装命令以及改进 RPM scriptlet 中 sdbootutil 的行为。&lt;/p&gt;
+
+&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/R6TMI2GFWCKKO4NAG6FSTIKXXKTI2AP6/&quot;&gt;20231105&lt;/a&gt; 更新了 DBus 接口上的超薄层——&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt;。fwupd 1.9.7 添加了一些附加内容，例如元数据中的子设备要求、对 Logitech Rally 系统设备的新硬件支持。该更新为 BIOS 封装更新添加了新的安全属性，并扩展了对解析扩展显示识别数据和简洁软件标识符有效负载部分的支持。&lt;a href=&quot;https://www.videolan.org/vlc/index.html&quot;&gt;VLC&lt;/a&gt; 3.0.20 的更新主要集中在错误修复和改进。此次更新有一些显着的变化，例如解决与某些旧版本 AMD 驱动程序相关的崩溃问题，以及修复双击鼠标滚轮时的事件传播问题。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.42.1 的更新解决了与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git diff&lt;/code&gt; 中的退出代码处理相关的问题，并改进了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rebase -i&lt;/code&gt; 在命令因冲突更改而中断的情况下的行为。其他一些软件包（例如 &lt;a href=&quot;https://www.openldap.org/&quot;&gt;openldap2&lt;/a&gt; 2.6.6 和 &lt;a href=&quot;https://redis.io/&quot;&gt;redis&lt;/a&gt; 7.2.3）与几个 &lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt; 软件包一起更新，其中 &lt;a href=&quot;https://rubygems.org/gems/pairing_heap&quot;&gt;ruby​​gem-pairing_heap&lt;/a&gt; 从 1.0.0 更新到 3.0.1。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/10/llvm-vlc-up-in-tw/&quot;&gt;LLVM, VLC updates in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/05/survey-released.html</guid>
       <title>用例调查结果已发布</title>
       <pubDate>Sun, 05 Nov 2023 23:30:00 +0000</pubDate>
@@ -294,58 +350,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/10/12/leap-micro-55-hands-on/&quot;&gt;Leap Micro 5.5 availability and Leap Micro 5.3 EOL&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html</guid>
-      <title>创新马拉松——黑客周 23 将于 11 月举行</title>
-      <pubDate>Tue, 10 Oct 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/10/10/hack-week.html</link>
-      <author>Poplar at twilight</author>
-      <description>今年 11 月，Hack Week 23 将开辟一条创新之路。 这个一年一度的传统活动始于 2007 年，这个一年一度的传统以某种方式弥补了迄今为止活动数量的差异；它将全球各地的 SUSE 员工、openSUSE 贡献者、开源开发者和爱好者聚集在一起，进行为期一周的不间断实验和边界突破。 今年的黑客周定于 11 月 6 日至 10 日举行，参与者们正准备利用他们的集体创造力来创新、贡献和扩展开源领域。 SUSE 员工走出日常角色，开始为期一周的协作、创新和社交之旅。今年的黑客周将是人才、专业知识和激情的动态汇聚，黑客们将跨团队、跨大陆合作，推动技术的发展。 黑客周不仅仅是一场编码马拉松，它还是 SUSE 致力于在全球范围内培养开源协作的见证。参与者将带来不同的技能、知识、激情和视角来构建和开发新的东西；这营造了一种环境，让创造性的想法蓬勃发展，让解决方案逐渐成形。 以往的黑客周都取得了突破性的进展和颠覆性的创新。其中值得一提的是 openQA、Aeon（正式名称为 MicroOS 的 GNOME 桌面）和 Weblate（openSUSE 用于翻译）。 尽管全球开源社区热切期待 Hack Week 23 的开始，一些人已经在准备编写他们打算承担或贡献的项目列表。 敬请关注 SUSE 的官方传播渠道和社交媒体平台，了解最新信息和公告，并抢先了解今年 11 月 Hack Week 23 的最新动态。 原文：Innovation Marathon Hack Week...</description>
-      <content:encoded>&lt;p&gt;今年 11 月，&lt;a href=&quot;https://hackweek.opensuse.org/&quot;&gt;Hack Week&lt;/a&gt; 23 将开辟一条创新之路。&lt;/p&gt;
-
-&lt;p&gt;这个一年一度的传统活动始于 2007 年，这个一年一度的传统以某种方式弥补了迄今为止活动数量的差异；它将全球各地的 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 员工、&lt;a href=&quot;https://www.opensusesuse.org/&quot;&gt;openSUSE&lt;/a&gt; 贡献者、开源开发者和爱好者聚集在一起，进行为期一周的不间断实验和边界突破。&lt;/p&gt;
-
-&lt;p&gt;今年的黑客周定于 11 月 6 日至 10 日举行，参与者们正准备利用他们的集体创造力来创新、贡献和扩展开源领域。&lt;/p&gt;
-
-&lt;p&gt;SUSE 员工走出日常角色，开始为期一周的协作、创新和社交之旅。今年的黑客周将是人才、专业知识和激情的动态汇聚，黑客们将跨团队、跨大陆合作，推动技术的发展。&lt;/p&gt;
-
-&lt;p&gt;黑客周不仅仅是一场编码马拉松，它还是 SUSE 致力于在全球范围内培养开源协作的见证。参与者将带来不同的技能、知识、激情和视角来构建和开发新的东西；这营造了一种环境，让创造性的想法蓬勃发展，让解决方案逐渐成形。&lt;/p&gt;
-
-&lt;p&gt;以往的黑客周都取得了突破性的进展和颠覆性的创新。其中值得一提的是 &lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt;、&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;Aeon&lt;/a&gt;（正式名称为 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS 的 GNOME 桌面&lt;/a&gt;）和 &lt;a href=&quot;https://weblate.org/en/&quot;&gt;Weblate&lt;/a&gt;（openSUSE 用于翻译）。&lt;/p&gt;
-
-&lt;p&gt;尽管全球开源社区热切期待 Hack Week 23 的开始，一些人已经在准备编写他们打算承担或贡献的项目列表。&lt;/p&gt;
-
-&lt;p&gt;敬请关注 SUSE 的官方传播渠道和社交媒体平台，了解最新信息和公告，并抢先了解今年 11 月 Hack Week 23 的最新动态。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/10/11/innovation-marathon-hw-set-for-nov/&quot;&gt;Innovation Marathon Hack Week Set for November&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/05/weekly-update.html</guid>
-      <title>Tumbleweed 的图形更新大放异彩</title>
-      <pubDate>Thu, 05 Oct 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/10/05/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>由于多个图形和成像包的更新，openSUSE 本周的快照使图形显示更加清晰。 openSUSE Tumbleweed 已经发布了 Mesa、GTK、ImageMagick、webkit2gtk3 和 GraphicsMagick 等的软件包的更新。 即将发布的快照 20231003 对 Mesa 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 Vulkan 图形 API 的 VK_EXT_mesh_shader 扩展。gtk4 4.12.3 的更新增强了小部件，修复了 GIMP Toolkit 库中的小部件崩溃以及 Broadway 渲染器中的内存泄漏。webkit2gtk3 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 GraphicsMagick 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG...</description>
-      <content:encoded>&lt;p&gt;由于多个图形和成像包的更新，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周的快照使图形显示更加清晰。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Tumbleweed 已经发布了 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt;、&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt;、&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 和 &lt;a href=&quot;http://www.graphicsmagick.org/&quot;&gt;GraphicsMagick&lt;/a&gt; 等的软件包的更新。&lt;/p&gt;
-
-&lt;p&gt;即将发布的快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/75CFXEG2U7FB2XQYPYAI7RWNRWCGZWV7/&quot;&gt;20231003&lt;/a&gt; 对 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 进行了更新。Mesa 23.2.0 修复了处理无绑定图像、限制对某些颜色表面使用 flag，并在支持的情况下启用了 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 图形 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_EXT_mesh_shader&lt;/code&gt; 扩展。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.12.3 的更新增强了小部件，修复了 &lt;a href=&quot;https://www.gimp.org/&quot;&gt;GIMP Toolkit&lt;/a&gt; 库中的小部件崩溃以及 &lt;a href=&quot;https://blogs.gnome.org/alexl/2019/03/29/broadway-adventures-in-gtk4/&quot;&gt;Broadway&lt;/a&gt; 渲染器中的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.42.1 解决了一些问题，如启用 HTML5 数据库设置以正确控制 IndexedDB API，并切换了一个软件包，以便灵活选择不同的 Unicode 国际组件开发包。快照还发布了图像处理程序 &lt;a href=&quot;http://www.graphicsmagick.org/&quot;&gt;GraphicsMagick&lt;/a&gt; 1.3.42，修复了 TIFF 和读取各种 BMP 子格式的问题。GraphicsMagick 还引入了新功能，包括使用 JPEG 压缩读取和写入 BMP 的能力以及支持读取使用 PNG 压缩的 BMP 文件。&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 254.5 的更新对包规范文件进行了一些调整，以更好地兼容 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE&lt;/a&gt;。快照中还更新了其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/54VTY2DLJBY5ZVF65QHFWJGYUJUWQVXS/&quot;&gt;20231001&lt;/a&gt; 将多功能图像处理软件包 &lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 更新至 7.1.1.18 版本。此测试版本解决了多个静态分析器问题，消除了编译器警告并进行了一些外观更改。&lt;a href=&quot;https://www.php.net/&quot;&gt;php8&lt;/a&gt; 和 &lt;a href=&quot;https://software.opensuse.org/package/apache2-mod_php8&quot;&gt;apache2-mod_php8&lt;/a&gt; 8.2.11 的更新解决了一些 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 兼容性问题和一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;。&lt;a href=&quot;https://github.com/openSUSE/suse-module-tools&quot;&gt;suse-module-tools&lt;/a&gt; 16.0.36 的更新解决了一个被识别为 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-1829.html&quot;&gt;CVE-2023-1829&lt;/a&gt; 的严重安全漏洞；此漏洞可能导致特权升级。针对存储和传输协议的命令行设备管理包 &lt;a href=&quot;https://github.com/linux-nvme/nvme-cli&quot;&gt;nvme-cli&lt;/a&gt; 的更新增强了在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create-ns&lt;/code&gt; 命令中分配有效载荷缓冲区后的性能；nvme-cli 2.6 还将特定模块列入黑名单，以解决安全性和兼容性问题。该软件包还对插件和实用程序进行了各种改进。上述软件包以及 &lt;a href=&quot;https://github.com/linux-nvme/libnvme&quot;&gt;libnvme&lt;/a&gt; 的更新在快照中的变化最大。libnvme 1.6 的更新增强了 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 兼容性，引入了一些解析和检索各种功能的函数，并具有与结构处理、子系统匹配算法和上下文检查相关的各种改进。快照还更新了其他几个软件包，包括 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/xdg-utils/&quot;&gt;xdg-utils&lt;/a&gt; 1.2.0 beta 版本，它增强了对 &lt;a href=&quot;https://lxqt-project.org/&quot;&gt;LXQt&lt;/a&gt; 桌面环境的支持，更好地处理 &lt;a href=&quot;https://wiki.archlinux.org/title/Desktop_entries&quot;&gt;desktop 文件&lt;/a&gt;路径中的空格并修复了一些 shell 脚本。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/F5WHUSQSIXJNDG75UVNNF7RZEYAFZVDZ/&quot;&gt;20230929&lt;/a&gt; 将网络浏览器 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 更新至新的主要版本 118.0.1。该更新解决了 10 个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，包括&lt;a href=&quot;https://en.wikipedia.org/wiki/Buffer_overflow&quot;&gt;堆缓冲区溢出&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_corruption&quot;&gt;内存损坏&lt;/a&gt;和双重释放问题。添加补丁时，Firefox 还暂时停用了 &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/plasma-integration/&quot;&gt;KDE 集成插件&lt;/a&gt;。快照中的另一个主要更新是色彩管理包 argyllcms 3.0。&lt;a href=&quot;https://www.argyllcms.com/&quot;&gt;argyllcms&lt;/a&gt; 对 icclib 进行了广泛的重写，以确保不会过时，具有新的测量功能并修复了与仪器相关的错误。&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;gstreamer&lt;/a&gt; 1.22.6 及其多个插件的更新修复了 H.264 中的延迟问题，提高了与各种 RTMP（实时信息传输协议）和 RTSP（实时流媒体协议）服务器的兼容性，并增强了信号打印功能，使信号更加清晰。&lt;a href=&quot;https://www.mpg123.de/&quot;&gt;mpg123&lt;/a&gt; 1.32.2 的更新解决了 1.31 系列的回退问题，并改进了构建逻辑和大文件处理能力。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;openssl-3&lt;/a&gt; 3.1.3、&lt;a href=&quot;https://github.com/yast/yast-python-bindings&quot;&gt;yast2-python-bindings&lt;/a&gt; 的主要版本 5.0.1 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/10/05/tws-graphic-ups-shine/&quot;&gt;Tumbleweed’s Graphic Updates Shine&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
