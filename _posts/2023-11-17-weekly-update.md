@@ -61,7 +61,7 @@ openSUSE 在快照 [20231110] 和适用于 arm 的快照 [20231114][20231114-2] 
 [20231110]: https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/C4WISFOQGDXM3GJRJQQV7N3WNUCOSFGO/
 [Ark]: https://apps.kde.org/ark/
 [Kdenlive]: https://kdenlive.org/en/
-[Dolphin]:
+[Dolphin]: https://apps.kde.org/dolphin/
 [ALSA]: https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 [ASE]: https://www.lifewire.com/ase-file-2619688
 [ACB]: https://creativecloud.adobe.com/zh-Hans/discover/article/adobe-coloring-book
