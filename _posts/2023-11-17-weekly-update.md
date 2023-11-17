@@ -55,6 +55,7 @@ tags:
 [SMTP]: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol
 [TLS]: https://en.wikipedia.org/wiki/Transport_Layer_Security
 [postfix]: https://www.postfix.org/
+[zstd]: https://facebook.github.io/zstd/
 
 openSUSE 在快照 [20231110] 和适用于 arm 的快照 [20231114][20231114-2] 中，为 KDE 用户与贡献者带来了 [Gear 23.08.3][KDE Gear 23.08.3] 更新。解压缩工具 [Ark] 解决了一些格式问题和 MIME 类型处理。Ark 还修复了与打开 AppImage 文件相关的问题，检查了使用过时 ISO mimetypes 的情况，并调整了测试中硬编码的 bzip2 mimetypes，以提高灵活性。文件管理器 [Dolphin] 进行了更新，以反映 KActivities 从 Frameworks 迁移到 Plasma 的情况。这些修改有助于改进 Dolphin 的功能和调整。[Kdenlive] 发生了大量变更。此次更新修复了时间映射，确保在片段替换过程中正确处理音频，解决项目持续时间不准确的问题，防止字幕样式丢失，增强渲染，并改进了关键帧处理和片段大小调整功能。[Linux Kernel] 6.6.1 也在快照 [20231110] 中发布，它修复了多个驱动程序模块的错误，并增强了特定硬件设备的兼容性，包括对串行、USB、[ALSA]、蓝牙等的调整。 [gimp] 2.10.36 的更新包括对 [ASE] 和 [ACB] 调色板的支持以及新的渐变选项。增强了对非正方形比例 GIF 的支持，并改进了文本工具的格式化行为。[postgresql16] 16.1 的更新添加了对 [LLVM] 16 和 17 的支持。它还进行了一些安全修复，包括处理未知类型参数以及在计算新数组维度时防止[整数溢出]。[binutils] 2.41、[gawk] 5.3.0 等更新已在快照中发布。
 
