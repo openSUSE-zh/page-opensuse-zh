@@ -13,7 +13,7 @@ tags:
 - 官方新闻
 ---
 
-openSUSE Tumbleweed 本周持续发布快照，为用户带来最新的软件更新。
+[openSUSE] [Tumbleweed] 本周持续发布快照，为用户带来最新的软件更新。
 
 [openSUSE]: https://get.opensuse.org/
 [Tumbleweed]: https://get.opensuse.org/tumbleweed/
