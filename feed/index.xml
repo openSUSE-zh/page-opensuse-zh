@@ -7,6 +7,188 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html</guid>
+      <title>Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密</title>
+      <pubDate>Thu, 21 Dec 2023 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html</link>
+      <author>Poplar at twilight</author>
+      <description>Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密 openSUSE 和 MicroOS 现在提供一个使用 systemd-boot 作为引导加载程序，并基于 systemd 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、TPM2（系统中已存在的加密设备），如果系统健康状况良好，将附加该设备，或 FIDO2 密钥（验证令牌的所有权）来完成。。 要解释的东西很多，但基本上这些变化都是为了让发行版变得更安全。一方面是使发行版的设计更加简单，另一方面是顺应当前的安全趋势，其他发行版也在向这一趋势看齐。 那么，让我们从头开始…… systemd-boot 我们都知道并喜欢 GRUB2。它是一个很好的引导加载器。同时，它也是一个丰富而庞杂，开发进展缓慢的程序， openSUSE 为 GRUB2 引导加载器打了 200 多个补丁。其中一些补丁已经存在了 5 年、6 年，甚至……10 年。这既表明了维护者的才华，也表明了上游贡献过程有多慢的问题。 GRUB2 支持所有相关系统，包括大型机、arm 和 powerpc 等；支持多种类型的文件系统，包括 btrfs 和 NTFS 等。它包含一个完整的网络协议栈、一个 USB 协议栈、一个可用以编写脚本的终端……从某种意义上说，它本身几乎就是一个微型操作系统。 但随着 UEFI 于 18 年前发布，使得 GRUB2 提供的几乎所有功能都变得多余。系统固件已经将这些功能中的大部分作为服务提供，操作系统、引导加载器或任何其他用户提供的应用程序都可以使用这些服务。当然，GRUB2 也支持...</description>
+      <content:encoded>&lt;h2 id=&quot;tumbleweed-和-microos-的-systemd-boot-与全盘加密&quot;&gt;Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 现在提供一个使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 作为引导加载程序，并基于 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt;（系统中已存在的加密设备），如果系统健康状况良好，将附加该设备，或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥（验证令牌的所有权）来完成。。&lt;/p&gt;
+
+&lt;p&gt;要解释的东西很多，但基本上这些变化都是为了让发行版变得更安全。一方面是使发行版的设计更加简单，另一方面是顺应当前的安全趋势，其他发行版也在向这一趋势看齐。&lt;/p&gt;
+
+&lt;p&gt;那么，让我们从头开始……&lt;/p&gt;
+
+&lt;h3 id=&quot;systemd-boot&quot;&gt;systemd-boot&lt;/h3&gt;
+
+&lt;p&gt;我们都知道并喜欢 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt;。它是一个很好的引导加载器。同时，它也是一个丰富而庞杂，开发进展缓慢的程序，&lt;/p&gt;
+
+&lt;p&gt;openSUSE 为 &lt;a href=&quot;https://www.gnu.org/software/grub/grub-download.html&quot;&gt;GRUB2&lt;/a&gt; 引导加载器打了 200 多个补丁。其中一些补丁已经存在了 5 年、6 年，甚至……10 年。这既表明了维护者的才华，也表明了上游贡献过程有多慢的问题。&lt;/p&gt;
+
+&lt;p&gt;GRUB2 支持所有相关系统，包括大型机、&lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;powerpc&lt;/a&gt; 等；支持多种类型的文件系统，包括 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;btrfs&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/NTFS&quot;&gt;NTFS&lt;/a&gt; 等。它包含一个完整的网络协议栈、一个 USB 协议栈、一个可用以编写脚本的终端……从某种意义上说，它本身几乎就是一个微型操作系统。&lt;/p&gt;
+
+&lt;p&gt;但随着 &lt;a href=&quot;https://en.wikipedia.org/wiki/UEFI&quot;&gt;UEFI&lt;/a&gt; 于 18 年前发布，使得 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 提供的几乎所有功能都变得多余。系统固件已经将这些功能中的大部分作为服务提供，操作系统、引导加载器或任何其他用户提供的应用程序都可以使用这些服务。当然，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 也支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;很快，&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;就可以通过附加到内核代码的 stub 来编译为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EFI&lt;/code&gt; 二进制文件。这意味着内核本身可以直接由固件启动，使得引导加载器在大多数情况下变得可有可无。&lt;/p&gt;
+
+&lt;p&gt;随着时间的推移，出现了新的、更直接的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI&lt;/code&gt; 引导加载器，如 &lt;a href=&quot;https://cgit.freedesktop.org/gummiboot/&quot;&gt;gummiboot&lt;/a&gt;。后来，这些代码被集成到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 中，并更名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 代码非常简单，比 GRUB2 简单许多。它基本上是一个非常小的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EFI&lt;/code&gt; 二进制文件，提供一个包含不同引导加载器条目（&lt;a href=&quot;https://uapi-group.org/specifications/specs/boot_loader_specification/&quot;&gt;Boot Loader Specification&lt;/a&gt; 或简称 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLS&lt;/code&gt; 中描述的文本文件）的菜单，并调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI LoadImage&lt;/code&gt; 函数将执行委托给所选的内核。&lt;/p&gt;
+
+&lt;p&gt;该引导加载器还可以使用新的&lt;a href=&quot;https://uapi-group.org/specifications/specs/unified_kernel_image/&quot;&gt;统一内核映像&lt;/a&gt;（UKI）；&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UKI&lt;/code&gt; 是将内核、命令行和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 整合在一起的文件。这些 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UKI&lt;/code&gt; 对于基于映像的发行版来说非常方便，openSUSE 也计划支持它们。&lt;/p&gt;
+
+&lt;p&gt;提供 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 作为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 的替代方案是 openSUSE 一直想做的事。2023 年 8 月，&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4FNZ7HEPH6KQQ2JVFNPN7PXWHZZRU5H5/&quot;&gt;Factory 邮件列表&lt;/a&gt;上发布了关于 Tumbleweed 支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 的公告。&lt;/p&gt;
+
+&lt;p&gt;公告引用了一个 &lt;a href=&quot;https://en.opensuse.org/Systemd-boot&quot;&gt;wiki 条目&lt;/a&gt;，解释了如何手动将使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 的安装迁移到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;。公告发布后不久，&lt;a href=&quot;https://github.com/yast/yast-bootloader&quot;&gt;yast-bootloader&lt;/a&gt; 就&lt;a href=&quot;https://github.com/yast/yast-bootloader/pull/686&quot;&gt;获得了&lt;/a&gt;对新安装方案的支持。&lt;/p&gt;
+
+&lt;p&gt;支持另一个引导加载程序是有代价的。如上所述，代码库更小，错误更少，更容易推理。但对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI&lt;/code&gt; 的依赖减少了支持的架构数量（目前支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86-64&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aarch64&lt;/code&gt;）。通过为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 提供另一个补丁来支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLS&lt;/code&gt; 条目，可以大大缓解这个问题，这样引导加载器背后的发行版架构就可以独立于引导加载器本身。好消息是该补丁已经存在，并且有可能添加到软件包中。&lt;/p&gt;
+
+&lt;p&gt;另一个问题是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 不支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btrfs&lt;/code&gt;。作为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EFI&lt;/code&gt; 二进制文件，它只能从 &lt;a href=&quot;https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32&quot;&gt;FAT32&lt;/a&gt; 文件系统读取文件。将&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt;和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 移入 &lt;a href=&quot;https://en.wikipedia.org/wiki/EFI_system_partition&quot;&gt;EFI 系统分区&lt;/a&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESP&lt;/code&gt;) 可以解决这一限制。&lt;/p&gt;
+
+&lt;p&gt;最后，还要考虑在 Tumbleweed 中支持快照，在 MicroOS 中支持 &lt;a href=&quot;https://microos.opensuse.org/blog/2018-04-20-transactionalupdates2/&quot;&gt;transaction&lt;/a&gt;。用户应能从引导加载器中选择从哪个快照启动，就像使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 时一样。这两个概念都是通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btrfs&lt;/code&gt; 子卷实现的，而且只有内核、命令行、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 组合的子集对每个子卷有效。&lt;/p&gt;
+
+&lt;p&gt;例如，假设我们的系统中有两个快照，每个快照都代表一个安装了两个内核的系统。所有快照中的这两个内核可能都不相同。也许其中一次升级用更新的版本替换了一个内核。我们需要一些工具来完成关联正确组合所需的簿记工作，以便成功启动到这些快照中的任何一个，并在这些限制下创建启动项。&lt;/p&gt;
+
+&lt;p&gt;这个工具就是 &lt;a href=&quot;https://github.com/openSUSE/sdbootutil&quot;&gt;sdbootutil&lt;/a&gt;。每次 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 创建或销毁快照时（例如，系统更新时），它都会调用这个工具，分析快照的内容，确保 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESP&lt;/code&gt; 中安装了相应的内核，存在该内核的有效 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;（如果没有，则调用 &lt;a href=&quot;https://linux.die.net/man/8/mkinitrd&quot;&gt;mkinitrd&lt;/a&gt; 创建），并创建一个启动项，通过命令行连接内核、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 和快照。它还会处理其他细节，如检查分区的可用空间。&lt;/p&gt;
+
+&lt;p&gt;通常情况下，它的处理过程是透明的，但请记住，我们可以使用以下方式强制进入干净状态：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sdbootutil add-all-kernels
+sdbootutil remove-all-kernels
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;以防万一，你知道……&lt;/p&gt;
+
+&lt;h3 id=&quot;全盘加密&quot;&gt;全盘加密&lt;/h3&gt;
+
+&lt;p&gt;我们要宣布的另一个方面是基于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 的&lt;a href=&quot;https://en.wikipedia.org/wiki/Full_disk_encryption&quot;&gt;全盘加密&lt;/a&gt;（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt;）支持。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 并不是新生事物。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 很久以前就可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptomount&lt;/code&gt; 命令解锁 &lt;a href=&quot;https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup&quot;&gt;LUKS&lt;/a&gt; 卷。传统上，这会向用户请求两次密码：一次是在启动加载程序解锁时，另一次是在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 解锁时。有一些方法可以避免第二次请求，比如将密码注入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;，或者，如果使用 openSUSE 软件包，它会将密码透明地注入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;最近，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 获得了两个新功能：部分支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 加密设备（使用 &lt;a href=&quot;https://en.wikipedia.org/wiki/PBKDF2&quot;&gt;PBKDF2&lt;/a&gt; 作为密钥派生函数，而不是更安全且推荐的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Argon2&quot;&gt;Argon2id&lt;/a&gt;）以及可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 等设备中存储机密的密钥保护机制。&lt;/p&gt;
+
+&lt;h3 id=&quot;tpm2&quot;&gt;TPM2&lt;/h3&gt;
+
+&lt;p&gt;要详细解释 &lt;a href=&quot;https://en.wikipedia.org/wiki/TPM2&quot;&gt;TPM2&lt;/a&gt; 的工作原理是另一篇文章的主题，但现在我们可以把它看作是一个加密设备，只有在满足与系统状态相关的特定条件时，才能用来解锁秘密。如果系统处于健康状态，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 就会解锁秘密。&lt;/p&gt;
+
+&lt;p&gt;该术语是一个技术术语，与断言（assert）系统处于&lt;strong&gt;已知&lt;/strong&gt;的良好状态有关。换句话说，我们确信固件没有被篡改，引导加载程序是我们安装的并且没有被替换，内核正是来自发行版的内核，内核命令行是我们所期望的，并且我们使用的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 不包含任何我们无法控制的额外二进制文件。&lt;/p&gt;
+
+&lt;p&gt;TPM2 内部有一些寄存器，称为&lt;a href=&quot;https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/switch-pcr-banks-on-tpm-2-0-devices&quot;&gt;平台配置寄存器&lt;/a&gt;（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt;）。在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 规范中，共有 24 个这样的寄存器，其中每一个的大小足以存储 &lt;a href=&quot;https://en.wikipedia.org/wiki/SHA-1&quot;&gt;SHA1&lt;/a&gt; 或 &lt;a href=&quot;https://en.wikipedia.org/wiki/SHA-2&quot;&gt;SHA256&lt;/a&gt; 等哈希函数的值。这些寄存器由库分隔：每个支持的散列函数有一个库，但现在说得太详细了。&lt;/p&gt;
+
+&lt;p&gt;这些寄存器比较特殊。我们可以重置它们，通常是将其值设置为 0。我们可以读取其值，也可以“扩展”它们。写入操作的设计方式是，我们不能在寄存器中设置任何随机值，除非是相关哈希函数将当前 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值和用户提供的新值连接起来的结果。&lt;/p&gt;
+
+&lt;p&gt;只有使用完全相同的数值序列扩展该寄存器，才能产生当前的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值。如果我们改变其中一个值的哪怕一个比特，那么同样的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 将产生完全不同的最终结果。&lt;/p&gt;
+
+&lt;p&gt;这一功能用于“&lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/RemoteAttestation#Measured_boot&quot;&gt;测量启动&lt;/a&gt;”过程，即在执行启动链的每个阶段之前对其进行测量。这意味着，在固件的初始阶段运行之前，内存中有一个进程会计算代码的哈希值，并使用该值扩展其中一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt;。这一过程一直重复到启动序列的最末端：内核和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;当测量引导到位后，前 10 个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 的最终值将包含只有在机器使用已知版本的固件、引导加载器和内核以及相关数据（如证书、配置文件或内核参数）时才能预测的值。如果其中一个元素发生变化（例如，使用了不同的安全启动证书），就会产生与我们预期不同的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 芯片是非常有趣的设备，其功能远远超出了测量启动的范围。如果你想了解更多，我推荐你参考 &lt;a href=&quot;https://developers.tpm.dev/&quot;&gt;TPM.dev&lt;/a&gt; 或 &lt;a href=&quot;https://trustedcomputinggroup.org/resource/a-practical-guide-to-tpm-2-0/&quot;&gt;A Practical Guide to TPM 2.0&lt;/a&gt; 等资源。&lt;/p&gt;
+
+&lt;h3 id=&quot;fde-的-tpm2&quot;&gt;FDE 的 TPM2&lt;/h3&gt;
+
+&lt;p&gt;总之，这里的要点是，我们可以创建一个 “策略”，指示 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 只有在某些 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 包含预期值的情况下才对秘密进行解密。具体细节略有不同，但现在让我们把这个模型作为一个很好的第一近似值。&lt;/p&gt;
+
+&lt;p&gt;我们的想法是，我们可以使用某些 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 寄存器的值来加密密码，这样，如果 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 可以恢复密码，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 就可以在稍后附加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 设备，从而在此之前验证系统的健康状况。如果 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 无法解密，则意味着某些 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 的值与预期不符，启动过程中的某个阶段发生了变化。在这种情况下，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 会要求用户输入密码，以继续加载内核和系统的其他部分。它将新状态的信任委托给用户。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 还提供了一个工具，用于根据 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 子集的当前值封存秘密。这很好，但也带来了几个问题。一个问题是，也许我们在设置系统时知道 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 的值会在下一次启动时发生变化（例如，在第一次安装、升级引导加载器或更新固件时）。在这种情况下，使用当前寄存器值密封密码是没有用的：我们需要能够预测新的寄存器值，并使用这些假设值进行密封。&lt;/p&gt;
+
+&lt;p&gt;另一个问题更为隐蔽，稍后会变得至关重要。预期值可能会经常变化，而且不可能是唯一的。也许有一组有效值。我们可以选择从不同的内核或快照启动。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 提供了一种使用授权策略（authorized policies）的解决方案。授权策略是一种创建策略的方法，策略可以更改，但通过签名进行验证。从本质上讲，我们创建了一个公钥和一个私钥，并创建了多个使用私钥签名的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 策略。现在，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 可以使用公钥部分验证签名，并使用存储在新策略中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值解密。&lt;/p&gt;
+
+&lt;p&gt;自 2023 年初起，openSUSE 提供了 &lt;a href=&quot;https://github.com/okirch/pcr-oracle&quot;&gt;pcr-oracle&lt;/a&gt; 工具，帮助预测 PCR 寄存器，并使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 策略或授权策略在这些值下加密密钥。使用该工具，我们现在可以在一组可能发生变化的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值下加密密钥！&lt;/p&gt;
+
+&lt;p&gt;在 openSUSE wiki 中，你可以找到更多关于这些主题的&lt;a href=&quot;https://en.opensuse.org/SDB:Encrypted_root_file_system&quot;&gt;文档&lt;/a&gt;，包括如何在安装中使用的说明。&lt;/p&gt;
+
+&lt;h3 id=&quot;使用-systemd-进行磁盘加密&quot;&gt;使用 systemd 进行磁盘加密&lt;/h3&gt;
+
+&lt;p&gt;使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 可以正常工作，为什么还要寻找其他方法呢？其中一个原因非常明显：这种架构只有……嗯……只有在使用我们的 openSUSE &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 版本时才能工作。它不适用于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 等其他引导加载器。事实上，它本身也不适用于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 的上游版本。&lt;/p&gt;
+
+&lt;p&gt;但还有第二个原因：我们可以说 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 没有完全测量引导。如果引导加载器在加载内核&lt;strong&gt;之前&lt;/strong&gt;需要解锁设备，那么评估系统健康状况的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 策略自然就不能对将要使用的内核、命令行或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 进行断言。这些内容将在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 设备打开后加载。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 的使用为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 提供了一个替代架构，它可以与任何遵循 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLS&lt;/code&gt; 的引导加载器正常工作（请记住，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 有一个支持它的补丁，所以它并没有被排除在外），并提供了在解锁设备前进行完整测量引导验证的机会。&lt;/p&gt;
+
+&lt;p&gt;不同之处在于，内核和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 将被放置在未加密的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESP&lt;/code&gt; 中，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sysroot&lt;/code&gt; 的解锁将在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptsetup&lt;/code&gt; 提供的不同选项完成。目前，它可以使用普通密码、带授权策略的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt;（用户必须输入 PIN）或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥设备解锁设备。我们需要在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/crypttab&lt;/code&gt; 文件中描述&lt;a href=&quot;https://www.freedesktop.org/software/systemd/man/latest/crypttab.html&quot;&gt;解锁机制&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcr-oracle&lt;/code&gt; 已被扩展用于支持创建 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 可以理解的授权策略。这些策略存储在一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON&lt;/code&gt; 文件中，该文件包含多个预测，每个预测都说明了所涉及的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 策略哈希值、公钥指纹和策略签名。这些信息与公钥 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PEM&lt;/code&gt; 文件一起，构成了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptsetup&lt;/code&gt; 使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 解封 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 密钥所需的全部数据。&lt;/p&gt;
+
+&lt;p&gt;用于签署策略的 &lt;a href=&quot;https://en.wikipedia.org/wiki/RSA_numbers&quot;&gt;RSA&lt;/a&gt; 2048 密钥可以用 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;openssl&lt;/a&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcr-oracle&lt;/code&gt; 创建。需要注意的是：如果私钥泄露，那么 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 所能提供的预期安全性就完了。幸运的是，这种情况下的解决方案很简单：生成一个新密钥，用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptenroll&lt;/code&gt; 在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 密钥槽中重新注册密钥，然后使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 为每个启动项重新生成预测值。是的……我们将在 “&lt;a href=&quot;https://en.opensuse.org/Systemd-fde&quot;&gt;systemd-fde&lt;/a&gt;“维基页面中记录所有过程，并提供更好的工具，但请相信我，这确实是个低成本的操作。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 提供了一个名为 &lt;a href=&quot;http://download.opensuse.org/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2&quot;&gt;kvm-and-xen-sdboot&lt;/a&gt; 的 &lt;a href=&quot;https://build.opensuse.org/package/show/devel:microos:images/openSUSE-MicroOS&quot;&gt;MicroOS 镜像&lt;/a&gt;，展示了所有这些是如何工作的。该镜像包含一些已集成的工具和其他一些新工具：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;： 使用引导加载器代替默认 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt;： 同步系统引导项的辅助脚本&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcr-oracle&lt;/code&gt;： 预测下一次启动的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值，并为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 创建授权策略&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disk-encryption-tool&lt;/code&gt;： 在第一次启动时加密 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sysroot&lt;/code&gt; 所在的设备&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dracut-pcr-signature&lt;/code&gt;：将预测值从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESP&lt;/code&gt; 加载到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dracut&lt;/code&gt; 模块&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些工具旨在为这种新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 架构协同工作。以下是所有连接方式的简要描述。&lt;/p&gt;
+
+&lt;p&gt;获得新的 MicroOS &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qcow2&lt;/code&gt; 镜像并设置好虚拟机后，我们就可以开始启动程序了。如果虚拟机有虚拟 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 设备，它将开始测量执行的代码和数据，并扩展相应的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt;。一旦进入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;，它将为该会话找到正确的启动项，并从中读取相应的内核和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;此时镜像尚未加密。在第一次启动时使用的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 中，将调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disk-encryption-tool&lt;/code&gt; 脚本。通过一些启发式方法，它将找到属于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sysroot&lt;/code&gt;（系统所在位置）的分区，并调整其大小，为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 标头预留 32MB。之后，它将使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptsetup&lt;/code&gt; 提供的所有神奇功能，使用本地生成的密码重新加密设备。截至今天，该密码将与最后提供给用户的恢复密钥相对应，用户应注意并妥善保管。&lt;/p&gt;
+
+&lt;p&gt;重新加密后，系统的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/crypttab&lt;/code&gt; 将被更新，以告知该设备现已加密，以后应使用不同的工具进行管理。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 结束后，我们切换到新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sysroot&lt;/code&gt;，现在它终于位于加密设备中了。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disk-encryption-tool&lt;/code&gt; 脚本已经完成了它的主要工作，但它还为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jeos-firstboot&lt;/code&gt; 安装了两个模块，这些模块将在系统首次启动时执行！&lt;/p&gt;
+
+&lt;p&gt;第一个模块，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;enroll&lt;/code&gt;，将检测是否插入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt;。如果有，它将弹出一个对话框，询问你想用什么来解锁系统。第二个模块会询问用户是否将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;root&lt;/code&gt; 密码作为新密钥注册到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 标头中，并显示之前生成的恢复密钥。&lt;/p&gt;
+
+&lt;p&gt;从目前来看，两种密钥都注册并不可取。正如我们前面所述，如果我们使用的是笔记本电脑或台式机，并且我们希望通过自己拥有的令牌证明来解锁加密设备，那么 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥将更有意义。这是一个交互过程。而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 则更适用于我们不想与系统交互的情况，只有在我们能确定系统健康（启动链中未发生篡改）的情况下，我们才希望自动解锁设备。&lt;/p&gt;
+
+&lt;p&gt;如果我们注册了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptenroll&lt;/code&gt; 将被调用，并要求我们按两下按钮，安装过程就结束了。下一次启动时，我们需要出示密钥，如果密钥丢失，则会询问恢复密码。&lt;/p&gt;
+
+&lt;p&gt;如果我们注册了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 设备，新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RSA&lt;/code&gt; 2048 密钥就会生成并存储在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/systemd&lt;/code&gt; 中（公钥和私钥部分），&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptenroll&lt;/code&gt; 将用于注册公钥和注释用于封存 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 密钥的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt;。默认情况下，我们将使用 0、2、4、7 和 9。具体含义可参阅&lt;a href=&quot;https://uapi-group.org/specifications/specs/linux_tpm_pcr_registry/&quot;&gt;此处&lt;/a&gt;。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 0 和 2 将测量所有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI&lt;/code&gt; 固件代码。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 4 将测量引导加载器（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;）和内核（也是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UEFI&lt;/code&gt; 二进制文件）。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 7 将注册所有安全启动证书，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 9 将被内核用于测量命令行和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;这几乎涵盖了所有可能有意义的内容，但用户有权最终决定测量什么。原因是预测是在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 中完成的，记住，每次系统发生变化（更新、删除软件包、快照管理等）后，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 都会自动执行，而且该工具只针对在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 标头中注册的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 进行预测。&lt;/p&gt;
+
+&lt;p&gt;无论选择哪种解锁机制，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/crypttab&lt;/code&gt; 文件都将根据这一选择进行更新，并生成一个新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 文件，其中包含下次启动时需要的信息。&lt;/p&gt;
+
+&lt;p&gt;最后，最后一个组件 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dracut-pcr-signature&lt;/code&gt; 将负责在后续启动过程中，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptsetup&lt;/code&gt; 解锁所需的所有信息都将&lt;strong&gt;即时&lt;/strong&gt;出现在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 中。需要注意的是，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 需要包含策略和密钥的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON&lt;/code&gt; 文件，但这些信息无法包含在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 中！当我们对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 进行预测并使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 的哈希值进行扩展后，我们就不能再接触 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 了，因为这会产生新的哈希值，并自动使预测失效。&lt;/p&gt;
+
+&lt;p&gt;该 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dracut&lt;/code&gt; 模块将在任何加密设备的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-cryptsetup&lt;/code&gt; 生成器启动之前执行，并在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ESP&lt;/code&gt; 分区中搜索包含当前启动的所有有效预测的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tpm2-pcr-signature.json&lt;/code&gt; 文件。一旦该文件就位，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-crypsetup&lt;/code&gt; 就能断言当前状态下的设备就是预期的设备，启动过程就能继续直至结束。&lt;/p&gt;
+
+&lt;h3 id=&quot;未来&quot;&gt;未来&lt;/h3&gt;
+
+&lt;p&gt;如上，它提供了一个更简单的架构，并将一些组件放置在正确的位置。这将对下一阶段的工作大有帮助，因为我们还想在与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 有关的分布式系统中做一些其他事情。&lt;/p&gt;
+
+&lt;p&gt;一种非常清晰的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;disk-encryption-tool&lt;/code&gt; 工具在基于镜像的安装之外的使用有限。该代码的一部分应该位于 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YaST&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Agama&lt;/code&gt; 中。安装程序已经在创建 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 设备，因此以适合我们的方式扩展它应该很“容易”。&lt;/p&gt;
+
+&lt;p&gt;理想情况下，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jeos-firstboot&lt;/code&gt; 模块也应安装在安装程序中，但不知何故，它们在这里也有意义。无论如何，这两个模块的功能不应分开，而应合并。&lt;/p&gt;
+
+&lt;p&gt;加密工具从一开始就在做正确的事情：主密钥和所有用户密钥都是在安装时生成的，但一个可能的改进是稍后使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 工具生成恢复密钥。这只是一个小细节，但将系统密钥与用户密钥分开可以简化架构。&lt;/p&gt;
+
+&lt;p&gt;另一个需要改进的方面是，用户可能希望同时使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥。例如，默认情况下使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt;，如果阶段发生变化，导致预测失败（或检测到安全漏洞），用户可以将解锁委托给 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FIDO2&lt;/code&gt; 密钥，而不是使用密码。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 脚本包含了许多 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 中也应具备的功能。与上游合作将使这个工具随着时间的推移而过时，这将是一个更好的消息。&lt;/p&gt;
+
+&lt;p&gt;我们可以帮助 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 进行的另一项改进是改进对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TPM2&lt;/code&gt; 拒绝解封 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LUKS2&lt;/code&gt; 密钥原因的诊断。目前，我们只有一条普通的失败消息，却没有报告是哪个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 内部的哪个测量组件报告了与预测值不同的哈希值。这将大大有助于了解出错的原因。是否更改了引导加载器？还是固件出了问题？&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcr-oracle&lt;/code&gt; 是预测下一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值的非常好的工具。它很容易扩展，以解析日志中与整个测量启动过程相关的新事件，包括内核、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 12 上的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 扩展，或生成 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 所需的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON&lt;/code&gt; 文档。新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 255（撰写本文时已发布一周）包含一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-pcrlock&lt;/code&gt; 的类似工具，它可以帮助我们提供所需的改进诊断。对该工具的预测评估也将很快完成。&lt;/p&gt;
+
+&lt;p&gt;目前，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLS&lt;/code&gt; 中的 Type#1 和 Type#2 条目并非同构。在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UKI&lt;/code&gt; 格式的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EFI&lt;/code&gt; 文件中，有些部分在文本表示中并不存在。也许我们将来会决定使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UKI&lt;/code&gt;，也许不会。因此，一个很好的改进就是帮助实现这种统一，，这将提供一种标准方法来分割 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON&lt;/code&gt; 文件并将预测与每个引导加载程序条目相关联。&lt;/p&gt;
+
+&lt;p&gt;目前，生成和注册一个新密钥或选择一组不同的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 都需要人工操作。我们可以扩展现有工具，以帮助完成这些过程，或者提供更好的文档。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE&lt;/code&gt; 的新方法并不是要将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 排除在外。它提供了一个使用不同引导加载器的机会，这些引导加载器都遵循 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BLS&lt;/code&gt;。验证经过适当修补的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GRUB2&lt;/code&gt; 是否可以处理所有这些问题的工作仍然有待完成。&lt;/p&gt;
+
+&lt;p&gt;此外，另一个需要验证和改进的问题是安装多个加密磁盘。原则上，设计和代码都支持这种情况（即使每个卷的 PCR 寄存器不同）。&lt;/p&gt;
+
+&lt;p&gt;最后，我们应该重新考虑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UKI&lt;/code&gt; 是否对 openSUSE 有意义。如果我们朝这个方向发展，用于签署策略的私钥将保存在 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;OBS&lt;/a&gt; 中，这些策略也将在构建服务中生成，并使用一组不同的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PCR&lt;/code&gt; 值。&lt;/p&gt;
+
+&lt;p&gt;无论如何，我们还有大量工作要做。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/20/systemd-fde/&quot;&gt;Systemd-boot and Full Disk Encryption in Tumbleweed and MicroOS&lt;/a&gt;，作者：Alberto Planas&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/08/weekly-update.html</guid>
       <title>LLVM、Sudo 和 GCC 在 Tumbleweed 中更新</title>
       <pubDate>Fri, 08 Dec 2023 23:30:00 +0000</pubDate>
@@ -340,37 +522,6 @@ openSUSE 社区将于世界协调时 2023 年 12 月 19 日中午开始庆祝成
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/16/gear-framworks-kernel-up-in-tw/&quot;&gt;Gear, Frameworks, Kernel updates in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/10/ama-session.html</guid>
-      <title>社区通过 AMA 会议探索工程学的奥秘</title>
-      <pubDate>Fri, 10 Nov 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/10/ama-session.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目的 Jitsi 实例将在下周的“有问必答（Ask Me Anything，AMA）”会议上提供有关质量工程团队如何工作的独特而有洞察力的信息，开源社区下周将大饱眼福。 AMA 将于 11 月 16 日 19:00 UTC 在 meet.opensuse.org/meeting 在线举行。 Santiago Zarate 是 SUSE 质量工程核心团队的产品负责人，他将主持在黑客周期间组织的会议。 AMA 会议旨在让大家近距离了解 SUSE 研发部门的开发人员是如何工作的。其主要目的是促进全球服务和基础设施与工程之间的合作与理解，这将有助于揭开错综复杂的开发工作流程，并为质量工程实践提供一些启示。 本次会议的目的很明确：为观众提供一个了解 SUSE 工程内部运作的窗口，让大家有机会提出问题并深入了解幕后流程。 我们鼓励与会者事先在 https://etherpad.opensuse.org/p/ama 上提交他们的问题，以确保在 AMA 现场活动期间进行活跃和引人入胜的讨论。 虽然 AMA 为开源与会者提供了一个了解 SUSE 工程的有限窗口，但它也是一个宝贵的平台，可以增进大家对组织流程的集体了解。 AMA 会议不仅是一个提问的机会，也是一个促进合作、消除隔阂、深入了解推动工程工作的复杂流程的机会。千万不要错过这个与志同道合的软件工程师交流的难得机会。 请在 11 月 16 日 19:00 UTC 的日历上做好标记，并加入 meet.opensuse.org/meeting...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://meet.opensuse.org/&quot;&gt;openSUSE 项目的 Jitsi 实例&lt;/a&gt;将在下周的“有问必答（Ask Me Anything，AMA）”会议上提供有关质量工程团队如何工作的独特而有洞察力的信息，开源社区下周将大饱眼福。&lt;/p&gt;
-
-&lt;p&gt;AMA 将于 11 月 16 日 19:00 UTC 在 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 在线举行。&lt;/p&gt;
-
-&lt;p&gt;Santiago Zarate 是 SUSE 质量工程核心团队的产品负责人，他将主持在&lt;a href=&quot;https://hackweek.opensuse.org/23/projects/run-ama-outside-of-suse-engineering&quot;&gt;黑客周&lt;/a&gt;期间组织的会议。&lt;/p&gt;
-
-&lt;p&gt;AMA 会议旨在让大家近距离了解 SUSE 研发部门的开发人员是如何工作的。其主要目的是促进全球服务和基础设施与工程之间的合作与理解，这将有助于揭开错综复杂的开发工作流程，并为质量工程实践提供一些启示。&lt;/p&gt;
-
-&lt;p&gt;本次会议的目的很明确：为观众提供一个了解 SUSE 工程内部运作的窗口，让大家有机会提出问题并深入了解幕后流程。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励与会者事先在 &lt;a href=&quot;https://etherpad.opensuse.org/p/ama&quot;&gt;https://etherpad.opensuse.org/p/ama&lt;/a&gt; 上提交他们的问题，以确保在 AMA 现场活动期间进行活跃和引人入胜的讨论。&lt;/p&gt;
-
-&lt;p&gt;虽然 AMA 为开源与会者提供了一个了解 SUSE 工程的有限窗口，但它也是一个宝贵的平台，可以增进大家对组织流程的集体了解。&lt;/p&gt;
-
-&lt;p&gt;AMA 会议不仅是一个提问的机会，也是一个促进合作、消除隔阂、深入了解推动工程工作的复杂流程的机会。千万不要错过这个与志同道合的软件工程师交流的难得机会。&lt;/p&gt;
-
-&lt;p&gt;请在 11 月 16 日 19:00 UTC 的日历上做好标记，并加入 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 上的对话。社区每周例会定于 AMA 结束后 20:00 UTC 举行，但社区会议时间可用于延长 AMA。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/09/community-to-explore-engineering-ama/&quot;&gt;Community to Explore Engineering Depths with AMA Session&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 

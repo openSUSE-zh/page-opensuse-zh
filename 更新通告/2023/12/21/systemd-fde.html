@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密 openSUSE 和 MicroOS 现在提供一个使用 systemd-boot 作为引导加载程序，并基于 systemd 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、TPM2（系统中已存在的加密设备），如果系统健康状况良...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密">
+  <meta property="og:description"
+    content="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密 openSUSE 和 MicroOS 现在提供一个使用 systemd-boot 作为引导加载程序，并基于 systemd 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、TPM2（系统中已存在的加密设备），如果系统健康状况良...">
+  <meta property=" og:url" content="/_posts/2023-12-22-systemd-fde.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Poplar at twilight">
+  <meta property="og:article:published_time" content="2023-12-21T19:40:00+00:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密">
+  
+  <meta name="twitter:description"
+    content="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密 openSUSE 和 MicroOS 现在提供一个使用 systemd-boot 作为引导加载程序，并基于 systemd 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、TPM2（系统中已存在的加密设备），如果系统健康状况良...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html">
+  
+  <meta name="twitter:image" content="/assets/posts/misc/systemd-logo.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023">
+			2023
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/12">
+			
+			十二月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2023/12/21">
+			21
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密</h1>
+		<p class="text-center text-muted">
+			2023-12-21
+			|
+			Poplar at twilight
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/misc/systemd-logo.png"
+			alt="Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<h2 id="tumbleweed-和-microos-的-systemd-boot-与全盘加密">Tumbleweed 和 MicroOS 的 Systemd-boot 与全盘加密</h2>
+
+<p><a href="https://get.opensuse.org/tumbleweed/">openSUSE</a> 和 <a href="https://get.opensuse.org/microos/">MicroOS</a> 现在提供一个使用 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 作为引导加载程序，并基于 <a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 进行全盘加密的镜像。加密设备的解锁可以通过传统密码、<code class="language-plaintext highlighter-rouge">TPM2</code>（系统中已存在的加密设备），如果系统健康状况良好，将附加该设备，或 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥（验证令牌的所有权）来完成。。</p>
+
+<p>要解释的东西很多，但基本上这些变化都是为了让发行版变得更安全。一方面是使发行版的设计更加简单，另一方面是顺应当前的安全趋势，其他发行版也在向这一趋势看齐。</p>
+
+<p>那么，让我们从头开始……</p>
+
+<h3 id="systemd-boot">systemd-boot</h3>
+
+<p>我们都知道并喜欢 <code class="language-plaintext highlighter-rouge">GRUB2</code>。它是一个很好的引导加载器。同时，它也是一个丰富而庞杂，开发进展缓慢的程序，</p>
+
+<p>openSUSE 为 <a href="https://www.gnu.org/software/grub/grub-download.html">GRUB2</a> 引导加载器打了 200 多个补丁。其中一些补丁已经存在了 5 年、6 年，甚至……10 年。这既表明了维护者的才华，也表明了上游贡献过程有多慢的问题。</p>
+
+<p>GRUB2 支持所有相关系统，包括大型机、<a href="https://www.arm.com/">arm</a> 和 <a href="https://en.wikipedia.org/wiki/PowerPC">powerpc</a> 等；支持多种类型的文件系统，包括 <a href="https://btrfs.wiki.kernel.org/">btrfs</a> 和 <a href="https://en.wikipedia.org/wiki/NTFS">NTFS</a> 等。它包含一个完整的网络协议栈、一个 USB 协议栈、一个可用以编写脚本的终端……从某种意义上说，它本身几乎就是一个微型操作系统。</p>
+
+<p>但随着 <a href="https://en.wikipedia.org/wiki/UEFI">UEFI</a> 于 18 年前发布，使得 <code class="language-plaintext highlighter-rouge">GRUB2</code> 提供的几乎所有功能都变得多余。系统固件已经将这些功能中的大部分作为服务提供，操作系统、引导加载器或任何其他用户提供的应用程序都可以使用这些服务。当然，<code class="language-plaintext highlighter-rouge">GRUB2</code> 也支持 <code class="language-plaintext highlighter-rouge">UEFI</code>。</p>
+
+<p>很快，<a href="https://www.kernel.org/">Linux 内核</a>就可以通过附加到内核代码的 stub 来编译为 <code class="language-plaintext highlighter-rouge">EFI</code> 二进制文件。这意味着内核本身可以直接由固件启动，使得引导加载器在大多数情况下变得可有可无。</p>
+
+<p>随着时间的推移，出现了新的、更直接的 <code class="language-plaintext highlighter-rouge">UEFI</code> 引导加载器，如 <a href="https://cgit.freedesktop.org/gummiboot/">gummiboot</a>。后来，这些代码被集成到 <code class="language-plaintext highlighter-rouge">systemd</code> 中，并更名为 <code class="language-plaintext highlighter-rouge">systemd-boot</code>。</p>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-boot</code> 代码非常简单，比 GRUB2 简单许多。它基本上是一个非常小的 <code class="language-plaintext highlighter-rouge">EFI</code> 二进制文件，提供一个包含不同引导加载器条目（<a href="https://uapi-group.org/specifications/specs/boot_loader_specification/">Boot Loader Specification</a> 或简称 <code class="language-plaintext highlighter-rouge">BLS</code> 中描述的文本文件）的菜单，并调用 <code class="language-plaintext highlighter-rouge">UEFI LoadImage</code> 函数将执行委托给所选的内核。</p>
+
+<p>该引导加载器还可以使用新的<a href="https://uapi-group.org/specifications/specs/unified_kernel_image/">统一内核映像</a>（UKI）；<code class="language-plaintext highlighter-rouge">UKI</code> 是将内核、命令行和 <code class="language-plaintext highlighter-rouge">initrd</code> 整合在一起的文件。这些 <code class="language-plaintext highlighter-rouge">UKI</code> 对于基于映像的发行版来说非常方便，openSUSE 也计划支持它们。</p>
+
+<p>提供 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 作为 <code class="language-plaintext highlighter-rouge">GRUB2</code> 的替代方案是 openSUSE 一直想做的事。2023 年 8 月，<a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4FNZ7HEPH6KQQ2JVFNPN7PXWHZZRU5H5/">Factory 邮件列表</a>上发布了关于 Tumbleweed 支持 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 的公告。</p>
+
+<p>公告引用了一个 <a href="https://en.opensuse.org/Systemd-boot">wiki 条目</a>，解释了如何手动将使用 <code class="language-plaintext highlighter-rouge">GRUB2</code> 的安装迁移到 <code class="language-plaintext highlighter-rouge">systemd-boot</code>。公告发布后不久，<a href="https://github.com/yast/yast-bootloader">yast-bootloader</a> 就<a href="https://github.com/yast/yast-bootloader/pull/686">获得了</a>对新安装方案的支持。</p>
+
+<p>支持另一个引导加载程序是有代价的。如上所述，代码库更小，错误更少，更容易推理。但对 <code class="language-plaintext highlighter-rouge">UEFI</code> 的依赖减少了支持的架构数量（目前支持 <code class="language-plaintext highlighter-rouge">x86-64</code> 和 <code class="language-plaintext highlighter-rouge">aarch64</code>）。通过为 <code class="language-plaintext highlighter-rouge">GRUB2</code> 提供另一个补丁来支持 <code class="language-plaintext highlighter-rouge">BLS</code> 条目，可以大大缓解这个问题，这样引导加载器背后的发行版架构就可以独立于引导加载器本身。好消息是该补丁已经存在，并且有可能添加到软件包中。</p>
+
+<p>另一个问题是 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 不支持 <code class="language-plaintext highlighter-rouge">btrfs</code>。作为 <code class="language-plaintext highlighter-rouge">EFI</code> 二进制文件，它只能从 <a href="https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32">FAT32</a> 文件系统读取文件。将<a href="https://www.kernel.org/">内核</a>和 <code class="language-plaintext highlighter-rouge">initrd</code> 移入 <a href="https://en.wikipedia.org/wiki/EFI_system_partition">EFI 系统分区</a> (<code class="language-plaintext highlighter-rouge">ESP</code>) 可以解决这一限制。</p>
+
+<p>最后，还要考虑在 Tumbleweed 中支持快照，在 MicroOS 中支持 <a href="https://microos.opensuse.org/blog/2018-04-20-transactionalupdates2/">transaction</a>。用户应能从引导加载器中选择从哪个快照启动，就像使用 <code class="language-plaintext highlighter-rouge">GRUB2</code> 时一样。这两个概念都是通过 <code class="language-plaintext highlighter-rouge">btrfs</code> 子卷实现的，而且只有内核、命令行、<code class="language-plaintext highlighter-rouge">initrd</code> 组合的子集对每个子卷有效。</p>
+
+<p>例如，假设我们的系统中有两个快照，每个快照都代表一个安装了两个内核的系统。所有快照中的这两个内核可能都不相同。也许其中一次升级用更新的版本替换了一个内核。我们需要一些工具来完成关联正确组合所需的簿记工作，以便成功启动到这些快照中的任何一个，并在这些限制下创建启动项。</p>
+
+<p>这个工具就是 <a href="https://github.com/openSUSE/sdbootutil">sdbootutil</a>。每次 <a href="https://zh.opensuse.org/openSUSE:Snapper_Tutorial">snapper</a> 创建或销毁快照时（例如，系统更新时），它都会调用这个工具，分析快照的内容，确保 <code class="language-plaintext highlighter-rouge">ESP</code> 中安装了相应的内核，存在该内核的有效 <code class="language-plaintext highlighter-rouge">initrd</code>（如果没有，则调用 <a href="https://linux.die.net/man/8/mkinitrd">mkinitrd</a> 创建），并创建一个启动项，通过命令行连接内核、<code class="language-plaintext highlighter-rouge">initrd</code> 和快照。它还会处理其他细节，如检查分区的可用空间。</p>
+
+<p>通常情况下，它的处理过程是透明的，但请记住，我们可以使用以下方式强制进入干净状态：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sdbootutil add-all-kernels
+sdbootutil remove-all-kernels
+</code></pre></div></div>
+
+<p>以防万一，你知道……</p>
+
+<h3 id="全盘加密">全盘加密</h3>
+
+<p>我们要宣布的另一个方面是基于 <code class="language-plaintext highlighter-rouge">systemd</code> 的<a href="https://en.wikipedia.org/wiki/Full_disk_encryption">全盘加密</a>（<code class="language-plaintext highlighter-rouge">FDE</code>）支持。</p>
+
+<p><code class="language-plaintext highlighter-rouge">FDE</code> 并不是新生事物。<code class="language-plaintext highlighter-rouge">GRUB2</code> 很久以前就可以使用 <code class="language-plaintext highlighter-rouge">cryptomount</code> 命令解锁 <a href="https://en.wikipedia.org/wiki/Linux_Unified_Key_Setup">LUKS</a> 卷。传统上，这会向用户请求两次密码：一次是在启动加载程序解锁时，另一次是在 <code class="language-plaintext highlighter-rouge">initrd</code> 解锁时。有一些方法可以避免第二次请求，比如将密码注入 <code class="language-plaintext highlighter-rouge">initrd</code>，或者，如果使用 openSUSE 软件包，它会将密码透明地注入 <code class="language-plaintext highlighter-rouge">initrd</code>。</p>
+
+<p>最近，<code class="language-plaintext highlighter-rouge">GRUB2</code> 获得了两个新功能：部分支持 <code class="language-plaintext highlighter-rouge">LUKS2</code> 加密设备（使用 <a href="https://en.wikipedia.org/wiki/PBKDF2">PBKDF2</a> 作为密钥派生函数，而不是更安全且推荐的 <a href="https://en.wikipedia.org/wiki/Argon2">Argon2id</a>）以及可以在 <code class="language-plaintext highlighter-rouge">TPM2</code> 等设备中存储机密的密钥保护机制。</p>
+
+<h3 id="tpm2">TPM2</h3>
+
+<p>要详细解释 <a href="https://en.wikipedia.org/wiki/TPM2">TPM2</a> 的工作原理是另一篇文章的主题，但现在我们可以把它看作是一个加密设备，只有在满足与系统状态相关的特定条件时，才能用来解锁秘密。如果系统处于健康状态，<code class="language-plaintext highlighter-rouge">TPM2</code> 就会解锁秘密。</p>
+
+<p>该术语是一个技术术语，与断言（assert）系统处于<strong>已知</strong>的良好状态有关。换句话说，我们确信固件没有被篡改，引导加载程序是我们安装的并且没有被替换，内核正是来自发行版的内核，内核命令行是我们所期望的，并且我们使用的 <code class="language-plaintext highlighter-rouge">initrd</code> 不包含任何我们无法控制的额外二进制文件。</p>
+
+<p>TPM2 内部有一些寄存器，称为<a href="https://learn.microsoft.com/en-us/windows/security/hardware-security/tpm/switch-pcr-banks-on-tpm-2-0-devices">平台配置寄存器</a>（<code class="language-plaintext highlighter-rouge">PCR</code>）。在 <code class="language-plaintext highlighter-rouge">TPM2</code> 规范中，共有 24 个这样的寄存器，其中每一个的大小足以存储 <a href="https://en.wikipedia.org/wiki/SHA-1">SHA1</a> 或 <a href="https://en.wikipedia.org/wiki/SHA-2">SHA256</a> 等哈希函数的值。这些寄存器由库分隔：每个支持的散列函数有一个库，但现在说得太详细了。</p>
+
+<p>这些寄存器比较特殊。我们可以重置它们，通常是将其值设置为 0。我们可以读取其值，也可以“扩展”它们。写入操作的设计方式是，我们不能在寄存器中设置任何随机值，除非是相关哈希函数将当前 <code class="language-plaintext highlighter-rouge">PCR</code> 值和用户提供的新值连接起来的结果。</p>
+
+<p>只有使用完全相同的数值序列扩展该寄存器，才能产生当前的 <code class="language-plaintext highlighter-rouge">PCR</code> 值。如果我们改变其中一个值的哪怕一个比特，那么同样的 <code class="language-plaintext highlighter-rouge">PCR</code> 将产生完全不同的最终结果。</p>
+
+<p>这一功能用于“<a href="https://en.opensuse.org/Portal:MicroOS/RemoteAttestation#Measured_boot">测量启动</a>”过程，即在执行启动链的每个阶段之前对其进行测量。这意味着，在固件的初始阶段运行之前，内存中有一个进程会计算代码的哈希值，并使用该值扩展其中一个 <code class="language-plaintext highlighter-rouge">PCR</code>。这一过程一直重复到启动序列的最末端：内核和 <code class="language-plaintext highlighter-rouge">initrd</code>。</p>
+
+<p>当测量引导到位后，前 10 个 <code class="language-plaintext highlighter-rouge">PCR</code> 的最终值将包含只有在机器使用已知版本的固件、引导加载器和内核以及相关数据（如证书、配置文件或内核参数）时才能预测的值。如果其中一个元素发生变化（例如，使用了不同的安全启动证书），就会产生与我们预期不同的 <code class="language-plaintext highlighter-rouge">PCR</code> 值。</p>
+
+<p><code class="language-plaintext highlighter-rouge">TPM2</code> 芯片是非常有趣的设备，其功能远远超出了测量启动的范围。如果你想了解更多，我推荐你参考 <a href="https://developers.tpm.dev/">TPM.dev</a> 或 <a href="https://trustedcomputinggroup.org/resource/a-practical-guide-to-tpm-2-0/">A Practical Guide to TPM 2.0</a> 等资源。</p>
+
+<h3 id="fde-的-tpm2">FDE 的 TPM2</h3>
+
+<p>总之，这里的要点是，我们可以创建一个 “策略”，指示 <code class="language-plaintext highlighter-rouge">TPM2</code> 只有在某些 <code class="language-plaintext highlighter-rouge">PCR</code> 包含预期值的情况下才对秘密进行解密。具体细节略有不同，但现在让我们把这个模型作为一个很好的第一近似值。</p>
+
+<p>我们的想法是，我们可以使用某些 <code class="language-plaintext highlighter-rouge">PCR</code> 寄存器的值来加密密码，这样，如果 <code class="language-plaintext highlighter-rouge">TPM2</code> 可以恢复密码，<code class="language-plaintext highlighter-rouge">GRUB2</code> 就可以在稍后附加 <code class="language-plaintext highlighter-rouge">LUKS2</code> 设备，从而在此之前验证系统的健康状况。如果 <code class="language-plaintext highlighter-rouge">TPM2</code> 无法解密，则意味着某些 <code class="language-plaintext highlighter-rouge">PCR</code> 的值与预期不符，启动过程中的某个阶段发生了变化。在这种情况下，<code class="language-plaintext highlighter-rouge">GRUB2</code> 会要求用户输入密码，以继续加载内核和系统的其他部分。它将新状态的信任委托给用户。</p>
+
+<p><code class="language-plaintext highlighter-rouge">GRUB2</code> 还提供了一个工具，用于根据 <code class="language-plaintext highlighter-rouge">PCR</code> 子集的当前值封存秘密。这很好，但也带来了几个问题。一个问题是，也许我们在设置系统时知道 <code class="language-plaintext highlighter-rouge">PCR</code> 的值会在下一次启动时发生变化（例如，在第一次安装、升级引导加载器或更新固件时）。在这种情况下，使用当前寄存器值密封密码是没有用的：我们需要能够预测新的寄存器值，并使用这些假设值进行密封。</p>
+
+<p>另一个问题更为隐蔽，稍后会变得至关重要。预期值可能会经常变化，而且不可能是唯一的。也许有一组有效值。我们可以选择从不同的内核或快照启动。<code class="language-plaintext highlighter-rouge">TPM2</code> 提供了一种使用授权策略（authorized policies）的解决方案。授权策略是一种创建策略的方法，策略可以更改，但通过签名进行验证。从本质上讲，我们创建了一个公钥和一个私钥，并创建了多个使用私钥签名的 <code class="language-plaintext highlighter-rouge">PCR</code> 策略。现在，<code class="language-plaintext highlighter-rouge">TPM2</code> 可以使用公钥部分验证签名，并使用存储在新策略中的 <code class="language-plaintext highlighter-rouge">PCR</code> 值解密。</p>
+
+<p>自 2023 年初起，openSUSE 提供了 <a href="https://github.com/okirch/pcr-oracle">pcr-oracle</a> 工具，帮助预测 PCR 寄存器，并使用 <code class="language-plaintext highlighter-rouge">PCR</code> 策略或授权策略在这些值下加密密钥。使用该工具，我们现在可以在一组可能发生变化的 <code class="language-plaintext highlighter-rouge">PCR</code> 值下加密密钥！</p>
+
+<p>在 openSUSE wiki 中，你可以找到更多关于这些主题的<a href="https://en.opensuse.org/SDB:Encrypted_root_file_system">文档</a>，包括如何在安装中使用的说明。</p>
+
+<h3 id="使用-systemd-进行磁盘加密">使用 systemd 进行磁盘加密</h3>
+
+<p>使用 <code class="language-plaintext highlighter-rouge">GRUB2</code> 时，<code class="language-plaintext highlighter-rouge">FDE</code> 可以正常工作，为什么还要寻找其他方法呢？其中一个原因非常明显：这种架构只有……嗯……只有在使用我们的 openSUSE <code class="language-plaintext highlighter-rouge">GRUB2</code> 版本时才能工作。它不适用于 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 等其他引导加载器。事实上，它本身也不适用于 <code class="language-plaintext highlighter-rouge">GRUB2</code> 的上游版本。</p>
+
+<p>但还有第二个原因：我们可以说 <code class="language-plaintext highlighter-rouge">GRUB2</code> 没有完全测量引导。如果引导加载器在加载内核<strong>之前</strong>需要解锁设备，那么评估系统健康状况的 <code class="language-plaintext highlighter-rouge">PCR</code> 策略自然就不能对将要使用的内核、命令行或 <code class="language-plaintext highlighter-rouge">initrd</code> 进行断言。这些内容将在 <code class="language-plaintext highlighter-rouge">LUKS2</code> 设备打开后加载。</p>
+
+<p><code class="language-plaintext highlighter-rouge">systemd-boot</code> 的使用为 <code class="language-plaintext highlighter-rouge">FDE</code> 提供了一个替代架构，它可以与任何遵循 <code class="language-plaintext highlighter-rouge">BLS</code> 的引导加载器正常工作（请记住，<code class="language-plaintext highlighter-rouge">GRUB2</code> 有一个支持它的补丁，所以它并没有被排除在外），并提供了在解锁设备前进行完整测量引导验证的机会。</p>
+
+<p>不同之处在于，内核和 <code class="language-plaintext highlighter-rouge">initrd</code> 将被放置在未加密的 <code class="language-plaintext highlighter-rouge">ESP</code> 中，而 <code class="language-plaintext highlighter-rouge">sysroot</code> 的解锁将在 <code class="language-plaintext highlighter-rouge">initrd</code> 中使用 <code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 提供的不同选项完成。目前，它可以使用普通密码、带授权策略的 <code class="language-plaintext highlighter-rouge">TPM2</code>（用户必须输入 PIN）或 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥设备解锁设备。我们需要在 <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 文件中描述<a href="https://www.freedesktop.org/software/systemd/man/latest/crypttab.html">解锁机制</a>。</p>
+
+<p><code class="language-plaintext highlighter-rouge">pcr-oracle</code> 已被扩展用于支持创建 <code class="language-plaintext highlighter-rouge">systemd</code> 可以理解的授权策略。这些策略存储在一个 <code class="language-plaintext highlighter-rouge">JSON</code> 文件中，该文件包含多个预测，每个预测都说明了所涉及的 <code class="language-plaintext highlighter-rouge">PCR</code>、<code class="language-plaintext highlighter-rouge">TPM2</code> 策略哈希值、公钥指纹和策略签名。这些信息与公钥 <code class="language-plaintext highlighter-rouge">PEM</code> 文件一起，构成了 <code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 使用 <code class="language-plaintext highlighter-rouge">TPM2</code> 解封 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥所需的全部数据。</p>
+
+<p>用于签署策略的 <a href="https://en.wikipedia.org/wiki/RSA_numbers">RSA</a> 2048 密钥可以用 <a href="https://www.openssl.org/">openssl</a> 或 <code class="language-plaintext highlighter-rouge">pcr-oracle</code> 创建。需要注意的是：如果私钥泄露，那么 <code class="language-plaintext highlighter-rouge">TPM2</code> 所能提供的预期安全性就完了。幸运的是，这种情况下的解决方案很简单：生成一个新密钥，用 <code class="language-plaintext highlighter-rouge">systemd-cryptenroll</code> 在 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥槽中重新注册密钥，然后使用 <code class="language-plaintext highlighter-rouge">sdbootutil</code> 为每个启动项重新生成预测值。是的……我们将在 “<a href="https://en.opensuse.org/Systemd-fde">systemd-fde</a>“维基页面中记录所有过程，并提供更好的工具，但请相信我，这确实是个低成本的操作。</p>
+
+<p>openSUSE 提供了一个名为 <a href="http://download.opensuse.org/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2">kvm-and-xen-sdboot</a> 的 <a href="https://build.opensuse.org/package/show/devel:microos:images/openSUSE-MicroOS">MicroOS 镜像</a>，展示了所有这些是如何工作的。该镜像包含一些已集成的工具和其他一些新工具：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">systemd-boot</code>： 使用引导加载器代替默认 <code class="language-plaintext highlighter-rouge">GRUB2</code></li>
+  <li><code class="language-plaintext highlighter-rouge">sdbootutil</code>： 同步系统引导项的辅助脚本</li>
+  <li><code class="language-plaintext highlighter-rouge">pcr-oracle</code>： 预测下一次启动的 <code class="language-plaintext highlighter-rouge">PCR</code> 值，并为 <code class="language-plaintext highlighter-rouge">systemd</code> 创建授权策略</li>
+  <li><code class="language-plaintext highlighter-rouge">disk-encryption-tool</code>： 在第一次启动时加密 <code class="language-plaintext highlighter-rouge">sysroot</code> 所在的设备</li>
+  <li><code class="language-plaintext highlighter-rouge">dracut-pcr-signature</code>：将预测值从 <code class="language-plaintext highlighter-rouge">ESP</code> 加载到 <code class="language-plaintext highlighter-rouge">initrd</code> 的 <code class="language-plaintext highlighter-rouge">dracut</code> 模块</li>
+</ul>
+
+<p>这些工具旨在为这种新的 <code class="language-plaintext highlighter-rouge">FDE</code> 架构协同工作。以下是所有连接方式的简要描述。</p>
+
+<p>获得新的 MicroOS <code class="language-plaintext highlighter-rouge">qcow2</code> 镜像并设置好虚拟机后，我们就可以开始启动程序了。如果虚拟机有虚拟 <code class="language-plaintext highlighter-rouge">TPM2</code> 设备，它将开始测量执行的代码和数据，并扩展相应的 <code class="language-plaintext highlighter-rouge">PCR</code>。一旦进入 <code class="language-plaintext highlighter-rouge">systemd-boot</code>，它将为该会话找到正确的启动项，并从中读取相应的内核和 <code class="language-plaintext highlighter-rouge">initrd</code>。</p>
+
+<p>此时镜像尚未加密。在第一次启动时使用的 <code class="language-plaintext highlighter-rouge">initrd</code> 中，将调用 <code class="language-plaintext highlighter-rouge">disk-encryption-tool</code> 脚本。通过一些启发式方法，它将找到属于 <code class="language-plaintext highlighter-rouge">sysroot</code>（系统所在位置）的分区，并调整其大小，为 <code class="language-plaintext highlighter-rouge">LUKS2</code> 标头预留 32MB。之后，它将使用 <code class="language-plaintext highlighter-rouge">cryptsetup</code> 提供的所有神奇功能，使用本地生成的密码重新加密设备。截至今天，该密码将与最后提供给用户的恢复密钥相对应，用户应注意并妥善保管。</p>
+
+<p>重新加密后，系统的 <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 将被更新，以告知该设备现已加密，以后应使用不同的工具进行管理。</p>
+
+<p>在 <code class="language-plaintext highlighter-rouge">initrd</code> 结束后，我们切换到新的 <code class="language-plaintext highlighter-rouge">sysroot</code>，现在它终于位于加密设备中了。<code class="language-plaintext highlighter-rouge">disk-encryption-tool</code> 脚本已经完成了它的主要工作，但它还为 <code class="language-plaintext highlighter-rouge">jeos-firstboot</code> 安装了两个模块，这些模块将在系统首次启动时执行！</p>
+
+<p>第一个模块，<code class="language-plaintext highlighter-rouge">enroll</code>，将检测是否插入了 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥和 <code class="language-plaintext highlighter-rouge">TPM2</code>。如果有，它将弹出一个对话框，询问你想用什么来解锁系统。第二个模块会询问用户是否将 <code class="language-plaintext highlighter-rouge">root</code> 密码作为新密钥注册到 <code class="language-plaintext highlighter-rouge">LUKS2</code> 标头中，并显示之前生成的恢复密钥。</p>
+
+<p>从目前来看，两种密钥都注册并不可取。正如我们前面所述，如果我们使用的是笔记本电脑或台式机，并且我们希望通过自己拥有的令牌证明来解锁加密设备，那么 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥将更有意义。这是一个交互过程。而 <code class="language-plaintext highlighter-rouge">TPM2</code> 则更适用于我们不想与系统交互的情况，只有在我们能确定系统健康（启动链中未发生篡改）的情况下，我们才希望自动解锁设备。</p>
+
+<p>如果我们注册了 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥，<code class="language-plaintext highlighter-rouge">systemd-cryptenroll</code> 将被调用，并要求我们按两下按钮，安装过程就结束了。下一次启动时，我们需要出示密钥，如果密钥丢失，则会询问恢复密码。</p>
+
+<p>如果我们注册了 <code class="language-plaintext highlighter-rouge">TPM2</code> 设备，新的 <code class="language-plaintext highlighter-rouge">RSA</code> 2048 密钥就会生成并存储在 <code class="language-plaintext highlighter-rouge">/etc/systemd</code> 中（公钥和私钥部分），<code class="language-plaintext highlighter-rouge">systemd-cryptenroll</code> 将用于注册公钥和注释用于封存 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥的 <code class="language-plaintext highlighter-rouge">PCR</code>。默认情况下，我们将使用 0、2、4、7 和 9。具体含义可参阅<a href="https://uapi-group.org/specifications/specs/linux_tpm_pcr_registry/">此处</a>。<code class="language-plaintext highlighter-rouge">PCR</code> 0 和 2 将测量所有 <code class="language-plaintext highlighter-rouge">UEFI</code> 固件代码。<code class="language-plaintext highlighter-rouge">PCR</code> 4 将测量引导加载器（<code class="language-plaintext highlighter-rouge">systemd-boot</code>）和内核（也是 <code class="language-plaintext highlighter-rouge">UEFI</code> 二进制文件）。<code class="language-plaintext highlighter-rouge">PCR</code> 7 将注册所有安全启动证书，<code class="language-plaintext highlighter-rouge">PCR</code> 9 将被内核用于测量命令行和 <code class="language-plaintext highlighter-rouge">initrd</code>。</p>
+
+<p>这几乎涵盖了所有可能有意义的内容，但用户有权最终决定测量什么。原因是预测是在 <code class="language-plaintext highlighter-rouge">sdbootutil</code> 中完成的，记住，每次系统发生变化（更新、删除软件包、快照管理等）后，<code class="language-plaintext highlighter-rouge">sdbootutil</code> 都会自动执行，而且该工具只针对在 <code class="language-plaintext highlighter-rouge">LUKS2</code> 标头中注册的 <code class="language-plaintext highlighter-rouge">PCR</code> 进行预测。</p>
+
+<p>无论选择哪种解锁机制，<code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 文件都将根据这一选择进行更新，并生成一个新的 <code class="language-plaintext highlighter-rouge">initrd</code> 文件，其中包含下次启动时需要的信息。</p>
+
+<p>最后，最后一个组件 <code class="language-plaintext highlighter-rouge">dracut-pcr-signature</code> 将负责在后续启动过程中，<code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 解锁所需的所有信息都将<strong>即时</strong>出现在 <code class="language-plaintext highlighter-rouge">initrd</code> 中。需要注意的是，<code class="language-plaintext highlighter-rouge">initrd</code> 需要包含策略和密钥的 <code class="language-plaintext highlighter-rouge">JSON</code> 文件，但这些信息无法包含在 <code class="language-plaintext highlighter-rouge">initrd</code> 中！当我们对 <code class="language-plaintext highlighter-rouge">PCR</code> 进行预测并使用 <code class="language-plaintext highlighter-rouge">initrd</code> 的哈希值进行扩展后，我们就不能再接触 <code class="language-plaintext highlighter-rouge">initrd</code> 了，因为这会产生新的哈希值，并自动使预测失效。</p>
+
+<p>该 <code class="language-plaintext highlighter-rouge">dracut</code> 模块将在任何加密设备的 <code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 生成器启动之前执行，并在 <code class="language-plaintext highlighter-rouge">ESP</code> 分区中搜索包含当前启动的所有有效预测的 <code class="language-plaintext highlighter-rouge">tpm2-pcr-signature.json</code> 文件。一旦该文件就位，<code class="language-plaintext highlighter-rouge">systemd-crypsetup</code> 就能断言当前状态下的设备就是预期的设备，启动过程就能继续直至结束。</p>
+
+<h3 id="未来">未来</h3>
+
+<p>如上，它提供了一个更简单的架构，并将一些组件放置在正确的位置。这将对下一阶段的工作大有帮助，因为我们还想在与 <code class="language-plaintext highlighter-rouge">FDE</code> 有关的分布式系统中做一些其他事情。</p>
+
+<p>一种非常清晰的 <code class="language-plaintext highlighter-rouge">disk-encryption-tool</code> 工具在基于镜像的安装之外的使用有限。该代码的一部分应该位于 <code class="language-plaintext highlighter-rouge">YaST</code> 和 <code class="language-plaintext highlighter-rouge">Agama</code> 中。安装程序已经在创建 <code class="language-plaintext highlighter-rouge">LUKS2</code> 设备，因此以适合我们的方式扩展它应该很“容易”。</p>
+
+<p>理想情况下，<code class="language-plaintext highlighter-rouge">jeos-firstboot</code> 模块也应安装在安装程序中，但不知何故，它们在这里也有意义。无论如何，这两个模块的功能不应分开，而应合并。</p>
+
+<p>加密工具从一开始就在做正确的事情：主密钥和所有用户密钥都是在安装时生成的，但一个可能的改进是稍后使用 <code class="language-plaintext highlighter-rouge">systemd</code> 工具生成恢复密钥。这只是一个小细节，但将系统密钥与用户密钥分开可以简化架构。</p>
+
+<p>另一个需要改进的方面是，用户可能希望同时使用 <code class="language-plaintext highlighter-rouge">TPM2</code> 和 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥。例如，默认情况下使用 <code class="language-plaintext highlighter-rouge">TPM2</code>，如果阶段发生变化，导致预测失败（或检测到安全漏洞），用户可以将解锁委托给 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥，而不是使用密码。</p>
+
+<p><code class="language-plaintext highlighter-rouge">sdbootutil</code> 脚本包含了许多 <code class="language-plaintext highlighter-rouge">systemd</code> 中也应具备的功能。与上游合作将使这个工具随着时间的推移而过时，这将是一个更好的消息。</p>
+
+<p>我们可以帮助 <code class="language-plaintext highlighter-rouge">systemd</code> 进行的另一项改进是改进对 <code class="language-plaintext highlighter-rouge">TPM2</code> 拒绝解封 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥原因的诊断。目前，我们只有一条普通的失败消息，却没有报告是哪个 <code class="language-plaintext highlighter-rouge">PCR</code> 或 <code class="language-plaintext highlighter-rouge">PCR</code> 内部的哪个测量组件报告了与预测值不同的哈希值。这将大大有助于了解出错的原因。是否更改了引导加载器？还是固件出了问题？</p>
+
+<p><code class="language-plaintext highlighter-rouge">pcr-oracle</code> 是预测下一个 <code class="language-plaintext highlighter-rouge">PCR</code> 值的非常好的工具。它很容易扩展，以解析日志中与整个测量启动过程相关的新事件，包括内核、<code class="language-plaintext highlighter-rouge">PCR</code> 12 上的 <code class="language-plaintext highlighter-rouge">systemd-boot</code> 扩展，或生成 <code class="language-plaintext highlighter-rouge">systemd</code> 所需的 <code class="language-plaintext highlighter-rouge">JSON</code> 文档。新的 <code class="language-plaintext highlighter-rouge">systemd</code> 255（撰写本文时已发布一周）包含一个名为 <code class="language-plaintext highlighter-rouge">systemd-pcrlock</code> 的类似工具，它可以帮助我们提供所需的改进诊断。对该工具的预测评估也将很快完成。</p>
+
+<p>目前，<code class="language-plaintext highlighter-rouge">BLS</code> 中的 Type#1 和 Type#2 条目并非同构。在 <code class="language-plaintext highlighter-rouge">UKI</code> 格式的 <code class="language-plaintext highlighter-rouge">EFI</code> 文件中，有些部分在文本表示中并不存在。也许我们将来会决定使用 <code class="language-plaintext highlighter-rouge">UKI</code>，也许不会。因此，一个很好的改进就是帮助实现这种统一，，这将提供一种标准方法来分割 <code class="language-plaintext highlighter-rouge">JSON</code> 文件并将预测与每个引导加载程序条目相关联。</p>
+
+<p>目前，生成和注册一个新密钥或选择一组不同的 <code class="language-plaintext highlighter-rouge">PCR</code> 都需要人工操作。我们可以扩展现有工具，以帮助完成这些过程，或者提供更好的文档。</p>
+
+<p><code class="language-plaintext highlighter-rouge">FDE</code> 的新方法并不是要将 <code class="language-plaintext highlighter-rouge">GRUB2</code> 排除在外。它提供了一个使用不同引导加载器的机会，这些引导加载器都遵循 <code class="language-plaintext highlighter-rouge">BLS</code>。验证经过适当修补的 <code class="language-plaintext highlighter-rouge">GRUB2</code> 是否可以处理所有这些问题的工作仍然有待完成。</p>
+
+<p>此外，另一个需要验证和改进的问题是安装多个加密磁盘。原则上，设计和代码都支持这种情况（即使每个卷的 PCR 寄存器不同）。</p>
+
+<p>最后，我们应该重新考虑 <code class="language-plaintext highlighter-rouge">UKI</code> 是否对 openSUSE 有意义。如果我们朝这个方向发展，用于签署策略的私钥将保存在 <a href="https://build.opensuse.org/">OBS</a> 中，这些策略也将在构建服务中生成，并使用一组不同的 <code class="language-plaintext highlighter-rouge">PCR</code> 值。</p>
+
+<p>无论如何，我们还有大量工作要做。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2023/12/20/systemd-fde/">Systemd-boot and Full Disk Encryption in Tumbleweed and MicroOS</a>，作者：Alberto Planas</p>
+
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html&amp;title=Tumbleweed%20%E5%92%8C%20MicroOS%20%E7%9A%84%20Systemd-boot%20%E4%B8%8E%E5%85%A8%E7%9B%98%E5%8A%A0%E5%AF%86"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=Tumbleweed%20%E5%92%8C%20MicroOS%20%E7%9A%84%20Systemd-boot%20%E4%B8%8E%E5%85%A8%E7%9B%98%E5%8A%A0%E5%AF%86&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/21/systemd-fde.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
