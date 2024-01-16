@@ -7,6 +7,41 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/14/leap16.html</guid>
+      <title>为 openSUSE Leap 设定清晰的路线</title>
+      <pubDate>Sun, 14 Jan 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/14/leap16.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 发布团队确认 Leap 15 将有后续版本，而且是一次数字上的飞跃。 正如许多人热切期待今年 Leap 15.6 的到来一样，人们也在等待作为继任者的 Leap 16。openSUSE Leap 16 基于 SUSE 新的自适应 Linux 平台 (ALP) 代码库，将兼具先进的企业服务器发行版的优势和 Leap 系列的用户友好的维护和安全性。 Leap 16 的目标是在 SUSE 开发 ALP 和有效整合社区软件包的过程中，在前沿和传统 Linux 操作系统之间取得平衡。 向 Leap 16 的过渡不仅仅是数字上的提升，而是象征着技术和用户体验的重大进步。openSUSE Leap 的未来基于 SUSE ALP 的创新理念。 ALP 将为下一代 openSUSE Leap、Leap Micro 和 SUSE 解决方案提供支持。它使发行版更具适应性，更适合云原生工作负载，同时也能够处理快速的创新。 我们鼓励每个人通过提供反馈、包装、测试、记录和其他任何方式参与这些新平台的开发。 Leap...</description>
+      <content:encoded>&lt;p&gt;openSUSE 发布团队确认 Leap 15 将有后续版本，而且是一次数字上的飞跃。&lt;/p&gt;
+
+&lt;p&gt;正如许多人热切期待今年 Leap 15.6 的到来一样，人们也在等待作为继任者的  Leap 16。openSUSE Leap 16 基于 SUSE 新的&lt;a href=&quot;https://susealp.io/&quot;&gt;自适应 Linux 平台&lt;/a&gt; (ALP) 代码库，将兼具先进的企业服务器发行版的优势和 Leap 系列的用户友好的维护和安全性。&lt;/p&gt;
+
+&lt;p&gt;Leap 16 的目标是在 SUSE 开发 ALP 和有效整合社区软件包的过程中，在前沿和传统 Linux 操作系统之间取得平衡。&lt;/p&gt;
+
+&lt;p&gt;向 Leap 16 的过渡不仅仅是数字上的提升，而是象征着技术和用户体验的重大进步。openSUSE Leap 的未来基于 SUSE ALP 的创新理念。&lt;/p&gt;
+
+&lt;p&gt;ALP 将为下一代 openSUSE Leap、Leap Micro 和 SUSE 解决方案提供支持。它使发行版更具适应性，更适合云原生工作负载，同时也能够处理快速的创新。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励每个人通过提供反馈、包装、测试、记录和其他任何方式参与这些新平台的开发。&lt;/p&gt;
+
+&lt;p&gt;Leap 将继续遵循 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Factory_development_model&quot;&gt;openSUSE factory 开发模式&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;开发过程将包括收集需求，包括来自社区研讨会的需求，以确保 Leap 16.0 满足用户不断变化的需求。openSUSE 社区已经在期待 Leap 16 的推出。&lt;/p&gt;
+
+&lt;p&gt;除了 Leap 16，Leap Micro 6.0 也将接替 Leap Micro 5 系列。它基于 SUSE Linux Enterprise Micro 6.0，侧重于容器化和虚拟化工作负载。&lt;/p&gt;
+
+&lt;p&gt;Leap 和 Leap Micro 都将为用户提供清晰的迁移路径和充足的升级时间。如果 Leap 16 出现延迟，发布团队可能会延长 Leap 15.6 的生命周期，或者在万不得已的情况下发布 Leap 15.7，以确保足够的缓冲过渡。我们将确保 Leap 16 的发布与 Leap 15 的生命周期结束之间没有空档期。&lt;/p&gt;
+
+&lt;p&gt;人们可以在 openSUSE 项目的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;路线图&lt;/a&gt;页面上找到有关 Leap 16 的最新信息。发布团队将与大家分享 Leap 16 开发的启动时间以及如何通过 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Communication_channels&quot;&gt;openSUSE 官方渠道&lt;/a&gt;参与其中。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/15/clear-course-is-set-for-os-leap/&quot;&gt;Clear Course is Set for openSUSE Leap&lt;/a&gt;，作者：Lubos Kocman 和 Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/11/new-event.html</guid>
       <title>会议增加了以商业为中心的社交活动</title>
       <pubDate>Thu, 11 Jan 2024 19:40:00 +0000</pubDate>
@@ -476,72 +511,6 @@ openSUSE 社区将于世界协调时 2023 年 12 月 19 日中午开始庆祝成
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/24/flatpak-openvpn-bash-up-in-tw/&quot;&gt;Flatpak, OpenVPN, Bash update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/22/opensuse-conference.html</guid>
-      <title>为 openSUSE 会议提交演讲稿</title>
-      <pubDate>Wed, 22 Nov 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/22/opensuse-conference.html</link>
-      <author>Poplar at twilight</author>
-      <description>是时候为 openSUSE 大会 2024 提交演讲稿了。 今年会议的主题是： 评估未来：我们将何去何从？ 这一主题为探索不断发展的技术和开源创新奠定了基础。我们邀请那些为今年大会提交演讲稿的人深入探讨，就开源开发的未来轨迹、新兴技术、openSUSE 项目等进行发人深省的讨论、分析和预测。 在 2023 年 4 月 15 日之前，人们可以提交演讲或研讨会提案，分享自己的见解和专业知识。 会议定于 2024 年 6 月 27 日至 29 日在德国纽伦堡举行。 你可以提交以下时间长度内的演示文稿： 闪电演讲（10 分钟） 线上闪电演讲（10 分钟） 简短谈话（30 分钟） 线上演讲（30 分钟） 长谈（45 分钟） 研讨会（1小时） 会议列出了以下主题： 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE 我们鼓励演讲者提交符合今年主题的提案。 该主题下的议题可能包括： 未来趋势： 对即将到来的影响开源环境的技术趋势的预测和见解。 伦理技术： 讨论技术进步的伦理影响以及开源社区如何驾驭这些影响。...</description>
-      <content:encoded>&lt;p&gt;是时候为 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会 2024&lt;/a&gt; 提交演讲稿了。&lt;/p&gt;
-
-&lt;p&gt;今年会议的主题是：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;评估未来：我们将何去何从？&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这一主题为探索不断发展的技术和开源创新奠定了基础。我们邀请那些为今年大会提交演讲稿的人深入探讨，就开源开发的未来轨迹、新兴技术、openSUSE 项目等进行发人深省的讨论、分析和预测。&lt;/p&gt;
-
-&lt;p&gt;在 2023 年 4 月 15 日之前，人们可以提交演讲或研讨会提案，分享自己的见解和专业知识。&lt;/p&gt;
-
-&lt;p&gt;会议定于 2024 年 6 月 27 日至 29 日在德国纽伦堡举行。&lt;/p&gt;
-
-&lt;h2 id=&quot;你可以提交以下时间长度内的演示文稿&quot;&gt;你可以提交以下时间长度内的演示文稿：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;闪电演讲（10 分钟）&lt;/li&gt;
-  &lt;li&gt;线上闪电演讲（10 分钟）&lt;/li&gt;
-  &lt;li&gt;简短谈话（30 分钟）&lt;/li&gt;
-  &lt;li&gt;线上演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长谈（45 分钟）&lt;/li&gt;
-  &lt;li&gt;研讨会（1小时）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;会议列出了以下主题&quot;&gt;会议列出了以下主题：&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;云和容器&lt;/li&gt;
-  &lt;li&gt;社区&lt;/li&gt;
-  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
-  &lt;li&gt;新技术&lt;/li&gt;
-  &lt;li&gt;开源&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我们鼓励演讲者提交符合今年主题的提案。&lt;/p&gt;
-
-&lt;p&gt;该主题下的议题可能包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;未来趋势： 对即将到来的影响开源环境的技术趋势的预测和见解。&lt;/li&gt;
-  &lt;li&gt;伦理技术： 讨论技术进步的伦理影响以及开源社区如何驾驭这些影响。&lt;/li&gt;
-  &lt;li&gt;创新与颠覆： 探索创新如何在开源生态系统中推动颠覆和重塑行业。&lt;/li&gt;
-  &lt;li&gt;可持续性和可访问性： 评估开源技术如何为未来的可持续和无障碍解决方案做出贡献。&lt;/li&gt;
-  &lt;li&gt;新出现的挑战： 探讨未来几年可能阻碍开源发展的挑战和障碍。&lt;/li&gt;
-  &lt;li&gt;协作的未来： 评估合作和社区驱动的努力在塑造开源项目未来中的作用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;希望为计划委员会或组织团队提供帮助的志愿者可以发送电子邮件至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 或参加正常安排的&lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;社区会议&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 大会需要赞助商来支持社区驱动的活动，以保持活动的免费性和对新成员的开放性，公司可以在项目的维基页面上找到&lt;a href=&quot;https://en.opensuse.org/images/f/f6/OSC24prospectus.pdf&quot;&gt;赞助信息&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/22/submit-a-presentation-for-osc/&quot;&gt;Submit a Presentation for the openSUSE Conference&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
