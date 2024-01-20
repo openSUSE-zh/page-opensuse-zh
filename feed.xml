@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/19/slowroll.html</guid>
+      <title>澄清对 Slowroll 的误解</title>
+      <pubDate>Fri, 19 Jan 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/19/slowroll.html</link>
+      <author>Poplar at twilight</author>
+      <description>一项用例调查的结果提供了关于人们如何看待 openSUSE Slowroll 的一些有深度的信息。 有些人将其视为 openSUSE Leap 的替代品，但最近关于 Leap 明确发展方向的消息应有助于解释 Slowroll 的不同发展道路。 Slowroll 是于 2023 年推出的一个实验性发行版。在 openSUSE Leap 的未来尚未明朗时，它被设计为 openSUSE Tumbleweed 的变种。 与 Tumbleweed 相比，该发行版的主要特点是滚动发布速度较慢。 一些用户可能会发现 Tumbleweed 的快速更新与 openSUSE Leap 等传统稳定版本之间的平衡很有价值。毕竟，开源软件的目的和原则是促进软件自由，使用户可以出于任何目的自由地研究、修改和分发软件；而 Slowroll 正在做以上所有的事情。 Slowroll 每隔一个月左右就会进行一次大更新，同时还会不断进行错误修复和安全更新。 Slowroll 背后的理念是提供一种发行版，在提高稳定性的同时，又不会失去对内核、桌面环境和打包等基础软件包中新功能的访问。这些较慢的更新周期允许在纳入软件包之前对其进行更广泛的测试和验证。用户可以把 Slowroll 看作是 “跳转” 而不是 “飞跃”。 关于 Slowroll 与 openSUSE Leap 的关系，需要注意的是 Slowroll 并不是...</description>
+      <content:encoded>&lt;p&gt;一项&lt;a href=&quot;https://news.opensuse.org/2023/11/06/results-of-use-case-survey-published/&quot;&gt;用例调查&lt;/a&gt;的结果提供了关于人们如何看待 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;openSUSE Slowroll&lt;/a&gt; 的一些有深度的信息。&lt;/p&gt;
+
+&lt;p&gt;有些人将其视为 openSUSE Leap 的替代品，但最近关于 &lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/14/leap16.html&quot;&gt;Leap 明确发展方向&lt;/a&gt;的消息应有助于解释 Slowroll 的不同发展道路。&lt;/p&gt;
+
+&lt;p&gt;Slowroll 是于 2023 年推出的一个实验性发行版。在 openSUSE Leap 的未来尚未明朗时，它被设计为 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 的变种。&lt;/p&gt;
+
+&lt;p&gt;与 Tumbleweed 相比，该发行版的主要特点是滚动发布速度较慢。&lt;/p&gt;
+
+&lt;p&gt;一些用户可能会发现 Tumbleweed 的快速更新与 openSUSE Leap 等传统稳定版本之间的平衡很有价值。毕竟，开源软件的目的和原则是促进软件自由，使用户可以出于任何目的自由地研究、修改和分发软件；而 Slowroll 正在做以上所有的事情。&lt;/p&gt;
+
+&lt;p&gt;Slowroll 每隔一个月左右就会进行一次大更新，同时还会不断进行错误修复和安全更新。&lt;/p&gt;
+
+&lt;p&gt;Slowroll 背后的理念是提供一种发行版，在提高稳定性的同时，又不会失去对内核、桌面环境和打包等基础软件包中新功能的访问。这些较慢的更新周期允许在纳入软件包之前对其进行更广泛的测试和验证。用户可以把 Slowroll 看作是 “跳转” 而不是 “飞跃”。&lt;/p&gt;
+
+&lt;p&gt;关于 Slowroll 与 openSUSE Leap 的关系，需要注意的是 Slowroll 并不是 Leap 的替代品。相反，它为寻求更多最新软件的用户提供了一个替代选择，其速度比 Tumbleweed 慢，但比 Leap 快得多。在 SUSE Linux Enterprise 发行版的未来分支过渡到 ALP（自适应 Linux 平台）的背景下，这一点尤为重要。Slowroll 的开发源于 openSUSE 开发人员对 openSUSE Leap 发行版未来的讨论，但与 Leap 发行版没有其他关系。&lt;/p&gt;
+
+&lt;p&gt;Slowroll 仍然相当新，并且基于 openSUSE Tumbleweed 软件包。&lt;/p&gt;
+
+&lt;p&gt;虽然 Slowroll 是 openSUSE 系列的重要补充，但它迎合了选择速度稍慢的最新软件系统的用户。选择 Slowroll 这个名称是为了反映其较慢的更新周期，并在社区投票过程后保留下来。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/19/clarifying-misunderstandings-of-slowroll/&quot;&gt;Clarifying Misunderstandings of Slowroll&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/14/leap16.html</guid>
       <title>为 openSUSE Leap 设定清晰的路线</title>
       <pubDate>Sun, 14 Jan 2024 19:40:00 +0000</pubDate>
@@ -486,31 +519,6 @@ openSUSE 社区将于世界协调时 2023 年 12 月 19 日中午开始庆祝成
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/23/selecting-the-new-face-of-os-is-underway/&quot;&gt;Selecting the New Face of openSUSE is Underway&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/24/weekly-update.html</guid>
-      <title>Flatpak、OpenVPN 和 Bash 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 24 Nov 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/24/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 本周发布了多个快照，其中包含中等大小的更新快照。 快照 20231122 是目前最新的快照版本。此快照更新了 DBus 接口的超薄层 fwupd；fwupd 1.9.9 增加了新的，可识别设备电源线状态以增强设备的电源管理功能的通用请求功能。fwupd 增加了对特定硬件的支持，如 Lenovo X1 Yoga Gen 7 530E。git 2.43.0 的更新有许多增强功能，其中包括处理 git format-patch 中的 --rfc 选项的改进，git 增强了维护作业计划，更新了 libsecret 密钥环中身份验证数据的处理，并增加了命令行完成脚本中别名的灵活性。transactional-update 4.5.0 的更新改进了 libtukit 中创建覆盖（overlay）时的权限处理，通过该库引入了对回滚的支持，在 tukitd 中实现了快照删除和回滚方法，并增加了对 tukit 命令（如 close 和 abort）中缺少参数的检查。transactional-update 还进行了一些代码清理。快照中还更新了一些软件包，例如 xen 4.18.0_04 和软件包安装程序 python-pip 23.3.1；pip 解决了与错误处理、元数据规范化和删除版本处理相关的问题。 快照 20231121 更新了 openvpn 2.6.8。openvpn...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周发布了多个快照，其中包含中等大小的更新快照。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3UUZJ2A2HT6TSVKOVWG3PRKSFREXMG2N/&quot;&gt;20231122&lt;/a&gt; 是目前最新的快照版本。此快照更新了 DBus 接口的超薄层 &lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt;；fwupd 1.9.9 增加了新的，可识别设备电源线状态以增强设备的电源管理功能的通用请求功能。fwupd 增加了对特定硬件的支持，如 &lt;a href=&quot;https://www.lenovo.com/de/de/p/laptops/thinkpad/thinkpadx1/thinkpad-x1-yoga-gen-7-(14-inch-intel)/len101t0010?orgRef=https%253A%252F%252Fwww.google.com%252F&quot;&gt;Lenovo X1 Yoga Gen 7 530E&lt;/a&gt;。&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.43.0 的更新有许多增强功能，其中包括处理 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git format-patch&lt;/code&gt; 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--rfc&lt;/code&gt; 选项的改进，git 增强了维护作业计划，更新了 &lt;a href=&quot;https://wiki.gnome.org/Projects/Libsecret&quot;&gt;libsecret&lt;/a&gt; 密钥环中身份验证数据的处理，并增加了命令行完成脚本中别名的灵活性。&lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt; 4.5.0 的更新改进了 libtukit 中创建覆盖（overlay）时的权限处理，通过该库引入了对回滚的支持，在 tukitd 中实现了快照删除和回滚方法，并增加了对 tukit 命令（如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;close&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;abort&lt;/code&gt;）中缺少参数的检查。&lt;a href=&quot;https://github.com/openSUSE/transactional-update&quot;&gt;transactional-update&lt;/a&gt; 还进行了一些代码清理。快照中还更新了一些软件包，例如 &lt;a href=&quot;https://xenproject.org/&quot;&gt;xen&lt;/a&gt; 4.18.0_04 和软件包安装程序 &lt;a href=&quot;https://pypi.org/project/pip/&quot;&gt;python-pip&lt;/a&gt; 23.3.1；pip 解决了与错误处理、元数据规范化和删除版本处理相关的问题。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/BADI4SBI53LRDN7TTGRL7IG266PH4HBK/&quot;&gt;20231121&lt;/a&gt; 更新了 &lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt; 2.6.8。openvpn 修复了一些问题，如 TLS 握手不成功导致 &lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;SIGSEGV&lt;/a&gt; 崩溃，该崩溃存在内存问题，导致将释放的内存发送给对等方（peer）；还修复了客户端和服务器版本之间不兼容的问题。openvpn 删除了某些过时的功能，添加了针对特定配置组合的警告，并对 Windows 平台的构建系统进行了改进。&lt;a href=&quot;https://llvm.org/&quot;&gt;llvm17&lt;/a&gt; 17.0.5 的更新对测试 &lt;a href=&quot;https://clang.llvm.org/extra/index.html&quot;&gt;clang-tools-extra&lt;/a&gt; 和 &lt;a href=&quot;https://lld.llvm.org/&quot;&gt;LLD&lt;/a&gt; 组件进行了调整，同时保持了测试适应性的一致性。此快照还将 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 更新至 6.6.2 版本，提供了针对 Wi-Fi 子系统内的多个问题的补丁，其中包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Read-copy-update&quot;&gt;RCU&lt;/a&gt; 使用警告和整个内核代码库的其他改进。快照中更新了其他几个软件包，包括 &lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt; 7.1.1.21、&lt;a href=&quot;https://software.opensuse.org/package/yast2-trans&quot;&gt;yast2-trans&lt;/a&gt; 等。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NTCT5ENM4H2VVGEX6F5CRJP7HOXLMPVL/&quot;&gt;20231120&lt;/a&gt; 虽然不是本周最大的快照，但由于 &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;libreoffice&lt;/a&gt; 7.6.3.1 的更新，快照 20231120 依然相当大。libreoffice 修复了崩溃、文档布局不对齐、PDF 导出错误以及 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DOCX&lt;/code&gt; 文件中表格和文本框显示不正确等问题。如需更深入的信息，请参阅 LibreOffice &lt;a href=&quot;https://wiki.documentfoundation.org/Releases/7.6.3/RC1&quot;&gt;变更日志&lt;/a&gt;。&lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.8.2 的更新解决了 RSA-PSK 密钥交换中的一个定时侧信道漏洞（&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-5981.html&quot;&gt;CVE-2023-5981&lt;/a&gt;）。gnutls 还引入了支持 &lt;a href=&quot;https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman&quot;&gt;ECDH&lt;/a&gt; 和&lt;a href=&quot;https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange&quot;&gt;迪菲-赫尔曼&lt;/a&gt;密钥协议协议的 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 功能。图像编辑器 &lt;a href=&quot;https://inkscape.org/&quot;&gt;inkscape&lt;/a&gt; 1.3.1 的更新解决了 30 多个崩溃和冻结问题，其中包括特别影响 PDF 导入和实时路径效果的问题。inkscape 引入了两个新功能；第一个是将文本拆分为单个字母的新功能，而另一个新功能允许禁用对齐网格线。现在还可以使用渐变抖动。快照中还更新了六个以上的其他软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/4MCVGPCKY24MXLMIZ7JNMHHVWH233ULM/&quot;&gt;20231119&lt;/a&gt; 同时更新了 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.15.6 和 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 8.3.0。文本整形引擎 harfbuzz 8.3.0 增强了内存屏障，以防止潜在的&lt;a href=&quot;https://en.wikipedia.org/wiki/Segmentation_fault&quot;&gt;段错误&lt;/a&gt;；并修复了与子集和实例相关的各种问题。为了保持工具间的一致性，选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hb-subset&lt;/code&gt; 已更名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--variations&lt;/code&gt;。Flatpak 要求在单独编译 Flatpak 的发行版中使用 &lt;a href=&quot;https://github.com/containers/bubblewrap&quot;&gt;bubblewrap&lt;/a&gt; 0.8.0。该软件包通过设置用户命名空间限制来增强安全性，并改进对 flatpak-portal 启动的子沙箱的环境变量的处理。&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeBluetooth&quot;&gt;gnome-bluetooth&lt;/a&gt; 42.7 解决了与 &lt;a href=&quot;https://en.wikipedia.org/wiki/OBject_EXchange&quot;&gt;Obex Push&lt;/a&gt; 服务器自动接受来自配对设备的文件相关的问题。&lt;a href=&quot;http://www.bluez.org/&quot;&gt;bluez-gnome&lt;/a&gt; 分支解决了导致设备连接开关外观与实际连接状态不一致的错误。&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.42.2 的更新解决了之前影响 Unity &lt;a href=&quot;https://www.khronos.org/webgl/&quot;&gt;WebGL&lt;/a&gt; 应用程序的内容安全策略回退问题。webkit2gtk3 还解决了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-41983.html&quot;&gt;CVE-2023-41983&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-42852.html&quot;&gt;CVE-2023-42852&lt;/a&gt; 问题，它们允许处理可能导致任意代码执行的网页内容。快照中更新了一些其他软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WSDPKL7IAZ4AXP4GJPRR3QLZBCBXJBHB/&quot;&gt;20231117&lt;/a&gt; 包含多个软件包更新。&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;Bash&lt;/a&gt; 5.2.21 包含多个上游补丁，以解决各种问题，如解决导致命令替换在 here-document 中失败的偏差错误。Bash 修复了 shell 错误地尝试将终端进程组设置回 shell 进程组的情况，还修复了语法错误时返回令牌的相关问题。&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 0.16.4 的更新引入了新功能，包括允许在组件 ID 的最后一段使用连字符，以及为唯一的开发者 ID 实现开发者元素。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.18.20 的更新解决了一些问题，如包含 &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions&quot;&gt;DNSSEC&lt;/a&gt; 记录的未签名内联签名区的错误退出，以及由于 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1214884&quot;&gt;bsc#1214884&lt;/a&gt; 的原因，&lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt; 和 &lt;a href=&quot;https://susealp.io/&quot;&gt;ALP&lt;/a&gt; 默认禁用了&lt;a href=&quot;https://en.wikipedia.org/wiki/Service_Location_Protocol&quot;&gt;服务定位协议&lt;/a&gt;。快照中需要更新的其他软件包包括：&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;gstreamer&lt;/a&gt; 1.22.7、&lt;a href=&quot;https://www.gnupg.org/software/libgcrypt/index.html&quot;&gt;libcrypt&lt;/a&gt; 1.10.3、&lt;a href=&quot;https://github.com/openSUSE/libstorage-ng&quot;&gt;libstorage-ng&lt;/a&gt; 4.5.157、&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;nodejs21&lt;/a&gt; 21.2.0、&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 0.3.85、&lt;a href=&quot;https://poppler.freedesktop.org/&quot;&gt;poppler&lt;/a&gt; 23.11.0 等。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/24/flatpak-openvpn-bash-up-in-tw/&quot;&gt;Flatpak, OpenVPN, Bash update in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
