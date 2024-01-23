@@ -7,6 +7,110 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/21/podman.html</guid>
+      <title>使用 Podman 运行 WebAssembly 工作负载</title>
+      <pubDate>Sun, 21 Jan 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/21/podman.html</link>
+      <author>Poplar at twilight</author>
+      <description>WebAssembly（缩写为 Wasm）是一种可移植的二进制指令格式。它作为一种支持在Web 上部署客户端和服务器应用程序的编译目标的可移植性而广受欢迎。 我们可以通过结合 crun 和 Podman，利用 Wasm 的可移植性与 Linux 容器一起运行 Wasm 工作负载。crun 支持使用 WasmEdge、Wasmtime 或 Wasmer 运行时运行 Wasm 工作负载。虽然 Podman 使用为 runc，但 runc 和 crun 可以互换使用。 WasmEdge 是一个轻量级、高性能且可扩展的 WebAssembly 运行时，适用于云原生和边缘应用程序。WasmEdge 最近被添加到 openSUSE Tumbleweed 中，如果我们启用 crun 中的一项实验功能，就能在容器上支持 Wasm 工作负载。 现在，我们在 openSUSE Tumbleweed 中拥有了 WasmEdge，并且 crun 实验支持 Wasm 工作负载，我们可以在 Podman 上运行...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt;（缩写为 Wasm）是一种可移植的二进制指令格式。它作为一种支持在Web 上部署客户端和服务器应用程序的编译目标的可移植性而广受欢迎。&lt;/p&gt;
+
+&lt;p&gt;我们可以通过结合 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 和 &lt;a href=&quot;https://podman.io/&quot;&gt;Podman&lt;/a&gt;，利用 Wasm 的可移植性与 Linux 容器一起运行 Wasm 工作负载。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 支持使用 &lt;a href=&quot;https://wasmedge.org/&quot;&gt;WasmEdge&lt;/a&gt;、&lt;a href=&quot;https://wasmtime.dev/&quot;&gt;Wasmtime&lt;/a&gt; 或 &lt;a href=&quot;https://wasmer.io/&quot;&gt;Wasmer&lt;/a&gt; 运行时运行 Wasm 工作负载。虽然 Podman 使用为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt;，但 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 可以互换使用。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wasmedge.org/&quot;&gt;WasmEdge&lt;/a&gt; 是一个轻量级、高性能且可扩展的 WebAssembly 运行时，适用于云原生和边缘应用程序。WasmEdge 最近被添加到 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 中，如果我们启用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 中的一项实验功能，就能在容器上支持 Wasm 工作负载。&lt;/p&gt;
+
+&lt;p&gt;现在，我们在 openSUSE Tumbleweed 中拥有了 WasmEdge，并且 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 实验支持 Wasm 工作负载，我们可以在 Podman 上运行 WebAssembly 工作负载。&lt;/p&gt;
+
+&lt;h2 id=&quot;准备环境&quot;&gt;准备环境&lt;/h2&gt;
+
+&lt;p&gt;我们首先需要在 Podman 的默认 OCI 运行时中将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 安装为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt;。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zypper in crun
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;安装 crun 后，检查是否有 Wasm 支持。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ crun -v
+crun version 1.9
+commit: a538ac4ea1ff319bcfe2bf81cb5c6f687e2dc9d3
+rundir: /run/user/1000/crun
+spec: 1.0.0
++SYSTEMD +SELINUX +APPARMOR +CAP +SECCOMP +EBPF +CRIU +LIBKRUN +WASM:wasmedge +YAJL
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在上面的输出中，我们可以看到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 支持 WasmEdge (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+WASM:wasmedge&lt;/code&gt;)。&lt;/p&gt;
+
+&lt;h2 id=&quot;准备应用&quot;&gt;准备应用&lt;/h2&gt;
+
+&lt;p&gt;我们将用 Rust 创建一个简单的 “Hello” 应用程序。&lt;/p&gt;
+
+&lt;p&gt;首先，确保安装了 Rust 和 WasmEdge。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zypper in rust wasmedge
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;现在让我们用 Rust 创建 “Hello” 应用程序。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cargo new hello --bin
+$ cd hello
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/main.rs&lt;/code&gt; 中的消息更改为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hello WebAssembly!&lt;/code&gt; 或你想要的任何其他消息。&lt;/p&gt;
+
+&lt;p&gt;现在让我们编译我们的应用程序，但目标机器将是 Wasm。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cargo build --target wasm32-wasi
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;我们现在可以执行刚刚编译的二进制文件并检查它是否按预期工作。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ wasmedge run target/wasm32-wasi/debug/hello.wasm
+Hello WebAssembly!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;你已成功构建 Wasm 应用程序。&lt;/p&gt;
+
+&lt;h2 id=&quot;创建-wasm-容器&quot;&gt;创建 Wasm 容器&lt;/h2&gt;
+
+&lt;p&gt;有了 Wasm 二进制文件，我们将其添加到容器中。&lt;/p&gt;
+
+&lt;p&gt;创建一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Containerfile&lt;/code&gt; 的文件并向其中添加以下内容：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM scratch
+COPY target/wasm32-wasi/debug/hello.wasm /
+CMD [&quot;/hello.wasm&quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;让我们使用 Buildah 构建 Wasm 容器。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ buildah build --platform=wasi/wasm -t hello-wasm .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;现在你应该有一个 Wasm 容器了。&lt;/p&gt;
+
+&lt;h2 id=&quot;运行-wasm-工作负载&quot;&gt;运行 Wasm 工作负载&lt;/h2&gt;
+
+&lt;p&gt;让我们使用 Podman 运行 Wasm 容器。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ podman run --rm hello-wasm
+Hello WebAssembly!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;太棒了，我们有一个可用的 Wasm 容器。&lt;/p&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;WebAssembly 是一个相当新的话题，但它已经获得了很多关注，因为你可以重复使用你已经知道或使用的大部分内容，并轻松地移植应用程序。&lt;/p&gt;
+
+&lt;p&gt;运行原生 Wasm 容器是这种格式的可移植性的另一个例子。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/19/podman-wasm-support/&quot;&gt;Running WebAssembly workloads with Podman&lt;/a&gt;，作者：Alexandre Vicenzi&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/19/slowroll.html</guid>
       <title>澄清对 Slowroll 的误解</title>
       <pubDate>Fri, 19 Jan 2024 19:40:00 +0000</pubDate>
@@ -484,41 +588,6 @@ openSUSE 社区将于世界协调时 2023 年 12 月 19 日中午开始庆祝成
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/30/major-version-of-pipewire-ff-arrive-in-tw/&quot;&gt;Major Versions of PipeWire, Firefox arrive in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio（插图由 Jakub Steiner 提供）&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/25/vote.html</guid>
-      <title>openSUSE 新面貌的评选正在进行中</title>
-      <pubDate>Sat, 25 Nov 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/25/vote.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 社区的徽标竞赛提交阶段现已结束，徽标投票已经开始。 此次竞赛标志着 openSUSE 的关键时刻，投票将持续到 12 月 10 日。 在做出任何选择之前，我们鼓励大家访问 en.opensuse.org/Logocontest 并在投票前查看徽标。 从提交的徽标数量来看，Kalpa 有 18 个徽标，Slowroll 有 24 个，Leap 有 21 个，Tumbleweed 有 32 个，还有 36 个潜在的 openSUSE 新徽标，这充分说明了社区的热情和参与度。 提交的设计象征着开源社区内的协作精神，展示了来自世界各地贡献者的各种想法和创意。品牌形象可以影响用户对开源项目的看法和社区参与度，我们在此向所有提交徽标设计的人表示衷心的感谢。 虽然该项目有几个以变色龙为灵感的设计，但分布提交的设计在概念和风格上各不相同。比赛的目的是让提交的徽标设计为 openSUSE 项目描绘出一个统一的品牌。 新的 openSUSE 发行版徽标（如 Leap Micro、Aeon 和 MicroOS）设计采用了简单的形状和线条，具有独特性和趣味性，通常是空心的轮廓。一些提交的作品确实实现了这一设计理念。值得注意的是，虽然提到了 Leap Micro、Aeon 和 MicroOS，但这些产品的新徽标并不在竞赛范围内。不过，这些徽标可能会受到通用主题的影响。 负责品牌更改和维护的人员对任何更改都有发言权。品牌的最终决定权将归属于负责实施的项目成员，但本次徽标竞赛的结果将为整个品牌识别项目提供一个表达意见的平台。 比赛的获胜者将在投票结束后公布，并将收到一个 “Geeko Mystery Box”，以感谢他们的贡献。 上个月，openSUSE...</description>
-      <content:encoded>&lt;p&gt;openSUSE 社区的&lt;a href=&quot;https://en.opensuse.org/Logocontest&quot;&gt;徽标竞赛&lt;/a&gt;提交阶段现已结束，&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;徽标投票已经开始&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;此次竞赛标志着 openSUSE 的关键时刻，投票将持续到 12 月 10 日。&lt;/p&gt;
-
-&lt;p&gt;在做出任何选择之前，我们鼓励大家访问 &lt;a href=&quot;https://en.opensuse.org/Logocontest&quot;&gt;en.opensuse.org/Logocontest&lt;/a&gt; 并在投票前查看徽标。&lt;/p&gt;
-
-&lt;p&gt;从提交的徽标数量来看，Kalpa 有 18 个徽标，Slowroll 有 24 个，Leap 有 21 个，Tumbleweed 有 32 个，还有 36 个潜在的 openSUSE 新徽标，这充分说明了社区的热情和参与度。&lt;/p&gt;
-
-&lt;p&gt;提交的设计象征着开源社区内的协作精神，展示了来自世界各地贡献者的各种想法和创意。品牌形象可以影响用户对开源项目的看法和社区参与度，我们在此向所有提交徽标设计的人表示衷心的感谢。&lt;/p&gt;
-
-&lt;p&gt;虽然该项目有几个以变色龙为灵感的设计，但分布提交的设计在概念和风格上各不相同。比赛的目的是让提交的徽标设计为 openSUSE 项目描绘出一个统一的品牌。&lt;/p&gt;
-
-&lt;p&gt;新的 openSUSE 发行版徽标（如 Leap Micro、Aeon 和 MicroOS）设计采用了简单的形状和线条，具有独特性和趣味性，通常是空心的轮廓。一些提交的作品确实实现了这一设计理念。值得注意的是，虽然提到了 Leap Micro、Aeon 和 MicroOS，但这些产品的新徽标并不在竞赛范围内。不过，这些徽标可能会受到通用主题的影响。&lt;/p&gt;
-
-&lt;p&gt;负责品牌更改和维护的人员对任何更改都有发言权。品牌的最终决定权将归属于负责实施的项目成员，但本次徽标竞赛的结果将为整个品牌识别项目提供一个表达意见的平台。&lt;/p&gt;
-
-&lt;p&gt;比赛的获胜者将在投票结束后公布，并将收到一个 “Geeko Mystery Box”，以感谢他们的贡献。&lt;/p&gt;
-
-&lt;p&gt;上个月，openSUSE 社区宣布了新的 openSUSE 徽标竞赛以及四个 openSUSE 发行版：Tumbleweed、Leap、Slowroll 和 Kalpa。&lt;/p&gt;
-
-&lt;p&gt;现在请立即登录 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;survey.opensuse.org&lt;/a&gt; 进行投票。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/23/selecting-the-new-face-of-os-is-underway/&quot;&gt;Selecting the New Face of openSUSE is Underway&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
