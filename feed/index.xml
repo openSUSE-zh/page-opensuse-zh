@@ -7,6 +7,114 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/01/26/slowroll-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 一月</title>
+      <pubDate>Fri, 26 Jan 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/01/26/slowroll-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>欢迎阅读 openSUSE Tumbleweed 2024 年 1 月的月度更新。根据 openSUSE 营销人员的建议，这将是今后的新格式。这些更新将重点介绍 openSUSE Tumbleweed 在整个月中的主要变更、改进和关键问题。目的是让社区和用户了解发行版的发展和更新情况。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 openSUSE Factory 邮件列表。 新特性和增强 Linux 内核：更新至 6.6.7、6.6.9、6.6.10、6.6.11 和 6.7.1 版本。 已修复内存管理和安全漏洞，增强整体系统安全性。 支持新的硬件型号 PCI：增加了 ACS 特性，以提供更多兆芯根端口，增强兆芯 CPU 和主板的兼容性和性能。 ALSA（高级 Linux 声音架构）：为 Lenovo Legion Slim 7 Gen 8 系列添加了 cs35l41 的驱动程序属性，并引入了对不带 _DSD 的其他戴尔型号的支持，以及对 HP Envy X360 13-ay0xxx...</description>
+      <content:encoded>&lt;p&gt;欢迎阅读 openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 2024 年 1 月的月度更新。根据 openSUSE 营销人员的建议，这将是今后的新格式。这些更新将重点介绍 openSUSE Tumbleweed 在整个月中的主要变更、改进和关键问题。目的是让社区和用户了解发行版的发展和更新情况。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新特性和增强&quot;&gt;新特性和增强&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;：更新至 6.6.7、6.6.9、6.6.10、6.6.11 和 6.7.1 版本。
+    &lt;ul&gt;
+      &lt;li&gt;已修复内存管理和安全漏洞，增强整体系统安全性。&lt;/li&gt;
+      &lt;li&gt;支持新的硬件型号
+        &lt;ul&gt;
+          &lt;li&gt;PCI：增加了 ACS 特性，以提供更多兆芯根端口，增强兆芯 CPU 和主板的兼容性和性能。&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;（高级 Linux 声音架构）：为 Lenovo Legion Slim 7 Gen 8 系列添加了 cs35l41 的驱动程序属性，并引入了对不带 _DSD 的其他戴尔型号的支持，以及对 HP Envy X360 13-ay0xxx 的静音和麦克风静音 LED 的修复，这表明笔记本电脑中的声音硬件具有更广泛的兼容性。&lt;/li&gt;
+          &lt;li&gt;LED：ledtrig-tty 模块会在停用时接收对空闲分配的 ttyname 缓冲区的更新，从而影响终端活动的 LED 触发处理方式。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt;：更新至 121.0 和 121.0.1 版本
+    &lt;ul&gt;
+      &lt;li&gt;该更新解决了一个导致 Firefox 在加载基于列布局的网站时挂起的错误，从而提高了稳定性和性能。&lt;/li&gt;
+      &lt;li&gt;已应用的修复程序可确保视频的圆角效果，并能正确关闭火狐浏览器，防止 USB 安全密钥与其他应用程序发生冲突。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.114.0/&quot;&gt;KDE Frameworks&lt;/a&gt;：更新至 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.114.0/&quot;&gt;5.114.0&lt;/a&gt; 版本
+    &lt;ul&gt;
+      &lt;li&gt;重要更新包括 Extra CMake Modules 中的修复、KHolidays 中肯尼亚节假日的引入以及 KImageFormats 中 AVIF 的质量设置调整。&lt;/li&gt;
+      &lt;li&gt;对 &lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 中处理格式错误的 Exec 条目的关键功能进行了改进，增强了 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 的可访问性，并修复了 KJobWidgets 的稳定性，以防止出现潜在的释放后使用错误。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;：更新至 23.3.3 版本
+    &lt;ul&gt;
+      &lt;li&gt;重点关注 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.6 版本修复和驱动程序支持增强。&lt;/li&gt;
+      &lt;li&gt;该版本引入了 &lt;a href=&quot;https://www.collabora.com/news-and-blog/news-and-events/introducing-nvk.html&quot;&gt;NVK&lt;/a&gt;，这是一种适用于 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 硬件的新 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 驱动程序，这标志着对 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; GPU 的支持向前迈出了一步，但仍处于实验阶段。&lt;/li&gt;
+      &lt;li&gt;提高图形性能和兼容性 Asahi 和 RADV，增强 OpenGL ES 和 Vulkan 功能&lt;/li&gt;
+      &lt;li&gt;引入关键更新，如 Mesa-dri 对 libvulkan1 的依赖，以支持 zink/swrast 驱动程序回退，从而进一步改善图形应用程序和游戏的整体用户体验。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;：更新至 254.8 版本
+    &lt;ul&gt;
+      &lt;li&gt;还原与 udev 设备节点更新和问题解决方法相关的补丁。采取谨慎的方法修复报告的 bug，并确保设备管理系统的稳定性。&lt;/li&gt;
+      &lt;li&gt;对 udev 的调整确保了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%_modulesloaddir&lt;/code&gt; 的正确存在和所有权，便于其他软件包更顺畅地安装模块，从而改进了系统配置和模块管理。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.php.net/&quot;&gt;PHP&lt;/a&gt;：从 8.2.14 版本更新到 8.2.15 版本
+    &lt;ul&gt;
+      &lt;li&gt;修正了 SSA 完整性验证失败的误报，并解决了交叉编译时 Autoconf 警告的问题。&lt;/li&gt;
+      &lt;li&gt;CLI 内置网络服务器现在能在使用路由器脚本和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_input_time&lt;/code&gt; 时正确处理超时。&lt;/li&gt;
+      &lt;li&gt;修复了将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Stream_wrapper_register&lt;/code&gt; 与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FFI\CData&lt;/code&gt; 一起使用时的崩溃以及 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FFI::new&lt;/code&gt; 和观察者之间的交互问题。&lt;/li&gt;
+      &lt;li&gt;IntlDateFormatter 现在能正确接受 “C” 作为有效的本地语言。&lt;/li&gt;
+      &lt;li&gt;解决了使用 sha512 处理大字符串时 Hash 扩展中的挂起问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt;：更新至 1.22.8 版本
+    &lt;ul&gt;
+      &lt;li&gt;解决 AV1 视频编解码器解析器中的漏洞。&lt;/li&gt;
+      &lt;li&gt;修复包括使用 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;FFmpeg&lt;/a&gt; 6.1 解决 avdec 视频解码器中的潜在死锁&lt;/li&gt;
+      &lt;li&gt;改进了反向播放和在 qtdemux 中查找具有原始音频流的文件&lt;/li&gt;
+      &lt;li&gt;增强了 GstPlay 和 GstPlayer 库&lt;/li&gt;
+      &lt;li&gt;更新了 Cerbero 构建工具以解决 python 3.12 字符串转义警告&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samba.org/&quot;&gt;Samba&lt;/a&gt;：更新至 4.19.4 版本
+    &lt;ul&gt;
+      &lt;li&gt;解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net changesecretpw&lt;/code&gt; 无法在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;secrets.tdb&lt;/code&gt; 为空的情况下设置计算机帐户密码的问题、&lt;/li&gt;
+      &lt;li&gt;改进了有关 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML_CATALOG_FILES&lt;/code&gt; 环境变量的文档生成。&lt;/li&gt;
+      &lt;li&gt;解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smbd&lt;/code&gt; 未检测到用于多通道排除的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ctdb&lt;/code&gt; 公共 IPv6 地址的问题，以及当 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow trusted domains = no&lt;/code&gt; 时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;force user = localunixuser&lt;/code&gt; 设置无效的问题。&lt;/li&gt;
+      &lt;li&gt;解决了关键漏洞和错误，例如 AD LDAP 中对普通用户可见的已删除对象逻辑删除 &lt;a href=&quot;https://www.samba.org/samba/security/CVE-2018-14628.html&quot;&gt;CVE-2018-14628&lt;/a&gt;，以及各种 smbget 身份验证和功能修复，增强了安全性和用户体验。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;安全更新&quot;&gt;安全更新&lt;/h2&gt;
+
+&lt;p&gt;本月的更新包括各种软件包的重要安全补丁。在 Firefox、systemd、Samba 和 PHP 更新中集成了值得注意的安全改进。&lt;/p&gt;
+
+&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xorg.freedesktop.org/wiki/&quot;&gt;xorg-x11-server&lt;/a&gt; 21.1.11 和 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 23.2.4：这些更新解决了多个 CVE，提高了显示服务器协议的安全性和稳定性。用户可以在&lt;a href=&quot;https://lists.x.org/archives/xorg/2024-January/061525.html&quot;&gt;安全通报&lt;/a&gt;中找到此 CVE 的列表。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.8.3：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-0553.html&quot;&gt;CVE-2024-0553&lt;/a&gt; 是一个漏洞，允许在 RSA-PSK 中进行定时攻击，存在数据泄露的风险，并且更新包修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-0567.html&quot;&gt;CVE-2024-0567&lt;/a&gt;，这是 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;cockpit&lt;/a&gt; 证书验证中的一个缺陷，可实现远程拒绝服务攻击。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openjdk.org/projects/jdk/11/&quot;&gt;java-11-openjdk&lt;/a&gt; 11.0.22.0：多个 CVE。 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20919.html&quot;&gt;CVE-2024-20919&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20926.html&quot;&gt;CVE-2024-20926&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20921.html&quot;&gt;CVE-2024-20921&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20918.html&quot;&gt;CVE-2024-20918&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20945.html&quot;&gt;CVE-2024-20945&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20952.html&quot;&gt;CVE-2024-20952&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 4.19.4：&lt;a href=&quot;https://www.samba.org/samba/security/CVE-2018-14628.html&quot;&gt;CVE-2018-14628&lt;/a&gt; 经过身份验证但无特权的攻击者可能会发现 LDAP 存储中已删除对象的名称和保留的属性。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/Jinja2/&quot;&gt;python-Jinja2&lt;/a&gt; 3.1.3：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22195.html&quot;&gt;CVE-2024-22195&lt;/a&gt; 是一个漏洞，其中 xmlattr 过滤器不正确地允许包含空格的密钥，使攻击者能够通过用户输入注入有害属性。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/linux-rdma/rdma-core&quot;&gt;rdma-core&lt;/a&gt; 49.1：虽然没有提及更新中解决的具体 CVE，但该更新是定期维护的一部分，以确保稳定性和安全性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;我们将继续完善和增强这一形式。我们期待 openSUSE Tumbleweed 的开发和社区参与又一个激动人心的一年。下周在 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 与大家见面。祝玩得愉快！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/26/tw-monthly-update-jan/&quot;&gt;openSUSE Tumbleweed Monthly Update - January&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/21/podman.html</guid>
       <title>使用 Podman 运行 WebAssembly 工作负载</title>
       <pubDate>Sun, 21 Jan 2024 19:40:00 +0000</pubDate>
@@ -557,37 +665,6 @@ openSUSE 社区将于世界协调时 2023 年 12 月 19 日中午开始庆祝成
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/04/community-plans-virtual-bar-anniversary/&quot;&gt;openSUSE Community Plans Virtual Bar Anniversary&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/30/weekly-update.html</guid>
-      <title>PipeWire 和 Firefox 的大版本更新在 Tumbleweed 中发布</title>
-      <pubDate>Thu, 30 Nov 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/11/30/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>使用 OpenTUNA 的 openSUSE 用户应当得知 OpenTUNA 将于本月底停止服务，用户可参考下述链接切换至其他镜像站服务。 openSUSE:镜像 SDB:添加软件源 openSUSE - Mirrors Report openSUSE Tumbleweed 本周发布的快照为用户提供了多个软件包的主要版本更新。 快照 20231127 发布了适用于 Linux 的音视频包 PipeWire 的 1.0 版本（也被称为 “El Presidente”）更新，提供显著的增强功能和大量星宿，例如解决了缓冲区上传期间与 memfd 和 dma-buf 泄漏相关的内存管理问题。PipeWire 对影响中断请求的 ALSA 的时间报告进行了改进，从而减少了时间偏差。PipeWire 改进了文档和蓝牙编解码器，引入了 LC3 编解码器；LC3 是 SBC 编解码器的后继者。Mozilla Firefox 更新至新的大版本，处理了多个 CVE。Firefox 120.0 处理了多个安全漏洞，如可导致内存数据泄漏的 CVE-2023-6204、显示了内存损坏的证据，推测可被用于执行任意代码的 CVE-2023-6213。用于查询已连接的 USB 设备的 usbutils...</description>
-      <content:encoded>&lt;p&gt;使用 &lt;a href=&quot;https://opentuna.cn/&quot;&gt;OpenTUNA&lt;/a&gt; 的 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 用户应当得知 &lt;a href=&quot;https://opentuna.cn/news/#opentuna-shutdown&quot;&gt;OpenTUNA 将于本月底停止服务&lt;/a&gt;，用户可参考下述链接切换至其他镜像站服务。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/openSUSE:%E9%95%9C%E5%83%8F&quot;&gt;openSUSE:镜像&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/SDB:%E6%B7%BB%E5%8A%A0%E8%BD%AF%E4%BB%B6%E6%BA%90&quot;&gt;SDB:添加软件源&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mirrors.opensuse.org&quot;&gt;openSUSE - Mirrors Report&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 本周发布的快照为用户提供了多个软件包的主要版本更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LPAYQ747GLQG6IWSUVMGVFOMUQV7HGSJ/&quot;&gt;20231127&lt;/a&gt; 发布了适用于 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux&lt;/a&gt; 的音视频包 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 的 1.0 版本（也被称为 “El Presidente”）更新，提供显著的增强功能和大量星宿，例如解决了缓冲区上传期间与 &lt;a href=&quot;https://github.com/bear-metal/memfd/blob/master/README.md&quot;&gt;memfd&lt;/a&gt; 和 &lt;a href=&quot;https://docs.kernel.org/driver-api/dma-buf.html&quot;&gt;dma-buf&lt;/a&gt; 泄漏相关的内存管理问题。PipeWire 对影响中断请求的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 的时间报告进行了改进，从而减少了时间偏差。PipeWire 改进了文档和蓝牙编解码器，引入了 &lt;a href=&quot;https://en.wikipedia.org/wiki/LC3_(codec)&quot;&gt;LC3&lt;/a&gt; 编解码器；LC3 是 &lt;a href=&quot;https://en.wikipedia.org/wiki/SBC_(codec)&quot;&gt;SBC&lt;/a&gt; 编解码器的后继者。&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 更新至新的大版本，处理了多个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。Firefox 120.0 处理了多个安全漏洞，如可导致内存数据泄漏的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6204.html&quot;&gt;CVE-2023-6204&lt;/a&gt;、显示了内存损坏的证据，推测可被用于执行任意代码的 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6213.html&quot;&gt;CVE-2023-6213&lt;/a&gt;。用于查询已连接的 USB 设备的 &lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/&quot;&gt;usbutils&lt;/a&gt; 更新至 017 版本，解决诸如显示没有接口的设备条目之类的问题，通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lsusb.py&lt;/code&gt; 改进电源/唤醒显示。这些更改还确保更好地遵循系统 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libdir&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;includedir&lt;/code&gt; 以及其他各种优化。快照发布了 X 窗口管理器 &lt;a href=&quot;https://ice-wm.org/&quot;&gt;icewm&lt;/a&gt; 3.4.4。icewm 扩展了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;icewmbg&lt;/code&gt; 中对 TIFF、WEBP、JXL、JP2、RAW、SVG 和 TGA 等图像格式支持。icewm 修复了数个崩溃问题，改进了主题的颜色解释，并提供了更稳定且功能丰富的用户体验。用于转换繁体中文、简体中文和日文汉字（Shinjitai）的 &lt;a href=&quot;https://pypi.org/project/OpenCC/&quot;&gt;OpenCC&lt;/a&gt; 更新至 1.1.7；它增加了对 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.12 和 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt; 20 的支持。快照中的其他一些软件包与 &lt;a href=&quot;https://transmissionbt.com/download&quot;&gt;Transmission&lt;/a&gt; 4.0.4 一起更新。Transmission 解决了向对等设备传输元数据、内存分配、文件重命名碰撞以及影响统计显示中数字四舍五入的本地化错误等问题。&lt;/p&gt;
-
-&lt;p&gt;虽然快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/ZTO4XRBYWLL5SC54YAL2VLNESGTRFZRV/&quot;&gt;20231126&lt;/a&gt; 没有为新总统（“El Presidente”）提供红地毯待遇，但用户也需要关注出现在快照中的 &lt;a href=&quot;https://www.php.net/&quot;&gt;php8&lt;/a&gt; 8.2.13。php8 解决了 &lt;a href=&quot;https://www.php.net/manual/en/book.opcache.php&quot;&gt;Opcache&lt;/a&gt;、&lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt;、XMLReader 等各种组件中出现双重释放和不正确行为等问题。php8 解决了错误处理和潜在的崩溃问题。&lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;selinux-policy&lt;/a&gt; 20231124 的更新修复了 Bugzilla 问题 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1216903&quot;&gt;bsc#1216903&lt;/a&gt;，该问题涉及在尝试应用防火墙规则时指示权限被拒绝错误的错误消息。&lt;a href=&quot;https://github.com/libbpf/libbpf&quot;&gt;libbpf&lt;/a&gt; 1.3.0 的更新带来了对 &lt;a href=&quot;https://www.netfilter.org/&quot;&gt;netfilter&lt;/a&gt; 的支持，并引入了新的节定义、实用宏和用于使用&lt;a href=&quot;https://en.wikipedia.org/wiki/Circular_buffer&quot;&gt;环形缓冲区&lt;/a&gt;的扩展功能。&lt;a href=&quot;https://github.com/openSUSE/libsolv&quot;&gt;libsolv&lt;/a&gt; 0.7.27 的更新引入了对 installcheck 工具的 &lt;a href=&quot;https://facebook.github.io/zstd/&quot;&gt;zstd&lt;/a&gt; 支持，增强了压缩功能，并实现了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;putinowndirpool&lt;/code&gt; 缓存。这个新的缓存显着加速了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo_write&lt;/code&gt; 函数内的文件列表处理，从而提高了整体性能。快照中还更新了其他几个软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/6RORONYOHB3JVV7ZC74XIY4APLNJTQRC/&quot;&gt;20231124&lt;/a&gt; 中仅更新了两个软件包。新版本的 &lt;a href=&quot;https://github.com/openSUSE/kernel-firmware-nvidia-gspx-G06&quot;&gt;kernel-firmware-nvidia-gspx-G06&lt;/a&gt; 545.29.06 改进了内核模块驱动程序的兼容性和功能，快照中还更新了另一个 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 签名软件包。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/11/30/major-version-of-pipewire-ff-arrive-in-tw/&quot;&gt;Major Versions of PipeWire, Firefox arrive in Tumbleweed&lt;/a&gt;，作者：Douglas DeMaio（插图由 Jakub Steiner 提供）&lt;/p&gt;
 </content:encoded>
     </item>
 
