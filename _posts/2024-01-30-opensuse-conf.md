@@ -6,9 +6,8 @@ license: CC-BY-SA-4.0
 title: openSUSE 大会旅行信息
 image: /assets/posts/2024-01/logo.png
 categories:
-- 更新通告
+- 社区新闻
 tags:
-- Tumbleweed
 - 翻译作品
 - 官方新闻
 ---
