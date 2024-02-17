@@ -7,6 +7,45 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/16/agama-roadmap.html</guid>
+      <title>探索 Agama 2024 年路线图</title>
+      <pubDate>Fri, 16 Feb 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/16/agama-roadmap.html</link>
+      <author>Poplar at twilight</author>
+      <description>Agama 是 openSUSE YaST 团队开发的下一代基于服务（Service-based）的 Linux 安装程序。它旨在提供可重用性、与第三方工具的集成以及在其上构建高级用户界面的可能性。 YaST 博客上最近一篇关于 Agama 路线图的文章认为，新安装程序的功能足以完成从本地化和网络配置到存储设置和初始软件选择等任务。 路线图译文另见：Agama 2024 年路线图展望 对于那些不关注 YaST 博客的人来说，以下是 Agama 在 2024 年的发展前景。 YaST 团队已经制定了今年的战略，尽管开发过程充满变数，但团队仍致力于稳定地发布 Agama，并设定了两个重要的里程碑。第一个定于 4 月中旬，另一个定于 7 月中旬。 4 月的里程碑将彻底改变 Agama 的架构。它将摆脱对 Cockpit 的依赖，转而采用一个更加自主的框架，该框架将与旨在简化存储配置的，完善的用户界面相结合。 第二个里程碑的目标是提高 Agama 的灵活性和无人值守安装的能力，从而将 Agama 定位为 AutoYaST 的有力替代品。 Cockpit 项目提供的资源使 Agama 的未来愿景清晰可见，为新的道路指明了方向。未来几个月，YaST 团队将致力于重新定义这一方法，以确保 Agama 的发展不受外部依赖的阻碍。 虽然架构上的修改为未来的进步奠定了基础，但同样必须注重提升用户体验。改版后的存储配置界面将既方便新用户使用，又更具多功能性。这样做的目的是在易用性和定制化之间取得平衡。 2024...</description>
+      <content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/openSUSE/agama&quot;&gt;Agama&lt;/a&gt; 是 openSUSE &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST 团队&lt;/a&gt;开发的下一代基于服务（Service-based）的 Linux 安装程序。它旨在提供可重用性、与第三方工具的集成以及在其上构建高级用户界面的可能性。&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;YaST 博客上最近一篇关于 &lt;a href=&quot;https://yast.opensuse.org/blog/2024-02-08/year-of-agama&quot;&gt;Agama 路线图&lt;/a&gt;的文章认为，新安装程序的功能足以完成从本地化和网络配置到存储设置和初始软件选择等任务。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;路线图译文另见：&lt;a href=&quot;https://whiteboard-ui8.pages.dev/translation/opensuse-agama-roadmap-2024/&quot;&gt;Agama 2024 年路线图展望&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对于那些不关注 &lt;a href=&quot;https://yast.opensuse.org/blog/&quot;&gt;YaST 博客&lt;/a&gt;的人来说，以下是 Agama 在 2024 年的发展前景。&lt;/p&gt;
+
+&lt;p&gt;YaST 团队已经制定了今年的战略，尽管开发过程充满变数，但团队仍致力于稳定地发布 Agama，并设定了两个重要的里程碑。第一个定于 4 月中旬，另一个定于 7 月中旬。&lt;/p&gt;
+
+&lt;p&gt;4 月的里程碑将彻底改变 Agama 的架构。它将摆脱对 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 的依赖，转而采用一个更加自主的框架，该框架将与旨在简化存储配置的，完善的用户界面相结合。&lt;/p&gt;
+
+&lt;p&gt;第二个里程碑的目标是提高 Agama 的灵活性和无人值守安装的能力，从而将 Agama 定位为 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;AutoYaST&lt;/a&gt; 的有力替代品。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit 项目&lt;/a&gt;提供的资源使 Agama 的未来愿景清晰可见，为新的道路指明了方向。未来几个月，YaST 团队将致力于重新定义这一方法，以确保 Agama 的发展不受外部依赖的阻碍。&lt;/p&gt;
+
+&lt;p&gt;虽然架构上的修改为未来的进步奠定了基础，但同样必须注重提升用户体验。改版后的存储配置界面将既方便新用户使用，又更具多功能性。这样做的目的是在易用性和定制化之间取得平衡。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24&quot;&gt;2024 年的 openSUSE 大会&lt;/a&gt;就在这些里程碑之间举行，YaST 团队将利用这次活动作为讨论 Agama 重新定义 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 生态系统中安装体验的潜力的平台。你的见解和贡献对于 Agama 的成功至关重要，因此社区鼓励利益相关者与 YaST 团队合作、分享想法并参与 Agama 的持续开发。&lt;/p&gt;
+
+&lt;p&gt;请在 &lt;a href=&quot;https://yast.opensuse.org/blog/&quot;&gt;YaST 博客&lt;/a&gt;上阅读有关 Agama 的更多信息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/16/exploring-agamas-roadmap/&quot;&gt;Exploring Agama’s 2024 Roadmap&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/13/conf.html</guid>
       <title>贡献会议将于明天开始</title>
       <pubDate>Tue, 13 Feb 2024 19:40:00 +0000</pubDate>
@@ -648,37 +687,6 @@ sdbootutil remove-all-kernels
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/20/systemd-fde/&quot;&gt;Systemd-boot and Full Disk Encryption in Tumbleweed and MicroOS&lt;/a&gt;，作者：Alberto Planas&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/08/weekly-update.html</guid>
-      <title>LLVM、Sudo 和 GCC 在 Tumbleweed 中更新</title>
-      <pubDate>Fri, 08 Dec 2023 23:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2023/12/08/weekly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 本周持续发布快照，为用户带来最新的软件更新。 除了标题中强调的更新之外，MariaDB、GTK 和 gnome-software 也是本周推出的一系列更新的一部分。 快照 20231206 仅更新了两个包。中国农历日期库 lunar-date 更新至新的主要版本，3.0.1；它引入了本地化界面并更改了项目选项名称。lunar-date 还将其许可证更新为 LGPL-2.1。[rubygem-rubocop] 1.58.0 包的更新解决了各种样式的漏报等问题，提高了部分代码质量，并确保对不同代码模式的自动更正更加准确。ruby​​gem-rubocop 1.58.0 也在适用于 ARM 的 Tumbleweed 快照 20231206 中更新。 快照 20231205 更新了 gnome-shell 45.2。gnome-shell 解决了多个性能问题，改进了 GNOME 的应用程序搜索功能，并修复了与屏幕键盘相关的错误。该更新改进了高对比度样式，修复了 tablet ring 和 strip mapping，解决了一些崩溃问题并更新了翻译。gnome-maps 45.2 修复了不必要地重新加载行程查询的错误。fwupd 1.9.10 更新除了修正错误外，还增强了多项功能。值得注意的新增内容是对 not_hardware 要求和 loongarch64 微处理器的支持。此更新改进了 USB 声明重试计数配置、强制执行版本要求、隐藏调试日志中的敏感信息，并改进了特定于设备的功能，例如 Wacom USB 设备模拟。sudo 1.9.15p2...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 本周持续发布快照，为用户带来最新的软件更新。&lt;/p&gt;
-
-&lt;p&gt;除了标题中强调的更新之外，&lt;a href=&quot;https://mariadb.org/&quot;&gt;MariaDB&lt;/a&gt;、&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 和 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 也是本周推出的一系列更新的一部分。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/WZ2H7OOQFO3IQCZIOXZYBOFMI5F7YW5M/&quot;&gt;20231206&lt;/a&gt; 仅更新了两个包。中国农历日期库 &lt;a href=&quot;https://github.com/yetist/lunar-date&quot;&gt;lunar-date&lt;/a&gt; 更新至新的主要版本，3.0.1；它引入了本地化界面并更改了项目选项名称。lunar-date 还将其许可证更新为 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html&quot;&gt;LGPL-2.1&lt;/a&gt;。[rubygem-rubocop] 1.58.0 包的更新解决了各种样式的漏报等问题，提高了部分代码质量，并确保对不同代码模式的自动更正更加准确。&lt;a href=&quot;https://rubygems.org/gems/rubocop/versions/1.58.0?locale=en&quot;&gt;ruby​​gem-rubocop&lt;/a&gt; 1.58.0 也在&lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/KE3W6G52JOKMQX5LRTK3QAHPXO265EY3/&quot;&gt;适用于 ARM 的 Tumbleweed 快照 20231206&lt;/a&gt; 中更新。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/YZ2Z4INOG44QZIYHZMFNVKSHTQPV5YJW/&quot;&gt;20231205&lt;/a&gt; 更新了 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 45.2。gnome-shell 解决了多个性能问题，改进了 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 的应用程序搜索功能，并修复了与屏幕键盘相关的错误。该更新改进了高对比度样式，修复了 tablet ring 和 strip mapping，解决了一些崩溃问题并更新了翻译。&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-maps&quot;&gt;gnome-maps&lt;/a&gt; 45.2 修复了不必要地重新加载行程查询的错误。&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 1.9.10 更新除了修正错误外，还增强了多项功能。值得注意的新增内容是对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;not_hardware&lt;/code&gt; 要求和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Loongson&quot;&gt;loongarch64&lt;/a&gt; 微处理器的支持。此更新改进了 USB 声明重试计数配置、强制执行版本要求、隐藏调试日志中的敏感信息，并改进了特定于设备的功能，例如 &lt;a href=&quot;https://en.wikipedia.org/wiki/Wacom&quot;&gt;Wacom&lt;/a&gt; USB 设备模拟。&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.15p2 的更新解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo -l command&lt;/code&gt; 警告消息，增强了针对 &lt;a href=&quot;https://en.wikipedia.org/wiki/Row_hammer&quot;&gt;rowhammer&lt;/a&gt; 攻击的安全性，并对日志消息进行了改进，以便更好地用户理解和系统安全。用于控制系统范围权限的应用程序开发工具包 &lt;a href=&quot;https://gitlab.freedesktop.org/polkit/polkit&quot;&gt;polkit&lt;/a&gt; 的 123 版本更新，引入了增强的安全措施，例如对配置文件的更深入限制、&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 下守护进程的所有者限制，并改进了 systemd 单元内的沙箱，旨在更好地系统安全。&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite3&lt;/a&gt; 3.44.2 更新纠正了一些问题，如 &lt;a href=&quot;https://en.wikipedia.org/wiki/Command-line_interface&quot;&gt;CLI&lt;/a&gt; 错误、内部测试中发现的全文搜索（FTS5）问题以及使用 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 16 调试构建时出现的编译器警告。快照更新了 &lt;a href=&quot;https://github.com/vcrhonek/hwdata&quot;&gt;hwdata&lt;/a&gt; 0.377、&lt;a href=&quot;https://en.wikipedia.org/wiki/Ncurses&quot;&gt;ncurses&lt;/a&gt; 6.4.20231202 和更多其他的包。&lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/FT5LBZ5TCBG7EJACWCQTJ7KM2IBN2LHA/&quot;&gt;适用于 ARM 的 Tumbleweed 快照 20231205&lt;/a&gt; 更新了许多相同的软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/3FNXUM7I2UZVQNJVDHUW6YOCUVVZIB6T/&quot;&gt;20231204&lt;/a&gt; 中更新了多个 &lt;a href=&quot;https://www.qt.io/product/qt6&quot;&gt;Qt 6&lt;/a&gt; 子包。&lt;a href=&quot;https://www.qt.io/&quot;&gt;qt6-base&lt;/a&gt; 6.6.1 版本修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QMenuBar&lt;/code&gt; 功能限制，并更正了与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QFont&lt;/code&gt; 功能 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 相关的错误。&lt;a href=&quot;https://www.qt.io/&quot;&gt;qt6-wayland&lt;/a&gt; 6.6.1 的更新修复了与 texture orphanage 相关的崩溃问题，并修复了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 显示的拖放问题。&lt;a href=&quot;https://github.com/ibus/ibus&quot;&gt;ibus&lt;/a&gt; 1.5.29 更新增强了持续集成（CI），为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PostProcessKeyEvent&lt;/code&gt; 添加了信号，防止输入法提交制表符，并修复了按键键入、表情符号和 Unicode 问题。用于访问和修改虚拟机磁盘映像的 &lt;a href=&quot;https://www.libguestfs.org/&quot;&gt;libguestfs&lt;/a&gt; 1.51.8 为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virt-customize&lt;/code&gt; 添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--chown&lt;/code&gt; 选项和新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--tar-in&lt;/code&gt; 操作。快照中还更新了其他一些软件包。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/IAJ2F5ZKXLLGKBL5227TGVRTMHHM3DBD/&quot;&gt;20231203&lt;/a&gt; 更新了编译器和工具链包 &lt;a href=&quot;https://llvm.org/&quot;&gt;llvm17&lt;/a&gt; 17.0.6。llvm17 的更新包括变基（rebase）补丁、调整版本化可执行文件以提供更好的支持，以及使用类似于其他二进制文件的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;update-alternatives&lt;/code&gt; 方法对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clang-cpp&lt;/code&gt; 进行标准化管理，以实现更流畅的操作。&lt;a href=&quot;https://mariadb.org/&quot;&gt;mariadb&lt;/a&gt; 11.1.2 版本包括与不需要的二进制位置、ppc64le 上的内存限制和跳过的测试相关的多个修复。中国农历库 &lt;a href=&quot;https://github.com/yetist/lunar-calendar&quot;&gt;lunar-calendar&lt;/a&gt; 3.0.1 的日历小部件的更新涉及对许可证的修改，从以前的许可条款过渡到 &lt;a href=&quot;https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html&quot;&gt;LGPL-2.1&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/5FTRUNXH23ZWKX37LVEZIWTBB5O3W4W5/&quot;&gt;20231202&lt;/a&gt; 更新了 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gno​​me-software&lt;/a&gt;。根据变更日志，gno​​me-software 45.2 的更新主要涉及多种语言的翻译。较旧的 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 有一个 &lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 更新，包含 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc13&lt;/a&gt; 13.2.1+git8109。它修复了在 &lt;a href=&quot;https://en.wikipedia.org/wiki/P6_(microarchitecture)&quot;&gt;i686&lt;/a&gt; 系统上构建 &lt;a href=&quot;https://mariadb.org/&quot;&gt;MariaDB&lt;/a&gt; 的问题，并实现了与 &lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 依赖性相关的更改。&lt;a href=&quot;https://inkscape.org/&quot;&gt;inkscape&lt;/a&gt; 1.3.2 的更新解决了数据丢失问题，并纠正了与某些形状和 3D 框相关的保存错误。用于组织个人数据和日程安排的应用程序 &lt;a href=&quot;https://wiki.gnome.org/Apps/Evolution&quot;&gt;evolution&lt;/a&gt; 更新至 3.50.2 版本，并修复了崩溃和&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;；它还修复了搜索功能的问题。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.12.4 更新改进了可访问性名称计算，修复了内存格式表错误，更新了翻译并进行了一些额外的改进。&lt;/p&gt;
-
-&lt;p&gt;本周的第一个快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/K2BJRCMU6NM3B5ZQTSDJ5UV7LM6RUMOT/&quot;&gt;20231201&lt;/a&gt;。&lt;a href=&quot;https://www.perl.org/&quot;&gt;perl&lt;/a&gt; 5.38.2 的更新修复了两个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。其中之一是 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-47038.html&quot;&gt;CVE-2023-47038&lt;/a&gt;，当 Perl 编译精心设计的正则表达式时会发生这种情况。另一个是 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-47039.html&quot;&gt;CVE-2023-47039&lt;/a&gt;。&lt;a href=&quot;https://github.com/openSUSE/snapper&quot;&gt;Snapper&lt;/a&gt; 0.10.7 解决了与基于&lt;a href=&quot;https://en.wikipedia.org/wiki/Logical_volume_management&quot;&gt;逻辑卷管理器&lt;/a&gt;的配置和接受字符串集合的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SystemCmd&lt;/code&gt; 的 diff 相关的问题。&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 6.6 的更新删除了一些功能，并在网桥中添加了备份支持以及对安全协议套件的调整。快照中要更新的其他软件包有 &lt;a href=&quot;https://mirrors.edge.kernel.org/pub/software/network/ethtool/&quot;&gt;ethtool&lt;/a&gt; 6.6、&lt;a href=&quot;https://www.gnupg.org/related_software/gpgme/&quot;&gt;gpgme&lt;/a&gt; 1.23.2 等。&lt;/p&gt;
-
-&lt;p&gt;本周另外两个适用于 Arm 的 Tumbleweed 快照是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/HVWNVYJO2SATG4QZLTYXMVQOEV4RYFYB/&quot;&gt;20231204&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/arm@lists.opensuse.org/thread/2GRYHK42UHIDDWFE7NQ6PTHUMXT3KTBT/&quot;&gt;20231203&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/08/llvm-sudo-gcc-packages-up-in-tw/&quot;&gt;Tumbleweed gets LLVM, Sudo, GCC Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
