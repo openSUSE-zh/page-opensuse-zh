@@ -7,6 +7,54 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/13/conf.html</guid>
+      <title>贡献会议将于明天开始</title>
+      <pubDate>Tue, 13 Feb 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/13/conf.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 社区很高兴地宣布，它将举办一些短会，旨在鼓励人们如何为该项目做出贡献。
+
+一组志愿者将在 openSUSE 的 YouTube 频道上播放或录制 15 分钟的短会，旨在向人们传授打包、使用开放构建服务、为 openQA 创建测试以及其他开发领域的知识。
+
+关于“以版本升级为例的 OBS/osc 的基本使用”的第一场短会定于明天 2 月 15 日 21:00 UTC 开始。
+
+另一场题为“打包指南（补丁策略）和新软件包的提交”的演讲定于 2 月 27 日 16:00 UTC 举行。
+
+预计未来还将安排更多会议。
+
+这些会议已在 openSUSE 日历上列出；请查找橙色标记的贡献研讨会会议。
+
+有兴趣发表演讲的人员请在有关活动的电子邮件中填写未来会议的空白区域。
+
+举办短会是回馈社区的好方法，并提供了向他人传授有关开源开发的技能和知识的机会。
+
+
+
+原文：Contribution Sessions to Begin Tomorrow，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区很高兴地宣布，它将举办一些短会，旨在鼓励人们如何为该项目做出贡献。&lt;/p&gt;
+
+&lt;p&gt;一组志愿者将在 &lt;a href=&quot;https://www.youtube.com/@openSUSE&quot;&gt;openSUSE 的 YouTube 频道&lt;/a&gt;上播放或录制 15 分钟的短会，旨在向人们传授打包、使用&lt;a href=&quot;https://openbuildservice.org/&quot;&gt;开放构建服务&lt;/a&gt;、为 &lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt; 创建测试以及其他开发领域的知识。&lt;/p&gt;
+
+&lt;p&gt;关于“以版本升级为例的 OBS/osc 的基本使用”的&lt;a href=&quot;https://calendar.opensuse.org/teams/marketing/events/contribution-workshop-obs&quot;&gt;第一场短会&lt;/a&gt;定于明天 2 月 15 日 21:00 UTC 开始。&lt;/p&gt;
+
+&lt;p&gt;另一场题为“打包指南（补丁策略）和新软件包的提交”的演讲定于 2 月 27 日 16:00 UTC 举行。&lt;/p&gt;
+
+&lt;p&gt;预计未来还将安排更多会议。&lt;/p&gt;
+
+&lt;p&gt;这些会议已在 &lt;a href=&quot;https://calendar.opensuse.org/&quot;&gt;openSUSE 日历&lt;/a&gt;上列出；请查找橙色标记的贡献研讨会会议。&lt;/p&gt;
+
+&lt;p&gt;有兴趣发表演讲的人员请在&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/JKPBGSLO3ZGKSBZMDV7LCYS7JCOVTY4S/&quot;&gt;有关活动的电子邮件&lt;/a&gt;中填写未来会议的空白区域。&lt;/p&gt;
+
+&lt;p&gt;举办短会是回馈社区的好方法，并提供了向他人传授有关开源开发的技能和知识的机会。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/14/contribution-sessions-begin-tomorrow/&quot;&gt;Contribution Sessions to Begin Tomorrow&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/29/opensuse-conf.html</guid>
       <title>openSUSE 大会旅行信息</title>
       <pubDate>Mon, 29 Jan 2024 19:40:00 +0000</pubDate>
@@ -631,43 +679,6 @@ sdbootutil remove-all-kernels
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/08/llvm-sudo-gcc-packages-up-in-tw/&quot;&gt;Tumbleweed gets LLVM, Sudo, GCC Updates&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/12/05/opensuse-logo.html</guid>
-      <title>openSUSE 徽标重塑的过渡历程</title>
-      <pubDate>Tue, 05 Dec 2023 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/12/05/opensuse-logo.html</link>
-      <author>Poplar at twilight</author>
-      <description>随着 openSUSE 社区准备逐步启用新的项目徽标，开源世界正在经历一场激动人心的变革。 尽管投票数超过 5000 张的竞赛尚未结束，但以下信息有助于人们了解重塑项目徽标的原因，以及徽标竞赛结束后 openSUSE 品牌的下一步计划。 人见人爱的变色龙（Chameleon）被热情地称为 “Geeko”，它于 2005 年项目启动时首次出现，2007 年为品牌修改字体时略有改动。 openSUSE 项目从 2003 年开始采用 SUSE 徽标，但徽标下方的文字有所不同，这标志着由社区主导的项目进入了品牌联合时代。SUSE 多年来不断刷新其品牌，2020 年发布的最新徽标与 openSUSE 的徽标完全不同。然而，SUSE 和 openSUSE 的品牌经常会让人混淆，因为他们不了解开源公司 SUSE 和开源社区项目 openSUSE 之间的关系。 为了减少这种交叉品牌的混淆，openSUSE 社区希望创建一个独特的品牌标识，但又能帮助区分公司和社区项目，因此举办了以变色龙为灵感的徽标设计大赛。不同的徽标是帮助人们识别两个品牌之间区别的第一步，应该可以缓解社区项目中已经出现或可能出现的问题，避免这些问题渗入公司的品牌识别中。 新徽标旨在为 openSUSE 创建一个独特的标识，使其与 SUSE 有更清晰的区分。新标识有望与 SUSE 的品牌标识区分开来，并与其发行版的标识风格相似。 徽标竞赛结束后的下一步工作是在 12 月 12 日 14:30（世界协调时）的 openSUSE 社区会议上讨论获奖作品。欢迎大家参加并讨论结果以及项目应如何推进设计。 新徽标公布后，旧的 Geeko 徽标将在贴纸和其他营销材料中与新徽标同时使用，以过渡到新徽标。在使用旧徽标的同时引入新徽标，有助于用户逐步适应新标识。...</description>
-      <content:encoded>&lt;p&gt;随着 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区准备逐步启用新的项目徽标，开源世界正在经历一场激动人心的变革。&lt;/p&gt;
-
-&lt;p&gt;尽管投票数超过 5000 张的竞赛尚未结束，但以下信息有助于人们了解重塑项目徽标的原因，以及徽标竞赛结束后 openSUSE 品牌的下一步计划。&lt;/p&gt;
-
-&lt;p&gt;人见人爱的变色龙（Chameleon）被热情地称为 “Geeko”，它于 2005 年项目启动时首次出现，2007 年为品牌修改字体时略有改动。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目从 2003 年开始采用 SUSE 徽标，但徽标下方的文字有所不同，这标志着由社区主导的项目进入了品牌联合时代。&lt;a href=&quot;https://en.opensuse.org/openSUSE:Project_logo_change_vote&quot;&gt;SUSE 多年来不断刷新其品牌&lt;/a&gt;，2020 年发布的最新徽标与 openSUSE 的徽标完全不同。然而，SUSE 和 openSUSE 的品牌经常会让人混淆，因为他们不了解开源公司 SUSE 和开源社区项目 openSUSE 之间的关系。&lt;/p&gt;
-
-&lt;p&gt;为了减少这种交叉品牌的混淆，openSUSE 社区希望创建一个独特的品牌标识，但又能帮助区分公司和社区项目，因此举办了以变色龙为灵感的&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2023/11/25/vote.html&quot;&gt;徽标设计大赛&lt;/a&gt;。不同的徽标是帮助人们识别两个品牌之间区别的第一步，应该可以缓解社区项目中已经出现或可能出现的问题，避免这些问题渗入公司的品牌识别中。&lt;/p&gt;
-
-&lt;p&gt;新徽标旨在为 openSUSE 创建一个独特的标识，使其与 SUSE 有更清晰的区分。新标识有望与 SUSE 的品牌标识区分开来，并与其发行版的标识风格相似。&lt;/p&gt;
-
-&lt;p&gt;徽标竞赛结束后的下一步工作是在 12 月 12 日 14:30（世界协调时）的 &lt;a href=&quot;https://etherpad.opensuse.org/p/weeklymeeting&quot;&gt;openSUSE 社区会议&lt;/a&gt;上讨论获奖作品。欢迎大家参加并讨论结果以及项目应如何推进设计。&lt;/p&gt;
-
-&lt;p&gt;新徽标公布后，旧的 Geeko 徽标将在贴纸和其他营销材料中与新徽标同时使用，以过渡到新徽标。在使用旧徽标的同时引入新徽标，有助于用户逐步适应新标识。&lt;/p&gt;
-
-&lt;p&gt;在过渡期间，社区成员可能会在桌布、服装和其他服饰上看到新标识，这将使这些物品成为独一无二的收藏品。社区成员可以通过参加开源活动来宣传新徽标，并在&lt;a href=&quot;https://en.opensuse.org/openSUSE:Organising_a_booth#Events&quot;&gt;多个活动&lt;/a&gt;中&lt;a href=&quot;https://en.opensuse.org/openSUSE:Organising_a_booth&quot;&gt;组织一个展台&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;社区中对新选定的徽标有反馈意见的人可以向 openSUSE 项目的&lt;a href=&quot;https://lists.opensuse.org/archives/list/artwork@lists.opensuse.org/&quot;&gt;艺术品邮件列表&lt;/a&gt;发送电子邮件，或在 openSUSE 项目营销团队的 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 群组&lt;/a&gt;中进行讨论。&lt;/p&gt;
-
-&lt;p&gt;负责品牌更改和维护的人员对任何更改都有发言权。最终的品牌决定将由负责实施的项目成员做出，但本次徽标竞赛的结果将为整个品牌识别项目提供一个表达意见的平台。&lt;/p&gt;
-
-&lt;p&gt;立即前往 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;Survey.opensuse.org&lt;/a&gt; 投票。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2023/12/05/journey-of-os-rebrand/&quot;&gt;The Transitional Journey of openSUSE’s Logo Rebranding&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
