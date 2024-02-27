@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/25/summit.html</guid>
+      <title>柏林峰会社区计划</title>
+      <pubDate>Sun, 25 Feb 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/25/summit.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 社区将于 6 月 19 日前往柏林参加与 SUSE 年度全球技术大会 SUSECON 相关的社区峰会。 该活动的注册和话题征集已开始，截止日期为 5 月 29 日。我们鼓励 SUSE、openSUSE、开源社区项目的合作伙伴和社区成员报名参加峰会并提交演讲稿。 社区峰会日程将于 5 月 30 日发布。 峰会分为社区赛道和开源赛道。与会者可以向峰会提交两种类型的会谈。一种是 15 分钟以内的简短演讲，另一种是 30 分钟以内的标准演讲。 我们也欢迎 SUSECON 的与会者参加并提交演讲。社区峰会是一项免费的社区活动，将在 SUSECON 的最后一天举行。 峰会将在纽伦堡 openSUSE 大会前一周举行，因此 SUSECON 与会者应考虑留下来参加 openSUSE 项目的年度大会并提交技术演讲。对于中小型企业，6 月 26 日将在纽伦堡 SUSE 办事处附近举办一次为期 4 小时的 Open 4 Business 交流活动。 如对峰会有任何疑问，请联系...</description>
+      <content:encoded>&lt;p&gt;openSUSE 社区将于 6 月 19 日前往柏林参加与 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 年度全球技术大会 &lt;a href=&quot;https://www.suse.com/susecon/&quot;&gt;SUSECON&lt;/a&gt; 相关的&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;社区峰会&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;该活动的注册和话题征集已开始，截止日期为 5 月 29 日。我们鼓励 SUSE、openSUSE、开源社区项目的合作伙伴和社区成员报名参加峰会并提交演讲稿。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;社区峰会&lt;/a&gt;日程将于 5 月 30 日发布。&lt;/p&gt;
+
+&lt;p&gt;峰会分为社区赛道和开源赛道。与会者可以向峰会提交两种类型的会谈。一种是 15 分钟以内的简短演讲，另一种是 30 分钟以内的标准演讲。&lt;/p&gt;
+
+&lt;p&gt;我们也欢迎 SUSECON 的与会者参加并提交演讲。社区峰会是一项免费的社区活动，将在 SUSECON 的最后一天举行。&lt;/p&gt;
+
+&lt;p&gt;峰会将在纽伦堡 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;前一周举行，因此 SUSECON 与会者应考虑留下来参加 openSUSE 项目的年度大会并提交技术演讲。对于中小型企业，6 月 26 日将在纽伦堡 SUSE 办事处附近举办一次为期 4 小时的 &lt;a href=&quot;https://news.opensuse.org/2024/01/12/conference-adds-business-focused-networking-event/&quot;&gt;Open 4 Business&lt;/a&gt; 交流活动。&lt;/p&gt;
+
+&lt;p&gt;如对峰会有任何疑问，请联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ddemaio@opensuse.org&lt;/code&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/26/community-summit-berlin/&quot;&gt;Community Plans for Summit in Berlin&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/22/uyuni.html</guid>
       <title>参与 Uyuni 社区活动</title>
       <pubDate>Thu, 22 Feb 2024 19:40:00 +0000</pubDate>
@@ -497,46 +524,6 @@ Hello WebAssembly!
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/12/conference-adds-business-focused-networking-event/&quot;&gt;Conference Adds Business Focused Networking Event&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/08/workshop-of-gsoc.html</guid>
-      <title>openSUSE 项目将举办导师申请研讨会</title>
-      <pubDate>Mon, 08 Jan 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/08/workshop-of-gsoc.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目将于世界标准时间 1 月 16 日 15:30 在 meet.opensuse.org/meeting 上举办研讨会，重点关注今年的谷歌编程之夏申请和指导工作。
-
-openSUSE 项目在参与 GSoC 方面有着悠久的传统，我们希望作为导师参与活动的社区成员应出席会议，或通过在 openSUSE 的 GitHub Mentoring 项目上打开一个问题来更新他们希望在 101.opensuse.org 上列出的项目。
-
-研讨会将在 openSUSE 社区会议之后举行，以确定今年申请的项目数量，申请时间为 1 月 22 日至 2 月 6 日。
-
-在管理员提交 GSoC 申请之前，研讨会将为导师和希望参与指导工作的人员提供足够的时间来描述几个项目构想。
-
-我们鼓励参与者在研讨会前在活动的 etherpad 上创建一些项目构想的大纲。
-
-参加过往届谷歌编程之夏项目的导师和管理员将出席研讨会。
-
-
-
-原文：Project to have Workshop for Mentorship Application，作者：	Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目将于世界标准时间 1 月 16 日 15:30 在 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;meet.opensuse.org/meeting&lt;/a&gt; 上举办研讨会，重点关注今年的&lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;谷歌编程之夏&lt;/a&gt;申请和指导工作。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目在参与 GSoC 方面有着悠久的传统，我们希望作为导师参与活动的社区成员应出席会议，或通过在 openSUSE 的 &lt;a href=&quot;https://github.com/openSUSE/mentoring&quot;&gt;GitHub Mentoring&lt;/a&gt; 项目上打开一个问题来更新他们希望在 &lt;a href=&quot;https://101.opensuse.org/&quot;&gt;101.opensuse.org&lt;/a&gt; 上列出的项目。&lt;/p&gt;
-
-&lt;p&gt;研讨会将在 &lt;a href=&quot;https://calendar.opensuse.org/teams/marketing/events/tuesday_weekly_meeting&quot;&gt;openSUSE 社区会议&lt;/a&gt;之后举行，以确定今年申请的项目数量，申请时间为 1 月 22 日至 2 月 6 日。&lt;/p&gt;
-
-&lt;p&gt;在管理员提交 GSoC 申请之前，研讨会将为导师和希望参与指导工作的人员提供足够的时间来描述几个项目构想。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励参与者在研讨会前在活动的 &lt;a href=&quot;https://etherpad.opensuse.org/p/GSoC2024WS&quot;&gt;etherpad&lt;/a&gt; 上创建一些项目构想的大纲。&lt;/p&gt;
-
-&lt;p&gt;参加过往届谷歌编程之夏项目的导师和管理员将出席研讨会。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/09/project-plans-workshop-for-gsoc-mentorship/&quot;&gt;Project to have Workshop for Mentorship Application&lt;/a&gt;，作者：	Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
