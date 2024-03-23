@@ -7,6 +7,98 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/23/plasma.html</guid>
+      <title>openSUSE 正式搭载 Plasma 6</title>
+      <pubDate>Sat, 23 Mar 2024 06:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/23/plasma.html</link>
+      <author>Poplar at twilight</author>
+      <description>KDE Plasma 6 版本更新发布时，大家都很兴奋，openSUSE Tumbleweed 和 Kalpa 现在已经向用户发布了 MegaRelease，Slowroll 的推送更新也在进展中。 滚动发行版用户和开发者社区获得的升级标志着 KDE 桌面用户的重大转变。Slowroll 将在四月（预计在 4 月 2 日至 4 月 14 日）的滚动更新中发布此版本，因为该发行版旨在以稳定的节奏进行版本升级。 Plasma 5 发布近十年后，Plasma 6 的桌面体验开始了。这一转变不仅标志着美学和功能上的进步，也彰显了 openSUSE 为用户提供这一备受期待的技术的承诺。 Plasma 6 引入了大量改进和功能，以满足从精通技术的发烧友到普通用户的不同用户需求。此次更新的主要变化是过渡到最新的 Qt 应用程序框架，以及迁移到 Wayland 显示服务器协议，并将其设置为默认图形会话。不过，目前值得注意的是，Wayland 会话还不是 Tumbleweed 的默认会话；这一决定允许用户和开发人员分辨遇到的问题是源于 Plasma 6 本身还是 Wayland 会话。Tumbleweed 基于 KDE 桌面的衍生分支 Kalpa 计划默认切换到 Wayland...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://kde.org/announcements/megarelease/6/&quot;&gt;KDE Plasma 6&lt;/a&gt; 版本更新发布时，大家都很兴奋，openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;Kalpa&lt;/a&gt; 现在已经向用户发布了 &lt;a href=&quot;https://kde.org/announcements/megarelease/6/&quot;&gt;MegaRelease&lt;/a&gt;，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;Slowroll&lt;/a&gt; 的推送更新也在进展中。&lt;/p&gt;
+
+&lt;p&gt;滚动发行版用户和开发者社区获得的升级标志着 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 桌面用户的重大转变。Slowroll 将在四月（预计在 4 月 2 日至 4 月 14 日）的滚动更新中发布此版本，因为该发行版旨在以稳定的节奏进行版本升级。&lt;/p&gt;
+
+&lt;p&gt;Plasma 5 发布近十年后，Plasma 6 的桌面体验开始了。这一转变不仅标志着美学和功能上的进步，也彰显了 openSUSE 为用户提供这一备受期待的技术的承诺。&lt;/p&gt;
+
+&lt;p&gt;Plasma 6 引入了大量改进和功能，以满足从精通技术的发烧友到普通用户的不同用户需求。此次更新的主要变化是过渡到最新的 &lt;a href=&quot;https://www.qt.io/product/qt6&quot;&gt;Qt&lt;/a&gt; 应用程序框架，以及迁移到 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 显示服务器协议，并将其设置为默认图形会话。不过，目前值得注意的是，Wayland 会话还不是 Tumbleweed 的默认会话；这一决定允许用户和开发人员分辨遇到的问题是源于 Plasma 6 本身还是 Wayland 会话。Tumbleweed 基于 KDE 桌面的衍生分支 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;Kalpa&lt;/a&gt; 计划默认切换到 Wayland 会话。&lt;/p&gt;
+
+&lt;p&gt;开发工作包括增强安全性、提高性能和改进对现代硬件的支持。&lt;/p&gt;
+
+&lt;p&gt;尽管有这些重大变化，用户还是会发现 Plasma 6 环境很熟悉，它保留了经典的 KDE 外观和感觉，同时为未来的创新奠定了基础。&lt;/p&gt;
+
+&lt;p&gt;新版本拥有概览和桌面网格特效等功能；它改进了触摸板手势，并在 Wayland 上部分支持&lt;a href=&quot;https://en.wikipedia.org/wiki/High_dynamic_range&quot;&gt;高动态范围&lt;/a&gt;（HDR），与新的 “Scarlet Tree” 壁纸相结合，将桌面转变为充满活力和动态的工作空间。&lt;/p&gt;
+
+&lt;p&gt;Plasma 6 引入了旨在增强用户体验的变化，包括默认设置的改变。值得注意的是，它采用了单击操作来选择文件和文件夹，双击操作来打开它们。虽然单击操作简化了打开过程，但对于习惯于其他系统的用户来说可能不太直观，而且可能会使选择多个项目的操作复杂化。而双击对于从不同系统迁移过来的用户来说更为熟悉，而且在选择项目时提供了已知的可用性。&lt;/p&gt;
+
+&lt;p&gt;虽然向 Plasma 6 过渡会带来一系列好处，但快照中也发现了一些小问题。但没有严重到需要推迟发布的程度。&lt;/p&gt;
+
+&lt;p&gt;这些已知问题包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;新安装的 GTK 主题设置：有些用户可能会发现 GTK 主题设置不正确。解决方法包括在系统设置中手动设置或运行 “kded5” 一次。&lt;/li&gt;
+  &lt;li&gt;为升级切换启动器图标：升级系统的用户可能会注意到启动器图标默认为 Plasma 图标。这可以通过将图标更改为 “start-here-branding” 来手动调整。&lt;/li&gt;
+  &lt;li&gt;从旧系统升级：从 Leap 15.3 或更旧版本升级的用户会受到一个已知问题的影响，该问题与一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libksysguard5-helper&lt;/code&gt; 的软件包有关。建议的解决方案是选择卸载有问题的软件包。&lt;/li&gt;
+  &lt;li&gt;Plasmashell 启动延迟： 如果安装了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;kdeconnect-kde&lt;/code&gt;，没有蓝牙硬件的用户在启动 Plasmashell 时可能会出现延迟，可通过禁用 KDE Connect 系统托盘图标来缓解这一问题。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;随着 openSUSE 与 Plasma 6 的不断发展，Tumbleweed、Kalpa 和 Slowroll 将继续致力于为全球开源社区提供新鲜、稳定和更新的系统。&lt;/p&gt;
+
+&lt;p&gt;openSUSE KDE 打包团队鼓励用户拥抱这个新阶段，探索 Plasma 6 的丰富功能，并提供反馈意见以帮助完善未来的版本。Plasma 6 的冒险才刚刚开始，我们邀请大家参与到开源软件的开发中来，在进入桌面计算新时代的旅程中“尽情享受乐趣”。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/22/plasma-arrives-in-os-distributions/&quot;&gt;Plasma Arrives in openSUSE’s Releases&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/03/17/doo.html</guid>
+      <title>下载重定向器的生活质量改进</title>
+      <pubDate>Sun, 17 Mar 2024 19:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/03/17/doo.html</link>
+      <author>Poplar at twilight</author>
+      <description>下载重定向器获得了一些生活质量方面的改进，详见下文。 项目 下载网站的主菜单现在有了一个名为 “Projects” 项目。此表定义了如何收集附加统计信息以及如何在各种报告（例如镜像报告和下载报告）中查看附加统计信息。 镜像传播 上述项目收集了镜像传播（Mirror propagation）的时间。要访问它，请点击前面提到的表格中相应的项目，如 Tumbleweed ISO。该视图将显示随着时间推移发现可用镜像的情况。 此外，单击 “version” 列中的值将显示有关何时在特定镜像上发现更新的详细信息，例如 20240310 版本。 镜像报告的 slowroll 我们已将 Slowroll 作为项目添加报告中：ISO 和 repo，因此现在可以在镜像报告中看到。我们也会收集相关的镜像传播。 下载软件包的工具：sypper 作为镜像基础架构基准测试和原型开发的一部分，我们开发了一个新工具 sypper。虽然它的预期用途有点不同，但也可用于为 zypper 预下载软件包。基准测试表明，通过使用并发下载和跳过一些高级检查，它的下载速度比 zypper 快 4 - 5 倍。因此，如果你想试试下载速度，请查看 readme 文件。 github software.opensuse.org 反馈 如需最终反馈，请在相应的 github 项目中提出问题或使用任何 openSUSE heroes 频道。 原文：QoL improvements for the Download Redirector，作者：Andrii...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://download.opensuse.org/&quot;&gt;下载重定向器&lt;/a&gt;获得了一些&lt;a href=&quot;https://en.wikipedia.org/wiki/Quality_of_life&quot;&gt;生活质量&lt;/a&gt;方面的改进，详见下文。&lt;/p&gt;
+
+&lt;h2 id=&quot;项目&quot;&gt;项目&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://downloads.opensuse.org/&quot;&gt;下载网站&lt;/a&gt;的主菜单现在有了一个名为 “&lt;a href=&quot;https://download.opensuse.org/app/project&quot;&gt;Projects&lt;/a&gt;” 项目。此表定义了如何收集附加统计信息以及如何在各种报告（例如&lt;a href=&quot;https://mirrors.opensuse.org/&quot;&gt;镜像报告&lt;/a&gt;和&lt;a href=&quot;https://download.opensuse.org/report/download?group=project&quot;&gt;下载报告&lt;/a&gt;）中查看附加统计信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2024-03/download-redirector-1-projects.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;镜像传播&quot;&gt;镜像传播&lt;/h2&gt;
+
+&lt;p&gt;上述项目收集了镜像传播（Mirror propagation）的时间。要访问它，请点击前面提到的表格中相应的项目，如 &lt;a href=&quot;https://download.opensuse.org/app/project/2&quot;&gt;Tumbleweed ISO&lt;/a&gt;。该视图将显示随着时间推移发现可用镜像的情况。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2024-03/download-redirector-2-propagation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;此外，单击 “version” 列中的值将显示有关何时在特定镜像上发现更新的详细信息，例如 &lt;a href=&quot;https://download.opensuse.org/app/rollout_server/20240310&quot;&gt;20240310 版本&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2024-03/download-redirector-3-propagation-mirrors.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;镜像报告的-slowroll&quot;&gt;镜像报告的 slowroll&lt;/h2&gt;
+
+&lt;p&gt;我们已将 Slowroll 作为项目添加报告中：&lt;a href=&quot;https://download.opensuse.org/app/project/30&quot;&gt;ISO&lt;/a&gt; 和 &lt;a href=&quot;https://download.opensuse.org/app/project/31&quot;&gt;repo&lt;/a&gt;，因此现在可以在&lt;a href=&quot;https://mirrors.opensuse.org/&quot;&gt;镜像报告&lt;/a&gt;中看到。我们也会&lt;a href=&quot;https://download.opensuse.org/app/project/30&quot;&gt;收集&lt;/a&gt;相关的镜像传播。&lt;/p&gt;
+
+&lt;h2 id=&quot;下载软件包的工具sypper&quot;&gt;下载软件包的工具：sypper&lt;/h2&gt;
+
+&lt;p&gt;作为镜像基础架构基准测试和原型开发的一部分，我们开发了一个新工具 sypper。虽然它的预期用途有点不同，但也可用于为 zypper 预下载软件包。基准测试表明，通过使用并发下载和跳过一些高级检查，它的下载速度比 zypper 快 4 - 5 倍。因此，如果你想试试下载速度，请查看 &lt;a href=&quot;https://github.com/andrii-suse/sypper/blob/master/README.md&quot;&gt;readme&lt;/a&gt; 文件。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/andrii-suse/sypper&quot;&gt;github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://software.opensuse.org/package/sypper?search_term=sypper&quot;&gt;software.opensuse.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;反馈&quot;&gt;反馈&lt;/h2&gt;
+
+&lt;p&gt;如需最终反馈，请在相应的 github 项目中提出问题或使用任何 openSUSE heroes 频道。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/14/qol-improvements-for-the-download-redirector/&quot;&gt;QoL improvements for the Download Redirector&lt;/a&gt;，作者：Andrii Nikitin&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/07/leap-15.6.html</guid>
       <title>Leap 15.6 进入 Beta 阶段</title>
       <pubDate>Thu, 07 Mar 2024 19:40:00 +0000</pubDate>
@@ -412,218 +504,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/30/osc-travel-info/&quot;&gt;openSUSE Conference Travel Info&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/01/26/slowroll-update.html</guid>
-      <title>openSUSE Tumbleweed 每月更新 - 一月</title>
-      <pubDate>Fri, 26 Jan 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/01/26/slowroll-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>欢迎阅读 openSUSE Tumbleweed 2024 年 1 月的月度更新。根据 openSUSE 营销人员的建议，这将是今后的新格式。这些更新将重点介绍 openSUSE Tumbleweed 在整个月中的主要变更、改进和关键问题。目的是让社区和用户了解发行版的发展和更新情况。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 openSUSE Factory 邮件列表。 新特性和增强 Linux 内核：更新至 6.6.7、6.6.9、6.6.10、6.6.11 和 6.7.1 版本。 已修复内存管理和安全漏洞，增强整体系统安全性。 支持新的硬件型号 PCI：增加了 ACS 特性，以提供更多兆芯根端口，增强兆芯 CPU 和主板的兼容性和性能。 ALSA（高级 Linux 声音架构）：为 Lenovo Legion Slim 7 Gen 8 系列添加了 cs35l41 的驱动程序属性，并引入了对不带 _DSD 的其他戴尔型号的支持，以及对 HP Envy X360 13-ay0xxx...</description>
-      <content:encoded>&lt;p&gt;欢迎阅读 openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 2024 年 1 月的月度更新。根据 openSUSE 营销人员的建议，这将是今后的新格式。这些更新将重点介绍 openSUSE Tumbleweed 在整个月中的主要变更、改进和关键问题。目的是让社区和用户了解发行版的发展和更新情况。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;新特性和增强&quot;&gt;新特性和增强&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;：更新至 6.6.7、6.6.9、6.6.10、6.6.11 和 6.7.1 版本。
-    &lt;ul&gt;
-      &lt;li&gt;已修复内存管理和安全漏洞，增强整体系统安全性。&lt;/li&gt;
-      &lt;li&gt;支持新的硬件型号
-        &lt;ul&gt;
-          &lt;li&gt;PCI：增加了 ACS 特性，以提供更多兆芯根端口，增强兆芯 CPU 和主板的兼容性和性能。&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt;（高级 Linux 声音架构）：为 Lenovo Legion Slim 7 Gen 8 系列添加了 cs35l41 的驱动程序属性，并引入了对不带 _DSD 的其他戴尔型号的支持，以及对 HP Envy X360 13-ay0xxx 的静音和麦克风静音 LED 的修复，这表明笔记本电脑中的声音硬件具有更广泛的兼容性。&lt;/li&gt;
-          &lt;li&gt;LED：ledtrig-tty 模块会在停用时接收对空闲分配的 ttyname 缓冲区的更新，从而影响终端活动的 LED 触发处理方式。&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt;：更新至 121.0 和 121.0.1 版本
-    &lt;ul&gt;
-      &lt;li&gt;该更新解决了一个导致 Firefox 在加载基于列布局的网站时挂起的错误，从而提高了稳定性和性能。&lt;/li&gt;
-      &lt;li&gt;已应用的修复程序可确保视频的圆角效果，并能正确关闭火狐浏览器，防止 USB 安全密钥与其他应用程序发生冲突。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.114.0/&quot;&gt;KDE Frameworks&lt;/a&gt;：更新至 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.114.0/&quot;&gt;5.114.0&lt;/a&gt; 版本
-    &lt;ul&gt;
-      &lt;li&gt;重要更新包括 Extra CMake Modules 中的修复、KHolidays 中肯尼亚节假日的引入以及 KImageFormats 中 AVIF 的质量设置调整。&lt;/li&gt;
-      &lt;li&gt;对 &lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 中处理格式错误的 Exec 条目的关键功能进行了改进，增强了 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 的可访问性，并修复了 KJobWidgets 的稳定性，以防止出现潜在的释放后使用错误。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;：更新至 23.3.3 版本
-    &lt;ul&gt;
-      &lt;li&gt;重点关注 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.6 版本修复和驱动程序支持增强。&lt;/li&gt;
-      &lt;li&gt;该版本引入了 &lt;a href=&quot;https://www.collabora.com/news-and-blog/news-and-events/introducing-nvk.html&quot;&gt;NVK&lt;/a&gt;，这是一种适用于 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 硬件的新 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 驱动程序，这标志着对 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; GPU 的支持向前迈出了一步，但仍处于实验阶段。&lt;/li&gt;
-      &lt;li&gt;提高图形性能和兼容性 Asahi 和 RADV，增强 OpenGL ES 和 Vulkan 功能&lt;/li&gt;
-      &lt;li&gt;引入关键更新，如 Mesa-dri 对 libvulkan1 的依赖，以支持 zink/swrast 驱动程序回退，从而进一步改善图形应用程序和游戏的整体用户体验。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;：更新至 254.8 版本
-    &lt;ul&gt;
-      &lt;li&gt;还原与 udev 设备节点更新和问题解决方法相关的补丁。采取谨慎的方法修复报告的 bug，并确保设备管理系统的稳定性。&lt;/li&gt;
-      &lt;li&gt;对 udev 的调整确保了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%_modulesloaddir&lt;/code&gt; 的正确存在和所有权，便于其他软件包更顺畅地安装模块，从而改进了系统配置和模块管理。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.php.net/&quot;&gt;PHP&lt;/a&gt;：从 8.2.14 版本更新到 8.2.15 版本
-    &lt;ul&gt;
-      &lt;li&gt;修正了 SSA 完整性验证失败的误报，并解决了交叉编译时 Autoconf 警告的问题。&lt;/li&gt;
-      &lt;li&gt;CLI 内置网络服务器现在能在使用路由器脚本和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;max_input_time&lt;/code&gt; 时正确处理超时。&lt;/li&gt;
-      &lt;li&gt;修复了将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Stream_wrapper_register&lt;/code&gt; 与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FFI\CData&lt;/code&gt; 一起使用时的崩溃以及 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FFI::new&lt;/code&gt; 和观察者之间的交互问题。&lt;/li&gt;
-      &lt;li&gt;IntlDateFormatter 现在能正确接受 “C” 作为有效的本地语言。&lt;/li&gt;
-      &lt;li&gt;解决了使用 sha512 处理大字符串时 Hash 扩展中的挂起问题。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt;：更新至 1.22.8 版本
-    &lt;ul&gt;
-      &lt;li&gt;解决 AV1 视频编解码器解析器中的漏洞。&lt;/li&gt;
-      &lt;li&gt;修复包括使用 &lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;FFmpeg&lt;/a&gt; 6.1 解决 avdec 视频解码器中的潜在死锁&lt;/li&gt;
-      &lt;li&gt;改进了反向播放和在 qtdemux 中查找具有原始音频流的文件&lt;/li&gt;
-      &lt;li&gt;增强了 GstPlay 和 GstPlayer 库&lt;/li&gt;
-      &lt;li&gt;更新了 Cerbero 构建工具以解决 python 3.12 字符串转义警告&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.samba.org/&quot;&gt;Samba&lt;/a&gt;：更新至 4.19.4 版本
-    &lt;ul&gt;
-      &lt;li&gt;解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net changesecretpw&lt;/code&gt; 无法在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;secrets.tdb&lt;/code&gt; 为空的情况下设置计算机帐户密码的问题、&lt;/li&gt;
-      &lt;li&gt;改进了有关 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XML_CATALOG_FILES&lt;/code&gt; 环境变量的文档生成。&lt;/li&gt;
-      &lt;li&gt;解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smbd&lt;/code&gt; 未检测到用于多通道排除的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ctdb&lt;/code&gt; 公共 IPv6 地址的问题，以及当 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;allow trusted domains = no&lt;/code&gt; 时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;force user = localunixuser&lt;/code&gt; 设置无效的问题。&lt;/li&gt;
-      &lt;li&gt;解决了关键漏洞和错误，例如 AD LDAP 中对普通用户可见的已删除对象逻辑删除 &lt;a href=&quot;https://www.samba.org/samba/security/CVE-2018-14628.html&quot;&gt;CVE-2018-14628&lt;/a&gt;，以及各种 smbget 身份验证和功能修复，增强了安全性和用户体验。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;安全更新&quot;&gt;安全更新&lt;/h2&gt;
-
-&lt;p&gt;本月的更新包括各种软件包的重要安全补丁。在 Firefox、systemd、Samba 和 PHP 更新中集成了值得注意的安全改进。&lt;/p&gt;
-
-&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://xorg.freedesktop.org/wiki/&quot;&gt;xorg-x11-server&lt;/a&gt; 21.1.11 和 &lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 23.2.4：这些更新解决了多个 CVE，提高了显示服务器协议的安全性和稳定性。用户可以在&lt;a href=&quot;https://lists.x.org/archives/xorg/2024-January/061525.html&quot;&gt;安全通报&lt;/a&gt;中找到此 CVE 的列表。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.8.3：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-0553.html&quot;&gt;CVE-2024-0553&lt;/a&gt; 是一个漏洞，允许在 RSA-PSK 中进行定时攻击，存在数据泄露的风险，并且更新包修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-0567.html&quot;&gt;CVE-2024-0567&lt;/a&gt;，这是 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;cockpit&lt;/a&gt; 证书验证中的一个缺陷，可实现远程拒绝服务攻击。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://openjdk.org/projects/jdk/11/&quot;&gt;java-11-openjdk&lt;/a&gt; 11.0.22.0：多个 CVE。 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20919.html&quot;&gt;CVE-2024-20919&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20926.html&quot;&gt;CVE-2024-20926&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20921.html&quot;&gt;CVE-2024-20921&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20918.html&quot;&gt;CVE-2024-20918&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20945.html&quot;&gt;CVE-2024-20945&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20952.html&quot;&gt;CVE-2024-20952&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.samba.org/&quot;&gt;samba&lt;/a&gt; 4.19.4：&lt;a href=&quot;https://www.samba.org/samba/security/CVE-2018-14628.html&quot;&gt;CVE-2018-14628&lt;/a&gt; 经过身份验证但无特权的攻击者可能会发现 LDAP 存储中已删除对象的名称和保留的属性。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/Jinja2/&quot;&gt;python-Jinja2&lt;/a&gt; 3.1.3：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22195.html&quot;&gt;CVE-2024-22195&lt;/a&gt; 是一个漏洞，其中 xmlattr 过滤器不正确地允许包含空格的密钥，使攻击者能够通过用户输入注入有害属性。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/linux-rdma/rdma-core&quot;&gt;rdma-core&lt;/a&gt; 49.1：虽然没有提及更新中解决的具体 CVE，但该更新是定期维护的一部分，以确保稳定性和安全性。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
-
-&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;我们将继续完善和增强这一形式。我们期待 openSUSE Tumbleweed 的开发和社区参与又一个激动人心的一年。下周在 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM&lt;/a&gt; 与大家见面。祝玩得愉快！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/26/tw-monthly-update-jan/&quot;&gt;openSUSE Tumbleweed Monthly Update - January&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/21/podman.html</guid>
-      <title>使用 Podman 运行 WebAssembly 工作负载</title>
-      <pubDate>Sun, 21 Jan 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/21/podman.html</link>
-      <author>Poplar at twilight</author>
-      <description>WebAssembly（缩写为 Wasm）是一种可移植的二进制指令格式。它作为一种支持在Web 上部署客户端和服务器应用程序的编译目标的可移植性而广受欢迎。 我们可以通过结合 crun 和 Podman，利用 Wasm 的可移植性与 Linux 容器一起运行 Wasm 工作负载。crun 支持使用 WasmEdge、Wasmtime 或 Wasmer 运行时运行 Wasm 工作负载。虽然 Podman 使用为 runc，但 runc 和 crun 可以互换使用。 WasmEdge 是一个轻量级、高性能且可扩展的 WebAssembly 运行时，适用于云原生和边缘应用程序。WasmEdge 最近被添加到 openSUSE Tumbleweed 中，如果我们启用 crun 中的一项实验功能，就能在容器上支持 Wasm 工作负载。 现在，我们在 openSUSE Tumbleweed 中拥有了 WasmEdge，并且 crun 实验支持 Wasm 工作负载，我们可以在 Podman 上运行...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WebAssembly&lt;/a&gt;（缩写为 Wasm）是一种可移植的二进制指令格式。它作为一种支持在Web 上部署客户端和服务器应用程序的编译目标的可移植性而广受欢迎。&lt;/p&gt;
-
-&lt;p&gt;我们可以通过结合 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 和 &lt;a href=&quot;https://podman.io/&quot;&gt;Podman&lt;/a&gt;，利用 Wasm 的可移植性与 Linux 容器一起运行 Wasm 工作负载。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 支持使用 &lt;a href=&quot;https://wasmedge.org/&quot;&gt;WasmEdge&lt;/a&gt;、&lt;a href=&quot;https://wasmtime.dev/&quot;&gt;Wasmtime&lt;/a&gt; 或 &lt;a href=&quot;https://wasmer.io/&quot;&gt;Wasmer&lt;/a&gt; 运行时运行 Wasm 工作负载。虽然 Podman 使用为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt;，但 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 可以互换使用。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://wasmedge.org/&quot;&gt;WasmEdge&lt;/a&gt; 是一个轻量级、高性能且可扩展的 WebAssembly 运行时，适用于云原生和边缘应用程序。WasmEdge 最近被添加到 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 中，如果我们启用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 中的一项实验功能，就能在容器上支持 Wasm 工作负载。&lt;/p&gt;
-
-&lt;p&gt;现在，我们在 openSUSE Tumbleweed 中拥有了 WasmEdge，并且 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 实验支持 Wasm 工作负载，我们可以在 Podman 上运行 WebAssembly 工作负载。&lt;/p&gt;
-
-&lt;h2 id=&quot;准备环境&quot;&gt;准备环境&lt;/h2&gt;
-
-&lt;p&gt;我们首先需要在 Podman 的默认 OCI 运行时中将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 安装为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;runc&lt;/code&gt;。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zypper in crun
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;安装 crun 后，检查是否有 Wasm 支持。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ crun -v
-crun version 1.9
-commit: a538ac4ea1ff319bcfe2bf81cb5c6f687e2dc9d3
-rundir: /run/user/1000/crun
-spec: 1.0.0
-+SYSTEMD +SELINUX +APPARMOR +CAP +SECCOMP +EBPF +CRIU +LIBKRUN +WASM:wasmedge +YAJL
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;在上面的输出中，我们可以看到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;crun&lt;/code&gt; 支持 WasmEdge (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+WASM:wasmedge&lt;/code&gt;)。&lt;/p&gt;
-
-&lt;h2 id=&quot;准备应用&quot;&gt;准备应用&lt;/h2&gt;
-
-&lt;p&gt;我们将用 Rust 创建一个简单的 “Hello” 应用程序。&lt;/p&gt;
-
-&lt;p&gt;首先，确保安装了 Rust 和 WasmEdge。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;zypper in rust wasmedge
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;现在让我们用 Rust 创建 “Hello” 应用程序。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cargo new hello --bin
-$ cd hello
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/main.rs&lt;/code&gt; 中的消息更改为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hello WebAssembly!&lt;/code&gt; 或你想要的任何其他消息。&lt;/p&gt;
-
-&lt;p&gt;现在让我们编译我们的应用程序，但目标机器将是 Wasm。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cargo build --target wasm32-wasi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;我们现在可以执行刚刚编译的二进制文件并检查它是否按预期工作。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ wasmedge run target/wasm32-wasi/debug/hello.wasm
-Hello WebAssembly!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;你已成功构建 Wasm 应用程序。&lt;/p&gt;
-
-&lt;h2 id=&quot;创建-wasm-容器&quot;&gt;创建 Wasm 容器&lt;/h2&gt;
-
-&lt;p&gt;有了 Wasm 二进制文件，我们将其添加到容器中。&lt;/p&gt;
-
-&lt;p&gt;创建一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Containerfile&lt;/code&gt; 的文件并向其中添加以下内容：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM scratch
-COPY target/wasm32-wasi/debug/hello.wasm /
-CMD [&quot;/hello.wasm&quot;]
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;让我们使用 Buildah 构建 Wasm 容器。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ buildah build --platform=wasi/wasm -t hello-wasm .
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;现在你应该有一个 Wasm 容器了。&lt;/p&gt;
-
-&lt;h2 id=&quot;运行-wasm-工作负载&quot;&gt;运行 Wasm 工作负载&lt;/h2&gt;
-
-&lt;p&gt;让我们使用 Podman 运行 Wasm 容器。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ podman run --rm hello-wasm
-Hello WebAssembly!
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;太棒了，我们有一个可用的 Wasm 容器。&lt;/p&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;WebAssembly 是一个相当新的话题，但它已经获得了很多关注，因为你可以重复使用你已经知道或使用的大部分内容，并轻松地移植应用程序。&lt;/p&gt;
-
-&lt;p&gt;运行原生 Wasm 容器是这种格式的可移植性的另一个例子。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/19/podman-wasm-support/&quot;&gt;Running WebAssembly workloads with Podman&lt;/a&gt;，作者：Alexandre Vicenzi&lt;/p&gt;
 </content:encoded>
     </item>
 
