@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/26/gnome.html</guid>
+      <title>GNOME 46 登录 openSUSE</title>
+      <pubDate>Tue, 26 Mar 2024 06:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/26/gnome.html</link>
+      <author>Poplar at twilight</author>
+      <description>对于 openSUSE Tumbleweed 用户来说，3 月份是令人兴奋的一个月，因为 GNOME 46 也像几周前的 KDE Plasma 6 一样登录了 Tumbleweed。 不仅使用 Tumbleweed 的 GNOME 用户和开发者获得了更新，衍生分支 Aeon Desktop 也获得了升级。Slowroll 分支可能会在 4 月 2 日至 4 月 14 日之间进行更新。 代号为 “Kathmandu” 的 GNOME 46 旨在向 GNOME.Asia 2023 组织者的贡献致敬，并具有重大改进和新功能。GNOME 46 中的一个突出功能是文件应用程序中的新全局搜索功能。该功能可让用户直接在所有配置的位置进行搜索，还增加了文件类型和修改日期过滤器，进一步完善了该工具。 文件应用进行了重大改版，允许在列表和网格模式之间即时切换视图。此外，它还进行了其他一些小的改进，如增强了网络发现功能和网格视图中的星级收藏夹，从而提高了文件管理效率。 新的远程登录选项增强了 GNOME 的远程桌面功能，从而改善了远程配置和用户体验。 辅助功能已取得显着进步，尤其是 Orca 屏幕阅读器，它现在包括新的睡眠模式和系统状态报告。此外，高对比度模式的一致性也得到了提高，并且新的设置使开关切换更加清晰。 其他更改包括设置应用程序，该应用程序已经过重新组织和更新，以便于导航。新的触摸板设置值得注意，包括二次点击的配置，旨在增强用户交互和便利性。 系统更新包括刷新的用户头像、改进的通知以及默认启用的点击点击功能。软件应用程序现在具有经过验证的...</description>
+      <content:encoded>&lt;p&gt;对于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 用户来说，3 月份是令人兴奋的一个月，因为 &lt;a href=&quot;https://release.gnome.org/46/&quot;&gt;GNOME 46&lt;/a&gt; 也像几周前的 &lt;a href=&quot;https://kde.org/announcements/megarelease/6/&quot;&gt;KDE Plasma 6&lt;/a&gt; 一样登录了 Tumbleweed。&lt;/p&gt;
+
+&lt;p&gt;不仅使用 Tumbleweed 的 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 用户和开发者获得了更新，衍生分支 &lt;a href=&quot;https://aeondesktop.org/&quot;&gt;Aeon Desktop&lt;/a&gt; 也获得了升级。&lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;Slowroll&lt;/a&gt; 分支可能会在 4 月 2 日至 4 月 14 日之间进行更新。&lt;/p&gt;
+
+&lt;p&gt;代号为 “Kathmandu” 的 GNOME 46 旨在向 &lt;a href=&quot;https://events.gnome.org/event/170/&quot;&gt;GNOME.Asia 2023&lt;/a&gt; 组织者的贡献致敬，并具有重大改进和新功能。GNOME 46 中的一个突出功能是&lt;a href=&quot;https://apps.gnome.org/zh-CN/Nautilus/&quot;&gt;文件&lt;/a&gt;应用程序中的新全局搜索功能。该功能可让用户直接在所有配置的位置进行搜索，还增加了文件类型和修改日期过滤器，进一步完善了该工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.gnome.org/zh-CN/Nautilus/&quot;&gt;文件&lt;/a&gt;应用进行了重大改版，允许在列表和网格模式之间即时切换视图。此外，它还进行了其他一些小的改进，如增强了网络发现功能和网格视图中的星级收藏夹，从而提高了文件管理效率。&lt;/p&gt;
+
+&lt;p&gt;新的远程登录选项增强了 GNOME 的远程桌面功能，从而改善了远程配置和用户体验。&lt;/p&gt;
+
+&lt;p&gt;辅助功能已取得显着进步，尤其是 &lt;a href=&quot;https://wiki.gnome.org/Projects/Orca&quot;&gt;Orca&lt;/a&gt; 屏幕阅读器，它现在包括新的睡眠模式和系统状态报告。此外，高对比度模式的一致性也得到了提高，并且新的设置使开关切换更加清晰。&lt;/p&gt;
+
+&lt;p&gt;其他更改包括&lt;a href=&quot;https://apps.gnome.org/zh-CN/Settings/&quot;&gt;设置&lt;/a&gt;应用程序，该应用程序已经过重新组织和更新，以便于导航。新的触摸板设置值得注意，包括二次点击的配置，旨在增强用户交互和便利性。&lt;/p&gt;
+
+&lt;p&gt;系统更新包括刷新的用户头像、改进的通知以及默认启用的点击点击功能。&lt;a href=&quot;https://apps.gnome.org/zh-CN/Software/&quot;&gt;软件&lt;/a&gt;应用程序现在具有经过验证的 &lt;a href=&quot;https://flathub.org/&quot;&gt;Flathub&lt;/a&gt; 应用程序徽章，并且扩展程序和日历应用程序都经过了重新设计，以提高可用性和美观性。&lt;/p&gt;
+
+&lt;p&gt;除了面向用户的功能之外，GNOME 46 还引入了深度技术增强。其中包括性能和资源使用优化、安全性增强、渲染改进以及对可变刷新率的实验支持，以提高特定条件下的视频性能。&lt;/p&gt;
+
+&lt;p&gt;要获取 GNOME 46 的全面更新和新功能，人们可以执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 来获取最新版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/25/gnome-arrives-in-os-distributions/&quot;&gt;GNOME Arrives in openSUSE Releases&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/23/plasma.html</guid>
       <title>openSUSE 正式搭载 Plasma 6</title>
       <pubDate>Sat, 23 Mar 2024 06:40:00 +0000</pubDate>
@@ -445,65 +478,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/14/contribution-sessions-begin-tomorrow/&quot;&gt;Contribution Sessions to Begin Tomorrow&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/29/opensuse-conf.html</guid>
-      <title>openSUSE 大会旅行信息</title>
-      <pubDate>Mon, 29 Jan 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/01/29/opensuse-conf.html</link>
-      <author>Poplar at twilight</author>
-      <description>6 月底在德国纽伦堡举行的 openSUSE 大会可能会让人觉得遥遥无期，但如果您计划参加 oSC24，有些事务需要在时间变得太短之前立即采取行动。 获得签证可能需要一些时间。对于非申根国家的公民来说，获得签证有一些必要的要求。您可能需要一份充分说明您的访问性质，正式的邀请函。 有关德意志联邦共和国入境签证要求和豁免的概述，请访问联邦外交部网站。您必须通过德国驻贵国大使馆或领事馆申请申根签证。 如果您计划参加会议，并且来自需要正式邀请函的国家，请发送电子邮件至 ddemaio(at)opensuse.org，邮件主题为 “oSC24 Visa”。 同样需要考虑的是旅行支持计划（TSP）。希望在今年的 openSUSE 大会上使用 TSP 的人员必须阅读 “How to Apply” 部分，并按照相应的步骤操作。TSP 现在由 Geeko 基金会负责，因此需要注意一些新的规程和某些限制。请阅读 wiki 上的信息，并使用 tsp.opensuse.org 进行申请。申请需要在 5 月 10 日前提交。TSP 是让社区成员参加会议的有效途径。资金有限，但有助于支持社区人员出席会议。 以下是有关 TSP 的一些提醒： 申请前请仔细阅读 TSP 政策页面。 TSP 可以报销高达 80% 的旅行或住宿费用。包括酒店、旅馆、飞机、火车、巴士 重要提示：TSP 不报销食物和所有当地费用！ 我们希望赞助尽可能多的人，因此请查看最优惠的价格。 没有收据=没有钱。这是规则！（需要德国住所的原始收据。） 话题征集截止日期为 4 月 15...</description>
-      <content:encoded>&lt;p&gt;6 月底在德国纽伦堡举行的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24&quot;&gt;openSUSE 大会&lt;/a&gt;可能会让人觉得遥遥无期，但如果您计划参加 oSC24，有些事务需要在时间变得太短之前立即采取行动。&lt;/p&gt;
-
-&lt;p&gt;获得签证可能需要一些时间。对于非申根国家的公民来说，获得签证有一些必要的要求。您可能需要一份充分说明您的访问性质，正式的邀请函。&lt;/p&gt;
-
-&lt;p&gt;有关德意志联邦共和国入境签证要求和豁免的概述，请访问&lt;a href=&quot;https://www.auswaertiges-amt.de/en/einreiseundaufenthalt/visabestimmungen-node/staatenlistevisumpflicht-node&quot;&gt;联邦外交部网站&lt;/a&gt;。您必须通过德国驻贵国大使馆或领事馆申请申根签证。&lt;/p&gt;
-
-&lt;p&gt;如果您计划参加会议，并且来自需要正式邀请函的国家，请发送电子邮件至 ddemaio(at)opensuse.org，邮件主题为 “oSC24 Visa”。&lt;/p&gt;
-
-&lt;p&gt;同样需要考虑的是&lt;a href=&quot;https://tsp.opensuse.org/&quot;&gt;旅行支持计划&lt;/a&gt;（TSP）。希望在今年的 openSUSE 大会上使用 TSP 的人员必须阅读 “&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program#How_to_apply_for_Travel_sponsorship&quot;&gt;How to Apply&lt;/a&gt;” 部分，并按照相应的步骤操作。TSP 现在由 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt;负责，因此需要注意一些新的规程和某些限制。请阅读 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program#How_to_apply_for_Travel_sponsorship&quot;&gt;wiki 上的信息&lt;/a&gt;，并使用 &lt;a href=&quot;https://tsp.opensuse.org/&quot;&gt;tsp.opensuse.org&lt;/a&gt; 进行申请。申请需要在 5 月 10 日前提交。TSP 是让社区成员参加会议的有效途径。资金有限，但有助于支持社区人员出席会议。&lt;/p&gt;
-
-&lt;p&gt;以下是有关 TSP 的一些提醒：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;申请前请仔细阅读 TSP 政策页面。&lt;/li&gt;
-  &lt;li&gt;TSP 可以报销高达 80% 的旅行或住宿费用。包括酒店、旅馆、飞机、火车、巴士&lt;/li&gt;
-  &lt;li&gt;重要提示：TSP 不报销食物和所有当地费用！&lt;/li&gt;
-  &lt;li&gt;我们希望赞助尽可能多的人，因此请查看最优惠的价格。&lt;/li&gt;
-  &lt;li&gt;没有收据=没有钱。这是规则！（需要德国住所的原始收据。）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2023/01/10/osc-cfp-opens/&quot;&gt;话题征集&lt;/a&gt;截止日期为 4 月 15 日。请尽快提交演讲材料。&lt;/p&gt;
-
-&lt;h3 id=&quot;大会接受以下长度的演示文稿&quot;&gt;大会接受以下长度的演示文稿&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;闪电演讲（15 分钟）&lt;/li&gt;
-  &lt;li&gt;线上闪电演讲（15 分钟）&lt;/li&gt;
-  &lt;li&gt;简短演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;线上演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长篇演讲（45 分钟）&lt;/li&gt;
-  &lt;li&gt;研讨会（1小时）&lt;/li&gt;
-  &lt;li&gt;Open 4 Business（开源商务化活动）（15 分钟）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;大会包含了以下主题&quot;&gt;大会包含了以下主题：&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;云和容器&lt;/li&gt;
-  &lt;li&gt;社区&lt;/li&gt;
-  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
-  &lt;li&gt;新技术&lt;/li&gt;
-  &lt;li&gt;开源&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-  &lt;li&gt;Open 4 Business&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/01/30/osc-travel-info/&quot;&gt;openSUSE Conference Travel Info&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
