@@ -7,6 +7,104 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html</guid>
+      <title>openSUSE 应对针对 xz 压缩库的供应链攻击</title>
+      <pubDate>Sat, 30 Mar 2024 00:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html</link>
+      <author>Poplar at twilight</author>
+      <description>对于风滚草用户，建议立即更新系统至最新版本，并尽可能地将此供应链攻击信息通知其他的风滚草用户。 openSUSE 维护人员收到了针对压缩工具 xz 和 liblzma5 库的供应链攻击通知。 背景 安全研究员 Andres Freund 向 Debian 报告称 xz/liblzma 库已被植入后门。 该后门是在 xz 的 github 上游项目于 2024 年 2 月发布的 5.6.0 版本中植入的。 我们的滚动分支，openSUSE Tumbleweed 和 openSUSE MicroOS 在 3 月 7 日至 3 月 28 日期间发布的快照搭载了该版本。 SUSE Linux Enterprise 和 Leap 是独立于 openSUSE 构建的。Tumbleweed 的代码、功能和特性不会自动引入...</description>
+      <content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;对于风滚草用户，建议立即更新系统至最新版本，并尽可能地将此供应链攻击信息通知其他的风滚草用户。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 维护人员收到了针对压缩工具 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblzma5&lt;/code&gt; 库的供应链攻击通知。&lt;/p&gt;
+
+&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
+
+&lt;p&gt;安全研究员 Andres Freund 向 Debian 报告称 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblzma&lt;/code&gt; 库已被植入后门。&lt;/p&gt;
+
+&lt;p&gt;该后门是在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 的 &lt;a href=&quot;https://github.com/tukaani-project/xz&quot;&gt;github 上游项目&lt;/a&gt;于 2024 年 2 月发布的 5.6.0 版本中植入的。&lt;/p&gt;
+
+&lt;p&gt;我们的滚动分支，openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 和 openSUSE &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 在 3 月 7 日至 3 月 28 日期间发布的快照搭载了该版本。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 是独立于 openSUSE 构建的。Tumbleweed 的代码、功能和特性不会自动引入 SUSE Linux Enterprise 或 Leap。已确定 Tumbleweed 中引入的恶意文件不存在于 SUSE Linux Enterprise 或 Leap 中。&lt;/p&gt;
+
+&lt;h2 id=&quot;影响&quot;&gt;影响&lt;/h2&gt;
+
+&lt;p&gt;目前的研究表明，该后门活跃于 SSH 守护进程中，允许恶意行为者访问 SSH 暴露于互联网的系统。&lt;/p&gt;
+
+&lt;p&gt;截至 3 月 29 日，后门的逆向工程仍在进行中。&lt;/p&gt;
+
+&lt;h2 id=&quot;缓解措施&quot;&gt;缓解措施&lt;/h2&gt;
+
+&lt;p&gt;openSUSE 维护人员已于 3 月 28 日回滚了 Tumbleweed 上的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 版本，并发布了从安全备份构建的新 Tumbleweed 快照（20240328 或更新的快照）。&lt;/p&gt;
+
+&lt;p&gt;回退版本为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5.6.1.revertto5.4&lt;/code&gt;，可通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpm -q liblzma5&lt;/code&gt; 查询。&lt;/p&gt;
+
+&lt;h2 id=&quot;推荐用户应采取的措施&quot;&gt;推荐用户应采取的措施&lt;/h2&gt;
+
+&lt;p&gt;对于将 SSH 在互联网上公开的 openSUSE Tumbleweed 用户，我们建议重新安装，因为不知道后门是否已被利用。由于后门的复杂性，不可能在系统上检测到漏洞。此外，我们强烈建议对可能从系统中获取的任何凭据进行轮换。否则，只需更新至 openSUSE Tumbleweed 20240328 或更高版本并重新启动系统即可。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;其他社区相关的讨论&quot;&gt;其他社区相关的讨论&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;原文：&lt;a href=&quot;https://t.me/CE_Observe/32247&quot;&gt;每日消费电子观察&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;xz 在 GitHub 上发布的 tarball 的 m4 中包含了恶意后门代码。&lt;/p&gt;
+
+  &lt;p&gt;如非特别标注，以下链接中内容均为英文。&lt;/p&gt;
+
+  &lt;p&gt;oss-security 邮件列表: https://www.openwall.com/lists/oss-security/2024/03/29/4&lt;/p&gt;
+
+  &lt;p&gt;debian-security-announce 邮件列表: https://lists.debian.org/debian-security-announce/2024/msg00057.html&lt;/p&gt;
+
+  &lt;p&gt;CVE: https://www.cve.org/CVERecord?id=CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;NVD: https://nvd.nist.gov/vuln/detail/CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;GitHub Advisory Database: https://github.com/advisories/GHSA-rxwq-x6h5-x525&lt;/p&gt;
+
+  &lt;p&gt;Red Hat Customer Portal: https://access.redhat.com/security/cve/CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;Red Hat Blog: https://www.redhat.com/en/blog/urgent-security-alert-fedora-41-and-rawhide-users&lt;/p&gt;
+
+  &lt;p&gt;Red Hat Bugzilla: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;Debian Security Bug Tracker: https://security-tracker.debian.org/tracker/CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;SUSE Security: https://www.suse.com/security/cve/CVE-2024-3094.html&lt;/p&gt;
+
+  &lt;p&gt;SUSE Bugzilla: https://bugzilla.suse.com/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;Gentoo’s Bugzilla: https://bugs.gentoo.org/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
+
+  &lt;p&gt;Arch Linux News: https://archlinux.org/news/the-xz-package-has-been-backdoored/&lt;/p&gt;
+
+  &lt;p&gt;Arch Linux Advisories: https://security.archlinux.org/ASA-202403-1&lt;/p&gt;
+
+  &lt;p&gt;Everything I Know About the Xz Backdoor: https://boehs.org/node/everything-i-know-about-the-xz-backdoor&lt;/p&gt;
+
+  &lt;p&gt;==== 忙着查资料的被子饼 ====
+目前的证据表明这个后门仅影响部分 Debian/Ubuntu/Fedora/openSUSE 的预发布版本，且均已发布回退更新&lt;/p&gt;
+
+  &lt;p&gt;目前确定曾受影响的发行版：
+Debian unstable/testing between 2024-02-26 and 2024-03-29
+Ubuntu noble-proposed/noble-release between 2024-02-26 and 2024-03-29
+Fedora 40/41(Rawhide) between 2024-02-27 and 2024-03-29
+openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;hhttps://news.opensuse.org/2024/03/29/xz-backdoor/&quot;&gt;openSUSE addresses supply chain attack against xz compression library&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/28/monthly-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 三月</title>
       <pubDate>Thu, 28 Mar 2024 19:40:00 +0000</pubDate>
@@ -485,45 +583,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/22/engage-w-uyuni-community-hours/&quot;&gt;Engage with Uyuni Community Hours&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/16/agama-roadmap.html</guid>
-      <title>探索 Agama 2024 年路线图</title>
-      <pubDate>Fri, 16 Feb 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/16/agama-roadmap.html</link>
-      <author>Poplar at twilight</author>
-      <description>Agama 是 openSUSE YaST 团队开发的下一代基于服务（Service-based）的 Linux 安装程序。它旨在提供可重用性、与第三方工具的集成以及在其上构建高级用户界面的可能性。 YaST 博客上最近一篇关于 Agama 路线图的文章认为，新安装程序的功能足以完成从本地化和网络配置到存储设置和初始软件选择等任务。 路线图译文另见：Agama 2024 年路线图展望 对于那些不关注 YaST 博客的人来说，以下是 Agama 在 2024 年的发展前景。 YaST 团队已经制定了今年的战略，尽管开发过程充满变数，但团队仍致力于稳定地发布 Agama，并设定了两个重要的里程碑。第一个定于 4 月中旬，另一个定于 7 月中旬。 4 月的里程碑将彻底改变 Agama 的架构。它将摆脱对 Cockpit 的依赖，转而采用一个更加自主的框架，该框架将与旨在简化存储配置的，完善的用户界面相结合。 第二个里程碑的目标是提高 Agama 的灵活性和无人值守安装的能力，从而将 Agama 定位为 AutoYaST 的有力替代品。 Cockpit 项目提供的资源使 Agama 的未来愿景清晰可见，为新的道路指明了方向。未来几个月，YaST 团队将致力于重新定义这一方法，以确保 Agama 的发展不受外部依赖的阻碍。 虽然架构上的修改为未来的进步奠定了基础，但同样必须注重提升用户体验。改版后的存储配置界面将既方便新用户使用，又更具多功能性。这样做的目的是在易用性和定制化之间取得平衡。 2024...</description>
-      <content:encoded>&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://github.com/openSUSE/agama&quot;&gt;Agama&lt;/a&gt; 是 openSUSE &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST 团队&lt;/a&gt;开发的下一代基于服务（Service-based）的 Linux 安装程序。它旨在提供可重用性、与第三方工具的集成以及在其上构建高级用户界面的可能性。&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;YaST 博客上最近一篇关于 &lt;a href=&quot;https://yast.opensuse.org/blog/2024-02-08/year-of-agama&quot;&gt;Agama 路线图&lt;/a&gt;的文章认为，新安装程序的功能足以完成从本地化和网络配置到存储设置和初始软件选择等任务。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;路线图译文另见：&lt;a href=&quot;https://whiteboard-ui8.pages.dev/translation/opensuse-agama-roadmap-2024/&quot;&gt;Agama 2024 年路线图展望&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;对于那些不关注 &lt;a href=&quot;https://yast.opensuse.org/blog/&quot;&gt;YaST 博客&lt;/a&gt;的人来说，以下是 Agama 在 2024 年的发展前景。&lt;/p&gt;
-
-&lt;p&gt;YaST 团队已经制定了今年的战略，尽管开发过程充满变数，但团队仍致力于稳定地发布 Agama，并设定了两个重要的里程碑。第一个定于 4 月中旬，另一个定于 7 月中旬。&lt;/p&gt;
-
-&lt;p&gt;4 月的里程碑将彻底改变 Agama 的架构。它将摆脱对 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 的依赖，转而采用一个更加自主的框架，该框架将与旨在简化存储配置的，完善的用户界面相结合。&lt;/p&gt;
-
-&lt;p&gt;第二个里程碑的目标是提高 Agama 的灵活性和无人值守安装的能力，从而将 Agama 定位为 &lt;a href=&quot;https://github.com/yast/yast-autoinstallation&quot;&gt;AutoYaST&lt;/a&gt; 的有力替代品。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit 项目&lt;/a&gt;提供的资源使 Agama 的未来愿景清晰可见，为新的道路指明了方向。未来几个月，YaST 团队将致力于重新定义这一方法，以确保 Agama 的发展不受外部依赖的阻碍。&lt;/p&gt;
-
-&lt;p&gt;虽然架构上的修改为未来的进步奠定了基础，但同样必须注重提升用户体验。改版后的存储配置界面将既方便新用户使用，又更具多功能性。这样做的目的是在易用性和定制化之间取得平衡。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24&quot;&gt;2024 年的 openSUSE 大会&lt;/a&gt;就在这些里程碑之间举行，YaST 团队将利用这次活动作为讨论 Agama 重新定义 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 生态系统中安装体验的潜力的平台。你的见解和贡献对于 Agama 的成功至关重要，因此社区鼓励利益相关者与 YaST 团队合作、分享想法并参与 Agama 的持续开发。&lt;/p&gt;
-
-&lt;p&gt;请在 &lt;a href=&quot;https://yast.opensuse.org/blog/&quot;&gt;YaST 博客&lt;/a&gt;上阅读有关 Agama 的更多信息。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/16/exploring-agamas-roadmap/&quot;&gt;Exploring Agama’s 2024 Roadmap&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
