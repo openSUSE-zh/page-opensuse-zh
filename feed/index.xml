@@ -7,6 +7,69 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/04/workshop.html</guid>
+      <title>研讨会系列继续推出新剧集</title>
+      <pubDate>Thu, 04 Apr 2024 00:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/04/workshop.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 本周将继续举办贡献研讨会（Contribution Workshop）系列活动，新一期节目涵盖了对新手和资深贡献者至关重要的主题。即将播出的剧集： 第 5 集：为 openSUSE Leap 做出贡献 - 项目结构、功能跟踪、SLES 软件包的软件包更新 日期：4 月 4 日 时间：19:15 UTC 北京时间 4 月 5 日凌晨 03:15 地点：在 YouTube 和 Twitter 上直播 错过直播的人可以观看录播 详见：openSUSE Youtube 官方频道 第 5 集将深入介绍 openSUSE Leap 项目、其结构、工具、团队如何跟踪功能以及构建和更新 SLES 软件包的流程。本集是必看内容，任何对 openSUSE Leap 开发过程感兴趣的人都可以收看，以便了解如何为生态系统做出贡献。 第 6 集：托管您自己的 openSUSE 镜像 日期：预计...</description>
+      <content:encoded>&lt;p&gt;openSUSE 本周将继续举办贡献研讨会（Contribution Workshop）系列活动，新一期节目涵盖了对新手和资深贡献者至关重要的主题。即将播出的剧集：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第 5 集：为 openSUSE Leap 做出贡献 - 项目结构、功能跟踪、SLES 软件包的软件包更新&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;日期：4 月 4 日&lt;/li&gt;
+  &lt;li&gt;时间：19:15 UTC
+    &lt;ul&gt;
+      &lt;li&gt;北京时间 4 月 5 日凌晨 03:15&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;地点：在 YouTube 和 Twitter 上直播
+    &lt;ul&gt;
+      &lt;li&gt;错过直播的人可以观看录播&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;详见：&lt;a href=&quot;https://www.youtube.com/@openSUSE&quot;&gt;openSUSE Youtube 官方频道&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;第 5 集将深入介绍 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap&lt;/a&gt; 项目、其结构、工具、团队如何跟踪功能以及构建和更新 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLES&lt;/a&gt; 软件包的流程。本集是必看内容，任何对 openSUSE Leap 开发过程感兴趣的人都可以收看，以便了解如何为生态系统做出贡献。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;第 6 集：托管您自己的 openSUSE 镜像&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;日期：预计 4 月 5 日&lt;/li&gt;
+  &lt;li&gt;时间：计划 15:00 UTC&lt;/li&gt;
+  &lt;li&gt;地点：openSUSE 官方渠道
+    &lt;ul&gt;
+      &lt;li&gt;预计时间：北京时间 4 月 5 日晚上 11:00&lt;/li&gt;
+      &lt;li&gt;错过直播的人可以观看录播&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;第 6 集预计将引导观众完成托管他们自己的 openSUSE 镜像的过程。本次会议特别面向那些对基础设施支持以及确保 openSUSE 资源在全球范围内的可访问性和分发感兴趣的人士。&lt;/p&gt;
+
+&lt;p&gt;这些研讨会不仅提供了一个学习平台，还为贡献者提供了提出问题并直接与 openSUSE 社区的开发人员、维护人员和经验丰富的成员互动的机会。&lt;/p&gt;
+
+&lt;p&gt;无论您是想深入了解软件包维护、基础设施，还是想了解项目的整体情况，这些节目都能为您提供全面的概述和实用的建议。&lt;/p&gt;
+
+&lt;p&gt;以下剧集已发布：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;第 1 集：openSUSE 贡献研讨会：OBS osc 的基本使用（以版本升级为例）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;第2集：openSUSE 贡献研讨会：从 0 到打包 GNU Hello rpm 包&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/rfP-IXwKRAE?si=TwVTgvaPRaoYjWtz&quot;&gt;第 3 集：openSUSE 贡献研讨会：openSUSE Leap 15.6 Beta Bug Day&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/J__6pqGbR3o?si=WJpWsMlpWJ6mzZTk&quot;&gt;第 4 集：openSUSE 贡献研讨会：在开放构建服务中打包 Rust&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/03/workshop-series-continues-with-new-episodes/&quot;&gt;Workshop Series Continues with New Episodes&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html</guid>
       <title>openSUSE 应对针对 xz 压缩库的供应链攻击</title>
       <pubDate>Sat, 30 Mar 2024 00:40:00 +0000</pubDate>
@@ -551,38 +614,6 @@ openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/26/community-summit-berlin/&quot;&gt;Community Plans for Summit in Berlin&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/22/uyuni.html</guid>
-      <title>参与 Uyuni 社区活动</title>
-      <pubDate>Thu, 22 Feb 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/22/uyuni.html</link>
-      <author>Poplar at twilight</author>
-      <description>与许多开源项目一样，Uyuni 项目有着促进社区参与和开放对话的悠久传统，这也是为什么对配置管理感兴趣的人应该考虑参加定于 2 月 24 日 15:00 UTC 举行的 Uyuni Community Hours 活动的原因。 Uyuni Community Hours 活动在每个月的最后一个星期五举行。这些会议为社区和项目开发团队提供了一次难得的交流机会。 在这些会议上，与会者将了解到围绕 Uyuni 的最新进展。在这个开放的论坛上，社区可以直接向开发团队提问、提供反馈、建议功能或改进措施。这种积极主动的方式有助于 Uyuni 不断发展，并与其用户群的需求和期望保持一致。 本周五的会议将讨论社区的反馈和需求： 会议迁移回顾：概述会议平台的最新变化，提高社区的可访问性和参与度。 Uyuni 的新功能：详细介绍 2024 年 2 月发布的 Uyuni 的最新功能和改进。 容器化的 Uyuni：发布策略：洞察 Uyuni 在容器化环境中部署和管理的未来。 Uyuni 健康检查：在 “supportconfig” 之上运行：介绍旨在简化和精简 Uyuni 服务器健康检查的新工具。 重复性操作的一次性执行：讨论如何在 Uyuni 框架内加强任务管理和执行。 使用 GitHub 操作测试、构建和发布文档： 为 Uyuni...</description>
-      <content:encoded>&lt;p&gt;与许多开源项目一样，&lt;a href=&quot;https://www.uyuni-project.org/&quot;&gt;Uyuni 项目&lt;/a&gt;有着&lt;a href=&quot;https://github.com/uyuni-project/uyuni/wiki/Uyuni-Community-Hours&quot;&gt;促进社区参与和开放对话&lt;/a&gt;的悠久传统，这也是为什么对配置管理感兴趣的人应该考虑参加定于 2 月 24 日 15:00 UTC 举行的 &lt;a href=&quot;https://github.com/uyuni-project/uyuni/wiki/Uyuni-Community-Hours&quot;&gt;Uyuni Community Hours&lt;/a&gt; 活动的原因。&lt;/p&gt;
-
-&lt;p&gt;Uyuni Community Hours 活动在每个月的最后一个星期五举行。这些会议为社区和项目开发团队提供了一次难得的交流机会。&lt;/p&gt;
-
-&lt;p&gt;在这些会议上，与会者将了解到围绕 Uyuni 的最新进展。在这个开放的论坛上，社区可以直接向开发团队提问、提供反馈、建议功能或改进措施。这种积极主动的方式有助于 Uyuni 不断发展，并与其用户群的需求和期望保持一致。&lt;/p&gt;
-
-&lt;p&gt;本周五的会议将讨论社区的反馈和需求：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;会议迁移回顾：概述会议平台的最新变化，提高社区的可访问性和参与度。&lt;/li&gt;
-  &lt;li&gt;Uyuni 的新功能：详细介绍 2024 年 2 月发布的 Uyuni 的最新功能和改进。&lt;/li&gt;
-  &lt;li&gt;容器化的 Uyuni：发布策略：洞察 Uyuni 在容器化环境中部署和管理的未来。&lt;/li&gt;
-  &lt;li&gt;Uyuni 健康检查：在 “supportconfig” 之上运行：介绍旨在简化和精简 Uyuni 服务器健康检查的新工具。&lt;/li&gt;
-  &lt;li&gt;重复性操作的一次性执行：讨论如何在 Uyuni 框架内加强任务管理和执行。&lt;/li&gt;
-  &lt;li&gt;使用 GitHub 操作测试、构建和发布文档： 为 Uyuni 用户和开发人员维护和发布最新文档的创新方法。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;本次会议有详细的议程，旨在让贡献社区充分了解即将到来的主题和讨论。无论是开发人员、管理员还是开源软件爱好者，都可以加入 “Uyuni Community Hours”，为项目进展和未来计划提供有价值的见解。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/22/engage-w-uyuni-community-hours/&quot;&gt;Engage with Uyuni Community Hours&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
