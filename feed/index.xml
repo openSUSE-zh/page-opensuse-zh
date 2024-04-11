@@ -7,6 +7,39 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/10/wallpaper.html</guid>
+      <title>默认壁纸在 openSUSE、SUSE 之间具有共同路径</title>
+      <pubDate>Wed, 10 Apr 2024 00:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/10/wallpaper.html</link>
+      <author>Poplar at twilight</author>
+      <description>在 openSUSE 以及即将推出的 Leap 和 Leap Micro 分支中，我们将新采用 png 作为默认墙纸格式。 这一决定背后的驱动力是通过兼容符号链接与 SLE 统一壁纸路径，因为格式必须相同。自上次在 SLE 15 SP 3 中改版以来，SLES 和 SLED 一直使用 PNG 格式，而 openSUSE 直到现在一直使用 JPG 格式。 用通用的默认壁纸路径允许使用壁纸或类似系统品牌的应用程序在 SLES 和 openSUSE 上无需重新构建，就可以重新运行。 使用无损格式的小代价是尺寸略有增加，不过，我们使用 optipng，因此所有壁纸分辨率加起来的单位都在兆字节以内。 ls -la /usr/share/wallpapers/openSUSEdefault/contents/images/1600x1200.png -rw-r--r-- 1 root root 417791 Apr 5 13:14 /usr/share/wallpapers/openSUSEdefault/contents/images/1600x1200.png ls -la /usr/share/wallpapers/SLEdefault/contents/images/1600x1200.png -rw-r--r--...</description>
+      <content:encoded>&lt;p&gt;在 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 以及即将推出的 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leapmicro&quot;&gt;Leap Micro&lt;/a&gt;  分支中，我们将新采用 &lt;a href=&quot;https://github.com/openSUSE/branding/pull/149&quot;&gt;png&lt;/a&gt; 作为默认墙纸格式。&lt;/p&gt;
+
+&lt;p&gt;这一决定背后的驱动力是通过兼容符号链接与 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SLE&lt;/a&gt; 统一壁纸路径，因为格式必须相同。自上次在 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SUSE-SLES/15-SP3/index.html&quot;&gt;SLE 15 SP 3&lt;/a&gt; 中改版以来，&lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLES&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/download/sled/&quot;&gt;SLED&lt;/a&gt; 一直使用 PNG 格式，而 openSUSE 直到现在一直使用 JPG 格式。&lt;/p&gt;
+
+&lt;p&gt;用通用的默认壁纸路径允许使用壁纸或类似系统品牌的应用程序在 SLES 和 openSUSE 上无需重新构建，就可以重新运行。&lt;/p&gt;
+
+&lt;p&gt;使用无损格式的小代价是尺寸略有增加，不过，我们使用 &lt;a href=&quot;https://github.com/openSUSE/branding/pull/148/files#diff-76ed074a9305c04054cdebb9e9aad2d818052b07091de1f20cad0bbac34ffb52R80&quot;&gt;optipng&lt;/a&gt;，因此所有壁纸分辨率加起来的单位都在兆字节以内。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -la /usr/share/wallpapers/openSUSEdefault/contents/images/1600x1200.png -rw-r--r-- 1 root root 417791 Apr 5 13:14 /usr/share/wallpapers/openSUSEdefault/contents/images/1600x1200.png&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -la /usr/share/wallpapers/SLEdefault/contents/images/1600x1200.png -rw-r--r-- 1 root root 417791 Apr 5 13:14 /usr/share/wallpapers/SLEdefault/contents/images/1600x1200.png&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls -la /usr/share/wallpapers/SLEdefault lrwxrwxrwx 1 root root 15 Apr 5 13:15 /usr/share/wallpapers/SLEdefault -&amp;gt; openSUSEdefault&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;我们还提供了新的 &lt;a href=&quot;https://github.com/openSUSE/distribution-logos/pull/7/files&quot;&gt;apple-touch-icon&lt;/a&gt; 图标，它是 SLE 发行版徽标的一部分，而 openSUSE 方面却缺少这个图标。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;由于这实际上是对默认壁纸的更改，我们建议使用默认壁纸的用户注销后再登录，以避免出现任何故障。&lt;/strong&gt;请确保系统能够重新读取 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/share/wallpapers/openSUSE-default-static.xml&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;好消息是，我们计划为 openSUSE Leap 16 和 openSUSE Tumbleweed 推出一个新的壁纸系列，因为 openSUSE Tumbleweed 已经有一段时间没有更换壁纸了；就当是一次小小的消防演习吧。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/09/common-wallpaper-path/&quot;&gt;Default wallpaper has common path across openSUSE, SUSE&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/04/workshop.html</guid>
       <title>研讨会系列继续推出新剧集</title>
       <pubDate>Thu, 04 Apr 2024 00:40:00 +0000</pubDate>
@@ -587,33 +620,6 @@ openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/28/tw-monthly-update-feb/&quot;&gt;openSUSE Tumbleweed Monthly Update - February&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/25/summit.html</guid>
-      <title>柏林峰会社区计划</title>
-      <pubDate>Sun, 25 Feb 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/02/25/summit.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 社区将于 6 月 19 日前往柏林参加与 SUSE 年度全球技术大会 SUSECON 相关的社区峰会。 该活动的注册和话题征集已开始，截止日期为 5 月 29 日。我们鼓励 SUSE、openSUSE、开源社区项目的合作伙伴和社区成员报名参加峰会并提交演讲稿。 社区峰会日程将于 5 月 30 日发布。 峰会分为社区赛道和开源赛道。与会者可以向峰会提交两种类型的会谈。一种是 15 分钟以内的简短演讲，另一种是 30 分钟以内的标准演讲。 我们也欢迎 SUSECON 的与会者参加并提交演讲。社区峰会是一项免费的社区活动，将在 SUSECON 的最后一天举行。 峰会将在纽伦堡 openSUSE 大会前一周举行，因此 SUSECON 与会者应考虑留下来参加 openSUSE 项目的年度大会并提交技术演讲。对于中小型企业，6 月 26 日将在纽伦堡 SUSE 办事处附近举办一次为期 4 小时的 Open 4 Business 交流活动。 如对峰会有任何疑问，请联系...</description>
-      <content:encoded>&lt;p&gt;openSUSE 社区将于 6 月 19 日前往柏林参加与 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 年度全球技术大会 &lt;a href=&quot;https://www.suse.com/susecon/&quot;&gt;SUSECON&lt;/a&gt; 相关的&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;社区峰会&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;该活动的注册和话题征集已开始，截止日期为 5 月 29 日。我们鼓励 SUSE、openSUSE、开源社区项目的合作伙伴和社区成员报名参加峰会并提交演讲稿。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;社区峰会&lt;/a&gt;日程将于 5 月 30 日发布。&lt;/p&gt;
-
-&lt;p&gt;峰会分为社区赛道和开源赛道。与会者可以向峰会提交两种类型的会谈。一种是 15 分钟以内的简短演讲，另一种是 30 分钟以内的标准演讲。&lt;/p&gt;
-
-&lt;p&gt;我们也欢迎 SUSECON 的与会者参加并提交演讲。社区峰会是一项免费的社区活动，将在 SUSECON 的最后一天举行。&lt;/p&gt;
-
-&lt;p&gt;峰会将在纽伦堡 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;前一周举行，因此 SUSECON 与会者应考虑留下来参加 openSUSE 项目的年度大会并提交技术演讲。对于中小型企业，6 月 26 日将在纽伦堡 SUSE 办事处附近举办一次为期 4 小时的 &lt;a href=&quot;https://news.opensuse.org/2024/01/12/conference-adds-business-focused-networking-event/&quot;&gt;Open 4 Business&lt;/a&gt; 交流活动。&lt;/p&gt;
-
-&lt;p&gt;如对峰会有任何疑问，请联系 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ddemaio@opensuse.org&lt;/code&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/26/community-summit-berlin/&quot;&gt;Community Plans for Summit in Berlin&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
