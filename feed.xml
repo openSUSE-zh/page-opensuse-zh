@@ -7,6 +7,110 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/12/xz.html</guid>
+      <title>我们需要从 XZ 后门中获得的启示</title>
+      <pubDate>Fri, 12 Apr 2024 00:40:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/12/xz.html</link>
+      <author>Poplar at twilight</author>
+      <description>过去几周已经发布了很多关于 XZ 后门的文章，现在是时候展望未来了。我们将与大家分享有关 openSUSE 所发生事件的更多细节。有关它如何影响 openSUSE 用户的概述，请参阅上一篇文章。 幕后故事 在 XZ 后门公开披露的前几天，SUSE 产品安全团队就收到了 XZ 5.6.x 版本存在异常的提示。我是 SUSE 员工兼 openSUSE 打包者，负责更新该版本并将其纳入 openSUSE Tumbleweed，因此我很早就参与了此事。当时，我们还不知道最初公开披露的背景和信息。然而，那个提示就是我们所需要的全部信息。它改变了我们对一个成熟、核心的开源项目的看法。如果没有这个提示，构建系统“配置”阶段的一些小差异就会被轻易忽略。 在披露前一天，也就是周四晚上，SUSE 产品安全部门收到了 Andres Freund 通过共享发行版安全披露列表提交的一份较长的详细报告。发行版列表是一个加密的邮件列表，发行商可以在这里就安全问题的协调披露进行合作和协调。这份报告带来了 xz 后门专门针对 openssh 的新信息，而 openssh 几乎是所有 Linux 系统中面向网络的部分之一。这进一步提高了我们对远程访问后门的威胁级别，也导致我们扩大了计划中的交流工作。 我和 SUSE 安全团队开始进行分析。SUSE 产品安全团队是各种私人安全论坛（如发行版列表和 CERT VINCE 等）的成员，这使我们能够协调软件供应商之间的修复工作，并在披露日期准备好更新。有了存在可疑之处的初步信息，要找到更多可疑之处就相对容易了（排序不分先后）： openSUSE 和 SUSE 正在使用受信任签名的密钥环跟踪发布的工件签名。我们注意到工件签名的密钥在一段时间前发生了变化，因此我们必须更新 XZ 项目的可信密钥环。我们验证了维护者的交接，新的维护者拥有直接提交权限以及签署和发布版本的能力。这个新签名密钥的信任网连接得并不好，可能会引起警报，但它是由前任维护者签名的，这对我们来说已经足够了。 查看提交历史，在上一个 5.5 测试版和...</description>
+      <content:encoded>&lt;p&gt;过去几周已经发布了很多关于 &lt;a href=&quot;https://przemoc.github.io/xz-backdoor-links/&quot;&gt;XZ 后门&lt;/a&gt;的文章，现在是时候展望未来了。我们将与大家分享有关 openSUSE 所发生事件的更多细节。有关它如何影响 openSUSE 用户的概述，请参阅&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html&quot;&gt;上一篇文章&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;幕后故事&quot;&gt;幕后故事&lt;/h2&gt;
+
+&lt;p&gt;在 XZ 后门公开披露的前几天，SUSE 产品安全团队就收到了 XZ 5.6.x 版本存在异常的提示。我是 SUSE 员工兼 openSUSE 打包者，负责更新该版本并将其纳入 openSUSE Tumbleweed，因此我很早就参与了此事。当时，我们还不知道最初公开披露的背景和信息。然而，那个提示就是我们所需要的全部信息。它改变了我们对一个成熟、核心的开源项目的看法。如果没有这个提示，构建系统“配置”阶段的一些小差异就会被轻易忽略。&lt;/p&gt;
+
+&lt;p&gt;在披露前一天，也就是周四晚上，SUSE 产品安全部门收到了 Andres Freund 通过共享发行版安全披露列表提交的一份较长的详细报告。发行版列表是一个加密的邮件列表，发行商可以在这里就安全问题的协调披露进行合作和协调。这份报告带来了 xz 后门专门针对 openssh 的新信息，而 openssh 几乎是所有 Linux 系统中面向网络的部分之一。这进一步提高了我们对远程访问后门的威胁级别，也导致我们扩大了计划中的交流工作。&lt;/p&gt;
+
+&lt;p&gt;我和 SUSE 安全团队开始进行分析。SUSE 产品安全团队是各种私人安全论坛（如发行版列表和 CERT VINCE 等）的成员，这使我们能够协调软件供应商之间的修复工作，并在披露日期准备好更新。有了存在可疑之处的初步信息，要找到更多可疑之处就相对容易了（排序不分先后）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openSUSE 和 SUSE 正在使用受信任签名的密钥环跟踪发布的工件签名。我们注意到工件签名的密钥在一段时间前发生了变化，因此我们必须更新 XZ 项目的可信密钥环。我们验证了维护者的交接，新的维护者拥有直接提交权限以及签署和发布版本的能力。这个新签名密钥的信任网连接得并不好，可能会引起警报，但它是由前任维护者签名的，这对我们来说已经足够了。&lt;/li&gt;
+  &lt;li&gt;查看提交历史，在上一个 5.5 测试版和 5.6.0 版本之间，新维护者在很短的时间内提交了大量内容；这些内容不是通过拉取请求提交的，也没有明显的审核或讨论。这立即引起了人们的关注。通常情况下，项目不会在重大新版本发布前这样做。审查每一个提交后，我们立即发现在 5.6.1 中提交和更新了一些奇怪的测试文件，而这些文件在测试框架或项目代码中并没有相应的更新，因此这些文件是“未使用的”。通常情况下，测试文件会在同一提交中与代码修复一起提交，或与先前的问题或测试用例所针对的提交一起提交。对于一个上游项目的资深维护者来说，这似乎是一个很大的疏忽。这些提交信息似是而非，但并不合理，尤其是在比较 5.6.0 和 5.6.1 之间的（微小）差异时。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;通过进一步调查，我们找到了嵌入在构建系统中的 “stage zero”，这样我们就能够逐步穿过混淆层来理清第二和第三阶段。几分钟之内，我们就清楚地意识到，开发它花费了巨大的努力。这不是一个开发人员在一个下雨的周日下午所做的工作。此外，第二阶段还暗示，这是一个专门针对特定环境、Debian 或使用 GCC 和 glibc 的 RPM 软件包构建的后门。从源代码，无论是有后门的压缩包还是 git 构建安装的普通用户都不会受到影响。这给我们敲响了警钟。因此，在进一步进行逆向工程之前，我们对影响进行了评估。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 有一段时间没有使用 XZ 压缩我们的发行版 rpm 包。我们不久前切换到 Zstd。不过，XZ 在发行版中的使用非常广泛，除其他许多用途外，它还用于解压缩 GCC 编译器的源代码，而我们使用 GCC 编译器构建发行版中的所有其他内容。我们检查后发现，疑似恶意的 XZ 版本被用于构建我们的 openSUSE GCC 编译器，而该编译器在发行版的其他构建过程中都会用到。最糟糕的情况是，GCC 编译器编译源的解包被恶意 xz 修改，我们的系统编译器不再可信。虽然我们对源代码进行了签名检查（并在可信的旁观存储区（trusted lookaside store）中保存了我们使用过的所有源代码输入的副本），但我们无法检查解压后的源代码是否真的是解压前经过签名检查的源代码。&lt;/p&gt;
+
+&lt;p&gt;因此，即使没有任何关于后门的进一步信息，我们也知道最坏的情况可能会造成灾难性的影响。所以，我们开始确定受影响的项目、产品和发行版。幸运的是，受影响的项目、产品和发行版并不多。我们成立了一个特别小组，负责清除后门。&lt;/p&gt;
+
+&lt;h2 id=&quot;为我们的用户初步删除后门&quot;&gt;为我们的用户初步删除后门&lt;/h2&gt;
+
+&lt;p&gt;openSUSE Tumbleweed 有一个紧急更新通道，我们可以用它来恢复 Tumbleweed 常规快照中的致命缺陷。得益于我们的自动测试管道，这种情况非常罕见，但还是发生了。我们在紧急更新通道中注入了一个 xz 的降级版本，并开始构建一个删除了恶意 xz 更新，临时的 openSUSE 快照版本。不过，由于混淆后门的未知性，我们在计划时做了最坏的打算。我们开始收集有多少软件包已在构建环境中使用可疑的 GCC 编译器构建并发布。这是一份非常庞大的清单。此外，要弄清 Ghidra 中恶意后门对象代码的逆向过程还需要几个小时。经过短暂的同步后，我们决定走安全路线，扔掉所有使用可能存在恶意的 xz/GCC 编译器构建的软件包，只使用来自安全备份的软件包开始重建所有软件包，以尽快恢复发行版的完整性。openSUSE 定期测试这种 “bootstrap mode（引导模式）”，将其作为发行版开发的一部分，并依赖于&lt;a href=&quot;https://https//openbuildservice.org/&quot;&gt;开放构建服务&lt;/a&gt;提供的自动化重建（rebuild automation），因此这不需要大量的人力工作。这只是给我们的构建集群带来了大量负载。我们有几个小时的等待时间，可以进一步分析后门。&lt;/p&gt;
+
+&lt;h2 id=&quot;后门分析&quot;&gt;后门分析&lt;/h2&gt;
+
+&lt;p&gt;分析对象代码需要大量时间。虽然第二阶段检查正确的构建条件（是否是分发构建，是否具有预期的编译器环境等）很容易解码，并帮助我们了解潜在的影响，但最初我们并不清楚在构建过程中注入的混淆对象代码在做什么。&lt;/p&gt;
+
+&lt;p&gt;通过使用 Ghidra，我们可以从注入的机器代码中获取一些可读的 C 代码，因此我们开始尝试破解代码谜题。我们首先发现了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_get_cpuid&lt;/code&gt; 函数的入口点，它是 IFUNC 处理的一部分。通过谷歌搜索这两个词的组合，我们发现了上游的讨论、oss fuzz 项目中 ifunc 的禁用，以及 Fedora 社区中一份有趣的错误报告，其中报告了 XZ 5.6.0 中的 valgrind 问题，显然上游正在通过更新与之无关的内容（包括版本库中的 “测试文件”）来修复这些问题。存储库中不仅有提交，还有围绕与这些提交直接相关的问题的误导性交流，这让我们很明显地发现，这不是一个可能被黑客攻击的无辜维护者的不幸事故，而是当前上游维护者有计划的行动。万一警钟敲得还不够响亮，这就会让它们的噪音水平翻倍。&lt;/p&gt;
+
+&lt;p&gt;在披露前一天，也就是周四晚上，SUSE 产品安全部门收到了 Andres Freund 通过共享发行版安全披露列表提交的一份较长的详细报告。发行版列表是一个加密的邮件列表，发行商可以在这里就安全问题的协调披露进行合作和协调。这份报告带来了 xz 后门专门针对 openssh 的新信息，而 openssh 几乎是所有 Linux 系统中面向网络的部分之一。这进一步提高了我们对远程访问后门的威胁级别，也导致我们扩大了计划中的交流工作。感谢 SUSE 产品安全部门成为各种私人安全论坛（如发行版列表和 CERT VINCE 等）的成员，这使我们能够协调软件供应商之间的修复工作，并在披露日期准备好更新。在开放源代码中，这对保护用户至关重要。&lt;/p&gt;
+
+&lt;h2 id=&quot;准备公开披露&quot;&gt;准备公开披露&lt;/h2&gt;
+
+&lt;p&gt;综合我们迄今为止了解到的所有信息，情况变得更加明朗。有人花了数年时间做准备，打好基础工作，建立良好的维护者声誉，接管项目，然后选择了一个对多个发行版项目来说非常关键的时间点，并且在农历新年中间作为以及其他假期发布具有新功能和混淆后门的新版本，该后门经过精心设计，仅针对特定发行版，即在 x86_64 上使用 GCC、Binutils、Glibc 和 RPM 或 Debian 构建过程的发行版。&lt;/p&gt;
+
+&lt;p&gt;考虑到这一切，我们意识到公众将对此进行大量报道。这将成为几天到几周的新闻。因此，我们启动了一个新的工作流程，与通信团队一起为此做好准备。&lt;/p&gt;
+
+&lt;h2 id=&quot;公开披露&quot;&gt;公开披露&lt;/h2&gt;
+
+&lt;p&gt;到公开披露时，所有工作流程都已完成。我们确定了受影响产品的清单，并发布了所有受影响产品的所有更新。沟通工作已经准备就绪，可以上线并发送给相关方。之所以能做到这一切，是因为很多人都超前工作，抛开一切，及时作出反应，并参与其中，以确保我们没有错过任何事情或忽略任何事情；与此同时，一个漫长的公共假期周末已经开始了。感谢所有为此准备而夜以继日工作的人。&lt;/p&gt;
+
+&lt;h2 id=&quot;故事中的英雄&quot;&gt;故事中的英雄&lt;/h2&gt;
+
+&lt;p&gt;Andres Freund 是 PostgreSQL 社区的一名开发人员，他在最近升级的 Debian 不稳定版安装中没有忽略 ssh 登录的奇怪性能倒退，这才没有发生更糟糕的事情。这也证明，在接下来的几个月甚至几年里，如果其他人都忽略了一件事，而他却没有放弃，这就是英雄之所以成为英雄的原因。&lt;/p&gt;
+
+&lt;p&gt;然而，依靠英雄并不是一个可持续和可靠的战略。因此，对于未来，我们都需要从发生的事情中吸取教训，需要成为一个由小英雄组成的大团队。&lt;/p&gt;
+
+&lt;h2 id=&quot;发生的事情太长不读版&quot;&gt;发生的事情（太长不读版）&lt;/h2&gt;
+
+&lt;p&gt;Linux 发行版被滥用于向用户提供了一个后门。该后门的确切目的仍在猜测之中。有可能是某个人想通过公共云托管的虚拟机向公众开放易受攻击的 ssh 端口，从而获得大量计算能力。这虽然不太可能，但仍有可能。另一种可能是一家向国家行为者出售后门的公司，国家行为者利用这些后门远程秘密地访问任何 Linux 机器。虽然犯了错误，但几乎达到了目的。真相在哪里？这还需要进一步的证据鉴定和分析。&lt;/p&gt;
+
+&lt;h2 id=&quot;是时候向前看了&quot;&gt;是时候向前看了&lt;/h2&gt;
+
+&lt;p&gt;在对 3 月底发生的事情进行幕后回顾之后，接下来的内容将转为展望未来。&lt;/p&gt;
+
+&lt;h2 id=&quot;莱纳斯定律和发行版linus-law-and-the-distributions&quot;&gt;莱纳斯定律和发行版（Linus Law and the distributions）&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;“只要有足够多的注视，所有的错误都是肤浅的（Given enough eyeballs, all bugs are shallow）”。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;在开源社区中，人们经常引用这句话作为开源项目值得信赖的理由。对于那些吸引了足够多技术熟练的贡献者关注的开源项目来说，这条”定律”可能至少有一定的分量。然而，我们从 Heartbleed 中了解到，这些先决条件并非普遍都能满足。有许多项目是绝对重要的，但却被认为是枯燥乏味的，无法吸引大量的维护者或贡献者，而那些在项目中的维护者或贡献者已经被埋没在一堆工作中，无法真正花大力气去培养新的加入者。&lt;/p&gt;
+
+&lt;p&gt;XZ 后门的设计只针对发行版。首先，后门在展开前会执行预检查，而且植入后门所需的条件只存在于这些发行版的下游。Debian 和其他受影响的发行版（如 openSUSE）都为重要的开源项目（如本例中的 openssh）打了大量下游补丁。事后看来，这应该是对发行版工作的又一次心血来潮式的学习。这些补丁正在构建嵌入后门的基本步骤，并且没有受到各自上游维护者的严格审查。无论你是否信任Linus Law，它在这里连插话的机会都没有。上游并没有在用户上失败，发行版在上游及其用户上失败了。&lt;/p&gt;
+
+&lt;h2 id=&quot;开源及其社区&quot;&gt;开源及其社区&lt;/h2&gt;
+
+&lt;p&gt;与专有的单一供应商替代品相比，能够检查开源软件的源代码为社区带来了无与伦比的优势。然而，审核源代码需要大量时间，而且往往需要经验丰富的领域和安全专家。商业发行版应该而且正在这方面发挥重要作用，但它们还没有意识到这一点。从这个意义上说，XZ 项目是安全审计通常如何分配工作量的完美盲点。由于非显而易见的原因，XZ 项目嵌套很深，对每个发行版都很重要，多年来一直处于只有一个维护者、极少数贡献者或审核者的状态。它不是闪亮的新云原生或其他花哨的新开源项目，不会吸引成千上万的开发人员或安全研究人员，但它对现代计算的完整性和安全性同样重要。如果说这里有什么值得学习的地方，那就是需要根据这些经验来调整选择重点的标准。&lt;/p&gt;
+
+&lt;p&gt;此外，其他人已经强调，最初的攻击载体不是技术性的。它不是一个古老的 tarball。最初的实际攻击是社会工程学，利用的是社区中的有毒行为。这是真实存在的，而且不仅在这种情况下会影响开源项目的现有维护者。有许多故事表明，维护者的压力或倦怠与项目社区中的有毒参与者有关。虽然我相信发行版并不属于这些活动的一部分，但我们的设置并不能防止这些事情的发生。发行版开发者专注于他们的问题和用户，由于时间有限，他们有可能会忽视（上游）开源社区。这是我们需要牢记的另一件事。&lt;/p&gt;
+
+&lt;p&gt;像 &lt;a href=&quot;https://chaoss.community/&quot;&gt;CHAOSS&lt;/a&gt; 和&lt;a href=&quot;https://openssf.org/&quot;&gt;开源安全基金会&lt;/a&gt;这样的组织之所以成立，就是因为这些情况很容易被忽略。它们为分析 “总线因素（bus factor）”或 “串通因素（collusion factor）”提供了重要服务，即需要多少参与者才能破坏一个项目，从而使其他人能够专注于在最重要的地方提供帮助。&lt;/p&gt;
+
+&lt;h2 id=&quot;自由的代价&quot;&gt;自由的代价&lt;/h2&gt;
+
+&lt;p&gt;自由和开放源码软件（FLOSS）不在于成本，也不在于免费使用，而在于检查和（重新）使用的自由。这种自由的代价是什么？在专有软件的世界里，软件是要付费的。在开放源代码领域，这种自由需要得到应有的认可和重视。当有人把 XZ 后门说成是软件供应链安全事件时，这并不全面。软件供应链的一端是供应商。但开源项目和社区如今并不是供应商。它们与任何消费者之间都没有具有法律约束力的合同，也不涉及金钱交换。它们有一个规模不等的社区，以志愿者或有偿工作者的身份提供帮助。大多数项目都没有得到足够的帮助。&lt;/p&gt;
+
+&lt;p&gt;作为一种开放式思考：发行版是否应该积极建立和管理自己的供应链，并将”他们的供应商”视为真正的供应商，制定具有法律约束力的相互条款和条件，并商定补偿？&lt;/p&gt;
+
+&lt;h2 id=&quot;安全的信任网络是新的供应链安全&quot;&gt;安全的信任网络是新的供应链安全&lt;/h2&gt;
+
+&lt;p&gt;在这次事件中，签名的 tarball 被用来发布后门的启动器。人们对此议论纷纷。我们需要认识到，这只是一个干扰，一个陷阱。就代码量而言，99.9% 的后门都在源代码库中。压缩包中的启动器只是为了将后门的暴露范围限制在预定的受害者身上，从技术上讲不需要任何东西，也不被任何东西所需要。如果其余 0.1% 的后门也在项目代码库中提交，那么嵌入后门同样容易，发现后门同样困难，只是方式略有不同而已。&lt;/p&gt;
+
+&lt;p&gt;对于大多数其他可考虑的攻击场景，签名发布工件具有重要的品质。它们实现了只发布被视为可发布的产品的期望。它们提供了一个可独立验证的链条，直达源头（”供应商”）。然而，每次分发都是从链条中可验证的第一部分开始，然后在上面添加内容。通常情况下（或者说几乎总是），都有一种透明的方式来验证这些变化（以符合 SLSA 的程序的形式），所有这些都是孤立的。这些分离链的可靠性如何？目前，发行版偶尔会在上游项目发布的补丁上重复使用相同或类似的补丁，但在其他大多数情况下，它们都是孤立工作的，只有在极少数情况下才会积极合作。激活后门的重要下游补丁在发行版中已存在近 10 年，但在上游却未见其踪影。&lt;/p&gt;
+
+&lt;p&gt;我们承认 XZ 后门的设计非常巧妙。然而，它在执行过程中却出现了令人惊讶的缺陷。不管是谁，只要对进一步嵌入后门感兴趣，就会从对所有错误的精心公开报道中吸取教训。这些错误已被指出、公布并从中吸取教训。我们已经为这一后门背后的行为者提供了免费培训，以便他们在未来发动下一次攻击。现在是时候了，分配部门也应该从中吸取教训，并接受培训。我们需要积极合作，与开源项目和彼此建立强大、可靠的信任网络，为应对未来不可避免的挑战做好准备。让我们一起构建安全的信任之网！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;本文图片由 &lt;a href=&quot;https://www.flickr.com/photos/mpastwa/2521707893/&quot;&gt;Matthias Pastwa&lt;/a&gt; 拍摄，在 &lt;a href=&quot;https://creativecommons.org/licenses/by-nd/2.0/&quot;&gt;CC-BY-ND 2.0 DEED&lt;/a&gt; 下使用&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/12/learn-from-the-xz-backdoor/&quot;&gt;What we need to take away from the XZ Backdoor&lt;/a&gt;，作者：Dirk Mueller&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/10/wallpaper.html</guid>
       <title>默认壁纸在 openSUSE、SUSE 之间具有共同路径</title>
       <pubDate>Wed, 10 Apr 2024 00:40:00 +0000</pubDate>
@@ -502,124 +606,6 @@ openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/05/systemd-boot-integration-in-os/&quot;&gt;New systemd-boot Integration in openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/02/28/monthly-update.html</guid>
-      <title>openSUSE Tumbleweed 每月更新 - 二月</title>
-      <pubDate>Wed, 28 Feb 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/02/28/monthly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>欢迎来到 openSUSE 2024 年 2 月的月度更新。由于闰年的缘故，本月多了一天，以下是本月的更新内容。本博客旨在为读者提供 openSUSE Tumbleweed 本月快照中主要更改、改进和问题的概览。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 openSUSE Factory 邮件列表。 新功能和增强功能 Linux 内核：Linux 内核在二月份进行更新，从 6.7.2 版本升级到 6.7.6 版本。这些更新的重点是加强内存管理，解决一些安全漏洞，并引入对新硬件型号的支持，确保提高各种系统的兼容性和性能。 修正了各种问题，包括 powerpc/mm 中的取消空指针引用、arm64 irq 的错误节点设置以及 powerpc 架构中的构建错误。 修正了 arm64 irq 模块中 VMAP 堆栈的节点分配。 修正 powerpc/mm 模块中 pgtable_cache_add 的取消引用空指针问题。 修复 ext4 和 JFS 等文件系统中的各种问题。 确保在 x86/boot 模块中正确处理早期启动时的 NMI。...</description>
-      <content:encoded>&lt;p&gt;欢迎来到 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 2024 年 2 月的月度更新。由于闰年的缘故，本月多了一天，以下是本月的更新内容。本博客旨在为读者提供 openSUSE Tumbleweed 本月快照中主要更改、改进和问题的概览。如果读者希望获得更多有关 openSUSE Tumbleweed 快照的信息，建议订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;：Linux 内核在二月份进行更新，从 6.7.2 版本升级到 6.7.6 版本。这些更新的重点是加强内存管理，解决一些安全漏洞，并引入对新硬件型号的支持，确保提高各种系统的兼容性和性能。
-    &lt;ul&gt;
-      &lt;li&gt;修正了各种问题，包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;powerpc&lt;/a&gt;/mm 中的取消空指针引用、&lt;a href=&quot;https://www.arm.com/&quot;&gt;arm64&lt;/a&gt; irq 的错误节点设置以及 powerpc 架构中的构建错误。&lt;/li&gt;
-      &lt;li&gt;修正了 arm64 irq 模块中 VMAP 堆栈的节点分配。&lt;/li&gt;
-      &lt;li&gt;修正 powerpc/mm 模块中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pgtable_cache_add&lt;/code&gt; 的取消引用空指针问题。&lt;/li&gt;
-      &lt;li&gt;修复 &lt;a href=&quot;https://wiki.archlinux.org/title/Ext4&quot;&gt;ext4&lt;/a&gt; 和 &lt;a href=&quot;https://wiki.archlinux.org/title/JFS&quot;&gt;JFS&lt;/a&gt; 等文件系统中的各种问题。&lt;/li&gt;
-      &lt;li&gt;确保在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86/boot&lt;/code&gt; 模块中正确处理早期启动时的 NMI。&lt;/li&gt;
-      &lt;li&gt;支持新硬件或型号：
-        &lt;ul&gt;
-          &lt;li&gt;七彩虹 X15 AT 23 笔记本电脑&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.115.0/&quot;&gt;KDE Frameworks&lt;/a&gt;：更新至 &lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.115.0/&quot;&gt;5.115.0&lt;/a&gt; 版本。
-    &lt;ul&gt;
-      &lt;li&gt;额外的 &lt;a href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; 模块：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMUninstallTarget&lt;/code&gt; 现在能将生成的代码从已废弃的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exec_program&lt;/code&gt; 移植到其他地方，从而增强了兼容性和可维护性。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kholidays/html/index.html&quot;&gt;KHolidays&lt;/a&gt;：新增&lt;a href=&quot;https://en.wikipedia.org/wiki/Imbolc&quot;&gt;圣布里吉德节&lt;/a&gt;。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt;：再次使用 KDirModel，允许在文件选择器中扩展网络目录。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/prison&quot;&gt;prison&lt;/a&gt;：启用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;videoscannerworker.cpp&lt;/code&gt; 的例外。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;：更新至 23.3.6 版本。
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.mesa3d.org/drivers/zink.html&quot;&gt;zink&lt;/a&gt;：解决了 Selaco 中的闪烁伪像、&lt;a href=&quot;https://pine64.org/devices/pinephone_pro/&quot;&gt;PinePhone Pro&lt;/a&gt; 上的色彩/双源混合破损问题，并修复了稀疏的 bo 放置问题。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.mesa3d.org/drivers/panfrost.html&quot;&gt;panfrost&lt;/a&gt;：解决了 T604 (T600) 上的图形伪影问题，修复了编译器在构建 valhall 测试时的间歇性故障，并在 v4 上用零填充了计算作业。&lt;/li&gt;
-      &lt;li&gt;radeonsi：修复了 780M 上 KMS DRM 渲染不同步的翻转/撕裂问题，并解决了《&lt;a href=&quot;https://store.steampowered.com/app/57300/Amnesia_The_Dark_Descent&quot;&gt;失忆症：黑暗后裔&lt;/a&gt;》中的严重损坏问题。&lt;/li&gt;
-      &lt;li&gt;VK：修复了各种不稳定的测试、《&lt;a href=&quot;https://www.ageofempires.com/games/age-of-empires-iv/&quot;&gt;帝国时代 IV&lt;/a&gt;》中的全屏”带状”伪影以及 dEQP-VK 管道测试中的故障。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;：更新至 254.9 版本。
-    &lt;ul&gt;
-      &lt;li&gt;vconsole-setup：解决了在唯一找到的 vc 已被 plymouth 使用时 vconsole-setup 会失败的问题。&lt;/li&gt;
-      &lt;li&gt;systemd-testsuite：依赖关系更新为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qemu&lt;/code&gt; 而非 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qemu-kvm&lt;/code&gt;，后者已过时。&lt;/li&gt;
-      &lt;li&gt;test/test-shutdown.py：添加了在专用日志文件中显示测试 I/O 的选项。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://manpages.opensuse.org/&quot;&gt;手册页&lt;/a&gt;：文档更新，包含发行版配置文件和本地配置文件的范围。&lt;/li&gt;
-      &lt;li&gt;libbpf：更新了 systemd 依赖的 libbpf 版本（弱依赖）。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt;：从 2.38 版本更新至 2.39 版本。
-    &lt;ul&gt;
-      &lt;li&gt;PLT 重写：引入了一个新的可调整项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glibc.cpu.plt_rewrite&lt;/code&gt;，允许在 x86-64 架构上启用 PLT 重写。&lt;/li&gt;
-      &lt;li&gt;与 Linux 内核 6.6 同步：与 Linux 内核 6.6 shadow 堆栈接口同步。&lt;/li&gt;
-      &lt;li&gt;新函数：在 Linux 上增加了新函数，包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posix_spawnattr_getcgroup_np&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posix_spawnattr_setcgroup_np&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pidfd_spawn&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pidfd_spawp&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pidfd_getpid&lt;/code&gt;。&lt;/li&gt;
-      &lt;li&gt;scanf 系列函数：支持指向特定类型参数的 wN 格式长度修饰符。&lt;/li&gt;
-      &lt;li&gt;内存分配可调参数：引入新的可调整项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;glibc.mem.decoration_maps&lt;/code&gt;，用于添加 glibc 分配的底层内存的附加信息。&lt;/li&gt;
-      &lt;li&gt;ISO C2X：新增 ISO C2X 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;stdbit.h&amp;gt;&lt;/code&gt; 头文件。&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt;：为 AArch64 上的 libmvec 添加新符号。&lt;/li&gt;
-      &lt;li&gt;ldconfig 增强功能：ldconfig 现在可跳过包含特定字符和模式的文件名。&lt;/li&gt;
-      &lt;li&gt;动态链接器改进：如果加载和卸载带有动态 TLS 的共享对象，动态链接器在 TLS 访问期间更多情况下会调用 malloc 和 free 函数。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cups.org/&quot;&gt;Cups-Filters&lt;/a&gt;：更新至 1.28.17 版本。
-    &lt;ul&gt;
-      &lt;li&gt;改进的打印机功能发现：增强功能可以更可靠地发现无驱动打印机的所有打印机功能，尤其是无边界打印功能。这包括优先选择 Apple Raster 而不是 PWG Raster 或 PCLM 格式。&lt;/li&gt;
-      &lt;li&gt;PPD 生成器优化：PPD 生成器现在仅使用最理想/最可靠的格式（通常是 Apple Raster）为栅格创建一个 *cupsFilter2 行。&lt;/li&gt;
-      &lt;li&gt;媒体数据库处理：如果需要，可以分别增强处理 media-col-database 和 media-col-ready IPP 属性，显示了无边框打印等重要功能。&lt;/li&gt;
-      &lt;li&gt;考虑边距替代方案：在为无驱动打印机生成 PPD 文件时，考虑所有边距替代方案，确保发现许多打印机的无边框功能。&lt;/li&gt;
-      &lt;li&gt;图像打印增强功能：现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print-scaling=none&lt;/code&gt; 以原始尺寸打印图像，并且用于读取 TIFF 图像的已弃用数据类型已被现代等效数据类型取代。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://openvpn.net/&quot;&gt;openvpn&lt;/a&gt;：更新至 2.6.9 版本。
-    &lt;ul&gt;
-      &lt;li&gt;增强了日志记录功能：SSL 警报现在会被记录在更显眼的位置，从而提高了 SSL 相关问题的可见性。&lt;/li&gt;
-      &lt;li&gt;文档改进：对文档进行了澄清和补充，包括将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tls-exit&lt;/code&gt; 选项作为主要测试选项的文档。&lt;/li&gt;
-      &lt;li&gt;代码清理：删除了未使用的函数原型和冗余代码，确保代码库更简洁，并提高了可维护性。&lt;/li&gt;
-      &lt;li&gt;错误处理：添加缺失的错误检查并改进错误信息，以便更好地进行调试和故障排除。&lt;/li&gt;
-      &lt;li&gt;安全性增强：实施了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--tls-export-cert&lt;/code&gt; 功能，并增加了 TLS 1.0 PRF 可用性检查，从而改进了安全措施。&lt;/li&gt;
-      &lt;li&gt;配置澄清：澄清了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tls-crypt-v2-verify&lt;/code&gt; 选项，并删除了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--tls-export-cert&lt;/code&gt; 等多余选项。&lt;/li&gt;
-      &lt;li&gt;库兼容性：添加了对较新版本的依赖项（如 mbedtls 3.x.y）的支持，并禁用了 TLS 1.3 支持。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;安全更新&quot;&gt;安全更新&lt;/h2&gt;
-
-&lt;p&gt;本月的更新包括 &lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt;、&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt;、&lt;a href=&quot;https://saltproject.io/&quot;&gt;Salt&lt;/a&gt;、&lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt; 和许多其他软件包的关键安全补丁和错误修复。&lt;/p&gt;
-
-&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/libc/&quot;&gt;glibc&lt;/a&gt;：修复了一些 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6246.html&quot;&gt;CVE-2023-6246&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6779.html&quot;&gt;CVE-2023-6779&lt;/a&gt;（缓冲区溢出）、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6780.html&quot;&gt;CVE-2023-6780&lt;/a&gt;（整数溢出），这两个漏洞都会导致缓冲区大小计算错误。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-0444.html&quot;&gt;CVE-2024-0444&lt;/a&gt; 使恶意第三方有可能触发应用程序崩溃。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://saltproject.io/&quot;&gt;Salt&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22231.html&quot;&gt;CVE-2024-22231&lt;/a&gt; 容易受到目录遍历攻击，而 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22232.html&quot;&gt;CVE-2024-22232&lt;/a&gt; 具有特制的 URL，可能会导致 salt 文件服务器中的目录遍历。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-46839.html&quot;&gt;CVE-2023-46839&lt;/a&gt; 复杂度高，权限要求高。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://thekelleys.org.uk/dnsmasq/doc.html&quot;&gt;dnsmasq&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-50387.html&quot;&gt;CVE-2023-50387&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-50868.html&quot;&gt;CVE-2023-50868&lt;/a&gt; 都可能允许远程攻击者造成拒绝服务。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6693.html&quot;&gt;CVE-2023-6693&lt;/a&gt; 可能允许黑客通过网络设备窃取数据。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-50387.html&quot;&gt;CVE-2023-50387&lt;/a&gt; 与 “KeyTrap” DNS 缺陷相关，可让攻击者远程超载服务器。另外三个是 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-4408.html&quot;&gt;CVE-2023-4408&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-5679.html&quot;&gt;CVE-2023-5679&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6516.html&quot;&gt;CVE-2023-6516&lt;/a&gt;。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node.js&lt;/a&gt;：修复了多个 CVE。它们分别是 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21892.html&quot;&gt;CVE-2024-21892&lt;/a&gt;，它让非特权用户获得更高的权限；&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22019.html&quot;&gt;CVE-2024-22019&lt;/a&gt;，这是一个让攻击者通过格式错误的请求导致服务器崩溃的缺陷；&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21896.html&quot;&gt;CVE-2024-22017&lt;/a&gt;，这是一个通过 Buffer 的路径遍历错误实验特征中的操纵。还有 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21896.html&quot;&gt;CVE-2024-21896&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-46809.html&quot;&gt;CVE-2023-46809&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21891.html&quot;&gt;CVE-2024-21891&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21890.html&quot;&gt;CVE-2024-21890&lt;/a&gt;、&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-22025.html&quot;&gt;CVE-2024-22025&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-24758.html&quot;&gt;CVE-2024-24758&lt;/a&gt;，它们在重定向后保留 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Proxy-Authentication&lt;/code&gt; 标头；根据需要升级。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;2024 年 2 月，openSUSE Tumbleweed 展示了重要组件的各种更新和改进。 glibc、GStreamer 和 Salt 等软件都有重要的安全补丁。内核从月初的 6.7.2 更新到 6.7.6。KDE Frameworks、Mesa、systemd、Cups-Filters 和其他核心组件都有更新。本月其他重大升级包括 fwupd 1.9.13、PostgreSQL 16.2、Pulseaudio 17.0、GTK 4.12.5、Python 3.11.8、RPM 4.19.1.1、Mozilla Firefox 122.0.1、PHP 8.2.16、Poppler 24.02.0、Shadow 4.14.5、binutils 2.42、Qemu 8.2.1 和 Python 3.12。下个月，systemd 255.3 应该会发布滚动版本，因为该软件包目前正在准备阶段。 openSUSE 团队鼓励用户继续通过错误报告、功能建议和讨论参与其中。&lt;/p&gt;
-
-&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
-
-&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/02/28/tw-monthly-update-feb/&quot;&gt;openSUSE Tumbleweed Monthly Update - February&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
 </content:encoded>
     </item>
 
