@@ -7,6 +7,27 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/16/leap-micro.html</guid>
+      <title>openSUSE Leap Micro 6 进入 Alpha 阶段</title>
+      <pubDate>Tue, 16 Apr 2024 14:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/16/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 项目兴奋地宣布 Leap Micro 6 已进入 alpha 开发阶段。 openSUSE Leap Micro 6 在其前代产品的坚实基础上，继续为现代轻量级主机操作系统提供稳定、安全和可扩展的平台，反映了 SUSE 商业 SL Micro 版本的功能和增强功能。 随着 Leap Micro 6 的即将发布，Leap Micro 5.4 的用户需要计划迁移到 Leap Micro 5.5，直接迁移到 Leap Micro 6 或商业版本；因为 Leap Micro 6 推出后，5.4 版本将终止生命周期。目前使用 Leap Micro 5.5 的用户可以选择升级到 6.0 或继续使用 5.5，直到后续版本发布。 熟悉 Leap Micro 5.5 的用户一定还记得其出色的功能，如增强的...</description>
+      <content:encoded>&lt;p&gt;openSUSE 项目兴奋地宣布 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;Leap Micro 6&lt;/a&gt; 已进入 alpha 开发阶段。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap Micro 6 在其前代产品的坚实基础上，继续为现代轻量级主机操作系统提供稳定、安全和可扩展的平台，反映了 SUSE 商业 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SL Micro&lt;/a&gt; 版本的功能和增强功能。&lt;/p&gt;
+
+&lt;p&gt;随着 Leap Micro 6 的即将发布，Leap Micro 5.4 的用户需要计划迁移到 Leap Micro 5.5，直接迁移到 Leap Micro 6 或商业版本；因为 Leap Micro 6 推出后，5.4 版本将终止生命周期。目前使用 Leap Micro 5.5 的用户可以选择升级到 6.0 或继续使用 5.5，直到后续版本发布。&lt;/p&gt;
+
+&lt;p&gt;熟悉 Leap Micro 5.5 的用户一定还记得其出色的功能，如增强的 SELinux 功能、改进的 podman-docker 和对 AArch64 的 Hyper-V 支持，这些功能大大增强了操作系统的安全性和通用性。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/15/os-leap-micro-enters-alpha/&quot;&gt;openSUSE Leap Micro 6 Enters Alpha Stage&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/12/xz.html</guid>
       <title>我们需要从 XZ 后门中获得的启示</title>
       <pubDate>Fri, 12 Apr 2024 00:40:00 +0000</pubDate>
@@ -573,39 +594,6 @@ openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/07/leap-reaches-beta-phase/&quot;&gt;Leap 15.6 Reaches Beta Phase&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/04/systemd.html</guid>
-      <title>openSUSE 中新的 systemd-boot 集成</title>
-      <pubDate>Mon, 04 Mar 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/04/systemd.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 每天都会发生一些变化，将 systemd-boot 集成到其中也在不断发展。 从传统的 GRUB 引导加载器转向新型的 systemd-boot 有望带来更好的系统引导性能和安全性。 Ludwig Nussel 的 “all-systems-go” 演讲阐明了 openSUSE 中 systemd-boot 集成的动机、挑战和未来方向。 采用 systemd-boot 的主要动机在于它的简单性和高效性，尤其是在处理全磁盘加密时。传统的引导加载器（如 GRUB）需要嵌入解密代码和密钥派生函数，这可能会使引导加载器代码和引导过程复杂化，从而减慢系统启动速度。通过 systemd-boot，这些职责被委托给 Linux 内核和用户空间，这有助于简化启动过程。 MicroOS 和 Tumbleweed 对 Btrfs 及其快照功能的使用增加了启动过程的复杂性；我们正在通过将 systemd-boot 与快照管理系统集成来解决这一问题，以确保每个快照都能成功启动，并在此动态环境中妥善处理内核更新。 为了便于整合，我们引入了新的打包脚本和工具（如 sdbootutil）来管理内核版本、快照和启动项。该工具在使 systemd-boot 成为 openSUSE 用户的一个实用选择方面起着至关重要的作用，因为 MicroOS 与 Tumbleweed 的快照管理方式不同。 系统将使用 sdbootutil 在 EFI 系统分区（ESP）中创建新的 Type #1...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 每天都会发生一些变化，将 &lt;a href=&quot;https://github.com/systemd/systemd/tree/main/src/boot&quot;&gt;systemd-boot&lt;/a&gt; 集成到其中也在不断发展。&lt;/p&gt;
-
-&lt;p&gt;从传统的 &lt;a href=&quot;https://www.gnu.org/software/grub/&quot;&gt;GRUB 引导加载器&lt;/a&gt;转向新型的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 有望带来更好的系统引导性能和安全性。&lt;/p&gt;
-
-&lt;p&gt;Ludwig Nussel 的 &lt;a href=&quot;https://youtu.be/drgo6pvn5hI?si=OiVQxMx3UpF_ku3Z&quot;&gt;“all-systems-go” 演讲&lt;/a&gt;阐明了 openSUSE 中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 集成的动机、挑战和未来方向。&lt;/p&gt;
-
-&lt;p&gt;采用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 的主要动机在于它的简单性和高效性，尤其是在处理&lt;a href=&quot;https://en.wikipedia.org/wiki/Disk_encryption&quot;&gt;全磁盘加密&lt;/a&gt;时。传统的引导加载器（如 GRUB）需要嵌入解密代码和密钥派生函数，这可能会使引导加载器代码和引导过程复杂化，从而减慢系统启动速度。通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt;，这些职责被委托给 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;和用户空间，这有助于简化启动过程。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS&lt;/a&gt; 和 Tumbleweed 对 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;Btrfs&lt;/a&gt; 及其快照功能的使用增加了启动过程的复杂性；我们正在通过将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 与快照管理系统集成来解决这一问题，以确保每个快照都能成功启动，并在此动态环境中妥善处理内核更新。&lt;/p&gt;
-
-&lt;p&gt;为了便于整合，我们引入了新的打包脚本和工具（如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt;）来管理内核版本、快照和启动项。该工具在使 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 成为 openSUSE 用户的一个实用选择方面起着至关重要的作用，因为 MicroOS 与 Tumbleweed 的快照管理方式不同。&lt;/p&gt;
-
-&lt;p&gt;系统将使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 在 &lt;a href=&quot;https://en.wikipedia.org/wiki/EFI_system_partition&quot;&gt;EFI 系统分区&lt;/a&gt;（ESP）中创建新的 Type #1 启动项，以代表所有可用的启动选项，并将快照中新安装的内核复制到该分区中。它还将为这些快照生成良好的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;使用全磁盘加密时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 还将调用不同的命令，更新使用系统内部 &lt;a href=&quot;https://en.wikipedia.org/wiki/Trusted_Platform_Module&quot;&gt;TPM2&lt;/a&gt; 设备自动解锁新快照所需的策略。&lt;/p&gt;
-
-&lt;p&gt;理想情况下，将来这些功能的一部分（可能不是全部）将被导入到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd&lt;/code&gt; 本身或发行版中的其他系统组件中。这些变化使该工具成为一个很好的平台，用于实验、验证或摒弃 openSUSE 在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 上采用的不同方法。&lt;/p&gt;
-
-&lt;p&gt;目前，openSUSE 对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 的支持仍处于试验阶段。Tumbleweed 和 MicroOS 的 &lt;a href=&quot;https://yast.opensuse.org/&quot;&gt;YaST&lt;/a&gt; 安装程序都提供 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 作为 grub 的替代方案。&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 也有现成的设备，默认使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 和全磁盘加密。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/05/systemd-boot-integration-in-os/&quot;&gt;New systemd-boot Integration in openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
