@@ -6,7 +6,7 @@ license: CC-BY-SA-3.0
 title: openSUSE Leap Micro 6 进入 Alpha 阶段
 image: /assets/posts/2024-04/leapmicro54-rpi.jpg
 categories:
-- 社区新闻
+- 更新通告
 tags:
 - Leap
 - 翻译作品
