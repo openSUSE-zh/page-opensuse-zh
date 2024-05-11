@@ -7,6 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/10/weblate.html</guid>
+      <title>Weblate 计划于 5 月 14 日停机</title>
+      <pubDate>Fri, 10 May 2024 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/10/weblate.html</link>
+      <author>Poplar at twilight</author>
+      <description>随着 Weblate 迁移到托管解决方案，openSUSE 将进行一次重要更新。
+
+转向基于网络的本地化工具的托管解决方案，以满足项目开发不断增长的需求。
+
+迁移定于 5 月 14 日进行，预计服务将关闭大约一天。
+
+这是为长期利益而计划的短期不便，并将允许我们的翻译贡献者从他们上次停下的地方继续。
+
+希望通过帮助使用 Weblate 翻译来为 openSUSE 项目做出贡献的人们可在 https://l10n.opensuse.org 上注册，并通过 translation@lists.opensuse.org 和 project@lists.opensuse.org 邮件列表与其他翻译人员联系。
+
+迁移期间任何连接到 Weblate 的尝试都会触发通知，通知用户正在进行维护。其他人将通过 https://status.opensuse.org 收到有关中断的通知。
+
+
+
+原文：Planned outage of Weblate on May 14th，作者：Padraig Dillon
+</description>
+      <content:encoded>&lt;p&gt;随着 &lt;a href=&quot;https://l10n.opensuse.org/&quot;&gt;Weblate&lt;/a&gt; 迁移到托管解决方案，&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 将进行一次重要更新。&lt;/p&gt;
+
+&lt;p&gt;转向基于网络的本地化工具的托管解决方案，以满足项目开发不断增长的需求。&lt;/p&gt;
+
+&lt;p&gt;迁移定于 5 月 14 日进行，预计服务将关闭大约一天。&lt;/p&gt;
+
+&lt;p&gt;这是为长期利益而计划的短期不便，并将允许我们的翻译贡献者从他们上次停下的地方继续。&lt;/p&gt;
+
+&lt;p&gt;希望通过帮助使用 Weblate 翻译来为 openSUSE 项目做出贡献的人们可在 &lt;a href=&quot;https://l10n.opensuse.org&quot;&gt;https://l10n.opensuse.org&lt;/a&gt; 上注册，并通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/translation@lists.opensuse.org/&quot;&gt;translation@lists.opensuse.org&lt;/a&gt; 和 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/&quot;&gt;project@lists.opensuse.org&lt;/a&gt; 邮件列表与其他翻译人员联系。&lt;/p&gt;
+
+&lt;p&gt;迁移期间任何连接到 Weblate 的尝试都会触发通知，通知用户正在进行维护。其他人将通过 &lt;a href=&quot;https://status.opensuse.org&quot;&gt;https://status.opensuse.org&lt;/a&gt; 收到有关中断的通知。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/09/weblate-outage/&quot;&gt;Planned outage of Weblate on May 14th&lt;/a&gt;，作者：Padraig Dillon&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/06/asia-summit.html</guid>
       <title>openSUSE.Asia 峰会将于东京举行</title>
       <pubDate>Mon, 06 May 2024 23:30:00 +0000</pubDate>
@@ -587,100 +627,6 @@ openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;hhttps://news.opensuse.org/2024/03/29/xz-backdoor/&quot;&gt;openSUSE addresses supply chain attack against xz compression library&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/28/monthly-update.html</guid>
-      <title>openSUSE Tumbleweed 每月更新 - 三月</title>
-      <pubDate>Thu, 28 Mar 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/28/monthly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>欢迎阅读 openSUSE 2024 年 3 月的月度更新。本月为 Tumbleweed 提供了几个预期更新。 在了解软件包更新之前，请了解本博客旨在为读者提供 openSUSE 全月滚动发布中主要更改、改进和问题的概览。如果读者希望获得更频繁的快照更新信息，我们鼓励读者订阅 openSUSE Factory 邮件列表。 新功能和增强功能 Linux 内核：快照 20240319 将内核从 6.7.9 更新至 6.8.1，增强了系统稳定性、安全性和硬件兼容性。主要的变更操作如下： 补丁解决了寄存器文件数据采样 (Register File Data Sampling, RFDS) 微架构漏洞 CVE-2023-28746。该补丁包括缓解措施，例如导出到 KVM/x86 环境中的虚拟机，并添加新文档。有一个补丁可以在设置 X86_FEATURE_CLEAR_CPU_BUF 时禁用 KVM 缓解。 一个值得注意的还原是，在出现问题后，删除了 Btrfs 中 inode_cache 和 recovery 挂载选项的代码。修复了与 Btrfs 相关的问题，例如解决了在 fiemap 过程中检测延迟分配（Delayed Allocation）范围时的竞争条件。 这些更新涉及到针对 arm...</description>
-      <content:encoded>&lt;p&gt;欢迎阅读 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 2024 年 3 月的月度更新。本月为 Tumbleweed 提供了几个预期更新。&lt;/p&gt;
-
-&lt;p&gt;在了解软件包更新之前，请了解本博客旨在为读者提供 openSUSE 全月滚动发布中主要更改、改进和问题的概览。如果读者希望获得更频繁的快照更新信息，我们鼓励读者订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;：快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/EW5VWYR22A4A5772WTYLPGXTFVGJTZKK/&quot;&gt;20240319&lt;/a&gt; 将内核从 6.7.9 更新至 6.8.1，增强了系统稳定性、安全性和硬件兼容性。主要的变更操作如下：
-    &lt;ul&gt;
-      &lt;li&gt;补丁解决了&lt;a href=&quot;https://docs.kernel.org/admin-guide/hw-vuln/reg-file-data-sampling.html&quot;&gt;寄存器文件数据采样&lt;/a&gt; (Register File Data Sampling, RFDS) 微架构漏洞 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2023-28746.html&quot;&gt;CVE-2023-28746&lt;/a&gt;。该补丁包括缓解措施，例如导出到 KVM/x86 环境中的虚拟机，并添加新文档。有一个补丁可以在设置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X86_FEATURE_CLEAR_CPU_BUF&lt;/code&gt; 时禁用 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 缓解。&lt;/li&gt;
-      &lt;li&gt;一个值得注意的还原是，在出现&lt;a href=&quot;https://github.com/yast/yast-update/issues/197&quot;&gt;问题&lt;/a&gt;后，删除了 &lt;a href=&quot;https://btrfs.wiki.kernel.org/&quot;&gt;Btrfs&lt;/a&gt; 中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;inode_cache&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;recovery&lt;/code&gt; 挂载选项的代码。修复了与 Btrfs 相关的问题，例如解决了在 &lt;a href=&quot;https://www.kernel.org/doc/Documentation/filesystems/fiemap.txt&quot;&gt;fiemap&lt;/a&gt; 过程中检测&lt;a href=&quot;https://ext4.wiki.kernel.org/index.php/DelayedAllocation&quot;&gt;延迟分配&lt;/a&gt;（Delayed Allocation）范围时的竞争条件。&lt;/li&gt;
-      &lt;li&gt;这些更新涉及到针对 &lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 架构（armv6hl、armv7hl 和 arm64）的重大配置更改。这些更新反映了不同架构的选项值，并包括用于硬件支持的新配置，如各种 PINCTRL（引脚控制）、GPIO（通用输入/输出）、VIDEO、DRM（直接渲染管理器）和 SND_SOC（片上音效系统）设置。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma 6&lt;/a&gt;：详见：&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/23/plasma.html&quot;&gt;openSUSE 正式搭载 Plasma 6&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME 46&lt;/a&gt;：详见：&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/26/gnome.html&quot;&gt;GNOME 46 登录 openSUSE&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;：从 254.9 版本更新到 255.4 版本，更新提供了以下内容：
-    &lt;ul&gt;
-      &lt;li&gt;如果特定问题已成为核心版本 255 更新的一部分，则会被重置或移除。这表明，在确保 openSUSE 中 systemd 功能的稳定性和可靠性的同时，为与上游开发保持一致迈出了重要一步。&lt;/li&gt;
-      &lt;li&gt;为确保引导加载程序安装过程在测试阶段的可靠性，systemd 软件包内的测试框架明显得到了加强。更多有关信息请阅读 &lt;a href=&quot;https://news.opensuse.org/2024/03/05/systemd-boot-integration-in-os/&quot;&gt;systemd-bootl&lt;/a&gt; 集成。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.32.0
-    &lt;ul&gt;
-      &lt;li&gt;为 dup 升级过程引入新的解析器选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;removeOrphaned&lt;/code&gt;，以加强软件包管理。&lt;/li&gt;
-      &lt;li&gt;对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vsftpd.conf&lt;/code&gt; 进行了修复，以解决 SUSE 和 Fedora 使用不同默认值的问题。&lt;/li&gt;
-      &lt;li&gt;安全更新：修改以避免在摘要部分使用过时的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OPENSSL_config&lt;/code&gt;，从而加强安全实践。&lt;/li&gt;
-      &lt;li&gt;引入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ProblemSolution::skipsPatchesOnly&lt;/code&gt; 重载，以改进补丁管理流程。&lt;/li&gt;
-      &lt;li&gt;删除了 &lt;a href=&quot;https://download.opensuse.org&quot;&gt;https://download.opensuse.org&lt;/a&gt; 的 HTTPS-&amp;gt;HTTP 重定向异常，加强了下载过程的安全性和完整性。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/openSUSE/zypper&quot;&gt;zypper&lt;/a&gt; 1.14.70
-    &lt;ul&gt;
-      &lt;li&gt;集成了一个新选项 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--remove-orphaned&lt;/code&gt;，用于在系统升级时移除所有孤儿软件包（orphaned packages）。&lt;/li&gt;
-      &lt;li&gt;改进了用户界面，在提交提示符下显示激活的试运行/仅下载（dry-run/download-only）选项，增强了用户体验和清晰度。&lt;/li&gt;
-      &lt;li&gt;在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+C&lt;/code&gt; 时设置 libzypp 关闭请求信号，以提高响应速度和控制能力。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 18
-    &lt;ul&gt;
-      &lt;li&gt;为了与新版本保持一致，我们对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llvm-do-not-install-static-libraries.patch&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llvm-normally-versioned-libllvm.patch&lt;/code&gt; 补丁进行了 rebase，以解决特定的发行和库问题。&lt;/li&gt;
-      &lt;li&gt;修改为优先使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ld.bfd&lt;/code&gt;，而不是其他链接器，以实现与 THP（Transparent Huge Pages）兼容的分区布局，优化内存管理和性能。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/shadow-maint/shadow/&quot;&gt;shadow&lt;/a&gt;：更新至 4.15.1 版本
-    &lt;ul&gt;
-      &lt;li&gt;解决了导致有关未知 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login.defs&lt;/code&gt; 配置选项的不必要错误信息的问题，并实现了文件描述符遗漏检查以提高安全性和可靠性。&lt;/li&gt;
-      &lt;li&gt;更新了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shadow-4.15.0-fix-definition.patch&lt;/code&gt;，以解决有关配置选项的错误信息。&lt;/li&gt;
-      &lt;li&gt;改进了与 libdl 的链接，以更好地处理动态链接库。
-        &lt;ul&gt;
-          &lt;li&gt;修订了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;shadow-login_defs-unused-by-pam.patch&lt;/code&gt; 以确保持续的兼容性和有效性。&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 124.0.1：修复了多个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。其中包括 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-29943.html&quot;&gt;CVE-2024-29943&lt;/a&gt;（攻击者可通过欺骗基于范围的边界检查消除，对 JavaScript 对象执行越界读取或写入）和相关的 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-29944.html&quot;&gt;CVE-2024-29944&lt;/a&gt;。快照 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/VC6QZ5RDU6GJFGGJRW2XMJFNPCUQSBZU/&quot;&gt;20240326&lt;/a&gt; 的更新还解决了另外 12 个 CVE 问题&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://redis.io/&quot;&gt;redis&lt;/a&gt; 7.2.3：该更新修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2023-41056.html&quot;&gt;CVE-2023-41056&lt;/a&gt; 导致的内存问题和安全风险。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;python311&lt;/a&gt;：由于对自动工具脚本的还原使用，&lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-0450.html&quot;&gt;CVE-2024-0450&lt;/a&gt; 已添加到更新日志中。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt; 6.8.1：&lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2023-28746.html&quot;&gt;CVE-2023-28746&lt;/a&gt; 与上述微架构漏洞相关。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/libexpat/libexpat&quot;&gt;Expat&lt;/a&gt; 2.6.2：修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-28757.html&quot;&gt;CVE-2024-28757&lt;/a&gt; 漏洞，可防止使用 XML 实体对其进行过载攻击，尤其是在使用以特定方式创建的外部解析器时。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/OpenSC/OpenSC&quot;&gt;opensc&lt;/a&gt; 0.25.0：修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2023-5992.html&quot;&gt;CVE-2023-5992&lt;/a&gt;，在该问题中，PKCS#1 加密填充移除未作为抗侧信道实现；修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-1454.html&quot;&gt;CVE-2024-1454&lt;/a&gt;，该问题需要物理访问和与 AuthentIC 驱动程序相关的特殊设备，在设置新卡时会发生。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 10.1.0：此更新修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-1441.html&quot;&gt;CVE-2024-1441&lt;/a&gt;，该错误存在一个偏差错误，可能允许通过精心设计的数据拒绝服务导致守护进程崩溃。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nlnetlabs.nl/projects/unbound/about/&quot;&gt;Unbound&lt;/a&gt; 1.19.2：修复了 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2024-1931.html&quot;&gt;CVE-2024-1931&lt;/a&gt;，该修复可能导致扩展 DNS 错误（Extended DNS Error）记录修剪中的无限循环导致拒绝服务。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://graphviz.org/&quot;&gt;graphviz&lt;/a&gt;：&lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2023-46045.html&quot;&gt;CVE-2023-46045&lt;/a&gt; 的可利用性可能并不常见，因为该文件通常由 root 拥有，但与通过伪造的 config6a 文件进行越界读取有关。已提供一个受欢迎的修复。&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/uclouvain/openjpeg&quot;&gt;openjpeg2&lt;/a&gt; 2.5.2：攻击者可以利用 &lt;a href=&quot;https://www.suse.com/ko-kr/security/cve/CVE-2021-3575.html&quot;&gt;CVE-2021-3575&lt;/a&gt; 漏洞，以针对 openjpeg 编译的应用程序的权限执行任意代码。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;openSUSE Tumbleweed 在 2024 年 3 月进行了大量的系统更新。除了 Plasma 和 GNOME 桌面环境之外，systemd、libzypp、LLVM 等也有改进。本月的其他重大升级包括对 &lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;Bind&lt;/a&gt;、&lt;a href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt;、&lt;a href=&quot;https://kde.org/announcements/gear/24.02.1/&quot;&gt;KDE ​​Gear 24.02.1&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt;、&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 等的更新。对于那些想要贡献的 Tumbleweed 用户，请订阅 openSUSE Factory 邮件列表。 openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
-
-&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
-
-&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/03/28/tw-monthly-update-march/&quot;&gt;openSUSE Tumbleweed Monthly Update - March&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
 </content:encoded>
     </item>
 
