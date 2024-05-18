@@ -7,6 +7,31 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/17/openvino.html</guid>
+      <title>OpenVINO 正式登录 openSUSE</title>
+      <pubDate>Fri, 17 May 2024 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/17/openvino.html</link>
+      <author>Poplar at twilight</author>
+      <description>当我作为 openSUSE 成员和 Intel 创新者专注于 openSUSE Innovator 项目时，看到 openVINO 没有在 openSUSE Linux 发行版上得到支持，这让我感到非常沮丧。 在 2023 年 10 月，我决定亲自采取行动，开始为 openSUSE 平台编译和使用 OpenVINO 源代码。我谦虚地贡献了自己的力量，并在 GitHub 上发布了第一个适用于我们发行版的改编版本。 我努力的动力来源于 OpenVINO 在大众化人工智能使用方面的潜力，特别是对于那些没有资源投资昂贵 GPU 的人。这个库提供了多核编程和 Intel 处理器的加速寄存器，以及 ARM 处理器的资源，允许在第 6 代及以后的处理器上使用 AI。 随着 VPU、NPU 和 AMX 等技术的出现，现在可以在无需专用 GPU 的情况下运行大型语言模型 (LLM) 和生成式 AI。因此，我开始为 openSUSE 进行 RPM 包的打包工作。如果没有...</description>
+      <content:encoded>&lt;p&gt;当我作为 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Members&quot;&gt;openSUSE 成员&lt;/a&gt;和 &lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/community/experts-de-oliveira-faria.html&quot;&gt;Intel 创新者&lt;/a&gt;专注于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE Innovator 项目&lt;/a&gt;时，看到 &lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;openVINO&lt;/a&gt; 没有在 openSUSE Linux 发行版上得到支持，这让我感到非常沮丧。&lt;/p&gt;
+
+&lt;p&gt;在 2023 年 10 月，我决定亲自采取行动，开始为 openSUSE 平台编译和使用 OpenVINO 源代码。我谦虚地贡献了自己的力量，并在 &lt;a href=&quot;https://github.com/openvinotoolkit/openvino/pull/20166&quot;&gt;GitHub&lt;/a&gt; 上发布了第一个适用于我们发行版的改编版本。&lt;/p&gt;
+
+&lt;p&gt;我努力的动力来源于 OpenVINO 在大众化人工智能使用方面的潜力，特别是对于那些没有资源投资昂贵 GPU 的人。这个库提供了多核编程和 Intel 处理器的加速寄存器，以及 ARM 处理器的资源，允许在第 6 代及以后的处理器上使用 AI。&lt;/p&gt;
+
+&lt;p&gt;随着 VPU、NPU 和 AMX 等技术的出现，现在可以在无需专用 GPU 的情况下运行大型语言模型 (LLM) 和生成式 AI。因此，我开始为 openSUSE 进行 RPM 包的打包工作。如果没有 Intel 的 Ilya Lavrenov (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ilya.lavrenov@intel.com&lt;/code&gt;) 和 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;OBS&lt;/a&gt; 的 Atri Bhattacharya (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;badshah400@gmail.com&lt;/code&gt;) 的支持和帮助，这项工作不会成功。他们不仅与我分享了知识，还共同协作确保 Intel 和 openSUSE 的技术政策之间的兼容性。&lt;/p&gt;
+
+&lt;p&gt;由于这些协作努力，&lt;strong&gt;openSUSE 成为了第一个在其官方仓库中提供从源代码编译的 OpenVINO 的 Linux 发行版&lt;/strong&gt;。能够为这个项目做出贡献，我感到非常自豪，这无疑会对未来的工作产生积极影响。作为开源社区的成员，我们有责任努力实现新兴技术的大众化，减少社会中的数字排斥现象。&lt;/p&gt;
+
+&lt;p&gt;欲了解更多信息，请访问&lt;a href=&quot;https://docs.openvino.ai/nightly/get-started/install-openvino/install-openvino-linux.html&quot;&gt;此处&lt;/a&gt;或从 &lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;software.opensuse.org&lt;/a&gt; 获取 OpenVINO！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/14/openvino-arrives-in-os-distributions/&quot;&gt;OpenVINO Arrives in openSUSE Releases&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/10/weblate.html</guid>
       <title>Weblate 计划于 5 月 14 日停机</title>
       <pubDate>Fri, 10 May 2024 23:30:00 +0000</pubDate>
@@ -529,104 +554,6 @@ $ firefox https://localhost:9090 #以 root 用户身份登录，获取管理员�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/03/workshop-series-continues-with-new-episodes/&quot;&gt;Workshop Series Continues with New Episodes&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html</guid>
-      <title>openSUSE 应对针对 xz 压缩库的供应链攻击</title>
-      <pubDate>Sat, 30 Mar 2024 00:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/03/30/xz.html</link>
-      <author>Poplar at twilight</author>
-      <description>对于风滚草用户，建议立即更新系统至最新版本，并尽可能地将此供应链攻击信息通知其他的风滚草用户。 openSUSE 维护人员收到了针对压缩工具 xz 和 liblzma5 库的供应链攻击通知。 背景 安全研究员 Andres Freund 向 Debian 报告称 xz/liblzma 库已被植入后门。 该后门是在 xz 的 github 上游项目于 2024 年 2 月发布的 5.6.0 版本中植入的。 我们的滚动分支，openSUSE Tumbleweed 和 openSUSE MicroOS 在 3 月 7 日至 3 月 28 日期间发布的快照搭载了该版本。 SUSE Linux Enterprise 和 Leap 是独立于 openSUSE 构建的。Tumbleweed 的代码、功能和特性不会自动引入...</description>
-      <content:encoded>&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;对于风滚草用户，建议立即更新系统至最新版本，并尽可能地将此供应链攻击信息通知其他的风滚草用户。&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 维护人员收到了针对压缩工具 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblzma5&lt;/code&gt; 库的供应链攻击通知。&lt;/p&gt;
-
-&lt;h2 id=&quot;背景&quot;&gt;背景&lt;/h2&gt;
-
-&lt;p&gt;安全研究员 Andres Freund 向 Debian 报告称 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt;/&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;liblzma&lt;/code&gt; 库已被植入后门。&lt;/p&gt;
-
-&lt;p&gt;该后门是在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 的 &lt;a href=&quot;https://github.com/tukaani-project/xz&quot;&gt;github 上游项目&lt;/a&gt;于 2024 年 2 月发布的 5.6.0 版本中植入的。&lt;/p&gt;
-
-&lt;p&gt;我们的滚动分支，openSUSE &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 和 openSUSE &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;MicroOS&lt;/a&gt; 在 3 月 7 日至 3 月 28 日期间发布的快照搭载了该版本。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise&lt;/a&gt; 和 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 是独立于 openSUSE 构建的。Tumbleweed 的代码、功能和特性不会自动引入 SUSE Linux Enterprise 或 Leap。已确定 Tumbleweed 中引入的恶意文件不存在于 SUSE Linux Enterprise 或 Leap 中。&lt;/p&gt;
-
-&lt;h2 id=&quot;影响&quot;&gt;影响&lt;/h2&gt;
-
-&lt;p&gt;目前的研究表明，该后门活跃于 SSH 守护进程中，允许恶意行为者访问 SSH 暴露于互联网的系统。&lt;/p&gt;
-
-&lt;p&gt;截至 3 月 29 日，后门的逆向工程仍在进行中。&lt;/p&gt;
-
-&lt;h2 id=&quot;缓解措施&quot;&gt;缓解措施&lt;/h2&gt;
-
-&lt;p&gt;openSUSE 维护人员已于 3 月 28 日回滚了 Tumbleweed 上的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz&lt;/code&gt; 版本，并发布了从安全备份构建的新 Tumbleweed 快照（20240328 或更新的快照）。&lt;/p&gt;
-
-&lt;p&gt;回退版本为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5.6.1.revertto5.4&lt;/code&gt;，可通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpm -q liblzma5&lt;/code&gt; 查询。&lt;/p&gt;
-
-&lt;h2 id=&quot;推荐用户应采取的措施&quot;&gt;推荐用户应采取的措施&lt;/h2&gt;
-
-&lt;p&gt;对于将 SSH 在互联网上公开的 openSUSE Tumbleweed 用户，我们建议重新安装，因为不知道后门是否已被利用。由于后门的复杂性，不可能在系统上检测到漏洞。此外，我们强烈建议对可能从系统中获取的任何凭据进行轮换。否则，只需更新至 openSUSE Tumbleweed 20240328 或更高版本并重新启动系统即可。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;其他社区相关的讨论&quot;&gt;其他社区相关的讨论&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;原文：&lt;a href=&quot;https://t.me/CE_Observe/32247&quot;&gt;每日消费电子观察&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;xz 在 GitHub 上发布的 tarball 的 m4 中包含了恶意后门代码。&lt;/p&gt;
-
-  &lt;p&gt;如非特别标注，以下链接中内容均为英文。&lt;/p&gt;
-
-  &lt;p&gt;oss-security 邮件列表: https://www.openwall.com/lists/oss-security/2024/03/29/4&lt;/p&gt;
-
-  &lt;p&gt;debian-security-announce 邮件列表: https://lists.debian.org/debian-security-announce/2024/msg00057.html&lt;/p&gt;
-
-  &lt;p&gt;CVE: https://www.cve.org/CVERecord?id=CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;NVD: https://nvd.nist.gov/vuln/detail/CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;GitHub Advisory Database: https://github.com/advisories/GHSA-rxwq-x6h5-x525&lt;/p&gt;
-
-  &lt;p&gt;Red Hat Customer Portal: https://access.redhat.com/security/cve/CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;Red Hat Blog: https://www.redhat.com/en/blog/urgent-security-alert-fedora-41-and-rawhide-users&lt;/p&gt;
-
-  &lt;p&gt;Red Hat Bugzilla: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;Debian Security Bug Tracker: https://security-tracker.debian.org/tracker/CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;SUSE Security: https://www.suse.com/security/cve/CVE-2024-3094.html&lt;/p&gt;
-
-  &lt;p&gt;SUSE Bugzilla: https://bugzilla.suse.com/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;Gentoo’s Bugzilla: https://bugs.gentoo.org/show_bug.cgi?id=CVE-2024-3094&lt;/p&gt;
-
-  &lt;p&gt;Arch Linux News: https://archlinux.org/news/the-xz-package-has-been-backdoored/&lt;/p&gt;
-
-  &lt;p&gt;Arch Linux Advisories: https://security.archlinux.org/ASA-202403-1&lt;/p&gt;
-
-  &lt;p&gt;Everything I Know About the Xz Backdoor: https://boehs.org/node/everything-i-know-about-the-xz-backdoor&lt;/p&gt;
-
-  &lt;p&gt;==== 忙着查资料的被子饼 ====
-目前的证据表明这个后门仅影响部分 Debian/Ubuntu/Fedora/openSUSE 的预发布版本，且均已发布回退更新&lt;/p&gt;
-
-  &lt;p&gt;目前确定曾受影响的发行版：
-Debian unstable/testing between 2024-02-26 and 2024-03-29
-Ubuntu noble-proposed/noble-release between 2024-02-26 and 2024-03-29
-Fedora 40/41(Rawhide) between 2024-02-27 and 2024-03-29
-openSUSE Tumbleweed between 2024-03-07 and 2024-03-28&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;hhttps://news.opensuse.org/2024/03/29/xz-backdoor/&quot;&gt;openSUSE addresses supply chain attack against xz compression library&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
 </content:encoded>
     </item>
 
