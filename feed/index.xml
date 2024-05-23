@@ -7,6 +7,49 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/22/open-conf.html</guid>
+      <title>openSUSE 大会日程确定</title>
+      <pubDate>Wed, 22 May 2024 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/22/open-conf.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 大会 2024 的日程已经公布，其中包含了多个关于开源生态系统的演讲，以及几次交流机会。 开源爱好者、开发者和贡献者将于 6 月 27 日至 6 月 29 日齐聚 Z-Bau，分享、讨论并展示开源技术、项目和社区的最新进展。会议将包括一系列演讲、研讨会、见面会和主题演讲，提供对开源软件当前和未来方向的宝贵见解。 Santiago Zarate、Oliver Kurz 和 Livdywan 将首先进行一场关于 openQA 的演讲——《openQA 的现状与未来》。该演讲将重点介绍 openQA 作为确保 openSUSE 系统稳定性的关键工具的演变，以及它在 openSUSE、Fedora 和 SUSE 之外的影响扩展。 Marcus Meissner 和 Johannes Segitz 将进行《XZ 后门——我们的报告》的演讲，对涉及 xz 压缩库的一次重大供应链攻击进行回顾，讨论攻击的影响、应对措施及未来的安全考虑。 第一天将有两场主题演讲。SUSE 的 CEO Dirk-Peter van Leeuwen 将讲述社区的重要性和如何促进协作的开源环境。 Luca Di Maio...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/schedule/events&quot;&gt;openSUSE 大会 2024 的日程&lt;/a&gt;已经公布，其中包含了多个关于开源生态系统的演讲，以及几次交流机会。&lt;/p&gt;
+
+&lt;p&gt;开源爱好者、开发者和贡献者将于 6 月 27 日至 6 月 29 日齐聚 Z-Bau，分享、讨论并展示开源技术、项目和社区的最新进展。会议将包括一系列演讲、研讨会、见面会和主题演讲，提供对开源软件当前和未来方向的宝贵见解。&lt;/p&gt;
+
+&lt;p&gt;Santiago Zarate、Oliver Kurz 和 Livdywan 将首先进行一场关于 openQA 的演讲——《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4450&quot;&gt;openQA 的现状与未来&lt;/a&gt;》。该演讲将重点介绍 openQA 作为确保 openSUSE 系统稳定性的关键工具的演变，以及它在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt;、&lt;a href=&quot;https://fedoraproject.org/&quot;&gt;Fedora&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 之外的影响扩展。&lt;/p&gt;
+
+&lt;p&gt;Marcus Meissner 和 Johannes Segitz 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4498&quot;&gt;XZ 后门——我们的报告&lt;/a&gt;》的演讲，对涉及 xz 压缩库的一次重大供应链攻击进行回顾，讨论攻击的影响、应对措施及未来的安全考虑。&lt;/p&gt;
+
+&lt;p&gt;第一天将有两场主题演讲。SUSE 的 CEO Dirk-Peter van Leeuwen 将讲述&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4638&quot;&gt;社区的重要性&lt;/a&gt;和如何促进协作的开源环境。&lt;/p&gt;
+
+&lt;p&gt;Luca Di Maio 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4593&quot;&gt;在 Aeon 上使用 Distrobox 开发&lt;/a&gt;》的主题演讲，介绍 Distrobox 以及如何在像 &lt;a href=&quot;https://aeondesktop.github.io/&quot;&gt;Aeon&lt;/a&gt; 这样的原子和事务系统中将其用作开发环境。&lt;/p&gt;
+
+&lt;p&gt;第二天将由 Alfonso Hernandez 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4483&quot;&gt;Midori 不只是一个浏览器&lt;/a&gt;》演讲开始。Hernandez 将探讨 Midori 的功能和优势，这是一款轻量级、快速且安全的浏览器，并强调其在促进用户隐私和安全方面的作用。&lt;/p&gt;
+
+&lt;p&gt;Jsrain 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4441&quot;&gt;SUSE ALP：事态的现状&lt;/a&gt;》的演讲，介绍最近的发展、即将发布的内容以及 openSUSE 项目如何在 SUSE 的 ALP 开发基础上继续前进。&lt;/p&gt;
+
+&lt;p&gt;SUSE 的总经理 Rick Spencer 将进行另一场主题演讲。他的演讲《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4363&quot;&gt;为何 openSUSE 重要&lt;/a&gt;》将分享他对 openSUSE 在更广泛的开源生态系统中的重要性的见解。&lt;/p&gt;
+
+&lt;p&gt;最后一天将由 Dan Čermák 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4533&quot;&gt;社区企业 Linux 发行版的悲剧&lt;/a&gt;》演讲展开。Čermák 将讨论社区版本的企业 Linux 发行版所面临的挑战，并提出潜在的解决方案。&lt;/p&gt;
+
+&lt;p&gt;Markus Feilner 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4620&quot;&gt;替换你的 Exchange：grommunio——一个开源的替代方案及更多&lt;/a&gt;》的演讲，强调 &lt;a href=&quot;https://grommunio.com/&quot;&gt;grommunio&lt;/a&gt; 作为微软 Exchange 的全面开源替代方案，提供群件、视频会议、聊天、文件同步等功能。&lt;/p&gt;
+
+&lt;p&gt;由 Čermák 主持的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4539&quot;&gt;Fedora Hatch 见面会&lt;/a&gt;将为 Fedora 贡献者和爱好者提供一个非正式的讨论和交流经验的平台。&lt;/p&gt;
+
+&lt;p&gt;Tobias Görgens 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4665&quot;&gt;sdbootutil：掌握引导管理的艺术&lt;/a&gt;》演讲将介绍一个旨在简化 openSUSE 引导加载程序管理的工具，使这一过程更加直观和可靠。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 大会 2024 f预计将成为一个分享、合作、学习和创新的精彩信息交流盛会。&lt;/p&gt;
+
+&lt;p&gt;欲了解更多信息并注册，请访问 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;events.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/22/osc-schedule-set/&quot;&gt;openSUSE Conference Schedule Set&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/17/openvino.html</guid>
       <title>OpenVINO 正式登录 openSUSE</title>
       <pubDate>Fri, 17 May 2024 23:30:00 +0000</pubDate>
@@ -491,69 +534,6 @@ $ firefox https://localhost:9090 #以 root 用户身份登录，获取管理员�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/09/common-wallpaper-path/&quot;&gt;Default wallpaper has common path across openSUSE, SUSE&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/04/workshop.html</guid>
-      <title>研讨会系列继续推出新剧集</title>
-      <pubDate>Thu, 04 Apr 2024 00:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/04/workshop.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 本周将继续举办贡献研讨会（Contribution Workshop）系列活动，新一期节目涵盖了对新手和资深贡献者至关重要的主题。即将播出的剧集： 第 5 集：为 openSUSE Leap 做出贡献 - 项目结构、功能跟踪、SLES 软件包的软件包更新 日期：4 月 4 日 时间：19:15 UTC 北京时间 4 月 5 日凌晨 03:15 地点：在 YouTube 和 Twitter 上直播 错过直播的人可以观看录播 详见：openSUSE Youtube 官方频道 第 5 集将深入介绍 openSUSE Leap 项目、其结构、工具、团队如何跟踪功能以及构建和更新 SLES 软件包的流程。本集是必看内容，任何对 openSUSE Leap 开发过程感兴趣的人都可以收看，以便了解如何为生态系统做出贡献。 第 6 集：托管您自己的 openSUSE 镜像 日期：预计...</description>
-      <content:encoded>&lt;p&gt;openSUSE 本周将继续举办贡献研讨会（Contribution Workshop）系列活动，新一期节目涵盖了对新手和资深贡献者至关重要的主题。即将播出的剧集：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第 5 集：为 openSUSE Leap 做出贡献 - 项目结构、功能跟踪、SLES 软件包的软件包更新&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;日期：4 月 4 日&lt;/li&gt;
-  &lt;li&gt;时间：19:15 UTC
-    &lt;ul&gt;
-      &lt;li&gt;北京时间 4 月 5 日凌晨 03:15&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;地点：在 YouTube 和 Twitter 上直播
-    &lt;ul&gt;
-      &lt;li&gt;错过直播的人可以观看录播&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;详见：&lt;a href=&quot;https://www.youtube.com/@openSUSE&quot;&gt;openSUSE Youtube 官方频道&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;第 5 集将深入介绍 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;openSUSE Leap&lt;/a&gt; 项目、其结构、工具、团队如何跟踪功能以及构建和更新 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLES&lt;/a&gt; 软件包的流程。本集是必看内容，任何对 openSUSE Leap 开发过程感兴趣的人都可以收看，以便了解如何为生态系统做出贡献。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第 6 集：托管您自己的 openSUSE 镜像&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;日期：预计 4 月 5 日&lt;/li&gt;
-  &lt;li&gt;时间：计划 15:00 UTC&lt;/li&gt;
-  &lt;li&gt;地点：openSUSE 官方渠道
-    &lt;ul&gt;
-      &lt;li&gt;预计时间：北京时间 4 月 5 日晚上 11:00&lt;/li&gt;
-      &lt;li&gt;错过直播的人可以观看录播&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;第 6 集预计将引导观众完成托管他们自己的 openSUSE 镜像的过程。本次会议特别面向那些对基础设施支持以及确保 openSUSE 资源在全球范围内的可访问性和分发感兴趣的人士。&lt;/p&gt;
-
-&lt;p&gt;这些研讨会不仅提供了一个学习平台，还为贡献者提供了提出问题并直接与 openSUSE 社区的开发人员、维护人员和经验丰富的成员互动的机会。&lt;/p&gt;
-
-&lt;p&gt;无论您是想深入了解软件包维护、基础设施，还是想了解项目的整体情况，这些节目都能为您提供全面的概述和实用的建议。&lt;/p&gt;
-
-&lt;p&gt;以下剧集已发布：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;第 1 集：openSUSE 贡献研讨会：OBS osc 的基本使用（以版本升级为例）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;第2集：openSUSE 贡献研讨会：从 0 到打包 GNU Hello rpm 包&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/rfP-IXwKRAE?si=TwVTgvaPRaoYjWtz&quot;&gt;第 3 集：openSUSE 贡献研讨会：openSUSE Leap 15.6 Beta Bug Day&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/J__6pqGbR3o?si=WJpWsMlpWJ6mzZTk&quot;&gt;第 4 集：openSUSE 贡献研讨会：在开放构建服务中打包 Rust&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/03/workshop-series-continues-with-new-episodes/&quot;&gt;Workshop Series Continues with New Episodes&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
