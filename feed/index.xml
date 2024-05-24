@@ -110,6 +110,41 @@
     </item>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/hugging-face.html</guid>
+      <title>openSUSE 项目被 Hugging Face 列为组织</title>
+      <pubDate>Thu, 23 May 2024 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/hugging-face.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 项目在 Hugging Face 上有一个官方空间，Hugging Face 是一个提供多种开源人工智能模型、工具和资源的流行平台。 新的命名空间位于 huggingface.co/openSUSE。 Hugging Face 以帮助开发者和研究人员处理高级 AI 应用程序（包括自然语言处理和计算机视觉）而闻名。 拥有 openSUSE 命名空间为社区驱动的开发提供了平台，以创建、共享和改进 AI 模型和数据集。 我们已经添加了一个数据集。第一个数据集是 openSUSE Cavil，它是一个用于许可证合规性、识别和法律审查的工具。通过利用 Hugging Face 平台上丰富的 AI 模型和数据集，openSUSE Cavil 可以提供更高级和更准确的许可证问题和合规性检测。 若要在 Hugging Face 上参与 openSUSE 项目，你可以注册一个账户，注册过程简单，只需基本信息。 注册后，用户可以浏览 openSUSE 并查看社区创建和共享的 AI 模型和数据集集合。 我们鼓励贡献者分享他们的 AI 模型和数据集。Hugging Face 提供了工具和教程，以帮助上传和管理这些贡献。社区成员可以共同改进现有模型或开发新模型。 高质量的文档和教程对于项目的成功至关重要。社区成员可以通过编写指南、创建视频教程或翻译现有资源来扩大其可访问性。 用户可以获得前沿的 AI 模型和一个协作环境，在这里他们可以学习和拓展自己的技能。对项目的贡献支持了开源生态系统中 AI...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;在 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;Hugging Face&lt;/a&gt; 上有一个官方空间，Hugging Face 是一个提供多种开源人工智能模型、工具和资源的流行平台。&lt;/p&gt;
+
+&lt;p&gt;新的命名空间位于 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;huggingface.co/openSUSE&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Hugging Face 以帮助开发者和研究人员处理高级 AI 应用程序（包括自然语言处理和计算机视觉）而闻名。&lt;/p&gt;
+
+&lt;p&gt;拥有 openSUSE 命名空间为社区驱动的开发提供了平台，以创建、共享和改进 AI 模型和数据集。&lt;/p&gt;
+
+&lt;p&gt;我们已经添加了一个数据集。第一个数据集是 &lt;a href=&quot;https://github.com/openSUSE/cavil&quot;&gt;openSUSE Cavil&lt;/a&gt;，它是一个用于许可证合规性、识别和法律审查的工具。通过利用 Hugging Face 平台上丰富的 AI 模型和数据集，openSUSE Cavil 可以提供更高级和更准确的许可证问题和合规性检测。&lt;/p&gt;
+
+&lt;p&gt;若要在 Hugging Face 上参与 openSUSE 项目，你可以注册一个账户，注册过程简单，只需基本信息。&lt;/p&gt;
+
+&lt;p&gt;注册后，用户可以浏览 openSUSE 并查看社区创建和共享的 AI 模型和数据集集合。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励贡献者分享他们的 AI 模型和数据集。Hugging Face 提供了工具和教程，以帮助上传和管理这些贡献。社区成员可以共同改进现有模型或开发新模型。&lt;/p&gt;
+
+&lt;p&gt;高质量的文档和教程对于项目的成功至关重要。社区成员可以通过编写指南、创建视频教程或翻译现有资源来扩大其可访问性。&lt;/p&gt;
+
+&lt;p&gt;用户可以获得前沿的 AI 模型和一个协作环境，在这里他们可以学习和拓展自己的技能。对项目的贡献支持了开源生态系统中 AI 研究和开发的进步。&lt;/p&gt;
+
+&lt;p&gt;欲了解更多信息并参与，请访问 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;huggingface.co/openSUSE&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/24/osp-listed-as-org-on-ai-hugging-faces/&quot;&gt;openSUSE Project Listed as Organization on Hugging Face&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/22/open-conf.html</guid>
       <title>openSUSE 大会日程确定</title>
       <pubDate>Wed, 22 May 2024 23:30:00 +0000</pubDate>
@@ -479,27 +514,6 @@ $ firefox https://localhost:9090 #以 root 用户身份登录，获取管理员�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/18/factory-bit-reproducible-builds/&quot;&gt;openSUSE Factory enabled bit-by-bit reproducible builds&lt;/a&gt;，作者：Jan Zerebecki&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/04/16/leap-micro.html</guid>
-      <title>openSUSE Leap Micro 6 进入 Alpha 阶段</title>
-      <pubDate>Tue, 16 Apr 2024 14:30:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/04/16/leap-micro.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目兴奋地宣布 Leap Micro 6 已进入 alpha 开发阶段。 openSUSE Leap Micro 6 在其前代产品的坚实基础上，继续为现代轻量级主机操作系统提供稳定、安全和可扩展的平台，反映了 SUSE 商业 SL Micro 版本的功能和增强功能。 随着 Leap Micro 6 的即将发布，Leap Micro 5.4 的用户需要计划迁移到 Leap Micro 5.5，直接迁移到 Leap Micro 6 或商业版本；因为 Leap Micro 6 推出后，5.4 版本将终止生命周期。目前使用 Leap Micro 5.5 的用户可以选择升级到 6.0 或继续使用 5.5，直到后续版本发布。 熟悉 Leap Micro 5.5 的用户一定还记得其出色的功能，如增强的...</description>
-      <content:encoded>&lt;p&gt;openSUSE 项目兴奋地宣布 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;Leap Micro 6&lt;/a&gt; 已进入 alpha 开发阶段。&lt;/p&gt;
-
-&lt;p&gt;openSUSE Leap Micro 6 在其前代产品的坚实基础上，继续为现代轻量级主机操作系统提供稳定、安全和可扩展的平台，反映了 SUSE 商业 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SL Micro&lt;/a&gt; 版本的功能和增强功能。&lt;/p&gt;
-
-&lt;p&gt;随着 Leap Micro 6 的即将发布，Leap Micro 5.4 的用户需要计划迁移到 Leap Micro 5.5，直接迁移到 Leap Micro 6 或商业版本；因为 Leap Micro 6 推出后，5.4 版本将终止生命周期。目前使用 Leap Micro 5.5 的用户可以选择升级到 6.0 或继续使用 5.5，直到后续版本发布。&lt;/p&gt;
-
-&lt;p&gt;熟悉 Leap Micro 5.5 的用户一定还记得其出色的功能，如增强的 SELinux 功能、改进的 podman-docker 和对 AArch64 的 Hyper-V 支持，这些功能大大增强了操作系统的安全性和通用性。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/15/os-leap-micro-enters-alpha/&quot;&gt;openSUSE Leap Micro 6 Enters Alpha Stage&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
