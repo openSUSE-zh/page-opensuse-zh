@@ -7,6 +7,49 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/05/27/aeon.html</guid>
+      <title>Aeon Desktop 在 RC2 版本中引入新功能</title>
+      <pubDate>Mon, 27 May 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/05/27/aeon.html</link>
+      <author>Poplar at twilight</author>
+      <description>开发 Aeon Desktop 的贡献者们很高兴地宣布发布候选发布版本 2（RC2）镜像，这标志着 Aeon Desktop 到达一个重要的里程碑。 在过去的 24 小时内，aeondesktop.org 网站已经更新，指向了新的镜像。 Aeon 是一款采用 GNOME 桌面的前沿操作系统，提供自动化的计算体验。RC2 有望提供大量其他 openSUSE 产品中默认没有的创新功能。以下是针对 Aeon 粉丝的一些关键增强功能。 Aeon Desktop RC2 的一个突出功能是默认包含了 Linux 内核模块 zram。此功能无需将数据交换到速度较慢的机械硬盘或磨损受限的固态硬盘，从而显着提高了系统性能；这为用户提供了更快、更高效的内存管理。 Aeon 引入的另一项功能是由新安装程序 tik 支持的，革命性的基于镜像（image-based）安装过程。这确保每个用户都能获得相同的开箱即用配置。使用 Ignition 和 Combustion，定制变得简单且可复制，使设置和复制轻而易举。 对于用于大容量 USB 驱动器的用户，tik 可以将现有用户帐户、应用程序、数据、WiFi/VPN 配置甚至无 root 容器（rootless containers）迁移到新安装的系统中。此功能非常适合低影响度的重装系统或从旧的 MicroOS Desktop 迁移到新的 Aeon Desktop。它还适用于将 Tumbleweed 安装迁移到...</description>
+      <content:encoded>&lt;p&gt;开发 &lt;a href=&quot;https://aeondesktop.org/&quot;&gt;Aeon Desktop&lt;/a&gt; 的贡献者们很高兴地宣布发布候选发布版本 2（RC2）镜像，这标志着 Aeon Desktop 到达一个重要的里程碑。&lt;/p&gt;
+
+&lt;p&gt;在过去的 24 小时内，&lt;a href=&quot;https://aeondesktop.org/&quot;&gt;aeondesktop.org&lt;/a&gt; 网站已经更新，指向了新的镜像。&lt;/p&gt;
+
+&lt;p&gt;Aeon 是一款采用 GNOME 桌面的前沿操作系统，提供自动化的计算体验。RC2 有望提供大量其他 openSUSE 产品中默认没有的创新功能。以下是针对 Aeon 粉丝的一些关键增强功能。&lt;/p&gt;
+
+&lt;p&gt;Aeon Desktop RC2 的一个突出功能是默认包含了 Linux 内核模块 &lt;a href=&quot;https://en.wikipedia.org/wiki/Zram&quot;&gt;zram&lt;/a&gt;。此功能无需将数据交换到速度较慢的机械硬盘或磨损受限的固态硬盘，从而显着提高了系统性能；这为用户提供了更快、更高效的内存管理。&lt;/p&gt;
+
+&lt;p&gt;Aeon 引入的另一项功能是由新安装程序 &lt;a href=&quot;https://youtu.be/TGvwoc7vsBY?si=LanKFBFYbxaJb0eI&quot;&gt;tik&lt;/a&gt; 支持的，革命性的基于镜像（image-based）安装过程。这确保每个用户都能获得相同的开箱即用配置。使用 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Ignition&quot;&gt;Ignition&lt;/a&gt; 和 &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/Combustion&quot;&gt;Combustion&lt;/a&gt;，定制变得简单且可复制，使设置和复制轻而易举。&lt;/p&gt;
+
+&lt;p&gt;对于用于大容量 USB 驱动器的用户，tik 可以将现有用户帐户、应用程序、数据、WiFi/VPN 配置甚至无 root 容器（rootless containers）迁移到新安装的系统中。此功能非常适合低影响度的重装系统或从旧的 &lt;a href=&quot;https://get.opensuse.org/microos/&quot;&gt;MicroOS Desktop&lt;/a&gt; 迁移到新的 Aeon Desktop。它还适用于将 Tumbleweed 安装迁移到 Aeon，只要它们使用默认分区布局即可。对安装或迁移感兴趣的人应该阅读&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon/InstallGuide&quot;&gt;安装指南&lt;/a&gt;并在 &lt;a href=&quot;https://aeondesktop.org/reportbug&quot;&gt;aeondesktop.org/reportbug&lt;/a&gt; 上报告错误。&lt;/p&gt;
+
+&lt;p&gt;为了增强安全性和改进可用性，Aeon 不配置 root 账户。相反，在安装过程中创建的第一个用户将使用自己的密码通过 sudo 和 policykit 执行管理任务。这减少了未经授权的 root 访问风险，避免了需要记住或在所有系统用户之间共享第二个密码的情况。&lt;/p&gt;
+
+&lt;p&gt;得益于 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/systemd/systemd-boot/&quot;&gt;systemd-boot&lt;/a&gt;，RC2 将拥有一个干净、安静的启动过程，没有闪烁和随机日志输出。启动过程显著快速，在较慢的机器上大约需要 8 秒。&lt;/p&gt;
+
+&lt;p&gt;Aeon 是唯一一个在硬件支持的情况下自动下载和更新 &lt;a href=&quot;https://news.opensuse.org/2023/03/02/tw-gains-optional-optimizations/&quot;&gt;x86_64_v3 优化库&lt;/a&gt;的 openSUSE 子发行版。用户无需采取任何行动即可享受这些优化带来的更快系统。系统针对游戏玩家进行了优化，特定的 SELinux 配置在保持强大安全策略的同时支持游戏。这一独特的功能使其有别于其他 openSUSE 发行版。&lt;/p&gt;
+
+&lt;p&gt;作为一个专用的桌面操作系统，远程访问默认情况下是禁用的，但可以通过 GNOME 设置应用轻松启用和管理。这使用户可以控制其远程桌面和 SSH 配置。&lt;/p&gt;
+
+&lt;p&gt;RC2 是第一个利用 systemd-repart 的 openSUSE 子发行版；这受益于 &lt;a href=&quot;https://uapi-group.org/&quot;&gt;Linux Userspace API&lt;/a&gt; (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uapi_group&lt;/code&gt;) 的可发现分区规范（Discoverable Partitions Specification）。这使磁盘管理更加直观和高效，并与 Ignition/Combustion 紧密结合，使可复制的分区变得简单。&lt;/p&gt;
+
+&lt;p&gt;默认使用 &lt;a href=&quot;https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/&quot;&gt;Btrfs&lt;/a&gt; 压缩是 Aeon 的一个革命性改变。它不仅可以减少 SSD 磨损，而且通常可以提高性能，并节省标准安装使用的 40% 以上的磁盘空间。&lt;/p&gt;
+
+&lt;p&gt;Aeon 独特之处在于每天自动更新用户的 &lt;a href=&quot;https://github.com/89luca89/distrobox&quot;&gt;distrobox&lt;/a&gt;，以及其他自动化系统和 flatpak 更新。这确保用户始终以最小的精力获得最新更新。对于那些对 distrobox 感兴趣的人，今年的 [openSUSE 大会]将邀请创始人 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4593&quot;&gt;Luca Di Maio 在大会上发表主题演讲&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;RC2 的发布只是一个开始，开发团队期待更多来自开发者社区的贡献，以进一步提升桌面体验。随着开发的持续进行，用户可以期待更多创新功能和改进。&lt;/p&gt;
+
+&lt;p&gt;请关注官方发布，并在今年的 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大议&lt;/a&gt;上了解更多关于 Aeon Desktop 社区的信息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/28/aeon-desktop-brings-new-features-in-rctwo-release/&quot;&gt;Aeon Desktop Brings New Features in RC2 Release&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/youtube.html</guid>
       <title>研讨会系列推出新剧集</title>
       <pubDate>Thu, 23 May 2024 23:30:00 +0000</pubDate>
@@ -462,58 +505,6 @@ $ firefox https://localhost:9090 #以 root 用户身份登录，获取管理员�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/29/try-cockpit-in-leap-rc/&quot;&gt;Try Cockpit in Leap Release Candidate&lt;/a&gt;，作者：Lubos Kocman 和 Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/19/factory.html</guid>
-      <title>openSUSE Factory 启用了逐位可重复构建</title>
-      <pubDate>Fri, 19 Apr 2024 00:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/04/19/factory.html</link>
-      <author>Poplar at twilight</author>
-      <description>除嵌入式签名外，用于构建 openSUSE Factory 的配置已在三月份改为逐位可重现（bit-by-bit reproducible）。随后，第一批 openSUSE Tumbleweed 软件包也通过了逐位可重现性验证。
-
-感谢所有帮助实现这一目标的人。这是一个重要的改进。
-
-我们需要一些时间对所有软件包进行验证，以确定有多少包可以重现此细节。之前的验证虽然忽略了此修复的一些差异，95% 以上的软件包都成功通过了验证。
-
-贡献
-
-可重现构建（Reproducible builds）工作由多个发行版共同完成。请参阅如何为 openSUSE 的可重现构建做出贡献。
-
-用途
-
-可重现构建在安全和质量方面有多种用途。为进一步提高其实用性，可重现构建需要与其他技术相结合，如分布式合并后代码审查和基于功能的设计。
-
-最近的一个例子是，只需通过重建和比较结果，就可以通过可重现的构建来证明，用被入侵的 xz 提取源代码的 GCC 构建没有被入侵；这一过程的实现无需对泄露的发生方式进行逆向工程。同样，据报告，可重现构建在调查 xz 破坏过程中也很有用。
-
-可重现构建通过支持更科学的，可以独立验证的安全论据，从而实现原本不可能实现的合作。
-
-
-
-原文：openSUSE Factory enabled bit-by-bit reproducible builds，作者：Jan Zerebecki
-</description>
-      <content:encoded>&lt;p&gt;除嵌入式签名外，用于构建 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt; 的配置已在三月份改为逐位可重现（bit-by-bit reproducible）。&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/NAST5PZPQGJ5JTHYAM6CWB7PCNCLLK6P/&quot;&gt;随后，第一批 openSUSE Tumbleweed 软件包也通过了逐位可重现性验证&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;感谢所有帮助实现这一目标的人。这是一个重要的改进。&lt;/p&gt;
-
-&lt;p&gt;我们需要一些时间对所有软件包进行验证，以确定有多少包可以重现此细节。之前的验证虽然忽略了此修复的一些差异，95% 以上的软件包都成功通过了验证。&lt;/p&gt;
-
-&lt;h2 id=&quot;贡献&quot;&gt;贡献&lt;/h2&gt;
-
-&lt;p&gt;可重现构建（Reproducible builds）工作由&lt;a href=&quot;https://reproducible-builds.org/contribute/&quot;&gt;多个发行版共同完成&lt;/a&gt;。请参阅如何&lt;a href=&quot;https://en.opensuse.org/openSUSE:Reproducible_Builds&quot;&gt;为 openSUSE 的可重现构建做出贡献&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;用途&quot;&gt;用途&lt;/h2&gt;
-
-&lt;p&gt;可重现构建&lt;a href=&quot;https://reproducible-builds.org/docs/buy-in/&quot;&gt;在安全和质量方面有多种用途&lt;/a&gt;。为进一步提高其实用性，可重现构建需要与其他技术相结合，&lt;a href=&quot;https://gitlab.com/affording-open/distribution&quot;&gt;如分布式合并后代码审查和基于功能的设计&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;最近的一个例子是，只需通过重建和比较结果，就可以通过可重现的构建来证明，用被入侵的 xz 提取源代码的 GCC 构建没有被入侵；这一过程的实现无需对泄露的发生方式进行逆向工程。同样，据报告，可重现构建在调查 xz 破坏过程中也很有用。&lt;/p&gt;
-
-&lt;p&gt;可重现构建通过支持更科学的，可以独立验证的安全论据，从而实现原本不可能实现的合作。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/18/factory-bit-reproducible-builds/&quot;&gt;openSUSE Factory enabled bit-by-bit reproducible builds&lt;/a&gt;，作者：Jan Zerebecki&lt;/p&gt;
 </content:encoded>
     </item>
 
