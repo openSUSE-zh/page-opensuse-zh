@@ -7,6 +7,108 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/05/29/monthly-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 五月</title>
+      <pubDate>Wed, 29 May 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/05/29/monthly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>欢迎阅读 openSUSE Tumbleweed 2024 年 5 月的月度更新。本月带来了大量更新、增强功能以及关键的安全修复。无论您是开发人员、系统管理员还是普通用户，这些更新都旨在提升您的使用体验并确保最高级别的安全性和性能。 如果您希望更频繁地获取有关快照更新的信息，请订阅 openSUSE Factory 邮件列表。 让我们开始吧！ 新功能和改进 Linux Kernel 6.9.1：内核在 5 月份更新了数次，但目前仍停留在 6.9.1 版本，该版本修复了各种问题并增强了整体稳定性。针对 mt7915 无线网卡的 mt76 驱动程序通过添加缺少的 chanctx 操作进行了改进，从而增强了功能。内核针对密钥子系统进行了关键修复，以防止在实例化过程中覆盖密钥过期时间，从而提高了安全性。通过添加 mhi_power_down_keep_dev() API，增强了调制解调器主机接口子系统对系统挂起/休眠的支持，这有助于在电源管理操作期间保持设备状态。 LLVM 18.1.6：此次更新涵盖了多个子包，例如 clang-tools、clang18、libLLVM18、libclang-cpp18、libclang13 和 llvm18-gold。主要修复了以下问题：修复了使用 StructRet 时，参数对齐的函数生成不正确的 thunk 或传递不正确的返回值的问题。引入了 -Xclang -target-feature -Xclang +unaligned-scalar-mem 选项，用于在不支持非对齐向量访问的 CPU 上启用非对齐标量内存访问。修复了使用 -march=native 在不支持 AVX512 的设备上编译 AVX512 代码时出现的构建失败问题。另外，还修复了...</description>
+      <content:encoded>&lt;p&gt;欢迎阅读 openSUSE Tumbleweed 2024 年 5 月的月度更新。本月带来了大量更新、增强功能以及关键的安全修复。无论您是开发人员、系统管理员还是普通用户，这些更新都旨在提升您的使用体验并确保最高级别的安全性和性能。&lt;/p&gt;
+
+&lt;p&gt;如果您希望更频繁地获取有关快照更新的信息，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;让我们开始吧！&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和改进&quot;&gt;新功能和改进&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.9.1：内核在 5 月份更新了数次，但目前仍停留在 6.9.1 版本，该版本修复了各种问题并增强了整体稳定性。针对 mt7915 无线网卡的 &lt;a href=&quot;https://openwrt.org/docs/techref/driver.wlan/mt76&quot;&gt;mt76&lt;/a&gt; 驱动程序通过添加缺少的 chanctx 操作进行了改进，从而增强了功能。内核针对密钥子系统进行了关键修复，以防止在实例化过程中覆盖密钥过期时间，从而提高了安全性。通过添加 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mhi_power_down_keep_dev()&lt;/code&gt; API，增强了调制解调器主机接口子系统对系统挂起/休眠的支持，这有助于在电源管理操作期间保持设备状态。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 18.1.6：此次更新涵盖了多个子包，例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clang-tools&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;clang18&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libLLVM18&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libclang-cpp18&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libclang13&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llvm18-gold&lt;/code&gt;。主要修复了以下问题：修复了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StructRet&lt;/code&gt; 时，参数对齐的函数生成不正确的 thunk 或传递不正确的返回值的问题。引入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-Xclang -target-feature -Xclang +unaligned-scalar-mem&lt;/code&gt; 选项，用于在不支持非对齐向量访问的 CPU 上启用非对齐标量内存访问。修复了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-march=native&lt;/code&gt; 在不支持 AVX512 的设备上编译 AVX512 代码时出现的构建失败问题。另外，还修复了 AArch64 后端因 IR 层的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fcmp&lt;/code&gt; 指令操作数为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt; 引起的崩溃问题，并修复了一些导致编译器崩溃的错误。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/5/5.116.0/&quot;&gt;KDE Frameworks&lt;/a&gt; 5.116.0：Breeze 图标增强了对音频文件格式的支持，添加了针对以下文件类型的图标： &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;audio/ogg&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;audio/x-vorbis+ogg&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;audio/vnd.wave&lt;/code&gt; MIME 类型。额外的 CMake 模块也进行了重要更新，其中包括放弃了在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ecm_add_qch&lt;/code&gt; 中具有已安装配置的 target 上设置 IMPORTED 的尝试。KFileMetaData 修复了属性命名空间的处理，并提高了元数据的准确性和处理能力。KService 修复了与 “mimeType &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x-scheme-handler/file&lt;/code&gt; not found” 问题相关的警告。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freedesktop.org/wiki/Software/udisks/&quot;&gt;udisks2&lt;/a&gt; 2.10.1: 此次更新了乌克兰语和德语翻译。改进了 LVM2 RAID 的测试，具体措施包括擦除已使用的设备、在检查属性之前让系统稳定下来，以及在测试后重新扫描 vdev。添加了离线和在线文件系统增长测试（grow test），并澄清了 Filesystem.Size 属性的文档。修复了 nvme 测试中的 Python 类调用，并为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;udisksctl&lt;/code&gt; 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;loop-setup&lt;/code&gt; 命令添加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;–no-partition-scan&lt;/code&gt; 选项。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://firewalld.org/&quot;&gt;firewalld&lt;/a&gt; 2.1.2：新版本的更新包含数个修复：策略现在允许使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;to-addr&lt;/code&gt; 为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;egress-zone=HOST&lt;/code&gt; 转发端口；已经纠正了丰富规则中大规则限制的范围检查；并且在测试期间修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fw-in-container&lt;/code&gt; 环境中的跳过检测问题。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 0.11.0：此次更新引入了异步清理过期的 btrfs qgroups，并恢复了某些部分以修复在 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;OBS&lt;/a&gt; 中的构建问题。清理服务现在设置为每小时运行一次，如果 qgroups 不存在则禁用它们，以避免在创建快照时失败。新增了对季度快照的支持，并且基于编码集的表格样式选择现在已经实现。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK3&lt;/a&gt; 3.24.42：打印功能通过避免访问已释放的打印机得到了改进。Wayland 修复包括正确显示监视器大小、修复与平板移除相关的崩溃、推断平铺窗口的可调整边缘，以及确保在确认配置后尽快进行提交。&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.14.4：解决了没有子元素时的崩溃问题，并在加载符号 SVG 和处理无色符号方面提高了效率。无障碍更新包括使 gtk-demo 侧边栏搜索更易访问，并停止发出焦点事件。GDK 引入了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XDG_ACTIVATION_TOKEN&lt;/code&gt; 的支持，并对 dmabuf 进行了防御性改进，这些改进包括更仔细地处理未知格式和使用更窄的 YUV 格式范围。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 126.0：该浏览器进行了重大更新，修复了 16 个 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;。修复了 PDF.js 中的任意 JavaScript 执行漏洞（CVE-2024-4367）。修复了点击劫持导致的潜在权限请求绕过问题（CVE-2024-4764）。修复了内存安全漏洞（CVE-2024-4778 和 CVE-2024-4777），后者也适用于 Firefox ESR 115.11 和 Thunderbird 115.11。&lt;a href=&quot;https://sssd.io/&quot;&gt;sssd&lt;/a&gt; 2.9.5：此次更新引入了一个新的配置选项，名为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;failover_primary_timeout&lt;/code&gt;。该选项允许用户配置在成功连接到备份服务器后，SSSD 尝试重新连接主服务器的频率。此前，该间隔硬编码为 31 秒，且仍为默认值。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.openldap.org/&quot;&gt;openldap2&lt;/a&gt; 2.6.7：liblber 库修复了长消息缺少换行符的问题，libldap 解决了与 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;openssl-3&lt;/a&gt; 的退出处理问题、使用多个 LDAP URI 时的 TLS 问题、OpenSSL 密码套件处理问题以及使用 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.0 时的 Diffie-Hellman 参数文件处理问题。slapd 服务现在在 matchedDN 处理时遵守 disclose 选项，改进了 ACL 中的正则表达式测试，并修复了粘合数据库的同步复制问题。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 6.9：此次更新引入了几个新功能和改进：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;m_mirred&lt;/code&gt; 模块现在允许镜像到块设备，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tc&lt;/code&gt; 命令为 action 和过滤器增加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NLM_F_ECHO&lt;/code&gt; 支持。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ip&lt;/code&gt; 命令增强了对 bonding 的 coupled_control 支持，并新增了 &lt;a href=&quot;https://docs.kernel.org/networking/ioam6-sysctl.html&quot;&gt;IOAM6&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;monitor&lt;/code&gt; 命令。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 24.1.0：此功能版本解决了在先前候选版本中引入的多个回归问题，并移除了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;eglstreams&lt;/code&gt; 的支持。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 1.0.3：主要功能包括增强的验证器检查，以确保描述列表未被翻译，改进了描述的翻译检查，以及通过 CLI compose 命令将选定的自定义条目传播到目录输出的能力。此外，还增加了许多其他功能。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键软件包更新&quot;&gt;关键软件包更新&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tpm2-software/tpm2-tss&quot;&gt;tpm2-0-tss&lt;/a&gt; 4.1.0：此次更新提供了对 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-29040.html&quot;&gt;CVE-2024-29040&lt;/a&gt; 的重大安全修复。实施了各种错误修复，包括修正 FAPI 身份验证回调的长度检查、修复与 CEL 规范的偏离问题以及解决之前被 json-c 忽略的 FAPI 配置文件中的 json 语法错误。更新还增加了对新功能的支持，并启用了使用外部密钥进行 Fapi_Encrypt 的功能。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql16&lt;/a&gt; 16.3：修复了 &lt;a href=&quot;https://www.postgresql.org/support/security/CVE-2024-4317/&quot;&gt;CVE-2024-4317&lt;/a&gt;，该漏洞可能允许非特权数据库用户从其他用户的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CREATE STATISTICS&lt;/code&gt; 命令中读取大多数常见值和其他统计信息。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.x 版本修复了 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-6597.html&quot;&gt;CVE-2023-6597&lt;/a&gt;。这是一个在 CPython 中发现的漏洞，影响 3.12.1、3.11.7、3.10.13、3.9.18、3.8.18 和更早版本。在清理过程中，当存在权限错误时，此类错误地跟随符号链接。因此，在特定条件下，具有运行特权程序能力的用户可能会更改符号链接指向的文件的权限。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.80.2:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-34397.html&quot;&gt;CVE-2024-34397&lt;/a&gt; - GNOME GLib 中存在一个问题，允许伪造 D-Bus 信号，从而影响客户端行为&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qt.io/&quot;&gt;qt6-base&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-33861.html&quot;&gt;CVE-2024-33861&lt;/a&gt; - QStringConverter 的无效指针回调可以修改堆栈，从而导致使用 QStringDecoder 的应用程序存在漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;libxml2 2.12.7
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-34459.html&quot;&gt;CVE-2024-34459&lt;/a&gt; - xmllint &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;–htmlout&lt;/code&gt; 中的缓冲区过度读取可能会导致 2.12.7 之前的 libxml2 版本中出现漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;libarchive 3.7.4:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-26256.html&quot;&gt;CVE-2024-26256&lt;/a&gt; - 远程执行漏洞&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;krb5 添加了一些补丁来修复与以下相关的内存泄漏：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-26458.html&quot;&gt;CVE-2024-26458&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-26461.html&quot;&gt;CVE-2024-26461&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-26462.html&quot;&gt;CVE-2024-26462&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ovmf
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2022-36763.html&quot;&gt;CVE-2022-36763&lt;/a&gt; - &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tcg2MeasureGptTable()&lt;/code&gt; 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EDK2&lt;/code&gt; 漏洞允许通过本地网络发生堆缓冲区溢出&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;python-Jinja2 3.1.4:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-34064.html&quot;&gt;CVE-2024-34064&lt;/a&gt; - Jinja 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xmlattr&lt;/code&gt; 过滤器漏洞允许键中使用非属性字符，从而存在遭受 XSS 攻击的风险。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tpm2-software/tpm2-tss&quot;&gt;tpm2-0-tss&lt;/a&gt; 4.1.0:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-29040.html&quot;&gt;CVE-2024-29040&lt;/a&gt; 是一个漏洞，它允许攻击者生成任意报价数据，而 &lt;a href=&quot;https://tpm2-tss.readthedocs.io/en/stable/group___fapi___verify_quote.html&quot;&gt;Fapi_VerifyQuote&lt;/a&gt; 可能无法检测到这些数据。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;2024 年 5 月，openSUSE Tumbleweed 持续推出了一系列关键的安全修复、重要的更新和显著的增强。对 Linux 内核、LLVM、KDE 框架和许多其他组件的更新确保了 Tumbleweed 系统保持功能丰富并持续更新。开发人员和用户都从改进、增强和新功能中受益。&lt;/p&gt;
+
+&lt;p&gt;对于那些希望贡献或参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户继续通过 bug 报告、功能建议和讨论来参与进来。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做贡献&quot;&gt;为 openSUSE Tumbleweed 做贡献&lt;/h2&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 的每次更新都更加完善。无论是报告错误、建议功能还是参与社区讨论，我们都非常重视您的参与。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/29/tw-monthly-update-may/&quot;&gt;openSUSE Tumbleweed Monthly Update - May 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/05/27/aeon.html</guid>
       <title>Aeon Desktop 在 RC2 版本中引入新功能</title>
       <pubDate>Mon, 27 May 2024 19:40:00 +0000</pubDate>
@@ -469,42 +571,6 @@ openSUSE 项目很高兴地宣布 openSUSE.Asia 峰会 2024 将于日本东京�
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/30/tw-monthly-update-april/&quot;&gt;openSUSE Tumbleweed Monthly Update - April&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/04/30/leap-cockpit.html</guid>
-      <title>在 Leap 候选发布版本中试用 Cockpit</title>
-      <pubDate>Tue, 30 Apr 2024 00:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/04/30/leap-cockpit.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Leap 15.6 于上周结束了 Beta 测试，并进入了候选发布阶段，版本号为 669.1。您可以从 get.opensuse.org 获取 Leap 15.6 RC 安装镜像。 这意味着该版本被认为是功能齐全的，贡献者应该专注于错误修复并消除任何剩余的构建失败。 迫切想在自己的机器上安装 Leap 15.6 的用户应检查该版本的已知问题，看看是否有任何妨碍使用 RC 的问题。 openSUSE 发布团队为 Leap 和 SUSE Package Hub 用户提供了期待已久的 Cockpit。用户可以从 Leap Micro 教程中熟悉 Cockpit 基于 Web 的管理界面。 我们建议用户不要公开暴露使用管理接口的 9090 端口；就像人们不应该向公众公开路由器的网络接口一样。 $ sudo zypper in cockpit $ sudo systemctl enable --now cockpit.socket...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; Leap 15.6 于上周结束了 Beta 测试，并进入了候选发布&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap&quot;&gt;阶段&lt;/a&gt;，版本号为 &lt;a href=&quot;https://openqa.opensuse.org/tests/overview?distri=opensuse&amp;amp;version=15.6&amp;amp;build=669.1&amp;amp;groupid=50&quot;&gt;669.1&lt;/a&gt;。您可以从 &lt;a href=&quot;https://get.opensuse.org/leap/15.6/&quot;&gt;get.opensuse.org&lt;/a&gt; 获取 Leap 15.6 RC 安装镜像。&lt;/p&gt;
-
-&lt;p&gt;这意味着该版本被认为是功能齐全的，贡献者应该专注于错误修复并消除任何剩余的构建失败。&lt;/p&gt;
-
-&lt;p&gt;迫切想在自己的机器上安装 Leap 15.6 的用户应检查该版本的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_15.6&quot;&gt;已知问题&lt;/a&gt;，看看是否有任何妨碍使用 RC 的问题。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 发布团队为 Leap 和 &lt;a href=&quot;https://packagehub.suse.com/&quot;&gt;SUSE Package Hub&lt;/a&gt; 用户提供了期待已久的 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt;。用户可以从 &lt;a href=&quot;https://www.youtube.com/playlist?list=PL_AMhvchzBacAxIOv3_lRHBRrIUNo6Abp&quot;&gt;Leap Micro 教程&lt;/a&gt;中熟悉 Cockpit 基于 Web 的管理界面。&lt;/p&gt;
-
-&lt;p&gt;我们建议用户不要公开暴露使用管理接口的 9090 端口；就像人们不应该向公众公开路由器的网络接口一样。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo zypper in cockpit
-
-$ sudo systemctl enable --now cockpit.socket
-
-$ firefox https://localhost:9090 #以 root 用户身份登录，获取管理员权限
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;我们之前曾尝试将 Cockpit 加入 Leap 15.5，但存在一些阻碍。得益于 python311 堆栈的更新，此次加入成为可能，这是 SLES 15 SP 6 大规模更新工作以及&lt;a href=&quot;https://suse.org.cn/社区新闻/2024/04/10/wallpaper.html&quot;&gt;统一品牌&lt;/a&gt;的一部分。openSUSE 团队能够一次性构建 Cockpit 并通过此 RC 版本为 SLES 和 Leap 用户提供它。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Leap 15.X 上没有现有的 &lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux&lt;/a&gt; 策略，因此 Cockpit 的 SELinux 部分预计无法工作。&lt;/strong&gt;发布团队希望在 Leap 16 中制定 SELinux 政策，因此相关部分将在未来的版本中正常工作。&lt;/p&gt;
-
-&lt;p&gt;祝玩得愉快！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/04/29/try-cockpit-in-leap-rc/&quot;&gt;Try Cockpit in Leap Release Candidate&lt;/a&gt;，作者：Lubos Kocman 和 Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
