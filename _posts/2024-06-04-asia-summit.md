@@ -83,3 +83,7 @@ openSUSE.Asia 峰会是 openSUSE 社区共聚一堂的绝佳机会。峰会期�
 我们期待今年 11 月在东京见到您。
 
 祝玩得开心！
+
+----
+
+原文：[Invitation to openSUSE Asia Summit 2024 Tokyo Japan](https://news.opensuse.org/2024/05/31/os-asia-summit-invitation/)，作者：openSUSE Asia Summit Japanese Team
