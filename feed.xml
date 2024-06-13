@@ -7,6 +7,136 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/12/nvidia-key.html</guid>
+      <title>NVIDIA 存储库的新签名密钥</title>
+      <pubDate>Wed, 12 Jun 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/12/nvidia-key.html</link>
+      <author>Poplar at twilight</author>
+      <description>NVIDIA 显卡驱动程序的第三方存储库很快将从 1024 位 DSA GPG 密钥切换为 4096 位 RSA GPG 密钥。 为了满足当前的安全建议，这种切换是必要的。 新密钥的 GPG 指纹： pub rsa4096/0xB1D0D788DB27FD5A 2022-04-14 [SC] Key fingerprint = 2FB0 3195 DECD 4949 2BD1 C17A B1D0 D788 DB27 FD5A uid NVIDIA Linux Driver Team &amp;lt;linux-bugs@nvidia.com&amp;gt; 请注意，这项更改也将对 openSUSE Leap 15.5 和 15.6 以及 SLED 生效。 如果您对此有疑问，请随时联系列表中的 Factory...</description>
+      <content:encoded>&lt;p&gt;NVIDIA 显卡驱动程序的第三方存储库很快将从 1024 位 DSA GPG 密钥切换为 4096 位 RSA GPG 密钥。&lt;/p&gt;
+
+&lt;p&gt;为了满足当前的安全建议，这种切换是必要的。&lt;/p&gt;
+
+&lt;p&gt;新密钥的 GPG 指纹：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pub   rsa4096/0xB1D0D788DB27FD5A 2022-04-14 [SC]
+      Key fingerprint = 2FB0 3195 DECD 4949 2BD1  C17A B1D0 D788 DB27 FD5A
+uid                             NVIDIA Linux Driver Team &amp;lt;linux-bugs@nvidia.com&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;请注意，这项更改也将对 openSUSE Leap 15.5 和 15.6 以及 &lt;a href=&quot;https://www.suse.com/download/sled/&quot;&gt;SLED&lt;/a&gt; 生效。&lt;/p&gt;
+
+&lt;p&gt;如果您对此有疑问，请随时联系&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;列表&lt;/a&gt;中的 Factory 或安全邮件列表。&lt;/p&gt;
+
+&lt;p&gt;如果您想手动导入，这里是整个 GPG 密钥：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+mQINBGJYmlEBEACKX1pzfrPA9WKY1gmoIGNGNOsUKETZQ4iWGCZ/jVuxXZzvXg1c
+0xC/44ETenvxOor8kMpy8jJwy6IzIyNZniWWCOeNnITCark0eMY6w18eGqpgvGhL
+iFo9y6ZdGOQoVqbyNritM1fQZnlCbPK11SBxkMmQ1eC+rLmD8xMslx/AS3/5Lu+2
+GdA5H79p9CJoH/MpfsUH6NeojQkN/jqxG4VgHL488eMO120QSlDY53PuGqB5c/FN
+yMQry8Hq+uapKLC1irZun/wfKSP2gIrIcXuS0TLjQeWKn+aX9xdZWZyVNsGUQ3aN
+GnfHly14n+K9A+QjINtIt6PON7hHAd/aYNA/weR4IvDEwkU95JtNo37NpKHa0CHO
+M+B31phcl9dLPfgDfLpCE04c87mpuSMTfCd8zneGWpHMFGIlW4o6dOsmoc/WwuJz
++U5BVdR483yQd4RMoq9AePtrRPPZCIG48i8oxltQgZqHL02+818hnOFyTml+ZSOr
+swREOFa4OC8jYevZ+uu30xkf6/Jjt4cW/Woho62VOz1hQXGaoz8VXsWWnykb/cVr
+aBhGLLIhV0WdRmhdh8R0bNC1FuyPtcvvFNA30hBc4OWVEMzJk1aPrbvmFIO6mw7m
+93X1pUKYBE7ozEDQvbhItCO1+yDAdzNnrwGSvbuNTzs4Pn+qbldq1QngMQARAQAB
+tDBOVklESUEgTGludXggRHJpdmVyIFRlYW0gPGxpbnV4LWJ1Z3NAbnZpZGlhLmNv
+bT6JAjkEEwECACMFAmJYmlECGwMHCwkIBwMCAQYVCAIJCgsEFgIDAQIeAQIXgAAK
+CRCx0NeI2yf9Wsn9D/9rbEFdcH5RfzhWx1DwaKAcmVSvRZf34w7R2DmES+y6I3lh
+JIhc9A2eX+xMaZ1Zm3SQKt+RzyEwwReRYQ0FsEkfpr6tLHY7xt97e69NWH7/4yFN
+aPIker/NSdyhOX/9ALmrMs82+I+t37KTCy9pHt31kIK0zCFmHT8g3Dl1gsSXhaWd
+cUgpOuiMtcuUEhi6wkYHHIT7RSfHwq2apHVJKOvFI//fVVe01KOAVkdJW0kJFiNr
+IBgrLHa3Y42dR9g5XnUINX4V/LUJnf66RLzC+OA/ps4gIl3UJ06dj9h8Dxgo9Md6
+57+irheoIbcP+zSN6CaIGFHmmr+2I6ofP9Q9BtKZqNklfcISioWBamInYyyjyVuW
+n47COZq8kgKLOS7yCmU8M+Y17W37pvjS9Q07lLxPBkbw6IlPc6MFZAynM13XCE9u
+xzKrdFoT75wadAaY4Ox741u12jNYsdNbODrWmc8J4tw3z8whrWf4vSZveidboEav
+OfFXxORrPHALB9Wegq9kJSYo68NYr/Dy0bvPeUKUpvJUX93YRVabQfmiTYAuSZIl
+PMeQIHPQPh9QvNsZmOHSlOC9Tmncd4O1gqk4WDc2D95kIhzA8HQSSZTThM4Xe1Eh
+Xks0dFlInjDFyMgAwsOaVDTWwjBfAaklUysV+CxhhEvSnuGx9h8Mi88K6g8heA==
+=g062
+-----END PGP PUBLIC KEY BLOCK-----
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/12/new-NVIDIA-signing-key/&quot;&gt;New signing key for NVIDIA repositories&lt;/a&gt;，作者：Marcus Meissner&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/11/leap15.6.html</guid>
+      <title>Leap 15.6 为用户展示各种各样的选择</title>
+      <pubDate>Tue, 11 Jun 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/11/leap15.6.html</link>
+      <author>Poplar at twilight</author>
+      <description>德国纽伦堡——Leap 15.6 正式发布，为专业人士和组织过渡到具有扩展支持的 SUSE 企业发行版或准备下一个重要版本（即 Leap 16）铺平了道路。 数字基础设施领域对强大、安全和稳定的操作系统的需求比以往任何时候都更加迫切。社区驱动的 Leap 15.6 与集成了新功能和增强功能的 SLE 15 SP 6 相结合，为管理关键基础设施提供了最佳解决方案。值得注意的是，SUSE 的一般支持和扩展支持版本的产品具有远超 Leap 15 生命周期长度的产品支持生命周期，以确保为用户提供更长久、更可靠的服务。 SLE 15 SP 6 是一个功能更新版本，因此用户可以期待在 Leap 15.6 版本中获得更多的功能。 这种一致性确保了使用 Leap 满足运营需求的企业和专业人士能够享受到向企业环境的清晰、受支持的过渡，这对于需要长期稳定性和增强安全性的系统迁移至关重要。在企业制定升级路径战略时，采用 SUSE 这样的企业级解决方案将成为一项战略决策，尤其是对于那些管理各行业广泛网络和关键数据的企业而言。 自 2018 年 5 月 25 日发布以来，Leap 已增加了多项新功能，如容器技术、不可变系统、虚拟化、嵌入式开发以及其他高科技进步。每个小版本的使用率都在上升，这表明企业家、业余爱好者、专业人士和开发人员都在不断选择 Leap 作为首选 Linux 发行版。 Leap 15.6 预计将在 2025 年底之前接受维护和安全更新，以确保与下一个版本有足够的重叠。这将为用户提供充足的时间升级到该版本的后续版本（即...</description>
+      <content:encoded>&lt;p&gt;德国纽伦堡——&lt;a href=&quot;https://get.opensuse.org/leap/15.6/&quot;&gt;Leap 15.6&lt;/a&gt; 正式发布，为专业人士和组织过渡到具有扩展支持的 SUSE 企业发行版或准备下一个重要版本（即 Leap 16）铺平了道路。&lt;/p&gt;
+
+&lt;p&gt;数字基础设施领域对强大、安全和稳定的操作系统的需求比以往任何时候都更加迫切。社区驱动的 Leap 15.6 与集成了新功能和增强功能的 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLE 15&lt;/a&gt; SP 6 相结合，为管理关键基础设施提供了最佳解决方案。值得注意的是，SUSE 的一般支持和&lt;a href=&quot;https://www.suse.com/products/long-term-service-pack-support/&quot;&gt;扩展支持&lt;/a&gt;版本的产品具有远超 Leap 15 生命周期长度的&lt;a href=&quot;https://www.suse.com/lifecycle/&quot;&gt;产品支持生命周期&lt;/a&gt;，以确保为用户提供更长久、更可靠的服务。&lt;/p&gt;
+
+&lt;p&gt;SLE 15 SP 6 是一个功能更新版本，因此用户可以期待在 Leap 15.6 版本中获得更多的功能。&lt;/p&gt;
+
+&lt;p&gt;这种一致性确保了使用 Leap 满足运营需求的企业和专业人士能够享受到向企业环境的清晰、受支持的过渡，这对于需要长期稳定性和增强安全性的系统迁移至关重要。在企业制定升级路径战略时，采用 SUSE 这样的企业级解决方案将成为一项战略决策，尤其是对于那些管理各行业广泛网络和关键数据的企业而言。&lt;/p&gt;
+
+&lt;p&gt;自 2018 年 5 月 25 日发布以来，Leap 已增加了多项新功能，如容器技术、不可变系统、虚拟化、嵌入式开发以及其他高科技进步。每个小版本的使用率都在上升，这表明企业家、业余爱好者、专业人士和开发人员都在不断选择 Leap 作为首选 Linux 发行版。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.6 预计将在 2025 年底之前接受维护和安全更新，以确保与下一个版本有足够的重叠。这将为用户提供充足的时间升级到该版本的后续版本（即 Leap 16），或切换到 SUSE 的扩展服务支持版本。对商业支持感兴趣的用户可以使用&lt;a href=&quot;https://en.opensuse.org/SDB:How_to_migrate_to_SLE&quot;&gt;迁移工具&lt;/a&gt;迁移到 SUSE 的商业支持版本。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Leap 15.6 中搭载的 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt; 软件包极大地增强了用户的系统和容器管理能力。Cockpit 与 Leap 15.6 的集成提高了可用性和访问性，并在高级系统管理和用户友好的网络浏览器操作之间提供了联系。这一新增功能凸显了 openSUSE 为专业人士和业余爱好者提供强大工具的承诺。Leap 没有附带 SELinux 策略，因此 Cockpit 的 SELinux 功能无法运行。&lt;/p&gt;
+
+&lt;p&gt;通过 Podman 4.8，容器技术得到了提升，其中包括通过 quadlets 对 Nextcloud 的定制支持，以及最新发布的 Distrobox、Docker、python-podman、Skopeo、containerd、libcontainers-common，确保了强大的容器管理系统。虚拟化技术也得到了增强，包括 Xen 4.18、KVM 8.2.2、libvirt 10.0 和 virt-manager 4.1 的更新。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.6 整合了多个重要软件升级，提高了性能和安全性。它集成了 Linux Kernel 6.4，为一些最新的硬件驱动程序提供了向后移植，从而提高了性能。OpenSSL 3.1 成为新的默认设置，提供了强大的安全功能和更新的加密算法。数据库管理系统获得了 MariaDB 10.11.6 和 PostgreSQL 16 的重大更新。Redis 7.2 提供了高级数据处理功能，PHP 8.2 和 Node.js 20 则完善了软件堆栈；两者都获得了更新，以提高网络开发的性能和安全性。Leap 还将推出 OpenJDK 21，为基于 Java 的应用程序提供性能和安全性方面的改进。&lt;/p&gt;
+
+&lt;p&gt;Leap 也对电信软件包进行了更新，其中包括 DPDK 22.11、Open vSwitch 3.1 以及 OVN 23.03&lt;/p&gt;
+
+&lt;p&gt;随着 KDE Plasma 5.27.11（最新的长期支持版本）、Qt 5.15.12+kde151 和 KDE Frameworks 5.115.0 以及 Qt6 6.6.3 版本的推出，KDE 环境取得了进步；PyQt5 和 PyQt6 与 Python 3.11 兼容的 Python 绑定也得到了更新，从而使应用程序的操作更加流畅。&lt;/p&gt;
+
+&lt;p&gt;作为向 Python 3.11 过渡的一部分，许多缺少维护的 Python 软件包已被移除；更多详情请查看&lt;a href=&quot;https://doc.opensuse.org/release-notes/x86_64/openSUSE/Leap/15.6/index.html&quot;&gt;发布说明&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;GNOME 45  增强了桌面环境，添加了提升用户体验的功能。随着 PulseAudio 17.0 和 PipeWire 1.0.4 的发布，音频技术得到重大升级，提高了硬件兼容性和蓝牙功能，包括设备电池电量指示器。&lt;/p&gt;
+
+&lt;p&gt;这些更新共同增强了系统的稳定性和用户体验，使 Leap 15.6 成为专业人士、公司和组织机构的不二之选。&lt;/p&gt;
+
+&lt;p&gt;Leap 可从 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载获得。&lt;/p&gt;
+
+&lt;h2 id=&quot;生命周期结束&quot;&gt;生命周期结束&lt;/h2&gt;
+
+&lt;p&gt;Leap 15.5 将于今天发布后六个月结束生命周期（EOL）。用户应在今天起的六个月内更新到 Leap 15.6，以继续接收安全和维护更新。&lt;/p&gt;
+
+&lt;h2 id=&quot;下载-leap-156&quot;&gt;下载 Leap 15.6&lt;/h2&gt;
+
+&lt;p&gt;要下载 ISO 映像，请访问 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;https://get.opensuse.org/leap/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;如果您对版本有疑问或发现错误，我们很乐意通过以下方式收到您的来信：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://t.me/openSUSE&quot;&gt;https://t.me/openSUSE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chat.opensuse.org&quot;&gt;https://chat.opensuse.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/opensuse-support/&quot;&gt;https://lists.opensuse.org/opensuse-support/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discordapp.com/invite/openSUSE&quot;&gt;https://discordapp.com/invite/openSUSE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com/groups/opensuseproject&quot;&gt;https://www.facebook.com/groups/opensuseproject&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;参与其中&quot;&gt;参与其中&lt;/h2&gt;
+
+&lt;p&gt;openSUSE 项目是一个全球性的社区，致力于促进 Linux 在各地的应用。作为全球自由与开源软件社区的一部分，openSUSE 一直在以开放、透明和友好的方式开展工作。该项目由其社区控制，并依靠个人的贡献，包括测试人员、写作人员、翻译人员、可用性专家、艺术家、大使或开发人员。该项目囊括了各种技术、不同专业水平的人员、不同语言和不同文化背景的人员。了解更多信息，请访问 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;opensuse.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;回访调查&quot;&gt;回访调查&lt;/h2&gt;
+
+&lt;p&gt;请访问 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;Survey.opensuse.org&lt;/a&gt; 并参加我们的&lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;回访调查&lt;/a&gt;，向我们的发布团队提供反馈。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://zh-tw.opensuse.org/Release_announcement_15.6/&quot;&gt;Release announcement 15.6&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/06/05/release-party.html</guid>
       <title>openSUSE 社区为发布派对做好准备</title>
       <pubDate>Wed, 05 Jun 2024 23:30:00 +0000</pubDate>
@@ -480,74 +610,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/24/osp-listed-as-org-on-ai-hugging-faces/&quot;&gt;openSUSE Project Listed as Organization on Hugging Face&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/22/open-conf.html</guid>
-      <title>openSUSE 大会日程确定</title>
-      <pubDate>Wed, 22 May 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/22/open-conf.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 大会 2024 的日程已经公布，其中包含了多个关于开源生态系统的演讲，以及几次交流机会。 开源爱好者、开发者和贡献者将于 6 月 27 日至 6 月 29 日齐聚 Z-Bau，分享、讨论并展示开源技术、项目和社区的最新进展。会议将包括一系列演讲、研讨会、见面会和主题演讲，提供对开源软件当前和未来方向的宝贵见解。 Santiago Zarate、Oliver Kurz 和 Livdywan 将首先进行一场关于 openQA 的演讲——《openQA 的现状与未来》。该演讲将重点介绍 openQA 作为确保 openSUSE 系统稳定性的关键工具的演变，以及它在 openSUSE、Fedora 和 SUSE 之外的影响扩展。 Marcus Meissner 和 Johannes Segitz 将进行《XZ 后门——我们的报告》的演讲，对涉及 xz 压缩库的一次重大供应链攻击进行回顾，讨论攻击的影响、应对措施及未来的安全考虑。 第一天将有两场主题演讲。SUSE 的 CEO Dirk-Peter van Leeuwen 将讲述社区的重要性和如何促进协作的开源环境。 Luca Di Maio...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/schedule/events&quot;&gt;openSUSE 大会 2024 的日程&lt;/a&gt;已经公布，其中包含了多个关于开源生态系统的演讲，以及几次交流机会。&lt;/p&gt;
-
-&lt;p&gt;开源爱好者、开发者和贡献者将于 6 月 27 日至 6 月 29 日齐聚 Z-Bau，分享、讨论并展示开源技术、项目和社区的最新进展。会议将包括一系列演讲、研讨会、见面会和主题演讲，提供对开源软件当前和未来方向的宝贵见解。&lt;/p&gt;
-
-&lt;p&gt;Santiago Zarate、Oliver Kurz 和 Livdywan 将首先进行一场关于 openQA 的演讲——《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4450&quot;&gt;openQA 的现状与未来&lt;/a&gt;》。该演讲将重点介绍 openQA 作为确保 openSUSE 系统稳定性的关键工具的演变，以及它在 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt;、&lt;a href=&quot;https://fedoraproject.org/&quot;&gt;Fedora&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 之外的影响扩展。&lt;/p&gt;
-
-&lt;p&gt;Marcus Meissner 和 Johannes Segitz 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4498&quot;&gt;XZ 后门——我们的报告&lt;/a&gt;》的演讲，对涉及 xz 压缩库的一次重大供应链攻击进行回顾，讨论攻击的影响、应对措施及未来的安全考虑。&lt;/p&gt;
-
-&lt;p&gt;第一天将有两场主题演讲。SUSE 的 CEO Dirk-Peter van Leeuwen 将讲述&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4638&quot;&gt;社区的重要性&lt;/a&gt;和如何促进协作的开源环境。&lt;/p&gt;
-
-&lt;p&gt;Luca Di Maio 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4593&quot;&gt;在 Aeon 上使用 Distrobox 开发&lt;/a&gt;》的主题演讲，介绍 Distrobox 以及如何在像 &lt;a href=&quot;https://aeondesktop.github.io/&quot;&gt;Aeon&lt;/a&gt; 这样的原子和事务系统中将其用作开发环境。&lt;/p&gt;
-
-&lt;p&gt;第二天将由 Alfonso Hernandez 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4483&quot;&gt;Midori 不只是一个浏览器&lt;/a&gt;》演讲开始。Hernandez 将探讨 Midori 的功能和优势，这是一款轻量级、快速且安全的浏览器，并强调其在促进用户隐私和安全方面的作用。&lt;/p&gt;
-
-&lt;p&gt;Jsrain 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4441&quot;&gt;SUSE ALP：事态的现状&lt;/a&gt;》的演讲，介绍最近的发展、即将发布的内容以及 openSUSE 项目如何在 SUSE 的 ALP 开发基础上继续前进。&lt;/p&gt;
-
-&lt;p&gt;SUSE 的总经理 Rick Spencer 将进行另一场主题演讲。他的演讲《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4363&quot;&gt;为何 openSUSE 重要&lt;/a&gt;》将分享他对 openSUSE 在更广泛的开源生态系统中的重要性的见解。&lt;/p&gt;
-
-&lt;p&gt;最后一天将由 Dan Čermák 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4533&quot;&gt;社区企业 Linux 发行版的悲剧&lt;/a&gt;》演讲展开。Čermák 将讨论社区版本的企业 Linux 发行版所面临的挑战，并提出潜在的解决方案。&lt;/p&gt;
-
-&lt;p&gt;Markus Feilner 将进行《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4620&quot;&gt;替换你的 Exchange：grommunio——一个开源的替代方案及更多&lt;/a&gt;》的演讲，强调 &lt;a href=&quot;https://grommunio.com/&quot;&gt;grommunio&lt;/a&gt; 作为微软 Exchange 的全面开源替代方案，提供群件、视频会议、聊天、文件同步等功能。&lt;/p&gt;
-
-&lt;p&gt;由 Čermák 主持的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4539&quot;&gt;Fedora Hatch 见面会&lt;/a&gt;将为 Fedora 贡献者和爱好者提供一个非正式的讨论和交流经验的平台。&lt;/p&gt;
-
-&lt;p&gt;Tobias Görgens 的《&lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4665&quot;&gt;sdbootutil：掌握引导管理的艺术&lt;/a&gt;》演讲将介绍一个旨在简化 openSUSE 引导加载程序管理的工具，使这一过程更加直观和可靠。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 大会 2024 f预计将成为一个分享、合作、学习和创新的精彩信息交流盛会。&lt;/p&gt;
-
-&lt;p&gt;欲了解更多信息并注册，请访问 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;events.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/22/osc-schedule-set/&quot;&gt;openSUSE Conference Schedule Set&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/17/openvino.html</guid>
-      <title>OpenVINO 正式登录 openSUSE</title>
-      <pubDate>Fri, 17 May 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/17/openvino.html</link>
-      <author>Poplar at twilight</author>
-      <description>当我作为 openSUSE 成员和 Intel 创新者专注于 openSUSE Innovator 项目时，看到 openVINO 没有在 openSUSE Linux 发行版上得到支持，这让我感到非常沮丧。 在 2023 年 10 月，我决定亲自采取行动，开始为 openSUSE 平台编译和使用 OpenVINO 源代码。我谦虚地贡献了自己的力量，并在 GitHub 上发布了第一个适用于我们发行版的改编版本。 我努力的动力来源于 OpenVINO 在大众化人工智能使用方面的潜力，特别是对于那些没有资源投资昂贵 GPU 的人。这个库提供了多核编程和 Intel 处理器的加速寄存器，以及 ARM 处理器的资源，允许在第 6 代及以后的处理器上使用 AI。 随着 VPU、NPU 和 AMX 等技术的出现，现在可以在无需专用 GPU 的情况下运行大型语言模型 (LLM) 和生成式 AI。因此，我开始为 openSUSE 进行 RPM 包的打包工作。如果没有...</description>
-      <content:encoded>&lt;p&gt;当我作为 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Members&quot;&gt;openSUSE 成员&lt;/a&gt;和 &lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/community/experts-de-oliveira-faria.html&quot;&gt;Intel 创新者&lt;/a&gt;专注于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE Innovator 项目&lt;/a&gt;时，看到 &lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;openVINO&lt;/a&gt; 没有在 openSUSE Linux 发行版上得到支持，这让我感到非常沮丧。&lt;/p&gt;
-
-&lt;p&gt;在 2023 年 10 月，我决定亲自采取行动，开始为 openSUSE 平台编译和使用 OpenVINO 源代码。我谦虚地贡献了自己的力量，并在 &lt;a href=&quot;https://github.com/openvinotoolkit/openvino/pull/20166&quot;&gt;GitHub&lt;/a&gt; 上发布了第一个适用于我们发行版的改编版本。&lt;/p&gt;
-
-&lt;p&gt;我努力的动力来源于 OpenVINO 在大众化人工智能使用方面的潜力，特别是对于那些没有资源投资昂贵 GPU 的人。这个库提供了多核编程和 Intel 处理器的加速寄存器，以及 ARM 处理器的资源，允许在第 6 代及以后的处理器上使用 AI。&lt;/p&gt;
-
-&lt;p&gt;随着 VPU、NPU 和 AMX 等技术的出现，现在可以在无需专用 GPU 的情况下运行大型语言模型 (LLM) 和生成式 AI。因此，我开始为 openSUSE 进行 RPM 包的打包工作。如果没有 Intel 的 Ilya Lavrenov (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ilya.lavrenov@intel.com&lt;/code&gt;) 和 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;OBS&lt;/a&gt; 的 Atri Bhattacharya (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;badshah400@gmail.com&lt;/code&gt;) 的支持和帮助，这项工作不会成功。他们不仅与我分享了知识，还共同协作确保 Intel 和 openSUSE 的技术政策之间的兼容性。&lt;/p&gt;
-
-&lt;p&gt;由于这些协作努力，&lt;strong&gt;openSUSE 成为了第一个在其官方仓库中提供从源代码编译的 OpenVINO 的 Linux 发行版&lt;/strong&gt;。能够为这个项目做出贡献，我感到非常自豪，这无疑会对未来的工作产生积极影响。作为开源社区的成员，我们有责任努力实现新兴技术的大众化，减少社会中的数字排斥现象。&lt;/p&gt;
-
-&lt;p&gt;欲了解更多信息，请访问&lt;a href=&quot;https://docs.openvino.ai/nightly/get-started/install-openvino/install-openvino-linux.html&quot;&gt;此处&lt;/a&gt;或从 &lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;software.opensuse.org&lt;/a&gt; 获取 OpenVINO！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/14/openvino-arrives-in-os-distributions/&quot;&gt;OpenVINO Arrives in openSUSE Releases&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
 </content:encoded>
     </item>
 
