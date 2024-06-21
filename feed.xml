@@ -7,6 +7,71 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/19/leap-micro.html</guid>
+      <title>Leap Micro 6.0 进入 Beta 阶段</title>
+      <pubDate>Wed, 19 Jun 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/19/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE Leap Micro 6.0 Beta 现已发布！我们预计，随着基础设施准备工作的推进，它将很快过渡到 RC（候选发布）和 GA（一般可用）版本。Leap Micro 6.0 Beta 的 ISO 文件可在 get.opensuse.org 或直接在 download.opensuse.org 上找到。 关于 Leap Micro Leap Micro 6.0 是对 SLE Micro 6.0 的重新命名，该系统是 SUSE 推出的一款超可靠的容器和虚拟机主机。这是第一个基于新代码库 “SUSE Linux Framework One”（以前称为 ALP）公开发布的产品。 Leap Micro 6.X 适用于 x86_64 和 aarch64，每 6 个月发布一次，并支持至下一个版本发布。也就是说，一旦 Leap Micro 6.2 发布，Leap Micro...</description>
+      <content:encoded>&lt;p&gt;openSUSE Leap Micro 6.0 Beta 现已发布！我们预计，随着基础设施准备工作的推进，它将很快过渡到 RC（候选发布）和 GA（一般可用）版本。Leap Micro 6.0 Beta 的 ISO 文件可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 或直接在 &lt;a href=&quot;https://download.opensuse.org/distribution/leap-micro/6.0/appliances/&quot;&gt;download.opensuse.org&lt;/a&gt; 上找到。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于-leap-micro&quot;&gt;关于 Leap Micro&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 6.0 是对 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SLE Micro 6.0&lt;/a&gt; 的重新命名，该系统是 SUSE 推出的一款超可靠的容器和虚拟机主机。这是第一个基于新代码库 “SUSE Linux Framework One”（以前称为 ALP）公开发布的产品。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 6.X 适用于 x86_64 和 aarch64，每 6 个月发布一次，并支持至下一个版本发布。也就是说，一旦 Leap Micro 6.2 发布，Leap Micro 6.0 就会结束生命周期（EOL）。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 6.X 特意排除了与 &lt;a href=&quot;https://elemental.docs.rancher.com/&quot;&gt;Rancher 和 Elemental&lt;/a&gt; 相关的所有内容，因为 Rancher 部署中的 SLE Micro 无需订阅即可免费使用。&lt;/p&gt;
+
+&lt;h2 id=&quot;不再需要传统的安装程序&quot;&gt;不再需要传统的安装程序&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 6.X 是通过&lt;a href=&quot;https://www.youtube.com/watch?v=j8kWT7HSjbw&quot;&gt;自安装镜像&lt;/a&gt;（self-install image）部署的，它会将预配置镜像写入磁盘并扩大根分区。用户可以使用 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/html/Micro-deployment-raw-images/index.html#deployment-preparing-configuration-device&quot;&gt;combustion、ignition&lt;/a&gt; 或默认的 jeos-firstboot 向导进行系统初始设置。&lt;/p&gt;
+
+&lt;p&gt;不要因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Leap-Micro-6.0-*.iso&lt;/code&gt; 现在无法下载而认为它不可安装。我们将该镜像称为 “软件包镜像”，它基本上是 DVD 上的离线存储库。&lt;/p&gt;
+
+&lt;h2 id=&quot;新的-fdevmware-和云镜像&quot;&gt;新的 FDE、VMWare 和云镜像&lt;/h2&gt;
+
+&lt;p&gt;除了自安装镜像外，Micro 6.0 还带有 qcow、全盘加密和实时镜像。所有镜像均可在 download.opensuse.org 上找到。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 6.X 还首次实现了云启动（cloud-init），因此在发布后不久，我们还将在 GCP、Azure 和 AWS 上提供&lt;a href=&quot;https://build.opensuse.org/project/show/Cloud:Images:LeapMicro_6.0&quot;&gt;云镜像&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;产品构建的变化&quot;&gt;产品构建的变化&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 6.X 正在使用新的&lt;a href=&quot;https://build.opensuse.org/package/show/openSUSE:Tools/product-composer&quot;&gt;产品生成器&lt;/a&gt;而不是旧的产品生成器。这样我们就能从 SLE Micro 6.0 新设计的维护工作流程中获取更新信息，这也是 openSUSE 维护团队的首选。&lt;/p&gt;
+
+&lt;h2 id=&quot;存储库和维护工作流程的变更&quot;&gt;存储库和维护工作流程的变更&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 5.X 用户可通过名为 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro5-repoindex.xml#L26&quot;&gt;repo-sle-update&lt;/a&gt; 的存储库接收到对应版本的 SLE Micro 的所有更新。在 Leap Micro 6.X 中，该存储库已不复存在。&lt;/p&gt;
+
+&lt;p&gt;相反，&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro6-repoindex.xml#L8&quot;&gt;repo-main&lt;/a&gt; 存储库将包含 SUSE Linux Micro 相关版本迄今为止发布的所有更新。&lt;/p&gt;
+
+&lt;p&gt;请注意，存储库路径也略有改变，我们将通过下载服务器的兼容性符号链接，在用户运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup -releaser 6.0&lt;/code&gt; 时，通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; shell 迁移至新地址。&lt;/p&gt;
+
+&lt;h2 id=&quot;管理存储库定义的新方法&quot;&gt;管理存储库定义的新方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;openSUSE-repos&lt;/a&gt; 对于我们的用户来说并不陌生，但是，openSUSE Leap Micro 6.0 首次预装了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-repos&lt;/code&gt;。openSUSE 存储库使用本地 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Standards_Repository_Index_Service&quot;&gt;RIS&lt;/a&gt; 服务，可以让我们轻松地通过包更新来维护存储库定义（repository definitions）。&lt;/p&gt;
+
+&lt;p&gt;我们建议 5.5/5.4 版本的用户在迁移至新系统前，运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper in openSUSE-repos&lt;/code&gt; 以确保获得最新的&lt;a href=&quot;https://download.opensuse.org/distribution/leap-micro/6.0/product/repo/&quot;&gt;存储库路径&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;文档&quot;&gt;文档&lt;/h2&gt;
+
+&lt;p&gt;请参阅 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/&quot;&gt;SLE Micro 6.0 文档&lt;/a&gt;，包括发行说明。&lt;/p&gt;
+
+&lt;h2 id=&quot;报告问题&quot;&gt;报告问题&lt;/h2&gt;
+
+&lt;p&gt;请参阅我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Regular_release_products&quot;&gt;提交错误报告页面&lt;/a&gt;中的 Leap Micro 部分。&lt;/p&gt;
+
+&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
+
+&lt;p&gt;缺少维护设置是结束 Alpha 阶段的长期障碍，要不然发行版本身是稳定且功能齐全的。现在我们已经有维护设置，我们需要解决一些剩余的基础设施问题，用户可以期待在接下来的几天内发布。我们希望最好是在下周 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/&quot;&gt;oSC2024&lt;/a&gt; 之前发布新版本。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/19/os-leap-micro-reaches-beta/&quot;&gt;Leap Micro 6.0 reaches Beta&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/12/nvidia-key.html</guid>
       <title>NVIDIA 存储库的新签名密钥</title>
       <pubDate>Wed, 12 Jun 2024 19:40:00 +0000</pubDate>
@@ -575,41 +640,6 @@ Xks0dFlInjDFyMgAwsOaVDTWwjBfAaklUysV+CxhhEvSnuGx9h8Mi88K6g8heA==
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/22/openSUSE-Asia-2024-CFL/&quot;&gt;openSUSE Asia Summit 2024 Logo Competition Announcement&lt;/a&gt;，作者：openSUSE.Asia 峰会日本团队&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/hugging-face.html</guid>
-      <title>openSUSE 项目被 Hugging Face 列为组织</title>
-      <pubDate>Thu, 23 May 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/hugging-face.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目在 Hugging Face 上有一个官方空间，Hugging Face 是一个提供多种开源人工智能模型、工具和资源的流行平台。 新的命名空间位于 huggingface.co/openSUSE。 Hugging Face 以帮助开发者和研究人员处理高级 AI 应用程序（包括自然语言处理和计算机视觉）而闻名。 拥有 openSUSE 命名空间为社区驱动的开发提供了平台，以创建、共享和改进 AI 模型和数据集。 我们已经添加了一个数据集。第一个数据集是 openSUSE Cavil，它是一个用于许可证合规性、识别和法律审查的工具。通过利用 Hugging Face 平台上丰富的 AI 模型和数据集，openSUSE Cavil 可以提供更高级和更准确的许可证问题和合规性检测。 若要在 Hugging Face 上参与 openSUSE 项目，你可以注册一个账户，注册过程简单，只需基本信息。 注册后，用户可以浏览 openSUSE 并查看社区创建和共享的 AI 模型和数据集集合。 我们鼓励贡献者分享他们的 AI 模型和数据集。Hugging Face 提供了工具和教程，以帮助上传和管理这些贡献。社区成员可以共同改进现有模型或开发新模型。 高质量的文档和教程对于项目的成功至关重要。社区成员可以通过编写指南、创建视频教程或翻译现有资源来扩大其可访问性。 用户可以获得前沿的 AI 模型和一个协作环境，在这里他们可以学习和拓展自己的技能。对项目的贡献支持了开源生态系统中 AI...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;在 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;Hugging Face&lt;/a&gt; 上有一个官方空间，Hugging Face 是一个提供多种开源人工智能模型、工具和资源的流行平台。&lt;/p&gt;
-
-&lt;p&gt;新的命名空间位于 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;huggingface.co/openSUSE&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Hugging Face 以帮助开发者和研究人员处理高级 AI 应用程序（包括自然语言处理和计算机视觉）而闻名。&lt;/p&gt;
-
-&lt;p&gt;拥有 openSUSE 命名空间为社区驱动的开发提供了平台，以创建、共享和改进 AI 模型和数据集。&lt;/p&gt;
-
-&lt;p&gt;我们已经添加了一个数据集。第一个数据集是 &lt;a href=&quot;https://github.com/openSUSE/cavil&quot;&gt;openSUSE Cavil&lt;/a&gt;，它是一个用于许可证合规性、识别和法律审查的工具。通过利用 Hugging Face 平台上丰富的 AI 模型和数据集，openSUSE Cavil 可以提供更高级和更准确的许可证问题和合规性检测。&lt;/p&gt;
-
-&lt;p&gt;若要在 Hugging Face 上参与 openSUSE 项目，你可以注册一个账户，注册过程简单，只需基本信息。&lt;/p&gt;
-
-&lt;p&gt;注册后，用户可以浏览 openSUSE 并查看社区创建和共享的 AI 模型和数据集集合。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励贡献者分享他们的 AI 模型和数据集。Hugging Face 提供了工具和教程，以帮助上传和管理这些贡献。社区成员可以共同改进现有模型或开发新模型。&lt;/p&gt;
-
-&lt;p&gt;高质量的文档和教程对于项目的成功至关重要。社区成员可以通过编写指南、创建视频教程或翻译现有资源来扩大其可访问性。&lt;/p&gt;
-
-&lt;p&gt;用户可以获得前沿的 AI 模型和一个协作环境，在这里他们可以学习和拓展自己的技能。对项目的贡献支持了开源生态系统中 AI 研究和开发的进步。&lt;/p&gt;
-
-&lt;p&gt;欲了解更多信息并参与，请访问 &lt;a href=&quot;https://huggingface.co/openSUSE&quot;&gt;huggingface.co/openSUSE&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/24/osp-listed-as-org-on-ai-hugging-faces/&quot;&gt;openSUSE Project Listed as Organization on Hugging Face&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
