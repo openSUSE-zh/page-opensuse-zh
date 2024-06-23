@@ -7,6 +7,73 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-micro-6.html</guid>
+      <title>Leap Micro 6.0 候选发布版本现已可用</title>
+      <pubDate>Sat, 22 Jun 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-micro-6.html</link>
+      <author>Poplar at twilight</author>
+      <description>这是周末的小礼物。openSUSE Leap Micro 6.0 RC 现已推出！你可以在 get.opensuse.org 上找到镜像。 RC 版与 Beta 版的主要区别是从 5.5 开始的有效升级路径以及对商业产品的稍微平滑的升级支持。让我们测试一下。 升级说明 我个人建议进行全新安装，尤其是在系统上的主要版本之间；新系统可以在 2 分钟内通过自我安装重新部署。同时，在线升级需要更长的时间。另一个值得考虑的方面是，我们没有为在线迁移开发与 Leap 15.X 相同的迁移测试套件。 测试升级的最简单方法是在虚拟机中进行测试。你需要从 get.opensuse.org 下载 Leap micro 5.5 镜像文件，然后使用 transactional-update 应用全部的更新。 我建议通过 SSH 或控制台而不是 cockpit 升级到 6.0，因为服务最终可能会停止响应。SDB:System_upgrade_too_LeapMicro_6.0 维基页面提供了升级说明和已知问题。 请确保在迁移前查阅已知问题。 文档 文档以及发行说明请参阅 SLE Micro 6.0 文档。 报告问题 请参阅提交错误报告页面中有关 Leap Micro 的部分。 下一步...</description>
+      <content:encoded>&lt;p&gt;这是周末的小礼物。openSUSE Leap Micro 6.0 RC 现已推出！你可以在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到镜像。&lt;/p&gt;
+
+&lt;p&gt;RC 版与 &lt;a href=&quot;https://news.opensuse.org/2024/06/19/os-leap-micro-reaches-beta/&quot;&gt;Beta&lt;/a&gt; 版的主要区别是从 5.5 开始的有效升级路径以及对商业产品的稍微平滑的升级支持。让我们测试一下。&lt;/p&gt;
+
+&lt;h2 id=&quot;升级说明&quot;&gt;升级说明&lt;/h2&gt;
+
+&lt;p&gt;我个人建议进行全新安装，尤其是在系统上的主要版本之间；新系统可以在 2 分钟内通过自我安装重新部署。同时，在线升级需要更长的时间。另一个值得考虑的方面是，我们没有为在线迁移开发与 Leap 15.X 相同的迁移测试套件。&lt;/p&gt;
+
+&lt;p&gt;测试升级的最简单方法是在虚拟机中进行测试。你需要从 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载 Leap micro 5.5 镜像文件，然后使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 应用全部的更新。&lt;/p&gt;
+
+&lt;p&gt;我建议通过 SSH 或控制台而不是 cockpit 升级到 6.0，因为服务最终可能会停止响应。&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0&quot;&gt;SDB:System_upgrade_too_LeapMicro_6.0&lt;/a&gt; 维基页面提供了升级说明和已知问题。&lt;/p&gt;
+
+&lt;p&gt;请确保在迁移前查阅&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0#Known_issues_with_migration&quot;&gt;已知问题&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;文档&quot;&gt;文档&lt;/h2&gt;
+
+&lt;p&gt;文档以及发行说明请参阅 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/&quot;&gt;SLE Micro 6.0 文档&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;报告问题&quot;&gt;报告问题&lt;/h2&gt;
+
+&lt;p&gt;请参阅&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Regular_release_products&quot;&gt;提交错误报告页面&lt;/a&gt;中有关 Leap Micro 的部分。&lt;/p&gt;
+
+&lt;h2 id=&quot;下一步&quot;&gt;下一步&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 6.0 有望在下周的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/&quot;&gt;oSC2024&lt;/a&gt; 之前正式发布。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/21/os-leap-micro-release-candidate/&quot;&gt;Leap Micro 6.0 Release Candidate is now available&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-15.6-respin.html</guid>
+      <title>Leap 15.6 respin 镜像现已发布</title>
+      <pubDate>Sat, 22 Jun 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-15.6-respin.html</link>
+      <author>Poplar at twilight</author>
+      <description>Leap 15.6 安装介质已更新，解决了 ppc64le 和 s390x 旧的安全启动签名密钥的问题。
+
+Leap 15.6 Build 710.3 的 respin 镜像已可在 get.opensuse.org 下载。因此，你现在可以在更加奇特的架构上开启安全启动并安装系统了。
+
+祝你玩得愉快！
+
+
+
+原文：Leap 15.6 image respin，作者：Lubos Kocman
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2024/06/12/leap-unveils-choices-for-users/&quot;&gt;Leap 15.6&lt;/a&gt; 安装介质已更新，解决了 &lt;a href=&quot;https://bugzilla.suse.com/show_bug.cgi?id=1226272#c7&quot;&gt;ppc64le&lt;/a&gt; 和 &lt;a href=&quot;https://bugzilla.suse.com/show_bug.cgi?id=1226215&quot;&gt;s390x&lt;/a&gt; 旧的安全启动签名密钥的问题。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.6 &lt;a href=&quot;https://openqa.opensuse.org/tests/overview?distri=opensuse&amp;amp;version=15.6&amp;amp;build=710.3&amp;amp;groupid=50&quot;&gt;Build 710.3&lt;/a&gt; 的 respin 镜像已可在 &lt;a href=&quot;https://get.opensuse.org/leap/15.6/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载。因此，你现在可以在更加奇特的架构上开启安全启动并安装系统了。&lt;/p&gt;
+
+&lt;p&gt;祝你玩得愉快！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/21/leap-15-6-image-respin/&quot;&gt;Leap 15.6 image respin&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/19/leap-micro.html</guid>
       <title>Leap Micro 6.0 进入 Beta 阶段</title>
       <pubDate>Wed, 19 Jun 2024 19:40:00 +0000</pubDate>
@@ -537,109 +604,6 @@ Xks0dFlInjDFyMgAwsOaVDTWwjBfAaklUysV+CxhhEvSnuGx9h8Mi88K6g8heA==
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/28/aeon-desktop-brings-new-features-in-rctwo-release/&quot;&gt;Aeon Desktop Brings New Features in RC2 Release&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/youtube.html</guid>
-      <title>研讨会系列推出新剧集</title>
-      <pubDate>Thu, 23 May 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/youtube.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目今天将在其项目的 YouTube 和 X 频道继续举办贡献研讨会（Contribution Workshop）系列的新一期节目，时间为 19:15 UTC。 本期新节目将带领观众深入了解测试和破坏构建的世界。此次会议重点是自动化重复性任务，并将演示如何利用工具和技术来自动化构建测试。 第八期：测试和破坏构建 - 将重复性任务交给计算机，而您可以尽情探索乐趣 日期：5 月 23 日 时间：19:15 UTC 地点：openSUSE 官方 YouTube 和 X 频道 在即将到来的第八期节目中，openQA 工程师 Santiago Zarate 将进行现场直播，解释开源贡献者如何在减少手动工作量的同时，保持高标准的测试质量。 这些研讨会为学习提供了一个平台，供贡献者向开发人员、维护人员和 openSUSE 社区的经验丰富的成员直接提问和交流。 贡献研讨会系列覆盖了各种主题，包括包维护、基础设施或理解整体项目的景观。以下这些节目旨在为开源软件开发和贡献提供概述和实用建议。 以下几期节目已经发布： 第 1 期：openSUSE 贡献研讨会：以版本提升为例的 OBS osc 基本使用 第 2 期：openSUSE 贡献研讨会：从零到 rpm 打包 GNU Hello...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目今天将在其项目的 &lt;a href=&quot;https://www.youtube.com/opensusetv&quot;&gt;YouTube&lt;/a&gt; 和 &lt;a href=&quot;https://x.com/opensuse&quot;&gt;X&lt;/a&gt; 频道继续举办贡献研讨会（Contribution Workshop）系列的新一期节目，时间为 19:15 UTC。&lt;/p&gt;
-
-&lt;p&gt;本期新节目将带领观众深入了解测试和破坏构建的世界。此次会议重点是自动化重复性任务，并将演示如何利用工具和技术来自动化构建测试。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;第八期：测试和破坏构建 - 将重复性任务交给计算机，而您可以尽情探索乐趣&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;日期：5 月 23 日&lt;/li&gt;
-  &lt;li&gt;时间：19:15 UTC&lt;/li&gt;
-  &lt;li&gt;地点：openSUSE 官方 &lt;a href=&quot;https://www.youtube.com/opensusetv&quot;&gt;YouTube&lt;/a&gt; 和 &lt;a href=&quot;https://x.com/opensuse&quot;&gt;X&lt;/a&gt; 频道&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;在即将到来的第八期节目中，&lt;a href=&quot;http://open.qa/&quot;&gt;openQA&lt;/a&gt; 工程师 Santiago Zarate 将进行现场直播，解释开源贡献者如何在减少手动工作量的同时，保持高标准的测试质量。&lt;/p&gt;
-
-&lt;p&gt;这些研讨会为学习提供了一个平台，供贡献者向开发人员、维护人员和 openSUSE 社区的经验丰富的成员直接提问和交流。&lt;/p&gt;
-
-&lt;p&gt;贡献研讨会系列覆盖了各种主题，包括包维护、基础设施或理解整体项目的景观。以下这些节目旨在为开源软件开发和贡献提供概述和实用建议。&lt;/p&gt;
-
-&lt;p&gt;以下几期节目已经发布：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8DVEZR_YodA&quot;&gt;第 1 期：openSUSE 贡献研讨会：以版本提升为例的 OBS osc 基本使用&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;第 2 期：openSUSE 贡献研讨会：从零到 rpm 打包 GNU Hello&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/rfP-IXwKRAE?si=TwVTgvaPRaoYjWtz&quot;&gt;第 3 期：openSUSE 贡献研讨会：openSUSE Leap 15.6 Beta Bug Day&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/J__6pqGbR3o?si=WJpWsMlpWJ6mzZTk&quot;&gt;第 4 期：openSUSE 贡献研讨会：在开放构建服务中打包 Rust&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/C-zLzy3IvvE?si=3oJ1YueK_IFmde1B&quot;&gt;第 5 期：向 openSUSE Leap 做贡献 - 项目结构、功能跟踪、SLES 软件包的包更新&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/aR3kPugKcGc?si=9DdInq5yHW_RY5dK&quot;&gt;第 6 期：托管您自己的 openSUSE 镜像&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/Qg7r_swbkCY?si=QMAXFWUyKYIqH_VF&quot;&gt;第 7 期：openSUSE 贡献研讨会：在几分钟内定制 Leap Micro 镜像&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/23/new-episode-launches-in-workshop-series/&quot;&gt;New Episode Launches in Workshop Series&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/logo.html</guid>
-      <title>openSUSE.Asia 峰会 2024 徽标大赛公告</title>
-      <pubDate>Thu, 23 May 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/05/23/logo.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE.Asia 峰会 2024 徽标设计大赛 我们很高兴宣布启动 openSUSE.Asia 峰会 2024 的徽标设计大赛！徽标在代表活动的精神和身份方面起着至关重要的作用。峰会每年不同的独特徽标都完美地反映了举办它们的多元化社区。我们邀请您参加今年的比赛，并为 2024 年峰会设计一个令人瞩目的徽标。 openSUSE.Asia 峰会 2024 将在日本东京举行，更多详情即将公布。比赛现已开放，截止日期为 2024 年 7 月 21 日。为感谢获胜者，组织者将向最佳徽标的设计者颁发特别的 “Geeko Mystery Box”。 截止日期：2024 年 7 月 21 日 公布获胜者：2024 年 7 月 29 日 比赛规则如下： 许可协议：徽标应根据 CC-BY-SA 4.0 许可协议进行授权，并且必须允许所有人使用该徽标而无需署名，如果它被选为 openSUSE.Asia 峰会 2024 的徽标。需要注意的是，署名将在峰会网站上显示。 原创性：设计必须是原创的，不应包含任何第三方材料。 格式：提交时需提供单色和彩色格式。 文件格式：提交的文件必须为 SVG 格式。...</description>
-      <content:encoded>&lt;h2 id=&quot;opensuseasia-峰会-2024-徽标设计大赛&quot;&gt;openSUSE.Asia 峰会 2024 徽标设计大赛&lt;/h2&gt;
-
-&lt;p&gt;我们很高兴宣布启动 openSUSE.Asia 峰会 2024 的徽标设计大赛！徽标在代表活动的精神和身份方面起着至关重要的作用。峰会每年不同的独特徽标都完美地反映了举办它们的多元化社区。我们邀请您参加今年的比赛，并为 2024 年峰会设计一个令人瞩目的徽标。&lt;/p&gt;
-
-&lt;p&gt;openSUSE.Asia 峰会 2024 将在日本东京举行，更多详情即将公布。比赛现已开放，截止日期为 2024 年 7 月 21 日。为感谢获胜者，组织者将向最佳徽标的设计者颁发特别的 “Geeko Mystery Box”。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;截止日期&lt;/strong&gt;：2024 年 7 月 21 日&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;公布获胜者&lt;/strong&gt;：2024 年 7 月 29 日&lt;/p&gt;
-
-&lt;p&gt;比赛规则如下：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;许可协议&lt;/strong&gt;：徽标应根据 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC-BY-SA 4.0&lt;/a&gt; 许可协议进行授权，并且必须允许所有人使用该徽标而无需署名，如果它被选为 openSUSE.Asia 峰会 2024 的徽标。需要注意的是，署名将在峰会网站上显示。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;原创性&lt;/strong&gt;：设计必须是原创的，不应包含任何第三方材料。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;格式&lt;/strong&gt;：提交时需提供单色和彩色格式。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;文件格式&lt;/strong&gt;：提交的文件必须为 SVG 格式。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;反映社区&lt;/strong&gt;：设计应反映 openSUSE 的亚洲社区。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;应避免的事&lt;/strong&gt;：徽标不应包含：
-    &lt;ul&gt;
-      &lt;li&gt;任何品牌名称或商标。&lt;/li&gt;
-      &lt;li&gt;可能被认为是不适当、冒犯、仇恨、折磨、诽谤或中伤的插图。&lt;/li&gt;
-      &lt;li&gt;露骨或挑衅性的图片。&lt;/li&gt;
-      &lt;li&gt;暴力或武器的图像。&lt;/li&gt;
-      &lt;li&gt;酒精、烟草或毒品的图像。&lt;/li&gt;
-      &lt;li&gt;基于种族、性别、宗教、国籍、残疾、性取向或年龄的歧视。&lt;/li&gt;
-      &lt;li&gt;对群体或个人的偏见、种族主义、仇恨或伤害。&lt;/li&gt;
-      &lt;li&gt;宗教、政治或民族主义的图像。
-     - &lt;strong&gt;指南&lt;/strong&gt;：徽标应遵守 &lt;a href=&quot;https://en.opensuse.org/File:OpenSUSE_Trademark_Guidelines.pdf&quot;&gt;openSUSE 项目商标指南&lt;/a&gt;。
-     - &lt;strong&gt;品牌&lt;/strong&gt;：&lt;a href=&quot;https://opensuse.github.io/branding-guidelines/&quot;&gt;openSUSE 品牌指南&lt;/a&gt;在设计徽标时会有所帮助（可选）。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;请将您的设计提交到 &lt;a href=&quot;mailto:opensuseasia-summit@googlegroups.com&quot;&gt;opensuseasia-summit@googlegroups.com&lt;/a&gt;，并提供以下详细信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;主题行&lt;/strong&gt;：openSUSE.Asia Summit 2024 Logo Design - [您的名字]&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;联系信息&lt;/strong&gt;：您的名字和电子邮件地址。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;设计理念&lt;/strong&gt;：一个解释您设计理念的文档（TXT 或 PDF 格式）。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;矢量文件&lt;/strong&gt;：仅提交 SVG 格式的设计文件。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;位图文件&lt;/strong&gt;：作为附件提供设计的位图图像，最小尺寸为 256x256 像素，PNG 格式。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;文件大小&lt;/strong&gt;：确保文件大小小于 512 KB。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;openSUSE.Asia 峰会委员会将审核所有提交的作品以确保其符合要求。最终决定将由委员会做出，不一定是得分最高的设计。我们建议使用 &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;，这是一款功能强大、免费的开源矢量图形工具进行设计工作。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/05/22/openSUSE-Asia-2024-CFL/&quot;&gt;openSUSE Asia Summit 2024 Logo Competition Announcement&lt;/a&gt;，作者：openSUSE.Asia 峰会日本团队&lt;/p&gt;
 </content:encoded>
     </item>
 
