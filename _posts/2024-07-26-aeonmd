@@ -1,0 +1,46 @@
+---
+author:  Poplar at twilight
+date: 2024-07-26 03:40:00 +0800
+layout: post
+license: CC-BY-SA-4.0
+title: Aeon 桌面 Pre-RC3 镜像现已发布
+image: /assets/posts/2024-07/sub.png
+categories:
+- 更新通告
+tags:
+- Tumbleweed
+- 翻译作品
+- 官方新闻
+---
+
+Aeon 桌面的实验性 “Pre-RC3” 映像已发布，我们鼓励测试者在其成为正式的候选发布版 3 (RC3) 之前试用最终原型。新镜像可从 openSUSE 开发库中下载。
+
+该原型已提交给 [openSUSE Factory]，其中引入了一些重大变更和改进。值得注意的是，`tik` 安装程序中的 `dd` 后端已被新的 `systemd-repart` 后端所取代。这一改动允许安装具有[全盘加密]功能的 Aeon，从而增强操作系统的安全功能。
+
+[openSUSE Factory]: https://en.opensuse.org/Portal:Factory
+[全盘加密]: https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption
+
+使用 Aeon RC2 及更旧版本的用户需要重新安装才能使用 RC3 的新功能。据新的 [Aeon Desktop Reddit 子论坛]上的一篇帖子称，由于新加密功能所需的分区布局发生了根本性变化，在不危及数据完整性的情况下，从 RC2 原地升级是不可行的。用户可以利用 Aeon 的[重装功能]，只要使用足够大的 U 盘，就可以方便地备份和恢复用户数据。
+
+[Aeon Desktop Reddit 子论坛]: https://www.reddit.com/r/AeonDesktop/
+[重装功能]: https://en.opensuse.org/Portal:Aeon/InstallGuide#Backup_Existing_Users
+
+安装原型镜像的用户可能会遇到一些来自 OBS devel 项目的软件包。可以通过运行 `transactional-update --interactive dup` 并选择用官方软件包替换 `devel:microos` 软件包的解决方案来移除这些软件包。
+
+我们鼓励测试人员在 [Aeon Desktop 错误报告页面]上提供反馈并报告测试阶段遇到的任何问题。
+
+[Aeon Desktop 错误报告页面]: https://bugzilla.opensuse.org/enter_bug.cgi?product=openSUSE+Aeon&format=guided
+
+## 下一步行动
+
+如果原型被 Factory 接受并成为RC3，Aeon 的开发将进入正式发布前的最后阶段。RC3 将作为为 Aeon 编写 openQA 测试的基础，这对于确保桌面的稳定性和功能至关重要。
+
+我们有可能推出 RC4，其目标是通过在安装程序映像中嵌入完整的 Aeon 安装来简化安装程序流程，从而可能将下载大小减少 50%。如果这种方法在短期内不可行，则可能会在发布后重新考虑。
+
+[全盘加密]有两种设置模式：Default 模式或 Fallback 模式。有关更多信息，请参阅 [Aeon Desktop 介绍全面全盘加密的文章]。
+
+[Aeon Desktop 介绍全面全盘加密的文章]: https://news.opensuse.org/2024/07/12/aeon-desktop-intros-fde/
+
+----
+
+原文：[Pre-RC3 Image Released for Aeon Desktop](https://news.opensuse.org/2024/07/25/pre-rc-image-released/)，作者：Douglas DeMaio
