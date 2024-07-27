@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/25/aeon.html</guid>
+      <title>Aeon 桌面 Pre-RC3 镜像现已发布</title>
+      <pubDate>Thu, 25 Jul 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/25/aeon.html</link>
+      <author>Poplar at twilight</author>
+      <description>Aeon 桌面的实验性 “Pre-RC3” 映像已发布，我们鼓励测试者在其成为正式的候选发布版 3 (RC3) 之前试用最终原型。新镜像可从 openSUSE 开发库中下载。 该原型已提交给 openSUSE Factory，其中引入了一些重大变更和改进。值得注意的是，tik 安装程序中的 dd 后端已被新的 systemd-repart 后端所取代。这一改动允许安装具有全盘加密功能的 Aeon，从而增强操作系统的安全功能。 使用 Aeon RC2 及更旧版本的用户需要重新安装才能使用 RC3 的新功能。据新的 Aeon Desktop Reddit 子论坛上的一篇帖子称，由于新加密功能所需的分区布局发生了根本性变化，在不危及数据完整性的情况下，从 RC2 原地升级是不可行的。用户可以利用 Aeon 的重装功能，只要使用足够大的 U 盘，就可以方便地备份和恢复用户数据。 安装原型镜像的用户可能会遇到一些来自 OBS devel 项目的软件包。可以通过运行 transactional-update --interactive dup 并选择用官方软件包替换 devel:microos 软件包的解决方案来移除这些软件包。 我们鼓励测试人员在 Aeon Desktop 错误报告页面上提供反馈并报告测试阶段遇到的任何问题。 下一步行动 如果原型被...</description>
+      <content:encoded>&lt;p&gt;Aeon 桌面的实验性 “Pre-RC3” 映像已发布，我们鼓励测试者在其成为正式的候选发布版 3 (RC3) 之前试用最终原型。新镜像可从 openSUSE 开发库中下载。&lt;/p&gt;
+
+&lt;p&gt;该原型已提交给 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt;，其中引入了一些重大变更和改进。值得注意的是，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tik&lt;/code&gt; 安装程序中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dd&lt;/code&gt; 后端已被新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-repart&lt;/code&gt; 后端所取代。这一改动允许安装具有&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;全盘加密&lt;/a&gt;功能的 Aeon，从而增强操作系统的安全功能。&lt;/p&gt;
+
+&lt;p&gt;使用 Aeon RC2 及更旧版本的用户需要重新安装才能使用 RC3 的新功能。据新的 &lt;a href=&quot;https://www.reddit.com/r/AeonDesktop/&quot;&gt;Aeon Desktop Reddit 子论坛&lt;/a&gt;上的一篇帖子称，由于新加密功能所需的分区布局发生了根本性变化，在不危及数据完整性的情况下，从 RC2 原地升级是不可行的。用户可以利用 Aeon 的&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon/InstallGuide#Backup_Existing_Users&quot;&gt;重装功能&lt;/a&gt;，只要使用足够大的 U 盘，就可以方便地备份和恢复用户数据。&lt;/p&gt;
+
+&lt;p&gt;安装原型镜像的用户可能会遇到一些来自 OBS devel 项目的软件包。可以通过运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update --interactive dup&lt;/code&gt; 并选择用官方软件包替换 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;devel:microos&lt;/code&gt; 软件包的解决方案来移除这些软件包。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励测试人员在 &lt;a href=&quot;https://bugzilla.opensuse.org/enter_bug.cgi?product=openSUSE+Aeon&amp;amp;format=guided&quot;&gt;Aeon Desktop 错误报告页面&lt;/a&gt;上提供反馈并报告测试阶段遇到的任何问题。&lt;/p&gt;
+
+&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
+
+&lt;p&gt;如果原型被 Factory 接受并成为RC3，Aeon 的开发将进入正式发布前的最后阶段。RC3 将作为为 Aeon 编写 openQA 测试的基础，这对于确保桌面的稳定性和功能至关重要。&lt;/p&gt;
+
+&lt;p&gt;我们有可能推出 RC4，其目标是通过在安装程序映像中嵌入完整的 Aeon 安装来简化安装程序流程，从而可能将下载大小减少 50%。如果这种方法在短期内不可行，则可能会在发布后重新考虑。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;全盘加密&lt;/a&gt;有两种设置模式：Default 模式或 Fallback 模式。有关更多信息，请参阅 &lt;a href=&quot;https://news.opensuse.org/2024/07/12/aeon-desktop-intros-fde/&quot;&gt;Aeon Desktop 介绍全面全盘加密的文章&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/25/pre-rc-image-released/&quot;&gt;Pre-RC3 Image Released for Aeon Desktop&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/07/17/asia-summit.html</guid>
       <title>openSUSE.Asia 峰会旅行计划和征集演讲者活动截止时间</title>
       <pubDate>Wed, 17 Jul 2024 23:30:00 +0000</pubDate>
@@ -541,71 +572,6 @@ Leap 15.6 Build 710.3 的 respin 镜像已可在 get.opensuse.org 下载。因�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/21/leap-15-6-image-respin/&quot;&gt;Leap 15.6 image respin&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/19/leap-micro.html</guid>
-      <title>Leap Micro 6.0 进入 Beta 阶段</title>
-      <pubDate>Wed, 19 Jun 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/19/leap-micro.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Leap Micro 6.0 Beta 现已发布！我们预计，随着基础设施准备工作的推进，它将很快过渡到 RC（候选发布）和 GA（一般可用）版本。Leap Micro 6.0 Beta 的 ISO 文件可在 get.opensuse.org 或直接在 download.opensuse.org 上找到。 关于 Leap Micro Leap Micro 6.0 是对 SLE Micro 6.0 的重新命名，该系统是 SUSE 推出的一款超可靠的容器和虚拟机主机。这是第一个基于新代码库 “SUSE Linux Framework One”（以前称为 ALP）公开发布的产品。 Leap Micro 6.X 适用于 x86_64 和 aarch64，每 6 个月发布一次，并支持至下一个版本发布。也就是说，一旦 Leap Micro 6.2 发布，Leap Micro...</description>
-      <content:encoded>&lt;p&gt;openSUSE Leap Micro 6.0 Beta 现已发布！我们预计，随着基础设施准备工作的推进，它将很快过渡到 RC（候选发布）和 GA（一般可用）版本。Leap Micro 6.0 Beta 的 ISO 文件可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 或直接在 &lt;a href=&quot;https://download.opensuse.org/distribution/leap-micro/6.0/appliances/&quot;&gt;download.opensuse.org&lt;/a&gt; 上找到。&lt;/p&gt;
-
-&lt;h2 id=&quot;关于-leap-micro&quot;&gt;关于 Leap Micro&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 6.0 是对 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SLE Micro 6.0&lt;/a&gt; 的重新命名，该系统是 SUSE 推出的一款超可靠的容器和虚拟机主机。这是第一个基于新代码库 “SUSE Linux Framework One”（以前称为 ALP）公开发布的产品。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 6.X 适用于 x86_64 和 aarch64，每 6 个月发布一次，并支持至下一个版本发布。也就是说，一旦 Leap Micro 6.2 发布，Leap Micro 6.0 就会结束生命周期（EOL）。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 6.X 特意排除了与 &lt;a href=&quot;https://elemental.docs.rancher.com/&quot;&gt;Rancher 和 Elemental&lt;/a&gt; 相关的所有内容，因为 Rancher 部署中的 SLE Micro 无需订阅即可免费使用。&lt;/p&gt;
-
-&lt;h2 id=&quot;不再需要传统的安装程序&quot;&gt;不再需要传统的安装程序&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 6.X 是通过&lt;a href=&quot;https://www.youtube.com/watch?v=j8kWT7HSjbw&quot;&gt;自安装镜像&lt;/a&gt;（self-install image）部署的，它会将预配置镜像写入磁盘并扩大根分区。用户可以使用 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/html/Micro-deployment-raw-images/index.html#deployment-preparing-configuration-device&quot;&gt;combustion、ignition&lt;/a&gt; 或默认的 jeos-firstboot 向导进行系统初始设置。&lt;/p&gt;
-
-&lt;p&gt;不要因为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-Leap-Micro-6.0-*.iso&lt;/code&gt; 现在无法下载而认为它不可安装。我们将该镜像称为 “软件包镜像”，它基本上是 DVD 上的离线存储库。&lt;/p&gt;
-
-&lt;h2 id=&quot;新的-fdevmware-和云镜像&quot;&gt;新的 FDE、VMWare 和云镜像&lt;/h2&gt;
-
-&lt;p&gt;除了自安装镜像外，Micro 6.0 还带有 qcow、全盘加密和实时镜像。所有镜像均可在 download.opensuse.org 上找到。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 6.X 还首次实现了云启动（cloud-init），因此在发布后不久，我们还将在 GCP、Azure 和 AWS 上提供&lt;a href=&quot;https://build.opensuse.org/project/show/Cloud:Images:LeapMicro_6.0&quot;&gt;云镜像&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;产品构建的变化&quot;&gt;产品构建的变化&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 6.X 正在使用新的&lt;a href=&quot;https://build.opensuse.org/package/show/openSUSE:Tools/product-composer&quot;&gt;产品生成器&lt;/a&gt;而不是旧的产品生成器。这样我们就能从 SLE Micro 6.0 新设计的维护工作流程中获取更新信息，这也是 openSUSE 维护团队的首选。&lt;/p&gt;
-
-&lt;h2 id=&quot;存储库和维护工作流程的变更&quot;&gt;存储库和维护工作流程的变更&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 5.X 用户可通过名为 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro5-repoindex.xml#L26&quot;&gt;repo-sle-update&lt;/a&gt; 的存储库接收到对应版本的 SLE Micro 的所有更新。在 Leap Micro 6.X 中，该存储库已不复存在。&lt;/p&gt;
-
-&lt;p&gt;相反，&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro6-repoindex.xml#L8&quot;&gt;repo-main&lt;/a&gt; 存储库将包含 SUSE Linux Micro 相关版本迄今为止发布的所有更新。&lt;/p&gt;
-
-&lt;p&gt;请注意，存储库路径也略有改变，我们将通过下载服务器的兼容性符号链接，在用户运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup -releaser 6.0&lt;/code&gt; 时，通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; shell 迁移至新地址。&lt;/p&gt;
-
-&lt;h2 id=&quot;管理存储库定义的新方法&quot;&gt;管理存储库定义的新方法&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;openSUSE-repos&lt;/a&gt; 对于我们的用户来说并不陌生，但是，openSUSE Leap Micro 6.0 首次预装了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openSUSE-repos&lt;/code&gt;。openSUSE 存储库使用本地 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Standards_Repository_Index_Service&quot;&gt;RIS&lt;/a&gt; 服务，可以让我们轻松地通过包更新来维护存储库定义（repository definitions）。&lt;/p&gt;
-
-&lt;p&gt;我们建议 5.5/5.4 版本的用户在迁移至新系统前，运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper in openSUSE-repos&lt;/code&gt; 以确保获得最新的&lt;a href=&quot;https://download.opensuse.org/distribution/leap-micro/6.0/product/repo/&quot;&gt;存储库路径&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;文档&quot;&gt;文档&lt;/h2&gt;
-
-&lt;p&gt;请参阅 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/&quot;&gt;SLE Micro 6.0 文档&lt;/a&gt;，包括发行说明。&lt;/p&gt;
-
-&lt;h2 id=&quot;报告问题&quot;&gt;报告问题&lt;/h2&gt;
-
-&lt;p&gt;请参阅我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Regular_release_products&quot;&gt;提交错误报告页面&lt;/a&gt;中的 Leap Micro 部分。&lt;/p&gt;
-
-&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
-
-&lt;p&gt;缺少维护设置是结束 Alpha 阶段的长期障碍，要不然发行版本身是稳定且功能齐全的。现在我们已经有维护设置，我们需要解决一些剩余的基础设施问题，用户可以期待在接下来的几天内发布。我们希望最好是在下周 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/&quot;&gt;oSC2024&lt;/a&gt; 之前发布新版本。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/19/os-leap-micro-reaches-beta/&quot;&gt;Leap Micro 6.0 reaches Beta&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
