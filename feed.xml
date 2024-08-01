@@ -7,6 +7,195 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/31/monthly-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 七月</title>
+      <pubDate>Wed, 31 Jul 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/31/monthly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>欢迎阅读 openSUSE 的每月更新博客（2024 年 7 月）。上个月社区忙于举办柏林社区峰会和 openSUSE 大会。两次活动都富有成果并受到热烈欢迎。尽管日程安排很忙，而且会议上有关项目品牌重塑的讨论也很忙碌，但本月仍然向用户推出了一些快照。 请持续关注我们的动态！ 如果读者希望获得更多有关快照更新的信息，我们鼓励读者订阅 openSUSE Factory 邮件列表。 新功能和增强功能 Linux Kernel 6.9.9：该内核对多个子系统进行了重要修复和增强。主要更新包括： 引入 devm_mutex_init()，用于在多个组件中进行互斥（mutex）初始化； 解决了 Hisilicon debugfs uninit 进程中的问题； 解决了 DRM Lima 驱动程序中的共享 IRQ 处理； 修复 PowerPC 架构，避免在实际模式（real mode interrupts）中断中出现 nmi_enter/nmi_exit； 改进了网络，防止在 net/dql 中调用不必要的 BUG()； 增强了 RTW89 等 WiFi 驱动程序，改进了对 6GHz 信道的处理； 更新并解决了 DRM/AMD 驱动程序的多个问题，包括未初始化变量警告、确保正确的时间戳初始化和内存管理等；...</description>
+      <content:encoded>&lt;p&gt;欢迎阅读 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 的每月更新博客（2024 年 7 月）。上个月社区忙于举办&lt;a href=&quot;https://events.opensuse.org/conferences/CSBerlin&quot;&gt;柏林社区峰会&lt;/a&gt;和 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24&quot;&gt;openSUSE 大会&lt;/a&gt;。两次活动都富有成果并受到热烈欢迎。尽管日程安排很忙，而且会议上有关&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/E3EQOFD5NVWTM4MHLNA5MT5BGWQLUZ5U/&quot;&gt;项目品牌重塑&lt;/a&gt;的讨论也很忙碌，但本月仍然向用户推出了一些快照。&lt;/p&gt;
+
+&lt;p&gt;请持续关注我们的动态！&lt;/p&gt;
+
+&lt;p&gt;如果读者希望获得更多有关快照更新的信息，我们鼓励读者订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.9.9：该内核对多个子系统进行了重要修复和增强。主要更新包括：
+    &lt;ul&gt;
+      &lt;li&gt;引入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;devm_mutex_init()&lt;/code&gt;，用于在多个组件中进行互斥（mutex）初始化；&lt;/li&gt;
+      &lt;li&gt;解决了 &lt;a href=&quot;https://www.hisilicon.com/&quot;&gt;Hisilicon&lt;/a&gt; debugfs uninit 进程中的问题；&lt;/li&gt;
+      &lt;li&gt;解决了 DRM Lima 驱动程序中的共享 IRQ 处理；&lt;/li&gt;
+      &lt;li&gt;修复 PowerPC 架构，避免在实际模式（real mode interrupts）中断中出现 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nmi_enter/nmi_exit&lt;/code&gt;；&lt;/li&gt;
+      &lt;li&gt;改进了网络，防止在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net/dql&lt;/code&gt; 中调用不必要的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BUG()&lt;/code&gt;；&lt;/li&gt;
+      &lt;li&gt;增强了 RTW89 等 WiFi 驱动程序，改进了对 6GHz 信道的处理；&lt;/li&gt;
+      &lt;li&gt;更新并解决了 DRM/AMD 驱动程序的多个问题，包括未初始化变量警告、确保正确的时间戳初始化和内存管理等；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 架构对初始采样周期值进行了修复，并对多个 BPF 自我测试进行了调整，以更好地检测错误；&lt;br /&gt;这些更新共同增强了系统的稳定性、性能和安全性。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.1.3/&quot;&gt;KDE Plasma 6.1.3&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 现在可自动处理运行时的 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; rebase，并正确卸载 EOL 引用，而无需替换；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kglobalacceld&quot;&gt;Kglobalacceld&lt;/a&gt; 将明确处理无效的键盘代码（keycode）；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/Kpipewire&quot;&gt;Kpipewire&lt;/a&gt; 在停用时引入了适当的清理，并修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PipeWireSourceStream&lt;/code&gt; 的线程处理；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kscreen&quot;&gt;KScreen&lt;/a&gt; 现在使用 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ContextualHelpButton&lt;/code&gt;；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kscreenlocker&quot;&gt;Kscreenlocker&lt;/a&gt; 增加了一个属性来跟踪过去的提示；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 进行了大量改进：放宽了夜间颜色限制、简化了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 弹出窗口处理、改进了输入法窗口并增强了截屏插件；&lt;/li&gt;
+      &lt;li&gt;Plasma Mobile 改进了主屏幕交互、翻译问题和轻扫检测；&lt;/li&gt;
+      &lt;li&gt;Plasma Networkmanager 和 Plasma Workspace 受益于共享的 QQmlEngine 和各种错误修复，包括 Wayland 上的头像图像解码和指针扭曲。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/6/6.4.0/&quot;&gt;Frameworks 6.4.0&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/attica/html/index.html&quot;&gt;Attica&lt;/a&gt; 更新其 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitignore&lt;/code&gt; 以包含 VS Code 目录；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://community.kde.org/Baloo&quot;&gt;Baloo&lt;/a&gt; 恢复了一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;QCoreApplication&lt;/code&gt; 更改并移植 QML 模块；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/breeze-icons&quot;&gt;Breeze 图标&lt;/a&gt; 引入了 ColorScheme-Accent 并修复了数据警告（data-warning）图标；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/karchive&quot;&gt;KArchive&lt;/a&gt; 现在拒绝打开大小为负的 tar 文件，并修复了格式错误的文件导致的崩溃；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://develop.kde.org/docs/features/kauth/&quot;&gt;KAuth&lt;/a&gt; 和 &lt;a href=&quot;https://api.kde.org/frameworks/kbookmarks/html/index.html&quot;&gt;KBookmarks&lt;/a&gt; 将 VS Code 目录添加到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gitignore&lt;/code&gt;；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kcalendarcore&quot;&gt;KCalendarCore&lt;/a&gt; 添加了缺少的 QtCore 依赖项和日历模型的 QML 绑定。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 改进了 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 进程处理并弃用了未使用的功能；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 增强了导航和对话框组件；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/ktexteditor&quot;&gt;KTextEditor&lt;/a&gt; 添加了一个用于测试 JavaScript 脚本的工具，并确保缩进大小均匀，修复了多个错误。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/gear/24.05.2/&quot;&gt;KDE Gear 24.05.2&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/kdepim/akonadi-calendar/html/index.html&quot;&gt;Akonadi-calendar&lt;/a&gt; 添加了缺失的更改通知；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 更新了元对象编译器的生成；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/filelight/&quot;&gt;Filelight&lt;/a&gt; 支持 appx 构建，并确保出现 hicolor 图标；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;Itinerary&lt;/a&gt; 修复了日历权限、损坏的注释，并且该包引入了新的提取器；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 解决了时间线、宽高比和编译问题；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 修复了某些 PDF 操作的崩溃问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/libguestfs/supermin&quot;&gt;Supermin&lt;/a&gt; 5.3.4： 此更新引入了多项关键增强功能，包括：
+    &lt;ul&gt;
+      &lt;li&gt;支持 OCaml 5 和 kylinsecos；&lt;/li&gt;
+      &lt;li&gt;它通过检测 &lt;a href=&quot;https://github.com/rpm-software-management/dnf5&quot;&gt;dnf5&lt;/a&gt; 和省略缺失选项改进了软件包管理；&lt;/li&gt;
+      &lt;li&gt;更新还通过使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-output-complete-exe&lt;/code&gt; 而不是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-custom&lt;/code&gt;，改进了 OCaml 编译，修正了 aarch64 架构的内核过滤，并在 RISC-V 上启用了内核解压缩；&lt;/li&gt;
+      &lt;li&gt;该更新删除了新压缩包中包含的之前应用的补丁，有助于精简代码库并提高可维护性。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SELinuxProject/selinux/releases/tag/3.7&quot;&gt;Checkpolicy 3.7&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;最新更新在 nodecon 语句中引入了对无类域间路由表示法（Classless Inter-Domain Routing notation）的支持；&lt;/li&gt;
+      &lt;li&gt;增强了 &lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;SELinux&lt;/a&gt; 策略定义功能；&lt;/li&gt;
+      &lt;li&gt;错误消息现在更具描述性，并且错误处理也得到了改进；&lt;/li&gt;
+      &lt;li&gt;主要错误修复包括处理不可打印的令牌、避免垃圾值分配、释放临时边界类型以及按主机字节顺序执行连续检查。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键包更新&quot;&gt;关键包更新&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.48.4：
+    &lt;ul&gt;
+      &lt;li&gt;此更新引入了对通过 MAC 地址匹配 &lt;a href=&quot;https://www.openvswitch.org/&quot;&gt;Open vSwitch&lt;/a&gt; 系统接口的支持，从而增强了网络接口管理；&lt;/li&gt;
+      &lt;li&gt;NetworkManager 现在在通过配置接口地址的反向 DNS 查找确定系统主机名时会考虑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt; 的内容，从而提高主机名解析的准确性。&lt;/li&gt;
+      &lt;li&gt;更新的子包包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetworkManager-bluetooth&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetworkManager-lang&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetworkManager-tui&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NetworkManager-wwan&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libnm0&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typelib-1_0-NM-1_0&lt;/code&gt;；&lt;br /&gt;这些增强功能有助于在 Linux 环境中进行更强大、更精确的网络配置处理。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.libguestfs.org/&quot;&gt;libguestfs&lt;/a&gt; 1.53.5：此更新包括重要的增强功能和修复。
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--chown&lt;/code&gt; 参数现在可以在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:&lt;/code&gt; 字符上正确分割；&lt;/li&gt;
+      &lt;li&gt;支持新的校验和命令；&lt;/li&gt;
+      &lt;li&gt;添加了对 &lt;a href=&quot;https://www.cclinux.org/&quot;&gt;Circle Linux&lt;/a&gt; 的检测和对 &lt;a href=&quot;http://www.loongson.cn/&quot;&gt;LoongArch&lt;/a&gt; 架构的支持，包括文件架构转换修复；&lt;/li&gt;
+      &lt;li&gt;该更新允许 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nbd+unix://&lt;/code&gt; URI 并使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sfdisk&lt;/code&gt; 重新实现 GPT 分区功能；&lt;/li&gt;
+      &lt;li&gt;改进了 DHCP 配置；&lt;/li&gt;
+      &lt;li&gt;新引入的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virt-customize --inject-blnsvr&lt;/code&gt; 操作增强了可用性；&lt;/li&gt;
+      &lt;li&gt;已弃用的功能包括删除 gluster、sheepdog 和 tftp 驱动器支持；&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;findfs_partuuid&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;findfs_partlabel&lt;/code&gt; 等新 API 改进了功能；&lt;/li&gt;
+      &lt;li&gt;检查工具现在能解析 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/fstab&lt;/code&gt; 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PARTUUID&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PARTLABEL&lt;/code&gt;；&lt;br /&gt;这些更新增强了跨各种环境的兼容性、性能和功能。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.80.4：最新更新的向后移植关键补丁：将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EADDRNOTAVAIL&lt;/code&gt; 映射到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;G_IO_ERROR_CONNECTION_REFUSED&lt;/code&gt;、在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;g_file_load_contents()&lt;/code&gt; 中处理大于 4GB 的文件，以及更正 GIR 安装位置和构建竞争条件。此外，  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gthreadedresolver&lt;/code&gt; 的改进确保返回的记录在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lookup_records()&lt;/code&gt; 中正确进行引用计数。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;ruby3.3&lt;/a&gt; 3.3.4：
+    &lt;ul&gt;
+      &lt;li&gt;此版本解决了一些捆绑 gem（例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net-pop&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net-ftp&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;net-imap&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prime&lt;/code&gt;）的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gemspec&lt;/code&gt; 中缺少依赖项的问题；&lt;/li&gt;
+      &lt;li&gt;其他修复包括防止针对禁用警告的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Warning.warn&lt;/code&gt; 调用、更正 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;String.new(:capacity)&lt;/code&gt; 中的内存分配大小以及解决字符串损坏问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gnupg.org/software/libgcrypt/index.html&quot;&gt;libgcrypt&lt;/a&gt; 1.11.0：最新更新引入了几个新接口和性能增强。
+    &lt;ul&gt;
+      &lt;li&gt;新功能包括用于密钥封装机制（Key Encapsulation Mechanism, KEM）的 API、对 &lt;a href=&quot;https://ntruprime.cr.yp.to/&quot;&gt;Streamlined NTRU Prime&lt;/a&gt; sntrup761、&lt;a href=&quot;https://en.wikipedia.org/wiki/Kyber&quot;&gt;Kyber&lt;/a&gt; 和 &lt;a href=&quot;https://arxiv.org/pdf/1907.12754&quot;&gt;Classic McEliece&lt;/a&gt; 等算法的支持，以及包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/HKDF&quot;&gt;HKDF&lt;/a&gt; 和 &lt;a href=&quot;https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#x963kdf&quot;&gt;X963KDF&lt;/a&gt; 在内的各种密钥派生函数（KDF）。&lt;/li&gt;
+      &lt;li&gt;性能改进包括针对 &lt;a href=&quot;https://en.wikipedia.org/wiki/ARM_architecture_family#Armv8&quot;&gt;ARMv8&lt;/a&gt;/&lt;a href=&quot;https://en.wikipedia.org/wiki/AArch64&quot;&gt;AArch64&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/PowerPC&quot;&gt;PowerPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Vector_Extensions&quot;&gt;AVX2&lt;/a&gt;/&lt;a href=&quot;https://en.wikipedia.org/wiki/AVX-512&quot;&gt;AVX512&lt;/a&gt; 架构上的 &lt;a href=&quot;https://en.wikipedia.org/wiki/SM3_(hash_function)&quot;&gt;SM3&lt;/a&gt;、&lt;a href=&quot;https://en.wikipedia.org/wiki/SM4_(cipher)&quot;&gt;SM4&lt;/a&gt; 和其他加密操作的优化实现；&lt;/li&gt;
+      &lt;li&gt;其他更改包括对恒定时间操作的各种增强，并弃用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GCRYCTL_ENABLE_M_GUARD&lt;/code&gt; 控制代码。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/modules/orc.html&quot;&gt;orc&lt;/a&gt; 0.4.39：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-40897.html&quot;&gt;CVE-2024-40897&lt;/a&gt; 已在 0.4.39 之前的版本中得到解决，该版本在 orcparse.c 中存在缓冲区溢出漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openjdk.org/projects/jdk/21/&quot;&gt;java-21-openjdk&lt;/a&gt; 21.0.4.0:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21131.html&quot;&gt;CVE-2024-21131&lt;/a&gt; 是一个难以利用的漏洞，允许未经授权的数据修改；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21138.html&quot;&gt;CVE-2024-21138&lt;/a&gt; 是一个导致部分拒绝服务的漏洞；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21140.html&quot;&gt;CVE-2024-21140&lt;/a&gt; 是一个允许未经授权的数据访问和修改的漏洞；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21145.html&quot;&gt;CVE-2024-21145&lt;/a&gt; 与上一个相似；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21147.html&quot;&gt;CVE-2024-21147&lt;/a&gt; 也是如此，但影响更关键的数据。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tianocore/tianocore.github.io/wiki/OVMF&quot;&gt;ovmf&lt;/a&gt; 202402 在其季度更新中包含三个月的 CVE 补丁。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 128.0：此版本修复了 16 个 CVE。最严重的是&lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-29/#CVE-2024-6604&quot;&gt;CVE-2024-6604&lt;/a&gt;；这是 Firefox 128、Firefox ESR 115.13、&lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Thunderbird&lt;/a&gt; 128 和 Thunderbird 115.13 中的内存安全错误。这些错误显示了内存损坏的证据，可能允许任意代码执行。&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ghostscript.com/index.html&quot;&gt;ghostscript&lt;/a&gt; 10.03.1：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-33869.html&quot;&gt;CVE-2024-33869&lt;/a&gt; 允许通过精心设计的 PostScript 文档绕过限制；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-52722.html&quot;&gt;CVE-2023-52722&lt;/a&gt;；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-33870.html&quot;&gt;CVE-2024-33870&lt;/a&gt; 允许通过精心设计的 PostScript 文档访问任意文件；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-33871.html&quot;&gt;CVE-2024-33871&lt;/a&gt; 允许使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contrib/opvp/gdevopvp.c&lt;/code&gt; 中的自定义驱动程序库通过精心制作的 PostScript 文档执行任意代码；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-29510.html&quot;&gt;CVE-2024-29510&lt;/a&gt; 通过 uniprint 设备中的格式字符串注入允许内存损坏和 SAFER 沙箱绕过。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wayland.freedesktop.org/xserver.html&quot;&gt;xwayland&lt;/a&gt; 24.1.1 3:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-31080.html&quot;&gt;CVE-2024-31080&lt;/a&gt; 存在一个漏洞，可能允许攻击者触发 X 服务器读取和传输堆内存值，从而导致崩溃；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-31081.html&quot;&gt;CVE-2024-31081&lt;/a&gt; 可能会导致内存泄漏和分段错误，从而导致崩溃；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-31083.html&quot;&gt;CVE-2024-31083&lt;/a&gt; 允许经过身份验证的攻击者通过特制请求执行任意代码。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;libreoffice&lt;/a&gt; 24.2.5.2：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-5261.html&quot;&gt;CVE-2024-5261&lt;/a&gt; 允许在没有适当安全检查的情况下获取远程资源。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK3&lt;/a&gt; 3.24.43：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-6655.html&quot;&gt;CVE-2024-6655&lt;/a&gt; 允许在某些条件下从当前工作目录将库注入到 GTK 应用程序中。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://netpbm.sourceforge.net/&quot;&gt;netpbm&lt;/a&gt; 11.7.0：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-38526.html&quot;&gt;CVE-2024-38526&lt;/a&gt;：为 Python 项目提供 API 文档的 doc 存在一个漏洞，其中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pdoc –math&lt;/code&gt; 链接到来自 polyfill.io 的恶意 JavaScript 文件。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;2024 年 7 月是重要更新、安全修复和增强的月份。Linux 内核 6.9.9 更新对多个子系统进行了重要修复和改进，提高了整体稳定性和性能。KDE Plasma 6.1.3 带来了大量用户界面改进，并更好地处理了 Flatpak 重建。Frameworks 6.4.0 和 KDE Gear 24.05.2 的更新提供了额外的增强功能和错误修复，改善了用户体验和系统可靠性。包括 Firefox、ghostscript 和 xwayland 在内的多个软件包中的重要安全漏洞也得到了修复，从而确保 Tumbleweed 对所有用户来说都是安全、高效和功能丰富的。此外，&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon&quot;&gt;Aeon&lt;/a&gt; 团队还宣布，&lt;a href=&quot;https://suse.org.cn/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/27/aeon-rc3.html&quot;&gt;上周发布的 Tumbleweed 快照&lt;/a&gt;已&lt;a href=&quot;https://www.reddit.com/r/AeonDesktop/comments/1edi3tr/aeon_rc3_released/&quot;&gt;将 Aeon Desktop 提升至候选发布 3（RC3）状态&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/04/tw-monthly-update-june/&quot;&gt;Tumbleweed Monthly Update - June 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/27/aeon-rc3.html</guid>
       <title>Aeon 桌面 RC3 镜像现已发布</title>
       <pubDate>Sat, 27 Jul 2024 19:40:00 +0000</pubDate>
@@ -571,45 +760,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/25/leap-micro-60-availability/&quot;&gt;Leap Micro 6.0 is now available. Leap Micro 5.4 reaches End of Life.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-micro-6.html</guid>
-      <title>Leap Micro 6.0 候选发布版本现已可用</title>
-      <pubDate>Sat, 22 Jun 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/06/22/leap-micro-6.html</link>
-      <author>Poplar at twilight</author>
-      <description>这是周末的小礼物。openSUSE Leap Micro 6.0 RC 现已推出！你可以在 get.opensuse.org 上找到镜像。 RC 版与 Beta 版的主要区别是从 5.5 开始的有效升级路径以及对商业产品的稍微平滑的升级支持。让我们测试一下。 升级说明 我个人建议进行全新安装，尤其是在系统上的主要版本之间；新系统可以在 2 分钟内通过自我安装重新部署。同时，在线升级需要更长的时间。另一个值得考虑的方面是，我们没有为在线迁移开发与 Leap 15.X 相同的迁移测试套件。 测试升级的最简单方法是在虚拟机中进行测试。你需要从 get.opensuse.org 下载 Leap micro 5.5 镜像文件，然后使用 transactional-update 应用全部的更新。 我建议通过 SSH 或控制台而不是 cockpit 升级到 6.0，因为服务最终可能会停止响应。SDB:System_upgrade_too_LeapMicro_6.0 维基页面提供了升级说明和已知问题。 请确保在迁移前查阅已知问题。 文档 文档以及发行说明请参阅 SLE Micro 6.0 文档。 报告问题 请参阅提交错误报告页面中有关 Leap Micro 的部分。 下一步...</description>
-      <content:encoded>&lt;p&gt;这是周末的小礼物。openSUSE Leap Micro 6.0 RC 现已推出！你可以在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到镜像。&lt;/p&gt;
-
-&lt;p&gt;RC 版与 &lt;a href=&quot;https://news.opensuse.org/2024/06/19/os-leap-micro-reaches-beta/&quot;&gt;Beta&lt;/a&gt; 版的主要区别是从 5.5 开始的有效升级路径以及对商业产品的稍微平滑的升级支持。让我们测试一下。&lt;/p&gt;
-
-&lt;h2 id=&quot;升级说明&quot;&gt;升级说明&lt;/h2&gt;
-
-&lt;p&gt;我个人建议进行全新安装，尤其是在系统上的主要版本之间；新系统可以在 2 分钟内通过自我安装重新部署。同时，在线升级需要更长的时间。另一个值得考虑的方面是，我们没有为在线迁移开发与 Leap 15.X 相同的迁移测试套件。&lt;/p&gt;
-
-&lt;p&gt;测试升级的最简单方法是在虚拟机中进行测试。你需要从 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载 Leap micro 5.5 镜像文件，然后使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; 应用全部的更新。&lt;/p&gt;
-
-&lt;p&gt;我建议通过 SSH 或控制台而不是 cockpit 升级到 6.0，因为服务最终可能会停止响应。&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0&quot;&gt;SDB:System_upgrade_too_LeapMicro_6.0&lt;/a&gt; 维基页面提供了升级说明和已知问题。&lt;/p&gt;
-
-&lt;p&gt;请确保在迁移前查阅&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0#Known_issues_with_migration&quot;&gt;已知问题&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;文档&quot;&gt;文档&lt;/h2&gt;
-
-&lt;p&gt;文档以及发行说明请参阅 &lt;a href=&quot;https://documentation.suse.com/sle-micro/6.0/&quot;&gt;SLE Micro 6.0 文档&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;报告问题&quot;&gt;报告问题&lt;/h2&gt;
-
-&lt;p&gt;请参阅&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports#Regular_release_products&quot;&gt;提交错误报告页面&lt;/a&gt;中有关 Leap Micro 的部分。&lt;/p&gt;
-
-&lt;h2 id=&quot;下一步&quot;&gt;下一步&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 6.0 有望在下周的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/&quot;&gt;oSC2024&lt;/a&gt; 之前正式发布。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/21/os-leap-micro-release-candidate/&quot;&gt;Leap Micro 6.0 Release Candidate is now available&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
