@@ -99,7 +99,8 @@ tags:
     - 其他修复包括防止针对禁用警告的 `Warning.warn` 调用、更正 `String.new(:capacity)` 中的内存分配大小以及解决字符串损坏问题。
 - [libgcrypt] 1.11.0：最新更新引入了几个新接口和性能增强。
     - 新功能包括用于密钥封装机制（Key Encapsulation Mechanism, KEM）的 API、对 [Streamlined NTRU Prime] sntrup761、[Kyber] 和 [Classic McEliece] 等算法的支持，以及包括 [HKDF] 和 [X963KDF] 在内的各种密钥派生函数（KDF）。
-    - 性能改进包括针对 [ARMv8]/[AArch64]、[PowerPC] 和 [AVX2]/[AVX512] 架构上的 [SM3]、[SM4] 和其他加密操作的优化实现。其他更改包括对恒定时间操作的各种增强，并弃用 `GCRYCTL_ENABLE_M_GUARD` 控制代码。
+    - 性能改进包括针对 [ARMv8]/[AArch64]、[PowerPC] 和 [AVX2]/[AVX512] 架构上的 [SM3]、[SM4] 和其他加密操作的优化实现；
+    - 其他更改包括对恒定时间操作的各种增强，并弃用 `GCRYCTL_ENABLE_M_GUARD` 控制代码。
 
 [X963KDF]: https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/#x963kdf
 [HKDF]: https://en.wikipedia.org/wiki/HKDF
@@ -180,6 +181,7 @@ tags:
 
 原文：[Tumbleweed Monthly Update - June 2024](https://news.opensuse.org/2024/07/04/tw-monthly-update-june/)，作者：Douglas DeMaio
 
+[GTK3]: https://www.gtk.org/
 [netpbm]: https://netpbm.sourceforge.net/
 [ghostscript]: https://www.ghostscript.com/index.html
 [Thunderbird]: https://www.thunderbird.net/en-US/
