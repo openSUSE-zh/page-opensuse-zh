@@ -179,7 +179,7 @@ tags:
 
 ----
 
-原文：[Tumbleweed Monthly Update - June 2024](https://news.opensuse.org/2024/07/04/tw-monthly-update-june/)，作者：Douglas DeMaio
+原文：[Tumbleweed Monthly Update - July 2024](https://news.opensuse.org/2024/07/31/tw-monthly-update-july/)，作者：Douglas DeMaio
 
 [GTK3]: https://www.gtk.org/
 [netpbm]: https://netpbm.sourceforge.net/
