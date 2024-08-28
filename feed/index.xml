@@ -7,6 +7,35 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/08/27/network.html</guid>
+      <title>正在解决网络堆栈问题</title>
+      <pubDate>Tue, 27 Aug 2024 19:40:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/08/27/network.html</link>
+      <author>Poplar at twilight</author>
+      <description>在最近涉及构建和 NetworkManager 的测试场景中，出现了一个重大问题：网络堆栈无法运行。 我们建议用户暂时推迟系统更新，但如果您已经更新，请使用 Snapper 回滚系统；值得注意的是，虽然该问题主要影响带有 Wicked 的 GNOME 设置，但它也会影响没有这些组件的服务器。 这个问题至少从 Tumbleweed 20240825 快照开始就一直存在。Bind 9.20.1 收到的更新更改了 DNS 查询处理和系统控制，这可能无意中导致了网络堆栈问题。 根本原因似乎是 Wicked 和 D-Bus 系统之间的竞争条件，这导致网络堆栈无法正确初始化。当 Wicked 启动时，它很难与 D-Bus 进行交互，导致各种依赖的网络服务失效。 系统日志显示，D-Bus 在初始化时要么未完全激活，要么未被 Wicked 识别，从而引发了 DHCP 和 AutoIPv4 等服务的一系列故障。 这一系列事件将使 Tumbleweed 的网络堆栈无法运行，通常需要手动重新启动才能恢复网络功能。 为了解决这个问题，我们最初的工作重点是修改 systemd 服务文件中的服务依赖关系。一种建议的解决方案可能是将 After=dbus.service 添加到 Wicked 服务配置中。然而，在许多情况下，仅靠这种调整可能是不够的。 通过进一步调查，我们提出了更多的解决方案。这个问题似乎还超出了 Wicked 的范围，有可能影响到其他服务，并对系统的初始化过程产生更广泛的影响。在某些设置中，NetworkManager 和 Wicked...</description>
+      <content:encoded>&lt;p&gt;在最近涉及构建和 &lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 的测试场景中，出现了&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1229745&quot;&gt;一个重大问题&lt;/a&gt;：网络堆栈无法运行。&lt;/p&gt;
+
+&lt;p&gt;我们建议用户暂时推迟系统更新，但如果您已经更新，请&lt;a href=&quot;https://zh.opensuse.org/SDB:Snapper_Tutorial&quot;&gt;使用 Snapper 回滚系统&lt;/a&gt;；值得注意的是，虽然该问题主要影响带有 Wicked 的 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 设置，但它也会影响没有这些组件的服务器。&lt;/p&gt;
+
+&lt;p&gt;这个问题至少从 Tumbleweed &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/GUIJNW45DGP25M7RS4EPAKTEP7IXEHWU/&quot;&gt;20240825&lt;/a&gt; 快照开始就一直存在。&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;Bind&lt;/a&gt; 9.20.1 收到的更新更改了 DNS 查询处理和系统控制，这可能无意中导致了网络堆栈问题。&lt;/p&gt;
+
+&lt;p&gt;根本原因似乎是 Wicked 和 D-Bus 系统之间的竞争条件，这导致网络堆栈无法正确初始化。当 Wicked 启动时，它很难与 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/dbus/&quot;&gt;D-Bus&lt;/a&gt; 进行交互，导致各种依赖的网络服务失效。&lt;/p&gt;
+
+&lt;p&gt;系统日志显示，D-Bus 在初始化时要么未完全激活，要么未被 Wicked 识别，从而引发了 DHCP 和 AutoIPv4 等服务的一系列故障。&lt;/p&gt;
+
+&lt;p&gt;这一系列事件将使 Tumbleweed 的网络堆栈无法运行，通常需要手动重新启动才能恢复网络功能。&lt;/p&gt;
+
+&lt;p&gt;为了解决这个问题，我们最初的工作重点是修改 systemd 服务文件中的服务依赖关系。一种建议的解决方案可能是将 After=dbus.service 添加到 Wicked 服务配置中。然而，在许多情况下，仅靠这种调整可能是不够的。&lt;/p&gt;
+
+&lt;p&gt;通过进一步调查，我们提出了更多的解决方案。这个问题似乎还超出了 Wicked 的范围，有可能影响到其他服务，并对系统的初始化过程产生更广泛的影响。在某些设置中，NetworkManager 和 Wicked 的过渡发现了影响网络堆栈初始化的关键竞争条件。虽然最近对 systemd 服务配置的调整已大大缓解了这一问题，但要实现一致的网络功能，持续测试和进一步改进仍是必不可少的。我们建议用户使用 snapper 的回滚功能来保持网络堆栈的正常初始化。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/08/27/addressing-network-stack/&quot;&gt;Addressing the Network Stack Issue&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/08/02/logo.html</guid>
       <title>openSUSE.Asia 峰会徽标大赛公告</title>
       <pubDate>Fri, 02 Aug 2024 23:30:00 +0000</pubDate>
@@ -660,58 +689,6 @@
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/04/tw-monthly-update-june/&quot;&gt;Tumbleweed Monthly Update - June 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/06/25/opensuse.asia.html</guid>
-      <title>openSUSE.Asia 峰会 2025：征集主办方</title>
-      <pubDate>Tue, 25 Jun 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/06/25/opensuse.asia.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE.Asia 峰会是亚洲一年一度的 openSUSE 会议，也是来自亚洲的贡献者和爱好者齐聚一堂、面对面交流的绝佳机会。该活动主要关注 openSUSE 发行版、其供个人和企业使用的应用程序以及开源文化。 为了在全亚洲推广 openSUSE，openSUSE.Asia 峰会组织委员会希望当地社区能够迎接挑战，在 2025 年组织一次出色的 openSUSE 活动。委员会随时准备在整个过程中为您提供协助。 这是您需要做笔记的日期： 10 月 1 日：申请截止日期 11 月 3 日：在 openSUSE.Asia 峰会 2024 上发表演讲 12 月 23 日：公布主办方 我们将邀请您参加我们的定期在线会议，让您体验和学习如何组织活动。此外，我们还将邀请您在日本东京举行的下一届峰会上提出您的提案。 提交的提案将由组织委员会审查。在审查过程中，委员会可能会提出其他问题和要求。 如何提交？ 请将您的建议通过电子邮件发送至 summit@lists.opensuse.org 和 opensuseasia-summit@googlegroups.com。由于前一个地址不允许发送附件，因此您需要将提案上传到某个地方然后共享下载链接。 该提案应包含： 场地 如何到达您所在的城市和地点 预算估算 会场 T 恤 茶歇、午餐、晚餐、会议参观等 介绍将组织峰会的社区 在撰写提案之前，请参阅 openSUSE.Asia 峰会组织者提示。 我们期待尽快收到您的来信！...</description>
-      <content:encoded>&lt;p&gt;openSUSE.Asia 峰会是亚洲一年一度的 openSUSE 会议，也是来自亚洲的贡献者和爱好者齐聚一堂、面对面交流的绝佳机会。该活动主要关注 openSUSE 发行版、其供个人和企业使用的应用程序以及开源文化。&lt;/p&gt;
-
-&lt;p&gt;为了在全亚洲推广 openSUSE，openSUSE.Asia 峰会组织委员会希望当地社区能够迎接挑战，在 2025 年组织一次出色的 openSUSE 活动。委员会随时准备在整个过程中为您提供协助。&lt;/p&gt;
-
-&lt;p&gt;这是您需要做笔记的日期：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;10 月 1 日：申请截止日期&lt;/li&gt;
-  &lt;li&gt;11 月 3 日：在 openSUSE.Asia 峰会 2024 上发表演讲&lt;/li&gt;
-  &lt;li&gt;12 月 23 日：公布主办方&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我们将邀请您参加我们的定期在线会议，让您体验和学习如何组织活动。此外，我们还将邀请您在日本东京举行的下一届峰会上提出您的提案。&lt;/p&gt;
-
-&lt;p&gt;提交的提案将由组织委员会审查。在审查过程中，委员会可能会提出其他问题和要求。&lt;/p&gt;
-
-&lt;h2 id=&quot;如何提交&quot;&gt;如何提交？&lt;/h2&gt;
-
-&lt;p&gt;请将您的建议通过电子邮件发送至 &lt;a href=&quot;mailto:summit@lists.opensuse.org&quot;&gt;summit@lists.opensuse.org&lt;/a&gt; 和 &lt;a href=&quot;mailto:opensuseasia-summit@googlegroups.com&quot;&gt;opensuseasia-summit@googlegroups.com&lt;/a&gt;。由于前一个地址不允许发送附件，因此您需要将提案上传到某个地方然后共享下载链接。&lt;/p&gt;
-
-&lt;p&gt;该提案应包含：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;场地&lt;/li&gt;
-  &lt;li&gt;如何到达您所在的城市和地点&lt;/li&gt;
-  &lt;li&gt;预算估算
-    &lt;ul&gt;
-      &lt;li&gt;会场&lt;/li&gt;
-      &lt;li&gt;T 恤&lt;/li&gt;
-      &lt;li&gt;茶歇、午餐、晚餐、会议参观等&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;介绍将组织峰会的社区&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;在撰写提案之前，请参阅 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Asia_Summit_Tips_for_Organizers&quot;&gt;openSUSE.Asia 峰会组织者提示&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我们期待尽快收到您的来信！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/06/26/opensuse-asia-summit-2025-call-for-host/&quot;&gt;openSUSE.Asia Summit 2025: Call for Host&lt;/a&gt;，作者：openSUSE.Asia Summit Committee&lt;/p&gt;
 </content:encoded>
     </item>
 
