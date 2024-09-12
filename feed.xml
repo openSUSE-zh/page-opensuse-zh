@@ -7,6 +7,52 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/11/python.html</guid>
+      <title>Python 3.13 RC2 和 python313-nogil</title>
+      <pubDate>Wed, 11 Sep 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/11/python.html</link>
+      <author>Poplar at twilight</author>
+      <description>Python 3.13 RC2 现已在 Tumbleweed 中可用。这个新版 Python 解释器将于 2024 年 10 月发布。 Python 3.13 中有很多变化和新功能，但我们也在 Tumbleweed 中引入了现有的实验性功能。 实验性 JIT 编译器 默认（python313）构建带有 --enable-experimental-jit=yes-off 标志。这表示你可以使用下列环境变量启用该实验性 JIT： $ PYTHON_JIT=1 python3.13 有关于 JIT 编译器以及如何提高性能的更多信息另见 PEP-744。 自由线程 CPython（无 GIL）| Free threaded CPython (no GIL) 在新版 Python 解释器中，可以选择在不使用著名的 Global Interpreter Lock（GIL）的情况下进行构建。这真是一个实验性功能，那么有什么理由不去实现呢？所以我们决定构建一个新软件包（python313-nogil）来实现这个功能。 这个新软件包是一个独立的解释器，因此安装时不会与 python313 发生冲突。该软件包使用 --disable-gil 选项构建，并提供...</description>
+      <content:encoded>&lt;p&gt;Python 3.13 RC2 现已在 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 中可用。这个新版 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 解释器将于 2024 年 10 月发布。&lt;/p&gt;
+
+&lt;p&gt;Python 3.13 中有很多变化和新功能，但我们也在 Tumbleweed 中引入了现有的实验性功能。&lt;/p&gt;
+
+&lt;h2 id=&quot;实验性-jit-编译器&quot;&gt;实验性 JIT 编译器&lt;/h2&gt;
+
+&lt;p&gt;默认（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313&lt;/code&gt;）构建带有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--enable-experimental-jit=yes-off&lt;/code&gt; 标志。这表示你可以使用下列环境变量启用该&lt;a href=&quot;https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler&quot;&gt;实验性 JIT&lt;/a&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ PYTHON_JIT=1 python3.13
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;有关于 JIT 编译器以及如何提高性能的更多信息另见 &lt;a href=&quot;https://peps.python.org/pep-0744/&quot;&gt;PEP-744&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;自由线程-cpython无-gil-free-threaded-cpython-no-gil&quot;&gt;自由线程 CPython（无 GIL）| Free threaded CPython (no GIL)&lt;/h2&gt;
+
+&lt;p&gt;在新版 Python 解释器中，可以选择在不使用著名的 &lt;a href=&quot;https://docs.python.org/3.13/whatsnew/3.13.html#free-threaded-cpython&quot;&gt;Global Interpreter Lock&lt;/a&gt;（GIL）的情况下进行构建。这真是一个实验性功能，那么有什么理由不去实现呢？所以我们决定构建一个新软件包（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313-nogil&lt;/code&gt;）来实现这个功能。&lt;/p&gt;
+
+&lt;p&gt;这个新软件包是一个独立的解释器，因此安装时不会与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313&lt;/code&gt; 发生冲突。该软件包使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--disable-gil&lt;/code&gt; 选项构建，并提供 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3.13t&lt;/code&gt; 二进制文件。它默认使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib/python3.13t/site-packages&lt;/code&gt; 来获取第三方库，因此在默认配置下，它不会使用任何 python 3.13 模块。&lt;/p&gt;
+
+&lt;p&gt;这意味着现在可以在 Python 解释器中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;threading.Thread&lt;/code&gt;，并且它将是实际的线程（thread），因此，在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3.13t&lt;/code&gt; 中使用线程后，解释器应该会快很多。&lt;/p&gt;
+
+&lt;p&gt;目前，Tumbleweed 中没有适用于该解释器的软件包。因此，如果您想使用第三方库，您应该使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ python3.13t -m venv free-threaded-env
+$ source free-threaded-env/bin/activate
+(free-threaded-env) $ pip install requests
+(free-threaded-env) $ python3
+Python 3.13.0rc2 experimental free-threading build (main, Sep 07 2024, 16:06:06) [GCC] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import sys; sys._is_gil_enabled()
+False
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/09/11/python313/&quot;&gt;Python 3.13 RC2, with and without GIL&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/02/slowroll.html</guid>
       <title>Slowroll 更新提高稳定性，增强性能</title>
       <pubDate>Mon, 02 Sep 2024 19:40:00 +0000</pubDate>
@@ -675,49 +721,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/09/looking-at-next-steps-for-leap-branding/&quot;&gt;Looking at Next Steps for Leap 16 Branding&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/12/aeon.html</guid>
-      <title>Aeon 桌面推出全面的全盘加密</title>
-      <pubDate>Fri, 12 Jul 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/12/aeon.html</link>
-      <author>Poplar at twilight</author>
-      <description>我们计划在即将推出的 Aeon Desktop 候选发布版本中引入全盘加密，以增强用户的数据安全性。该功能预计将包含在即将发布的候选版本 3 (RC3) 中。 全磁盘加密的目的是在设备丢失、被盗或未经授权启动到其他操作系统的情况下保护数据。根据系统的硬件配置，Aeon 的加密将设置为两种模式之一：Default 或 Fallback。 Default 模式 如果系统具有所需的硬件，则 Default 模式是首选加密方法。此模式利用支持 PolicyAuthorizeNV 的可信平台模块 (TPM) 2.0 芯片组（TPM 2.0 版本 1.38 或更高版本）。在此模式下，Aeon Desktop 会测量系统完整性的多个方面。检测容包括： UEFI 固件 安全启动状态（启用或禁用） 分区表 引导加载程序和驱动程序 内核和 initrd （包括内核命令行参数） 这些测量结果存储在系统的 TPM 中。在启动期间，Aeon 会将当前状态与存储的测量值进行比较。如果结果匹配，系统将正常启动。如果发现差异，系统会提示用户输入安装期间提供的恢复密钥。此保护措施可确保标记未经授权的更改或篡改尝试。 Fallback 模式 当未检测到默认模式所需的硬件时，将采用 Fallback 模式。该模式要求用户在每次系统启动时输入密码。虽然它不像默认模式那样全面检查系统完整性，但强烈建议使用安全启动来确保一定程度的安全性，确认引导加载程序和内核未被篡改。 与最初的担忧相反，尽管启动时不需要密码，但 Default 模式的安全性并不比 Fallback 模式低。Default 模式下的强大完整性检查可防止绕过正常身份验证方法的攻击。例如，它可以检测内核命令行的更改，防止可能允许未经授权的访问。此外，它还可以防止对...</description>
-      <content:encoded>&lt;p&gt;我们计划在即将推出的 &lt;a href=&quot;https://aeondesktop.org/&quot;&gt;Aeon Desktop&lt;/a&gt; 候选发布版本中引入&lt;a href=&quot;https://en.wikipedia.org/wiki/Disk_encryption&quot;&gt;全盘加密&lt;/a&gt;，以增强用户的数据安全性。该功能预计将包含在即将发布的候选版本 3 (RC3) 中。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;全磁盘加密&lt;/a&gt;的目的是在设备丢失、被盗或未经授权启动到其他操作系统的情况下保护数据。根据系统的硬件配置，Aeon 的加密将设置为两种模式之一：Default 或 Fallback。&lt;/p&gt;
-
-&lt;h2 id=&quot;default-模式&quot;&gt;Default 模式&lt;/h2&gt;
-
-&lt;p&gt;如果系统具有所需的硬件，则 Default 模式是首选加密方法。此模式利用支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PolicyAuthorizeNV&lt;/code&gt; 的可信平台模块 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Trusted_Platform_Module&quot;&gt;TPM&lt;/a&gt;) 2.0 芯片组（TPM 2.0 版本 1.38 或更高版本）。在此模式下，Aeon Desktop 会测量系统完整性的多个方面。检测容包括：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/UEFI&quot;&gt;UEFI 固件&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/UEFI#Secure_Boot&quot;&gt;安全启动&lt;/a&gt;状态（启用或禁用）&lt;/li&gt;
-  &lt;li&gt;分区表&lt;/li&gt;
-  &lt;li&gt;引导加载程序和驱动程序&lt;/li&gt;
-  &lt;li&gt;内核和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; （包括内核命令行参数）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这些测量结果存储在系统的 TPM 中。在启动期间，Aeon 会将当前状态与存储的测量值进行比较。如果结果匹配，系统将正常启动。如果发现差异，系统会提示用户输入安装期间提供的恢复密钥。此保护措施可确保标记未经授权的更改或篡改尝试。&lt;/p&gt;
-
-&lt;h2 id=&quot;fallback-模式&quot;&gt;Fallback 模式&lt;/h2&gt;
-
-&lt;p&gt;当未检测到默认模式所需的硬件时，将采用 Fallback 模式。该模式要求用户在每次系统启动时输入密码。虽然它不像默认模式那样全面检查系统完整性，但强烈建议使用安全启动来确保一定程度的安全性，确认引导加载程序和内核未被篡改。&lt;/p&gt;
-
-&lt;p&gt;与最初的担忧相反，尽管启动时不需要密码，但 Default 模式的安全性并不比 Fallback 模式低。Default 模式下的强大完整性检查可防止绕过正常身份验证方法的攻击。例如，它可以检测内核命令行的更改，防止可能允许未经授权的访问。此外，它还可以防止对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 进行修改，从而防止在 Fallback 模式下潜在的密码捕获。&lt;/p&gt;
-
-&lt;p&gt;由于全面的完整性检查，安全启动在 Default 模式下是可选的，但在 Fallback 模式下对于维护系统安全至关重要。在 Fallback 模式下禁用安全启动会增加针对意图捕获密码短语的篡改和攻击的脆弱性。&lt;/p&gt;
-
-&lt;p&gt;Aeon 实施的全盘加密提供了针对用户硬件功能量身定制的强大安全选项。通过提供 Default 模式和 Fallback 模式，Aeon 确保所有用户都能受益于增强的数据保护。&lt;/p&gt;
-
-&lt;p&gt;RC3 中包含此功能标志着 Aeon 在保护用户数据免受潜在威胁方面向前迈出了重要一步。我们鼓励 Aeon 用户阅读 &lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;Aeon 加密指南&lt;/a&gt;并为其添加书签。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/12/aeon-desktop-intros-fde/&quot;&gt;Aeon Desktop Introduces Comprehensive Full Disk Encryption&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
