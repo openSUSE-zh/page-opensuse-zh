@@ -7,6 +7,129 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/25/fde.html</guid>
+      <title>快速入门：使用 TPM 和 YaST2 进行全盘加密</title>
+      <pubDate>Wed, 25 Sep 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/25/fde.html</link>
+      <author>Poplar at twilight</author>
+      <description>这是一份在 openSUSE MicroOS 上使用 TPM（或 FIDO2）和 YaST2 进行全磁盘加密（Full Disk Encryption, FDE）的快速入门指南。本文主要介绍使用YaST2 安装 openSUSE MicroOS，以及使用 TPM2 芯片和测量启动（measured boot）或 FIDO2 密钥保护的全盘加密的几个步骤。 硬件要求 具有 UEFI 固件 支持 hmac-secret 扩展的 TPM2 芯片或 FIDO2 密钥 2GB 内存 安装 openSUSE MicroOS MicroOS 快速安装指南另见此处。 安装 openSUSE Tumbleweed 启动安装介质 按照工作流程进行操作，直到出现“建议分区”： 分区：选择“引导设置（Guided Setup）”和“启用磁盘加密（Enable Disk Encryption）”，其他保持默认 继续安装直至“安装设置”： 启动： 将引导加载程序类型从 “GRUB2...</description>
+      <content:encoded>&lt;p&gt;这是一份在 openSUSE MicroOS 上使用 &lt;a href=&quot;https://en.wikipedia.org/wiki/Trusted_Platform_Module&quot;&gt;TPM&lt;/a&gt;（或 &lt;a href=&quot;https://fidoalliance.org/fido2/&quot;&gt;FIDO2&lt;/a&gt;）和 YaST2 进行全磁盘加密（Full Disk Encryption, FDE）的快速入门指南。本文主要介绍使用YaST2 安装 &lt;a href=&quot;https://microos.opensuse.org/&quot;&gt;openSUSE MicroOS&lt;/a&gt;，以及使用 TPM2 芯片和测量启动（&lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/RemoteAttestation#Measured_boot&quot;&gt;measured boot&lt;/a&gt;）或 FIDO2 密钥保护的全盘加密的几个步骤。&lt;/p&gt;
+
+&lt;h2 id=&quot;硬件要求&quot;&gt;硬件要求&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;具有 UEFI 固件&lt;/li&gt;
+  &lt;li&gt;支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hmac-secret&lt;/code&gt; 扩展的 TPM2 芯片或 FIDO2 密钥&lt;/li&gt;
+  &lt;li&gt;2GB 内存&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;安装-opensuse-microos&quot;&gt;安装 openSUSE MicroOS&lt;/h2&gt;
+
+&lt;p&gt;MicroOS 快速安装指南另见&lt;a href=&quot;https://microos.opensuse.org/blog/2024-09-03-quickstart-fde-yast2/&quot;&gt;此处&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;安装-opensuse-tumbleweed&quot;&gt;安装 openSUSE Tumbleweed&lt;/h2&gt;
+
+&lt;h3 id=&quot;启动安装介质&quot;&gt;启动安装介质&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;按照工作流程进行操作，直到出现“建议分区”：
+    &lt;ul&gt;
+      &lt;li&gt;分区：选择“引导设置（Guided Setup）”和“启用磁盘加密（Enable Disk Encryption）”，其他保持默认&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;继续安装直至“安装设置”：
+    &lt;ul&gt;
+      &lt;li&gt;启动：
+        &lt;ul&gt;
+          &lt;li&gt;将引导加载程序类型从 “GRUB2 for EFI” 更改为 “Systemd Boot”，忽略 “Systemd-boot support is work in Progress” 并继续&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;软件：
+        &lt;ul&gt;
+          &lt;li&gt;安装额外的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmp2.0-tools&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tpm2-0-tss&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libtss2-tcti-device0&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;完成安装&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;完成-fde-设置&quot;&gt;完成 FDE 设置&lt;/h3&gt;
+
+&lt;p&gt;启动新系统&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;输入密码以在启动期间解锁磁盘&lt;/li&gt;
+  &lt;li&gt;登录&lt;/li&gt;
+  &lt;li&gt;Enroll system：
+    &lt;ul&gt;
+      &lt;li&gt;具有 TPM2 芯片的设备：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil enroll --method tpm2&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;使用 FIDO2 密钥的设备：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil enroll --method fido2&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;推荐的可选步骤：
+    &lt;ul&gt;
+      &lt;li&gt;升级您的 LUKS 密钥派生函数（对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/crypttab&lt;/code&gt; 中列出的每个加密设备执行此操作）：
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  # cryptsetup luksConvertKey /dev/vdaX --pbkdf argon2id
+  # cryptsetup luksConvertKey /dev/vdaY --pbkdf argon2id
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;调整内核启动参数&quot;&gt;调整内核启动参数&lt;/h2&gt;
+
+&lt;p&gt;内核命令行选项的配置文件是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/kernel/cmdline&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;编辑此文件后，调用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil update-all-entries&lt;/code&gt; 来更新引导加载程序配置。如果该选项尚不存在或不起作用，解决方法是：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil remove-all-kernels &amp;amp;&amp;amp; sdbootutil add-all-kernels&lt;/code&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;re-enrollment&quot;&gt;Re-enrollment&lt;/h2&gt;
+
+&lt;p&gt;如果预测系统（prediction system）出现故障，则必须为新的测量创建新的策略，以替换 TPM2 中存储的策略。&lt;/p&gt;
+
+&lt;p&gt;如果您有恢复 PIN 码，则运行：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sdbootutil --ask-pin update-predictions
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如果您没有恢复 PIN 码，您可以按照以下步骤设置：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# sdbootutil unenroll --method=tpm2
+# PIN=&amp;lt;new recovery PIN&amp;gt; sdbootutil enroll --method=tpm2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;虚拟机&quot;&gt;虚拟机&lt;/h2&gt;
+
+&lt;p&gt;如果您的计算机是虚拟机，建议编辑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/sysconfig/fde-tools&lt;/code&gt; 删除其中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FDE_SEAL_PCR_LIST&lt;/code&gt; 变量的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0&lt;/code&gt;。虚拟机管理程序的更新可能会更改 PCR0。由于此类更新在 VM 内部不可见，因此无法更新 PCR 值。所以，磁盘无法在下次启动时自动解密，需要输入恢复密钥并需要手动重新注册。&lt;/p&gt;
+
+&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
+
+&lt;p&gt;开发人员接下来准备：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;支持 grub2-BLS（grub2 遵循 &lt;a href=&quot;https://uapi-group.org/specifications/specs/boot_loader_specification/&quot;&gt;Boot Loader 规范&lt;/a&gt;）&lt;/li&gt;
+  &lt;li&gt;添加对安装程序的支持（YaST2 和 Agama）&lt;/li&gt;
+  &lt;li&gt;如果存在 TPM2 芯片，请将其设为默认值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;欢迎提供任何的帮助！&lt;/p&gt;
+
+&lt;h2 id=&quot;延伸阅读&quot;&gt;延伸阅读&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/FDE&quot;&gt;全盘加密（FDE）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.opensuse.org/Systemd-fde&quot;&gt;Systemd-fde&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://microos.opensuse.org/blog/2023-12-20-sdboot-fde/&quot;&gt;使用 TPM 和 FIDO2 的 Systemd 启动和全磁盘加密&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/09/20/quickstart-fde-yast2/&quot;&gt;Quickstart in Full Disk Encryption with TPM and YaST2&lt;/a&gt;，作者：Thorsten Kukuk&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/11/python.html</guid>
       <title>Python 3.13 RC2 和 python313-nogil</title>
       <pubDate>Wed, 11 Sep 2024 23:00:00 +0000</pubDate>
@@ -661,66 +784,6 @@ False
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/16/summit-tsp-cfp-deadline/&quot;&gt;Asia Summit’s Travel Support Program and Call for Speakers Deadlines&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/07/12/leap6.html</guid>
-      <title>展望 Leap 16 品牌设计的后续步骤</title>
-      <pubDate>Fri, 12 Jul 2024 19:40:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/07/12/leap6.html</link>
-      <author>Poplar at twilight</author>
-      <description>非常感谢参加 openSUSE 大会 2024 上的 Leap 16 品牌设计研讨会的所有人员。热情和创造力正在推动我们在 Leap 16 品牌设计方面迈出下一步。让我们进一步发展其中一些奇妙的想法！ 以下是我们旨在实现的 Leap 16 品牌设计计划列表： 抽象风格的壁纸 我们正在寻找可以在任意发行版之间共享的壁纸设计。壁纸采用可以是渐变、分形或任何其他抽象设计，并理想地融入发行版的标志。我们的目标是创造出像变色龙一样具有视觉吸引力和普遍适应性的东西。 Leap 16 和 Tumbleweed 的抽象风格壁纸 除了上述的新壁纸，我们还需要为 Leap 16 和 Tumbleweed 设计特定的壁纸。这些壁纸应反映每种发行版的独特身份，同时保持统一的视觉主题。我们可以考虑为 Slowroll、Kalpa、Aeon 等其他版本设计可调整的壁纸，并向这些项目提出建议。 变色龙的昼夜变体 我们还在征集以大家心爱的变色龙为特色的昼夜款式设计。这些壁纸应相辅相成，同时以富有创意和吸引力的方式表现一天中的不同时间。此外，抽象设计的白天/黑夜变体也是一种选择。虽然没有必要，但如果参与者有好的想法，我们会进一步考虑。 提交我们吉祥物的照片 我们邀请您提交两张与我们的吉祥物变色龙或任何与之相似的照片。照片的拍摄者也必须是提交者。这是一个展示摄影技巧的绝佳机会，也是为我们的品牌设计做出贡献的机会。 征集摄影比赛！ 我们非常高兴地宣布举办摄影比赛。请提交您的照片，以便有机会出现在品牌宣传材料中。您可以通过我们的 GitHub 问题跟踪器提交照片。我们将采用点赞和点踩的机制评选出最佳作品。 在此提交照片。 提交指南 欢迎您参与我们品牌设计存储库中的壁纸收藏集。 照片可以在issue 18下提交。 截止日期和要求 提交截止日期为 2024 年 11 月 1...</description>
-      <content:encoded>&lt;p&gt;非常感谢参加 &lt;a href=&quot;https://www.youtube.com/playlist?list=PL_AMhvchzBadtOw4K3kWfWhidyhXPnW9P&quot;&gt;openSUSE 大会 2024&lt;/a&gt; 上的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC24/program/proposals/4635&quot;&gt;Leap 16 品牌设计研讨会&lt;/a&gt;的所有人员。热情和创造力正在推动我们在 Leap 16 品牌设计方面迈出下一步。让我们进一步发展其中一些奇妙的想法！&lt;/p&gt;
-
-&lt;h2 id=&quot;以下是我们旨在实现的-leap-16-品牌设计计划列表&quot;&gt;以下是我们旨在实现的 Leap 16 品牌设计计划列表：&lt;/h2&gt;
-
-&lt;h3 id=&quot;抽象风格的壁纸&quot;&gt;抽象风格的壁纸&lt;/h3&gt;
-
-&lt;p&gt;我们正在寻找可以在任意发行版之间共享的壁纸设计。壁纸采用可以是渐变、分形或任何其他抽象设计，并理想地融入发行版的标志。我们的目标是创造出像变色龙一样具有视觉吸引力和普遍适应性的东西。&lt;/p&gt;
-
-&lt;h3 id=&quot;leap-16-和-tumbleweed-的抽象风格壁纸&quot;&gt;Leap 16 和 Tumbleweed 的抽象风格壁纸&lt;/h3&gt;
-
-&lt;p&gt;除了上述的新壁纸，我们还需要为 Leap 16 和 Tumbleweed 设计特定的壁纸。这些壁纸应反映每种发行版的独特身份，同时保持统一的视觉主题。我们可以考虑为 Slowroll、Kalpa、Aeon 等其他版本设计可调整的壁纸，并向这些项目提出建议。&lt;/p&gt;
-
-&lt;h3 id=&quot;变色龙的昼夜变体&quot;&gt;变色龙的昼夜变体&lt;/h3&gt;
-
-&lt;p&gt;我们还在征集以大家心爱的变色龙为特色的昼夜款式设计。这些壁纸应相辅相成，同时以富有创意和吸引力的方式表现一天中的不同时间。此外，抽象设计的白天/黑夜变体也是一种选择。虽然没有必要，但如果参与者有好的想法，我们会进一步考虑。&lt;/p&gt;
-
-&lt;h3 id=&quot;提交我们吉祥物的照片&quot;&gt;提交我们吉祥物的照片&lt;/h3&gt;
-
-&lt;p&gt;我们邀请您提交两张与我们的吉祥物变色龙或任何与之相似的照片。照片的拍摄者也必须是提交者。这是一个展示摄影技巧的绝佳机会，也是为我们的品牌设计做出贡献的机会。&lt;/p&gt;
-
-&lt;h2 id=&quot;征集摄影比赛&quot;&gt;征集摄影比赛！&lt;/h2&gt;
-
-&lt;p&gt;我们非常高兴地宣布举办摄影比赛。请提交您的照片，以便有机会出现在品牌宣传材料中。您可以通过我们的 GitHub 问题跟踪器提交照片。我们将采用点赞和点踩的机制评选出最佳作品。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/openSUSE/wallpapers/issues/18&quot;&gt;在此&lt;/a&gt;提交照片。&lt;/p&gt;
-
-&lt;h2 id=&quot;提交指南&quot;&gt;提交指南&lt;/h2&gt;
-
-&lt;p&gt;欢迎您参与我们&lt;a href=&quot;https://github.com/openSUSE/branding/issues&quot;&gt;品牌设计存储库&lt;/a&gt;中的壁纸收藏集。&lt;/p&gt;
-
-&lt;p&gt;照片可以在&lt;a href=&quot;https://github.com/openSUSE/wallpapers/issues/18&quot;&gt;issue 18&lt;/a&gt;下提交。&lt;/p&gt;
-
-&lt;h2 id=&quot;截止日期和要求&quot;&gt;截止日期和要求&lt;/h2&gt;
-
-&lt;p&gt;提交截止日期为 2024 年 11 月 1 日。请确保您的参赛作品符合以下要求：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;必须与品牌相关（变色龙、变色龙状物体等）&lt;/li&gt;
-  &lt;li&gt;仅高分辨率照片（4k 或最好 5k）&lt;/li&gt;
-  &lt;li&gt;原创作品 - 由照片作者提交或经实际作者批准&lt;/li&gt;
-  &lt;li&gt;仅横向&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;请添加您的照片副本，包括说明（拍摄地点以及图片中的内容），作为问题的评论。包含指向高分辨率变体的链接。&lt;/p&gt;
-
-&lt;p&gt;我们迫不及待地想看到您的创造性贡献，并使 Leap 16 为 openSUSE 社区中的每个人带来更加视觉震撼的体验！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/09/looking-at-next-steps-for-leap-branding/&quot;&gt;Looking at Next Steps for Leap 16 Branding&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
