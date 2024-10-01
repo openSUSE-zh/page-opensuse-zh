@@ -7,6 +7,233 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/30/monthly-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 九月</title>
+      <pubDate>Mon, 30 Sep 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/30/monthly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>欢迎阅读 openSUSE 的每月更新博客（2024 年 9 月）。Tumbleweed 本月发布了许多重要的更新和错误修复。PostgreSQL 和文本整形引擎 harfbuzz 分别更新到新的大版本（17.0 与 10.0）。风滚草还对 systemd、git、bash 和 qemu 等软件包进行了更新。同时推送至用户的还有各种软件的 CVE 补丁、GNOME 与 KDE 桌面环境组件的更新包。与往常一样，如果出现任何问题，请记住使用 snapper 进行回滚。 祝你玩得愉快！🤠 如果读者希望获得更多有关快照更新的信息，我们鼓励读者订阅 openSUSE Factory 邮件列表。 新功能和增强功能 Linux Kernel 6.11.0： 此次更新还原了 PCI ACS 可配置性扩展，以解决 bsc#1229019 问题； 修复了块子系统（block subsystem），解决了在 elv_iosched_local_module 中如何处理调度程序的问题； 更正了 AMD GPU 显示驱动程序，以解决之前与 bsc#1228093 相关的还原中出现的错误； 此次更新还包括 ALSA...</description>
+      <content:encoded>&lt;p&gt;欢迎阅读 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE&lt;/a&gt; 的每月更新博客（2024 年 9 月）。Tumbleweed 本月发布了许多重要的更新和错误修复。&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;PostgreSQL&lt;/a&gt; 和文本整形引擎 &lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 分别更新到新的大版本（17.0 与 10.0）。风滚草还对 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;、&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt;、&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; 和 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 等软件包进行了更新。同时推送至用户的还有各种软件的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt; 补丁、&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 与 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 桌面环境组件的更新包。与往常一样，如果出现任何问题，请记住使用 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 进行回滚。&lt;/p&gt;
+
+&lt;p&gt;祝你玩得愉快！🤠&lt;/p&gt;
+
+&lt;p&gt;如果读者希望获得更多有关快照更新的信息，我们鼓励读者订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux Kernel&lt;/a&gt; 6.11.0：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新还原了 &lt;a href=&quot;https://sycurio.com/knowledge/glossaries/access-control-service-acs&quot;&gt;PCI ACS&lt;/a&gt; 可配置性扩展，以解决 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1229019&quot;&gt;bsc#1229019&lt;/a&gt; 问题；&lt;/li&gt;
+      &lt;li&gt;修复了块子系统（block subsystem），解决了在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elv_iosched_local_module&lt;/code&gt; 中如何处理调度程序的问题；&lt;/li&gt;
+      &lt;li&gt;更正了 &lt;a href=&quot;https://www.amd.com/en&quot;&gt;AMD&lt;/a&gt; GPU 显示驱动程序，以解决之前与 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1228093&quot;&gt;bsc#1228093&lt;/a&gt; 相关的还原中出现的错误；&lt;/li&gt;
+      &lt;li&gt;此次更新还包括 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 补丁，以增强电源管理黑名单选项；&lt;/li&gt;
+      &lt;li&gt;这些改进预计将为各种硬件配置提供更高的稳定性和性能。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql17&lt;/a&gt;：新的主要版本提供了一些关键改进，如：
+    &lt;ul&gt;
+      &lt;li&gt;改进了 vacuum 内存管理系统，通过将内存使用量减少多达 20 倍来提高效率，同时还优化了对高并发工作负载的处理；&lt;/li&gt;
+      &lt;li&gt;17.0 版本通过更快处理 B 树索引和并行 BRIN 索引构增强了查询执行；&lt;/li&gt;
+      &lt;li&gt;新增的 SQL/JSON &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JSON_TABLE&lt;/code&gt; 命令和扩展的 MERGE 功能将使开发人员受益，使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;COPY&lt;/code&gt; 命令导出数据的速度提高了 2 倍；&lt;/li&gt;
+      &lt;li&gt;逻辑复制（Logical replication）现在无需删除复制槽（replication slots），从而简化了主要版本升级，提高了高可用性设置的易用性；&lt;/li&gt;
+      &lt;li&gt;postgresql 通过新的 TLS 选项、增量备份和详细的监控工具，进一步增强了数据库的安全性和运行管理。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/harfbuzz/harfbuzz&quot;&gt;harfbuzz&lt;/a&gt; 10.0.1：新版本对文本整形引擎进行了重要修复，其中包括：
+    &lt;ul&gt;
+      &lt;li&gt;支持 &lt;a href=&quot;https://home.unicode.org/&quot;&gt;Unicode&lt;/a&gt; 16.0.0；&lt;/li&gt;
+      &lt;li&gt;新增一个 API，允许客户端在字体不支持 Unicode 变体选择器（Unicode Variation Selector）时自定义字形，以及从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hb_face_t&lt;/code&gt; 获取表标签（table tag）的回调；&lt;/li&gt;
+      &lt;li&gt;更新还解决了成对定位查找子表应用程序（pair positioning lookup subtable application）的兼容性问题，并确保在没有字形的情况下子集失败，以防止出现静默错误（silent error）。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 46.5：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 现在解决了：
+        &lt;ul&gt;
+          &lt;li&gt;智能卡登录问题；&lt;/li&gt;
+          &lt;li&gt;修复了快速设置菜单动画中断时的故障；&lt;/li&gt;
+          &lt;li&gt;解决了受限制用户的新 Wi-Fi 连接问题；&lt;/li&gt;
+          &lt;li&gt;确保所需的动画保持启用状态；&lt;/li&gt;
+          &lt;li&gt;修复登录屏幕上待处理的 PAM 消息的显示并修复内存泄漏。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;当主窗口关闭时，&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-software&quot;&gt;gnome-software&lt;/a&gt; 的更新以及翻译更新会减少用电量。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.1.5/&quot;&gt;KDE Plasma 6.1.5&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 修正了 snapType 映射；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 现在可以正确报告扩展而不会出现错误；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 解决了数个崩溃场景，例如空取消引用和已删除设备的输入事件处理；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;Plasma Desktop&lt;/a&gt; 更新了几个修复，其中包括对 Kickoff 中的键盘导航、RTL 模式下的任务列表对齐等问题，并且它可以正确处理背景图标和测试窗口；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://invent.kde.org/plasma/plasma-workspace&quot;&gt;Plasma Workspace&lt;/a&gt; 增强了触摸屏交互、系统托盘工具提示和剪贴板功能；&lt;/li&gt;
+      &lt;li&gt;其他修复包括热插拔和 svg 渲染中的针对性崩溃，同时 &lt;a href=&quot;https://github.com/KDE/sddm-kcm&quot;&gt;sddm-kcm&lt;/a&gt; 改进了状态管理。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/6/6.6.0/&quot;&gt;Frameworks 6.6.0&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/attica/html/index.html&quot;&gt;Attica&lt;/a&gt; 为 &lt;a href=&quot;https://wiki.alpinelinux.org/wiki/Musl&quot;&gt;Alpine/musl&lt;/a&gt; 添加了 &lt;a href=&quot;https://en.wikipedia.org/wiki/Continuous_integration&quot;&gt;CI&lt;/a&gt; 作业；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://community.kde.org/Baloo&quot;&gt;Baloo&lt;/a&gt; 为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baloo_file&lt;/code&gt; 设置了崩溃处理；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/breeze&quot;&gt;Breeze&lt;/a&gt; 添加了新图标；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kcoreaddons/html/index.html&quot;&gt;KCoreAddons&lt;/a&gt; 改进了 &lt;a href=&quot;https://www.freedesktop.org/wiki/Software/dbus/&quot;&gt;dbus&lt;/a&gt; 错误处理和许可；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kdeclarative/html/index.html&quot;&gt;KDeclarative&lt;/a&gt; 调整渲染以获得更好的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dots_per_inch&quot;&gt;DPI&lt;/a&gt; 定位；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 解决了恢复已删除条目（trash entries）的问题并增强了服务菜单处理；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/ktexteditor&quot;&gt;KTextEditor&lt;/a&gt; 进行了性能优化，并对排序和独特功能进行了额外的 C++ 移植；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 继续改进图标处理和工具栏；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/knewstuff&quot;&gt;KNewStuff&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/KDE/kwallet&quot;&gt;KWallet&lt;/a&gt; 则专注于使共享操作更加可靠并增强崩溃处理。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/gear/24.08.1/&quot;&gt;KDE Gear 24.08.1&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tube.kockatoo.org/w/p/rHZEAD3pY3hNMTdZMLj4JJ&quot;&gt;Akademy 2024 视频&lt;/a&gt;已发布，同时上个月的会议付出了很多努力；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/kdepim/akonadi/html/index.html&quot;&gt;Akonadi&lt;/a&gt; 解决了与查询缓存驱逐相关（query cache eviction）的崩溃并修复了配置文件处理；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 通过修复按钮功能和文件列表大小调整，提高了可用性；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/elisa/&quot;&gt;Elisa&lt;/a&gt; 增强了其“正在播放”视图和工具栏布局；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;Itinerary&lt;/a&gt; 和 &lt;a href=&quot;https://apps.kde.org/kalarm/&quot;&gt;Kalarm&lt;/a&gt; 均获得更新，以获得更好的暗模式处理和音频警报功能；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 解决了多个时间轴和渲染问题，优化了关键帧处理并修复了与效果和过渡相关的多个错误；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/kate/&quot;&gt;Kate&lt;/a&gt; 在其格式化程序中添加了对 &lt;a href=&quot;https://odin-lang.org/&quot;&gt;Odin&lt;/a&gt; 语言的支持；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 现在为表单设置了工具提示。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键包更新&quot;&gt;关键包更新&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/git&quot;&gt;git&lt;/a&gt; 2.46.1：
+    &lt;ul&gt;
+      &lt;li&gt;对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout --ours&lt;/code&gt; 进行了说明，告知用户需要指定路径，避免混淆；&lt;/li&gt;
+      &lt;li&gt;修正了使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;diff.suppressBlankEmpty&lt;/code&gt; 的用户 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add -p&lt;/code&gt; 失败的问题；&lt;/li&gt;
+      &lt;li&gt;此外，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git notes add -m &apos;&apos; --allow-empty&lt;/code&gt; 不再不当调用编辑器，用于跟踪的不必要的重新编码操作也已删除。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 9.1.0：
+    &lt;ul&gt;
+      &lt;li&gt;该更新引入了新的迁移功能，如通过&lt;a href=&quot;https://www.intel.com/content/www/us/en/products/docs/accelerator-engines/in-memory-analytics-accelerator.html&quot;&gt;英特尔内存分析加速器&lt;/a&gt;（IAA）或&lt;a href=&quot;https://github.com/Linaro/uadk&quot;&gt;用户空间加速器开发工具包&lt;/a&gt;（UADK）提供压缩卸载（offload）支持，以及改进的复制后故障恢复；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 架构支持更多的扩展；&lt;/li&gt;
+      &lt;li&gt;[x86] 架构为 &lt;a href=&quot;https://www.amd.com/content/dam/amd/en/documents/developer/lss-snp-attestation.pdf&quot;&gt;AMD&lt;/a&gt; 增加了 &lt;a href=&quot;https://www.linux-kvm.org/page/Main_Page&quot;&gt;KVM&lt;/a&gt; 支持，并为 &lt;a href=&quot;https://en.wikipedia.org/wiki/Ice_Lake_(microprocessor)&quot;&gt;Ice Llake&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Sapphire_Rapids&quot;&gt;Sapphire Rapids&lt;/a&gt; 等较新的英特尔 CPU 型号增加了仿真功能。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 256.6：
+    &lt;ul&gt;
+      &lt;li&gt;此版本不再尝试重新启动 &lt;a href=&quot;https://en.wikipedia.org/wiki/udev&quot;&gt;udev&lt;/a&gt; 套接字单元；&lt;/li&gt;
+      &lt;li&gt;解决了问题 &lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1228809&quot;&gt;bsc#1228809&lt;/a&gt;，其中同时安全地重新启动套接字激活的服务及其套接字单元是有问题的。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pipewire.org/&quot;&gt;pipewire&lt;/a&gt; 1.2.4：
+    &lt;ul&gt;
+      &lt;li&gt;解决了清理全局变量期间的崩溃问题；&lt;/li&gt;
+      &lt;li&gt;增强了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RequestProcess&lt;/code&gt; 调度机制；&lt;/li&gt;
+      &lt;li&gt;Simple Plugin API 框架现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-logind&lt;/code&gt; 检测新设备；&lt;/li&gt;
+      &lt;li&gt;脉冲编码调制设备处理也得到了改进。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 1.24.8：
+    &lt;ul&gt;
+      &lt;li&gt;改进了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;decodebin3&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;encodebin&lt;/code&gt; 中的处理，分别实现更好的媒体解码和智能渲染；&lt;/li&gt;
+      &lt;li&gt;增强了视频大小更改时正确调整视口大小的增强功能，并增强了音频流增强功能以​​更好地与 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; 兼容；&lt;/li&gt;
+      &lt;li&gt;针对 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 进行了一些稳定性修复，包括崩溃预防和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Application_binary_interface&quot;&gt;ABI&lt;/a&gt; 接口修正。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 24.1.7：
+    &lt;ul&gt;
+      &lt;li&gt;此版本继续支持 [OpenGL] 4.6 和 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 1.3，但报告的版本取决于所使用的特定驱动程序；&lt;/li&gt;
+      &lt;li&gt;主要错误修复包括解决智能卡登录问题、生成枚举时的竞争条件问题，以及使用某些 GPU 的《黑神话：悟空》和《DCS World》等游戏中的工件问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK4&lt;/a&gt; 4.16.1：
+    &lt;ul&gt;
+      &lt;li&gt;GTK Scene Graph Kit 层对 Vulkan 操作进行了速度优化，通过跳过不必要的 GL 和 Vulkan 初始化来减少启动时间，并修复了与某些 Vulkan 驱动程序相关的崩溃；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.gimp.org/&quot;&gt;GIMP&lt;/a&gt; 绘图套件中的内存格式转换现在更快；&lt;/li&gt;
+      &lt;li&gt;构建工具也得到了改进，以实现更好的盒子转换（box conversion）。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/bash/&quot;&gt;bash&lt;/a&gt; 5.2.37：
+    &lt;ul&gt;
+      &lt;li&gt;此更新包含关键补丁，可解决自动完成过程中引用文本的错误处理以及 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;readline&lt;/code&gt; 中的多字节字符处理等问题；&lt;/li&gt;
+      &lt;li&gt;此更新解决了系统与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;select&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pselect&lt;/code&gt; 可用性的兼容性问题；&lt;/li&gt;
+      &lt;li&gt;修复了别名扩展期间复合分配中的解析问题；&lt;/li&gt;
+      &lt;li&gt;更正了 autoconf 测试中影响使用 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 14 编译时 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strtold&lt;/code&gt; 可用性的拼写错误。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.1.0718：
+    &lt;ul&gt;
+      &lt;li&gt;文本编辑器中一个值得注意的修正是解决了个人 Vim 运行时目录识别的问题；&lt;/li&gt;
+      &lt;li&gt;此更新还解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parse_command_modifiers()&lt;/code&gt; 中不必要的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NULL&lt;/code&gt; 检查，并更正了先前版本中引入的颜色名称解析错误；&lt;/li&gt;
+      &lt;li&gt;其他改进包括对各种文件类型（例如 HCL、Terraform 和 tmux）的语法突出显示的更新；&lt;/li&gt;
+      &lt;li&gt;进行了性能改进，包括更有效地插入计数和解决光标位置崩溃问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;错误修复&quot;&gt;错误修复&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 8.10.0：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-8096.html&quot;&gt;CVE-2024-8096&lt;/a&gt; 可能使用在线证书状态协议装订（Online Certificate Status Protocol stapling）错误地验证了证书，忽略了某些错误，例如 “unauthorized”（未经授权）。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-41996.html&quot;&gt;CVE-2024-41996&lt;/a&gt; 已修复，该漏洞可能允许远程攻击者通过 &lt;a href=&quot;https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange&quot;&gt;Diffie-Hellman&lt;/a&gt; 中的公钥顺序验证来触发代价高昂的服务器端 DHE 计算。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql17&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-7348.html&quot;&gt;CVE-2024-7348&lt;/a&gt; 修复了一个竞争条件，该条件可能允许攻击者以运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; 用户身份执行任意 SQL。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;python311&lt;/a&gt;：这个包修复了一些 CVE。其中有：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-4030.html&quot;&gt;CVE-2024-4030&lt;/a&gt; 进行了修复，以确保应用 Unix“700” 权限来保护目录。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.simplesystems.org/libtiff/&quot;&gt;tiff&lt;/a&gt; 4.7.0：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-52356.html&quot;&gt;CVE-2023-52356&lt;/a&gt; 存在分段错误，允许远程攻击者触发堆缓冲区溢出，从而可能导致拒绝服务；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-7006.html&quot;&gt;CVE-2024-7006&lt;/a&gt; 具有空指针取消引用，可能会触发应用程序崩溃并导致拒绝服务。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 24.8.1.2：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-5261.html&quot;&gt;CVE-2024-5261&lt;/a&gt; 已修复，该问题禁用 TLS 证书验证，从而导致在第三方组件中的文档处理期间出现不正确的证书验证。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt; 130.0.1：此版本修复了多个 CVE。
+    &lt;ul&gt;
+      &lt;li&gt;最关键的修复之一涉及 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/&quot;&gt;CVE-2024-8385&lt;/a&gt;，WASM 类型混淆问题可能会导致可利用的漏洞；&lt;/li&gt;
+      &lt;li&gt;另一个重要修复是针对 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/&quot;&gt;CVE-2024-8381&lt;/a&gt;，它在 “with” 块中查找属性名称时可能会触发类型混淆漏洞；&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/&quot;&gt;CVE-2024-8388&lt;/a&gt; 修复了 Android 设备上可能隐藏全屏通知的问题，可能导致 UI 欺骗攻击；&lt;/li&gt;
+      &lt;li&gt;火狐还修复了两个内存安全错误 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/&quot;&gt;CVE-2024-8387&lt;/a&gt; 和 &lt;a href=&quot;https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/&quot;&gt;CVE-2024-8389&lt;/a&gt;。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apr.apache.org/download.cgi&quot;&gt;apr&lt;/a&gt; 1.7.5：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-49582.html&quot;&gt;CVE-2023-49582&lt;/a&gt; 具有共享内存权限，可能会将敏感数据暴露给本地用户。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;Tumbleweed 在 2024 年 9 月继续为用户带来了重要更新。对 PostgreSQL、libtiff 和 LibreOffice 等软件包进行了安全修复，以确保稳定性和安全性。 对 systemd、git 和 qemu 等工具进行了重大改进，提高了性能和兼容性。值得注意的是，PostgreSQL 17 和 Harfbuzz 10 的更新也带来了重大改进，为更强大、更完善的滚动发布环境做出了贡献。&lt;/p&gt;
+
+&lt;p&gt;对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/09/30/tw-monthly-update-september/&quot;&gt;Tumbleweed Monthly Update - September 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/25/fde.html</guid>
       <title>快速入门：使用 TPM 和 YaST2 进行全盘加密</title>
       <pubDate>Wed, 25 Sep 2024 23:00:00 +0000</pubDate>
@@ -739,51 +966,6 @@ False
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/25/pre-rc-image-released/&quot;&gt;Pre-RC3 Image Released for Aeon Desktop&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/07/17/asia-summit.html</guid>
-      <title>openSUSE.Asia 峰会旅行计划和征集演讲者活动截止时间</title>
-      <pubDate>Wed, 17 Jul 2024 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/07/17/asia-summit.html</link>
-      <author>Poplar at twilight</author>
-      <description>2024 年的 openSUSE.Asia 峰会即将到来，我们很高兴邀请来自世界各地的参与者于 11 月 2 日至 3 日在日本东京参加峰会。 今年将举办各种各样的会议和活动，其中包括与来自 AlmaLinux、Debian 和 Ubuntu 的社区成员合作的包容性 Cross-Distro Track。 想要发表演讲的人需要在 8 月 4 日之前提交长篇演讲或短篇演讲演示文稿。需要经济援助的演讲者可以使用旅行支持计划 (TSP)，该计划由 Geeko 基金会的捐款提供资助。TSP 可帮助支付差旅费。下面详细介绍了 TSP 申请和演讲者提案的重要截止日期，以确保您不会错过这个难得的机会。 旅行支持计划（TSP）日程安排表 TSP 旨在帮助您参加峰会。以下是您需要遵循的时间表： 开放 TSP 申请： 请尽快抓紧时间申请。 征集演讲者截止日期：8 月 4 日：如果您有兴趣分享您的知识和经验，请在此日期前提交您的提案。 TSP 申请截止日期：8 月 20 日。确保在此日期前完成并提交差旅支持申请。访问维基了解更多信息 演讲者征集通知： 演讲者将在八月底收到提案是否被接受的通知。 TSP 确认：差旅费资助的最终确认将在发言人收到通知后不久进行，时间在 8 月...</description>
-      <content:encoded>&lt;p&gt;2024 年的 openSUSE.Asia 峰会即将到来，我们很高兴&lt;a href=&quot;https://news.opensuse.org/2024/05/31/os-asia-summit-invitation/&quot;&gt;邀请&lt;/a&gt;来自世界各地的参与者于 11 月 2 日至 3 日在日本东京参加峰会。&lt;/p&gt;
-
-&lt;p&gt;今年将举办各种各样的会议和活动，其中包括与来自 AlmaLinux、Debian 和 Ubuntu 的社区成员合作的包容性 Cross-Distro Track。&lt;/p&gt;
-
-&lt;p&gt;想要发表演讲的人需要在 8 月 4 日之前&lt;a href=&quot;https://news.opensuse.org/2024/06/04/os-asia-summit-call-for-speakers/&quot;&gt;提交长篇演讲或短篇演讲演示文稿&lt;/a&gt;。需要经济援助的演讲者可以使用旅行支持计划 (&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;TSP&lt;/a&gt;)，该计划由 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt;的捐款提供资助。TSP 可帮助支付差旅费。下面详细介绍了 TSP 申请和演讲者提案的重要截止日期，以确保您不会错过这个难得的机会。&lt;/p&gt;
-
-&lt;h2 id=&quot;旅行支持计划tsp日程安排表&quot;&gt;旅行支持计划（TSP）日程安排表&lt;/h2&gt;
-
-&lt;p&gt;TSP 旨在帮助您参加峰会。以下是您需要遵循的时间表：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;开放 TSP 申请： 请尽快抓紧时间申请。&lt;/li&gt;
-  &lt;li&gt;征集演讲者截止日期：8 月 4 日：如果您有兴趣分享您的知识和经验，请在此日期前提交您的提案。&lt;/li&gt;
-  &lt;li&gt;TSP 申请截止日期：8 月 20 日。确保在此日期前完成并提交差旅支持申请。访问&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;维基&lt;/a&gt;了解更多信息&lt;/li&gt;
-  &lt;li&gt;演讲者征集通知： 演讲者将在八月底收到提案是否被接受的通知。&lt;/li&gt;
-  &lt;li&gt;TSP 确认：差旅费资助的最终确认将在发言人收到通知后不久进行，时间在 8 月 26 日左右。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;提交您的提案&quot;&gt;提交您的提案&lt;/h2&gt;
-
-&lt;p&gt;openSUSE.Asia 委员会正在寻找能够带来与 openSUSE 和其他 Linux 发行版相关的不同观点和见解的演讲者。以下是一些指南和提示，可帮助您提交一份有说服力的提案：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;主题：我们对广泛的主题感兴趣，包括但不限于 openSUSE 项目（Leap、Tumbleweed、MicroOS）、桌面环境（GNOME、KDE、XFCE）、办公和图形应用程序（LibreOffice、GIMP）、云计算和虚拟化（Kubernetes、Rancher）以及软件包供应链安全。&lt;/li&gt;
-  &lt;li&gt;非技术主题：我们也欢迎分享开源技术、社区管理、教育和个人经历故事等方面的见解。&lt;/li&gt;
-  &lt;li&gt;会议类型：您可以提交长篇演讲（30 分钟加问答）或短篇演讲（15 分钟加问答）。闪电演讲的细节将在稍后公布。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如何提交：您应该通过 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;events.opensuse.org&lt;/a&gt; 提交提案。请确保您提交的内容以英文书写，字数在 130 到 250 之间，并且遵守 openSUSE 会议行为准则。如需了解如何撰写有说服力的建议书，请参阅我们的建议书撰写指南。&lt;/p&gt;
-
-&lt;p&gt;演讲要求：您可以使用英语或日语进行演示，但所有幻灯片和文件必须使用英语。请注意，不允许预先录制视频或视频通话；您必须亲临会场。有关详细信息，请访问 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;events.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/16/summit-tsp-cfp-deadline/&quot;&gt;Asia Summit’s Travel Support Program and Call for Speakers Deadlines&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
