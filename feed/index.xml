@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/10/02/opensuse-asia.html</guid>
+      <title>openSUSE.Asia 峰会日程已发布</title>
+      <pubDate>Wed, 02 Oct 2024 23:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/10/02/opensuse-asia.html</link>
+      <author>Poplar at twilight</author>
+      <description>今年的 openSUSE.Asia 峰会的日程安排已经出炉，演讲阵容强大多样，突出了开源和 openSUSE 项目的进步。 今年的活动在日本东京举行，从 11 月 2 日持续到 11 月 3 日，为期两天，包括有关 openSUSE、Fedora、Ubuntu、Debian、AlmaLinux、Rocky Linux 和许多其他开源项目的技术讲座。 峰会将世界各地的开发人员、社区成员和开源爱好者聚集到亚洲，就 Linux 发行版的更新、安全性和设计进行讨论。 Fuminobu Takeyama 将致欢迎词并宣布活动开始，随后提供会场的 SHIFT 公司将发表主题演讲。紧接着是题为 “什么是 openSUSE？” 的演讲，以及 Leap 的未来和 Geeko 基金会的最新情况。来自 Geeko 基金会的受托人将概述基金会的财务和运营进展，并就旅行支持计划的使用、筹款工作等发表见解。 在峰会开始时，将举行一场以 openSUSE Leap Micro 为重点的关于容器和虚拟化平台的技术主题演讲，以及一场关于根据中文、日文和韩文（CJK）用户的特定需求为 LibreOffice 提供语言支持的演讲。 在峰会的第一天，一场有关安全化软件打包和 AI/ML 边缘计算的演讲将为与会者提供一些精彩的内容。 第二天的会谈将涉及桌面 Linux 的未来、医疗保健领域的自由软件以及使用开源技术的地理信息系统等领域。 原文：Schedule for openSUSE.Asia...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/schedule&quot;&gt;今年的 openSUSE.Asia 峰会的日程安排&lt;/a&gt;已经出炉，演讲阵容强大多样，突出了开源和 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;的进步。&lt;/p&gt;
+
+&lt;p&gt;今年的活动在日本东京举行，从 11 月 2 日持续到 11 月 3 日，为期两天，包括有关 openSUSE、&lt;a href=&quot;https://fedoraproject.org/&quot;&gt;Fedora&lt;/a&gt;、&lt;a href=&quot;https://ubuntu.com/download&quot;&gt;Ubuntu&lt;/a&gt;、&lt;a href=&quot;https://www.debian.org/&quot;&gt;Debian&lt;/a&gt;、&lt;a href=&quot;https://almalinux.org/&quot;&gt;AlmaLinux&lt;/a&gt;、&lt;a href=&quot;https://rockylinux.org/&quot;&gt;Rocky Linux&lt;/a&gt; 和许多其他开源项目的技术讲座。&lt;/p&gt;
+
+&lt;p&gt;峰会将世界各地的开发人员、社区成员和开源爱好者聚集到亚洲，就 Linux 发行版的更新、安全性和设计进行讨论。&lt;/p&gt;
+
+&lt;p&gt;Fuminobu Takeyama 将致欢迎词并宣布活动开始，随后提供会场的 &lt;a href=&quot;https://en.shiftinc.jp/&quot;&gt;SHIFT 公司&lt;/a&gt;将发表主题演讲。紧接着是题为 “&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4772&quot;&gt;什么是 openSUSE？&lt;/a&gt;” 的演讲，以及 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4745&quot;&gt;Leap 的未来&lt;/a&gt;和 Geeko 基金会的最新情况。来自 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt;的受托人将概述基金会的财务和运营进展，并就&lt;a href=&quot;https://tsp.opensuse.org/&quot;&gt;旅行支持计划&lt;/a&gt;的使用、筹款工作等发表见解。&lt;/p&gt;
+
+&lt;p&gt;在峰会开始时，将举行一场以 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;openSUSE Leap Micro&lt;/a&gt; 为重点的关于&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4913&quot;&gt;容器和虚拟化平台&lt;/a&gt;的技术主题演讲，以及一场关于根据&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4899&quot;&gt;中文、日文和韩文（CJK）用户的特定需求&lt;/a&gt;为 &lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;LibreOffice&lt;/a&gt; 提供语言支持的演讲。&lt;/p&gt;
+
+&lt;p&gt;在峰会的第一天，一场有关&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4796&quot;&gt;安全化软件打包&lt;/a&gt;和 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4848&quot;&gt;AI/ML 边缘计算&lt;/a&gt;的演讲将为与会者提供一些精彩的内容。&lt;/p&gt;
+
+&lt;p&gt;第二天的会谈将涉及&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4869&quot;&gt;桌面 Linux 的未来&lt;/a&gt;、&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4818&quot;&gt;医疗保健领域的自由软件&lt;/a&gt;以及使用开源技术的&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS24/program/proposals/4839&quot;&gt;地理信息系统&lt;/a&gt;等领域。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/02/schedule-for-osas-is-published/&quot;&gt;Schedule for openSUSE.Asia Summit is Published&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/30/monthly-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 九月</title>
       <pubDate>Mon, 30 Sep 2024 23:00:00 +0000</pubDate>
@@ -935,37 +962,6 @@ False
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/28/rc-image-released/&quot;&gt;Aeon RC3 Released&lt;/a&gt;，作者：Richard Brown&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/25/aeon.html</guid>
-      <title>Aeon 桌面 Pre-RC3 镜像现已发布</title>
-      <pubDate>Thu, 25 Jul 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/25/aeon.html</link>
-      <author>Poplar at twilight</author>
-      <description>Aeon 桌面的实验性 “Pre-RC3” 映像已发布，我们鼓励测试者在其成为正式的候选发布版 3 (RC3) 之前试用最终原型。新镜像可从 openSUSE 开发库中下载。 该原型已提交给 openSUSE Factory，其中引入了一些重大变更和改进。值得注意的是，tik 安装程序中的 dd 后端已被新的 systemd-repart 后端所取代。这一改动允许安装具有全盘加密功能的 Aeon，从而增强操作系统的安全功能。 使用 Aeon RC2 及更旧版本的用户需要重新安装才能使用 RC3 的新功能。据新的 Aeon Desktop Reddit 子论坛上的一篇帖子称，由于新加密功能所需的分区布局发生了根本性变化，在不危及数据完整性的情况下，从 RC2 原地升级是不可行的。用户可以利用 Aeon 的重装功能，只要使用足够大的 U 盘，就可以方便地备份和恢复用户数据。 安装原型镜像的用户可能会遇到一些来自 OBS devel 项目的软件包。可以通过运行 transactional-update --interactive dup 并选择用官方软件包替换 devel:microos 软件包的解决方案来移除这些软件包。 我们鼓励测试人员在 Aeon Desktop 错误报告页面上提供反馈并报告测试阶段遇到的任何问题。 下一步行动 如果原型被...</description>
-      <content:encoded>&lt;p&gt;Aeon 桌面的实验性 “Pre-RC3” 映像已发布，我们鼓励测试者在其成为正式的候选发布版 3 (RC3) 之前试用最终原型。新镜像可从 openSUSE 开发库中下载。&lt;/p&gt;
-
-&lt;p&gt;该原型已提交给 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt;，其中引入了一些重大变更和改进。值得注意的是，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tik&lt;/code&gt; 安装程序中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dd&lt;/code&gt; 后端已被新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-repart&lt;/code&gt; 后端所取代。这一改动允许安装具有&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;全盘加密&lt;/a&gt;功能的 Aeon，从而增强操作系统的安全功能。&lt;/p&gt;
-
-&lt;p&gt;使用 Aeon RC2 及更旧版本的用户需要重新安装才能使用 RC3 的新功能。据新的 &lt;a href=&quot;https://www.reddit.com/r/AeonDesktop/&quot;&gt;Aeon Desktop Reddit 子论坛&lt;/a&gt;上的一篇帖子称，由于新加密功能所需的分区布局发生了根本性变化，在不危及数据完整性的情况下，从 RC2 原地升级是不可行的。用户可以利用 Aeon 的&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon/InstallGuide#Backup_Existing_Users&quot;&gt;重装功能&lt;/a&gt;，只要使用足够大的 U 盘，就可以方便地备份和恢复用户数据。&lt;/p&gt;
-
-&lt;p&gt;安装原型镜像的用户可能会遇到一些来自 OBS devel 项目的软件包。可以通过运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update --interactive dup&lt;/code&gt; 并选择用官方软件包替换 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;devel:microos&lt;/code&gt; 软件包的解决方案来移除这些软件包。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励测试人员在 &lt;a href=&quot;https://bugzilla.opensuse.org/enter_bug.cgi?product=openSUSE+Aeon&amp;amp;format=guided&quot;&gt;Aeon Desktop 错误报告页面&lt;/a&gt;上提供反馈并报告测试阶段遇到的任何问题。&lt;/p&gt;
-
-&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
-
-&lt;p&gt;如果原型被 Factory 接受并成为RC3，Aeon 的开发将进入正式发布前的最后阶段。RC3 将作为为 Aeon 编写 openQA 测试的基础，这对于确保桌面的稳定性和功能至关重要。&lt;/p&gt;
-
-&lt;p&gt;我们有可能推出 RC4，其目标是通过在安装程序映像中嵌入完整的 Aeon 安装来简化安装程序流程，从而可能将下载大小减少 50%。如果这种方法在短期内不可行，则可能会在发布后重新考虑。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;全盘加密&lt;/a&gt;有两种设置模式：Default 模式或 Fallback 模式。有关更多信息，请参阅 &lt;a href=&quot;https://news.opensuse.org/2024/07/12/aeon-desktop-intros-fde/&quot;&gt;Aeon Desktop 介绍全面全盘加密的文章&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/25/pre-rc-image-released/&quot;&gt;Pre-RC3 Image Released for Aeon Desktop&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
