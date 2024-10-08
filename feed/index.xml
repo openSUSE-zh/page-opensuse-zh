@@ -7,6 +7,87 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/07/leap-16.html</guid>
+      <title>Leap 16.0 进入开发阶段</title>
+      <pubDate>Mon, 07 Oct 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/07/leap-16.html</link>
+      <author>Poplar at twilight</author>
+      <description>大家好！ 我在此正式宣布 Leap 16.0 进入开发阶段，以及 16.0 pre-Alpha 版本的发布。由于这是 pre-Alpha 版本，可能会发生重大变化，最终产品在 Alpha、Beta、候选发布或正式发布阶段可能会有很大不同。安装程序目前将为您提供 Base、GNOME 和 KDE 三种桌面环境。 用户可从 get.opensuse.org/leap/16.0 获取新的 Agama 安装镜像。安装程序目前提供 Base、GNOME 和 KDE 三种桌面环境。 Leap 16.0 是传统的发行版，也是 Leap 15.6 的后续版本，预计将于 2025 年秋季正式发布。 我们打算为用户提供足够多的重叠部分，以便 15.6 用户可以顺利迁移，就像他们习惯于以前的版本一样。 更多详细信息请参阅我们的路线图。由于我们必须应对任何 SUSE Linux Enterprise Server 16 计划的变更，因此路线图可能会有变动。 用户可以期待一个全新形式的传统发行版，它基于最新的 SLES 16 的二进制文件和我们 Factory 开发代码库中的社区软件包。 我们没有制作 Leap...</description>
+      <content:encoded>&lt;p&gt;大家好！&lt;/p&gt;
+
+&lt;p&gt;我在此正式宣布 Leap 16.0 进入开发阶段，以及 16.0 pre-Alpha 版本的发布。由于这是 pre-Alpha 版本，可能会发生重大变化，最终产品在 Alpha、Beta、候选发布或正式发布阶段可能会有很大不同。安装程序目前将为您提供 Base、GNOME 和 KDE 三种桌面环境。&lt;/p&gt;
+
+&lt;p&gt;用户可从 &lt;a href=&quot;https://get.opensuse.org/leap/16.0&quot;&gt;get.opensuse.org/leap/16.0&lt;/a&gt; 获取新的 &lt;a href=&quot;https://github.com/agama-project/agama&quot;&gt;Agama&lt;/a&gt; 安装镜像。安装程序目前提供 Base、GNOME 和 KDE 三种桌面环境。&lt;/p&gt;
+
+&lt;p&gt;Leap 16.0 是传统的发行版，也是 Leap 15.6 的后续版本，预计将于 2025 年秋季正式发布。&lt;/p&gt;
+
+&lt;p&gt;我们打算为用户提供足够多的重叠部分，以便 15.6 用户可以顺利迁移，就像他们习惯于以前的版本一样。&lt;/p&gt;
+
+&lt;p&gt;更多详细信息请参阅我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#DRAFT_Schedule_for_Leap_16.0&quot;&gt;路线图&lt;/a&gt;。由于我们必须应对任何 SUSE Linux Enterprise Server 16 计划的变更，因此路线图可能会有变动。&lt;/p&gt;
+
+&lt;p&gt;用户可以期待一个全新形式的传统发行版，它基于最新的 SLES 16 的二进制文件和我们 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;Factory&lt;/a&gt; 开发代码库中的社区软件包。&lt;/p&gt;
+
+&lt;p&gt;我们没有制作 Leap 15.7 的计划，但是我们仍然需要通过 Package HUB 为即将发布的 SLES 15 SP7 提供之前从 Leap 15 发布的社区软件包。这就是 OBS 中有 openSUSE:Backports:SLE-15-SP7 项目和 15.7 仓库的原因。&lt;/p&gt;
+
+&lt;h2 id=&quot;谁适合用这个-pre-alpha-版本&quot;&gt;谁适合用这个 pre-Alpha 版本&lt;/h2&gt;
+
+&lt;p&gt;这是一个处于预开发（pre-Alpha）阶段的产品，不适合用于承载日常负载任务。我强烈建议先在虚拟机中安装，并熟悉在线安装程序 Agama。&lt;/p&gt;
+
+&lt;p&gt;pre-Alpha 的目标受众是早期采用者和愿意积极参与这项大型工作的贡献者。采用者应考虑不时启动 Agama Media，以检查与其硬件的兼容性。&lt;/p&gt;
+
+&lt;p&gt;对于非贡献者用户，我强烈建议等待 Beta 版，预计将于 2025 年春季末推出。&lt;/p&gt;
+
+&lt;h2 id=&quot;如何报告错误&quot;&gt;如何报告错误？&lt;/h2&gt;
+
+&lt;p&gt;我想请您在报告新问题之前检查我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知错误维基页面&lt;/a&gt;。如果您发现可能影响用户的新问题，请随时将其添加到页面。&lt;/p&gt;
+
+&lt;p&gt;特别是对于 Agama，我强烈建议使用 github.com/agama-project 并与 YaST 团队合作提出建议并合并任何更改。&lt;/p&gt;
+
+&lt;p&gt;对于其余组件，工作流程没有改变；只需选择 16.0 版本进行错误提交即可。&lt;/p&gt;
+
+&lt;h2 id=&quot;功能请求&quot;&gt;功能请求&lt;/h2&gt;
+
+&lt;p&gt;对从 SLES 16 继承的软件包的所有更改都需要通过&lt;a href=&quot;https://code.opensuse.org/leap/features&quot;&gt;功能请求&lt;/a&gt;来请求。&lt;/p&gt;
+
+&lt;p&gt;功能请求将在每周一的&lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/calendar.opensuse.org&quot;&gt;功能审核会议&lt;/a&gt;上进行审核，我们将把 &lt;a href=&quot;https://code.opensuse.org/&quot;&gt;code-o-o&lt;/a&gt; 请求转换为 SUSE 工程部使用的 JIRA 请求（如适用）。&lt;/p&gt;
+
+&lt;p&gt;factory 自动化机器人将拒绝所有指向 &lt;a href=&quot;https://code.opensuse.org/&quot;&gt;code-o-o&lt;/a&gt; 的 SLES 软件包代码提交请求。您只需运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;osc ls SUSE:SLFO:1.1:Build&lt;/code&gt;，即可获得所有 SLFO/SLES 软件包的列表。&lt;/p&gt;
+
+&lt;p&gt;补充说明，SLFO 即 SUSE Linux Framework One，是 SLES 16 和 SL Micro 6.X 的源代码池。SLFO 此前被称为 ALP（Adaptable Linux Platform）。&lt;/p&gt;
+
+&lt;p&gt;我强烈建议使用 code-o-o 来协调更大规模的社区工作，例如启用对 Xfce 的支持，这可能需要更新一些 SLES 依赖项。这样我们就能共享更多的信息，并更好地推理相关的 SLES 更新请求。功能列表对于发布文章也非常有价值。&lt;/p&gt;
+
+&lt;h2 id=&quot;在哪里提交包如何构建以及在哪里进行测试&quot;&gt;在哪里提交包、如何构建以及在哪里进行测试？&lt;/h2&gt;
+
+&lt;p&gt;Leap 16.0 在 openSUSE:Leap:16.0 项目中进行构建，在 2025 年春末 Beta 版代码提交截止日期之前，我们非常欢迎任何社区提交的代码。我们打算保留以前的开发模式，除非必要，否则应避免分叉 SLES 软件包。我们不能再将 SLES 代码提交从 OBS &lt;a href=&quot;https://en.opensuse.org/Portal:Jump:OBS:SRMirroring&quot;&gt;映射&lt;/a&gt;到 IBS。因此，所有 SLES 16 的更新请求都必须通过功能请求来提交。&lt;/p&gt;
+
+&lt;p&gt;为了进行质量控制，我们在 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/129&quot;&gt;Leap 16.0 任务组&lt;/a&gt;中提供了基于 Agama 安装的基本测试套件。稍后，我们计划重新设计现有的 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/126&quot;&gt;Leap 16.0 镜像任务组&lt;/a&gt;，以测试其余的设备映像。&lt;/p&gt;
+
+&lt;p&gt;我们维护社区软件包的项目可能会有变化，因为我们还没有完全确定如何制作 Package HUB；我们可能会使用与 Backports 类似的结构，就像 15.3+ 中那样。&lt;/p&gt;
+
+&lt;p&gt;进一步改进测试套件是我们目前最需要帮助的领域之一。相关的 progress.opensuse.org 跟踪器是 &lt;a href=&quot;https://progress.opensuse.org/issues/164141&quot;&gt;poo#164141 Leap 16.0 enablement&lt;/a&gt; 和 &lt;a href=&quot;https://progress.opensuse.org/issues/166562&quot;&gt;poo#166562 upgrade from 15.6&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;另一个您可以提供帮助的领域是新软件包的提交和相关维护者对 Leap 16.0 软件包提交的审查。这些审查是有意义的，因为我们希望与维护者一起检查特定版本中的软件是否有必要纳入 Leap 16.0，而不是盲目地复制所有软件包。&lt;/p&gt;
+
+&lt;h2 id=&quot;参与品牌和营销工作&quot;&gt;参与品牌和营销工作&lt;/h2&gt;
+
+&lt;p&gt;我非常自豪地宣布新的品牌推广工作，并感谢所有帮助 Leap 和 Tumbleweed 焕然一新的人们。因为还有一些未被公开的惊喜，我们计划发表一篇文章或一段视频，介绍这些变化以及进一步的计划。&lt;/p&gt;
+
+&lt;p&gt;您想在这方面帮助我们吗？请传播有关 openSUSE 的新闻并在 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 频道&lt;/a&gt;上加入我们的 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Marketing_team&quot;&gt;openSUSE 营销团队&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;非常感谢所有帮助我们实现这一切的人。&lt;/p&gt;
+
+&lt;p&gt;Lubos Kocman，&lt;br /&gt;
+代表 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Release_team&quot;&gt;openSUSE 发行团队&lt;/a&gt;&lt;br /&gt;
+致以问候。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/&quot;&gt;Development start of Leap 16.0&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/10/02/opensuse-asia.html</guid>
       <title>openSUSE.Asia 峰会日程已发布</title>
       <pubDate>Wed, 02 Oct 2024 23:30:00 +0000</pubDate>
@@ -896,72 +977,6 @@ False
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/31/tw-monthly-update-july/&quot;&gt;Tumbleweed Monthly Update - July 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/27/aeon-rc3.html</guid>
-      <title>Aeon 桌面 RC3 镜像现已发布</title>
-      <pubDate>Sat, 27 Jul 2024 19:40:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/07/27/aeon-rc3.html</link>
-      <author>Poplar at twilight</author>
-      <description>Aeon 团队非常高兴地宣布，随着快照 20240726 的发布，Aeon Desktop 现已正式进入候选版本 3 (RC3) 状态！ 此版本最大的变化是默认引入全盘加密，并在安装过程中自动配置。 根据您的硬件，Aeon 将自动以两种模式之一配置全盘加密： Default 模式，在自动解密系统之前，通过可信平台模块版本 2.0（简称 TPM2）、initrd 和内核对引导加载程序进行严格验证。 Fallback 模式，不验证启动组件，但需要启动时的密码来解密您的系统 有关更多详细信息，请阅读我们的加密文档。 请从 aeondesktop.org 下载 Aeon 并按照我们的安装指南进行安装。 想要使用 RC3 加密功能的现有 Aeon 用户需要重装系统 专业建议：建议使用大容量 U 盘来实现现有用户数据和配置的自动备份/还原功能。请确保 U 盘具有足够的空间来完成这一过渡。 #RC3 预计将是最后一个需要重新安装的 RC。安装 RC3 的用户可以期望自动升级到任何未来的 RC 版本和正式版本，而在目前的测试中似乎不太需要 RC4。 幕后花絮 RC3 还带来了一些不错的技术和社区改进，为 Aeon 的正式发布做准备： tik（Aeon 的安装程序）现在使用...</description>
-      <content:encoded>&lt;p&gt;Aeon 团队非常高兴地宣布，&lt;a href=&quot;https://www.reddit.com/r/AeonDesktop/comments/1edi3tr/aeon_rc3_released/&quot;&gt;随着快照 20240726 的发布&lt;/a&gt;，&lt;a href=&quot;https://aeondesktop.github.io/&quot;&gt;Aeon Desktop&lt;/a&gt; 现已正式进入候选版本 3 (RC3) 状态！&lt;/p&gt;
-
-&lt;p&gt;此版本最大的变化是默认引入&lt;a href=&quot;https://news.opensuse.org/2024/07/12/aeon-desktop-intros-fde/&quot;&gt;全盘加密&lt;/a&gt;，并在安装过程中自动配置。&lt;/p&gt;
-
-&lt;p&gt;根据您的硬件，Aeon 将自动以两种模式之一配置全盘加密：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Default 模式，在自动解密系统之前，通过可信平台模块版本 2.0（简称 TPM2）、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;initrd&lt;/code&gt; 和内核对引导加载程序进行严格验证。&lt;/li&gt;
-  &lt;li&gt;Fallback 模式，不验证启动组件，但需要启动时的密码来解密您的系统&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;有关更多详细信息，请阅读我们的&lt;a href=&quot;https://en.opensuse.org/index.php?title=Portal:Aeon/Encryption&quot;&gt;加密文档&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;请从 &lt;a href=&quot;https://aeondesktop.org/&quot;&gt;aeondesktop.org&lt;/a&gt; 下载 Aeon 并按照我们的&lt;a href=&quot;https://en.opensuse.org/Portal:Aeon/InstallGuide&quot;&gt;安装指南&lt;/a&gt;进行安装。&lt;/p&gt;
-
-&lt;h2 id=&quot;想要使用-rc3-加密功能的现有-aeon-用户需要重装系统&quot;&gt;想要使用 RC3 加密功能的现有 Aeon 用户需要重装系统&lt;/h2&gt;
-
-&lt;p&gt;专业建议：建议使用大容量 U 盘来实现现有用户数据和配置的自动备份/还原功能。请确保 U 盘具有足够的空间来完成这一过渡。&lt;/p&gt;
-
-&lt;p&gt;#RC3 预计将是最后一个需要重新安装的 RC。安装 RC3 的用户可以期望自动升级到任何未来的 RC 版本和正式版本，而在目前的测试中似乎不太需要 RC4。&lt;/p&gt;
-
-&lt;h2 id=&quot;幕后花絮&quot;&gt;幕后花絮&lt;/h2&gt;
-
-&lt;p&gt;RC3 还带来了一些不错的技术和社区改进，为 Aeon 的正式发布做准备：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tik&lt;/code&gt;（Aeon 的安装程序）现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-repart&lt;/code&gt; 而不是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dd&lt;/code&gt; 来部署映像。正如您现在在 RC3 所看到的那样，这就是能启用全盘加密的原因。&lt;/li&gt;
-  &lt;li&gt;Aeon 现在有一份官方品牌指南，涵盖徽标、颜色以及在传播 Aeon 信息时如何使用这些内容的建议。&lt;/li&gt;
-  &lt;li&gt;Aeon 现在有一个官方 &lt;a href=&quot;https://www.reddit.com/r/AeonDesktop/&quot;&gt;Subreddit&lt;/a&gt;，用于发布相关公告、开发博客，并且社区可以使用它进行讨论、技术帮助或与 Aeon 相关的任何其他内容。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;下一步行动&quot;&gt;下一步行动&lt;/h2&gt;
-
-&lt;p&gt;RC3 可能是 Aeon 正式发布前的最后一个候选发布版本。Aeon 操作系统的核心结构没有重大变化，只是随着上游版本的发展和社区对新功能和软件包的贡献而定期改进。&lt;/p&gt;
-
-&lt;p&gt;RC3 与正式版本的主要区别在于 openQA 的编写。&lt;/p&gt;
-
-&lt;p&gt;我们希望在这方面得到帮助，现在可以使用 RC3 作为参考，认真开始这项工作。&lt;/p&gt;
-
-&lt;p&gt;可能有 RC4，但仍在研究中。&lt;/p&gt;
-
-&lt;p&gt;如果发生上述情况，RC4 将使用 tik 的新 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-repart&lt;/code&gt; 功能充当“自主安装程序（Self Installer）”。&lt;/p&gt;
-
-&lt;p&gt;用户不会发现 RC3 之间有任何实际差异，除了下载大小明显较小，因为安装程序不需要单独的嵌入 Aeon 镜像来部署。&lt;/p&gt;
-
-&lt;p&gt;然而，为了使这种方法发挥作用，我们需要依赖 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; v256 中尚未测试的功能。systemd v256 最近才提交给 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;openSUSE Factory&lt;/a&gt;，因此它非常新。&lt;/p&gt;
-
-&lt;p&gt;如果 RC4 没有出现，用户可以预期在发布后的某个时间会出现更小、更高效的镜像。&lt;/p&gt;
-
-&lt;p&gt;我们希望每个人都能从 Aeon RC3 中获得很多乐趣，并感谢所有帮助 Aeon 顺利发布的人。&lt;/p&gt;
-
-&lt;p&gt;—— &lt;em&gt;Aeon 团队&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/07/28/rc-image-released/&quot;&gt;Aeon RC3 Released&lt;/a&gt;，作者：Richard Brown&lt;/p&gt;
 </content:encoded>
     </item>
 
