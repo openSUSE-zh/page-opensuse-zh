@@ -7,6 +7,58 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/07/recognition.html</guid>
+      <title>社区发起一项新活动</title>
+      <pubDate>Thu, 07 Nov 2024 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/07/recognition.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 项目宣布推出一项新举措，旨在突出不同社区成员的贡献。
+
+该项目被称为 “Contributor in the Spotlight (聚光灯下的贡献者)”，旨在每月介绍一位不同的贡献者，展示他们在编码、艺术、文档等领域的工作。
+
+Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件中写道：“这是一个参与社区并帮助确保我们的贡献者获得应有认可的绝佳机会。”
+
+该计划旨在提高知名度，提供认可，表达感激之情，并激励其他人为开源做出贡献。
+
+许多贡献者的努力常常被忽视，该计划旨在通过分享他们的故事并认可他们为加强开源开发所做的努力来改变这一现状。
+
+投稿者可在每月 15 日之前提交申请，通过自荐的方式申请刊登。在征得被提名者同意的情况下，可以进行提名。遴选过程将侧重于其作品的影响力、独特性以及与项目内外的相关性。入选者将在下个月第一个星期一的博文中受到关注。
+
+除了鼓励提交申请，项目成员还寻求志愿者帮助管理该倡议。组织者将审核申请、创建博客文章并在社区内推广该项目。
+
+申请现已开始，第一期专题报道预计将很快发布。
+
+有关更多信息，请访问邮件列表电子邮件或 openSUSE GitHub 页面。
+
+
+
+原文：Project Launches Recognition Platform，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目宣布推出一项新举措，旨在突出&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/2Q4D5ERCHY7MBA6GHZ2K4SC7BFK5FEML/&quot;&gt;不同社区成员的贡献&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;该项目被称为 “Contributor in the Spotlight (聚光灯下的贡献者)”，旨在每月介绍一位不同的贡献者，展示他们在编码、艺术、文档等领域的工作。&lt;/p&gt;
+
+&lt;p&gt;Tobias Görgens 和 Gertjan Lettink 在&lt;a href=&quot;https://news.opensuse.org/2024/11/08/project-launches-recognition-platform/add%20link%20to%20email%20here&quot;&gt;项目邮件列表的一封电子邮件&lt;/a&gt;中写道：“这是一个参与社区并帮助确保我们的贡献者获得应有认可的绝佳机会。”&lt;/p&gt;
+
+&lt;p&gt;该计划旨在提高知名度，提供认可，表达感激之情，并激励其他人为开源做出贡献。&lt;/p&gt;
+
+&lt;p&gt;许多贡献者的努力常常被忽视，该计划旨在通过分享他们的故事并认可他们为加强开源开发所做的努力来改变这一现状。&lt;/p&gt;
+
+&lt;p&gt;投稿者可在每月 15 日之前提交申请，通过自荐的方式申请刊登。在征得被提名者同意的情况下，可以进行提名。遴选过程将侧重于其作品的影响力、独特性以及与项目内外的相关性。入选者将在下个月第一个星期一的博文中受到关注。&lt;/p&gt;
+
+&lt;p&gt;除了鼓励提交申请，项目成员还寻求志愿者帮助管理该倡议。组织者将审核申请、创建博客文章并在社区内推广该项目。&lt;/p&gt;
+
+&lt;p&gt;申请现已开始，第一期专题报道预计将很快发布。&lt;/p&gt;
+
+&lt;p&gt;有关更多信息，请访问邮件列表电子邮件或 &lt;a href=&quot;https://github.com/openSUSE/cits/issues/new?assignees=&amp;amp;labels=&amp;amp;projects=&amp;amp;template=application-contributor&quot;&gt;openSUSE GitHub 页面&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/08/project-launches-recognition-platform/&quot;&gt;Project Launches Recognition Platform&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/01/monthly-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 十月</title>
       <pubDate>Fri, 01 Nov 2024 23:00:00 +0000</pubDate>
@@ -869,52 +921,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/09/20/quickstart-fde-yast2/&quot;&gt;Quickstart in Full Disk Encryption with TPM and YaST2&lt;/a&gt;，作者：Thorsten Kukuk&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/11/python.html</guid>
-      <title>Python 3.13 RC2 和 python313-nogil</title>
-      <pubDate>Wed, 11 Sep 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/09/11/python.html</link>
-      <author>Poplar at twilight</author>
-      <description>Python 3.13 RC2 现已在 Tumbleweed 中可用。这个新版 Python 解释器将于 2024 年 10 月发布。 Python 3.13 中有很多变化和新功能，但我们也在 Tumbleweed 中引入了现有的实验性功能。 实验性 JIT 编译器 默认（python313）构建带有 --enable-experimental-jit=yes-off 标志。这表示你可以使用下列环境变量启用该实验性 JIT： $ PYTHON_JIT=1 python3.13 有关于 JIT 编译器以及如何提高性能的更多信息另见 PEP-744。 自由线程 CPython（无 GIL）| Free threaded CPython (no GIL) 在新版 Python 解释器中，可以选择在不使用著名的 Global Interpreter Lock（GIL）的情况下进行构建。这真是一个实验性功能，那么有什么理由不去实现呢？所以我们决定构建一个新软件包（python313-nogil）来实现这个功能。 这个新软件包是一个独立的解释器，因此安装时不会与 python313 发生冲突。该软件包使用 --disable-gil 选项构建，并提供...</description>
-      <content:encoded>&lt;p&gt;Python 3.13 RC2 现已在 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 中可用。这个新版 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 解释器将于 2024 年 10 月发布。&lt;/p&gt;
-
-&lt;p&gt;Python 3.13 中有很多变化和新功能，但我们也在 Tumbleweed 中引入了现有的实验性功能。&lt;/p&gt;
-
-&lt;h2 id=&quot;实验性-jit-编译器&quot;&gt;实验性 JIT 编译器&lt;/h2&gt;
-
-&lt;p&gt;默认（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313&lt;/code&gt;）构建带有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--enable-experimental-jit=yes-off&lt;/code&gt; 标志。这表示你可以使用下列环境变量启用该&lt;a href=&quot;https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler&quot;&gt;实验性 JIT&lt;/a&gt;：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ PYTHON_JIT=1 python3.13
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;有关于 JIT 编译器以及如何提高性能的更多信息另见 &lt;a href=&quot;https://peps.python.org/pep-0744/&quot;&gt;PEP-744&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;自由线程-cpython无-gil-free-threaded-cpython-no-gil&quot;&gt;自由线程 CPython（无 GIL）| Free threaded CPython (no GIL)&lt;/h2&gt;
-
-&lt;p&gt;在新版 Python 解释器中，可以选择在不使用著名的 &lt;a href=&quot;https://docs.python.org/3.13/whatsnew/3.13.html#free-threaded-cpython&quot;&gt;Global Interpreter Lock&lt;/a&gt;（GIL）的情况下进行构建。这真是一个实验性功能，那么有什么理由不去实现呢？所以我们决定构建一个新软件包（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313-nogil&lt;/code&gt;）来实现这个功能。&lt;/p&gt;
-
-&lt;p&gt;这个新软件包是一个独立的解释器，因此安装时不会与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python313&lt;/code&gt; 发生冲突。该软件包使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--disable-gil&lt;/code&gt; 选项构建，并提供 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/bin/python3.13t&lt;/code&gt; 二进制文件。它默认使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/lib/python3.13t/site-packages&lt;/code&gt; 来获取第三方库，因此在默认配置下，它不会使用任何 python 3.13 模块。&lt;/p&gt;
-
-&lt;p&gt;这意味着现在可以在 Python 解释器中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;threading.Thread&lt;/code&gt;，并且它将是实际的线程（thread），因此，在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3.13t&lt;/code&gt; 中使用线程后，解释器应该会快很多。&lt;/p&gt;
-
-&lt;p&gt;目前，Tumbleweed 中没有适用于该解释器的软件包。因此，如果您想使用第三方库，您应该使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;virtualenv&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip&lt;/code&gt;：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ python3.13t -m venv free-threaded-env
-$ source free-threaded-env/bin/activate
-(free-threaded-env) $ pip install requests
-(free-threaded-env) $ python3
-Python 3.13.0rc2 experimental free-threading build (main, Sep 07 2024, 16:06:06) [GCC] on linux
-Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
-&amp;gt;&amp;gt;&amp;gt; import sys; sys._is_gil_enabled()
-False
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/09/11/python313/&quot;&gt;Python 3.13 RC2, with and without GIL&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
