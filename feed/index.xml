@@ -7,6 +7,62 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/14/news.html</guid>
+      <title>社区呼吁参与项目治理和品牌重塑</title>
+      <pubDate>Thu, 14 Nov 2024 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/14/news.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 董事会呼吁成立一个工作组来探讨项目治理、运营模式和项目品牌重塑等主题。
+
+在此之前，openSUSE 项目邮件列表呼吁将社区成员的努力、想法和建议集中在一个地方正式化。
+
+openSUSE 董事会强调自己的角色是促进者，而不是唯一的推动者，因为社区的参与影响着项目的发展。
+
+openSUSE 项目邮件列表的一封电子邮件中这样写道：“像 openSUSE 这样的开源项目的力量来自于社区。”
+
+工作组的目标：
+
+
+  探索项目治理模式
+  检查运营改进
+  确定有效项目品牌重塑的资源
+
+
+工作组将集中社区讨论，并在 90 天内提出可操作的方案；这将为更广泛的社区提供机会，对拟议的项目进行权衡。应审查关键的治理文件，如现行的董事会指导方针和选举规则，以评估可能的更新。
+
+讨论将集中组织在 openSUSE 论坛的一个单独版块中，以促进建设性的辩论并尽量减少离题讨论。有兴趣参与的 openSUSE 社区成员可申请访问该论坛；讨论内容可公开查看。
+
+
+
+原文：Community Call for Involvement With Project’s Governance, Rebranding，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;openSUSE 董事会呼吁成立一个工作组来探讨项目治理、运营模式和项目品牌重塑等主题。&lt;/p&gt;
+
+&lt;p&gt;在此之前，&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/3PSZOWYRYAGCDUXIW5EK4RP2CO3PA647/&quot;&gt;openSUSE 项目邮件列表&lt;/a&gt;呼吁将社区成员的努力、想法和建议&lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;集中在一个地方&lt;/a&gt;正式化。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 董事会强调自己的角色是促进者，而不是唯一的推动者，因为社区的参与影响着项目的发展。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/3PSZOWYRYAGCDUXIW5EK4RP2CO3PA647/&quot;&gt;openSUSE 项目邮件列表的一封电子邮件&lt;/a&gt;中这样写道：“像 openSUSE 这样的开源项目的力量来自于社区。”&lt;/p&gt;
+
+&lt;p&gt;工作组的目标：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;探索项目治理模式&lt;/li&gt;
+  &lt;li&gt;检查运营改进&lt;/li&gt;
+  &lt;li&gt;确定有效项目品牌重塑的资源&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;工作组将集中社区讨论，并在 90 天内提出可操作的方案；这将为更广泛的社区提供机会，对拟议的项目进行权衡。应审查关键的治理文件，如现行的董事会&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;指导方针&lt;/a&gt;和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election_rules&quot;&gt;选举规则&lt;/a&gt;，以评估可能的更新。&lt;/p&gt;
+
+&lt;p&gt;讨论将集中组织在 &lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;openSUSE 论坛&lt;/a&gt;的一个单独版块中，以促进建设性的辩论并尽量减少离题讨论。有兴趣参与的 openSUSE 社区成员可&lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;申请访问&lt;/a&gt;该论坛；讨论内容可公开查看。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/15/cc-for-involvement-w-governance-rebanding/&quot;&gt;Community Call for Involvement With Project’s Governance, Rebranding&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/13/board-election.html</guid>
       <title>针对三个空缺职位的董事会选举现已开始</title>
       <pubDate>Wed, 13 Nov 2024 23:00:00 +0000</pubDate>
@@ -577,87 +633,6 @@ Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/08/grub2-bls/&quot;&gt;Presenting GRUB2 BLS&lt;/a&gt;，作者：Alberto Planas&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/07/leap-16.html</guid>
-      <title>Leap 16.0 进入开发阶段</title>
-      <pubDate>Mon, 07 Oct 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/07/leap-16.html</link>
-      <author>Poplar at twilight</author>
-      <description>大家好！ 我在此正式宣布 Leap 16.0 进入开发阶段，以及 16.0 pre-Alpha 版本的发布。由于这是 pre-Alpha 版本，可能会发生重大变化，最终产品在 Alpha、Beta、候选发布或正式发布阶段可能会有很大不同。安装程序目前将为您提供 Base、GNOME 和 KDE 三种桌面环境。 用户可从 get.opensuse.org/leap/16.0 获取新的 Agama 安装镜像。安装程序目前提供 Base、GNOME 和 KDE 三种桌面环境。 Leap 16.0 是传统的发行版，也是 Leap 15.6 的后续版本，预计将于 2025 年秋季正式发布。 我们打算为用户提供足够多的重叠部分，以便 15.6 用户可以顺利迁移，就像他们习惯于以前的版本一样。 更多详细信息请参阅我们的路线图。由于我们必须应对任何 SUSE Linux Enterprise Server 16 计划的变更，因此路线图可能会有变动。 用户可以期待一个全新形式的传统发行版，它基于最新的 SLES 16 的二进制文件和我们 Factory 开发代码库中的社区软件包。 我们没有制作 Leap...</description>
-      <content:encoded>&lt;p&gt;大家好！&lt;/p&gt;
-
-&lt;p&gt;我在此正式宣布 Leap 16.0 进入开发阶段，以及 16.0 pre-Alpha 版本的发布。由于这是 pre-Alpha 版本，可能会发生重大变化，最终产品在 Alpha、Beta、候选发布或正式发布阶段可能会有很大不同。安装程序目前将为您提供 Base、GNOME 和 KDE 三种桌面环境。&lt;/p&gt;
-
-&lt;p&gt;用户可从 &lt;a href=&quot;https://get.opensuse.org/leap/16.0&quot;&gt;get.opensuse.org/leap/16.0&lt;/a&gt; 获取新的 &lt;a href=&quot;https://github.com/agama-project/agama&quot;&gt;Agama&lt;/a&gt; 安装镜像。安装程序目前提供 Base、GNOME 和 KDE 三种桌面环境。&lt;/p&gt;
-
-&lt;p&gt;Leap 16.0 是传统的发行版，也是 Leap 15.6 的后续版本，预计将于 2025 年秋季正式发布。&lt;/p&gt;
-
-&lt;p&gt;我们打算为用户提供足够多的重叠部分，以便 15.6 用户可以顺利迁移，就像他们习惯于以前的版本一样。&lt;/p&gt;
-
-&lt;p&gt;更多详细信息请参阅我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#DRAFT_Schedule_for_Leap_16.0&quot;&gt;路线图&lt;/a&gt;。由于我们必须应对任何 SUSE Linux Enterprise Server 16 计划的变更，因此路线图可能会有变动。&lt;/p&gt;
-
-&lt;p&gt;用户可以期待一个全新形式的传统发行版，它基于最新的 SLES 16 的二进制文件和我们 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;Factory&lt;/a&gt; 开发代码库中的社区软件包。&lt;/p&gt;
-
-&lt;p&gt;我们没有制作 Leap 15.7 的计划，但是我们仍然需要通过 Package HUB 为即将发布的 SLES 15 SP7 提供之前从 Leap 15 发布的社区软件包。这就是 OBS 中有 openSUSE:Backports:SLE-15-SP7 项目和 15.7 仓库的原因。&lt;/p&gt;
-
-&lt;h2 id=&quot;谁适合用这个-pre-alpha-版本&quot;&gt;谁适合用这个 pre-Alpha 版本&lt;/h2&gt;
-
-&lt;p&gt;这是一个处于预开发（pre-Alpha）阶段的产品，不适合用于承载日常负载任务。我强烈建议先在虚拟机中安装，并熟悉在线安装程序 Agama。&lt;/p&gt;
-
-&lt;p&gt;pre-Alpha 的目标受众是早期采用者和愿意积极参与这项大型工作的贡献者。采用者应考虑不时启动 Agama Media，以检查与其硬件的兼容性。&lt;/p&gt;
-
-&lt;p&gt;对于非贡献者用户，我强烈建议等待 Beta 版，预计将于 2025 年春季末推出。&lt;/p&gt;
-
-&lt;h2 id=&quot;如何报告错误&quot;&gt;如何报告错误？&lt;/h2&gt;
-
-&lt;p&gt;我想请您在报告新问题之前检查我们的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知错误维基页面&lt;/a&gt;。如果您发现可能影响用户的新问题，请随时将其添加到页面。&lt;/p&gt;
-
-&lt;p&gt;特别是对于 Agama，我强烈建议使用 github.com/agama-project 并与 YaST 团队合作提出建议并合并任何更改。&lt;/p&gt;
-
-&lt;p&gt;对于其余组件，工作流程没有改变；只需选择 16.0 版本进行错误提交即可。&lt;/p&gt;
-
-&lt;h2 id=&quot;功能请求&quot;&gt;功能请求&lt;/h2&gt;
-
-&lt;p&gt;对从 SLES 16 继承的软件包的所有更改都需要通过&lt;a href=&quot;https://code.opensuse.org/leap/features&quot;&gt;功能请求&lt;/a&gt;来请求。&lt;/p&gt;
-
-&lt;p&gt;功能请求将在每周一的&lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/calendar.opensuse.org&quot;&gt;功能审核会议&lt;/a&gt;上进行审核，我们将把 &lt;a href=&quot;https://code.opensuse.org/&quot;&gt;code-o-o&lt;/a&gt; 请求转换为 SUSE 工程部使用的 JIRA 请求（如适用）。&lt;/p&gt;
-
-&lt;p&gt;factory 自动化机器人将拒绝所有指向 &lt;a href=&quot;https://code.opensuse.org/&quot;&gt;code-o-o&lt;/a&gt; 的 SLES 软件包代码提交请求。您只需运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;osc ls SUSE:SLFO:1.1:Build&lt;/code&gt;，即可获得所有 SLFO/SLES 软件包的列表。&lt;/p&gt;
-
-&lt;p&gt;补充说明，SLFO 即 SUSE Linux Framework One，是 SLES 16 和 SL Micro 6.X 的源代码池。SLFO 此前被称为 ALP（Adaptable Linux Platform）。&lt;/p&gt;
-
-&lt;p&gt;我强烈建议使用 code-o-o 来协调更大规模的社区工作，例如启用对 Xfce 的支持，这可能需要更新一些 SLES 依赖项。这样我们就能共享更多的信息，并更好地推理相关的 SLES 更新请求。功能列表对于发布文章也非常有价值。&lt;/p&gt;
-
-&lt;h2 id=&quot;在哪里提交包如何构建以及在哪里进行测试&quot;&gt;在哪里提交包、如何构建以及在哪里进行测试？&lt;/h2&gt;
-
-&lt;p&gt;Leap 16.0 在 openSUSE:Leap:16.0 项目中进行构建，在 2025 年春末 Beta 版代码提交截止日期之前，我们非常欢迎任何社区提交的代码。我们打算保留以前的开发模式，除非必要，否则应避免分叉 SLES 软件包。我们不能再将 SLES 代码提交从 OBS &lt;a href=&quot;https://en.opensuse.org/Portal:Jump:OBS:SRMirroring&quot;&gt;映射&lt;/a&gt;到 IBS。因此，所有 SLES 16 的更新请求都必须通过功能请求来提交。&lt;/p&gt;
-
-&lt;p&gt;为了进行质量控制，我们在 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/129&quot;&gt;Leap 16.0 任务组&lt;/a&gt;中提供了基于 Agama 安装的基本测试套件。稍后，我们计划重新设计现有的 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/126&quot;&gt;Leap 16.0 镜像任务组&lt;/a&gt;，以测试其余的设备映像。&lt;/p&gt;
-
-&lt;p&gt;我们维护社区软件包的项目可能会有变化，因为我们还没有完全确定如何制作 Package HUB；我们可能会使用与 Backports 类似的结构，就像 15.3+ 中那样。&lt;/p&gt;
-
-&lt;p&gt;进一步改进测试套件是我们目前最需要帮助的领域之一。相关的 progress.opensuse.org 跟踪器是 &lt;a href=&quot;https://progress.opensuse.org/issues/164141&quot;&gt;poo#164141 Leap 16.0 enablement&lt;/a&gt; 和 &lt;a href=&quot;https://progress.opensuse.org/issues/166562&quot;&gt;poo#166562 upgrade from 15.6&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;另一个您可以提供帮助的领域是新软件包的提交和相关维护者对 Leap 16.0 软件包提交的审查。这些审查是有意义的，因为我们希望与维护者一起检查特定版本中的软件是否有必要纳入 Leap 16.0，而不是盲目地复制所有软件包。&lt;/p&gt;
-
-&lt;h2 id=&quot;参与品牌和营销工作&quot;&gt;参与品牌和营销工作&lt;/h2&gt;
-
-&lt;p&gt;我非常自豪地宣布新的品牌推广工作，并感谢所有帮助 Leap 和 Tumbleweed 焕然一新的人们。因为还有一些未被公开的惊喜，我们计划发表一篇文章或一段视频，介绍这些变化以及进一步的计划。&lt;/p&gt;
-
-&lt;p&gt;您想在这方面帮助我们吗？请传播有关 openSUSE 的新闻并在 &lt;a href=&quot;https://t.me/openSUSE_Marketing&quot;&gt;Telegram 频道&lt;/a&gt;上加入我们的 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Marketing_team&quot;&gt;openSUSE 营销团队&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;非常感谢所有帮助我们实现这一切的人。&lt;/p&gt;
-
-&lt;p&gt;Lubos Kocman，&lt;br /&gt;
-代表 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Release_team&quot;&gt;openSUSE 发行团队&lt;/a&gt;&lt;br /&gt;
-致以问候。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/&quot;&gt;Development start of Leap 16.0&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
