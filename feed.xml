@@ -7,6 +7,68 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/20/leap-mircro.html</guid>
+      <title>Leap Micro 6.1 Alpha 现已发布。为 Leap Micro 5.5 结束生命周期做好准备。</title>
+      <pubDate>Wed, 20 Nov 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/20/leap-mircro.html</link>
+      <author>Poplar at twilight</author>
+      <description>Leap Micro 6.1 Alpha ISO 文件可在 get.opensuse.org 上找到。除非发现一些严重问题，否则用户有望在数周内看到 6.1 版本的正式发布。 关于 Leap Micro Leap Micro 6.1 是 SUSE 推出的超可靠容器和虚拟机主机，SUSE Linux Enterprise Micro 6.1 的重命名版本。Leap Micro 每年发布两次，维护两个以上的版本。 Leap Micro 5.5 将随着 Leap Micro 6.1 的发布而 EOL 随着 Leap Micro 6.1 的发布，Leap Micro 5.5 结束生命周期（EOL）；用户将不再收到维护更新，社区建议用户升级到 6.1。 更保守的用户可以继续使用 Leap Micro 6.0，直到 Leap Micro...</description>
+      <content:encoded>&lt;p&gt;Leap Micro 6.1 Alpha ISO 文件可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到。除非发现一些严重问题，否则用户有望在数周内看到 6.1 版本的正式发布。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于-leap-micro&quot;&gt;关于 Leap Micro&lt;/h2&gt;
+
+&lt;p&gt;Leap Micro 6.1 是 SUSE 推出的超可靠容器和虚拟机主机，&lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SUSE Linux Enterprise Micro 6.1&lt;/a&gt; 的重命名版本。Leap Micro 每年发布两次，维护两个以上的版本。&lt;/p&gt;
+
+&lt;h2 id=&quot;leap-micro-55-将随着-leap-micro-61-的发布而-eol&quot;&gt;Leap Micro 5.5 将随着 Leap Micro 6.1 的发布而 EOL&lt;/h2&gt;
+
+&lt;p&gt;随着 Leap Micro 6.1 的发布，Leap Micro 5.5 结束生命周期（EOL）；用户将不再收到维护更新，社区建议用户升级到 6.1。&lt;/p&gt;
+
+&lt;p&gt;更保守的用户可以继续使用 Leap Micro 6.0，直到 Leap Micro 6.2 发布前，它将继续收到更新。&lt;/p&gt;
+
+&lt;h2 id=&quot;显着变化&quot;&gt;显着变化&lt;/h2&gt;
+
+&lt;p&gt;执行全新安装的用户将注意到首次启动向导的明显变化。现在，jeos-firstboot 向导可以创建额外的用户和可选的 2FA 密钥，但缺少 PAM 配置。缺少的功能将在 GM 版本中加入。&lt;/p&gt;
+
+&lt;p&gt;我们添加了 &lt;a href=&quot;https://microos.opensuse.org/blog/2024-06-13-soft-reboot/&quot;&gt;soft-reboot support&lt;/a&gt;（软重启支持）。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;为 SAP 虚拟化加入 vhostmd。&lt;/li&gt;
+  &lt;li&gt;新增 chrony-pool-empty 和 pf-bb-config。&lt;/li&gt;
+  &lt;li&gt;针对 Arm 的 PREEMPT_RT 内核、ZRAM 支持以及主要用于 cockpit 的 TOTP 2fa pam 登录支持。&lt;/li&gt;
+  &lt;li&gt;对 eBPF 规则进行 JIT 编译。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SLE Micro 6.1 获得了对 ppc64le 的额外支持，但我们打算让 Leap Micro 仅支持 x86_64 和 aarch64。主要原因是社区没有支持这些架构的需求。&lt;/p&gt;
+
+&lt;h2 id=&quot;理解单个镜像&quot;&gt;理解单个镜像&lt;/h2&gt;
+
+&lt;p&gt;用户可以参考 &lt;a href=&quot;https://news.opensuse.org/2024/06/25/leap-micro-60-availability/&quot;&gt;Leap Micro 6.0 公告&lt;/a&gt;，我们已经介绍过这部分内容。&lt;/p&gt;
+
+&lt;h2 id=&quot;从旧版本升级&quot;&gt;从旧版本升级&lt;/h2&gt;
+
+&lt;p&gt;从 5.X 迁移的建议是进行全新安装，因为 6.1 是一个全新的主要版本。&lt;/p&gt;
+
+&lt;p&gt;对于那些想尝试迁移的用户，请按照&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0&quot;&gt;升级指南&lt;/a&gt;进行操作。&lt;/p&gt;
+
+&lt;p&gt;从 6.0 迁移应该可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper --releasever 6.1 dup inside transactional-update shell&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;我们有可能会包含&lt;a href=&quot;https://hackweek.opensuse.org/projects/new-migration-tool-for-leap&quot;&gt;一个新的迁移工具&lt;/a&gt;，该工具预计将作为 Hackweek 的一部分在 Leap Micro 6.1 Beta 中开发。这将使未来的升级变得更加简单。&lt;/p&gt;
+
+&lt;h2 id=&quot;发行说明&quot;&gt;发行说明&lt;/h2&gt;
+
+&lt;p&gt;用户可以参考 &lt;a href=&quot;https://www.suse.com/releasenotes/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 6.1 使用 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 进行存储库管理。社区强烈建议用户留意这个细节，尤其是对于迁移至新版本的人。这是一篇&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;解释 openSUSE-repos 如何工作&lt;/a&gt;的文章。&lt;/p&gt;
+
+&lt;p&gt;与 6.0 一样，Leap Micro 6.1 不再有&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro5-repoindex.xml&quot;&gt;专用的 SLE 更新软件源&lt;/a&gt;。它已被并入&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro6-repoindex.xml&quot;&gt;主软件源&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/20/leap-micro-61-alpha-availability/&quot;&gt;Leap Micro 6.1 Alpha is now available. Get ready for Leap Micro 5.5 End of Life.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/14/news.html</guid>
       <title>社区呼吁参与项目治理和品牌重塑</title>
       <pubDate>Thu, 14 Nov 2024 23:00:00 +0000</pubDate>
@@ -601,38 +663,6 @@ Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/23/workshop-continues-with-gnome-extensions/&quot;&gt;Workshop Continues with GNOME Extensions&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/08/grub2-bls.html</guid>
-      <title>介绍 GRUB2 BLS</title>
-      <pubDate>Tue, 08 Oct 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/10/08/grub2-bls.html</link>
-      <author>Poplar at twilight</author>
-      <description>带有 BLS 的 GRUB2 现已出现在 MicroOS 和 Tumbleweed 中 最近，openSUSE 项目为 MicroOS 和 Tumbleweed 发布了新版 GRUB2 软件包，其中包含一个新的子软件包 grub2-$ARCH-efi-bls。该子包提供了一个新的 EFI 文件 grubbls.efi，可用于替代传统的 grub.efi。 新的 PE 二进制文件是 GRUB2 的一个版本，其中包含来自 Fedora 的一组补丁，这使得引导加载程序遵循引导加载程序规范（BLS）。这将使 GRUB2 能理解 /boot/efi/entries 中的引导条目，并在启动时动态生成启动菜单。 这对全盘加密（FDE）非常重要，因为这意味着我们现在可以复用为 systemd-boot 设计的所有架构和工具。例如，现在可以使用 sdbootutil install 安装或更新引导加载器，suse-module-tools 脚本会在安装新内核时创建新的 BLS 条目，而 tukit 和 snapper 插件则会在创建或删除快照时执行正确的操作。 在不进行修改的情况下复用所有这些工具是一个重大胜利，但更好的是，传统 GRUB2 在扩展事件日志时的许多怪癖都不复存在了。在使用该软件包之前，sdbootutil 需要获得...</description>
-      <content:encoded>&lt;h2 id=&quot;带有-bls-的-grub2-现已出现在-microos-和-tumbleweed-中&quot;&gt;带有 BLS 的 GRUB2 现已出现在 MicroOS 和 Tumbleweed 中&lt;/h2&gt;
-
-&lt;p&gt;最近，openSUSE 项目为 MicroOS 和 Tumbleweed 发布了新版 GRUB2 软件包，其中包含一个新的子软件包 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub2-$ARCH-efi-bls&lt;/code&gt;。该子包提供了一个新的 EFI 文件 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grubbls.efi&lt;/code&gt;，可用于替代传统的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub.efi&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;新的 PE 二进制文件是 GRUB2 的一个版本，其中包含来自 Fedora 的一组补丁，这使得引导加载程序遵循引导加载程序规范（&lt;a href=&quot;https://uapi-group.org/specifications/specs/boot_loader_specification/&quot;&gt;BLS&lt;/a&gt;）。这将使 GRUB2 能理解 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/boot/efi/entries&lt;/code&gt; 中的引导条目，并在启动时动态生成启动菜单。&lt;/p&gt;
-
-&lt;p&gt;这对&lt;a href=&quot;https://news.opensuse.org/2024/09/20/quickstart-fde-yast2/&quot;&gt;全盘加密&lt;/a&gt;（FDE）非常重要，因为这意味着我们现在可以复用为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 设计的所有架构和工具。例如，现在可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil install&lt;/code&gt; 安装或更新引导加载器，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;suse-module-tools&lt;/code&gt; 脚本会在安装新内核时创建新的 BLS 条目，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tukit&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;snapper&lt;/code&gt; 插件则会在创建或删除快照时执行正确的操作。&lt;/p&gt;
-
-&lt;p&gt;在不进行修改的情况下复用所有这些工具是一个重大胜利，但更好的是，传统 GRUB2 在扩展事件日志时的许多怪癖都不复存在了。在使用该软件包之前，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil&lt;/code&gt; 需要获得 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub.conf&lt;/code&gt; 文件的所有权，因为 GRUB2 会通过执行的行数来衡量该文件。没错！GRUB2 解析器每读取并执行一行，就会产生一个新的 PCR#8，由于 GRUB2 支持条件式和其他复杂的构造函数，因此如果不对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub.conf&lt;/code&gt; 文件进行严格的最小化，就很难预测 PCR#8 的最终值。&lt;/p&gt;
-
-&lt;p&gt;但有了新的 BLS 子软件包后，该文件、主题的字体和图形资产以及必要的模块（如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bli.mod&lt;/code&gt;）现在都包含在 EFI 二进制文件的内部 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;squashfs&lt;/code&gt; 中。GRUB2 将不再在不影响安全保证的情况下测量这些内部文件，因为现在是固件在启动过程中执行引导加载程序时测量整个 EFI。&lt;/p&gt;
-
-&lt;p&gt;我们目前无法使用 YaST2 自动安装带有 BLS 的 GRUB2，但我们可以很容易地手动安装。我们需要进行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; &lt;a href=&quot;https://en.opensuse.org/Portal:MicroOS/FDE#Installation_with_YaST&quot;&gt;安装&lt;/a&gt;，将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LOADER_TYPE&lt;/code&gt; 从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemd-boot&lt;/code&gt; 替换为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub2-bls&lt;/code&gt;，安装新的 GRUB2 BLS 软件包，然后执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sdbootutil install&lt;/code&gt;。另一种方法是使用 MicroOS 或 Tumbleweed 的定制镜像：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://download.opensuse.org/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-grub-bls.qcow2&quot;&gt;MicroOS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://download.opensuse.org/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-grub-bls.qcow2&quot;&gt;Tumbleweed&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/08/grub2-bls/&quot;&gt;Presenting GRUB2 BLS&lt;/a&gt;，作者：Alberto Planas&lt;/p&gt;
 </content:encoded>
     </item>
 
