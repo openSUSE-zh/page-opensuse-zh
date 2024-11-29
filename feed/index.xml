@@ -7,6 +7,45 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/28/suse-gm.html</guid>
+      <title>社区受邀参加 SUSE 经理的有问必答活动</title>
+      <pubDate>Thu, 28 Nov 2024 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/28/suse-gm.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 社区受邀参加 12 月 3 日 16:00 UTC 与 SUSE 业务关键型 Linux 总经理的在线交流。 Rick Spencer 领导着 SUSE Linux Enterprise 和 SUSE Multi-Linux Manager 团队，他的日常工作之一就是与那些为 openSUSE 做出贡献的人密切合作。他渴望加强 SUSE 和 openSUSE 社区之间的联系。 在 “Ask Me Anything（有问必答）” 环节，您可以与项目成员和开源贡献者进行公开对话。 与会者可以提问、分享见解并了解 SUSE 正在进行的 openSUSE 和开源开发计划。您也可以提前向 Rick Spencer 或 Gerald Pfeifer 提交问题，以便为讨论提供指导。 活动详情： 活动：Rick Spencer 的...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/5OCTZCVH7QV5T4AZ3L2UHZH5VQHTHWTS/&quot;&gt;受邀参加&lt;/a&gt; 12 月 3 日 16:00 UTC 与 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 业务关键型 Linux 总经理的在线交流。&lt;/p&gt;
+
+&lt;p&gt;Rick Spencer 领导着 SUSE Linux Enterprise 和 SUSE Multi-Linux Manager 团队，他的日常工作之一就是与那些为 openSUSE 做出贡献的人密切合作。他渴望加强 SUSE 和 openSUSE 社区之间的联系。&lt;/p&gt;
+
+&lt;p&gt;在 “&lt;a href=&quot;https://calendar.opensuse.org/teams/board/events/opensuse-open-door-with-rick-spencer&quot;&gt;Ask Me Anything&lt;/a&gt;（有问必答）” 环节，您可以与项目成员和开源贡献者进行公开对话。&lt;/p&gt;
+
+&lt;p&gt;与会者可以提问、分享见解并了解 SUSE 正在进行的 openSUSE 和开源开发计划。您也可以提前向 Rick Spencer 或 Gerald Pfeifer 提交问题，以便为讨论提供指导。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;活动详情：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;活动&lt;/strong&gt;：Rick Spencer 的 openSUSE Open Door 会议&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;日期&lt;/strong&gt;：2024 年 12 月 3 日&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;时间&lt;/strong&gt;：17:00–17:45 CET / 11:00–11:45 ET&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;地点&lt;/strong&gt;：&lt;a href=&quot;https://meet.google.com/ges-vbdj-pya&quot;&gt;线上&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;如何参与：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;提交问题&lt;/strong&gt;：在会议前联系 &lt;a href=&quot;mailto:rick.spencer@suse.com&quot;&gt;Rick Spencer&lt;/a&gt; 或 &lt;a href=&quot;mailto:gp@suse.com&quot;&gt;Gerald Pfeifer&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;加入对话&lt;/strong&gt;：&lt;a href=&quot;https://meet.google.com/ges-vbdj-pya&quot;&gt;聊天室地址&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/5McyG2yFepk?si=Bqs-BHHFJV3D9pTa&quot;&gt;Spencer 在今年的 openSUSE 大会上发表了主题演讲。&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/28/project-to-have-ama/&quot;&gt;Project to have AMA with SUSE’s GM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/20/leap-mircro.html</guid>
       <title>Leap Micro 6.1 Alpha 现已发布。为 Leap Micro 5.5 结束生命周期做好准备。</title>
       <pubDate>Wed, 20 Nov 2024 23:00:00 +0000</pubDate>
@@ -609,60 +648,6 @@ Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/14/community-plans-ea-tech-summit/&quot;&gt;Community Plans Tech Summit&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/01/gnome.html</guid>
-      <title>研讨会继续讨论 GNOME 扩展</title>
-      <pubDate>Fri, 01 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/01/gnome.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目将于 10 月 24 日 18:00 UTC 在 openSUSE 的 YouTube 和 X 平台上直播其贡献研讨会系列的第 10 集，以举办 GNOME 扩展研讨会。 该会议将介绍如何使用强大的扩展来增强和自定义 GNOME 桌面环境，以添加功能、简化工作流程和个性化桌面体验。 GNOME 扩展是用户扩展 GNOME 环境功能、提高桌面使用效率并根据个人需求定制的绝佳方式。 Episode 10: GNOME Extensions 日期：10 月 24 日 时间：18:00 UTC 地点：openSUSE 官方 YouTube &amp;amp; X 频道 有用的链接： GitLab 上的 GNOME Shell GNOME 扩展网站 适用于...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目将于 10 月 24 日 18:00 UTC 在 openSUSE 的 &lt;a href=&quot;https://www.youtube.com/opensusetv&quot;&gt;YouTube&lt;/a&gt; 和 &lt;a href=&quot;https://x.com/opensuse&quot;&gt;X 平台&lt;/a&gt;上直播其贡献研讨会系列的第 10 集，以举办 GNOME 扩展研讨会。&lt;/p&gt;
-
-&lt;p&gt;该会议将介绍如何使用强大的扩展来增强和自定义 GNOME 桌面环境，以添加功能、简化工作流程和个性化桌面体验。&lt;/p&gt;
-
-&lt;p&gt;GNOME 扩展是用户扩展 GNOME 环境功能、提高桌面使用效率并根据个人需求定制的绝佳方式。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Episode 10: GNOME Extensions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;日期：10 月 24 日&lt;/li&gt;
-  &lt;li&gt;时间：18:00 UTC&lt;/li&gt;
-  &lt;li&gt;地点：openSUSE 官方 &lt;a href=&quot;https://www.youtube.com/opensusetv&quot;&gt;YouTube&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://x.com/opensuse&quot;&gt;X&lt;/a&gt; 频道&lt;/li&gt;
-  &lt;li&gt;有用的链接：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;GitLab 上的 GNOME Shell&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://extensions.gnome.org/&quot;&gt;GNOME 扩展网站&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/&quot;&gt;适用于 Firefox 的 GNOME Shell 集成插件&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这些研讨会提供了一个学习平台，供贡献者提出问题并直接与 openSUSE 社区的开发人员、维护人员和经验丰富的成员互动。&lt;/p&gt;
-
-&lt;p&gt;无论您是开源贡献新手还是经验丰富的开发人员，openSUSE 贡献研讨会都可以提供宝贵的学习机会，帮助您提高技能、参与社区活动并为 openSUSE 项目做出有效贡献。&lt;/p&gt;
-
-&lt;p&gt;贡献研讨会的主题涵盖了各种主题，包括包维护、基础设施或了解整个项目环境。以下章节旨在为开源软件开发、使用和贡献提供概述和实用建议。&lt;/p&gt;
-
-&lt;p&gt;以下剧集已经发布：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8DVEZR_YodA&quot;&gt;Episode 1: openSUSE Contribution Workshop: Basic use of OBS osc using a version bump as an example&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/EQ5NWsW_tjo?si=lsMShfNPb5MSgdLt&quot;&gt;Episode 2: openSUSE Contribution Workshop: From 0 to an rpm package packaging GNU Hello&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/rfP-IXwKRAE?si=TwVTgvaPRaoYjWtz&quot;&gt;Episode 3: openSUSE Contribution Workshop: openSUSE Leap 15.6 Beta Bug Day&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/J__6pqGbR3o?si=WJpWsMlpWJ6mzZTk&quot;&gt;Episode 4: openSUSE Contribution Workshop: Packaging Rust in Open Build Service&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/C-zLzy3IvvE?si=3oJ1YueK_IFmde1B&quot;&gt;Episode 5: Contributing to openSUSE Leap - Project Structure, Feature Tracking, Package Updates for SLES Packages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/aR3kPugKcGc?si=9DdInq5yHW_RY5dK&quot;&gt;Episode 6: Host Your Own openSUSE Mirror&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://youtu.be/Qg7r_swbkCY?si=QMAXFWUyKYIqH_VF&quot;&gt;Episode 7: openSUSE Contribution Workshop: Custom Leap Micro image spin in a few minutes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/live/ZjJvrO0BVlY?si=bhE51JnxS8aXm1qz&quot;&gt;Episode 8: Testing and Breaking Builds - Offloading Repetitive Tasks to Computers&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/live/Hznz1lEQZ3c?si=Ksf-u3qiuuizRUaZ&quot;&gt;Episode 9: Python packaging workshop for openSUSE&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/23/workshop-continues-with-gnome-extensions/&quot;&gt;Workshop Continues with GNOME Extensions&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
