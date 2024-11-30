@@ -262,7 +262,7 @@ tags:
 
 ----
 
-原文：[Tumbleweed Monthly Update - October 2024](https://news.opensuse.org/2024/10/30/tw-monthly-update-october/)，作者：Douglas DeMaio
+原文：[Tumbleweed Monthly Update - November 2024](https://news.opensuse.org/2024/11/29/tw-monthly-update-november/)，作者：Douglas DeMaio
 
 [RADV]: https://docs.mesa3d.org/drivers/radv.html
 [NVK]: https://docs.mesa3d.org/drivers/nvk.html
