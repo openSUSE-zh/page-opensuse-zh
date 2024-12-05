@@ -7,6 +7,33 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/03/leap-micro.html</guid>
+      <title>Leap Micro 6.1 候选版本现已发布</title>
+      <pubDate>Tue, 03 Dec 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/03/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>Leap Micro 6.1 候选版本（RC）的 ISO 文件现在可在 get.opensuse.org 上下载获得。 目前，我们正在等待 Leap Micro 6.1 维护设置的确认，然后再正式发布；希望本周晚些时候就能发布。 请注意，Leap Micro 6.1 的发布意味着 Leap Micro 5.5 的生命周期结束。 社区建议用户升级到 Leap Micro 6.0 或 6.1；有关发布周期的详细信息可以在 openSUSE wiki 上找到。 从旧版本升级的用户可以考虑使用我们的实验性工具 opensuse-migration-tool。此新迁移工具将是 Leap Micro 6.1 及更新版本的一部分；旧版本的用户可使用 git 获取该工具。 有关升级选项的更多信息，请参阅我们维基上关于升级 Leap Micro 的词条。 请参阅 SLE Micro 6.1 发行说明和 Leap Micro 6.1...</description>
+      <content:encoded>&lt;p&gt;Leap Micro 6.1 候选版本（RC）的 ISO 文件现在可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.1/&quot;&gt;get.opensuse.org&lt;/a&gt; 上下载获得。&lt;/p&gt;
+
+&lt;p&gt;目前，我们正在等待 Leap Micro 6.1 维护设置的确认，然后再正式发布；希望本周晚些时候就能发布。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;请注意，Leap Micro 6.1 的发布意味着 Leap Micro 5.5 的生命周期结束。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;社区建议用户升级到 Leap Micro 6.0 或 6.1；有关发布周期的详细信息可以在 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap_Micro&quot;&gt;openSUSE wiki&lt;/a&gt; 上找到。&lt;/p&gt;
+
+&lt;p&gt;从旧版本升级的用户可以考虑使用我们的实验性工具 &lt;a href=&quot;https://suse.org.cn/更新通告/2024/11/29/update-leap-micro-6.1.html&quot;&gt;opensuse-migration-tool&lt;/a&gt;。此新迁移工具将是 Leap Micro 6.1 及更新版本的一部分；旧版本的用户可&lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;使用 git 获取该工具&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;有关升级选项的更多信息，请参阅我们维基上关于&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_of_LeapMicro&quot;&gt;升级 Leap Micro&lt;/a&gt; 的词条。&lt;/p&gt;
+
+&lt;p&gt;请参阅 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SL-Micro/6.1/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;和 &lt;a href=&quot;https://news.opensuse.org/2024/11/20/leap-micro-61-alpha-availability/&quot;&gt;Leap Micro 6.1 Alpha 公告&lt;/a&gt;中的更改列表摘要。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/04/leap-micro-61-rc/&quot;&gt;Leap Micro 6.1 Release Candidate&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/29/update-leap-micro-6.1.html</guid>
       <title>使用 opensuse-migration-tool 升级到 Leap Micro 6.1 Beta</title>
       <pubDate>Fri, 29 Nov 2024 23:00:00 +0000</pubDate>
@@ -679,249 +706,6 @@ Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/08/project-launches-recognition-platform/&quot;&gt;Project Launches Recognition Platform&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/01/monthly-update.html</guid>
-      <title>openSUSE Tumbleweed 每月更新 - 十月</title>
-      <pubDate>Fri, 01 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/01/monthly-update.html</link>
-      <author>Poplar at twilight</author>
-      <description>本月，Tumbleweed 就像一个经过精心调试的引擎，精准而快速地完成了重要更新和错误修复。除了重要的安全补丁外，GNOME、systemd、qemu 等也有更新。处理了特别是针对 Firefox、openssl 和 virtualbox 软件包的各种 CVE，以提高系统的安全性。本月还更新了 GNOME 和 KDE 的桌面组件。 除了本月的所有软件包更新外，Tumbleweed 还进行了全新的视觉改造，更新了 Tumbleweed 的 LOGO 和包含白天和夜间主题变体的新壁纸。 与往常一样，如果出现任何问题，请记住使用 snapper 进行回滚。 祝您在风滚草上玩得愉快！👻 有关当月更改日志的更多详细信息，请访问 openSUSE Factory 邮件列表。 新功能和增强功能 LibreSSL 4.0：新的大版本进行了一些重大变更和删除，其中值得注意的有： openssl(1) 中的 cms 命令现在支持 CRLfile 选项，以便在验证过程中指定额外的 CRL； 更新还更改了 libtls 中的协议处理，完全忽略了不支持的 TLSv1.0 和 TLSv1.1 协议； 删除了有潜在危险的 EVP_PKEY*_check(3) 函数； 不再支持 Whirlpool 哈希函数。 bind...</description>
-      <content:encoded>&lt;p&gt;本月，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 就像一个经过精心调试的引擎，精准而快速地完成了重要更新和错误修复。除了重要的安全补丁外，&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt;、&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt;、&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 等也有更新。处理了特别是针对 &lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt;、&lt;a href=&quot;https://www.openssl.org/&quot;&gt;openssl&lt;/a&gt; 和 &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 软件包的各种 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt;，以提高系统的安全性。本月还更新了 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的桌面组件。&lt;/p&gt;
-
-&lt;p&gt;除了本月的所有软件包更新外，Tumbleweed 还进行了全新的&lt;a href=&quot;./2024-11-02-monthly-update.md&quot;&gt;视觉改造&lt;/a&gt;，更新了 Tumbleweed 的 LOGO 和包含白天和夜间主题变体的新壁纸。&lt;/p&gt;
-
-&lt;p&gt;与往常一样，如果出现任何问题，请记住使用 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 进行回滚。&lt;/p&gt;
-
-&lt;p&gt;祝您在风滚草上玩得愉快！👻&lt;/p&gt;
-
-&lt;p&gt;有关当月更改日志的更多详细信息，请访问 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.libressl.org/&quot;&gt;LibreSSL&lt;/a&gt; 4.0&lt;/strong&gt;：新的大版本进行了一些重大变更和删除，其中值得注意的有：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;openssl(1)&lt;/code&gt; 中的 cms 命令现在支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CRLfile&lt;/code&gt; 选项，以便在验证过程中指定额外的 CRL；&lt;/li&gt;
-      &lt;li&gt;更新还更改了 libtls 中的协议处理，完全忽略了不支持的 TLSv1.0 和 TLSv1.1 协议；&lt;/li&gt;
-      &lt;li&gt;删除了有潜在危险的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;EVP_PKEY*_check(3)&lt;/code&gt; 函数；&lt;/li&gt;
-      &lt;li&gt;不再支持 Whirlpool 哈希函数。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://bind9.readthedocs.io/&quot;&gt;bind&lt;/a&gt; 9.20.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;新增了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WALLET&lt;/code&gt; 记录类型，允许将域名映射到加密货币钱包；&lt;/li&gt;
-      &lt;li&gt;引入了查询响应日志功能，通过响应类别提供摘要；&lt;/li&gt;
-      &lt;li&gt;做出了一项重要更改，在 DNS 记录传输过程中，如果记录过多导致失败，可以从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IXFR&lt;/code&gt; 回退到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AXFR&lt;/code&gt;；&lt;/li&gt;
-      &lt;li&gt;解决了一些问题，如只向前区域（forward-only zones）中不正确的统计数据、导致错误查询的静态存根错误；&lt;/li&gt;
-      &lt;li&gt;改进了 DNSSEC 验证和区域文件操作等长期运行流程。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 47.1&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt; 的增强功能包括改进了快速设置的可访问性、更好地使用平板电脑用户界面强调色以及更准确的插入框阴影；&lt;/li&gt;
-      &lt;li&gt;翻译更新包括了各种布局修复、填充调整和崩溃修复；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeShell/Extensions&quot;&gt;gnome-shell-extensions&lt;/a&gt; 增加了经典模式中缺少的顶栏指示器；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Sudoku&quot;&gt;gnome-sudoku&lt;/a&gt; 用户将获得多项用户界面修复，包括改进浅色模式下的工具提示，以及更好地处理撤销功能；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-text-editor&quot;&gt;gnome-text-editor&lt;/a&gt; 的更新引入了对默认为隐式尾随换行符的文档的修复，并改进了小屏幕上的文本换行；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/GnomeBluetooth&quot;&gt;gnome-bluetooth&lt;/a&gt; 的更新解决了取消配对时崩溃的问题，并增加了对 Kawai CA501 音乐键盘的支持以及其他改进；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-control-center&quot;&gt;gnome-control-center&lt;/a&gt; 修复了后台名称处理中的可访问性回归问题；&lt;/li&gt;
-      &lt;li&gt;该软件包还对外观、颜色和用户等多个模块进行了改进。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://tukaani.org/xz/&quot;&gt;xz&lt;/a&gt; 5.6.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;主要变更包括 x86-64 内联汇编与旧版 &lt;a href=&quot;https://www.gnu.org/software/binutils/&quot;&gt;GNU Binutils&lt;/a&gt; 的兼容性修复，以及针对 OpenBSD/sparc64 上的 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 4.2 的构建修复；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://linux.die.net/man/1/xzdec&quot;&gt;xzdec&lt;/a&gt; 工具现在能在使用 -M 等不支持的选项时正确显示错误；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://linux.die.net/man/1/lzmainfo&quot;&gt;lzmainfo&lt;/a&gt; 解决了舍入字典和未压缩大小时的整数溢出问题；&lt;/li&gt;
-      &lt;li&gt;在构建改进方面，基于 Autotools 的构建系统现在能更好地处理链接时优化（link-time optimization, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-flto&lt;/code&gt;），&lt;a href=&quot;https://en.wikipedia.org/wiki/Oracle_Solaris&quot;&gt;Solaris&lt;/a&gt; 用户也能受益于 version.sh 中对重新生成 configure 文件的修复；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://cmake.org/&quot;&gt;CMake&lt;/a&gt; 系统也得到了改进，包括优先使用 C11 而不是 C99 编译器，以及在链接到共享 &lt;a href=&quot;https://github.com/kobolabs/liblzma&quot;&gt;liblzma&lt;/a&gt; 时避免不必要的线程标志；&lt;/li&gt;
-      &lt;li&gt;此外，还更新了加泰罗尼亚语、简体中文和巴西葡萄牙语的翻译。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/plasma-desktop/&quot;&gt;KDE Plasma&lt;/a&gt; 6.2.1&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;修复了 &lt;a href=&quot;https://github.com/KDE/breeze&quot;&gt;Breeze&lt;/a&gt; 在没有文本或图标时调整复选框大小的问题；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 解决了与 Snap 包中的空通道相关的崩溃问题；&lt;/li&gt;
-      &lt;li&gt;Plasma Addons 改进了网络浏览器小程序的比例选择；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin&lt;/a&gt; 进行了多项修复，包括使用自定义几何体优化渲染、正确处理 X11 键盘修饰符以及防止与窗口堆叠和时间戳相关的崩溃；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/powerdevil&quot;&gt;Powerdevil&lt;/a&gt; 改进了亮度控制并修复了显示滑块的问题；&lt;/li&gt;
-      &lt;li&gt;Spacebar 修复了 SMS 发送问题，以进一步完善 &lt;a href=&quot;https://plasma-mobile.org/&quot;&gt;Plasma Mobile&lt;/a&gt; 环境中的通信功能。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/gear/24.08.2/&quot;&gt;KDE Gear 24.08.2&lt;/a&gt;&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 修复了与 URL 中的尾部斜杠和文件名中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&lt;/code&gt; 符号显示相关的问题；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/elisa/&quot;&gt;Elisa&lt;/a&gt; 解决了阻止播放没有元数据的曲目的问题；&lt;/li&gt;
-      &lt;li&gt;视频编辑器 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 修复了多个错误，包括标题制作者更新、崩溃修复以及特效和关键帧处理的改进；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/spectacle/&quot;&gt;Spectacle&lt;/a&gt; 对截图清晰度以及模糊和像素化工具等用户界面元素进行了改进。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt; 6.8.0&lt;/strong&gt;：该版本对整个 Qt 框架进行了重要更新，提高了性能和稳定性，具体如下：
-    &lt;ul&gt;
-      &lt;li&gt;libQt6Core 和 libQt6Gui 等核心库进行了错误修复并提高了性能；&lt;/li&gt;
-      &lt;li&gt;Qt Multimedia 改进了对系统 Eigen headers 的支持，并优化了 x86 兼容性；&lt;/li&gt;
-      &lt;li&gt;Qt WebEngine 和 Qt WebView 增强了网页渲染功能，并包含防止 ARM 系统构建失败的补丁；&lt;/li&gt;
-      &lt;li&gt;Qt Quick 3D 和 Qt ShaderTools 等图形模块提供了更好的 3D 渲染和着色器处理；&lt;/li&gt;
-      &lt;li&gt;总体而言，本次更新增强了用户界面、多媒体和网络组件的功能。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://networkmanager.dev/&quot;&gt;NetworkManager&lt;/a&gt; 1.50.0&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;在此更新中，已弃用对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dhclient&lt;/code&gt; 的支持，除非明确启用，否则默认情况构建时不再默认内置；&lt;/li&gt;
-      &lt;li&gt;现在推荐使用内部 DHCP 客户端，它自 1.20 版以来一直是默认设置；&lt;/li&gt;
-      &lt;li&gt;现在，在对系统主机名执行反向 DNS 查找时，该软件包会考虑 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt;；&lt;/li&gt;
-      &lt;li&gt;通过 ndisc 增加了对单个网络上多个网关的支持；&lt;/li&gt;
-      &lt;li&gt;现已支持 Wi-Fi AP 模式的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;channel-width&lt;/code&gt; 配置；&lt;/li&gt;
-      &lt;li&gt;其他增强功能包括改进了网桥端口上 VLAN 的处理，以及更好地处理格式错误的 LLDP 数据包以避免崩溃。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/CUPS&quot;&gt;cups&lt;/a&gt; 2.4.11：
-    &lt;ul&gt;
-      &lt;li&gt;此更新解决了与 Internet 打印协议（IPP）响应验证、PostScript 打印机描述（PPD）值处理和 Web UI 增强有关的几个问题；&lt;/li&gt;
-      &lt;li&gt;值得注意的变化包括将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cupsd&lt;/code&gt; 的最大文件描述符限制更新为 64k-1，并修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lpoptions -d&lt;/code&gt; 命令中已发现但未添加打印机的问题；&lt;/li&gt;
-      &lt;li&gt;增强了对 Web UI 中复选框的支持，并改进了打印机状态通知和 IPP Everywhere 打印机设置；&lt;/li&gt;
-      &lt;li&gt;此外，还包含了与 IPP 验证和 PPD 字符串处理相关的若干提交，以解决本地化字符串处理等问题。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;关键包更新&quot;&gt;关键包更新&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 256.7&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;该版本由 26 位开发者贡献，共有 83 次 commit；&lt;/li&gt;
-      &lt;li&gt;主要改进包括完善了对管理 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nspawn&lt;/code&gt; 容器的支持、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ld.so.cache&lt;/code&gt; 的处理以及查询响应系统中更好的日志机制；&lt;/li&gt;
-      &lt;li&gt;该版本还解决了 seccomp 同步问题，并改进了 ARP 协议 (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sd-ipv4acd&lt;/code&gt;) 的错误处理。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.11.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;主要更新包括改进静态调用处理，特别是模块故障和静态密钥递减（static key decrements）；&lt;/li&gt;
-      &lt;li&gt;多个 SCSI 修复解决了空驱动器重置时的输入/输出错误和 PCI 队列映射覆盖等问题；&lt;/li&gt;
-      &lt;li&gt;在图形方面，优化了&lt;a href=&quot;https://www.intel.com/&quot;&gt;英特尔&lt;/a&gt;和 [AMDGPU] 驱动程序，包括电源管理和显示渲染修复；&lt;/li&gt;
-      &lt;li&gt;网络更新包括修复 [Realtek] PHY 驱动程序、VLAN 处理以及防止数据包长度初始化中可能出现的下溢（underflow）情况；&lt;/li&gt;
-      &lt;li&gt;更新还引入了各种内存泄漏修复、蓝牙改进以及 [netfilter] 和 IPv4/IPv6 处理增强。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 2.5.1&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;像 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--add-recipients&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--change-recipients&lt;/code&gt; 这样的新命令在管理收件人方面提供了更大的灵活性，并为签名处理增加了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--proc-all-sigs&lt;/code&gt; 选项；&lt;/li&gt;
-      &lt;li&gt;改进包括修复密钥检索、PKCS#12 解析更新以及使用环回 pinentry 时 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KEYTOCARD&lt;/code&gt; 命令的解决方案；&lt;/li&gt;
-      &lt;li&gt;该版本更新现在还利用 libgpg-error 中的进程生成 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 来提高系统兼容性。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gtk.org/&quot;&gt;gtk4&lt;/a&gt; 4.16.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;此更新增强了通过在 XDG 目录中搜索来处理默认光标主题的方式，以确保更好地兼容 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 环境；&lt;/li&gt;
-      &lt;li&gt;默认光标大小现在与 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gsettings&lt;/code&gt; 模式相匹配，可提供更一致的用户体验；&lt;/li&gt;
-      &lt;li&gt;改进了 portal 设置的回退流程，因为在切换到无 portal 设置的回退时，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;settings_portal&lt;/code&gt; 会被清除；&lt;/li&gt;
-      &lt;li&gt;此版本还包括更新的翻译。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.php.net/&quot;&gt;php8&lt;/a&gt; 8.3.13&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;此次更新对该软件包的内核和扩展包进行了一些必要的修复；&lt;/li&gt;
-      &lt;li&gt;日历扩展解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jdtounix&lt;/code&gt; 等日期函数中的溢出问题；&lt;/li&gt;
-      &lt;li&gt;CLI 更新则防止了 HTTP 头信息的重复；&lt;/li&gt;
-      &lt;li&gt;内核更新解决了分段故障、内存泄漏和断言错误，从而稳定了嵌套框架和哈希表；&lt;/li&gt;
-      &lt;li&gt;在 DOM 中，修复了空指针和内存泄漏问题，使 XML 处理更流畅；&lt;/li&gt;
-      &lt;li&gt;LDAP 现在可以处理 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ldap_modify_batch&lt;/code&gt; 中的内存泄漏问题；&lt;/li&gt;
-      &lt;li&gt;SOAP 补丁解决了分段故障和内存泄漏问题。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://software.opensuse.org/package/wicked&quot;&gt;wicked&lt;/a&gt; 0.6.77&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;该版本增强了 IPv4/IPv6 节点生成和特定接口设置；&lt;/li&gt;
-      &lt;li&gt;改进了跨接口（包括环回接口）的 sysctl 继承，但排除了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use_tempaddr&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;accept_dad&lt;/code&gt; 等设置；&lt;/li&gt;
-      &lt;li&gt;路由更新解决了目标处理问题；&lt;/li&gt;
-      &lt;li&gt;手册页面的增强则澄清了配置细节；&lt;/li&gt;
-      &lt;li&gt;新选项包括 DHCP4 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ignore-rfc3927-1-6&lt;/code&gt; 设置；&lt;/li&gt;
-      &lt;li&gt;兼容性改进解决了已废弃的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INTERFACETYPE=dummy&lt;/code&gt; 问题；&lt;/li&gt;
-      &lt;li&gt;更新修复了 ethtool 操作中的数据泄露问题。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;错误修复和安全更新&quot;&gt;错误修复和安全更新&lt;/h2&gt;
-
-&lt;p&gt;本月解决了几个关键的安全漏洞：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Firefox&lt;/a&gt; 131.0.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-9936.html&quot;&gt;CVE-2024-9936&lt;/a&gt; 是一个漏洞，允许攻击者操纵选择节点缓存，可能导致崩溃；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-9392.html&quot;&gt;CVE-2024-9392&lt;/a&gt; 可能允许在 131 版本以下的 Firefox 和 &lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;Thunderbird&lt;/a&gt; 中加载任意跨域页面。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.com/nbdkit/libnbd&quot;&gt;libnbd&lt;/a&gt; 1.20.3&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-7383.html&quot;&gt;CVE-2024-7383&lt;/a&gt; 由于连接到 NBD 服务器时 TLS 证书验证不正确而允许中间人攻击。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt;&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-9143.html&quot;&gt;CVE-2024-9143&lt;/a&gt; 是一个漏洞，可能会导致内存访问越界，从而可能导致崩溃或远程代码执行，但可能性很小；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-50782.html&quot;&gt;CVE-2023-50782&lt;/a&gt; 是一个漏洞，amy 允许远程攻击者解密使用 RSA 密钥交换的 TLS 服务器中捕获的消息，从而导致机密或敏感数据泄露。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 9.1.0&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;[CVE-2024-8612] 可能会泄露未初始化的数据并导致潜在的信息泄露。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;virtualbox&lt;/a&gt; 7.1.4&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21248.html&quot;&gt;CVE-2024-21248&lt;/a&gt; 允许低权限攻击者破坏系统，从而可能导致未经授权的数据访问、修改或部分拒绝服务；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21273.html&quot;&gt;CVE-2024-21273&lt;/a&gt; 允许高权限攻击者未经授权访问所有数据，从而可能影响其他产品；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21259.html&quot;&gt;CVE-2024-21259&lt;/a&gt; 允许高权限攻击者潜在地接管系统，从而影响机密性、完整性和可用性；&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-21263.html&quot;&gt;CVE-2024-21263&lt;/a&gt; 允许低权限攻击者造成完全拒绝服务并获得对某些数据的未经授权的读取访问权限。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.libarchive.org/&quot;&gt;libarchive&lt;/a&gt; 3.7.6&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-20696.html&quot;&gt;CVE-2024-20696&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-26256.html&quot;&gt;CVE-2024-26256&lt;/a&gt; 是远程代码执行漏洞。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.46.1&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;Apple 用户会受益于 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-40866.html&quot;&gt;CVE-2024-40866&lt;/a&gt; 和 &lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-44187.html&quot;&gt;CVE-2024-44187&lt;/a&gt; 的修复。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gnome-shell&quot;&gt;gnome-shell&lt;/a&gt;&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-36472.html&quot;&gt;CVE-2024-36472&lt;/a&gt; 可能允许基于网络响应启动门户帮助程序，从而启用不受信任的 JavaScript 执行，从而可能导致资源消耗或其他影响。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://software.opensuse.org/package/oath-toolkit?locale=wa&quot;&gt;oath-toolkit&lt;/a&gt; 2.6.11.12&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-47191.html&quot;&gt;CVE-2024-47191&lt;/a&gt; 可能允许通过不正确的用户文件访问来提升 root 权限，包括符号链接处理。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://nlnetlabs.nl/projects/unbound/about/&quot;&gt;unbound&lt;/a&gt; 1.21.1&lt;/strong&gt;：
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-8508.html&quot;&gt;CVE-2024-8508&lt;/a&gt; 允许拒绝服务，这可能会导致名称压缩期间 CPU 使用率过高。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;Tumbleweed 在 2024 年 10 月为用户带来了重大更新，并为他们提供了安全且高性能的系统。更新 systemd、pgp、php、GTK4 等关键软件包可以使您的系统保持最新状态并获得最新快照。订阅 openSUSE Factory 邮件列表，随时了解最新快照。&lt;/p&gt;
-
-&lt;p&gt;订阅 openSUSE Factory 邮件列表，随时了解最新快照。对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
-
-&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
-
-&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/10/30/tw-monthly-update-october/&quot;&gt;Tumbleweed Monthly Update - October 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-
 </content:encoded>
     </item>
 
