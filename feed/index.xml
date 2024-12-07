@@ -7,6 +7,27 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/06/leap-micro.html</guid>
+      <title>Leap Micro 6.1 正式发布</title>
+      <pubDate>Fri, 06 Dec 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/06/leap-micro.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 社区很高兴地宣布正式发布 Leap Micro 6.1。 Leap Micro 继续与 SUSE Linux Enterprise Micro 保持一致，确保强大的容器和虚拟机托管功能。该版本有一个新的 opensuse-migration-tool，它简化了升级，使版本之间的过渡更顺畅。一些增强功能包括软重启支持。PAM 登录的双因素身份验证 (TOTP) 提高了安全性。还有其他工具收到更新，例如用于 SAP 虚拟化的 vhostmd 以及对 jeos-firstboot 向导的改进等等。 Leap Micro 6.1 的发布标志着 Leap Micro 5.5 的生命周期结束。社区强烈建议用户升级到 Leap Micro 6.0 或 6.1 以继续接收更新和支持。 有关详细的升级指南，请访问 openSUSE Wiki 或 SLE Micro 6.1 发行说明。 原文：Leap Micro 6.1 Officially Released，作者：Douglas...</description>
+      <content:encoded>&lt;p&gt;openSUSE 社区很高兴地宣布正式发布 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.1/&quot;&gt;Leap Micro 6.1&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 继续与 SUSE Linux Enterprise Micro 保持一致，确保强大的容器和虚拟机托管功能。该版本有一个新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt;，它简化了升级，使版本之间的过渡更顺畅。一些增强功能包括软重启支持。PAM 登录的双因素身份验证 (TOTP) 提高了安全性。还有其他工具收到更新，例如用于 SAP 虚拟化的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vhostmd&lt;/code&gt; 以及对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jeos-firstboot&lt;/code&gt; 向导的改进等等。&lt;/p&gt;
+
+&lt;p&gt;Leap Micro 6.1 的发布标志着 Leap Micro 5.5 的生命周期结束。社区强烈建议用户升级到 Leap Micro 6.0 或 6.1 以继续接收更新和支持。&lt;/p&gt;
+
+&lt;p&gt;有关详细的升级指南，请访问 &lt;a href=&quot;https://en.opensuse.org/&quot;&gt;openSUSE Wiki&lt;/a&gt; 或 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SL-Micro/6.1/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/06/leap-micro-released/&quot;&gt;Leap Micro 6.1 Officially Released&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/03/leap-micro.html</guid>
       <title>Leap Micro 6.1 候选版本现已发布</title>
       <pubDate>Tue, 03 Dec 2024 23:00:00 +0000</pubDate>
@@ -654,58 +675,6 @@ openSUSE 项目邮件列表的一封电子邮件中这样写道：“像 openSUS
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/11/streamlining-translations/&quot;&gt;Streamlining openSUSE Translations Upstream&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/07/recognition.html</guid>
-      <title>社区发起一项新活动</title>
-      <pubDate>Thu, 07 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/07/recognition.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目宣布推出一项新举措，旨在突出不同社区成员的贡献。
-
-该项目被称为 “Contributor in the Spotlight (聚光灯下的贡献者)”，旨在每月介绍一位不同的贡献者，展示他们在编码、艺术、文档等领域的工作。
-
-Tobias Görgens 和 Gertjan Lettink 在项目邮件列表的一封电子邮件中写道：“这是一个参与社区并帮助确保我们的贡献者获得应有认可的绝佳机会。”
-
-该计划旨在提高知名度，提供认可，表达感激之情，并激励其他人为开源做出贡献。
-
-许多贡献者的努力常常被忽视，该计划旨在通过分享他们的故事并认可他们为加强开源开发所做的努力来改变这一现状。
-
-投稿者可在每月 15 日之前提交申请，通过自荐的方式申请刊登。在征得被提名者同意的情况下，可以进行提名。遴选过程将侧重于其作品的影响力、独特性以及与项目内外的相关性。入选者将在下个月第一个星期一的博文中受到关注。
-
-除了鼓励提交申请，项目成员还寻求志愿者帮助管理该倡议。组织者将审核申请、创建博客文章并在社区内推广该项目。
-
-申请现已开始，第一期专题报道预计将很快发布。
-
-有关更多信息，请访问邮件列表电子邮件或 openSUSE GitHub 页面。
-
-
-
-原文：Project Launches Recognition Platform，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目宣布推出一项新举措，旨在突出&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/2Q4D5ERCHY7MBA6GHZ2K4SC7BFK5FEML/&quot;&gt;不同社区成员的贡献&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;该项目被称为 “Contributor in the Spotlight (聚光灯下的贡献者)”，旨在每月介绍一位不同的贡献者，展示他们在编码、艺术、文档等领域的工作。&lt;/p&gt;
-
-&lt;p&gt;Tobias Görgens 和 Gertjan Lettink 在&lt;a href=&quot;https://news.opensuse.org/2024/11/08/project-launches-recognition-platform/add%20link%20to%20email%20here&quot;&gt;项目邮件列表的一封电子邮件&lt;/a&gt;中写道：“这是一个参与社区并帮助确保我们的贡献者获得应有认可的绝佳机会。”&lt;/p&gt;
-
-&lt;p&gt;该计划旨在提高知名度，提供认可，表达感激之情，并激励其他人为开源做出贡献。&lt;/p&gt;
-
-&lt;p&gt;许多贡献者的努力常常被忽视，该计划旨在通过分享他们的故事并认可他们为加强开源开发所做的努力来改变这一现状。&lt;/p&gt;
-
-&lt;p&gt;投稿者可在每月 15 日之前提交申请，通过自荐的方式申请刊登。在征得被提名者同意的情况下，可以进行提名。遴选过程将侧重于其作品的影响力、独特性以及与项目内外的相关性。入选者将在下个月第一个星期一的博文中受到关注。&lt;/p&gt;
-
-&lt;p&gt;除了鼓励提交申请，项目成员还寻求志愿者帮助管理该倡议。组织者将审核申请、创建博客文章并在社区内推广该项目。&lt;/p&gt;
-
-&lt;p&gt;申请现已开始，第一期专题报道预计将很快发布。&lt;/p&gt;
-
-&lt;p&gt;有关更多信息，请访问邮件列表电子邮件或 &lt;a href=&quot;https://github.com/openSUSE/cits/issues/new?assignees=&amp;amp;labels=&amp;amp;projects=&amp;amp;template=application-contributor&quot;&gt;openSUSE GitHub 页面&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/08/project-launches-recognition-platform/&quot;&gt;Project Launches Recognition Platform&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
