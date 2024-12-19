@@ -7,6 +7,38 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/17/bar.html</guid>
+      <title>为 openSUSE Bar 成立 5 周年干杯</title>
+      <pubDate>Tue, 17 Dec 2024 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/17/bar.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE 社区将于 12 月 19 日庆祝 openSUSE Bar 成立 5 周年。请到 openSUSE Bar 与大家一起庆祝这个社交空间，在这里，开源爱好者、开发人员和志同道合者可以聚在一起讨论开源和其他话题。
+
+openSUSE Bar 已不仅仅是一个聚会场所，它还是一个合作、联系的空间和分享想法的温馨氛围。多年来，这里举办了无数次非正式聚会和交流活动，也是 openSUSE 里程碑之后的庆祝时刻，更是 openSUSE 爱好者的聚集地。
+
+欢迎大家参加庆祝活动，并分享他们在 openSUSE Bar 的回忆或故事。
+
+您可以从 2022 年 openSUSE 大会的演讲中找到一段关于 openSUSE Bar 创立之初的视频。
+
+
+
+原文：Cheers to 5 Years of openSUSE Bar，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;openSUSE 社区将于 12 月 19 日庆祝 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE Bar&lt;/a&gt; 成立 5 周年。请到 openSUSE Bar 与大家一起庆祝这个社交空间，在这里，开源爱好者、开发人员和志同道合者可以聚在一起讨论开源和其他话题。&lt;/p&gt;
+
+&lt;p&gt;openSUSE Bar 已不仅仅是一个聚会场所，它还是一个合作、联系的空间和分享想法的温馨氛围。多年来，这里举办了无数次非正式聚会和交流活动，也是 openSUSE 里程碑之后的庆祝时刻，更是 openSUSE 爱好者的聚集地。&lt;/p&gt;
+
+&lt;p&gt;欢迎大家参加庆祝活动，并分享他们在 openSUSE Bar 的回忆或故事。&lt;/p&gt;
+
+&lt;p&gt;您可以从 2022 年 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;的演讲中找到&lt;a href=&quot;https://youtu.be/YmnawYltDSQ?si=mjH9oJGM3wxgnUfq&quot;&gt;一段关于 openSUSE Bar 创立之初的视频&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/17/five-years-of-os-bar/&quot;&gt;Cheers to 5 Years of openSUSE Bar&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/09/gpu.html</guid>
       <title>openSUSE 推荐使用新的 GPU 切换方案</title>
       <pubDate>Mon, 09 Dec 2024 23:00:00 +0000</pubDate>
@@ -669,42 +701,6 @@ openSUSE 项目邮件列表的一封电子邮件中这样写道：“像 openSUS
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/13/board-elections-for-three-seats-opens/&quot;&gt;Board Election for Three Seats Opens&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/12/new-sponsor.html</guid>
-      <title>openSUSE 项目欢迎 rsync.net 成为新的金牌赞助商</title>
-      <pubDate>Tue, 12 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/12/new-sponsor.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 项目很高兴地宣布 rsync.net 成为最新的金牌赞助商！ 该公司的支持将使 openSUSE 社区能够继续构建开源解决方案，为全球用户提供服务。 Rsync.net 的安全云存储和数据备份解决方案可帮助 openSUSE 成员进行项目和软件包开发。这是确保系统关键数据异地备份的绝佳解决方案。云存储公司 rsync.net 不仅为 openSUSE 项目提供资源，还为 Debian 开发人员等其他开源项目提供资源。 通过这项合作，拥有 openSUSE 电子邮件地址的 openSUSE 社区会员可以访问500GB 的永久免费存储空间。会员还可以从 rsync.net 获得额外的好处，为需要更多空间的用户提供经济实惠的选择： 标准单区域：0.008 美元/每 GB/每月，确保 99.9999% 的弹性。 异地冗余存储：0.014 美元/每 GB/每月，跨区域自动复制以增强安全性。 硅谷、丹佛、苏黎世和香港的存储地点可以最大限度地满足开发人员的需求。 openSUSE 项目非常重视与 rsync.net 的合作，也非常感谢该公司承诺支持我们的社区和开源工作。 对于对 rsync.net 赞助内容感兴趣的 openSUSE 会员，请单击此处。 会员可通过 Factory 邮件列表获知赞助信息。openSUSE 会员可以在维基站点上查看成为项目会员的好处。 有意支持 openSUSE 社区的公司可在我们的赞助商页面找到赞助详情。openSUSE...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;很高兴地宣布 &lt;a href=&quot;https://www.rsync.net/&quot;&gt;rsync.net&lt;/a&gt; 成为最新的金牌赞助商！&lt;/p&gt;
-
-&lt;p&gt;该公司的支持将使 openSUSE 社区能够继续构建开源解决方案，为全球用户提供服务。&lt;/p&gt;
-
-&lt;p&gt;Rsync.net 的安全云存储和数据备份解决方案可帮助 openSUSE 成员进行项目和软件包开发。这是确保系统关键数据异地备份的绝佳解决方案。云存储公司 rsync.net 不仅为 openSUSE 项目提供资源，还为 &lt;a href=&quot;https://www.rsync.net/debian.html&quot;&gt;Debian&lt;/a&gt; 开发人员等其他开源项目提供资源。&lt;/p&gt;
-
-&lt;p&gt;通过这项合作，拥有 openSUSE 电子邮件地址的 openSUSE 社区会员可以访问&lt;strong&gt;500GB 的永久免费存储空间&lt;/strong&gt;。会员还可以从 rsync.net 获得额外的好处，为需要更多空间的用户提供经济实惠的选择：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;标准单区域&lt;/strong&gt;：0.008 美元/每 GB/每月，确保 99.9999% 的弹性。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;异地冗余存储&lt;/strong&gt;：0.014 美元/每 GB/每月，跨区域自动复制以增强安全性。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;硅谷&lt;/strong&gt;、&lt;strong&gt;丹佛&lt;/strong&gt;、&lt;strong&gt;苏黎世&lt;/strong&gt;和&lt;strong&gt;香港&lt;/strong&gt;的存储地点可以最大限度地满足开发人员的需求。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目非常重视与 rsync.net 的合作，也非常感谢该公司承诺支持我们的社区和开源工作。&lt;/p&gt;
-
-&lt;p&gt;对于对 rsync.net 赞助内容感兴趣的 openSUSE 会员，请单击&lt;a href=&quot;https://www.rsync.net/signup/order.html?code=22ed59&quot;&gt;此处&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;会员可通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/T5QI4RULJVLBDF6HFX7W7C6VAYXAQXJB/&quot;&gt;Factory 邮件列表&lt;/a&gt;获知赞助信息。openSUSE 会员可以&lt;a href=&quot;https://en.opensuse.org/openSUSE:Members#Perks_of_being_a_member_with_voting_privileges&quot;&gt;在维基站点上查看成为项目会员的好处&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;有意支持 openSUSE 社区的公司可在我们的&lt;a href=&quot;https://en.opensuse.org/Sponsors#Want_to_Become_a_Sponsor_of_openSUSE?&quot;&gt;赞助商页面&lt;/a&gt;找到赞助详情。openSUSE 项目还通过 &lt;a href=&quot;https://geekos.org/sponsorship/&quot;&gt;Geeko 基金&lt;/a&gt;会接受捐款以支持社区。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/12/rsync-net-becomes-gold-sponsor/&quot;&gt;Project Welcomes rsync.net as New Gold Sponsor&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
