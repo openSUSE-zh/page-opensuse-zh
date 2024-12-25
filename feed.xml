@@ -7,6 +7,79 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/20/new-tools.html</guid>
+      <title>新的包管理工具首次亮相</title>
+      <pubDate>Fri, 20 Dec 2024 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/20/new-tools.html</link>
+      <author>Poplar at twilight</author>
+      <description>YQPkg 有望成为 openSUSE 新的软件包管理工具，正准备在 Linux 社区掀起波澜。 YQPkg 按独立 GUI 应用进行开发，为 openSUSE 用户提供了 YaST 等传统工具一个轻量、直观的替代方案。 YQPkg 让我们得以一睹 openSUSE 系统上包管理的未来。为 Tumbleweed 和 Slowroll 打包和发布的可用 alpha 版将包含有效软件包管理所需的大部分关键功能。 YQPkg 是在 Hack Week 24 期间开发的，它是一个基于 Qt，不依赖 YaST，独立的软件包管理器。 该工具已经装载一些实际可用的功能，包括安装、更新和删除软件包，并能解决依赖性问题和提供用户反馈。目前 YQPkg 处于 alpha 开发阶段，提供两种工作模式：只读（read-only）和 root。 用户可以使用 root 权限运行 root 模式，或者以普通用户身份运行只读模式。它具有简单的进度条，用户可以在操作过程中切换详细视图。 不过，该程序仍存在一些限制。软件源刷新操作和 gpg 密钥处理尚未实现，因此建议用户在启动程序前手动刷新软件源（sudo zypper ref）。YQPkg 仍处于开发阶段，存在已知错误和潜在问题；我们强烈建议避免在关键生产系统上使用它。 与前代产品不同，YQPkg...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/shundhammer/yqpkg&quot;&gt;YQPkg&lt;/a&gt; 有望成为 openSUSE 新的软件包管理工具，正准备在 Linux 社区掀起波澜。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/shundhammer/yqpkg&quot;&gt;YQPkg&lt;/a&gt; 按独立 GUI 应用进行开发，为 openSUSE 用户提供了 YaST 等传统工具一个轻量、直观的替代方案。&lt;/p&gt;
+
+&lt;p&gt;YQPkg 让我们得以一睹 openSUSE 系统上包管理的未来。为 Tumbleweed 和 Slowroll 打包和发布的可用 alpha 版将包含有效软件包管理所需的大部分关键功能。&lt;/p&gt;
+
+&lt;p&gt;YQPkg 是在 &lt;a href=&quot;https://hackweek.opensuse.org/24/projects/yqpkg-bringing-the-single-package-selection-back-to-life&quot;&gt;Hack Week 24&lt;/a&gt; 期间开发的，它是一个基于 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt;，不依赖 YaST，独立的软件包管理器。&lt;/p&gt;
+
+&lt;p&gt;该工具已经装载一些实际可用的功能，包括安装、更新和删除软件包，并能解决依赖性问题和提供用户反馈。目前 YQPkg 处于 alpha 开发阶段，提供两种工作模式：只读（read-only）和 root。&lt;/p&gt;
+
+&lt;p&gt;用户可以使用 root 权限运行 root 模式，或者以普通用户身份运行只读模式。它具有简单的进度条，用户可以在操作过程中切换详细视图。&lt;/p&gt;
+
+&lt;p&gt;不过，该程序仍存在一些限制。软件源刷新操作和 &lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg&lt;/a&gt; 密钥处理尚未实现，因此建议用户在启动程序前手动刷新软件源（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper ref&lt;/code&gt;）。YQPkg 仍处于开发阶段，存在已知错误和潜在问题；&lt;strong&gt;我们强烈建议避免在关键生产系统上使用它。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;与前代产品不同，YQPkg 不依赖 YaST 基础架构，因为它只依赖 &lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt;。这种独立性确保了简化的使用体验，并降低了一些复杂性。Libzypp 是一个基于 C++ 的软件包管理库，用于处理软件包的依赖性解析和管理，独立于任何图形用户界面框架（如 Qt）。&lt;/p&gt;
+
+&lt;p&gt;该工具将引入灵活的摘要视图，允许用户查看已完成的任务，或返回到以前的步骤进行更多更改。摘要页面设置和倒计时器等偏好设置会被保存起来，供以后的会话使用。&lt;/p&gt;
+
+&lt;p&gt;想要探索 YQPkg 的用户将可以在其发布后轻松上手；使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper ref&lt;/code&gt; 刷新软件源后，用户可以下载最新的 alpha 版本并以普通用户运行只读模式或以 root 权限运行该工具以获得完整功能；这种可访问性确保 YQPkg 可随时满足普通用户和高级用户的需求。&lt;/p&gt;
+
+&lt;p&gt;尽管 YQPkg 仍处于开发阶段，但它正在稳步发展。未来的更新将改进错误处理、GPG 密钥管理和软件源刷新提示等功能。在 openSUSE 生态系统中，YQPkg 将为软件包管理带来光明的未来。&lt;/p&gt;
+
+&lt;p&gt;您可以使用 &lt;a href=&quot;https://github.com/shundhammer/yqpkg&quot;&gt;GitHub 仓库&lt;/a&gt;的源代码构建安装 YQPkg。当前的开发状态和屏幕截图可在&lt;a href=&quot;https://github.com/shundhammer/yqpkg/issues/1&quot;&gt;此处&lt;/a&gt;查看；向下滚动查看最新消息。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/20/new-pkg-mgmt-tool-debuts/&quot;&gt;New Package Management Tool Debuts&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/19/leap-15.5-eol.html</guid>
+      <title>Leap 15.5 即将退役</title>
+      <pubDate>Thu, 19 Dec 2024 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/19/leap-15.5-eol.html</link>
+      <author>Poplar at twilight</author>
+      <description>于 6 月 12 日发布的 Leap 15.6 标志着 Leap 15.5 即将结束安全维护和更新，维护结束的时间在本月月底。
+
+用户应升级到 openSUSE Leap 15.6 以继续接收安全和维护更新。新版本发布后，上一个版本的 Leap 将继续维护六个月，然后结束生命周期。
+
+openSUSE 项目正处于 Leap 16.0 的开发阶段，人们可以测试 pre-Alpha 版本。
+
+我们鼓励早期采用者和贡献者探索 16.0 pre-Alpha 版本并提供反馈以塑造下一个 Leap 版本，该版本将随 Agama 安装程序一起提供。
+
+请访问 get.opensuse.org 尝试不同的 openSUSE 发行版。对于寻求扩展支持的用户，可联系 SUSE 获取长期订阅支持方案。
+
+
+
+原文：Leap 15.5 Nears End of Life，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;于 6 月 12 日发布的 &lt;a href=&quot;https://news.opensuse.org/2024/06/12/leap-unveils-choices-for-users/&quot;&gt;Leap 15.6&lt;/a&gt; 标志着 &lt;a href=&quot;https://news.opensuse.org/2023/06/07/leap-release-matures-sets-up-tech-transition/&quot;&gt;Leap 15.5&lt;/a&gt; 即将结束安全维护和更新，维护结束的时间在本月月底。&lt;/p&gt;
+
+&lt;p&gt;用户应升级到 openSUSE Leap 15.6 以继续接收安全和维护更新。新版本发布后，上一个版本的 Leap 将继续维护六个月，然后结束生命周期。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;正处于 &lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/&quot;&gt;Leap 16.0&lt;/a&gt; 的开发阶段，人们可以&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试 pre-Alpha 版本&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;我们鼓励早期采用者和贡献者探索 16.0 pre-Alpha 版本并提供反馈以塑造下一个 Leap 版本，该版本将随 &lt;a href=&quot;https://en.opensuse.org/Agama&quot;&gt;Agama&lt;/a&gt; 安装程序一起提供。&lt;/p&gt;
+
+&lt;p&gt;请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 尝试不同的 openSUSE 发行版。对于寻求扩展支持的用户，可联系 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 获取长期订阅支持方案。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/19/leap-nears-eol/&quot;&gt;Leap 15.5 Nears End of Life&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/17/bar.html</guid>
       <title>为 openSUSE Bar 成立 5 周年干杯</title>
       <pubDate>Tue, 17 Dec 2024 23:00:00 +0000</pubDate>
@@ -606,101 +679,6 @@ OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/sp
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/20/leap-micro-61-alpha-availability/&quot;&gt;Leap Micro 6.1 Alpha is now available. Get ready for Leap Micro 5.5 End of Life.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/14/news.html</guid>
-      <title>社区呼吁参与项目治理和品牌重塑</title>
-      <pubDate>Thu, 14 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/14/news.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 董事会呼吁成立一个工作组来探讨项目治理、运营模式和项目品牌重塑等主题。
-
-在此之前，openSUSE 项目邮件列表呼吁将社区成员的努力、想法和建议集中在一个地方正式化。
-
-openSUSE 董事会强调自己的角色是促进者，而不是唯一的推动者，因为社区的参与影响着项目的发展。
-
-openSUSE 项目邮件列表的一封电子邮件中这样写道：“像 openSUSE 这样的开源项目的力量来自于社区。”
-
-工作组的目标：
-
-
-  探索项目治理模式
-  检查运营改进
-  确定有效项目品牌重塑的资源
-
-
-工作组将集中社区讨论，并在 90 天内提出可操作的方案；这将为更广泛的社区提供机会，对拟议的项目进行权衡。应审查关键的治理文件，如现行的董事会指导方针和选举规则，以评估可能的更新。
-
-讨论将集中组织在 openSUSE 论坛的一个单独版块中，以促进建设性的辩论并尽量减少离题讨论。有兴趣参与的 openSUSE 社区成员可申请访问该论坛；讨论内容可公开查看。
-
-
-
-原文：Community Call for Involvement With Project’s Governance, Rebranding，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;openSUSE 董事会呼吁成立一个工作组来探讨项目治理、运营模式和项目品牌重塑等主题。&lt;/p&gt;
-
-&lt;p&gt;在此之前，&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/3PSZOWYRYAGCDUXIW5EK4RP2CO3PA647/&quot;&gt;openSUSE 项目邮件列表&lt;/a&gt;呼吁将社区成员的努力、想法和建议&lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;集中在一个地方&lt;/a&gt;正式化。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 董事会强调自己的角色是促进者，而不是唯一的推动者，因为社区的参与影响着项目的发展。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/3PSZOWYRYAGCDUXIW5EK4RP2CO3PA647/&quot;&gt;openSUSE 项目邮件列表的一封电子邮件&lt;/a&gt;中这样写道：“像 openSUSE 这样的开源项目的力量来自于社区。”&lt;/p&gt;
-
-&lt;p&gt;工作组的目标：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;探索项目治理模式&lt;/li&gt;
-  &lt;li&gt;检查运营改进&lt;/li&gt;
-  &lt;li&gt;确定有效项目品牌重塑的资源&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;工作组将集中社区讨论，并在 90 天内提出可操作的方案；这将为更广泛的社区提供机会，对拟议的项目进行权衡。应审查关键的治理文件，如现行的董事会&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;指导方针&lt;/a&gt;和&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election_rules&quot;&gt;选举规则&lt;/a&gt;，以评估可能的更新。&lt;/p&gt;
-
-&lt;p&gt;讨论将集中组织在 &lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;openSUSE 论坛&lt;/a&gt;的一个单独版块中，以促进建设性的辩论并尽量减少离题讨论。有兴趣参与的 openSUSE 社区成员可&lt;a href=&quot;https://forums.opensuse.org/c/special-discussions/project-discussions&quot;&gt;申请访问&lt;/a&gt;该论坛；讨论内容可公开查看。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/15/cc-for-involvement-w-governance-rebanding/&quot;&gt;Community Call for Involvement With Project’s Governance, Rebranding&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/13/board-election.html</guid>
-      <title>针对三个空缺职位的董事会选举现已开始</title>
-      <pubDate>Wed, 13 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/11/13/board-election.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 选举委员会成员已向 openSUSE 项目发出通知，今年的董事会选举即将开始。本次选举有三个董事会席位待选。 选举将于 11 月 15 日开始提名程序，并邀请所有符合条件的 openSUSE 会员参与塑造社区的未来。 空缺席位目前由 Douglas DeMaio、Neal Gompa 和 Patrick Fitzgerald 担任。董事会成员是社区的指导者，负责监督一些关键的项目功能，促进社区活动，并负责组织董事会会议、管理 openSUSE 域名和商标。他们还在维护社区标准方面发挥作用，包括监督投诉流程和确保遵守 openSUSE 的《行为准则》。 选举时间表 选举流程将在下个月启动。计划按照以下正式时间表进行： 11 月 15 日： 正式公告，开始提名，会员活动开始 11 月 30 日：公布最终候选人名单；竞选活动开始 12 月 1 日： 投票开始 12 月 15 日： 投票结束 12 月 16 日：公布选举结果 如何参与 任何...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 选举委员会成员&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/7CCQIFQ3AY2UMCDWM6T3A5UKEXGYBBTV/&quot;&gt;已向 openSUSE 项目发出通知，今年的董事会选举即将开始&lt;/a&gt;。本次选举有三个董事会席位待选。&lt;/p&gt;
-
-&lt;p&gt;选举将于 11 月 15 日开始提名程序，并邀请所有符合条件的 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Members&quot;&gt;openSUSE 会员&lt;/a&gt;参与塑造社区的未来。&lt;/p&gt;
-
-&lt;p&gt;空缺席位目前由 Douglas DeMaio、Neal Gompa 和 Patrick Fitzgerald 担任。董事会成员是社区的指导者，负责监督一些关键的项目功能，促进社区活动，并负责组织董事会会议、管理 openSUSE 域名和商标。他们还在维护社区标准方面发挥作用，包括监督投诉流程和确保遵守 openSUSE 的《&lt;a href=&quot;https://code.opensuse.org/project/coc/blob/main/f/Code-of-Conduct.md&quot;&gt;行为准则&lt;/a&gt;》。&lt;/p&gt;
-
-&lt;h2 id=&quot;选举时间表&quot;&gt;选举时间表&lt;/h2&gt;
-
-&lt;p&gt;选举流程将在下个月启动。计划按照以下正式时间表进行：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;11 月 15 日&lt;/strong&gt;： 正式公告，开始提名，会员活动开始&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;11 月 30 日&lt;/strong&gt;：公布最终候选人名单；竞选活动开始&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12 月 1 日&lt;/strong&gt;： 投票开始&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12 月 15 日&lt;/strong&gt;： 投票结束&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;12 月 16 日&lt;/strong&gt;：公布选举结果&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;如何参与&quot;&gt;如何参与&lt;/h2&gt;
-
-&lt;p&gt;任何 openSUSE 会员都可以通过发送电子邮件至 &lt;a href=&quot;mailto:project@lists.opensuse.org&quot;&gt;project@lists.opensuse.org&lt;/a&gt; 和 &lt;a href=&quot;mailto:election-officials@lists.opensuse.org&quot;&gt;election-officials@lists.opensuse.org&lt;/a&gt; 参加竞选。会员也可通过联系选举委员会提名其他人，选举委员会将与被提名人联系，确认其是否有意参选。&lt;/p&gt;
-
-&lt;h2 id=&quot;资格要求&quot;&gt;资格要求&lt;/h2&gt;
-
-&lt;p&gt;根据 openSUSE 组织的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election_rules&quot;&gt;选举规则&lt;/a&gt;，只有现任会员才有资格竞选董事会职位。虽然社区欢迎新会员在入会活动期间加入并参与投票过程，但他们没有资格作为候选人参选。监督今年活动的选举委员会成员包括 Ish Sookun、Edwin Zakaria 和 Ariez Vachha。委员会负责确保选举过程顺利进行，并在 11 月 30 日之前确定候选人名单。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/13/board-elections-for-three-seats-opens/&quot;&gt;Board Election for Three Seats Opens&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
