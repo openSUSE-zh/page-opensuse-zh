@@ -7,6 +7,210 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/07/monthly-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 十二月</title>
+      <pubDate>Tue, 07 Jan 2025 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/07/monthly-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>Tumbleweed 继续以稳健的滚动发布为典范，在 12 月释出多个快照和大量更新为 2024 年画上了句号！KDE Gear 24.12 提高了应用程序可用性，SQLite 引入了创新的查询功能，快照为各种软件包带来了关键补丁以增强安全性。这些更新不仅增强了功能，也为令人兴奋的 2025 年做好了准备。 与往常一样，如果出现任何问题，请记住使用 snapper 进行回滚。 祝您在风滚草上玩得愉快！🦎 有关当月更改日志的更多详细信息，请访问 openSUSE Factory 邮件列表。 新功能和增强功能 KDE Gear 24.12：该更新为 KDE 的各种应用程序套件提供了许多增强功能。 Dolphin 现在拥有更好的键盘导航功能、文件排序功能，并为 Plasma Mobile 优化了新的移动界面。 文档查看器 Okular 增强了注释、表单处理和数字签名功能。 Kdenlive 则引入了时间线项目大小调整和代理生成改进等功能。 其他应用程序，如证书管理器 [Kleopatra] 和 KDE Connect 也进行了显著升级，包括改进密码学工具和蓝牙连接功能。 KDE Frameworks 6.9.0：主要亮点包括更好的可访问性、改进的文件处理以及跨各个模块的更新的图标集。 Baloo 和 Kirigami 等框架在测试可靠性和可用性方面获得了重大更新。 Breeze...</description>
+      <content:encoded>&lt;p&gt;Tumbleweed 继续以稳健的滚动发布为典范，在 12 月释出多个快照和大量更新为 2024 年画上了句号！&lt;a href=&quot;https://kde.org/announcements/gear/24.12.0/&quot;&gt;KDE Gear 24.12&lt;/a&gt; 提高了应用程序可用性，&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;SQLite&lt;/a&gt; 引入了创新的查询功能，快照为各种软件包带来了关键补丁以增强安全性。这些更新不仅增强了功能，也为令人兴奋的 2025 年做好了准备。&lt;/p&gt;
+
+&lt;p&gt;与往常一样，如果出现任何问题，请记住使用 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 进行回滚。&lt;/p&gt;
+
+&lt;p&gt;祝您在风滚草上玩得愉快！🦎&lt;/p&gt;
+
+&lt;p&gt;有关当月更改日志的更多详细信息，请访问 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/gear/24.12.0/&quot;&gt;KDE Gear 24.12&lt;/a&gt;&lt;/strong&gt;：该更新为 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt; 的各种应用程序套件提供了许多增强功能。
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 现在拥有更好的键盘导航功能、文件排序功能，并为 Plasma Mobile 优化了新的移动界面。&lt;/li&gt;
+      &lt;li&gt;文档查看器 &lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 增强了注释、表单处理和数字签名功能。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 则引入了时间线项目大小调整和代理生成改进等功能。&lt;/li&gt;
+      &lt;li&gt;其他应用程序，如证书管理器 [Kleopatra] 和 &lt;a href=&quot;https://kdeconnect.kde.org/&quot;&gt;KDE Connect&lt;/a&gt; 也进行了显著升级，包括改进密码学工具和蓝牙连接功能。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/6/6.9.0/&quot;&gt;KDE Frameworks 6.9.0&lt;/a&gt;&lt;/strong&gt;：主要亮点包括更好的可访问性、改进的文件处理以及跨各个模块的更新的图标集。
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://community.kde.org/Baloo&quot;&gt;Baloo&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 等框架在测试可靠性和可用性方面获得了重大更新。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/breeze&quot;&gt;Breeze&lt;/a&gt; 图标则引入了新的符号版本以实现更好的 UI 一致性。&lt;/li&gt;
+      &lt;li&gt;Frameworks 向 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt6&lt;/a&gt; 的过渡取得了进展，许多组件现已针对兼容性进行了优化，并且新的 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 绑定扩展了多个库中的功能。&lt;/li&gt;
+      &lt;li&gt;其他改进涉及加密处理、与 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 更好的集成以及针对 &lt;a href=&quot;https://www.haiku-os.org/&quot;&gt;Haiku&lt;/a&gt; 等特定于平台的构建的修复。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.sqlite.org/index.html&quot;&gt;sqlite&lt;/a&gt; 3.47.1 和 3.47.2&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;3.47.1 版本修复了 makefile &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DESTDIR&lt;/code&gt; 处理，解决了某些 IN 查询的问题，以及先前版本中的错误。&lt;/li&gt;
+      &lt;li&gt;此次升级引入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;RAISE&lt;/code&gt; 的任意表达式、增强的查询优化、改进的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;group_concat&lt;/code&gt; 行为以及新的 CLI 功能，例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;median()&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.www&lt;/code&gt;。&lt;/li&gt;
+      &lt;li&gt;若干查询规划器的改进提高了性能，同时 SQLite 现在避免了 “long double” 的使用，以实现更好的兼容性。&lt;/li&gt;
+      &lt;li&gt;其他增强功能包括自定义区域设置感知 FTS5 分词器、无内容 FTS5 表和实验性 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sqlite3_rsync&lt;/code&gt; 工具。新版本添加了对 TCL9 的兼容性，并修复了 JavaScript OPFS VFS 问题。&lt;/li&gt;
+      &lt;li&gt;3.47.2 版本解决了 3.47.0 版本中引入的影响 x64 和 i386 系统上特定数字文本值的文本到浮点转换问题。其中包括小错误修复，并且会话扩展现已启用以支持 &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;NodeJS&lt;/a&gt; 22。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git&quot;&gt;Kernel-firmware&lt;/a&gt; 20241128&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;新版本引入了广泛的更新，包括 i915 Xe2LPD DMC v2.24、适用于戴尔笔记本电脑的新 Cirrus CS35L56 固件以及多个 &lt;a href=&quot;https://github.com/ROCm/ROCK-Kernel-Driver&quot;&gt;amdgpu&lt;/a&gt; 更新。&lt;/li&gt;
+      &lt;li&gt;它还为&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核&lt;/a&gt; 6.13-rc1 添加了新的别名，并增强了对各种 AMD GPU、&lt;a href=&quot;https://wireless.docs.kernel.org/en/latest/en/users/drivers/iwlwifi.html&quot;&gt;iwlwifi&lt;/a&gt; 和其他设备的支持。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg&lt;/a&gt; 2.5.2&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新引入了 ECC+Kyber 密钥生成、导入密钥后的 trustdb 验证以及改进的过期可信密钥处理&lt;/li&gt;
+      &lt;li&gt;增强功能包括修复加密问题、为智能卡提供强大的错误处理功能，以及提高证书列表的性能。&lt;/li&gt;
+      &lt;li&gt;其他更新还完善了 ADSK 密钥的使用，解决了数据库竞争问题，并优化了提取过程中的目录创建。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 8.11.1&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;该版本解决了涉及 netrc 和重定向凭证泄漏的关键安全问题。&lt;/li&gt;
+      &lt;li&gt;改进包括修复 cookie 处理、增强的跟踪时间戳以及更好的过期证书错误消息传递。&lt;/li&gt;
+      &lt;li&gt;更新还解决了 netrc 解析、libssh IPv6 处理和 HTTP 内容解码方面的问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键包更新&quot;&gt;关键包更新&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Kernel&lt;/a&gt; 6.12.6&lt;/strong&gt;：内核引入了大量改进和修复。
+    &lt;ul&gt;
+      &lt;li&gt;主要更新包括增强对 USB 的支持、解决设备挂起中的问题以及改进特定设备的音频兼容性。&lt;/li&gt;
+      &lt;li&gt;其他值得注意的修复涉及调度、块存储、网络协议和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 架构的增强。&lt;/li&gt;
+      &lt;li&gt;它还包括 BPF、IOMMU 和几个驱动程序的关键补丁。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 1.15.12&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;通过恢复 cgroup 名称中的进程 ID，修复了应用程序安装过程中的崩溃问题。&lt;/li&gt;
+      &lt;li&gt;引入了 USB 元数据参数（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--usb&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--no-usb&lt;/code&gt;），使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--a11y-own-name&lt;/code&gt; 增强了可访问性。&lt;/li&gt;
+      &lt;li&gt;使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flatpak run -vv&lt;/code&gt; 改进了调试&lt;/li&gt;
+      &lt;li&gt;添加了 KDE 搜索完成支持&lt;/li&gt;
+      &lt;li&gt;其他改进包括构建修复、更新的依赖关系和内存泄漏解决方法。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; 256.9 和 256.10&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;256.9 更新阐明了关机二进制文件中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$WATCHDOG_USEC&lt;/code&gt; 的用法，并解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;udev-builtin-path_id&lt;/code&gt; 中的 SAS 宽端口问题。&lt;/li&gt;
+      &lt;li&gt;新版本恢复了一个导致回归的提交，在不兼容的架构上禁用了 [EFI]，并在切换 root 时删除了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/run/systemd&lt;/code&gt;。&lt;/li&gt;
+      &lt;li&gt;256.10 更新包括修复 VLAN 范围、改进 &lt;a href=&quot;https://www.wireguard.com/&quot;&gt;WireGuard&lt;/a&gt; 密钥错误报告，以及调整 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;systemctl&lt;/code&gt; 以获得更好的用户反馈。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 19.1.5 和 19.1.6&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次小更新提供了错误修复，并重新编译了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llvm-do-not-install-static-libraries.patch&lt;/code&gt; 以与更新保持一致。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt; 9.2.0&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新通过 virtio-gpu、支持 SHA-384 的增强型加密和 QATzip 迁移压缩，为 &lt;a href=&quot;https://www.vulkan.org/&quot;&gt;Vulkan&lt;/a&gt; 应用程序引入了 3D 加速。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 获得了针对 xilinx-zynq-a9 的 FEAT_EBF16 仿真、两级 SMMU 和 CPU 安全扩展。&lt;/li&gt;
+      &lt;li&gt;RISC-V 获得了 IOMMU 支持、控制流完整性的扩展以及改进的矢量性能。&lt;/li&gt;
+      &lt;li&gt;x86 的亮点包括新的 Nitro Enclave 机器类型和 AVX10 KVM 增强。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 1.24.10&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新解决了 MP4、Matroska 和 Ogg 解复用器等组件中的 40 多个安全漏洞，并修复了 avviddec 断言、appsink/appsrc、decodebin3、隐藏式字幕和管道图生成。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;vim&lt;/a&gt; 9.1.0908&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新包括新的文件类型识别、文档增强、对各种语言更好的语法支持，以及对补全、文件操作和插件等功能的大量错误修复。&lt;/li&gt;
+      &lt;li&gt;它还更新了翻译，并改进了 netrw 和 termdebug 等运行时组件。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/openSUSE/libzypp&quot;&gt;libzypp&lt;/a&gt; 17.35.15&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&lt;/code&gt; 视为 URL 查询值中的安全字符。&lt;/li&gt;
+      &lt;li&gt;添加了对将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rpmdb.sqlite&lt;/code&gt; 识别为数据库文件的支持。&lt;/li&gt;
+      &lt;li&gt;修复了拼写错误并调整了 FastCGI 标头。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://wiki.gnome.org/Apps/Gedit&quot;&gt;gedit&lt;/a&gt; 48.1&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此次更新删除了 External Tools（外部工具）、Snippets（代码片段）和 Python 控制台等插件。&lt;/li&gt;
+      &lt;li&gt;该软件包用 C 语言重写了文本大小插件，并删除了背景图案网格功能。&lt;/li&gt;
+      &lt;li&gt;修复了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; unmaximize bug 和编译警告，同时还重构了代码并更新了翻译。&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gedit-plugins-python-env.patch&lt;/code&gt; 因过时而被删除。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.freedesktop.org/wiki/Distributions/AppStream/&quot;&gt;AppStream&lt;/a&gt; 1.0.4&lt;/strong&gt; 版本带来了新功能，包括：
+    &lt;ul&gt;
+      &lt;li&gt;用于系统更新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AS_BUNDLE_KIND_SYSUPDATE&lt;/code&gt;，以及 Plasma 和 Pantheon 的暗色主题支持。&lt;/li&gt;
+      &lt;li&gt;改进了 Illumos、Solaris 和 GNU/Hurd 的内存大小检测，并增强了 Qt 中的品牌颜色曝光。&lt;/li&gt;
+      &lt;li&gt;修正了 GResource 加载、时区处理和旧版兼容性标记中的竞争条件。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;错误修复和安全更新&quot;&gt;错误修复和安全更新&lt;/h2&gt;
+
+&lt;p&gt;本月解决了几个关键的安全漏洞：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://avahi.org/&quot;&gt;avahi&lt;/a&gt;&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-52616.html&quot;&gt;CVE-2024-52616&lt;/a&gt;：可预测的 Avahi 守护程序 DNS 事务 ID 可能导致潜在的欺骗攻击。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://spidermonkey.dev/&quot;&gt;mozjs128&lt;/a&gt; 128.5.1&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11691.html&quot;&gt;CVE-2024-11691&lt;/a&gt;：通过 WebGL 在 Apple GPU 驱动程序中进行越界写入。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11692.html&quot;&gt;CVE-2024-11692&lt;/a&gt;：“选择” 列表元素可能显示在另一个网站上。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11694.html&quot;&gt;CVE-2024-11694&lt;/a&gt;：通过 Web 兼容性 Shims 绕过 CSP 和 XSS 暴露。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11695.html&quot;&gt;CVE-2024-11695&lt;/a&gt;：通过操纵 Punycode 和空白字符进行 URL 栏欺骗。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11696.html&quot;&gt;CVE-2024-11696&lt;/a&gt;：附加签名验证期间出现未处理的异常。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11697.html&quot;&gt;CVE-2024-11697&lt;/a&gt;：可执行文件确认对话框中的按键处理不正确。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 8.11.1&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11053.html&quot;&gt;CVE-2024-11053&lt;/a&gt;：6.5–8.11.0 版本在 HTTP 重定向期间泄露 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.netrc&lt;/code&gt; 密码。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/strukturag/libheif&quot;&gt;libheif&lt;/a&gt;&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-0996.html&quot;&gt;CVE-2023-0996&lt;/a&gt;：解决了使用伪造的覆盖图像偏移进行 HEIF 文件解码期间的越界读写问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-41311.html&quot;&gt;CVE-2024-41311&lt;/a&gt;：修复了在处理格式错误的 HEIF 文件期间可能导致内存损坏的缓解漏洞。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-29659.html&quot;&gt;CVE-2023-29659&lt;/a&gt;：增强整体安全性并解决 HEIF 文件处理中的安全缺陷，以防止越界访问。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://www.dest-unreach.org/socat/&quot;&gt;socat&lt;/a&gt; 1.8.0.2&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-54661.html&quot;&gt;CVE-2024-54661&lt;/a&gt;：socat 中的可预测临时文件路径可能允许任意文件覆盖。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gnu.org/software/emacs/&quot;&gt;emacs&lt;/a&gt;&lt;/strong&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-53920.html&quot;&gt;CVE-2024-53920&lt;/a&gt;：在不受信任的 Emacs 上，Lisp 代码可以触发不安全的宏扩展，从而允许执行任意代码。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;2024 年 12 月以重大更新为这一年画上句号。显着的增强包括 QEMU 改进的虚拟化功能、systemd 改进的用户反馈和硬件兼容性，以及内核在提高设备支持和性能方面的进步。 Flatpak 和 AppStream 的更新进一步增强了生态系统，提供更好的应用程序管理和集成。随着 Tumbleweed 用户进入 2025 年，他们可以依靠舒适、安全的开源软件体验。快乐翻滚！&lt;/p&gt;
+
+&lt;h2 id=&quot;slowroll-更新&quot;&gt;Slowroll 更新&lt;/h2&gt;
+
+&lt;p&gt;请注意，这些更新也适用于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;Slowroll&lt;/a&gt; ，并且在 Tumbleweed 快照中发布后平均 5 到 10 天到达。这种按月的方式已经持续了好几个月，确保了用户的稳定性和及时的增强。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
+
+&lt;p&gt;订阅 openSUSE Factory 邮件列表，随时了解最新快照。对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/08/tw-monthly-update-december/&quot;&gt;Tumbleweed Monthly Update - December 2024&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2024/12/20/new-tools.html</guid>
       <title>新的包管理工具首次亮相</title>
       <pubDate>Fri, 20 Dec 2024 23:00:00 +0000</pubDate>
@@ -617,68 +821,6 @@ OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/sp
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/28/project-to-have-ama/&quot;&gt;Project to have AMA with SUSE’s GM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/20/leap-mircro.html</guid>
-      <title>Leap Micro 6.1 Alpha 现已发布。为 Leap Micro 5.5 结束生命周期做好准备。</title>
-      <pubDate>Wed, 20 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/20/leap-mircro.html</link>
-      <author>Poplar at twilight</author>
-      <description>Leap Micro 6.1 Alpha ISO 文件可在 get.opensuse.org 上找到。除非发现一些严重问题，否则用户有望在数周内看到 6.1 版本的正式发布。 关于 Leap Micro Leap Micro 6.1 是 SUSE 推出的超可靠容器和虚拟机主机，SUSE Linux Enterprise Micro 6.1 的重命名版本。Leap Micro 每年发布两次，维护两个以上的版本。 Leap Micro 5.5 将随着 Leap Micro 6.1 的发布而 EOL 随着 Leap Micro 6.1 的发布，Leap Micro 5.5 结束生命周期（EOL）；用户将不再收到维护更新，社区建议用户升级到 6.1。 更保守的用户可以继续使用 Leap Micro 6.0，直到 Leap Micro...</description>
-      <content:encoded>&lt;p&gt;Leap Micro 6.1 Alpha ISO 文件可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 上找到。除非发现一些严重问题，否则用户有望在数周内看到 6.1 版本的正式发布。&lt;/p&gt;
-
-&lt;h2 id=&quot;关于-leap-micro&quot;&gt;关于 Leap Micro&lt;/h2&gt;
-
-&lt;p&gt;Leap Micro 6.1 是 SUSE 推出的超可靠容器和虚拟机主机，&lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SUSE Linux Enterprise Micro 6.1&lt;/a&gt; 的重命名版本。Leap Micro 每年发布两次，维护两个以上的版本。&lt;/p&gt;
-
-&lt;h2 id=&quot;leap-micro-55-将随着-leap-micro-61-的发布而-eol&quot;&gt;Leap Micro 5.5 将随着 Leap Micro 6.1 的发布而 EOL&lt;/h2&gt;
-
-&lt;p&gt;随着 Leap Micro 6.1 的发布，Leap Micro 5.5 结束生命周期（EOL）；用户将不再收到维护更新，社区建议用户升级到 6.1。&lt;/p&gt;
-
-&lt;p&gt;更保守的用户可以继续使用 Leap Micro 6.0，直到 Leap Micro 6.2 发布前，它将继续收到更新。&lt;/p&gt;
-
-&lt;h2 id=&quot;显着变化&quot;&gt;显着变化&lt;/h2&gt;
-
-&lt;p&gt;执行全新安装的用户将注意到首次启动向导的明显变化。现在，jeos-firstboot 向导可以创建额外的用户和可选的 2FA 密钥，但缺少 PAM 配置。缺少的功能将在 GM 版本中加入。&lt;/p&gt;
-
-&lt;p&gt;我们添加了 &lt;a href=&quot;https://microos.opensuse.org/blog/2024-06-13-soft-reboot/&quot;&gt;soft-reboot support&lt;/a&gt;（软重启支持）。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;为 SAP 虚拟化加入 vhostmd。&lt;/li&gt;
-  &lt;li&gt;新增 chrony-pool-empty 和 pf-bb-config。&lt;/li&gt;
-  &lt;li&gt;针对 Arm 的 PREEMPT_RT 内核、ZRAM 支持以及主要用于 cockpit 的 TOTP 2fa pam 登录支持。&lt;/li&gt;
-  &lt;li&gt;对 eBPF 规则进行 JIT 编译。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;SLE Micro 6.1 获得了对 ppc64le 的额外支持，但我们打算让 Leap Micro 仅支持 x86_64 和 aarch64。主要原因是社区没有支持这些架构的需求。&lt;/p&gt;
-
-&lt;h2 id=&quot;理解单个镜像&quot;&gt;理解单个镜像&lt;/h2&gt;
-
-&lt;p&gt;用户可以参考 &lt;a href=&quot;https://news.opensuse.org/2024/06/25/leap-micro-60-availability/&quot;&gt;Leap Micro 6.0 公告&lt;/a&gt;，我们已经介绍过这部分内容。&lt;/p&gt;
-
-&lt;h2 id=&quot;从旧版本升级&quot;&gt;从旧版本升级&lt;/h2&gt;
-
-&lt;p&gt;从 5.X 迁移的建议是进行全新安装，因为 6.1 是一个全新的主要版本。&lt;/p&gt;
-
-&lt;p&gt;对于那些想尝试迁移的用户，请按照&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0&quot;&gt;升级指南&lt;/a&gt;进行操作。&lt;/p&gt;
-
-&lt;p&gt;从 6.0 迁移应该可以使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper --releasever 6.1 dup inside transactional-update shell&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;我们有可能会包含&lt;a href=&quot;https://hackweek.opensuse.org/projects/new-migration-tool-for-leap&quot;&gt;一个新的迁移工具&lt;/a&gt;，该工具预计将作为 Hackweek 的一部分在 Leap Micro 6.1 Beta 中开发。这将使未来的升级变得更加简单。&lt;/p&gt;
-
-&lt;h2 id=&quot;发行说明&quot;&gt;发行说明&lt;/h2&gt;
-
-&lt;p&gt;用户可以参考 &lt;a href=&quot;https://www.suse.com/releasenotes/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 6.1 使用 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 进行存储库管理。社区强烈建议用户留意这个细节，尤其是对于迁移至新版本的人。这是一篇&lt;a href=&quot;https://news.opensuse.org/2023/07/31/try-out-cdn-with-opensuse-repos/&quot;&gt;解释 openSUSE-repos 如何工作&lt;/a&gt;的文章。&lt;/p&gt;
-
-&lt;p&gt;与 6.0 一样，Leap Micro 6.1 不再有&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro5-repoindex.xml&quot;&gt;专用的 SLE 更新软件源&lt;/a&gt;。它已被并入&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap-micro6-repoindex.xml&quot;&gt;主软件源&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/20/leap-micro-61-alpha-availability/&quot;&gt;Leap Micro 6.1 Alpha is now available. Get ready for Leap Micro 5.5 End of Life.&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
