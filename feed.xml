@@ -7,6 +7,55 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/12/lxqt.html</guid>
+      <title>LXQt Wayland 支持现已在 Tumbleweed 推出</title>
+      <pubDate>Sun, 12 Jan 2025 23:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/12/lxqt.html</link>
+      <author>Poplar at twilight</author>
+      <description>随着 LXQt 2.1 的发布，我们很高兴地宣布 Tumbleweed 中的 LXQt 可以兼容 Wayland。 目前，这种支持被认为是试验性的，对于大多数用户来说，可能还不能用于日常使用。 与许多其他桌面环境不同，LXQt 并不提供自己的窗口管理器。在 X11 下，openSUSE-LXQt 团队默认使用 Openbox 作为窗口管理器。最近，上游加入了新的 Wayland 支持；lxqt-wayland-sessions 的初始版本支持以下 Wayland 合成器： Hyprland Kwin labwc niri river Sway Wayfire 目前，并非所有的 LXQt 内置配置工具都适用于所有的合成器，也并非所有的合成器都支持 LXQt 组件的所有功能。最值得注意的是： lxqt-globalkeys 不适用于 Wayland，并且必须通过每个单独的合成器的配置文件来设置按键绑定。 lxqt-panel 的桌面切换器和 LXQt Power Manager 用于控制显示器的设置仅与 KWin 兼容。 除 KWin 和 labwc 外，其他合成器的配置都是通过编辑文本配置文件完成的。KWin...</description>
+      <content:encoded>&lt;p&gt;随着 &lt;a href=&quot;https://lxqt-project.org/release/2024/11/05/release-lxqt-2-1-0/&quot;&gt;LXQt 2.1&lt;/a&gt; 的发布，我们很高兴地宣布 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 中的 &lt;a href=&quot;https://lxqt-project.org&quot;&gt;LXQt&lt;/a&gt; 可以兼容 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;目前，这种支持被认为是试验性的，对于大多数用户来说，可能还不能用于日常使用。&lt;/p&gt;
+
+&lt;p&gt;与许多其他桌面环境不同，LXQt 并不提供自己的窗口管理器。在 X11 下，openSUSE-LXQt 团队默认使用 &lt;a href=&quot;https://openbox.org/&quot;&gt;Openbox&lt;/a&gt; 作为窗口管理器。最近，上游加入了新的 Wayland 支持；lxqt-wayland-sessions 的初始版本支持以下 Wayland 合成器：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyprland.org/&quot;&gt;Hyprland&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;Kwin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://labwc.github.io/&quot;&gt;labwc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/YaLTeR/niri&quot;&gt;niri&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://isaacfreund.com/software/river&quot;&gt;river&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://swaywm.org/&quot;&gt;Sway&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wayfire.org/&quot;&gt;Wayfire&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前，并非所有的 LXQt 内置配置工具都适用于所有的合成器，也并非所有的合成器都支持 LXQt 组件的所有功能。最值得注意的是：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lxqt-globalkeys 不适用于 Wayland，并且必须通过每个单独的合成器的配置文件来设置按键绑定。&lt;/li&gt;
+  &lt;li&gt;lxqt-panel 的桌面切换器和 LXQt Power Manager 用于控制显示器的设置仅与 KWin 兼容。&lt;/li&gt;
+  &lt;li&gt;除 KWin 和 labwc 外，其他合成器的配置都是通过编辑文本配置文件完成的。KWin 可以通过图形用户界面工具进行配置，前提是安装了 KDE 系统设置的相关部分。labwc 提供了 labwc-tweaks，允许通过图形用户界面进行某些配置，但并不全面。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;openSUSE-LXQt 团队目前尚未就 LXQt 的 “默认” Wayland 合成器提出任何建议，因为该支持仍在积极开发中。如果您不知道自己想尝试哪种合成器，请考虑以下因素：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KWin 提供了最完整的 Wayland 会话，只要安装了 Plasma 的正确部分，就可以通过图形用户界面进行配置，而无需编辑文本文件。&lt;/li&gt;
+  &lt;li&gt;labwc 大致基于 “Openbox for Wayland” 的理念，对于现有的 LXQt 用户来说，会感觉更“自在”。&lt;/li&gt;
+  &lt;li&gt;如果您更喜欢浮动/堆叠桌面，Kwin 和 labwc 是您当前的最佳选择。&lt;/li&gt;
+  &lt;li&gt;如果您喜欢平铺桌面，Hyprland、niri、river、Sway 或 Wayfire 可能会符合您的喜好。&lt;/li&gt;
+  &lt;li&gt;如果您喜欢大量绚丽的桌面效果，Kwin、Hyprland 或 Wayfire 可能是不错的起点。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有关更多详细信息，请访问 &lt;a href=&quot;https://en.opensuse.org/openSUSE:LXQT_Wayland&quot;&gt;openSUSE LXQt Wayland wiki&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/13/LXQt-Wayland-support-is-now-here/&quot;&gt;LXQt Wayland support is now here&lt;/a&gt;，作者：Shawn W Dunn&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/09/slowroll.html</guid>
       <title>新的一年从 Slowroll 升级版本开始</title>
       <pubDate>Thu, 09 Jan 2025 23:00:00 +0000</pubDate>
@@ -499,90 +548,6 @@ OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/sp
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/04/leap-micro-61-rc/&quot;&gt;Leap Micro 6.1 Release Candidate&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/29/update-leap-micro-6.1.html</guid>
-      <title>使用 opensuse-migration-tool 升级到 Leap Micro 6.1 Beta</title>
-      <pubDate>Fri, 29 Nov 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/11/29/update-leap-micro-6.1.html</link>
-      <author>Poplar at twilight</author>
-      <description>Leap Micro 6.1 Beta 于上周三发布。ISO 文件可以在 get.opensuse.org 找到，由于这主要是 SUSE Linux Enterprise Micro 6.1 的改版，除非发现一些严重问题，否则用户可以期待下周快速过渡到 RC 和 GA。 我们在 Leap Micro 6.1 中引入了一个新的迁移工具，希望它能简化未来 Leap Micro 版本的升级，尤其是新的主要版本。让我们来看看如何在旧版本的 Leap Micro 上使用 git 部署它，以及如何在 Leap Micro 6.1 Beta 上安装它。 新工具为用户带来的主要好处是不必手动处理新版本中可能引入的任何版本软件源变更。这将有望带来更顺畅、更直接的升级。目前，opensuse-migration-tool 仍处于试验阶段。 在 Leap 或 Tumbleweed 上，使用 Leap Micro 容器测试该工具 首先，我们必须运行一个可以升级到 6.1 版本的旧版 Leap Micro。...</description>
-      <content:encoded>&lt;p&gt;Leap Micro 6.1 Beta 于上周三发布。ISO 文件可以在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 找到，由于这主要是 &lt;a href=&quot;https://www.suse.com/products/micro/&quot;&gt;SUSE Linux Enterprise Micro 6.1&lt;/a&gt; 的改版，除非发现一些严重问题，否则用户可以期待下周快速过渡到 RC 和 GA。&lt;/p&gt;
-
-&lt;p&gt;我们在 Leap Micro 6.1 中引入了一个&lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;新的迁移工具&lt;/a&gt;，希望它能简化未来 Leap Micro 版本的升级，尤其是新的主要版本。让我们来看看如何在旧版本的 Leap Micro 上使用 &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; 部署它，以及如何在 Leap Micro 6.1 Beta 上安装它。&lt;/p&gt;
-
-&lt;p&gt;新工具为用户带来的主要好处是不必手动处理新版本中可能引入的&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_to_LeapMicro_6.0#2._Fetch_new_repositories_and_new_keys&quot;&gt;任何版本软件源变更&lt;/a&gt;。这将有望带来更顺畅、更直接的升级。&lt;strong&gt;目前，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt; 仍处于试验阶段。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;在-leap-或-tumbleweed-上使用-leap-micro-容器测试该工具&quot;&gt;在 Leap 或 Tumbleweed 上，使用 Leap Micro 容器测试该工具&lt;/h2&gt;
-
-&lt;p&gt;首先，我们必须运行一个可以升级到 6.1 版本的旧版 Leap Micro。&lt;/p&gt;
-
-&lt;p&gt;由于我们在本例中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;distrobox&lt;/code&gt;，因此我们的主机可以运行 Leap、Tumbleweed、Aeon。Distrobox 将有权访问你的主目录，包括 git checkout。&lt;/p&gt;
-
-&lt;p&gt;关键步骤：&lt;strong&gt;使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;–pre-release&lt;/code&gt; 将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Leap Micro 6.1&lt;/code&gt; 作为可用的升级目标。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/openSUSE/opensuse-migration-tool.git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;opensuse-migration-tool
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;distrobox create &lt;span class=&quot;nt&quot;&gt;--image&lt;/span&gt; registry.opensuse.org/opensuse/leap-micro/6.0/toolbox &lt;span class=&quot;nt&quot;&gt;--name&lt;/span&gt; micro60
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;distrobox enter micro60 &lt;span class=&quot;c&quot;&gt;# from now on inside distrobox&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;zypper &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;bc jq curl dialog &lt;span class=&quot;nb&quot;&gt;sed &lt;/span&gt;gawk
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;./opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--pre-release&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--dry-run&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--pre-release&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# Chooose Leap Micro 6.1&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /etc/os-release &lt;span class=&quot;c&quot;&gt;# should confirm that you&apos;ve upgraded to 6.1&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;如果你要删除容器，只需输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exit&lt;/code&gt;，然后输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;podman stop micro60&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;docker stop micro60&lt;/code&gt; 最后输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;distrobox rm micro60&lt;/code&gt;。然后你就可以重新开始。&lt;/p&gt;
-
-&lt;h2 id=&quot;在-leap-micro-主机或虚拟机内测试该工具&quot;&gt;在 Leap Micro 主机或虚拟机内测试该工具&lt;/h2&gt;
-
-&lt;p&gt;因为我们在 Leap Micro 6.0 甚至 5.5 主机或虚拟机中进行测试，所以我们必须使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; shell。如前文所述，重要的是要从早于 6.1 版本的 Leap Micro 开始测试，迁移目标都是 MicroOS。&lt;/p&gt;
-
-&lt;p&gt;确保使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;–pre-release&lt;/code&gt; 将 6.1 Beta 作为可行的迁移目标。&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;transactional-update shell &lt;span class=&quot;c&quot;&gt;# from now on inside shell&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;zypper &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;git bc jq curl dialog &lt;span class=&quot;nb&quot;&gt;sed &lt;/span&gt;gawk 
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone https://github.com/openSUSE/opensuse-migration-tool.git
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;opensuse-migration-tool
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;./opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--pre-release&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--dry-run&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; ./opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--pre-release&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# Choose Leap Micro 6.1 as a target&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;reboot
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;你不用担心把事情搞砸了，你可以通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transactional-update&lt;/code&gt; shell 始终从上一个快照启动。&lt;/p&gt;
-
-&lt;h2 id=&quot;测试-leap-micro-61-到-microos-升级迁移&quot;&gt;测试 Leap Micro 6.1 到 MicroOS 升级迁移&lt;/h2&gt;
-
-&lt;p&gt;由于没有比 Leap Micro 6.1 Beta 更新的版本，唯一的迁移/升级目标是 MicroOS。&lt;/p&gt;
-
-&lt;p&gt;这个例子的目的是表明 Leap Micro 6.1 存储库已经包含 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt;。因此，不需要从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout&lt;/code&gt; 运行它，除非你想修改它。&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;transactional-update shell
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;zypper &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;opensuse-migration-tool &lt;span class=&quot;c&quot;&gt;# Will work only on Leap Micro 6.1&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--dry-run&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# to oversee what would change&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;opensuse-migration-tool &lt;span class=&quot;c&quot;&gt;# MicroOS is expected to be the only migration option from Leap Micro 6.1 Beta&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;一旦升级到 MicroOS（实际上就是 openSUSE Tumbleweed），就不必再重新运行 opensuse-migration-tool。你确实没有更新的系统可以迁移，而且你会收到 openSUSE Tumbleweed 不支持的消息。这种情况在意料之中。&lt;/p&gt;
-
-&lt;h2 id=&quot;已知问题&quot;&gt;已知问题&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bugzilla.opensuse.org/show_bug.cgi?id=1233982&quot;&gt;BUG 1233982 - 升级到 6.1 (netcfg) 失败&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;在基于 Distrobox 的测试中，这个问题肯定会出现。Distrobox 以绑定挂载方式挂载到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/hostname&lt;/code&gt; 上，netcfg 的升级会在后脚本中失败。这个问题可以忽略（在交互式 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 中键入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;i&lt;/code&gt;）。&lt;/p&gt;
-
-&lt;p&gt;迁移工具首先尝试以非交互方式运行，万一失败，它会通过在交互模式下重新运行 zypper dup 来将问题解决留给用户。&lt;/p&gt;
-
-&lt;h2 id=&quot;贡献&quot;&gt;贡献&lt;/h2&gt;
-
-&lt;p&gt;如果您有兴趣做出贡献，请随时发送合并请求、问题报告或功能请求至 &lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;opensuse-migration-tool&lt;/a&gt; 存储库。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/29/try-opensuse-migration-tool-leap-micro-61-beta/&quot;&gt;Upgrading to Leap Micro 6.1 Beta with opensuse-migration-tool&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
