@@ -7,6 +7,49 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/14/openvino.html</guid>
+      <title>具有生成式 AI 的 OpenVINO</title>
+      <pubDate>Tue, 14 Jan 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/14/openvino.html</link>
+      <author>Poplar at twilight</author>
+      <description>openSUSE Innovator 计划和 Intel Innovator 计划在确保 openSUSE Linux 发行版社区的 openVINO 存储库保持最新状态方面发挥着至关重要的作用，我将不断努力为该社区提供帮助。 OpenVINO（开放式可视化推理和神经网络优化）是人工智能生态系统中最重要的工具之一，特别是对于需要优化深度学习模型推理性能的应用程序。在 Tumbleweed 发布的 2024.6.0 版本在兼容性、优化和复杂模型支持方面带来了显着进步，包括生成式 AI 中使用的模型，例如大型语言模型（LLM）。 OpenVINO 在 openSUSE Linux 上的重要性 无缝硬件和软件集成：OpenVINO 为 Intel CPU 和 GPU 提供本机加速，同时保持支持其他平台的灵活性。当与 openSUSE Linux 的优化内核和高级库兼容性配合使用时，OpenVINO 可以充分发挥其潜力。 开源中的生成式 AI：在生成式 AI 时代，OpenVINO 等工具使尖端技术的获取变得大众化，并允许各个级别的开发人员直接在 openSUSE 上创建高级解决方案，而无需昂贵的专有硬件。 性能和效率：OpenVINO 显着减少了推理时间和资源使用量，这对于实时处理大量数据的基于 LLM 的应用程序来说是一项关键功能。 开发人员简单性：OpenVINO 的最大优势之一是其可访问性。它甚至使初学者开发人员能够使用最少的代码构建强大的应用程序，同时仍然为高级项目提供灵活性和定制性。 用 3 行代码构建...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE Innovator 计划&lt;/a&gt;和 &lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/community/experts-de-oliveira-faria.html&quot;&gt;Intel Innovator 计划&lt;/a&gt;在确保 openSUSE Linux 发行版社区的 &lt;a href=&quot;https://en.wikipedia.org/wiki/OpenVINO&quot;&gt;openVINO&lt;/a&gt; 存储库保持最新状态方面发挥着至关重要的作用，我将不断努力为该社区提供帮助。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OpenVINO&quot;&gt;OpenVINO&lt;/a&gt;（开放式可视化推理和神经网络优化）是人工智能生态系统中最重要的工具之一，特别是对于需要优化深度学习模型推理性能的应用程序。&lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;在 Tumbleweed 发布的 2024.6.0 版本&lt;/a&gt;在兼容性、优化和复杂模型支持方面带来了显着进步，包括生成式 AI 中使用的模型，例如大型语言模型（LLM）。&lt;/p&gt;
+
+&lt;h2 id=&quot;openvino-在-opensuse-linux-上的重要性&quot;&gt;OpenVINO 在 openSUSE Linux 上的重要性&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;无缝硬件和软件集成&lt;/strong&gt;：OpenVINO 为 Intel CPU 和 GPU 提供本机加速，同时保持支持其他平台的灵活性。当与 openSUSE Linux 的优化内核和高级库兼容性配合使用时，OpenVINO 可以充分发挥其潜力。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开源中的生成式 AI&lt;/strong&gt;：在生成式 AI 时代，OpenVINO 等工具使尖端技术的获取变得大众化，并允许各个级别的开发人员直接在 openSUSE 上创建高级解决方案，而无需昂贵的专有硬件。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;性能和效率&lt;/strong&gt;：OpenVINO 显着减少了推理时间和资源使用量，这对于实时处理大量数据的基于 LLM 的应用程序来说是一项关键功能。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;开发人员简单性&lt;/strong&gt;：OpenVINO 的最大优势之一是其可访问性。它甚至使初学者开发人员能够使用最少的代码构建强大的应用程序，同时仍然为高级项目提供灵活性和定制性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;用-3-行代码构建-llm-应用&quot;&gt;用 3 行代码构建 LLM 应用&lt;/h2&gt;
+
+&lt;p&gt;借助 OpenVINO，使用生成语言模型创建应用程序非常简单：&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import openvino_genai as ov_genai
+pipe &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; ov_genai.LLMPipeline&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;TinyLlama-1.1B-Chat-v1.0/&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;CPU&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+print&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;pipe.generate&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Openvino é&quot;&lt;/span&gt;, &lt;span class=&quot;nv&quot;&gt;max_new_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;100, &lt;span class=&quot;nv&quot;&gt;do_sample&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;False&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这种简单性凸显了 OpenVINO 如何将生成式 AI 技术无缝集成到 openSUSE Linux 中，将优化与易用性结合起来。&lt;/p&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;OpenVINO 在 openSUSE Linux 上的出现强化了开源在引领 AI 时代技术进步方面的作用。它使企业、独立开发人员和爱好者能够构建高效、可扩展且有影响力的应用程序。借助 OpenVINO 等工具，openSUSE 将自己定位为生成式 AI 创新的强大平台。&lt;/p&gt;
+
+&lt;p&gt;有关工作进展的反馈和建议可以发送至 &lt;a href=&quot;mailto:cabelo@opensuse.org&quot;&gt;Alessandro de Oliveira Faria (AKA CABELO) cabelo@pensuse.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/14/openvino-w-generative-ai/&quot;&gt;OpenVINO with Generative AI&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/12/lxqt.html</guid>
       <title>LXQt Wayland 支持现已在 Tumbleweed 推出</title>
       <pubDate>Sun, 12 Jan 2025 23:00:00 +0000</pubDate>
@@ -521,33 +564,6 @@ OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/sp
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/06/leap-micro-released/&quot;&gt;Leap Micro 6.1 Officially Released&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/03/leap-micro.html</guid>
-      <title>Leap Micro 6.1 候选版本现已发布</title>
-      <pubDate>Tue, 03 Dec 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/03/leap-micro.html</link>
-      <author>Poplar at twilight</author>
-      <description>Leap Micro 6.1 候选版本（RC）的 ISO 文件现在可在 get.opensuse.org 上下载获得。 目前，我们正在等待 Leap Micro 6.1 维护设置的确认，然后再正式发布；希望本周晚些时候就能发布。 请注意，Leap Micro 6.1 的发布意味着 Leap Micro 5.5 的生命周期结束。 社区建议用户升级到 Leap Micro 6.0 或 6.1；有关发布周期的详细信息可以在 openSUSE wiki 上找到。 从旧版本升级的用户可以考虑使用我们的实验性工具 opensuse-migration-tool。此新迁移工具将是 Leap Micro 6.1 及更新版本的一部分；旧版本的用户可使用 git 获取该工具。 有关升级选项的更多信息，请参阅我们维基上关于升级 Leap Micro 的词条。 请参阅 SLE Micro 6.1 发行说明和 Leap Micro 6.1...</description>
-      <content:encoded>&lt;p&gt;Leap Micro 6.1 候选版本（RC）的 ISO 文件现在可在 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.1/&quot;&gt;get.opensuse.org&lt;/a&gt; 上下载获得。&lt;/p&gt;
-
-&lt;p&gt;目前，我们正在等待 Leap Micro 6.1 维护设置的确认，然后再正式发布；希望本周晚些时候就能发布。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;请注意，Leap Micro 6.1 的发布意味着 Leap Micro 5.5 的生命周期结束。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;社区建议用户升级到 Leap Micro 6.0 或 6.1；有关发布周期的详细信息可以在 &lt;a href=&quot;https://en.opensuse.org/Portal:Leap_Micro&quot;&gt;openSUSE wiki&lt;/a&gt; 上找到。&lt;/p&gt;
-
-&lt;p&gt;从旧版本升级的用户可以考虑使用我们的实验性工具 &lt;a href=&quot;https://suse.org.cn/更新通告/2024/11/29/update-leap-micro-6.1.html&quot;&gt;opensuse-migration-tool&lt;/a&gt;。此新迁移工具将是 Leap Micro 6.1 及更新版本的一部分；旧版本的用户可&lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;使用 git 获取该工具&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;有关升级选项的更多信息，请参阅我们维基上关于&lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade_of_LeapMicro&quot;&gt;升级 Leap Micro&lt;/a&gt; 的词条。&lt;/p&gt;
-
-&lt;p&gt;请参阅 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SL-Micro/6.1/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;和 &lt;a href=&quot;https://news.opensuse.org/2024/11/20/leap-micro-61-alpha-availability/&quot;&gt;Leap Micro 6.1 Alpha 公告&lt;/a&gt;中的更改列表摘要。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/04/leap-micro-61-rc/&quot;&gt;Leap Micro 6.1 Release Candidate&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
