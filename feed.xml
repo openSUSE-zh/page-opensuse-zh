@@ -7,6 +7,48 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/21/board.html</guid>
+      <title>openSUSE 董事会选举更新</title>
+      <pubDate>Tue, 21 Jan 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/21/board.html</link>
+      <author>Poplar at twilight</author>
+      <description>来自 openSUSE 选举委员会的通知，董事会的选举正在进行中。 现有四名候选人竞选三个空缺席位。 最终候选名单为： Chuck Payne Ish Sookun Jeff Mahoney Rachel Schrader 关键日期 2025 年 1 月 19 日：投票开始 2025 年 2 月 2 日：投票结束 2025 年 2 月 3 日：公布结果 有关候选人和选举的更多信息，请访问项目邮件列表，候选人正在其中回答问题并通知其平台成员。 董事会成员是社区的指导者，负责处理关键的项目职能，促进各项活动的开展，组织会议并管理 openSUSE 域名和商标。他们还维护社区标准，包括监督投诉和确保遵守 openSUSE 行为准则。 根据选举规则，只有现任会员才有资格竞选董事会职位。会员招募期间加入的新会员可以参与投票，但不能作为候选人。 选举由委员会成员 Edwin Zakaria 和 Ariez Vachha 监督。他们的职责包括最终确定候选人名单并确保选举过程顺利进行。 原文：openSUSE Board Elections Update，作者：Douglas...</description>
+      <content:encoded>&lt;p&gt;来自 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 选举委员会的通知，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;董事会的选举&lt;/a&gt;正在进行中。&lt;/p&gt;
+
+&lt;p&gt;现有&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/IQATUNHX4J4Z5ULCPYSW2TNXDCONV2M4/&quot;&gt;四名候选人&lt;/a&gt;竞选三个空缺席位。&lt;/p&gt;
+
+&lt;p&gt;最终候选名单为：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Chuck Payne&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ish Sookun&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Jeff Mahoney&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rachel Schrader&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键日期&quot;&gt;关键日期&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2025 年 1 月 19 日&lt;/strong&gt;：投票开始&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2025 年 2 月 2 日&lt;/strong&gt;：投票结束&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;2025 年 2 月 3 日&lt;/strong&gt;：公布结果&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有关候选人和选举的更多信息，请访问&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/&quot;&gt;项目邮件列表&lt;/a&gt;，候选人正在其中回答问题并通知其平台成员。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;董事会成员&lt;/a&gt;是社区的指导者，负责处理关键的项目职能，促进各项活动的开展，组织会议并管理 openSUSE 域名和商标。他们还维护社区标准，包括监督投诉和确保遵守 openSUSE 行为准则。&lt;/p&gt;
+
+&lt;p&gt;根据&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election_rules&quot;&gt;选举规则&lt;/a&gt;，只有现任&lt;a href=&quot;https://zh.opensuse.org/openSUSE:Members&quot;&gt;会员&lt;/a&gt;才有资格竞选董事会职位。会员招募期间加入的新会员可以参与投票，但不能作为候选人。&lt;/p&gt;
+
+&lt;p&gt;选举由委员会成员 Edwin Zakaria 和 Ariez Vachha 监督。他们的职责包括最终确定候选人名单并确保选举过程顺利进行。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/20/board-elections-update/&quot;&gt;openSUSE Board Elections Update&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/14/openvino.html</guid>
       <title>具有生成式 AI 的 OpenVINO</title>
       <pubDate>Tue, 14 Jan 2025 23:00:00 +0000</pubDate>
@@ -543,27 +585,6 @@ OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/sp
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/28/project-to-have-ama/&quot;&gt;Project to have AMA with SUSE’s GM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/06/leap-micro.html</guid>
-      <title>Leap Micro 6.1 正式发布</title>
-      <pubDate>Fri, 06 Dec 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/06/leap-micro.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 社区很高兴地宣布正式发布 Leap Micro 6.1。 Leap Micro 继续与 SUSE Linux Enterprise Micro 保持一致，确保强大的容器和虚拟机托管功能。该版本有一个新的 opensuse-migration-tool，它简化了升级，使版本之间的过渡更顺畅。一些增强功能包括软重启支持。PAM 登录的双因素身份验证 (TOTP) 提高了安全性。还有其他工具收到更新，例如用于 SAP 虚拟化的 vhostmd 以及对 jeos-firstboot 向导的改进等等。 Leap Micro 6.1 的发布标志着 Leap Micro 5.5 的生命周期结束。社区强烈建议用户升级到 Leap Micro 6.0 或 6.1 以继续接收更新和支持。 有关详细的升级指南，请访问 openSUSE Wiki 或 SLE Micro 6.1 发行说明。 原文：Leap Micro 6.1 Officially Released，作者：Douglas...</description>
-      <content:encoded>&lt;p&gt;openSUSE 社区很高兴地宣布正式发布 &lt;a href=&quot;https://get.opensuse.org/leapmicro/6.1/&quot;&gt;Leap Micro 6.1&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 继续与 SUSE Linux Enterprise Micro 保持一致，确保强大的容器和虚拟机托管功能。该版本有一个新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt;，它简化了升级，使版本之间的过渡更顺畅。一些增强功能包括软重启支持。PAM 登录的双因素身份验证 (TOTP) 提高了安全性。还有其他工具收到更新，例如用于 SAP 虚拟化的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vhostmd&lt;/code&gt; 以及对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jeos-firstboot&lt;/code&gt; 向导的改进等等。&lt;/p&gt;
-
-&lt;p&gt;Leap Micro 6.1 的发布标志着 Leap Micro 5.5 的生命周期结束。社区强烈建议用户升级到 Leap Micro 6.0 或 6.1 以继续接收更新和支持。&lt;/p&gt;
-
-&lt;p&gt;有关详细的升级指南，请访问 &lt;a href=&quot;https://en.opensuse.org/&quot;&gt;openSUSE Wiki&lt;/a&gt; 或 &lt;a href=&quot;https://www.suse.com/releasenotes/x86_64/SL-Micro/6.1/index.html&quot;&gt;SLE Micro 6.1 发行说明&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/06/leap-micro-released/&quot;&gt;Leap Micro 6.1 Officially Released&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
