@@ -7,6 +7,53 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/24/submit-a-presentation-for-osc.html</guid>
+      <title>openSUSE 大会演讲征集</title>
+      <pubDate>Fri, 24 Jan 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/24/submit-a-presentation-for-osc.html</link>
+      <author>Poplar at twilight</author>
+      <description>2025 年度的 openSUSE 大会的演讲征集活动现已开始。 大会定于 6 月 26 日至 28 日在德国纽伦堡举行。 人们可以在 4 月 30 日之前提交演讲或研讨会的提案，以分享见解和专业知识。 人们有 97 天的时间提交会议演讲，并鼓励根据以下长度和主题提交演讲： 可以在以下时间长度内提交的演讲稿 闪电演讲（10 分钟） 简短演讲（30 分钟） 线上演讲（30 分钟） 长篇演讲（45 分钟） 研讨会（1小时） 可接受的话题 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE Open Source for Business： 超越代码，实现可持续发展（Beyond Code into Sustainability Track） 我们鼓励愿意帮助组织大会的志愿者发送电子邮件至 ddemaio@opensuse.org 或参加每周一次的社区会议。 大会需要赞助商来支持社区运营活动，以保持活动免费并向新贡献的成员开放。有意向的公司可在此页面找到赞助信息或向 Geeko...</description>
+      <content:encoded>&lt;p&gt;2025 年度的 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt;的演讲征集活动现已开始。&lt;/p&gt;
+
+&lt;p&gt;大会定于 6 月 26 日至 28 日在德国纽伦堡举行。&lt;/p&gt;
+
+&lt;p&gt;人们可以在 4 月 30 日之前提交演讲或研讨会的提案，以分享见解和专业知识。&lt;/p&gt;
+
+&lt;p&gt;人们有 97 天的时间提交会议演讲，并鼓励根据以下长度和主题提交演讲：&lt;/p&gt;
+
+&lt;h2 id=&quot;可以在以下时间长度内提交的演讲稿&quot;&gt;可以在以下时间长度内提交的演讲稿&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;闪电演讲（10 分钟）&lt;/li&gt;
+  &lt;li&gt;简短演讲（30 分钟）&lt;/li&gt;
+  &lt;li&gt;线上演讲（30 分钟）&lt;/li&gt;
+  &lt;li&gt;长篇演讲（45 分钟）&lt;/li&gt;
+  &lt;li&gt;研讨会（1小时）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;可接受的话题&quot;&gt;可接受的话题&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;云和容器&lt;/li&gt;
+  &lt;li&gt;社区&lt;/li&gt;
+  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
+  &lt;li&gt;新技术&lt;/li&gt;
+  &lt;li&gt;开源&lt;/li&gt;
+  &lt;li&gt;openSUSE&lt;/li&gt;
+  &lt;li&gt;Open Source for Business： 超越代码，实现可持续发展（Beyond Code into Sustainability Track）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我们鼓励愿意帮助组织大会的志愿者发送电子邮件至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 或参加每周一次的&lt;a href=&quot;https://calendar.opensuse.org/&quot;&gt;社区会议&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;大会需要赞助商来支持社区运营活动，以保持活动免费并向新贡献的成员开放。有意向的公司可在此页面找到&lt;a href=&quot;https://en.opensuse.org/images/9/94/OSC25prospectus.pdf&quot;&gt;赞助信息&lt;/a&gt;或向 &lt;a href=&quot;https://geekos.org/sponsorship/&quot;&gt;Geeko 基金会&lt;/a&gt;捐款，以协助为大会提供资金。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/23/submit-a-presentation-for-osc/&quot;&gt;Submit a Presentation for the openSUSE Conference&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/21/board.html</guid>
       <title>openSUSE 董事会选举更新</title>
       <pubDate>Tue, 21 Jan 2025 23:00:00 +0000</pubDate>
@@ -516,75 +563,6 @@ openSUSE Bar 已不仅仅是一个聚会场所，它还是一个合作、联系�
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/17/five-years-of-os-bar/&quot;&gt;Cheers to 5 Years of openSUSE Bar&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/09/gpu.html</guid>
-      <title>openSUSE 推荐使用新的 GPU 切换方案</title>
-      <pubDate>Mon, 09 Dec 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/09/gpu.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 用户现在可以依靠内置的 switcherooctl 工具切换 GPU，该工具已集成到我们的发行版中，并兼容 GNOME 和 KDE Plasma 等主要桌面环境。 switcherooctl 是一个游戏规则改变者，因为它消除了对额外工具的需求，简化了多 GPU 管理，同时增强了与用户系统的兼容性和性能。 多年来，suse-prime 和 bbswitch 等工具一直是管理 NVIDIA Optimus 笔记本电脑和多 GPU 系统的主要工具，但内核驱动程序和桌面环境的进步使得这些工具在大多数情况下变得不必要。 现在，无论是使用开源的 Nouveau 驱动程序还是英伟达的专有驱动程序，openSUSE 安装程序都可以开箱即用地处理这些配置。 在最近一个关于多 GPU 系统的更新中，我们鼓励用户抛弃传统工具，如 suse-prime、bbswitch 和 bumblebee，因为它们对现代系统弊大于利。 我们推荐的解决方案是 switcherooctl，它是一个轻量级用户空间实用程序，旨在管理具有多个 GPU 的系统上的 GPU 切换。它良好地兼容 Wayland 和 Xorg；其功能涵盖 Intel CPU + NVIDIA GPU 和 AMD CPU...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 用户现在可以依靠内置的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 工具切换 GPU，该工具已集成到我们的发行版中，并兼容 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE Plasma&lt;/a&gt; 等主要桌面环境。&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 是一个游戏规则改变者，因为它消除了对额外工具的需求，简化了多 GPU 管理，同时增强了与用户系统的兼容性和性能。&lt;/p&gt;
-
-&lt;p&gt;多年来，&lt;a href=&quot;https://github.com/openSUSE/SUSEPrime&quot;&gt;suse-prime&lt;/a&gt; 和 &lt;a href=&quot;https://github.com/Bumblebee-Project/bbswitch&quot;&gt;bbswitch&lt;/a&gt; 等工具一直是管理 NVIDIA Optimus 笔记本电脑和多 GPU 系统的主要工具，但内核驱动程序和桌面环境的进步使得这些工具在大多数情况下变得不必要。&lt;/p&gt;
-
-&lt;p&gt;现在，无论是使用开源的 &lt;a href=&quot;https://nouveau.freedesktop.org/&quot;&gt;Nouveau&lt;/a&gt; 驱动程序还是&lt;a href=&quot;https://www.nvidia.com/&quot;&gt;英伟达&lt;/a&gt;的专有驱动程序，openSUSE 安装程序都可以开箱即用地处理这些配置。&lt;/p&gt;
-
-&lt;p&gt;在最近&lt;a href=&quot;https://negativo17.org/prime-optimus-laptops-and-multi-gpu-systems/&quot;&gt;一个关于多 GPU 系统的更新&lt;/a&gt;中，我们鼓励用户抛弃传统工具，如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;suse-prime&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bbswitch&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bumblebee&lt;/code&gt;，因为它们对现代系统弊大于利。&lt;/p&gt;
-
-&lt;p&gt;我们推荐的解决方案是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt;，它是一个轻量级用户空间实用程序，旨在管理具有多个 GPU 的系统上的 GPU 切换。它良好地兼容 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 和 &lt;a href=&quot;https://www.x.org/&quot;&gt;Xorg&lt;/a&gt;；其功能涵盖 Intel CPU + NVIDIA GPU 和 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; CPU + NVIDIA GPU 配置。用户通过使用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt;，可轻松地使用特定的 GPU 运行应用程序，无需复杂的脚本或者环境变量。&lt;/p&gt;
-
-&lt;h2 id=&quot;switcherooctl-的好处&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 的好处&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;无缝集成：与旧工具不同，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 旨在与现代 Linux 系统和桌面环境本地配合使用。这确保了更流畅的用户体验，而不需要复杂的配置。&lt;/li&gt;
-  &lt;li&gt;改进的性能：用户可以指定使用哪个 GPU 来执行特定任务，因此 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 可以实现最佳性能。计算密集型应用程序（例如游戏或 3D 渲染）可以利用独显，而不太密集的任务则默认使用核显以节省电量。&lt;/li&gt;
-  &lt;li&gt;增强的电源管理：当不需要独显时切换回核显可节省电池寿命，使其成为笔记本电脑和便携式系统的理想选择。&lt;/li&gt;
-  &lt;li&gt;Wayland 和 Xorg 兼容性：随着越来越多地采用 Wayland，拥有同时支持 Wayland 和 Xorg 的工具可确保广泛的系统和设置之间的兼容性。&lt;/li&gt;
-  &lt;li&gt;跨供应商支持：Intel CPU + NVIDIA GPU 或 &lt;a href=&quot;https://www.amd.com/&quot;&gt;AMD&lt;/a&gt; CPU + NVIDIA GPU 配置使系统对所有用户来说更加通用。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我们建议用户应该采用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 进行多 GPU 管理，因为一些较旧的工具（例如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;suse-prime&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bbswitch&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bumblebee&lt;/code&gt;）可能会被淘汰。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;关于多-amd-gpu-的设备&quot;&gt;关于多 AMD GPU 的设备&lt;/h2&gt;
-
-&lt;p&gt;如果你使用的设备具有 AMD 独显或 AMD APU + AMD GPU 的硬件，则可以直接设置 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DRI_PRIME&lt;/code&gt; 变量设置应用使用哪个 GPU。AMD APU/GPU 可以正常地在 wayland 下工作。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;相关：[For open source drivers - PRIME&lt;/td&gt;
-          &lt;td&gt;PRIME - ArchLinux Wiki](https://wiki.archlinux.org/title/PRIME#For_open_source_drivers_-_PRIME)&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switcherooctl&lt;/code&gt; 似乎对 AMD 显卡不生效。&lt;/p&gt;
-
-&lt;p&gt;实例：&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;poplar@Greysia:~&amp;gt; switcherooctl version
-2.6
-poplar@Greysia:~&amp;gt; switcherooctl list
-poplar@Greysia:~&amp;gt; &lt;span class=&quot;nv&quot;&gt;DRI_PRIME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 glxinfo | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;OpenGL renderer&quot;&lt;/span&gt;
-OpenGL renderer string: AMD Radeon RX 7600M XT &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;radeonsi, navi33, LLVM 19.1.4, DRM 3.59, 6.11.8-1-default&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-poplar@Greysia:~&amp;gt; &lt;span class=&quot;nv&quot;&gt;DRI_PRIME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0 glxinfo | &lt;span class=&quot;nb&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;OpenGL renderer&quot;&lt;/span&gt;
-OpenGL renderer string: AMD Radeon 780M &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;radeonsi, gfx1103_r1, LLVM 19.1.4, DRM 3.59, 6.11.8-1-default&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/11/28/project-to-have-ama/&quot;&gt;Project to have AMA with SUSE’s GM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
