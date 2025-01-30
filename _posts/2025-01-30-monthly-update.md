@@ -190,7 +190,7 @@ KDE 用户将赞赏最新 KDE Gear 和 Plasma 版本带来的优化体验，其�
 
 ----
 
-原文：[Tumbleweed Monthly Update - December 2024](https://news.opensuse.org/2025/01/08/tw-monthly-update-december/)，作者：Douglas DeMaio
+原文：[Tumbleweed Monthly Update - January 2025](hhttps://news.opensuse.org/2025/01/29/tw-monthly-update-january/)，作者：Douglas DeMaio
 
 [Coreutils]: https://github.com/coreutils/coreutils
 [btrfs-progs]: https://github.com/kdave/btrfs-progs/releases/tag/v6.12
