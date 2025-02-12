@@ -7,6 +7,62 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/10/installer-ng.html</guid>
+      <title>Myrlyn 现在能处理社区软件源</title>
+      <pubDate>Mon, 10 Feb 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/10/installer-ng.html</link>
+      <author>Poplar at twilight</author>
+      <description>有望成为新一代软件包管理工具的 Myrlyn 现在引入了一个备受期待的功能：配置软件源。用户使用 Myrlyn 简洁的 UI，轻松地管理他们的软件源，调整优先级，启动自动刷新，甚至快速添加广泛使用的社区软件源（如 packman、openh264、[libdvdcs]s 或 NVIDIA）。
+
+
+
+重要功能：
+
+
+  查看软件源的详细信息（包括优先级、自动刷新状态和 URL）。
+  直接在软件中修改软件源设置。
+  使用 libzypp 变量（如 $releasever）添加自定义软件源。
+  自动选择为 Leap，Tumbleweed 或 Slowroll 量身定制的社区软件源。
+  为非特权用户启用只读模式。
+
+
+一些用户已经在专门使用 Myrlyn 管理其系统，以展示其可靠性。Myrlyn 是在 Hack Week 24 期间开发的，是一位独立的基于 QT 的软件包管理器，不依赖 Yast。
+
+准备配置您的存储库了吗？前往 其他 → 配置存储库（Ctrl+Shift+O），然后开始修改！
+
+
+
+
+
+原文：Myrlyn Now Handles Community Repos，作者：Douglas DeMaio
+</description>
+      <content:encoded>&lt;p&gt;有望成为新一代软件包管理工具的 &lt;a href=&quot;https://github.com/shundhammer/myrlyn&quot;&gt;Myrlyn&lt;/a&gt; 现在引入了一个备受期待的功能：配置软件源。用户使用 Myrlyn 简洁的 UI，轻松地&lt;a href=&quot;https://github.com/shundhammer/myrlyn/issues/69&quot;&gt;管理他们的软件源&lt;/a&gt;，调整优先级，启动自动刷新，甚至快速添加广泛使用的社区软件源（如 &lt;a href=&quot;http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/&quot;&gt;packman&lt;/a&gt;、&lt;a href=&quot;https://software.opensuse.org/package/openh264&quot;&gt;openh264&lt;/a&gt;、[libdvdcs]s 或 &lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt;）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-02/myrlyn3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;重要功能：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;查看软件源的详细信息（包括优先级、自动刷新状态和 URL）。&lt;/li&gt;
+  &lt;li&gt;直接在软件中修改软件源设置。&lt;/li&gt;
+  &lt;li&gt;使用 libzypp 变量（如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$releasever&lt;/code&gt;）添加自定义软件源。&lt;/li&gt;
+  &lt;li&gt;自动选择为 Leap，Tumbleweed 或 Slowroll 量身定制的社区软件源。&lt;/li&gt;
+  &lt;li&gt;为非特权用户启用只读模式。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一些用户已经在专门使用 Myrlyn 管理其系统，以展示其可靠性。Myrlyn 是在 Hack Week 24 期间开发的，是一位独立的基于 QT 的软件包管理器，不依赖 Yast。&lt;/p&gt;
+
+&lt;p&gt;准备配置您的存储库了吗？前往 其他 → 配置存储库（Ctrl+Shift+O），然后开始修改！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-02/myrlyn6.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/10/myrlyn-now-handles-community-repos/&quot;&gt;Myrlyn Now Handles Community Repos&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/30/monthly-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 2025 年 1 月</title>
       <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
@@ -727,42 +783,6 @@ print&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;pipe.generate&lt;span class=&
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/20/new-pkg-mgmt-tool-debuts/&quot;&gt;New Package Management Tool Debuts&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/19/leap-15.5-eol.html</guid>
-      <title>Leap 15.5 即将退役</title>
-      <pubDate>Thu, 19 Dec 2024 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2024/12/19/leap-15.5-eol.html</link>
-      <author>Poplar at twilight</author>
-      <description>于 6 月 12 日发布的 Leap 15.6 标志着 Leap 15.5 即将结束安全维护和更新，维护结束的时间在本月月底。
-
-用户应升级到 openSUSE Leap 15.6 以继续接收安全和维护更新。新版本发布后，上一个版本的 Leap 将继续维护六个月，然后结束生命周期。
-
-openSUSE 项目正处于 Leap 16.0 的开发阶段，人们可以测试 pre-Alpha 版本。
-
-我们鼓励早期采用者和贡献者探索 16.0 pre-Alpha 版本并提供反馈以塑造下一个 Leap 版本，该版本将随 Agama 安装程序一起提供。
-
-请访问 get.opensuse.org 尝试不同的 openSUSE 发行版。对于寻求扩展支持的用户，可联系 SUSE 获取长期订阅支持方案。
-
-
-
-原文：Leap 15.5 Nears End of Life，作者：Douglas DeMaio
-</description>
-      <content:encoded>&lt;p&gt;于 6 月 12 日发布的 &lt;a href=&quot;https://news.opensuse.org/2024/06/12/leap-unveils-choices-for-users/&quot;&gt;Leap 15.6&lt;/a&gt; 标志着 &lt;a href=&quot;https://news.opensuse.org/2023/06/07/leap-release-matures-sets-up-tech-transition/&quot;&gt;Leap 15.5&lt;/a&gt; 即将结束安全维护和更新，维护结束的时间在本月月底。&lt;/p&gt;
-
-&lt;p&gt;用户应升级到 openSUSE Leap 15.6 以继续接收安全和维护更新。新版本发布后，上一个版本的 Leap 将继续维护六个月，然后结束生命周期。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;正处于 &lt;a href=&quot;https://news.opensuse.org/2024/10/07/leap-16-0-prealpha/&quot;&gt;Leap 16.0&lt;/a&gt; 的开发阶段，人们可以&lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;测试 pre-Alpha 版本&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;我们鼓励早期采用者和贡献者探索 16.0 pre-Alpha 版本并提供反馈以塑造下一个 Leap 版本，该版本将随 &lt;a href=&quot;https://en.opensuse.org/Agama&quot;&gt;Agama&lt;/a&gt; 安装程序一起提供。&lt;/p&gt;
-
-&lt;p&gt;请访问 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;get.opensuse.org&lt;/a&gt; 尝试不同的 openSUSE 发行版。对于寻求扩展支持的用户，可联系 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 获取长期订阅支持方案。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2024/12/19/leap-nears-eol/&quot;&gt;Leap 15.5 Nears End of Life&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
