@@ -7,6 +7,340 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/03/02/monty-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 2025 年 2 月</title>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/03/02/monty-update.html</link>
+      <author>Poplar at twilight</author>
+      <description>Tumbleweed 在本月发布了多个快照和一系列更新，其中包括二月中旬对一个重要的默认设置的变更以及 3D 图形库 Mesa 的一个大版本更新。GIMP 整合了 GTK 3.24.48，似乎已接近正式发布。KDE Plasma 6.3 增强了分数缩放功能，引入了精致的缩放效果，并全面修改了绘图板设置。 同时，KDE Gear 24.12.2 改进了可用性，gdb 15.2 提高了调试效率，fwupd 增强了固件更新处理。其他值得注意的更新包括 postgresql 17.3、Ruby 3.4.2 和 OpenSSL 3.4.1 的关键安全修复。 与往常一样，如果出现任何问题，请记住使用 snapper 进行回滚。 祝您在风滚草上玩得愉快！🦎 有关当月更改日志的更多详细信息，请访问 openSUSE Factory 邮件列表。 新功能和增强功能 Mesa 25.0： 该版本在 radv/gfx8+ 上引入了 Vulkan 1.4 支持，并为 panvk 引入了多个新的 Vulkan 扩展，包括 VK_KHR_dedicated_allocation、VK_KHR_global_priority、VK_KHR_multiview、VK_KHR_shader_float16_int8、VK_EXT_image_robustness 等。 为...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 在本月发布了多个快照和一系列更新，其中包括二月中旬对一个重要的默认设置的变更以及 3D 图形库 &lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 的一个大版本更新。&lt;a href=&quot;https://www.gimp.org/news/2025/02/10/gimp-3-0-RC3-released/&quot;&gt;GIMP&lt;/a&gt; 整合了 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 3.24.48，似乎已接近正式发布。&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.3.0/&quot;&gt;KDE Plasma 6.3&lt;/a&gt; 增强了分数缩放功能，引入了精致的缩放效果，并全面修改了绘图板设置。 同时，&lt;a href=&quot;https://kde.org/announcements/changelogs/gear/24.12.2/&quot;&gt;KDE Gear 24.12.2&lt;/a&gt; 改进了可用性，&lt;a href=&quot;https://www.gnu.org/software/gdb/&quot;&gt;gdb 15.2&lt;/a&gt; 提高了调试效率，&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 增强了固件更新处理。其他值得注意的更新包括 &lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 17.3、&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 3.4.2 和 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.4.1 的关键安全修复。&lt;/p&gt;
+
+&lt;p&gt;与往常一样，如果出现任何问题，请记住使用 &lt;a href=&quot;https://zh.opensuse.org/openSUSE:Snapper_Tutorial&quot;&gt;snapper&lt;/a&gt; 进行回滚。&lt;/p&gt;
+
+&lt;p&gt;祝您在风滚草上玩得愉快！🦎&lt;/p&gt;
+
+&lt;p&gt;有关当月更改日志的更多详细信息，请访问 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 25.0：
+    &lt;ul&gt;
+      &lt;li&gt;该版本在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;radv/gfx8+&lt;/code&gt; 上引入了 Vulkan 1.4 支持，并为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panvk&lt;/code&gt; 引入了多个新的 Vulkan 扩展，包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_KHR_dedicated_allocation&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_KHR_global_priority&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_KHR_multiview&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_KHR_shader_float16_int8&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;VK_EXT_image_robustness&lt;/code&gt; 等。&lt;/li&gt;
+      &lt;li&gt;为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;radv&lt;/code&gt; 添加了 GFX12 (RDNA4) 初始支持。&lt;/li&gt;
+      &lt;li&gt;对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;radv&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anv&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;panvk&lt;/code&gt; 进行了性能优化，提高了不同应用程序的稳定性。&lt;/li&gt;
+      &lt;li&gt;其他修复还改善了 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/X_Window_System&quot;&gt;X11&lt;/a&gt; 的兼容性，纠正了视频解码问题，并解决了影响各种游戏和工作负载的&lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_leak&quot;&gt;内存泄漏&lt;/a&gt;问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gimp.org/news/2025/02/10/gimp-3-0-RC3-released/&quot;&gt;GIMP 3.0.0~RC3&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;最新的 RC 版完成了 GTK 3.24.48 集成，解决了 Wayland 中的崩溃问题，并改进了 RTL（Right-To-Left）文本渲染。&lt;/li&gt;
+      &lt;li&gt;图像图形增强功能防止了不必要的位深度转换，从而保留了非破坏性编辑的细节。&lt;/li&gt;
+      &lt;li&gt;线程安全投影修正消除了&lt;a href=&quot;https://en.wikipedia.org/wiki/Thread_(computing)#Single-threaded_vs_multithreaded_programs&quot;&gt;多线程&lt;/a&gt;冲突造成的崩溃。&lt;/li&gt;
+      &lt;li&gt;Script-Fu API 引入了新的命名参数语法，使脚本更灵活、更易读。&lt;/li&gt;
+      &lt;li&gt;GIMP 发布了官方 &lt;a href=&quot;https://www.gimp.org/news/2025/02/10/gimp-3-0-RC3-released/#appimage-is-now-official&quot;&gt;AppImage&lt;/a&gt; 软件包，确保为 Linux 用户提供干净、上游支持的软件包。&lt;/li&gt;
+      &lt;li&gt;GEGL 优化完善了滤镜和浮点运算。 目前，GIMP 3.0 只剩下少量的错误修复，即将发布。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.3.0/&quot;&gt;KDE Plasma 6.3&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;Plasma 6.3 改进了窗口管理器和 Wayland 混成器 KWin 中的分数缩放功能，以提供更清晰的视觉效果，并使元素与像素网格对齐。缩放效果提供了完美的像素放大效果，并带有网格叠加，这对设计师来说非常有用。&lt;/li&gt;
+      &lt;li&gt;绘图板设置通过手写笔压力曲线调整和更好的校准进行了重大调整。&lt;/li&gt;
+      &lt;li&gt;系统监视器改进了 CPU 跟踪功能，同时减少了资源使用；其信息中心现在可以显示 GPU 详情和电池周期计数。&lt;/li&gt;
+      &lt;li&gt;应用程序商店 &lt;a href=&quot;https://apps.kde.org/discover/&quot;&gt;Discover&lt;/a&gt; 通过突出显示沙盒应用程序中的权限更改来增强安全性，天气部件则增加了 &lt;a href=&quot;https://www.dwd.de/&quot;&gt;Deutscher Wetterdienst&lt;/a&gt; 作为数据源。&lt;/li&gt;
+      &lt;li&gt;易用性方面的调整包括为鼠标用户自动禁用触摸板、重组启动器菜单，以及改进的启动行为（仅在点击时切换类别）。&lt;/li&gt;
+      &lt;li&gt;自定义选项扩展了面板克隆、可编写脚本的不透明度调整和灵活的启动器图标。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/gdb/&quot;&gt;gdb&lt;/a&gt; 15.2：
+    &lt;ul&gt;
+      &lt;li&gt;此主要版本更新改善了后台 DWARF 读取的启动性能，并完善了调试功能，引入了针对丢失的调试处理程序和线程管理的新命令。&lt;/li&gt;
+      &lt;li&gt;GDB 现在可以生成稀疏的（sparse）内核文件，提供更好的错误信息，并支持可配置的低层级（inferior）函数调用超时。&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GDBserver&lt;/code&gt; 简化了调试选项，新的 Python API 函数增强了脚本功能。&lt;/li&gt;
+      &lt;li&gt;本次更新还淘汰了与 MPX 相关的命令，并改进了现有命令，使其更加清晰和一致。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此更新引入了新功能，如用于设置 nmbl cmdline 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fwupdtool efiboot-hive&lt;/code&gt;、改进的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fwupdmgr&lt;/code&gt; 中的抑制原因处理，以及 USB 提供的 DS-20 描述符 &lt;a href=&quot;https://docs.kernel.org/hid/hidraw.html&quot;&gt;hidraw&lt;/a&gt; 支持。&lt;/li&gt;
+      &lt;li&gt;错误修正包括在 MSI 硬件上正确部署 dbx、联想版本解析修正、改进的罗技 HID++ 检测和性能优化。&lt;/li&gt;
+      &lt;li&gt;此外，还增加了对使用 Redfish 的 HPE Gen10/Gen10+ 设备的支持，以及对未来 Huddly 设备的更好处理和更可靠的罗技 Rallybar 更新。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.2.5/&quot;&gt;KDE Frameworks 6.11.0&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Frameworks 6.11.0 通过传播失败原因和减少 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;m_env&lt;/code&gt; 的手动管理，改进了 Baloo 的数据库处理。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/breeze&quot;&gt;Breeze&lt;/a&gt; 图标引入了 12x12 版本的打开链接图标，并将关闭图标更新为黑色 X 符号。&lt;/li&gt;
+      &lt;li&gt;KConfig 现在可从 Windows 注册表中读取默认值，并改进了嵌套组值的处理。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kirigami&quot;&gt;Kirigami&lt;/a&gt; 改进了 SwipeListItem 的键盘导航功能，并修复了 ActionsMenu 中的深嵌套问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 解决了文件属性中的符号链接路径解析问题，并增强了文件对话框的撤销行为。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/ktexteditor&quot;&gt;KTextEditor&lt;/a&gt; 改进了书签循环，并完善了主题配置边距。&lt;/li&gt;
+      &lt;li&gt;KSVG 增强了呈现缓存线程的安全性。&lt;/li&gt;
+      &lt;li&gt;KWallet 则删除了未使用的函数，使代码库更加精简。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kde.org/announcements/changelogs/gear/24.12.2/&quot;&gt;KDE Gear 24.12.2&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;KDE 的 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 改进了图标缩放和叠加处理。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 则修复了崩溃、增强了效果堆叠并提高了渲染进度的可见性。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/KDE/kmail&quot;&gt;KMail&lt;/a&gt; 和 &lt;a href=&quot;https://apps.kde.org/kontact/&quot;&gt;Kontact&lt;/a&gt; 简化了账户管理，防止删除账户时出现重复条目。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/ktrip/&quot;&gt;KTrip&lt;/a&gt; 和 &lt;a href=&quot;https://apps.kde.org/kweather/&quot;&gt;KWeather&lt;/a&gt; 可清理未使用的字符串，带来更流畅的移动体验。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://apps.kde.org/kate/&quot;&gt;Kate&lt;/a&gt; 确保了正确的选择处理并修复了搜索匹配导出。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 可防止带有大量选择字段的表单挂起，并能正确响应调色板的更改。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 17.3：
+    &lt;ul&gt;
+      &lt;li&gt;此更新涉及各种安全修复和性能改进。&lt;/li&gt;
+      &lt;li&gt;一个关键的安全修复加强了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PQescapeString&lt;/code&gt; 和相关函数中的编码验证，以防止潜在的 SQL 注入风险。&lt;/li&gt;
+      &lt;li&gt;连接权限检查和限制现在可对并行工作者正确执行。&lt;/li&gt;
+      &lt;li&gt;一些错误修复提高了数据库的稳定性，包括防止真空操作（vacuum operation）中的目录损坏、修复并行查询中的竞赛条件以及解决意外事务错误。&lt;/li&gt;
+      &lt;li&gt;其他增强功能包括改进了对 SQL/JSON 析取的处理，提高了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UNION&lt;/code&gt; 查询中的校对一致性，并优化了 VACUUM 和索引。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt; 3.4.2：
+    &lt;ul&gt;
+      &lt;li&gt;Ruby 主要修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ripper&lt;/code&gt; 中的分段错误、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-ne&lt;/code&gt; 中的堆栈一致性错误以及 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array#sum&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Numeric&lt;/code&gt; 子类中的意外行为。&lt;/li&gt;
+      &lt;li&gt;解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;prism&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;parse.y&lt;/code&gt; 中的解析问题，包括递归深度不一致和处理未命名的转发变量。&lt;/li&gt;
+      &lt;li&gt;其他修复包括改进了与 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 15 的兼容性，修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Module#autoload?&lt;/code&gt; 性能、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TCPSocket&lt;/code&gt; 错误处理，并确保了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ENV.inspect&lt;/code&gt; 编码的一致性。&lt;/li&gt;
+      &lt;li&gt;此外，还向前移植了针对 ARM64 的 TLS 修正，并解决了各种语法不一致的问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/PipeWire/wireplumber&quot;&gt;wireplumber&lt;/a&gt; 0.5.8：
+    &lt;ul&gt;
+      &lt;li&gt;本次更新在 &lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture&quot;&gt;ALSA&lt;/a&gt; 监视器中引入了对处理 UCM SplitPCM 节点的支持，并改进了通过环回进行的 PipeWire 通道重映射。&lt;/li&gt;
+      &lt;li&gt;新功能可将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WpSpaDevice&lt;/code&gt; 子对象标记为待处理，从而加强了对异步创建的环回节点的处理。&lt;/li&gt;
+      &lt;li&gt;改进了 ALSA 节点名称重复数据删除功能，避免了不必要的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.2&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.3&lt;/code&gt; 后缀。&lt;/li&gt;
+      &lt;li&gt;修复的问题包括解决用户界面中重复的蓝牙 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SCO (HSP/HFP)&lt;/code&gt; 源，纠正设备环回节点的流恢复行为，以及解决 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wp_lua_log_topic_copy()&lt;/code&gt; 中的问题。&lt;/li&gt;
+      &lt;li&gt;此外，还更新了测试脚本，以提高对象识别的一致性。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/cryptography/&quot;&gt;python-cryptography&lt;/a&gt; 44.0.0：
+    &lt;ul&gt;
+      &lt;li&gt;这一重大 &lt;a href=&quot;https://pypi.org/&quot;&gt;pypi&lt;/a&gt; 更新放弃了对低于 3.9 版本的 &lt;a href=&quot;https://www.libressl.org/&quot;&gt;LibreSSL&lt;/a&gt; 的支持，并弃用了 Python 3.7，该版本将在今后的版本中删除。&lt;/li&gt;
+      &lt;li&gt;Linux wheels 现在使用 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.4.0 编译。&lt;/li&gt;
+      &lt;li&gt;该更新执行了 RFC 5280 规则，防止空扩展密钥使用扩展，允许提取 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MultiFernet&lt;/code&gt; 的时间戳，并放宽了对根 CA 证书的授权密钥标识符要求。&lt;/li&gt;
+      &lt;li&gt;在使用 OpenSSL 3.2.0+ 时，新增了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Argon2id&lt;/code&gt; KDF 的支持，以及对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Admissions&lt;/code&gt; 证书扩展的支持。&lt;/li&gt;
+      &lt;li&gt;此外，现在还通过新的解密函数支持 PKCS7 解密，包括 S/MIME 3.2。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pypi.org/project/pyOpenSSL/&quot;&gt;python-pyOpenSSL&lt;/a&gt; 25.0.0：
+    &lt;ul&gt;
+      &lt;li&gt;此重大 pypi 更新删除了已废弃的 API，包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CRL&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Revoked&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dump_crl&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;load_crl&lt;/code&gt;，并将 CRL 功能过渡到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptography.x509&lt;/code&gt;。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sign&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;verify&lt;/code&gt; 函数已被移除，转而使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptography.hazmat.primitives.asymmetric&lt;/code&gt; 签名 API。&lt;/li&gt;
+      &lt;li&gt;已废弃的功能包括 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OpenSSL.rand&lt;/code&gt;（使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;os.urandom()&lt;/code&gt; 代替）、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X509Extension&lt;/code&gt; 和椭圆曲线函数。&lt;/li&gt;
+      &lt;li&gt;未来将计划弃用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X509&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PKey&lt;/code&gt; 对象，鼓励用户迁移到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptography.x509.Certificate&lt;/code&gt; 和加密私钥。&lt;/li&gt;
+      &lt;li&gt;更新还为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;get_certificate&lt;/code&gt; 和相关函数引入了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;as_cryptography&lt;/code&gt; 参数，允许返回 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cryptography.x509.Certificate&lt;/code&gt; 对象。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;关键软件包更新&quot;&gt;关键软件包更新&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;Kernel&lt;/a&gt; 6.13.4、6.13.3 和 6.13.2：
+    &lt;ul&gt;
+      &lt;li&gt;这些更新包括多个子系统的各种修复和改进。&lt;/li&gt;
+      &lt;li&gt;它解决了 Btrfs 中的问题，包括 lockdep splat 修复和更好地处理事务中止。&lt;/li&gt;
+      &lt;li&gt;安全改进涉及 x86 SRSO 对 VM-Exit 丢失 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IBPB&lt;/code&gt; 的缓解、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;winwing&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thrustmaster&lt;/code&gt; 的 HID 设备处理修复以及多个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pinctrl&lt;/code&gt; bug 修复。&lt;/li&gt;
+      &lt;li&gt;更新还完善了 DRM 和 AMD 显示组件，改进了 HDMI、DSC 直通和背光怪异现象。&lt;/li&gt;
+      &lt;li&gt;其他修复还改进了调度程序、IRQ 处理、日志记录和文件系统稳定性。&lt;/li&gt;
+      &lt;li&gt;各种 DRM 桥接器、面板和连接器更新增强了 ELD 处理和同步功能。&lt;/li&gt;
+      &lt;li&gt;其他增强功能还改进了 safesetid 策略检查、WiFi 驱动程序和特定设备优化。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt; 8.12.1：
+    &lt;ul&gt;
+      &lt;li&gt;此更新包含多种安全修复，如解决主机间密码泄露、HSTS 缓存条目覆盖和 eventfd 双关闭漏洞。&lt;/li&gt;
+      &lt;li&gt;增强功能包括支持 PKCS#11 密钥、使用 GnuTLS 的 QUIC 0RTT、改进的 HTTP 身份验证跟踪，以及针对连接重用的扩展错误处理。&lt;/li&gt;
+      &lt;li&gt;显著的错误修复涉及 TLS 升级问题、DNS 解析改进、HTTP 重试处理以及跨多个协议的性能优化。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SELinuxProject&quot;&gt;selinux-policy&lt;/a&gt; 20250211：
+    &lt;ul&gt;
+      &lt;li&gt;此更新&lt;a href=&quot;https://news.opensuse.org/2025/02/13/tw-plans-to-adopt-selinux-as-default/&quot;&gt;将 SELinux 设置为所有新安装的默认 Linux 安全模块&lt;/a&gt; (LSM)。虽然 &lt;a href=&quot;https://apparmor.net/&quot;&gt;AppArmor&lt;/a&gt; 仍然可用，但 SELinux 在新安装（包括 minimalVM 变体）时将默认为强制执行模式。 SELinux 更新将在未来几周内继续完善实施。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://software.opensuse.org/package/sdbootutil&quot;&gt;sdbootutil&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;此更新引入了对 PCR 15 测量的改进，包括验证服务和 crypttab 变更预测功能。&lt;/li&gt;
+      &lt;li&gt;更新还改进了使用 FIDO2 密钥时的加密设备排序，并删除了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grubenv&lt;/code&gt; 中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.conf&lt;/code&gt; 后缀。&lt;/li&gt;
+      &lt;li&gt;其他修复还可确保在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/crypttab&lt;/code&gt; 丢失时生成器行为正确，并改进了 PCR 验证的日志输出。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 1.24.12：
+    &lt;ul&gt;
+      &lt;li&gt;本次更新解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;d3d12&lt;/code&gt; 中的着色器编译故障，并修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;decklinkvideosink&lt;/code&gt; 中的帧速率处理。&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gst-libav&lt;/code&gt; 模块现在可避免音频编码器在输入数据对齐不足时崩溃，并恢复了与 FFmpeg 4.2 的兼容性。&lt;/li&gt;
+      &lt;li&gt;其他修复包括改进了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oggdemux&lt;/code&gt; 中的寻道和持续时间处理、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tsdemux&lt;/code&gt; 中的 PTS 包裹检测，以及 macOS 上 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vtdec&lt;/code&gt; 中的竞赛条件修复。&lt;/li&gt;
+      &lt;li&gt;对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qtdemux&lt;/code&gt; 进行了增强，以更好地支持矩阵转换和翻转，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;webrtc&lt;/code&gt; 现在可以在使用 RTX 和多个视频编解码器时防止重复的有效载荷类型。&lt;/li&gt;
+      &lt;li&gt;此外，还对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wpe&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x264enc&lt;/code&gt; 和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt; win32-pluginoader&lt;/code&gt; 进行了改进，并修复了各种内存泄漏和稳定性问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://xfs.wiki.kernel.org/&quot;&gt;XFSProgs&lt;/a&gt; 6.13.0：
+    &lt;ul&gt;
+      &lt;li&gt;此更新引入了重大改进，包括增强了对实时卷、配额处理和元数据目录的支持。&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xfs_repair&lt;/code&gt; 增加了对元数据目录中配额节点的支持，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xfs_scrub&lt;/code&gt; 则使用直方图加速了第 8 阶段的处理。&lt;/li&gt;
+      &lt;li&gt;其他修复涉及错误报告、设备编码和实时分配组的并发性改进。&lt;/li&gt;
+      &lt;li&gt;各种构建、文档和工具增强功能进一步完善了 XFS 生态系统。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kernel.org/doc/html/latest/admin-guide/kdump/kdump.html&quot;&gt;kdump&lt;/a&gt; 2.0.16：
+    &lt;ul&gt;
+      &lt;li&gt;此更新通过修复 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;KDUMP_AUTO_RESIZE&lt;/code&gt; 提高了可靠性，解决了崩溃转储大小调整中的问题。&lt;/li&gt;
+      &lt;li&gt;此更新还解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dracut&lt;/code&gt; 中的一个关键绑定配置错误，该错误曾导致 kdump initrd 出现网络故障。该问题源于对绑定设备参数的不当解析，其中 MAC 地址的冒号会导致错误。修复后，kdump 可以正确过滤掉有问题的绑定密钥，防止解析失败。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;错误修复和安全更新&quot;&gt;错误修复和安全更新&lt;/h2&gt;
+
+&lt;p&gt;本月解决了几个关键的安全漏洞。本月的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures&quot;&gt;CVE&lt;/a&gt; 有：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;qemu&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-2861.html&quot;&gt;CVE-2023-2861&lt;/a&gt;：修正了 9p 直通文件系统 (9pfs) 实现中的一个缺陷，该缺陷可能允许恶意客户端通过在共享文件夹中创建并打开设备文件来逃避导出的 9p 树。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;curl&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://curl.se/docs/CVE-2024-11053.html&quot;&gt;CVE-2024-11053&lt;/a&gt;：修复了结合 HTTP 重定向使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.netrc&lt;/code&gt; 文件时的凭证泄漏问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://curl.se/docs/CVE-2024-9681.html&quot;&gt;CVE-2024-9681&lt;/a&gt;： 解决了一个问题，即 HSTS 子域条目可能会覆盖父域缓存条目，从而导致不正确的 HTTPS 执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://curl.se/docs/CVE-2025-0665.html&quot;&gt;CVE-2025-0665&lt;/a&gt;： 解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;eventfd&lt;/code&gt; 的双关闭漏洞，该漏洞可能导致未定义的行为或应用程序崩溃。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/emacs/&quot;&gt;emacs&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1244.html&quot;&gt;CVE-2025-1244&lt;/a&gt;： 有关此 CVE 的详细信息目前不可用。 有关最新信息，请参阅 &lt;a href=&quot;https://www.gnu.org/software/emacs/news/&quot;&gt;Emacs 官方新闻页面&lt;/a&gt;。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 3.4.1：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12797.html&quot;&gt;CVE-2024-12797&lt;/a&gt;： 修正了使用 RFC7250 原始公开密码匙 (RPK) 的用户端可能侦测不到伺服器验证失败的问题，这可能导致 TLS/DTLS 连线受到中间人攻击。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-13176.html&quot;&gt;CVE-2024-13176&lt;/a&gt;：ECDSA 签署计算中的时序侧信道漏洞可能让攻击者复原私人密匙。这主要影响 NIST P-521 曲线，需要本地访问或高速、低延迟的网络连接才能利用。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-9143.html&quot;&gt;CVE-2024-9143&lt;/a&gt;：修复了低级 GF(2^m) 椭圆曲线 API 中的越界内存访问问题，该问题可能导致内存损坏或崩溃。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;postgresql&lt;/a&gt; 17.3:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1094.html&quot;&gt;CVE-2025-1094&lt;/a&gt;： 修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;psql&lt;/code&gt; 交互式工具中的一个 SQL 注入漏洞，该漏洞由某些函数中引号语法的不当中和引起。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ffmpeg.org/&quot;&gt;ffmpeg&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22921.html&quot;&gt;CVE-2025-22921&lt;/a&gt;： 解决了 jpeg2000dec.c 中的分段违规问题，防止了潜在的崩溃。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22919.html&quot;&gt;CVE-2025-22919&lt;/a&gt;： 修正了处理伪造的 AAC 文件时的可达断言，减轻了拒绝服务风险。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0518.html&quot;&gt;CVE-2025-0518&lt;/a&gt;：解决了允许远程验证攻击者执行任意代码的基于堆栈的缓冲区溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-25473.html&quot;&gt;CVE-2025-25473&lt;/a&gt;：修正了允许远程验证攻击者执行任意命令的多个漏洞： 修正了多个漏洞，使通过验证的远程攻击者能够执行任意命令。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12361.html&quot;&gt;CVE-2024-12361&lt;/a&gt;： 解决了证书数据处理中可能导致拒绝服务的漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/grub/&quot;&gt;grub2&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45781.html&quot;&gt;CVE-2024-45781&lt;/a&gt;： 修正 UFS 档案系统中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strcpy&lt;/code&gt; 溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45782.html&quot;&gt;CVE-2024-45782&lt;/a&gt;： 解决了 HFS 文件系统中的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;strcpy&lt;/code&gt; 溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45780.html&quot;&gt;CVE-2024-45780&lt;/a&gt;： 修正了 TAR/CPIO 处理中的溢出问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45783.html&quot;&gt;CVE-2024-45783&lt;/a&gt;： 修正 HFS+ 文件系统中的引用计数溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45774.html&quot;&gt;CVE-2024-45774&lt;/a&gt;： 解决了 JPEG 解析器中的堆溢出问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45775.html&quot;&gt;CVE-2024-45775&lt;/a&gt;： 解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;extcmd&lt;/code&gt; 解析器中的 NULL 检查缺失问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0622.html&quot;&gt;CVE-2025-0622&lt;/a&gt;：修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;command/gpg&lt;/code&gt; 模块卸载期间处理钩子时的 “use-after-free ”问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45776.html&quot;&gt;CVE-2024-45776&lt;/a&gt;： 修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.MO&lt;/code&gt; 文件处理中的溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45777.html&quot;&gt;CVE-2024-45777&lt;/a&gt;： 修正 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gettext&lt;/code&gt; 函数的整数满溢。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0690.html&quot;&gt;CVE-2025-0690&lt;/a&gt;： 解决了一个整数溢出问题，该问题可通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt; 命令导致越界写入。&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45778.html&quot;&gt;CVE-2024-45778&lt;/a&gt;：从可锁定模块中移除 BFS 文件系统。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-45779.html&quot;&gt;CVE-2024-45779&lt;/a&gt;： 修正了 BFS 档案系统的堆叠满溢。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0677.html&quot;&gt;CVE-2025-0677&lt;/a&gt;： 解决了在 UFS 中处理符号链接时导致越界写入的整数溢出。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0684.html&quot;&gt;CVE-2025-0684&lt;/a&gt;： 解决在 ReiserFS 中处理 symlink 时，导致越界写入的整数满溢。&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0686.html&quot;&gt;CVE-2025-0686&lt;/a&gt;： 更正在 ROMFS 处理交点连结时，导致越界写入的整数满溢。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0689.html&quot;&gt;CVE-2025-0689&lt;/a&gt;： 修正 UDF 中基于堆的缓冲记忆体满溢，可能导致任意程式码执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1125.html&quot;&gt;CVE-2025-1125&lt;/a&gt;：修复在 HFS 档案系统中导致越界写入的整数满溢。&lt;/li&gt;
+      &lt;li&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnu.org/software/libtasn1/manual/libtasn1.html&quot;&gt;libtasn1&lt;/a&gt; 4.20.0：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12133.html&quot;&gt;CVE-2024-1213&lt;/a&gt;：修正了处理特定证书数据效率低下的问题，攻击者可利用该问题发送特制证书，导致拒绝服务攻击。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libxml2/-/tags/v2.13.5&quot;&gt;libxml2&lt;/a&gt; 2.13.6:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24928.html&quot;&gt;CVE-2025-24928&lt;/a&gt;： 修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xmlSnprintfElements&lt;/code&gt; 函数中基于堆栈的缓冲区溢出，该漏洞可在对不信任文档进行 DTD 验证时被利用，导致拒绝服务或代码执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-56171.html&quot;&gt;CVE-2024-56171&lt;/a&gt;： 解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xmlSchemaIDCFillNodeTables&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xmlSchemaBubbleIDCNodeTables&lt;/code&gt; 函数中的使用后即释放漏洞，该漏洞在处理伪造的 XML 文档或模式时可能导致任意代码执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-27113.html&quot;&gt;CVE-2025-27113&lt;/a&gt;： 解决了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xmlPatMatch&lt;/code&gt; 函数中的取消引用 NULL 指针问题，该问题可能会在处理某些输入时导致应用程序崩溃。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gnutls.org/&quot;&gt;gnutls&lt;/a&gt; 3.8.9：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12243.html&quot;&gt;CVE-2024-12243&lt;/a&gt;： 解决了一个缺陷，即解码某些 DER 编码证书可能导致过多的资源消耗，从而导致拒绝服务情况。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://spidermonkey.dev/&quot;&gt;mozjs128&lt;/a&gt; 128.7.0:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1009.html&quot;&gt;CVE-2025-1009&lt;/a&gt;： 修复了 XSLT 中的一个使用后即释放漏洞，该漏洞可能导致崩溃。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1010.html&quot;&gt;CVE-2025-1010&lt;/a&gt;：解决了自定义高亮 API 中的一个使用后即释放问题，该问题可能导致崩溃。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1011.html&quot;&gt;CVE-2025-1011&lt;/a&gt;： 解决了 WebAssembly 代码生成中的一个 Bug，该 Bug 可导致崩溃和可能的代码执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1012.html&quot;&gt;CVE-2025-1012&lt;/a&gt;： 修复了并发去齐平过程中的释放后使用问题，该问题可能会导致崩溃。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11704.html&quot;&gt;CVE-2024-11704&lt;/a&gt;： 修正了 PKCS#7 解密处理中的一个潜在双重释放漏洞。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1013.html&quot;&gt;CVE-2025-1013&lt;/a&gt;： 解决了私人浏览标签页可能在正常浏览窗口中打开，从而导致潜在隐私泄漏的问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1014.html&quot;&gt;CVE-2025-1014&lt;/a&gt;： 修正了添加到证书存储时证书长度检查不当的问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1016.html&quot;&gt;CVE-2025-1016&lt;/a&gt;： 解决了多个内存安全漏洞，这些漏洞有可能被利用来运行任意代码。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1017.html&quot;&gt;CVE-2025-1017&lt;/a&gt;： 解决了浏览器引擎中存在的其他内存安全漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24143.html&quot;&gt;CVE-2025-24143&lt;/a&gt;： 修复了一个漏洞，当处理恶意制作的网页内容时，该漏洞可能导致任意代码执行。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24150.html&quot;&gt;CVE-2025-24150&lt;/a&gt;： 解决了访问恶意网站可能导致地址栏欺骗的问题。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24158.html&quot;&gt;CVE-2025-24158&lt;/a&gt;： 解决了一个内存损坏问题，该问题可能允许攻击者执行任意代码。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-24162.html&quot;&gt;CVE-2024-24162&lt;/a&gt;： 修正了处理恶意制作的网页内容可能导致执行任意代码的漏洞。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;Python311&lt;/a&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0938.html&quot;&gt;CVE-2025-0938&lt;/a&gt;： 修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;urllib.parse&lt;/code&gt; 函数中不正确的 URL 解析，该函数接受带方括号的无效域名，可能导致安全问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://software.opensuse.org/package/pam_pkcs11?locale=en&quot;&gt;PAM-PKCS&lt;/a&gt; 0.6.13:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24032.html&quot;&gt;CVE-2025-24032&lt;/a&gt;： 修正了一个问题，即攻击者可使用用户的公共证书和已知 PIN 创建令牌，从而无需私钥即可进行未经授权的登录。&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24531.html&quot;&gt;CVE-2025-24531&lt;/a&gt;：解决了使用智能卡登录时在错误情况下可能出现的身份验证绕过问题。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kerberos.org/&quot;&gt;krb5&lt;/a&gt;：
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-24528.html&quot;&gt;CVE-2025-24528&lt;/a&gt;：解决了一个漏洞，在该漏洞中，通过身份验证的攻击者可导致 kadmind 将写入内容超出映射区域的末端，从而导致潜在的安全风险。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;建议用户更新至最新版本，以缓解这些漏洞。&lt;/p&gt;
+
+&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
+
+&lt;p&gt;通过最新的 KDE Gear、Frameworks 和 Plasma 更新，KDE 用户将获得更完美、更高效的体验。 除了可见的改进之外，Tumbleweed 还继续加强其基础，为 curl、mozjs128、grub2 和 PostgreSQL 提供了重要的安全补丁，并通过 libxml2 优化了 XML 处理。 这些持续的改进确保了 Tumbleweed 对开发者和用户来说仍然是一个可靠、高性能的开源平台。&lt;/p&gt;
+
+&lt;h2 id=&quot;slowroll-更新&quot;&gt;Slowroll 更新&lt;/h2&gt;
+
+&lt;p&gt;请注意，这些更新也适用于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Slowroll&quot;&gt;Slowroll&lt;/a&gt;，并且通常会在 Tumbleweed 快照发布后平均 5 到 10 天内到达。这种按月发布的方式已经持续多个月，确保了用户的稳定性和及时的增强功能。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做出贡献&quot;&gt;为 openSUSE Tumbleweed 做出贡献&lt;/h2&gt;
+
+&lt;p&gt;订阅 openSUSE Factory 邮件列表，随时了解最新快照。对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。&lt;/p&gt;
+
+&lt;p&gt;您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/27/tw-monthly-update-february/&quot;&gt;Tumbleweed Monthly Update - February 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/19/rbos.html</guid>
       <title>Reproducible-openSUSE 项目取得重大进展</title>
       <pubDate>Wed, 19 Feb 2025 23:00:00 +0000</pubDate>
@@ -604,35 +938,6 @@ print&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;pipe.generate&lt;span class=&
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/13/LXQt-Wayland-support-is-now-here/&quot;&gt;LXQt Wayland support is now here&lt;/a&gt;，作者：Shawn W Dunn&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/09/slowroll.html</guid>
-      <title>新的一年从 Slowroll 升级版本开始</title>
-      <pubDate>Thu, 09 Jan 2025 23:00:00 +0000</pubDate>
-      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/01/09/slowroll.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Slowroll 社区对最近完成的一月份版本升级表示欢迎。 Slowroll 的快照标志着全新更新的开始，现在用户可以在全球各地的镜像访问初始更新内容。 本月的更新提前了一天，以避免因关键基础设施的日常维护而造成中断。更新正在进行中，用户可以从快照 20250101 中获取新的 Tumbleweed 版本。 这些更新集成了 openSUSE 可重现性计划的先进技术，这些技术源自 Factory/Tumbleweed。主要改进包括增强了可重现性构建工具，修复了 Python、Qt 等软件包中的依赖性处理、并行性和竞争条件。 Slowroll 的智能滚动更新方法为寻求具有基本安全更新的可靠系统的用户提供了可靠的基础，避免了传统滚动更新模型中出现的频繁更改。对于那些想要在稳定性和访问现代软件之间取得平衡的人来说，这种平衡使其成为一个绝佳的选择。 Slowroll 的更新在 Tumbleweed 发布后平均 5 到 10 天到达。用户可以阅读 Tumbleweed 的最新月度更新博客，了解 Slowroll 中有哪些软件获得更新；最近的更新包括 QEMU 9.2.0（为 Vulkan 应用程序增加了 3D 加速功能）和 GPG 2.5.2（新增 ECC+Kyber 密钥生成功能，并改进了智能卡处理）。 虽然 Slowroll 仍被标记为实验性（因为缺乏自动测试），但它仍在不断发展，并为用户提供了 openSUSE 生态系统中可靠且创新的替代方案。 有关更多详细信息，请访问该项目的路线图。 原文：New Year Starts with...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;openSUSE Slowroll&lt;/a&gt; 社区对最近完成的&lt;a href=&quot;https://www.reddit.com/r/openSUSE_Slowroll/comments/1hwdxrx/january_version_bump/&quot;&gt;一月份版本升级&lt;/a&gt;表示欢迎。&lt;/p&gt;
-
-&lt;p&gt;Slowroll 的快照标志着全新更新的开始，现在用户可以在全球各地的镜像访问初始更新内容。&lt;/p&gt;
-
-&lt;p&gt;本月的更新提前了一天，以避免因关键基础设施的日常维护而造成中断。更新正在进行中，用户可以从快照 20250101 中获取新的 Tumbleweed 版本。&lt;/p&gt;
-
-&lt;p&gt;这些更新集成了 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/message/BKMFGPNWUCNLKZOWPA7GGKBERJBS4WN6/&quot;&gt;openSUSE 可重现性计划&lt;/a&gt;的先进技术，这些技术源自 &lt;a href=&quot;https://en.opensuse.org/Portal:Factory&quot;&gt;Factory/Tumbleweed&lt;/a&gt;。主要改进包括增强了可重现性构建工具，修复了 Python、Qt 等软件包中的依赖性处理、并行性和竞争条件。&lt;/p&gt;
-
-&lt;p&gt;Slowroll 的智能滚动更新方法为寻求具有基本安全更新的可靠系统的用户提供了可靠的基础，避免了传统滚动更新模型中出现的频繁更改。对于那些想要在稳定性和访问现代软件之间取得平衡的人来说，这种平衡使其成为一个绝佳的选择。&lt;/p&gt;
-
-&lt;p&gt;Slowroll 的更新在 Tumbleweed 发布后平均 5 到 10 天到达。用户可以阅读 Tumbleweed 的最新月度更新博客，了解 Slowroll 中有哪些软件获得更新；最近的更新包括 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;QEMU&lt;/a&gt; 9.2.0（为 Vulkan 应用程序增加了 3D 加速功能）和 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GPG&lt;/a&gt; 2.5.2（新增 ECC+Kyber 密钥生成功能，并改进了智能卡处理）。&lt;/p&gt;
-
-&lt;p&gt;虽然 Slowroll 仍被标记为实验性（因为缺乏自动测试），但它仍在不断发展，并为用户提供了 openSUSE 生态系统中可靠且创新的替代方案。&lt;/p&gt;
-
-&lt;p&gt;有关更多详细信息，请访问该项目的&lt;a href=&quot;https://trello.com/b/dAWnojmd/slowroll&quot;&gt;路线图&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/09/ny-starts-with-slowroll-vb/&quot;&gt;New Year Starts with Slowroll Version Bump&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
