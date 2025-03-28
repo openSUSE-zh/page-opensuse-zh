@@ -7,6 +7,94 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/03/28/zypper.html</guid>
+      <title>Zypper 添加了并行下载（实验性）</title>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/03/28/zypper.html</link>
+      <author>Poplar at twilight</author>
+      <description>libzypp 17.36.4 和 zypper 1.14.87 引入了一个新的实验性 zypper 媒体后端和对并行下载软件包的支持。 根据 factory 邮件列表中的一封电子邮件 ，这些增强功能通过减少获取包和元数据所需的时间来提高包管理器的性能。 此次更新提供了两个主要功能：使用并发连接获取包的功能，以及简化的媒体后端，可改善连接重用和元数据处理。这两个功能目前处于试验阶段，必须手动启用。 在该功能正式默认启用之前，用户可以通过在执行 zypper 操作前设置环境变量来启用并行软件包下载功能。这样可以同时下载多个软件包，从而提高整体速度。 启用并行下载： env ZYPP_PCK_PRELOAD=1 zypper dup 用户可以使用以下指令在 zypp.conf 文件中配置并发下载的数量： download.max_concurrent_connections = 5 默认值为 5。但是，根据系统资源和网络条件，更高的值可能会产生更好的性能。 用户可以使用单独的环境变量启用新的媒体后端。后端通过避免 metalink 抓取和多服务器文件分割来消除开销。它经过优化，可以在元数据抓取期间更好地重用连接。 启用新媒体后端： env ZYPP_CURL2=1 zypper ref 虽然这两个功能是分开的，但同时使用时效果最佳。在 .repo 文件中使用 metalink= URL 可以进一步提高镜像性能。不过，baseurl= 仍然是生产系统的首选设置，因为它具有可信密钥行为。 要使用新功能，需要满足以下要求： libzypp 17.36.4 或更新版本 zypper 1.14.87...</description>
+      <content:encoded>&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libzypp&lt;/code&gt; 17.36.4 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt; 1.14.87 引入了一个新的实验性 zypper 媒体后端和对并行下载软件包的支持。&lt;/p&gt;
+
+&lt;p&gt;根据 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LOCZIG43MFJSTUIQ3VH2CRSYRCBNR4O7/&quot;&gt;factory 邮件列表中的一封电子邮件&lt;/a&gt; ，这些增强功能通过减少获取包和元数据所需的时间来提高包管理器的性能。&lt;/p&gt;
+
+&lt;p&gt;此次更新提供了两个主要功能：使用并发连接获取包的功能，以及简化的媒体后端，可改善连接重用和元数据处理。这两个功能目前处于试验阶段，必须手动启用。&lt;/p&gt;
+
+&lt;p&gt;在该功能正式默认启用之前，用户可以通过在执行 zypper 操作前设置环境变量来启用并行软件包下载功能。这样可以同时下载多个软件包，从而提高整体速度。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;启用并行下载：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;env &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZYPP_PCK_PRELOAD&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 zypper dup
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;用户可以使用以下指令在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypp.conf&lt;/code&gt; 文件中配置并发下载的数量：&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;download.max_concurrent_connections &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; 5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;默认值为 5。但是，根据系统资源和网络条件，更高的值可能会产生更好的性能。&lt;/p&gt;
+
+&lt;p&gt;用户可以使用单独的环境变量启用新的媒体后端。后端通过避免 metalink 抓取和多服务器文件分割来消除开销。它经过优化，可以在元数据抓取期间更好地重用连接。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;启用新媒体后端：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;env &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ZYPP_CURL2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 zypper ref
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;虽然这两个功能是分开的，但同时使用时效果最佳。在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.repo&lt;/code&gt; 文件中使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;metalink=&lt;/code&gt; URL 可以进一步提高镜像性能。不过，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;baseurl=&lt;/code&gt; 仍然是生产系统的首选设置，因为它具有可信密钥行为。&lt;/p&gt;
+
+&lt;p&gt;要使用新功能，需要满足以下要求：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libzypp&lt;/code&gt; 17.36.4 或更新版本&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt; 1.14.87 或更新版本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这些功能在 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 和 &lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;Slowroll&lt;/a&gt; 中均可用。用户可以使用 &lt;a href=&quot;https://distrobox.it/&quot;&gt;Distrobox&lt;/a&gt; 在 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap&lt;/a&gt; 或不可变桌面版本 &lt;a href=&quot;https://aeondesktop.org/&quot;&gt;Aeon&lt;/a&gt; 和 &lt;a href=&quot;https://kalpadesktop.org/&quot;&gt;Kalpa&lt;/a&gt; 上测试这些新增强功能。&lt;/p&gt;
+
+&lt;p&gt;最新版本的 openSUSE-repos 已将 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mediahandler=curl2&lt;/code&gt; 作为&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-tumbleweed-repoindex.xml&quot;&gt;存储库 URL&lt;/a&gt; 的一部，并通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/profile.d/opensuse_repos.sh&lt;/code&gt; 预设了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ZYPP_PCK_PRELOAD=1&lt;/code&gt; 变量，用户将受益于此次变更。&lt;/p&gt;
+
+&lt;p&gt;Leap 15 和 16 用户目前可以从开发存储库中获取具有这些增强功能的 zypper 更新。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://download.opensuse.org/repositories/zypp:/Head/&quot;&gt;https://download.opensuse.org/repositories/zypp:/Head/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;并行下载应允许慢速或高延迟连接上的系统更好地利用可用带宽。使用新后端，元数据刷新变得更加高效。这些改进还减少了 CI/CD 管道和自动化环境中的设置时间。&lt;/p&gt;
+
+&lt;p&gt;以下是 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LOCZIG43MFJSTUIQ3VH2CRSYRCBNR4O7/&quot;&gt;factory 邮件列表上的电子邮件&lt;/a&gt;中列出的一些基准测试结果：&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Scenario                                           Time
+--------------------------------------------  --------
+Download 100MB / ~250 packages
+Default (MultiCurl)                               68.7 sec
+New Backend (ZYPP_CURL2=1)                        29.6 sec
+Parallel Downloads (ZYPP_PCK_PRELOAD=1)           13.1 sec
+
+Download 1.02GB / 407 packages into empty rootfs
+Default (MultiCurl)                               281.1 sec
+New Backend (ZYPP_CURL2=1)                        208.5 sec
+Parallel Downloads (ZYPP_PCK_PRELOAD=1)           119.6 sec
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这些结果显示，在实际场景中取得了显著的改善，在某些情况下，总执行时间减少了 50％ 以上。&lt;/p&gt;
+
+&lt;p&gt;尽管仍处于实验阶段，但这些选项现在可供希望启用和测试它们的用户使用。&lt;/p&gt;
+
+&lt;p&gt;想要提供反馈的用户可以回复&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/thread/LOCZIG43MFJSTUIQ3VH2CRSYRCBNR4O7/&quot;&gt;邮件列表主题&lt;/a&gt;或提交针对 libzypp bugzilla 组件的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;错误报告&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;反馈越多，该功能就能越快正式发布。&lt;/p&gt;
+
+&lt;h2 id=&quot;视频教程&quot;&gt;视频教程&lt;/h2&gt;
+
+&lt;p&gt;请参阅 &lt;a href=&quot;https://www.youtube.com/watch?v=o9vRsL_njSU&quot;&gt;openSUSE YouTube 频道&lt;/a&gt;上的教程，了解其用法。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/03/27/zypper-adds-experimental-parallel-downloads/&quot;&gt;Zypper Adds Experimental Parallel Downloads&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/03/24/opensuse.asia.html</guid>
       <title>邀请参加 2025 年 openSUSE.Asia 峰会 - 法里达巴德，印度</title>
       <pubDate>Mon, 24 Mar 2025 23:00:00 +0000</pubDate>
@@ -972,49 +1060,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/20/board-elections-update/&quot;&gt;openSUSE Board Elections Update&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/14/openvino.html</guid>
-      <title>具有生成式 AI 的 OpenVINO</title>
-      <pubDate>Tue, 14 Jan 2025 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/01/14/openvino.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Innovator 计划和 Intel Innovator 计划在确保 openSUSE Linux 发行版社区的 openVINO 存储库保持最新状态方面发挥着至关重要的作用，我将不断努力为该社区提供帮助。 OpenVINO（开放式可视化推理和神经网络优化）是人工智能生态系统中最重要的工具之一，特别是对于需要优化深度学习模型推理性能的应用程序。在 Tumbleweed 发布的 2024.6.0 版本在兼容性、优化和复杂模型支持方面带来了显着进步，包括生成式 AI 中使用的模型，例如大型语言模型（LLM）。 OpenVINO 在 openSUSE Linux 上的重要性 无缝硬件和软件集成：OpenVINO 为 Intel CPU 和 GPU 提供本机加速，同时保持支持其他平台的灵活性。当与 openSUSE Linux 的优化内核和高级库兼容性配合使用时，OpenVINO 可以充分发挥其潜力。 开源中的生成式 AI：在生成式 AI 时代，OpenVINO 等工具使尖端技术的获取变得大众化，并允许各个级别的开发人员直接在 openSUSE 上创建高级解决方案，而无需昂贵的专有硬件。 性能和效率：OpenVINO 显着减少了推理时间和资源使用量，这对于实时处理大量数据的基于 LLM 的应用程序来说是一项关键功能。 开发人员简单性：OpenVINO 的最大优势之一是其可访问性。它甚至使初学者开发人员能够使用最少的代码构建强大的应用程序，同时仍然为高级项目提供灵活性和定制性。 用 3 行代码构建...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE Innovator 计划&lt;/a&gt;和 &lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/community/experts-de-oliveira-faria.html&quot;&gt;Intel Innovator 计划&lt;/a&gt;在确保 openSUSE Linux 发行版社区的 &lt;a href=&quot;https://en.wikipedia.org/wiki/OpenVINO&quot;&gt;openVINO&lt;/a&gt; 存储库保持最新状态方面发挥着至关重要的作用，我将不断努力为该社区提供帮助。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/OpenVINO&quot;&gt;OpenVINO&lt;/a&gt;（开放式可视化推理和神经网络优化）是人工智能生态系统中最重要的工具之一，特别是对于需要优化深度学习模型推理性能的应用程序。&lt;a href=&quot;https://software.opensuse.org/package/openvino&quot;&gt;在 Tumbleweed 发布的 2024.6.0 版本&lt;/a&gt;在兼容性、优化和复杂模型支持方面带来了显着进步，包括生成式 AI 中使用的模型，例如大型语言模型（LLM）。&lt;/p&gt;
-
-&lt;h2 id=&quot;openvino-在-opensuse-linux-上的重要性&quot;&gt;OpenVINO 在 openSUSE Linux 上的重要性&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;无缝硬件和软件集成&lt;/strong&gt;：OpenVINO 为 Intel CPU 和 GPU 提供本机加速，同时保持支持其他平台的灵活性。当与 openSUSE Linux 的优化内核和高级库兼容性配合使用时，OpenVINO 可以充分发挥其潜力。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开源中的生成式 AI&lt;/strong&gt;：在生成式 AI 时代，OpenVINO 等工具使尖端技术的获取变得大众化，并允许各个级别的开发人员直接在 openSUSE 上创建高级解决方案，而无需昂贵的专有硬件。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;性能和效率&lt;/strong&gt;：OpenVINO 显着减少了推理时间和资源使用量，这对于实时处理大量数据的基于 LLM 的应用程序来说是一项关键功能。&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;开发人员简单性&lt;/strong&gt;：OpenVINO 的最大优势之一是其可访问性。它甚至使初学者开发人员能够使用最少的代码构建强大的应用程序，同时仍然为高级项目提供灵活性和定制性。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;用-3-行代码构建-llm-应用&quot;&gt;用 3 行代码构建 LLM 应用&lt;/h2&gt;
-
-&lt;p&gt;借助 OpenVINO，使用生成语言模型创建应用程序非常简单：&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import openvino_genai as ov_genai
-pipe &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; ov_genai.LLMPipeline&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;TinyLlama-1.1B-Chat-v1.0/&quot;&lt;/span&gt;, &lt;span class=&quot;s2&quot;&gt;&quot;CPU&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-print&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;pipe.generate&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Openvino é&quot;&lt;/span&gt;, &lt;span class=&quot;nv&quot;&gt;max_new_tokens&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;100, &lt;span class=&quot;nv&quot;&gt;do_sample&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;False&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;这种简单性凸显了 OpenVINO 如何将生成式 AI 技术无缝集成到 openSUSE Linux 中，将优化与易用性结合起来。&lt;/p&gt;
-
-&lt;h2 id=&quot;结论&quot;&gt;结论&lt;/h2&gt;
-
-&lt;p&gt;OpenVINO 在 openSUSE Linux 上的出现强化了开源在引领 AI 时代技术进步方面的作用。它使企业、独立开发人员和爱好者能够构建高效、可扩展且有影响力的应用程序。借助 OpenVINO 等工具，openSUSE 将自己定位为生成式 AI 创新的强大平台。&lt;/p&gt;
-
-&lt;p&gt;有关工作进展的反馈和建议可以发送至 &lt;a href=&quot;mailto:cabelo@opensuse.org&quot;&gt;Alessandro de Oliveira Faria (AKA CABELO) cabelo@pensuse.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/01/14/openvino-w-generative-ai/&quot;&gt;OpenVINO with Generative AI&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
 </content:encoded>
     </item>
 
