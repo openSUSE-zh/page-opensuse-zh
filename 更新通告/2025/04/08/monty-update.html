@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    openSUSE Tumbleweed 每月更新 - 2025 年 3 月 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="随着 2025 年的到来，Tumbleweed 将继续展示维护良好的滚动发布版本的优势。三月份在整个软件栈中发布了几个快照和几个有影响的变更。 GNOME 48 在本月首次亮相，提供了现代化的用户界面、性能改进以及数字健康工具和 HDR 支持等新功能。在 KDE 方面，Plasma 6.3.3 完善了分数缩放、显...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 3 月">
+  <meta property="og:description"
+    content="随着 2025 年的到来，Tumbleweed 将继续展示维护良好的滚动发布版本的优势。三月份在整个软件栈中发布了几个快照和几个有影响的变更。 GNOME 48 在本月首次亮相，提供了现代化的用户界面、性能改进以及数字健康工具和 HDR 支持等新功能。在 KDE 方面，Plasma 6.3.3 完善了分数缩放、显...">
+  <meta property=" og:url" content="/_posts/2025-04-08-monty-update.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Poplar at twilight">
+  <meta property="og:article:published_time" content="2025-04-08T00:00:00+00:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2025-04/gnome.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 3 月">
+  
+  <meta name="twitter:description"
+    content="随着 2025 年的到来，Tumbleweed 将继续展示维护良好的滚动发布版本的优势。三月份在整个软件栈中发布了几个快照和几个有影响的变更。 GNOME 48 在本月首次亮相，提供了现代化的用户界面、性能改进以及数字健康工具和 HDR 支持等新功能。在 KDE 方面，Plasma 6.3.3 完善了分数缩放、显...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2025-04/gnome.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025">
+			2025
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/04">
+			
+			四月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/04/08">
+			08
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		openSUSE Tumbleweed 每月更新 - 2025 年 3 月
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">openSUSE Tumbleweed 每月更新 - 2025 年 3 月</h1>
+		<p class="text-center text-muted">
+			2025-04-08
+			|
+			Poplar at twilight
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2025-04/gnome.png"
+			alt="openSUSE Tumbleweed 每月更新 - 2025 年 3 月">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>随着 2025 年的到来，<a href="https://get.opensuse.org/tumbleweed/">Tumbleweed</a> 将继续展示维护良好的滚动发布版本的优势。三月份在整个软件栈中发布了几个快照和几个有影响的变更。</p>
+
+<p><a href="https://www.gnome.org/">GNOME</a> 48 在本月首次亮相，提供了现代化的用户界面、性能改进以及数字健康工具和 HDR 支持等新功能。在 <a href="https://kde.org/">KDE</a> 方面，Plasma 6.3.3 完善了分数缩放、显示处理和可用性。<a href="https://www.mesa3d.org/">Mesa</a> 25.0.1 <strong>为英特尔 Arc GPU 引入了光线跟踪支持</strong>。<a href="https://www.gnu.org/software/emacs/">Emacs</a> 30.1 增强了 org 协议处理、安全性和自动补全功能。其他更新的软件包包括 <a href="https://pipewire.org/">PipeWire</a> 1.4.1、<a href="https://libvirt.org/">libvirt</a> 11.1.0、<a href="https://gstreamer.freedesktop.org/">GStreamer</a> 1.26.0、<a href="https://www.php.net/">PHP</a> 8.3.19 等。Tumbleweed 现在已经<a href="https://news.opensuse.org/2025/03/27/zypper-adds-experimental-parallel-downloads/">添加了对并行下载软件包的实验性支持</a>，以及在 <a href="https://github.com/openSUSE/zypper">zypper</a> 1.14.87 和 <a href="https://github.com/openSUSE/libzypp">libzypp</a> 17.36.4 中引入的新媒体后端；这为软件包管理提供了重大的速度提升，因为它将软件包获取时间缩短了一半以上。</p>
+
+<p>通过这些更新，滚动发行版用户可以享受到经过严格测试并不断集成上游创新技术的最新 Linux 体验。</p>
+
+<p>与往常一样，如果出现任何问题，请记住使用 <a href="https://zh.opensuse.org/openSUSE:Snapper_Tutorial">snapper</a> 进行回滚。</p>
+
+<p>祝您在风滚草上玩得愉快！🦎</p>
+
+<p>有关当月更改日志的更多详细信息，请访问 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a>。</p>
+
+<h2 id="新功能和增强功能">新功能和增强功能</h2>
+
+<ul>
+  <li><a href="https://www.gnome.org/">GNOME</a> 48：
+    <ul>
+      <li>该版本带来了通知堆叠功能以减少杂乱，并带来了重大的性能提升，包括动态三重缓冲和更快的文件浏览速度。</li>
+      <li>新的图像查看器增加了裁剪和旋转等编辑工具，同时对 RAW 格式的支持扩展了功能。</li>
+      <li>该版本首次推出了新字体——Adwaita Sans 和 Mono，增强了可读性和语言支持。</li>
+      <li>数字健康工具现在可以跟踪屏幕时间、执行使用限制并提供休息提醒。对于支持的硬件，新的 80% 充电上限选项可保护电池寿命。</li>
+      <li>简约的音频播放器 app 加入了核心 app，专注于波形视图的简单播放。</li>
+      <li>HDR 支持在系统级首次亮相，文本编辑器界面更简洁，格式控制更完善。</li>
+      <li>其他功能包括应用程序的全局快捷方式、改进的窗口位置和扩展的键盘快捷键支持。通讯录、设置、日历、地图、Web 和 Orca 的更新改善了整个桌面的可访问性、用户体验和性能。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/harfbuzz/harfbuzz">harfbuzz</a> 11：
+    <ul>
+      <li>这个新的主要版本为 CoreText、DirectWrite 和基于 Rust 的 Skrifa 库引入了新的字体功能集成，可通过新的 <code class="language-plaintext highlighter-rouge">hb_font_set_funcs_using()</code> API 接口访问。</li>
+      <li>其他 API 接口允许直接从 FreeType、CoreText 和 DirectWrite 后端文件或 blob 中加载字体。</li>
+      <li>DirectWrite 整形器现在完全支持字体变化和用户功能，其 API 也不再标记为实验性。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.gnu.org/software/emacs/">emacs</a> 30.1：
+    <ul>
+      <li>这一重要版本引入了多项增强功能，包括改进了 GNU/Linux 上的 org 协议处理、默认进程过滤器的本地代码执行，以及通过一致的鼠标滚轮事件改进了输入处理。</li>
+      <li>emacs 还通过警告弱加密标准来加强网络安全，并确保 HTTP 请求不会暴露用户电子邮件。</li>
+      <li>emacs 新增了对 Tree-Sitter 子模式的支持，并改进了<code class="language-plaintext highlighter-rouge">icomplete-in-buffer</code>，增强了完成行为。</li>
+      <li>由于 <a href="https://webkitgtk.org/">webkit2gtk</a> 的回退问题，emacs 禁用了 GTK xwidgets 构建。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.mesa3d.org/">Mesa</a> 25.0.1 和 25.0.2：
+    <ul>
+      <li>25.0.1 版本启用了对英特尔 Arc GPU 的光线追踪支持（<a href="https://bugzilla.opensuse.org/show_bug.cgi?id=1238732">boo#1238732</a>），并改进了联编配置，改用 <code class="language-plaintext highlighter-rouge">%gcc_version</code> 代替硬编码 <code class="language-plaintext highlighter-rouge">CXX</code>。</li>
+      <li>添加了一个解决方案，明确设置 <code class="language-plaintext highlighter-rouge">CXX=g++-14</code>，以解决编译器在构建过程中检测错误的问题。</li>
+      <li>还修正了在 Tumbleweed 上的编译问题，并确保在 Leap/SLES 15 的编译中使用 GCC 13 (<a href="https://bugzilla.opensuse.org/show_bug.cgi?id=1238713">bsc#1238713</a>)。</li>
+      <li>25.0.2 版本保持对 OpenGL 4.6 和 Vulkan 1.4 API 的支持，但实际报告的版本因驱动程序而异。</li>
+      <li>该更新修复了 VRAM 检测问题、《<a href="https://en.wikipedia.org/wiki/Resident_Evil_2_(2019_video_game)">生化危机 2</a>》中的闪烁问题、<a href="https://www.amd.com/en">AMD</a> 780M 上 <a href="https://en.wikipedia.org/wiki/Doom_(2016_video_game)">DOOM 2016</a> 的 Vulkan 问题、AMD VDPAU 去隔行扫描中的分段故障以及使用 v3dv 的 Raspberry Pi 5 上的崩溃问题。</li>
+    </ul>
+  </li>
+  <li><a href="https://kde.org/plasma-desktop/">KDE Plasma</a> 6.3.3：
+    <ul>
+      <li>KWin 解决了多个问题，包括平铺、堆叠和修改器状态错误，并为具有复杂显示设置的硬件添加了更好的支持。</li>
+      <li>Discover 提高了更新日志的可视性，并为离线更新简化了大小写排序。</li>
+      <li>Breeze 调整了菜单栏样式，并解决了 Qt6 MinGW 编译回归问题。</li>
+      <li>Plasma Desktop 修补了任务管理器工具提示并改进了键盘布局处理，而 Plasma Workspace 则改进了系统托盘标签焦点并解决了日历导航错误。</li>
+      <li>Powerdevil 增强了对戴尔笔记本电脑的充电支持，并就增加能耗的电源设置向用户发出警告。</li>
+      <li>KPipewire、KScreenLocker 和 Spectacle 都得到了有针对性的修复，QQC2 Breeze Style 将其视觉元素与桌面风格同步，以保持一致性。</li>
+    </ul>
+  </li>
+  <li><a href="https://kde.org/announcements/changelogs/gear/24.12.2/">KDE Gear</a> 24.12.3：
+    <ul>
+      <li>Dolphin 解决了使用搜索打开新标签时的崩溃问题，并防止了视图设置丢失。</li>
+      <li>播客应用程序 Kasts 解决了播放和排序问题。</li>
+      <li>Kate 改进了 HUD 行为、会话处理和编辑器字体一致性。</li>
+      <li>Kdenlive 消除了与音频播放和片段转换有关的多种崩溃情况。</li>
+      <li>Okular 改进了数字签名处理并修复了显示错误。</li>
+      <li>Konsole 修补了转义序列行为，避免了无限循环，并改进了会话设置。</li>
+      <li>Konqueror 恢复了用户界面元素的正确翻译提取。</li>
+      <li>Kitinerary 扩展了提取器支持，为 Eventyay、SBB 和 Ghotel 预订提供了新脚本。</li>
+      <li>Tokodon 和 PlasmaTube 改进了用户界面的一致性和媒体播放，尤其是 PeerTube 和 Akkoma。</li>
+      <li>包括 Umbrello、Cantor 和 Calligra 在内的多个应用程序获得了与 CMake 4 的兼容性，确保了更顺畅的构建。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/SELinuxProject">selinux-policy 20250305</a>：
+    <ul>
+      <li>此更新带来了一些修复，如将 <code class="language-plaintext highlighter-rouge">/var/log/php-fpm.log</code> 标为 <code class="language-plaintext highlighter-rouge">httpd_log_t</code>，以及允许 <code class="language-plaintext highlighter-rouge">systemd-networkd</code> 读写 tmpfs 中的 memfd 对象。新增了对 SSH keygen 的支持，以便通过 vsockets 和 Plymouth 调试日志进行连接。</li>
+      <li>Apache2 二进制文件现在已正确标注，<code class="language-plaintext highlighter-rouge">kmscon</code> 模块也已启用。</li>
+      <li>打包方面的改进包括删除脚本中的 bashisms、修复一个损坏的变量引用、改进 rpmlintrc 以及使用 fdupes 减少重复。</li>
+    </ul>
+  </li>
+  <li><a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 257.4：
+    <ul>
+      <li>显著的变更包括更好地处理触发器中的 <code class="language-plaintext highlighter-rouge">posix.fork()</code>（bsc#1238566）。</li>
+      <li>更新 <code class="language-plaintext highlighter-rouge">systemctl edit</code> 以更优雅地处理丢失的单元屏蔽错误，以及改进 MountImages 的真实性设置。</li>
+      <li>Shell 自动补全现在包括 <code class="language-plaintext highlighter-rouge">systemd-creds</code>，并为 verity 和扩展功能添加了额外的测试覆盖范围。</li>
+      <li>Journalctl 现在会识别 <code class="language-plaintext highlighter-rouge">--quiet</code> 与 <code class="language-plaintext highlighter-rouge">--setup-keys</code>，而 <code class="language-plaintext highlighter-rouge">logind</code> 现在会在初始化时启动全系统范围的空闲跟踪。</li>
+      <li>更新还修正了一些手册页面的错别字，并提高了 mkosi 版本与 openSUSE 的兼容性。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.php.net/">php8</a> 8.3.19：
+    <ul>
+      <li>本次更新修复了 BCMath、GD、Phar 和 zlib 中的内存泄漏问题，以及核心引擎、FFI 和 Opcache JIT 编译中的崩溃和意外行为。还解决了关闭序列中的几个 CVE 问题，并增强了 FPM 路径处理功能。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.gimp.org/">gimp</a> 3.0.2：
+    <ul>
+      <li>这是 3.0 版本的首批次要更新之一，解决了与文字工具中的笔刷选择和字体处理有关的崩溃问题，并通过调整标题栏颜色、间距和暗色主题面板分隔提高了用户界面的一致性。</li>
+      <li>对工具和插件的可用性进行了改进，包括重新排序的线条艺术检测选项、新的切换图标，以及元数据编辑器和渐变炫光崩溃的修复。</li>
+      <li>构建系统包括打包清理，现在依赖 GEGL 0.4.58。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/tianocore/tianocore.github.io/wiki/OVMF">ovmf</a> 202502：
+    <ul>
+      <li>本季度的更新为 SRAT 和 MADT 表生成添加了 X64 支持，引入了跨多种架构的动态堆栈 cookie 支持，并集成了 RNG PPI 和 PEI 库。</li>
+      <li>该版本还更新至 <a href="https://www.openssl.org/">OpenSSL</a> 3.4.x，并增强了 CI 工具。</li>
+      <li>该版本还解决了图像重定位溢出、QEMU 随机数生成支持和各种组件中的未初始化变量警告等错误。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="关键软件包更新">关键软件包更新</h2>
+
+<ul>
+  <li><a href="https://www.kernel.org/">Kernel</a> 6.13.6 至 6.13.8：
+    <ul>
+      <li>6.13.8 版在修复相关问题后重新启用了 <a href="https://openvpn.net/">OpenVPN</a> 支持。值得注意的更新涉及内存管理、网络、RDMA、蓝牙、Wi-Fi、DRM 等子系统以及各种特定架构组件的改进和错误修复。</li>
+      <li>6.13.7 内核引入了 <a href="https://openvpn.net/">OVPN</a> 数据通道卸载，包括多用户支持、TCP 传输、通过 netlink 进行密钥和对等管理以及与 ethtool 集成。其他更新涉及内存泄露、ksmbd 中的使用后释放（use-after-free）漏洞、<a href="https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture">ALSA</a> 中戴尔和联想系统的硬件兼容性，以及 RDMA、KVM for LoongArch、Btrfs 和 DRM 子系统的多项改进。</li>
+      <li>6.13.6 版本包括对 RDMA、网络、SCSI、NFS 和蓝牙等子系统的大量修复和增强。主要更新解决了 RDMA/mlx5 中的内存和竞赛条件错误，纠正了 NFS O_DIRECT 写入中的行为，并改进了各种驱动程序的错误处理。它还包括针对 x86 和 arm 的特定架构改进，并在微码 SHA 检查中增加了被遗忘的 AMD 型号。该更新还解决了 <a href="https://bugzilla.opensuse.org/show_bug.cgi?id=1012628">bsc#1012628</a> 中指出的几个错误。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/openSUSE/sdbootutil">sdbootutil</a>：
+    <ul>
+      <li>此更新包含多项修复和增强功能。</li>
+      <li>现在支持 grub2-bls 的启动条目测量，并使 set-default-snapshot 保持一致。</li>
+      <li>它现在能验证 ESP 挂载点，并确保从 snapper 调用时行为正确。</li>
+      <li>其他改进还包括：OpenSSL 输出静音、在 cryptenroll 密钥环中存储密码、更新帮助条目、错字修复和更严格的输入验证。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/git">git</a> 2.49.0：
+    <ul>
+      <li>该版本引入了对任意提交的 shallow clones 的支持，并增加了 <code class="language-plaintext highlighter-rouge">git backfill</code> 来批量获取无 blob 克隆中丢失的 blob。</li>
+      <li><code class="language-plaintext highlighter-rouge">git gc</code> 增加了 <code class="language-plaintext highlighter-rouge">--expire-to</code> 选项，<code class="language-plaintext highlighter-rouge">git repack</code> 现在可以使用替代路径哈希来更好地选择 delta。</li>
+      <li><code class="language-plaintext highlighter-rouge">[help] autocorrect = 1</code> 设置现在能立即运行错字更正。</li>
+      <li><code class="language-plaintext highlighter-rouge">git rev-list --missing=print-info</code> 则能提供更多丢失对象的细节。</li>
+    </ul>
+  </li>
+  <li><a href="https://pipewire.org/">PipeWire</a> 1.4.1：
+    <ul>
+      <li>修复了因 SplitPCM 通道规格不正确而导致的设备消失问题，并在不支持 UMP 的旧内核上恢复了 MIDI 功能。</li>
+      <li>解决了由于重采样器配置错误导致的 <code class="language-plaintext highlighter-rouge">audioconvert</code> 崩溃问题。</li>
+      <li>改进了 UCM 配置问题的错误报告。</li>
+      <li>通过修复来电时崩溃的问题，提高了蓝牙的稳定性。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/linux-nvme/nvme-cli">nvme-cli</a> 2.12：
+    <ul>
+      <li>此用户空间工具引入了新命令，如 <code class="language-plaintext highlighter-rouge">reachability-associations-log</code>、<code class="language-plaintext highlighter-rouge">host-discovery-log</code> 和 <code class="language-plaintext highlighter-rouge">rotational-media-info-log</code> 等，增强了 NVMe 2.1 日志支持和诊断功能。</li>
+      <li>该版本改进了错误处理、完成脚本和 JSON 输出，同时还更新了文档和插件，包括 OCP 2.6 遥测。修复了多个错误和构建问题，并更新了 <a href="https://github.com/linux-nvme/libnvme">libnvme</a> 依赖关系。</li>
+    </ul>
+  </li>
+  <li><a href="https://wiki.gnome.org/Apps/Evolution">Evolution</a> 3.56.0：
+    <ul>
+      <li>这款个人信息管理应用程序对邮件、日历、任务和通讯录进行了大量错误修复和用户界面改进。亮点包括修正了任务中的时区比较、改进了内存处理、改善了图标处理、修复了退出时崩溃的问题，并增强了统一收件箱行为。</li>
+      <li>更新用 <code class="language-plaintext highlighter-rouge">GtkGrid</code> 等现代等效组件替换了传统 GTK 部件，删除了过时的 API（如 <code class="language-plaintext highlighter-rouge">GTimeVal</code>、<code class="language-plaintext highlighter-rouge">GtkAlignment</code>、<code class="language-plaintext highlighter-rouge">GtkArrow</code>），现在需要 <a href="https://gitlab.gnome.org/GNOME/glib">glib</a> 2.70。</li>
+      <li>此外，该版本还进行了多项翻译更新和界面改进。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.gtk.org/">GTK3</a> 3.24.49 和 <a href="https://www.gtk.org/">GTK4</a> 4.18.2：
+    <ul>
+      <li>3.24.49 版本修复了与 IM 上下文和使用 GtkPlug/GtkSocket 拖放有关的崩溃问题。在 <a href="https://wayland.freedesktop.org/">Wayland</a> 上，它改进了光标处理，并解决了由不良交叉事件引起的菜单故障。</li>
+      <li>4.18.2 对弹出窗口、剪贴板泄漏、Wayland 拖动表面和 X11 缩放行为进行了增强和修复。新功能包括 Wayland 光标形状协议支持、Android OpenGL 后端，以及字体渲染、可访问性和检查工具的改进。</li>
+    </ul>
+  </li>
+  <li><a href="https://gstreamer.freedesktop.org/">GStreamer</a> 1.26.0：
+    <ul>
+      <li>主要功能包括支持 H.266/VVC 和 LCEVC 视频编解码器、闭合字幕增强功能和新的 HLS/DASH 汇。</li>
+      <li>它引入了 <a href="https://aws.amazon.com/">AWS</a> 和 Speechmatics 转录元素、新的 Vulkan 和 CUDA 改进以及更丰富的 RTSP、RTP 和 WebRTC 功能。</li>
+      <li>扩大了对 Matroska、MPEG-TS 和 ISO MP4 格式的支持，以及用于实时分析和可视化的工具。</li>
+      <li>值得注意的变化包括基于 QUIC 的新元素、高级 A/V 编码器/解码器支持以及 GTK、Qt 和 Direct3D12 后端升级。</li>
+    </ul>
+  </li>
+  <li><a href="https://libvirt.org/">libvirt</a> 11.1.0：
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">fs</code> 存储后端已去模块化，现已内置。</li>
+      <li>由于上游 API 的生命周期已结束，因此不再支持 [VirtualBox] 6.1 API。</li>
+      <li>新功能包括支持大型机上基于 ccwgroup 的 qeth 设备、云管理程序虚拟机的事件处理、用于 s390 guest 的 virtio-mem 内存设备，以及作为 vhostuser 接口后端的 passt。</li>
+      <li><a href="https://www.qemu.org/">QEMU</a> 驱动程序现在可以保留 I/O 错误信息，以便以后通过 <code class="language-plaintext highlighter-rouge">virDomainGetMessages()</code> 进行检索。</li>
+      <li>错误修复包括改进 ssh-proxy 中的域状态检查、针对 SGX 内存的 AppArmor 配置文件更新，以及在 CPU 型号未知的主机上启动域时的崩溃修复。</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="错误修复和安全更新">错误修复和安全更新</h2>
+
+<p>本月解决了几个关键的安全漏洞。本月的 CVE 包括：</p>
+
+<h3 id="安全更新">安全更新</h3>
+
+<ul>
+  <li><a href="https://software.opensuse.org/package/apache2-mod_php8">apache2-mod_php8</a> 8.3.19:
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2024-11235.html">CVE-2024-11235</a>： 此漏洞标识符已保留以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1219.html">CVE-2025-1219</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1736.html">CVE-2025-1736</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1861.html">CVE-2025-1861</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1734.html">CVE-2025-1734</a>：保留此漏洞标识符以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1217.html">CVE-2025-1217</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+    </ul>
+  </li>
+  <li><a href="https://gitlab.gnome.org/GNOME/libxslt">libxslt</a>：
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-24855.html">CVE-2025-24855</a>： 修正了 libxslt 在嵌套 XPath 評估時的使用已釋放，可能導致當機。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2024-55549.html">CVE-2024-55549</a>：修正了 libxslt 命名空间处理中与结果前缀排除相关的使用后释放问题。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.php.net/">php8</a> 8.3.19:
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2024-11235.html">CVE-2024-11235</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1219.html">CVE-2025-1219</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li></li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1861.html">CVE-2025-1861</a>： 此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1734.html">CVE-2025-1734</a>：此漏洞标识符已被保留，以备将来披露。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1217.html">CVE-2025-1217</a>：</li>
+    </ul>
+  </li>
+  <li><a href="https://webkitgtk.org/">webkit2gtk3</a>:
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-24201.html">CVE-2025-24201</a>： 通过改进检查以防止未经授权的操作，解决了越界写入问题。恶意制作的网页内容可能会突破网页内容沙盒。</li>
+    </ul>
+  </li>
+  <li><a href="https://www.libarchive.org/">libarchive</a>：
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-1632.html">CVE-2025-1632</a>：修正 libarchive 的 <code class="language-plaintext highlighter-rouge">bsdunzip.c</code> 中的取消引用空指针，这可能导致本地崩溃。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-25724.html">CVE-2025-25724</a>：修正了 <code class="language-plaintext highlighter-rouge">list_item_verbose</code> 中未选中的 <code class="language-plaintext highlighter-rouge">strftime</code> 返回值，该返回值可通过伪造的 TAR 文件导致拒绝服务。</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/389ds/389-ds-base">389-ds</a> 3.1.2~git+：
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2487.html">CVE-2025-2487</a>： 修正了 389 目錄伺服器在 MODDN 作業時取消引用 NULL 指針，可能導致阻斷服務。</li>
+    </ul>
+  </li>
+  <li><a href="https://zapping.sourceforge.net/ZVBI/index.html">zvbi</a> 0.2.44:
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2173.html">CVE-2025-2173</a>：修正了 <code class="language-plaintext highlighter-rouge">vbi_strndup_iconv_ucs2</code> 中一个未初始化指针，该指针可导致远程崩溃。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2174.html">CVE-2025-2174</a>： 修正了 <code class="language-plaintext highlighter-rouge">vbi_strndup_iconv_ucs2</code> 中的整数溢出，该溢出可能导致远程利用。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2175.html">CVE-2025-2175</a>： 在 <code class="language-plaintext highlighter-rouge">_vbi_strndup_iconv</code> 修正了一個整數滿溢，惡意程式可被遠端利用。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2176.html">CVE-2025-2176</a>： 在 <code class="language-plaintext highlighter-rouge">vbi_capture_sim_load_caption</code> 修正了一個整數滿溢，這可能導致遠端利用。</li>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-2177.html">CVE-2025-2177</a>：修复了 <code class="language-plaintext highlighter-rouge">vbi_search_new</code> 中的整数溢出问题，该问题可能被远程利用。</li>
+    </ul>
+  </li>
+  <li><a href="https://w1.fi/wpa_supplicant/">wpa_supplicant</a>：
+    <ul>
+      <li><a href="https://www.suse.com/security/cve/CVE-2025-24912.html">CVE-2025-24912</a> ：修复 hostapd 中对精心设计的 RADIUS 数据包的不当处理，这可能会导致身份验证失败。</li>
+    </ul>
+  </li>
+</ul>
+
+<p>建议用户更新到最新版本以减轻这些漏洞的影响。</p>
+
+<h2 id="结论">结论</h2>
+
+<p>Tumbleweed 2025 年 3 月发布的快照突出了滚动发布的特点：快速获得最新技术，并通过严格的自动测试保持稳定。从引入 GNOME 48 的数字福祉工具和 HDR 支持、KDE Plasma 6.3.3 的可用性改进，到通过 Mesa 25 为英特尔 Arc GPU 提供光线追踪支持，本月为用户带来了跨桌面和硬件堆栈的实质性升级。</p>
+
+<p>在 zypper 中增加并行软件包下载和媒体后台增强功能，标志着在性能和用户体验方面向前迈进了一大步。</p>
+
+<h2 id="slowroll-更新">Slowroll 更新</h2>
+
+<p>请注意，这些更新也适用于 <a href="https://en.opensuse.org/openSUSE:Slowroll">Slowroll</a>，并且通常会在 Tumbleweed 快照发布后平均 5 到 10 天内到达。这种按月发布的方式已经持续多个月，确保了用户的稳定性和及时的增强功能。</p>
+
+<h2 id="为-opensuse-tumbleweed-做出贡献">为 openSUSE Tumbleweed 做出贡献</h2>
+
+<p>订阅 openSUSE Factory 邮件列表，随时了解最新快照。对于那些想要贡献或想要参与详细技术讨论的 Tumbleweed 用户，请订阅 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a>。openSUSE 团队鼓励用户通过错误报告、功能建议和讨论继续参与。</p>
+
+<p>您的贡献和反馈使 openSUSE Tumbleweed 每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都非常有价值。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2025/04/01/tw-monthly-update-march/">Tumbleweed Monthly Update - March 2025</a>，作者：Douglas DeMaio</p>
+
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html&amp;title=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%203%20%E6%9C%88"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%203%20%E6%9C%88&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/04/08/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
