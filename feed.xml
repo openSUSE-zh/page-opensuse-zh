@@ -7,6 +7,117 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/02/leap.html</guid>
+      <title>openSUSE Leap 16 进入 Beta 阶段</title>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/02/leap.html</link>
+      <author>Poplar at twilight</author>
+      <description>Leap Micro 6.2 采用 Leap 发布周期 openSUSE 发布团队成员很高兴地宣布 Leap 16 Beta 现已可供测试！ 与其前身 Leap 15.6 一样，Leap 16.0 版本延续了稳定、经典的 Linux 发行版的传统；它基于 SUSE Linux Enterprise 16 及其新的基础 SUSE Linux Framework One（以前称为 ALP）构建。 您可以从 get.opensuse.org 下载在线和离线 Agama 安装程序镜像。Leap 仍然是 openSUSE 项目传统的、功能齐全的 Linux 发行版。 同时，寻求带有定点发布的现代化、不可变系统的人们，可以看看我们的 Leap Micro；它专为容器化和虚拟化工作负载设计。 路线图亮点 Leap Micro 6.2 的时间表和生命周期与 Leap 16.0...</description>
+      <content:encoded>&lt;h2 id=&quot;leap-micro-62-采用-leap-发布周期&quot;&gt;Leap Micro 6.2 采用 Leap 发布周期&lt;/h2&gt;
+
+&lt;p&gt;openSUSE 发布团队成员很高兴地宣布 &lt;a href=&quot;https://get.opensuse.org/testing/&quot;&gt;Leap 16 Beta&lt;/a&gt; 现已可供测试！&lt;/p&gt;
+
+&lt;p&gt;与其前身 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 15.6&lt;/a&gt; 一样，Leap 16.0 版本延续了稳定、经典的 Linux 发行版的传统；它基于 SUSE Linux Enterprise 16 及其新的基础 &lt;a href=&quot;https://www.suse.com/c/suse-linux-enterprise-server-25-years-of-enterprise-linux/&quot;&gt;SUSE Linux Framework One&lt;/a&gt;（以前称为 &lt;a href=&quot;https://news.opensuse.org/tag/alp/&quot;&gt;ALP&lt;/a&gt;）构建。&lt;/p&gt;
+
+&lt;p&gt;您可以从 &lt;a href=&quot;https://get.opensuse.org/leap/16.0&quot;&gt;get.opensuse.org&lt;/a&gt; 下载在线和离线 Agama 安装程序镜像。&lt;a href=&quot;https://en.opensuse.org/Portal:Leap&quot;&gt;Leap&lt;/a&gt; 仍然是 openSUSE 项目传统的、功能齐全的 Linux 发行版。&lt;/p&gt;
+
+&lt;p&gt;同时，寻求带有定点发布的现代化、不可变系统的人们，可以看看我们的 &lt;a href=&quot;https://get.opensuse.org/leapmicro&quot;&gt;Leap Micro&lt;/a&gt;；它专为容器化和虚拟化工作负载设计。&lt;/p&gt;
+
+&lt;h3 id=&quot;路线图亮点&quot;&gt;路线图亮点&lt;/h3&gt;
+
+&lt;p&gt;Leap Micro 6.2 的时间表和生命周期与 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#DRAFT_Schedule_for_Leap_16.0&quot;&gt;Leap 16.0 的路线图&lt;/a&gt; 一致。这使得 Leap Micro 在未来实际上成为 Leap 16.X 的专用镜像。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Leap Micro 6.2 Beta 版本将在几天内发布&lt;/li&gt;
+  &lt;li&gt;Leap 16.0 RC 版本预计在 &lt;strong&gt;2025 年 7 月&lt;/strong&gt; 发布&lt;/li&gt;
+  &lt;li&gt;Leap 16.0 和 Leap Micro 6.2 版本计划于 &lt;strong&gt;2025 年 10 月&lt;/strong&gt; 发布&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;beta-版本有哪些新特性&quot;&gt;Beta 版本有哪些新特性？&lt;/h3&gt;
+
+&lt;p&gt;Leap 16.0 及其新的分支带来了全新的基础和更清晰的系统。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;预计将仅支持 Wayland（目前仍保留一些 Xorg 残余）&lt;/li&gt;
+  &lt;li&gt;已移除对 SysV init 的支持&lt;/li&gt;
+  &lt;li&gt;新的 &lt;a href=&quot;https://agama-project.github.io/blog&quot;&gt;Agama 安装程序&lt;/a&gt; 现在是默认安装程序&lt;/li&gt;
+  &lt;li&gt;传统的 YaST 堆栈已被取代，取而代之的是：
+    &lt;ul&gt;
+      &lt;li&gt;用于系统管理的 &lt;a href=&quot;https://code.opensuse.org/leap/features/issue/190&quot;&gt;Cockpit&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/shundhammer/myrlyn&quot;&gt;Myrlyn&lt;/a&gt; 作为 YaST Software GUI 的替代品
+        &lt;ul&gt;
+          &lt;li&gt;注意：YaST 在 Tumbleweed 中仍然可用，但将不再开发。YaST 已从 Leap 16 中移除，&lt;a href=&quot;https://news.opensuse.org/2025/02/10/myrlyn-now-handles-community-repos/&quot;&gt;Myrlyn&lt;/a&gt; 将承担 YaST Software 的角色。如果有人对 YaST 的维护以进行进一步开发和错误修复感兴趣，源代码可在 &lt;a href=&quot;https://github.com/yast&quot;&gt;github&lt;/a&gt; 上找到。&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Leap 16.0 将不再在不支持 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade#Major_changes&quot;&gt;x86_64-v2&lt;/a&gt; 的机器上运行。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;值得关注的版本&quot;&gt;值得关注的版本&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;内核：6.12 (来自 SLES 16.0)&lt;/li&gt;
+  &lt;li&gt;GNOME：48.0 (目标是 GA 版本 48.1)&lt;/li&gt;
+  &lt;li&gt;KDE Plasma：6.3.4 (目标是最终版本 6.4.0)&lt;/li&gt;
+  &lt;li&gt;AppArmor：&lt;a href=&quot;https://code.opensuse.org/leap/features/issue/182&quot;&gt;4.1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GIMP：3.0&lt;/li&gt;
+  &lt;li&gt;RPM：4.20 即将推出&lt;/li&gt;
+  &lt;li&gt;Cockpit 334.1 (目标是 RC 版本时可用的最新版本)&lt;/li&gt;
+  &lt;li&gt;GNU Health 5.5 在 6 月可用后提供&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;重建的软件源&quot;&gt;重建的软件源&lt;/h3&gt;
+
+&lt;p&gt;Leap 16.0 现在通过 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 使用基于 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Standards_Repository_Index_Service&quot;&gt;RIS&lt;/a&gt; 的软件源管理，这是 Leap Micro 6.0 用户已经熟悉的系统。&lt;/p&gt;
+
+&lt;p&gt;Leap 16.0 发行版软件源现在按架构拆分，这使得元数据更小，刷新更快。 除此之外，&lt;strong&gt;Leap 16.0 Beta 包含对 &lt;a href=&quot;https://news.opensuse.org/2025/03/27/zypper-adds-experimental-parallel-downloads/&quot;&gt;Zypper 中并行软件包下载&lt;/a&gt; 的实验性支持&lt;/strong&gt;，加快了安装和更新速度。我们预计该功能在发布前将变得稳定并默认启用。&lt;/p&gt;
+
+&lt;p&gt;所有这些变化有望带来 Leap 整体上更好的软件管理体验。&lt;/p&gt;
+
+&lt;p&gt;您可以在 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos/blob/main/opensuse-leap16-repoindex.xml&quot;&gt;这里&lt;/a&gt; 找到 Leap 16.0 软件源的完整列表。&lt;/p&gt;
+
+&lt;h3 id=&quot;迁移选项&quot;&gt;迁移选项&lt;/h3&gt;
+
+&lt;p&gt;我们建议全新安装以充分测试新的 Agama 安装程序。 如果您想使用 zypper dup 手动从 Leap 15.6 升级，您需要更新发行版软件源。&lt;strong&gt;我们现在使用按架构拆分的 repodata，并且不再有单独的更新软件源。&lt;/strong&gt; 建议用户&lt;strong&gt;禁用所有第三方软件源&lt;/strong&gt;，因为这些通常是大多数升级问题的根源。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;更多详细信息请访问 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade&quot;&gt;https://en.opensuse.org/SDB:System_upgrade&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper dup --releasever 16.0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;或者，测试我们的实验性迁移工具，该工具利用 openSUSE-repos 并将为您进行软件源更改：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper in opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;您可以在 GitHub 上找到它：&lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;opensuse-migration-tool&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-04/agama.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;selinuxapparmor-和游戏&quot;&gt;SELinux、AppArmor 和游戏&lt;/h3&gt;
+
+&lt;p&gt;Leap 16.0 遵循 SUSE Linux Enterprise，默认使用 &lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux&lt;/a&gt;。与 SLE 不同，openSUSE 还提供 &lt;a href=&quot;https://apparmor.net/&quot;&gt;AppArmor&lt;/a&gt;，这得益于活跃的&lt;a href=&quot;https://contribute.opensuse.org&quot;&gt;社区贡献&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;如果愿意，您可以&lt;a href=&quot;https://en.opensuse.org/SDB:AppArmor#Switching_from_SELinux_to_AppArmor_for_Leap_16.0_and_Tumbleweed&quot;&gt;从 SELinux 切换到 AppArmor&lt;/a&gt;。Steam 用户可能需要遵循此&lt;a href=&quot;https://en.opensuse.org/Portal:SELinux/Common_issues#Steam_Proton,_Bottles,_WINE,_Lutris,_not_working&quot;&gt;解决方法&lt;/a&gt;，直到面向游戏的 SELinux 策略在 16.0 Beta 中落地。&lt;/p&gt;
+
+&lt;h2 id=&quot;新的发行说明系统&quot;&gt;新的发行说明系统&lt;/h2&gt;
+
+&lt;p&gt;我们的文档团队引入了一个使用 &lt;a href=&quot;https://github.com/SUSE/release-notes&quot;&gt;SUSE/release-notes&lt;/a&gt; 的模块化发行说明系统。 这使得更好地共享 SLE 更改成为可能，并应带来更完整和有用的文档。&lt;/p&gt;
+
+&lt;h3 id=&quot;提交-bug-报告&quot;&gt;提交 Bug 报告&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;您的反馈在此阶段至关重要。&lt;/strong&gt; 参与 Alpha 和 Beta 测试的人们有助于在发行版正式发布之前识别和解决问题。无论 Bug 出现在软件包、打印、网络或其他领域，现在报告这些问题都可以确保每个人的体验更顺畅。请在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;bugzilla.opensuse.org&lt;/a&gt; 上报告任何问题。&lt;/p&gt;
+
+&lt;p&gt;感谢您的测试并成为 openSUSE 社区的一员。让我们一起塑造 Leap 16.0！&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/04/30/leap-16-enters-beta/&quot;&gt;openSUSE Leap 16 Enters Beta&lt;/a&gt;，作者：Lubos Kocman (Edited by Douglas DeMaio)&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/04/22/call-for-paper.html</guid>
       <title>openSUSE.Asia 峰会 2025 征集演讲者</title>
       <pubDate>Tue, 22 Apr 2025 23:00:00 +0000</pubDate>
@@ -1150,37 +1261,6 @@ Parallel Downloads (ZYPP_PCK_PRELOAD=1)           119.6 sec
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/13/tw-plans-to-adopt-selinux-as-default/&quot;&gt;Tumbleweed Adopts SELinux as Default&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/13/llm.html</guid>
-      <title>开源许可获得 AI 升级</title>
-      <pubDate>Thu, 13 Feb 2025 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/13/llm.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE 社区的开发人员继续致力于提高法律合规性和软件透明度，在 Hugging Face 上发布了 Cavil 法律文本数据集。 该数据集旨在加强自动法律文本分类，从而减少人工审核工作，提高识别软件项目中法律片段的准确性。 该项目的开发者之一 Sebastian Riedel 说：“将数据集开源比仅仅将我们微调的模型的权重开源更酷，因为每个人都可以使用它，根据他们想要的任何开放权重模型制作自己的版本。” Cavil 法律文本数据集支持 Cavil，这是一个用于自动提取和分类软件包中潜在法律文本的系统。通过利用人工智能，Cavil 在检测许可信息、版权声明和合规相关内容时可将误报率降至最低；这可确保法律专家专注于关键案件，而不是对大量无关数据进行分类。 该数据集拥有 150,000 个标注样本，有助于训练人工智能模型，以高精度区分法律和非法律文本。它通过改进文本分类、模式匹配和减少对人工干预的依赖，实现了法律审查工作流程。 Cavil 由三个关键部分组成：带有 REST API 的用户友好型网络应用程序、用于处理模式匹配和分析等后台任务的作业队列，以及不断提高法律文本识别能力的人工智能文本分类服务器。所有这些组件都通过 PostgreSQL 和 HTTP 进行无缝交互；这使得人类专家和律师能够高效地大规模验证软件许可证。 目前，Cavil 在生产中采用了字符级卷积神经网络（CNN）模型，这是因为它效率高，而且与现有基础设施兼容。 不过，我们正在探索使用微调 LLM 的替代方法。 LLM-lawyer 实验表明，大型语言模型可以提供适应性更强、更能感知上下文的分类，而不需要频繁地重新训练。 该数据集采用 GPL-2.0 或更高版本授权，可在 Hugging Face 上免费获取，供研究人员、开发人员和合规团队探索和贡献。 开源贡献者可以完善人工智能分类模型，提出新的法律文本模式，并支持软件项目中自动法律合规性的持续改进。 感兴趣的人可以访问 Hugging Face 上的数据集，阅读 Cavil 文档，通过 Llama-Lawyer 存储库试用...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 社区的开发人员继续致力于提高法律合规性和软件透明度，在 &lt;a href=&quot;https://huggingface.co/datasets/openSUSE/cavil-legal-text&quot;&gt;Hugging Face&lt;/a&gt; 上发布了 &lt;a href=&quot;https://huggingface.co/datasets/openSUSE/cavil-legal-text&quot;&gt;Cavil 法律文本数据集&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;该数据集旨在加强自动法律文本分类，从而减少人工审核工作，提高识别软件项目中法律片段的准确性。&lt;/p&gt;
-
-&lt;p&gt;该项目的开发者之一 Sebastian Riedel 说：“将数据集开源比仅仅将我们微调的模型的权重开源更酷，因为每个人都可以使用它，根据他们想要的任何开放权重模型制作自己的版本。”&lt;/p&gt;
-
-&lt;p&gt;Cavil 法律文本数据集支持 &lt;a href=&quot;https://github.com/openSUSE/cavil/&quot;&gt;Cavil&lt;/a&gt;，这是一个用于自动提取和分类软件包中潜在法律文本的系统。通过利用人工智能，Cavil 在检测许可信息、版权声明和合规相关内容时可将误报率降至最低；这可确保法律专家专注于关键案件，而不是对大量无关数据进行分类。&lt;/p&gt;
-
-&lt;p&gt;该数据集拥有 150,000 个标注样本，有助于训练人工智能模型，以高精度区分法律和非法律文本。它通过改进文本分类、模式匹配和减少对人工干预的依赖，实现了法律审查工作流程。&lt;/p&gt;
-
-&lt;p&gt;Cavil 由三个关键部分组成：带有 REST API 的用户友好型网络应用程序、用于处理模式匹配和分析等后台任务的作业队列，以及不断提高法律文本识别能力的人工智能文本分类服务器。所有这些组件都通过 PostgreSQL 和 HTTP 进行无缝交互；这使得人类专家和律师能够高效地大规模验证软件许可证。&lt;/p&gt;
-
-&lt;p&gt;目前，Cavil 在生产中采用了字符级卷积神经网络（CNN）模型，这是因为它效率高，而且与现有基础设施兼容。 不过，我们正在探索使用微调 LLM 的替代方法。 &lt;a href=&quot;https://github.com/kraih/llm-lawyer&quot;&gt;LLM-lawyer 实验&lt;/a&gt;表明，大型语言模型可以提供适应性更强、更能感知上下文的分类，而不需要频繁地重新训练。&lt;/p&gt;
-
-&lt;p&gt;该数据集采用 GPL-2.0 或更高版本授权，可在 Hugging Face 上免费获取，供研究人员、开发人员和合规团队探索和贡献。 开源贡献者可以完善人工智能分类模型，提出新的法律文本模式，并支持软件项目中自动法律合规性的持续改进。&lt;/p&gt;
-
-&lt;p&gt;感兴趣的人可以访问 &lt;a href=&quot;https://huggingface.co/datasets/openSUSE/cavil-legal-text&quot;&gt;Hugging Face&lt;/a&gt; 上的数据集，阅读 Cavil 文档，通过 &lt;a href=&quot;https://github.com/kraih/llama-lawyer&quot;&gt;Llama-Lawyer 存储库&lt;/a&gt;试用 Llama-3，并通过 GitHub 为 &lt;a href=&quot;https://github.com/openSUSE/cavil/&quot;&gt;openSUSE 的合规工作&lt;/a&gt;做出贡献。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/12/os-licensing-gets-ai-upgrade/&quot;&gt;Open-Source Licensing Gets AI Upgrade&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
