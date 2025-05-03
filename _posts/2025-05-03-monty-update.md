@@ -24,6 +24,7 @@ tags:
 有关本月更改日志的更多详细信息，请访问 [openSUSE Factory 邮件列表](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/)。
 
 ### 新功能和增强功能
+
 **[OpenSSH](https://www.openssh.com/) 10.0p2**：此主要版本为所有 openSUSE Tumbleweed 用户带来了重要的安全、稳定性和性能更新。它删除了对过时的 DSA 算法的支持，默认情况下使 SSH 连接更加安全，并引入了使用 mlkem768x25519-sha256 的更快、抗量子攻击的密钥交换。对于桌面和服务器用户，得益于有利于 AES-GCM 的密码改进，SSH 会话现在更快、更高效。开发者将受益于新的灵活配置选项，例如会话类型匹配和环境变量扩展。此次更新还通过修复转发设置问题和重构 SSH 守护进程以减少登录后的攻击面来增强安全性。日常远程访问、文件传输和自动化工作流程将更加安全、稍微更快，并为未来的加密标准做好准备。
 
 **[GDB](https://www.sourceware.org/gdb/) 16.3**：新主要版本更新改进了 openSUSE Tumbleweed 上开发者的调试精度、性能和集成。更智能的线程特定断点减少了调试大型多线程应用程序时的开销。对带标记指针的监视点（例如英特尔的 LAM (线性掩码)）的支持意味着可以更好地处理现代 CPU 特性。使用英特尔处理器跟踪的新跟踪选项使得在指令级别分析程序更加容易。ARM 用户受益于改进的内存标记扩展 (MTE) 调试支持。此版本还扩展了 Python 脚本 API 并改进了调试适配器协议 (DAP) 集成，帮助 GDB 更无缝地融入现代开发工具和工作流程。总体而言，对于任何使用复杂应用程序或最新硬件的人来说，这是一个可靠的更新。
@@ -175,8 +176,10 @@ tags:
 建议用户更新到最新版本以减轻这些漏洞。
 
 ### 结论
+
 2025 年 4 月继续表明 Tumbleweed 为现代 Linux 发行版树立了标杆。本月，OpenSSH 10 带来了重大的安全进步，通过新的内核固件和 Mesa 更新深化了硬件兼容性。它还带来了更智能的开发者工具，如 GDB 16.3 和 KDE Gear 25.04。四月的快照提供了更快、抗量子攻击的 SSH 会话，提高了蓝牙音频可靠性，并提升了游戏性能，使 Tumbleweed 在桌面、服务器和基于 ARM 的系统上更加强大。
-### Slowroll 更新抵达
+
+### Slowroll 更新
 
 请注意，这些更新也适用于 [Slowroll](https://en.opensuse.org/openSUSE:Slowroll)，并在 Tumbleweed 快照发布后平均 5 到 10 天抵达。这种每月更新的方法已经持续了许多个月，确保了用户的稳定性和及时的增强功能。Slowroll 的更新软件包定期在 [openSUSE Factory 邮件列表](https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/) 的电子邮件中发布。
 
