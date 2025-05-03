@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    openSUSE Tumbleweed 每月更新 - 2025 年 4 月 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="滚动发行版 Tumbleweed 在四月持续增强，通过交付多个快照为游戏玩家、开发者和其他用户带来了更多实用功能。 本月的重点亮点包括，Tumbleweed 用户受益于 OpenSSH 10.0p2 带来的主要安全提升，其特点是更快、抗量子攻击的密钥交换和改进的会话性能。开发者将注意到 GDB 16.3 更智能的...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 4 月">
+  <meta property="og:description"
+    content="滚动发行版 Tumbleweed 在四月持续增强，通过交付多个快照为游戏玩家、开发者和其他用户带来了更多实用功能。 本月的重点亮点包括，Tumbleweed 用户受益于 OpenSSH 10.0p2 带来的主要安全提升，其特点是更快、抗量子攻击的密钥交换和改进的会话性能。开发者将注意到 GDB 16.3 更智能的...">
+  <meta property=" og:url" content="/_posts/2025-05-03-monty-update.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Poplar at twilight">
+  <meta property="og:article:published_time" content="2025-05-03T00:00:00+00:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2025-05/tw.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 4 月">
+  
+  <meta name="twitter:description"
+    content="滚动发行版 Tumbleweed 在四月持续增强，通过交付多个快照为游戏玩家、开发者和其他用户带来了更多实用功能。 本月的重点亮点包括，Tumbleweed 用户受益于 OpenSSH 10.0p2 带来的主要安全提升，其特点是更快、抗量子攻击的密钥交换和改进的会话性能。开发者将注意到 GDB 16.3 更智能的...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2025-05/tw.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025">
+			2025
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/05">
+			
+			五月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/05/03">
+			03
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		openSUSE Tumbleweed 每月更新 - 2025 年 4 月
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">openSUSE Tumbleweed 每月更新 - 2025 年 4 月</h1>
+		<p class="text-center text-muted">
+			2025-05-03
+			|
+			Poplar at twilight
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2025-05/tw.png"
+			alt="openSUSE Tumbleweed 每月更新 - 2025 年 4 月">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p><a href="https://en.opensuse.org/Portal:Tumbleweed">滚动发行版</a> Tumbleweed 在四月持续增强，通过交付多个快照为游戏玩家、开发者和其他用户带来了更多实用功能。</p>
+
+<p>本月的重点亮点包括，Tumbleweed 用户受益于 <a href="https://www.openssh.com/">OpenSSH 10.0p2</a> 带来的主要安全提升，其特点是更快、抗量子攻击的密钥交换和改进的会话性能。开发者将注意到 <a href="https://www.sourceware.org/gdb/">GDB 16.3</a> 更智能的多线程调试和更好的跟踪工具带来的更流畅的工作流程，而游戏玩家和多媒体用户将看到 <a href="https://docs.mesa3d.org/relnotes/25.0.4">Mesa 25.0.4</a> 和 <a href="https://www.ffmpeg.org/">FFmpeg 7.1.1</a> 中的关键修复带来的增强的 GPU 性能和稳定性。通过 <a href="https://git.kernel.org/pub/scm/bluetooth/sbc.git">SBC 2.1</a> 和新的 <a href="https://www.kernel.org/">kernel-firmware-sound 20250408</a> 更新，音频在更多设备上的可靠性得到了提高。同时，<a href="https://kde.org/announcements/gear/25.04.0/">KDE Gear 25.04.0</a>、<a href="https://www.gtk.org/">GTK4 4.18.3</a> 以及 <a href="https://git.kernel.org/pub/scm/network/iproute2/iproute2.git">iproute2 6.14</a> 和 <a href="https://www.rsyslog.com/">rsyslog 8.2502</a> 等系统软件包的重大更新带来了增强日常桌面、服务器和开发环境的改进。此外，<a href="https://www.mozilla.org/">Mozilla Firefox 137.0</a>、<a href="https://www.php.net/">PHP 8.4.5</a>、<a href="https://openvpn.net/">OpenVPN 2.6.14</a> 和 <a href="https://www.python.org/">Python 3.13.3</a> 也修复了众多安全漏洞。</p>
+
+<p>与往常一样，如果出现任何问题，请务必使用 <a href="https://github.com/openSUSE/snapper">snapper</a> 进行回滚。</p>
+
+<p>祝您在风滚草上玩得愉快！🦎</p>
+
+<p>有关本月更改日志的更多详细信息，请访问 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a>。</p>
+
+<h3 id="新功能和增强功能">新功能和增强功能</h3>
+
+<p><strong><a href="https://www.openssh.com/">OpenSSH</a> 10.0p2</strong>：此主要版本为所有 openSUSE Tumbleweed 用户带来了重要的安全、稳定性和性能更新。它删除了对过时的 DSA 算法的支持，默认情况下使 SSH 连接更加安全，并引入了使用 mlkem768x25519-sha256 的更快、抗量子攻击的密钥交换。对于桌面和服务器用户，得益于有利于 AES-GCM 的密码改进，SSH 会话现在更快、更高效。开发者将受益于新的灵活配置选项，例如会话类型匹配和环境变量扩展。此次更新还通过修复转发设置问题和重构 SSH 守护进程以减少登录后的攻击面来增强安全性。日常远程访问、文件传输和自动化工作流程将更加安全、稍微更快，并为未来的加密标准做好准备。</p>
+
+<p><strong><a href="https://www.sourceware.org/gdb/">GDB</a> 16.3</strong>：新主要版本更新改进了 openSUSE Tumbleweed 上开发者的调试精度、性能和集成。更智能的线程特定断点减少了调试大型多线程应用程序时的开销。对带标记指针的监视点（例如英特尔的 LAM (线性掩码)）的支持意味着可以更好地处理现代 CPU 特性。使用英特尔处理器跟踪的新跟踪选项使得在指令级别分析程序更加容易。ARM 用户受益于改进的内存标记扩展 (MTE) 调试支持。此版本还扩展了 Python 脚本 API 并改进了调试适配器协议 (DAP) 集成，帮助 GDB 更无缝地融入现代开发工具和工作流程。总体而言，对于任何使用复杂应用程序或最新硬件的人来说，这是一个可靠的更新。</p>
+
+<p><strong><a href="https://git.kernel.org/pub/scm/bluetooth/sbc.git">SBC </a> 2.1</strong> 另一个主要更新带来了重要的底层音频处理改进。SBC (Subband Codec) 广泛用于蓝牙音频，此更新修复了在非 x86 硬件（例如基于 ARM 的设备）上运行时出现的关键问题，并确保在禁用 SSE CPU 优化时具有更好的稳定性。虽然普通用户不会立即注意到差异，但这使得蓝牙音频在更多系统上更加可靠，尤其适用于较新的笔记本电脑、台式机和 ARM 主板。开发者也受益于更清晰的构建和更好的跨平台支持。</p>
+
+<p><strong>kernel-firmware-sound 20250408</strong>：此更新添加了对两个 <a href="https://www.mediatek.com/">MediaTek</a> 芯片（MT8195 和 MT8188）的新 Sound Open Firmware (SOF) 支持。这意味着在使用这些芯片组的基于 MediaTek 的新设备上，音频硬件兼容性和支持得到了改进。</p>
+
+<p><strong><a href="https://tukaani.org/xz/">xz</a> 5.8.1</strong>：命令行工具和实用程序包带来了性能改进和关键安全修复。多线程 <code class="language-plaintext highlighter-rouge">.xz</code> 解码器现在可以正确处理导致崩溃的无效输入。还修复了一个性能错误，以确保在某些场景下解压缩期间使用所有线程。对于使用 SSE2 的系统（例如使用 musl libc 的 x86），在某些情况下，解压缩速度可显着提高，最高可达 15%。此次更新还提高了 64 位 PowerPC 和 <a href="https://riscv.org/">RISC-V</a> 处理器上的编码器速度，并为 RISC-V、<a href="https://www.arm.com/">ARM64</a> 和 <a href="https://en.wikipedia.org/wiki/X86-64">x86_64</a> 上的 BCJ 过滤器添加了低级 <a href="https://en.wikipedia.org/wiki/API">应用程序编程接口</a> 访问。在 Linux 上，<code class="language-plaintext highlighter-rouge">xz</code> 现在使用 <code class="language-plaintext highlighter-rouge">fsync()</code> 安全地同步输出文件，然后再删除输入文件，如果您想跳过此行为，可以使用新的 <code class="language-plaintext highlighter-rouge">--no-sync</code> 选项。</p>
+
+<p><strong><a href="https://www.rsyslog.com/">rsyslog</a> 8.2502</strong>：此维护版本改进了稳定性、更好的错误处理和对更新平台的支持。此次更新修复了转发模块 (<code class="language-plaintext highlighter-rouge">omfwd</code>) 中的多线程问题，通过更优雅地处理 <a href="https://www.openssl.org/">OpenSSL</a> 和 <a href="https://www.gnutls.org/">gnutls</a> 握手改进了 TLS 支持，并添加了 <code class="language-plaintext highlighter-rouge">socketBacklog</code> 设置以调整 TCP 监听器行为。还包括对 Kafka 日志记录和 SNMP 支持的改进。该软件包现在还支持在最新的 C23 标准下构建，这使得该项目与现代编译器工具链保持同步。</p>
+
+<p><strong><a href="https://tigervnc.org/">tigervnc</a> 1.15.0</strong>：此软件包为查看器和服务器添加了多项可用性改进。您现在可以在原生查看器中使用鼠标后退和前进按钮，并使远程桌面导航更流畅。剪贴板重定向已添加到 <code class="language-plaintext highlighter-rouge">x0vncserver</code> 中， allowing您可以在本地系统和远程桌面之间复制和粘贴。原生查看器现在会在重新连接时记住您的用户名和密码，从而节省了重复会话的时间。当服务器光标隐藏时，原生和 Java 查看器都可以显示标准箭头光标，从而更容易看到指针的位置。最后，<code class="language-plaintext highlighter-rouge">vncpasswd</code> 现在可以使用 <code class="language-plaintext highlighter-rouge">pwquality</code> 检查密码强度，从而增强安全性。</p>
+
+<p><strong><a href="https://www.ffmpeg.org/">ffmpeg</a> 7.1.1</strong>：音频解码现在更加健壮，提供了针对 WAV 文件解析中溢出的保护以及对无效 DVD 视频包的更好处理。时间码计算已得到改进，以避免与 FPS 相关的溢出。MJPEG 解码器现在禁止不支持的渐进式 Bayer 图像，并且分段 MP4 (mov) 文件中的音频包不再被错误地标记为关键帧。<a href="https://github.com/openvinotoolkit/openvino">OpenVINO</a> 支持已禁用，以简化 openSUSE Factory 的依赖关系。</p>
+
+<p><strong><a href="https://github.com/harfbuzz/harfbuzz">harfbuzz</a> 11.0.1 和 11.1.0</strong>：版本 11 的第一个次要版本通过恢复最近对 <code class="language-plaintext highlighter-rouge">trak</code> 跟踪行为的更改来恢复兼容性，现在在整形期间而不是直接应用。它提高了整形性能，改进了字形渲染（例如在字体层进行四舍五入扩展和加粗），并增加了对原始 CFF/CFF2 CharStrings 的实验性访问。此 <a href="https://en.wikipedia.org/wiki/Command-line_interface">CLI</a> 工具现在返回有意义的错误代码，并附带可选的 <a href="https://manpages.opensuse.org/">manpages</a>。11.1.0 版本通过默认包含双向 (bidi) 镜像变体来改进字体子集化，这有助于确保更好地渲染从右到左的脚本。如果需要，新标志允许禁用此功能。该版本还包括常规错误修复、构建改进和测试套件增强功能。</p>
+
+<p><strong><a href="https://www.cups.org/">cups</a> 2.4.12</strong>：此版本现在使用 <a href="https://www.gnutls.org/">GnuTLS</a> 遵守系统范围的加密策略，并添加了一个选项 (<code class="language-plaintext highlighter-rouge">NoSystem</code>) 以选择退出。用户在安全 IPP 打印 (IPPS) 遇到证书问题时会看到更清晰的警报，并且调度程序现在会在后端失败时记录详细的调试历史记录。错误修复解决了安装失败期间潜在的作业丢失、改进的 PPD 选项解析以及更好的 IPP 关键字验证。</p>
+
+<h3 id="关键软件包更新">关键软件包更新</h3>
+
+<p><strong><a href="https://www.kernel.org/">kernel-source</a> 6.14.4 和 6.14.3</strong>：6.14.4 版本是 <a href="https://www.kernel.org/">Linux Kernel</a> 的一个小型维护更新，修复了几个内存泄漏，提高了 Wi-Fi 和蓝牙稳定性，并解决了 SCSI、RAID 和声卡驱动程序的问题。网络可靠性得到了增强，特别是对于 <a href="https://en.wikipedia.org/wiki/IPv6">IPv6</a> 和 <a href="https://www.openvswitch.org/">Open vSwitch</a> 用户。此版本还为英特尔 IGC 网络、块设备处理以及诸如 Rockchip CAN 和 <a href="https://www.amd.com/en">AMD</a> 图形等设备的硬件特定改进带来了一些有针对性的修复。6.14.3 更新为某些 Qualcomm 设备提供了蓝牙可靠性改进，而英特尔和 VirtIO 等图形驱动程序中的修复解决了闪烁和内存泄漏问题。网络在 ethtool 和 TLS 等驱动程序中得到了更强大的处理，这有利于依赖低延迟连接的服务器管理员和游戏设置。开发者和高级用户受益于更好的跟踪工具和内存管理修复，从而减少了调试过程中出现细微错误的几率。</p>
+
+<p><strong><a href="https://freedesktop.org/wiki/Software/systemd/">systemd</a> 257.5</strong>：此维护更新改进了文档和测试行为。它修复了 <code class="language-plaintext highlighter-rouge">pstore.conf</code> 和 <code class="language-plaintext highlighter-rouge">coredump.conf</code> 模板的位置引用，这对于管理系统崩溃或转储的管理员非常重要。它还通过使用副本而不是符号链接来调整默认网络配置的网络测试。</p>
+
+<p><strong>libxmlb 0.3.22</strong>：此版本改进了文件完整性检查和 XML 导出可靠性。此版本添加了保护措施来检测文件截断和格式错误的字符串表，从而防止在使用 <code class="language-plaintext highlighter-rouge">.xmlb</code> 二进制 XML 文件时潜在的崩溃或数据损坏。对于开发者，现在支持使用 <code class="language-plaintext highlighter-rouge">COLLAPSE_EMPTY</code> 功能导出 XML，并且更加健壮，尤其是在处理空元素或筒仓时。这些改进有助于确保使用 libxmlb 的工具（如 GNOME Software）更可靠地处理 XML 元数据。</p>
+
+<p><strong><a href="https://www.gtk.org/">GTK4</a> 4.18.3</strong>：此更新通过修复边距、双击选择和死键处理来改进文本编辑。此次更新解决了启用行号时输入法显示不正确位置的回归问题。它还通过防止文本溢出来改进移动设备上的菜单行为，并确保窗口大小调整始终有效。通过修复与可访问性关系相关的错误，可访问性稳定性得到了改进。列视图和列表框小部件现在可以更可靠地处理测量和选择。GTK Inspector 现在会记住会话之间的一些用户界面状态。在 <a href="https://wayland.freedesktop.org/">Wayland</a> 上运行时，一些内部修复减少了警告并改进了内存管理。该版本还包括文档更新和刷新后的翻译。</p>
+
+<p><strong><a href="https://www.mesa3d.org/">Mesa</a> <a href="https://docs.mesa3d.org/relnotes/25.0.4">25.0.4</a></strong>：此错误修复更新改进了多个 GPU 和游戏的性能和稳定性。<a href="https://www.amd.com">AMD</a> 用户使用 GFX8/Polaris 显卡将在 Elden Ring 等游戏中看到更好的性能，并且已解决了 RDNA3 (gfx1201) 上 <a href="https://en.wikipedia.org/wiki/The_Last_of_Us_Part_I">The Last of Us Part I</a> 中的 GPU 挂起问题。继续支持 Vulkan 1.4，为现代游戏带来更流畅的渲染和兼容性改进。修复还解决了 Satisfactory 中的视觉故障、Intel Battlemage (BMG) 上的渲染错误以及 Vulkan swapchain 处理中的内存泄漏。</p>
+
+<p><strong><a href="https://kde.org/announcements/gear/25.04.0/">KDE Gear 25.04.0</a></strong>：此版本带来了改进的可访问性、从右到左的语言支持、更安全的文件操作、使用 <a href="https://okular.kde.org/">Okular</a> 进行数字签名，以及 KWave 和 <a href="https://kdenlive.org/en/">Kdenlive</a> 等创意工具中更好的性能。它还包括对 Mastodon 客户端 <a href="https://apps.kde.org/tokodon/">Tokodon</a> 等社交媒体应用程序的增强功能，支持预定帖子和内容过滤器，并引入了旅行、生产力和系统工具中的有用新功能。</p>
+
+<p><strong><a href="https://curl.se/">curl</a> 8.13.0</strong>：此版本现在支持使用 OpenSSL/quictls 的 TLS 1.3 早期数据，在 rustls 中添加了带有 DoH 的 ECH 支持，并引入了用于 IMAP 上传的 <code class="language-plaintext highlighter-rouge">--upload-flags</code>。您还可以从文件中加载 URL，并访问新的写入变量，例如 <code class="language-plaintext highlighter-rouge">tls_earlydata</code>。众多错误修复改进了 HTTP/2 处理、OpenSSL 兼容性和 SSH 文件传输。</p>
+
+<p><strong><a href="https://fwupd.org/">fwupd</a> 2.0.8</strong>：此 DBus 接口上的超薄层库通过两个新插件添加了对更新 UEFI 签名数据库和 KEK 的支持，并且现在将更新后的 UEFI db 作为设备 HSI 属性的一部分进行报告。此次更新提高了与 UEFI 系统的兼容性，并修复了与 EFI 路径、非 Supermicro 系统上的 Redfish 检测以及 JSON 模式行为相关的错误。它还确保在支持 UEFI 的架构上更安全的固件更新，并增强对某些设备协议的支持。</p>
+
+<p><strong><a href="https://git.kernel.org/pub/scm/network/iproute2/iproute2.git">iproute2</a> 6.14</strong>：此版本添加了用于高级网络设置的新功能，包括在 <code class="language-plaintext highlighter-rouge">ip route</code> 和 <code class="language-plaintext highlighter-rouge">ip rule</code> 中支持 IPv6 流标签，通过 <code class="language-plaintext highlighter-rouge">ip monitor maddress</code> 监控多播地址，以及通过以十进制格式显示 <a href="https://www.mptcp.dev/">Multipath Transmission Control Protocol</a> 子流序列计数器来提高 <code class="language-plaintext highlighter-rouge">ss</code> 的可读性。</p>
+
+<p><strong><a href="https://github.com/SELinuxProject">selinux-policy</a> 20250410</strong>：此更新提供了一个修复，允许从终端 (TTY) 登录 Podman 容器，解决了某些用户在使用交互式会话时遇到的问题。它还引入了 CI 流水线中 RPM 构建的测试。已包含一个解决方法来解决 <code class="language-plaintext highlighter-rouge">semodule</code> 删除的持续问题，等待更永久的修复 (PED-12491)。</p>
+
+<p><strong><a href="https://www.python.org/">python313</a> 3.13.3</strong>：此更新捆绑了 libexpat 等库以提高安全性，修复了影响子进程处理、套接字和 gzip 文件的多个错误，并在极少数情况下纠正了崩溃和资源泄漏。重要的安全改进包括更安全的电子邮件头处理和更好的临时文件行为。</p>
+
+<h3 id="错误修复和安全更新">错误修复和安全更新</h3>
+
+<p>本月修复了几个关键安全漏洞。本月的 <a href="https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures">常见漏洞和暴露</a> 包括：</p>
+
+<h4 id="安全更新">安全更新</h4>
+
+<p><strong><a href="https://www.mozilla.org">Mozilla Firefox</a> 137.0</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3028.html">CVE-2025-3028</a></strong>：由 XSLTProcessor 触发的 use-after-free。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3029.html">CVE-2025-3029</a></strong>：通过非 BMP Unicode 字符进行 URL 栏欺骗。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3030.html">CVE-2025-3030</a></strong>：内存安全错误（各种组件）。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3031.html">CVE-2025-3031</a></strong>：具有不同堆栈槽大小的 JIT 优化错误。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3032.html">CVE-2025-3032</a></strong>：从 fork 服务器泄漏文件描述符。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3033.html">CVE-2025-3033</a></strong>：打开本地 <code class="language-plaintext highlighter-rouge">.url</code> 文件可能导致打开另一个文件。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3034.html">CVE-2025-3034</a></strong>：更多内存安全错误。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3035.html">CVE-2025-3035</a></strong>：通过 AI 聊天机器人泄露 Tab 标题。</li>
+</ul>
+
+<p><strong><a href="https://www.php.net/">php</a> 8.4.5</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-11235.html">CVE-2024-11235</a></strong>：<code class="language-plaintext highlighter-rouge">php_request_shutdown</code> 中的 use-after-free。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1217.html">CVE-2025-1217</a></strong>：流包装器未能正确处理折叠的头。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1219.html">CVE-2025-1219</a></strong>：重定向期间 <code class="language-plaintext highlighter-rouge">libxml2</code> content-type 行为不当。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1734.html">CVE-2025-1734</a></strong>：HTTP 包装器允许没有冒号的头。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1736.html">CVE-2025-1736</a></strong>：HTTP 包装器可能省略基本身份验证头。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1861.html">CVE-2025-1861</a></strong>：重定向位置被截断为 1024 字节。</li>
+</ul>
+
+<p><strong><a href="https://openvpn.net/">openvpn</a> 2.6.14</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-28882.html">CVE-2024-28882</a></strong>：经过身份验证的客户端可以强制服务器保持会话活动。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-5594.html">CVE-2024-5594</a></strong>：通过带有格式错误数据的控制通道导致 DoS。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2704.html">CVE-2025-2704</a></strong>：<code class="language-plaintext highlighter-rouge">--tls-crypt-v2</code> 误用导致断言失败。</li>
+</ul>
+
+<p><strong><a href="https://www.ffmpeg.org/">ffmpeg</a> 7.1.1</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1816.html">CVE-2025-1816</a></strong>：音频元素参数计数缺少约束。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-22919.html">CVE-2025-22919</a></strong>：修复了 FFmpeg 中可到达的断言，通过精心制作的 AAC 文件可能导致 DoS。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-0518.html">CVE-2025-0518</a></strong>：修复了 FFmpeg 的 <code class="language-plaintext highlighter-rouge">af_pan.c</code> 中未检查的返回值和越界读取，从而防止数据泄露。</li>
+</ul>
+
+<p><strong><a href="https://poppler.freedesktop.org/">poppler</a> 25.04.0</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32364.html">CVE-2025-32364</a></strong>：修复了 Poppler 的 <code class="language-plaintext highlighter-rouge">PSStack::roll</code> 函数中由格式错误输入触发的浮点异常。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32365.html">CVE-2025-32365</a></strong>：由于 <code class="language-plaintext highlighter-rouge">isOk</code> 检查位置不当，修复了 Poppler 的 <code class="language-plaintext highlighter-rouge">JBIG2Bitmap::combine</code> 函数中的越界读取。</li>
+</ul>
+
+<p><strong><a href="https://c-ares.org/">c-ares</a> 1.34.5</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-31498.html">CVE-2025-31498</a></strong>：修复了 c-ares <code class="language-plaintext highlighter-rouge">read_answers()</code> 中由过早连接关闭处理引起的 use-after-free。</li>
+</ul>
+
+<p><strong><a href="https://github.com/mirrorer/giflib">giflib</a></strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2173.html">CVE-2025-2173</a></strong>：<code class="language-plaintext highlighter-rouge">DumpScreen2RGB</code> 函数中的缓冲区溢出。</li>
+</ul>
+
+<p><strong><a href="https://spidermonkey.dev/">mozjs128</a> 128.8.1</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2857.html">CVE-2025-2857</a></strong>：通过 Windows 上的 IPC 句柄管理不当导致的沙箱逃逸。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-43097.html">CVE-2024-43097</a></strong>：由于整数溢出导致 SkRegion 中的越界写入。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1930.html">CVE-2025-1930</a></strong>：AudioIPC 中的 use-after-free 允许在 Windows 上进行沙箱逃逸。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1931.html">CVE-2025-1931</a></strong>：WebTransport 连接处理中的 use-after-free。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1932.html">CVE-2025-1932</a></strong>：由于比较器不一致导致 xslt/txNodeSorter 中的越界访问。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1934.html">CVE-2025-1934</a></strong>：修复了 Firefox 中的 RegExp bailout 缺陷，允许意外的 JavaScript 执行和 GC 触发。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1935.html">CVE-2025-1935</a></strong>：修复了网站可以欺骗用户将它们设置为默认 URL 协议处理程序的问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-1936.html">CVE-2025-1936</a></strong>：jar: URL 处理缺陷可能允许代码隐藏在 Web 扩展中。</li>
+</ul>
+
+<p><strong><a href="https://tukaani.org/xz/">xz</a> 5.8.1</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-31115.html">CVE-2025-31115</a></strong>：多线程 .xz 解码器中的堆 use-after-free 和空指针解引用。</li>
+</ul>
+
+<p><strong><a href="https://pypi.org/project/h11/">python-h11</a> 0.16.0</strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-43859.html">CVE-2025-43859</a></strong>：修复了 <code class="language-plaintext highlighter-rouge">h11</code> 中宽松的行终止符解析，防止潜在的 HTTP 请求走私。</li>
+</ul>
+
+<p><strong><a href="https://augeas.net">augeas</a></strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2588.html">CVE-2025-2588</a></strong>：Augeas <code class="language-plaintext highlighter-rouge">re_case_expand</code> 中的空指针解引用，可能导致崩溃。</li>
+</ul>
+
+<p><strong><a href="https://openjdk.org/projects/jdk/21/">java-21-openjdk</a> 21.0.7.0</strong></p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-21587.html">CVE-2025-21587</a></strong>：修复了 Java SE 中的 JSSE 缺陷，允许通过精心制作的协议输入进行远程数据访问/修改。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-30691.html">CVE-2025-30691</a></strong>：修复了 Java SE 编译器缺陷，允许有限的远程访问应用程序数据。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-30698.html">CVE-2025-30698</a></strong>：修复了 Java SE 2D 中的缺陷，允许远程攻击者访问或修改有限数据或导致部分 DoS。</li>
+</ul>
+
+<p><strong><a href="https://www.libraw.org/">libraw</a> 0.21.4</strong>：</p>
+<ul>
+  <li>
+    <p><strong><a href="https://www.suse.com/security/cve/CVE-2025-43964.html">CVE-2025-43964</a></strong>：修复了 LibRaw 的标记 0x412 处理中对 <code class="language-plaintext highlighter-rouge">w0</code> 和 <code class="language-plaintext highlighter-rouge">w1</code> 缺失的最小检查。</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.suse.com/security/cve/CVE-2025-43962.html">CVE-2025-43962</a></strong>：由于标记 0x412 值处理不当，修复了 LibRaw 的 <code class="language-plaintext highlighter-rouge">phase_one_correct</code> 中的越界读取。</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.suse.com/security/cve/CVE-2025-43961.html">CVE-2025-43961</a></strong>：修复了 LibRaw 的 Fujifilm 标记解析器在 <code class="language-plaintext highlighter-rouge">metadata/tiff.cpp</code> 中的越界读取。</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.suse.com/security/cve/CVE-2025-43963.html">CVE-2025-43963</a></strong>：由于未经检查的图像分割值，修复了 LibRaw 的 <code class="language-plaintext highlighter-rouge">phase_one_correct</code> 中的越界访问。</p>
+  </li>
+</ul>
+
+<p><strong><a href="https://www.python.org/">python311</a></strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-0938.html">CVE-2025-0938</a></strong>：修复了 Python 的 <code class="language-plaintext highlighter-rouge">urllib.parse</code> 中接受无效方括号域名的解析不当问题。</li>
+</ul>
+
+<p><strong><a href="https://gitlab.gnome.org/GNOME/libsoup.git">libsoup2</a></strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2784.html">CVE-2025-2784</a></strong>：修复了潜在的 HTTP/2 请求队列问题，可能导致意外行为或资源耗尽。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32050.html">CVE-2025-32050</a></strong>：解决了 HTTP/2 流重置处理不正确可能导致崩溃的缺陷。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32052.html">CVE-2025-32052</a></strong>：修复了不当的 HTTP trailer 处理，可能导致请求处理错误。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32053.html">CVE-2025-32053</a></strong>：解决了 trailer 字段名错误接受无效字符的问题。</li>
+</ul>
+
+<p><strong><a href="https://gitlab.gnome.org/GNOME/libxml2">libxml2</a></strong>：</p>
+
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32415.html">CVE-2025-32415</a></strong>：修复了 XML Schema 验证期间 <code class="language-plaintext highlighter-rouge">xmlSchemaIDCFillNodeTables</code> 中的堆缓冲区溢出。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32414.html">CVE-2025-32414</a></strong>：限制了 Python 绑定的 XML 读取，以防止解析数据时缓冲区过度读取。</li>
+</ul>
+
+<p>建议用户更新到最新版本以减轻这些漏洞。</p>
+
+<h3 id="结论">结论</h3>
+
+<p>2025 年 4 月继续表明 Tumbleweed 为现代 Linux 发行版树立了标杆。本月，OpenSSH 10 带来了重大的安全进步，通过新的内核固件和 Mesa 更新深化了硬件兼容性。它还带来了更智能的开发者工具，如 GDB 16.3 和 KDE Gear 25.04。四月的快照提供了更快、抗量子攻击的 SSH 会话，提高了蓝牙音频可靠性，并提升了游戏性能，使 Tumbleweed 在桌面、服务器和基于 ARM 的系统上更加强大。</p>
+
+<h3 id="slowroll-更新">Slowroll 更新</h3>
+
+<p>请注意，这些更新也适用于 <a href="https://en.opensuse.org/openSUSE:Slowroll">Slowroll</a>，并在 Tumbleweed 快照发布后平均 5 到 10 天抵达。这种每月更新的方法已经持续了许多个月，确保了用户的稳定性和及时的增强功能。Slowroll 的更新软件包定期在 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a> 的电子邮件中发布。</p>
+
+<h3 id="贡献-opensuse-tumbleweed">贡献 openSUSE Tumbleweed</h3>
+
+<p>订阅 openSUSE Factory 邮件列表以获取最新的快照更新。
+对于那些想要贡献或参与详细技术讨论的 Tumbleweed 用户，请订阅 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表 </a>。openSUSE 团队鼓励用户继续通过错误报告、功能建议和讨论来参与。</p>
+
+<p>您的贡献和反馈使 openSUSE Tumbleweed 的每次更新都变得更好。无论是报告错误、建议功能还是参与社区讨论，您的参与都受到高度重视。</p>
+
+<hr />
+
+<p>原文：<a href="https://news.opensuse.org/2025/05/02/tw-monthly-update-april/">Tumbleweed Monthly Update - April 2025</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html&amp;title=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%204%20%E6%9C%88"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%204%20%E6%9C%88&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
