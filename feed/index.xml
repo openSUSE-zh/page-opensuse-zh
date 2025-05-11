@@ -7,6 +7,22 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/08/retirement-of-translator.html</guid>
+      <title>译者退休</title>
+      <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/08/retirement-of-translator.html</link>
+      <author>Nianqing Yao</author>
+      <description>新闻站原译者 Poplar at twilight 将不再继续更新翻译工作。谨代表社区向他一直以来的辛勤付出和贡献致以诚挚的感谢！
+
+目前，新闻站正在积极招募新的译者。对这一职位感兴趣的朋友，请直接联系新闻站管理员 Nianqing Yao（又称 BearChild）。期待更多热心人士的加入，共同推进 openSUSE 中文社区信息的交流传播。
+</description>
+      <content:encoded>&lt;p&gt;新闻站原译者 &lt;a href=&quot;https://github.com/poplar-at-twilight&quot;&gt;Poplar at twilight&lt;/a&gt; 将不再继续更新翻译工作。谨代表社区向他一直以来的辛勤付出和贡献致以诚挚的感谢！&lt;/p&gt;
+
+&lt;p&gt;目前，新闻站正在积极招募新的译者。对这一职位感兴趣的朋友，请直接联系新闻站管理员 &lt;a href=&quot;https://forum.suse.org.cn/u/bearchild/summary&quot;&gt;Nianqing Yao&lt;/a&gt;（又称 BearChild）。期待更多热心人士的加入，共同推进 openSUSE 中文社区信息的交流传播。&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/05/03/monty-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 2025 年 4 月</title>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
@@ -1387,72 +1403,6 @@ Parallel Downloads (ZYPP_PCK_PRELOAD=1)           119.6 sec
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/27/tw-monthly-update-february/&quot;&gt;Tumbleweed Monthly Update - February 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/19/rbos.html</guid>
-      <title>Reproducible-openSUSE 项目取得重大进展</title>
-      <pubDate>Wed, 19 Feb 2025 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/02/19/rbos.html</link>
-      <author>Poplar at twilight</author>
-      <description>Reproducible-openSUSE (RBOS) 项目是 openSUSE 的一个概念验证分叉，在证明可以用 100% 相同的软件包构建可用的 Linux 发行版后，该项目达到了一个重要的里程碑。 可重复构建确保软件可以在任何时间、任何地点使用相同的工具，以完全相同的方式逐位重建。这意味着，从相同源代码重建软件的人将得到完全相同的结果。 为什么这很重要？因为这是供应链安全的一个重要方面。 在 openSUSE 成员 Bernhard Wiedemann 的领导下，RBOS 实现了这一里程碑，推动了软件供应链安全的发展。 通过可重现的构建，我们可以确认所使用的二进制文件是正确的，从而确保软件在构建过程中未被篡改。通过比较来自不同构建环境的相同输出，开发人员可以发现意外错误或恶意修改等问题。如果没有它，开发人员就不得不盲目地相信构建过程或手动审查二进制差异，这既费力又费时。 在实践中，可重复性构建发现了数十个错误，从竞争条件到使用 -march=native 等标志为不兼容的 CPU 进行编译。由于 Linux 是运行互联网的主要组件，而互联网不仅包括服务器和路由器，还包括客户机，因此提高安全性至关重要。 nlnet 基金会的 NGI0 Entrust 基金的好心人赞助了一些开源项目，以提高互联网的安全性。Wiedemann 接手了这个长达 4 个月的项目，目的是创建一个 openSUSE 的子发行版，拥有 100% 的比特可重现软件包。到目前为止，包含 3,300 个软件包的 ring0（又称 bootstrap）和 ring1 已成功修补并测试完毕。总体而言，openSUSE Factory 的 16,000 个源代码软件包中还有大约 300 个软件包存在问题，读者可在以下链接中找到相关信息：...</description>
-      <content:encoded>&lt;p&gt;Reproducible-openSUSE (RBOS) 项目是 openSUSE 的一个概念验证分叉，在证明可以用 100% 相同的软件包构建可用的 Linux 发行版后，该项目达到了一个重要的里程碑。&lt;/p&gt;
-
-&lt;p&gt;可重复构建确保软件可以在任何时间、任何地点使用相同的工具，以完全相同的方式逐位重建。这意味着，从相同源代码重建软件的人将得到完全相同的结果。&lt;/p&gt;
-
-&lt;p&gt;为什么这很重要？因为这是供应链安全的一个重要方面。&lt;/p&gt;
-
-&lt;p&gt;在 openSUSE 成员 Bernhard Wiedemann 的领导下，RBOS 实现了这一里程碑，推动了软件供应链安全的发展。&lt;/p&gt;
-
-&lt;p&gt;通过可重现的构建，我们可以确认所使用的二进制文件是正确的，从而确保软件在构建过程中未被篡改。通过比较来自不同构建环境的相同输出，开发人员可以发现意外错误或恶意修改等问题。如果没有它，开发人员就不得不盲目地相信构建过程或手动审查二进制差异，这既费力又费时。&lt;/p&gt;
-
-&lt;p&gt;在实践中，可重复性构建发现了数十个错误，从竞争条件到使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-march=native&lt;/code&gt; 等标志为不兼容的 CPU 进行编译。由于 Linux 是运行互联网的主要组件，而互联网不仅包括服务器和路由器，还包括客户机，因此提高安全性至关重要。&lt;/p&gt;
-
-&lt;p&gt;nlnet 基金会的 NGI0 Entrust 基金的好心人赞助了一些开源项目，以提高互联网的安全性。Wiedemann 接手了这个长达 4 个月的项目，目的是创建一个 openSUSE 的子发行版，拥有 100% 的比特可重现软件包。到目前为止，包含 3,300 个软件包的 ring0（又称 bootstrap）和 ring1 已成功修补并测试完毕。总体而言，openSUSE Factory 的 16,000 个源代码软件包中还有大约 300 个软件包存在问题，读者可在以下链接中找到相关信息：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;https://en.opensuse.org/openSUSE:Reproducible_openSUSE&lt;/li&gt;
-  &lt;li&gt;https://en.opensuse.org/openSUSE:Reproducible_openSUSE/Part1&lt;/li&gt;
-  &lt;li&gt;https://en.opensuse.org/openSUSE:Reproducible_openSUSE/Part2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;大约需要 40 块补丁，还有一些在该项目之前已经完成。这些补丁中通常有一半是上游补丁。&lt;/p&gt;
-
-&lt;p&gt;有了它，现在就可以对工具链软件包进行修改，重建所有内容，并查看修改后的具体变化。&lt;/p&gt;
-
-&lt;p&gt;RBOS 不会收到安全更新，因此不建议在生产中使用；不过，它确实展示了如何制作全位可重现操作系统（full-bit-reproducible OS）。&lt;/p&gt;
-
-&lt;p&gt;随着补丁陆续进入 openSUSE Factory，一两年后创建刷新应该会变得更容易。 也许这将变得非常容易，以至于每个月的 &lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;Slowroll&lt;/a&gt; 快照都可以改编成 RBOS 快照。&lt;/p&gt;
-
-&lt;p&gt;正在进行的基于 git 的 OBS 工作流程的工作可以进一步支持这一努力，因为 “git rebase” 等工具可以简化整合和更新补丁的过程并使之自动化。&lt;/p&gt;
-
-&lt;h2 id=&quot;如何测试&quot;&gt;如何测试&lt;/h2&gt;
-
-&lt;p&gt;使用以下方式抓住 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;altimagebuild&lt;/code&gt; VM 镜像&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://download.opensuse.org/repositories/home:/bmwiedemann:/reproducible:/distribution:/ring1/standard/src/altimagebuild-1-1.1.src.rpm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;或者：&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://rb.zq1.de/RBOS/ring1/_build.standard.x86_64/altimagebuild/altimagebuild-1-1.1.x86_64.rpm
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;并按照 https://en.opensuse.org/openSUSE:Reproducible_openSUSE/Part2#How_to_run_a_VM 中的说明运行。&lt;/p&gt;
-
-&lt;h2 id=&quot;可重复的构建在哪些方面没有帮助&quot;&gt;可重复的构建在哪些方面没有帮助？&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;源代码中的错误和后门（如 xz-5.6.0）需要源代码审查&lt;/li&gt;
-  &lt;li&gt;使用多样化的&lt;a href=&quot;https://dwheeler.com/trusting-trust/&quot;&gt;双重编译&lt;/a&gt;（diverse-double-compilation）可以发现所用编译工具中的后门，使用&lt;a href=&quot;https://guix.gnu.org/en/blog/2023/the-full-source-bootstrap-building-from-source-all-the-way-down/&quot;&gt;引导&lt;/a&gt;（bootstrapping）也可以避免这些后门。这两种方法只有在可重复构建的情况下才有帮助。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;RBOS 所达到的里程碑是为提供更加透明、可验证和安全的软件而做出的不懈努力。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/02/18/rbos-project-hits-milestone/&quot;&gt;Reproducible-openSUSE (RBOS) Project Hits Milestone&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
