@@ -7,6 +7,18 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/03/new-translator.html</guid>
+      <title>欢迎新社区新闻译者</title>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/03/new-translator.html</link>
+      <author>Nianqing Yao</author>
+      <description>我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— Fangzhou Liu 。他将继续翻译社区新闻，为大家带来社区的动态和消息。
+</description>
+      <content:encoded>&lt;p&gt;我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— &lt;a href=&quot;https://github.com/noeliufz&quot;&gt;Fangzhou Liu&lt;/a&gt; 。他将继续翻译社区新闻，为大家带来社区的动态和消息。&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/31/lend-a-hand.html</guid>
       <title>来 openSUSE 大会做志愿者</title>
       <pubDate>Sat, 31 May 2025 01:30:00 +0000</pubDate>
@@ -224,10 +236,18 @@
       <description>新闻站原译者 Poplar at twilight 将不再继续更新翻译工作。谨代表社区向他一直以来的辛勤付出和贡献致以诚挚的感谢！
 
 目前，新闻站正在积极招募新的译者。对这一职位感兴趣的朋友，请直接联系新闻站管理员 Nianqing Yao（又称 BearChild）。期待更多热心人士的加入，共同推进 openSUSE 中文社区信息的交流传播。
+
+
+
+更新：目前已经找到新的社区译者，详见新闻。
 </description>
       <content:encoded>&lt;p&gt;新闻站原译者 &lt;a href=&quot;https://github.com/poplar-at-twilight&quot;&gt;Poplar at twilight&lt;/a&gt; 将不再继续更新翻译工作。谨代表社区向他一直以来的辛勤付出和贡献致以诚挚的感谢！&lt;/p&gt;
 
 &lt;p&gt;目前，新闻站正在积极招募新的译者。对这一职位感兴趣的朋友，请直接联系新闻站管理员 &lt;a href=&quot;https://forum.suse.org.cn/u/bearchild/summary&quot;&gt;Nianqing Yao&lt;/a&gt;（又称 BearChild）。期待更多热心人士的加入，共同推进 openSUSE 中文社区信息的交流传播。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;更新：目前已经找到新的社区译者，详见&lt;a href=&quot;/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/03/new-translator.html&quot;&gt;新闻&lt;/a&gt;。&lt;/p&gt;
 </content:encoded>
     </item>
 
@@ -927,55 +947,6 @@
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/04/01/tw-monthly-update-march/&quot;&gt;Tumbleweed Monthly Update - March 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/04/07/oSC25.html</guid>
-      <title>前往 oSC25？有关签证的重要信息</title>
-      <pubDate>Mon, 07 Apr 2025 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/04/07/oSC25.html</link>
-      <author>Poplar at twilight</author>
-      <description>如果您计划参加 2025 年 6 月 26 日至 28 日举行的 openSUSE 大会 ，那么您应该了解重要的签证要求。 如果您不是申根国家的公民，则应了解进入德国的签证要求和豁免情况。有些与会者可能还需要一份正式邀请函，说明访问的性质。联邦外交部网站按字母顺序列出了需要邀请函的国家名单。如果您需要此类邀请函，请尽快发送电子邮件至 ddemaio@opensuse.org。 旅行支持计划不承担签证费用。与会人员需自行承担与签证相关的任何费用。 该会议定于德国纽伦堡举行。 演讲征集仍在进行中。请考虑在 4 月 30 日之前提交会议演讲。人们可以根据以下长度和主题提交演讲： 可以在以下时间长度内提交的演讲稿 闪电演讲（10 分钟） 简短演讲（30 分钟） 线上演讲（30 分钟） 长篇演讲（45 分钟） 研讨会（1小时） 可接受的话题 云和容器 社区 嵌入式系统和边缘计算 新技术 开源 openSUSE Open Source for Business： 超越代码，实现可持续发展（Beyond Code into Sustainability Track） 我们鼓励愿意帮助组织大会的志愿者发送电子邮件至 ddemaio@opensuse.org 或参加每周一次的社区会议。...</description>
-      <content:encoded>&lt;p&gt;如果您计划参加 2025 年 6 月 26 日至 28 日举行的 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 大会&lt;/a&gt; ，那么您应该了解重要的签证要求。&lt;/p&gt;
-
-&lt;p&gt;如果您不是申根国家的公民，则应了解进入德国的签证要求和豁免情况。有些与会者可能还需要一份正式邀请函，说明访问的性质。&lt;a href=&quot;https://www.auswaertiges-amt.de/en/visa-service/&quot;&gt;联邦外交部网站&lt;/a&gt;按字母顺序列出了需要邀请函的国家名单。如果您需要此类邀请函，请尽快发送电子邮件至 &lt;strong&gt;ddemaio@opensuse.org&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;旅行支持计划不承担签证费用。与会人员需自行承担与签证相关的任何费用。&lt;/p&gt;
-
-&lt;p&gt;该会议定于德国纽伦堡举行。&lt;/p&gt;
-
-&lt;p&gt;演讲征集仍在进行中。请考虑在 4 月 30 日之前提交会议演讲。人们可以根据以下长度和主题提交演讲：&lt;/p&gt;
-
-&lt;h2 id=&quot;可以在以下时间长度内提交的演讲稿&quot;&gt;可以在以下时间长度内提交的演讲稿&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;闪电演讲（10 分钟）&lt;/li&gt;
-  &lt;li&gt;简短演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;线上演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长篇演讲（45 分钟）&lt;/li&gt;
-  &lt;li&gt;研讨会（1小时）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;可接受的话题&quot;&gt;可接受的话题&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;云和容器&lt;/li&gt;
-  &lt;li&gt;社区&lt;/li&gt;
-  &lt;li&gt;嵌入式系统和边缘计算&lt;/li&gt;
-  &lt;li&gt;新技术&lt;/li&gt;
-  &lt;li&gt;开源&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-  &lt;li&gt;Open Source for Business： 超越代码，实现可持续发展（Beyond Code into Sustainability Track）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我们鼓励愿意帮助组织大会的志愿者发送电子邮件至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 或参加每周一次的&lt;a href=&quot;https://calendar.opensuse.org/&quot;&gt;社区会议&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;大会需要赞助商来支持社区运营活动，以保持活动免费并向新贡献的成员开放。有意向的公司可在此页面找到&lt;a href=&quot;https://en.opensuse.org/images/9/94/OSC25prospectus.pdf&quot;&gt;赞助信息&lt;/a&gt;或向 &lt;a href=&quot;https://geekos.org/sponsorship/&quot;&gt;Geeko 基金会&lt;/a&gt;捐款，以协助为大会提供资金。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/03/31/osc-visa-info/&quot;&gt;Traveling to oSC25? Important Information About Visas&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
