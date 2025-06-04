@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    openSUSE Tumbleweed 每月更新 - 2025 年 5 月 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="openSUSE 的 滚动发行版 以一次重大更新告别了过去的五月。该快照版本解决了多个 常见漏洞和暴露问题（CVE, Common Vulnerabilities and Exposures），整个五月期间还陆续推出了更多安全补丁。 五月更新带来了多项重要升级：QEMU 10.0 显著提升虚拟化性能，KDE Pl...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 5 月">
+  <meta property="og:description"
+    content="openSUSE 的 滚动发行版 以一次重大更新告别了过去的五月。该快照版本解决了多个 常见漏洞和暴露问题（CVE, Common Vulnerabilities and Exposures），整个五月期间还陆续推出了更多安全补丁。 五月更新带来了多项重要升级：QEMU 10.0 显著提升虚拟化性能，KDE Pl...">
+  <meta property=" og:url" content="/_posts/2025-06-03-may-update.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Fangzhou Liu">
+  <meta property="og:article:published_time" content="2025-06-03T14:30:00+00:00">
+  
+  <meta property="og:article:tag" content="Tumbleweed">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2025-05/tw.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="openSUSE Tumbleweed 每月更新 - 2025 年 5 月">
+  
+  <meta name="twitter:description"
+    content="openSUSE 的 滚动发行版 以一次重大更新告别了过去的五月。该快照版本解决了多个 常见漏洞和暴露问题（CVE, Common Vulnerabilities and Exposures），整个五月期间还陆续推出了更多安全补丁。 五月更新带来了多项重要升级：QEMU 10.0 显著提升虚拟化性能，KDE Pl...">
+  
+  <meta name="twitter:url" content="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2025-05/tw.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025">
+			2025
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/06">
+			
+			六月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/06/03">
+			03
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		openSUSE Tumbleweed 每月更新 - 2025 年 5 月
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">openSUSE Tumbleweed 每月更新 - 2025 年 5 月</h1>
+		<p class="text-center text-muted">
+			2025-06-03
+			|
+			Fangzhou Liu
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2025-05/tw.png"
+			alt="openSUSE Tumbleweed 每月更新 - 2025 年 5 月">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p><a href="">openSUSE</a> 的 <a href="">滚动发行版</a> 以一次重大更新告别了过去的五月。该快照版本解决了多个 <a href="https://zh.wikipedia.org/wiki/公共漏洞和暴露">常见漏洞和暴露问题</a>（CVE, Common Vulnerabilities and Exposures），整个五月期间还陆续推出了更多安全补丁。</p>
+
+<p>五月更新带来了多项重要升级：<a href="https://www.qemu.org">QEMU</a> 10.0 显著提升虚拟化性能，<a href="https://kde.org/announcements/plasma/6/6.3.5/">KDE Plasma 6.3.5</a> 优化了用户界面体验，<a href="https://gstreamer.freedesktop.org">GStreamer</a> 1.26.1 为桌面及嵌入式设备带来更流畅的多媒体播放。安全方面成为焦点，<a href="https://www.openssl.org">OpenSSL</a> 3.5.0 新增后量子加密支持，内核更新修复了推测执行漏洞。无论开发者、系统管理员还是普通用户，五月的快照版本都为 Tumbleweed 用户提供了值得信赖的增强体验。</p>
+
+<p>与过去一样，如遇问题，请务必使用 <a href="https://github.com/openSUSE/snapper">snapper</a> 回滚系统。</p>
+
+<p>欲了解本月完整更新日志，请访问 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a>。</p>
+
+<h2 id="新功能和增强功能">新功能和增强功能</h2>
+
+<p><strong><a href="https://www.qemu.org">QEMU</a> 10.0</strong>：这是 openSUSE Tumbleweed 虚拟化技术的一次重大飞跃，将使桌面用户、开发人员和服务器管理员同样受益。此次更新通过为 virtio-scsi 添加多队列支持，使虚拟机能够通过跨多个线程分配任务来实现更好的 I/O 性能。英特尔 GPU 直通（VFIO）现在获得了更好的支持，帮助用户构建更强大的桌面虚拟机或具备硬件加速能力的开发环境。针对开发者和嵌入式爱好者，此次更新现在支持新的 <a href="https://www.arm.com">ARM</a>、龙芯（LoongArch）、<a href="https://riscv.org">RISC-V</a>、HPPA 架构主板和 CPU 功能。这其中包括支持了 ARM 的 EL2 计时器仿真，以及 <code class="language-plaintext highlighter-rouge">smrnmi</code>、<code class="language-plaintext highlighter-rouge">supm</code> 等新型 RISC-V 扩展指令集。QEMU 机器协议（QMP）文档经过全面重构，显著简化了自动化和脚本编写流程。此版本还修复了 GCC 15 的构建问题，并提高了 openSUSE 软件包的测试可靠性。特别对于运行 32 位主机的用户，务必检查 <a href="">已弃用的功能</a>。</p>
+
+<p><strong><a href="https://kde.org/announcements/plasma/6/6.3.5/">KDE Plasma 6.3.5</a></strong>：Plasma 的 <a href="https://userbase.kde.org/KWin/zh-cn">KWin</a> 窗口管理器修复了崩溃问题、渲染问题、HDR 亮度控制、平板输入可靠性以及屏幕渐暗效果等关键问题。<a href="https://invent.kde.org/plasma/discover">Discover 软件中心</a> 改进了更新信息的显示方式，修复了“仍在查找”指示器错误，使软件包检索体验更加流畅。通知气泡的边距和定位更加合理；天气组件现在对默认单位的支持更加精准一致；便签小程序不再因布局尺寸而显示异常；任务管理器的分组视觉效果更加稳定。此外，<a href="https://apps.kde.org/dolphin/">Dolphin</a> 文件管理器修复了界面元素错位问题，Plasma Vaults 避免了构建错误，应用程序和小程序的色彩方案集成也采用了正确的样式，整体视觉风格更趋统一。</p>
+
+<p><strong><a href="https://gstreamer.freedesktop.org">GStreamer</a> 1.26.1</strong>：本次版本更新提升了媒体播放的稳定性，尤其在流媒体播放、字幕显示和摄像头输入方面。如果您使用 <a href="https://www.gnome.org">GNOME</a> Videos、OBS 或基于 <a href="https://pipewire.org">PipeWire</a> 的系统，此次更新意味着更少的崩溃和更流畅的性能。值得注意的修复包括：改进 H.264/H.265 格式的字幕处理、V4L2 解码的音视频同步、WebRTC 通话的稳定性、更好的 Matroska 和 MP4 格式支持，以及更精确的帧率检测。开发人员方面，Windows 平台的插件加载获得了优化，同时提升了与新版本 Python 和 GObject 的兼容性。此次更新全面提升了桌面端、浏览器和嵌入式设备的多媒体体验。</p>
+
+<p><strong><a href="https://www.gimp.org">GIMP</a> 3.0.4</strong>：本次更新修复了粘贴内容出现多余留白的剪贴板问题，并优化了多显示器断开或切换时的运行流畅度，从而显著加快了拥有大型字体库用户的启动速度。非破坏性滤镜工作流获得改进，撤销追踪功能更好，视觉伪影更少。KDE Wayland 用户将体验到修正后的图标渲染效果，同时通过针对 ZDI-CAN-26752 漏洞的补丁修复了 .ICO 文件支持问题。此外移除了两个已合并至上游的补丁，确保软件包保持精简与最新状态。</p>
+
+<p><strong><a href="https://apps.gnome.org/zh-CN/Music/">GNOME Music</a> 48.0</strong>：本次更新通过弃用特定的旧版兼容解决方案并增强 <a href="https://gitlab.gnome.org/GNOME/glib">GLib</a> 集成，显著提升了现代 <a href="https://www.python.org">Python</a> 环境的兼容性。虽然并非功能密集型更新，但修复了与内省机制相关的后端问题，确保在现行 openSUSE Tumbleweed 系统上实现更流畅的启动和更稳定的运行表现。</p>
+
+<p><strong><a href="https://www.openssl.org">OpenSSL</a> 3.5.0</strong>：本次重大更新全面强化了加密安全性，并为 openSUSE Tumbleweed 用户提供了现代化的 TLS 支持。<code class="language-plaintext highlighter-rouge">req</code>、<code class="language-plaintext highlighter-rouge">cms</code> 和 <code class="language-plaintext highlighter-rouge">smine</code> 等工具现已默认采用更强大的 <code class="language-plaintext highlighter-rouge">aes-256-cbc</code> 加密算法，取代了过时的 3DES 标准。此次更新改进了 TLS 配置，新增了对 <a href="https://zh.wikipedia.org/wiki/后量子密码学">后量子密码学</a>（PQC, post-quantum cryptography）密钥交换方法（如 ML-KEM）的支持，为用户提供了比传统方法更快且面向未来的加密选项。该版本还引入了 QUIC 服务器支持（用于 HTTP/3 协议），这对开发低延迟或流媒体应用的开发者尤为重要。此次更新显著提升了系统整体的加密性能，增强了对现代网络协议的兼容性，并优化了默认加密方案。使用 cURL、Git 等安全工具或任何基于OpenSSL TLS 的应用时，用户不仅能获得更强的安全性，还能在新硬件上享受更低的 CPU 负载。</p>
+
+<p><strong><a href="https://kde.org/announcements/gear/25.04.1/">KDE Gear 25.04.1</a></strong>：本次更新重点优化了系统稳定性和使用体验，显著提升了 <a href="https://apps.kde.org/zh-cn/dolphin/">Dolphin</a>、<a href="https://kdenlive.org/zh-cn/">Kdenlive</a> 和 <a href="https://kdeconnect.kde.org">KDE Connect</a> 等核心应用的工作流顺畅度。Dolphin 文件管理器方面，通过优化主题样式和右键菜单，带来更简洁的文件管理体验。Kdenlive 视频编辑器上，修复了大量崩溃问题，优化界面布局，并调整了自动保存策略使其不再过于频繁触发。KDE Connect 上修复了媒体文件崩溃问题，同时改进了导航操作体验。</p>
+
+<p><strong><a href="https://kde.org/announcements/frameworks/6/6.14.0/">KDE Framworks 6.14.0</a></strong>：本次更新全面优化了 KDE 生态的系统集成度、易用性及应用表现。开发者将受益于以下改进：<a href="https://community.kde.org/Frameworks">KArchive</a> 中更安全的文件处理、<a href="https://api.kde.org/frameworks/kio/html/index.html">KIO</a> 中拖放功能的增强、KColorScheme 对高对比度主题支持的优化以及 KGuiAddons 中更流畅的 Wayland 剪贴板操作。<a href="https://develop.kde.org/frameworks/kirigami//">Kirigami</a> 获得了布局修复和滚动改进，而 <a href="https://github.com/KDE/kwallet">KWallet</a> 引入了对 <a href="https://keepassxc.org">KeePassXC</a> 密码管理器作为后端支持。语法高亮新增了语言定义，包括 ACPI 和 RISC-V 的更新。</p>
+
+<h2 id="关键软件包更新">关键软件包更新</h2>
+<p><strong><a href="https://www.gtk.org">GTK4</a> 4.18.5</strong>：本次更新提升了整体桌面稳定性和响应速度。它解决了多个可能影响文件选择对话框、无障碍工具以及 XCompose 等输入法的崩溃和错误，为使用多语言输入或屏幕阅读器的用户提供了重要修复。针对Cairo模糊渲染的主要性能问题已得到解决，这对使用阴影、过渡效果或透明度的应用很有帮助。本次更新还优化了 <a href="https://gitlab.gnome.org/GNOME/epiphany">Epiphany</a> 等应用程序及基于 <a href="https://gtkmm.gnome.org/en/index.html">gtkmm</a> 构建应用的行为表现，使 GNOME 应用和自定义 GTK 工具的使用更加稳定流畅。</p>
+
+<p><strong><a href="https://www.kernel.org">kernel-source</a> 6.14.6 和 6.14.5</strong>：6.14.6 版本更新包含针对 <a href="https://www.suse.com/security/cve/CVE-2024-28956.html">CVE-2024-28956</a> 漏洞的防护措施，这是一个新发现的现代英特尔 CPU 推测执行漏洞。本次更新引入了ITS（间接目标选择，Indirect Target Selection）缓解机制，确保在上下文切换期间更安全地处理返回和分支指令。同时新增了几项分支预测器强化改进，这些改进对使用 ARM64 硬件的嵌入式设备和容器尤为重要。一些惠普笔记本电脑静音指示灯存在的长期故障也得以解决。6.14.5 版本带来了新一轮的错误修复和驱动程序更新，以增强滚动发行版上的系统稳定性和兼容性。此更新解决了网络（MLX5、ENETC）、蓝牙和 CPU 频率调节等关键子系统中的边界情况崩溃、内存泄漏和设备兼容性问题。本次更新为图形用户带来了多项改进：通过英特尔 Xe 驱动调优和 DRM 修复，显著提升了图形性能与电源管理效率；同时持续扩展媒体硬件支持，新增了对多款新型相机传感器的兼容性。在文件系统方面，<a href="https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/">Btrfs</a> 和 <a href="https://ceph.io/en/">ceph</a> 的修复增强了数据完整性，有效预防极端场景下的数据损坏风险。</p>
+
+<p><strong><a href="https://curl.se">curl</a> 8.14.0</strong>：本次更新修复了使用 wolfSSL 时影响 QUIC 证书验证的两个漏洞（CVE-2025-4947和CVE-2025-5025），完善了证书验证和固定机制。同时新增了对 OpenSSL 与 ngtcp2 组合的 QUIC 支持，并引入了<code class="language-plaintext highlighter-rouge">CURLOPT_SSL_SIGNATURE_ALGORITHMS</code> 等新的 TLS 选项。MQTT 连接现在会按间隔发送心跳，同时用户可禁用 WebSocket 的自动响应回复功能。这些改进既增强了 curl 的稳定性，也扩展了其对新兴网络协议的支持能力。</p>
+
+<p><strong><a href="https://www.freedesktop.org/wiki/Distributions/AppStream/">AppStream</a> 1.0.5</strong>：本次更新显著提升了软件中心和包管理器（如 GNOME  Software 和 Discover）的元数据显示能力，为用户呈现更丰富、更准确的软件信息。通过改进截图、图标和描述的验证与解析机制，帮助应用开发者确保其软件列表展示更精美且符合统一标准。Tumbleweed 用户将体验到以下改进：软件列表的视觉呈现更加一致、应用商店的运行更加稳定，以及软件仓库中的元数据质量提升。</p>
+
+<p><strong><a href="https://fwupd.org">fwupd</a> 2.0.9</strong>：本次显著提升了固件更新的可靠性并扩展了硬件兼容性，对于依赖安全无缝固件管理的 openSUSE 滚动发行版用户而言，这是一个重要升级。关键改进包括：增强了对 UEFI 密钥交换密钥（KEK, Key Exchange Key）和签名数据库（db）更新的支持，现在支持一次性安装多个证书，这对维护安全启动完整性至关重要。针对开发者和高级用户，<code class="language-plaintext highlighter-rouge">fwupdtool</code> 工具现在提供了更详细的 JSON 输出和更好的 Redfish 协议处理能力，同时确保隐藏设备和备份设备不会被错误更新。这些改进全面提升了系统稳定性，扩展了设备支持范围，使得跨桌面和服务器环境的固件更新管理更加可靠。</p>
+
+<p><strong><a href="https://gnupg.org">gpg2</a> 2.5.6</strong>：此版本修复了前一版本中签名误判问题，该问题将已撤销或过期密钥的签名误分类为 “缺失”，导致查看已签名文件或电子邮件的用户感到困惑。另一项重要修复是解决了在无签名缓存模式下运行时可能出现的崩溃问题（双重释放错误）。新功能包括：支持左锚定子字符串过滤器（便于编写密钥列表脚本）、新增 <code class="language-plaintext highlighter-rouge">--quick-tsign-key</code> 命令用于快速创建信任签名、以及在密钥生成时新增 <code class="language-plaintext highlighter-rouge">User-Id</code> 选项以简化自定义流程。此外还增强了智能卡支持，改进了证书选择和卡片检测功能，特别是针对 P15 卡的支持。</p>
+
+<p><strong><a href="https://www.sqlite.org/index.html">sqlite</a> 3.49.2</strong>：该版本修复了自 3.40.0 版本引入的 NOT NULL 优化可能触发的罕见内存错误，确保了更安全的查询执行。本次更新还修复了使用视图的 DISTINCT 查询以及涉及 UNIQUE 约束与 IN 运算符的边界情况，这些问题可能导致复杂数据库架构中出现错误查询结果。依赖 <code class="language-plaintext highlighter-rouge">generate_series()</code> 函数的用户将获得更好的稳定性，同时小幅度的构建改进也提升了该软件的可移植性。</p>
+
+<p><strong>[thunar] 4.20.3</strong>：文件管理器现在会在永久删除文件前发出警告，增加了一层关键保护。得益于多个内存泄漏和子菜单错误的修复，文件管理器现在能更可靠地处理用户自定义操作（UCAs），特别是在涉及子菜单时。在 Wayland 环境下，弹出式菜单现在能正确运作，不再会意外保持打开状态。此次更新还修复了与列表视图和属性对话框相关的崩溃问题，改进了对 exFAT 文件系统的文件处理能力，并优化了搜索期间状态栏的更新机制。</p>
+
+<p><strong>[PiprWire] 1.4.4</strong>：本次更新恢复了与旧版 1.2 风格 MIDI 的兼容性，并修复了影响 <code class="language-plaintext highlighter-rouge">mpv</code> 等工具的功能退化问题。同时增强了与 libcamera 的集成，确保 GStreamer 中视频和多媒体处理更流畅。使用 MIDI 设备的用户将受益于改进的 UMP 和 ALSA 音序器支持，包括更好的 SysEx 和程序变更处理能力。NetJACK2 网络音频现在通过优化的驱动/管理器角色和错误管理变得更加可靠。</p>
+
+<h2 id="错误修复和安全更新">错误修复和安全更新</h2>
+<p>本月修复了多个关键安全漏洞，涉及的 <a href="https://zh.wikipedia.org/wiki/公共漏洞和暴露">通用漏洞披露问题</a> 包括：</p>
+
+<h3 id="安全更新">安全更新</h3>
+<p><strong><a href="https://gitlab.gnome.org/GNOME/libsoup">libsoup</a></strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-32914.html">CVE-2025-32914</a></strong>：该越界读取漏洞可能被恶意 HTTP 客户端利用触发内存访问错误，进而导致系统崩溃。</li>
+  <li><strong><a href="">CVE-2025-32907</a></strong>：修复了因重复 HTTP 范围请求导致的内存过度占用问题，避免部分系统资源耗尽。</li>
+  <li><strong><a href="">CVE-2025-46421</a></strong>：修复了 HTTP 重定向时 Authorization 头信息泄露问题，防止凭证暴露给第三方主机。</li>
+  <li><strong><a href="">CVE-2025-4969:</a></strong>：修复了 curl 的 <code class="language-plaintext highlighter-rouge">dynbuf</code> API 中可能引发数据损坏或崩溃的缓冲区溢出漏洞。</li>
+  <li><strong><a href="">CVE-2025-4476</a></strong>：修复了 curl 中 <code class="language-plaintext highlighter-rouge">setopt</code> 选项的凭据处理缺陷，避免凭据跨请求泄露。</li>
+  <li><strong><a href="">CVE-2025-4948</a></strong>：修复了 curl 在使用 wolfSSL 复用连接时可能绕过 <code class="language-plaintext highlighter-rouge">CURLOPT_SSL_VERIFYPEER</code> 验证的问题。</li>
+</ul>
+
+<p><strong><a href="https://www.cyrusimap.org/">cyrus-imapd</a></strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-23394.html">CVE-2025-23394</a></strong>：修复了 <code class="language-plaintext highlighter-rouge">cyradm</code> 中由于调用子 shell 命令时未能正确转义 shell 字符而导致的潜在权限提升问题。</li>
+</ul>
+
+<p><strong><a href="https://www.mozilla.org/zh-CN/">Mozilla Firefox</a> 138.0</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-2817.html">CVE-2025-2817</a></strong>：修复了 Firefox 更新程序中的权限提升漏洞，该漏洞曾允许执行 SYSTEM 级操作。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4082.html">CVE-2025-4082</a></strong>：修复了 macOS 上 WebGL 着色器属性中的内存损坏漏洞。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4083.html">CVE-2025-4083</a></strong>：修复了通过跨源框架中的 <code class="language-plaintext highlighter-rouge">javascript:</code> 链接绕过进程隔离的漏洞。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4085.html">CVE-2025-4085</a></strong>：解决了通过 UITour 组件可能导致的信息泄露和权限提升漏洞。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4086.html">CVE-2025-4086</a></strong>：通过构造文件名，在下载提示中隐藏了文件扩展名以防止误导用户。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4087.html">CVE-2025-4087</a></strong>：修复了 XPath 解析过程中不安全属性访问的问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4088.html">CVE-2025-4088</a></strong>：防止了通过 Storage Access API 重定向引发的跨站请求伪造（CSRF）攻击。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4089.html">CVE-2025-4089</a></strong>：修复了开发者工具中“复制为 cURL”功能存在的本地代码执行风险。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4090.html">CVE-2025-4090</a></strong>：修复了 Android 版 Firefox 中通过日志输出导致的库路径泄露问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4091.html">CVE-2025-4091</a></strong>：在 Firefox 138、Thunderbird 138 及其 ESR 版本中修复了多个内存安全相关的缺陷。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4092.html">CVE-2025-4092</a></strong>：在 Firefox 138 和 Thunderbird 138 中进行了额外的内存安全修复。版本 <a href="https://www.mozilla.org/en-US/firefox/138.0.1/releasenotes/">138.0.1</a> 和 <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2025-36/">138.0.4</a> 中增加了更多修复内容。</li>
+</ul>
+
+<p><strong><a href="https://curl.se/">curl</a> 8.14.0</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4947.html">CVE-2025-4947</a></strong>：修复了 libcurl 中在使用 QUIC 协议连接 IP 地址时存在的证书验证不当问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-5025.html">CVE-2025-5025</a></strong>：解决了 libcurl 在使用 QUIC 协议并配合 <a href="https://github.com/wolfssl/wolfssl">wolfSSL</a> 时缺少证书锁定（Certificate Pinning）的问题。</li>
+</ul>
+
+<p><strong><a href="https://www.port389.org/">389-ds</a></strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-3416.html">CVE-2025-3416 </a></strong>：修复了 OpenSSL 在某些函数中处理 <code class="language-plaintext highlighter-rouge">properties</code> 参数时使用已释放内存的漏洞。该漏洞可能导致未定义行为或属性解析错误，甚至可能使 OpenSSL 将输入错误地视为空字符串。</li>
+</ul>
+
+<p><strong><a href="https://gnupg.org/index.html">gpg2</a> 2.5.6</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-30258.html">CVE-2025-30258</a></strong>：修复了 GnuPG 2.5.5 之前版本中存在一个验证过程中的拒绝服务（DoS）漏洞。</li>
+</ul>
+
+<p><strong><a href="https://www.kernel.org">kernel-source</a> 6.14.8</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-28956.html">CVE-2024-28956</a></strong>：修复了 x86 平台间接目标选择（ITS, Indirect Target Selection）相关的多个漏洞，包括分支预测行为异常和未对 RSB 填充实施缓解措施的问题。</li>
+</ul>
+
+<p><strong><a href="https://github.com/iputils/iputils">iputils</a></strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-47268.html">CVE-2025-47268</a></strong>：修复了 <code class="language-plaintext highlighter-rouge">ping</code> 命令中的整数溢出漏洞，该漏洞可能导致处理特制 ICMP 回显应答数据包时引发拒绝服务。</li>
+</ul>
+
+<p><strong><a href="https://github.com/vmware/open-vm-tools/releases">open-vm-tools</a> 12.5.2</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-22247.html">CVE-2025-22247</a></strong>：解决了不安全文件处理缺陷，该缺陷允许客户虚拟机上的本地攻击者篡改文件，可能导致权限提升。</li>
+</ul>
+
+<p><strong><a href="https://gitlab.com/nbdkit">nbdkit</a> 1.42.3</strong></p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-47712.html">CVE-2025-47712</a></strong>：修复了一个漏洞，该漏洞允许低权限用户通过资源耗尽导致部分拒绝服务。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-47711.html">CVE-2025-47711</a></strong>：修复了不当输入处理问题，可能导致资源耗尽或系统不稳定，从而引发拒绝服务。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2024-7383.html">CVE-2024-7383</a></strong>：修复了 TLS 连接未能正确验证 NBD 服务器证书的问题，可能允许中间人攻击。</li>
+</ul>
+
+<p><strong><a href="https://webkitgtk.org/">webkit2gtk3</a> 2.48.2</strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-24223.html">CVE-2025-24223</a></strong>：修复了 WebKit 在处理恶意构造的网页内容时可能出现的内存损坏问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-31204.html">CVE-2025-31204</a></strong>：解决了 WebKit 中因恶意网页内容触发的内存损坏漏洞。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-31205.html">CVE-2025-31205</a></strong>：修复了 WebKit 中因安全检查不足导致的跨源数据泄露问题。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-31215.html">CVE-2025-31215</a></strong>：解决了 WebKit 在处理恶意网页内容时可能导致进程意外崩溃的漏洞。</li>
+</ul>
+
+<p><strong><a href="https://www.gnu.org/software/grub/">grub2</a></strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4382.html">CVE-2025-4382</a></strong>：修复了 GRUB 基于 TPM 的自动解密功能在文件系统故障后可能仍将 LUKS 磁盘解密数据保留在内存中的问题。攻击者可通过物理访问强制进入救援模式，从而获取未加密数据。</li>
+</ul>
+
+<p><strong><a href="https://github.com/servo/mozjs">mozjs128</a> 128.10.1</strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4920.html">CVE-2025-4920</a></strong>：修复了 Firefox 在解析 Promise 对象时可能发生的越界访问漏洞。</li>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4921.html">CVE-2025-4921</a></strong>：修复了 Firefox 在线性求和优化过程中可能发生的越界访问漏洞。</li>
+</ul>
+
+<p><strong><a href="https://www.openssl.org">OpenSSL</a></strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4575.html">CVE-2025-4575</a></strong>：修复了 OpenSSL 3.5 中 <code class="language-plaintext highlighter-rouge">openssl x509</code> 的 <code class="language-plaintext highlighter-rouge">-addreject</code> 选项错误地将证书标记为受信任（而非拒绝）的问题。</li>
+</ul>
+
+<p><strong><a href="https://www.postgresql.org">postgresql17</a> 17.5</strong>：</p>
+<ul>
+  <li><a href="https://www.suse.com/security/cve/CVE-2025-4207.html">CVE-2025-4207</a>：修复了 PostgreSQL 在 GB18030 编码检查中的缓冲区越界读取漏洞，该漏洞可能导致拒绝服务。</li>
+</ul>
+
+<p><strong><a href="https://www.python.org">python313</a></strong>：</p>
+<ul>
+  <li><strong><a href="https://www.suse.com/security/cve/CVE-2025-4516.html">CVE-2025-4516</a></strong>：修复了 CPython 中可能导致内存损坏的释放后重引用（use-after-free）漏洞。</li>
+</ul>
+
+<p>建议用户尽快更新至最新版本以防范上述安全风险。</p>
+
+<h2 id="总结">总结</h2>
+<p>五月的 Tumbleweed 更新展现了其强大能力，集性能优化、界面改进与关键安全修复于一体。QEMU 10 扩展了硬件支持并提升虚拟机性能，OpenSSL 3.5 通过现代化加密默认配置显著改善了日常 Linux 使用体验。本月 OpenSSL 3.5 引入的后量子加密（PQC）技术更是一项重大进步。KDE Gear 25.04.1 为 Dolphin 和 Kdenlive 等核心应用带来了更高的稳定性，确保工作流程流畅直观。Thunar 文件管理器也迎来实用改进，包括更安全的文件删除功能和更好的 Wayland 兼容性。多媒体用户则受益于 GStreamer 和 GTK 的优化。AppStream 1.0.5 改进了软件包管理器和应用商店的元数据显示方式，使软件列表更清晰、信息更丰富。SQLite 3.49.2 和 gpg2 2.5.6 的更新修复了可能影响脚本执行、密钥管理或数据库可靠性的边界场景问题。这些滚动更新切实提升了用户体验，再次证明 Tumbleweed 始终如一地为开发者和高级用户提供持续、前沿的软件更新。</p>
+
+<h2 id="slowroll-的更新">Slowroll 的更新</h2>
+
+<p>请注意，上述更新同样适用于 <a href="https://en.opensuse.org/Archive:Old_Slowroll_Page">Slowroll</a> 发行版，通常会在 Tumbleweed 快照发布后的 5 至 10 天 内推送。这一月度同步机制已稳定运行数月，能确保用户在获得可靠性的同时，也能及时接收功能与安全增强。Slowroll 的更新包会定期通过 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a> 发布公告。</p>
+
+<h2 id="为-opensuse-tumbleweed-做贡献">为 openSUSE Tumbleweed 做贡献</h2>
+
+<p>您可以通过订阅 <a href="https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/">openSUSE Factory 邮件列表</a> 获取最新的快照更新信息。如果您希望参与贡献或深入技术讨论，该邮件列表是交流的核心平台。openSUSE 团队欢迎用户通过以下方式参与，包括提交错误报告、提出功能建议、参与社区讨论。</p>
+
+<p>您的每一次反馈和贡献，都在帮助 Tumbleweed 变得更好。无论是优化稳定性、增强功能，还是改进用户体验，社区的力量始终是推动 openSUSE 持续进步的关键。</p>
+
+<hr />
+<p>原文：<a href="https://news.opensuse.org/2025/06/02/tw-monthly-update-may/">Tumbleweed Monthly Update - May 2025</a>，作者：Douglas DeMaio</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/更新通告">
+				更新通告
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/tumbleweed">
+				Tumbleweed
+			</a>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html&url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html&amp;title=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%205%20%E6%9C%88"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=openSUSE%20Tumbleweed%20%E6%AF%8F%E6%9C%88%E6%9B%B4%E6%96%B0%20-%202025%20%E5%B9%B4%205%20%E6%9C%88&amp;body=/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/06/03/may-update.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
