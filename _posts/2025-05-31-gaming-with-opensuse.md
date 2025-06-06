@@ -12,7 +12,7 @@ tags:
 - 官方新闻
 - Windows
 - End of 10
-- 告别 Win 10
+- 告别 Win10
 - 游戏
 ---
 
@@ -78,7 +78,7 @@ Linux，尤其是 openSUSE，为用户提供了一条出路。游戏不能因系
 
 立即加入迁移的行列中来。访问 [endof10.org](https://endof10.org/zh-cn/) 参与社区活动，获取迁移到 Linux 的指导，或前往 [get.opensuse.org](https://get.opensuse.org/zh_CN/) 下载最适合您的 openSUSE 版本。你也还可以考虑 [Aeon](https://aeondesktop.github.io/) 和 [Kalpa](https://kalpadesktop.org/) 作为备选。
 
-<small>这是 [告别 Win 10（End of 10）](https://news.opensuse.org/category/upgrade-to-freedom) 系列内容的一部分，在此我们倡导使用免费及开源软件（Free & Open Source Software, FOSS）作为解决方案，帮助那些希望继续使用现有设备而非更换硬件的 Windows 10 用户，避免造成仍在正常运行设备的电子垃圾问题。</small>
+<small>这是 [告别 Win10（End of 10）](https://news.opensuse.org/category/upgrade-to-freedom) 系列内容的一部分，在此我们倡导使用免费及开源软件（Free & Open Source Software, FOSS）作为解决方案，帮助那些希望继续使用现有设备而非更换硬件的 Windows 10 用户，避免造成仍在正常运行设备的电子垃圾问题。</small>
 
 ---
 
