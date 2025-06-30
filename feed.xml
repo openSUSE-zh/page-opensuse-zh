@@ -7,6 +7,32 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/30/llvm.html</guid>
+      <title>SUSE 优化并发布开源大语言模型，助力社区协作发展</title>
+      <pubDate>Mon, 30 Jun 2025 01:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/30/llvm.html</link>
+      <author>Fangzhou Liu</author>
+      <description>6 月 24 日，SUSE 在 openSUSE 的 Hugging Face 平台 上开源发布了新版精调的语言模型 Cavil-Qwen3-4B，旨在让开源生态中的开发者能够更便捷地实现法律合规自动化。 该版本基于出色的 Qwen3-4B 基础模型 构建，并采用 LoRA 适配器（低秩自适应）技术，用于检测代码和文档中与法律相关的文本（如许可证声明）。该模型源自 openSUSE 的合规工具 Cavil，该工具提供透明且可协作的开源法律解决方案。 这款 40 亿参数的模型在性能和可部署性之间实现了出色平衡——既能提供强大的语言理解能力，又可兼容消费级 GPU 硬件。所有 Qwen3 衍生模型均采用 OSI 认证的 Apache 2.0 开源协议，只要满足许可要求即可用于商业场景和二次分发。 “该模型将企业级的法律文本识别能力带给了更广大的开发者群体，”项目贡献者塞巴斯蒂安·里德尔表示，“对于任何希望规避合规风险又不想配置重型基础设施的项目来说，这都是个实用工具。” 该项目的训练方法采用了包含 15 万样本的数据集和 Alpaca 指令格式，使模型能够准确识别许可证声明头及类似法律文本。经与多个开源模型对比测试，Cavil-Qwen3-4B 展现出高准确度，并支持量化选项以便在小型设备上高效运行。 用于训练该模型的数据集和验证工具也将通过 Hugging Face 平台公开，以便研究者和开发者能够复现并拓展这项工作。 开发团队诚邀持续反馈与贡献。我们鼓励开发者使用该模型并通过 Hugging Face 平台 分享见解、提出改进建议或参与协作。访问地址：huggingface.co/openSUSE。开发者也可通过 openSUSE...</description>
+      <content:encoded>&lt;p&gt;6 月 24 日，&lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 在 &lt;a href=&quot;https://huggingface.co/openSUSE/&quot;&gt;openSUSE 的 Hugging Face 平台&lt;/a&gt; 上开源发布了新版精调的语言模型 &lt;a href=&quot;https://huggingface.co/openSUSE/Cavil-Qwen3-4B&quot;&gt;Cavil-Qwen3-4B&lt;/a&gt;，旨在让开源生态中的开发者能够更便捷地实现法律合规自动化。&lt;/p&gt;
+
+&lt;p&gt;该版本基于出色的 &lt;a href=&quot;https://huggingface.co/Qwen/Qwen3-4B&quot;&gt;Qwen3-4B 基础模型&lt;/a&gt; 构建，并采用 LoRA 适配器（低秩自适应）技术，用于检测代码和文档中与法律相关的文本（如许可证声明）。该模型源自 openSUSE 的合规工具 &lt;a href=&quot;https://github.com/openSUSE/cavil&quot;&gt;Cavil&lt;/a&gt;，该工具提供透明且可协作的开源法律解决方案。&lt;/p&gt;
+
+&lt;p&gt;这款 40 亿参数的模型在性能和可部署性之间实现了出色平衡——既能提供强大的语言理解能力，又可兼容消费级 GPU 硬件。所有 Qwen3 衍生模型均采用 OSI 认证的 &lt;a href=&quot;https://www.apache.org/licenses/LICENSE-2.0&quot;&gt;Apache 2.0 开源协议&lt;/a&gt;，只要满足许可要求即可用于商业场景和二次分发。&lt;/p&gt;
+
+&lt;p&gt;“该模型将企业级的法律文本识别能力带给了更广大的开发者群体，”项目贡献者塞巴斯蒂安·里德尔表示，“对于任何希望规避合规风险又不想配置重型基础设施的项目来说，这都是个实用工具。”&lt;/p&gt;
+
+&lt;p&gt;该项目的训练方法采用了包含 15 万样本的数据集和 Alpaca 指令格式，使模型能够准确识别许可证声明头及类似法律文本。经与多个开源模型对比测试，Cavil-Qwen3-4B 展现出高准确度，并支持量化选项以便在小型设备上高效运行。&lt;/p&gt;
+
+&lt;p&gt;用于训练该模型的数据集和验证工具也将通过 Hugging Face 平台公开，以便研究者和开发者能够复现并拓展这项工作。&lt;/p&gt;
+
+&lt;p&gt;开发团队诚邀持续反馈与贡献。我们鼓励开发者使用该模型并通过 &lt;a href=&quot;https://huggingface.co/openSUSE/&quot;&gt;Hugging Face 平台&lt;/a&gt; 分享见解、提出改进建议或参与协作。访问地址：&lt;a href=&quot;https://huggingface.co/openSUSE/&quot;&gt;huggingface.co/openSUSE&lt;/a&gt;。开发者也可通过 &lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt; 联系我们。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/24/suse-refines-releases-os-llm-to-fuel-community-collaboration/&quot;&gt;SUSE Refines, Releases Open-Source LLM to Fuel Community Collaboration&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/24/nvidia.html</guid>
       <title>Grace Hopper 系统将助力提升 Tumbleweed 的 Armv9 版本构建</title>
       <pubDate>Tue, 24 Jun 2025 01:30:00 +0000</pubDate>
@@ -498,56 +524,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/06/get-gear-at-osc/&quot;&gt;Get openSUSE Gear at oSC25&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/30/end-of-30.html</guid>
-      <title>“升级至自由”倡议转向“告别 Win 10”运动</title>
-      <pubDate>Fri, 30 May 2025 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/30/end-of-30.html</link>
-      <author>Fangzhou Liu</author>
-      <description>微软将于 10 月 14 日结束对 Windows 10 的支持，这很可能会在国际电子废弃物日引发一股不必要的电子垃圾激增。国际电子废弃物日旨在提高人们对全球电子废弃物问题的认识，并推动负责任的回收和处理。 openSUSE 的“升级至自由（Upgrade to Freedom）”倡议鼓励人们延长设备的使用寿命，而不是让它们变成电子垃圾。由于数以百万计的 Windows 10 用户可能会认为他们的设备将变得无用，导致大量仍可正常使用的设备被浪费，因此安装像 openSUSE 这样的 Linux 操作系统或其他 Linux 发行版是更加合理的选择。 一项名为“告别 Win10（End of 10）”的新运动已经启动，该运动与 openSUSE “Upgrade to Freedom（升级至自由）”倡议的目标与初衷相同。由于 #endof10 运动同样旨在帮助人们延长那些可能沦为电子垃圾的设备的使用寿命，openSUSE 市场团队成员决定不再单独推广“升级至自由”倡议，而是将加入到“告别 Win10”运动之中。 openSUSE 项目将对“升级至自由”倡议的所有历史内容进行更新，以体现当前战略方向的调整。 媒体普遍报道指出，微软在 Windows 10 停止支持后，要求用户要么购买符合 Windows 11 要求的新设备，要么支付额外的扩展支持费用。事实上，许多用户手中的电脑仍能良好运行，但却无法满足升级到 Windows 11 的硬件要求。 大多数 2010 年以后制造的计算机，都可以很好地运行 openSUSE、Fedora、 Debian...</description>
-      <content:encoded>&lt;p&gt;微软将于 10 月 14 日结束对 Windows 10 的支持，这很可能会在&lt;a href=&quot;https://zh.wikipedia.org/zh-cn/%E7%92%B0%E5%A2%83%E7%B4%80%E5%BF%B5%E6%B4%BB%E5%8B%95&quot;&gt;国际电子废弃物日&lt;/a&gt;引发一股不必要的电子垃圾激增。国际电子废弃物日旨在提高人们对全球电子废弃物问题的认识，并推动负责任的回收和处理。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 的“升级至自由（Upgrade to Freedom）”倡议鼓励人们延长设备的使用寿命，而不是让它们变成电子垃圾。由于数以百万计的 Windows 10 用户可能会认为他们的设备将变得无用，导致大量仍可正常使用的设备被浪费，因此安装像 &lt;a href=&quot;https://get.opensuse.org/zh_CN/&quot;&gt;openSUSE&lt;/a&gt; 这样的 Linux 操作系统或其他 Linux 发行版是更加合理的选择。&lt;/p&gt;
-
-&lt;p&gt;一项名为&lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;“告别 Win10（End of 10）”&lt;/a&gt;的新运动已经启动，该运动与 openSUSE “Upgrade to Freedom（升级至自由）”倡议的目标与初衷相同。由于 &lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;#endof10&lt;/a&gt; 运动同样旨在帮助人们延长那些可能沦为电子垃圾的设备的使用寿命，openSUSE 市场团队成员决定不再单独推广&lt;a href=&quot;https://news.opensuse.org/category/upgrade-to-freedom&quot;&gt;“升级至自由”&lt;/a&gt;倡议，而是将加入到&lt;a href=&quot;&quot;&gt;“告别 Win10”&lt;/a&gt;运动之中。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目将对&lt;a href=&quot;https://news.opensuse.org/category/upgrade-to-freedom&quot;&gt;“升级至自由”&lt;/a&gt;倡议的所有历史内容进行更新，以体现当前战略方向的调整。&lt;/p&gt;
-
-&lt;p&gt;媒体普遍报道指出，微软在 Windows 10 停止支持后，要求用户要么购买符合 Windows 11 要求的新设备，要么支付额外的扩展支持费用。事实上，许多用户手中的电脑仍能良好运行，但却无法满足升级到 Windows 11 的硬件要求。&lt;/p&gt;
-
-&lt;p&gt;大多数 2010 年以后制造的计算机，都可以很好地运行 openSUSE、Fedora、 Debian 等 Linux 操作系统。该运动鼓励用户升级他们的软件，而非更换硬件。&lt;/p&gt;
-
-&lt;p&gt;志愿者们创建了 &lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;endof10.org&lt;/a&gt; 网站，作为“告别 Win 10”运动的资源中心。用户可以在该网站上找到本地的设备维修团队、下载系统安装工具，并为他人提供技术支持。该网站将想放弃使用 Windows 系统的人与愿意提供帮助的人联系起来&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;“告别 Win10”&lt;/a&gt;计划的组织者已启动第一阶段行动，面向自由及开源软件（FOSS）社区、维修咖啡店（Repair Cafes）以及媒体机构开展推广。在接下来的几个月里，他们将推动各类系统安装聚会，并协调本地推广运动。随着 Windows 10 终止支持的截止日期临近，整个 2025 年他们将持续宣传该计划。&lt;/p&gt;
-
-&lt;p&gt;组织者鼓励教师、开发者和学生加入这一行动。&lt;/p&gt;
-
-&lt;p&gt;我们建议所有人访问 &lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;endof10.org&lt;/a&gt; 了解更多运动详情。&lt;/p&gt;
-
-&lt;h2 id=&quot;额外的信息&quot;&gt;额外的信息&lt;/h2&gt;
-
-&lt;p&gt;“告别 Win10”运动有哪些计划？目前的活动包括传统媒体宣传、社交媒体推广，以及逐步增加线下安装活动直至10月14日。例如，我们正在策划一个在 #EndOf10 标签下名为“10 大清单（List of 10）”的专题活动，主题可能涵盖：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;“改用 Linux 的 10 个理由”&lt;/li&gt;
-  &lt;li&gt;“新装 Linux 电脑必备的 10 款开源应用”&lt;/li&gt;
-  &lt;li&gt;“10 款你已在用却不知是开源的应用”&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;重要说明：&lt;/strong&gt;
-“告别 Win10”运动始终将更广阔的自由开源软件（FOSS）生态置于核心位置。本运动的目标是代表整个开源软件大家庭发声，因此我们绝不容忍针对其他开源软件社区的负面言论。&lt;/p&gt;
-
-&lt;p&gt;我们诚挚邀请您和其他开源软件成员加入“告别 Win10”运动，携手推广自由开源软件，为希望继续安全使用现有设备的 Windows 10 用户提供理想的解决方案。&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;这是 &lt;a href=&quot;https://news.opensuse.org/category/upgrade-to-freedom&quot;&gt;告别 Win10（End of 10）&lt;/a&gt; 系列内容的一部分，在此我们倡导使用免费及开源软件（Free &amp;amp; Open Source Software, FOSS）作为解决方案，帮助那些希望继续使用现有设备而非更换硬件的 Windows 10 用户，避免造成仍在正常运行设备的电子垃圾问题。&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/05/utf-campaign-shifts-to-eot/&quot;&gt;Upgrade to Freedom Campaign Shifts to End of 10&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
