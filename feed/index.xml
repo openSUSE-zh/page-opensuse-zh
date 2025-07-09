@@ -7,6 +7,216 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/07/09/june-update.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 2025 年 6 月</title>
+      <pubDate>Wed, 09 Jul 2025 01:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/07/09/june-update.html</link>
+      <author>Fangzhou Liu</author>
+      <description>六月，openSUSE 滚动发行版 迎来了一系列全新更新。此次更新包含重大功能增强、性能优化以及多项关键安全修复。 作为本次更新的核心亮点，KDE Plasma 6.4 与 KDE Frameworks 6.15.0 及 KDE Gear 25.04.2 同步登场。Linux 内核迎来多轮升级，GNU 编译器集合 15、Mesa 25.1.3 和 PipeWire 1.4.6 等软件包则强化了对现代硬件的支持，提升了图形渲染能力并优化了音频处理性能。本月最关键的更新当属针对安全漏洞的修复措施。 大量软件包在本月更新了重要的安全补丁。从 libsoup、Mozilla Firefox、Python、libssh、Salt 到 ClamAV 和 gdm 等组件，多个通用漏洞披露（CVE）问题得到解决，确保用户和开发者能够安心使用。 同往常一样，如遇任何问题，请务必使用 snapper 工具进行系统回滚。 欲了解本月完整更新日志，请访问 openSUSE Factory 邮件列表。 新功能和增强功能 KDE Plasma 6.4：此版本带来了更流畅、可高度定制的桌面体验。核心升级包括：为每个虚拟桌面提供灵活的平铺布局方案，强化窗口管理功能，以及经过重新设计的 Spectacle 截图工具，支持更便捷的屏幕截图与标注操作。无障碍功能优化了键盘导航，增强了对 Wayland 协议的支持。界面调整显著提升了对比度与可读性，这一改动对黑暗模式下尤为明显。通知系统新增直接安装更新选项、全屏免打扰模式及麦克风静音提醒功能。小组件现可突出显示新安装应用、媒体播放控制及磁盘修复工具。数字艺术家将受益于改进的触控笔配置和相对模式支持，系统对现代硬件的屏幕色彩管理与性能调度也更为出色。KRunner 新增色彩代码可视化功能，系统监视器加入了 GPU 状态追踪与传感器数据监测。其他优化还包括文件拖拽体验改进、浏览器深度集成，以及更完善的 Wayland...</description>
+      <content:encoded>&lt;p&gt;六月，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE 滚动发行版&lt;/a&gt; 迎来了一系列全新更新。此次更新包含重大功能增强、性能优化以及多项关键安全修复。&lt;/p&gt;
+
+&lt;p&gt;作为本次更新的核心亮点，&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.4.0/&quot;&gt;KDE Plasma 6.4&lt;/a&gt; 与 &lt;a href=&quot;https://kde.org/announcements/frameworks/6/6.15.0/&quot;&gt;KDE Frameworks 6.15.0&lt;/a&gt; 及 &lt;a href=&quot;https://kde.org/announcements/changelogs/gear/25.04.2/&quot;&gt;KDE Gear 25.04.2&lt;/a&gt; 同步登场。Linux 内核迎来多轮升级，&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GNU 编译器集合&lt;/a&gt; 15、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 25.1.3 和 &lt;a href=&quot;https://pipewire.org/&quot;&gt;PipeWire&lt;/a&gt; 1.4.6 等软件包则强化了对现代硬件的支持，提升了图形渲染能力并优化了音频处理性能。本月最关键的更新当属针对安全漏洞的修复措施。&lt;/p&gt;
+
+&lt;p&gt;大量软件包在本月更新了重要的安全补丁。从 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup.git&quot;&gt;libsoup&lt;/a&gt;、&lt;a href=&quot;https://www.mozilla.org/&quot;&gt;Mozilla Firefox&lt;/a&gt;、&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt;、&lt;a href=&quot;https://www.libssh.org/&quot;&gt;libssh&lt;/a&gt;、&lt;a href=&quot;https://saltproject.io/&quot;&gt;Salt&lt;/a&gt; 到 &lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt; 和 &lt;a href=&quot;https://gitlab.gnome.org/GNOME/gdm&quot;&gt;gdm&lt;/a&gt; 等组件，多个通用漏洞披露（CVE）问题得到解决，确保用户和开发者能够安心使用。&lt;/p&gt;
+
+&lt;p&gt;同往常一样，如遇任何问题，请务必使用 &lt;a href=&quot;https://github.com/openSUSE/snapper&quot;&gt;snapper&lt;/a&gt; 工具进行系统回滚。&lt;/p&gt;
+
+&lt;p&gt;欲了解本月完整更新日志，请访问 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.4.0/&quot;&gt;KDE Plasma 6.4&lt;/a&gt;&lt;/strong&gt;：此版本带来了更流畅、可高度定制的桌面体验。核心升级包括：为每个虚拟桌面提供灵活的平铺布局方案，强化窗口管理功能，以及经过重新设计的 &lt;a href=&quot;https://github.com/KDE/spectacle&quot;&gt;Spectacle&lt;/a&gt; 截图工具，支持更便捷的屏幕截图与标注操作。无障碍功能优化了键盘导航，增强了对 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 协议的支持。界面调整显著提升了对比度与可读性，这一改动对黑暗模式下尤为明显。通知系统新增直接安装更新选项、全屏免打扰模式及麦克风静音提醒功能。小组件现可突出显示新安装应用、媒体播放控制及磁盘修复工具。数字艺术家将受益于改进的触控笔配置和相对模式支持，系统对现代硬件的屏幕色彩管理与性能调度也更为出色。&lt;a href=&quot;https://userbase.kde.org/Plasma/Krunner/de&quot;&gt;KRunner&lt;/a&gt; 新增色彩代码可视化功能，系统监视器加入了 GPU 状态追踪与传感器数据监测。其他优化还包括文件拖拽体验改进、浏览器深度集成，以及更完善的 Wayland 协议支持。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/6/6.15.0/&quot;&gt;KDE Frameworks 6.15.0&lt;/a&gt;&lt;/strong&gt;：此版本的一大亮点是转向了 &lt;a href=&quot;https://doc.qt.io/qt-6/01-qdoc-manual.html&quot;&gt;QDoc&lt;/a&gt; ——这是一款更现代化、更清晰的文档工具，能够显著提升开发者在使用 &lt;a href=&quot;https://api.kde.org/frameworks/karchive/html/&quot;&gt;KArchive&lt;/a&gt;、&lt;a href=&quot;https://api.kde.org/frameworks/baloo/html/&quot;&gt;Baloo&lt;/a&gt; 和 &lt;a href=&quot;https://api.kde.org/frameworks/bluez-qt/html/&quot;&gt;Bluez Qt&lt;/a&gt; 等组件时的效率。此外，针对 &lt;a href=&quot;https://api.kde.org/frameworks/karchive/html/&quot;&gt;KArchive&lt;/a&gt; 和 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/&quot;&gt;KTextEditor&lt;/a&gt; 等模块的漏洞修复进一步增强了系统稳定性和性能。用户界面框架（如 &lt;a href=&quot;https://api.kde.org/frameworks/kwidgetsaddons/html/&quot;&gt;KWidgetsAddons&lt;/a&gt; 和 &lt;a href=&quot;https://api.kde.org/frameworks/kirigami/html/index.html&quot;&gt;Kirigami&lt;/a&gt;）在视觉效果和功能上均有优化，同时无障碍特性也得到加强。&lt;a href=&quot;https://kate-editor.org/&quot;&gt;Kate&lt;/a&gt; 和 &lt;a href=&quot;https://apps.kde.org/kwrite/&quot;&gt;KWrite&lt;/a&gt; 等 KDE 文本编辑器的用户会发现更新还加强了对 Cap’n Proto 和 FreeFem 等不同编程语言的语法支持，让代码编写更加流畅。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/changelogs/gear/25.04.2/&quot;&gt;KDE Gear 25.04.2&lt;/a&gt;&lt;/strong&gt;：此次更新为 &lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 带来了多项问题修复，包括渐变、直方图及渲染相关问题的解决，大幅提升了视频编辑的稳定性。&lt;a href=&quot;https://apps.kde.org/neochat/&quot;&gt;NeoChat&lt;/a&gt; 增强了移动端支持，优化了空间切换和聊天室管理体验。&lt;a href=&quot;https://apps.kde.org/calligra/&quot;&gt;Calligra&lt;/a&gt; 改进了公式处理机制，避免了程序崩溃问题，而 &lt;a href=&quot;https://userbase.kde.org/Akonadi&quot;&gt;Akonadi&lt;/a&gt; 现在能够正确执行标签编辑与删除操作。此外，&lt;a href=&quot;https://kdeconnect.kde.org/&quot;&gt;KDE Connect&lt;/a&gt; 提升了与 &lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt; 6.9 的兼容性，终端应用 &lt;a href=&quot;https://konsole.kde.org/&quot;&gt;Konsole&lt;/a&gt; 也获得了多项问题修复，整体运行更加可靠。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://ceph.io/&quot;&gt;Ceph&lt;/a&gt; 18.2.7&lt;/strong&gt;：本次重大更新包含多项架构变更、性能优化与新功能。最显著的变化是正式弃用 FileStore，标志着所有新部署将全面转向 &lt;a href=&quot;https://docs.ceph.com/en/latest/rados/configuration/storage-devices/&quot;&gt;BlueStore&lt;/a&gt;。&lt;a href=&quot;https://docs.ceph.com/en/reef/man/8/rados/&quot;&gt;RADOS&lt;/a&gt; 模块获得多项增强，包括引入读取均衡器功能，并弃用缓存分层技术，转而采用更现代的存储策略。原性能统计命令 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;perf dump&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;perf schema&lt;/code&gt; 已被替换为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter dump&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter schema&lt;/code&gt;，以提供更完善的计数器管理机制。其他更新包括 IPv6 s问题修复、编排器稳定性提升，以及针对 mgr 模块的 Python 绑定补丁更新。此版本还禁用了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ceph-mgr-cephadm&lt;/code&gt; 组件，并包含一系列构建与兼容性补丁，确保与现代工具链及 Python 版本的平滑集成。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.gnome.org/zh-CN/Music/&quot;&gt;python-psutil&lt;/a&gt; 7.0.0&lt;/strong&gt;：本次重大更新包含一些重要变更：已正式停止对 Python 2.7 的支持，这与更广泛的生态系统转变保持一致。修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Process.memory_maps()&lt;/code&gt; 在内存使用量极高时导致的崩溃问题，提高了处理数百 GB 内存进程的稳定性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://pypi.org/project/rich/&quot;&gt;python-rich&lt;/a&gt; 14.0.0&lt;/strong&gt;：本次重大版本更新引入了多项影响终端输出和错误处理的新功能与行为变更。最显著的改进是新增了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TTY_COMPATIBLE&lt;/code&gt; 环境变量，允许用户手动控制 TTY 支持检测功能，这在自动检测可能失败的无界面或特殊终端环境中尤为实用。重要变更包括 Rich 对颜色控制变量的解析方式调整，以及现在会显示通过 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Exception.add_note()&lt;/code&gt; 添加的异常备注信息，从而提升调试时的信息清晰度。&lt;/p&gt;
+
+&lt;h2 id=&quot;关键软件包更新&quot;&gt;关键软件包更新&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://webkitgtk.org/&quot;&gt;webkit2gtk3&lt;/a&gt; 2.48.3&lt;/strong&gt;：本次更新为基于 &lt;a href=&quot;https://www.gtk.org/&quot;&gt;GTK&lt;/a&gt; 的网页应用及浏览器（如 &lt;a href=&quot;https://apps.gnome.org/Epiphany/&quot;&gt;Epiphany&lt;/a&gt;）带来了稳定性和性能提升。主要修复了采用 Skia 图形 &lt;a href=&quot;https://en.wikipedia.org/wiki/API&quot;&gt;API&lt;/a&gt; 的新线程渲染系统引发的崩溃问题，近期遭遇渲染不稳定的用户将体验到明显改善。通过优化跨工作线程处理脏区的方式，渲染性能得到进一步调优，从而实现更流畅的视觉效果并降低 CPU 占用率脏区指屏幕或界面中发生变化需要重绘的区域。此次更新全面增强了 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 及其他 GTK 环境下 WebKit 应用程序的可用性与可靠性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 3.13.5&lt;/strong&gt;：本次更新提供了安全修复和稳定性改进。重要变更包括修复了与 tar 文件解压漏洞相关的 CVE 漏洞，修正了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unicode-escape&lt;/code&gt; 解码器中的内存释放后继续使用的安全漏洞，并恢复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;random.getrandbits()&lt;/code&gt; 对类整数对象的正确处理行为。库更新改进了对 IPv6 地址、邮件解析和 zip 文件操作的处理。为确保向后兼容性，已回退 3.13.4 版本中的部分生成器相关改动。建议所有用户升级以确保安全性和稳定性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://git.kernel.org/pub/scm/network/iproute2/iproute2.git&quot;&gt;iproute2&lt;/a&gt; 6.15&lt;/strong&gt;：本次更新新增了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tc_util&lt;/code&gt; 中 64 位硬件数据包计数器的支持，可更精准监控超过 32 位限制的高吞吐量接口。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iprule&lt;/code&gt; 工具现在支持使用十六进制表示法指定端口号，提升了处理底层网络协议和掩码时的兼容性与可读性。所有从旧版本反向移植的补丁均已被移除，转而采用上游纯净代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;kernel-source&lt;/a&gt; 6.15.0 和 6.15.3&lt;/strong&gt;：6.15.3修复了一个 PCIe 热插拔问题，其中延迟到达的设备检测信号（存在检测变更）导致不必要的错误。它还改进了 I/O 调度中后台任务的处理方式，并解决了 WiFi 驱动兼容性的回归问题。该更新修复了目标电源管理、加密操作和文件系统处理（包括 btrfs 和 gfs2），以提高数据完整性和性能。6.15.0 内核撤销了“x86/smp: Eliminate mwait_play_dead_cpuid_hint()”提交以解决稳定性问题，并增加了对 &lt;a href=&quot;https://www.hotmcu.com/&quot;&gt;HAOYU（昊昱）微电子&lt;/a&gt; HYM8563 RTC 模块的支持，该模块广泛用于Rockchip SoC 等 ARM64 平台。整合了多个补丁以改进 ACPI 构建处理，并从 6.14.8 更新中继承了许多关键错误修复，特别是在内存管理、DMA 引擎处理和 I/O 子系统方面，提高了复杂工作负载下的可靠性，并减少了错误路径中的内存泄漏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;gcc&lt;/a&gt; 15&lt;/strong&gt;：本次更新引入了新的语言支持，新增了 Modula-2 和 Cobol 软件包，进一步扩展了其本就广泛的编程语言支持范围。主工具链现已默认采用 GCC 15，而 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-build&lt;/code&gt; 版本仍保留为 13 版，以确保需要稳定编译器后端的环境的兼容性和可靠性。该版本还包含性能提升、更完善的诊断功能以及增强的卸载支持，因此推荐开发者升级。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;fwupd&lt;/a&gt; 2.0.12&lt;/strong&gt;：本次更新新增了对 &lt;a href=&quot;https://www.hp.com/&quot;&gt;HP&lt;/a&gt; 便携式 USB-C 集线器、更多 &lt;a href=&quot;https://www.honhai.com/&quot;&gt;Foxconn&lt;/a&gt; 5G 调制解调器以及 &lt;a href=&quot;https://www.intel.com/&quot;&gt;Intel&lt;/a&gt; Arc Battlemage 显卡的支持。新功能包括 Thunderbolt 主机控制器模拟、强制执行不可变设备枚举，并改进了 UEFI 安全启动变量的处理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 25.1.3&lt;/strong&gt;：该版本的主要变更包括修复了&lt;a href=&quot;https://store.steampowered.com/app/3017860/DOOM_The_Dark_Ages/&quot;&gt;《DOOM：黑暗时代》&lt;/a&gt; 等游戏的渲染问题，并改进了 Vulkan 和 OpenGL 实现的驱动程序行为。由于 EGL 无表面上下文已能完全替代其功能，本次更新移除了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;osmesa&lt;/code&gt; 的支持。此外还更新或移除了多个补丁，包括构建修复、SPIR-V 转换以及 Clover OpenCL 处理等方面的调整。&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&quot;https://gnupg.org/&quot;&gt;gpg2&lt;/a&gt; 2.5.8：本次版本的主要改进包括现在能直接在标准密钥列表（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-k&lt;/code&gt;）中显示吊销原因，无需额外查询即可轻松追踪密钥被吊销的原因。更新还通过在“pub”记录中以注释形式输出吊销原因，提升了与外部工具的互操作性，并改进了对解析 GnuPG 密钥输出的系统的兼容性。修复了两个关键问题：一个影响解密功能，另一个影响从智能卡导出 SSH 密钥。此外，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gpg --fetch-key&lt;/code&gt; 命令现在不再需要预先配置密钥服务器，允许直接从 URL 或本地文件获取密钥，从而简化了密钥管理的工作流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.com/cryptsetup/cryptsetup&quot;&gt;cryptsetup&lt;/a&gt; 2.8.0&lt;/strong&gt;：本次更新的核心改进是通过支持带有额外元数据空间的硬件扇区来提升性能。所有密钥槽类型现在都实现了自包含设计，并通过新增的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--key-description&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--new-key-description&lt;/code&gt; 等选项优化了重加密流程，同时支持使用令牌或卷密钥恢复重加密操作。该版本还改进了 LUKS2 中Argon2 KDF（密钥派生函数）的内存处理机制，增强了低内存场景下的错误报告能力。此外优化了 LUKS2 的元数据写入性能，并通过新增 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--error-as-corruption&lt;/code&gt; 等选项扩展了 veritysetup 的功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;pipewire&lt;/a&gt; 1.4.6&lt;/strong&gt;：本次更新修复了 filter-chain（过滤器链）和 ALSA（高级Linux声音架构）插件中的崩溃问题。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;module-combine-stream&lt;/code&gt;（组合流模块）的延迟报告功能得到改进，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;module-filter-chain&lt;/code&gt;（过滤器链模块）现在能更好地处理激活和停用操作以避免崩溃。新增的选项允许用户通过上下文属性禁用 RAOP（远程音频输出协议），从而提供更灵活的音频路由控制。&lt;/p&gt;
+
+&lt;h2 id=&quot;错误修复和安全更新&quot;&gt;错误修复和安全更新&lt;/h2&gt;
+&lt;p&gt;本月修复了多个关键安全漏洞，涉及的 &lt;a href=&quot;https://zh.wikipedia.org/wiki/公共漏洞和暴露&quot;&gt;通用漏洞披露问题&lt;/a&gt; 包括：&lt;/p&gt;
+
+&lt;h3 id=&quot;安全更新&quot;&gt;安全更新&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/libsoup&quot;&gt;libsoup&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-32911.html&quot;&gt;CVE-2025-32911&lt;/a&gt;&lt;/strong&gt;：修复了 libsoup 分块传输解析器中的缓冲区越界读取漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-32910.html&quot;&gt;CVE-2025-32910&lt;/a&gt;&lt;/strong&gt;：解决了 libsoup 头部解析时的越界访问问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-32906.html&quot;&gt;CVE-2025-32906&lt;/a&gt;&lt;/strong&gt;：修补了 libsoup cookie 处理中的验证不足缺陷&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-32912.html&quot;&gt;CVE-2025-32912&lt;/a&gt;&lt;/strong&gt;：修复了 libsoup 中 HTTP/2 会话劫持漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-32909.html&quot;&gt;CVE-2025-32909&lt;/a&gt;&lt;/strong&gt;：修复了 libsoup 多部分解析器的内存泄漏问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4948.html&quot;&gt;CVE-2025-4948&lt;/a&gt;&lt;/strong&gt;：修复了 libcurl 中 wolfSSL QUIC SSL 对端验证绕过漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4969.html&quot;&gt;CVE-2025-4969&lt;/a&gt;&lt;/strong&gt;：修补了 libcurl &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dynbuf&lt;/code&gt; API 的缓冲区溢出漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4945.html&quot;&gt;CVE-2025-4945&lt;/a&gt;&lt;/strong&gt;：修复了 Linux 内核 USB 子系统的越界读取漏洞（可能导致信息泄露）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mozilla.org/zh-CN/&quot;&gt;Mozilla Firefox&lt;/a&gt; 139&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5263.html&quot;&gt;CVE-2025-5263&lt;/a&gt;&lt;/strong&gt;：修复了 Firefox 中跨源脚本执行泄露漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5264.html&quot;&gt;CVE-2025-5264&lt;/a&gt;&lt;/strong&gt;：修复了“复制为 cURL”功能中换行转义缺陷（可导致代码执行）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5265.html&quot;&gt;CVE-2025-5265&lt;/a&gt;&lt;/strong&gt;：修补了 Firefox 中类似的“复制为 cURL”代码执行漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5266.html&quot;&gt;CVE-2025-5266&lt;/a&gt;&lt;/strong&gt;：修复了跨源脚本元素的事件泄露问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5267.html&quot;&gt;CVE-2025-5267&lt;/a&gt;&lt;/strong&gt;：修复了点击劫持漏洞（可能泄露已保存的支付卡信息）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5268.html&quot;&gt;CVE-2025-5268&lt;/a&gt;&lt;/strong&gt;：解决了 Firefox/Thunderbird 中的多个内存安全问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5270.html&quot;&gt;CVE-2025-5270&lt;/a&gt;&lt;/strong&gt;：[预留编号：详情待公开披露]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5271.html&quot;&gt;CVE-2025-5271&lt;/a&gt;&lt;/strong&gt;：[预留编号：详情待公开披露]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5272.html&quot;&gt;CVE-2025-5272&lt;/a&gt;&lt;/strong&gt;：[预留编号：详情待公开披露]&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49709.html&quot;&gt;CVE-2025-49709&lt;/a&gt;&lt;/strong&gt;：修补了画布表面的内存损坏漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49710.html&quot;&gt;CVE-2025-49710&lt;/a&gt;&lt;/strong&gt;：修复了 Firefox 139.0.4 中未明确说明的内存安全问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;python313&lt;/a&gt; 3.13.5&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12718.html&quot;&gt;CVE-2024-12718&lt;/a&gt;&lt;/strong&gt;：修复了 Python 3.12+ 中 tarfile 过滤器的漏洞（允许在解压目录外更改元数据或权限）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4138.html&quot;&gt;CVE-2025-4138&lt;/a&gt;&lt;/strong&gt;：修复了 libarchive ZIP 过滤器处理中的缓冲区溢出问题（可能导致内存损坏）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4330.html&quot;&gt;CVE-2025-4330&lt;/a&gt;&lt;/strong&gt;：修补了 SQLite JSON 扩展在解析无效 JSON 输入时的越界读取漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4517.html&quot;&gt;CVE-2025-4517&lt;/a&gt;&lt;/strong&gt;：解决了 OpenSSL 会话缓存中的竞态条件问题（可能导致释放后使用场景）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4516.html&quot;&gt;CVE-2025-4516&lt;/a&gt;&lt;/strong&gt;：修复了 CPython 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bytes.decode(&quot;unicode_escape&quot;, errors=&quot;ignore|replace&quot;)&lt;/code&gt; 中的释放后使用问题（防止内存损坏）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;python311&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4516.html&quot;&gt;CVE-2025-4516&lt;/a&gt;&lt;/strong&gt;：修复了 CPython 中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bytes.decode(&quot;unicode_escape&quot;, errors=&quot;ignore|replace&quot;)&lt;/code&gt; 方法的释放后使用（use-after-free）漏洞（可能导致内存损坏）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.libssh.org/&quot;&gt;libssh&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4877.html&quot;&gt;CVE-2025-4877&lt;/a&gt;&lt;/strong&gt;：修复了二进制转 Base64 转换函数中的越界写入问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-4878.html&quot;&gt;CVE-2025-4878&lt;/a&gt;&lt;/strong&gt;：修复了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;privatekey_from_file()&lt;/code&gt; 函数中使用未初始化变量的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5318.html&quot;&gt;CVE-2025-5318&lt;/a&gt;&lt;/strong&gt;：修复了 SFTP 服务器句柄管理中可能存在的越界读取漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5351.html&quot;&gt;CVE-2025-5351&lt;/a&gt;&lt;/strong&gt;：修复了密钥导出函数中的双重释放漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5372.html&quot;&gt;CVE-2025-5372&lt;/a&gt;&lt;/strong&gt;：修复了 ssh_kdf() 函数在某些失败情况下仍返回成功代码的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5449.html&quot;&gt;CVE-2025-5449&lt;/a&gt;&lt;/strong&gt;：修复了 SFTP 服务器消息解码中可能存在的越界读取漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-5987.html&quot;&gt;CVE-2025-5987&lt;/a&gt;&lt;/strong&gt;：修复了使用 OpenSSL 后端时 ChaCha20-Poly1305 算法返回无效返回码的问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://saltproject.io/&quot;&gt;Salt&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-38822.html&quot;&gt;CVE-2024-38822&lt;/a&gt;&lt;/strong&gt;：修复了 Salt 文件客户端功能中的不当访问控制问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-38823.html&quot;&gt;CVE-2024-38823&lt;/a&gt;&lt;/strong&gt;：解决了来自不可信 pillar 数据的命令注入风险&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-38824.html&quot;&gt;CVE-2024-38824&lt;/a&gt;&lt;/strong&gt;：修补了 Salt 事件系统中的不安全反序列化漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-38825.html&quot;&gt;CVE-2024-38825&lt;/a&gt;&lt;/strong&gt;：修复了因路径清理不当导致的目录遍历漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22240.html&quot;&gt;CVE-2025-22240&lt;/a&gt;&lt;/strong&gt;：修复了通过特制 Salt minion 返回导致的远程命令执行漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22236.html&quot;&gt;CVE-2025-22236&lt;/a&gt;&lt;/strong&gt;：修复了特定条件下 Salt minion 可能覆盖非预期文件的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22241.html&quot;&gt;CVE-2025-22241&lt;/a&gt;&lt;/strong&gt;：解决了畸形 Salt 返回负载导致的拒绝服务问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22237.html&quot;&gt;CVE-2025-22237&lt;/a&gt;&lt;/strong&gt;：修复了 Salt master 日志记录敏感返回数据的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22238.html&quot;&gt;CVE-2025-22238&lt;/a&gt;&lt;/strong&gt;：修补了调试日志中 minion 密钥泄露的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22239.html&quot;&gt;CVE-2025-22239&lt;/a&gt;&lt;/strong&gt;：解决了 ACL 配置不当导致的权限提升问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-22242.html&quot;&gt;CVE-2025-22242&lt;/a&gt;&lt;/strong&gt;：修复了 Salt SSH 模块中的输入验证问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.x.org/wiki/&quot;&gt;xorg-x11-server&lt;/a&gt;&lt;/strong&gt;：
+以下是按照要求的格式翻译和排版的漏洞公告：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49176.html&quot;&gt;CVE-2025-49176&lt;/a&gt;&lt;/strong&gt;：修复了 xorg-x11-server 中绕过大小检查的整数溢出漏洞&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/stefanberger/libtpms&quot;&gt;libtpms&lt;/a&gt; 0.10.1&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49133.html&quot;&gt;CVE-2025-49133&lt;/a&gt;&lt;/strong&gt;：修复了 libtpms 0.10.1 中 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CryptHmacSign&lt;/code&gt; 函数的越界读取漏洞（可能通过恶意 TPM 2.0/vTPM 命令触发，导致服务中断）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.clamav.net/&quot;&gt;ClamAV&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-20260.html&quot;&gt;CVE-2025-20260&lt;/a&gt;&lt;/strong&gt;：修复了 ClamAV PDF 解析器缓冲区溢出漏洞（在扫描限制大的情况下可能导致拒绝服务或远程代码执行）&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-20234.html&quot;&gt;CVE-2025-20234&lt;/a&gt;&lt;/strong&gt;：修复了 ClamAV UDF 解析器缓冲区溢出漏洞（可能导致数据泄露或拒绝服务）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.gnome.org/GNOME/gdm&quot;&gt;gdm&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-6018.html&quot;&gt;CVE-2025-6018&lt;/a&gt;&lt;/strong&gt;：修复了身份认证栈中使用 pam_env 模块导致的安全风险&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/OpenSC/pam_pkcs11&quot;&gt;pam_pkcs11&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-6018.html&quot;&gt;CVE-2025-6018&lt;/a&gt;&lt;/strong&gt;：修复了与 gdm 相同的身份认证栈中 pam_env 模块使用问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://jqlang.org/&quot;&gt;jq&lt;/a&gt;&lt;/strong&gt; 1.8.0：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-23337.html&quot;&gt;CVE-2024-23337&lt;/a&gt;&lt;/strong&gt;：修复了 jvp_array_write 和 jvp_object_rehash 函数中的有符号整数溢出漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-53427.html&quot;&gt;CVE-2024-53427&lt;/a&gt;&lt;/strong&gt;：修复了 JSON 解析时接受含有效载荷 NaN 值的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-48060.html&quot;&gt;CVE-2025-48060&lt;/a&gt;&lt;/strong&gt;：修复了 jv_string_vfmt 函数中的堆缓冲区溢出漏洞&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/linux-pam/linux-pam&quot;&gt;pam&lt;/a&gt; 1.7.1&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-10963.html&quot;&gt;CVE-2024-10963&lt;/a&gt;&lt;/strong&gt;：修复了 pam_access 模块将显示令牌错误解析为主机名的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-6020.html&quot;&gt;CVE-2025-6020&lt;/a&gt;&lt;/strong&gt;：修复了 pam_namespace 模块中的权限提升漏洞&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;&quot;&gt;xwayland&lt;/a&gt; 24.1.7&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49175.html&quot;&gt;CVE-2025-49175&lt;/a&gt;&lt;/strong&gt;：修复了 X Rendering 扩展中与动画光标相关的越界访问问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49176.html&quot;&gt;CVE-2025-49176&lt;/a&gt;&lt;/strong&gt;：修复了 Big Requests 扩展中的整数溢出漏洞&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49177.html&quot;&gt;CVE-2025-49177&lt;/a&gt;&lt;/strong&gt;：修复了 XFIXES 扩展中可能导致数据泄露的问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49178.html&quot;&gt;CVE-2025-49178&lt;/a&gt;&lt;/strong&gt;：确保正确处理输入缓冲区中应忽略的字节&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49179.html&quot;&gt;CVE-2025-49179&lt;/a&gt;&lt;/strong&gt;：修复了 X Record 扩展中的整数溢出问题&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-49180.html&quot;&gt;CVE-2025-49180&lt;/a&gt;&lt;/strong&gt;：修复了 RandR 扩展中的整数溢出漏洞，防止可能的崩溃或内存损坏&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://apps.gnome.org/Yelp/&quot;&gt;yelp&lt;/a&gt; 42.3&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-3155.html&quot;&gt;CVE-2025-3155&lt;/a&gt;&lt;/strong&gt;：修复了 Yelp 帮助查看器中的 JavaScript 执行漏洞（攻击者可通过特制帮助文档实现任意文件读取）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://software.opensuse.org/package/perl-CryptX&quot;&gt;perl-CryptX&lt;/a&gt; 0.87.0&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-40914.html&quot;&gt;CVE-2025-40914&lt;/a&gt;&lt;/strong&gt;：修复了 CryptX 中嵌入的易受整数溢出漏洞影响的 libtommath 库版本&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://wiki.gnome.org/Projects/GLib&quot;&gt;glib2&lt;/a&gt; 2.84.3&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-6052.html&quot;&gt;CVE-2025-6052&lt;/a&gt;&lt;/strong&gt;：修复了 GLib 中 GString 扩展函数（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;g_string_maybe_expand&lt;/code&gt;）的整数溢出漏洞，可防止潜在的缓冲区溢出&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;建议用户尽快更新至最新版本以防范上述安全风险。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;六月份包含了多项漏洞修复和固件更新，其中固件包已升级至 20250613 版本。本次更新包含对高通、联发科、瑞昱和 Cirrus 音频芯片的改进，同时升级了蓝牙固件并优化了符号链接处理。Xfce 面板插件（包括 mailwatch、mount、mpc、netload、notes、places 和 sensors）也更新至新版本，这些软件包更新主要涉及将构建系统迁移至 Meson、用 libxfce4ui 4.21.0 替换已弃用的 Exo 等依赖项、自动化版权管理、改进代码结构、修复构建警告以及更新翻译文件。安全是本月更新的重点，Firefox、Python、Salt、ClamAV 和 libssh 等组件均修复了关键漏洞。请享受更新！&lt;/p&gt;
+
+&lt;h2 id=&quot;slowroll-的更新&quot;&gt;Slowroll 的更新&lt;/h2&gt;
+
+&lt;p&gt;请注意，上述更新同样适用于 &lt;a href=&quot;https://en.opensuse.org/Archive:Old_Slowroll_Page&quot;&gt;Slowroll&lt;/a&gt; 发行版，通常会在 Tumbleweed 快照发布后的 5 至 10 天 内推送。这一月度同步机制已稳定运行数月，能确保用户在获得可靠性的同时，也能及时接收功能与安全增强。Slowroll 的更新包会定期通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt; 发布公告。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做贡献&quot;&gt;为 openSUSE Tumbleweed 做贡献&lt;/h2&gt;
+
+&lt;p&gt;您可以通过订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt; 获取最新的快照更新信息。如果您希望参与贡献或深入技术讨论，该邮件列表是交流的核心平台。openSUSE 团队欢迎用户通过以下方式参与，包括提交错误报告、提出功能建议、参与社区讨论。&lt;/p&gt;
+
+&lt;p&gt;您的每一次反馈和贡献，都在帮助 Tumbleweed 变得更好。无论是报告错误、提出功能建议，还是参与社区讨论，您的参与都极具价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/03/tw-monthly-update-june/&quot;&gt;Tumbleweed Monthly Update - June 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/30/llvm.html</guid>
       <title>SUSE 优化并发布开源大语言模型，助力社区协作发展</title>
       <pubDate>Mon, 30 Jun 2025 01:30:00 +0000</pubDate>
@@ -485,45 +695,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/16/why-gaming-w-opensuse-is-a-good-move/&quot;&gt;Why Gaming with openSUSE Is A Good Move&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/30/get-gear.html</guid>
-      <title>来 oSC25 带走 openSUSE 周边</title>
-      <pubDate>Fri, 30 May 2025 23:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/30/get-gear.html</link>
-      <author>Fangzhou Liu</author>
-      <description>要来纽伦堡参加 2025 年 openSUSE 大会吗？好消息！本次会议现场将设有 openSUSE 官方商店，参会者可购买各种 openSUSE 周边商品！商店提供的商品包括 Freewear.org 上 openSUSE 专区的热门产品。 本次将首发 100 到 125 件新品（主要为 T恤）呈现 Leap、Tumbleweed、Slowroll、Aeon、Kalpa、MicroOS 等的专属设计。这些周边暂未登陆 Freewear.org 线上商店，预大会结束后全面上线。 如果您对特定的商品、尺码或款式特别感兴趣，我们鼓励您提前发送邮件至 ddemaio@opensuse.org 和 ishwon@openSUSE.org，邮件主题请注明“oSC25 Shop Selection”。请务必在6月4日之前发送邮件，因为相关商品将在这段时间左右发货。这样可以帮助我们更好地做准备，并确保在活动期间提供大家最想要的商品。 活动详情 日期： 2025 年 6 月 26 日至 28 日 地点： 德国纽伦堡 Z-Bau 主题： 主题演讲、实践工作坊、社区交流互动 openSUSE 大会是一场免费的社区驱动型活动，旨在汇聚全球开源软件的贡献者、开发者和爱好者，共同探讨开源软件开发的合作。 预热派对 精彩提前开启！6 月 25...</description>
-      <content:encoded>&lt;p&gt;要来纽伦堡参加 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;2025 年 openSUSE 大会&lt;/a&gt;吗？好消息！本次会议现场将设有 openSUSE 官方商店，参会者可购买各种 openSUSE 周边商品！商店提供的商品包括 &lt;a href=&quot;https://www.freewear.org/openSUSE&quot;&gt;Freewear.org 上 openSUSE 专区的热门产品&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;本次将首发 100 到 125 件新品（主要为 T恤）呈现 &lt;a href=&quot;https://get.opensuse.org/zh_CN/leap/15.6/&quot;&gt;Leap&lt;/a&gt;、&lt;a href=&quot;https://get.opensuse.org/zh_CN/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt;、&lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;Slowroll&lt;/a&gt;、&lt;a href=&quot;https://aeondesktop.github.io/&quot;&gt;Aeon&lt;/a&gt;、&lt;a href=&quot;https://kalpadesktop.org/&quot;&gt;Kalpa&lt;/a&gt;、&lt;a href=&quot;https://get.opensuse.org/zh_CN/microos/&quot;&gt;MicroOS&lt;/a&gt; 等的专属设计。这些周边暂未登陆 &lt;a href=&quot;https://www.freewear.org/openSUSE&quot;&gt;Freewear.org&lt;/a&gt; 线上商店，预大会结束后全面上线。&lt;/p&gt;
-
-&lt;p&gt;如果您对特定的商品、尺码或款式特别感兴趣，我们鼓励您&lt;strong&gt;提前发送邮件&lt;/strong&gt;至 &lt;strong&gt;ddemaio@opensuse.org&lt;/strong&gt; 和 &lt;strong&gt;ishwon@openSUSE.org&lt;/strong&gt;，邮件主题请注明&lt;strong&gt;“oSC25 Shop Selection”&lt;/strong&gt;。请务必在6月4日之前发送邮件，因为相关商品将在这段时间左右发货。这样可以帮助我们更好地做准备，并确保在活动期间提供大家最想要的商品。&lt;/p&gt;
-
-&lt;h2 id=&quot;活动详情&quot;&gt;活动详情&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;日期：&lt;/strong&gt; 2025 年 6 月 26 日至 28 日&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;地点：&lt;/strong&gt; 德国纽伦堡 Z-Bau&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;主题：&lt;/strong&gt; 主题演讲、实践工作坊、社区交流互动&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;openSUSE 大会是一场免费的社区驱动型活动，旨在汇聚全球开源软件的贡献者、开发者和爱好者，共同探讨开源软件开发的合作。&lt;/p&gt;
-
-&lt;h2 id=&quot;预热派对&quot;&gt;预热派对&lt;/h2&gt;
-&lt;p&gt;精彩提前开启！&lt;strong&gt;6 月 25 日&lt;/strong&gt;邀您相聚 &lt;strong&gt;Kater Murr&lt;/strong&gt; 参加&lt;strong&gt;预热派对&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;当晚 6 点后随时欢迎光临，在主活动开始前与其他参会者提前交流。&lt;/p&gt;
-
-&lt;p&gt;📍 &lt;a href=&quot;https://www.openstreetmap.org/node/3184642816#map=19/49.449588/11.080627&quot;&gt;OpenStreetMap 上的 Kater Murr 位置&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📍 &lt;a href=&quot;https://www.google.com/maps/place/Kater+Murr/@49.4495813,11.0780446,17z/data=!3m1!4b1!4m6!3m5!1s0x479f57a6eaed0747:0xc22851dbdbe9e7ec!8m2!3d49.4495813!4d11.0806195!16s%2Fg%2F11b6x54lzt?entry=tts&amp;amp;g_ep=EgoyMDI0MDYxNS4xKgBIAVAD&quot;&gt;谷歌地图定位&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;保持关注，积极参与，别忘了为 oSC25 做好参会准备！&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/06/get-gear-at-osc/&quot;&gt;Get openSUSE Gear at oSC25&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
