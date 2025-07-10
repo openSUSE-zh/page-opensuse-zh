@@ -12,4 +12,4 @@ tags:
 - 本地化
 ---
 
-我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— [Fangzhou Liu](https://github.com/noeliufz) 。他将继续翻译社区新闻，为大家带来社区的动态和消息。
+我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— [Fangzhou Liu](https://github.com/xfalcoliu) 。他将继续翻译社区新闻，为大家带来社区的动态和消息。
