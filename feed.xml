@@ -7,6 +7,37 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/10/travel-support.html</guid>
+      <title>openSUSE 亚洲峰会提供旅行资助</title>
+      <pubDate>Thu, 10 Jul 2025 01:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/10/travel-support.html</link>
+      <author>Fangzhou Liu</author>
+      <description>2025 openSUSE 亚洲峰会 将于 8 月 29 日至 31 日在印度法里达巴德的马纳夫拉奇纳国际研究与教育学院（MRIIRS）举行，我们诚挚欢迎来自亚洲乃至全球的社区成员踊跃参与。 为了让更多开发者能够参与本次盛会，旅行资助计划（Travel Support Program，TSP） 将为需要经济支持的参会者提供协助。该计划由 Geeko 基金会 赞助，旨在帮助演讲者及参会者减轻部分差旅费用负担。 如需申请资助，请务必在 7 月 31 日之前 提交 TSP 申请表。 关键日期 TSP 申请截止日期：2025 年 7 月 31 日 峰会时间：2025 年 8 月 29 日至 31 日 地点：印度法里达巴德马纳夫拉奇纳国际研究与教育学院（MRIIRS, Faridabad, India） 这是一次与开源爱好者交流、分享知识并共同推动 openSUSE 及 Linux 在亚洲发展的绝佳机会。 申请详情请访问：https://en.opensuse.org/openSUSE:Travel_Support_Program...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS25&quot;&gt;2025 openSUSE 亚洲峰会&lt;/a&gt; 将于 8 月 29 日至 31 日在印度法里达巴德的马纳夫拉奇纳国际研究与教育学院（MRIIRS）举行，我们诚挚欢迎来自亚洲乃至全球的社区成员踊跃参与。&lt;/p&gt;
+
+&lt;p&gt;为了让更多开发者能够参与本次盛会，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;旅行资助计划（Travel Support Program，TSP）&lt;/a&gt; 将为需要经济支持的参会者提供协助。该计划由 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt; 赞助，旨在帮助演讲者及参会者减轻部分差旅费用负担。&lt;/p&gt;
+
+&lt;p&gt;如需申请资助，请务必在 7 月 31 日之前 提交 TSP 申请表。&lt;/p&gt;
+
+&lt;h2 id=&quot;关键日期&quot;&gt;关键日期&lt;/h2&gt;
+&lt;p&gt;TSP 申请截止日期：2025 年 7 月 31 日&lt;/p&gt;
+
+&lt;p&gt;峰会时间：2025 年 8 月 29 日至 31 日&lt;/p&gt;
+
+&lt;p&gt;地点：印度法里达巴德马纳夫拉奇纳国际研究与教育学院（MRIIRS, Faridabad, India）&lt;/p&gt;
+
+&lt;p&gt;这是一次与开源爱好者交流、分享知识并共同推动 openSUSE 及 Linux 在亚洲发展的绝佳机会。&lt;/p&gt;
+
+&lt;p&gt;申请详情请访问：&lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;https://en.opensuse.org/openSUSE:Travel_Support_Program&lt;/a&gt; 并查阅 &lt;a href=&quot;https://en.opensuse.org/images/4/4c/Geeko_Foundation_Travel_Policy.pdf&quot;&gt;Geeko 基金会的差旅政策&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;基金会将与峰会组委会共同评估，确定可为参会者提供的具体资助额度。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/04/osas-tsp-available/&quot;&gt;Travel Support Available for openSUSE.Asia Summit&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/07/09/june-update.html</guid>
       <title>openSUSE Tumbleweed 每月更新 - 2025 年 6 月</title>
       <pubDate>Wed, 09 Jul 2025 01:30:00 +0000</pubDate>
@@ -574,7 +605,7 @@
       <author>Nianqing Yao</author>
       <description>我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— Fangzhou Liu 。他将继续翻译社区新闻，为大家带来社区的动态和消息。
 </description>
-      <content:encoded>&lt;p&gt;我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— &lt;a href=&quot;https://github.com/noeliufz&quot;&gt;Fangzhou Liu&lt;/a&gt; 。他将继续翻译社区新闻，为大家带来社区的动态和消息。&lt;/p&gt;
+      <content:encoded>&lt;p&gt;我们非常荣幸的宣布，openSUSE 社区迎来了又一位杰出的翻译者—— &lt;a href=&quot;https://github.com/xfalcoliu&quot;&gt;Fangzhou Liu&lt;/a&gt; 。他将继续翻译社区新闻，为大家带来社区的动态和消息。&lt;/p&gt;
 </content:encoded>
     </item>
 
@@ -616,85 +647,6 @@
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/06/get-gear-at-osc/&quot;&gt;Get openSUSE Gear at oSC25&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/31/gaming-with-opensuse.html</guid>
-      <title>为什么选择 openSUSE 玩游戏是个好主意</title>
-      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/05/31/gaming-with-opensuse.html</link>
-      <author>Fangzhou Liu</author>
-      <description>想象一下：你在2016年组装了一台游戏电脑，至今仍能轻松应对 1080p 游戏大作，运行温度不高，摆在桌面上也十分美观。但如今，Windows 10 的生命周期即将结束，而升级意味着更高的硬件要求和不菲的成本。或许要换新的主板、新的 CPU，大概要上千的 💰 就为了继续玩你原本就能运行的游戏。 与其屈服于厂家强制淘汰的做法，不如安装某一版本的 openSUSE。 游戏依旧能玩，对局照样能赢。只是这次，是在 Linux 上。 游戏玩家对 Linux 这个名字并不陌生，其使用率也在悄然转变。Google Trends 数据显示，当前“Windows 平台游戏”的搜索热度与大约五年前（即新冠疫情期间更多人在业余时间参与数字活动时）的趋势相似。而同期“Linux 平台游戏”的搜索量却增长到之前的三倍。 截图： 在 Linux 系统上玩游戏，不再意味着必须放弃你的 Steam 游戏库，或是为了启动一款游戏而长时间捣鼓配置。得益于 Proton 兼容层的支持，Steam 平台上 Top 100 的游戏中已有超过 70% 可以直接在 Linux 系统上运行，其中就包括《赛博朋克 2077》、《荒野大镖客 2》、《艾尔登法环》等热门作品。 像 openSUSE 这样的 Linux 发行版并不只是凑热闹。这些发行版正在以可靠的性能和持续的改进推动 Linux 平台游戏领域的发展。 为什么游戏玩家选择 openSUSE 滚动更新版还是稳定版？任你选。想要发布后就能尽快体验到最新的 Mesa 驱动和...</description>
-      <content:encoded>&lt;p&gt;想象一下：你在2016年组装了一台游戏电脑，至今仍能轻松应对 1080p 游戏大作，运行温度不高，摆在桌面上也十分美观。但如今，Windows 10 的生命周期即将结束，而升级意味着更高的硬件要求和不菲的成本。或许要换新的主板、新的 CPU，大概要上千的 💰 就为了继续玩你原本就能运行的游戏。&lt;/p&gt;
-
-&lt;p&gt;与其屈服于厂家&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E8%A8%88%E7%95%AB%E6%80%A7%E5%A0%B1%E5%BB%A2&quot;&gt;强制淘汰&lt;/a&gt;的做法，不如安装某一版本的 &lt;a href=&quot;https://get.opensuse.org/zh_CN/&quot;&gt;openSUSE&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;游戏依旧能玩，对局照样能赢。只是这次，是在 Linux 上。&lt;/p&gt;
-
-&lt;p&gt;游戏玩家对 Linux 这个名字并不陌生，其使用率也在悄然转变。Google Trends 数据显示，当前“Windows 平台游戏”的搜索热度与大约五年前（即新冠疫情期间更多人在业余时间参与数字活动时）的趋势相似。而同期“Linux 平台游戏”的搜索量却增长到之前的三倍。&lt;/p&gt;
-
-&lt;p&gt;截图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-05/trend.png&quot; alt=&quot;兴趣增长趋势&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;在 Linux 系统上玩游戏，不再意味着必须放弃你的 &lt;a href=&quot;https://store.steampowered.com/&quot;&gt;Steam&lt;/a&gt; 游戏库，或是为了启动一款游戏而长时间捣鼓配置。得益于 &lt;a href=&quot;https://github.com/ValveSoftware/Proton&quot;&gt;Proton&lt;/a&gt; 兼容层的支持，Steam 平台上 Top 100 的游戏中已有超过 70% 可以直接在 Linux 系统上运行，其中就包括《赛博朋克 2077》、《荒野大镖客 2》、《艾尔登法环》等热门作品。&lt;/p&gt;
-
-&lt;p&gt;像 openSUSE 这样的 Linux 发行版并不只是凑热闹。这些发行版正在以可靠的性能和持续的改进推动 Linux 平台游戏领域的发展。&lt;/p&gt;
-
-&lt;h2 id=&quot;为什么游戏玩家选择-opensuse&quot;&gt;为什么游戏玩家选择 openSUSE&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;滚动更新版还是稳定版？任你选。想要发布后就能尽快体验到最新的 &lt;a href=&quot;https://mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 驱动和 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;Linux 内核&lt;/a&gt;？请使用 &lt;a href=&quot;https://get.opensuse.org/zh_CN/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt;；这是 openSUSE 的滚动发布版本。更喜欢静态版本？&lt;a href=&quot;https://get.opensuse.org/zh_CN/leap/15.6/&quot;&gt;Leap&lt;/a&gt; 专为可靠性和长期稳定运行而设计，不会突然有意外的变化。&lt;/li&gt;
-  &lt;li&gt;出色的硬件支持。&lt;a href=&quot;https://www.amd.com/zh-cn.html&quot;&gt;AMD&lt;/a&gt; 和 &lt;a href=&quot;https://www.intel.cn/content/www/cn/zh/homepage.html&quot;&gt;Intel&lt;/a&gt; 硬件均可开箱即用。&lt;a href=&quot;https://www.nvidia.cn/&quot;&gt;NVIDIA&lt;/a&gt; 驱动程度只需要一条命令即可安装。该发行版紧要上游 Linux 图形技术开发要点，专为游戏场景优化。&lt;/li&gt;
-  &lt;li&gt;为高级用户打造。你无需一定是技术专家，但如果你是，Btrfs 文件系统快照和 &lt;a href=&quot;https://zh.opensuse.org/SDB:Zypper_%E7%94%A8%E6%B3%95&quot;&gt;zypper&lt;/a&gt; 包管理器将赋予你强大的控制权。这不是简化版的 Linux，而是一台为性能和可定制性精心调校的完整系统。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;数分钟内完成设置&quot;&gt;数分钟内完成设置&lt;/h2&gt;
-&lt;p&gt;游戏玩家无需花费数小时配制他们的操作系统。openSUSE 提供了简明的 &lt;a href=&quot;https://zh.opensuse.org/%E9%A6%96%E9%A1%B5&quot;&gt;Wiki 指南&lt;/a&gt;和一行命令让这件事变得很简单：&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper install steam lutris mangohud gamemode&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;打开 Steam 里的 Proton 兼容层，在 Lutris 上关联你的 Epic 账号，配制结束。&lt;/p&gt;
-
-&lt;p&gt;下面是一些能直接开玩的热门游戏：&lt;/p&gt;
-
-&lt;p&gt;Linux 原生支持的：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Counter-Strike 2 （CS 2）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Dota 2&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No Man’s Sky 无人深空&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Valheim: 英灵神殿&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Terraria （泰拉瑞亚）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;通过 Proton 兼容层运行的游戏：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;赛博朋克 2077&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Baldur’s Gate 3 （博德之门 3）&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;巫师 3：狂猎&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;霍格沃茨之遗&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Starfield&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;升级到 Windows 11 可能会带来超出人们承受范围的成本，甚至导致仍在&lt;a href=&quot;https://news.opensuse.org/2025/04/14/replace-windows-not-your-device/&quot;&gt;正常工作的硬件被弃用&lt;/a&gt;，从而产生不必要的电子垃圾。这一问题已引起全球范围内 &lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;End of 10&lt;/a&gt; 的倡议。&lt;/p&gt;
-
-&lt;p&gt;Linux，尤其是 openSUSE，为用户提供了一条出路。游戏不能因系统支持终止而结束。&lt;/p&gt;
-
-&lt;p&gt;无论你是休闲玩家还是硬核发烧友，你的硬件仍有多年使用寿命。openSUSE 和其他 Linux 发行版可以帮助你继续发挥这些设备的价值。&lt;/p&gt;
-
-&lt;p&gt;立即加入迁移的行列中来。访问 &lt;a href=&quot;https://endof10.org/zh-cn/&quot;&gt;endof10.org&lt;/a&gt; 参与社区活动，获取迁移到 Linux 的指导，或前往 &lt;a href=&quot;https://get.opensuse.org/zh_CN/&quot;&gt;get.opensuse.org&lt;/a&gt; 下载最适合您的 openSUSE 版本。你也还可以考虑 &lt;a href=&quot;https://aeondesktop.github.io/&quot;&gt;Aeon&lt;/a&gt; 和 &lt;a href=&quot;https://kalpadesktop.org/&quot;&gt;Kalpa&lt;/a&gt; 作为备选。&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;这是 &lt;a href=&quot;https://news.opensuse.org/category/upgrade-to-freedom&quot;&gt;告别 Win10（End of 10）&lt;/a&gt; 系列内容的一部分，在此我们倡导使用免费及开源软件（Free &amp;amp; Open Source Software, FOSS）作为解决方案，帮助那些希望继续使用现有设备而非更换硬件的 Windows 10 用户，避免造成仍在正常运行设备的电子垃圾问题。&lt;/small&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/05/16/why-gaming-w-opensuse-is-a-good-move/&quot;&gt;Why Gaming with openSUSE Is A Good Move&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
