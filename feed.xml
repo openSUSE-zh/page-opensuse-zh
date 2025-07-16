@@ -7,6 +7,156 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2025/07/16/local-llm-with-openSUSE.html</guid>
+      <title>在 openSUSE Tumbleweed 上使用 Ollama 运行本地大语言模型</title>
+      <pubDate>Wed, 16 Jul 2025 02:30:00 +0000</pubDate>
+      <link>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2025/07/16/local-llm-with-openSUSE.html</link>
+      <author>Fangzhou Liu</author>
+      <description>本文为社区投稿作品翻译。 在本地计算机上运行大型语言模型（LLM）正变得越来越流行，它能提供隐私保护、离线访问和自定义功能。Ollama 是一款出色的工具，可以简化本地下载、设置和运行 LLM 的流程。它以强大的 llama.cpp 作为后端，支持在各种硬件上高效推理。本指南将介绍如何在 openSUSE Tumbleweed 上安装 Ollama，并解释 Modelfile、模型标签和量化等关键概念。 在 openSUSE Tumbleweed 上安装 Ollama Ollama 提供了简单的一键安装命令。打开终端并运行以下指令： curl -fsSL https://ollama.com/install.sh | sh 该脚本将在你的系统上下载并安装 Ollama，并自动检测是否支持 GPU 以进行相应配置。 如果更倾向于使用 zypper ，你可以直接在仓库中安装 Ollama： sudo zypper install ollama 该命令会下载 Ollama 及其所有依赖。如遇到问题，请确保系统已经更新： sudo zypper refresh sudo zypper update 安装结束后，你可以启动 Ollama 服务： sudo systemctl...</description>
+      <content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;本文为社区投稿作品翻译。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;在本地计算机上运行大型语言模型（LLM）正变得越来越流行，它能提供隐私保护、离线访问和自定义功能。&lt;a href=&quot;https://build.opensuse.org/package/show/openSUSE%3AFactory/ollama&quot;&gt;Ollama&lt;/a&gt; 是一款出色的工具，可以简化本地下载、设置和运行 LLM 的流程。它以强大的 &lt;a href=&quot;https://build.opensuse.org/package/show/openSUSE%3AFactory/llamacpp&quot;&gt;llama.cpp&lt;/a&gt; 作为后端，支持在各种硬件上高效推理。本指南将介绍如何在 openSUSE Tumbleweed 上安装 Ollama，并解释 Modelfile、模型标签和量化等关键概念。&lt;/p&gt;
+
+&lt;h2 id=&quot;在-opensuse-tumbleweed-上安装-ollama&quot;&gt;在 openSUSE Tumbleweed 上安装 Ollama&lt;/h2&gt;
+
+&lt;p&gt;Ollama 提供了简单的一键安装命令。打开终端并运行以下指令：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://ollama.com/install.sh | sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;该脚本将在你的系统上下载并安装 Ollama，并自动检测是否支持 GPU 以进行相应配置。&lt;/p&gt;
+
+&lt;p&gt;如果更倾向于使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt; ，你可以直接在仓库中安装 Ollama：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;zypper &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;该命令会下载 Ollama 及其所有依赖。如遇到问题，请确保系统已经更新：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;zypper refresh
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;zypper update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;安装结束后，你可以启动 Ollama 服务：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl start ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;如需要设置开机自启：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;systemctl &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;ollama
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;运行第一个大语言模型&quot;&gt;运行第一个大语言模型&lt;/h2&gt;
+
+&lt;p&gt;安装好 Ollama 之后，只需要一条简单的命令就可以运行大语言模型了。让我们试下运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llama3&lt;/code&gt; 模型：&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ollama run llama3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;首次运行该命令时，Ollama 会下载模型文件。根据你的网络情况，下载可能需要一些时间。完成后，你将进入交互界面，并可以直接与模型对话。&lt;/p&gt;
+
+&lt;h2 id=&quot;选择合适的模型&quot;&gt;选择合适的模型&lt;/h2&gt;
+
+&lt;p&gt;Ollama 模型库提供了丰富的选择。访问 &lt;a href=&quot;https://ollama.com/library&quot;&gt;Ollama 官网&lt;/a&gt; 的模型页面时，你会看到各种“标签”。理解这些标签的含义，对选择适合你需求和硬件配置的模型至关重要。&lt;/p&gt;
+
+&lt;h3 id=&quot;模型规格参数如-7b8x7b70b&quot;&gt;模型规格参数（如 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7b&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8x7b&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70b&lt;/code&gt;）&lt;/h3&gt;
+
+&lt;p&gt;这些标签指的是模型参数规格，单位为十亿。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;7b&lt;/code&gt;&lt;/strong&gt;：70 亿参数模型。适合通用任务，运行速度较快，内存需求不高。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4b&lt;/code&gt;&lt;/strong&gt;：40 亿参数模型。体积更小速度更快，适合资源有限的设备。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70b&lt;/code&gt;&lt;/strong&gt;：700 亿参数模型。性能更强能力更全面，但需要大内存和高性能 GPU 才能达到理想速度。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8x7b&lt;/code&gt;&lt;/strong&gt;：这是“混合专家”（Mixture of Experts, MoE）模型。包含 8 个 70 亿参数的专家模型，每次请求只使用其中部分参数，比同等规模的传统模型更高效。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;70b_MoE&lt;/code&gt;&lt;/strong&gt;：类似 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;8x7b&lt;/code&gt;，这是 700 亿参数的 MoE 模型，在某些任务上效率更高。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;专用标签如toolsthinkingvision&quot;&gt;专用标签（如&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tools&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thinking&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vision&lt;/code&gt;）&lt;/h3&gt;
+
+&lt;p&gt;部分模型针对特定任务进行了微调：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tools&lt;/code&gt;&lt;/strong&gt;：这类模型专为“工具使用”设计，大语言模型可以调用外部工具（如计算器或 API）来回答问题。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thinking&lt;/code&gt;&lt;/strong&gt;：该标签通常表示模型经过训练会“展示思考过程”或逐步推理，在处理复杂推理任务时能提供更准确的结果。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vision&lt;/code&gt;&lt;/strong&gt;：带有此标签的模型针对视觉输入任务（如图像识别或分析）进行了优化。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;蒸馏模型distill&quot;&gt;蒸馏模型（&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;distill&lt;/code&gt;）&lt;/h3&gt;
+
+&lt;p&gt;“蒸馏”模型是通过训练小型模型模仿大型模型输出而得到的精简版本。其目标是将大模型的知识和能力转移到更小、更高效的模型中。&lt;/p&gt;
+
+&lt;h2 id=&quot;量化技术说明&quot;&gt;量化技术说明&lt;/h2&gt;
+
+&lt;p&gt;Ollama 上的大多数模型都经过“量化”处理。量化是指降低模型权重（构成模型的数值）精度的过程。这能减小模型文件体积并降低运行所需的内存和显存，但会轻微影响准确性。&lt;/p&gt;
+
+&lt;p&gt;常见的量化标签包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fp16&lt;/code&gt;&lt;/strong&gt;：16 位全精度浮点。通常是未经量化的原始版本，提供最佳质量但资源需求最高。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q8&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q8_0&lt;/code&gt;&lt;/strong&gt;：8 位量化。性能与质量的理想平衡。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q4&lt;/code&gt;&lt;/strong&gt;：4 位量化。体积显著减小、速度更快，但对质量影响较明显。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q4_K_M&lt;/code&gt;&lt;/strong&gt;：进阶版 4 位量化。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;K_M&lt;/code&gt; 表示采用 K 均值量化方法的中等规格变体，通常比标准 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q4&lt;/code&gt; 量化质量更好。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q8_O&lt;/code&gt;&lt;/strong&gt;：新版 8 位量化方法，相比旧版 8 位量化在性能和质量上都有提升。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;对大多数用户来说，选择 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q4_K_M&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q8_0&lt;/code&gt; 版本的模型是最佳起点。&lt;/p&gt;
+
+&lt;h2 id=&quot;使用-modelfile-自定义模型&quot;&gt;使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Modelfile&lt;/code&gt; 自定义模型&lt;/h2&gt;
+
+&lt;p&gt;Ollama 采用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Modelfile&lt;/code&gt; 概念来实现模型定制。这个文本文件可以定义基础模型、系统提示词、参数等配置。&lt;/p&gt;
+
+&lt;p&gt;以下是为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;llama3&lt;/code&gt; 模型创建海盗角色的简单示例：&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;FROM llama3
+
+# Set the temperature for creativity
+PARAMETER temperature 1
+
+# Set the system message
+SYSTEM &quot;&quot;&quot;
+You are a pirate. You will answer all questions in the voice of a pirate.
+&quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;创建并运行自定义模型的步骤：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;将上述内容保存为当前目录下的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Modelfile&lt;/code&gt; 文件&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;执行创建命令：&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ollama create pirate &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; ./Modelfile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;运行定制模型：&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ollama run pirate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;现在你的大语言模型就会用海盗口吻回应了！虽然这是简单示例，但 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Modelfile&lt;/code&gt; 能实现更复杂的定制需求。&lt;/p&gt;
+
+&lt;p&gt;如需了解更多信息，请查阅 Ollama 官方文档：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ollama/ollama/tree/main/docs&quot;&gt;Ollama官方文档&lt;/a&gt;：核心功能说明&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ollama/ollama/blob/main/docs/import.md&quot;&gt;模型导入指南&lt;/a&gt;：其他格式模型的导入方法&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://huggingface.co/docs/hub/en/ollama&quot;&gt;Hugging Face集成&lt;/a&gt;：与Hugging Face平台的协作说明&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;祝你在 openSUSE 系统上定制模型玩得开心！&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/12/local-llm-with-openSUSE/&quot;&gt;Running Local LLMs with Ollama on openSUSE Tumbleweed&lt;/a&gt;，作者：Onuralp SEZER&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/15/sovereign-ai-platform-picks-opensuse.html</guid>
       <title>主权 AI 平台选择 openSUSE</title>
       <pubDate>Tue, 15 Jul 2025 02:30:00 +0000</pubDate>
@@ -485,38 +635,6 @@
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/10/osas-cfh/&quot;&gt;Asia Summit Call For Host is Here&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/05/set-course-for-osc.html</guid>
-      <title>演讲者敲定 openSUSE 大会议题</title>
-      <pubDate>Thu, 05 Jun 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/05/set-course-for-osc.html</link>
-      <author>Fangzhou Liu</author>
-      <description>2025 年 6 月 26 日至 28 日将在纽伦堡举行的 2025 openSUSE 大会 将成为开源软件社区的一次盛大聚会。 为期三天的会议安排紧凑，包括演讲、研讨会和讨论环节，同时还包含三场主题演讲。 今年的会议将邀请 SUSE 首席执行官 Dirk-Peter van Leeuwen，他将回顾 openSUSE 社区 20 年的发展历程。同一天还将有另一场主题演讲，由 Heinlein 集团创始人 Peer Heinlein 呈现，该集团包括 Heinlein Support、mailbox.org、OpenTalk 和 OpenCloud 等公司，他的演讲将聚焦 用户使用专有软件时所面临的风险。第三场主题演讲将由 Tropic Square 的首席执行官 Jan Pleskač 主讲，他将强调 扩展开源硬件 日益增长的需求。 本次会议将全面展示 openSUSE 的未来方向、项目发展过程中出现的挑战，以及开源社区如何应对和解决这些问题。 有一些议题引起了广泛关注，例如 “公共资金？公共代码！”（Public Money? Public Code!），以及...</description>
-      <content:encoded>&lt;p&gt;2025 年 6 月 26 日至 28 日将在纽伦堡举行的 &lt;a href=&quot;https://events.opensuse.org/&quot;&gt;2025 openSUSE 大会&lt;/a&gt; 将成为开源软件社区的一次盛大聚会。&lt;/p&gt;
-
-&lt;p&gt;为期三天的会议安排紧凑，包括演讲、研讨会和讨论环节，同时还包含三场主题演讲。&lt;/p&gt;
-
-&lt;p&gt;今年的会议将邀请 SUSE 首席执行官 Dirk-Peter van Leeuwen，他将回顾 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/5038&quot;&gt;openSUSE 社区 20 年的发展历程&lt;/a&gt;。同一天还将有另一场主题演讲，由 Heinlein 集团创始人 Peer Heinlein 呈现，该集团包括 &lt;a href=&quot;https://www.heinlein-support.de/&quot;&gt;Heinlein Support&lt;/a&gt;、&lt;a href=&quot;https://mailbox.org/en/&quot;&gt;mailbox.org&lt;/a&gt;、&lt;a href=&quot;https://opentalk.eu/en&quot;&gt;OpenTalk&lt;/a&gt; 和 &lt;a href=&quot;https://opencloud.eu/&quot;&gt;OpenCloud&lt;/a&gt; 等公司，他的演讲将聚焦 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4984&quot;&gt;用户使用专有软件时所面临的风险&lt;/a&gt;。第三场主题演讲将由 &lt;a href=&quot;https://github.com/tropicsquare&quot;&gt;Tropic Square&lt;/a&gt; 的首席执行官 Jan Pleskač 主讲，他将强调 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4998&quot;&gt;扩展开源硬件&lt;/a&gt; 日益增长的需求。&lt;/p&gt;
-
-&lt;p&gt;本次会议将全面展示 openSUSE 的未来方向、项目发展过程中出现的挑战，以及开源社区如何应对和解决这些问题。&lt;/p&gt;
-
-&lt;p&gt;有一些议题引起了广泛关注，例如 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4949&quot;&gt;“公共资金？公共代码！”（Public Money? Public Code!）&lt;/a&gt;，以及 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/5029&quot;&gt;一系列&lt;/a&gt; 关于 &lt;a href=&quot;https://en.wikipedia.org/wiki/Cyber_Resilience_Act&quot;&gt;《网络弹性法案》（Cyber Resilience Act, CRA）&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Cyber-security_regulation&quot;&gt;《网络与信息安全指令》（Network and Information Security 2 Directive, NIS2）&lt;/a&gt; 合规准备的演讲。这些会议探讨了欧洲网络安全法规对中小型开源供应商的影响，以及为适应不断变化的法律环境所需采取的步骤。&lt;/p&gt;
-
-&lt;p&gt;在技术方面，继续围绕集成与自动化展开讨论。有一场演讲展示了如何将 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4971&quot;&gt;Uyuni 紧密集成到现有的基础设施管理工具中&lt;/a&gt;，例如 Ansible 和 Terraform。另一场会议发布了一款名为 container-snap 的原型工具，该工具通过 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/5009&quot;&gt;OCI 镜像&lt;/a&gt; 实现原子化的操作系统更新，有助于消除升级过程中出现系统损坏的风险。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2025/04/30/leap-16-enters-beta/&quot;&gt;Leap 16.0 Beta&lt;/a&gt; 版本将拥有专门的会议环节，另外还有一场名为 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4991&quot;&gt;“从 ALP 到 SLES16”&lt;/a&gt; 的演讲，将探讨 SUSE Linux Enterprise 的未来发展方向。&lt;/p&gt;
-
-&lt;p&gt;关于 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/4967&quot;&gt;大语言模型（LLM）的工作坊&lt;/a&gt; 将展示如何在本地运行大型语言模型，并将其转化为实用的智能助理。一个名为 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/program/proposals/5033&quot;&gt;Kowalski&lt;/a&gt; 的热门“企鹅AI”项目也将在会议中引起关注。&lt;/p&gt;
-
-&lt;p&gt;许多演讲中都体现出一个共同的紧迫感：用户赋权 （user empowerment）。名为“告别 Win10 安装工作坊”（End of 10 Install Workshop）的环节旨在鼓励用户在老旧或再利用的硬件上安装 openSUSE，以为微软不再为 Windows 10 官方支持的那一日到来做准备。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 2025 大会的完整日程安排请见： &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25/schedule&quot;&gt;events.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/03/speakers-set-course-for-osc/&quot;&gt;Speakers Set Course for openSUSE Conference&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
