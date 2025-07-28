@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    在 openSUSE 中借助全磁盘加密防范恶意设备 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="openSUSE 如今有多种方式可配置全磁盘加密（FDE）安装。正如我们多次描述的那样（例如 这里、这里 或 这里），一种非常安全且简便的方法（通过 YaST2）是借助用户空间工具来实现。该解决方案基于 systemd 工具集，如 systemd-cryptenroll、systemd-pcrlock 和 sys...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="在 openSUSE 中借助全磁盘加密防范恶意设备">
+  <meta property="og:description"
+    content="openSUSE 如今有多种方式可配置全磁盘加密（FDE）安装。正如我们多次描述的那样（例如 这里、这里 或 这里），一种非常安全且简便的方法（通过 YaST2）是借助用户空间工具来实现。该解决方案基于 systemd 工具集，如 systemd-cryptenroll、systemd-pcrlock 和 sys...">
+  <meta property=" og:url" content="/_posts/2025-07-26-fde-rogue-device.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Fangzhou Liu">
+  <meta property="og:article:published_time" content="2025-07-26T02:30:00+00:00">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2025-07/fde.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="在 openSUSE 中借助全磁盘加密防范恶意设备">
+  
+  <meta name="twitter:description"
+    content="openSUSE 如今有多种方式可配置全磁盘加密（FDE）安装。正如我们多次描述的那样（例如 这里、这里 或 这里），一种非常安全且简便的方法（通过 YaST2）是借助用户空间工具来实现。该解决方案基于 systemd 工具集，如 systemd-cryptenroll、systemd-pcrlock 和 sys...">
+  
+  <meta name="twitter:url" content="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2025-07/fde.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025">
+			2025
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/07">
+			
+			七月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/07/26">
+			26
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		在 openSUSE 中借助全磁盘加密防范恶意设备
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">在 openSUSE 中借助全磁盘加密防范恶意设备</h1>
+		<p class="text-center text-muted">
+			2025-07-26
+			|
+			Fangzhou Liu
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2025-07/fde.png"
+			alt="在 openSUSE 中借助全磁盘加密防范恶意设备">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>openSUSE 如今有多种方式可配置全磁盘加密（FDE）安装。正如我们多次描述的那样（例如 <a href="https://news.opensuse.org/2023/12/20/systemd-fde/">这里</a>、<a href="https://microos.opensuse.org/blog/2023-12-20-sdboot-fde/">这里</a> 或 <a href="https://news.opensuse.org/2024/09/20/quickstart-fde-yast2/">这里</a>），一种非常安全且简便的方法（通过 YaST2）是借助用户空间工具来实现。该解决方案基于 <code class="language-plaintext highlighter-rouge">systemd</code> 工具集，如 <code class="language-plaintext highlighter-rouge">systemd-cryptenroll</code>、<code class="language-plaintext highlighter-rouge">systemd-pcrlock</code> 和 <code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 等，由内部的 <code class="language-plaintext highlighter-rouge">sdbootutil</code>s 脚本进行协调。</p>
+
+<p>使用这种 <code class="language-plaintext highlighter-rouge">systemd</code> 方法的主要优势之一是能够集成多种认证方式。除了在 <code class="language-plaintext highlighter-rouge">initrd</code> 阶段启动时要求输入的传统密码外，我们现在还可以使用证书、<code class="language-plaintext highlighter-rouge">TPM2</code> 或 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥来解锁系统。我们可以将其中一些方式结合起来，创建多个 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥槽，例如，使用 <code class="language-plaintext highlighter-rouge">TPM2</code> 以无人值守的方式解锁设备，并将 <code class="language-plaintext highlighter-rouge">FIDO2</code> 密钥用作恢复机制。</p>
+
+<p>说实话，<code class="language-plaintext highlighter-rouge">TPM2</code> 以及 <code class="language-plaintext highlighter-rouge">TPM2+PIN</code> 的组合，对用户而言是最实用的。正如我们在其他文章中所描述的，<code class="language-plaintext highlighter-rouge">TPM2</code> 是一种（有时是虚拟的）设备，它能够通过一种名为测量启动（<code class="language-plaintext highlighter-rouge">measured boot</code>）的机制来验证系统的健康状态。</p>
+
+<p>简单来说的话，启动过程的每个阶段，从固件开始，都会在将执行权交给下一阶段之前，先加载并 “测量” 该阶段。例如，这意味着在启动过程的最后阶段，UEFI 固件会从磁盘将引导加载程序（可能是 <code class="language-plaintext highlighter-rouge">shim</code>、<code class="language-plaintext highlighter-rouge">systemd-boot</code> 或 <code class="language-plaintext highlighter-rouge">grub2-bls</code>）加载到内存中。随后，它会计算一个哈希值（通常是 <code class="language-plaintext highlighter-rouge">SHA256</code>），并命令 <code class="language-plaintext highlighter-rouge">TPM2</code> 对其内部寄存器（<code class="language-plaintext highlighter-rouge">PCR</code>）之一执行 “扩展”（extend）操作。</p>
+
+<p>这种 “扩展” 是一种加密计算，它易于计算却无法复制。扩展操作针对 TPM2 的某个内部寄存器（<code class="language-plaintext highlighter-rouge">PCR</code>）进行，具体过程是：将该 <code class="language-plaintext highlighter-rouge">PCR</code> 的旧值与被测量组件的哈希值（同样采用 <code class="language-plaintext highlighter-rouge">SHA256</code> 算法）结合起来，计算出一个新的哈希值。这个新值会取代 <code class="language-plaintext highlighter-rouge">PCR</code> 当前的值，而这也是修改这些寄存器的唯一方式。其安全特性在于，从加密角度而言，强行向 <code class="language-plaintext highlighter-rouge">PCR</code> 写入预期值是不可能的，但计算最终值却十分容易。</p>
+
+<p>这意味着，如果启动链过程中的所有组件（包括 <code class="language-plaintext highlighter-rouge">UEFI</code> 固件的所有阶段、固件配置、引导加载程序、命令行、内核乃至 <code class="language-plaintext highlighter-rouge">initrd</code>）都经过测量，那么我们就可以将最终的 <code class="language-plaintext highlighter-rouge">PCR</code> 值与预期值进行比对，从而判断系统是否是通过已知的正常软件和配置启动的，进而能立即发现启动链中的某个组件是否被非法篡改或入侵。</p>
+
+<p>这是一项强大的特性，但更有趣的是，我们可以让机密信息仅在系统处于已知的安全状态时才能被访问。例如，我们可以使用 <code class="language-plaintext highlighter-rouge">TPM2</code> 对用于解锁加密磁盘的密钥进行加密（密封），同时设置一项策略：只有在使用同一 <code class="language-plaintext highlighter-rouge">TPM2</code> 且 <code class="language-plaintext highlighter-rouge">PCR</code> 值与预期列表中的值匹配时，才能对该密钥进行解密（解封）。这些策略可以非常复杂，还能包含额外的密码、证书或其他验证项，<code class="language-plaintext highlighter-rouge">TPM2</code> 必须在验证通过后才能解封密钥。</p>
+
+<p>借助这种机制，在 <code class="language-plaintext highlighter-rouge">systemd</code> 工具的支持下，当系统处于健康状态时，我们无需输入密码即可解锁加密磁盘。这里的 “健康” 是指，通过加密方式确保启动过程中使用的代码和配置与预期一致，例如，内核命令行中未被植入 <code class="language-plaintext highlighter-rouge">init=/bin/bash</code> 这样的恶意指令，内核或 <code class="language-plaintext highlighter-rouge">initrd</code> 也未被替换为存在漏洞的版本。</p>
+
+<p>在 openSUSE 中，我们对该模型进行了集成，使得系统更新（包括引导加载程序或内核更新）时，<code class="language-plaintext highlighter-rouge">sdbootutil</code> 会自动生成新的预期 <code class="language-plaintext highlighter-rouge">PCR</code> 值（这些值被视为安全的）。这意味着 <code class="language-plaintext highlighter-rouge">TPM2</code> 策略会相应更新，并在下次启动时生效，从而确保自动解锁能够成功。若出现异常情况，即实际 <code class="language-plaintext highlighter-rouge">PCR</code> 值与预期不符，用户则需要输入存储在另一个 <code class="language-plaintext highlighter-rouge">LUKS2</code> 密钥槽中的密码来解锁设备，进而对系统进行审计和验证。</p>
+
+<h2 id="设计中的潜在缺陷">设计中的潜在缺陷</h2>
+
+<p>如前所述，使用 <code class="language-plaintext highlighter-rouge">TPM2</code> 无疑能提升安全等级，但它并非终极解决方案 —— 安全性始终是一种渐近式的逼近（没有绝对的安全）。</p>
+
+<p>几年前，有人针对 Windows BitLocker 的全磁盘加密方案提出了一种 <a href="https://cybersecurity.bureauveritas.com/blog/tpm-sniffing-attacks-against-non-bitlocker-targets">物理攻击方式</a>。BitLocker 同样采用了类似前文所述的 <code class="language-plaintext highlighter-rouge">TPM2</code> 使用逻辑，但它在与设备通信时未采用加密会话。攻击者通过拦截 SPI 总线，就可能获取用于解锁磁盘的密码。<code class="language-plaintext highlighter-rouge">systemd</code> 从这一案例中吸取教训，很早就采用了加密会话来应对此类风险；不过，若用于解封密钥的策略还要求用户输入 PIN 码或密码，这类攻击也能被避免 —— 此时，<code class="language-plaintext highlighter-rouge">TPM2</code> 只有在 <code class="language-plaintext highlighter-rouge">PCR</code> 值符合预期且用户提供的密码正确时，才能解封密钥。需要说明的是，SPI 嗅探攻击对 Clevis（一种加密框架）同样可能 <a href="https://www.securitum.com/extracting_clevisbitlocker_secrets_from_tpm_traffic_.html">奏效</a>。</p>
+
+<p>但最近又出现了一种新的公开 <a href="https://oddlama.org/blog/bypassing-disk-encryption-with-tpm2-unlock/">攻击方式</a>，它能直接影响上述原始设计，且实施难度远低于前一种攻击（说明：我们内部几个月前就独立发现了这一攻击方式，并早已采取了相应的应对措施）。</p>
+
+<p>该文章描述了这种攻击的实施方式：通过检查 <code class="language-plaintext highlighter-rouge">initrd</code> 中用于挂载加密设备的文件系统 UUID 来实现。相关信息存储在 <code class="language-plaintext highlighter-rouge">initrd</code> 内的 <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 中，其内容大致如下：</p>
+
+<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>systemd-cryptsetup attach cr_root /dev/disk/by-uuid/<span class="nv">$UUID</span> <span class="s1">'none'</span> <span class="s1">'tpm2-device=auto'</span>
+</code></pre></div></div>
+
+<p>如果启动过程中使用的是预期的固件、配置文件、内核和 <code class="language-plaintext highlighter-rouge">initrd</code>，那么 <code class="language-plaintext highlighter-rouge">TPM2</code> 的 <code class="language-plaintext highlighter-rouge">PCR</code> 寄存器值将与解锁设备的策略匹配，<code class="language-plaintext highlighter-rouge">TPM2</code> 会解封密封的密钥，磁盘随之解锁，根文件系统切换（switch root）成功，启动过程将在根文件系统（rootfs）中继续进行。</p>
+
+<p>但如果原始驱动器被替换成了另一个加密设备，而这个设备具有相同的 <code class="language-plaintext highlighter-rouge">UUID</code>（毕竟 UUID 是公开信息），会发生什么呢？此时，<code class="language-plaintext highlighter-rouge">PCR</code> 寄存器的值仍会处于正确状态（因为测量启动中，前一阶段会先测量下一阶段再移交执行权，替换驱动器不会影响此前的测量结果）。接下来，<code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 会尝试用 <code class="language-plaintext highlighter-rouge">TPM2</code> 成功解封的密钥去解锁这个设备，结果自然是解锁失败。这个恶意设备的 <code class="language-plaintext highlighter-rouge">LUKS2</code> 头部里或许也有一个 <code class="language-plaintext highlighter-rouge">TPM2</code> 密钥槽，但毫无疑问，它既无法用这个 <code class="language-plaintext highlighter-rouge">TPM2</code> 解锁，也无法用那个（用户的）秘密密码解锁。</p>
+
+<p>这种情况下，<code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 会尝试用 <code class="language-plaintext highlighter-rouge">TPM2</code> 解封的密钥解锁设备，结果必然失败。随后，它会要求用户输入密码以解锁设备，而攻击者此时可以输入一个能解锁该恶意设备的密码。根文件系统切换会顺利完成，但启动过程将在假根文件系统（fake <code class="language-plaintext highlighter-rouge">rootfs</code>） 中继续——存储在该文件系统中的程序可以向 <code class="language-plaintext highlighter-rouge">TPM2</code> 发送请求（此时 <code class="language-plaintext highlighter-rouge">TPM2</code> 仍保存着正确的 <code class="language-plaintext highlighter-rouge">PCR</code> 值），其中一个请求可能是根据当前策略解封密钥。而这一次（和之前的正常流程一样），<code class="language-plaintext highlighter-rouge">TPM2</code> 会同意将密钥交给这个恶意程序。至此，攻击成功。</p>
+
+<p>针对这种攻击，当然有相应的解决办法。</p>
+
+<p>一种办法是再次采用 <code class="language-plaintext highlighter-rouge">TPM2+PIN</code> 的组合，而非仅使用 <code class="language-plaintext highlighter-rouge">TPM2</code>，这与应对嗅探攻击的解决思路一致。在这种情形下，首次调用 <code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 会失败，系统会要求用户输入密码来解锁设备。但此时，恶意程序无法让 <code class="language-plaintext highlighter-rouge">TPM2</code> 依据当前策略解封设备。尽管 <code class="language-plaintext highlighter-rouge">PCR</code> 值是匹配的，但该策略还要求输入只有真正用户才知晓的秘密 PIN 码或密码，要是没有这个密码，解封操作就会失败，密钥也能得以安全保存。</p>
+
+<p>另一种解决办法是在某种程度上使策略失效，即在根文件系统切换（switch root）之前，对部分相关的 <code class="language-plaintext highlighter-rouge">PCR</code> 寄存器进行扩展操作，这样一来，之后该策略就无法再被应用。<code class="language-plaintext highlighter-rouge">systemd-cryptsetup</code> 可以通过在 <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 中设置 <code class="language-plaintext highlighter-rouge">measure-pcr=yes</code> 来自动实现这一点。启用这个选项后，会使用卷密钥（只有知道某些设备密钥才能提取出的一种秘密信息）对 <code class="language-plaintext highlighter-rouge">PCR15</code> 进行扩展。要让这个解决方案生效，需要把 <code class="language-plaintext highlighter-rouge">PCR15</code> 纳入当前策略中，其预期值设为默认的 <code class="language-plaintext highlighter-rouge">0x000..00</code>。一旦黑客用自己提供的密码打开了恶意设备，<code class="language-plaintext highlighter-rouge">PCR15</code> 就会被自动扩展，其值将不再是 <code class="language-plaintext highlighter-rouge">0x000..00</code>，从而在根文件系统切换之前使该策略失效。</p>
+
+<p>但这个方案对我们而言并不适用。日常使用中，用户需要更新系统（例如更新内核），此时需计算新策略替代旧策略。由于 <code class="language-plaintext highlighter-rouge">systemd-pcrlock</code> 会将策略存储在 <code class="language-plaintext highlighter-rouge">TPM2</code> 的非易失性 RAM 插槽（<code class="language-plaintext highlighter-rouge">NVIndex</code>）中，我们需要保护它不被其他进程替换。为此，<code class="language-plaintext highlighter-rouge">systemd</code> 会将一个恢复 PIN 码存储在另一个 <code class="language-plaintext highlighter-rouge">NVIndex</code> 中，且该 PIN 码由同一策略密封！若因策略失效导致无法自动恢复密钥，系统会要求用户输入恢复 PIN 码——若策略频繁失效，更新过程会变得十分繁琐。</p>
+
+<p>最后，另一种解决思路是：若检测到设备并非预期的那一个，就终止启动过程。可在 <code class="language-plaintext highlighter-rouge">initrd</code> 中新增一个服务，让它在根文件系统切换前的最后一刻运行；一旦发现存储根文件系统（rootfs）的设备不符预期，就立即终止启动（例如让系统停机）。</p>
+
+<p>为此，<code class="language-plaintext highlighter-rouge">PCR15</code> 仍然是一个不错的解决方案。它包含了一个秘密（卷密钥）的测量值，这个秘密只有真正的用户才能知晓，攻击者无法复制。理想情况下，我们可以为 <code class="language-plaintext highlighter-rouge">PCR15</code> 创建一个预期值，让这个服务将实际值与预期值进行比较，如果两者不同，就可以停止启动过程。</p>
+
+<p>这正是 <code class="language-plaintext highlighter-rouge">sdbootutil</code> 中的 <a href="https://github.com/openSUSE/sdbootutil/blob/main/measure-pcr-validator.sh">measure-pcr-validator 服务</a> <a href="https://youtu.be/V52Doa06_WQ?si=jEImU6pzUvqWmcbp">所做的事情</a>。<code class="language-plaintext highlighter-rouge">sdbootutil</code> 首先为所有在 <code class="language-plaintext highlighter-rouge">initrd</code> 期间被打开的加密设备生成一个预期值，并检查 <code class="language-plaintext highlighter-rouge">/etc/crypttab</code> 中是否存在正确的标记。为了能够访问卷密钥，该工具需要根密码，因此这个预期值只在真正需要的时候才会更新，例如添加新的加密设备时。这个预期值由存储在主机中的私钥签名，作为一项额外的安全措施，但由于公钥也存储在 <code class="language-plaintext highlighter-rouge">ESP</code> 中，说实话这并没有增加太多安全性。</p>
+
+<p>额外的 <code class="language-plaintext highlighter-rouge">measure-pcr-generator</code> 服务会规范加密设备的打开顺序，因为这个顺序对于生成唯一可能的 <code class="language-plaintext highlighter-rouge">PCR15</code> 值至关重要。如果只有一个加密设备，测量顺序无关紧要，但如果有三个（例如 <code class="language-plaintext highlighter-rouge">rootfs</code>、<code class="language-plaintext highlighter-rouge">/home 分区</code> 和 <code class="language-plaintext highlighter-rouge">swap 交换分区</code>），就可能产生六个不同且有效的 <code class="language-plaintext highlighter-rouge">PCR15</code> 值。</p>
+
+<p>最后一步是，<code class="language-plaintext highlighter-rouge">initrd</code> 中的 <code class="language-plaintext highlighter-rouge">dracut-pcr-signature</code> 服务会从 <code class="language-plaintext highlighter-rouge">ESP</code> 导入预期值、签名和公钥，这样<code class="language-plaintext highlighter-rouge">measure-pcr-validator</code> 服务就能验证签名并比较 <code class="language-plaintext highlighter-rouge">PCR</code> 值。</p>
+
+<p>这样就大功告成了！</p>
+
+<p>这种方法与新的 <code class="language-plaintext highlighter-rouge">systemd-validatefs</code> 在文件系统层面所做的工作有些类似。</p>
+
+<hr />
+<p>原文：<a href="https://news.opensuse.org/2025/07/18/fde-rogue-devices/">Protecting against rogue devices in openSUSE with Full Disk Encryption</a>，作者：Alberto Planas</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/社区新闻">
+				社区新闻
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html&url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html&amp;title=%E5%9C%A8%20openSUSE%20%E4%B8%AD%E5%80%9F%E5%8A%A9%E5%85%A8%E7%A3%81%E7%9B%98%E5%8A%A0%E5%AF%86%E9%98%B2%E8%8C%83%E6%81%B6%E6%84%8F%E8%AE%BE%E5%A4%87"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=%E5%9C%A8%20openSUSE%20%E4%B8%AD%E5%80%9F%E5%8A%A9%E5%85%A8%E7%A3%81%E7%9B%98%E5%8A%A0%E5%AF%86%E9%98%B2%E8%8C%83%E6%81%B6%E6%84%8F%E8%AE%BE%E5%A4%87&amp;body=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
