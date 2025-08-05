@@ -7,6 +7,104 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/31/urgency-to-switch-builds-copy.html</guid>
+      <title>环球新闻摘要</title>
+      <pubDate>Thu, 31 Jul 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/31/urgency-to-switch-builds-copy.html</link>
+      <author>Fangzhou Liu</author>
+      <description>以下是来自 openSUSE 社区、发布于 planet.opensuse.org 的文章综述。 以下是 7 月 21 日至 27 日社区博客订阅源聚合器上的重点内容精选。其中包括一些最新的博客文章，涉及 2025 年 openSUSE 大会、Tumbleweed 开发的最新动态以及重要的安全见解。 以下是每篇帖子的摘要和链接： openSUSE 2025 大会亮点 openSUSE 2025 大会 —— Ish Sookun 分享了他参加在德国纽伦堡举办的 oSC25 的经历，包括他作为新当选的 openSUSE 董事会成员的视角。此次大会汇集了来自世界各地的开发者、贡献者和开源爱好者。 主要亮点包括：现场设立 openSUSE 商店，方便国际参会者获取周边产品；SUSE 领导层的主题演讲强调开放协作的力量；技术演讲涵盖 SELinux 安全改进、分布式 Kubernetes 集群等主题。此外，Ish 还发表了关于改进 openSUSE 会员管理 以及 在毛里求斯建立镜像站点 的演讲。 Tumbleweed 更新动态 openSUSE Tumbleweed...</description>
+      <content:encoded>&lt;p&gt;以下是来自 openSUSE 社区、发布于 &lt;a href=&quot;https://planet.opensuse.org/&quot;&gt;planet.opensuse.org&lt;/a&gt; 的文章综述。&lt;/p&gt;
+
+&lt;p&gt;以下是 7 月 21 日至 27 日社区博客订阅源聚合器上的重点内容精选。其中包括一些最新的博客文章，涉及 2025 年 openSUSE 大会、Tumbleweed 开发的最新动态以及重要的安全见解。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;以下是每篇帖子的摘要和链接：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;opensuse-2025-大会亮点&quot;&gt;openSUSE 2025 大会亮点&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://sysadmin-journal.com/opensuse-conference-2025/&quot;&gt;openSUSE 2025 大会&lt;/a&gt; —— Ish Sookun 分享了他参加在德国纽伦堡举办的 oSC25 的经历，包括他作为新当选的 openSUSE 董事会成员的视角。此次大会汇集了来自世界各地的开发者、贡献者和开源爱好者。&lt;/p&gt;
+
+&lt;p&gt;主要亮点包括：现场设立 openSUSE 商店，方便国际参会者获取周边产品；SUSE 领导层的主题演讲强调开放协作的力量；技术演讲涵盖 SELinux 安全改进、分布式 Kubernetes 集群等主题。此外，Ish 还发表了关于改进 &lt;a href=&quot;https://youtu.be/iScuu8KjwaA?si=i35AsfesFai-a__2&quot;&gt;openSUSE 会员管理&lt;/a&gt; 以及 &lt;a href=&quot;https://youtu.be/EI1nI3bSYDA?si=vo7cx5g1v1Ei6Z28&quot;&gt;在毛里求斯建立镜像站点&lt;/a&gt; 的演讲。&lt;/p&gt;
+
+&lt;h2 id=&quot;tumbleweed-更新动态&quot;&gt;Tumbleweed 更新动态&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://victorhckinthefreeworld.com/2025/07/25/opensuse-tumbleweed-revision-de-la-semana-30-de-2025/&quot;&gt;openSUSE Tumbleweed 2025 年第 30 周修订版&lt;/a&gt; —— Victorhck 以西班牙语详细回顾了 Tumbleweed 快照 0718、0722 和 0723，并提及因 SELinux 3.9 调试工作导致的延迟。主要更新包括 KDE Plasma 6.4.3、Mesa 25.1.6、Apache 2.4.64 以及 Linux 内核 6.15.7。快照 0724 正在进行质量控制，预计将带来 SELinux 3.9、Bash 5.3 和 Firefox 141.0。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dominique.leuenberger.net/blog/2025/07/tumbleweed-review-of-the-weeks-2025-30/&quot;&gt;Tumbleweed —— 2025 年第 30 周回顾&lt;/a&gt;—— Dominique Leuenberger 对上述提及的 Tumbleweed 快照等内容进行了详细回顾。&lt;/p&gt;
+
+&lt;h2 id=&quot;安全洞察&quot;&gt;安全洞察&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://security.opensuse.org/2025/07/25/spring-spotlight.html&quot;&gt;SUSE 安全团队 2025 年春季聚焦&lt;/a&gt; —— SUSE 安全团队分享了其 2025 年春季工作的见解，包括对 GDM、Flatpak 和 ModemManager 中新 Polkit 功能的审查。他们还详细介绍了在 cyrus-imapd 中发现的权限提升漏洞，以及 systemd-coredump 的配置变更。&lt;/p&gt;
+
+&lt;h2 id=&quot;社区与推广&quot;&gt;社区与推广&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2025/07/23/urgency-to-switch-builds/&quot;&gt;切换 Windows 10 版本的紧迫性&lt;/a&gt; —— Douglas DeMaio 强调了 openSUSE 项目参与 “&lt;a href=&quot;https://endof10.org/&quot;&gt;告别 Win10&lt;/a&gt;” 运动的情况，呼吁用户从 Windows 10（其支持将于 10 月结束）迁移到基于 Linux 的操作系统。文章既强调了继续使用不受支持的系统所面临的网络安全风险，也指出了通过采用 Linux 来延长旧硬件使用寿命所带来的环境效益。&lt;/p&gt;
+
+&lt;h2 id=&quot;技术深度解析&quot;&gt;技术深度解析&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://peter.czanik.hu/other/dealing-with-multiple-syslog-protocols-in-syslog-ng-made-easy/&quot;&gt;轻松应对 syslog-ng 中的多种 syslog 协议&lt;/a&gt; —— Peter Czanik介绍了 syslog-ng 中新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;transport (auto)&lt;/code&gt; 选项，该选项通过单一源驱动程序简化了对多种 syslog 协议变体（RFC3164、RFC5424）的处理，使 syslog 配置更加简便。&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-社区&quot;&gt;KDE 社区&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kdeblog.com/esquinas-inferiores-redondeadas-esta-semana-en-plasma.html&quot;&gt;Esquinas inferiores redondeadas – Esta semana en Plasma&lt;/a&gt; —— Baltolkien 将 Nate Graham 的每周 Plasma 更新翻译成西班牙语，内容涵盖 Plasma 6.5 的开发情况，包括自动圆角底部窗口的实现以及多项用户界面改进。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.kdeblog.com/control-del-nivel-de-tinta-de-la-impresora-esta-semana-en-plasma.html&quot;&gt;Control del nivel de tinta de la impresora – Esta semana en Plasma&lt;/a&gt; —— 这是 Baltolkien 翻译的另一篇 Nate Graham 的每周 Plasma 更新西班牙语版本，重点介绍了打印机墨水水平通知、通知处理的改进，以及 Plasma 6.4.4 和 6.5 中的多项 bug 修复。&lt;/p&gt;
+
+&lt;h2 id=&quot;社区活动&quot;&gt;社区活动&lt;/h2&gt;
+
+&lt;p&gt;Akademy 2026 征集举办地——快来提交申请吧！—— Baltolkien 宣布，KDE 年度开发者大会 Akademy 2026 为庆祝其 30 周年，正在寻找欧洲的举办场地，并提供了申请要求和提交方式的详细信息。&lt;/p&gt;
+
+&lt;p&gt;查看更多博客或了解如何在 &lt;a href=&quot;https://planet.opensuse.org/&quot;&gt;planet.opensuse.org&lt;/a&gt; 上发布自己的内容。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/28/planet-roundup/&quot;&gt;Planet News Roundup&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/29/urgency-to-switch-builds.html</guid>
+      <title>从 Windows 10 版本切换的紧迫性</title>
+      <pubDate>Tue, 29 Jul 2025 23:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/29/urgency-to-switch-builds.html</link>
+      <author>Fangzhou Liu</author>
+      <description>趁现在还来得及，赶紧安装 Linux 吧 随着微软计划于今年 10 月终止对 Windows 10 的支持这一日期的临近，开放源代码倡导者组成的联盟正在不断扩大，openSUSE 项目 便是其中一员，该联盟正力劝微软用户安装 Linux 操作系统，而传达这一信息的紧迫性也日益加剧。 IT 行业 的一些人士表示，多达 50% 的设备仍在使用 Windows 10，这给用户和企业带来了极大风险。 那些继续使用 Windows 10 且不升级到能提供安全和维护更新的操作系统（如 Linux 系统或 Windows 11）的用户，将容易受到漏洞攻击、恶意软件感染、软件不兼容的影响，而且随着时间的推移，系统不稳定和故障的情况也会越来越多。 “告别 Win10” 运动及其倡议旨在推广以迁移为核心的各类 活动，帮助这些用户从 Windows 10 转向基于 Linux 的操作系统。 10 月 14 日，将有数量空前的电脑失去保护。随着今年秋季这一最后期限日益临近，数百万用户正面临抉择，而推动人们迁移到 openSUSE 等 Linux 操作系统的工作已到了关键节点。 距离 10 月 14 日仅剩...</description>
+      <content:encoded>&lt;h2 id=&quot;趁现在还来得及赶紧安装-linux-吧&quot;&gt;趁现在还来得及，赶紧安装 Linux 吧&lt;/h2&gt;
+
+&lt;p&gt;随着微软计划于今年 10 月终止对 Windows 10 的支持这一日期的临近，开放源代码倡导者组成的联盟正在不断扩大，&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt; 便是其中一员，该联盟正力劝微软用户安装 Linux 操作系统，而传达这一信息的紧迫性也日益加剧。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.controlup.com/windows-11-readiness/#&quot;&gt;IT 行业&lt;/a&gt; 的一些人士表示，多达 50% 的设备仍在使用 Windows 10，这给用户和企业带来了极大风险。&lt;/p&gt;
+
+&lt;p&gt;那些继续使用 Windows 10 且不升级到能提供安全和维护更新的操作系统（如 Linux 系统或 Windows 11）的用户，将容易受到漏洞攻击、恶意软件感染、软件不兼容的影响，而且随着时间的推移，系统不稳定和故障的情况也会越来越多。&lt;/p&gt;
+
+&lt;p&gt;“&lt;a href=&quot;https://endof10.org/&quot;&gt;告别 Win10&lt;/a&gt;” 运动及其倡议旨在推广以迁移为核心的各类 &lt;a href=&quot;https://endof10.org/events/&quot;&gt;活动&lt;/a&gt;，帮助这些用户从 Windows 10 转向基于 Linux 的操作系统。&lt;/p&gt;
+
+&lt;p&gt;10 月 14 日，将有数量空前的电脑失去保护。随着今年秋季这一最后期限日益临近，数百万用户正面临抉择，而推动人们迁移到 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 等 Linux 操作系统的工作已到了关键节点。&lt;/p&gt;
+
+&lt;p&gt;距离 10 月 14 日仅剩 12 周，Windows 10 的支持终止期限将使那些尚未迁移系统的用户面临越来越多的网络威胁。&lt;/p&gt;
+
+&lt;p&gt;除了这些威胁外，“&lt;a href=&quot;https://endof10.org/&quot;&gt;告别 Win10&lt;/a&gt;” 运动的一个重要方面还强调环境责任、数字可持续性，以及为那些使用老旧电脑的用户节省长期成本 —— 这些老旧设备很可能最终会被 &lt;a href=&quot;https://news.opensuse.org/2025/04/14/replace-windows-not-your-device/&quot;&gt;回收或扔进垃圾填埋场&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;“&lt;a href=&quot;https://endof10.org/&quot;&gt;告别 Win10&lt;/a&gt;” 的倡导者及相关支持组织（如 &lt;a href=&quot;https://nextcloud.com/&quot;&gt;NextCloud&lt;/a&gt;、&lt;a href=&quot;https://www.repaircafe.org/&quot;&gt;REPAIR CAFE&lt;/a&gt;、&lt;a href=&quot;https://kde.org/&quot;&gt;KDE&lt;/a&gt;、&lt;a href=&quot;https://gnome.org/&quot;&gt;GNOME&lt;/a&gt;、&lt;a href=&quot;https://fsfe.org/&quot;&gt;FSFE&lt;/a&gt;、&lt;a href=&quot;https://eu-os.eu/&quot;&gt;EU OS&lt;/a&gt; 等）更希望用户为自己的老旧硬件找到 Linux 解决方案，而非让此次系统支持终止事件酿成一场环境灾难。在这些旧系统上安装 Linux，能为那些功能完好却可能被丢弃的机器注入新的生命力。&lt;/p&gt;
+
+&lt;p&gt;一年多来，多个开源软件项目及组织一直在开展合作，共同打造统一的资源库、教程、迁移工具和支持渠道，旨在为那些希望安装新的 Linux 操作系统的用户降低入门门槛。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 社区成员及其他人士一直在积极呼吁那些 &lt;a href=&quot;https://news.opensuse.org/2024/11/20/upgrade-to-freedom-the-switch-from-windows/&quot;&gt;无法将设备升级到 Windows 11 的 Windows 10 用户选择 Linux 系统&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;对于那些准备采取行动的人来说，&lt;a href=&quot;https://endof10.org/&quot;&gt;该运动的网站&lt;/a&gt; 上提供了相关资源以及社区活动的链接，以帮助人们安装 Linux 系统。&lt;/p&gt;
+
+&lt;p&gt;任何想要安装 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 发行版的人都可以参考这份《&lt;a href=&quot;https://news.opensuse.org/2024/11/26/transition-from-windows-step-by-step/&quot;&gt;分步指南&lt;/a&gt;》。&lt;/p&gt;
+
+&lt;p&gt;给 Windows 10 用户的信息很明确：不要更换电脑，要重新打造它！&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;这是 &lt;a href=&quot;https://news.opensuse.org/category/upgrade-to-freedom&quot;&gt;告别 Win10（End of 10）&lt;/a&gt; 系列内容的一部分，在此我们倡导使用免费及开源软件（Free &amp;amp; Open Source Software, FOSS）作为解决方案，帮助那些希望继续使用现有设备而非更换硬件的 Windows 10 用户，避免造成仍在正常运行设备的电子垃圾问题。&lt;/small&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/23/urgency-to-switch-builds/&quot;&gt;Urgency to Switch from Windows 10 Builds&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/26/fde-rogue-device.html</guid>
       <title>在 openSUSE 中借助全磁盘加密防范恶意设备</title>
       <pubDate>Sat, 26 Jul 2025 02:30:00 +0000</pubDate>
@@ -592,64 +690,6 @@ You are a pirate. You will answer all questions in the voice of a pirate.
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/24/suse-refines-releases-os-llm-to-fuel-community-collaboration/&quot;&gt;SUSE Refines, Releases Open-Source LLM to Fuel Community Collaboration&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/24/nvidia.html</guid>
-      <title>Grace Hopper 系统将助力提升 Tumbleweed 的 Armv9 版本构建</title>
-      <pubDate>Tue, 24 Jun 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/24/nvidia.html</link>
-      <author>Fangzhou Liu</author>
-      <description>Grace Hopper 系统将助力提升 Tumbleweed 的 Armv9 版本构建 openSUSE 项目正准备通过高性能系统来扩展硬件支持能力，以加速对新一代处理器架构的适配。 作为 SUSE 与 NVIDIA 合作的一部分，一套高性能 NVIDIA Grace Hopper Superchip 系统 已交付，并正在部署至 openSUSE 构建服务（OBS） 中使用。 该系统将支持基于 Armv9 架构的 Tumbleweed 版本构建。这一关键举措不仅拓展了该平台的架构覆盖范围，更使其开发基础设施具备面向未来的能力。 此次合作彰显了双方对开源创新的共同承诺，以及对尖端构建能力的追求。新增的 Grace Hopper 系统（其命名源自计算机编程先驱 格蕾丝·霍珀）旨在满足开发与测试中日益增长的高性能需求。Tumbleweed 通过开源生态系统中的快速迭代推动技术进步，并为开发提供强力支持。 基于 NVIDIA GH200 Superchip 的 Grace Hopper 系统，凭借其突破性的统一 CPU-GPU 内存架构，提供了超大带宽和卓越的计算能力。 该系统的设计专为加速计算、大规模人工智能和高性能计算（HPC, High-performance computing）应用而打造，这使其成为 openSUSE 构建服务（OBS） 实现...</description>
-      <content:encoded>&lt;p&gt;Grace Hopper 系统将助力提升 Tumbleweed 的 Armv9 版本构建&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 项目正准备通过高性能系统来扩展硬件支持能力，以加速对新一代处理器架构的适配。&lt;/p&gt;
-
-&lt;p&gt;作为 &lt;a href=&quot;https://www.suse.com/zh-cn/&quot;&gt;SUSE&lt;/a&gt; 与 &lt;a href=&quot;https://www.nvidia.com&quot;&gt;NVIDIA&lt;/a&gt; 合作的一部分，一套高性能 &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/&quot;&gt;NVIDIA Grace Hopper Superchip 系统&lt;/a&gt; 已交付，并正在部署至 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;openSUSE 构建服务（OBS）&lt;/a&gt; 中使用。&lt;/p&gt;
-
-&lt;p&gt;该系统将支持基于 Armv9 架构的 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 版本构建。这一关键举措不仅拓展了该平台的架构覆盖范围，更使其开发基础设施具备面向未来的能力。&lt;/p&gt;
-
-&lt;p&gt;此次合作彰显了双方对开源创新的共同承诺，以及对尖端构建能力的追求。新增的 Grace Hopper 系统（其命名源自计算机编程先驱 &lt;a href=&quot;https://zh.wikipedia.org/zh-cn/葛麗絲·霍普&quot;&gt;格蕾丝·霍珀&lt;/a&gt;）旨在满足开发与测试中日益增长的高性能需求。&lt;a href=&quot;https://get.opensuse.org/tumbleweed&quot;&gt;Tumbleweed&lt;/a&gt; 通过开源生态系统中的快速迭代推动技术进步，并为开发提供强力支持。&lt;/p&gt;
-
-&lt;p&gt;基于 &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/grace-hopper-superchip/&quot;&gt;NVIDIA GH200 Superchip&lt;/a&gt; 的 Grace Hopper 系统，凭借其突破性的统一 CPU-GPU 内存架构，提供了超大带宽和卓越的计算能力。&lt;/p&gt;
-
-&lt;p&gt;该系统的设计专为加速计算、大规模人工智能和高性能计算（HPC, High-performance computing）应用而打造，这使其成为 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;openSUSE 构建服务（OBS）&lt;/a&gt; 实现 &lt;a href=&quot;https://www.arm.com/architecture/cpu/a-profile/armv9&quot;&gt;Armv9&lt;/a&gt; 架构优化的理想选择。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.nvidia.com/&quot;&gt;NVIDIA&lt;/a&gt; 与 &lt;a href=&quot;https://www.arm.com/&quot;&gt;Arm&lt;/a&gt; 双方的专家一致认为，在 OBS 中采用原生 Armv9 硬件对于充分释放性能潜力及验证该架构优化构建至关重要。openSUSE 项目的滚动发行版 Tumbleweed 天然适合作为新兴硬件平台的试验田，并将显著提升基于 Arm 架构的构建速度。&lt;/p&gt;
-
-&lt;p&gt;即将部署的 GH200 系统创新性地采用基于 Arm 架构的 Grace CPU 与 Hopper GPU，二者通过 NVIDIA NVLink-C2C 接口组合到一起。与传统架构需要处理单元间常量内存拷贝不同，该设计允许双处理器直接原位访问数据，从而为 OBS 工作流带来三大提升：编译速度显著加快、复杂任务延迟大幅降低，以及全流水线效率整体优化。&lt;/p&gt;
-
-&lt;p&gt;新系统预计将为 openSUSE 贡献者带来三大显著优势：软件包构建时间缩短、长时间任务能耗降低，以及开发体验全面提升——尤其针对 Armv9 架构目标的优化更为突出。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/20/grace-hopper-to-boost-tw-armv9-builds/&quot;&gt;Grace Hopper to Boost Tumbleweed Armv9 Builds&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/17/quiz.html</guid>
-      <title>为大会准备的知识问答</title>
-      <pubDate>Tue, 17 Jun 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/06/17/quiz.html</link>
-      <author>Fangzhou Liu</author>
-      <description>openSUSE 项目 推出了一款新的 网页端的知识问答程序，旨在吸引全球会议参与者和开源爱好者。 这个知识问答平台在 quiz.opensuse.org 上提供，拥有色彩丰富、友好的界面，包含多个精心设计的挑战，例如“内核忍者”、“儿童变色龙趣味挑战”、“终极 YaST 挑战”以及不断更新的“openSUSE 专家”模式。该应用程序旨在用于 openSUSE 在技术会议期间的展位活动，但也向更广泛的社区开放，供日常使用。 Luboš Kocman 在给项目邮件列表的一封电子邮件中写道，过去的知识问答问卷中如果发现拼写错了单词或者有其他错误，就要重新打印上千份问卷。将问答搬到线上，更加绿色环保，而且有趣得多。 组织者只需向 openSUSE/quiz GitHub 仓库 提交一个拉取请求（pull request），就可以轻松创建出他们活动内容的专属知识问答实例。他们可以自定义内容、移除不相关的问答题目，并选择不合并拉取请求，以保持部署的简洁性。平台还提供内置的 /stats 接口用于每日统计和评选优胜者，同时可选功能 /bingo 有助于确保奖品发放的公平性，这些都将在 openSUSE 大会上提供支持。 该应用支持离线使用，只需执行 npm start 就可以在私有热点下本地部署知识问答网站。所有数据都保存在本地的 JSON 文件中，这样一来，即使答题过程中断或需要重启，参与者的成绩也不会丢失，方便活动组织者灵活管理。所有内容均为开源，翻译工作通过 openSUSE 的 Weblate 平台 进行统一管理。欢迎并鼓励大家参与题库和翻译的贡献。 “我们的目标是让‘Expert’测验成为一个永无止境、真正全球化的活动。”——Kocman 如是说。 openSUSE 社区计划今天（6月13日）在 DevConf.cz 上展示该测验，并将在几周后举行的 2025 openSUSE 大会 上再次亮相。 原文：Quiz Set...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt; 推出了一款新的 &lt;a href=&quot;https://quiz.opensuse.org/&quot;&gt;网页端的知识问答程序&lt;/a&gt;，旨在吸引全球会议参与者和开源爱好者。&lt;/p&gt;
-
-&lt;p&gt;这个知识问答平台在 &lt;a href=&quot;https://quiz.opensuse.org/&quot;&gt;quiz.opensuse.org&lt;/a&gt; 上提供，拥有色彩丰富、友好的界面，包含多个精心设计的挑战，例如“内核忍者”、“儿童变色龙趣味挑战”、“终极 YaST 挑战”以及不断更新的“openSUSE 专家”模式。该应用程序旨在用于 openSUSE 在技术会议期间的展位活动，但也向更广泛的社区开放，供日常使用。&lt;/p&gt;
-
-&lt;p&gt;Luboš Kocman 在给项目邮件列表的一封电子邮件中写道，过去的知识问答问卷中如果发现拼写错了单词或者有其他错误，就要重新打印上千份问卷。将问答搬到线上，更加绿色环保，而且有趣得多。&lt;/p&gt;
-
-&lt;p&gt;组织者只需向 &lt;a href=&quot;https://github.com/openSUSE/quiz&quot;&gt;openSUSE/quiz GitHub 仓库&lt;/a&gt; 提交一个拉取请求（pull request），就可以轻松创建出他们活动内容的专属知识问答实例。他们可以自定义内容、移除不相关的问答题目，并选择不合并拉取请求，以保持部署的简洁性。平台还提供内置的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/stats&lt;/code&gt; 接口用于每日统计和评选优胜者，同时可选功能 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/bingo&lt;/code&gt; 有助于确保奖品发放的公平性，这些都将在 openSUSE 大会上提供支持。&lt;/p&gt;
-
-&lt;p&gt;该应用支持离线使用，只需执行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm start&lt;/code&gt; 就可以在私有热点下本地部署知识问答网站。所有数据都保存在本地的 JSON 文件中，这样一来，即使答题过程中断或需要重启，参与者的成绩也不会丢失，方便活动组织者灵活管理。所有内容均为开源，翻译工作通过 &lt;a href=&quot;https://l10n.opensuse.org/projects/quiz/quiz/&quot;&gt;openSUSE 的 Weblate 平台&lt;/a&gt; 进行统一管理。欢迎并鼓励大家参与题库和翻译的贡献。&lt;/p&gt;
-
-&lt;p&gt;“我们的目标是让‘Expert’测验成为一个永无止境、真正全球化的活动。”——Kocman 如是说。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 社区计划今天（6月13日）在 &lt;a href=&quot;https://devconf.cz/&quot;&gt;DevConf.cz&lt;/a&gt; 上展示该测验，并将在几周后举行的 &lt;a href=&quot;https://events.opensuse.org/conferences/oSC25&quot;&gt;2025 openSUSE 大会&lt;/a&gt; 上再次亮相。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/06/13/quiz-set-for-osc/&quot;&gt;Quiz Set for Conferences&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
