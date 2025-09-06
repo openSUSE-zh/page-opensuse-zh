@@ -7,6 +7,106 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/01/planet-roundup.html</guid>
+      <title>环球新闻摘要</title>
+      <pubDate>Mon, 01 Sep 2025 01:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/01/planet-roundup.html</link>
+      <author>Fangzhou Liu</author>
+      <description>本文汇总了 openSUSE 社区发布于 planet.opensuse.org 网站的多篇文章。 以下是 8 月 16 日至 22 日期间，社区博客内容聚合平台上的重点精选内容。近期部分博客涉及 Tumbleweed（openSUSE 滚动更新版本）的开发动态、KDE 相关资讯，以及《截止日期延长：openSUSE 2026 年亚洲峰会主办方征集》。 以下是每篇文章的摘要及对应链接： openSUSE Welcome 功能迎来全新改版 大家熟知的 opensuse-welcome-launcher（openSUSE 欢迎启动器）正逐步被淘汰，取而代之的是一款全新的 openSUSE-welcome 欢迎程序（greeter）。该全新欢迎程序不再依赖自身的自动启动机制，而是会协调适配特定桌面环境的欢迎程序，例如 gnome-tour（GNOME 导览程序）与 plasma-welcome（Plasma 欢迎程序）。这种设计不仅能让欢迎界面在系统首次启动时显示，还能在重大更新后弹出；同时，这一调整也将助力项目淘汰基于 Qt5 框架的旧版欢迎程序。 深度求索 V3.1（DeepSeek V3.1）：此次更新为何对市场意义重大 本文聚焦中国人工智能初创公司新发布的 DeepSeek V3.1 大模型。尽管目前技术细节披露有限，但此次更新承诺将带来更长的上下文窗口，并实现性能的增量提升，且其训练成本仅为西方竞争对手的一小部分。此次版本发布凸显出，随着深度求索（DeepSeek）持续推行快节奏、高成本效益的开发策略，OpenAI 与 Anthropic 正面临日益增长的竞争压力。 Linux 播客（Podcast Linux）第 27 期 —— Slimbook One...</description>
+      <content:encoded>&lt;p&gt;本文汇总了 openSUSE 社区发布于 &lt;a href=&quot;https://planet.opensuse.org&quot;&gt;planet.opensuse.org&lt;/a&gt; 网站的多篇文章。&lt;/p&gt;
+
+&lt;p&gt;以下是 8 月 16 日至 22 日期间，社区博客内容聚合平台上的重点精选内容。近期部分博客涉及 Tumbleweed（openSUSE 滚动更新版本）的开发动态、KDE 相关资讯，以及《&lt;a href=&quot;https://news.opensuse.org/2025/08/16/osas-cfh-extended/&quot;&gt;截止日期延长：openSUSE 2026 年亚洲峰会主办方征集&lt;/a&gt;》。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;以下是每篇文章的摘要及对应链接：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;opensuse-welcome-功能迎来全新改版&quot;&gt;&lt;a href=&quot;https://news.opensuse.org/2025/08/21/os-welcome-makeover/&quot;&gt;openSUSE Welcome 功能迎来全新改版&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;大家熟知的 opensuse-welcome-launcher（openSUSE 欢迎启动器）正逐步被淘汰，取而代之的是一款全新的 openSUSE-welcome 欢迎程序（greeter）。该全新欢迎程序不再依赖自身的自动启动机制，而是会协调适配特定桌面环境的欢迎程序，例如 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt;（GNOME 导览程序）与 &lt;a href=&quot;https://github.com/KDE/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;（Plasma 欢迎程序）。这种设计不仅能让欢迎界面在系统首次启动时显示，还能在重大更新后弹出；同时，这一调整也将助力项目淘汰基于 Qt5 框架的旧版欢迎程序。&lt;/p&gt;
+
+&lt;h2 id=&quot;深度求索-v31deepseek-v31此次更新为何对市场意义重大&quot;&gt;&lt;a href=&quot;https://assuntonerd.com.br/2025/08/19/deepseek-v3-1-por-que-a-atualizacao-importa-para-o-mercado/&quot;&gt;深度求索 V3.1（DeepSeek V3.1）：此次更新为何对市场意义重大&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;本文聚焦中国人工智能初创公司新发布的 DeepSeek V3.1 大模型。尽管目前技术细节披露有限，但此次更新承诺将带来更长的上下文窗口，并实现性能的增量提升，且其训练成本仅为西方竞争对手的一小部分。此次版本发布凸显出，随着深度求索（DeepSeek）持续推行快节奏、高成本效益的开发策略，OpenAI 与 Anthropic 正面临日益增长的竞争压力。&lt;/p&gt;
+
+&lt;h2 id=&quot;linux-播客podcast-linux第-27-期--slimbook-one-特别节目&quot;&gt;&lt;a href=&quot;https://podcastlinux.com/&quot;&gt;Linux 播客（Podcast Linux）第 27 期 —— Slimbook One 特别节目&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;KDE 博客的“Linux 播客（Podcast Linux）”档案整理项目仍在推进，本期回顾了该播客的第 27 期内容。在这一期中，Juan Febles评测了 &lt;a href=&quot;https://slimbook.com/en/&quot;&gt;Slimbook&lt;/a&gt; 品牌的 One 系列台式电脑。尽管该播客已不再更新，但它的往期节目对 Linux 爱好者而言，仍是极具价值的参考资料。&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-gear-2508生产力功能更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08——生产力功能更新&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;本文重点介绍了 KDE Gear 25.08 版本中以提升生产力为核心的应用更新。其中，Akonadi（KDE 生态中的数据管理框架）实现了重大内存优化，有效降低资源占用；KOrganizer（KDE 日历与日程管理工具）新增了改进后的日期选择器与搜索提示功能，提升操作效率；Kleopatra（KDE 加密工具）则新增了独立的加密记事本窗口，支持多窗口并行操作，为多任务处理提供便利。&lt;/p&gt;
+
+&lt;h2 id=&quot;无障碍技术与自由软件第-6-期&quot;&gt;&lt;a href=&quot;https://planet.opensuse.org/&quot;&gt;《无障碍技术与自由软件》——第 6 期&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;该播客系列的第 6 期节目邀请 Eva Marco、Vicent Sanchis 等嘉宾围绕无障碍主题展开探讨。内容涵盖用于无障碍场景的 OpenStreetMap（开源地图）数据可视化、包容性人才培养计划、自适应硬件测试，以及人工智能如何助力打造更具包容性的设计等话题。&lt;/p&gt;
+
+&lt;h2 id=&quot;云容器定义及其优化方法&quot;&gt;&lt;a href=&quot;https://www.ovhcloud.com&quot;&gt;云容器：定义及其优化方法&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;本文概述了云容器管理相关内容，阐释了容器如何简化部署流程、降低资源占用并提升安全性。文中还详细介绍了高效管理容器的策略（从资源分配到监控运维），同时重点推介了 OVHcloud 旗下的相关解决方案。&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-gear-2508--itinerary-应用更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08 —— Itinerary 应用更新&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;KDE 旗下的旅行规划应用 &lt;strong&gt;Itinerary&lt;/strong&gt; 迎来多项更新：新增巴士与火车行程手动录入功能，提供车站实时地图查询服务，优化延误提醒机制，同时扩展了备选路线搜索范围，现已涵盖轮渡与航班。此外，升级后的实时地图通过整合 OpenRailwayMap 数据，可显示火车站及铁路基础设施的详细信息。&lt;/p&gt;
+
+&lt;h2 id=&quot;opensuse-tumbleweed-第33周更新回顾&quot;&gt;&lt;a href=&quot;https://dominique.leuenberger.net/blog/2025/08/tumbleweed-review-of-the-week-2025-33/&quot;&gt;openSUSE Tumbleweed 第33周更新回顾&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;本周，openSUSE Tumbleweed 推送了8个全新快照，包含多项更新，例如&lt;strong&gt;Firefox 141.0.2&lt;/strong&gt;、&lt;strong&gt;Linux 6.16.0&lt;/strong&gt;、&lt;strong&gt;KDE Plasma 6.4.4&lt;/strong&gt;、&lt;strong&gt;KDE Frameworks 6.17.0&lt;/strong&gt;、&lt;strong&gt;Postfix 3.10.3&lt;/strong&gt;、&lt;strong&gt;OpenSSL 3.5.2&lt;/strong&gt; 等。目前，针对后续更新（包括 KDE Gear 25.08.0 、6.16.1 内核及 Python 3.13.7）的准备工作已在推进中。&lt;/p&gt;
+
+&lt;h2 id=&quot;细节打磨不断--plasma本周动态&quot;&gt;&lt;a href=&quot;https://pointieststick.com&quot;&gt;细节打磨不断 —— Plasma本周动态&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Nate Graham 撰写的 Plasma 每周更新（已译为西班牙语版）重点关注漏洞修复、性能优化与界面细节打磨，而非新增功能。更新亮点包括：通知功能的无障碍优化、 Flatpak 应用权限管理的精细化调整、过时 Breeze 应用图标的移除，以及针对 Plasma 6.4.5 和 Frameworks 6.18 的多项漏洞修复。&lt;/p&gt;
+
+&lt;h2 id=&quot;截止日期延长2026年opensuseasia峰会主办方招募&quot;&gt;&lt;a href=&quot;https://news.opensuse.org/2025/06/10/osas-cfh/&quot;&gt;截止日期延长——2026年openSUSE.Asia峰会主办方招募&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;2026 年 openSUSE 亚洲峰会的主办方申请截止日期已延长至 &lt;strong&gt;2025年8月27日&lt;/strong&gt;。最终选定的主办方将在今年于法里达巴德（Faridabad）举办的峰会上公布。主办方鼓励各社区把握此次机会，展示所在地区特色，并汇聚 openSUSE 贡献者共同参与活动。&lt;/p&gt;
+
+&lt;h2 id=&quot;kde-gear-2508--dolphin文件管理器更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08 —— Dolphin文件管理器更新&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Dolphin 文件管理器新增了多项搜索选项，涵盖索引搜索与简单搜索；同时加强了与 Filelight 的集成，便于可视化查看磁盘使用情况；此外还优化了视图模式控制功能。这些改进让 Dolphin 在 KDE 桌面环境下的文件管理能力更加强大。&lt;/p&gt;
+
+&lt;p&gt;欲查看更多博客，或了解如何发布个人博客，可访问&lt;a href=&quot;https://planet.opensuse.org&quot;&gt;planet.opensuse.org&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/22/planet-roundup/&quot;&gt;Planet News Roundup&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/26/os-welcome-makeover.html</guid>
+      <title>openSUSE Welcome 迎来全新改版</title>
+      <pubDate>Tue, 26 Aug 2025 01:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/26/os-welcome-makeover.html</link>
+      <author>Fangzhou Liu</author>
+      <description>曾为数百万台桌面设备用户送上问候的经典 openSUSE-welcome 窗口已临近 “退休”，一套全新方案即将取代其位置。 openSUSE 发布团队并未选择 “另起炉灶”，而是决定对现有解决方案进行调整与优化 —— 例如针对 GNOME 桌面的 gnome-tour，以及针对 KDE Plasma 桌面的 plasma-welcome。具体做法是开发一个全新的控制器和 opensuse-welcome-launcher，通过这两个组件协调上述现有工具，并提供适配特定桌面环境的专属内容。 这款全新的欢迎启动器（welcome-launcher）会根据当前运行的桌面环境，自动判断应启动哪款欢迎程序。这一设计让 openSUSE 发布团队能更精准地控制欢迎界面的显示时机与方式，而非依赖各款欢迎程序自身的自动启动机制。 值得一提的是，该启动器的功能并非局限于系统首次启动场景。在系统完成重大更新后，它同样可以触发欢迎程序的显示，确保用户能及时了解更新带来的新功能、体验优化及各项变更。 新版欢迎程序的启用将分多阶段推进. 1）初期阶段，启动器（launcher）仍会调用大家熟悉的旧版 openSUSE-welcome 程序。唯一的区别在于，旧版程序中 “下次启动时显示” 的勾选框将被移除 —— 因为此后该程序不再负责自动启动相关功能。 2）启动器将触发带有 openSUSE 品牌标识的 gnome-tour 和 plasma-welcome，同时将 openSUSE-welcome 保留为备用选项（如该程序已安装）。 3）基于 Qt5 框架的旧版欢迎程序最终将被停用。对于没有专用欢迎程序的桌面会话，我们需确定一个统一的备用方案。 这种分阶段推进的方式支持与 openQA 测试流程集成，并为未来的改进提供了灵活性。 由于 opensuse-welcome-launcher 被视作旧版组件，且是为数不多仍依赖 Qt5 框架的应用程序之一，此次调整将有助于在整个发行版中逐步淘汰部分残存的 Qt5 组件。...</description>
+      <content:encoded>&lt;p&gt;曾为数百万台桌面设备用户送上问候的经典 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-welcome&quot;&gt;openSUSE-welcome&lt;/a&gt; 窗口已临近 “退休”，一套全新方案即将取代其位置。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 发布团队并未选择 “另起炉灶”，而是决定对现有解决方案进行调整与优化 —— 例如针对 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 桌面的 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt;，以及针对 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE Plasma&lt;/a&gt; 桌面的 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;。具体做法是开发一个全新的控制器和 &lt;a href=&quot;https://build.opensuse.org/package/show/X11:Utilities/opensuse-welcome-launcher&quot;&gt;opensuse-welcome-launcher&lt;/a&gt;，通过这两个组件协调上述现有工具，并提供适配特定桌面环境的专属内容。&lt;/p&gt;
+
+&lt;p&gt;这款全新的欢迎启动器（welcome-launcher）会根据当前运行的桌面环境，自动判断应启动哪款欢迎程序。这一设计让 openSUSE 发布团队能更精准地控制欢迎界面的显示时机与方式，而非依赖各款欢迎程序自身的自动启动机制。&lt;/p&gt;
+
+&lt;p&gt;值得一提的是，该启动器的功能并非局限于系统首次启动场景。在系统完成重大更新后，它同样可以触发欢迎程序的显示，确保用户能及时了解更新带来的新功能、体验优化及各项变更。&lt;/p&gt;
+
+&lt;p&gt;新版欢迎程序的启用将分多阶段推进.&lt;/p&gt;
+
+&lt;p&gt;1）初期阶段，启动器（launcher）仍会调用大家熟悉的旧版 openSUSE-welcome 程序。唯一的区别在于，旧版程序中 “下次启动时显示” 的勾选框将被移除 —— 因为此后该程序不再负责自动启动相关功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-08/welcome.png&quot; alt=&quot;Geeko&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2）启动器将触发带有 openSUSE 品牌标识的 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt; 和 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;，同时将 openSUSE-welcome 保留为备用选项（如该程序已安装）。&lt;/p&gt;
+
+&lt;p&gt;3）基于 Qt5 框架的旧版欢迎程序最终将被停用。对于没有专用欢迎程序的桌面会话，我们需确定一个统一的备用方案。&lt;/p&gt;
+
+&lt;p&gt;这种分阶段推进的方式支持与 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试流程集成，并为未来的改进提供了灵活性。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-08/welcome1.png&quot; alt=&quot;Geeko&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;由于 &lt;a href=&quot;https://build.opensuse.org/package/show/X11:Utilities/opensuse-welcome-launcher&quot;&gt;opensuse-welcome-launcher&lt;/a&gt; 被视作旧版组件，且是为数不多仍依赖 Qt5 框架的应用程序之一，此次调整将有助于在整个发行版中逐步淘汰部分残存的 Qt5 组件。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/21/os-welcome-makeover/&quot;&gt;openSUSE Welcome Receiving Makeover&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/18/osas-cfh-extended.html</guid>
       <title>截止日期延长：openSUSE 2026 年亚洲峰会主办方征集</title>
       <pubDate>Mon, 18 Aug 2025 01:30:00 +0000</pubDate>
@@ -761,71 +861,6 @@ You are a pirate. You will answer all questions in the voice of a pirate.
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/11/sovereign-ai-platform-picks-opensuse/&quot;&gt;Sovereign AI Platform Picks openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/11/32-bits-arm.html</guid>
-      <title>项目就 32 位 ARM 架构的未来发展征求社区意见</title>
-      <pubDate>Fri, 11 Jul 2025 02:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/11/32-bits-arm.html</link>
-      <author>Fangzhou Liu</author>
-      <description>openSUSE 项目 现就 32 位 ARM 架构的持续支持问题公开征询 社区意见。 维护传统硬件平台的支持正变得日益困难。openSUSE 团队指出，上游支持有限和维护资源不断缩减，是考虑终止 32 位ARM架构（ARMv6 和 ARMv7）支持的关键因素。 包括 树莓派 1 代、Pi Zero、BeagleBone 等经典嵌入式设备在内的诸多硬件平台均依赖 32 位 ARM 架构。若您正在这些设备上使用 openSUSE 系统，项目团队亟需听取您的使用反馈。 请立即访问 survey.opensuse.org 参与问卷调查，您的意见将直接影响 32 位 ARM 架构的技术路线决策。本次调查将持续开放至7月底。 参与贡献 若您有意通过测试、提交错误报告或完善文档等方式协助维护 32 位 ARM 架构支持，欢迎加入以下任一交流渠道： IR C即时聊天：Libera.Chat 平台的 #opensuse-arm 频道 Matrix群组：#arm:opensuse.org 邮件列表：lists.opensuse.org 原文：Project Seeks Input on...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt; 现就 32 位 &lt;a href=&quot;https://www.arm.com/&quot;&gt;ARM&lt;/a&gt; 架构的持续支持问题公开征询 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/BTYP5CFCKBH67W73CMJQNSZ76RNC2KWB/&quot;&gt;社区意见&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;维护传统硬件平台的支持正变得日益困难。openSUSE 团队指出，上游支持有限和维护资源不断缩减，是考虑终止 32 位ARM架构（&lt;a href=&quot;https://en.wikipedia.org/wiki/ARM_architecture_family&quot;&gt;ARMv6 和 ARMv7&lt;/a&gt;）支持的关键因素。&lt;/p&gt;
-
-&lt;p&gt;包括 &lt;a href=&quot;https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/&quot;&gt;树莓派 1 代&lt;/a&gt;、&lt;a href=&quot;https://www.raspberrypi.com/products/raspberry-pi-zero/&quot;&gt;Pi Zero&lt;/a&gt;、&lt;a href=&quot;https://www.beagleboard.org/&quot;&gt;BeagleBone&lt;/a&gt; 等经典嵌入式设备在内的诸多硬件平台均依赖 32 位 ARM 架构。若您正在这些设备上使用 openSUSE 系统，项目团队亟需听取您的使用反馈。&lt;/p&gt;
-
-&lt;p&gt;请立即访问 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;survey.opensuse.org&lt;/a&gt; 参与问卷调查，您的意见将直接影响 32 位 &lt;a href=&quot;https://www.arm.com/&quot;&gt;ARM&lt;/a&gt; 架构的技术路线决策。本次调查将持续开放至7月底。&lt;/p&gt;
-
-&lt;h2 id=&quot;参与贡献&quot;&gt;参与贡献&lt;/h2&gt;
-&lt;p&gt;若您有意通过测试、提交错误报告或完善文档等方式协助维护 32 位 ARM 架构支持，欢迎加入以下任一交流渠道：&lt;/p&gt;
-
-&lt;p&gt;IR C即时聊天：Libera.Chat 平台的 #opensuse-arm 频道&lt;/p&gt;
-
-&lt;p&gt;Matrix群组：#arm:opensuse.org&lt;/p&gt;
-
-&lt;p&gt;邮件列表：&lt;a href=&quot;https://lists.opensuse.org/&quot;&gt;lists.opensuse.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/10/project-seeks-input-on-32-bit-arm/&quot;&gt;Project Seeks Input on Future of 32-bit ARM&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/11/20-years.html</guid>
-      <title>庆祝 openSUSE 20 周年</title>
-      <pubDate>Fri, 11 Jul 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/07/11/20-years.html</link>
-      <author>Fangzhou Liu</author>
-      <description>我们诚邀各位贡献者与社区成员分享过去二十年间最难忘的瞬间，共同庆祝 openSUSE项目 二十周年华诞。 历经岁月沉淀，该项目已发展成为席卷全球的开源运动，为无数桌面系统、服务器及开发环境提供强大支持。 为铭记这段辉煌历程，我们正在全球范围内征集见证项目精神的照片——无论是技术大会、编程马拉松、社区聚会、纪念品收藏，还是成员个人成长的重要时刻。 每位成员可提交最多 20 张图片（拖拽文件上传）。入选作品将用于二十周年纪念展示，并在社区成员间广泛传播。 欢迎大家记录所在城镇的庆祝活动，将 照片 投稿至新闻版块或演示文稿中。 鼓励社区成员在各类会议及峰会上展示项目的二十年发展史。基于征集照片制作的演示文稿将在 openSUSE Wiki 上公开共享。 诚邀各位成员于 8 月 9 日莅临 openSUSE 主题酒吧 参加二十周年庆典，与全球社区伙伴共叙往昔。 openSUSE 亚洲峰会 期间将举办趣味问答活动，优胜者可获赠 二十周年纪念 T 恤。 这是对所有成就 openSUSE 今日辉煌的人们的礼赞——无论是经验丰富的贡献者、新生力量，还是热情的用户群体。每一张照片都在讲述我们共同历史的重要篇章。 我们期待收到 300 dpi 以上的高清图片。 openSUSE 项目启动于 2005 年 8 月 9 日。 若有 openSUSE 大会合影需提交，请发送至 ddemaio@opensuse.org 邮箱。 原文：Celebrating...</description>
-      <content:encoded>&lt;p&gt;我们诚邀各位贡献者与社区成员分享过去二十年间最难忘的瞬间，共同庆祝 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE项目&lt;/a&gt; 二十周年华诞。&lt;/p&gt;
-
-&lt;p&gt;历经岁月沉淀，该项目已发展成为席卷全球的开源运动，为无数桌面系统、服务器及开发环境提供强大支持。&lt;/p&gt;
-
-&lt;p&gt;为铭记这段辉煌历程，我们正在全球范围内征集见证项目精神的照片——无论是技术大会、编程马拉松、社区聚会、纪念品收藏，还是成员个人成长的重要时刻。&lt;/p&gt;
-
-&lt;p&gt;每位成员可提交最多 20 张图片（&lt;a href=&quot;https://demacloud.ocloud.de/index.php/s/n7qRFTarEy2dit2&quot;&gt;拖拽文件上传&lt;/a&gt;）。入选作品将用于二十周年纪念展示，并在社区成员间广泛传播。&lt;/p&gt;
-
-&lt;p&gt;欢迎大家记录所在城镇的庆祝活动，将 &lt;a href=&quot;https://demacloud.ocloud.de/index.php/s/n7qRFTarEy2dit2&quot;&gt;照片&lt;/a&gt; 投稿至新闻版块或演示文稿中。&lt;/p&gt;
-
-&lt;p&gt;鼓励社区成员在各类会议及峰会上展示项目的二十年发展史。基于征集照片制作的演示文稿将在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Presentations&quot;&gt;openSUSE Wiki&lt;/a&gt; 上公开共享。&lt;/p&gt;
-
-&lt;p&gt;诚邀各位成员于 8 月 9 日莅临 &lt;a href=&quot;https://meet.opensuse.org/bar&quot;&gt;openSUSE 主题酒吧&lt;/a&gt; 参加二十周年庆典，与全球社区伙伴共叙往昔。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/&quot;&gt;openSUSE 亚洲峰会&lt;/a&gt; 期间将举办趣味问答活动，优胜者可获赠 &lt;a href=&quot;https://shop.opensuse.org/&quot;&gt;二十周年纪念 T 恤&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;这是对所有成就 openSUSE 今日辉煌的人们的礼赞——无论是经验丰富的贡献者、新生力量，还是热情的用户群体。每一张照片都在讲述我们共同历史的重要篇章。&lt;/p&gt;
-
-&lt;p&gt;我们期待收到 300 dpi 以上的高清图片。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目启动于 2005 年 8 月 9 日。&lt;/p&gt;
-
-&lt;p&gt;若有 openSUSE 大会合影需提交，请发送至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 邮箱。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/07/09/celebrating-20-yrs-of-os/&quot;&gt;Celebrating 20 Years of openSUSE&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
