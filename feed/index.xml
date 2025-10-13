@@ -7,6 +7,153 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/12/os-leap-ready-for-liftoff.html</guid>
+      <title>openSUSE Leap 准备启航</title>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/12/os-leap-ready-for-liftoff.html</link>
+      <author>Fangzhou Liu</author>
+      <description>社区用户正为 openSUSE Leap 的下一个长期版本做准备，与此同时，他们也在踊跃分享 openSUSE 等 Linux 发行版如何为其项目或兴趣提供支持。 像 Leap 16 这样的版本可用于航空追踪，这也是该发行版的多个应用场景之一。 一位 openSUSE 用户在 项目邮件列表 上写道：“我自 2018 年起就开始向 FlightRadar24 提供数据，几年前又开始向 OpenSky Network 和 Plane Finder 发送数据。我的监测平均距离约为 170 海里。” 该用户名为 Malcolm，他在密西西比三角洲地区将 openSUSE 用作这些高科技空中交通监测系统的核心支柱。 FlightRadar24、OpenSky Network 和 Plane Finder 会从全球各地的 ADS-B 接收器收集并共享实时航空器数据，用户可借此在交互式地图上追踪航班。 Malcolm 使用搭载 Intel Celeron J4125 处理器的迷你主机，搭配 26 英寸 ADS-B...</description>
+      <content:encoded>&lt;p&gt;社区用户正为 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;openSUSE Leap&lt;/a&gt; 的下一个长期版本做准备，与此同时，他们也在踊跃分享 &lt;a href=&quot;https://get.opensuse.org/&quot;&gt;openSUSE&lt;/a&gt; 等 Linux 发行版如何为其项目或兴趣提供支持。&lt;/p&gt;
+
+&lt;p&gt;像 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;Leap 16&lt;/a&gt; 这样的版本可用于航空追踪，这也是该发行版的多个应用场景之一。&lt;/p&gt;
+
+&lt;p&gt;一位 openSUSE 用户在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/6EL3OTP7V7EKS5QZ35U6SSHY4Y6GCYJ7/&quot;&gt;项目邮件列表&lt;/a&gt; 上写道：“我自 2018 年起就开始向 FlightRadar24 提供数据，几年前又开始向 OpenSky Network 和 Plane Finder 发送数据。我的监测平均距离约为 170 海里。”&lt;/p&gt;
+
+&lt;p&gt;该用户名为 Malcolm，他在密西西比三角洲地区将 openSUSE 用作这些高科技空中交通监测系统的核心支柱。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.flightradar24.com/&quot;&gt;FlightRadar24&lt;/a&gt;、&lt;a href=&quot;https://opensky-network.org/&quot;&gt;OpenSky Network&lt;/a&gt; 和 &lt;a href=&quot;https://planefinder.net/&quot;&gt;Plane Finder&lt;/a&gt; 会从全球各地的 &lt;a href=&quot;https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast&quot;&gt;ADS-B&lt;/a&gt; 接收器收集并共享实时航空器数据，用户可借此在交互式地图上追踪航班。&lt;/p&gt;
+
+&lt;p&gt;Malcolm 使用搭载 &lt;a href=&quot;https://www.intel.com/content/www/us/en/products/sku/197305/intel-celeron-processor-j4125-4m-cache-up-to-2-70-ghz/specifications.html&quot;&gt;Intel Celeron J4125&lt;/a&gt; 处理器的迷你主机，搭配 26 英寸 ADS-B 天线、滤波器与放大器，并依托 openSUSE 的可靠性，每天能追踪超过 2,000 架航空器。&lt;/p&gt;
+
+&lt;p&gt;这套系统基于 x86_64 硬件运行，同时一台 &lt;a href=&quot;https://www.raspberrypi.com/products/raspberry-pi-3-model-b/&quot;&gt;Raspberry Pi 3&lt;/a&gt; 兼任 GPS 时间服务器，确保系统与本地网络保持同步。&lt;a href=&quot;https://github.com/systemd/systemd&quot;&gt;systemd&lt;/a&gt; 服务负责管理各追踪网络提供的各类软件包。Leap 版本的稳定性以及长期的维护与安全支持，使其成为用户部署和使用的理想发行版。&lt;/p&gt;
+
+&lt;p&gt;此类案例凸显了将影响 Leap 16 版本发布的各类应用场景。作为一款衔接社区驱动开发与企业级可用性的发行版，Leap 16 预计将服务于更广泛的使用场景。从物联网设备、实验室环境，到生产服务器及专业爱好者的定制化系统，Leap 16 标志着该发行版全新生命周期计划的开启。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目成员正致力于展示人们如何使用 openSUSE，或计划如何采用 Leap 版本。若你有关于 Leap 16 的应用场景想要分享，可在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/6EL3OTP7V7EKS5QZ35U6SSHY4Y6GCYJ7/&quot;&gt;项目邮件列表&lt;/a&gt; 上发表评论。&lt;/p&gt;
+
+&lt;p&gt;用户还可通过 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;survey.opensuse.org&lt;/a&gt; 平台，就 Leap 16 版本的发布提供反馈意见。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/06/os-leap-ready-for-liftoff/&quot;&gt;openSUSE Leap Ready for Liftoff&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/10/11/next-chapter-opens-with-leap-release.html</guid>
+      <title>Leap 16.0 发布，新篇章开启</title>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/10/11/next-chapter-opens-with-leap-release.html</link>
+      <author>Fangzhou Liu</author>
+      <description>CA / CS / JA / LT / SV / ES / ZH-TW 2025 年 10 月 1 日，openSUSE 项目成员非常荣幸地宣布 openSUSE Leap 16 正式发布。 作为我们固定发行版社区 Linux 系统的重要版本更新，该版本搭载了全新的软件栈，并引入了无可比拟的维护与安全支持周期、全新的安装程序以及简化的迁移选项。 “供应商和开发者应重点关注 Leap 以及 Leap Micro，并将其视为解决方案的目标平台，” 发行经理 Lubos Kocman 表示，“用户可免费获得 24 个月的维护与安全更新，目前没有其他社区发行版能提供如此长期的免费支持。” 作为社区支持的平台，Leap 16 将在未来数年推动开源领域的开发突破与实际应用解决方案的落地。该版本支持 2038 年安全标准，且默认禁用 32 位（ia32）支持。不过用户可手动启用该支持，进而通过仍依赖 32 位库的 Steam 平台畅玩游戏。此外，Leap 16...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/Anunci_de_la_versi%C3%B3_16.0&quot;&gt;CA&lt;/a&gt; / &lt;a href=&quot;https://cs.opensuse.org/Ozn%C3%A1men%C3%AD_nov%C3%A9ho_vyd%C3%A1n%C3%AD_16.0&quot;&gt;CS&lt;/a&gt; / &lt;a href=&quot;https://ja.opensuse.org/%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9_16.0&quot;&gt;JA&lt;/a&gt; / &lt;a href=&quot;https://en.opensuse.org/Skelbimas_apie_16.0_laid%C4%85&quot;&gt;LT&lt;/a&gt; / &lt;a href=&quot;https://en.opensuse.org/Release_announcement_16.0_sv&quot;&gt;SV&lt;/a&gt; / &lt;a href=&quot;https://es.opensuse.org/openSUSE:Anuncio_de_la_publicaci%C3%B3n_de_la_versi%C3%B3n_Leap_16&quot;&gt;ES&lt;/a&gt; / &lt;a href=&quot;https://zh-tw.opensuse.org/Release_announcement_16.0&quot;&gt;ZH-TW&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;2025 年 10 月 1 日，openSUSE 项目成员非常荣幸地宣布 openSUSE &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 16&lt;/a&gt; 正式发布。&lt;/p&gt;
+
+&lt;p&gt;作为我们固定发行版社区 Linux 系统的重要版本更新，该版本搭载了全新的软件栈，并引入了无可比拟的维护与安全支持周期、全新的安装程序以及简化的迁移选项。&lt;/p&gt;
+
+&lt;p&gt;“供应商和开发者应重点关注 Leap 以及 &lt;a href=&quot;https://get.opensuse.org/leapmicro/&quot;&gt;Leap Micro&lt;/a&gt;，并将其视为解决方案的目标平台，” 发行经理 Lubos Kocman 表示，“用户可免费获得 24 个月的维护与安全更新，目前没有其他社区发行版能提供如此长期的免费支持。”&lt;/p&gt;
+
+&lt;p&gt;作为社区支持的平台，Leap 16 将在未来数年推动开源领域的开发突破与实际应用解决方案的落地。该版本支持 &lt;strong&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Year_2038_problem&quot;&gt;2038 年安全标准&lt;/a&gt;&lt;/strong&gt;，且默认禁用 32 位（ia32）支持。不过用户可手动启用该支持，进而通过仍依赖 32 位库的 &lt;a href=&quot;https://en.opensuse.org/Steam&quot;&gt;Steam&lt;/a&gt; 平台畅玩游戏。此外，Leap 16 的硬件要求已更新：当前最低需支持 &lt;a href=&quot;https://en.opensuse.org/X86-64_microarchitecture_levels&quot;&gt;x86-64-v2&lt;/a&gt; CPU 架构，这类架构的处理器通常是 2008 年及之后推出的产品。使用老旧硬件的用户可通过 &lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;迁移工具&lt;/a&gt; 切换至 &lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;Slowroll&lt;/a&gt; 或 &lt;a href=&quot;https://get.opensuse.org/tumbleweed&quot;&gt;Tumbleweed&lt;/a&gt; 版本。&lt;/p&gt;
+
+&lt;p&gt;Leap 16 以 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise Server（SLES）&lt;/a&gt; 为基础构建，整合了社区发行版与企业发行版的代码，实现了源码与二进制文件的一致性。用户可从 openSUSE Leap 16 无缝 &lt;a href=&quot;https://en.opensuse.org/SDB:How_to_migrate_to_SLE&quot;&gt;迁移&lt;/a&gt; 至 SLES 16；开发者则可借助 openSUSE Leap 进行工作负载的创建、测试与运行，以便后续部署到 SLES 平台。&lt;/p&gt;
+
+&lt;p&gt;Leap 16 预装了全新的 &lt;a href=&quot;https://en.opensuse.org/Agama&quot;&gt;Agama&lt;/a&gt; 安装程序，相比已废弃的基于 YaST 的安装程序，它能提供更现代化的设置体验。此外，Leap 16 还在包管理器 &lt;a href=&quot;https://en.opensuse.org/Portal:Zypper&quot;&gt;Zypper&lt;/a&gt; 中支持并行下载功能，可加快软件安装与更新速度。&lt;/p&gt;
+
+&lt;p&gt;此次重大版本更新也让迁移过程变得更简便。全新的 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade&quot;&gt;openSUSE 迁移工具&lt;/a&gt; 支持用户从 Leap 15 无缝升级至 Leap 16，同时也可迁移至 &lt;a href=&quot;https://en.opensuse.org/Portal:Slowroll&quot;&gt;Slowroll&lt;/a&gt;、&lt;a href=&quot;https://get.opensuse.org/tumbleweed&quot;&gt;Tumbleweed&lt;/a&gt; 或 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SLES&lt;/a&gt; 版本。&lt;/p&gt;
+
+&lt;p&gt;Leap 16 标志着全新生命周期计划的启动。除非项目方做出战略调整，否则预计将持续推出年度次要版本，直至 2031 年发布 Leap 16.6 版本；Leap 16 的后续版本则预计于 2032 年推出。该项目旗下的不可变服务器发行版 &lt;a href=&quot;https://get.opensuse.org/leapmicro/&quot;&gt;Leap Micro&lt;/a&gt; 也将采用相同的更新时间表。&lt;/p&gt;
+
+&lt;p&gt;此次发布的版本以 &lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux&lt;/a&gt; 作为 Linux 安全模块（LSM）。而 &lt;a href=&quot;https://en.opensuse.org/SDB:AppArmor#Switching_from_SELinux_to_AppArmor_for_Leap_16.0_and_Tumbleweed&quot;&gt;AppArmor&lt;/a&gt; 仍作为可选方案，用户可在安装完成后手动选择启用。Leap 中与 AppArmor 及 32 位支持相关的变更，为用户提供了一段过渡适应期。&lt;/p&gt;
+
+&lt;p&gt;随着自动化、容器化、系统工具和硬件加密的成熟，在未来十年Leap 16向最终版本演进的过程中，将会有更多的进步。&lt;/p&gt;
+
+&lt;p&gt;鼓励希望为 Leap 16 开发的人员参加每周一的&lt;a href=&quot;https://calendar.opensuse.org/&quot;&gt;功能评审会议&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap 16的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知错误&lt;/a&gt;可以在项目的维基页面上找到。&lt;/p&gt;
+
+&lt;p&gt;在 &lt;a href=&quot;https://survey.opensuse.org/&quot;&gt;survey.opensuse.org&lt;/a&gt; 可上留下关于Leap 16发布的反馈。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/01/migrating-to-leap-16-with-opensuse-migration-tool/&quot;&gt;Next Chapter Opens with Leap 16 Release&lt;/a&gt;，作者：Release Team&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/11/migrating-to-leap-16-with-opensuse-migration-tool.html</guid>
+      <title>使用 opensuse-migration-tool 迁移至 openSUSE Leap 16.0</title>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/11/migrating-to-leap-16-with-opensuse-migration-tool.html</link>
+      <author>Fangzhou Liu</author>
+      <description>多年来，我发现系统升级过程中最大的挑战常与第三方软件源相关，这主要因为这些软件源要么无法适配新版本系统或更新存在延迟。 另一个挑战在于发行版软件源的频繁变更。例如，在 Leap 15.3 版本中，作为 “缩小 Leap 差距”计划的一部分，我们移除了 ports 软件源，同时还引入了 SLE 更新软件源。 如今，在 Leap 16.0 版本中，更新软件源（update repositories）已被完全移除。Leap Micro 6.X 版本也不再提供专门的更新软件源。 过去，用户不得不手动修改发行版软件源。幸运的是，openSUSE-repos 工具实现了这一流程的自动化，并将发行版软件源纳入 RPM 包管理体系中。目前，这一机制已成为 Leap Micro 6 和 Leap 16 两个版本的默认行为，极大简化了整个系统升级与发行版迁移流程。 为何使用 opensuse-migration-tool 系统升级未必是一件令人却步或复杂的事。opensuse-migration-tool 这款工具的设计目标，就是让升级过程简单、安全且可预测。我的设计灵感来源于我们的 jeos-firstboot —— 它通过对话框实现流畅的交互体验。此外，借助自定义的 dialogrc 配置文件，该工具会以一个美观的绿色对话框欢迎用户，从一开始就赋予其熟悉的 openSUSE 风格与质感。 该工具能为你提供以下功能： 自动安装更新后的发行版软件源定义 禁用非发行版软件源，以避免版本冲突 运行 zypper dup 命令，实现平稳、安全的升级 提供升级后脚本：可帮助你适配新版本的默认设置，也支持保留个人偏好配置（例如在...</description>
+      <content:encoded>&lt;p&gt;多年来，我发现系统升级过程中最大的挑战常与&lt;strong&gt;第三方软件源&lt;/strong&gt;相关，这主要因为这些软件源要么无法适配新版本系统或更新存在延迟。&lt;/p&gt;
+
+&lt;p&gt;另一个挑战在于发行版软件源的&lt;strong&gt;频繁变更&lt;/strong&gt;。例如，在 Leap 15.3 版本中，作为 “缩小 Leap 差距”计划的一部分，我们移除了 ports 软件源，同时还引入了 SLE 更新软件源。&lt;/p&gt;
+
+&lt;p&gt;如今，在 Leap 16.0 版本中，&lt;strong&gt;更新软件源（update repositories）已被完全移除&lt;/strong&gt;。Leap Micro 6.X 版本也不再提供专门的更新软件源。&lt;/p&gt;
+
+&lt;p&gt;过去，用户不得不手动修改发行版软件源。幸运的是，&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 工具实现了这一流程的自动化，并将发行版软件源纳入 RPM 包管理体系中。目前，这一机制已成为 Leap Micro 6 和 Leap 16 两个版本的默认行为，极大简化了整个系统升级与发行版迁移流程。&lt;/p&gt;
+
+&lt;h2 id=&quot;为何使用-opensuse-migration-tool&quot;&gt;为何使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;系统升级未必是一件令人却步或复杂的事。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt; 这款工具的设计目标，就是让升级过&lt;strong&gt;程简单、安全且可预测&lt;/strong&gt;。我的设计灵感来源于我们的 &lt;a href=&quot;https://github.com/openSUSE/jeos-firstbootV&quot;&gt;jeos-firstboot&lt;/a&gt; —— 它通过对话框实现流畅的交互体验。此外，借助自定义的 dialogrc 配置文件，该工具会以一个&lt;strong&gt;美观的绿色对话框&lt;/strong&gt;欢迎用户，从一开始就赋予其熟悉的 openSUSE 风格与质感。&lt;/p&gt;
+
+&lt;h3 id=&quot;该工具能为你提供以下功能&quot;&gt;该工具能为你提供以下功能：&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;自动安装更新后的发行版软件源定义&lt;/li&gt;
+  &lt;li&gt;禁用非发行版软件源，以避免版本冲突&lt;/li&gt;
+  &lt;li&gt;运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 命令，实现平稳、安全的升级&lt;/li&gt;
+  &lt;li&gt;提供升级后脚本：可帮助你适配新版本的默认设置，也支持保留个人偏好配置（例如在 AppArmor 与 SELinux 两种安全模块间选择保留原有选项）&lt;/li&gt;
+  &lt;li&gt;执行迁移前检查，确保系统满足升级条件，包括验证是否支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86_64-v2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;自动重启系统&lt;/li&gt;
+  &lt;li&gt;可选功能：通过 snapper 工具回滚系统，或直接从 GRUB 引导菜单启动至旧系统快照&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;适用场景不仅限于同系列升级
+该工具并非只能用于 Leap n 版本到 Leap n+1 版本的升级，还支持升级到其他 openSUSE 相关发行版，包括 SUSE Linux Enterprise，Slowroll，Tumbleweed。&lt;/p&gt;
+
+&lt;p&gt;此外，Slowroll 到 Tumbleweed 的升级也可支持；近期还新增了对 Leap Micro 到 Slowroll Micro 版本的升级需求适配。只要是“系统升级”场景，该工具都能正常工作。&lt;/p&gt;
+
+&lt;p&gt;想查看实际操作效果？可观看 &lt;a href=&quot;https://www.youtube.com/watch?v=N-pKs8KJW48&quot;&gt;LowTechLinux 在 YouTube 上发布的 opensuse-migration-tool 评测视频&lt;/a&gt;，其中包含实操演示与第三方验证，帮助你直观了解工具的使用流程。&lt;/p&gt;
+
+&lt;h2 id=&quot;开始使用&quot;&gt;开始使用&lt;/h2&gt;
+
+&lt;p&gt;若你的系统尚未安装该工具，请执行：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper in opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;若你是首次使用该工具，或仅想体验其功能，可在测试模式下运行：
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/sbin/opensuse-migration-tool --dry-run&lt;/code&gt;  # 测试模式无需使用 sudo&lt;/p&gt;
+
+&lt;p&gt;此模式不会显示具体将升级的内容，但能让你大致了解该工具的功能，且不会对系统做出任何更改。&lt;/p&gt;
+
+&lt;p&gt;当你确认无误后，运行：
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;该工具会提示禁用非发行版软件源，强烈建议你执行此操作。随后，工具将触发 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup --r&lt;/code&gt; 命令，若出现任何问题，会自动重新运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;该工具还会执行迁移前的系统检查。若你遇到任何问题，可直接从 &lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;git&lt;/a&gt; 获取并运行最新版本。欢迎大家贡献代码。&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/openSUSE/opensuse-migration-tool.git
+cd opensuse-migration-tool
+./opensuse-migration-tool --dry-run
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;更多文档&quot;&gt;更多文档&lt;/h2&gt;
+&lt;p&gt;更多信息可在 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade&quot;&gt;openSUSE 系统升级&lt;/a&gt; 页面查看。该文档还介绍了如何手动升级至 16.0 版本，但我不建议这样做，尤其是考虑到我们已收到关于该工具的积极反馈。&lt;/p&gt;
+
+&lt;p&gt;升级前请务必阅读 &lt;a href=&quot;https://doc.opensuse.org&quot;&gt;Leap 16.0 发行说明&lt;/a&gt; 以及 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知漏洞 Wiki&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;未来计划&quot;&gt;未来计划&lt;/h2&gt;
+&lt;p&gt;我计划提供一个可选的 GTK4 界面，该界面将保留通用的迁移逻辑和 Bash 的强大功能。它将使用自定义 GTK4 对话框以保持 openSUSE 的外观和质感，调用方式将与 zenity 类似。以下是前两个对话框的预览：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-10/opensuse-migration-tool-gtk4.png&quot; alt=&quot;&amp;quot;gtk4 工具截图&amp;quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;今日（2025年10月1日）协调世界时（UTC）12:00（北京时间 20:00），openSUSE Leap 16 正式发布后，关于 Leap 16 版本的调查问卷将在survey.opensuse.org上线，届时用户可在该平台提交反馈意见。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/01/migrating-to-leap-16-with-opensuse-migration-tool/&quot;&gt;Migrating to openSUSE Leap 16.0 with opensuse-migration-tool&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/04/openqa-gains-ai-friendly-interface.html</guid>
       <title>openQA 新增 AI 友好型接口</title>
       <pubDate>Sat, 04 Oct 2025 01:00:00 +0000</pubDate>
@@ -363,176 +510,6 @@
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/22/planet-roundup/&quot;&gt;Planet News Roundup&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/26/os-welcome-makeover.html</guid>
-      <title>openSUSE Welcome 迎来全新改版</title>
-      <pubDate>Tue, 26 Aug 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/26/os-welcome-makeover.html</link>
-      <author>Fangzhou Liu</author>
-      <description>曾为数百万台桌面设备用户送上问候的经典 openSUSE-welcome 窗口已临近 “退休”，一套全新方案即将取代其位置。 openSUSE 发布团队并未选择 “另起炉灶”，而是决定对现有解决方案进行调整与优化 —— 例如针对 GNOME 桌面的 gnome-tour，以及针对 KDE Plasma 桌面的 plasma-welcome。具体做法是开发一个全新的控制器和 opensuse-welcome-launcher，通过这两个组件协调上述现有工具，并提供适配特定桌面环境的专属内容。 这款全新的欢迎启动器（welcome-launcher）会根据当前运行的桌面环境，自动判断应启动哪款欢迎程序。这一设计让 openSUSE 发布团队能更精准地控制欢迎界面的显示时机与方式，而非依赖各款欢迎程序自身的自动启动机制。 值得一提的是，该启动器的功能并非局限于系统首次启动场景。在系统完成重大更新后，它同样可以触发欢迎程序的显示，确保用户能及时了解更新带来的新功能、体验优化及各项变更。 新版欢迎程序的启用将分多阶段推进. 1）初期阶段，启动器（launcher）仍会调用大家熟悉的旧版 openSUSE-welcome 程序。唯一的区别在于，旧版程序中 “下次启动时显示” 的勾选框将被移除 —— 因为此后该程序不再负责自动启动相关功能。 2）启动器将触发带有 openSUSE 品牌标识的 gnome-tour 和 plasma-welcome，同时将 openSUSE-welcome 保留为备用选项（如该程序已安装）。 3）基于 Qt5 框架的旧版欢迎程序最终将被停用。对于没有专用欢迎程序的桌面会话，我们需确定一个统一的备用方案。 这种分阶段推进的方式支持与 openQA 测试流程集成，并为未来的改进提供了灵活性。 由于 opensuse-welcome-launcher 被视作旧版组件，且是为数不多仍依赖 Qt5 框架的应用程序之一，此次调整将有助于在整个发行版中逐步淘汰部分残存的 Qt5 组件。...</description>
-      <content:encoded>&lt;p&gt;曾为数百万台桌面设备用户送上问候的经典 &lt;a href=&quot;https://github.com/openSUSE/openSUSE-welcome&quot;&gt;openSUSE-welcome&lt;/a&gt; 窗口已临近 “退休”，一套全新方案即将取代其位置。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 发布团队并未选择 “另起炉灶”，而是决定对现有解决方案进行调整与优化 —— 例如针对 &lt;a href=&quot;https://www.gnome.org/&quot;&gt;GNOME&lt;/a&gt; 桌面的 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt;，以及针对 &lt;a href=&quot;https://kde.org/&quot;&gt;KDE Plasma&lt;/a&gt; 桌面的 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;。具体做法是开发一个全新的控制器和 &lt;a href=&quot;https://build.opensuse.org/package/show/X11:Utilities/opensuse-welcome-launcher&quot;&gt;opensuse-welcome-launcher&lt;/a&gt;，通过这两个组件协调上述现有工具，并提供适配特定桌面环境的专属内容。&lt;/p&gt;
-
-&lt;p&gt;这款全新的欢迎启动器（welcome-launcher）会根据当前运行的桌面环境，自动判断应启动哪款欢迎程序。这一设计让 openSUSE 发布团队能更精准地控制欢迎界面的显示时机与方式，而非依赖各款欢迎程序自身的自动启动机制。&lt;/p&gt;
-
-&lt;p&gt;值得一提的是，该启动器的功能并非局限于系统首次启动场景。在系统完成重大更新后，它同样可以触发欢迎程序的显示，确保用户能及时了解更新带来的新功能、体验优化及各项变更。&lt;/p&gt;
-
-&lt;p&gt;新版欢迎程序的启用将分多阶段推进.&lt;/p&gt;
-
-&lt;p&gt;1）初期阶段，启动器（launcher）仍会调用大家熟悉的旧版 openSUSE-welcome 程序。唯一的区别在于，旧版程序中 “下次启动时显示” 的勾选框将被移除 —— 因为此后该程序不再负责自动启动相关功能。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-08/welcome.png&quot; alt=&quot;Geeko&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;2）启动器将触发带有 openSUSE 品牌标识的 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt; 和 &lt;a href=&quot;https://invent.kde.org/plasma/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;，同时将 openSUSE-welcome 保留为备用选项（如该程序已安装）。&lt;/p&gt;
-
-&lt;p&gt;3）基于 Qt5 框架的旧版欢迎程序最终将被停用。对于没有专用欢迎程序的桌面会话，我们需确定一个统一的备用方案。&lt;/p&gt;
-
-&lt;p&gt;这种分阶段推进的方式支持与 &lt;a href=&quot;https://openqa.opensuse.org/&quot;&gt;openQA&lt;/a&gt; 测试流程集成，并为未来的改进提供了灵活性。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-08/welcome1.png&quot; alt=&quot;Geeko&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;由于 &lt;a href=&quot;https://build.opensuse.org/package/show/X11:Utilities/opensuse-welcome-launcher&quot;&gt;opensuse-welcome-launcher&lt;/a&gt; 被视作旧版组件，且是为数不多仍依赖 Qt5 框架的应用程序之一，此次调整将有助于在整个发行版中逐步淘汰部分残存的 Qt5 组件。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/21/os-welcome-makeover/&quot;&gt;openSUSE Welcome Receiving Makeover&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/18/osas-cfh-extended.html</guid>
-      <title>截止日期延长：openSUSE 2026 年亚洲峰会主办方征集</title>
-      <pubDate>Mon, 18 Aug 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/18/osas-cfh-extended.html</link>
-      <author>Fangzhou Liu</author>
-      <description>openSUSE.Asia 峰会组织委员会已延长 2026 年亚洲峰会 主办方征集的提案提交截止日期。各社区现在可在 2025 年 8 月 27 日 前提交申请。
-
-此次延期是为响应各地社区的请求，这些社区希望有更多时间来准备提案。这是一个展示你所在地区风采、将 openSUSE 社区汇聚到你的城市的绝佳机会。
-
-入选的提案将在 8 月 29 日至 30 日于法里达巴德 举办的 openSUSE 2025 亚洲峰会 上进行展示。若无法现场参与，也可在 线上 进行提案展示。
-
-欲了解更多信息，请访问：https://news.opensuse.org/2025/06/10/osas-cfh/
-
-
-原文：Deadline Extended Call for Host openSUSE.Asia Summit 2026，作者：Shobha Tyagi
-</description>
-      <content:encoded>&lt;p&gt;openSUSE.Asia 峰会组织委员会已延长 &lt;strong&gt;2026 年亚洲峰会&lt;/strong&gt; 主办方征集的提案提交截止日期。各社区现在可在 &lt;strong&gt;2025 年 8 月 27 日&lt;/strong&gt; 前提交申请。&lt;/p&gt;
-
-&lt;p&gt;此次延期是为响应各地社区的请求，这些社区希望有更多时间来准备提案。这是一个展示你所在地区风采、将 openSUSE 社区汇聚到你的城市的绝佳机会。&lt;/p&gt;
-
-&lt;p&gt;入选的提案将在 &lt;strong&gt;8 月 29 日至 30 日于法里达巴德&lt;/strong&gt; 举办的 &lt;strong&gt;openSUSE 2025 亚洲峰会&lt;/strong&gt; 上进行展示。若无法现场参与，也可在 &lt;strong&gt;线上&lt;/strong&gt; 进行提案展示。&lt;/p&gt;
-
-&lt;p&gt;欲了解更多信息，请访问：&lt;a href=&quot;https://news.opensuse.org/2025/06/10/osas-cfh/&quot;&gt;https://news.opensuse.org/2025/06/10/osas-cfh/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/16/osas-cfh-extended/&quot;&gt;Deadline Extended Call for Host openSUSE.Asia Summit 2026&lt;/a&gt;，作者：Shobha Tyagi&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/12/leap-16-rc.html</guid>
-      <title>在 openSUSE Leap 16.0 RC 版本上体验 Xfce 的 Wayland 环境</title>
-      <pubDate>Tue, 12 Aug 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/08/12/leap-16-rc.html</link>
-      <author>Fangzhou Liu</author>
-      <description>进入候选发布（RC）阶段 openSUSE Leap 16.0 已正式从 Beta 阶段过渡到候选发布（RC）阶段，当前版本为 Build 148.4。 对于发布团队而言，在秋季发布之前，最大的挑战在于源代码管理——因为我们希望将 Tumbleweed 和 Leap 16.0 都从传统的 OBS 源代码管理系统迁移到 Git。这也需要为 Leap 制定新的维护模式。 在我们公布黄金候选版（Gold Master candidate）之前，用户预计还会看到几个新版本。由于 Leap 16 基于 SUSE Linux Enterprise 16 的二进制文件构建，因此只有在 9 月下旬 SUSE Linux Enterprise 16.0 公布其黄金版（Gold Master）之后，我们才能推出相应版本。 如果维护设置一切顺利，我们的目标是按照路线图，在 10 月 SLES 16.0 发布前不久交付该版本。 更多详情可参见 路线图，也可查阅新上线的 calendar.opensuse.org。 新的安装器 Leap...</description>
-      <content:encoded>&lt;h3 id=&quot;进入候选发布rc阶段&quot;&gt;进入候选发布（RC）阶段&lt;/h3&gt;
-
-&lt;p&gt;openSUSE Leap 16.0 已正式从 Beta 阶段过渡到候选发布（RC）阶段，当前版本为 &lt;a href=&quot;https://openqa.opensuse.org/group_overview/129&quot;&gt;Build 148.4&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;对于发布团队而言，在秋季发布之前，最大的挑战在于源代码管理——因为我们希望将 Tumbleweed 和 Leap 16.0 都从传统的 OBS 源代码管理系统迁移到 Git。这也需要为 Leap 制定新的维护模式。&lt;/p&gt;
-
-&lt;p&gt;在我们公布黄金候选版（Gold Master candidate）之前，用户预计还会看到几个新版本。由于 Leap 16 基于 SUSE Linux Enterprise 16 的二进制文件构建，因此只有在 9 月下旬 SUSE Linux Enterprise 16.0 公布其黄金版（Gold Master）之后，我们才能推出相应版本。&lt;/p&gt;
-
-&lt;p&gt;如果维护设置一切顺利，我们的目标是按照路线图，在 10 月 SLES 16.0 发布前不久交付该版本。&lt;/p&gt;
-
-&lt;p&gt;更多详情可参见 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Roadmap#Schedule_for_Leap_16.0&quot;&gt;路线图&lt;/a&gt;，也可查阅新上线的 &lt;a href=&quot;https://calendar.opensuse.org/teams/product-schedule&quot;&gt;calendar.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;新的安装器&quot;&gt;新的安装器&lt;/h3&gt;
-
-&lt;p&gt;Leap 16.0 除了在线和离线安装方式外，还采用了最新的 Agama 安装程序。你可以在 &lt;a href=&quot;https://get.opensuse.org/leap/16.0/&quot;&gt;get.opensuse.org&lt;/a&gt; 获取安装镜像。此外，用户也可以选择我们提供的其中一个 &lt;a href=&quot;https://download.opensuse.org/distribution/leap/16.0/appliances/iso/&quot;&gt;应用镜像&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;成为首批提供-xfce-on-wayland-的平台之一&quot;&gt;成为首批提供 Xfce on Wayland 的平台之一&lt;/h3&gt;
-
-&lt;p&gt;我们在安装程序中仅提供基于 Wayland 的桌面环境。&lt;strong&gt;Xfce on Wayland 最近已加入选择名单中了。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;多亏了 openSUSE Xfce 团队的努力，我们成为首批向用户提供其试验性预览版的平台之一。随着接近 RC 阶段，&lt;a href=&quot;https://lists.opensuse.org/archives/list/xfce@lists.opensuse.org/&quot;&gt;Xfce 邮件列表&lt;/a&gt; 的讨论相当活跃。&lt;/p&gt;
-
-&lt;p&gt;用户可以使用简约且适配 Wayland 的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;greetd&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gtkgreet&lt;/code&gt; 来替代 LightDM。&lt;/p&gt;
-
-&lt;p&gt;获取 Leap 16.0 安装镜像并亲自尝试吧！&lt;/p&gt;
-
-&lt;p&gt;请注意，Xfce 对 Wayland 的支持目前仍处于试验阶段，存在不少 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0#Experimental_Xfce_on_Wayland&quot;&gt;问题&lt;/a&gt;。我们需要大家的帮助来完善相关模式，让 Xfce 上适配 Wayland 的应用拥有更完整的体验。如果您有意参与这项工作，欢迎加入 &lt;a href=&quot;https://lists.opensuse.org/manage/lists/xfce.lists.opensuse.org/s&quot;&gt;Xfce 邮件列表&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;yast-组件精简&quot;&gt;YaST 组件精简&lt;/h3&gt;
-
-&lt;p&gt;Leap 16.0 的全新安装版本中不会预装任何 YaST 软件包。&lt;/p&gt;
-
-&lt;p&gt;用户可以使用新的软件包 &lt;a href=&quot;https://github.com/shundhammer/myrlyn&quot;&gt;Myrlyn&lt;/a&gt;，它是传统 YaST 软件包管理工具的替代方案，其功能不仅限于为 Zypper 提供一个美观的图形界面前端。&lt;/p&gt;
-
-&lt;p&gt;由于 Agama 安装程序 &lt;strong&gt;依赖于&lt;/strong&gt; 部分 YaST 软件包，因此这部分有限的 YaST 软件包仍会保留，在系统迁移时不会被移除。&lt;/p&gt;
-
-&lt;p&gt;从长远来看，我们的目标是转向使用 &lt;a href=&quot;https://cockpit-project.org/&quot;&gt;Cockpit&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;selinux-成为新默认选项&quot;&gt;SELinux 成为新默认选项&lt;/h3&gt;
-
-&lt;p&gt;所有全新安装的系统都将默认使用 SELinux。&lt;/p&gt;
-
-&lt;p&gt;用户可在安装后切换至 &lt;a href=&quot;https://en.opensuse.org/SDB:AppArmor#Switching_from_SELinux_to_AppArmor_for_Leap_16.0_and_Tumbleweed&quot;&gt;AppArmor&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h3 id=&quot;steamwine-与-32-位支持&quot;&gt;Steam、Wine 与 32 位支持&lt;/h3&gt;
-
-&lt;p&gt;SUSE Linux Enterprise 16.0 不支持 32 位二进制文件运行。&lt;/p&gt;
-
-&lt;p&gt;Leap 用户可安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grub2-compat-ia32&lt;/code&gt; 包，通过向内核传递 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ia32_emulation=1&lt;/code&gt; 参数来启用 32 位支持。&lt;/p&gt;
-
-&lt;p&gt;由于 32 位库的支持范围有限，我们最近已从 &lt;a href=&quot;https://en.opensuse.org/Package_repositories#Non-OSS&quot;&gt;Non-OSS 软件仓库&lt;/a&gt; 中移除了 Steam。&lt;/p&gt;
-
-&lt;p&gt;Steam 用户需要安装 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;selinux-policy-targeted-gaming&lt;/code&gt; 包，该包不会默认安装。&lt;/p&gt;
-
-&lt;h3 id=&quot;新的软件仓库结构与-zypper-中的并行下载功能&quot;&gt;新的软件仓库结构与 zypper 中的并行下载功能&lt;/h3&gt;
-
-&lt;p&gt;对于从 15.6 版本迁移过来的用户而言，最大的变化可能是针对 SLES 软件包的专用更新仓库不复存在了。&lt;/p&gt;
-
-&lt;p&gt;Leap 16.0 实质上仅使用一个名为 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;repo-oss&lt;/code&gt; 的仓库，其中既包含社区软件包，也包含 SLES 软件包以及它们各自的更新。&lt;br /&gt;
-如今，我们为不同架构使用单独的仓库数据，同时在 Zypper 中引入了并行下载功能，旨在为用户带来更“流畅迅速”的使用体验。&lt;/p&gt;
-
-&lt;h3 id=&quot;迁移说明&quot;&gt;迁移说明&lt;/h3&gt;
-
-&lt;p&gt;我个人建议从 Leap 15.6 迁移到 16.0 的用户了解一下新的 &lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;opensuse-migration-tool&lt;/a&gt; 工具。&lt;/p&gt;
-
-&lt;p&gt;该工具提供了一些实用的可选迁移后脚本，例如 32 位二进制文件启用、从 PulseAudio 迁移到 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Pipewire#Installation&quot;&gt;PipeWire&lt;/a&gt;，以及 AppArmor/SELinux 的选择等。&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;zypper &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;opensuse-migration-tool
-opensuse-migration-tool &lt;span class=&quot;nt&quot;&gt;--dry-run&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# 可选操作，用于查看迁移大致情况&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;opensuse-migration-tool
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;手动迁移的用户在运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper --releasever 16.0 dup&lt;/code&gt; 之前，需要删除所有更新仓库，仅保留 oss/non-oss 仓库。&lt;/p&gt;
-
-&lt;p&gt;详细信息可参考我们的 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade&quot;&gt;系统升级&lt;/a&gt; 维基页面。&lt;/p&gt;
-
-&lt;h3 id=&quot;全新改版的发行说明&quot;&gt;全新改版的发行说明&lt;/h3&gt;
-
-&lt;p&gt;新版模块化 &lt;a href=&quot;https://github.com/SUSE/release-notes&quot;&gt;发行说明&lt;/a&gt; 的预览版可在 &lt;a href=&quot;https://susedoc.github.io/release-notes/leap-16.0/html/release-notes/index.html&quot;&gt;此处&lt;/a&gt; 查看。&lt;/p&gt;
-
-&lt;p&gt;我们已将发行说明的构建/发布基础设施精简至基本只需依赖 GitHub，因为安装程序不再需要包含本地发行说明副本的 RPM 包。&lt;/p&gt;
-
-&lt;h3 id=&quot;提交错误报告&quot;&gt;提交错误报告&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;在此阶段，您的反馈至关重要。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;我们知道，大家通常会从候选发布（RC）版本开始认真测试新发行版。&lt;/p&gt;
-
-&lt;p&gt;如有任何问题，请在 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Submitting_bug_reports&quot;&gt;bugzilla.opensuse.org&lt;/a&gt; 上提交报告。提交新问题之前，请务必查看 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知错误维基页面&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;感谢您参与测试并成为 openSUSE 社区的一员。让我们共同打造 Leap 16.0！&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/04/leap-16-rc/&quot;&gt;Try Xfce on Wayland with openSUSE Leap 16.0 RC&lt;/a&gt;，作者：Lubos Kocman (Edited by Douglas DeMaio)&lt;/p&gt;
 </content:encoded>
     </item>
 
