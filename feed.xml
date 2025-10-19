@@ -7,6 +7,184 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/10/19/tw-monthly-update-sept.html</guid>
+      <title>openSUSE Tumbleweed 每月更新 - 2025 年 9 月</title>
+      <pubDate>Sun, 19 Oct 2025 01:30:00 +0000</pubDate>
+      <link>/%E6%9B%B4%E6%96%B0%E9%80%9A%E5%91%8A/2025/10/19/tw-monthly-update-sept.html</link>
+      <author>Fangzhou Liu</author>
+      <description>九月，openSUSE Tumbleweed 的软件包更新进入稳定节奏，快照几乎每日发布。这些更新为滚动发布版用户带来了新功能、性能改进以及重要的安全修复。 本月快照中更新的软件包包括 GnuPG 2.5.12、文件归档工具 7-Zip 25.01、文本编辑器 Vim 9.1.1706 以及 内核源码 6.16.5 等。 随着 GNOME 49 和 Plasma 6.4.5 的推出，桌面体验得到显著提升。KDE Gear 25.08.1 为核心应用程序带来了全面修复。本月更新的其他软件包还有 QEMU 10.1.0、libvirt 11.6.0、tuned 2.26.0、GStreamer 1.26.6、Mesa 25.2.2 等。 与往常一样，若出现任何问题，请务必使用 snapper 进行回滚操作。 如需了解本月更新日志的更多详情，请访问 openSUSE Factory 邮件列表。 新功能和增强功能 GNOME 49：Tumbleweed 中更新了多个 GNOME 49 软件包。部分变更包括：用 Showtime 取代 Totem 成为新的默认视频播放器，用 Papers...</description>
+      <content:encoded>&lt;p&gt;九月，&lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 的软件包更新进入稳定节奏，快照几乎每日发布。这些更新为滚动发布版用户带来了新功能、性能改进以及重要的安全修复。&lt;/p&gt;
+
+&lt;p&gt;本月快照中更新的软件包包括 &lt;a href=&quot;https://gnupg.org/&quot;&gt;GnuPG&lt;/a&gt; 2.5.12、文件归档工具 &lt;a href=&quot;https://www.7-zip.org/&quot;&gt;7-Zip&lt;/a&gt; 25.01、文本编辑器 &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 9.1.1706 以及 &lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核源码&lt;/a&gt; 6.16.5 等。&lt;/p&gt;
+
+&lt;p&gt;随着 &lt;a href=&quot;https://www.gnome.org/news/2025/09/gnome-49-released/&quot;&gt;GNOME 49&lt;/a&gt; 和 &lt;a href=&quot;https://kde.org/announcements/plasma/6/6.4.5/&quot;&gt;Plasma 6.4.5&lt;/a&gt; 的推出，桌面体验得到显著提升。&lt;a href=&quot;https://kde.org/announcements/gear/25.08.1/&quot;&gt;KDE Gear 25.08.1&lt;/a&gt; 为核心应用程序带来了全面修复。本月更新的其他软件包还有 &lt;a href=&quot;https://www.qemu.org/&quot;&gt;QEMU 10.1.0&lt;/a&gt;、&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt 11.6.0&lt;/a&gt;、&lt;a href=&quot;https://github.com/redhat-performance/tuned&quot;&gt;tuned 2.26.0&lt;/a&gt;、&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer 1.26.6&lt;/a&gt;、&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa 25.2.2&lt;/a&gt; 等。&lt;/p&gt;
+
+&lt;p&gt;与往常一样，若出现任何问题，请务必使用 &lt;a href=&quot;https://github.com/openSUSE/snapper&quot;&gt;snapper&lt;/a&gt; 进行回滚操作。&lt;/p&gt;
+
+&lt;p&gt;如需了解本月更新日志的更多详情，请访问 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h2 id=&quot;新功能和增强功能&quot;&gt;新功能和增强功能&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gnome.org/news/2025/09/gnome-49-released/&quot;&gt;GNOME 49&lt;/a&gt;&lt;/strong&gt;：Tumbleweed 中更新了多个 GNOME 49 软件包。部分变更包括：用 &lt;a href=&quot;https://apps.gnome.org/app/org.gnome.Totem/&quot;&gt;Showtime&lt;/a&gt; 取代 Totem 成为新的默认视频播放器，用 &lt;a href=&quot;https://apps.gnome.org/app/org.gnome.Evince/&quot;&gt;Papers&lt;/a&gt; 取代 Evince，以实现现代化、功能丰富的文档查看体验。&lt;a href=&quot;https://apps.gnome.org/app/org.gnome.Calendar/&quot;&gt;日历&lt;/a&gt; 应用现在完全支持键盘操作，且允许用户导出日程。&lt;a href=&quot;https://apps.gnome.org/app/org.gnome.Epiphany/&quot;&gt;网页&lt;/a&gt; 应用增强了广告拦截功能、支持 OpenSearch 集成，并新增网站专属菜单。远程桌面现在支持多点触控和虚拟显示器。全新的 HDR 壁纸提升了视觉保真度，而锁屏媒体控制、快捷设置中的“免打扰”模式以及重启/关机选项则提高了易用性。两款新应用加入 GNOME Circle：麻将游戏（Mahjongg）和词典应用 Wordbook，后者由 WordNet 提供数据支持。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/gear/25.08.1/&quot;&gt;KDE Gear 25.08.1&lt;/a&gt;&lt;/strong&gt;：&lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt; 现在滚动速度更快，切换选择模式或创建文件夹时不会崩溃，且仅在清空回收站成功时播放提示音。&lt;a href=&quot;https://apps.kde.org/kmail2/&quot;&gt;KMail&lt;/a&gt;、&lt;a href=&quot;https://apps.kde.org/akregator/&quot;&gt;Akregator&lt;/a&gt;、KAddressBook 通讯录、KOrganizer 及其他 PIM 工具，在启动时不再显示过时的“新增功能”界面。&lt;a href=&quot;https://apps.kde.org/ark/&quot;&gt;Ark&lt;/a&gt; 和 &lt;a href=&quot;https://apps.kde.org/ktorrent/&quot;&gt;KTorrent&lt;/a&gt; 已修复问题，分别避免了不必要的通知和过度的文件写入。文本编辑器 &lt;a href=&quot;https://kate-editor.org/&quot;&gt;Kate&lt;/a&gt; 修复了多个崩溃问题（尤其在会话处理和外部工具集成方面），且在 &lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; 环境中运行更流畅。&lt;a href=&quot;https://kdenlive.org/en/&quot;&gt;Kdenlive&lt;/a&gt; 稳定性显著提升，包括修复删除片段、应用特效或打开项目时的崩溃问题。&lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;Itinerary&lt;/a&gt; 优化了航班和预订信息的处理；&lt;a href=&quot;https://apps.kde.org/de/konqueror/&quot;&gt;Konqueror&lt;/a&gt; 在 &lt;a href=&quot;https://wayland.freedesktop.org/&quot;&gt;Wayland&lt;/a&gt; 环境中运行更流畅，侧边栏菜单显示正常；&lt;a href=&quot;https://okular.kde.org/&quot;&gt;Okular&lt;/a&gt; 现在签署 PDF 时会使用正确的默认文件名。&lt;a href=&quot;https://apps.kde.org/neochat/&quot;&gt;Neochat&lt;/a&gt;、&lt;a href=&quot;https://apps.kde.org/tokodon/&quot;&gt;Tokodon&lt;/a&gt; 和 KRDc 远程桌面工具等其他应用，也分别修复了链接处理、图片复制和连接 URL 保存相关的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/plasma/6/6.4.5/&quot;&gt;Plasma 6.4.5&lt;/a&gt;&lt;/strong&gt;：&lt;a href=&quot;https://invent.kde.org/plasma/discover&quot;&gt;Discover&lt;/a&gt;  软件中心现在重新打开消息时，会正确启用“删除设置”按钮。面板自定义体验更流畅，编辑时对 &lt;kbd&gt;Esc&lt;/kbd&gt; 键的响应更准确；桌面文件夹视图重新排列图标时，不再出现图标错位问题。系统设置（KCMs）有多项修复，包括字体更改通知正常显示、通知配置页面优化，以及时区选择器的焦点交互更流畅。&lt;a href=&quot;https://invent.kde.org/plasma/kwin&quot;&gt;KWin 窗口管理器&lt;/a&gt; 优化了显示处理，通过 UUID 更精准识别输出设备，且在 Wayland 环境中实现了更可靠的色彩管理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://kde.org/announcements/frameworks/6.18.0/&quot;&gt;KDE Frameworks 6.18.0&lt;/a&gt;&lt;/strong&gt;：此次 KDE 更新确保 &lt;a href=&quot;https://apps.kde.org/dolphin/&quot;&gt;Dolphin&lt;/a&gt;、&lt;a href=&quot;https://apps.kde.org/kmail2/&quot;&gt;KMail&lt;/a&gt;、&lt;a href=&quot;https://apps.kde.org/ark/&quot;&gt;Ark&lt;/a&gt; 等 KDE 应用运行更流畅。Breeze 图标主题进行了优化，移除过时、非标准尺寸的图标及第三方应用图标，提升了视觉一致性。&lt;a href=&quot;https://api.kde.org/frameworks/kio/html/index.html&quot;&gt;KIO&lt;/a&gt; 和 KArchive 等核心库优化了文件操作处理、改进后台线程中的缩略图加载，并增强了对畸形归档文件处理时的安全性。&lt;a href=&quot;https://kde.org/products/kirigami/&quot;&gt;Kirigami&lt;/a&gt;（用于 &lt;a href=&quot;https://apps.kde.org/itinerary/&quot;&gt;Itinerary&lt;/a&gt; 和 Plasma Mobile 等应用的自适应界面框架）修复了导航组件的布局问题，并通过优化焦点处理提升了可访问性。其他更新包括：多个框架的代码质量检查得到加强，以及 &lt;a href=&quot;https://api.kde.org/frameworks/ktexteditor/html/index.html&quot;&gt;KTextEditor&lt;/a&gt; 的漏洞修复。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/tianocore/edk2&quot;&gt;OVMF&lt;/a&gt; edk2-stable202508&lt;/strong&gt;：此更新将依赖项升级至 OpenSSL 3.5.1 和 Oniguruma 6.9.10，引入独立 MM 支持，并添加带有 UUID-GUID 转换的 FF-A 内存管理。硬件和架构支持得到扩展，包括 ARM GICv5、RISC-V PEI 启动以及改进的异常处理。已移除旧版 UGA 支持，且增强了 QEMU TLS 和 TPM2 处理以提升稳定性。该版本还带来了众多 USB、SMM 和 CPU 热插拔修复，更好的构建系统集成（包括 mingw-w64），并默认启用 x64 OVMF 的 iSCSI 启动功能。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/redhat-performance/tuned&quot;&gt;tuned&lt;/a&gt; 2.26.0&lt;/strong&gt;：此更新增加了对 MMC 设备的支持，改进了热插拔处理，并增强了核心计算、变量继承以及对不支持插件的日志记录。这个用于监控和自适应调优的守护进程的电源管理配置文件，现在使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;med_power_with_dipm&lt;/code&gt; 替代 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;min_power&lt;/code&gt;，以在保持节能的同时防止潜在的数据丢失。其他改进包括网络延迟调优、调度器性能检测和 sysfs 监控。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.7-zip.org/&quot;&gt;7-Zip&lt;/a&gt; 25.01&lt;/strong&gt;：这个文件归档工具更新通过改变提取归档文件时处理符号链接的方式来提高安全性。性能得到提升，bzip2 压缩速度提高 15–40%，deflate（zip/gz）压缩速度略有提升，达到 1–3%。归档兼容性增强，对 ZIP、CPIO 和 FAT 格式的支持更好。解决了一些安全问题，包括修复对畸形 RAR 归档的错误处理以及特定畸形复合文件归档导致的崩溃问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://libvirt.org/&quot;&gt;libvirt&lt;/a&gt; 11.6.0&lt;/strong&gt;：此版本引入了多项新功能，包括一个可独立于主机计算基准 CPU 的标志、对 QEMU TLS 优先级字符串更精细的控制、默认禁用 s390 域的已弃用 CPU 功能以及 QEMU 的 RBD 命名空间支持。&lt;a href=&quot;https://www.arm.com/&quot;&gt;arm&lt;/a&gt; 和 &lt;a href=&quot;https://riscv.org/&quot;&gt;RISC-V&lt;/a&gt; 的默认设置现在使用 &lt;a href=&quot;https://www.ovirt.org/develop/release-management/features/storage/virtio-scsi.html&quot;&gt;virtio-scsi&lt;/a&gt; 而非 lsilogic。其他改进包括丢弃粒度设置、更好的 NSS 调试以及放宽 TLS 证书要求。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://udisks.freedesktop.org/&quot;&gt;udisks2&lt;/a&gt; 2.10.91&lt;/strong&gt;：此版本改进了存储管理，包括 LUKS 头备份、创建加密设备时设置标签的能力以及对额外 PBKDF 选项的支持。用户现在可以对 BitLocker 卷使用密钥文件，为 MD RAID 指定元数据版本，并利用新的 &lt;a href=&quot;https://btrfs.wiki.kernel.org&quot;&gt;Btrfs&lt;/a&gt; 方法获取和设置默认子卷 ID。挂载选项得到扩展，增加了用于 ISO9660、f2fs 和 ext3/ext4 文件系统的新标志。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gitlab.freedesktop.org/polkit/polkit&quot;&gt;polkit&lt;/a&gt; 126&lt;/strong&gt;：在这个版本中，可从 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/run/&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/local/share&lt;/code&gt; 读取操作，新的 LogControl1 协议允许动态更改日志级别。&lt;a href=&quot;https://duktape.org/&quot;&gt;Duktape&lt;/a&gt; 简化了依赖项，并取代了 &lt;a href=&quot;https://spidermonkey.dev/&quot;&gt;mozjs&lt;/a&gt;。翻译扩展到了斯洛文尼亚语和印地语。&lt;/p&gt;
+
+&lt;h2 id=&quot;关键软件包更新&quot;&gt;关键软件包更新&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gnupg.org/&quot;&gt;GnuPG&lt;/a&gt; 2.5.12&lt;/strong&gt;：此更新为 GnuPG 增加了新的灵活性并修复了多项问题。发送到 LDAP 服务器的密钥现在会预先刷新，除非通过新选项禁用；新增的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--[no-]auto-key-upload&lt;/code&gt; 设置可控制自动上传。压缩处理得到改进，对 7z 输入禁用了默认压缩。在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--edit-key:addkey&lt;/code&gt; 中增加了对 Kyber 变体的支持，并修复了复合 PQC 和 ECC 算法的回归问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt; 9.1.1706&lt;/strong&gt;：此更新解决了缓冲区溢出、空指针解引用和弹出窗口行为异常等问题。教程新增了关于文本对象和特殊寄存器的章节，同时更新了过时的翻译和文档以提高清晰度。补全逻辑、命令处理和测试覆盖范围也得到了优化。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 25.2.2&lt;/strong&gt;：此版本对图形堆栈进行了重要更新和清理。移除了旧版组件以及相关软件包（如 Mesa-gallium、Mesa-libd3d、Mesa-libOpenCL 和 libxatracker），体现了向现代 API 和驱动程序的转变。更新包括刷新 NVK 的 Rust  crate、改进构建要求，以及修复 crate 校验和不匹配的问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.sudo.ws/&quot;&gt;sudo&lt;/a&gt; 1.9.17p2&lt;/strong&gt;：此更新修复了一个罕见问题，该问题可能导致 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo&lt;/code&gt; 在伪终端中运行命令时向所有系统进程发送 SIGHUP 信号。另一项修复解决了在支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ptrace_readv_string()&lt;/code&gt; 的 Linux 系统上，使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intercept&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;intercept_verify&lt;/code&gt; 选项且带有极大参数或环境变量时出现的崩溃问题。配置脚本现在在没有 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mandoc&lt;/code&gt; 的系统上也能正确支持 mdoc 手册页。此外，&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/etc/sudoers&lt;/code&gt; 的权限默认值已修正。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.postfix.org/&quot;&gt;Postfix&lt;/a&gt; 3.10.4&lt;/strong&gt;：此版本修复了 postscreen 中存在已久的问题，包括进程重启后的套接字错误以及可能阻塞新进程的缓存锁定问题。TLS 处理更加稳健，修正了对旧版参数的支持，并防止了 tlsproxy 中的空指针崩溃。更新减少了数据库文件更改时不必要的进程重启，移除了过时的 &lt;a href=&quot;https://www.openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; 引擎依赖，并通过忽略明确标记为不需要加密的消息来清理 TLS 报告。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://gstreamer.freedesktop.org/&quot;&gt;GStreamer&lt;/a&gt; 1.26.6&lt;/strong&gt;：此更新增强了字幕处理、decodebin3 标签处理、HLS 指令解析和 fallbacksrc 关闭行为的稳健性。硬件和格式支持得到扩展，包括 V4L2 对 WVC1/WMV3 的支持、Vulkan 解码器修复，以及通过 &lt;a href=&quot;https://docs.rs/crate/librespot/latest&quot;&gt;librespot&lt;/a&gt; 0.7 实现的 Spotify 集成更新。新的 threadshare 元素改进了同步和性能，而 videorate 在仅丢弃模式下效率更高。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://fwupd.org/&quot;&gt;fwupd&lt;/a&gt; 2.0.14、2.0.15 和 2.0.16&lt;/strong&gt;：2.0.15 更新现已支持富士康 SDX61 调制解调器、Jabra Evolve2 子设备以及 NVIDIA ConnectX-6/7/8 网卡。子设备还可以继承父设备的命名前缀，以便更清晰地识别。修复了多个漏洞，包括不使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--force&lt;/code&gt; 的固件报告、Firehose 调制解调器擦除、Goodix 设备枚举以及 BnR MTD 硬件的版本控制处理。2.0.14 更新增加了灵活性，允许固件更新忽略网络连接要求、UEFI 胶囊设备选择不使用 Capsule-on-Disk，以及插件在更新期间访问固件版本。众多修复提高了可靠性，包括更好地处理调制解调器设备、&lt;a href=&quot;https://www.lexar.com&quot;&gt;Lexar&lt;/a&gt; NVMe 版本控制、Synaptics RMI 初始化、UF2 解析和 ThunderBolt 重定时器检测。更新的硬件支持扩大了 fwupd 在现代系统和外设中的应用范围。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核源码&lt;/a&gt; 6.16.5、6.16.6、6.16.7、6.16.8&lt;/strong&gt;：6.16.8 更新在文件系统、网络和驱动程序方面提供了广泛的稳定性和安全性修复。Btrfs 解决了配额统计信息泄漏和子卷删除竞争问题，而 NFS 和 NFSv4.2 改进了 O_DIRECT 操作的序列化和权限处理。6.16.7 更新增加了对新记录漏洞（CVE-2025-40300）的缓解措施，将保护扩展到较旧的 Intel CPU，启用条件 IBPB，并在 STIBP 与 SMT 一起禁用时发出警告。tar-up 工具已现代化，改用标准 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tar&lt;/code&gt; 命令，确保一致的所有权、排序以及与 Tumbleweed 的兼容性。6.16.6 更新修复了 Btrfs 的多个竞争条件，以提高 inode 日志可靠性，同时音频和 USB 支持通过编解码器修复和更好地处理 Focusrite 设备得到改进。网络和无线驱动程序针对 cfg80211、iwlwifi、brcmfmac 和 mt76 芯片组进行了大量补丁更新，解决了使用后释放漏洞、竞争条件和扫描稳定性问题。6.16.5 更新解决了设备树、网络、跟踪和 I/O 处理中的内存泄漏、竞争条件和使用后释放漏洞。增强功能包括提高并发访问下的 SMB 客户端可靠性、改进音频编解码器控制、修复 HID 和 Intel quicki2c 驱动程序，以及优化 io_uring 工作进程管理。MSM 和联发科的图形驱动程序获得稳定性更新，而蓝牙的断开连接处理和数据包跟踪更加稳健。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/SELinuxProject/selinux&quot;&gt;SELinux 策略&lt;/a&gt; 20250909&lt;/strong&gt;：此更新完善了 SELinux 规则，以提高与常见服务和系统组件的兼容性。GDM 现在可以创建密码锁定文件并在 &lt;a href=&quot;https://freedesktop.org/wiki/Software/systemd/&quot;&gt;systemd&lt;/a&gt; userdbd 目录中绑定套接字，而 nsswitch 域允许通过 Unix 套接字连接到 XDM。其他更新包括启用 gnome-remote-desktop 与 tabrmd 的通信、允许 nm-dispatcher 插件读取 pidfs 属性，以及允许 chronyc 使用 setgid/setuid。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/SELinuxProject/setools&quot;&gt;SETools&lt;/a&gt; 4.6.0&lt;/strong&gt;：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;seinfo&lt;/code&gt; 工具现在可显示给定类型允许的角色，新增的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sechecker&lt;/code&gt; 模块能确保内核模块保持只读状态。同时引入了对 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nlmsg&lt;/code&gt; 扩展权限的支持。在底层，代码库已实现现代化改造，包括改进质量检查、扩展单元测试以及移除已弃用的方法。打包方式已更新为使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyproject.toml&lt;/code&gt;，优化了依赖项处理，并在构建过程中实现自动化测试执行。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.qemu.org/&quot;&gt;QEMU&lt;/a&gt; 10.1.0&lt;/strong&gt;：VFIO 现在支持为 SEV-SNP 和 TDX 客户机提供透传功能，迁移功能则新增了 multifd 后复制加速、优化的预复制以及 IPv6 RDMA 支持。QEMU 客户机代理可通过新命令查询 Windows 虚拟机负载。架构更新包括：ARM 新增 CPU 特性和主板、ARM virt 主板支持嵌套虚拟化与 CXL、龙芯架构（LoongArch）支持内核内中断控制器、RISC-V 新增 ISA 扩展与昆明湖（Kunminghu）CPU 支持，以及 Microblaze 架构支持字节序选择。此外，该版本还包含大量修复与弃用项。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openprinting.github.io/cups/&quot;&gt;CUPS&lt;/a&gt; 2.4.14&lt;/strong&gt;：此次打印服务更新修复了两个漏洞：一是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AuthType Negotiate&lt;/code&gt; 相关的身份验证绕过漏洞（CVE-2025-58060），二是导致远程拒绝服务（DoS）的空指针解引用漏洞（CVE-2025-58364）。同时引入了新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;print-as-raster&lt;/code&gt; 属性，可强制作业以光栅格式输出，以规避打印机固件的 PDF 处理问题。其他改进包括：修复重启后的作业清理、订阅处理、IPP/PPD 选项解析、内存泄漏，以及调度器事件报告问题。2.4.14 版本还附带一个热修复，确保本地化模板与 CUPS 网页界面（Web UI）页面正确安装，提升整体可靠性。&lt;/p&gt;
+
+&lt;h2 id=&quot;安全更新&quot;&gt;安全更新&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.kernel.org/&quot;&gt;内核源码&lt;/a&gt; 6.16.7&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-40300.html&quot;&gt;CVE-2025-40300&lt;/a&gt;&lt;/strong&gt;：Linux 内核虚拟化层中存在的一个漏洞，可能允许受限制内存中的数据泄露到用户进程中，从而潜在地暴露敏感信息。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-8194.html&quot;&gt;CVE-2025-8194&lt;/a&gt;&lt;/strong&gt;：Python 的 tarfile 模块中存在一个高严重性的拒绝服务（DoS）漏洞，精心构造的带有负偏移量的 tar 归档文件可能导致无限循环或死锁。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mesa3d.org/&quot;&gt;Mesa&lt;/a&gt; 25.2.2&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2023-45913.html&quot;&gt;CVE-2023-45913&lt;/a&gt;&lt;/strong&gt;：图形驱动程序中存在一个缺陷，当显示系统在处理窗口时发送意外信号时，可能导致崩溃，并引发应用程序不稳定或拒绝服务。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://openprinting.github.io/cups/&quot;&gt;CUPS&lt;/a&gt; 2.4.14&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-58060.html&quot;&gt;CVE-2025-58060&lt;/a&gt;&lt;/strong&gt;：在 &lt;strong&gt;CUPS&lt;/strong&gt;（打印系统）中，当身份验证配置为“Basic”以外的方式时，系统可能会忽略“Basic”身份验证头并完全跳过密码验证，从而允许任何人绕过身份验证。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-58364.html&quot;&gt;CVE-2025-58364&lt;/a&gt;&lt;/strong&gt;：在 &lt;strong&gt;CUPS&lt;/strong&gt; 中，对打印机配置数据的不安全处理和验证可能导致空指针错误，使整个本地网络中的打印服务崩溃（拒绝服务）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://xenproject.org/&quot;&gt;Xen&lt;/a&gt; 4.20.1_04&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-27466.html&quot;&gt;CVE-2025-27466&lt;/a&gt;&lt;/strong&gt;：更新计时器引用区域时可能发生空指针解引用缺陷，潜在地导致虚拟机监控程序或客户机环境崩溃。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-58142.html&quot;&gt;CVE-2025-58142&lt;/a&gt;&lt;/strong&gt;：上述问题的一个变体，假设合成计时器页面始终被映射，这可能在传递计时器消息时导致空指针解引用，引发不稳定性。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-58143.html&quot;&gt;CVE-2025-58143&lt;/a&gt;&lt;/strong&gt;：存在一个竞争条件，可能让客户机触发对仍在使用中的内存的释放，导致信息泄露或内存损坏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://imagemagick.org/index.php&quot;&gt;ImageMagick&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-57807.html&quot;&gt;CVE-2025-57807&lt;/a&gt;&lt;/strong&gt;：64 位系统上的该软件包存在一个的缺陷，可能导致程序在安全内存区域之外写入数据，从而引发崩溃或让攻击者有可能执行代码。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.libssh.org/&quot;&gt;libssh&lt;/a&gt; 0.11.3&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-8114.html&quot;&gt;CVE-2025-8114&lt;/a&gt;&lt;/strong&gt;：存在空指针解引用问题，攻击者可借此导致客户端或服务器崩溃。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-8277.html&quot;&gt;CVE-2025-8277&lt;/a&gt;&lt;/strong&gt;：存在内存未正确释放的缺陷，可能导致内存逐渐耗尽并潜在引发崩溃。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.7-zip.org/&quot;&gt;7zip&lt;/a&gt; 25.01&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-53816.html&quot;&gt;CVE-2025-53816&lt;/a&gt;&lt;/strong&gt;：7-Zip 的 RAR5 处理器中存在堆缓冲区溢出问题，因在已分配堆缓冲区外写入零值所致，会导致内存损坏和拒绝服务（DoS）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-53817.html&quot;&gt;CVE-2025-53817&lt;/a&gt;&lt;/strong&gt;：7-Zip 中存在一个相关安全问题（与 CVE-2025-53816 属于同一软件包），SUSE 的 7zip 更新中已对此进行修复。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://software.opensuse.org/package/libqt5-qtwebengine&quot;&gt;libqt5-qtwebengine&lt;/a&gt; 5.15.19&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-10229.html&quot;&gt;CVE-2024-10229&lt;/a&gt;&lt;/strong&gt;：SUSE 的更新中修复了 &lt;strong&gt;libQt5Pdf&lt;/strong&gt; 中的安全问题。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-10827.html&quot;&gt;CVE-2024-10827&lt;/a&gt;&lt;/strong&gt;：SUSE 的维护版本中修复了 &lt;strong&gt;libQt5Pdf&lt;/strong&gt; 中的另一个漏洞。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-12694.html&quot;&gt;CVE-2024-12694&lt;/a&gt;&lt;/strong&gt;：同一 SUSE 安全更新中还包含了 libQt5Pdf 的又一个漏洞。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0436.html&quot;&gt;CVE-2025-0436&lt;/a&gt;&lt;/strong&gt;：同样被列为 SUSE 安全公告中 libQt5Pdf 的问题之一。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2024-11477.html&quot;&gt;CVE-2024-11477&lt;/a&gt;&lt;/strong&gt;：包含在 SUSE 对 libQt5Pdf 的安全修复中。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-0996.html&quot;&gt;CVE-2025-0996&lt;/a&gt;&lt;/strong&gt;：Android 上 Chrome 浏览器界面（地址栏）中存在一个欺骗漏洞，精心设计的 HTML 页面可操纵 URL 栏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-1426.html&quot;&gt;CVE-2025-1426&lt;/a&gt;&lt;/strong&gt;：如摘要所述，GPU 中存在堆缓冲区溢出问题，包含在 SUSE 的 libQt5Pdf 安全公告中。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.simplesystems.org/libtiff/&quot;&gt;tiff&lt;/a&gt;&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-8961.html&quot;&gt;CVE-2025-8961&lt;/a&gt;&lt;/strong&gt;：该工具中存在一个缺陷，可能允许本地用户破坏内存，潜在导致崩溃或不稳定。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://libexpat.github.io/&quot;&gt;Expat&lt;/a&gt; 2.7.2&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-59375.html&quot;&gt;CVE-2025-59375&lt;/a&gt;&lt;/strong&gt;：存在一个漏洞，一个小型的特制文档可能迫使解析器分配大量内存，潜在导致崩溃或拒绝服务。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mozilla.org&quot;&gt;Mozilla Firefox&lt;/a&gt; 143.0&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10527.html&quot;&gt;CVE-2025-10527&lt;/a&gt;&lt;/strong&gt;：Firefox 的 Canvas2D 图形组件中存在一个使用后释放漏洞，可能允许沙箱内的代码突破限制并执行恶意操作。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10528.html&quot;&gt;CVE-2025-10528&lt;/a&gt;&lt;/strong&gt;：同一图形区域（Canvas2D）中存在一个无效指针/未定义行为问题，同样可能导致沙箱突破。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10529.html&quot;&gt;CVE-2025-10529&lt;/a&gt;&lt;/strong&gt;：浏览器布局代码中存在一个弱点，在特定条件下可能让页面违反同源限制（即读取或影响来自其他源的数据）。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10530.html&quot;&gt;CVE-2025-10530&lt;/a&gt;&lt;/strong&gt;：Android 版 Firefox 的 WebAuthn（网页认证）组件中存在一个欺骗问题，攻击者可操纵用户界面或凭据行为。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10531.html&quot;&gt;CVE-2025-10531&lt;/a&gt;&lt;/strong&gt;：Web 兼容性/工具方面存在缓解控制绕过问题，可能导致某些保护措施被跳过。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10532.html&quot;&gt;CVE-2025-10532&lt;/a&gt;&lt;/strong&gt;：JavaScript 的垃圾回收边界存在错误，可能导致内存越界访问或破坏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10533.html&quot;&gt;CVE-2025-10533&lt;/a&gt;&lt;/strong&gt;：SVG 组件中存在一个整数溢出漏洞，在特定输入下可能导致内存破坏。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10534.html&quot;&gt;CVE-2025-10534&lt;/a&gt;&lt;/strong&gt;：网站权限用户界面中存在一个欺骗问题，可能诱使界面显示误导性的权限状态。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10535.html&quot;&gt;CVE-2025-10535&lt;/a&gt;&lt;/strong&gt;：Android 版 Firefox 的隐私组件中存在信息泄露/缓解措施绕过问题，可能导致数据泄露。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10536.html&quot;&gt;CVE-2025-10536&lt;/a&gt;&lt;/strong&gt;：缓存/网络逻辑中存在一个缺陷，可能导致意外的数据暴露。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.suse.com/security/cve/CVE-2025-10537.html&quot;&gt;CVE-2025-10537&lt;/a&gt;&lt;/strong&gt;：一系列内存安全漏洞（涉及多个组件），可能导致内存破坏或任意代码执行。&lt;/p&gt;
+
+&lt;p&gt;建议用户更新到最新版本以缓解这些漏洞。&lt;/p&gt;
+
+&lt;h2 id=&quot;总结&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;2025年9月对于 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;openSUSE Tumbleweed&lt;/a&gt; 而言是内容丰富的一个月。从 GNOME 49 和 KDE Gear 25.08.1 带来的重大桌面体验改进，到 Linux 内核、QEMU 等组件在底层的关键升级，本月的更新充分体现了 Tumbleweed 对提供可靠、经过充分测试的滚动发布版的承诺。建议用户及时更新，以充分享受这些改进带来的体验。&lt;/p&gt;
+
+&lt;h2 id=&quot;slowroll-的更新&quot;&gt;Slowroll 的更新&lt;/h2&gt;
+
+&lt;p&gt;请注意，上述更新同样适用于 &lt;a href=&quot;https://en.opensuse.org/Archive:Old_Slowroll_Page&quot;&gt;Slowroll&lt;/a&gt; 发行版，通常会在 Tumbleweed 快照发布后的 5 至 10 天 内推送。这一月度同步机制已稳定运行数月，能确保用户在获得可靠性的同时，也能及时接收功能与安全增强。Slowroll 的更新包会定期通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt; 发布公告。&lt;/p&gt;
+
+&lt;h2 id=&quot;为-opensuse-tumbleweed-做贡献&quot;&gt;为 openSUSE Tumbleweed 做贡献&lt;/h2&gt;
+
+&lt;p&gt;您可以通过订阅 &lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt; 获取最新的快照更新信息。如果您希望参与贡献或深入技术讨论，该邮件列表是交流的核心平台。openSUSE 团队欢迎用户通过以下方式参与，包括提交错误报告、提出功能建议、参与社区讨论。&lt;/p&gt;
+
+&lt;p&gt;您的每一次反馈和贡献，都在帮助 Tumbleweed 变得更好。无论是报告错误、提出功能建议，还是参与社区讨论，您的参与都极具价值。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/09/30/tw-monthly-update-sept/&quot;&gt;Tumbleweed Monthly Update - September 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/12/os-leap-ready-for-liftoff.html</guid>
       <title>openSUSE Leap 准备启航</title>
       <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
@@ -446,70 +624,6 @@ cd opensuse-migration-tool
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/09/02/tw-monthly-update-august/&quot;&gt;Tumbleweed Monthly Update - August 2025&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/01/planet-roundup.html</guid>
-      <title>环球新闻摘要</title>
-      <pubDate>Mon, 01 Sep 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/01/planet-roundup.html</link>
-      <author>Fangzhou Liu</author>
-      <description>本文汇总了 openSUSE 社区发布于 planet.opensuse.org 网站的多篇文章。 以下是 8 月 16 日至 22 日期间，社区博客内容聚合平台上的重点精选内容。近期部分博客涉及 Tumbleweed（openSUSE 滚动更新版本）的开发动态、KDE 相关资讯，以及《截止日期延长：openSUSE 2026 年亚洲峰会主办方征集》。 以下是每篇文章的摘要及对应链接： openSUSE Welcome 功能迎来全新改版 大家熟知的 opensuse-welcome-launcher（openSUSE 欢迎启动器）正逐步被淘汰，取而代之的是一款全新的 openSUSE-welcome 欢迎程序（greeter）。该全新欢迎程序不再依赖自身的自动启动机制，而是会协调适配特定桌面环境的欢迎程序，例如 gnome-tour（GNOME 导览程序）与 plasma-welcome（Plasma 欢迎程序）。这种设计不仅能让欢迎界面在系统首次启动时显示，还能在重大更新后弹出；同时，这一调整也将助力项目淘汰基于 Qt5 框架的旧版欢迎程序。 深度求索 V3.1（DeepSeek V3.1）：此次更新为何对市场意义重大 本文聚焦中国人工智能初创公司新发布的 DeepSeek V3.1 大模型。尽管目前技术细节披露有限，但此次更新承诺将带来更长的上下文窗口，并实现性能的增量提升，且其训练成本仅为西方竞争对手的一小部分。此次版本发布凸显出，随着深度求索（DeepSeek）持续推行快节奏、高成本效益的开发策略，OpenAI 与 Anthropic 正面临日益增长的竞争压力。 Linux 播客（Podcast Linux）第 27 期 —— Slimbook One...</description>
-      <content:encoded>&lt;p&gt;本文汇总了 openSUSE 社区发布于 &lt;a href=&quot;https://planet.opensuse.org&quot;&gt;planet.opensuse.org&lt;/a&gt; 网站的多篇文章。&lt;/p&gt;
-
-&lt;p&gt;以下是 8 月 16 日至 22 日期间，社区博客内容聚合平台上的重点精选内容。近期部分博客涉及 Tumbleweed（openSUSE 滚动更新版本）的开发动态、KDE 相关资讯，以及《&lt;a href=&quot;https://news.opensuse.org/2025/08/16/osas-cfh-extended/&quot;&gt;截止日期延长：openSUSE 2026 年亚洲峰会主办方征集&lt;/a&gt;》。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;以下是每篇文章的摘要及对应链接：&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuse-welcome-功能迎来全新改版&quot;&gt;&lt;a href=&quot;https://news.opensuse.org/2025/08/21/os-welcome-makeover/&quot;&gt;openSUSE Welcome 功能迎来全新改版&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;大家熟知的 opensuse-welcome-launcher（openSUSE 欢迎启动器）正逐步被淘汰，取而代之的是一款全新的 openSUSE-welcome 欢迎程序（greeter）。该全新欢迎程序不再依赖自身的自动启动机制，而是会协调适配特定桌面环境的欢迎程序，例如 &lt;a href=&quot;https://github.com/openSUSE/gnome-tour&quot;&gt;gnome-tour&lt;/a&gt;（GNOME 导览程序）与 &lt;a href=&quot;https://github.com/KDE/plasma-welcome&quot;&gt;plasma-welcome&lt;/a&gt;（Plasma 欢迎程序）。这种设计不仅能让欢迎界面在系统首次启动时显示，还能在重大更新后弹出；同时，这一调整也将助力项目淘汰基于 Qt5 框架的旧版欢迎程序。&lt;/p&gt;
-
-&lt;h2 id=&quot;深度求索-v31deepseek-v31此次更新为何对市场意义重大&quot;&gt;&lt;a href=&quot;https://assuntonerd.com.br/2025/08/19/deepseek-v3-1-por-que-a-atualizacao-importa-para-o-mercado/&quot;&gt;深度求索 V3.1（DeepSeek V3.1）：此次更新为何对市场意义重大&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;本文聚焦中国人工智能初创公司新发布的 DeepSeek V3.1 大模型。尽管目前技术细节披露有限，但此次更新承诺将带来更长的上下文窗口，并实现性能的增量提升，且其训练成本仅为西方竞争对手的一小部分。此次版本发布凸显出，随着深度求索（DeepSeek）持续推行快节奏、高成本效益的开发策略，OpenAI 与 Anthropic 正面临日益增长的竞争压力。&lt;/p&gt;
-
-&lt;h2 id=&quot;linux-播客podcast-linux第-27-期--slimbook-one-特别节目&quot;&gt;&lt;a href=&quot;https://podcastlinux.com/&quot;&gt;Linux 播客（Podcast Linux）第 27 期 —— Slimbook One 特别节目&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;KDE 博客的“Linux 播客（Podcast Linux）”档案整理项目仍在推进，本期回顾了该播客的第 27 期内容。在这一期中，Juan Febles评测了 &lt;a href=&quot;https://slimbook.com/en/&quot;&gt;Slimbook&lt;/a&gt; 品牌的 One 系列台式电脑。尽管该播客已不再更新，但它的往期节目对 Linux 爱好者而言，仍是极具价值的参考资料。&lt;/p&gt;
-
-&lt;h2 id=&quot;kde-gear-2508生产力功能更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08——生产力功能更新&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;本文重点介绍了 KDE Gear 25.08 版本中以提升生产力为核心的应用更新。其中，Akonadi（KDE 生态中的数据管理框架）实现了重大内存优化，有效降低资源占用；KOrganizer（KDE 日历与日程管理工具）新增了改进后的日期选择器与搜索提示功能，提升操作效率；Kleopatra（KDE 加密工具）则新增了独立的加密记事本窗口，支持多窗口并行操作，为多任务处理提供便利。&lt;/p&gt;
-
-&lt;h2 id=&quot;无障碍技术与自由软件第-6-期&quot;&gt;&lt;a href=&quot;https://planet.opensuse.org/&quot;&gt;《无障碍技术与自由软件》——第 6 期&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;该播客系列的第 6 期节目邀请 Eva Marco、Vicent Sanchis 等嘉宾围绕无障碍主题展开探讨。内容涵盖用于无障碍场景的 OpenStreetMap（开源地图）数据可视化、包容性人才培养计划、自适应硬件测试，以及人工智能如何助力打造更具包容性的设计等话题。&lt;/p&gt;
-
-&lt;h2 id=&quot;云容器定义及其优化方法&quot;&gt;&lt;a href=&quot;https://www.ovhcloud.com&quot;&gt;云容器：定义及其优化方法&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;本文概述了云容器管理相关内容，阐释了容器如何简化部署流程、降低资源占用并提升安全性。文中还详细介绍了高效管理容器的策略（从资源分配到监控运维），同时重点推介了 OVHcloud 旗下的相关解决方案。&lt;/p&gt;
-
-&lt;h2 id=&quot;kde-gear-2508--itinerary-应用更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08 —— Itinerary 应用更新&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;KDE 旗下的旅行规划应用 &lt;strong&gt;Itinerary&lt;/strong&gt; 迎来多项更新：新增巴士与火车行程手动录入功能，提供车站实时地图查询服务，优化延误提醒机制，同时扩展了备选路线搜索范围，现已涵盖轮渡与航班。此外，升级后的实时地图通过整合 OpenRailwayMap 数据，可显示火车站及铁路基础设施的详细信息。&lt;/p&gt;
-
-&lt;h2 id=&quot;opensuse-tumbleweed-第33周更新回顾&quot;&gt;&lt;a href=&quot;https://dominique.leuenberger.net/blog/2025/08/tumbleweed-review-of-the-week-2025-33/&quot;&gt;openSUSE Tumbleweed 第33周更新回顾&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;本周，openSUSE Tumbleweed 推送了8个全新快照，包含多项更新，例如&lt;strong&gt;Firefox 141.0.2&lt;/strong&gt;、&lt;strong&gt;Linux 6.16.0&lt;/strong&gt;、&lt;strong&gt;KDE Plasma 6.4.4&lt;/strong&gt;、&lt;strong&gt;KDE Frameworks 6.17.0&lt;/strong&gt;、&lt;strong&gt;Postfix 3.10.3&lt;/strong&gt;、&lt;strong&gt;OpenSSL 3.5.2&lt;/strong&gt; 等。目前，针对后续更新（包括 KDE Gear 25.08.0 、6.16.1 内核及 Python 3.13.7）的准备工作已在推进中。&lt;/p&gt;
-
-&lt;h2 id=&quot;细节打磨不断--plasma本周动态&quot;&gt;&lt;a href=&quot;https://pointieststick.com&quot;&gt;细节打磨不断 —— Plasma本周动态&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Nate Graham 撰写的 Plasma 每周更新（已译为西班牙语版）重点关注漏洞修复、性能优化与界面细节打磨，而非新增功能。更新亮点包括：通知功能的无障碍优化、 Flatpak 应用权限管理的精细化调整、过时 Breeze 应用图标的移除，以及针对 Plasma 6.4.5 和 Frameworks 6.18 的多项漏洞修复。&lt;/p&gt;
-
-&lt;h2 id=&quot;截止日期延长2026年opensuseasia峰会主办方招募&quot;&gt;&lt;a href=&quot;https://news.opensuse.org/2025/06/10/osas-cfh/&quot;&gt;截止日期延长——2026年openSUSE.Asia峰会主办方招募&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;2026 年 openSUSE 亚洲峰会的主办方申请截止日期已延长至 &lt;strong&gt;2025年8月27日&lt;/strong&gt;。最终选定的主办方将在今年于法里达巴德（Faridabad）举办的峰会上公布。主办方鼓励各社区把握此次机会，展示所在地区特色，并汇聚 openSUSE 贡献者共同参与活动。&lt;/p&gt;
-
-&lt;h2 id=&quot;kde-gear-2508--dolphin文件管理器更新&quot;&gt;&lt;a href=&quot;https://www.kde.org/announcements/gear/25.08/&quot;&gt;KDE Gear 25.08 —— Dolphin文件管理器更新&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Dolphin 文件管理器新增了多项搜索选项，涵盖索引搜索与简单搜索；同时加强了与 Filelight 的集成，便于可视化查看磁盘使用情况；此外还优化了视图模式控制功能。这些改进让 Dolphin 在 KDE 桌面环境下的文件管理能力更加强大。&lt;/p&gt;
-
-&lt;p&gt;欲查看更多博客，或了解如何发布个人博客，可访问&lt;a href=&quot;https://planet.opensuse.org&quot;&gt;planet.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/08/22/planet-roundup/&quot;&gt;Planet News Roundup&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
