@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    
+    SUSE 推出树莓派 5 支持 -
+    
+    openSUSE 中文社区
+  </title>
+  <meta name="description"
+    content="这一天终于到来了。树莓派 5 用户现在可以期待 openSUSE Tumbleweed 提供的完善支持。 这不仅仅是 U-Boot 层面的支持，远比这更多。这得益于多方的辛勤付出——包括 SUSE 硬件适配团队、树莓派、Ideas on Board、Linaro 等机构的众多工程师，以及 Linux 和 U-Bo...">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="/assets/css/chameleon.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32">
+  <link rel="icon" href="/assets/img/favicon-48.png" sizes="48x48">
+  <link rel="icon" href="/assets/img/favicon-64.png" sizes="64x64">
+  <link rel="icon" href="/assets/img/favicon-96.png" sizes="96x96">
+  <link rel="icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192">
+
+  <!-- apple-touch-icon -->
+  <link rel="apple-touch-icon" href="/assets/img/favicon-144.png" sizes="144x144">
+  <link rel="apple-touch-icon" href="/assets/img/favicon-192.png" sizes="192x192">
+  <link rel="mask-icon" href="/assets/img/mask-icon.svg" color="#73ba25">
+
+  <!-- mobile web app data -->
+  <link href="/manifest.json" rel="manifest">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#73ba25">
+
+  <!-- open graph meta -->
+  <meta property="og:site_name" content="openSUSE 中文社区">
+  <meta property="og:title" content="SUSE 推出树莓派 5 支持">
+  <meta property="og:description"
+    content="这一天终于到来了。树莓派 5 用户现在可以期待 openSUSE Tumbleweed 提供的完善支持。 这不仅仅是 U-Boot 层面的支持，远比这更多。这得益于多方的辛勤付出——包括 SUSE 硬件适配团队、树莓派、Ideas on Board、Linaro 等机构的众多工程师，以及 Linux 和 U-Bo...">
+  <meta property=" og:url" content="/_posts/2025-11-30-raspberrypi5-opensuse.md">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Fangzhou Liu">
+  <meta property="og:article:published_time" content="2025-11-30T01:30:00+00:00">
+  
+  <meta property="og:article:tag" content="翻译作品">
+  
+  <meta property="og:article:tag" content="官方新闻">
+    
+  <meta property="og:image" content="/assets/posts/2025-11/rpi5.png">
+  
+
+  <!-- twitter meta -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SUSE 推出树莓派 5 支持">
+  
+  <meta name="twitter:description"
+    content="这一天终于到来了。树莓派 5 用户现在可以期待 openSUSE Tumbleweed 提供的完善支持。 这不仅仅是 U-Boot 层面的支持，远比这更多。这得益于多方的辛勤付出——包括 SUSE 硬件适配团队、树莓派、Ideas on Board、Linaro 等机构的众多工程师，以及 Linux 和 U-Bo...">
+  
+  <meta name="twitter:url" content="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html">
+  
+  <meta name="twitter:image" content="/assets/posts/2025-11/rpi5.png">
+  
+
+  <!-- javascript -->
+  
+  <script defer src="/assets/js/jquery.slim.js"></script>
+  
+  <script defer src="/assets/js/bootstrap.bundle.js"></script>
+  <!--<script defer src="/assets/js/chameleon.js"></script>-->
+
+  
+  <link rel="alternate" type="application/rss+xml" title="openSUSE 中文社区" href="/feed.xml">
+  
+
+  <link rel="canonical" href="/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html">
+
+  <!-- Extra Head Content -->
+
+</head>
+
+
+<body class="d-flex flex-column">
+
+  <nav class="navbar noprint navbar-expand-md sticky-top">
+
+  <a class="navbar-brand" href="/">
+    <img src="/assets/img/favicon.svg" class="d-inline-block align-top" alt="openSUSE" title="openSUSE"
+      width="30" height="30">
+    <span class="navbar-title">中文社区</span>
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+      </path>
+    </svg>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul class="nav navbar-nav mr-auto flex-md-shrink-0">
+      
+
+      
+      <!-- Categories Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cat-menu-link" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z" />
+            <path fill-rule="evenodd"
+              d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z" />
+            <path
+              d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+          </svg>
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="cat-menu-link">
+          
+          
+          <a class="dropdown-item" href="/category/社区新闻">
+            社区新闻
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/更新通告">
+            更新通告
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/技术文章">
+            技术文章
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/tumbleweed周报">
+            Tumbleweed周报
+          </a>
+          
+          
+          <a class="dropdown-item" href="/category/其他文章">
+            其他文章
+          </a>
+          
+        </div>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="/feed.xml">
+          <svg class="bi bi-bell" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z"/><path fill-rule="evenodd" d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/></svg>
+          RSS 订阅
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://zh.opensuse.org">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/><path fill-rule="evenodd" d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/></svg>
+          维基
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://forum.suse.org.cn/">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.5a2 2 0 0 1 1.6.8L8 14.333 9.9 11.8a2 2 0 0 1 1.6-.8H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/><path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/></svg>
+          论坛
+        </a>
+      </li>
+      
+
+      
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://build.opensuse.org/project/show/home:opensuse_zh">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/></svg>
+          社区软件源
+        </a>
+      </li>
+      
+
+      
+    </ul>
+
+    
+  </div>
+
+  <!-- <button class="navbar-toggler megamenu-toggler" type="button" data-toggle="collapse" data-target="#megamenu"
+    aria-expanded="true">
+    <svg class="bi bi-grid" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd"
+        d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z">
+      </path>
+    </svg>
+  </button> -->
+
+</nav>
+
+<div id="megamenu" class="megamenu collapse"></div>
+
+
+  <main class="page-content flex-fill" aria-label="Content">
+    <ol class="breadcrumb">
+	<li class="breadcrumb-item">
+		<a href="/">
+			
+			<svg class="bi bi-newspaper" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2A1.5 1.5 0 0 1 1.5.5h11A1.5 1.5 0 0 1 14 2v12a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 0 14V2zm1.5-.5A.5.5 0 0 0 1 2v12a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5V2a.5.5 0 0 0-.5-.5h-11z"/><path fill-rule="evenodd" d="M15.5 3a.5.5 0 0 1 .5.5V14a1.5 1.5 0 0 1-1.5 1.5h-3v-1h3a.5.5 0 0 0 .5-.5V3.5a.5.5 0 0 1 .5-.5z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg>
+			
+			中文社区
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025">
+			2025
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/11">
+			
+			十一月
+		</a>
+	</li>
+	<li class="breadcrumb-item">
+		<a href="/2025/11/30">
+			30
+		</a>
+	</li>
+	<li class="breadcrumb-item active">
+		SUSE 推出树莓派 5 支持
+	</li>
+</ol>
+<div class="container my-5 article">
+	<header class="article-header col-md-9 col-12 mx-auto py-3">
+		<h1 class="decorated-title">SUSE 推出树莓派 5 支持</h1>
+		<p class="text-center text-muted">
+			2025-11-30
+			|
+			Fangzhou Liu
+			|
+			CC-BY-SA-4.0
+		</p>
+		
+		<img class="rounded mx-auto d-block h-carousel"
+			src="/assets/posts/2025-11/rpi5.png"
+			alt="SUSE 推出树莓派 5 支持">
+		
+	</header>
+	<div class="col-md-7 col-12 mx-auto text-justify">
+		<p>这一天终于到来了。<a href="https://en.opensuse.org/HCL:Raspberry_Pi5">树莓派 5</a> 用户现在可以期待 openSUSE Tumbleweed 提供的完善支持。</p>
+
+<p><strong>这不仅仅是 U-Boot 层面的支持，远比这更多</strong>。这得益于多方的辛勤付出——包括 SUSE 硬件适配团队、<a href="https://www.raspberrypi.com/">树莓派</a>、<a href="https://ideasonboard.com/">Ideas on Board</a>、<a href="https://www.linaro.org/">Linaro</a> 等机构的众多工程师，以及 Linux 和 <a href="https://u-boot.org/">U-Boot</a> 子系统维护者，还有许多耐心审核我们补丁的工程师。</p>
+
+<p>很多人可能会疑惑，为何树莓派 5 设备迟迟未能在树莓派 OS 之外的系统上获得支持；现在，他们无需再为此困惑了。</p>
+
+<h2 id="关于启动流程">关于启动流程</h2>
+
+<p>首先，我们来重点说明简化后的系统级启动架构差异。</p>
+
+<p>在树莓派 OS 中，设备 EEPROM 中存储的固件会直接运行厂商开发的 Linux 内核。</p>
+
+<p>在 openSUSE 中，我们使用 GRUB2。但 GRUB2 本身需要机器具备 UEFI 固件接口才能定位启动文件。因此，openSUSE 采用了广泛使用的 <a href="https://u-boot.org/">Das U-Boot</a> 引导程序来提供这些接口。</p>
+
+<p>这种软件组合在 (open)SUSE 产品中运行良好，但这也意味着我们必须为 U-Boot 和 Linux 内核添加树莓派 5 缺失的相关功能。</p>
+
+<h2 id="树莓派-5-新硬件增强特性">树莓派 5 新硬件增强特性</h2>
+
+<p>在硬件方面，树莓派 5 与前几代设备相比存在一些显著差异。</p>
+
+<p>树莓派 5 之前的所有型号中，所有控制器（如 USB、以太网、SPI、I2C、GPIO、CSI 等）均集成在主 SoC（BCM2835、BCM2836、BCM2837、BCM2710、BCM2711）中，且不同代际 SoC 中的这些控制器大致相同。因此，在 U-Boot 和 Linux 中为它们添加支持相对直接简单。</p>
+
+<p>而树莓派 5 则发生了重大变化：新增了一款名为 RP1 的“南桥”芯片，上述所有控制器均集成于该芯片中。RP1 通过 PCIe 总线与主 SoC（BCM2712）相连。</p>
+
+<p>幸运的是，有一点保持不变：MicroSD 卡控制器仍属于主 SoC 的一部分。因此，除了 SD 控制器内部的一些细微差异外，在 U-Boot 和 Linux 中为其添加支持相对容易。</p>
+
+<p><a href="https://lore.kernel.org/u-boot/20240123080819.13625-6-iivanov@suse.de/">BCM2712 SD 控制器的初始 U-Boot 支持</a></p>
+
+<p><a href="https://lore.kernel.org/linux-arm-kernel/cover.1716899600.git.andrea.porta@suse.com/">添加树莓派 5 的最小化启动支持</a></p>
+
+<p>这让人们<a href="https://forums.opensuse.org/t/booting-microos-on-raspberry-pi-5-sd-card/171805"><strong>认为</strong></a> openSUSE 已可在该设备上运行。</p>
+
+<p>但这仅仅是漫长征程的开始。</p>
+
+<p>让我们回到 PCIe 部分。旧款树莓派也具备 PCIe 根复合体，但与树莓派 5 的根复合体存在细微差异。因此，为了让 U-Boot 或 Linux 能够访问所有关键控制器设备，我们必须在 U-Boot 和 Linux 内核中添加相关支持。这一功能通过以下补丁集实现：</p>
+
+<p><a href="https://lore.kernel.org/linux-arm-kernel/20250224083559.47645-1-svarbanov@suse.de/">为 BCM2712 添加 PCIe 支持</a></p>
+
+<p>Linux 内核中还纳入了其他几项重要内容：</p>
+
+<ul>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20250120130119.671119-4-svarbanov@suse.de/">新增对新型 MSI-X 中断外设的支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/cover.1756372805.git.andrea.porta@suse.com/">为 BCM2712 片上系统添加引脚控制驱动支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20250530234051.465593-1-florian.fainelli@broadcom.com/">新增对 RP1 提供的时钟的支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20250530234058.465687-1-florian.fainelli@broadcom.com/">实现对树莓派 RP1 GPIO 的支持</a></p>
+  </li>
+</ul>
+
+<p>当 PCI Express 驱动能够正常工作，且 Linux 可以识别连接到 PCIe 根复合体的设备后，我们还需移植用于处理全新 RP1 芯片的驱动——该芯片集成了 USB、以太网等控制器。但这项工作难度不小，因为各方对于该驱动的实现方式存在诸多不同看法。但最终，我们成功将该驱动合并至内核：</p>
+
+<p><a href="https://lore.kernel.org/linux-arm-kernel/cover.1748526284.git.andrea.porta@suse.com/">新增对树莓派 RP1 PCI 设备的支持</a></p>
+
+<p>至此，Linux 已能识别挂载在 RP1 芯片后的各类设备。
+当然，这些控制器（例如以太网控制器）与 BCM2711 上的同类控制器存在些许差异，因此需要一套全新的补丁来适配：</p>
+
+<p><a href="https://lore.kernel.org/linux-arm-kernel/20250916081059.3992108-1-svarbanov@suse.de/">新增对树莓派 RP1 以太网控制器的支持</a></p>
+
+<p>显然，要让该设备达到可用状态，还需要大量其他补丁。
+以下仅列出其中极小一部分：</p>
+
+<p>目前，openSUSE Tumbleweed 可从 SD 卡正常启动，直至通过 HDMI 输出进入图形化桌面环境。</p>
+
+<p>启动至 Tumbleweed 后，你可正常使用以下功能：</p>
+
+<ul>
+  <li>以太网</li>
+  <li>无线网络（WiFi）</li>
+  <li>蓝牙</li>
+  <li>USB</li>
+  <li>HDMI</li>
+  <li>……</li>
+</ul>
+
+<h2 id="后续规划">后续规划</h2>
+
+<p>U-Boot 有望很快新增对 BCM2712 PCIe 根复合体控制器的支持，这将为设备带来从磁盘启动的能力。以太网控制器的相关修复也在推进中。</p>
+
+<p><a href="https://lore.kernel.org/u-boot/20251010161442.410C4227AAE@verein.lst.de/">增强树莓派 5 支持</a></p>
+
+<p>由于 USB 是通过 PCIe 总线连接至 RP1 芯片的，目前 U-Boot 暂不支持 USB 功能。这意味着你无法在 U-Boot 或 Grub2 中使用 USB 键盘（因为 Grub 依赖 U-Boot 提供的 EFI 实现）。敬请耐心等待后续更新。</p>
+
+<h2 id="准备工作">准备工作</h2>
+
+<p>在开启树莓派 5 运行 openSUSE 的体验之旅前，请确保你的设备已完成最新的 EEPROM 固件更新。</p>
+
+<p>若你刚拿到的树莓派 5 尚未安装任何系统，可通过树莓派镜像烧录工具（Raspberry Pi Imager）制作一张包含 EEPROM 更新程序的 MicroSD 卡；也可直接在树莓派 5 已有的系统镜像中运行以下命令完成更新：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo rpi-eeprom-update -a
+sudo reboot
+</code></pre></div></div>
+
+<h2 id="切勿跳过-debug-probe">切勿跳过 Debug Probe</h2>
+
+<p>若你在测试镜像时发现树莓派 5 卡在 U-Boot 阶段，遇到此问题的并非你一人。该已知问题正通过以下编号追踪：</p>
+
+<p><a href="https://bugzilla.opensuse.org/show_bug.cgi?id=1251192">boo#1250992</a>。</p>
+
+<p>当前的解决方案仅为<strong>临时规避措施</strong>，该问题预计很快会被修复。</p>
+
+<p>在树莓派 5 上调试 openSUSE 时，使用<a href="https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html">调试探针</a>能帮你节省大量时间，避免诸多麻烦。此外，它也是后续开展嵌入式项目时一款实用的常备工具。</p>
+
+<h2 id="树莓派-5-相关补丁极简清单">树莓派 5 相关补丁极简清单</h2>
+
+<ul>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20241201-drm-bridge-hdmi-connector-v5-0-b5316e82f61a@linaro.org/">新增 DRM HDMI 编解码器框架</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20241025-drm-vc4-2712-support-v2-10-35efa83c8fc0@raspberrypi.com/">新增对 BCM2712 HVS（硬件视频缩放器）的支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20241025-drm-vc4-2712-support-v2-0-35efa83c8fc0@raspberrypi.com/">新增对 BCM2712 / 树莓派 5 显示硬件的支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20251031183309.1163384-1-svarbanov@suse.de/">新增对 BCM2712 看门狗的支持</a></p>
+  </li>
+  <li>
+    <p><a href="https://lore.kernel.org/linux-arm-kernel/20250925000416.2408457-1-svarbanov@suse.de/">新增树莓派 RP1 ADC（模数转换器）支持</a></p>
+  </li>
+</ul>
+
+<h2 id="推荐尝试的镜像">推荐尝试的镜像</h2>
+
+<p>现在，你可以在树莓派 5 上运行大多数与树莓派 4 兼容的 <a href="https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/">Tumbleweed 设备镜像</a>；若你偏好不可变系统，也可选择 <strong>MicroOS</strong>。
+openSUSE Leap 和 Leap Micro 目前暂未纳入适配范围，但预计将在后续版本（2026 年末发布的 16.1 和 6.3 版本）中获得完整支持。</p>
+
+<p>开始前，请确保已连接 <strong>Debug Probe</strong>。
+随后，从 <a href="https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/">openSUSE Tumbleweed 设备镜像库</a> 中选择一款树莓派镜像写入 MicroSD 卡，即可启动使用。</p>
+
+<p>若你不确定选择哪款镜像，<a href="https://download.opensuse.org/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-ARM-GNOME-raspberrypi.aarch64.raw.xz">Tumbleweed Arm 树莓派 GNOME 镜像</a> 是稳妥之选。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xzcat image.aarch64.raw.xz | dd of=/dev/sda bs=1M status=progress conv=fsync; sync
+</code></pre></div></div>
+
+<p>若遇到任何问题，强烈建议通过 <a href="https://matrix.to/#/#arm:opensuse.org">openSUSE Arm Matrix 频道</a> 咨询，或 <a href="https://lists.opensuse.org/manage/lists/arm.lists.opensuse.org/">订阅</a> <a href="https://lists.opensuse.org/archives/list/arm@lists.opensuse.org">openSUSE Arm 邮件列表</a>。此外，你也可以通过 <a href="https://forums.opensuse.org/">forums.opensuse.org</a> 咨询 general openSUSE 相关问题。
+如需了解更多 ARM 平台相关信息，可访问 <a href="https://en.opensuse.org/Portal:Arm">openSUSE ARM 门户</a>。</p>
+
+<h2 id="为何在树莓派-5-上运行-opensuse">为何在树莓派 5 上运行 openSUSE</h2>
+
+<p>官方树莓派 OS 提供了简洁的桌面体验，但它主要面向桌面使用场景，默认并未包含容器等功能。</p>
+
+<p>借助 SUSE 的硬件适配工作，你现在可以在树莓派上获得<strong>完整的 openSUSE 体验</strong>。就我个人而言，我喜欢搭配使用 <a href="https://www.youtube.com/watch?v=ANh5FHZDOxo">Cockpit</a> 与自动更新功能，甚至还在我的树莓派上通过容器运行了私人 openSUSE 镜像和 <a href="https://www.youtube.com/watch?v=mlqWeLkG55U">Nextcloud AIO</a>。</p>
+
+<h2 id="值得庆贺的时刻">值得庆贺的时刻</h2>
+
+<p><img src="/assets/posts/2025-11/rpi5winner.png" alt="rpi5winner" /></p>
+
+<p>为庆祝 SUSE Hardware Enablement 团队的辛勤付出，我们已向好友 <strong>Dale from <a href="https://www.youtube.com/c/LowTechLinux">LowTechLinux</a></strong> 和 <strong>Liam from <a href="https://www.theregister.com/">The Register</a></strong> 赠送了 Raspberry Pi 5 入门套件及 Debug Probe，邀请他们向社区分享初体验。</p>
+
+<p>我们还为上周末 <a href="http://openalt.cz/">openALT.cz</a> 活动的参会者 <strong>Tomáš</strong> 带来了惊喜——他在我们的 <a href="https://quiz.opensuse.org/">openSUSE Quiz</a> 中脱颖而出，赢得了 Raspberry Pi 5 和 Debug Probe。
+这款问答应用被全球 openSUSE 展位工作人员广泛使用，如今新增了“openSUSE Arm”专区，帮助参与者深入了解 openSUSE 在 <a href="https://en.opensuse.org/Portal:Arm">Arm 领域的相关工作</a>。</p>
+
+<p>敬请持续关注我们的 <a href="https://en.opensuse.org/HCL:Raspberry_Pi5">Raspberry Pi 5 硬件兼容性页面</a>。
+待 Raspberry Pi 5 的 USB 启动和 PCIe 功能完全就绪后，我们将分享更多更新内容。</p>
+
+<hr />
+<p>原文：<a href="https://news.opensuse.org/2025/11/04/raspberrypi5-opensuse/">SUSE delivers Raspberry Pi 5 support</a>，作者：Ivan Ivanov 和 Lubos Kocman</p>
+
+	</div>
+	<div class="col-md-7 col-12 py-3 mx-auto text-justify">
+		<p>
+			<b>分类:</b>
+			
+			<a href="/category/社区新闻">
+				社区新闻
+			</a>
+			
+		</p>
+		<p>
+			<b>标签:</b>
+			
+			<a href="/tag/翻译作品">
+				翻译作品
+			</a>
+			
+			<a href="/tag/官方新闻">
+				官方新闻
+			</a>
+			
+		</p>
+	</div>
+	<div class="col-md-7 col-12 mx-auto text-center">
+		<h5>分享帖子:</h5>
+		<div class="btn-group" role="group" aria-label="Share article">
+			<a class="twitter-link btn btn-secondary"
+				href="https://twitter.com/intent/tweet?counturl=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html&url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html&via=openSUSE">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" />
+				</svg>
+			</a>
+			<a class="facebook-link btn btn-secondary"
+				href="https://www.facebook.com/sharer.php?u=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M13 19.938A8.001 8.001 0 0 0 12 4a8 8 0 0 0-1 15.938V14H9v-2h2v-1.654c0-1.337.14-1.822.4-2.311A2.726 2.726 0 0 1 12.536 6.9c.382-.205.857-.328 1.687-.381.329-.021.755.005 1.278.08v1.9H15c-.917 0-1.296.043-1.522.164a.727.727 0 0 0-.314.314c-.12.226-.164.45-.164 1.368V12h2.5l-.5 2h-2v5.938zM12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+				</svg>
+			</a>
+			<a class="telegram-link btn btn-secondary"
+				href="https://telegram.me/share/url?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-3.11-8.83l-2.498-.779c-.54-.165-.543-.537.121-.804l9.733-3.76c.565-.23.885.061.702.79l-1.657 7.82c-.116.557-.451.69-.916.433l-2.551-1.888-1.189 1.148c-.122.118-.221.219-.409.244-.187.026-.341-.03-.454-.34l-.87-2.871-.012.008z" />
+				</svg>
+			</a>
+			<a class="reddit-link btn btn-secondary"
+				href="http://reddit.com/submit?url=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html&amp;title=SUSE%20%E6%8E%A8%E5%87%BA%E6%A0%91%E8%8E%93%E6%B4%BE%205%20%E6%94%AF%E6%8C%81"
+				target="_blank">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" />
+				</svg>
+			</a>
+			<a class="mail-link btn btn-secondary"
+				href="mailto:?subject=SUSE%20%E6%8E%A8%E5%87%BA%E6%A0%91%E8%8E%93%E6%B4%BE%205%20%E6%94%AF%E6%8C%81&amp;body=/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/11/30/raspberrypi5-opensuse.html">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+					<path
+						d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+</div>
+  </main>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="d-flex justify-content-between">
+      <div class="footer-copyright">
+        © 2011-2022 openSUSE 中文社区贡献者
+      </div>
+      <div class="list-inline">
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh">
+          源代码
+        </a>
+        
+        <a class="list-inline-item" href="https://github.com/openSUSE-zh/page-opensuse-zh/blob/master/LICENSE">
+          许可证
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Extra Footer Content -->
+
+
+
+</body>
+
+</html>
