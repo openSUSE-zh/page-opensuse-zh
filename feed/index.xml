@@ -7,6 +7,52 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/12/12/NPU-arrives-in-os-distributions.html</guid>
+      <title>英特尔 NPU 驱动现已登陆 openSUSE 各版本</title>
+      <pubDate>Fri, 12 Dec 2025 02:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/12/12/NPU-arrives-in-os-distributions.html</link>
+      <author>Fangzhou Liu</author>
+      <description>
+  本文为社区投稿作品翻译。
+
+
+作为 openSUSE 创新者计划（openSUSE Innovator initiative） 发起人，同时也是 openSUSE 社区与英特尔创新者社区成员，我始终致力于将前沿技术带到 openSUSE Linux 发行版的全系列版本。
+
+随着神经网络处理单元（NPU）设备的问世，在无需依赖专用图形处理器（GPU）的情况下运行大语言模型（LLM）和生成式人工智能应用已成为现实。基于这一技术进展，我们启动了为 openSUSE 生态系统将英特尔 NPU 驱动打包为 RPM 格式的工作。经过此番协作攻关，openSUSE 创新者计划荣幸地向社区宣布，该软件包已正式发布。
+
+英特尔神经网络处理单元（NPU）是一款推理加速器，自英特尔® 酷睿™ Ultra 系列处理器（前称 Meteor Lake）起集成于处理器内部。该单元可支持人工神经网络负载在处理器上直接实现高效、低功耗的运行。
+
+该神经网络处理单元（NPU）集成于处理器核心芯片中，专为高能效执行神经网络矩阵运算而设计。其架构可与中央处理器（CPU）和图形处理器（GPU）形成互补，能够为开放式神经网络交换格式（ONNX）模型、计算机视觉处理流程、量化模型，以及 CPU+GPU+NPU 协同运行的混合模型运算提供智能负载分流能力。
+
+参与本项目是一件极具成就感的事，因为我们深知其将对未来各类应用产生深远影响。作为开源社区的一份子，我们肩负着普及前沿技术、助力缩小数字鸿沟的责任，本次软件包的交付正是朝着这一目标迈出的又一重要步伐。
+
+如需了解更多信息，请访问 software.opensuse.org！
+
+
+原文：Intel NPU Driver Now Available in openSUSE Versions，作者：Alessandro de Oliveira Faria
+</description>
+      <content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;本文为社区投稿作品翻译。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;作为 &lt;a href=&quot;https://en.opensuse.org/openSUSE:INNOVATORS&quot;&gt;openSUSE 创新者计划（openSUSE Innovator initiative）&lt;/a&gt; 发起人，同时也是 openSUSE 社区与英特尔创新者社区成员，我始终致力于将前沿技术带到 openSUSE Linux 发行版的全系列版本。&lt;/p&gt;
+
+&lt;p&gt;随着神经网络处理单元（NPU）设备的问世，在无需依赖专用图形处理器（GPU）的情况下运行大语言模型（LLM）和生成式人工智能应用已成为现实。基于这一技术进展，我们启动了为 openSUSE 生态系统将英特尔 NPU 驱动打包为 RPM 格式的工作。经过此番协作攻关，openSUSE 创新者计划荣幸地向社区宣布，该软件包已正式发布。&lt;/p&gt;
+
+&lt;p&gt;英特尔神经网络处理单元（NPU）是一款推理加速器，自英特尔® 酷睿™ Ultra 系列处理器（前称 Meteor Lake）起集成于处理器内部。该单元可支持人工神经网络负载在处理器上直接实现高效、低功耗的运行。&lt;/p&gt;
+
+&lt;p&gt;该神经网络处理单元（NPU）集成于处理器核心芯片中，专为高能效执行神经网络矩阵运算而设计。其架构可与中央处理器（CPU）和图形处理器（GPU）形成互补，能够为开放式神经网络交换格式（ONNX）模型、计算机视觉处理流程、量化模型，以及 CPU+GPU+NPU 协同运行的混合模型运算提供智能负载分流能力。&lt;/p&gt;
+
+&lt;p&gt;参与本项目是一件极具成就感的事，因为我们深知其将对未来各类应用产生深远影响。作为开源社区的一份子，我们肩负着普及前沿技术、助力缩小数字鸿沟的责任，本次软件包的交付正是朝着这一目标迈出的又一重要步伐。&lt;/p&gt;
+
+&lt;p&gt;如需了解更多信息，请访问 &lt;a href=&quot;https://software.opensuse.org/package/linux-npu-driver&quot;&gt;software.opensuse.org&lt;/a&gt;！&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/12/02/NPU-arrives-in-os-distributions/&quot;&gt;Intel NPU Driver Now Available in openSUSE Versions&lt;/a&gt;，作者：Alessandro de Oliveira Faria&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/12/09/tw-grub2-bls.html</guid>
       <title>openSUSE Tumbleweed 中 GRUB2-BLS 现已成为默认选项</title>
       <pubDate>Tue, 09 Dec 2025 01:30:00 +0000</pubDate>
@@ -812,81 +858,6 @@ Linux 内核 6.17.5 对 Btrfs、Ext4 和 F2FS 文件系统进行了稳定性改�
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/01/migrating-to-leap-16-with-opensuse-migration-tool/&quot;&gt;Next Chapter Opens with Leap 16 Release&lt;/a&gt;，作者：Release Team&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/11/migrating-to-leap-16-with-opensuse-migration-tool.html</guid>
-      <title>使用 opensuse-migration-tool 迁移至 openSUSE Leap 16.0</title>
-      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/11/migrating-to-leap-16-with-opensuse-migration-tool.html</link>
-      <author>Fangzhou Liu</author>
-      <description>多年来，我发现系统升级过程中最大的挑战常与第三方软件源相关，这主要因为这些软件源要么无法适配新版本系统或更新存在延迟。 另一个挑战在于发行版软件源的频繁变更。例如，在 Leap 15.3 版本中，作为 “缩小 Leap 差距”计划的一部分，我们移除了 ports 软件源，同时还引入了 SLE 更新软件源。 如今，在 Leap 16.0 版本中，更新软件源（update repositories）已被完全移除。Leap Micro 6.X 版本也不再提供专门的更新软件源。 过去，用户不得不手动修改发行版软件源。幸运的是，openSUSE-repos 工具实现了这一流程的自动化，并将发行版软件源纳入 RPM 包管理体系中。目前，这一机制已成为 Leap Micro 6 和 Leap 16 两个版本的默认行为，极大简化了整个系统升级与发行版迁移流程。 为何使用 opensuse-migration-tool 系统升级未必是一件令人却步或复杂的事。opensuse-migration-tool 这款工具的设计目标，就是让升级过程简单、安全且可预测。我的设计灵感来源于我们的 jeos-firstboot —— 它通过对话框实现流畅的交互体验。此外，借助自定义的 dialogrc 配置文件，该工具会以一个美观的绿色对话框欢迎用户，从一开始就赋予其熟悉的 openSUSE 风格与质感。 该工具能为你提供以下功能： 自动安装更新后的发行版软件源定义 禁用非发行版软件源，以避免版本冲突 运行 zypper dup 命令，实现平稳、安全的升级 提供升级后脚本：可帮助你适配新版本的默认设置，也支持保留个人偏好配置（例如在...</description>
-      <content:encoded>&lt;p&gt;多年来，我发现系统升级过程中最大的挑战常与&lt;strong&gt;第三方软件源&lt;/strong&gt;相关，这主要因为这些软件源要么无法适配新版本系统或更新存在延迟。&lt;/p&gt;
-
-&lt;p&gt;另一个挑战在于发行版软件源的&lt;strong&gt;频繁变更&lt;/strong&gt;。例如，在 Leap 15.3 版本中，作为 “缩小 Leap 差距”计划的一部分，我们移除了 ports 软件源，同时还引入了 SLE 更新软件源。&lt;/p&gt;
-
-&lt;p&gt;如今，在 Leap 16.0 版本中，&lt;strong&gt;更新软件源（update repositories）已被完全移除&lt;/strong&gt;。Leap Micro 6.X 版本也不再提供专门的更新软件源。&lt;/p&gt;
-
-&lt;p&gt;过去，用户不得不手动修改发行版软件源。幸运的是，&lt;a href=&quot;https://github.com/openSUSE/openSUSE-repos&quot;&gt;openSUSE-repos&lt;/a&gt; 工具实现了这一流程的自动化，并将发行版软件源纳入 RPM 包管理体系中。目前，这一机制已成为 Leap Micro 6 和 Leap 16 两个版本的默认行为，极大简化了整个系统升级与发行版迁移流程。&lt;/p&gt;
-
-&lt;h2 id=&quot;为何使用-opensuse-migration-tool&quot;&gt;为何使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;系统升级未必是一件令人却步或复杂的事。&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;opensuse-migration-tool&lt;/code&gt; 这款工具的设计目标，就是让升级过&lt;strong&gt;程简单、安全且可预测&lt;/strong&gt;。我的设计灵感来源于我们的 &lt;a href=&quot;https://github.com/openSUSE/jeos-firstbootV&quot;&gt;jeos-firstboot&lt;/a&gt; —— 它通过对话框实现流畅的交互体验。此外，借助自定义的 dialogrc 配置文件，该工具会以一个&lt;strong&gt;美观的绿色对话框&lt;/strong&gt;欢迎用户，从一开始就赋予其熟悉的 openSUSE 风格与质感。&lt;/p&gt;
-
-&lt;h3 id=&quot;该工具能为你提供以下功能&quot;&gt;该工具能为你提供以下功能：&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;自动安装更新后的发行版软件源定义&lt;/li&gt;
-  &lt;li&gt;禁用非发行版软件源，以避免版本冲突&lt;/li&gt;
-  &lt;li&gt;运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup&lt;/code&gt; 命令，实现平稳、安全的升级&lt;/li&gt;
-  &lt;li&gt;提供升级后脚本：可帮助你适配新版本的默认设置，也支持保留个人偏好配置（例如在 AppArmor 与 SELinux 两种安全模块间选择保留原有选项）&lt;/li&gt;
-  &lt;li&gt;执行迁移前检查，确保系统满足升级条件，包括验证是否支持 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86_64-v2&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;自动重启系统&lt;/li&gt;
-  &lt;li&gt;可选功能：通过 snapper 工具回滚系统，或直接从 GRUB 引导菜单启动至旧系统快照&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;适用场景不仅限于同系列升级
-该工具并非只能用于 Leap n 版本到 Leap n+1 版本的升级，还支持升级到其他 openSUSE 相关发行版，包括 SUSE Linux Enterprise，Slowroll，Tumbleweed。&lt;/p&gt;
-
-&lt;p&gt;此外，Slowroll 到 Tumbleweed 的升级也可支持；近期还新增了对 Leap Micro 到 Slowroll Micro 版本的升级需求适配。只要是“系统升级”场景，该工具都能正常工作。&lt;/p&gt;
-
-&lt;p&gt;想查看实际操作效果？可观看 &lt;a href=&quot;https://www.youtube.com/watch?v=N-pKs8KJW48&quot;&gt;LowTechLinux 在 YouTube 上发布的 opensuse-migration-tool 评测视频&lt;/a&gt;，其中包含实操演示与第三方验证，帮助你直观了解工具的使用流程。&lt;/p&gt;
-
-&lt;h2 id=&quot;开始使用&quot;&gt;开始使用&lt;/h2&gt;
-
-&lt;p&gt;若你的系统尚未安装该工具，请执行：&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo zypper in opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;若你是首次使用该工具，或仅想体验其功能，可在测试模式下运行：
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/usr/sbin/opensuse-migration-tool --dry-run&lt;/code&gt;  # 测试模式无需使用 sudo&lt;/p&gt;
-
-&lt;p&gt;此模式不会显示具体将升级的内容，但能让你大致了解该工具的功能，且不会对系统做出任何更改。&lt;/p&gt;
-
-&lt;p&gt;当你确认无误后，运行：
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo opensuse-migration-tool&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;该工具会提示禁用非发行版软件源，强烈建议你执行此操作。随后，工具将触发 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper dup --r&lt;/code&gt; 命令，若出现任何问题，会自动重新运行 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zypper&lt;/code&gt;。&lt;/p&gt;
-
-&lt;p&gt;该工具还会执行迁移前的系统检查。若你遇到任何问题，可直接从 &lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;git&lt;/a&gt; 获取并运行最新版本。欢迎大家贡献代码。&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/openSUSE/opensuse-migration-tool.git
-cd opensuse-migration-tool
-./opensuse-migration-tool --dry-run
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;更多文档&quot;&gt;更多文档&lt;/h2&gt;
-&lt;p&gt;更多信息可在 &lt;a href=&quot;https://en.opensuse.org/SDB:System_upgrade&quot;&gt;openSUSE 系统升级&lt;/a&gt; 页面查看。该文档还介绍了如何手动升级至 16.0 版本，但我不建议这样做，尤其是考虑到我们已收到关于该工具的积极反馈。&lt;/p&gt;
-
-&lt;p&gt;升级前请务必阅读 &lt;a href=&quot;https://doc.opensuse.org&quot;&gt;Leap 16.0 发行说明&lt;/a&gt; 以及 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Known_bugs_16.0&quot;&gt;已知漏洞 Wiki&lt;/a&gt;。&lt;/p&gt;
-
-&lt;h2 id=&quot;未来计划&quot;&gt;未来计划&lt;/h2&gt;
-&lt;p&gt;我计划提供一个可选的 GTK4 界面，该界面将保留通用的迁移逻辑和 Bash 的强大功能。它将使用自定义 GTK4 对话框以保持 openSUSE 的外观和质感，调用方式将与 zenity 类似。以下是前两个对话框的预览：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2025-10/opensuse-migration-tool-gtk4.png&quot; alt=&quot;&amp;quot;gtk4 工具截图&amp;quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;今日（2025年10月1日）协调世界时（UTC）12:00（北京时间 20:00），openSUSE Leap 16 正式发布后，关于 Leap 16 版本的调查问卷将在survey.opensuse.org上线，届时用户可在该平台提交反馈意见。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/01/migrating-to-leap-16-with-opensuse-migration-tool/&quot;&gt;Migrating to openSUSE Leap 16.0 with opensuse-migration-tool&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
 </content:encoded>
     </item>
 
