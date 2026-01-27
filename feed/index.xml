@@ -7,6 +7,46 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/26/os-community-tackling-y2k38-epoch.html</guid>
+      <title>开源社区应对 2038 年时间戳危机（Y2K38）</title>
+      <pubDate>Mon, 26 Jan 2026 01:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/26/os-community-tackling-y2k38-epoch.html</link>
+      <author>Fangzhou Liu</author>
+      <description>仅剩12年，记录时间中的根本性限制威胁着未准备的计算机系统；2038 年问题（Y2K38）正在成为新的千年虫问题（Y2K），开源社区贡献者们正致力于创建可行的警告机制。 这种被称为错误日期逻辑的问题，在计算机系统中比人们想象的更为常见。openSUSE 正在通过早期测试、工具链改进和社区协作，积极识别并修复此类问题，以确保软件系统在 2038 年后仍能稳定运行。 在 2038年1月19日 UTC 时间 03:14:07，UNIX 纪元时间戳将超过有符号的 32 位整数最大值：2,147,483,647（0x7fffffff）。在此之后，仍依赖 32 位时间表示的系统可能会发生时间回滚，导致从细微的数据损坏到彻底崩溃等不同程度的故障风险。 距未来 32 位平台（如 i586 或 armv7）面临此问题的时间还剩 12 年，但现代 64 位系统也存在部分漏洞，正如多年前的 openSUSE 会议演讲中所揭示。 近期 openSUSE 开发者的测试表明，2038 年问题已经迫在眉睫且真实存在。通过将构建系统的时钟提前至 2038 年，大量软件包出现了编译失败或测试套件未通过的情况。受影响的软件包括版本控制工具、编辑器、编译器、Python 库、桌面工具包及系统组件。 在某些案例中，基础系统行为（如正常运行时间报告）都受到了影响。 尽管部分故障已得到修正，但测试中暴露的问题残余表明，32 位时间存储问题的渗透深度远超预期。 每次新增功能或代码重构时，若开发者默认使用 int 或 long 等类型而非更安全的 time_t、int64_t 或 long long，都可能重新引入这一问题。 此风险不仅限于应用程序层。广泛使用的协议（如 SOAP/XML-RPC 和...</description>
+      <content:encoded>&lt;p&gt;仅剩12年，记录时间中的根本性限制威胁着未准备的计算机系统；&lt;a href=&quot;https://zh.wikipedia.org/wiki/2038%E5%B9%B4%E9%97%AE%E9%A2%98&quot;&gt;2038 年问题（Y2K38）&lt;/a&gt;正在成为新的&lt;a href=&quot;https://zh.wikipedia.org/wiki/2000%E5%B9%B4%E9%97%AE%E9%A2%98&quot;&gt;千年虫问题（Y2K）&lt;/a&gt;，开源社区贡献者们正致力于创建&lt;a href=&quot;https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118326&quot;&gt;可行的警告机制&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这种被称为&lt;a href=&quot;https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs&quot;&gt;错误日期逻辑&lt;/a&gt;的问题，在计算机系统中比人们想象的更为常见。&lt;a href=&quot;https://get.opensuse.org&quot;&gt;openSUSE&lt;/a&gt; 正在通过早期测试、工具链改进和社区协作，积极识别并修复此类问题，以确保软件系统在 2038 年后仍能稳定运行。&lt;/p&gt;
+
+&lt;p&gt;在 2038年1月19日 UTC 时间 03:14:07，UNIX 纪元时间戳将超过有符号的 32 位整数最大值：2,147,483,647（0x7fffffff）。在此之后，仍依赖 32 位时间表示的系统可能会发生时间回滚，导致从细微的数据损坏到彻底崩溃等不同程度的故障风险。&lt;/p&gt;
+
+&lt;p&gt;距未来 32 位平台（如 i586 或 armv7）面临此问题的时间还剩 12 年，但现代 64 位系统也存在部分漏洞，正如多年前的 &lt;a href=&quot;https://youtu.be/4biGLiBBIds?si=RovxczlfOAb_e7s4&quot;&gt;openSUSE 会议演讲&lt;/a&gt;中所揭示。&lt;/p&gt;
+
+&lt;p&gt;近期 openSUSE 开发者的测试表明，2038 年问题已经迫在眉睫且真实存在。通过将构建系统的时钟提前至 2038 年，大量软件包出现了编译失败或测试套件未通过的情况。受影响的软件包括版本控制工具、编辑器、编译器、Python 库、桌面工具包及系统组件。&lt;/p&gt;
+
+&lt;p&gt;在某些案例中，基础系统行为（如正常运行时间报告）都受到了影响。&lt;/p&gt;
+
+&lt;p&gt;尽管部分故障已得到修正，但测试中暴露的问题残余表明，32 位时间存储问题的渗透深度远超预期。&lt;/p&gt;
+
+&lt;p&gt;每次新增功能或代码重构时，若开发者默认使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long&lt;/code&gt; 等类型而非更安全的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_t&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int64_t&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long long&lt;/code&gt;，都可能重新引入这一问题。&lt;/p&gt;
+
+&lt;p&gt;此风险不仅限于应用程序层。广泛使用的协议（如 &lt;a href=&quot;https://en.wikipedia.org/wiki/SOAP&quot;&gt;SOAP/XML-RPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol&quot;&gt;SNMP&lt;/a&gt;）仍采用 32 位值编码时间戳。其实现必须格外注意兼容性设计，确保在处理 2038 年后日期时不破坏互操作性。&lt;/p&gt;
+
+&lt;p&gt;测试工作本身依旧面临挑战，工具链优化被列为后续调整的重要方向。目前团队正探讨一项新方案：当代码中出现32位整数与时间相关类型的不安全转换时，编译器将主动触发警告。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2025/10/01/next-chapter-opens-with-leap-release/&quot;&gt;Leap 16&lt;/a&gt; 默认禁用了 32 位（ia32）架构支持，因此本身不存在 2038 年问题风险，但测试结果显示，在后续的小版本更新中，仍需对受影响的 64 位相关模块进行修改。&lt;/p&gt;
+
+&lt;p&gt;对该议题感兴趣的开发者，可通过以下渠道参与讨论：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/linux/comments/1qfw17a/today_is_y2k38_commemoration_day_t12/&quot;&gt;Reddit 相关主题讨论帖&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/01/20/os-community-tackling-y2k38-epoch/&quot;&gt;Open-Source Community Tackling Y2K38 Epoch&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/20/submit-an-osc-presentation.html</guid>
       <title>登记，提交 openSUSE 大会的演讲稿</title>
       <pubDate>Tue, 20 Jan 2026 23:00:00 +0000</pubDate>
@@ -835,45 +875,6 @@ Linux 内核 6.17.5 对 Btrfs、Ext4 和 F2FS 文件系统进行了稳定性改�
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/24/leap-keeps-fleets-on-track/&quot;&gt;Leap Keeps Fleets on Track&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/24/leap-powers-consultants-on-the-move.html</guid>
-      <title>Leap 为咨询公司助力</title>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/10/24/leap-powers-consultants-on-the-move.html</link>
-      <author>Fangzhou Liu</author>
-      <description>对于技术咨询而言，工作与生活会不断奔波。 从机场休息室到欧洲乃至全球各地的会议室，某位技术顾问的首选工具是搭载 openSUSE Leap 系统的 Slimbook Executive 笔记本电脑。这是一台可靠、安全且灵活的 Linux 设备，能无缝适配独立咨询工作中不断变化的需求。 Agustín Benito Bethencourt 分享了自己使用 Leap 的案例，像他这样的自由职业技术顾问需要与高度受监管行业的多家客户合作，而这类工作面临独特挑战：每位客户都有自己的安全政策、沟通平台和合规协议。 在一家机构适用的工具，到了另一家可能被禁用，或是不符合合规要求。 Leap 的灵活性让 Bethencourt 及其所在的咨询公司 toscalix 能够快速调整。作为独立顾问，贝森古需要使用多款视频聊天工具，包括通过网页端使用的 BigBlueButton 和 Jitsi，以及 Google Meet、Zoom、Teams 和 Slack。 由于不同企业工具的使用需求，Bethencourt 会用到 Firefox、Edge 和 Chromium/Chrome 三款浏览器。 “其中部分工具，我是通过 Flatpaks 使用的。” Bethencourt 表示。 Flatpaks 是一种容器化应用程序，设计初衷是能在任何 Linux 发行版上稳定运行，可通过 Flathub 平台获取。 这位顾问的工作流程不止于应用程序的使用。不同客户会施加严格的安全措施，从加密硬盘、隔离存储库到绑定特定证书的虚拟专用网络（VPN）。Bethencourt 使用 Bitwarden...</description>
-      <content:encoded>&lt;p&gt;对于技术咨询而言，工作与生活会不断奔波。&lt;/p&gt;
-
-&lt;p&gt;从机场休息室到欧洲乃至全球各地的会议室，某位技术顾问的首选工具是搭载 &lt;a href=&quot;https://get.opensuse.org/leap&quot;&gt;openSUSE Leap&lt;/a&gt; 系统的 &lt;a href=&quot;https://slimbook.com/en/executive&quot;&gt;Slimbook Executive&lt;/a&gt; 笔记本电脑。这是一台可靠、安全且灵活的 Linux 设备，能无缝适配独立咨询工作中不断变化的需求。&lt;/p&gt;
-
-&lt;p&gt;Agustín Benito Bethencourt 分享了自己使用 Leap 的案例，像他这样的自由职业技术顾问需要与高度受监管行业的多家客户合作，而这类工作面临独特挑战：每位客户都有自己的安全政策、沟通平台和合规协议。&lt;/p&gt;
-
-&lt;p&gt;在一家机构适用的工具，到了另一家可能被禁用，或是不符合合规要求。&lt;/p&gt;
-
-&lt;p&gt;Leap 的灵活性让 Bethencourt 及其所在的咨询公司 &lt;a href=&quot;http://www.toscalix.com/&quot;&gt;toscalix&lt;/a&gt; 能够快速调整。作为独立顾问，贝森古需要使用多款视频聊天工具，包括通过网页端使用的 &lt;a href=&quot;https://bigbluebutton.org/&quot;&gt;BigBlueButton&lt;/a&gt; 和 &lt;a href=&quot;https://jitsi.org/&quot;&gt;Jitsi&lt;/a&gt;，以及 Google Meet、&lt;a href=&quot;https://flathub.org/en/apps/us.zoom.Zoom&quot;&gt;Zoom&lt;/a&gt;、Teams 和 Slack。&lt;/p&gt;
-
-&lt;p&gt;由于不同企业工具的使用需求，Bethencourt 会用到 &lt;a href=&quot;https://flathub.org/en/apps/org.mozilla.firefox&quot;&gt;Firefox&lt;/a&gt;、&lt;a href=&quot;https://flathub.org/en/apps/com.microsoft.Edge&quot;&gt;Edge&lt;/a&gt; 和 &lt;a href=&quot;https://flathub.org/en/apps/com.google.Chrome&quot;&gt;Chromium/Chrome&lt;/a&gt; 三款浏览器。&lt;/p&gt;
-
-&lt;p&gt;“其中部分工具，我是通过 Flatpaks 使用的。” Bethencourt 表示。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://flatpak.org/&quot;&gt;Flatpaks&lt;/a&gt; 是一种容器化应用程序，设计初衷是能在任何 Linux 发行版上稳定运行，可通过 &lt;a href=&quot;https://flathub.org/en&quot;&gt;Flathub&lt;/a&gt; 平台获取。&lt;/p&gt;
-
-&lt;p&gt;这位顾问的工作流程不止于应用程序的使用。不同客户会施加严格的安全措施，从加密硬盘、隔离存储库到绑定特定证书的虚拟专用网络（VPN）。Bethencourt 使用 &lt;a href=&quot;https://bitwarden.com/&quot;&gt;Bitwarden&lt;/a&gt; 作为密码管理器，为每位客户设置独立存储库，以此降低数据意外泄露的风险。&lt;/p&gt;
-
-&lt;p&gt;硬件级防护也发挥着重要作用。当前往客户办公场所时，他会通过一个补丁禁用笔记本电脑的摄像头。在机场或客户现场充电时，他会使用 &lt;a href=&quot;https://www.amazon.es/-/en/MMOBIEL-Blocker-Protection-Against-Hacking/dp/B0D9YSCP35?th=1&quot;&gt;USB 数据阻断器&lt;/a&gt;，以防范 “&lt;a href=&quot;https://en.wikipedia.org/wiki/Juice_jacking&quot;&gt;充电座数据盗取&lt;/a&gt;”—— 这类攻击会利用 USB 线缆，在充电过程中秘密传输数据。&lt;/p&gt;
-
-&lt;p&gt;Bethencourt 解释道，将这些信息整理成文档，或许能提高与安全合规部门对接的效率。&lt;/p&gt;
-
-&lt;p&gt;“我的使用案例可能不算花哨，” 他说，但 “它从专业用户的视角展现了 Leap 的灵活性。”
-此类案例印证了 Leap 在各类环境中的适配能力。凭借 &lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/19/leap-16-doubles-support.html&quot;&gt;Leap 16 延长的生命周期&lt;/a&gt; 和企业级可靠性，无论专业人士身处办公室、通勤途中还是客户现场，都可以信赖这款发行版系统。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 项目团队正致力于展示人们使用 openSUSE 的各类场景。若你有 Leap 16 的使用案例想要分享，可在该项目的&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/6EL3OTP7V7EKS5QZ35U6SSHY4Y6GCYJ7/&quot;&gt;邮件列表&lt;/a&gt;中留言。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/10/13/leap-powers-consultants-on-the-move/&quot;&gt;Leap Powers Consultants on the Move&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
