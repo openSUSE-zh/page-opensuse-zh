@@ -1,6 +1,6 @@
 ---
 author: Fangzhou Liu
-date: 2026-03-02 10:00:00 +0800
+date: 2026-03-09 10:00:00 +0800
 layout: post
 license: CC-BY-SA-4.0
 title: 社区完善 Git 打包工作流
