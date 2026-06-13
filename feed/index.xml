@@ -7,6 +7,84 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/12/following-up-on-armv9-build-infrastructure.html</guid>
+      <title>ARMv9 构建基础设施后续进展</title>
+      <pubDate>Tue, 12 May 2026 03:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/12/following-up-on-armv9-build-infrastructure.html</link>
+      <author>Fangzhou Liu</author>
+      <description>去年六月，NVIDIA Grace Hopper 正式入驻 Open Build Service (OBS) 基础设施，这不仅意味着新硬件的到来，更开启了 openSUSE 项目原生 ARMv9 构建能力的新纪元。 数月后的今天，成效正日益显现。 OBS 的工作节点监控面板呈现的画面，比任何变更日志都更能说明问题。横跨 x86_64、aarch64、ppc64le、s930x 等多种架构的数十个构建工作节点中，更新的 armv9 级别机器正在繁忙运转。 项目团队一直在为 ARMv9 重建 Tumbleweed 的部分软件包，工作节点面板直观反映了这些进展。 面板不仅揭示了 aarch64 和 armv9 节点上的高负载，更展示了构建目标的软件包多样性——从 Linux 内核、LLVM 和 GCC 等编译器工具链，到 Python 软件包、Qt 框架等，工作节点正以较高的成功率编译这些复杂工作负载。 这些活动对 ARMv9 至关重要，表明它已从概念验证阶段演进为与主 Tumbleweed 树并行的活跃开发发行版路径。 NVIDIA Grace 采用高性能 ARM 架构 CPU 核心与...</description>
+      <content:encoded>&lt;p&gt;去年六月，&lt;a href=&quot;https://news.opensuse.org/2025/06/20/grace-hopper-to-boost-tw-armv9-builds/&quot;&gt;NVIDIA Grace Hopper&lt;/a&gt; 正式入驻 &lt;a href=&quot;https://build.opensuse.org/&quot;&gt;Open Build Service (OBS)&lt;/a&gt; 基础设施，这不仅意味着新硬件的到来，更开启了 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;原生 ARMv9 构建能力的新纪元。&lt;/p&gt;
+
+&lt;p&gt;数月后的今天，成效正日益显现。&lt;/p&gt;
+
+&lt;p&gt;OBS 的&lt;a href=&quot;https://build.opensuse.org/monitor&quot;&gt;工作节点监控面板&lt;/a&gt;呈现的画面，比任何变更日志都更能说明问题。横跨 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86_64&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aarch64&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ppc64le&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s930x&lt;/code&gt; 等多种架构的数十个构建工作节点中，更新的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;armv9&lt;/code&gt; 级别机器正在繁忙运转。&lt;/p&gt;
+
+&lt;p&gt;项目团队一直在为 ARMv9 重建 &lt;a href=&quot;https://get.opensuse.org/tumbleweed/&quot;&gt;Tumbleweed&lt;/a&gt; 的部分软件包，工作节点面板直观反映了这些进展。&lt;/p&gt;
+
+&lt;p&gt;面板不仅揭示了 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aarch64&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;armv9&lt;/code&gt; 节点上的高负载，更展示了构建目标的软件包多样性——从 Linux 内核、&lt;a href=&quot;https://llvm.org/&quot;&gt;LLVM&lt;/a&gt; 和 &lt;a href=&quot;https://gcc.gnu.org/&quot;&gt;GCC&lt;/a&gt; 等编译器工具链，到 &lt;a href=&quot;https://www.python.org/&quot;&gt;Python&lt;/a&gt; 软件包、&lt;a href=&quot;https://www.qt.io/&quot;&gt;Qt&lt;/a&gt; 框架等，工作节点正以较高的成功率编译这些复杂工作负载。&lt;/p&gt;
+
+&lt;p&gt;这些活动对 ARMv9 至关重要，表明它已从概念验证阶段演进为与主 Tumbleweed 树并行的活跃开发发行版路径。&lt;/p&gt;
+
+&lt;p&gt;NVIDIA Grace 采用高性能 &lt;a href=&quot;https://www.arm.com/&quot;&gt;ARM&lt;/a&gt; 架构 CPU 核心与 Hopper GPU 架构，通过 &lt;a href=&quot;https://www.nvidia.com/en-us/data-center/nvlink-c2c/&quot;&gt;NVIDIA NVLink™-C2C&lt;/a&gt;（芯片间互联）接口连接。该架构允许两个处理器就地访问数据，从而显著加快编译速度并降低复杂工作负载的延迟，提升了 OBS 各流水线的整体效率。&lt;/p&gt;
+
+&lt;p&gt;架构差异并非抽象的技术指标。它直接转化为贡献者更短的队列等待时间、软件包维护者更快的反馈循环，以及处理 Tumbleweed 这类滚动发行版所需的大规模并行构建的能力。&lt;/p&gt;
+
+&lt;p&gt;在 OBS 中集成原生 ARMv9 硬件，对于释放最大性能优势、成功验证针对该架构优化的构建至关重要。&lt;/p&gt;
+
+&lt;p&gt;原生构建消除了模拟交叉编译时常常掩盖关键的&lt;a href=&quot;https://en.wikipedia.org/wiki/Application_binary_interface&quot;&gt;应用程序二进制接口&lt;/a&gt;（ABI）不匹配、指令调度错误和性能回退问题的风险。将 Grace Hopper 投入生产环境，确保 ARMv9 目标在真实芯片上得到验证，从而保证实际可靠性和峰值性能。&lt;/p&gt;
+
+&lt;p&gt;促成这一成果的合作模式值得推广。这些努力体现了对开源的共同承诺，以及对前沿构建能力的需求。这不仅是理念层面的表述，更是业界其他硬件公司可以参考的实践论证。&lt;/p&gt;
+
+&lt;p&gt;openSUSE 项目积极欢迎硬件厂商出借或&lt;a href=&quot;https://en.opensuse.org/Sponsors#Want_to_Become_a_Sponsor_of_openSUSE?&quot;&gt;捐赠硬件&lt;/a&gt;，以在自身系统上启用或测试 openSUSE，或为构建系统提供更多算力。&lt;/p&gt;
+
+&lt;p&gt;试想一下，出借或捐赠硬件给 OBS 对一家公司意味着什么。当厂商的芯片作为原生构建目标出现在 OBS 中时，成千上万的开源软件包将针对该架构持续自动地编译、测试和验证。这是硬件厂商 QA 团队梦寐以求的场景！&lt;/p&gt;
+
+&lt;p&gt;每一次成功构建都验证了所贡献硬件上的软件就绪度，而每一次失败则在影响最终用户之前主动解决了兼容性问题。持续集成覆盖为新处理器发布提供了关键的风险缓释，而基础设施成本却微乎其微。&lt;/p&gt;
+
+&lt;p&gt;OBS 工作节点池具备全面的多架构覆盖能力——Intel/AMD 承担主要负载，同时配有专用的 ARM、POWER 和 Z Systems 节点。通过合作伙伴关系和社区贡献保障的多样化基础设施，确保了在广泛硬件范围内的验证覆盖。&lt;/p&gt;
+
+&lt;p&gt;借出、捐赠或托管于项目的机器，将成为一个持续自动化的软件兼容性测试平台——全天候运行，由社区维护，其成果对每一个关注 Tumbleweed 软件包动态的 Linux 开发者可见。&lt;/p&gt;
+
+&lt;p&gt;NVIDIA 的合作就是最好的实践示范。OBS 蓬勃发展的构建集群惠及每一位发行版用户、每一位应用开发者，以及每一位产品运行 Linux 的硬件厂商。&lt;/p&gt;
+
+&lt;p&gt;如果你的公司生产芯片、加速器或服务器，希望产品在 Linux 上运行良好，那就把硬件交到构建软件的人手中。openSUSE 项目已准备就绪。&lt;/p&gt;
+
+&lt;p&gt;如需了解更多信息，请联系 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/04/13/follow-up-on-armv9-build-infra/&quot;&gt;Following Up on ARMv9 Build Infrastructure&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/12/closing-out-a-roughly-8-year-era.html</guid>
+      <title>近八年历程即将落幕</title>
+      <pubDate>Tue, 12 May 2026 02:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/12/closing-out-a-roughly-8-year-era.html</link>
+      <author>Fangzhou Liu</author>
+      <description>openSUSE Leap 15 系列在提供可升级至 SUSE 企业版产品的稳定社区发行版近八年后，即将走到终点。Leap 15.6 将于本月底（2026 年 4 月）停止支持（EOL, End of Life），标志着一个时代的结束，此后将不再提供维护或安全更新。 Leap 15 的旅程始于 2018 年 5 月 25 日，当时 15.0 作为基于 SUSE Linux Enterprise 15 的全新社区构建版本发布。它带来了大量新软件，同时提供了便捷的 SLE 迁移路径、事务更新、服务器角色、可扩展的云镜像等功能。 随后是一段令人印象深刻的持续迭代历程，从 Leap 15.1 到 15.6，每个稳定版本都与其同源的 SLE 版本保持源码和二进制兼容，并在数年间为用户提供维护和安全更新。 这一系列远超预期，最终跨越了近八年的活跃支持期。随着 Leap 15.6 停止支持，希望继续接收维护和安全更新的用户应升级至 Leap 16。Leap 16 预计将支持至 2031 年秋季的 16.6...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://en.opensuse.org/Archive:15.0&quot;&gt;openSUSE Leap 15&lt;/a&gt; 系列在提供可升级至 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE&lt;/a&gt; 企业版产品的稳定社区发行版近八年后，即将走到终点。Leap 15.6 将于本月底（2026 年 4 月）停止支持（EOL, End of Life），标志着一个时代的结束，此后将不再提供维护或安全更新。&lt;/p&gt;
+
+&lt;p&gt;Leap 15 的旅程始于 2018 年 5 月 25 日，当时 15.0 作为基于 &lt;a href=&quot;https://www.suse.com/products/server/&quot;&gt;SUSE Linux Enterprise 15&lt;/a&gt; 的全新社区构建版本发布。它带来了大量新软件，同时提供了便捷的 SLE 迁移路径、事务更新、服务器角色、可扩展的云镜像等功能。&lt;/p&gt;
+
+&lt;p&gt;随后是一段令人印象深刻的持续迭代历程，从 Leap 15.1 到 15.6，每个稳定版本都与其同源的 SLE 版本保持源码和二进制兼容，并在数年间为用户提供维护和安全更新。&lt;/p&gt;
+
+&lt;p&gt;这一系列远超预期，最终跨越了近八年的活跃支持期。随着 Leap 15.6 停止支持，希望继续接收维护和安全更新的用户应升级至 &lt;a href=&quot;https://get.opensuse.org/leap/&quot;&gt;Leap 16&lt;/a&gt;。&lt;a href=&quot;https://suse.org.cn/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/09/19/leap-16-doubles-support.html&quot;&gt;Leap 16 预计将支持至 2031 年秋季的 16.6 版本&lt;/a&gt;，每个点版本将享有 24 个月的支持周期。&lt;/p&gt;
+
+&lt;p&gt;运行不受支持的版本意味着你的系统将不再接收漏洞补丁，这会随时间推移带来实际的安全风险。升级到 Leap 16 是保持安全与支持的推荐方式。&lt;/p&gt;
+
+&lt;p&gt;你可以下载 openSUSE Leap 16 并使用&lt;a href=&quot;https://github.com/openSUSE/opensuse-migration-tool&quot;&gt;迁移工具进行升级&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;Leap 15.6 本身获得了近 24 个月的支持，比传统 18 个月的支持期延长了约六个月。在 Leap 16 上，用户可以期待每个点版本享有完整的 24 个月社区支持，这体现了维护者为保护用户所付出的巨大努力。&lt;/p&gt;
+
+&lt;p&gt;感谢所有贡献者、打包者和用户，是你们让 Leap 15 系列成为如此持久可靠的平台。让我们一起期待 Leap 16 的新篇章！&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/04/01/leap-15-eol/&quot;&gt;Closing Out a Roughly 8-Year Era&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/15/new-launcher-aims-to-simplify-cockpit-installations.html</guid>
       <title>新启动器旨在简化 Cockpit 安装流程</title>
       <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
@@ -354,79 +432,6 @@
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/01/20/os-community-tackling-y2k38-epoch/&quot;&gt;Open-Source Community Tackling Y2K38 Epoch&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/20/submit-an-osc-presentation.html</guid>
-      <title>登记，提交 openSUSE 大会的演讲稿</title>
-      <pubDate>Tue, 20 Jan 2026 23:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/20/submit-an-osc-presentation.html</link>
-      <author>Poplar at twilight</author>
-      <description>openSUSE Conference 2026 现已开放登记，即日起，欢迎大家提交演讲申请。 本次大会定于 6 月 25 日至 27 日在德国纽伦堡举办。Flock to Fedora（Fedora 项目大会） 将于 6 月 14 日至 16 日在捷克共和国布拉格召开，紧接着，DevConf.CZ 将于 6 月 18 日至 19 日在捷克共和国布尔诺举行。目前，上述所有开源开发者会议均已开启提案征集。随着多场大型活动在中欧各地陆续举办，6 月将成为大家出行交流、联络社区成员、对接开源开发者的绝佳时机。 4 月 30 日之前，大家均可提交演讲或研讨会提案，分享自己的专业知识。建议大家根据以下时长和主题方向准备并提交演讲内容： 演讲提交时长分类： 快闪演讲（10 分钟） 微演讲（30 分钟） 长时演讲（45 分钟） 工作坊（1 小时） 会议议题赛道设置： 云与容器 社区建设 嵌入式系统与边缘计算 前沿技术 开源技术 openSUSE 开源商业：超越代码，迈向可持续发展赛道...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org&quot;&gt;openSUSE Conference 2026&lt;/a&gt; 现已开放登记，即日起，欢迎大家提交演讲申请。&lt;/p&gt;
-
-&lt;p&gt;本次&lt;a href=&quot;https://events.opensuse.org&quot;&gt;大会&lt;/a&gt;定于 6 月 25 日至 27 日在德国纽伦堡举办。&lt;a href=&quot;https://fedoraproject.org/flock/2026/&quot;&gt;Flock to Fedora&lt;/a&gt;（Fedora 项目大会） 将于 6 月 14 日至 16 日在捷克共和国布拉格召开，紧接着，&lt;a href=&quot;https://www.devconf.info/cz/&quot;&gt;DevConf.CZ&lt;/a&gt; 将于 6 月 18 日至 19 日在捷克共和国布尔诺举行。目前，上述所有开源开发者会议均已开启提案征集。随着多场大型活动在中欧各地陆续举办，6 月将成为大家出行交流、联络社区成员、对接开源开发者的绝佳时机。&lt;/p&gt;
-
-&lt;p&gt;4 月 30 日之前，大家均可提交演讲或研讨会提案，分享自己的专业知识。建议大家根据以下时长和主题方向准备并提交演讲内容：&lt;/p&gt;
-
-&lt;h2 id=&quot;演讲提交时长分类&quot;&gt;演讲提交时长分类：&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;快闪演讲（10 分钟）&lt;/li&gt;
-  &lt;li&gt;微演讲（30 分钟）&lt;/li&gt;
-  &lt;li&gt;长时演讲（45 分钟）&lt;/li&gt;
-  &lt;li&gt;工作坊（1 小时）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;会议议题赛道设置&quot;&gt;会议议题赛道设置：&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;云与容器&lt;/li&gt;
-  &lt;li&gt;社区建设&lt;/li&gt;
-  &lt;li&gt;嵌入式系统与边缘计算&lt;/li&gt;
-  &lt;li&gt;前沿技术&lt;/li&gt;
-  &lt;li&gt;开源技术&lt;/li&gt;
-  &lt;li&gt;openSUSE&lt;/li&gt;
-  &lt;li&gt;开源商业：超越代码，迈向可持续发展赛道&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;志愿者若有意协助本次会议的组织工作，欢迎发送邮件至 &lt;a href=&quot;mailto:ddemaio@opensuse.org&quot;&gt;ddemaio@opensuse.org&lt;/a&gt; 或参加每周举行的&lt;a href=&quot;https://calendar.opensuse.org/&quot;&gt;社区例会&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;为保障由社区主导的活动持续免费向新晋贡献者开放，会议需要赞助商提供支持。企业可通过&lt;a href=&quot;https://en.opensuse.org/images/9/94/OSC25prospectus.pdf&quot;&gt;赞助方案查阅页&lt;/a&gt;了解赞助详情，或向 Geeko 基金会&lt;a href=&quot;https://geekos.org/sponsorship/&quot;&gt;定向捐款&lt;/a&gt;以支持大会运营资金。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/01/19/submit-an-osc-presentation/&quot;&gt;Register, Submit a Presentation for oSC&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/12/24/opensuse-asia-summit-2026-return-to-yogyakarta.html</guid>
-      <title>openSUSE 亚洲峰会回到印度尼西亚日惹！</title>
-      <pubDate>Wed, 24 Dec 2025 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2025/12/24/opensuse-asia-summit-2026-return-to-yogyakarta.html</link>
-      <author>Fangzhou Liu</author>
-      <description>日惹首次在印度尼西亚承办 openSUSE 亚洲峰会至今，已然走过十载光阴——2026 年，我们将重返这片见证最初热潮的热土。 印度尼西亚在峰会发展史上有着独特地位： 2016 年，印度尼西亚于日惹举办首届 openSUSE 亚洲峰会 2019 年，峰会再度在巴厘岛成功举办，为社区呈上了一场难忘的盛会 若想重温 2016 年日惹峰会的热烈氛围，可前往 YouTube 观看这段简短的回顾视频。 我们满怀喜悦地宣布，2026 年 openSUSE 亚洲峰会将在印度尼西亚的文化核心——日惹举办。本届峰会是面向全地区 openSUSE 用户、贡献者及自由开源软件（FLOSS）爱好者的年度盛会，旨在搭建一个协作、学习与交流的平台，聚焦 openSUSE 及更广泛开源生态系统的相关经验与见解。 日惹常被称作“学生之城”，拥有数十所高等院校与充满活力的科技社区。这里的青年人才与浓厚学术氛围，为创新及开源技术的推广提供了肥沃土壤。除教育与科技领域外，日惹也是一座鲜活的文化遗产中心——拥有皇家宫殿、传统艺术，周边更坐落着婆罗浮屠、普兰巴南等世界著名寺庙地标。其深厚的文化魅力与现代创意、数字发展完美融合，相得益彰。 参会者不仅能参与富有启发性的会议、工作坊及社区活动——还能体验当地热情的待客之道、独特的美食以及浓厚的艺术氛围，这些都将让日惹成为难忘的记忆。 本届峰会预计于 2026 年 10 月 3 日至 4 日举办，演讲征集计划于 2026 年 6 月底截止。包括会场详情在内的更多信息将后续公布——敬请关注最新通知！ 我们热切期待在日惹迎接你的到来，再次共庆 openSUSE。印度尼西亚见！🦎🌏 原文：openSUSE.Asia Summit returns to Yogyakarta, Indonesia!，作者：openSUSE Asia Summit Team...</description>
-      <content:encoded>&lt;p&gt;日惹首次在印度尼西亚承办 openSUSE 亚洲峰会至今，已然走过十载光阴——2026 年，我们将重返这片见证最初热潮的热土。&lt;/p&gt;
-
-&lt;p&gt;印度尼西亚在峰会发展史上有着独特地位：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;2016 年，印度尼西亚于日惹举办首届 &lt;a href=&quot;https://events.opensuse.org/conferences/summitasia16&quot;&gt;openSUSE 亚洲峰会&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2019 年，峰会再度在&lt;a href=&quot;https://events.opensuse.org/conferences/summitasia19&quot;&gt;巴厘岛&lt;/a&gt;成功举办，为社区呈上了一场难忘的盛会&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;若想重温 2016 年日惹峰会的热烈氛围，可前往 &lt;a href=&quot;https://www.youtube.com/watch?v=V6Jxq23w3go&quot;&gt;YouTube&lt;/a&gt; 观看这段简短的回顾视频。&lt;/p&gt;
-
-&lt;p&gt;我们满怀喜悦地宣布，2026 年 openSUSE 亚洲峰会将在印度尼西亚的文化核心——日惹举办。本届峰会是面向全地区 openSUSE 用户、贡献者及自由开源软件（FLOSS）爱好者的年度盛会，旨在搭建一个协作、学习与交流的平台，聚焦 openSUSE 及更广泛开源生态系统的相关经验与见解。&lt;/p&gt;
-
-&lt;p&gt;日惹常被称作“学生之城”，拥有数十所高等院校与充满活力的科技社区。这里的青年人才与浓厚学术氛围，为创新及开源技术的推广提供了肥沃土壤。除教育与科技领域外，日惹也是一座鲜活的文化遗产中心——拥有皇家宫殿、传统艺术，周边更坐落着婆罗浮屠、普兰巴南等世界著名寺庙地标。其深厚的文化魅力与现代创意、数字发展完美融合，相得益彰。&lt;/p&gt;
-
-&lt;p&gt;参会者不仅能参与富有启发性的会议、工作坊及社区活动——还能体验当地热情的待客之道、独特的美食以及浓厚的艺术氛围，这些都将让日惹成为难忘的记忆。
-本届峰会预计于 2026 年 10 月 3 日至 4 日举办，演讲征集计划于  2026 年 6 月底截止。包括会场详情在内的更多信息将后续公布——敬请关注最新通知！&lt;/p&gt;
-
-&lt;p&gt;我们热切期待在日惹迎接你的到来，再次共庆 openSUSE。印度尼西亚见！🦎🌏&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2025/12/09/opensuse-asia-summit-2026-return-to-yogyakarta/&quot;&gt;openSUSE.Asia Summit returns to Yogyakarta, Indonesia!&lt;/a&gt;，作者：openSUSE Asia Summit Team&lt;/p&gt;
 </content:encoded>
     </item>
 
