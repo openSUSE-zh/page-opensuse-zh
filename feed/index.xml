@@ -85,6 +85,215 @@
     </item>
 
     <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/05/summit-draws-landmark-regional-gathering.html</guid>
+      <title>峰会迎来里程碑式的区域性盛会</title>
+      <pubDate>Tue, 05 May 2026 11:00:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/05/05/summit-draws-landmark-regional-gathering.html</link>
+      <author>Douglas DeMaio</author>
+      <description>321 名开发者、学生和技术专业人士齐聚哥伦比亚巴兰基亚的自由大学（Universidad Libre），出席首届 openSUSE America Summit。 这场为期两天的活动在自由大学校园举行，于 5 月 1 日落下帷幕，与会者呼吁在该地区进一步推广开源文化与贡献精神。 夺旗赛（Capture the Flag）为峰会增添了实战网络安全环节，参赛者在实时环境中测试攻防技能。该活动吸引了大量学生和 IT 专业人士的关注。 大会的演讲者来自全球各地，体现了开源社区的国际影响力。来自哥伦比亚、阿根廷、巴西、墨西哥、多米尼加共和国、印度、英国、德国和美国的演讲者，围绕网络安全、云基础设施、机器学习及社区发展等主题进行了分享。 来自哥伦比亚的 Luis Delascar 在第二天以 Kuná Red 演讲开场。这是一款离线优先的开源网状网络解决方案，旨在为缺乏可靠互联网或蜂窝网络基础设施的农村及偏远地区提供通信能力。来自阿根廷的 Diego Córdoba 深入讲解了 openSUSE 中基于 nftables 的 Netfilter 及防火墙架构，同为阿根廷籍的 Andrea Navarro 则探讨了在教育场景中使用 Jupyter notebooks 作为商业云平台替代方案的话题。 Patrick Fitzgerald 在题为从 Windows 迁移至 Linux 的更新演讲中阐述了 Linux 迁移的理由，指出数据主权、关税及不可靠的国际伙伴关系等日益增长的担忧，是促使个人和组织转向 Linux 的重要因素。...</description>
+      <content:encoded>&lt;p&gt;321 名开发者、学生和技术专业人士齐聚哥伦比亚巴兰基亚的自由大学（Universidad Libre），出席首届 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAMS26&quot;&gt;openSUSE America Summit&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;这场为期两天的活动在&lt;a href=&quot;https://www.unilibre.edu.co/&quot;&gt;自由大学&lt;/a&gt;校园举行，于 5 月 1 日落下帷幕，与会者呼吁在该地区进一步推广开源文化与贡献精神。&lt;/p&gt;
+
+&lt;p&gt;夺旗赛（Capture the Flag）为峰会增添了实战网络安全环节，参赛者在实时环境中测试攻防技能。该活动吸引了大量学生和 IT 专业人士的关注。&lt;/p&gt;
+
+&lt;p&gt;大会的演讲者来自全球各地，体现了开源社区的国际影响力。来自哥伦比亚、阿根廷、巴西、墨西哥、多米尼加共和国、印度、英国、德国和美国的演讲者，围绕网络安全、云基础设施、机器学习及社区发展等主题进行了分享。&lt;/p&gt;
+
+&lt;p&gt;来自哥伦比亚的 Luis Delascar 在第二天以 Kuná Red 演讲开场。这是一款离线优先的开源网状网络解决方案，旨在为缺乏可靠互联网或蜂窝网络基础设施的农村及偏远地区提供通信能力。来自阿根廷的 Diego Córdoba 深入讲解了 openSUSE 中基于 nftables 的 &lt;a href=&quot;https://www.netfilter.org/&quot;&gt;Netfilter&lt;/a&gt; 及防火墙架构，同为阿根廷籍的 Andrea Navarro 则探讨了在教育场景中使用 Jupyter notebooks 作为商业云平台替代方案的话题。&lt;/p&gt;
+
+&lt;p&gt;Patrick Fitzgerald 在题为从 Windows 迁移至 Linux 的更新演讲中阐述了 Linux 迁移的理由，指出数据主权、关税及不可靠的国际伙伴关系等日益增长的担忧，是促使个人和组织转向 Linux 的重要因素。&lt;/p&gt;
+
+&lt;p&gt;来自印度的 Ram Mohan Rao Chukka 和 Shibi Ramachandran 带来了两场演讲：一场关于使用 Kuttl 改善端到端测试以减少构建失败，另一场关于 ArgoCD 中面向企业 Kubernetes 环境的智能漂移检测与自动修复。&lt;/p&gt;
+
+&lt;p&gt;来自多米尼加共和国的 openSUSE 版主 Walddys Dorrejo 介绍了使用 Wazuh 实现统一可观测性与安全的方案。来自巴西的 Gabriel Bazzotti 介绍了 openSUSE 中基于 Git 的软件包打包方式，来自墨西哥的 Anuar Harb 讲述了开源基础设施作为新兴地区互联数字生态系统基础的话题。&lt;/p&gt;
+
+&lt;p&gt;哥伦比亚演讲者在整个议程中表现突出。Jorge Lambrano 展示了完整的机器学习工作流程。Jorge Aguilar 探讨了构建面向高要求分析工作负载的现代、稳健开源数据平台。Jesuse Bossa 探索了工程学的历史与哲学意义，Deiner Bello 展示了 VisitChocó——一个使用 React、TypeScript 和地理空间数据构建的互动旅游平台，旨在推广哥伦比亚乔科省。该项目正在考虑集成 &lt;a href=&quot;https://weblate.org/&quot;&gt;Weblate&lt;/a&gt; 以支持社区驱动的翻译，将平台的触达范围扩展至拉丁美洲乃至更广泛的受众。&lt;/p&gt;
+
+&lt;p&gt;Johannes Segitz 带来了两场演讲。他关于当前 AI 前景以及大语言模型（LLM）如何重塑人们编写代码、打补丁和打包软件方式的演讲深受观众欢迎。&lt;/p&gt;
+
+&lt;p&gt;本届峰会由赞助牵头方 &lt;a href=&quot;https://astian.org/&quot;&gt;Astian Inc.&lt;/a&gt;（&lt;a href=&quot;https://astian.org/midori-browser/&quot;&gt;Midori 轻量级浏览器&lt;/a&gt;背后的公司）组织，并得到 &lt;a href=&quot;https://x.com/LinuxBQ&quot;&gt;LinuxBQ&lt;/a&gt; 和 &lt;a href=&quot;https://www.instagram.com/redteambq/&quot;&gt;Red Team Barranquilla&lt;/a&gt; 等本地力量的支持。巴兰基亚的自由及开源软件爱好者社区组织并运营了 4 月 29 日至 5 月 1 日的峰会。&lt;/p&gt;
+
+&lt;p&gt;活动在两个校区举办——4 月 29 日在&lt;a href=&quot;https://maps.app.goo.gl/t5MyRg188wmo7Xt78&quot;&gt;自由大学中央校区&lt;/a&gt;，4 月 30 日在&lt;a href=&quot;https://maps.app.goo.gl/c9CxJpodeW47oJJx5?g_st=ic&quot;&gt;北校区&lt;/a&gt;——这种安排与开源活动的气质天然契合。参会者包括演讲者、IT 专业人士及在校大学生，大家就 openSUSE 及更广泛的开源生态系统展开了数小时的讨论。&lt;/p&gt;
+
+&lt;p&gt;本次活动得到了 &lt;a href=&quot;https://www.suse.com/&quot;&gt;SUSE&lt;/a&gt; 和 &lt;a href=&quot;https://geekos.org/&quot;&gt;Geeko 基金会&lt;/a&gt;的支持，两者都在推动 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;及全球开源社区的发展。&lt;/p&gt;
+
+&lt;p&gt;巴兰基亚作为主办城市的选择或许将超越象征意义。组织者和参会者已开始探讨将 openSUSE America Summit 转变为巡回举办的年度活动的可能性，参照 &lt;a href=&quot;https://events.opensuse.org&quot;&gt;openSUSE.Asia Summit&lt;/a&gt; 的模式在各国轮流举行。每个主办国将自身的文化特色和本地社区融入盛会。&lt;/p&gt;
+
+&lt;p&gt;哥伦比亚凭借其不断增长的科技产业、完善的大学生态系统和充满热情的开源社区，作为未来活动的起点和核心具有充分的理由。LinuxBQ 社区的热情以及自由大学学生的积极参与表明，该地区可持续的草根开源运动的条件已经成熟。如果这一模式得以延续，未来的峰会将可能在美洲及加勒比地区的其他国家举办，放大该地区技术领袖的声音，并在亚洲峰会已实现的基础上，打造一个流动的专家社区。&lt;/p&gt;
+
+&lt;p&gt;5 月 1 日的社区烧烤聚会将演讲者和志愿者聚在一起，为活动画上了圆满句号。所有会议均已直播，可在 &lt;a href=&quot;https://www.youtube.com/@LinuxBQ&quot;&gt;LinuxBQ YouTube 频道&lt;/a&gt;回看。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/live/zeKce540g8o?si=6You-TF_s8uwu-mk&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/zeKce540g8o/0.jpg&quot; alt=&quot;openSUSE America Summit 1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/live/gWHFSm61S3s?si=Pe05lpANP5ybmNIO&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/gWHFSm61S3s/0.jpg&quot; alt=&quot;openSUSE America Summit 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/05/05/summit-draws-landmark-regional-gathering/&quot;&gt;Summit Draws Landmark Regional Gathering&lt;/a&gt;，翻译：Fangzhou Liu&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/29/oSAS26-call-for-speakers.html</guid>
+      <title>openSUSE.Asia 峰会 2026 征稿启事</title>
+      <pubDate>Wed, 29 Apr 2026 17:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/29/oSAS26-call-for-speakers.html</link>
+      <author>openSUSE Asia Summit Team</author>
+      <description>我们很高兴地宣布，openSUSE.Asia 峰会 2026 的征稿现已开放！本届峰会将于 2026 年 10 月 3–4 日在印度尼西亚日惹加查马达大学（UGM）职业学院的教学产业学习中心（TILC）举行。更多详情请关注我们的官方渠道及新闻门户。 openSUSE.Asia 委员会诚邀各界演讲者分享您对 openSUSE 及开源的知识、经验与热情。演讲者还可申请 openSUSE 旅行资助计划（TSP）的支持。我们鼓励远近各方人士提交提案，相聚日惹！ 主题 以下为参考主题（不限于此）： openSUSE（如 Leap、Tumbleweed、Micro OS、Open Build Services、openQA、YaST） 桌面环境与应用程序（如 GNOME、KDE、XFCE） 办公套件、图形艺术、多媒体（如 LibreOffice、Calligra、GIMP、Inkscape） 多语言化支持（如输入法、翻译） 云计算、虚拟化、容器及容器编排（如 Kubernetes、Rancher） 软件包供应链安全、漏洞管理 嵌入式与物联网 其他运行于 openSUSE 上的应用 与特定技术无关的主题同样欢迎，例如： 自由及开源软件（FLOSS）技术概览 开发、质量保证、翻译 技巧与窍门、经验分享（成功或失败）、最佳实践 市场营销与社区管理 教育 会议类型 我们征集以下两种类型的提案： 长演讲（45 分钟 + 问答） 短演讲（30 分钟 +...</description>
+      <content:encoded>&lt;p&gt;我们很高兴地宣布，&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS26&quot;&gt;openSUSE.Asia 峰会 2026&lt;/a&gt; 的征稿现已开放！本届峰会将于 2026 年 10 月 3–4 日在印度尼西亚日惹加查马达大学（UGM）职业学院的教学产业学习中心（TILC）举行。更多详情请关注我们的官方渠道及&lt;a href=&quot;https://news.opensuse.org/&quot;&gt;新闻门户&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;openSUSE.Asia 委员会诚邀各界演讲者分享您对 openSUSE 及开源的知识、经验与热情。演讲者还可申请 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Travel_Support_Program&quot;&gt;openSUSE 旅行资助计划（TSP）&lt;/a&gt;的支持。我们鼓励远近各方人士提交提案，相聚日惹！&lt;/p&gt;
+
+&lt;h3 id=&quot;主题&quot;&gt;主题&lt;/h3&gt;
+
+&lt;p&gt;以下为参考主题（不限于此）：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;openSUSE（如 Leap、Tumbleweed、Micro OS、Open Build Services、openQA、YaST）&lt;/li&gt;
+  &lt;li&gt;桌面环境与应用程序（如 GNOME、KDE、XFCE）&lt;/li&gt;
+  &lt;li&gt;办公套件、图形艺术、多媒体（如 LibreOffice、Calligra、GIMP、Inkscape）&lt;/li&gt;
+  &lt;li&gt;多语言化支持（如输入法、翻译）&lt;/li&gt;
+  &lt;li&gt;云计算、虚拟化、容器及容器编排（如 Kubernetes、Rancher）&lt;/li&gt;
+  &lt;li&gt;软件包供应链安全、漏洞管理&lt;/li&gt;
+  &lt;li&gt;嵌入式与物联网&lt;/li&gt;
+  &lt;li&gt;其他运行于 openSUSE 上的应用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;与特定技术无关的主题同样欢迎，例如：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;自由及开源软件（FLOSS）技术概览&lt;/li&gt;
+  &lt;li&gt;开发、质量保证、翻译&lt;/li&gt;
+  &lt;li&gt;技巧与窍门、经验分享（成功或失败）、最佳实践&lt;/li&gt;
+  &lt;li&gt;市场营销与社区管理&lt;/li&gt;
+  &lt;li&gt;教育&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;会议类型&quot;&gt;会议类型&lt;/h3&gt;
+
+&lt;p&gt;我们征集以下两种类型的提案：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;长演讲（45 分钟 + 问答）&lt;/li&gt;
+  &lt;li&gt;短演讲（30 分钟 + 问答）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;闪电演讲（5 分钟）将另行通知。&lt;/p&gt;
+
+&lt;h3 id=&quot;时间安排&quot;&gt;时间安排&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;提案提交截止日期：2026 年 7 月 1 日&lt;/li&gt;
+  &lt;li&gt;演讲者通知日期：2026 年 7 月 21 日&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;如何提交提案&quot;&gt;如何提交提案&lt;/h3&gt;
+
+&lt;p&gt;请在 &lt;a href=&quot;https://events.opensuse.org/conferences/oSAS26/&quot;&gt;events.opensuse.org&lt;/a&gt; 提交您的提案。如果您没有 SUSE 社区账户，请先注册后再提交。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;您必须遵守 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Conference_code_of_conduct&quot;&gt;openSUSE 大会行为准则&lt;/a&gt;。&lt;/li&gt;
+  &lt;li&gt;提案应以英文撰写，字数在 130 至 250 词之间，并附有清晰、相关的标题。&lt;/li&gt;
+  &lt;li&gt;提交前请使用 LibreOffice、Google Docs 或 Grammarly 等工具检查拼写和语法。&lt;/li&gt;
+  &lt;li&gt;参阅&lt;a href=&quot;https://en.opensuse.org/openSUSE:Asia_Summit_How_to_Write_a_Good_Proposal&quot;&gt;撰写指南&lt;/a&gt;获取撰写优秀提案的建议。&lt;/li&gt;
+  &lt;li&gt;如需帮助，请联系您所在国家或地区的&lt;a href=&quot;https://en.opensuse.org/openSUSE:Asia_Organization_Committee#The_list_of_committees&quot;&gt;委员会成员&lt;/a&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;演讲要求&quot;&gt;演讲要求&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;您可以使用英文或印尼语进行演讲，但所有文档和幻灯片必须为英文。&lt;/li&gt;
+  &lt;li&gt;演讲者必须到场出席，不接受预录制视频或远程演讲。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/04/30/oSAS26-call-for-speakers/&quot;&gt;openSUSE Asia Summit 2026 Call for Speakers&lt;/a&gt;，翻译：Fangzhou Liu&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2026/04/28/libzupt-post-quantum-crypto.html</guid>
+      <title>openSUSE 生态系统中的量子安全加密技术</title>
+      <pubDate>Tue, 28 Apr 2026 04:00:00 +0000</pubDate>
+      <link>/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/2026/04/28/libzupt-post-quantum-crypto.html</link>
+      <author>Alessandro de Oliveira Faria</author>
+      <description>本文为社区投稿作品翻译 我非常高兴地正式宣布，面向后量子时代的新加密软件包已在 openSUSE 家族（Leap 和 Tumbleweed）中发布。 libzupt 库旨在提供基于 ML-KEM-768 + X25519 混合方案的文件及内存中二进制数据的加密与解密功能。 libzupt 由 Alessandro de Oliveira Faria 创建，是一款现代化的 SDK，旨在简化后量子加密技术在实际应用中的使用。目前，它已初步支持 C++、Python 和 Java，Node.js 支持正在开发中。其目标是让高级加密机制的实现变得易于上手，同时不牺牲开发者的使用体验。 该项目源自 Zupt 计划，由 Cristian Cezar Moisés 构思。作为致敬，该库沿用了原始项目的名称。Zupt 本身是一款压缩与备份工具，已具备经过认证的 AES-256 加密和后量子密钥封装等先进功能。 libzupt 的诞生与现代加密技术的演进密切相关。ML-KEM 算法已于 2024 年 8 月 13 日由 NIST 标准化，作为后量子场景下的安全密钥封装机制。即使在不安全的通道中，它也能安全地建立密钥，以应对未来的威胁。 以下是 libzupt 在 Python 中的简单用法示例：...</description>
+      <content:encoded>&lt;blockquote&gt;
+  &lt;p&gt;本文为社区投稿作品翻译&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我非常高兴地正式宣布，面向后量子时代的新加密软件包已在 openSUSE 家族（Leap 和 Tumbleweed）中发布。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://software.opensuse.org/package/libzupt&quot;&gt;libzupt&lt;/a&gt; 库旨在提供基于 &lt;strong&gt;ML-KEM-768 + X25519&lt;/strong&gt; 混合方案的文件及内存中二进制数据的加密与解密功能。&lt;/p&gt;
+
+&lt;p&gt;libzupt 由 Alessandro de Oliveira Faria 创建，是一款现代化的 SDK，旨在简化后量子加密技术在实际应用中的使用。目前，它已初步支持 C++、Python 和 Java，Node.js 支持正在开发中。其目标是让高级加密机制的实现变得易于上手，同时不牺牲开发者的使用体验。&lt;/p&gt;
+
+&lt;p&gt;该项目源自 &lt;strong&gt;Zupt&lt;/strong&gt; 计划，由 Cristian Cezar Moisés 构思。作为致敬，该库沿用了原始项目的名称。Zupt 本身是一款压缩与备份工具，已具备经过认证的 AES-256 加密和后量子密钥封装等先进功能。&lt;/p&gt;
+
+&lt;p&gt;libzupt 的诞生与现代加密技术的演进密切相关。ML-KEM 算法已于 &lt;a href=&quot;https://csrc.nist.gov/pubs/fips/203/final&quot;&gt;2024 年 8 月 13 日由 NIST 标准化&lt;/a&gt;，作为后量子场景下的安全密钥封装机制。即使在不安全的通道中，它也能安全地建立密钥，以应对未来的威胁。&lt;/p&gt;
+
+&lt;p&gt;以下是 libzupt 在 Python 中的简单用法示例：&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zupt&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;encryptor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;zupt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Encryptor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keypair&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;public_key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Hello, Post-Quantum World! This is a secret message.&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ciphertext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enc_header&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;encryptor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;encrypt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;在 openSUSE 中原生提供此库的最大优势在于，它能让现有应用提前做好准备，以应对量子计算可能破解经典算法（如 Shor 算法）的场景。&lt;/p&gt;
+
+&lt;p&gt;通过将传统加密技术与抗量子计算的机制相结合，libzupt 增添了一层战略性保护。这使得开发更具韧性的系统成为可能，即使面对技术演进，也能确保数据在长期的机密性与完整性。&lt;/p&gt;
+
+&lt;p&gt;更多信息，请访问 &lt;a href=&quot;https://software.opensuse.org/package/libzupt&quot;&gt;software.opensuse.org&lt;/a&gt; 或&lt;a href=&quot;https://github.com/cabelo/libzupt&quot;&gt;源代码仓库&lt;/a&gt;。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/04/28/libzupt-post-quantum-crypto/&quot;&gt;Quantum-Resilient Cryptography in the openSUSE Ecosystem&lt;/a&gt;，翻译：Fangzhou Liu&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
+      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/19/oSAS26-venue-universitas-gadjah-mada.html</guid>
+      <title>openSUSE.Asia 峰会 2026 公布举办地——印度尼西亚加查马达大学</title>
+      <pubDate>Sun, 19 Apr 2026 17:30:00 +0000</pubDate>
+      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/19/oSAS26-venue-universitas-gadjah-mada.html</link>
+      <author>openSUSE Asia Summit Team</author>
+      <description>openSUSE.Asia Summit 2026 团队欣然宣布本次大会的正式举办地点。本届峰会将在印度尼西亚日惹的加查马达大学（Universitas Gadjah Mada，UGM）举行。 活动将在该校职业学院的教学产业学习中心（Teaching Industry Learning Center，TILC）举办。这是一座现代化设施，旨在支持协作、学习和产业交流。预计峰会将在为期两天的演讲、研讨会及社区活动中接待约 350 名参会者。 时间与地点 日期：10 月 3–4 日 地点：教学产业学习中心（TILC），职业学院 加查马达大学（UGM） Jl. Blimbingsari No.37, Caturtunggal, Depok, Sleman 印度尼西亚日惹特别行政区 OpenStreetMap 我们期待在 UGM 校园迎接您的到来——这里是学术卓越与充满活力的学生及技术社区交汇之地。 关于加查马达大学 加查马达大学成立于 1949 年，是印度尼西亚顶尖大学之一，也是国家教育与文化认同的象征。从最初的 6 个学院起步，UGM 已发展成为拥有 18 个学院、一所研究生院和一所职业学院的综合性大学。如今，UGM 在教育、研究和创新领域持续发挥关键作用，是举办 openSUSE.Asia 峰会的理想场所。 适合参加的人群 我们预计将迎来超过 350 名参会者，包括： openSUSE 贡献者与用户 信息通信技术（ICT）专业人士及行业代表 自由及开源软件（FOSS）爱好者...</description>
+      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://events.opensuse.org/conferences/oSAS26&quot;&gt;openSUSE.Asia Summit 2026&lt;/a&gt; 团队欣然宣布本次大会的正式举办地点。本届峰会将在印度尼西亚日惹的&lt;strong&gt;加查马达大学（Universitas Gadjah Mada，UGM）&lt;/strong&gt;举行。&lt;/p&gt;
+
+&lt;p&gt;活动将在该校职业学院的教学产业学习中心（Teaching Industry Learning Center，TILC）举办。这是一座现代化设施，旨在支持协作、学习和产业交流。预计峰会将在为期两天的演讲、研讨会及社区活动中接待约 350 名参会者。&lt;/p&gt;
+
+&lt;h2 id=&quot;时间与地点&quot;&gt;时间与地点&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;日期：&lt;/strong&gt;10 月 3–4 日&lt;br /&gt;
+&lt;strong&gt;地点：&lt;/strong&gt;&lt;em&gt;教学产业学习中心（TILC），职业学院&lt;/em&gt;&lt;br /&gt;
+加查马达大学（UGM）&lt;br /&gt;
+Jl. Blimbingsari No.37, Caturtunggal, Depok, Sleman&lt;br /&gt;
+印度尼西亚日惹特别行政区&lt;br /&gt;
+&lt;a href=&quot;https://www.openstreetmap.org/way/1360825096#map=19/-7.773950/110.372681&quot;&gt;OpenStreetMap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;我们期待在 UGM 校园迎接您的到来——这里是学术卓越与充满活力的学生及技术社区交汇之地。&lt;/p&gt;
+
+&lt;h2 id=&quot;关于加查马达大学&quot;&gt;关于加查马达大学&lt;/h2&gt;
+
+&lt;p&gt;加查马达大学成立于 1949 年，是印度尼西亚顶尖大学之一，也是国家教育与文化认同的象征。从最初的 6 个学院起步，UGM 已发展成为拥有 18 个学院、一所研究生院和一所职业学院的综合性大学。如今，UGM 在教育、研究和创新领域持续发挥关键作用，是举办 openSUSE.Asia 峰会的理想场所。&lt;/p&gt;
+
+&lt;h2 id=&quot;适合参加的人群&quot;&gt;适合参加的人群&lt;/h2&gt;
+
+&lt;p&gt;我们预计将迎来超过 350 名参会者，包括：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;openSUSE 贡献者与用户&lt;/li&gt;
+  &lt;li&gt;信息通信技术（ICT）专业人士及行业代表&lt;/li&gt;
+  &lt;li&gt;自由及开源软件（FOSS）爱好者&lt;/li&gt;
+  &lt;li&gt;对开源技术与开发感兴趣的学生&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;我们迫不及待地期待在日惹与您相见——加查马达大学校园见！&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/04/20/oSAS26-venue-universitas-gadjah-mada/&quot;&gt;openSUSE.Asia Summit 2026 Announces Venue at Universitas Gadjah Mada&lt;/a&gt;，翻译：Fangzhou Liu&lt;/p&gt;
+</content:encoded>
+    </item>
+
+    <item>
       <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/04/15/new-launcher-aims-to-simplify-cockpit-installations.html</guid>
       <title>新启动器旨在简化 Cockpit 安装流程</title>
       <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
@@ -242,196 +451,6 @@
 
 &lt;hr /&gt;
 &lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/02/19/comm-advances-gov-proposal-after-virtual-meeting/&quot;&gt;Community Advances Governance Proposal After Virtual Meeting&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/25/call-for-board-moves-forward.html</guid>
-      <title>理事会候选人征集工作正在推进</title>
-      <pubDate>Wed, 25 Feb 2026 02:00:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/25/call-for-board-moves-forward.html</link>
-      <author>Fangzhou Liu</author>
-      <description>openSUSE 项目已正式开启常规理事会选举的提名与候选人报名工作(https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/MVYPHOGGKS3EPPR45EDGLY65CXM74WPB/)，投票环节定于 3 月 1 日启动。 因整理会员数据库工作有所延期，选举委员会现已确认，选举流程已回归正轨。本次项目成员将投票选出候选人，填补 openSUSE 理事会的两个空缺席位。 这两个空缺席位目前由 Shawn W. Dunn 和 Simon Lees 担任。 本次征集面向所有符合条件、有意为项目的社区建设、治理工作及对外代表事务提供指导的 openSUSE 会员。加入理事会，将获得直接参与塑造 openSUSE 问题解决方式、支持贡献者发展，并在开源社区中代表项目发声的机会。 提名与自主报名通道将开放至 2 月 28 日，候选人须为 openSUSE 现任会员。 投票将于 3 月 1 日启动，3 月 8 日截止，选举结果预计于 3 月 9 日公布。 有意参选的会员请将本人姓名、注册邮箱及 openSUSE 用户名，发送至邮箱 project@lists.opensuse.org 和 election-officials@lists.opensuse.org。 选举委员会鼓励社区成员积极参选，openSUSE 项目的发展，离不开愿意牵头引领、倾听意见并代表项目共同价值观的社区成员。 近期发布的一篇文章为有意参选...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 项目&lt;/a&gt;已正式开启常规&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election&quot;&gt;理事会选举&lt;/a&gt;的提名与候选人报名工作&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/MVYPHOGGKS3EPPR45EDGLY65CXM74WPB/&quot;&gt;(https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/MVYPHOGGKS3EPPR45EDGLY65CXM74WPB/)&lt;/a&gt;，投票环节定于 3 月 1 日启动。&lt;/p&gt;
-
-&lt;p&gt;因整理会员数据库工作有所延期，&lt;a href=&quot;https://en.opensuse.org/openSUSE:Board_election&quot;&gt;选举委员会&lt;/a&gt;现已确认，选举流程已回归正轨。本次项目成员将投票选出候选人，填补 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;openSUSE 理事会&lt;/a&gt;的两个空缺席位。&lt;/p&gt;
-
-&lt;p&gt;这两个空缺席位目前由 Shawn W. Dunn 和 Simon Lees 担任。&lt;/p&gt;
-
-&lt;p&gt;本次征集面向所有符合条件、有意为项目的社区建设、治理工作及对外代表事务提供指导的 openSUSE 会员。加入理事会，将获得直接参与塑造 openSUSE 问题解决方式、支持贡献者发展，并在开源社区中代表项目发声的机会。&lt;/p&gt;
-
-&lt;p&gt;提名与自主报名通道将开放至 2 月 28 日，候选人须为 openSUSE 现任会员。&lt;/p&gt;
-
-&lt;p&gt;投票将于 3 月 1 日启动，3 月 8 日截止，选举结果预计于 3 月 9 日公布。&lt;/p&gt;
-
-&lt;p&gt;有意参选的会员请将本人姓名、注册邮箱及 openSUSE 用户名，发送至邮箱 &lt;a href=&quot;mailto:project@lists.opensuse.org&quot;&gt;project@lists.opensuse.org&lt;/a&gt; 和 &lt;a href=&quot;mailto:election-officials@lists.opensuse.org&quot;&gt;election-officials@lists.opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;选举委员会鼓励社区成员积极参选，openSUSE 项目的发展，离不开愿意牵头引领、倾听意见并代表项目共同价值观的社区成员。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2026/02/12/board-interview-participation-gov-community/&quot;&gt;近期发布的一篇文章&lt;/a&gt;为有意参选 openSUSE 理事会的候选人提供了备选建议，文章可在 &lt;a href=&quot;https://news.opensuse.org/2026/02/12/board-interview-participation-gov-community/&quot;&gt;openSUSE 新闻网&lt;/a&gt;查阅。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/02/16/call-for-board-moves-forward/&quot;&gt;Calls for Board Candidates Moves Forward&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/25/board-interview-participation-gov-community.html</guid>
-      <title>openSUSE 理事会谈参与、治理与社区</title>
-      <pubDate>Wed, 25 Feb 2026 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/25/board-interview-participation-gov-community.html</link>
-      <author>Fangzhou Liu</author>
-      <description>随着 2026 年 openSUSE 社区 理事会选举临近，Ish Sookun、Jeff Mahoney 和 Rachel Schrader 为上届当选成员，将继续履职 1 年。我们对他们进行了专访，并提出了一些问题。 1. 理事会主要负责什么工作？ Jeff 纸面上，理事会负责领导 openSUSE 项目。这听上去职责重大，但实际工作中，它的职能更加聚焦、也更有限。理事会不参与项目版本发布，也不管理项目基础设施，而是作为外部人员对接项目的联络窗口，协助调解冲突，处理商标等相关法律事务，并在需要时提供指导。 Rachel 从我目前的经历来看，理事会只是整个 openSUSE 社区的一部分。我们负责少数几项事务，例如版务处理的最终裁定、作为与 SUSE 公司对接的联络渠道，并在很多方面为社区内其他团队提供指导。 2. 是什么促使你站出来参选理事会？ Jeff 2024 年理事会选举时，主动竞选空缺席位的人很少，于是我想着自己不妨主动报名。我已经参与社区多年，也有一些想要提出的想法。项目当时需要志愿者，我便站了出来。 Ish 我是在第二次招募时才参选的。当 Lubos 联系我，希望提名我时，我立刻觉得这是一份荣幸。我非常感谢他的提名，也感谢 Johannes Segitz 作为附议人。 Rachel 上届选举期间，愿意主动为理事会服务的人并不多。在项目中其他几位活跃成员的鼓励下，我决定参选。 3. 请谈谈在任期间理事会遇到过的一项挑战 Jeff 在营造健康、远离不良风气的社区氛围，与过度管控、干涉过多之间，存在一条非常微妙的界限。提交到理事会的问题中，有些很容易判断，但另一些却牵扯个人过往、沟通方式差异以及各种细节。在这类情况中找到恰当的平衡点，是很有挑战性的。 Ish 我虽然知道理事会成员需要定期（线上）开会讨论项目事务，但没有意识到会有这么多非技术相关的议题需要处理。例如与“审核”相关的问题，我认为就很有挑战性，因为需要了解事件的来龙去脉、行为准则等。在这方面，我很依赖其他资深理事来帮助我完整理解事件背景。 Rachel 最直接也最头疼的挑战，是为所有人凑出一个都能参会的时间。我们的成员遍布全球，有些人必须早上 6 点起床参会，而另一些人则要到晚上...</description>
-      <content:encoded>&lt;p&gt;随着 2026 年 &lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 社区&lt;/a&gt; &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;理事会&lt;/a&gt;选举临近，&lt;a href=&quot;https://en.opensuse.org/User:Ishwon&quot;&gt;Ish Sookun&lt;/a&gt;、&lt;a href=&quot;https://en.opensuse.org/User:Jeff_mahoney&quot;&gt;Jeff Mahoney&lt;/a&gt; 和 &lt;a href=&quot;https://en.opensuse.org/User:ComradeRachel&quot;&gt;Rachel Schrader&lt;/a&gt; 为上届当选成员，将继续履职 1 年。我们对他们进行了专访，并提出了一些问题。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1. 理事会主要负责什么工作？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-纸面上，理事会负责领导 openSUSE 项目。这听上去职责重大，但实际工作中，它的职能更加聚焦、也更有限。理事会不参与项目版本发布，也不管理项目基础设施，而是作为外部人员对接项目的联络窗口，协助调解冲突，处理商标等相关法律事务，并在需要时提供指导。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rachel&lt;/strong&gt;
-从我目前的经历来看，理事会只是整个 openSUSE 社区的一部分。我们负责少数几项事务，例如版务处理的最终裁定、作为与 SUSE 公司对接的联络渠道，并在很多方面为社区内其他团队提供指导。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2. 是什么促使你站出来参选理事会？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-2024 年理事会选举时，主动竞选空缺席位的人很少，于是我想着自己不妨主动报名。我已经参与社区多年，也有一些想要提出的想法。项目当时需要志愿者，我便站了出来。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ish&lt;/strong&gt;
-我是在第二次招募时才参选的。当 Lubos 联系我，希望提名我时，我立刻觉得这是一份荣幸。我非常感谢他的提名，也感谢 Johannes Segitz 作为附议人。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rachel&lt;/strong&gt;
-上届选举期间，愿意主动为理事会服务的人并不多。在项目中其他几位活跃成员的鼓励下，我决定参选。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3. 请谈谈在任期间理事会遇到过的一项挑战&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-在营造健康、远离不良风气的社区氛围，与过度管控、干涉过多之间，存在一条非常微妙的界限。提交到理事会的问题中，有些很容易判断，但另一些却牵扯个人过往、沟通方式差异以及各种细节。在这类情况中找到恰当的平衡点，是很有挑战性的。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ish&lt;/strong&gt;
-我虽然知道理事会成员需要定期（线上）开会讨论项目事务，但没有意识到会有这么多非技术相关的议题需要处理。例如与“审核”相关的问题，我认为就很有挑战性，因为需要了解事件的来龙去脉、行为准则等。在这方面，我很依赖其他资深理事来帮助我完整理解事件背景。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rachel&lt;/strong&gt;
-最直接也最头疼的挑战，是为所有人凑出一个都能参会的时间。我们的成员遍布全球，有些人必须早上 6 点起床参会，而另一些人则要到晚上 23 点才能加入。不过话说回来，只要大家都能到场并且高效开会，整体上就是一件好事。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4. 对于考虑参选的人，你有什么建议？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-如果你真心关心项目的健康发展，并希望推动一些积极改变，那就去参选。即便你已是长期贡献者，也需要向大家介绍你自己、你的贡献和你的想法。虽然选举不是人气比拼，但投票的人需要了解你是谁。时间投入并不算大，而你是在为项目的健康发展出力。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rachel&lt;/strong&gt;
-拥有一定的线上公开形象很重要，让其他人了解你的技能、目标以及对你而言重要的事情。对于和 openSUSE 相关的内容，你可以在维基上创建个人页面，我认为这很有必要，也方便与他人分享。
-我觉得保持与社区的联系也必不可少。只在后端打包、提交代码是一回事，但若想真正与社区建立联结，就应该在 Matrix、Discord 等不同平台上积极交流、帮助他人。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5. 无论是作为选民还是潜在候选人，openSUSE 成员该如何为即将到来的选举做准备？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-阅读这类访谈文章，找到你关心的议题，主动提问。如果你还在犹豫是否参选理事会席位，不妨问问自己：“为什么不能是我？”&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6. 你还有什么想补充的吗？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jeff&lt;/strong&gt;
-理事会并不是为 openSUSE 做贡献的唯一途径，甚至算不上最佳途径。技术与非技术贡献者，才是整个项目与社区的核心生命力。不进入理事会，也有很多方式可以参与贡献；但项目同样需要有担当的人加入理事会，来维持社区的健康发展。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rachel&lt;/strong&gt;
-理事会的定位并非守门人，也不是项目成员想要做出积极改变、创建新事物时必须去寻求批准的机构。每个人都应清楚：是日常参与项目的普通成员构建了 openSUSE，是他们从零开始搭建起一切。在理事会任职是助力项目的一种好方式，但事实上，成就 openSUSE 的最重要的人，正是每一位普通社区成员。&lt;/p&gt;
-
-&lt;p&gt;openSUSE 是由真正关心这个项目的人共同打造的，下一个选举周期需要社区成员参与&lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/Q2JJMLHJARQYORUANTAM42DJ6VPJTUST/&quot;&gt;治理并协助选举工作人员&lt;/a&gt;。
-如果你有意参选或协助选举工作，请邮件联系 &lt;a href=&quot;mailto:board@opensuse.org&quot;&gt;board@opensuse.org&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;问题由 Luboš Kocman 与 Douglas DeMaio 拟定。
-后期整理与排版由 Gertjan Lettink 完成。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/02/12/board-interview-participation-gov-community/&quot;&gt;openSUSE Board on Participation, Governance and Community&lt;/a&gt;，作者：Lubos Kocman&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/06/comm-to-discuss-new-gov-proposal.html</guid>
-      <title>社区将讨论新治理提案</title>
-      <pubDate>Fri, 06 Feb 2026 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/02/06/comm-to-discuss-new-gov-proposal.html</link>
-      <author>Fangzhou Liu</author>
-      <description>openSUSE 社区 成员将于 UTC 时间 2 月 18 日下午 3 点 30 分（北京时间 2 月 18 日晚 11 时 30 分）召开线上会议，讨论一份的治理框架提案，旨在让项目社区内部的决策流程更清晰。 本次会议可通过项目的 Jitsi 频道参与，会议召开前，项目方已发布一份最新提案草案，其中概述了项目在技术决策与社区决策管理模式上的架构调整。 该提案提议设立两个全新的治理机构：负责把控技术方向、解决技术争议的技术指导委员会，以及专注于社区发展与沟通平台建设的社区与营销委员会。 现有 openSUSE 委员会 将继续负责法律、财务及组织管理相关事务。 该治理框架旨在解决提案中所提及的非正式决策流程问题：这类流程往往更青睐时间充裕、毅力较强的参与者，而非遵循明确的议事规程。提案旨在搭建透明化的治理架构，同时保留维护者自主权与开放参与的核心原则。 拟设立的两个委员会均由社区选举产生的成员组成，任期为 2 年。在 FOSDEM 大会上针对该议题的部分反馈建议，将任期缩短至 1 年。提案建议，技术指导委员会设 7 至 9 名成员，社区与营销委员会设 5 至 7 名成员。 草案明确规定，所有内容均需经社区讨论、并获得委员会批准后方可生效。在初步讨论阶段结束后，相关反馈将被纳入修订草案，再由委员会与社区商议后续推进步骤。 讨论要点 委员会架构与规模：技术指导委员会是否应设 7 至...</description>
-      <content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.opensuse.org/&quot;&gt;openSUSE 社区&lt;/a&gt; 成员将于 &lt;a href=&quot;https://calendar.opensuse.org/teams/marketing/events/governance-proposal-virtual-meeting&quot;&gt;UTC 时间 2 月 18 日下午 3 点 30 分（北京时间 2 月 18 日晚 11 时 30 分）&lt;/a&gt;召开线上会议，讨论一份的治理框架提案，旨在让项目社区内部的决策流程更清晰。&lt;/p&gt;
-
-&lt;p&gt;本次会议可通过项目的 &lt;a href=&quot;https://meet.opensuse.org/meeting&quot;&gt;Jitsi 频道&lt;/a&gt;参与，会议召开前，项目方已发布一份最新提案草案，其中概述了项目在技术决策与社区决策管理模式上的架构调整。&lt;/p&gt;
-
-&lt;p&gt;该提案提议设立两个全新的治理机构：负责把控技术方向、解决技术争议的技术指导委员会，以及专注于社区发展与沟通平台建设的社区与营销委员会。&lt;/p&gt;
-
-&lt;p&gt;现有 &lt;a href=&quot;https://en.opensuse.org/openSUSE:Board&quot;&gt;openSUSE 委员会&lt;/a&gt; 将继续负责法律、财务及组织管理相关事务。&lt;/p&gt;
-
-&lt;p&gt;该治理框架旨在解决提案中所提及的非正式决策流程问题：这类流程往往更青睐时间充裕、毅力较强的参与者，而非遵循明确的议事规程。提案旨在搭建透明化的治理架构，同时保留维护者自主权与开放参与的核心原则。&lt;/p&gt;
-
-&lt;p&gt;拟设立的两个委员会均由社区选举产生的成员组成，任期为 2 年。在 &lt;a href=&quot;https://fosdem.org/&quot;&gt;FOSDEM 大会&lt;/a&gt;上针对该议题的部分反馈建议，将任期缩短至 1 年。提案建议，技术指导委员会设 7 至 9 名成员，社区与营销委员会设 5 至 7 名成员。&lt;/p&gt;
-
-&lt;p&gt;草案明确规定，所有内容均需经社区讨论、并获得委员会批准后方可生效。在初步讨论阶段结束后，相关反馈将被纳入修订草案，再由委员会与社区商议后续推进步骤。&lt;/p&gt;
-
-&lt;h2 id=&quot;讨论要点&quot;&gt;讨论要点&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;委员会架构与规模：技术指导委员会是否应设 7 至 9 名成员、社区与营销委员会设 5 至 7 名成员，还是规模更小的委员会运行效率更高？&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;任期时长：委员会成员 2 年任期是否合适，还是项目应采纳 FOSDEM 会议讨论中建议的 1 年任期？&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;维护者自主权：新治理框架如何在保障项目整体推进的同时，确保技术决策不会凌驾于单个软件包维护者的管理权限之上？&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;过渡流程：在正式选举前的 6 个月过渡期内，应依据何种标准确定选民资格与选举流程？&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;冲突解决：提案中针对不同项目领域的技术争议与社区问题所设计的问题升级机制，是否清晰、公平？&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;贡献者可通过 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/YKI5QVMT66WMZLOPTCQOEQZPTEWPDIBV/&quot;&gt;评审提案&lt;/a&gt; 并在 &lt;a href=&quot;https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/YKI5QVMT66WMZLOPTCQOEQZPTEWPDIBV/https://lists.opensuse.org/archives/list/project@lists.opensuse.org/thread/YKI5QVMT66WMZLOPTCQOEQZPTEWPDIBV/&quot;&gt;邮件列表&lt;/a&gt; 发表评论，与社区就该议题展开互动。无法参会者也可通过 &lt;a href=&quot;https://etherpad.opensuse.org/p/ngpmeetup&quot;&gt;会议指定的共享笔记平台&lt;/a&gt;（Etherpad），列出希望参会者讨论的议题，参与会议相关交流。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/02/04/comm-to-discuss-new-gov-proposal/&quot;&gt;Community to Discuss New Governance Proposal&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
-</content:encoded>
-    </item>
-
-    <item>
-      <guid>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/26/os-community-tackling-y2k38-epoch.html</guid>
-      <title>开源社区应对 2038 年时间戳危机（Y2K38）</title>
-      <pubDate>Mon, 26 Jan 2026 01:30:00 +0000</pubDate>
-      <link>/%E7%A4%BE%E5%8C%BA%E6%96%B0%E9%97%BB/2026/01/26/os-community-tackling-y2k38-epoch.html</link>
-      <author>Fangzhou Liu</author>
-      <description>仅剩12年，记录时间中的根本性限制威胁着未准备的计算机系统；2038 年问题（Y2K38）正在成为新的千年虫问题（Y2K），开源社区贡献者们正致力于创建可行的警告机制。 这种被称为错误日期逻辑的问题，在计算机系统中比人们想象的更为常见。openSUSE 正在通过早期测试、工具链改进和社区协作，积极识别并修复此类问题，以确保软件系统在 2038 年后仍能稳定运行。 在 2038年1月19日 UTC 时间 03:14:07，UNIX 纪元时间戳将超过有符号的 32 位整数最大值：2,147,483,647（0x7fffffff）。在此之后，仍依赖 32 位时间表示的系统可能会发生时间回滚，导致从细微的数据损坏到彻底崩溃等不同程度的故障风险。 距未来 32 位平台（如 i586 或 armv7）面临此问题的时间还剩 12 年，但现代 64 位系统也存在部分漏洞，正如多年前的 openSUSE 会议演讲中所揭示。 近期 openSUSE 开发者的测试表明，2038 年问题已经迫在眉睫且真实存在。通过将构建系统的时钟提前至 2038 年，大量软件包出现了编译失败或测试套件未通过的情况。受影响的软件包括版本控制工具、编辑器、编译器、Python 库、桌面工具包及系统组件。 在某些案例中，基础系统行为（如正常运行时间报告）都受到了影响。 尽管部分故障已得到修正，但测试中暴露的问题残余表明，32 位时间存储问题的渗透深度远超预期。 每次新增功能或代码重构时，若开发者默认使用 int 或 long 等类型而非更安全的 time_t、int64_t 或 long long，都可能重新引入这一问题。 此风险不仅限于应用程序层。广泛使用的协议（如 SOAP/XML-RPC 和...</description>
-      <content:encoded>&lt;p&gt;仅剩12年，记录时间中的根本性限制威胁着未准备的计算机系统；&lt;a href=&quot;https://zh.wikipedia.org/wiki/2038%E5%B9%B4%E9%97%AE%E9%A2%98&quot;&gt;2038 年问题（Y2K38）&lt;/a&gt;正在成为新的&lt;a href=&quot;https://zh.wikipedia.org/wiki/2000%E5%B9%B4%E9%97%AE%E9%A2%98&quot;&gt;千年虫问题（Y2K）&lt;/a&gt;，开源社区贡献者们正致力于创建&lt;a href=&quot;https://gcc.gnu.org/bugzilla/show_bug.cgi?id=118326&quot;&gt;可行的警告机制&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;这种被称为&lt;a href=&quot;https://en.wikipedia.org/wiki/Time_formatting_and_storage_bugs&quot;&gt;错误日期逻辑&lt;/a&gt;的问题，在计算机系统中比人们想象的更为常见。&lt;a href=&quot;https://get.opensuse.org&quot;&gt;openSUSE&lt;/a&gt; 正在通过早期测试、工具链改进和社区协作，积极识别并修复此类问题，以确保软件系统在 2038 年后仍能稳定运行。&lt;/p&gt;
-
-&lt;p&gt;在 2038年1月19日 UTC 时间 03:14:07，UNIX 纪元时间戳将超过有符号的 32 位整数最大值：2,147,483,647（0x7fffffff）。在此之后，仍依赖 32 位时间表示的系统可能会发生时间回滚，导致从细微的数据损坏到彻底崩溃等不同程度的故障风险。&lt;/p&gt;
-
-&lt;p&gt;距未来 32 位平台（如 i586 或 armv7）面临此问题的时间还剩 12 年，但现代 64 位系统也存在部分漏洞，正如多年前的 &lt;a href=&quot;https://youtu.be/4biGLiBBIds?si=RovxczlfOAb_e7s4&quot;&gt;openSUSE 会议演讲&lt;/a&gt;中所揭示。&lt;/p&gt;
-
-&lt;p&gt;近期 openSUSE 开发者的测试表明，2038 年问题已经迫在眉睫且真实存在。通过将构建系统的时钟提前至 2038 年，大量软件包出现了编译失败或测试套件未通过的情况。受影响的软件包括版本控制工具、编辑器、编译器、Python 库、桌面工具包及系统组件。&lt;/p&gt;
-
-&lt;p&gt;在某些案例中，基础系统行为（如正常运行时间报告）都受到了影响。&lt;/p&gt;
-
-&lt;p&gt;尽管部分故障已得到修正，但测试中暴露的问题残余表明，32 位时间存储问题的渗透深度远超预期。&lt;/p&gt;
-
-&lt;p&gt;每次新增功能或代码重构时，若开发者默认使用 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long&lt;/code&gt; 等类型而非更安全的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;time_t&lt;/code&gt;、&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int64_t&lt;/code&gt; 或 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;long long&lt;/code&gt;，都可能重新引入这一问题。&lt;/p&gt;
-
-&lt;p&gt;此风险不仅限于应用程序层。广泛使用的协议（如 &lt;a href=&quot;https://en.wikipedia.org/wiki/SOAP&quot;&gt;SOAP/XML-RPC&lt;/a&gt; 和 &lt;a href=&quot;https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol&quot;&gt;SNMP&lt;/a&gt;）仍采用 32 位值编码时间戳。其实现必须格外注意兼容性设计，确保在处理 2038 年后日期时不破坏互操作性。&lt;/p&gt;
-
-&lt;p&gt;测试工作本身依旧面临挑战，工具链优化被列为后续调整的重要方向。目前团队正探讨一项新方案：当代码中出现32位整数与时间相关类型的不安全转换时，编译器将主动触发警告。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://news.opensuse.org/2025/10/01/next-chapter-opens-with-leap-release/&quot;&gt;Leap 16&lt;/a&gt; 默认禁用了 32 位（ia32）架构支持，因此本身不存在 2038 年问题风险，但测试结果显示，在后续的小版本更新中，仍需对受影响的 64 位相关模块进行修改。&lt;/p&gt;
-
-&lt;p&gt;对该议题感兴趣的开发者，可通过以下渠道参与讨论：&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lists.opensuse.org/archives/list/factory@lists.opensuse.org/&quot;&gt;openSUSE Factory 邮件列表&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/linux/comments/1qfw17a/today_is_y2k38_commemoration_day_t12/&quot;&gt;Reddit 相关主题讨论帖&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;原文：&lt;a href=&quot;https://news.opensuse.org/2026/01/20/os-community-tackling-y2k38-epoch/&quot;&gt;Open-Source Community Tackling Y2K38 Epoch&lt;/a&gt;，作者：Douglas DeMaio&lt;/p&gt;
 </content:encoded>
     </item>
 
